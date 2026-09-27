@@ -35,6 +35,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <!-- UI strings: neutral culture uk, strongly typed accessor generated at build (spec 12 section 3.2). -->
+    <EmbeddedResource Update="Resources\Strings\AppResources.resx">
+      <StronglyTypedFileName>$(IntermediateOutputPath)AppResources.Designer.cs</StronglyTypedFileName>
+      <StronglyTypedLanguage>CSharp</StronglyTypedLanguage>
+      <StronglyTypedNamespace>Burdock.Presentation.Resources.Strings</StronglyTypedNamespace>
+      <StronglyTypedClassName>AppResources</StronglyTypedClassName>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\shared\Burdock.Domain\Burdock.Domain.csproj" />
     <ProjectReference Include="..\Burdock.Application\Burdock.Application.csproj" />
     <ProjectReference Include="..\Burdock.Infrastructure\Burdock.Infrastructure.csproj" />

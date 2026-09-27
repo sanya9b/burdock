@@ -1,9 +1,9 @@
-﻿namespace Burdock.Presentation;
+namespace Burdock.Presentation;
 
 public partial class AppShell : Shell
 {
-	public AppShell()
-	{
-		InitializeComponent();
-	}
+    public AppShell()
+    {
+        InitializeComponent();
+    }
 }

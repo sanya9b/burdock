@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:Burdock.Presentation.ViewModels"
+             xmlns:views="clr-namespace:Burdock.Presentation.Views"
+             xmlns:strings="clr-namespace:Burdock.Presentation.Resources.Strings"
+             x:Class="Burdock.Presentation.Views.MePage"
+             x:DataType="vm:MeViewModel"
+             Title="{x:Static strings:AppResources.Tab_Me_Title}">
+    <!-- S-17 «Я» (spec 03): profile, linking, Pro, settings; empty until phase 1/5. -->
+    <views:EmptyStateView Title="{x:Static strings:AppResources.Me_Empty_Title}" Body="{x:Static strings:AppResources.Me_Empty_Body}" />
+</ContentPage>

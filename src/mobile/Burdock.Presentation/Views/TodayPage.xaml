@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:Burdock.Presentation.ViewModels"
+             xmlns:views="clr-namespace:Burdock.Presentation.Views"
+             xmlns:strings="clr-namespace:Burdock.Presentation.Resources.Strings"
+             x:Class="Burdock.Presentation.Views.TodayPage"
+             x:DataType="vm:TodayViewModel"
+             Title="{x:Static strings:AppResources.Tab_Today_Title}">
+    <!-- S-10 «Сьогодні» (spec 03). Phase 0: greeting, learning day and the empty state; words strip, streak and tasks arrive in phase 1/4. -->
+    <ScrollView>
+        <VerticalStackLayout Spacing="{StaticResource Space4}"
+                             Padding="{StaticResource Space5}"
+                             MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
+            <Label Text="{Binding Greeting}"
+                   Style="{StaticResource TypeDisplayMd}"
+                   SemanticProperties.HeadingLevel="Level1" />
+            <Label Text="{Binding LearningDayText}"
+                   Style="{StaticResource TypeLabelLg}"
+                   TextColor="{AppThemeBinding Light={StaticResource ColorTextSecondaryLight}, Dark={StaticResource ColorTextSecondaryDark}}" />
+
+            <Label Text="{x:Static strings:AppResources.Today_WordsOfDay_Heading}"
+                   Style="{StaticResource TypeHeadlineSm}"
+                   Margin="0,16,0,0"
+                   SemanticProperties.HeadingLevel="Level2" />
+
+            <Border Padding="{StaticResource Space2}">
+                <views:EmptyStateView Title="{x:Static strings:AppResources.Today_Empty_Title}" Body="{x:Static strings:AppResources.Today_Empty_Body}" />
+            </Border>
+
+            <Button Text="{x:Static strings:AppResources.Today_StartSession_Button}"
+                    IsEnabled="False"
+                    Margin="0,8,0,0"
+                    SemanticProperties.Hint="{x:Static strings:AppResources.Common_ComingSoon}" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

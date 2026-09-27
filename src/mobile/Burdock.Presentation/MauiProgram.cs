@@ -1,5 +1,6 @@
 using Burdock.Application.DependencyInjection;
 using Burdock.Infrastructure.DependencyInjection;
+using Burdock.Presentation.DependencyInjection;
 using CommunityToolkit.Maui;
 using Microsoft.Extensions.Logging;
 
@@ -27,7 +28,8 @@ public static class MauiProgram
 
         builder.Services
             .AddBurdockApplication()
-            .AddBurdockInfrastructure();
+            .AddBurdockInfrastructure()
+            .AddBurdockPresentation();
 
 #if DEBUG
         builder.Logging.AddDebug();

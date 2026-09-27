@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- Neutral culture = uk (Presentation.csproj NeutralLanguage). Keys: Screen_Element_Purpose (spec 12 section 3.2). -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="App_Name" xml:space="preserve">
+    <value>Реп’ях</value>
+    <comment>Назва застосунку в інтерфейсі. Апостроф U+2019.</comment>
+  </data>
+  <data name="App_Tagline" xml:space="preserve">
+    <value>Слова, що чіпляються</value>
+  </data>
+  <data name="Tab_Today_Title" xml:space="preserve">
+    <value>Сьогодні</value>
+    <comment>Вкладка S-10</comment>
+  </data>
+  <data name="Tab_Learn_Title" xml:space="preserve">
+    <value>Вчити</value>
+    <comment>Вкладка S-13</comment>
+  </data>
+  <data name="Tab_Words_Title" xml:space="preserve">
+    <value>Слова</value>
+    <comment>Вкладка S-14</comment>
+  </data>
+  <data name="Tab_Me_Title" xml:space="preserve">
+    <value>Я</value>
+    <comment>Вкладка S-17</comment>
+  </data>
+  <data name="Today_Greeting_Morning" xml:space="preserve">
+    <value>Доброго ранку</value>
+  </data>
+  <data name="Today_Greeting_Day" xml:space="preserve">
+    <value>Добрий день</value>
+  </data>
+  <data name="Today_Greeting_Evening" xml:space="preserve">
+    <value>Добрий вечір</value>
+  </data>
+  <data name="Today_Greeting_Night" xml:space="preserve">
+    <value>Доброї ночі</value>
+  </data>
+  <data name="Today_WordsOfDay_Heading" xml:space="preserve">
+    <value>Слова дня</value>
+  </data>
+  <data name="Today_Empty_Title" xml:space="preserve">
+    <value>Слова вже на віджеті</value>
+    <comment>Порожній стан empty_morning (S-10)</comment>
+  </data>
+  <data name="Today_Empty_Body" xml:space="preserve">
+    <value>Заглянь на екран блокування — перше слово вже чекає. А тут з’являться ті, що ти переглянеш.</value>
+  </data>
+  <data name="Today_StartSession_Button" xml:space="preserve">
+    <value>Почати сесію</value>
+  </data>
+  <data name="Today_LearningDay_Label" xml:space="preserve">
+    <value>Навчальний день {0}</value>
+    <comment>{0} = дата у форматі d MMMM</comment>
+  </data>
+  <data name="Learn_Title" xml:space="preserve">
+    <value>Вчити</value>
+  </data>
+  <data name="Learn_Empty_Title" xml:space="preserve">
+    <value>Сесії з’являться тут</value>
+  </data>
+  <data name="Learn_Empty_Body" xml:space="preserve">
+    <value>Вибір відповіді, пари та набір слова — три режими, з яких складається кожна сесія.</value>
+  </data>
+  <data name="Words_Title" xml:space="preserve">
+    <value>Слова</value>
+  </data>
+  <data name="Words_Empty_Title" xml:space="preserve">
+    <value>Твоя бібліотека порожня</value>
+  </data>
+  <data name="Words_Empty_Body" xml:space="preserve">
+    <value>Кожне слово, яке ти побачиш або вивчиш, залишиться тут зі своєю історією.</value>
+  </data>
+  <data name="Me_Title" xml:space="preserve">
+    <value>Я</value>
+  </data>
+  <data name="Me_Empty_Title" xml:space="preserve">
+    <value>Профіль і налаштування</value>
+  </data>
+  <data name="Me_Empty_Body" xml:space="preserve">
+    <value>Нікнейм, серія, Pro, налаштування темпу й сповіщень — усе буде тут.</value>
+  </data>
+  <data name="Common_ComingSoon" xml:space="preserve">
+    <value>Скоро</value>
+  </data>
+</root>

@@ -1,17 +1,15 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-
 namespace Burdock.Presentation;
 
 // Fully qualified: the Burdock.Application namespace shadows Microsoft.Maui.Controls.Application inside Burdock.Presentation.
 public partial class App : Microsoft.Maui.Controls.Application
 {
-	public App()
-	{
-		InitializeComponent();
-	}
+    private readonly AppShell _shell;
 
-	protected override Window CreateWindow(IActivationState? activationState)
-	{
-		return new Window(new AppShell());
-	}
+    public App(AppShell shell)
+    {
+        _shell = shell ?? throw new ArgumentNullException(nameof(shell));
+        InitializeComponent();
+    }
+
+    protected override Window CreateWindow(IActivationState? activationState) => new(_shell);
 }

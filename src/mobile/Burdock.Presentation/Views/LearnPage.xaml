@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:Burdock.Presentation.ViewModels"
+             xmlns:views="clr-namespace:Burdock.Presentation.Views"
+             xmlns:strings="clr-namespace:Burdock.Presentation.Resources.Strings"
+             x:Class="Burdock.Presentation.Views.LearnPage"
+             x:DataType="vm:LearnViewModel"
+             Title="{x:Static strings:AppResources.Tab_Learn_Title}">
+    <!-- S-13 «Вчити» (spec 03): session launcher and focus session; empty until phase 1. -->
+    <views:EmptyStateView Title="{x:Static strings:AppResources.Learn_Empty_Title}" Body="{x:Static strings:AppResources.Learn_Empty_Body}" />
+</ContentPage>
