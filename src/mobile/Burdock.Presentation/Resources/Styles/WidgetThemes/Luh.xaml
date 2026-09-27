@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- GENERATED from design/tokens/tokens.json by design/tokens/generate.py. Do not edit by hand; change the tokens and regenerate. Widget theme 'luh' (color.theme.widget.luh): merge after Colors.xaml to override ColorWidget* keys. -->
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <Color x:Key="ColorWidgetBackgroundLight">#EAFFD5</Color>
+    <Color x:Key="ColorWidgetBackgroundDark">#162404</Color>
+    <Color x:Key="ColorWidgetBackgroundEndLight">#D7FFAD</Color>
+    <Color x:Key="ColorWidgetBackgroundEndDark">#15131F</Color>
+    <Color x:Key="ColorWidgetWordLight">#162404</Color>
+    <Color x:Key="ColorWidgetWordDark">#EAFFD5</Color>
+    <Color x:Key="ColorWidgetIpaLight">#3E5C0E</Color>
+    <Color x:Key="ColorWidgetIpaDark">#C4FB84</Color>
+    <Color x:Key="ColorWidgetTranslationLight">#3E5C0E</Color>
+    <Color x:Key="ColorWidgetTranslationDark">#C4FB84</Color>
+    <Color x:Key="ColorWidgetExampleLight">#3E5C0E</Color>
+    <Color x:Key="ColorWidgetExampleDark">#C4FB84</Color>
+    <Color x:Key="ColorWidgetAccentLight">#6D49EB</Color>
+    <Color x:Key="ColorWidgetAccentDark">#B4F461</Color>
+    <Color x:Key="ColorWidgetOnAccentLight">#FFFFFF</Color>
+    <Color x:Key="ColorWidgetOnAccentDark">#162404</Color>
+    <Color x:Key="ColorWidgetChipBackgroundLight">#C4FB84</Color>
+    <Color x:Key="ColorWidgetChipBackgroundDark">#283D07</Color>
+    <Color x:Key="ColorWidgetChipTextLight">#283D07</Color>
+    <Color x:Key="ColorWidgetChipTextDark">#D7FFAD</Color>
+    <Color x:Key="ColorWidgetButtonLight">#162404</Color>
+    <Color x:Key="ColorWidgetButtonDark">#B4F461</Color>
+    <Color x:Key="ColorWidgetOnButtonLight">#EAFFD5</Color>
+    <Color x:Key="ColorWidgetOnButtonDark">#162404</Color>
+    <Color x:Key="ColorWidgetDividerLight">#C4FB84</Color>
+    <Color x:Key="ColorWidgetDividerDark">#283D07</Color>
+    <Color x:Key="ColorWidgetBadgeFreeLight">#C4FB84</Color>
+    <Color x:Key="ColorWidgetBadgeFreeDark">#283D07</Color>
+    <Color x:Key="ColorWidgetOnBadgeFreeLight">#283D07</Color>
+    <Color x:Key="ColorWidgetOnBadgeFreeDark">#D7FFAD</Color>
+</ResourceDictionary>

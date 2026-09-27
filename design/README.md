@@ -7,7 +7,7 @@
 | Шлях | Зміст | Хто редагує |
 |---|---|---|
 | `tokens/tokens.json` | Єдине джерело істини для кольорів (примітиви, семантика light/dark, теми віджета), типографіки, відступів, радіусів, тіней, руху. Формат W3C Design Tokens (`$type`/`$value`, аліаси `{color.primitive.violet.600}`, розв’язані hex у `$extensions["org.burdock.tokens"].resolved`) | Дизайнер, через PR з оновленими таблицями у специфікації |
-| `tokens/generate.py` | Генератор платформових файлів і перевірка контрасту (зараз це зародок: скрипт обчислює OKLCH-рампи, контрасти WCAG і записує tokens.json, tables.md, vars.css; CLI з --check/--out за інтерфейсом розділу 3.16 специфікації буде добудовано у фазі 0) | Розробник |
+| `tokens/generate.py` | CLI: `--check` (аліаси, контраст WCAG 2.2, лінт hex у XAML, актуальність згенерованих файлів; блокує CI) та `--out xaml\|android\|swift\|all` (Colors.xaml, Styles.xaml, WidgetThemes/*.xaml, Android colors/dimens, DesignTokens.swift). `--seed` перезапускає `_seed_ramps.py`, який обчислює OKLCH-рампи й переписує tokens.json | Розробник |
 | `preview/index.html` | Самодостатнє HTML-прев’ю без збірки: рампи, семантичні кольори з обчисленим контрастом, типографіка, компоненти, віджети iOS/Android у світлому, темному й tinted режимах, сповіщення, Live Activity, перемикач Light/Dark | Генератор оновлює блок CSS-змінних між маркерами; розмітку — дизайнер |
 | `mascot/` | Джерела маскота Реп’яшка (SVG), експорти PNG, Lottie JSON | Дизайнер / ілюстратор |
 

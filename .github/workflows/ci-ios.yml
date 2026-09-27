@@ -31,11 +31,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Select Xcode
+      - name: Select Xcode (newest 26.x with a complete SDK set)
         run: |
           ls /Applications | grep -i xcode || true
-          sudo xcode-select -s "$(ls -d /Applications/Xcode_26*.app | sort -V | tail -1)"
+          selected=""
+          for candidate in $(ls -d /Applications/Xcode_26*.app | sort -V -r); do
+            if [ -d "$candidate/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk" ]                && [ -d "$candidate/Contents/Developer/Platforms/iPhoneSimulator.platform" ]; then
+              selected="$candidate"; break
+            fi
+          done
+          if [ -z "$selected" ]; then echo "No Xcode 26.x with macOS + iOS SDKs found"; exit 1; fi
+          echo "Selected $selected"
+          sudo xcode-select -s "$selected"
           xcodebuild -version
+          xcodebuild -showsdks | grep -E "iphonesimulator|macosx" || true
+
+      - name: Workload versions
+        run: dotnet --info | head -20
 
       - name: Set up .NET
         uses: actions/setup-dotnet@v4

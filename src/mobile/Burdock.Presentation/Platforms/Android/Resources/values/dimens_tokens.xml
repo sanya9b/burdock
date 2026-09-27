@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GENERATED from design/tokens/tokens.json by design/tokens/generate.py. Do not edit by hand; change the tokens and regenerate. -->
+<resources>
+    <dimen name="burdock_space_1">4dp</dimen>
+    <dimen name="burdock_space_2">8dp</dimen>
+    <dimen name="burdock_space_3">12dp</dimen>
+    <dimen name="burdock_space_4">16dp</dimen>
+    <dimen name="burdock_space_5">20dp</dimen>
+    <dimen name="burdock_space_6">24dp</dimen>
+    <dimen name="burdock_space_7">32dp</dimen>
+    <dimen name="burdock_space_8">40dp</dimen>
+    <dimen name="burdock_space_9">48dp</dimen>
+    <dimen name="burdock_space_10">56dp</dimen>
+    <dimen name="burdock_space_11">64dp</dimen>
+    <dimen name="burdock_space_12">80dp</dimen>
+    <dimen name="burdock_radius_sm">8dp</dimen>
+    <dimen name="burdock_radius_md">12dp</dimen>
+    <dimen name="burdock_radius_lg">16dp</dimen>
+    <dimen name="burdock_radius_xl">24dp</dimen>
+    <dimen name="burdock_radius_full">999dp</dimen>
+    <dimen name="burdock_icon_sm">16dp</dimen>
+    <dimen name="burdock_icon_md">20dp</dimen>
+    <dimen name="burdock_icon_lg">24dp</dimen>
+    <dimen name="burdock_touch_target_min">48dp</dimen>
+</resources>

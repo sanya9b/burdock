@@ -9,6 +9,8 @@ on:
       - "src/shared/**"
       - "src/mobile/Burdock.Application/**"
       - "src/mobile/Burdock.Infrastructure/**"
+      - "src/mobile/Burdock.Presentation/Resources/Styles/**"
+      - "design/tokens/**"
       - "tests/Burdock.Domain.Tests/**"
       - "tests/Burdock.Application.Tests/**"
       - "tests/Burdock.Architecture.Tests/**"
@@ -49,6 +51,9 @@ jobs:
           path: ~/.nuget/packages
           key: nuget-mobile-shared-${{ runner.os }}-${{ hashFiles('Directory.Packages.props', '**/*.csproj') }}
           restore-keys: nuget-mobile-shared-${{ runner.os }}-
+
+      - name: Design tokens check (aliases, WCAG contrast, XAML hex lint, generated-file drift)
+        run: python3 design/tokens/generate.py --check
 
       - name: Build and test Domain
         run: dotnet test --project tests/Burdock.Domain.Tests -c Release --report-trx --results-directory artifacts/test-results

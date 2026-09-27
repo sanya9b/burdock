@@ -123,7 +123,8 @@ dotnet test --project tests/Burdock.Application.Tests              # use cases
 dotnet test --project tests/Burdock.Architecture.Tests             # правило залежностей мобільних шарів
 dotnet build src/mobile/Burdock.Presentation -f net10.0-android    # застосунок під Android (єдина локальна платформа)
 dotnet run --project src/server/Burdock.Server.Api                 # API на http://localhost:5210 (health: /health/live, /health/ready)
-python design/tokens/generate.py                                   # перегенерувати tokens.json, таблиці контрасту, CSS (XAML-ціль у розробці)
+python design/tokens/generate.py --check                           # токени: аліаси, контраст WCAG, лінт hex у XAML, дрейф згенерованих файлів
+python design/tokens/generate.py --out all                         # Colors.xaml/Styles.xaml/WidgetThemes, Android colors/dimens, DesignTokens.swift
 ```
 
 iOS збирається лише в GitHub Actions (`.github/workflows/ci-ios.yml`). Попередження є помилками: збірка з будь-яким warning не проходить.
