@@ -31,19 +31,29 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Select Xcode (newest 26.x with a complete SDK set)
+      - name: Select Xcode
+        env:
+          # Xcode 26.6 on macos-26 images reports "MacOSX.sdk cannot be located" to xcrun/actool (seen 2026-09-27),
+          # so prefer the newest stable release and fall back to the newest 26.x with complete SDK folders.
+          XCODE_PREFERRED: "26.4.1"
         run: |
           ls /Applications | grep -i xcode || true
           selected=""
-          for candidate in $(ls -d /Applications/Xcode_26*.app | sort -V -r); do
-            if [ -d "$candidate/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk" ]                && [ -d "$candidate/Contents/Developer/Platforms/iPhoneSimulator.platform" ]; then
-              selected="$candidate"; break
-            fi
-          done
-          if [ -z "$selected" ]; then echo "No Xcode 26.x with macOS + iOS SDKs found"; exit 1; fi
+          if [ -d "/Applications/Xcode_${XCODE_PREFERRED}.app" ]; then
+            selected="/Applications/Xcode_${XCODE_PREFERRED}.app"
+          else
+            for candidate in $(ls -d /Applications/Xcode_26*.app | sort -V -r); do
+              if [ -d "$candidate/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk" ]                  && [ -d "$candidate/Contents/Developer/Platforms/iPhoneSimulator.platform" ]; then
+                selected="$candidate"; break
+              fi
+            done
+          fi
+          if [ -z "$selected" ]; then echo "No suitable Xcode found"; exit 1; fi
           echo "Selected $selected"
           sudo xcode-select -s "$selected"
           xcodebuild -version
+          ls -la "$selected/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/" || true
+          xcrun --sdk macosx --find actool || true
           xcodebuild -showsdks | grep -E "iphonesimulator|macosx" || true
 
       - name: Workload versions
