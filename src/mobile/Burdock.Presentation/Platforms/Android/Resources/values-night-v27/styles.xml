@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dark appearance on API 27+: dark navigation bar with light icons. -->
+<resources>
+    <style name="Maui.MainTheme" parent="Maui.MainTheme.Base">
+        <item name="colorPrimary">@color/burdock_brand_primary</item>
+        <item name="colorPrimaryDark">@color/burdock_surface_default</item>
+        <item name="colorAccent">@color/burdock_brand_accent</item>
+        <item name="android:statusBarColor">@color/burdock_surface_default</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/burdock_surface_elevated</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Overrides MAUI's main theme so system bars follow the design tokens (spec 02 section 3.11). Dark variant in values-night. -->
+<resources>
+    <style name="Maui.MainTheme" parent="Maui.MainTheme.Base">
+        <item name="colorPrimary">@color/burdock_brand_primary</item>
+        <item name="colorPrimaryDark">@color/burdock_surface_default</item>
+        <item name="colorAccent">@color/burdock_brand_accent</item>
+        <item name="android:statusBarColor">@color/burdock_surface_default</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/burdock_surface_elevated</item>
+    </style>
+</resources>
