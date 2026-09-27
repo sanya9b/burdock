@@ -42,8 +42,8 @@ jobs:
         with:
           global-json-file: global.json
 
-      - name: Install MAUI iOS workload
-        run: dotnet workload install maui-ios --skip-sign-check
+      - name: Install MAUI workloads (Infrastructure multi-targets android and ios on macOS)
+        run: dotnet workload install maui-ios maui-android --skip-sign-check
 
       - name: Cache NuGet
         uses: actions/cache@v4
@@ -56,6 +56,7 @@ jobs:
         run: >
           dotnet build src/mobile/Burdock.Presentation/Burdock.Presentation.csproj
           -f net10.0-ios -c Debug
+          -p:BurdockTargets=net10.0-ios
           -p:RuntimeIdentifier=iossimulator-arm64
 
       - name: Upload simulator app

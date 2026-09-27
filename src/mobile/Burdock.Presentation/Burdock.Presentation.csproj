@@ -2,6 +2,8 @@
   <!-- MAUI head: XAML, ViewModels, navigation and the composition root (spec 01 section 3.1). Business rules never live here. -->
   <PropertyGroup>
     <TargetFrameworks>net10.0-android;net10.0-ios</TargetFrameworks>
+    <!-- CI builds one platform per runner: pass -p:BurdockTargets=net10.0-android (Linux) or net10.0-ios (macOS) so restore needs only that workload. -->
+    <TargetFrameworks Condition="'$(BurdockTargets)' != ''">$(BurdockTargets)</TargetFrameworks>
     <OutputType>Exe</OutputType>
     <RootNamespace>Burdock.Presentation</RootNamespace>
     <UseMaui>true</UseMaui>

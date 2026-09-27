@@ -14,6 +14,7 @@
   <ItemGroup Condition="'$(MSBuildProjectName)' != 'Burdock.TestKit'">
     <PackageReference Include="xunit.v3" />
     <PackageReference Include="xunit.runner.visualstudio" />
+    <PackageReference Include="Microsoft.Testing.Extensions.TrxReport" />
     <PackageReference Include="Shouldly" />
   </ItemGroup>
   <ItemGroup Condition="'$(MSBuildProjectName)' != 'Burdock.TestKit'">
