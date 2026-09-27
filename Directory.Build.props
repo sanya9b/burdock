@@ -1,0 +1,28 @@
+<Project>
+  <!-- Shared MSBuild properties for every project in the monorepo (spec 01 section 3.16). -->
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <AnalysisLevel>latest-Recommended</AnalysisLevel>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <Deterministic>true</Deterministic>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <CentralPackageTransitivePinningEnabled>false</CentralPackageTransitivePinningEnabled>
+    <NuGetAudit>true</NuGetAudit>
+    <NuGetAuditMode>all</NuGetAuditMode>
+    <AccelerateBuildsInVisualStudio>true</AccelerateBuildsInVisualStudio>
+    <!-- CS1591: XML docs are required on meaningful public APIs by review, not on every enum member. -->
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <SatelliteResourceLanguages>uk;en</SatelliteResourceLanguages>
+    <ContinuousIntegrationBuild Condition="'$(GITHUB_ACTIONS)' == 'true'">true</ContinuousIntegrationBuild>
+    <Company>Burdock</Company>
+    <Product>Burdock</Product>
+    <Copyright>Copyright (c) Burdock. All rights reserved.</Copyright>
+    <RepositoryUrl>https://github.com/sanya9b/burdock</RepositoryUrl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(IsTestProject)' != 'true'">
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+</Project>

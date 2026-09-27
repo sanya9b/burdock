@@ -1,0 +1,23 @@
+<Project>
+  <Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />
+  <PropertyGroup>
+    <IsTestProject>true</IsTestProject>
+    <IsPackable>false</IsPackable>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CA1707;CA1515;CA2007;CA1861</NoWarn>
+    <!-- xunit.v3 runs on Microsoft.Testing.Platform; VSTest is not supported by dotnet test on .NET 10 (see dotnet.config). -->
+    <UseMicrosoftTestingPlatformRunner>true</UseMicrosoftTestingPlatformRunner>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(MSBuildProjectName)' != 'Burdock.TestKit'">
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(MSBuildProjectName)' != 'Burdock.TestKit'">
+    <PackageReference Include="xunit.v3" />
+    <PackageReference Include="xunit.runner.visualstudio" />
+    <PackageReference Include="Shouldly" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(MSBuildProjectName)' != 'Burdock.TestKit'">
+    <Using Include="Xunit" />
+    <Using Include="Shouldly" />
+  </ItemGroup>
+</Project>

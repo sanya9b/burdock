@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="uk" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Реп’ях — прев’ю дизайн-системи</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* Fixel (MacPaw, OFL 1.1) з jsDelivr; шляхи перевірено HTTP 200 2026-09-27. Без мережі — Inter/системний. */
+@font-face{font-family:"Fixel Text";font-weight:400;font-display:swap;src:url(https://cdn.jsdelivr.net/gh/MacPaw/Fixel@main/fonts/webfonts/FixelText-Regular.woff2) format("woff2")}
+@font-face{font-family:"Fixel Text";font-weight:500;font-display:swap;src:url(https://cdn.jsdelivr.net/gh/MacPaw/Fixel@main/fonts/webfonts/FixelText-Medium.woff2) format("woff2")}
+@font-face{font-family:"Fixel Text";font-weight:600;font-display:swap;src:url(https://cdn.jsdelivr.net/gh/MacPaw/Fixel@main/fonts/webfonts/FixelText-SemiBold.woff2) format("woff2")}
+@font-face{font-family:"Fixel Text";font-weight:700;font-display:swap;src:url(https://cdn.jsdelivr.net/gh/MacPaw/Fixel@main/fonts/webfonts/FixelText-Bold.woff2) format("woff2")}
+@font-face{font-family:"Fixel Display";font-weight:600;font-display:swap;src:url(https://cdn.jsdelivr.net/gh/MacPaw/Fixel@main/fonts/webfonts/FixelDisplay-SemiBold.woff2) format("woff2")}
+@font-face{font-family:"Fixel Display";font-weight:700;font-display:swap;src:url(https://cdn.jsdelivr.net/gh/MacPaw/Fixel@main/fonts/webfonts/FixelDisplay-Bold.woff2) format("woff2")}
+
+/* tokens:start — цей блок генерує design/tokens/generate.py --out css; значення = tokens.json */
+:root{
+  --color-primitive-violet-50:#F9F9FF; --color-primitive-violet-100:#ECECFF; --color-primitive-violet-200:#D5D4FF; --color-primitive-violet-300:#B8B4FE;
+  --color-primitive-violet-400:#9A8EFE; --color-primitive-violet-500:#7C5CFF; --color-primitive-violet-600:#6D49EB; --color-primitive-violet-700:#5137AE;
+  --color-primitive-violet-800:#3E2C87; --color-primitive-violet-900:#2C2160; --color-primitive-violet-950:#1E183E;
+  --color-primitive-lime-50:#F3FFE8; --color-primitive-lime-100:#EAFFD5; --color-primitive-lime-200:#D7FFAD; --color-primitive-lime-300:#C4FB84;
+  --color-primitive-lime-400:#B4F461; --color-primitive-lime-500:#92CB42; --color-primitive-lime-600:#689C00; --color-primitive-lime-700:#4F7700;
+  --color-primitive-lime-800:#3E5C0E; --color-primitive-lime-900:#283D07; --color-primitive-lime-950:#162404;
+  --color-primitive-coral-50:#FFF8F8; --color-primitive-coral-100:#FFE9E7; --color-primitive-coral-200:#FFCBC7; --color-primitive-coral-300:#FFA29E;
+  --color-primitive-coral-400:#FF6B6B; --color-primitive-coral-500:#DC5556; --color-primitive-coral-600:#B74244; --color-primitive-coral-700:#913334;
+  --color-primitive-coral-800:#702727; --color-primitive-coral-900:#501C1C; --color-primitive-coral-950:#351313;
+  --color-primitive-sunny-50:#FFFAEF; --color-primitive-sunny-100:#FFF3DC; --color-primitive-sunny-200:#FFE8BA; --color-primitive-sunny-300:#FFD889;
+  --color-primitive-sunny-400:#FFC53D; --color-primitive-sunny-500:#D7A21A; --color-primitive-sunny-600:#AE8207; --color-primitive-sunny-700:#866302;
+  --color-primitive-sunny-800:#644900; --color-primitive-sunny-900:#453100; --color-primitive-sunny-950:#2A1D01;
+  --color-primitive-sky-50:#F3FCFF; --color-primitive-sky-100:#DFF6FF; --color-primitive-sky-200:#B7ECFF; --color-primitive-sky-300:#7CDDFF;
+  --color-primitive-sky-400:#4CC9F0; --color-primitive-sky-500:#31A9CC; --color-primitive-sky-600:#1F89A8; --color-primitive-sky-700:#126B83;
+  --color-primitive-sky-800:#0D5064; --color-primitive-sky-900:#0A3745; --color-primitive-sky-950:#08232C;
+  --color-primitive-neutral-0:#FFFFFF; --color-primitive-neutral-50:#F7F6FC; --color-primitive-neutral-100:#EDEBF5; --color-primitive-neutral-200:#DBD9E3;
+  --color-primitive-neutral-300:#BAB9C3; --color-primitive-neutral-400:#8C8B95; --color-primitive-neutral-500:#6A6873; --color-primitive-neutral-600:#585661;
+  --color-primitive-neutral-700:#45434E; --color-primitive-neutral-800:#33313B; --color-primitive-neutral-900:#25242D; --color-primitive-neutral-950:#15131F;
+  --color-primitive-neutral-1000:#0C0B14;
+  --spacing-1:4px; --spacing-2:8px; --spacing-3:12px; --spacing-4:16px; --spacing-5:20px; --spacing-6:24px; --spacing-7:32px; --spacing-8:40px;
+  --spacing-9:48px; --spacing-10:56px; --spacing-11:64px; --spacing-12:80px;
+  --radius-sm:8px; --radius-md:12px; --radius-lg:16px; --radius-xl:24px; --radius-full:999px;
+  --motion-duration-fast:120ms; --motion-duration-base:200ms; --motion-duration-slow:320ms; --motion-duration-celebrate:600ms;
+  --motion-easing-standard:cubic-bezier(.2,0,0,1); --motion-easing-overshoot:cubic-bezier(.34,1.56,.64,1);
+  --typography-fontFamily-text:"Fixel Text",Inter,system-ui,sans-serif; --typography-fontFamily-display:"Fixel Display","Fixel Text",Inter,system-ui,sans-serif;
+  --typography-fontFamily-ipa:-apple-system,"Segoe UI",Roboto,"Noto Sans",sans-serif;
+}
+[data-theme="light"]{
+  --color-brand-primary:#6D49EB; --color-brand-onPrimary:#FFFFFF; --color-brand-primaryVivid:#7C5CFF; --color-brand-primaryContainer:#ECECFF; --color-brand-onPrimaryContainer:#3E2C87;
+  --color-brand-accent:#B4F461; --color-brand-onAccent:#162404; --color-brand-accentText:#4F7700;
+  --color-surface-default:#F7F6FC; --color-surface-elevated:#FFFFFF; --color-surface-sunken:#EDEBF5; --color-surface-overlay:#0C0B148F; --color-surface-brandTint:#F9F9FF;
+  --color-text-primary:#15131F; --color-text-secondary:#585661; --color-text-tertiary:#6A6873; --color-text-inverse:#F7F6FC; --color-text-link:#5137AE; --color-text-disabled:#8C8B95;
+  --color-border-default:#DBD9E3; --color-border-strong:#8C8B95; --color-border-focus:#6D49EB;
+  --color-feedback-success:#4F7700; --color-feedback-successContainer:#EAFFD5; --color-feedback-onSuccessContainer:#3E5C0E;
+  --color-feedback-error:#B74244; --color-feedback-errorContainer:#FFE9E7; --color-feedback-onErrorContainer:#702727;
+  --color-feedback-warning:#866302; --color-feedback-warningContainer:#FFF3DC; --color-feedback-onWarningContainer:#644900;
+  --color-feedback-info:#126B83; --color-feedback-infoContainer:#DFF6FF; --color-feedback-onInfoContainer:#0D5064;
+  --color-reward-gold:#FFC53D; --color-reward-goldText:#644900; --color-reward-goldContainer:#FFF3DC;
+  --color-reward-currency:#689C00; --color-reward-currencyText:#3E5C0E; --color-reward-currencyContainer:#EAFFD5; --color-reward-heart:#FF6B6B;
+  --color-streak-active:#D7A21A; --color-streak-text:#644900; --color-streak-container:#FFF3DC; --color-streak-frozen:#1F89A8; --color-streak-frozenText:#0D5064; --color-streak-inactive:#BAB9C3;
+  --color-quiz-correct:#4F7700; --color-quiz-correctContainer:#EAFFD5; --color-quiz-correctBorder:#689C00;
+  --color-quiz-incorrect:#B74244; --color-quiz-incorrectContainer:#FFE9E7; --color-quiz-incorrectBorder:#DC5556;
+  --color-quiz-selected:#5137AE; --color-quiz-selectedContainer:#ECECFF; --color-quiz-selectedBorder:#6D49EB;
+  --color-widget-background:#6D49EB; --color-widget-backgroundEnd:#3E2C87; --color-widget-word:#FFFFFF; --color-widget-ipa:#ECECFF; --color-widget-translation:#ECECFF; --color-widget-example:#ECECFF;
+  --color-widget-accent:#B4F461; --color-widget-onAccent:#162404; --color-widget-chipBackground:#3E2C87; --color-widget-chipText:#ECECFF; --color-widget-button:#FFFFFF; --color-widget-onButton:#5137AE;
+  --color-widget-divider:#7C5CFF; --color-widget-badgeFree:#3E2C87; --color-widget-onBadgeFree:#ECECFF;
+  --shadow-1:0 1px 2px #15131F0F,0 2px 8px #15131F0F; --shadow-2:0 4px 16px #15131F1A; --shadow-3:0 12px 32px #15131F29; --elev-border:transparent;
+}
+[data-theme="dark"]{
+  --color-brand-primary:#9A8EFE; --color-brand-onPrimary:#15131F; --color-brand-primaryVivid:#7C5CFF; --color-brand-primaryContainer:#2C2160; --color-brand-onPrimaryContainer:#D5D4FF;
+  --color-brand-accent:#B4F461; --color-brand-onAccent:#162404; --color-brand-accentText:#C4FB84;
+  --color-surface-default:#15131F; --color-surface-elevated:#25242D; --color-surface-sunken:#0C0B14; --color-surface-overlay:#000000A3; --color-surface-brandTint:#1E183E;
+  --color-text-primary:#F7F6FC; --color-text-secondary:#BAB9C3; --color-text-tertiary:#8C8B95; --color-text-inverse:#15131F; --color-text-link:#B8B4FE; --color-text-disabled:#585661;
+  --color-border-default:#33313B; --color-border-strong:#8C8B95; --color-border-focus:#B8B4FE;
+  --color-feedback-success:#C4FB84; --color-feedback-successContainer:#283D07; --color-feedback-onSuccessContainer:#D7FFAD;
+  --color-feedback-error:#FFA29E; --color-feedback-errorContainer:#501C1C; --color-feedback-onErrorContainer:#FFCBC7;
+  --color-feedback-warning:#FFD889; --color-feedback-warningContainer:#453100; --color-feedback-onWarningContainer:#FFE8BA;
+  --color-feedback-info:#7CDDFF; --color-feedback-infoContainer:#0A3745; --color-feedback-onInfoContainer:#B7ECFF;
+  --color-reward-gold:#FFC53D; --color-reward-goldText:#FFD889; --color-reward-goldContainer:#453100;
+  --color-reward-currency:#B4F461; --color-reward-currencyText:#C4FB84; --color-reward-currencyContainer:#283D07; --color-reward-heart:#FF6B6B;
+  --color-streak-active:#FFC53D; --color-streak-text:#FFD889; --color-streak-container:#453100; --color-streak-frozen:#4CC9F0; --color-streak-frozenText:#7CDDFF; --color-streak-inactive:#45434E;
+  --color-quiz-correct:#C4FB84; --color-quiz-correctContainer:#283D07; --color-quiz-correctBorder:#92CB42;
+  --color-quiz-incorrect:#FFA29E; --color-quiz-incorrectContainer:#501C1C; --color-quiz-incorrectBorder:#DC5556;
+  --color-quiz-selected:#D5D4FF; --color-quiz-selectedContainer:#2C2160; --color-quiz-selectedBorder:#9A8EFE;
+  --color-widget-background:#2C2160; --color-widget-backgroundEnd:#15131F; --color-widget-word:#F7F6FC; --color-widget-ipa:#D5D4FF; --color-widget-translation:#D5D4FF; --color-widget-example:#B8B4FE;
+  --color-widget-accent:#B4F461; --color-widget-onAccent:#162404; --color-widget-chipBackground:#3E2C87; --color-widget-chipText:#ECECFF; --color-widget-button:#B8B4FE; --color-widget-onButton:#1E183E;
+  --color-widget-divider:#3E2C87; --color-widget-badgeFree:#3E2C87; --color-widget-onBadgeFree:#ECECFF;
+  --shadow-1:0 1px 2px #00000066; --shadow-2:0 4px 16px #00000080; --shadow-3:0 12px 32px #00000099; --elev-border:var(--color-border-default);
+}
+[data-theme="light"] .wtheme-luh{--color-widget-background:#EAFFD5;--color-widget-backgroundEnd:#D7FFAD;--color-widget-word:#162404;--color-widget-ipa:#3E5C0E;--color-widget-translation:#3E5C0E;--color-widget-example:#3E5C0E;--color-widget-accent:#6D49EB;--color-widget-onAccent:#FFFFFF;--color-widget-chipBackground:#C4FB84;--color-widget-chipText:#283D07;--color-widget-button:#162404;--color-widget-onButton:#EAFFD5;--color-widget-divider:#C4FB84;--color-widget-badgeFree:#C4FB84;--color-widget-onBadgeFree:#283D07}
+[data-theme="dark"] .wtheme-luh{--color-widget-background:#162404;--color-widget-backgroundEnd:#15131F;--color-widget-word:#EAFFD5;--color-widget-ipa:#C4FB84;--color-widget-translation:#C4FB84;--color-widget-example:#C4FB84;--color-widget-accent:#B4F461;--color-widget-onAccent:#162404;--color-widget-chipBackground:#283D07;--color-widget-chipText:#D7FFAD;--color-widget-button:#B4F461;--color-widget-onButton:#162404;--color-widget-divider:#283D07;--color-widget-badgeFree:#283D07;--color-widget-onBadgeFree:#D7FFAD}
+[data-theme="light"] .wtheme-nich{--color-widget-background:#15131F;--color-widget-backgroundEnd:#1E183E;--color-widget-word:#F7F6FC;--color-widget-ipa:#BAB9C3;--color-widget-translation:#BAB9C3;--color-widget-example:#8C8B95;--color-widget-accent:#7CDDFF;--color-widget-onAccent:#08232C;--color-widget-chipBackground:#33313B;--color-widget-chipText:#DBD9E3;--color-widget-button:#7CDDFF;--color-widget-onButton:#08232C;--color-widget-divider:#33313B;--color-widget-badgeFree:#33313B;--color-widget-onBadgeFree:#DBD9E3}
+[data-theme="dark"] .wtheme-nich{--color-widget-background:#0C0B14;--color-widget-backgroundEnd:#1E183E;--color-widget-word:#F7F6FC;--color-widget-ipa:#BAB9C3;--color-widget-translation:#BAB9C3;--color-widget-example:#8C8B95;--color-widget-accent:#7CDDFF;--color-widget-onAccent:#08232C;--color-widget-chipBackground:#33313B;--color-widget-chipText:#DBD9E3;--color-widget-button:#7CDDFF;--color-widget-onButton:#08232C;--color-widget-divider:#33313B;--color-widget-badgeFree:#33313B;--color-widget-onBadgeFree:#DBD9E3}
+[data-theme="light"] .wtheme-sontse{--color-widget-background:#FFE8BA;--color-widget-backgroundEnd:#FFC53D;--color-widget-word:#2A1D01;--color-widget-ipa:#644900;--color-widget-translation:#644900;--color-widget-example:#644900;--color-widget-accent:#B74244;--color-widget-onAccent:#FFFFFF;--color-widget-chipBackground:#FFC53D;--color-widget-chipText:#453100;--color-widget-button:#2A1D01;--color-widget-onButton:#FFF3DC;--color-widget-divider:#FFC53D;--color-widget-badgeFree:#FFC53D;--color-widget-onBadgeFree:#453100}
+[data-theme="dark"] .wtheme-sontse{--color-widget-background:#2A1D01;--color-widget-backgroundEnd:#15131F;--color-widget-word:#FFF3DC;--color-widget-ipa:#FFD889;--color-widget-translation:#FFD889;--color-widget-example:#FFD889;--color-widget-accent:#FFC53D;--color-widget-onAccent:#2A1D01;--color-widget-chipBackground:#453100;--color-widget-chipText:#FFE8BA;--color-widget-button:#FFC53D;--color-widget-onButton:#2A1D01;--color-widget-divider:#453100;--color-widget-badgeFree:#453100;--color-widget-onBadgeFree:#FFE8BA}
+/* tokens:end */
+
+/* ---------- базові стилі прев’ю ---------- */
+*{box-sizing:border-box}
+html{font-family:var(--typography-fontFamily-text);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+body{margin:0;background:var(--color-surface-default);color:var(--color-text-primary);transition:background var(--motion-duration-base),color var(--motion-duration-base)}
+a{color:var(--color-text-link)}
+header{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:var(--spacing-4);padding:var(--spacing-3) var(--spacing-6);background:color-mix(in srgb,var(--color-surface-default) 88%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--color-border-default)}
+header h1{font:700 20px/26px var(--typography-fontFamily-display);margin:0;letter-spacing:-.01em}
+header .sub{color:var(--color-text-secondary);font-size:13px}
+header nav{margin-left:auto;display:flex;gap:var(--spacing-2);flex-wrap:wrap}
+header nav a{font-size:13px;text-decoration:none;color:var(--color-text-secondary);padding:6px 10px;border-radius:var(--radius-sm)}
+header nav a:hover{background:var(--color-surface-sunken);color:var(--color-text-primary)}
+main{max-width:1200px;margin:0 auto;padding:var(--spacing-6)}
+section{margin-bottom:var(--spacing-11)}
+h2{font:600 28px/34px var(--typography-fontFamily-display);letter-spacing:-.01em;margin:0 0 var(--spacing-2)}
+h3{font:600 18px/24px var(--typography-fontFamily-text);margin:var(--spacing-6) 0 var(--spacing-3)}
+p.lead{color:var(--color-text-secondary);margin:0 0 var(--spacing-5);max-width:70ch}
+code{font-family:ui-monospace,Consolas,monospace;font-size:.85em;background:var(--color-surface-sunken);padding:1px 5px;border-radius:4px}
+.card{background:var(--color-surface-elevated);border-radius:var(--radius-lg);box-shadow:var(--shadow-1);border:1px solid var(--elev-border);padding:var(--spacing-5)}
+.row{display:flex;gap:var(--spacing-3);flex-wrap:wrap;align-items:center}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:var(--spacing-5)}
+@media (max-width:820px){.grid2{grid-template-columns:1fr}}
+.toggle{border:1.5px solid var(--color-brand-primary);color:var(--color-brand-primary);background:transparent;border-radius:var(--radius-full);padding:8px 14px;font:600 14px/18px var(--typography-fontFamily-text);cursor:pointer;min-height:44px}
+.toggle:hover{background:var(--color-brand-primaryContainer)}
+.badge{display:inline-flex;align-items:center;gap:4px;border-radius:var(--radius-full);padding:2px 8px;font:500 12px/16px var(--typography-fontFamily-text)}
+.pass{background:var(--color-feedback-successContainer);color:var(--color-feedback-onSuccessContainer)}
+.fail{background:var(--color-feedback-errorContainer);color:var(--color-feedback-onErrorContainer)}
+.aaa{background:var(--color-brand-primaryContainer);color:var(--color-brand-onPrimaryContainer)}
+.muted{color:var(--color-text-tertiary);font-size:13px}
+/* рампи */
+.ramp{display:grid;grid-template-columns:96px repeat(13,1fr);gap:4px;align-items:stretch;margin-bottom:6px}
+.ramp .name{font-weight:600;font-size:13px;display:flex;align-items:center}
+.sw{height:56px;border-radius:var(--radius-sm);display:flex;flex-direction:column;justify-content:flex-end;padding:4px 6px;font-size:10px;line-height:12px;font-family:ui-monospace,Consolas,monospace;border:1px solid var(--color-border-default)}
+.sw.anchor{outline:3px solid var(--color-brand-primaryVivid);outline-offset:-3px}
+/* семантика */
+.panel{padding:var(--spacing-5);border-radius:var(--radius-lg);background:var(--color-surface-default);color:var(--color-text-primary);border:1px solid var(--color-border-default)}
+.panel h4{margin:0 0 var(--spacing-3);font:600 16px/22px var(--typography-fontFamily-text)}
+.pair{display:grid;grid-template-columns:1fr auto;gap:8px;align-items:center;padding:8px 12px;border-radius:var(--radius-sm);margin-bottom:6px;border:1px solid var(--color-border-default)}
+.pair .t{font-size:14px;font-weight:500}.pair small{display:block;font-size:11px;opacity:.85;font-family:ui-monospace,Consolas,monospace}
+.pair .r{font:600 13px/16px var(--typography-fontFamily-text);white-space:nowrap}
+/* типографіка */
+.type-row{display:grid;grid-template-columns:200px 1fr;gap:var(--spacing-4);padding:var(--spacing-3) 0;border-bottom:1px solid var(--color-border-default);align-items:baseline}
+.type-row .meta{font-size:12px;color:var(--color-text-secondary);font-family:ui-monospace,Consolas,monospace}
+.type-row .sample{overflow-wrap:anywhere}
+.ipa{font-family:var(--typography-fontFamily-ipa)}
+.tnum{font-variant-numeric:tabular-nums}
+/* відступи, радіуси, тіні */
+.space-bar{height:16px;background:var(--color-brand-primaryVivid);border-radius:2px}
+.space-row{display:grid;grid-template-columns:90px 1fr 60px;gap:var(--spacing-3);align-items:center;font-size:13px;margin-bottom:6px}
+.rad{width:88px;height:64px;background:var(--color-brand-primaryContainer);border:2px solid var(--color-brand-primary);display:flex;align-items:flex-end;justify-content:center;font-size:12px;color:var(--color-brand-onPrimaryContainer);padding-bottom:4px}
+.elev{width:160px;height:96px;border-radius:var(--radius-lg);background:var(--color-surface-elevated);border:1px solid var(--elev-border);display:flex;align-items:center;justify-content:center;font-size:13px}
+/* компоненти */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 20px;border-radius:var(--radius-md);font:600 16px/20px var(--typography-fontFamily-text);border:1.5px solid transparent;cursor:pointer;transition:transform var(--motion-duration-fast) var(--motion-easing-standard),filter var(--motion-duration-fast)}
+.btn:active{transform:scale(.97);filter:brightness(.92)}
+.btn.primary{background:var(--color-brand-primary);color:var(--color-brand-onPrimary)}
+.btn.secondary{border-color:var(--color-brand-primary);color:var(--color-brand-primary);background:transparent}
+.btn.tertiary{color:var(--color-text-link);background:transparent}
+.btn.destructive{background:var(--color-feedback-error);color:#FFFFFF}
+.btn.icon{width:44px;height:44px;min-height:44px;padding:0;border-radius:var(--radius-full);background:var(--color-surface-sunken);color:var(--color-text-primary)}
+.btn.disabled{opacity:.38;pointer-events:none}
+.btn.focused{outline:3px solid var(--color-border-focus);outline-offset:2px}
+.btn.loading{color:transparent;position:relative}.btn.loading::after{content:"";position:absolute;width:18px;height:18px;border:2.5px solid currentColor;border-color:var(--color-brand-onPrimary) transparent var(--color-brand-onPrimary) transparent;border-radius:50%;animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.chip{display:inline-flex;align-items:center;gap:6px;height:36px;padding:0 12px;border-radius:var(--radius-sm);font:500 14px/18px var(--typography-fontFamily-text);background:var(--color-surface-sunken);border:1px solid var(--color-border-default);color:var(--color-text-primary)}
+.chip.on{background:var(--color-brand-primaryContainer);color:var(--color-brand-onPrimaryContainer);border-color:transparent}
+.chip.lime{background:var(--color-brand-accent);color:var(--color-brand-onAccent);border-color:transparent}
+.wordcard{position:relative;max-width:420px}
+.wordcard .top{display:flex;gap:8px;align-items:center;margin-bottom:var(--spacing-3)}
+.wordcard .word{font:700 34px/40px var(--typography-fontFamily-display);letter-spacing:-.01em;margin:0}
+.wordcard .ipa{font-size:15px;line-height:20px;color:var(--color-text-secondary);display:flex;align-items:center;gap:8px}
+.wordcard .pos{font:500 14px/18px var(--typography-fontFamily-text);color:var(--color-text-tertiary);margin:6px 0 10px}
+.wordcard .tr{font-size:17px;line-height:24px;margin:0}
+.wordcard .ex{font-size:15px;line-height:22px;color:var(--color-text-secondary);margin:8px 0 0}
+.wordcard .ex b{font-weight:600;color:var(--color-text-primary)}
+.wordcard .meta{font:500 12px/16px var(--typography-fontFamily-text);color:var(--color-text-tertiary);margin-top:var(--spacing-3)}
+.wordcard .mascot{position:absolute;top:-14px;right:-10px}
+.qopt{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:56px;padding:12px 16px;border-radius:var(--radius-md);border:1.5px solid var(--color-border-default);background:var(--color-surface-elevated);font-size:17px;margin-bottom:8px;max-width:420px}
+.qopt .ind{width:24px;height:24px;border-radius:50%;border:2px solid var(--color-border-strong);display:grid;place-items:center;font-size:13px;font-weight:700;flex:none}
+.qopt.sel{border-color:var(--color-quiz-selectedBorder);background:var(--color-quiz-selectedContainer);color:var(--color-quiz-selected)}.qopt.sel .ind{border-color:var(--color-quiz-selectedBorder);color:var(--color-quiz-selected)}
+.qopt.ok{border-color:var(--color-quiz-correctBorder);background:var(--color-quiz-correctContainer);color:var(--color-quiz-correct)}.qopt.ok .ind{border-color:var(--color-quiz-correctBorder);background:var(--color-quiz-correctBorder);color:#fff}
+.qopt.bad{border-color:var(--color-quiz-incorrectBorder);background:var(--color-quiz-incorrectContainer);color:var(--color-quiz-incorrect)}.qopt.bad .ind{border-color:var(--color-quiz-incorrectBorder);color:var(--color-quiz-incorrect)}
+.qopt.dis{opacity:.38}.qopt.foc{outline:3px solid var(--color-border-focus);outline-offset:2px}
+.field{display:flex;align-items:center;gap:8px;height:52px;padding:0 14px;border-radius:var(--radius-sm);border:1.5px solid var(--color-border-strong);background:var(--color-surface-elevated);max-width:420px;font-size:17px}
+.field.err{border-color:var(--color-feedback-error)}.field.warn{border-color:var(--color-feedback-warning)}.field.foc{border-color:var(--color-border-focus);outline:3px solid var(--color-border-focus);outline-offset:2px}
+.hint{font-size:13px;margin:6px 0 12px}
+.pill{display:inline-flex;align-items:center;gap:6px;height:32px;padding:0 12px 0 8px;border-radius:var(--radius-full);font:600 14px/18px var(--typography-fontFamily-text)}
+.pill.streak{background:var(--color-streak-container);color:var(--color-streak-text)}
+.pill.frozen{background:var(--color-feedback-infoContainer);color:var(--color-streak-frozenText)}
+.pill.cur{background:var(--color-reward-currencyContainer);color:var(--color-reward-currencyText)}
+.pill.gold{background:var(--color-reward-goldContainer);color:var(--color-reward-goldText)}
+.paywall{max-width:420px;background:var(--color-surface-brandTint)}
+.paywall h3{font:700 32px/38px var(--typography-fontFamily-display);letter-spacing:-.015em;margin:0 0 8px}
+.paywall ul{margin:0 0 16px;padding-left:20px;color:var(--color-text-secondary)}
+.seg{display:inline-flex;background:var(--color-surface-sunken);border-radius:var(--radius-sm);padding:3px;margin-bottom:12px}
+.seg span{padding:6px 14px;border-radius:6px;font:500 14px/18px var(--typography-fontFamily-text);color:var(--color-text-secondary)}
+.seg span.on{background:var(--color-surface-elevated);color:var(--color-text-primary);box-shadow:var(--shadow-1)}
+.toast{display:inline-flex;align-items:center;gap:10px;background:var(--color-text-primary);color:var(--color-text-inverse);border-radius:var(--radius-md);padding:12px 16px;font-size:15px;box-shadow:var(--shadow-2)}
+.toast a{color:var(--color-text-inverse);font-weight:600;margin-left:8px}
+.tabbar{display:flex;justify-content:space-around;background:var(--color-surface-elevated);border-top:1px solid var(--color-border-default);border-radius:0 0 var(--radius-lg) var(--radius-lg);padding:8px 0 10px;max-width:420px}
+.tab{display:flex;flex-direction:column;align-items:center;gap:2px;font:500 12px/16px var(--typography-fontFamily-text);color:var(--color-text-secondary);min-width:64px}
+.tab.on{color:var(--color-brand-primary);font-weight:600}
+.tab svg{width:24px;height:24px}
+.ring{width:96px;height:96px}
+/* віджети */
+.wall{padding:var(--spacing-6);border-radius:var(--radius-xl);background:linear-gradient(135deg,#dfe9ff,#ffd9ec 55%,#fff3c4);display:flex;gap:var(--spacing-5);flex-wrap:wrap;align-items:flex-start}
+[data-theme="dark"] .wall{background:linear-gradient(135deg,#1b2340,#3a1d4d 55%,#0d1b2a)}
+.wall.lock{background:linear-gradient(160deg,#151a2e,#3b2b5e 60%,#0e0c14);color:#fff;min-height:240px;flex-direction:column;justify-content:flex-start}
+.widget{border-radius:22px;padding:14px;background:linear-gradient(160deg,var(--color-widget-background),var(--color-widget-backgroundEnd));color:var(--color-widget-word);box-shadow:var(--shadow-2);display:flex;flex-direction:column;position:relative;font-family:-apple-system,"SF Pro Text","Segoe UI",Roboto,sans-serif}
+.widget.small{width:158px;height:158px}.widget.medium{width:338px;height:158px}.widget.large{width:338px;height:354px}
+.w-chip{display:inline-flex;align-self:flex-start;font:600 11px/14px inherit;padding:2px 8px;border-radius:999px;background:var(--color-widget-chipBackground);color:var(--color-widget-chipText)}
+.w-word{font-weight:700;font-size:22px;line-height:26px;letter-spacing:-.01em;margin-top:auto}
+.medium .w-word,.large .w-word{margin-top:6px}.medium .w-word{font-size:26px;line-height:30px}.large .w-word{font-size:30px;line-height:34px}
+.w-ipa{font-family:var(--typography-fontFamily-ipa);font-size:12px;line-height:16px;color:var(--color-widget-ipa)}.medium .w-ipa,.large .w-ipa{font-size:13px}
+.w-tr{font-weight:500;font-size:15px;line-height:19px;color:var(--color-widget-translation)}.medium .w-tr{font-size:17px;line-height:22px}.large .w-tr{font-size:20px;line-height:24px}
+.w-ex{font-size:13px;line-height:17px;color:var(--color-widget-example);margin-top:4px}.large .w-ex{font-size:15px;line-height:20px}
+.w-foot{display:flex;align-items:center;justify-content:space-between;margin-top:auto;font-size:12px;color:var(--color-widget-translation)}
+.w-btn{width:28px;height:28px;border-radius:50%;background:var(--color-widget-button);color:var(--color-widget-onButton);display:grid;place-items:center;font-weight:700}
+.w-free{background:var(--color-widget-badgeFree);color:var(--color-widget-onBadgeFree);border-radius:999px;padding:2px 8px;font-weight:600;font-size:11px}
+.w-link{font-weight:600;color:var(--color-widget-word)}
+.w-div{height:1px;background:var(--color-widget-divider);opacity:.6;margin:8px 0}
+.w-recent{display:grid;grid-template-columns:1fr 1fr;font-size:15px;line-height:22px}.w-recent span:nth-child(even){color:var(--color-widget-translation)}
+.w-acc{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--color-widget-accent);margin-right:6px;vertical-align:middle}
+.widget.tinted{--color-widget-background:rgba(255,255,255,.18);--color-widget-backgroundEnd:rgba(255,255,255,.10);--color-widget-word:#fff;--color-widget-ipa:rgba(255,255,255,.72);--color-widget-translation:rgba(255,255,255,.8);--color-widget-example:rgba(255,255,255,.7);--color-widget-chipBackground:transparent;--color-widget-chipText:#fff;--color-widget-button:rgba(255,255,255,.9);--color-widget-onButton:#5137AE;--color-widget-accent:#fff;--color-widget-badgeFree:transparent;--color-widget-onBadgeFree:#fff;backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,.35)}
+.widget.tinted .w-chip,.widget.tinted .w-free{border:1px solid rgba(255,255,255,.6)}
+.widget.clear{--color-widget-background:rgba(255,255,255,.06);--color-widget-backgroundEnd:rgba(255,255,255,.02);backdrop-filter:blur(24px) saturate(1.4);border:1px solid rgba(255,255,255,.28);box-shadow:inset 0 1px 0 rgba(255,255,255,.35),var(--shadow-2)}
+.lockw{font-family:-apple-system,"SF Pro Text","Segoe UI",Roboto,sans-serif;color:#fff}
+.lockw .time{font:200 64px/64px inherit;letter-spacing:-.02em;margin:4px 0 12px}
+.lockw .rect{width:172px;height:72px;border-radius:14px;background:rgba(255,255,255,.14);padding:8px 10px;display:flex;flex-direction:column;justify-content:center}
+.lockw .rect b{font-size:15px;line-height:18px}.lockw .rect span{font-size:13px;line-height:16px;opacity:.85}.lockw .rect i{font-style:normal;font-size:11px;opacity:.7;font-family:var(--typography-fontFamily-ipa)}
+.lockw .inline{font-size:13px;opacity:.9;margin-bottom:10px}
+.lockw .circ{width:72px;height:72px;border-radius:50%;background:rgba(255,255,255,.14);display:grid;place-items:center;text-align:center;font-size:12px;line-height:14px;font-weight:700}
+.android{width:328px;border-radius:28px;padding:16px;font-family:Roboto,"Segoe UI",system-ui,sans-serif;display:flex;flex-direction:column;gap:2px;box-shadow:var(--shadow-2)}
+.android.m3{background:#0f4c5c;color:#c9f3ff}.android.m3 .a-chip{background:#7ad2e8;color:#00363f}.android.m3 .a-btn{background:#7ad2e8;color:#00363f}.android.m3 .a-tr{color:#a6e6f5}
+.android.brand{background:linear-gradient(160deg,var(--color-widget-background),var(--color-widget-backgroundEnd));color:var(--color-widget-word)}.android.brand .a-chip{background:var(--color-widget-chipBackground);color:var(--color-widget-chipText)}.android.brand .a-btn{background:var(--color-widget-button);color:var(--color-widget-onButton)}.android.brand .a-tr{color:var(--color-widget-translation)}
+.a-top{display:flex;justify-content:space-between;align-items:center}.a-chip{font:500 12px/16px inherit;padding:2px 10px;border-radius:999px}
+.a-word{font-weight:700;font-size:26px;line-height:32px}.a-ipa{font-size:13px;opacity:.85;font-family:var(--typography-fontFamily-ipa)}.a-tr{font-size:16px;line-height:22px}
+.a-foot{display:flex;align-items:center;justify-content:space-between;margin-top:8px;font-size:13px}.a-btn{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;font-weight:700}
+.a-link{font-weight:500;padding:6px 12px;border:1px solid currentColor;border-radius:999px;font-size:13px}
+/* сповіщення та Live Activity */
+.notif{width:360px;border-radius:20px;background:color-mix(in srgb,var(--color-surface-elevated) 92%,transparent);backdrop-filter:blur(20px);padding:12px 14px;display:grid;grid-template-columns:38px 1fr;gap:10px;box-shadow:var(--shadow-2);border:1px solid var(--elev-border);font-family:-apple-system,"SF Pro Text","Segoe UI",Roboto,sans-serif}
+.appicon{width:38px;height:38px;border-radius:9px;background:linear-gradient(160deg,var(--color-primitive-violet-600),var(--color-primitive-violet-800));display:grid;place-items:center}
+.notif .h{display:flex;justify-content:space-between;font-size:15px;font-weight:600}.notif .h small{font-weight:400;color:var(--color-text-tertiary);font-size:12px}
+.notif .s{font-size:13px;color:var(--color-text-secondary)}.notif .b{font-size:14px;line-height:19px;margin-top:2px}
+.notif .acts{grid-column:1/-1;display:flex;gap:8px;margin-top:6px}.notif .acts span{flex:1;text-align:center;font:600 13px/18px inherit;padding:8px;border-radius:10px;background:var(--color-surface-sunken)}
+.la{width:360px;border-radius:22px;background:#1c1a26;color:#fff;padding:14px 16px;font-family:-apple-system,"SF Pro Text","Segoe UI",Roboto,sans-serif;box-shadow:var(--shadow-3)}
+.la .cap{display:flex;justify-content:space-between;font-size:13px;opacity:.85}.la .w{display:flex;justify-content:space-between;align-items:baseline;margin-top:6px}.la .w b{font-size:24px;line-height:28px;font-weight:700}.la .w i{font-style:normal;font-size:13px;opacity:.8;font-family:var(--typography-fontFamily-ipa)}
+.la .t{font-size:17px;margin:2px 0 10px}.la .bar{height:6px;border-radius:3px;background:rgba(255,255,255,.18);overflow:hidden}.la .bar i{display:block;height:100%;width:33%;background:var(--color-brand-primaryVivid)}
+.la .acts{display:flex;justify-content:space-between;align-items:center;margin-top:10px;font-size:13px}.la .acts span{padding:8px 14px;border-radius:999px;background:rgba(255,255,255,.14);font-weight:600;min-height:36px;display:inline-flex;align-items:center}
+.island{display:inline-flex;align-items:center;gap:10px;background:#000;color:#fff;border-radius:999px;padding:8px 16px;font:600 14px/18px -apple-system,"SF Pro Text","Segoe UI",Roboto,sans-serif;margin-right:8px;box-shadow:var(--shadow-2)}
+.island .g{color:var(--color-brand-primaryVivid)}
+.island.exp{border-radius:28px;flex-direction:column;align-items:stretch;width:360px;padding:14px 18px}
+.island.exp .r{display:flex;justify-content:space-between;align-items:center;font-weight:500;font-size:13px;opacity:.85}
+footer{color:var(--color-text-tertiary);font-size:13px;text-align:center;padding:var(--spacing-8) 0}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="burr" viewBox="0 0 48 48">
+    <circle cx="24" cy="24" r="16" fill="none" stroke="var(--hook,#B4F461)" stroke-width="6" stroke-dasharray="3.2 3.1" stroke-linecap="round"/>
+    <circle cx="24" cy="24" r="15" fill="var(--body,#9A8EFE)"/>
+    <ellipse cx="18.5" cy="22" rx="4.2" ry="5.2" fill="#fff"/><ellipse cx="29.5" cy="22" rx="4.2" ry="5.2" fill="#fff"/>
+    <circle cx="19.5" cy="23" r="2.6" fill="#15131F"/><circle cx="30.5" cy="23" r="2.6" fill="#15131F"/>
+    <circle cx="18.6" cy="21.6" r=".9" fill="#fff"/><circle cx="29.6" cy="21.6" r=".9" fill="#fff"/>
+    <path d="M20 30q4 3 8 0" stroke="#15131F" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+  </symbol>
+</svg>
+<header>
+  <svg width="36" height="36" aria-hidden="true"><use href="#burr"/></svg>
+  <div><h1>Реп’ях — дизайн-система</h1><div class="sub">Прев’ю токенів v0.1 · джерело: <code>design/tokens/tokens.json</code></div></div>
+  <nav>
+    <a href="#ramps">Палітра</a><a href="#semantic">Семантика</a><a href="#type">Типографіка</a><a href="#space">Простір</a><a href="#components">Компоненти</a><a href="#widgets">Віджети</a><a href="#notif">Сповіщення</a>
+    <button class="toggle" id="toggle" type="button" aria-pressed="false">Темна тема</button>
+  </nav>
+</header>
+<main>
+
+<section id="ramps">
+  <h2>Примітивні рампи</h2>
+  <p class="lead">Якорі палітри «Реп’ях-цвіт» (обведені) збережені без змін; решта ступенів побудована в OKLCH. Підпис — hex і відносна яскравість.</p>
+  <div id="rampsHost"></div>
+</section>
+
+<section id="semantic">
+  <h2>Семантичні кольори, світла і темна теми поруч</h2>
+  <p class="lead">Коефіцієнти обчислюються в браузері за формулою WCAG 2.2 і мають збігатися з таблицею 3.3.3 специфікації. Поріг: текст 4.5, великий текст і UI-межі 3.0.</p>
+  <div class="grid2">
+    <div class="panel" data-theme="light"><h4>Light</h4><div class="pairs"></div></div>
+    <div class="panel" data-theme="dark"><h4>Dark</h4><div class="pairs"></div></div>
+  </div>
+</section>
+
+<section id="type">
+  <h2>Типографіка</h2>
+  <p class="lead">Fixel Text / Fixel Display (OFL 1.1). Транскрипція завжди системним шрифтом, бо Fixel не містить блоку IPA. Тестовий рядок: «Ґудзик є їжаку — щастя’ 0123456789 ₴».</p>
+  <div class="card" id="typeHost"></div>
+</section>
+
+<section id="space">
+  <h2>Простір, форма, висота</h2>
+  <div class="grid2">
+    <div class="card"><h3 style="margin-top:0">Відступи (4 pt сітка)</h3><div id="spaceHost"></div></div>
+    <div class="card"><h3 style="margin-top:0">Радіуси</h3>
+      <div class="row">
+        <div class="rad" style="border-radius:var(--radius-sm)">sm 8</div><div class="rad" style="border-radius:var(--radius-md)">md 12</div>
+        <div class="rad" style="border-radius:var(--radius-lg)">lg 16</div><div class="rad" style="border-radius:var(--radius-xl)">xl 24</div><div class="rad" style="border-radius:var(--radius-full);width:64px;height:64px">full</div>
+      </div>
+      <h3>Висота</h3>
+      <div class="row"><div class="elev" style="box-shadow:none">0 — плоско</div><div class="elev" style="box-shadow:var(--shadow-1)">1 — картка</div><div class="elev" style="box-shadow:var(--shadow-2)">2 — аркуш</div><div class="elev" style="box-shadow:var(--shadow-3)">3 — діалог</div></div>
+      <p class="muted">У темній темі тінь слабка, підйом передають світліша поверхня і контур <code>border.default</code>.</p>
+    </div>
+  </div>
+</section>
+
+<section id="components">
+  <h2>Компоненти</h2>
+  <h3>Button — варіанти та стани</h3>
+  <div class="card">
+    <div class="row" style="margin-bottom:12px"><button class="btn primary">Почати сесію</button><button class="btn secondary">Пізніше</button><button class="btn tertiary">Показати переклад</button><button class="btn destructive">Видалити дані</button><button class="btn icon" aria-label="Озвучити">🔊</button></div>
+    <div class="row"><button class="btn primary" style="filter:brightness(.92);transform:scale(.97)">pressed</button><button class="btn primary disabled">disabled</button><button class="btn primary focused">focused</button><button class="btn primary loading">loading</button><button class="btn secondary" style="border-color:var(--color-feedback-error);color:var(--color-feedback-error)">error</button></div>
+  </div>
+  <h3>Chip / FilterChip</h3>
+  <div class="card row"><span class="chip">A1</span><span class="chip on">✓ A2</span><span class="chip on">✓ B1</span><span class="chip">B2</span><span class="chip">C1</span><span class="chip">C2</span><span class="chip">Подорожі</span><span class="chip on">✓ IT та програмування</span><span class="chip lime">Нове</span><span class="chip" style="opacity:.38">Pro</span></div>
+  <h3>WordCard (hero) з мотивом «прилиплий реп’яшок»</h3>
+  <div class="card wordcard">
+    <svg class="mascot" width="56" height="56" aria-hidden="true"><use href="#burr"/></svg>
+    <div class="top"><span class="chip on" style="height:28px;font-size:12px">A2</span><span class="chip" style="height:28px;font-size:12px">Подорожі</span></div>
+    <p class="word">serendipity</p>
+    <div class="ipa"><span>/ˌsɛrənˈdɪpəti/</span><button class="btn icon" style="width:36px;height:36px;min-height:36px" aria-label="Озвучити">🔊</button></div>
+    <div class="pos">іменник</div>
+    <p class="tr">щасливий випадок; вміння робити приємні відкриття випадково</p>
+    <p class="ex">«She found the café by pure <b>serendipity</b>.» — Вона натрапила на кав’ярню суто випадково.</p>
+    <div class="meta">Показано 3 рази (ще 2 заплановано) · Наступна перевірка завтра</div>
+    <div class="row" style="margin-top:16px"><button class="btn primary" style="flex:1">Знаю</button><button class="btn secondary" style="flex:1">Повторити пізніше</button><button class="btn icon" aria-label="Улюблене" style="color:var(--color-reward-heart)">♥</button></div>
+  </div>
+  <div class="grid2" style="margin-top:20px">
+    <div>
+      <h3 style="margin-top:0">QuizOption — усі стани</h3>
+      <div class="qopt"><span>щасливий випадок</span><span class="ind">1</span></div>
+      <div class="qopt sel"><span>маршрут подорожі</span><span class="ind">2</span></div>
+      <div class="qopt ok"><span>щасливий випадок · <b>Правильно</b></span><span class="ind">✓</span></div>
+      <div class="qopt bad"><span>пересадка · Правильна відповідь: щасливий випадок</span><span class="ind">✕</span></div>
+      <div class="qopt foc"><span>блукати (focused)</span><span class="ind">4</span></div>
+      <div class="qopt dis"><span>недоступний варіант</span><span class="ind">5</span></div>
+    </div>
+    <div>
+      <h3 style="margin-top:0">TypedAnswerField</h3>
+      <div class="field"><span style="color:var(--color-text-tertiary)">Введи слово англійською</span></div><p class="hint muted">default</p>
+      <div class="field foc">serendip<span style="border-left:2px solid var(--color-brand-primary);height:22px"></span></div><p class="hint muted">focused</p>
+      <div class="field warn">serendipety</div><p class="hint" style="color:var(--color-feedback-warning)">Майже! Перевір написання.</p>
+      <div class="field err">wander</div><p class="hint" style="color:var(--color-feedback-error)">Неправильно. Правильна відповідь: serendipity</p>
+      <h3>StreakBadge · CurrencyPill · RewardCard-бейдж</h3>
+      <div class="row"><span class="pill streak">🔥 <span class="tnum">7 днів</span></span><span class="pill frozen">❄ Заморожено</span><span class="pill cur"><svg width="20" height="20" style="--body:var(--color-reward-currency)"><use href="#burr"/></svg><span class="tnum">240 колючок</span></span><span class="pill gold">★ +15</span></div>
+      <h3>ProgressRing · Toast</h3>
+      <div class="row">
+        <svg class="ring" viewBox="0 0 96 96" role="img" aria-label="Прогрес дня 7 із 10"><circle cx="48" cy="48" r="40" fill="none" stroke="var(--color-surface-sunken)" stroke-width="8"/><circle cx="48" cy="48" r="40" fill="none" stroke="var(--color-brand-primaryVivid)" stroke-width="8" stroke-linecap="round" stroke-dasharray="176 251" transform="rotate(-90 48 48)"/><text x="48" y="54" text-anchor="middle" font-family="var(--typography-fontFamily-display)" font-weight="700" font-size="24" fill="var(--color-text-primary)" class="tnum">7/10</text></svg>
+        <div class="toast">✓ Слово додано до улюблених <a href="#">Скасувати</a></div>
+      </div>
+    </div>
+  </div>
+  <h3>PaywallCard</h3>
+  <div class="card paywall">
+    <h3>Усі рівні й категорії</h3>
+    <ul><li>Обирай рівень A1-C2 і 8 категорій</li><li>Свій темп: слова, інтервал, покази</li><li>Статистика й історія слів</li></ul>
+    <div class="seg"><span>Місяць</span><span class="on">Рік <span class="badge" style="background:var(--color-brand-accent);color:var(--color-brand-onAccent)">−40 %</span></span></div>
+    <div style="font:600 24px/30px var(--typography-fontFamily-display);margin-bottom:12px">— ₴/рік <span class="muted" style="font:400 13px/18px var(--typography-fontFamily-text)">ціни визначаються перед релізом</span></div>
+    <button class="btn primary" style="width:100%">Спробувати тиждень безкоштовно</button>
+    <p class="muted" style="margin:10px 0 0">Потім автоматичне поновлення. Скасувати можна будь-коли в налаштуваннях App Store. <a href="#">Умови</a> · <a href="#">Приватність</a></p>
+  </div>
+  <h3>TabBar</h3>
+  <div class="tabbar">
+    <div class="tab on"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 3 9v11a2 2 0 0 0 2 2h4v-7h6v7h4a2 2 0 0 0 2-2V9z"/></svg>Сьогодні</div>
+    <div class="tab"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M4 4h12a4 4 0 0 1 4 4v12H8a4 4 0 0 1-4-4z"/><path d="M8 8h8M8 12h6"/></svg>Слова</div>
+    <div class="tab"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg>Перевірка</div>
+    <div class="tab"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M12 3l2.7 5.6 6.1.8-4.5 4.3 1.1 6.1L12 17l-5.4 2.8 1.1-6.1L3.2 9.4l6.1-.8z"/></svg>Нагороди</div>
+    <div class="tab"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="3"/><path d="M19 12a7 7 0 0 0-.1-1l2-1.5-2-3.5-2.4 1a7 7 0 0 0-1.7-1L14.5 3h-5l-.3 2.6a7 7 0 0 0-1.7 1l-2.4-1-2 3.5 2 1.5a7 7 0 0 0 0 2l-2 1.5 2 3.5 2.4-1a7 7 0 0 0 1.7 1l.3 2.6h5l.3-2.6a7 7 0 0 0 1.7-1l2.4 1 2-3.5-2-1.5c.1-.3.1-.7.1-1z"/></svg>Налаштування</div>
+  </div>
+</section>
+
+<section id="widgets">
+  <h2>Віджети — головна сцена</h2>
+  <p class="lead">Пріоритет змісту: слово > IPA > переклад > приклад > метадані. Тема віджета — перекриття лише <code>color.widget.*</code>. У tinted (iOS 18+) і clear (iOS 26) режимах система фарбує все сама, тому ієрархія тримається на розмірі й вазі.</p>
+  <div class="row" style="margin-bottom:12px"><span class="muted">Тема віджета:</span>
+    <button class="toggle wt on" data-wt="tsvit" type="button">Цвіт</button><button class="toggle wt" data-wt="luh" type="button">Луг</button><button class="toggle wt" data-wt="nich" type="button">Ніч</button><button class="toggle wt" data-wt="sontse" type="button">Сонце</button>
+  </div>
+  <div class="wall" id="wgroup">
+    <div class="widget small"><span class="w-chip"><span class="w-acc"></span>A2 · Подорожі</span><div class="w-word">serendipity</div><div class="w-ipa">/ˌsɛrənˈdɪpəti/</div><div class="w-tr">щасливий випадок</div><div class="w-foot"><span>3/5 сьогодні</span><span class="w-btn">→</span></div></div>
+    <div class="widget medium"><div style="display:flex;justify-content:space-between;align-items:center"><div class="w-word" style="margin:0">serendipity</div><span class="w-chip"><span class="w-acc"></span>A2 · Подорожі</span></div><div class="w-ipa">/ˌsɛrənˈdɪpəti/ · ім.</div><div class="w-tr">щасливий випадок</div><div class="w-ex">«She found the café by pure serendipity.»</div><div class="w-foot"><span class="w-link">▸ Перевірити</span><span class="w-free">5/5 сьогодні</span><span class="w-btn">→</span></div></div>
+    <div class="widget large"><div style="display:flex;justify-content:space-between;align-items:center;font-size:12px;color:var(--color-widget-translation)"><span>Слово години</span><span class="w-chip"><span class="w-acc"></span>A2 · Подорожі</span></div><div class="w-word">serendipity</div><div class="w-ipa">/ˌsɛrənˈdɪpəti/ · іменник</div><div class="w-tr">щасливий випадок</div><div class="w-ex">«She found the café by pure serendipity.»</div><div class="w-div"></div><div style="font-size:12px;color:var(--color-widget-translation)">Нещодавні</div><div class="w-recent"><span>wander</span><span>блукати</span><span>itinerary</span><span>маршрут</span><span>layover</span><span>пересадка</span></div><div class="w-div"></div><div class="w-foot"><span class="w-link" style="padding:8px 12px;border:1.5px solid currentColor;border-radius:999px">Перевірити 3 слова</span><span>3/5 сьогодні</span><span class="w-btn">→</span></div></div>
+  </div>
+  <h3>Tinted (iOS 18+) та clear (iOS 26): текст і форма без опори на колір</h3>
+  <div class="wall" style="background:linear-gradient(135deg,#2a3d8f,#7b2d8e 50%,#e0533b)">
+    <div class="widget small tinted"><span class="w-chip">A2 · Подорожі</span><div class="w-word">serendipity</div><div class="w-ipa">/ˌsɛrənˈdɪpəti/</div><div class="w-tr">щасливий випадок</div><div class="w-foot"><span>3/5 сьогодні</span><span class="w-btn">→</span></div></div>
+    <div class="widget medium tinted clear"><div style="display:flex;justify-content:space-between;align-items:center"><div class="w-word" style="margin:0">serendipity</div><span class="w-chip">A2 · Подорожі</span></div><div class="w-ipa">/ˌsɛrənˈdɪpəti/ · ім.</div><div class="w-tr">щасливий випадок</div><div class="w-ex">«She found the café by pure serendipity.»</div><div class="w-foot"><span class="w-link">▸ Перевірити</span><span class="w-free">5/5 сьогодні</span><span class="w-btn">→</span></div></div>
+    <div class="widget small tinted" style="filter:grayscale(1)"><span class="w-chip">A2 · Подорожі</span><div class="w-word">serendipity</div><div class="w-ipa">/ˌsɛrənˈdɪpəti/</div><div class="w-tr">щасливий випадок</div><div class="w-foot"><span>3/5 сьогодні</span><span class="w-btn">→</span></div></div>
+  </div>
+  <p class="muted">Третій зразок — перевірка «у сірому»: ієрархія має читатися без кольору.</p>
+  <h3>Екран блокування (vibrant): rectangular, inline, circular · серія прихована</h3>
+  <div class="wall lock lockw">
+    <div class="inline">✦ serendipity — щасливий випадок</div>
+    <div class="time">09:41</div>
+    <div class="row"><div class="rect"><b>✦ serendipity</b><span>щасливий випадок</span><i>/ˌsɛrənˈdɪpəti/</i></div><div class="circ">seren<br><span style="font-weight:500;opacity:.8">EN</span></div></div>
+  </div>
+  <h3>Android 4×2: Material You (зліва, кольори шпалер) і відкат на тему віджета (справа)</h3>
+  <div class="wall" id="agroup">
+    <div class="android m3"><div class="a-top"><span class="a-word">serendipity</span><span class="a-chip">A2 · Подорожі</span></div><div class="a-ipa">/ˌsɛrənˈdɪpəti/ · ім.</div><div class="a-tr">щасливий випадок</div><div class="a-foot"><span class="a-link">Перевірити</span><span>3/5</span><span class="a-btn">→</span></div></div>
+    <div class="android brand"><div class="a-top"><span class="a-word">serendipity</span><span class="a-chip">A2 · Подорожі</span></div><div class="a-ipa">/ˌsɛrənˈdɪpəti/ · ім.</div><div class="a-tr">щасливий випадок</div><div class="a-foot"><span class="a-link">Перевірити</span><span>3/5</span><span class="a-btn">→</span></div></div>
+  </div>
+  <p class="muted">RemoteViews не підтримують власні шрифти: Roboto / sans-serif-medium; текст ніколи не рендериться як растр.</p>
+</section>
+
+<section id="notif">
+  <h2>Сповіщення та Live Activity «сесія»</h2>
+  <div class="grid2">
+    <div>
+      <h3 style="margin-top:0">Сповіщення <code>word.default</code> і <code>word.hidden</code></h3>
+      <div class="notif" style="margin-bottom:12px"><div class="appicon"><svg width="26" height="26"><use href="#burr"/></svg></div><div><div class="h">serendipity <small>зараз</small></div><div class="s">/ˌsɛrənˈdɪpəti/ · іменник</div><div class="b">щасливий випадок · «She found the café by pure serendipity.»</div></div><div class="acts"><span>Знаю</span><span>Наступне</span></div></div>
+      <div class="notif"><div class="appicon"><svg width="26" height="26"><use href="#burr"/></svg></div><div><div class="h">serendipity <small>14:00</small></div><div class="s">/ˌsɛrənˈdɪpəti/ · іменник</div><div class="b">Пам’ятаєш переклад? Торкнись, щоб перевірити.</div></div><div class="acts"><span>Показати переклад</span><span>Наступне</span></div></div>
+      <p class="muted">Заголовок — завжди англійське слово; жодного loss-framing; до 3 на день; тихі години 22:00-08:00.</p>
+    </div>
+    <div>
+      <h3 style="margin-top:0">Live Activity: екран блокування</h3>
+      <div class="la"><div class="cap"><span>✦ Сесія слів · залишилось 1 год 12 хв</span><span>A2</span></div><div class="w"><b>serendipity</b><i>/ˌsɛrənˈdɪpəti/</i></div><div class="t">щасливий випадок</div><div class="bar"><i></i></div><div class="acts"><span style="background:transparent;padding-left:0">4/12</span><span>Знаю</span><span>Завершити</span></div></div>
+      <h3>Dynamic Island: compact, minimal, expanded</h3>
+      <div style="margin-bottom:10px"><span class="island"><span class="g">✦</span> serendipity</span><span class="island"><span class="g">✦</span></span><span class="island"><span class="g">✦</span> 4/12</span></div>
+      <div class="island exp"><div class="r"><span><span class="g">✦</span> 4/12</span><span>1:12 год</span></div><div style="font-size:22px;font-weight:700;margin:6px 0 0">serendipity <span style="font:400 13px/16px var(--typography-fontFamily-ipa);opacity:.8">/ˌsɛrənˈdɪpəti/</span></div><div style="font-weight:400;font-size:15px;opacity:.9">щасливий випадок</div><div class="r" style="margin-top:10px"><span style="padding:8px 14px;border-radius:999px;background:rgba(255,255,255,.14)">Знаю</span><span style="padding:8px 14px;border-radius:999px;background:rgba(255,255,255,.14)">Завершити</span></div></div>
+    </div>
+  </div>
+</section>
+</main>
+<footer>Реп’ях · дизайн-система v0.1 · <span id="fontNote"></span></footer>
+
+<script>
+(function(){
+  const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
+  /* ---- WCAG 2.2 ---- */
+  const lin=c=>{c/=255;return c<=0.04045?c/12.92:Math.pow((c+0.055)/1.055,2.4)};
+  const hex2rgb=h=>{h=h.trim().replace('#','');if(h.length===8)h=h.slice(0,6);return [0,2,4].map(i=>parseInt(h.slice(i,i+2),16))};
+  const lum=h=>{const[r,g,b]=hex2rgb(h);return 0.2126*lin(r)+0.7152*lin(g)+0.0722*lin(b)};
+  const ratio=(a,b)=>{let la=lum(a),lb=lum(b);if(la<lb)[la,lb]=[lb,la];return (la+0.05)/(lb+0.05)};
+  const cssVar=(el,n)=>getComputedStyle(el).getPropertyValue(n).trim();
+
+  /* ---- рампи ---- */
+  const ramps={violet:[50,100,200,300,400,500,600,700,800,900,950],lime:[50,100,200,300,400,500,600,700,800,900,950],coral:[50,100,200,300,400,500,600,700,800,900,950],sunny:[50,100,200,300,400,500,600,700,800,900,950],sky:[50,100,200,300,400,500,600,700,800,900,950],neutral:[0,50,100,200,300,400,500,600,700,800,900,950,1000]};
+  const anchors={violet:500,lime:400,coral:400,sunny:400,sky:400,neutral:50};
+  const root=document.documentElement, host=$('#rampsHost');
+  for(const [name,steps] of Object.entries(ramps)){
+    const row=document.createElement('div');row.className='ramp';
+    row.innerHTML=`<div class="name">${name}</div>`+steps.map(s=>{const v=cssVar(root,`--color-primitive-${name}-${s}`);const L=lum(v);const ink=L>0.3?'#15131F':'#F7F6FC';return `<div class="sw ${(s===anchors[name]||(name==='neutral'&&s===950))?'anchor':''}" style="background:${v};color:${ink}" title="${name}.${s}"><span>${s}</span><span>${v}</span><span>${L.toFixed(3)}</span></div>`}).join('');
+    host.appendChild(row);
+  }
+
+  /* ---- семантичні пари (ті самі, що в специфікації 3.3.3) ---- */
+  const B='body',L='large',U='ui';
+  const pairs=[['text.primary','surface.default',B],['text.primary','surface.elevated',B],['text.primary','surface.sunken',B],['text.secondary','surface.default',B],['text.secondary','surface.elevated',B],['text.secondary','surface.sunken',B],['text.tertiary','surface.default',B],['text.tertiary','surface.elevated',B],['text.tertiary','surface.sunken',B],['text.link','surface.default',B],['text.link','surface.elevated',B],['text.link','surface.sunken',B],['text.inverse','text.primary',B],['brand.onPrimary','brand.primary',B],['brand.primary','surface.default',B],['brand.primary','surface.elevated',B],['brand.primaryVivid','surface.default',L],['brand.primaryVivid','surface.elevated',L],['brand.onPrimaryContainer','brand.primaryContainer',B],['brand.onAccent','brand.accent',B],['brand.accentText','surface.default',B],['brand.accentText','surface.elevated',B],['feedback.success','surface.default',B],['feedback.success','surface.elevated',B],['feedback.onSuccessContainer','feedback.successContainer',B],['feedback.error','surface.default',B],['feedback.error','surface.elevated',B],['feedback.onErrorContainer','feedback.errorContainer',B],['feedback.warning','surface.default',B],['feedback.warning','surface.elevated',B],['feedback.onWarningContainer','feedback.warningContainer',B],['feedback.info','surface.default',B],['feedback.info','surface.elevated',B],['feedback.onInfoContainer','feedback.infoContainer',B],['reward.goldText','reward.goldContainer',B],['reward.goldText','surface.default',B],['reward.currencyText','reward.currencyContainer',B],['reward.currencyText','surface.default',B],['streak.text','streak.container',B],['streak.text','surface.default',B],['streak.frozenText','surface.default',B],['quiz.correct','quiz.correctContainer',B],['quiz.incorrect','quiz.incorrectContainer',B],['quiz.selected','quiz.selectedContainer',B],['quiz.correctBorder','surface.elevated',U],['quiz.incorrectBorder','surface.elevated',U],['quiz.selectedBorder','surface.elevated',U],['border.strong','surface.default',U],['border.strong','surface.elevated',U],['border.focus','surface.default',U],['border.focus','surface.elevated',U],['widget.word','widget.background',L],['widget.translation','widget.background',B],['widget.ipa','widget.background',B],['widget.example','widget.background',B],['widget.onAccent','widget.accent',B],['widget.chipText','widget.chipBackground',B],['widget.onButton','widget.button',B],['widget.onBadgeFree','widget.badgeFree',B],['widget.accent','widget.background',U],['widget.button','widget.background',U]];
+  const thr={body:4.5,large:3,ui:3}, kindUA={body:'текст',large:'великий',ui:'UI'};
+  $$('.panel').forEach(panel=>{
+    const out=$('.pairs',panel);let pass=0,aaa=0;
+    pairs.forEach(([fg,bg,k])=>{
+      const f=cssVar(panel,'--color-'+fg.replace('.','-')), b=cssVar(panel,'--color-'+bg.replace('.','-'));
+      const r=ratio(f,b), ok=r>=thr[k]; if(ok)pass++; if(r>=7)aaa++;
+      const el=document.createElement('div');el.className='pair';el.style.background=b;el.style.color=f;
+      el.innerHTML=`<div class="t">${fg}<small>${f} на ${b} · ${kindUA[k]} ≥ ${thr[k]}</small></div><div class="r"><span class="badge ${ok?'pass':'fail'}" style="color:${ok?'var(--color-primitive-lime-950)':'var(--color-primitive-coral-800)'};background:${ok?'var(--color-primitive-lime-100)':'var(--color-primitive-coral-100)'}">${r.toFixed(2)} ${ok?'pass':'FAIL'}</span>${r>=7?' <span class="badge" style="background:var(--color-primitive-violet-100);color:var(--color-primitive-violet-800)">7:1</span>':''}</div>`;
+      out.appendChild(el);
+    });
+    const sum=document.createElement('p');sum.className='muted';sum.textContent=`${pass}/${pairs.length} pass · ${aaa} пар ≥ 7:1`;out.prepend(sum);
+  });
+
+  /* ---- типографіка ---- */
+  const T=[['display.lg','display',40,46,700,'-0.02em'],['display.md','display',32,38,700,'-0.015em'],['headline.lg','display',28,34,600,'-0.01em'],['headline.md','display',24,30,600,'-0.005em'],['headline.sm','text',20,26,600,'0'],['title.lg','text',18,24,600,'0'],['title.md','text',16,22,600,'0'],['title.sm','text',14,20,600,'0.005em'],['body.lg','text',17,24,400,'0'],['body.md','text',15,22,400,'0'],['body.sm','text',13,18,400,'0.005em'],['label.lg','text',16,20,600,'0.005em'],['label.md','text',14,18,500,'0.01em'],['label.sm','text',12,16,500,'0.02em'],['word.hero','display',34,40,700,'-0.01em'],['word.ipa','ipa',15,20,400,'0'],['numeric.stat','display',28,32,700,'0']];
+  const samples={default:'Ґудзик є їжаку — щастя’ · serendipity — щасливий випадок 0123456789 ₴','word.ipa':'/ˌsɛrənˈdɪpəti/ · /ˈwɒndə/ · /ˌɪtɪˈnɛrəri/ (системний шрифт)','numeric.stat':'1 234 · 07:45 · 98 % (tabular)','word.hero':'serendipity','label.lg':'Почати сесію · Знаю · Пізніше','label.sm':'A2 · ПОДОРОЖІ · 5/5 СЬОГОДНІ'};
+  const th=$('#typeHost');
+  T.forEach(([n,fam,s,lh,w,ls])=>{const row=document.createElement('div');row.className='type-row';row.innerHTML=`<div class="meta">type.${n}<br>${s}/${lh} · ${w} · ${ls}</div><div class="sample ${n==='numeric.stat'?'tnum':''}" style="font-family:var(--typography-fontFamily-${fam});font-size:${s}px;line-height:${lh}px;font-weight:${w};letter-spacing:${ls}">${samples[n]||samples.default}</div>`;th.appendChild(row)});
+
+  /* ---- відступи ---- */
+  const sh=$('#spaceHost');[4,8,12,16,20,24,32,40,48,56,64,80].forEach((v,i)=>{const r=document.createElement('div');r.className='space-row';r.innerHTML=`<code>space.${i+1}</code><div class="space-bar" style="width:${v*2}px"></div><span class="muted">${v} pt</span>`;sh.appendChild(r)});
+
+  /* ---- перемикачі ---- */
+  const tg=$('#toggle');
+  const applyTheme=t=>{root.setAttribute('data-theme',t);tg.textContent=t==='dark'?'Світла тема':'Темна тема';tg.setAttribute('aria-pressed',t==='dark')};
+  tg.addEventListener('click',()=>applyTheme(root.getAttribute('data-theme')==='dark'?'light':'dark'));
+  if(matchMedia('(prefers-color-scheme: dark)').matches)applyTheme('dark');
+  $$('.wt').forEach(b=>b.addEventListener('click',()=>{$$('.wt').forEach(x=>x.classList.remove('on'));b.classList.add('on');['#wgroup','#agroup'].forEach(id=>{const g=$(id);g.className=g.className.replace(/\bwtheme-\w+/g,'').trim()+(b.dataset.wt==='tsvit'?'':' wtheme-'+b.dataset.wt)})}));
+
+  /* ---- примітка про шрифт ---- */
+  const note=$('#fontNote');
+  if(document.fonts&&document.fonts.check){document.fonts.ready.then(()=>{note.textContent=document.fonts.check('16px "Fixel Text"')?'Fixel завантажено з jsDelivr':'Fixel недоступний — показано Inter/системний шрифт'})}
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Server kernel: Result mapping to ProblemDetails, IClock, outbox primitives, module contract. -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\shared\Burdock.Domain\Burdock.Domain.csproj" />
+    <ProjectReference Include="..\..\shared\Burdock.Contracts\Burdock.Contracts.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+</Project>

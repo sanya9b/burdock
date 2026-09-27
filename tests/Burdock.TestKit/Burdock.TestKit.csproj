@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Shared test builders for Domain types (spec 15). Depends on Domain only so both solutions can use it. -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <IsTestProject>false</IsTestProject>
+    <UseMicrosoftTestingPlatformRunner>false</UseMicrosoftTestingPlatformRunner>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\shared\Burdock.Domain\Burdock.Domain.csproj" />
+  </ItemGroup>
+</Project>

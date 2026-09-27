@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Server fitness functions: module isolation and the ban on Burdock.Domain.Scheduling on the server (spec 09 section 1.3, T23). -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NetArchTest.Rules" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\shared\Burdock.Domain\Burdock.Domain.csproj" />
+    <ProjectReference Include="..\..\src\server\Burdock.Server.Shared\Burdock.Server.Shared.csproj" />
+    <ProjectReference Include="..\..\src\server\Burdock.Server.Api\Burdock.Server.Api.csproj" />
+    <ProjectReference Include="..\..\src\server\Burdock.Server.Modules.Identity\Burdock.Server.Modules.Identity.csproj" />
+    <ProjectReference Include="..\..\src\server\Burdock.Server.Modules.Content\Burdock.Server.Modules.Content.csproj" />
+    <ProjectReference Include="..\..\src\server\Burdock.Server.Modules.LearnerProgress\Burdock.Server.Modules.LearnerProgress.csproj" />
+    <ProjectReference Include="..\..\src\server\Burdock.Server.Modules.Rewards\Burdock.Server.Modules.Rewards.csproj" />
+    <ProjectReference Include="..\..\src\server\Burdock.Server.Modules.Entitlements\Burdock.Server.Modules.Entitlements.csproj" />
+    <ProjectReference Include="..\..\src\server\Burdock.Server.Modules.SettingsSync\Burdock.Server.Modules.SettingsSync.csproj" />
+    <ProjectReference Include="..\..\src\server\Burdock.Server.Modules.Notifications\Burdock.Server.Modules.Notifications.csproj" />
+    <ProjectReference Include="..\..\src\server\Burdock.Server.Modules.Analytics\Burdock.Server.Modules.Analytics.csproj" />
+  </ItemGroup>
+</Project>

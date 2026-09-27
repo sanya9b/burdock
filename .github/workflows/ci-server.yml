@@ -1,0 +1,65 @@
+name: ci-server
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "src/server/**"
+      - "src/shared/**"
+      - "content/pipeline/**"
+      - "tests/Burdock.Server*/**"
+      - "tests/Burdock.Domain.Tests/**"
+      - "tests/Burdock.TestKit/**"
+      - "Directory.*.props"
+      - "global.json"
+      - "Burdock.Server.slnx"
+      - ".github/workflows/ci-server.yml"
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-server-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-test:
+    name: Build and test (server)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          global-json-file: global.json
+
+      - name: Cache NuGet
+        uses: actions/cache@v4
+        with:
+          path: ~/.nuget/packages
+          key: nuget-server-${{ runner.os }}-${{ hashFiles('Directory.Packages.props', '**/*.csproj') }}
+          restore-keys: nuget-server-${{ runner.os }}-
+
+      - name: Restore
+        run: dotnet restore Burdock.Server.slnx
+
+      - name: Build (warnings are errors)
+        run: dotnet build Burdock.Server.slnx --no-restore -c Release
+
+      - name: Test (Microsoft.Testing.Platform, opted in via global.json)
+        run: >
+          dotnet test --solution Burdock.Server.slnx --no-build -c Release
+          --report-trx --results-directory artifacts/test-results
+
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: server-test-results
+          path: artifacts/test-results
+          if-no-files-found: ignore

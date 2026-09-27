@@ -1,0 +1,80 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+.vs/
+.idea/
+*.swp
+TestResults/
+artifacts/
+*.binlog
+*.nupkg
+*.snupkg
+.dotnet/
+BenchmarkDotNet.Artifacts/
+
+# MAUI / mobile
+*.apk
+*.aab
+*.ipa
+*.dSYM.zip
+*.app
+*.xcarchive
+Platforms/iOS/**/*.pkg
+*.keystore
+*.jks
+*.mobileprovision
+*.p12
+*.p8
+*.cer
+AuthKey_*.p8
+
+# Xcode (widget extension)
+xcuserdata/
+DerivedData/
+*.xcworkspace/xcuserdata/
+*.moved-aside
+.build/
+Pods/
+
+# Node / tooling
+node_modules/
+.pnpm-store/
+dist/
+
+# Python (design/token scripts, pipeline helpers)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Content pipeline artifacts
+content/packs/
+content/sources/raw/
+content/review/tmp/
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# Secrets & local config
+.env
+.env.*
+!.env.example
+secrets.*.yaml
+!secrets.example.yaml
+*.age
+appsettings.*.local.json
+local.settings.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & temp
+*.log
+logs/
+tmp/
+temp/

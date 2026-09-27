@@ -1,0 +1,29 @@
+<Solution>
+  <Folder Name="/content/" />
+  <Folder Name="/content/pipeline/">
+    <Project Path="content/pipeline/Burdock.ContentPipeline/Burdock.ContentPipeline.csproj" />
+  </Folder>
+  <Folder Name="/src/" />
+  <Folder Name="/src/server/">
+    <Project Path="src/server/Burdock.Server.Api/Burdock.Server.Api.csproj" />
+    <Project Path="src/server/Burdock.Server.Modules.Analytics/Burdock.Server.Modules.Analytics.csproj" />
+    <Project Path="src/server/Burdock.Server.Modules.Content/Burdock.Server.Modules.Content.csproj" />
+    <Project Path="src/server/Burdock.Server.Modules.Entitlements/Burdock.Server.Modules.Entitlements.csproj" />
+    <Project Path="src/server/Burdock.Server.Modules.Identity/Burdock.Server.Modules.Identity.csproj" />
+    <Project Path="src/server/Burdock.Server.Modules.LearnerProgress/Burdock.Server.Modules.LearnerProgress.csproj" />
+    <Project Path="src/server/Burdock.Server.Modules.Notifications/Burdock.Server.Modules.Notifications.csproj" />
+    <Project Path="src/server/Burdock.Server.Modules.Rewards/Burdock.Server.Modules.Rewards.csproj" />
+    <Project Path="src/server/Burdock.Server.Modules.SettingsSync/Burdock.Server.Modules.SettingsSync.csproj" />
+    <Project Path="src/server/Burdock.Server.Shared/Burdock.Server.Shared.csproj" />
+  </Folder>
+  <Folder Name="/src/shared/">
+    <Project Path="src/shared/Burdock.Contracts/Burdock.Contracts.csproj" />
+    <Project Path="src/shared/Burdock.Domain/Burdock.Domain.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Burdock.Domain.Tests/Burdock.Domain.Tests.csproj" />
+    <Project Path="tests/Burdock.Server.ArchitectureTests/Burdock.Server.ArchitectureTests.csproj" />
+    <Project Path="tests/Burdock.Server.Tests/Burdock.Server.Tests.csproj" />
+    <Project Path="tests/Burdock.TestKit/Burdock.TestKit.csproj" />
+  </Folder>
+</Solution>

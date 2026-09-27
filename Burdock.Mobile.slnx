@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/mobile/">
+    <Project Path="src/mobile/Burdock.Application/Burdock.Application.csproj" />
+    <Project Path="src/mobile/Burdock.Infrastructure/Burdock.Infrastructure.csproj" />
+    <Project Path="src/mobile/Burdock.Presentation/Burdock.Presentation.csproj" />
+  </Folder>
+  <Folder Name="/src/shared/">
+    <Project Path="src/shared/Burdock.Contracts/Burdock.Contracts.csproj" />
+    <Project Path="src/shared/Burdock.Domain/Burdock.Domain.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Burdock.Application.Tests/Burdock.Application.Tests.csproj" />
+    <Project Path="tests/Burdock.Architecture.Tests/Burdock.Architecture.Tests.csproj" />
+    <Project Path="tests/Burdock.Domain.Tests/Burdock.Domain.Tests.csproj" />
+    <Project Path="tests/Burdock.TestKit/Burdock.TestKit.csproj" />
+  </Folder>
+</Solution>

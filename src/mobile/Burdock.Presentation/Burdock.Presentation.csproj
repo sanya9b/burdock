@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- MAUI head: XAML, ViewModels, navigation and the composition root (spec 01 section 3.1). Business rules never live here. -->
+  <PropertyGroup>
+    <TargetFrameworks>net10.0-android;net10.0-ios</TargetFrameworks>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Burdock.Presentation</RootNamespace>
+    <UseMaui>true</UseMaui>
+    <SingleProject>true</SingleProject>
+    <MauiXamlInflator>SourceGen</MauiXamlInflator>
+    <NeutralLanguage>uk</NeutralLanguage>
+
+    <!-- Store identity (decision Q27). The display name is localized through MauiInfoPlist/Android resources; the Ukrainian title is set in Platforms. -->
+    <ApplicationTitle>Burdock</ApplicationTitle>
+    <ApplicationId>org.burdock.app</ApplicationId>
+    <ApplicationDisplayVersion>0.1.0</ApplicationDisplayVersion>
+    <ApplicationVersion>1</ApplicationVersion>
+
+    <!-- Platform floors (decisions Q25, T2). -->
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">16.0</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">26.0</SupportedOSPlatformVersion>
+
+    <!-- The MAUI template emits a few analyzer findings we do not control (generated code); keep the rest of the repo strict. -->
+    <NoWarn>$(NoWarn);CA1515</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- App icon and splash use the brand violet from design/tokens (color.brand.primaryVivid #7C5CFF) until final artwork lands. -->
+    <MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#7C5CFF" />
+    <MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#7C5CFF" BaseSize="128,128" />
+    <MauiImage Include="Resources\Images\*" />
+    <MauiFont Include="Resources\Fonts\*" />
+    <MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\shared\Burdock.Domain\Burdock.Domain.csproj" />
+    <ProjectReference Include="..\Burdock.Application\Burdock.Application.csproj" />
+    <ProjectReference Include="..\Burdock.Infrastructure\Burdock.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Maui.Controls" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" />
+    <PackageReference Include="CommunityToolkit.Mvvm" />
+    <PackageReference Include="CommunityToolkit.Maui" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <!-- Host: Minimal APIs, OpenAPI, composition root. Business rules live in modules. -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <InvariantGlobalization>false</InvariantGlobalization>
+    <UserSecretsId>burdock-server-api</UserSecretsId>
+    <ContainerRepository>burdock/api</ContainerRepository>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Burdock.Server.Shared\Burdock.Server.Shared.csproj" />
+    <ProjectReference Include="..\Burdock.Server.Modules.Identity\Burdock.Server.Modules.Identity.csproj" />
+    <ProjectReference Include="..\Burdock.Server.Modules.Content\Burdock.Server.Modules.Content.csproj" />
+    <ProjectReference Include="..\Burdock.Server.Modules.LearnerProgress\Burdock.Server.Modules.LearnerProgress.csproj" />
+    <ProjectReference Include="..\Burdock.Server.Modules.Rewards\Burdock.Server.Modules.Rewards.csproj" />
+    <ProjectReference Include="..\Burdock.Server.Modules.Entitlements\Burdock.Server.Modules.Entitlements.csproj" />
+    <ProjectReference Include="..\Burdock.Server.Modules.SettingsSync\Burdock.Server.Modules.SettingsSync.csproj" />
+    <ProjectReference Include="..\Burdock.Server.Modules.Notifications\Burdock.Server.Modules.Notifications.csproj" />
+    <ProjectReference Include="..\Burdock.Server.Modules.Analytics\Burdock.Server.Modules.Analytics.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+  </ItemGroup>
+</Project>

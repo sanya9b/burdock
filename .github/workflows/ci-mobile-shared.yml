@@ -1,0 +1,68 @@
+name: ci-mobile-shared
+
+# Platform-independent layers of the mobile app: Domain, Application, Infrastructure (net10.0) and their tests,
+# including the architecture tests that enforce the dependency rule (spec 14, spec 15).
+on:
+  push:
+    branches: [main]
+    paths:
+      - "src/shared/**"
+      - "src/mobile/Burdock.Application/**"
+      - "src/mobile/Burdock.Infrastructure/**"
+      - "tests/Burdock.Domain.Tests/**"
+      - "tests/Burdock.Application.Tests/**"
+      - "tests/Burdock.Architecture.Tests/**"
+      - "tests/Burdock.TestKit/**"
+      - "Directory.*.props"
+      - "global.json"
+      - ".github/workflows/ci-mobile-shared.yml"
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-mobile-shared-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-test:
+    name: Build and test (shared layers)
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          global-json-file: global.json
+
+      - name: Install MAUI Android workload (Infrastructure multi-targets net10.0-android)
+        run: dotnet workload install maui-android --skip-sign-check
+
+      - name: Cache NuGet
+        uses: actions/cache@v4
+        with:
+          path: ~/.nuget/packages
+          key: nuget-mobile-shared-${{ runner.os }}-${{ hashFiles('Directory.Packages.props', '**/*.csproj') }}
+          restore-keys: nuget-mobile-shared-${{ runner.os }}-
+
+      - name: Build and test Domain
+        run: dotnet test --project tests/Burdock.Domain.Tests -c Release --report-trx --results-directory artifacts/test-results
+
+      - name: Build and test Application
+        run: dotnet test --project tests/Burdock.Application.Tests -c Release --report-trx --results-directory artifacts/test-results
+
+      - name: Architecture tests (dependency rule)
+        run: dotnet test --project tests/Burdock.Architecture.Tests -c Release --report-trx --results-directory artifacts/test-results
+
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mobile-shared-test-results
+          path: artifacts/test-results
+          if-no-files-found: ignore

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Mobile fitness functions: the dependency rule between Domain, Application, Infrastructure (spec 01 section 3.15, spec 15 section 3.3). -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NetArchTest.Rules" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\shared\Burdock.Domain\Burdock.Domain.csproj" />
+    <ProjectReference Include="..\..\src\shared\Burdock.Contracts\Burdock.Contracts.csproj" />
+    <ProjectReference Include="..\..\src\mobile\Burdock.Application\Burdock.Application.csproj" />
+    <ProjectReference Include="..\..\src\mobile\Burdock.Infrastructure\Burdock.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
