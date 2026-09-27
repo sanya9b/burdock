@@ -33,6 +33,8 @@
     <MauiImage Include="Resources\Images\*" />
     <MauiFont Include="Resources\Fonts\*" />
     <MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+    <!-- Bundled content packs (spec 08 section 3.10): single source of truth lives in content/seed, linked into the package as content/<file>. -->
+    <MauiAsset Include="..\..\..\content\seed\*.json" LogicalName="content/%(Filename)%(Extension)" Link="Resources\Raw\content\%(Filename)%(Extension)" />
   </ItemGroup>
 
   <ItemGroup>

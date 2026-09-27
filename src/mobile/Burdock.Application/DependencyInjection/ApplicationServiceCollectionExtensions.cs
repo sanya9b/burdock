@@ -1,4 +1,8 @@
+using Burdock.Application.UseCases.Content;
 using Burdock.Application.UseCases.LearningDays;
+using Burdock.Application.UseCases.Planning;
+using Burdock.Application.UseCases.Sessions;
+using Burdock.Application.UseCases.Words;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Burdock.Application.DependencyInjection;
@@ -10,6 +14,14 @@ public static class ApplicationServiceCollectionExtensions
     {
         ArgumentNullException.ThrowIfNull(services);
         services.AddSingleton<LearningDayResolver>();
+        services.AddTransient<BootstrapContentUseCase>();
+        services.AddTransient<GetDailyPlanUseCase>();
+        services.AddTransient<RecordExposureUseCase>();
+        services.AddTransient<OpenWordUseCase>();
+        services.AddTransient<IntroduceWordUseCase>();
+        services.AddTransient<ClaimKnownUseCase>();
+        services.AddTransient<BuildSessionUseCase>();
+        services.AddTransient<GradeAnswerUseCase>();
         return services;
     }
 }

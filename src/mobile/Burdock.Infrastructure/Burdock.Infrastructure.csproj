@@ -1,5 +1,5 @@
 <Project Sdk="Microsoft.NET.Sdk">
-  <!-- Adapters: SQLite, HTTP, secure storage, platform bridges. Depends on Application and Domain. -->
+  <!-- Adapters: SQLite, HTTP, secure storage, FSRS, platform bridges. Depends on Application and Domain. -->
   <PropertyGroup>
     <TargetFrameworks>net10.0;net10.0-android</TargetFrameworks>
     <TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('osx'))">$(TargetFrameworks);net10.0-ios</TargetFrameworks>
@@ -7,6 +7,8 @@
     <SingleProject>true</SingleProject>
     <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">16.0</SupportedOSPlatformVersion>
     <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">26.0</SupportedOSPlatformVersion>
+    <!-- Row classes are instantiated by sqlite-net through reflection. -->
+    <NoWarn>$(NoWarn);CA1812</NoWarn>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\shared\Burdock.Domain\Burdock.Domain.csproj" />
@@ -14,6 +16,9 @@
     <ProjectReference Include="..\Burdock.Application\Burdock.Application.csproj" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.Maui.Controls" />
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" />
+    <PackageReference Include="sqlite-net-pcl" />
+    <PackageReference Include="Fsrs.Sharp" />
   </ItemGroup>
 </Project>
