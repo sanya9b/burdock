@@ -1,8 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <!-- MAUI head: XAML, ViewModels, navigation and the composition root (spec 01 section 3.1). Business rules never live here. -->
   <PropertyGroup>
-    <TargetFrameworks>net10.0-android;net10.0-ios</TargetFrameworks>
-    <!-- CI builds one platform per runner: pass -p:BurdockTargets=net10.0-android (Linux) or net10.0-ios (macOS) so restore needs only that workload. -->
+    <!-- Android everywhere; iOS only on macOS (no Mac locally, decision Q6/Q16: iOS is built by ci-ios). -p:BurdockTargets overrides for CI runners. -->
+    <TargetFrameworks>net10.0-android</TargetFrameworks>
+    <TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('osx'))">$(TargetFrameworks);net10.0-ios</TargetFrameworks>
     <TargetFrameworks Condition="'$(BurdockTargets)' != ''">$(BurdockTargets)</TargetFrameworks>
     <OutputType>Exe</OutputType>
     <RootNamespace>Burdock.Presentation</RootNamespace>
