@@ -1,4 +1,5 @@
 using Burdock.Presentation.Navigation;
+using Burdock.Presentation.Services;
 using Burdock.Presentation.ViewModels;
 using Burdock.Presentation.Views;
 
@@ -13,6 +14,7 @@ public static class PresentationServiceCollectionExtensions
 
         services.AddSingleton<AppShell>();
         services.AddSingleton<INavigationService, ShellNavigationService>();
+        services.AddSingleton<ISpeechService, MauiSpeechService>();
 
         services.AddTransient<TodayViewModel>();
         services.AddTransient<TodayPage>();
@@ -22,6 +24,12 @@ public static class PresentationServiceCollectionExtensions
         services.AddTransient<WordsPage>();
         services.AddTransient<MeViewModel>();
         services.AddTransient<MePage>();
+        services.AddTransient<WordCardViewModel>();
+        services.AddTransient<WordCardPage>();
+        services.AddTransient<SessionViewModel>();
+        services.AddTransient<SessionPage>();
+        services.AddTransient<SessionSummaryViewModel>();
+        services.AddTransient<SessionSummaryPage>();
 
         return services;
     }

@@ -7,6 +7,10 @@
              x:Class="Burdock.Presentation.Views.LearnPage"
              x:DataType="vm:LearnViewModel"
              Title="{x:Static strings:AppResources.Tab_Learn_Title}">
-    <!-- S-13 «Вчити» (spec 03): session launcher and focus session; empty until phase 1. -->
-    <views:EmptyStateView Title="{x:Static strings:AppResources.Learn_Empty_Title}" Body="{x:Static strings:AppResources.Learn_Empty_Body}" />
+    <!-- S-13 «Вчити» (spec 03): session launcher; focus session and statistics arrive later. -->
+    <VerticalStackLayout Spacing="{StaticResource Space4}" Padding="{StaticResource Space5}" MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
+        <views:EmptyStateView Title="{x:Static strings:AppResources.Learn_Empty_Title}" Body="{x:Static strings:AppResources.Learn_Empty_Body}" />
+        <Button Text="{x:Static strings:AppResources.Learn_StartQuick_Button}" Style="{StaticResource ButtonSecondary}" Command="{Binding StartQuickCommand}" />
+        <Button Text="{x:Static strings:AppResources.Learn_StartFull_Button}" Command="{Binding StartFullCommand}" />
+    </VerticalStackLayout>
 </ContentPage>

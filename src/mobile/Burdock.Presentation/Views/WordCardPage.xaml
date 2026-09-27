@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:vm="clr-namespace:Burdock.Presentation.ViewModels"
+             xmlns:strings="clr-namespace:Burdock.Presentation.Resources.Strings"
+             x:Class="Burdock.Presentation.Views.WordCardPage"
+             x:DataType="vm:WordCardViewModel"
+             Title="{x:Static strings:AppResources.Word_Title}">
+    <!-- S-11 «Картка слова» (spec 03): word hero, IPA, POS chip, translation hidden until tap, example, counters, «Знаю» / «Вчити». -->
+    <ContentPage.Resources>
+        <toolkit:IsEqualConverter x:Key="IsEqualConverter" />
+        <toolkit:InvertedBoolConverter x:Key="InvertedBoolConverter" />
+    </ContentPage.Resources>
+
+    <Grid>
+        <ActivityIndicator IsRunning="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Loading}}"
+                           IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Loading}}"
+                           VerticalOptions="Center" HorizontalOptions="Center" />
+
+        <Label Text="{x:Static strings:AppResources.Word_NotFound}"
+               Style="{StaticResource TypeBodyLg}"
+               HorizontalTextAlignment="Center" VerticalOptions="Center" Margin="{StaticResource Space6}"
+               IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Error}}" />
+
+        <ScrollView IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Ready}}">
+            <VerticalStackLayout Spacing="{StaticResource Space4}" Padding="{StaticResource Space5}" MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
+
+                <!-- Hero -->
+                <Border Padding="{StaticResource Space5}">
+                    <VerticalStackLayout Spacing="{StaticResource Space2}">
+                        <HorizontalStackLayout Spacing="{StaticResource Space2}">
+                            <Border Padding="10,4" StrokeThickness="0"
+                                    BackgroundColor="{AppThemeBinding Light={StaticResource ColorBrandPrimaryContainerLight}, Dark={StaticResource ColorBrandPrimaryContainerDark}}"
+                                    StrokeShape="RoundRectangle 999">
+                                <Label Text="{Binding PartOfSpeech}" Style="{StaticResource TypeLabelSm}"
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
+                            </Border>
+                            <Border Padding="10,4" StrokeThickness="0"
+                                    BackgroundColor="{AppThemeBinding Light={StaticResource ColorSurfaceSunkenLight}, Dark={StaticResource ColorSurfaceSunkenDark}}"
+                                    StrokeShape="RoundRectangle 999">
+                                <Label Text="{Binding StateLabel}" Style="{StaticResource TypeLabelSm}"
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorTextSecondaryLight}, Dark={StaticResource ColorTextSecondaryDark}}" />
+                            </Border>
+                        </HorizontalStackLayout>
+
+                        <Label Text="{Binding Lemma}" Style="{StaticResource TypeWordHero}" SemanticProperties.HeadingLevel="Level1" />
+                        <HorizontalStackLayout Spacing="{StaticResource Space3}">
+                            <Label Text="{Binding Ipa}" Style="{StaticResource TypeWordIpa}" VerticalOptions="Center"
+                                   TextColor="{AppThemeBinding Light={StaticResource ColorTextSecondaryLight}, Dark={StaticResource ColorTextSecondaryDark}}" />
+                            <Button Text="{x:Static strings:AppResources.Word_Speak_Button}" Style="{StaticResource ButtonSecondary}"
+                                    Command="{Binding SpeakCommand}" Padding="14,6" MinimumHeightRequest="36" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </Border>
+
+                <!-- Translation: hidden until tapped (spec 06 two-track model: guess first) -->
+                <Border Padding="{StaticResource Space5}">
+                    <Grid>
+                        <VerticalStackLayout Spacing="{StaticResource Space2}" IsVisible="{Binding TranslationRevealed, Converter={StaticResource InvertedBoolConverter}}">
+                            <Label Text="{x:Static strings:AppResources.Word_Reveal_Hint}" Style="{StaticResource TypeBodySm}"
+                                   TextColor="{AppThemeBinding Light={StaticResource ColorTextSecondaryLight}, Dark={StaticResource ColorTextSecondaryDark}}" />
+                            <Button Text="{x:Static strings:AppResources.Word_Reveal_Button}" Command="{Binding RevealCommand}" />
+                        </VerticalStackLayout>
+                        <VerticalStackLayout Spacing="{StaticResource Space2}" IsVisible="{Binding TranslationRevealed}">
+                            <Label Text="{Binding Translation}" Style="{StaticResource TypeHeadlineMd}" />
+                            <Label Text="{x:Static strings:AppResources.Word_AlsoMeans_Heading}" Style="{StaticResource TypeLabelSm}" IsVisible="{Binding HasAlsoMeans}"
+                                   TextColor="{AppThemeBinding Light={StaticResource ColorTextTertiaryLight}, Dark={StaticResource ColorTextTertiaryDark}}" />
+                            <Label Text="{Binding AlsoMeans}" Style="{StaticResource TypeBodyMd}" IsVisible="{Binding HasAlsoMeans}" />
+                        </VerticalStackLayout>
+                    </Grid>
+                </Border>
+
+                <!-- Example -->
+                <Border Padding="{StaticResource Space5}" IsVisible="{Binding HasExample}">
+                    <VerticalStackLayout Spacing="{StaticResource Space1}">
+                        <Label Text="{x:Static strings:AppResources.Word_Example_Heading}" Style="{StaticResource TypeLabelSm}"
+                               TextColor="{AppThemeBinding Light={StaticResource ColorTextTertiaryLight}, Dark={StaticResource ColorTextTertiaryDark}}" />
+                        <Label Text="{Binding ExampleTarget}" Style="{StaticResource TypeBodyLg}" />
+                        <Label Text="{Binding ExampleNative}" Style="{StaticResource TypeBodyMd}" IsVisible="{Binding TranslationRevealed}"
+                               TextColor="{AppThemeBinding Light={StaticResource ColorTextSecondaryLight}, Dark={StaticResource ColorTextSecondaryDark}}" />
+                    </VerticalStackLayout>
+                </Border>
+
+                <!-- Counters (ADR 0015: only confirmed is «переглянуто») -->
+                <Label Text="{Binding ExposuresText}" Style="{StaticResource TypeLabelMd}"
+                       TextColor="{AppThemeBinding Light={StaticResource ColorTextSecondaryLight}, Dark={StaticResource ColorTextSecondaryDark}}" />
+                <Label Text="{Binding RetrievabilityText}" Style="{StaticResource TypeLabelMd}"
+                       TextColor="{AppThemeBinding Light={StaticResource ColorTextSecondaryLight}, Dark={StaticResource ColorTextSecondaryDark}}" />
+
+                <Grid ColumnDefinitions="*,*" ColumnSpacing="{StaticResource Space3}" Margin="0,8,0,0">
+                    <Button Grid.Column="0" Text="{x:Static strings:AppResources.Word_Know_Button}" Style="{StaticResource ButtonSecondary}" Command="{Binding KnowCommand}" />
+                    <Button Grid.Column="1" Text="{x:Static strings:AppResources.Word_Learn_Button}" Command="{Binding LearnCommand}" />
+                </Grid>
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>
