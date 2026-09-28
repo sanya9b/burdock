@@ -4,16 +4,20 @@
              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              xmlns:vm="clr-namespace:Burdock.Presentation.ViewModels"
              xmlns:controls="clr-namespace:Burdock.Presentation.Controls"
+             xmlns:converters="clr-namespace:Burdock.Presentation.Converters"
              xmlns:icons="clr-namespace:Burdock.Presentation.Resources.Icons"
              xmlns:strings="clr-namespace:Burdock.Presentation.Resources.Strings"
              x:Class="Burdock.Presentation.Views.WordCardPage"
              x:DataType="vm:WordCardViewModel"
              Shell.NavBarIsVisible="False"
+             Shell.TabBarIsVisible="False"
              Title="{x:Static strings:AppResources.Word_Title}">
-    <!-- S-11 «Картка слова» (spec 03): hero (word, IPA, chips, speaker), translation hidden until tapped, highlighted example, counters, «Знаю» / «Вчити». -->
+    <!-- S-11 «Картка слова» (spec 03): one screen, no scrolling at default text size — hero, translation + example in one card, compact counters, two actions.
+         The ScrollView only kicks in for accessibility text sizes. -->
     <ContentPage.Resources>
         <toolkit:IsEqualConverter x:Key="IsEqualConverter" />
         <toolkit:InvertedBoolConverter x:Key="InvertedBoolConverter" />
+        <converters:LemmaFontSizeConverter x:Key="LemmaFontSize" />
     </ContentPage.Resources>
 
     <Grid RowDefinitions="Auto,*,Auto">
@@ -28,94 +32,99 @@
                HorizontalTextAlignment="Center" VerticalOptions="Center" Margin="{StaticResource Space6}"
                IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Error}}" />
 
-        <ScrollView Grid.Row="1" IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Ready}}">
-            <VerticalStackLayout Spacing="{StaticResource Space4}" Padding="{StaticResource PageInsetTop}" MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
+        <ScrollView Grid.Row="1" VerticalScrollBarVisibility="Never" IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Ready}}">
+            <VerticalStackLayout Spacing="{StaticResource Space2}" Padding="{StaticResource PageInsetTop}" MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
 
-                <!-- Hero -->
-                <Border Style="{StaticResource HeroCard}" Margin="{StaticResource Space2}">
-                    <VerticalStackLayout Spacing="{StaticResource Space2}">
-                        <HorizontalStackLayout Spacing="{StaticResource Space2}">
-                            <Border Style="{StaticResource ChipOnHero}">
-                                <Label Text="{Binding PartOfSpeech}" Style="{StaticResource ChipTextOnHero}" />
-                            </Border>
-                            <Border Style="{StaticResource ChipOnHero}">
-                                <Label Text="{Binding StateLabel}" Style="{StaticResource ChipTextOnHero}" />
-                            </Border>
-                        </HorizontalStackLayout>
-                        <Label Text="{Binding Lemma}" Style="{StaticResource OnHeroWord}" Margin="{StaticResource InsetTopLg}" SemanticProperties.HeadingLevel="Level1" />
-                        <Grid ColumnDefinitions="*,Auto" ColumnSpacing="{StaticResource Space3}">
-                            <Label Grid.Column="0" Text="{Binding Ipa}" Style="{StaticResource OnHeroIpa}" VerticalOptions="Center" />
+                <!-- Hero: chips + speaker in one row, word, IPA -->
+                <Border Style="{StaticResource HeroCard}" Padding="{StaticResource Space4}">
+                    <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto" RowSpacing="0">
+                        <Grid Grid.Row="0" ColumnDefinitions="*,Auto" ColumnSpacing="{StaticResource Space2}">
+                            <HorizontalStackLayout Grid.Column="0" Spacing="{StaticResource Space2}" VerticalOptions="Center">
+                                <Border Style="{StaticResource ChipOnHero}">
+                                    <Label Text="{Binding PartOfSpeech}" Style="{StaticResource ChipTextOnHero}" />
+                                </Border>
+                                <Border Style="{StaticResource ChipOnHero}">
+                                    <Label Text="{Binding StateLabel}" Style="{StaticResource ChipTextOnHero}" />
+                                </Border>
+                            </HorizontalStackLayout>
                             <controls:PushButton Grid.Column="1" Style="{StaticResource PushHeroIcon}" Icon="{x:Static icons:Icon.Volume2}" Command="{Binding SpeakCommand}"
                                                  SemanticProperties.Description="{x:Static strings:AppResources.Word_Speak_Button}" />
                         </Grid>
-                    </VerticalStackLayout>
+                        <Label Grid.Row="1" Text="{Binding Lemma}" Style="{StaticResource OnHeroWord}" FontSize="{Binding Lemma, Converter={StaticResource LemmaFontSize}}" Margin="{StaticResource InsetTopSm}" LineBreakMode="TailTruncation" SemanticProperties.HeadingLevel="Level1" />
+                        <Label Grid.Row="2" Text="{Binding Ipa}" Style="{StaticResource OnHeroIpa}" />
+                        <BoxView Grid.Row="3" Style="{StaticResource HeroDivider}" Margin="{StaticResource InsetTopSm}" />
+                        <!-- Counters (ADR 0015: only confirmed is «переглянуто») -->
+                        <Grid Grid.Row="4" ColumnDefinitions="*,*,*" ColumnSpacing="{StaticResource Space2}" Margin="{StaticResource InsetTopSm}" SemanticProperties.Description="{Binding ExposuresText}">
+                            <VerticalStackLayout Grid.Column="0" Spacing="0">
+                                <HorizontalStackLayout Spacing="{StaticResource Space1}">
+                                    <Label Text="{x:Static icons:Icon.Smartphone}" Style="{StaticResource IconGlyphSm}" TextColor="{AppThemeBinding Light={StaticResource ColorWidgetIpaLight}, Dark={StaticResource ColorWidgetIpaDark}}" />
+                                    <Label Text="{Binding ScheduledExposures}" Style="{StaticResource OnHeroStat}" />
+                                </HorizontalStackLayout>
+                                <Label Text="{x:Static strings:AppResources.Word_Stat_Scheduled}" Style="{StaticResource OnHeroCaption}" />
+                            </VerticalStackLayout>
+                            <VerticalStackLayout Grid.Column="1" Spacing="0">
+                                <HorizontalStackLayout Spacing="{StaticResource Space1}">
+                                    <Label Text="{x:Static icons:Icon.Eye}" Style="{StaticResource IconGlyphSm}" TextColor="{AppThemeBinding Light={StaticResource ColorWidgetIpaLight}, Dark={StaticResource ColorWidgetIpaDark}}" />
+                                    <Label Text="{Binding ConfirmedExposures}" Style="{StaticResource OnHeroStat}" />
+                                </HorizontalStackLayout>
+                                <Label Text="{x:Static strings:AppResources.Word_Stat_Confirmed}" Style="{StaticResource OnHeroCaption}" />
+                            </VerticalStackLayout>
+                            <VerticalStackLayout Grid.Column="2" Spacing="0" SemanticProperties.Description="{Binding RetrievabilityText}">
+                                <HorizontalStackLayout Spacing="{StaticResource Space1}">
+                                    <Label Text="{x:Static icons:Icon.Brain}" Style="{StaticResource IconGlyphSm}" TextColor="{AppThemeBinding Light={StaticResource ColorWidgetAccentLight}, Dark={StaticResource ColorWidgetAccentDark}}" />
+                                    <Label Text="{Binding RetrievabilityPercent}" Style="{StaticResource OnHeroStat}" IsVisible="{Binding HasRetrievability}" />
+                                    <Label Text="{x:Static strings:AppResources.Word_Stat_Memory_None}" Style="{StaticResource OnHeroStat}" IsVisible="{Binding HasRetrievability, Converter={StaticResource InvertedBoolConverter}}" />
+                                </HorizontalStackLayout>
+                                <Label Text="{x:Static strings:AppResources.Word_Stat_Memory}" Style="{StaticResource OnHeroCaption}" />
+                            </VerticalStackLayout>
+                        </Grid>
+                    </Grid>
                 </Border>
 
-                <!-- Translation: hidden until tapped (spec 06 two-track model: guess first) -->
-                <Border Style="{StaticResource CardElevated}">
-                    <Grid>
-                        <VerticalStackLayout Spacing="{StaticResource Space4}" IsVisible="{Binding TranslationRevealed, Converter={StaticResource InvertedBoolConverter}}">
+                <!-- Translation (guess first, spec 06 two-track model) and example in one card -->
+                <Border Style="{StaticResource CardElevated}" Padding="{StaticResource Space4}">
+                    <VerticalStackLayout Spacing="{StaticResource Space2}">
+                        <VerticalStackLayout Spacing="{StaticResource Space2}" IsVisible="{Binding TranslationRevealed, Converter={StaticResource InvertedBoolConverter}}">
                             <HorizontalStackLayout Spacing="{StaticResource Space3}">
                                 <Label Text="{x:Static icons:Icon.Lightbulb}" Style="{StaticResource IconGlyphLg}"
                                        TextColor="{AppThemeBinding Light={StaticResource ColorBrandPrimaryVividLight}, Dark={StaticResource ColorBrandPrimaryVividDark}}" />
                                 <Label Text="{x:Static strings:AppResources.Word_Reveal_Hint}" Style="{StaticResource TypeTitleMd}" VerticalOptions="Center" />
                             </HorizontalStackLayout>
-                            <controls:PushButton Style="{StaticResource PushTonal}" Text="{x:Static strings:AppResources.Word_Reveal_Button}" Icon="{x:Static icons:Icon.Eye}" Command="{Binding RevealCommand}" />
+                            <controls:PushButton Style="{StaticResource PushTonal}" HeightRequest="{StaticResource SizeTouchTargetMin}" Text="{x:Static strings:AppResources.Word_Reveal_Button}" Icon="{x:Static icons:Icon.Eye}" Command="{Binding RevealCommand}" />
                         </VerticalStackLayout>
-                        <VerticalStackLayout Spacing="{StaticResource Space2}" IsVisible="{Binding TranslationRevealed}">
+                        <VerticalStackLayout Spacing="{StaticResource Space1}" IsVisible="{Binding TranslationRevealed}">
                             <Label Text="{x:Static strings:AppResources.Word_Translation_Heading}" Style="{StaticResource Eyebrow}" />
                             <Label Text="{Binding Translation}" Style="{StaticResource TypeHeadlineMd}" />
-                            <Label Text="{x:Static strings:AppResources.Word_AlsoMeans_Heading}" Style="{StaticResource Eyebrow}" IsVisible="{Binding HasAlsoMeans}" Margin="{StaticResource InsetTopMd}" />
-                            <Label Text="{Binding AlsoMeans}" Style="{StaticResource TypeBodyMd}" IsVisible="{Binding HasAlsoMeans}" />
+                            <Label Style="{StaticResource TypeBodyMd}" IsVisible="{Binding HasAlsoMeans}"
+                                   TextColor="{AppThemeBinding Light={StaticResource ColorTextSecondaryLight}, Dark={StaticResource ColorTextSecondaryDark}}">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="{x:Static strings:AppResources.Word_AlsoMeans_Inline}" />
+                                        <Span Text="{Binding AlsoMeans}" FontFamily="RubikMedium" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
                         </VerticalStackLayout>
-                    </Grid>
-                </Border>
 
-                <!-- Example with the word in bold -->
-                <Border Style="{StaticResource CardSunken}" IsVisible="{Binding HasExample}">
-                    <VerticalStackLayout Spacing="{StaticResource Space2}">
-                        <Label Text="{x:Static strings:AppResources.Word_Example_Heading}" Style="{StaticResource Eyebrow}" />
-                        <Label Style="{StaticResource TypeBodyLg}">
-                            <Label.FormattedText>
-                                <FormattedString>
-                                    <Span Text="{Binding ExampleBefore}" />
-                                    <Span Text="{Binding ExampleMatch}" FontFamily="RubikBold"
-                                          TextColor="{AppThemeBinding Light={StaticResource ColorTextLinkLight}, Dark={StaticResource ColorTextLinkDark}}" />
-                                    <Span Text="{Binding ExampleAfter}" />
-                                </FormattedString>
-                            </Label.FormattedText>
-                        </Label>
-                        <Label Text="{Binding ExampleNative}" Style="{StaticResource TextSecondary}" IsVisible="{Binding TranslationRevealed}" />
+                        <BoxView Style="{StaticResource Divider}" IsVisible="{Binding HasExample}" />
+
+                        <VerticalStackLayout Spacing="{StaticResource Space1}" IsVisible="{Binding HasExample}">
+                            <Label Text="{x:Static strings:AppResources.Word_Example_Heading}" Style="{StaticResource Eyebrow}" />
+                            <Label Style="{StaticResource TypeBodyLg}">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="{Binding ExampleBefore}" />
+                                        <Span Text="{Binding ExampleMatch}" FontFamily="RubikBold"
+                                              TextColor="{AppThemeBinding Light={StaticResource ColorTextLinkLight}, Dark={StaticResource ColorTextLinkDark}}" />
+                                        <Span Text="{Binding ExampleAfter}" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                            <Label Text="{Binding ExampleNative}" Style="{StaticResource TextSecondary}" IsVisible="{Binding TranslationRevealed}" />
+                        </VerticalStackLayout>
                     </VerticalStackLayout>
                 </Border>
 
-                <!-- Counters (ADR 0015: only confirmed is «переглянуто») -->
-                <Grid ColumnDefinitions="*,*,*" ColumnSpacing="{StaticResource Space3}" SemanticProperties.Description="{Binding ExposuresText}">
-                    <Border Grid.Column="0" Style="{StaticResource StatTile}">
-                        <VerticalStackLayout Spacing="{StaticResource Space1}">
-                            <Label Text="{x:Static icons:Icon.Smartphone}" Style="{StaticResource IconGlyph}" HorizontalOptions="Start"
-                                   TextColor="{AppThemeBinding Light={StaticResource ColorTextTertiaryLight}, Dark={StaticResource ColorTextTertiaryDark}}" />
-                            <Label Text="{Binding ScheduledExposures}" Style="{StaticResource TypeNumericStat}" />
-                            <Label Text="{x:Static strings:AppResources.Word_Stat_Scheduled}" Style="{StaticResource TextTertiary}" />
-                        </VerticalStackLayout>
-                    </Border>
-                    <Border Grid.Column="1" Style="{StaticResource StatTile}">
-                        <VerticalStackLayout Spacing="{StaticResource Space1}">
-                            <Label Text="{x:Static icons:Icon.Eye}" Style="{StaticResource IconGlyph}" HorizontalOptions="Start"
-                                   TextColor="{AppThemeBinding Light={StaticResource ColorTextTertiaryLight}, Dark={StaticResource ColorTextTertiaryDark}}" />
-                            <Label Text="{Binding ConfirmedExposures}" Style="{StaticResource TypeNumericStat}" />
-                            <Label Text="{x:Static strings:AppResources.Word_Stat_Confirmed}" Style="{StaticResource TextTertiary}" />
-                        </VerticalStackLayout>
-                    </Border>
-                    <Border Grid.Column="2" Style="{StaticResource StatTile}" IsVisible="{Binding HasRetrievability}" SemanticProperties.Description="{Binding RetrievabilityText}">
-                        <VerticalStackLayout Spacing="{StaticResource Space1}">
-                            <Label Text="{x:Static icons:Icon.Brain}" Style="{StaticResource IconGlyph}" HorizontalOptions="Start"
-                                   TextColor="{AppThemeBinding Light={StaticResource ColorBrandPrimaryVividLight}, Dark={StaticResource ColorBrandPrimaryVividDark}}" />
-                            <Label Text="{Binding RetrievabilityPercent}" Style="{StaticResource TypeNumericStat}" />
-                            <Label Text="{x:Static strings:AppResources.Word_Stat_Memory}" Style="{StaticResource TextTertiary}" />
-                        </VerticalStackLayout>
-                    </Border>
-                </Grid>
             </VerticalStackLayout>
         </ScrollView>
 

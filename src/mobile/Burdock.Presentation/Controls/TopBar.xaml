@@ -5,7 +5,7 @@
              x:Class="Burdock.Presentation.Controls.TopBar"
              x:Name="Root">
     <!-- TopBar (spec 02 section 3.11): our own header instead of the platform navigation bar; leading icon button, centred title, optional trailing view. -->
-    <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="{StaticResource Space3}" MinimumHeightRequest="{StaticResource SizePushButtonHeight}">
+    <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="{StaticResource Space3}" MinimumHeightRequest="{StaticResource SizeTouchTargetMin}">
         <controls:PushButton Grid.Column="0"
                              Style="{StaticResource PushIcon}"
                              Icon="{Binding LeadingIcon, Source={x:Reference Root}}"

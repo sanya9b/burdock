@@ -97,7 +97,7 @@
   <!-- Word card (S-11) -->
   <data name="Word_Title" xml:space="preserve"><value>Слово</value></data>
   <data name="Word_Reveal_Button" xml:space="preserve"><value>Показати переклад</value></data>
-  <data name="Word_Reveal_Hint" xml:space="preserve"><value>Спробуй згадати, а тоді торкнись</value></data>
+  <data name="Word_Reveal_Hint" xml:space="preserve"><value>Спробуй згадати переклад</value></data>
   <data name="Word_Speak_Button" xml:space="preserve"><value>Озвучити</value></data>
   <data name="Word_Example_Heading" xml:space="preserve"><value>Приклад</value></data>
   <data name="Word_AlsoMeans_Heading" xml:space="preserve"><value>Також означає</value></data>
@@ -373,4 +373,6 @@
   <data name="Ach_ACH_LEVEL_30_Body" xml:space="preserve"><value>Рівень 30</value></data>
   <data name="Ach_ACH_PERFECT_20_Title" xml:space="preserve"><value>Жодного «Ще ні»</value></data>
   <data name="Ach_ACH_PERFECT_20_Body" xml:space="preserve"><value>Сесія на 20 карток без помилок</value></data>
+  <data name="Word_AlsoMeans_Inline" xml:space="preserve"><value>Також: </value></data>
+  <data name="Word_Stat_Memory_None" xml:space="preserve"><value>—</value><comment>Шанс пригадати ще не рахується (нове слово)</comment></data>
 </root>
