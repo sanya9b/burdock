@@ -40,6 +40,8 @@ public sealed partial class OptionViewModel(string text, int index, bool isWord)
 /// <summary>S-12 «Сесія»: drives the three exercise kinds, grading, feedback and the counters the economy needs (spec 03, spec 06 §3.6-3.7, spec 07).</summary>
 public sealed partial class SessionViewModel : ObservableObject, IQueryAttributable
 {
+    private const int MismatchResetMilliseconds = 400;
+
     private static readonly CultureInfo Ukrainian = CultureInfo.GetCultureInfo("uk-UA");
     private static readonly CompositeFormat ProgressFormat = CompositeFormat.Parse(AppResources.Session_Progress_Label);
     private static readonly CompositeFormat TypoFormat = CompositeFormat.Parse(AppResources.Session_Feedback_Typo);
@@ -52,6 +54,7 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
     private readonly GradeAnswerUseCase _gradeAnswer;
     private readonly INavigationService _navigation;
     private readonly IIdGenerator _ids;
+    private readonly IClock _clock;
     private readonly ILogger<SessionViewModel> _logger;
     private readonly Stopwatch _stopwatch = new();
     private readonly List<SessionItem> _items = [];
@@ -150,12 +153,13 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
     [ObservableProperty]
     private bool _lastAnswerCorrect;
 
-    public SessionViewModel(BuildSessionUseCase buildSession, GradeAnswerUseCase gradeAnswer, INavigationService navigation, IIdGenerator ids, ILogger<SessionViewModel> logger)
+    public SessionViewModel(BuildSessionUseCase buildSession, GradeAnswerUseCase gradeAnswer, INavigationService navigation, IIdGenerator ids, IClock clock, ILogger<SessionViewModel> logger)
     {
         _buildSession = buildSession ?? throw new ArgumentNullException(nameof(buildSession));
         _gradeAnswer = gradeAnswer ?? throw new ArgumentNullException(nameof(gradeAnswer));
         _navigation = navigation ?? throw new ArgumentNullException(nameof(navigation));
         _ids = ids ?? throw new ArgumentNullException(nameof(ids));
+        _clock = clock ?? throw new ArgumentNullException(nameof(clock));
         _logger = logger ?? throw new ArgumentNullException(nameof(logger));
     }
 
@@ -188,7 +192,7 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
             var plan = await _buildSession.ExecuteAsync(_size, cancellationToken).ConfigureAwait(true);
             _items.AddRange(plan.Items);
             _sessionId = _ids.NewId();
-            _startedAt = DateTimeOffset.UtcNow;
+            _startedAt = _clock.UtcNow;
             if (_items.Count == 0)
             {
                 State = ViewState.Empty;
@@ -352,14 +356,7 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
         {
             _pendingWord.Visual = OptionVisual.Default;
             option.Visual = OptionVisual.Incorrect;
-            var wrong = option;
-            _ = Task.Delay(400).ContinueWith(_ =>
-            {
-                if (wrong.Visual == OptionVisual.Incorrect)
-                {
-                    wrong.Visual = OptionVisual.Default;
-                }
-            }, TaskScheduler.FromCurrentSynchronizationContext());
+            _ = ResetAfterPauseAsync(option);
         }
 
         _pendingWord = null;
@@ -383,7 +380,7 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
     [RelayCommand]
     private Task FinishAsync(CancellationToken cancellationToken)
     {
-        var duration = DateTimeOffset.UtcNow - _startedAt;
+        var duration = _clock.UtcNow - _startedAt;
         var parameters = new Dictionary<string, object>(StringComparer.Ordinal)
         {
             ["session"] = _sessionId.ToString("D"),
@@ -455,6 +452,16 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
 
         LastAnswerCorrect = outcome.Correct;
         AnswerTick++;
+    }
+
+    /// <summary>A mismatched meaning flashes red, then returns to neutral (spec 02 section 3.8).</summary>
+    private static async Task ResetAfterPauseAsync(OptionViewModel wrong)
+    {
+        await Task.Delay(MismatchResetMilliseconds).ConfigureAwait(true);
+        if (wrong.Visual == OptionVisual.Incorrect)
+        {
+            wrong.Visual = OptionVisual.Default;
+        }
     }
 
     private void SetFeedback(bool positive, string title, string detail, string spoken)

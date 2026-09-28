@@ -1,4 +1,4 @@
-using Burdock.Application.Tests.Fakes;
+using Burdock.TestKit.Fakes;
 using Burdock.Application.UseCases.LearningDays;
 using Burdock.TestKit;
 

@@ -9,6 +9,11 @@ namespace Burdock.Presentation;
 /// <summary>Composition root of the mobile app (spec 01 section 3.9). Only registration lives here.</summary>
 public static class MauiProgram
 {
+    // Only the platform heads create the app; the neutral net10.0 head exists for ViewModel tests and never calls this.
+    [System.Runtime.Versioning.SupportedOSPlatform("android21.0")]
+    [System.Runtime.Versioning.SupportedOSPlatform("ios15.0")]
+    [System.Runtime.Versioning.SupportedOSPlatform("maccatalyst15.0")]
+    [System.Runtime.Versioning.SupportedOSPlatform("windows10.0.17763")]
     public static MauiApp CreateMauiApp()
     {
         var builder = MauiApp.CreateBuilder();

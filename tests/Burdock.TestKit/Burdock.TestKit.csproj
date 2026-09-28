@@ -1,5 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
-  <!-- Shared test builders for Domain types (spec 15). Depends on Domain only so both solutions can use it. -->
+  <!-- Shared test builders and in-memory ports (spec 15 section 3.9): Domain builders plus fakes for every Application port,
+       so Application, Infrastructure and Presentation tests compose use cases the same way. -->
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <IsTestProject>false</IsTestProject>
@@ -7,5 +8,6 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\src\shared\Burdock.Domain\Burdock.Domain.csproj" />
+    <ProjectReference Include="..\..\src\mobile\Burdock.Application\Burdock.Application.csproj" />
   </ItemGroup>
 </Project>

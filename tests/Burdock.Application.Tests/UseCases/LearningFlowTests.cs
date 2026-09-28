@@ -1,5 +1,5 @@
 using Burdock.Application.Ports;
-using Burdock.Application.Tests.Fakes;
+using Burdock.TestKit.Fakes;
 using Burdock.Application.UseCases.Content;
 using Burdock.Application.UseCases.LearningDays;
 using Burdock.Application.UseCases.Planning;

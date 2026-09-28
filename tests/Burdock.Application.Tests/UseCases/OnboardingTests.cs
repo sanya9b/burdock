@@ -1,5 +1,5 @@
 using Burdock.Application.Ports;
-using Burdock.Application.Tests.Fakes;
+using Burdock.TestKit.Fakes;
 using Burdock.Application.UseCases.Onboarding;
 using Burdock.Domain.Learning;
 using Burdock.Domain.SharedKernel;

@@ -1,6 +1,6 @@
 using Burdock.Application.Ports;
 
-namespace Burdock.Application.Tests.Fakes;
+namespace Burdock.TestKit.Fakes;
 
 /// <summary>Controllable clock for use-case tests.</summary>
 public sealed class FakeClock(DateTimeOffset utcNow, TimeZoneInfo localTimeZone) : IClock

@@ -8,6 +8,6 @@ Burdock.Application.Tests/     use cases з фейковими портами й
 Burdock.Infrastructure.Tests/  адаптери net10.0: golden-тести FSRS проти векторів py-fsrs 6.3.2 (fixtures/fsrs)
 Burdock.Architecture.Tests/    правило залежностей шарів (блокує злиття)
 Burdock.Server.Tests/          Testcontainers PostgreSQL, контрактні тести API
-Burdock.Presentation.Tests/    снапшоти станів компонентів, лінт локалізації
+Burdock.Presentation.Tests/    ViewModel-и через нейтральний net10.0-head MAUI-проєкту: use cases над in-memory портами, фейки платформних сервісів
 Burdock.UITests/               Appium smoke на емуляторі/симуляторі (CI)
 ```

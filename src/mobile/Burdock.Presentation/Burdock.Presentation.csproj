@@ -1,11 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <!-- MAUI head: XAML, ViewModels, navigation and the composition root (spec 01 section 3.1). Business rules never live here. -->
   <PropertyGroup>
-    <!-- Android everywhere; iOS only on macOS (no Mac locally, decision Q6/Q16: iOS is built by ci-ios). -p:BurdockTargets overrides for CI runners. -->
-    <TargetFrameworks>net10.0-android</TargetFrameworks>
+    <!-- net10.0 is the platform-neutral head for ViewModel tests (spec 15 section 3.7); Android everywhere; iOS only on macOS
+         (no Mac locally, decision Q6/Q16: iOS is built by ci-ios). -p:BurdockTargets overrides for CI runners. -->
+    <TargetFrameworks>net10.0;net10.0-android</TargetFrameworks>
     <TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('osx'))">$(TargetFrameworks);net10.0-ios</TargetFrameworks>
     <TargetFrameworks Condition="'$(BurdockTargets)' != ''">$(BurdockTargets)</TargetFrameworks>
-    <OutputType>Exe</OutputType>
+    <OutputType Condition="'$(TargetFramework)' != 'net10.0'">Exe</OutputType>
     <RootNamespace>Burdock.Presentation</RootNamespace>
     <UseMaui>true</UseMaui>
     <SingleProject>true</SingleProject>
@@ -46,6 +47,10 @@
       <StronglyTypedNamespace>Burdock.Presentation.Resources.Strings</StronglyTypedNamespace>
       <StronglyTypedClassName>AppResources</StronglyTypedClassName>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Burdock.Presentation.Tests" />
   </ItemGroup>
 
   <ItemGroup>

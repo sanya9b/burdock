@@ -9,11 +9,12 @@ on:
       - "src/shared/**"
       - "src/mobile/Burdock.Application/**"
       - "src/mobile/Burdock.Infrastructure/**"
-      - "src/mobile/Burdock.Presentation/Resources/Styles/**"
+      - "src/mobile/Burdock.Presentation/**"
       - "design/tokens/**"
       - "tests/Burdock.Domain.Tests/**"
       - "tests/Burdock.Application.Tests/**"
       - "tests/Burdock.Infrastructure.Tests/**"
+      - "tests/Burdock.Presentation.Tests/**"
       - "tests/fixtures/**"
       - "tests/Burdock.Architecture.Tests/**"
       - "tests/Burdock.TestKit/**"
@@ -65,6 +66,9 @@ jobs:
 
       - name: Build and test Infrastructure adapters (FSRS golden vectors)
         run: dotnet test --project tests/Burdock.Infrastructure.Tests -c Release --report-trx --results-directory artifacts/test-results
+
+      - name: Build and test Presentation ViewModels (neutral net10.0 head)
+        run: dotnet test --project tests/Burdock.Presentation.Tests -c Release --report-trx --results-directory artifacts/test-results
 
       - name: Architecture tests (dependency rule)
         run: dotnet test --project tests/Burdock.Architecture.Tests -c Release --report-trx --results-directory artifacts/test-results

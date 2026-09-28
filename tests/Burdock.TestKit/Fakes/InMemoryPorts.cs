@@ -5,7 +5,7 @@ using Burdock.Domain.Rewards;
 using Burdock.Domain.SharedKernel;
 using Burdock.Domain.Vocabulary;
 
-namespace Burdock.Application.Tests.Fakes;
+namespace Burdock.TestKit.Fakes;
 
 public sealed class InMemoryContentRepository : IContentRepository
 {
