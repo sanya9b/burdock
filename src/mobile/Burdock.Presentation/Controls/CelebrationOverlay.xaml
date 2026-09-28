@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:Burdock.Presentation.Controls"
+             xmlns:vm="clr-namespace:Burdock.Presentation.ViewModels"
+             x:Class="Burdock.Presentation.Controls.CelebrationOverlay"
+             x:Name="Root"
+             IsVisible="False"
+             InputTransparent="False">
+    <!-- RewardCard celebration (spec 02 section 3.11, spec 07 §3.8.1 L2–L4): scrim, mascot, title, reward line, one button; no timer, closes only by the learner. -->
+    <Grid>
+        <BoxView x:Name="Scrim" Color="{AppThemeBinding Light={StaticResource ColorSurfaceOverlayLight}, Dark={StaticResource ColorSurfaceOverlayDark}}" Opacity="0">
+            <BoxView.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnDismissTapped" />
+            </BoxView.GestureRecognizers>
+        </BoxView>
+        <controls:ConfettiView x:Name="Confetti" Style="{StaticResource CelebrationConfetti}" />
+        <Border x:Name="Card" Style="{StaticResource RewardCard}" HorizontalOptions="Center" VerticalOptions="Center" Margin="{StaticResource Space6}" Opacity="0" Scale="0.9">
+            <VerticalStackLayout Spacing="{StaticResource Space3}" x:DataType="vm:CelebrationItem" BindingContext="{Binding Item, Source={x:Reference Root}}">
+                <Image Source="{Binding Mascot}" WidthRequest="{StaticResource SizeMascotMd}" HeightRequest="{StaticResource SizeMascotMd}" HorizontalOptions="Center"
+                       AutomationProperties.IsInAccessibleTree="False" />
+                <Label Text="{Binding Eyebrow}" Style="{StaticResource Eyebrow}" HorizontalTextAlignment="Center"
+                       TextColor="{AppThemeBinding Light={StaticResource ColorRewardGoldTextLight}, Dark={StaticResource ColorRewardGoldTextDark}}" />
+                <Label Text="{Binding Title}" Style="{StaticResource TypeHeadlineMd}" HorizontalTextAlignment="Center" SemanticProperties.HeadingLevel="Level2"
+                       TextColor="{AppThemeBinding Light={StaticResource ColorRewardGoldTextLight}, Dark={StaticResource ColorRewardGoldTextDark}}" />
+                <Label Text="{Binding Body}" Style="{StaticResource TypeBodyMd}" HorizontalTextAlignment="Center" IsVisible="{Binding HasBody}"
+                       TextColor="{AppThemeBinding Light={StaticResource ColorRewardGoldTextLight}, Dark={StaticResource ColorRewardGoldTextDark}}" />
+                <Border Style="{StaticResource ChipGold}" HorizontalOptions="Center" IsVisible="{Binding HasReward}">
+                    <HorizontalStackLayout Spacing="{StaticResource Space2}">
+                        <Label Text="{Binding RewardIcon}" Style="{StaticResource IconGlyphSm}"
+                               TextColor="{AppThemeBinding Light={StaticResource ColorRewardGoldTextLight}, Dark={StaticResource ColorRewardGoldTextDark}}" />
+                        <Label Text="{Binding Reward}" Style="{StaticResource ChipTextGold}" FontFamily="RubikBold" />
+                    </HorizontalStackLayout>
+                </Border>
+                <controls:PushButton Text="{Binding Button}" Command="{Binding DismissCommand, Source={x:Reference Root}}" Margin="{StaticResource InsetTopMd}" />
+            </VerticalStackLayout>
+        </Border>
+    </Grid>
+</ContentView>

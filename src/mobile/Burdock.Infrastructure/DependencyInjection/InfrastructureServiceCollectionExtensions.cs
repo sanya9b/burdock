@@ -27,6 +27,7 @@ public static class InfrastructureServiceCollectionExtensions
         services.AddSingleton<ILearnerCardRepository, SqliteLearnerCardRepository>();
         services.AddSingleton<IReviewLogStore, SqliteReviewLogStore>();
         services.AddSingleton<IExposureStore, SqliteExposureStore>();
+        services.AddSingleton<IRewardsStore, SqliteRewardsStore>();
 
         services.AddSingleton(fsrs ?? FsrsOptions.Default);
         services.AddSingleton<IReviewScheduler, FsrsSharpReviewScheduler>();

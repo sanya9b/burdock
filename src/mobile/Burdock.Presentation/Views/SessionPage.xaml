@@ -36,7 +36,7 @@
                               IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Empty}}" />
 
         <ScrollView Grid.Row="1" IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Ready}}">
-            <VerticalStackLayout Spacing="{StaticResource Space5}" Padding="{StaticResource PageInset}" MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
+            <VerticalStackLayout x:Name="ExerciseHost" Spacing="{StaticResource Space5}" Padding="{StaticResource PageInset}" MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
                 <Label Text="{Binding Prompt}" Style="{StaticResource LabelSecondary}" HorizontalTextAlignment="Center" />
                 <Label Text="{Binding Stimulus}" Style="{StaticResource TypeDisplayMd}" HorizontalTextAlignment="Center" IsVisible="{Binding IsMatching, Converter={StaticResource InvertedBoolConverter}}" />
                 <Label Text="{Binding StimulusSecondary}" Style="{StaticResource TypeWordIpa}" HorizontalTextAlignment="Center" IsVisible="{Binding IsChoice}"
@@ -89,6 +89,15 @@
                 </Grid>
             </VerticalStackLayout>
         </ScrollView>
+
+        <!-- Combo chip: consecutive correct answers, joy not pressure (spec 07 §3.8) -->
+        <Border x:Name="ComboChip" Grid.Row="1" Style="{StaticResource ChipGold}" HorizontalOptions="End" VerticalOptions="Start" Margin="{StaticResource PageInset}"
+                IsVisible="{Binding ShowCombo}" SemanticProperties.Description="{Binding ComboAccessibility}">
+            <HorizontalStackLayout Spacing="{StaticResource Space1}">
+                <Label Text="{x:Static icons:Icon.Flame}" Style="{StaticResource IconGlyphSm}" TextColor="{AppThemeBinding Light={StaticResource ColorStreakActiveLight}, Dark={StaticResource ColorStreakActiveDark}}" />
+                <Label Text="{Binding ComboText}" Style="{StaticResource ChipTextGold}" FontFamily="RubikBold" />
+            </HorizontalStackLayout>
+        </Border>
 
         <!-- Feedback + Next (slides in from the code-behind) -->
         <VerticalStackLayout x:Name="FeedbackPanel" Grid.Row="2" Spacing="{StaticResource Space3}" Padding="{StaticResource BottomBarInset}" IsVisible="{Binding Answered}"

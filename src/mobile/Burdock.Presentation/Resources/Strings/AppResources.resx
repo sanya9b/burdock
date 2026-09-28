@@ -309,4 +309,68 @@
   <data name="Onboarding_Done_Title" xml:space="preserve"><value>Готово!</value></data>
   <data name="Onboarding_Done_Subtitle" xml:space="preserve"><value>Твої перші слова вже чекають</value></data>
   <data name="Onboarding_Done_FirstWord" xml:space="preserve"><value>Перше слово</value></data>
+
+  <!-- Rewards (spec 07): XP, thorns, streak, celebrations -->
+  <data name="Rewards_Xp_Gained" xml:space="preserve"><value>+{0} XP</value></data>
+  <data name="Rewards_Thorns_Gained" xml:space="preserve"><value>+{0}</value></data>
+  <data name="Rewards_Thorns_One" xml:space="preserve"><value>{0} колючка</value></data>
+  <data name="Rewards_Thorns_Few" xml:space="preserve"><value>{0} колючки</value></data>
+  <data name="Rewards_Thorns_Many" xml:space="preserve"><value>{0} колючок</value></data>
+  <data name="Rewards_Days_One" xml:space="preserve"><value>{0} день</value></data>
+  <data name="Rewards_Days_Few" xml:space="preserve"><value>{0} дні</value></data>
+  <data name="Rewards_Days_Many" xml:space="preserve"><value>{0} днів</value></data>
+  <data name="Rewards_Streak_Label" xml:space="preserve"><value>Серія</value></data>
+  <data name="Rewards_Streak_Format" xml:space="preserve"><value>Серія: {0}</value></data>
+  <data name="Rewards_Level_Format" xml:space="preserve"><value>Рівень {0} · {1}</value></data>
+  <data name="Rewards_Level_Titles" xml:space="preserve"><value>Насінинка|Паросток|Пагінець|Листочок|Кущик|Бутончик|Реп’яшок|Чіпкий реп’яшок|Колючка|Цвіт реп’яха|Лугова душа|Стежковий мандрівник|Словолов|Чіпкий словолов|Знавець стежок|Луговий майстер|Реп’ях-провідник|Хранитель лугу|Словоплет|Майстер колючок|Мудрий реп’ях|Старійшина лугу|Реп’ях-дослідник|Словограй|Реп’ях-поліглот|Луговий легендар|Реп’ях-зірка|Сонячний реп’ях|Реп’ях-легенда|Великий Реп’ях</value></data>
+  <data name="Rewards_Xp_Progress" xml:space="preserve"><value>{0} / {1} XP</value></data>
+  <data name="Rewards_Xp_Max" xml:space="preserve"><value>{0} XP</value></data>
+  <data name="Celebration_Milestone_Eyebrow" xml:space="preserve"><value>Віха серії</value></data>
+  <data name="Celebration_Milestone_Title" xml:space="preserve"><value>{0} поспіль!</value></data>
+  <data name="Celebration_Milestone_Body" xml:space="preserve"><value>Реп’яшок пишається тобою. Це вже звичка.</value></data>
+  <data name="Celebration_LevelUp_Eyebrow" xml:space="preserve"><value>Новий рівень</value></data>
+  <data name="Celebration_LevelUp_Body" xml:space="preserve"><value>Так тримати!</value></data>
+  <data name="Celebration_Achievement_Eyebrow" xml:space="preserve"><value>Досягнення відкрито</value></data>
+  <data name="Celebration_Hidden_Eyebrow" xml:space="preserve"><value>Секретне досягнення</value></data>
+  <data name="Celebration_Reward_One" xml:space="preserve"><value>+{0} колючка</value></data>
+  <data name="Celebration_Reward_Few" xml:space="preserve"><value>+{0} колючки</value></data>
+  <data name="Celebration_Reward_Many" xml:space="preserve"><value>+{0} колючок</value></data>
+  <data name="Celebration_Button" xml:space="preserve"><value>Далі</value></data>
+  <data name="Celebration_Button_Last" xml:space="preserve"><value>Супер!</value></data>
+  <data name="Session_Combo" xml:space="preserve"><value>×{0}</value></data>
+  <data name="Session_Combo_A11y" xml:space="preserve"><value>{0} правильних поспіль</value></data>
+  <data name="Me_Achievements_Title" xml:space="preserve"><value>Досягнення</value></data>
+  <data name="Me_Achievement_Secret" xml:space="preserve"><value>Секрет</value></data>
+
+  <!-- Achievements catalogue (spec 07 §3.6) -->
+  <data name="Ach_ACH_FIRST_STEP_Title" xml:space="preserve"><value>Перший крок</value></data>
+  <data name="Ach_ACH_FIRST_STEP_Body" xml:space="preserve"><value>Перша завершена сесія</value></data>
+  <data name="Ach_ACH_STREAK_7_Title" xml:space="preserve"><value>Тиждень поспіль</value></data>
+  <data name="Ach_ACH_STREAK_7_Body" xml:space="preserve"><value>Серія 7 днів</value></data>
+  <data name="Ach_ACH_STREAK_30_Title" xml:space="preserve"><value>Місяць поспіль</value></data>
+  <data name="Ach_ACH_STREAK_30_Body" xml:space="preserve"><value>Серія 30 днів</value></data>
+  <data name="Ach_ACH_STREAK_100_Title" xml:space="preserve"><value>Сотня днів</value></data>
+  <data name="Ach_ACH_STREAK_100_Body" xml:space="preserve"><value>Серія 100 днів</value></data>
+  <data name="Ach_ACH_STREAK_365_Title" xml:space="preserve"><value>Рік із Реп’яшком</value></data>
+  <data name="Ach_ACH_STREAK_365_Body" xml:space="preserve"><value>Серія 365 днів</value></data>
+  <data name="Ach_ACH_LEARNED_10_Title" xml:space="preserve"><value>Перша десятка</value></data>
+  <data name="Ach_ACH_LEARNED_10_Body" xml:space="preserve"><value>10 слів у «Вивчено»</value></data>
+  <data name="Ach_ACH_LEARNED_100_Title" xml:space="preserve"><value>Сотня в скарбничці</value></data>
+  <data name="Ach_ACH_LEARNED_100_Body" xml:space="preserve"><value>100 вивчених слів</value></data>
+  <data name="Ach_ACH_LEARNED_500_Title" xml:space="preserve"><value>П’ятсот</value></data>
+  <data name="Ach_ACH_LEARNED_500_Body" xml:space="preserve"><value>500 вивчених слів</value></data>
+  <data name="Ach_ACH_LEARNED_1000_Title" xml:space="preserve"><value>Тисяча</value></data>
+  <data name="Ach_ACH_LEARNED_1000_Body" xml:space="preserve"><value>1 000 вивчених слів</value></data>
+  <data name="Ach_ACH_TYPED_100_Title" xml:space="preserve"><value>Клавіатурний майстер</value></data>
+  <data name="Ach_ACH_TYPED_100_Body" xml:space="preserve"><value>100 правильних наборів слова</value></data>
+  <data name="Ach_ACH_REVIEWS_1000_Title" xml:space="preserve"><value>Тисяча повторень</value></data>
+  <data name="Ach_ACH_REVIEWS_1000_Body" xml:space="preserve"><value>1 000 оцінених карток</value></data>
+  <data name="Ach_ACH_LEVEL_10_Title" xml:space="preserve"><value>Цвіт реп’яха</value></data>
+  <data name="Ach_ACH_LEVEL_10_Body" xml:space="preserve"><value>Рівень 10</value></data>
+  <data name="Ach_ACH_LEVEL_20_Title" xml:space="preserve"><value>Майстер колючок</value></data>
+  <data name="Ach_ACH_LEVEL_20_Body" xml:space="preserve"><value>Рівень 20</value></data>
+  <data name="Ach_ACH_LEVEL_30_Title" xml:space="preserve"><value>Великий Реп’ях</value></data>
+  <data name="Ach_ACH_LEVEL_30_Body" xml:space="preserve"><value>Рівень 30</value></data>
+  <data name="Ach_ACH_PERFECT_20_Title" xml:space="preserve"><value>Жодного «Ще ні»</value></data>
+  <data name="Ach_ACH_PERFECT_20_Body" xml:space="preserve"><value>Сесія на 20 карток без помилок</value></data>
 </root>

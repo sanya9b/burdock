@@ -21,6 +21,7 @@ public static class PresentationServiceCollectionExtensions
         services.AddSingleton<IToastService, CommunityToast>();
         services.AddSingleton<IAppThemeService, AppThemeService>();
         services.AddSingleton<INotificationPrompt, NotificationPrompt>();
+        services.AddSingleton<IHaptics, MauiHaptics>();
 
         services.AddTransient<BootstrapViewModel>();
         services.AddTransient<BootstrapPage>();

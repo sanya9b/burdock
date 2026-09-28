@@ -1,6 +1,7 @@
 using Burdock.Application.Ports;
 using Burdock.Domain.Exposure;
 using Burdock.Domain.Learning;
+using Burdock.Domain.Rewards;
 using Burdock.Domain.SharedKernel;
 using Burdock.Domain.Vocabulary;
 
@@ -64,6 +65,9 @@ public sealed class InMemoryCardRepository : ILearnerCardRepository
 
 public sealed class InMemoryReviewLog : IReviewLogStore
 {
+    public Task<int> CountAsync(LearnerId learnerId, ExerciseMode? mode, bool onlyCorrect, CancellationToken cancellationToken)
+        => Task.FromResult(Entries.Count(e => e.LearnerId == learnerId && (mode is null || e.Mode == mode) && (!onlyCorrect || e.Rating != Rating.Again)));
+
     public List<ReviewLogEntry> Entries { get; } = [];
 
     public Task AppendAsync(ReviewLogEntry entry, CancellationToken cancellationToken)
@@ -186,4 +190,20 @@ public sealed class FakeScheduler : IReviewScheduler
     }
 
     public double Retrievability(SchedulingInput input, DateTimeOffset at) => input.Memory is { } m ? Math.Max(0, 1 - 0.1 * (at - (input.LastReview ?? at)).TotalDays / m.Stability) : 0;
+}
+
+public sealed class InMemoryRewardsStore : IRewardsStore
+{
+    public RewardsState? State { get; private set; }
+
+    public List<LedgerEvent> Events { get; } = [];
+
+    public Task<RewardsState?> GetAsync(LearnerId learnerId, CancellationToken cancellationToken) => Task.FromResult(State);
+
+    public Task SaveAsync(LearnerId learnerId, RewardsState state, IReadOnlyList<LedgerEvent> newEvents, CancellationToken cancellationToken)
+    {
+        State = state;
+        Events.AddRange(newEvents);
+        return Task.CompletedTask;
+    }
 }

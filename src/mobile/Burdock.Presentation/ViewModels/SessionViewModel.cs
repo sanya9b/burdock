@@ -2,6 +2,7 @@ using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Globalization;
 using System.Text;
+using Burdock.Application.Ports;
 using Burdock.Application.UseCases.Sessions;
 using Burdock.Domain.Learning;
 using Burdock.Presentation.Navigation;
@@ -36,7 +37,7 @@ public sealed partial class OptionViewModel(string text, int index, bool isWord)
     private OptionVisual _visual = OptionVisual.Default;
 }
 
-/// <summary>S-12 «Сесія»: drives the three exercise kinds, grading and feedback (spec 03, spec 06 §3.6-3.7).</summary>
+/// <summary>S-12 «Сесія»: drives the three exercise kinds, grading, feedback and the counters the economy needs (spec 03, spec 06 §3.6-3.7, spec 07).</summary>
 public sealed partial class SessionViewModel : ObservableObject, IQueryAttributable
 {
     private static readonly CultureInfo Ukrainian = CultureInfo.GetCultureInfo("uk-UA");
@@ -44,17 +45,26 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
     private static readonly CompositeFormat TypoFormat = CompositeFormat.Parse(AppResources.Session_Feedback_Typo);
     private static readonly CompositeFormat WrongFormat = CompositeFormat.Parse(AppResources.Session_Feedback_Wrong);
     private static readonly CompositeFormat AnswerDetailFormat = CompositeFormat.Parse(AppResources.Session_Feedback_Answer_Detail);
+    private static readonly CompositeFormat ComboFormat = CompositeFormat.Parse(AppResources.Session_Combo);
+    private static readonly CompositeFormat ComboA11yFormat = CompositeFormat.Parse(AppResources.Session_Combo_A11y);
 
     private readonly BuildSessionUseCase _buildSession;
     private readonly GradeAnswerUseCase _gradeAnswer;
     private readonly INavigationService _navigation;
+    private readonly IIdGenerator _ids;
     private readonly ILogger<SessionViewModel> _logger;
     private readonly Stopwatch _stopwatch = new();
     private readonly List<SessionItem> _items = [];
+    private Guid _sessionId;
     private int _index = -1;
     private int _size = BuildSessionUseCase.DefaultSize;
     private int _graded;
     private int _correct;
+    private int _againCount;
+    private int _typedCorrect;
+    private int _wordsLearned;
+    private bool _warmupCompleted;
+    private int _combo;
     private DateTimeOffset _startedAt;
     private OptionViewModel? _pendingWord;
     private int _matchedPairs;
@@ -120,11 +130,32 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
     [ObservableProperty]
     private bool _isLast;
 
-    public SessionViewModel(BuildSessionUseCase buildSession, GradeAnswerUseCase gradeAnswer, INavigationService navigation, ILogger<SessionViewModel> logger)
+    /// <summary>Consecutive correct graded answers; the combo chip shows from two (spec 07 §3.8: joy, never pressure).</summary>
+    [ObservableProperty]
+    private int _comboCount;
+
+    [ObservableProperty]
+    private string _comboText = string.Empty;
+
+    [ObservableProperty]
+    private string _comboAccessibility = string.Empty;
+
+    [ObservableProperty]
+    private bool _showCombo;
+
+    /// <summary>Increments on every graded answer so the page can play the matching animation and haptic.</summary>
+    [ObservableProperty]
+    private int _answerTick;
+
+    [ObservableProperty]
+    private bool _lastAnswerCorrect;
+
+    public SessionViewModel(BuildSessionUseCase buildSession, GradeAnswerUseCase gradeAnswer, INavigationService navigation, IIdGenerator ids, ILogger<SessionViewModel> logger)
     {
         _buildSession = buildSession ?? throw new ArgumentNullException(nameof(buildSession));
         _gradeAnswer = gradeAnswer ?? throw new ArgumentNullException(nameof(gradeAnswer));
         _navigation = navigation ?? throw new ArgumentNullException(nameof(navigation));
+        _ids = ids ?? throw new ArgumentNullException(nameof(ids));
         _logger = logger ?? throw new ArgumentNullException(nameof(logger));
     }
 
@@ -156,6 +187,7 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
         {
             var plan = await _buildSession.ExecuteAsync(_size, cancellationToken).ConfigureAwait(true);
             _items.AddRange(plan.Items);
+            _sessionId = _ids.NewId();
             _startedAt = DateTimeOffset.UtcNow;
             if (_items.Count == 0)
             {
@@ -333,9 +365,12 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
         _pendingWord = null;
         if (_matchedPairs == MatchWords.Count)
         {
+            _warmupCompleted = true;
             SetFeedback(positive: true, AppResources.Session_Feedback_Matching_Title, string.Empty, AppResources.Session_Feedback_Correct);
             CompletedCount = _index + 1;
             Answered = true;
+            LastAnswerCorrect = true;
+            AnswerTick++;
         }
     }
 
@@ -351,8 +386,13 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
         var duration = DateTimeOffset.UtcNow - _startedAt;
         var parameters = new Dictionary<string, object>(StringComparer.Ordinal)
         {
+            ["session"] = _sessionId.ToString("D"),
             ["graded"] = _graded.ToString(CultureInfo.InvariantCulture),
             ["correct"] = _correct.ToString(CultureInfo.InvariantCulture),
+            ["again"] = _againCount.ToString(CultureInfo.InvariantCulture),
+            ["typed"] = _typedCorrect.ToString(CultureInfo.InvariantCulture),
+            ["learned"] = _wordsLearned.ToString(CultureInfo.InvariantCulture),
+            ["warmup"] = _warmupCompleted ? "1" : "0",
             ["seconds"] = ((int)duration.TotalSeconds).ToString(CultureInfo.InvariantCulture),
         };
         return _navigation.GoToAsync(Routes.Learn.Summary, parameters, cancellationToken);
@@ -373,7 +413,31 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
         if (outcome.Correct)
         {
             _correct++;
+            _combo++;
+            if (outcome.Mode == ExerciseMode.TypedRecall)
+            {
+                _typedCorrect++;
+            }
         }
+        else
+        {
+            _combo = 0;
+        }
+
+        if (result.Value.Rating == Rating.Again)
+        {
+            _againCount++;
+        }
+
+        if (result.Value.BecameLearned)
+        {
+            _wordsLearned++;
+        }
+
+        ComboCount = _combo;
+        ComboText = string.Format(Ukrainian, ComboFormat, _combo);
+        ComboAccessibility = string.Format(Ukrainian, ComboA11yFormat, _combo);
+        ShowCombo = _combo >= 2;
 
         var detail = string.Format(Ukrainian, AnswerDetailFormat, correctAnswer);
         switch (outcome)
@@ -388,6 +452,9 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
                 SetFeedback(positive: false, AppResources.Session_Feedback_Wrong_Title, detail, string.Format(Ukrainian, WrongFormat, correctAnswer));
                 break;
         }
+
+        LastAnswerCorrect = outcome.Correct;
+        AnswerTick++;
     }
 
     private void SetFeedback(bool positive, string title, string detail, string spoken)

@@ -112,6 +112,26 @@ public sealed class SqliteReviewLogStore(BurdockDatabase database) : IReviewLogS
         var end = dayEndUtc.UtcTicks;
         return await db.Table<ReviewLogRow>().Where(r => r.LearnerId == learner && r.ReviewedAtTicks >= start && r.ReviewedAtTicks < end).CountAsync().ConfigureAwait(false);
     }
+
+    public async Task<int> CountAsync(LearnerId learnerId, ExerciseMode? mode, bool onlyCorrect, CancellationToken cancellationToken)
+    {
+        var db = await database.GetOpenConnectionAsync(cancellationToken).ConfigureAwait(false);
+        var learner = learnerId.Value;
+        var query = db.Table<ReviewLogRow>().Where(r => r.LearnerId == learner);
+        if (mode is { } m)
+        {
+            var modeValue = (int)m;
+            query = query.Where(r => r.Mode == modeValue);
+        }
+
+        if (onlyCorrect)
+        {
+            var again = (int)Rating.Again;
+            query = query.Where(r => r.Rating != again);
+        }
+
+        return await query.CountAsync().ConfigureAwait(false);
+    }
 }
 
 public sealed class SqliteExposureStore(BurdockDatabase database) : IExposureStore

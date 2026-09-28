@@ -376,6 +376,65 @@
         <Setter Property="VerticalTextAlignment" Value="Center" />
     </Style>
 
+    <!-- ===== Economy: badges, pills, reward card, confetti (spec 02 section 3.11, spec 07 §3.8) ===== -->
+    <Style x:Key="StreakBadge" TargetType="Border" BasedOn="{StaticResource Chip}">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorStreakContainerLight}, Dark={StaticResource ColorStreakContainerDark}}" />
+        <Setter Property="Padding" Value="{StaticResource ChipInsetSm}" />
+    </Style>
+    <Style x:Key="StreakBadgeText" TargetType="Label" BasedOn="{StaticResource TypeLabelMd}">
+        <Setter Property="FontFamily" Value="RubikSemiBold" />
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorStreakTextLight}, Dark={StaticResource ColorStreakTextDark}}" />
+        <Setter Property="VerticalOptions" Value="Center" />
+    </Style>
+    <Style x:Key="CurrencyPill" TargetType="Border" BasedOn="{StaticResource Chip}">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorRewardCurrencyContainerLight}, Dark={StaticResource ColorRewardCurrencyContainerDark}}" />
+        <Setter Property="Padding" Value="{StaticResource ChipInsetSm}" />
+    </Style>
+    <Style x:Key="CurrencyPillText" TargetType="Label" BasedOn="{StaticResource TypeLabelMd}">
+        <Setter Property="FontFamily" Value="RubikSemiBold" />
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorRewardCurrencyTextLight}, Dark={StaticResource ColorRewardCurrencyTextDark}}" />
+        <Setter Property="VerticalOptions" Value="Center" />
+    </Style>
+    <Style x:Key="RewardCard" TargetType="Border">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorRewardGoldContainerLight}, Dark={StaticResource ColorRewardGoldContainerDark}}" />
+        <Setter Property="StrokeThickness" Value="0" />
+        <Setter Property="StrokeShape">
+            <RoundRectangle CornerRadius="{StaticResource CornerRadiusXl}" />
+        </Setter>
+        <Setter Property="Shadow" Value="{StaticResource ShadowElevation3}" />
+        <Setter Property="Padding" Value="{StaticResource Space6}" />
+        <Setter Property="MaximumWidthRequest" Value="{StaticResource SizeContentMaxWidth}" />
+    </Style>
+    <Style x:Key="AchievementTile" TargetType="Border">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorSurfaceElevatedLight}, Dark={StaticResource ColorSurfaceElevatedDark}}" />
+        <Setter Property="Stroke" Value="{AppThemeBinding Light=Transparent, Dark={StaticResource ColorBorderDefaultDark}}" />
+        <Setter Property="StrokeThickness" Value="{StaticResource BorderWidthHairline}" />
+        <Setter Property="StrokeShape">
+            <RoundRectangle CornerRadius="{StaticResource CornerRadiusLg}" />
+        </Setter>
+        <Setter Property="Padding" Value="{StaticResource Space3}" />
+        <Setter Property="Margin" Value="{StaticResource Space1}" />
+    </Style>
+    <Style x:Key="XpBar" TargetType="ProgressBar">
+        <Setter Property="ProgressColor" Value="{AppThemeBinding Light={StaticResource ColorBrandPrimaryVividLight}, Dark={StaticResource ColorBrandPrimaryVividDark}}" />
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorSurfaceSunkenLight}, Dark={StaticResource ColorSurfaceSunkenDark}}" />
+    </Style>
+    <Style x:Key="CelebrationConfetti" TargetType="controls:ConfettiView">
+        <Setter Property="ParticleCount" Value="14" />
+        <Setter Property="Colors">
+            <x:Array Type="{x:Type Color}">
+                <StaticResource Key="ColorRewardGoldLight" />
+                <StaticResource Key="ColorBrandAccentLight" />
+                <StaticResource Key="ColorRewardHeartLight" />
+                <StaticResource Key="ColorStreakFrozenLight" />
+                <StaticResource Key="ColorBrandPrimaryVividLight" />
+            </x:Array>
+        </Setter>
+    </Style>
+    <Style x:Key="SummaryConfetti" TargetType="controls:ConfettiView" BasedOn="{StaticResource CelebrationConfetti}">
+        <Setter Property="ParticleCount" Value="8" />
+    </Style>
+
     <!-- ===== Inputs ===== -->
     <Style x:Key="TypedField" TargetType="Border">
         <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorSurfaceElevatedLight}, Dark={StaticResource ColorSurfaceElevatedDark}}" />

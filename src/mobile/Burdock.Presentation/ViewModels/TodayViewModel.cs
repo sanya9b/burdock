@@ -5,6 +5,7 @@ using Burdock.Application.Ports;
 using Burdock.Application.UseCases.Content;
 using Burdock.Application.UseCases.LearningDays;
 using Burdock.Application.UseCases.Planning;
+using Burdock.Application.UseCases.Rewards;
 using Burdock.Domain.Learning;
 using Burdock.Domain.Vocabulary;
 using Burdock.Presentation.Navigation;
@@ -32,6 +33,7 @@ public sealed partial class TodayViewModel : ObservableObject
     private readonly GetDailyPlanUseCase _dailyPlan;
     private readonly INavigationService _navigation;
     private readonly ISpeechService _speech;
+    private readonly GetRewardsOverviewUseCase _rewards;
     private readonly ILogger<TodayViewModel> _logger;
 
     [ObservableProperty]
@@ -56,7 +58,22 @@ public sealed partial class TodayViewModel : ObservableObject
     [ObservableProperty]
     private bool _hasMore;
 
-    public TodayViewModel(LearningDayResolver learningDays, IClock clock, BootstrapContentUseCase bootstrap, GetDailyPlanUseCase dailyPlan, INavigationService navigation, ISpeechService speech, ILogger<TodayViewModel> logger)
+    [ObservableProperty]
+    private bool _showRewards;
+
+    [ObservableProperty]
+    private string _streakText = string.Empty;
+
+    [ObservableProperty]
+    private string _streakAccessibility = string.Empty;
+
+    [ObservableProperty]
+    private bool _streakCountedToday;
+
+    [ObservableProperty]
+    private string _thornsText = string.Empty;
+
+    public TodayViewModel(LearningDayResolver learningDays, IClock clock, BootstrapContentUseCase bootstrap, GetDailyPlanUseCase dailyPlan, INavigationService navigation, ISpeechService speech, GetRewardsOverviewUseCase rewards, ILogger<TodayViewModel> logger)
     {
         _learningDays = learningDays ?? throw new ArgumentNullException(nameof(learningDays));
         _clock = clock ?? throw new ArgumentNullException(nameof(clock));
@@ -64,6 +81,7 @@ public sealed partial class TodayViewModel : ObservableObject
         _dailyPlan = dailyPlan ?? throw new ArgumentNullException(nameof(dailyPlan));
         _navigation = navigation ?? throw new ArgumentNullException(nameof(navigation));
         _speech = speech ?? throw new ArgumentNullException(nameof(speech));
+        _rewards = rewards ?? throw new ArgumentNullException(nameof(rewards));
         _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         RefreshHeader();
     }
@@ -117,6 +135,13 @@ public sealed partial class TodayViewModel : ObservableObject
             }
 
             PlanSummary = string.Format(Ukrainian, PlanSummaryFormat, plan.NewCount, plan.DueCount);
+
+            var overview = await _rewards.ExecuteAsync(cancellationToken).ConfigureAwait(true);
+            ShowRewards = overview.GamificationEnabled;
+            StreakCountedToday = overview.StreakCountedToday;
+            StreakText = overview.StreakLength.ToString(Ukrainian);
+            StreakAccessibility = Localization.RewardsText.StreakDays(overview.StreakLength);
+            ThornsText = overview.Thorns.ToString(Ukrainian);
             HasWords = Words.Count > 0;
             HasMore = More.Count > 0;
             State = HasWords ? ViewState.Ready : ViewState.Empty;

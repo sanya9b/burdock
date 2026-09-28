@@ -23,8 +23,29 @@
             <ScrollView>
                 <VerticalStackLayout Spacing="{StaticResource Space5}" Padding="{StaticResource PageInsetTop}" MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
 
-                    <!-- Header -->
-                    <VerticalStackLayout Spacing="{StaticResource Space1}" Margin="{StaticResource Space2}">
+                    <!-- Header: StreakBadge and CurrencyPill row (hidden in «без гейміфікації»), then greeting -->
+                    <VerticalStackLayout Spacing="{StaticResource Space2}" Margin="{StaticResource Space2}">
+                        <HorizontalStackLayout Spacing="{StaticResource Space2}" HorizontalOptions="End" IsVisible="{Binding ShowRewards}">
+                            <Border Style="{StaticResource StreakBadge}" SemanticProperties.Description="{Binding StreakAccessibility}">
+                                <HorizontalStackLayout Spacing="{StaticResource Space1}">
+                                    <Label Text="{x:Static icons:Icon.Flame}" Style="{StaticResource IconGlyphSm}"
+                                           TextColor="{AppThemeBinding Light={StaticResource ColorStreakInactiveLight}, Dark={StaticResource ColorStreakInactiveDark}}">
+                                        <Label.Triggers>
+                                            <DataTrigger TargetType="Label" Binding="{Binding StreakCountedToday}" Value="True">
+                                                <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorStreakActiveLight}, Dark={StaticResource ColorStreakActiveDark}}" />
+                                            </DataTrigger>
+                                        </Label.Triggers>
+                                    </Label>
+                                    <Label Text="{Binding StreakText}" Style="{StaticResource StreakBadgeText}" />
+                                </HorizontalStackLayout>
+                            </Border>
+                            <Border Style="{StaticResource CurrencyPill}">
+                                <HorizontalStackLayout Spacing="{StaticResource Space1}">
+                                    <Image Source="brand_mark.png" WidthRequest="{StaticResource SizeIconSm}" HeightRequest="{StaticResource SizeIconSm}" AutomationProperties.IsInAccessibleTree="False" />
+                                    <Label Text="{Binding ThornsText}" Style="{StaticResource CurrencyPillText}" />
+                                </HorizontalStackLayout>
+                            </Border>
+                        </HorizontalStackLayout>
                         <Label Text="{Binding Greeting}" Style="{StaticResource TypeDisplayMd}" SemanticProperties.HeadingLevel="Level1" />
                         <Label Text="{Binding LearningDayText}" Style="{StaticResource TextSecondary}" />
                     </VerticalStackLayout>

@@ -19,4 +19,7 @@ public interface IReviewLogStore
     Task AppendAsync(ReviewLogEntry entry, CancellationToken cancellationToken);
 
     Task<int> CountGradedOnDayAsync(LearnerId learnerId, DateTimeOffset dayStartUtc, DateTimeOffset dayEndUtc, CancellationToken cancellationToken);
+
+    /// <summary>Total graded answers, optionally for one exercise mode and only those rated above Again (achievements, spec 07 §3.6).</summary>
+    Task<int> CountAsync(LearnerId learnerId, ExerciseMode? mode, bool onlyCorrect, CancellationToken cancellationToken);
 }

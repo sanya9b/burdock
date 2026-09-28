@@ -8,7 +8,7 @@
              x:DataType="vm:MeViewModel"
              Shell.NavBarIsVisible="False"
              Title="{x:Static strings:AppResources.Tab_Me_Title}">
-    <!-- S-17 «Я» (spec 03): anonymous learner, settings entry. Account linking, Pro and statistics come with phases 2 and 5. -->
+    <!-- S-17 «Я» (spec 03): anonymous learner, level and XP, thorns and streak, achievements (spec 07 §3.6), settings entry. Account linking and Pro come with phases 2 and 5. -->
     <ScrollView>
         <VerticalStackLayout Spacing="{StaticResource Space5}" Padding="{StaticResource PageInsetScroll}" MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
             <Label Text="{x:Static strings:AppResources.Me_Title}" Style="{StaticResource TypeHeadlineLg}" SemanticProperties.HeadingLevel="Level1" />
@@ -25,6 +25,66 @@
                     </VerticalStackLayout>
                 </Grid>
             </Border>
+
+            <!-- Level, XP, thorns, streak -->
+            <Border Style="{StaticResource CardElevated}" IsVisible="{Binding ShowRewards}">
+                <VerticalStackLayout Spacing="{StaticResource Space3}">
+                    <Grid ColumnDefinitions="*,Auto" ColumnSpacing="{StaticResource Space3}">
+                        <Label Grid.Column="0" Text="{Binding LevelText}" Style="{StaticResource TypeTitleLg}" />
+                        <Label Grid.Column="1" Text="{Binding XpText}" Style="{StaticResource LabelSecondary}" VerticalOptions="Center" />
+                    </Grid>
+                    <ProgressBar Progress="{Binding XpProgress}" Style="{StaticResource XpBar}" />
+                    <HorizontalStackLayout Spacing="{StaticResource Space2}">
+                        <Border Style="{StaticResource CurrencyPill}">
+                            <HorizontalStackLayout Spacing="{StaticResource Space2}">
+                                <Image Source="brand_mark.png" WidthRequest="{StaticResource SizeIconMd}" HeightRequest="{StaticResource SizeIconMd}" AutomationProperties.IsInAccessibleTree="False" />
+                                <Label Text="{Binding ThornsText}" Style="{StaticResource CurrencyPillText}" />
+                            </HorizontalStackLayout>
+                        </Border>
+                        <Border Style="{StaticResource StreakBadge}">
+                            <HorizontalStackLayout Spacing="{StaticResource Space2}">
+                                <Label Text="{x:Static icons:Icon.Flame}" Style="{StaticResource IconGlyphSm}"
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorStreakActiveLight}, Dark={StaticResource ColorStreakActiveDark}}" />
+                                <Label Text="{Binding StreakText}" Style="{StaticResource StreakBadgeText}" />
+                            </HorizontalStackLayout>
+                        </Border>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </Border>
+
+            <!-- Achievements -->
+            <VerticalStackLayout Spacing="{StaticResource Space3}" IsVisible="{Binding ShowRewards}">
+                <Grid ColumnDefinitions="*,Auto">
+                    <Label Grid.Column="0" Text="{x:Static strings:AppResources.Me_Achievements_Title}" Style="{StaticResource SectionTitle}" SemanticProperties.HeadingLevel="Level2" />
+                    <Label Grid.Column="1" Text="{Binding AchievementsSummary}" Style="{StaticResource LabelSecondary}" VerticalOptions="End" />
+                </Grid>
+                <FlexLayout Wrap="Wrap" Direction="Row" JustifyContent="Start" AlignItems="Start" BindableLayout.ItemsSource="{Binding Achievements}">
+                    <BindableLayout.ItemTemplate>
+                        <DataTemplate x:DataType="vm:AchievementTile">
+                            <Border Style="{StaticResource AchievementTile}" FlexLayout.Basis="33.33%" SemanticProperties.Description="{Binding Title}" SemanticProperties.Hint="{Binding Body}">
+                                <Border.Triggers>
+                                    <DataTrigger TargetType="Border" Binding="{Binding Unlocked}" Value="False">
+                                        <Setter Property="Opacity" Value="{StaticResource OpacityMuted}" />
+                                    </DataTrigger>
+                                </Border.Triggers>
+                                <VerticalStackLayout Spacing="{StaticResource Space2}" HorizontalOptions="Fill">
+                                    <Border Style="{StaticResource IconWell}" HorizontalOptions="Center">
+                                        <Border.Triggers>
+                                            <DataTrigger TargetType="Border" Binding="{Binding Unlocked}" Value="True">
+                                                <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorRewardGoldContainerLight}, Dark={StaticResource ColorRewardGoldContainerDark}}" />
+                                            </DataTrigger>
+                                        </Border.Triggers>
+                                        <Label Text="{Binding Glyph}" Style="{StaticResource IconGlyph}"
+                                               TextColor="{AppThemeBinding Light={StaticResource ColorRewardGoldTextLight}, Dark={StaticResource ColorRewardGoldTextDark}}" />
+                                    </Border>
+                                    <Label Text="{Binding Title}" Style="{StaticResource TypeLabelSm}" HorizontalOptions="Fill" HorizontalTextAlignment="Center" VerticalTextAlignment="Start" LineBreakMode="WordWrap" MaxLines="2" HeightRequest="{StaticResource Space8}" />
+                                    <Label Text="{Binding Reward}" Style="{StaticResource TextTertiary}" HorizontalOptions="Fill" HorizontalTextAlignment="Center" IsVisible="{Binding Unlocked}" />
+                                </VerticalStackLayout>
+                            </Border>
+                        </DataTemplate>
+                    </BindableLayout.ItemTemplate>
+                </FlexLayout>
+            </VerticalStackLayout>
 
             <Border Style="{StaticResource CardElevated}" Padding="{StaticResource Space2}">
                 <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="{StaticResource Space3}" Padding="{StaticResource ChipInset}" MinimumHeightRequest="{StaticResource SizePushButtonHeight}"

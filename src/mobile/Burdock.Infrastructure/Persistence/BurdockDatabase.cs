@@ -43,6 +43,7 @@ public sealed class BurdockDatabase : IAsyncDisposable
                 var db = Connection;
                 await db.EnableWriteAheadLoggingAsync().ConfigureAwait(false);
                 await db.CreateTablesAsync<WordEntryRow, ContentPackRow, LearnerCardRow, ReviewLogRow, ExposureRow>().ConfigureAwait(false);
+                await db.CreateTablesAsync<RewardsStateRow, LedgerEventRow>().ConfigureAwait(false);
                 _initialized = true;
             }
         }

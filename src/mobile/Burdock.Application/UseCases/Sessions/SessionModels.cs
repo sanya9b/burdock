@@ -22,7 +22,7 @@ public sealed record SessionPlan(IReadOnlyList<SessionItem> Items)
 }
 
 /// <summary>What the UI needs after grading one answer.</summary>
-public sealed record GradeResult(Rating Rating, CardState State, DateTimeOffset Due, double Retrievability, string CorrectAnswer);
+public sealed record GradeResult(Rating Rating, CardState State, DateTimeOffset Due, double Retrievability, string CorrectAnswer, bool BecameLearned);
 
 /// <summary>Session summary shown on S-12d.</summary>
 public sealed record SessionSummary(int Graded, int Correct, int NewIntroduced, int Learned, TimeSpan Duration, bool CountsAsLearningDay);
