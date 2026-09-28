@@ -184,4 +184,82 @@
   <!-- Bootstrap (S-01) -->
   <data name="Bootstrap_Preparing" xml:space="preserve"><value>Готую твої перші слова…</value></data>
   <data name="Bootstrap_Error" xml:space="preserve"><value>Не вдалося підготувати слова. Спробуй ще раз.</value></data>
+
+  <!-- Words library (S-14) -->
+  <data name="Common_Cancel" xml:space="preserve"><value>Скасувати</value></data>
+  <data name="Words_Search_Placeholder" xml:space="preserve"><value>Пошук слова</value></data>
+  <data name="Words_Filter_All" xml:space="preserve"><value>Усі</value></data>
+  <data name="Words_Status_New" xml:space="preserve"><value>Нові</value></data>
+  <data name="Words_Status_Introduced" xml:space="preserve"><value>Знайомство</value></data>
+  <data name="Words_Status_Learning" xml:space="preserve"><value>Вчу</value></data>
+  <data name="Words_Status_Review" xml:space="preserve"><value>Повторюю</value></data>
+  <data name="Words_Status_Learned" xml:space="preserve"><value>Вивчено</value></data>
+  <data name="Words_Status_Suspended" xml:space="preserve"><value>Відкладено</value></data>
+  <data name="Words_Level_Any" xml:space="preserve"><value>Будь-який рівень</value></data>
+  <data name="Words_Topic_Any" xml:space="preserve"><value>Усі категорії</value></data>
+  <data name="Words_Pick_Level_Title" xml:space="preserve"><value>Рівень</value></data>
+  <data name="Words_Pick_Topic_Title" xml:space="preserve"><value>Категорія</value></data>
+  <data name="Words_Count_One" xml:space="preserve"><value>{0} слово</value></data>
+  <data name="Words_Count_Few" xml:space="preserve"><value>{0} слова</value></data>
+  <data name="Words_Count_Many" xml:space="preserve"><value>{0} слів</value></data>
+  <data name="Words_EmptySearch_Title" xml:space="preserve"><value>Нічого не знайшли</value></data>
+  <data name="Words_EmptySearch_Body" xml:space="preserve"><value>Спробуй інше написання.</value></data>
+  <data name="Words_EmptyFilter_Title" xml:space="preserve"><value>Тут ще порожньо</value></data>
+  <data name="Words_EmptyFilter_Body" xml:space="preserve"><value>Слова з’являться після знайомства.</value></data>
+  <data name="Words_Due_Now" xml:space="preserve"><value>пора повторити</value></data>
+  <data name="Words_Due_Today" xml:space="preserve"><value>сьогодні</value></data>
+  <data name="Words_Due_Tomorrow" xml:space="preserve"><value>завтра</value></data>
+  <data name="Words_Due_Days_One" xml:space="preserve"><value>через {0} день</value></data>
+  <data name="Words_Due_Days_Few" xml:space="preserve"><value>через {0} дні</value></data>
+  <data name="Words_Due_Days_Many" xml:space="preserve"><value>через {0} днів</value></data>
+  <data name="Words_Row_A11y" xml:space="preserve"><value>{0}, {1}, {2}, {3}</value><comment>Одне речення для читача екрана: слово, переклад, статус, наступне повторення</comment></data>
+
+  <!-- Categories (decision Q18) -->
+  <data name="Topic_communication" xml:space="preserve"><value>Спілкування</value></data>
+  <data name="Topic_travel" xml:space="preserve"><value>Подорожі</value></data>
+  <data name="Topic_work" xml:space="preserve"><value>Робота і бізнес</value></data>
+  <data name="Topic_it" xml:space="preserve"><value>IT та програмування</value></data>
+  <data name="Topic_food" xml:space="preserve"><value>Їжа</value></data>
+  <data name="Topic_health" xml:space="preserve"><value>Здоров’я</value></data>
+  <data name="Topic_city" xml:space="preserve"><value>Місто й транспорт</value></data>
+  <data name="Topic_shopping" xml:space="preserve"><value>Покупки</value></data>
+
+  <!-- Settings (S-18) -->
+  <data name="Settings_Title" xml:space="preserve"><value>Налаштування</value></data>
+  <data name="Settings_Section_Rotation" xml:space="preserve"><value>Віджет і слова</value></data>
+  <data name="Settings_Section_Notifications" xml:space="preserve"><value>Сповіщення</value></data>
+  <data name="Settings_Section_Learning" xml:space="preserve"><value>Навчання</value></data>
+  <data name="Settings_Section_Appearance" xml:space="preserve"><value>Вигляд</value></data>
+  <data name="Settings_Cadence_Title" xml:space="preserve"><value>Інтервал зміни слова</value></data>
+  <data name="Settings_Minutes" xml:space="preserve"><value>{0} хв</value></data>
+  <data name="Settings_Hours" xml:space="preserve"><value>{0} год</value></data>
+  <data name="Settings_Exposures_Title" xml:space="preserve"><value>Показів одного слова на день</value></data>
+  <data name="Settings_TranslationOnSurfaces_Title" xml:space="preserve"><value>Показувати переклад на віджеті</value></data>
+  <data name="Settings_Notifications_Title" xml:space="preserve"><value>Сповіщень на день</value></data>
+  <data name="Settings_QuietHours_Title" xml:space="preserve"><value>Тихі години</value></data>
+  <data name="Settings_QuietHours_From" xml:space="preserve"><value>з</value></data>
+  <data name="Settings_QuietHours_To" xml:space="preserve"><value>до</value></data>
+  <data name="Settings_Level_Title" xml:space="preserve"><value>Рівень</value></data>
+  <data name="Settings_Topics_Title" xml:space="preserve"><value>Категорії</value></data>
+  <data name="Settings_Topics_Hint" xml:space="preserve"><value>Обери хоча б одну категорію</value></data>
+  <data name="Settings_NewWords_Title" xml:space="preserve"><value>Нових слів на день</value></data>
+  <data name="Settings_Retention_Title" xml:space="preserve"><value>Бажана утримуваність</value></data>
+  <data name="Settings_Retention_Easy" xml:space="preserve"><value>Легко</value></data>
+  <data name="Settings_Retention_Standard" xml:space="preserve"><value>Стандарт</value></data>
+  <data name="Settings_Retention_Max" xml:space="preserve"><value>Максимум</value></data>
+  <data name="Settings_Theme_Title" xml:space="preserve"><value>Тема</value></data>
+  <data name="Settings_Theme_System" xml:space="preserve"><value>Системна</value></data>
+  <data name="Settings_Theme_Light" xml:space="preserve"><value>Світла</value></data>
+  <data name="Settings_Theme_Dark" xml:space="preserve"><value>Темна</value></data>
+  <data name="Settings_Gamification_Title" xml:space="preserve"><value>Без гейміфікації</value></data>
+  <data name="Settings_Gamification_Hint" xml:space="preserve"><value>Приховує серію, колючки й нагороди</value></data>
+  <data name="Settings_Saved_Toast" xml:space="preserve"><value>Збережено</value></data>
+  <data name="Settings_Increase_A11y" xml:space="preserve"><value>Збільшити</value></data>
+  <data name="Settings_Decrease_A11y" xml:space="preserve"><value>Зменшити</value></data>
+
+  <!-- Me (S-17) -->
+  <data name="Me_Anonymous_Title" xml:space="preserve"><value>Анонімний учень</value></data>
+  <data name="Me_Anonymous_Body" xml:space="preserve"><value>Прогрес зберігається на цьому пристрої. Прив’язка акаунта для синхронізації з’явиться пізніше.</value></data>
+  <data name="Me_Settings_Row" xml:space="preserve"><value>Налаштування</value></data>
+  <data name="Me_Settings_Row_Hint" xml:space="preserve"><value>Темп, рівень, категорії, сповіщення</value></data>
 </root>

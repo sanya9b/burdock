@@ -26,6 +26,7 @@ public static class Routes
     public static class Words
     {
         public static readonly Route Root = new("//words");
+        public static readonly Route Word = new("//words/word");
     }
 
     public static class Me

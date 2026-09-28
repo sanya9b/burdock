@@ -18,6 +18,8 @@ public partial class App : Microsoft.Maui.Controls.Application
 #if !ANDROID
         Services.SystemSplash.MarkDismissed();
 #endif
+        var theme = _services.GetRequiredService<Services.IAppThemeService>();
+        theme.Apply(theme.Mode);
         return new Window(_services.GetRequiredService<Views.BootstrapPage>());
     }
 }

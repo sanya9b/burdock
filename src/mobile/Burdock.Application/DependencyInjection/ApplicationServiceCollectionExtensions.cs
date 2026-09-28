@@ -2,6 +2,7 @@ using Burdock.Application.UseCases.Content;
 using Burdock.Application.UseCases.LearningDays;
 using Burdock.Application.UseCases.Planning;
 using Burdock.Application.UseCases.Sessions;
+using Burdock.Application.UseCases.Settings;
 using Burdock.Application.UseCases.Words;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -22,6 +23,9 @@ public static class ApplicationServiceCollectionExtensions
         services.AddTransient<ClaimKnownUseCase>();
         services.AddTransient<BuildSessionUseCase>();
         services.AddTransient<GradeAnswerUseCase>();
+        services.AddTransient<BrowseWordsUseCase>();
+        services.AddTransient<GetLearnerSettingsUseCase>();
+        services.AddTransient<UpdateLearnerSettingsUseCase>();
         return services;
     }
 }

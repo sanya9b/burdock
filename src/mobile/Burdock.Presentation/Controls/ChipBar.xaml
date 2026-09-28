@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:Burdock.Presentation.ViewModels"
+             xmlns:icons="clr-namespace:Burdock.Presentation.Resources.Icons"
+             x:Class="Burdock.Presentation.Controls.ChipBar"
+             x:Name="Root">
+    <!-- FilterChip group (spec 02 section 3.11): single or multi select is decided by the owner of SelectCommand. Scrolls horizontally, or wraps when Wrap="True". -->
+    <ContentView.Resources>
+        <DataTemplate x:Key="ChipTemplate" x:DataType="vm:ChipOption">
+            <Border Style="{StaticResource FilterChip}">
+                <Border.Triggers>
+                    <DataTrigger TargetType="Border" Binding="{Binding IsSelected}" Value="True">
+                        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorBrandPrimaryContainerLight}, Dark={StaticResource ColorBrandPrimaryContainerDark}}" />
+                        <Setter Property="Stroke" Value="Transparent" />
+                    </DataTrigger>
+                </Border.Triggers>
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding SelectCommand, Source={x:Reference Root}}" CommandParameter="{Binding .}" />
+                </Border.GestureRecognizers>
+                <HorizontalStackLayout Spacing="{StaticResource Space1}">
+                    <Label Text="{x:Static icons:Icon.Check}" Style="{StaticResource IconGlyphSm}" IsVisible="{Binding IsSelected}"
+                           TextColor="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
+                    <Label Text="{Binding Label}" Style="{StaticResource FilterChipText}">
+                        <Label.Triggers>
+                            <DataTrigger TargetType="Label" Binding="{Binding IsSelected}" Value="True">
+                                <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
+                                <Setter Property="FontFamily" Value="RubikSemiBold" />
+                            </DataTrigger>
+                        </Label.Triggers>
+                    </Label>
+                </HorizontalStackLayout>
+            </Border>
+        </DataTemplate>
+    </ContentView.Resources>
+
+    <Grid>
+        <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never" IsVisible="{Binding Scrolls, Source={x:Reference Root}}">
+            <HorizontalStackLayout Spacing="{StaticResource Space2}" Padding="{Binding EdgeInset, Source={x:Reference Root}}"
+                                   BindableLayout.ItemsSource="{Binding Items, Source={x:Reference Root}}" BindableLayout.ItemTemplate="{StaticResource ChipTemplate}" />
+        </ScrollView>
+        <FlexLayout Wrap="Wrap" Direction="Row" JustifyContent="Start" AlignItems="Start" IsVisible="{Binding Wrap, Source={x:Reference Root}}"
+                    BindableLayout.ItemsSource="{Binding Items, Source={x:Reference Root}}" BindableLayout.ItemTemplate="{StaticResource ChipTemplate}" />
+    </Grid>
+</ContentView>

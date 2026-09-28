@@ -22,6 +22,10 @@
     <Thickness x:Key="InsetTopSm">0,4,0,0</Thickness>
     <Thickness x:Key="InsetTopMd">0,8,0,0</Thickness>
     <Thickness x:Key="InsetTopLg">0,16,0,0</Thickness>
+    <Thickness x:Key="InsetLeftSm">4,0,0,0</Thickness>
+    <Thickness x:Key="PageInsetScroll">20,8,20,32</Thickness>
+    <Thickness x:Key="ListRowInset">20,12</Thickness>
+    <Thickness x:Key="FilterChipInset">14,8</Thickness>
 
     <!-- ===== Icons (Lucide font). Decorative by default; give a SemanticProperties.Description when an icon stands alone. ===== -->
     <Style x:Key="IconGlyph" TargetType="Label">
@@ -284,6 +288,63 @@
                 <Setter Property="EdgeColor" Value="{AppThemeBinding Light={StaticResource ColorFeedbackSuccessEdgeLight}, Dark={StaticResource ColorFeedbackSuccessEdgeDark}}" />
             </DataTrigger>
         </Style.Triggers>
+    </Style>
+
+    <!-- ===== Filter chips, fields, dividers, switches (S-14 / S-18) ===== -->
+    <Style x:Key="FilterChip" TargetType="Border">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorSurfaceElevatedLight}, Dark={StaticResource ColorSurfaceElevatedDark}}" />
+        <Setter Property="Stroke" Value="{AppThemeBinding Light={StaticResource ColorBorderDefaultLight}, Dark={StaticResource ColorBorderDefaultDark}}" />
+        <Setter Property="StrokeThickness" Value="{StaticResource BorderWidthHairline}" />
+        <Setter Property="StrokeShape">
+            <RoundRectangle CornerRadius="{StaticResource CornerRadiusFull}" />
+        </Setter>
+        <Setter Property="Padding" Value="{StaticResource FilterChipInset}" />
+        <Setter Property="Margin" Value="{StaticResource InsetLeftSm}" />
+        <Setter Property="HorizontalOptions" Value="Start" />
+        <Setter Property="VerticalOptions" Value="Center" />
+        <Setter Property="MinimumHeightRequest" Value="{StaticResource Space8}" />
+    </Style>
+    <Style x:Key="FilterChipText" TargetType="Label" BasedOn="{StaticResource TypeLabelMd}">
+        <Setter Property="VerticalOptions" Value="Center" />
+    </Style>
+    <Style x:Key="SearchField" TargetType="Border">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorSurfaceElevatedLight}, Dark={StaticResource ColorSurfaceElevatedDark}}" />
+        <Setter Property="Stroke" Value="{AppThemeBinding Light=Transparent, Dark={StaticResource ColorBorderDefaultDark}}" />
+        <Setter Property="StrokeThickness" Value="{StaticResource BorderWidthHairline}" />
+        <Setter Property="StrokeShape">
+            <RoundRectangle CornerRadius="{StaticResource CornerRadiusFull}" />
+        </Setter>
+        <Setter Property="Shadow" Value="{StaticResource ShadowElevation1}" />
+        <Setter Property="Padding" Value="{StaticResource FieldInset}" />
+    </Style>
+    <Style x:Key="FieldChip" TargetType="Border" BasedOn="{StaticResource FilterChip}">
+        <Setter Property="Padding" Value="{StaticResource ChipInsetSm}" />
+        <Setter Property="Margin" Value="0" />
+    </Style>
+    <Style x:Key="TimeField" TargetType="TimePicker">
+        <Setter Property="FontFamily" Value="RubikSemiBold" />
+        <Setter Property="FontSize" Value="{StaticResource FontSizeTitleMd}" />
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorTextPrimaryLight}, Dark={StaticResource ColorTextPrimaryDark}}" />
+        <Setter Property="BackgroundColor" Value="Transparent" />
+    </Style>
+    <Style x:Key="Divider" TargetType="BoxView">
+        <Setter Property="HeightRequest" Value="{StaticResource BorderWidthHairline}" />
+        <Setter Property="Color" Value="{AppThemeBinding Light={StaticResource ColorBorderDefaultLight}, Dark={StaticResource ColorBorderDefaultDark}}" />
+    </Style>
+    <Style x:Key="SwitchBrand" TargetType="Switch">
+        <Setter Property="OnColor" Value="{AppThemeBinding Light={StaticResource ColorBrandPrimaryLight}, Dark={StaticResource ColorBrandPrimaryDark}}" />
+        <Setter Property="ThumbColor" Value="{AppThemeBinding Light={StaticResource ColorSurfaceElevatedLight}, Dark={StaticResource ColorTextPrimaryDark}}" />
+        <Setter Property="VerticalOptions" Value="Center" />
+    </Style>
+    <Style x:Key="IconWell" TargetType="Border">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorBrandPrimaryContainerLight}, Dark={StaticResource ColorBrandPrimaryContainerDark}}" />
+        <Setter Property="StrokeThickness" Value="0" />
+        <Setter Property="StrokeShape">
+            <RoundRectangle CornerRadius="{StaticResource CornerRadiusMd}" />
+        </Setter>
+        <Setter Property="WidthRequest" Value="{StaticResource SizeTouchTargetMin}" />
+        <Setter Property="HeightRequest" Value="{StaticResource SizeTouchTargetMin}" />
+        <Setter Property="VerticalOptions" Value="Center" />
     </Style>
 
     <!-- ===== Inputs ===== -->

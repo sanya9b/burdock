@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:vm="clr-namespace:Burdock.Presentation.ViewModels"
+             xmlns:controls="clr-namespace:Burdock.Presentation.Controls"
+             xmlns:icons="clr-namespace:Burdock.Presentation.Resources.Icons"
+             xmlns:strings="clr-namespace:Burdock.Presentation.Resources.Strings"
+             xmlns:learning="clr-namespace:Burdock.Domain.Learning;assembly=Burdock.Domain"
+             x:Class="Burdock.Presentation.Views.SettingsPage"
+             x:DataType="vm:SettingsViewModel"
+             Shell.NavBarIsVisible="False"
+             Shell.TabBarIsVisible="False"
+             Title="{x:Static strings:AppResources.Settings_Title}">
+    <!-- S-18 «Налаштування» (spec 03): sections rotation / notifications / learning / appearance; every change saves after a pause with a toast. Pro locks arrive with entitlements (phase 5). -->
+    <ContentPage.Resources>
+        <toolkit:IsEqualConverter x:Key="IsEqualConverter" />
+    </ContentPage.Resources>
+
+    <Grid RowDefinitions="Auto,*">
+        <controls:TopBar Grid.Row="0" Title="{x:Static strings:AppResources.Settings_Title}" LeadingIcon="{x:Static icons:Icon.ChevronLeft}"
+                         LeadingDescription="{x:Static strings:AppResources.Common_Back_Button}" Margin="{StaticResource PageInsetTop}" />
+
+        <ActivityIndicator Grid.Row="1" IsRunning="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Loading}}"
+                           IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Loading}}" VerticalOptions="Center" />
+
+        <ScrollView Grid.Row="1" IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Ready}}">
+            <VerticalStackLayout Spacing="{StaticResource Space6}" Padding="{StaticResource PageInsetScroll}" MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
+
+                <!-- Віджет і слова -->
+                <VerticalStackLayout Spacing="{StaticResource Space2}">
+                    <Label Text="{x:Static strings:AppResources.Settings_Section_Rotation}" Style="{StaticResource Eyebrow}" Margin="{StaticResource InsetLeftSm}" />
+                    <Border Style="{StaticResource CardElevated}">
+                        <VerticalStackLayout Spacing="{StaticResource Space4}">
+                            <VerticalStackLayout Spacing="{StaticResource Space3}">
+                                <Label Text="{x:Static strings:AppResources.Settings_Cadence_Title}" Style="{StaticResource TypeTitleMd}" />
+                                <controls:ChipBar Items="{Binding CadenceChips}" SelectCommand="{Binding SelectCadenceCommand}" Wrap="True" />
+                            </VerticalStackLayout>
+                            <BoxView Style="{StaticResource Divider}" />
+                            <controls:StepperRow Title="{x:Static strings:AppResources.Settings_Exposures_Title}" Value="{Binding ExposuresPerWord}"
+                                                 Minimum="{x:Static learning:LearnerSettings.MinExposuresPerWordPerDay}" Maximum="{x:Static learning:LearnerSettings.MaxExposuresPerWordPerDay}" />
+                            <BoxView Style="{StaticResource Divider}" />
+                            <Grid ColumnDefinitions="*,Auto" ColumnSpacing="{StaticResource Space3}">
+                                <Label Grid.Column="0" Text="{x:Static strings:AppResources.Settings_TranslationOnSurfaces_Title}" Style="{StaticResource TypeTitleMd}" VerticalOptions="Center" LineBreakMode="WordWrap" />
+                                <Switch Grid.Column="1" IsToggled="{Binding TranslationOnSurfaces}" Style="{StaticResource SwitchBrand}" />
+                            </Grid>
+                        </VerticalStackLayout>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- Сповіщення -->
+                <VerticalStackLayout Spacing="{StaticResource Space2}">
+                    <Label Text="{x:Static strings:AppResources.Settings_Section_Notifications}" Style="{StaticResource Eyebrow}" Margin="{StaticResource InsetLeftSm}" />
+                    <Border Style="{StaticResource CardElevated}">
+                        <VerticalStackLayout Spacing="{StaticResource Space4}">
+                            <controls:StepperRow Title="{x:Static strings:AppResources.Settings_Notifications_Title}" Value="{Binding NotificationsPerDay}"
+                                                 Minimum="{x:Static learning:LearnerSettings.MinNotificationsPerDay}" Maximum="{x:Static learning:LearnerSettings.MaxNotificationsPerDay}" />
+                            <BoxView Style="{StaticResource Divider}" />
+                            <VerticalStackLayout Spacing="{StaticResource Space3}">
+                                <Label Text="{x:Static strings:AppResources.Settings_QuietHours_Title}" Style="{StaticResource TypeTitleMd}" />
+                                <HorizontalStackLayout Spacing="{StaticResource Space3}">
+                                    <Label Text="{x:Static strings:AppResources.Settings_QuietHours_From}" Style="{StaticResource TextSecondary}" VerticalOptions="Center" />
+                                    <Border Style="{StaticResource FieldChip}">
+                                        <TimePicker Time="{Binding QuietStart}" Format="HH:mm" Style="{StaticResource TimeField}" />
+                                    </Border>
+                                    <Label Text="{x:Static strings:AppResources.Settings_QuietHours_To}" Style="{StaticResource TextSecondary}" VerticalOptions="Center" />
+                                    <Border Style="{StaticResource FieldChip}">
+                                        <TimePicker Time="{Binding QuietEnd}" Format="HH:mm" Style="{StaticResource TimeField}" />
+                                    </Border>
+                                </HorizontalStackLayout>
+                            </VerticalStackLayout>
+                        </VerticalStackLayout>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- Навчання -->
+                <VerticalStackLayout Spacing="{StaticResource Space2}">
+                    <Label Text="{x:Static strings:AppResources.Settings_Section_Learning}" Style="{StaticResource Eyebrow}" Margin="{StaticResource InsetLeftSm}" />
+                    <Border Style="{StaticResource CardElevated}">
+                        <VerticalStackLayout Spacing="{StaticResource Space4}">
+                            <VerticalStackLayout Spacing="{StaticResource Space3}">
+                                <Label Text="{x:Static strings:AppResources.Settings_Level_Title}" Style="{StaticResource TypeTitleMd}" />
+                                <controls:ChipBar Items="{Binding LevelChips}" SelectCommand="{Binding SelectLevelCommand}" Wrap="True" />
+                            </VerticalStackLayout>
+                            <BoxView Style="{StaticResource Divider}" />
+                            <VerticalStackLayout Spacing="{StaticResource Space3}">
+                                <Label Text="{x:Static strings:AppResources.Settings_Topics_Title}" Style="{StaticResource TypeTitleMd}" />
+                                <controls:ChipBar Items="{Binding TopicChips}" SelectCommand="{Binding ToggleTopicCommand}" Wrap="True" />
+                                <Label Text="{x:Static strings:AppResources.Settings_Topics_Hint}" Style="{StaticResource TextTertiary}" />
+                            </VerticalStackLayout>
+                            <BoxView Style="{StaticResource Divider}" />
+                            <controls:StepperRow Title="{x:Static strings:AppResources.Settings_NewWords_Title}" Value="{Binding NewWordsPerDay}"
+                                                 Minimum="{x:Static learning:LearnerSettings.MinNewWordsPerDay}" Maximum="{x:Static learning:LearnerSettings.MaxNewWordsPerDay}" />
+                            <BoxView Style="{StaticResource Divider}" />
+                            <VerticalStackLayout Spacing="{StaticResource Space3}">
+                                <Label Text="{x:Static strings:AppResources.Settings_Retention_Title}" Style="{StaticResource TypeTitleMd}" />
+                                <controls:ChipBar Items="{Binding RetentionChips}" SelectCommand="{Binding SelectRetentionCommand}" Wrap="True" />
+                            </VerticalStackLayout>
+                        </VerticalStackLayout>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- Вигляд -->
+                <VerticalStackLayout Spacing="{StaticResource Space2}">
+                    <Label Text="{x:Static strings:AppResources.Settings_Section_Appearance}" Style="{StaticResource Eyebrow}" Margin="{StaticResource InsetLeftSm}" />
+                    <Border Style="{StaticResource CardElevated}">
+                        <VerticalStackLayout Spacing="{StaticResource Space4}">
+                            <VerticalStackLayout Spacing="{StaticResource Space3}">
+                                <Label Text="{x:Static strings:AppResources.Settings_Theme_Title}" Style="{StaticResource TypeTitleMd}" />
+                                <controls:ChipBar Items="{Binding ThemeChips}" SelectCommand="{Binding SelectThemeCommand}" Wrap="True" />
+                            </VerticalStackLayout>
+                            <BoxView Style="{StaticResource Divider}" />
+                            <Grid ColumnDefinitions="*,Auto" ColumnSpacing="{StaticResource Space3}">
+                                <VerticalStackLayout Grid.Column="0" Spacing="{StaticResource Space1}" VerticalOptions="Center">
+                                    <Label Text="{x:Static strings:AppResources.Settings_Gamification_Title}" Style="{StaticResource TypeTitleMd}" />
+                                    <Label Text="{x:Static strings:AppResources.Settings_Gamification_Hint}" Style="{StaticResource TextTertiary}" />
+                                </VerticalStackLayout>
+                                <Switch Grid.Column="1" IsToggled="{Binding GamificationOff}" Style="{StaticResource SwitchBrand}" />
+                            </Grid>
+                        </VerticalStackLayout>
+                    </Border>
+                </VerticalStackLayout>
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

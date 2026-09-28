@@ -17,6 +17,9 @@ public static class PresentationServiceCollectionExtensions
         services.AddSingleton<ISpeechService, MauiSpeechService>();
         services.AddSingleton<IMotionPreferences, MotionPreferences>();
         services.AddSingleton<ISystemSplash, SystemSplash>();
+        services.AddSingleton<IChoiceSheet, ShellChoiceSheet>();
+        services.AddSingleton<IToastService, CommunityToast>();
+        services.AddSingleton<IAppThemeService, AppThemeService>();
 
         services.AddTransient<BootstrapViewModel>();
         services.AddTransient<BootstrapPage>();
@@ -35,6 +38,8 @@ public static class PresentationServiceCollectionExtensions
         services.AddTransient<SessionPage>();
         services.AddTransient<SessionSummaryViewModel>();
         services.AddTransient<SessionSummaryPage>();
+        services.AddTransient<SettingsViewModel>();
+        services.AddTransient<SettingsPage>();
 
         return services;
     }

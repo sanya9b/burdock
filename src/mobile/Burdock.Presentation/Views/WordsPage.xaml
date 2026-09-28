@@ -1,16 +1,108 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              xmlns:vm="clr-namespace:Burdock.Presentation.ViewModels"
              xmlns:views="clr-namespace:Burdock.Presentation.Views"
+             xmlns:controls="clr-namespace:Burdock.Presentation.Controls"
+             xmlns:converters="clr-namespace:Burdock.Presentation.Converters"
+             xmlns:icons="clr-namespace:Burdock.Presentation.Resources.Icons"
              xmlns:strings="clr-namespace:Burdock.Presentation.Resources.Strings"
              x:Class="Burdock.Presentation.Views.WordsPage"
              x:DataType="vm:WordsViewModel"
              Shell.NavBarIsVisible="False"
              Title="{x:Static strings:AppResources.Tab_Words_Title}">
-    <!-- S-14 «Слова» (spec 03): library with filters; empty until the library slice of phase 1. -->
-    <Grid RowDefinitions="Auto,*">
-        <Label Grid.Row="0" Text="{x:Static strings:AppResources.Words_Title}" Style="{StaticResource TypeHeadlineLg}" Padding="{StaticResource PageInsetTop}" SemanticProperties.HeadingLevel="Level1" />
-        <views:EmptyStateView Grid.Row="1" Title="{x:Static strings:AppResources.Words_Empty_Title}" Body="{x:Static strings:AppResources.Words_Empty_Body}" Mascot="mascot_surprise.png" />
+    <!-- S-14 «Слова» (spec 03): search, status chips, level/category pickers, list with status dot and next review. Own lists and word history are Pro (later phases). -->
+    <ContentPage.Resources>
+        <toolkit:IsEqualConverter x:Key="IsEqualConverter" />
+        <converters:StatusColorConverter x:Key="StatusColor" />
+    </ContentPage.Resources>
+
+    <Grid RowDefinitions="Auto,Auto,Auto,Auto,*">
+        <Grid Grid.Row="0" ColumnDefinitions="*,Auto" Padding="{StaticResource PageInsetTop}">
+            <Label Grid.Column="0" Text="{x:Static strings:AppResources.Words_Title}" Style="{StaticResource TypeHeadlineLg}" SemanticProperties.HeadingLevel="Level1" />
+            <Label Grid.Column="1" Text="{Binding CountText}" Style="{StaticResource LabelSecondary}" VerticalOptions="End" />
+        </Grid>
+
+        <Border Grid.Row="1" Style="{StaticResource SearchField}" Margin="{StaticResource PageInsetTop}">
+            <Grid ColumnDefinitions="Auto,*" ColumnSpacing="{StaticResource Space2}">
+                <Label Grid.Column="0" Text="{x:Static icons:Icon.Search}" Style="{StaticResource IconGlyph}"
+                       TextColor="{AppThemeBinding Light={StaticResource ColorTextTertiaryLight}, Dark={StaticResource ColorTextTertiaryDark}}" />
+                <Entry Grid.Column="1" Text="{Binding SearchText}" Placeholder="{x:Static strings:AppResources.Words_Search_Placeholder}"
+                       ReturnType="Search" ClearButtonVisibility="WhileEditing" IsSpellCheckEnabled="False" IsTextPredictionEnabled="False" />
+            </Grid>
+        </Border>
+
+        <controls:ChipBar Grid.Row="2" Items="{Binding StatusChips}" SelectCommand="{Binding SelectStatusCommand}" EdgeInset="{StaticResource PageInsetTop}" />
+
+        <HorizontalStackLayout Grid.Row="3" Spacing="{StaticResource Space2}" Padding="{StaticResource PageInsetTop}">
+            <Border Style="{StaticResource FilterChip}">
+                <Border.Triggers>
+                    <DataTrigger TargetType="Border" Binding="{Binding HasLevelFilter}" Value="True">
+                        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorBrandPrimaryContainerLight}, Dark={StaticResource ColorBrandPrimaryContainerDark}}" />
+                        <Setter Property="Stroke" Value="Transparent" />
+                    </DataTrigger>
+                </Border.Triggers>
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding PickLevelCommand}" />
+                </Border.GestureRecognizers>
+                <HorizontalStackLayout Spacing="{StaticResource Space1}">
+                    <Label Text="{Binding LevelChipText}" Style="{StaticResource FilterChipText}" />
+                    <Label Text="{x:Static icons:Icon.ChevronDown}" Style="{StaticResource IconGlyphSm}" />
+                </HorizontalStackLayout>
+            </Border>
+            <Border Style="{StaticResource FilterChip}">
+                <Border.Triggers>
+                    <DataTrigger TargetType="Border" Binding="{Binding HasTopicFilter}" Value="True">
+                        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorBrandPrimaryContainerLight}, Dark={StaticResource ColorBrandPrimaryContainerDark}}" />
+                        <Setter Property="Stroke" Value="Transparent" />
+                    </DataTrigger>
+                </Border.Triggers>
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding PickTopicCommand}" />
+                </Border.GestureRecognizers>
+                <HorizontalStackLayout Spacing="{StaticResource Space1}">
+                    <Label Text="{Binding TopicChipText}" Style="{StaticResource FilterChipText}" />
+                    <Label Text="{x:Static icons:Icon.ChevronDown}" Style="{StaticResource IconGlyphSm}" />
+                </HorizontalStackLayout>
+            </Border>
+        </HorizontalStackLayout>
+
+        <CollectionView Grid.Row="4" ItemsSource="{Binding Words}" SelectionMode="None" Margin="{StaticResource InsetTopMd}"
+                        IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Ready}}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="vm:WordRow">
+                    <Grid RowDefinitions="Auto,Auto" SemanticProperties.Description="{Binding Accessibility}">
+                        <Grid.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type vm:WordsViewModel}}, Path=OpenCommand}" CommandParameter="{Binding .}" />
+                        </Grid.GestureRecognizers>
+                        <Grid Grid.Row="0" ColumnDefinitions="Auto,*,Auto" ColumnSpacing="{StaticResource Space3}" Padding="{StaticResource ListRowInset}">
+                            <Border Grid.Column="0" WidthRequest="{StaticResource SizeStatusDot}" HeightRequest="{StaticResource SizeStatusDot}" StrokeThickness="0" VerticalOptions="Center"
+                                    BackgroundColor="{Binding StatusKey, Converter={StaticResource StatusColor}}">
+                                <Border.StrokeShape>
+                                    <RoundRectangle CornerRadius="{StaticResource CornerRadiusFull}" />
+                                </Border.StrokeShape>
+                            </Border>
+                            <VerticalStackLayout Grid.Column="1" Spacing="{StaticResource Space1}" VerticalOptions="Center">
+                                <Label Text="{Binding Lemma}" Style="{StaticResource TypeTitleMd}" LineBreakMode="TailTruncation" />
+                                <Label Text="{Binding Translation}" Style="{StaticResource TextSecondary}" LineBreakMode="TailTruncation" />
+                            </VerticalStackLayout>
+                            <VerticalStackLayout Grid.Column="2" Spacing="{StaticResource Space1}" HorizontalOptions="End" VerticalOptions="Center">
+                                <Label Text="{Binding StatusLabel}" Style="{StaticResource LabelSecondary}" HorizontalTextAlignment="End" />
+                                <Label Text="{Binding DueText}" Style="{StaticResource TextTertiary}" HorizontalTextAlignment="End" />
+                            </VerticalStackLayout>
+                        </Grid>
+                        <BoxView Grid.Row="1" Style="{StaticResource Divider}" Margin="{StaticResource PageInset}" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <ActivityIndicator Grid.Row="4" IsRunning="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Loading}}"
+                           IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Loading}}" VerticalOptions="Center" />
+        <views:EmptyStateView Grid.Row="4" Title="{x:Static strings:AppResources.Words_EmptySearch_Title}" Body="{x:Static strings:AppResources.Words_EmptySearch_Body}"
+                              Mascot="mascot_think.png" MascotSize="{StaticResource SizeMascotMd}" IsVisible="{Binding IsSearchEmpty}" />
+        <views:EmptyStateView Grid.Row="4" Title="{x:Static strings:AppResources.Words_EmptyFilter_Title}" Body="{x:Static strings:AppResources.Words_EmptyFilter_Body}"
+                              Mascot="mascot_surprise.png" MascotSize="{StaticResource SizeMascotMd}" IsVisible="{Binding IsFilterEmpty}" />
     </Grid>
 </ContentPage>

@@ -32,6 +32,7 @@
     <x:Double x:Key="SizeContentMaxWidth">640</x:Double>
     <x:Double x:Key="SizePushButtonEdge">3</x:Double>
     <x:Double x:Key="SizePushButtonHeight">56</x:Double>
+    <x:Double x:Key="SizeStatusDot">12</x:Double>
     <x:Double x:Key="SizeIconSm">16</x:Double>
     <x:Double x:Key="SizeIconMd">20</x:Double>
     <x:Double x:Key="SizeIconLg">24</x:Double>

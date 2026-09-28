@@ -2,15 +2,48 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:vm="clr-namespace:Burdock.Presentation.ViewModels"
-             xmlns:views="clr-namespace:Burdock.Presentation.Views"
+             xmlns:icons="clr-namespace:Burdock.Presentation.Resources.Icons"
              xmlns:strings="clr-namespace:Burdock.Presentation.Resources.Strings"
              x:Class="Burdock.Presentation.Views.MePage"
              x:DataType="vm:MeViewModel"
              Shell.NavBarIsVisible="False"
              Title="{x:Static strings:AppResources.Tab_Me_Title}">
-    <!-- S-17 «Я» (spec 03): profile, linking, Pro, settings; empty until the settings slice of phase 1. -->
-    <Grid RowDefinitions="Auto,*">
-        <Label Grid.Row="0" Text="{x:Static strings:AppResources.Me_Title}" Style="{StaticResource TypeHeadlineLg}" Padding="{StaticResource PageInsetTop}" SemanticProperties.HeadingLevel="Level1" />
-        <views:EmptyStateView Grid.Row="1" Title="{x:Static strings:AppResources.Me_Empty_Title}" Body="{x:Static strings:AppResources.Me_Empty_Body}" Mascot="mascot_proud.png" />
-    </Grid>
+    <!-- S-17 «Я» (spec 03): anonymous learner, settings entry. Account linking, Pro and statistics come with phases 2 and 5. -->
+    <ScrollView>
+        <VerticalStackLayout Spacing="{StaticResource Space5}" Padding="{StaticResource PageInsetScroll}" MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
+            <Label Text="{x:Static strings:AppResources.Me_Title}" Style="{StaticResource TypeHeadlineLg}" SemanticProperties.HeadingLevel="Level1" />
+
+            <Border Style="{StaticResource CardTonal}">
+                <Grid ColumnDefinitions="Auto,*" ColumnSpacing="{StaticResource Space4}">
+                    <Image Grid.Column="0" Source="mascot_proud.png" WidthRequest="{StaticResource SizeMascotMd}" HeightRequest="{StaticResource SizeMascotMd}" VerticalOptions="Center"
+                           AutomationProperties.IsInAccessibleTree="False" />
+                    <VerticalStackLayout Grid.Column="1" Spacing="{StaticResource Space1}" VerticalOptions="Center">
+                        <Label Text="{x:Static strings:AppResources.Me_Anonymous_Title}" Style="{StaticResource TypeTitleLg}"
+                               TextColor="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
+                        <Label Text="{x:Static strings:AppResources.Me_Anonymous_Body}" Style="{StaticResource TypeBodySm}"
+                               TextColor="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
+                    </VerticalStackLayout>
+                </Grid>
+            </Border>
+
+            <Border Style="{StaticResource CardElevated}" Padding="{StaticResource Space2}">
+                <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="{StaticResource Space3}" Padding="{StaticResource ChipInset}" MinimumHeightRequest="{StaticResource SizePushButtonHeight}"
+                      SemanticProperties.Description="{x:Static strings:AppResources.Me_Settings_Row}">
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding OpenSettingsCommand}" />
+                    </Grid.GestureRecognizers>
+                    <Border Grid.Column="0" Style="{StaticResource IconWell}">
+                        <Label Text="{x:Static icons:Icon.SlidersHorizontal}" Style="{StaticResource IconGlyph}"
+                               TextColor="{AppThemeBinding Light={StaticResource ColorBrandPrimaryLight}, Dark={StaticResource ColorBrandPrimaryDark}}" />
+                    </Border>
+                    <VerticalStackLayout Grid.Column="1" Spacing="{StaticResource Space1}" VerticalOptions="Center">
+                        <Label Text="{x:Static strings:AppResources.Me_Settings_Row}" Style="{StaticResource TypeTitleMd}" />
+                        <Label Text="{x:Static strings:AppResources.Me_Settings_Row_Hint}" Style="{StaticResource TextTertiary}" />
+                    </VerticalStackLayout>
+                    <Label Grid.Column="2" Text="{x:Static icons:Icon.ChevronRight}" Style="{StaticResource IconGlyph}" VerticalOptions="Center"
+                           TextColor="{AppThemeBinding Light={StaticResource ColorTextTertiaryLight}, Dark={StaticResource ColorTextTertiaryDark}}" />
+                </Grid>
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
