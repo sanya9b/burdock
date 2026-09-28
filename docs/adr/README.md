@@ -62,3 +62,4 @@ ADR фіксує одне значуще рішення: контекст, ва�
 | [0014](0014-monorepo-github-actions.md) | Монорепозиторій на GitHub, trunk-based, macOS-раннери | Accepted | 2026-09-27 |
 | [0015](0015-two-counter-exposure-semantics.md) | Два лічильники показів: заплановані та підтверджені | Accepted | 2026-09-27 |
 | [0016](0016-cosmetic-rewards-client-granted.md) | Косметичні нагороди, нарахування клієнтом зі звіркою сервером у v1 | Accepted | 2026-09-27 |
+| [0017](0017-playful-relief-ui-language.md) | Ігрова мова інтерфейсу: рельєфні кнопки, картки без контуру, власний хедер | Accepted | 2026-09-28 |

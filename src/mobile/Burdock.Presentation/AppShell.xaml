@@ -2,22 +2,35 @@
 <Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:views="clr-namespace:Burdock.Presentation.Views"
+       xmlns:icons="clr-namespace:Burdock.Presentation.Resources.Icons"
        xmlns:strings="clr-namespace:Burdock.Presentation.Resources.Strings"
        x:Class="Burdock.Presentation.AppShell"
        Title="{x:Static strings:AppResources.App_Name}"
        FlyoutBehavior="Disabled">
-    <!-- Information architecture (spec 03 FR-03-7): four tabs. Route strings live here and in Navigation/Routes.cs only. -->
+    <!-- Information architecture (spec 03 FR-03-7): four tabs with Lucide icons (spec 02 section 3.9). Route strings live here and in Navigation/Routes.cs only. Pages draw their own TopBar. -->
     <TabBar>
         <Tab Title="{x:Static strings:AppResources.Tab_Today_Title}" Route="today">
+            <Tab.Icon>
+                <FontImageSource FontFamily="Lucide" Glyph="{x:Static icons:Icon.Sun}" Size="{StaticResource SizeIconLg}" />
+            </Tab.Icon>
             <ShellContent ContentTemplate="{DataTemplate views:TodayPage}" />
         </Tab>
         <Tab Title="{x:Static strings:AppResources.Tab_Learn_Title}" Route="learn">
+            <Tab.Icon>
+                <FontImageSource FontFamily="Lucide" Glyph="{x:Static icons:Icon.Brain}" Size="{StaticResource SizeIconLg}" />
+            </Tab.Icon>
             <ShellContent ContentTemplate="{DataTemplate views:LearnPage}" />
         </Tab>
         <Tab Title="{x:Static strings:AppResources.Tab_Words_Title}" Route="words">
+            <Tab.Icon>
+                <FontImageSource FontFamily="Lucide" Glyph="{x:Static icons:Icon.BookOpen}" Size="{StaticResource SizeIconLg}" />
+            </Tab.Icon>
             <ShellContent ContentTemplate="{DataTemplate views:WordsPage}" />
         </Tab>
         <Tab Title="{x:Static strings:AppResources.Tab_Me_Title}" Route="me">
+            <Tab.Icon>
+                <FontImageSource FontFamily="Lucide" Glyph="{x:Static icons:Icon.UserRound}" Size="{StaticResource SizeIconLg}" />
+            </Tab.Icon>
             <ShellContent ContentTemplate="{DataTemplate views:MePage}" />
         </Tab>
     </TabBar>

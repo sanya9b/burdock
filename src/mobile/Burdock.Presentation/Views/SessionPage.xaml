@@ -4,110 +4,66 @@
              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              xmlns:vm="clr-namespace:Burdock.Presentation.ViewModels"
              xmlns:views="clr-namespace:Burdock.Presentation.Views"
+             xmlns:controls="clr-namespace:Burdock.Presentation.Controls"
+             xmlns:icons="clr-namespace:Burdock.Presentation.Resources.Icons"
              xmlns:strings="clr-namespace:Burdock.Presentation.Resources.Strings"
              x:Class="Burdock.Presentation.Views.SessionPage"
              x:DataType="vm:SessionViewModel"
+             Shell.NavBarIsVisible="False"
+             Shell.TabBarIsVisible="False"
              Title="{x:Static strings:AppResources.Session_Title}">
-    <!-- S-12 «Сесія» (spec 03): progress, one exercise at a time, immediate feedback, «Далі» never automatic. -->
+    <!-- S-12 «Сесія» (spec 03): close, segmented progress, one exercise at a time, feedback panel with a coloured «Далі» (never automatic). -->
     <ContentPage.Resources>
         <toolkit:IsEqualConverter x:Key="IsEqualConverter" />
         <toolkit:InvertedBoolConverter x:Key="InvertedBoolConverter" />
-
-        <!-- QuizOption states (spec 02 section 3.7): default / selected / correct / incorrect / disabled, never colour-only: text changes too. -->
-        <Style x:Key="QuizOption" TargetType="Button" BasedOn="{StaticResource ButtonSecondary}">
-            <Setter Property="HorizontalOptions" Value="Fill" />
-            <Setter Property="LineBreakMode" Value="WordWrap" />
-            <Setter Property="MinimumHeightRequest" Value="56" />
-            <Setter Property="FontFamily" Value="FixelTextMedium" />
-            <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorTextPrimaryLight}, Dark={StaticResource ColorTextPrimaryDark}}" />
-            <Style.Triggers>
-                <DataTrigger TargetType="Button" Binding="{Binding Visual, x:DataType=vm:OptionViewModel}" Value="{x:Static vm:OptionVisual.Selected}">
-                    <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorQuizSelectedContainerLight}, Dark={StaticResource ColorQuizSelectedContainerDark}}" />
-                    <Setter Property="BorderColor" Value="{AppThemeBinding Light={StaticResource ColorQuizSelectedBorderLight}, Dark={StaticResource ColorQuizSelectedBorderDark}}" />
-                    <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorQuizSelectedLight}, Dark={StaticResource ColorQuizSelectedDark}}" />
-                </DataTrigger>
-                <DataTrigger TargetType="Button" Binding="{Binding Visual, x:DataType=vm:OptionViewModel}" Value="{x:Static vm:OptionVisual.Correct}">
-                    <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorQuizCorrectContainerLight}, Dark={StaticResource ColorQuizCorrectContainerDark}}" />
-                    <Setter Property="BorderColor" Value="{AppThemeBinding Light={StaticResource ColorQuizCorrectBorderLight}, Dark={StaticResource ColorQuizCorrectBorderDark}}" />
-                    <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorQuizCorrectLight}, Dark={StaticResource ColorQuizCorrectDark}}" />
-                    <Setter Property="FontFamily" Value="FixelTextBold" />
-                </DataTrigger>
-                <DataTrigger TargetType="Button" Binding="{Binding Visual, x:DataType=vm:OptionViewModel}" Value="{x:Static vm:OptionVisual.Incorrect}">
-                    <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorQuizIncorrectContainerLight}, Dark={StaticResource ColorQuizIncorrectContainerDark}}" />
-                    <Setter Property="BorderColor" Value="{AppThemeBinding Light={StaticResource ColorQuizIncorrectBorderLight}, Dark={StaticResource ColorQuizIncorrectBorderDark}}" />
-                    <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorQuizIncorrectLight}, Dark={StaticResource ColorQuizIncorrectDark}}" />
-                </DataTrigger>
-                <DataTrigger TargetType="Button" Binding="{Binding Visual, x:DataType=vm:OptionViewModel}" Value="{x:Static vm:OptionVisual.Disabled}">
-                    <Setter Property="Opacity" Value="0.55" />
-                </DataTrigger>
-            </Style.Triggers>
-        </Style>
-
-        <Style x:Key="FeedbackCard" TargetType="Border">
-            <Setter Property="Padding" Value="{StaticResource Space4}" />
-            <Setter Property="StrokeThickness" Value="0" />
-            <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorFeedbackErrorContainerLight}, Dark={StaticResource ColorFeedbackErrorContainerDark}}" />
-            <Style.Triggers>
-                <DataTrigger TargetType="Border" Binding="{Binding FeedbackIsPositive}" Value="True">
-                    <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorFeedbackSuccessContainerLight}, Dark={StaticResource ColorFeedbackSuccessContainerDark}}" />
-                </DataTrigger>
-            </Style.Triggers>
-        </Style>
-        <Style x:Key="FeedbackText" TargetType="Label" BasedOn="{StaticResource TypeTitleMd}">
-            <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorFeedbackOnErrorContainerLight}, Dark={StaticResource ColorFeedbackOnErrorContainerDark}}" />
-            <Style.Triggers>
-                <DataTrigger TargetType="Label" Binding="{Binding FeedbackIsPositive}" Value="True">
-                    <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorFeedbackOnSuccessContainerLight}, Dark={StaticResource ColorFeedbackOnSuccessContainerDark}}" />
-                </DataTrigger>
-            </Style.Triggers>
-        </Style>
     </ContentPage.Resources>
 
-    <Grid RowDefinitions="Auto,*,Auto" Padding="{StaticResource Space5}" RowSpacing="{StaticResource Space4}" MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
+    <Grid RowDefinitions="Auto,*,Auto" RowSpacing="{StaticResource Space4}">
 
-        <!-- Progress -->
-        <VerticalStackLayout Grid.Row="0" Spacing="{StaticResource Space2}" IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Ready}}">
-            <Label Text="{Binding ProgressText}" Style="{StaticResource TypeLabelMd}" HorizontalOptions="End"
-                   TextColor="{AppThemeBinding Light={StaticResource ColorTextSecondaryLight}, Dark={StaticResource ColorTextSecondaryDark}}" />
-            <ProgressBar Progress="{Binding Progress}" ProgressColor="{AppThemeBinding Light={StaticResource ColorBrandPrimaryLight}, Dark={StaticResource ColorBrandPrimaryDark}}" />
-        </VerticalStackLayout>
+        <!-- Top row -->
+        <Grid Grid.Row="0" ColumnDefinitions="Auto,*,Auto" ColumnSpacing="{StaticResource Space3}" Padding="{StaticResource PageInsetTop}">
+            <controls:PushButton Grid.Column="0" Style="{StaticResource PushIcon}" Icon="{x:Static icons:Icon.X}" Command="{Binding CloseCommand}"
+                                 SemanticProperties.Description="{x:Static strings:AppResources.Session_Close_A11y}" />
+            <controls:SegmentedProgressBar Grid.Column="1" Total="{Binding ItemCount}" Completed="{Binding CompletedCount}" VerticalOptions="Center"
+                                           SemanticProperties.Description="{Binding ProgressText}" />
+            <Label Grid.Column="2" Text="{Binding ProgressText}" Style="{StaticResource LabelSecondary}" VerticalOptions="Center" />
+        </Grid>
 
         <ActivityIndicator Grid.Row="1" IsRunning="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Loading}}"
                            IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Loading}}" VerticalOptions="Center" />
 
-        <views:EmptyStateView Grid.Row="1" Title="{x:Static strings:AppResources.Session_Empty_Title}" Body="{x:Static strings:AppResources.Session_Empty_Body}"
+        <views:EmptyStateView Grid.Row="1" Title="{x:Static strings:AppResources.Session_Empty_Title}" Body="{x:Static strings:AppResources.Session_Empty_Body}" Mascot="mascot_sleep.png"
                               IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Empty}}" />
 
         <ScrollView Grid.Row="1" IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Ready}}">
-            <VerticalStackLayout Spacing="{StaticResource Space4}">
-                <Label Text="{Binding Prompt}" Style="{StaticResource TypeLabelLg}"
-                       TextColor="{AppThemeBinding Light={StaticResource ColorTextSecondaryLight}, Dark={StaticResource ColorTextSecondaryDark}}" />
-                <Label Text="{Binding Stimulus}" Style="{StaticResource TypeHeadlineLg}" IsVisible="{Binding IsMatching, Converter={StaticResource InvertedBoolConverter}}" />
-                <Label Text="{Binding StimulusSecondary}" Style="{StaticResource TypeWordIpa}" IsVisible="{Binding IsChoice}"
+            <VerticalStackLayout Spacing="{StaticResource Space5}" Padding="{StaticResource PageInset}" MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
+                <Label Text="{Binding Prompt}" Style="{StaticResource LabelSecondary}" HorizontalTextAlignment="Center" />
+                <Label Text="{Binding Stimulus}" Style="{StaticResource TypeDisplayMd}" HorizontalTextAlignment="Center" IsVisible="{Binding IsMatching, Converter={StaticResource InvertedBoolConverter}}" />
+                <Label Text="{Binding StimulusSecondary}" Style="{StaticResource TypeWordIpa}" HorizontalTextAlignment="Center" IsVisible="{Binding IsChoice}"
                        TextColor="{AppThemeBinding Light={StaticResource ColorTextTertiaryLight}, Dark={StaticResource ColorTextTertiaryDark}}" />
 
                 <!-- Choice -->
-                <VerticalStackLayout Spacing="{StaticResource Space3}" IsVisible="{Binding IsChoice}"
-                                     BindableLayout.ItemsSource="{Binding Options}">
+                <VerticalStackLayout Spacing="{StaticResource Space3}" IsVisible="{Binding IsChoice}" BindableLayout.ItemsSource="{Binding Options}">
                     <BindableLayout.ItemTemplate>
                         <DataTemplate x:DataType="vm:OptionViewModel">
-                            <Button Text="{Binding Text}" Style="{StaticResource QuizOption}"
-                                    Command="{Binding Source={RelativeSource AncestorType={x:Type vm:SessionViewModel}}, Path=ChooseCommand}"
-                                    CommandParameter="{Binding .}" />
+                            <controls:PushButton Text="{Binding Text}" Style="{StaticResource QuizOption}"
+                                                 Command="{Binding Source={RelativeSource AncestorType={x:Type vm:SessionViewModel}}, Path=ChooseCommand}"
+                                                 CommandParameter="{Binding .}" />
                         </DataTemplate>
                     </BindableLayout.ItemTemplate>
                 </VerticalStackLayout>
 
                 <!-- Typed recall -->
                 <VerticalStackLayout Spacing="{StaticResource Space3}" IsVisible="{Binding IsTyped}">
-                    <Border Padding="16,4">
+                    <Border Style="{StaticResource TypedField}">
                         <Entry Text="{Binding TypedAnswer}" Placeholder="{x:Static strings:AppResources.Session_Typed_Placeholder}"
                                IsEnabled="{Binding Answered, Converter={StaticResource InvertedBoolConverter}}"
                                ReturnType="Done" ReturnCommand="{Binding CheckTypedCommand}"
-                               Keyboard="Text" IsSpellCheckEnabled="False" IsTextPredictionEnabled="False" FontSize="22" />
+                               Keyboard="Text" IsSpellCheckEnabled="False" IsTextPredictionEnabled="False"
+                               FontFamily="FixelTextSemiBold" FontSize="{StaticResource FontSizeHeadlineSm}" HorizontalTextAlignment="Center" />
                     </Border>
-                    <Button Text="{x:Static strings:AppResources.Common_Check_Button}" Command="{Binding CheckTypedCommand}"
-                            IsVisible="{Binding Answered, Converter={StaticResource InvertedBoolConverter}}" />
+                    <controls:PushButton Text="{x:Static strings:AppResources.Common_Check_Button}" Icon="{x:Static icons:Icon.Check}" Command="{Binding CheckTypedCommand}"
+                                         IsVisible="{Binding Answered, Converter={StaticResource InvertedBoolConverter}}" />
                 </VerticalStackLayout>
 
                 <!-- Matching -->
@@ -115,18 +71,18 @@
                     <VerticalStackLayout Grid.Column="0" Spacing="{StaticResource Space2}" BindableLayout.ItemsSource="{Binding MatchWords}">
                         <BindableLayout.ItemTemplate>
                             <DataTemplate x:DataType="vm:OptionViewModel">
-                                <Button Text="{Binding Text}" Style="{StaticResource QuizOption}"
-                                        Command="{Binding Source={RelativeSource AncestorType={x:Type vm:SessionViewModel}}, Path=PickMatchCommand}"
-                                        CommandParameter="{Binding .}" />
+                                <controls:PushButton Text="{Binding Text}" Style="{StaticResource MatchTile}"
+                                                     Command="{Binding Source={RelativeSource AncestorType={x:Type vm:SessionViewModel}}, Path=PickMatchCommand}"
+                                                     CommandParameter="{Binding .}" />
                             </DataTemplate>
                         </BindableLayout.ItemTemplate>
                     </VerticalStackLayout>
                     <VerticalStackLayout Grid.Column="1" Spacing="{StaticResource Space2}" BindableLayout.ItemsSource="{Binding MatchMeanings}">
                         <BindableLayout.ItemTemplate>
                             <DataTemplate x:DataType="vm:OptionViewModel">
-                                <Button Text="{Binding Text}" Style="{StaticResource QuizOption}"
-                                        Command="{Binding Source={RelativeSource AncestorType={x:Type vm:SessionViewModel}}, Path=PickMatchCommand}"
-                                        CommandParameter="{Binding .}" />
+                                <controls:PushButton Text="{Binding Text}" Style="{StaticResource MatchTile}"
+                                                     Command="{Binding Source={RelativeSource AncestorType={x:Type vm:SessionViewModel}}, Path=PickMatchCommand}"
+                                                     CommandParameter="{Binding .}" />
                             </DataTemplate>
                         </BindableLayout.ItemTemplate>
                     </VerticalStackLayout>
@@ -134,13 +90,22 @@
             </VerticalStackLayout>
         </ScrollView>
 
-        <!-- Feedback + Next -->
-        <VerticalStackLayout Grid.Row="2" Spacing="{StaticResource Space3}" IsVisible="{Binding Answered}">
-            <Border Style="{StaticResource FeedbackCard}">
-                <Label Text="{Binding Feedback}" Style="{StaticResource FeedbackText}" />
+        <!-- Feedback + Next (slides in from the code-behind) -->
+        <VerticalStackLayout x:Name="FeedbackPanel" Grid.Row="2" Spacing="{StaticResource Space3}" Padding="{StaticResource BottomBarInset}" IsVisible="{Binding Answered}"
+                             MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
+            <Border Style="{StaticResource FeedbackCard}" SemanticProperties.Description="{Binding Feedback}">
+                <Grid ColumnDefinitions="Auto,*" ColumnSpacing="{StaticResource Space3}">
+                    <Label Grid.Column="0" Text="{Binding FeedbackIcon}" Style="{StaticResource FeedbackIcon}" />
+                    <VerticalStackLayout Grid.Column="1" Spacing="{StaticResource Space1}">
+                        <Label Text="{Binding FeedbackTitle}" Style="{StaticResource FeedbackTitle}" />
+                        <Label Text="{Binding FeedbackDetail}" Style="{StaticResource FeedbackDetail}" IsVisible="{Binding HasFeedbackDetail}" />
+                    </VerticalStackLayout>
+                </Grid>
             </Border>
-            <Button Text="{x:Static strings:AppResources.Common_Next_Button}" Command="{Binding NextCommand}" IsVisible="{Binding IsLast, Converter={StaticResource InvertedBoolConverter}}" />
-            <Button Text="{x:Static strings:AppResources.Session_Finish_Button}" Command="{Binding FinishCommand}" IsVisible="{Binding IsLast}" />
+            <controls:PushButton Text="{x:Static strings:AppResources.Common_Next_Button}" Icon="{x:Static icons:Icon.ArrowRight}" Style="{StaticResource FeedbackNext}"
+                                 Command="{Binding NextCommand}" IsVisible="{Binding IsLast, Converter={StaticResource InvertedBoolConverter}}" />
+            <controls:PushButton Text="{x:Static strings:AppResources.Session_Finish_Button}" Icon="{x:Static icons:Icon.Check}" Style="{StaticResource FeedbackNext}"
+                                 Command="{Binding FinishCommand}" IsVisible="{Binding IsLast}" />
         </VerticalStackLayout>
     </Grid>
 </ContentPage>

@@ -30,9 +30,21 @@
     <x:Double x:Key="BorderWidthStrong">2</x:Double>
     <x:Double x:Key="BorderWidthFocus">3</x:Double>
     <x:Double x:Key="SizeContentMaxWidth">640</x:Double>
+    <x:Double x:Key="SizePushButtonEdge">3</x:Double>
+    <x:Double x:Key="SizePushButtonHeight">56</x:Double>
     <x:Double x:Key="SizeIconSm">16</x:Double>
     <x:Double x:Key="SizeIconMd">20</x:Double>
     <x:Double x:Key="SizeIconLg">24</x:Double>
+    <x:Double x:Key="SizeMascotXs">32</x:Double>
+    <x:Double x:Key="SizeMascotSm">56</x:Double>
+    <x:Double x:Key="SizeMascotMd">96</x:Double>
+    <x:Double x:Key="SizeMascotLg">160</x:Double>
+    <x:Double x:Key="SizeMascotXl">240</x:Double>
+    <x:Double x:Key="SizeProgressRingSm">48</x:Double>
+    <x:Double x:Key="SizeProgressRingMd">96</x:Double>
+    <x:Double x:Key="SizeProgressRingLg">120</x:Double>
+    <x:Double x:Key="SizeWordTileWidth">168</x:Double>
+    <x:Double x:Key="SizeWordTileHeight">148</x:Double>
     <OnPlatform x:Key="SizeTouchTargetMin" x:TypeArguments="x:Double">
         <On Platform="iOS" Value="44" />
         <On Platform="Android" Value="48" />
@@ -41,6 +53,49 @@
     <x:Int32 x:Key="MotionDurationBase">200</x:Int32>
     <x:Int32 x:Key="MotionDurationSlow">320</x:Int32>
     <x:Int32 x:Key="MotionDurationCelebrate">600</x:Int32>
+    <x:Double x:Key="OpacityDisabled">0.38</x:Double>
+    <x:Double x:Key="OpacityMuted">0.55</x:Double>
+    <x:Double x:Key="OpacityHeroGlow">0.35</x:Double>
+
+    <!-- Elevation (elevation.light|dark.N): one Shadow per level from the widest blur layer (MAUI draws a single shadow per view); Radius approximates the CSS blur. -->
+    <Color x:Key="ColorShadowElevation1Light">#15131F</Color>
+    <Color x:Key="ColorShadowElevation1Dark">#000000</Color>
+    <SolidColorBrush x:Key="BrushShadowElevation1" Color="{AppThemeBinding Light={StaticResource ColorShadowElevation1Light}, Dark={StaticResource ColorShadowElevation1Dark}}" />
+    <Shadow x:Key="ShadowElevation1" Brush="{StaticResource BrushShadowElevation1}" Offset="0,2" Radius="6" Opacity="{AppThemeBinding Light=0.059, Dark=0.4}" />
+    <Color x:Key="ColorShadowElevation2Light">#15131F</Color>
+    <Color x:Key="ColorShadowElevation2Dark">#000000</Color>
+    <SolidColorBrush x:Key="BrushShadowElevation2" Color="{AppThemeBinding Light={StaticResource ColorShadowElevation2Light}, Dark={StaticResource ColorShadowElevation2Dark}}" />
+    <Shadow x:Key="ShadowElevation2" Brush="{StaticResource BrushShadowElevation2}" Offset="0,4" Radius="12" Opacity="{AppThemeBinding Light=0.102, Dark=0.502}" />
+    <Color x:Key="ColorShadowElevation3Light">#15131F</Color>
+    <Color x:Key="ColorShadowElevation3Dark">#000000</Color>
+    <SolidColorBrush x:Key="BrushShadowElevation3" Color="{AppThemeBinding Light={StaticResource ColorShadowElevation3Light}, Dark={StaticResource ColorShadowElevation3Dark}}" />
+    <Shadow x:Key="ShadowElevation3" Brush="{StaticResource BrushShadowElevation3}" Offset="0,12" Radius="24" Opacity="{AppThemeBinding Light=0.161, Dark=0.6}" />
+    <Shadow x:Key="ShadowHeroGlow" Brush="{StaticResource BrushBrandPrimaryVivid}" Offset="0,12" Radius="24" Opacity="{StaticResource OpacityHeroGlow}" />
+
+    <!-- Hero gradient (widget.background → widget.backgroundEnd): the in-app twin of the widget scene (spec 02 section 3.12). -->
+    <LinearGradientBrush x:Key="BrushHeroGradient" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Offset="0" Color="{AppThemeBinding Light={StaticResource ColorWidgetBackgroundLight}, Dark={StaticResource ColorWidgetBackgroundDark}}" />
+        <GradientStop Offset="1" Color="{AppThemeBinding Light={StaticResource ColorWidgetBackgroundEndLight}, Dark={StaticResource ColorWidgetBackgroundEndDark}}" />
+    </LinearGradientBrush>
+
+    <!-- Font sizes (typography.scale.*): FontSize{Role}{Size} for controls that are not Labels (PushButton, Entry, Span). -->
+    <x:Double x:Key="FontSizeDisplayLg">40</x:Double>
+    <x:Double x:Key="FontSizeDisplayMd">32</x:Double>
+    <x:Double x:Key="FontSizeHeadlineLg">28</x:Double>
+    <x:Double x:Key="FontSizeHeadlineMd">24</x:Double>
+    <x:Double x:Key="FontSizeHeadlineSm">20</x:Double>
+    <x:Double x:Key="FontSizeTitleLg">18</x:Double>
+    <x:Double x:Key="FontSizeTitleMd">16</x:Double>
+    <x:Double x:Key="FontSizeTitleSm">14</x:Double>
+    <x:Double x:Key="FontSizeBodyLg">17</x:Double>
+    <x:Double x:Key="FontSizeBodyMd">15</x:Double>
+    <x:Double x:Key="FontSizeBodySm">13</x:Double>
+    <x:Double x:Key="FontSizeLabelLg">16</x:Double>
+    <x:Double x:Key="FontSizeLabelMd">14</x:Double>
+    <x:Double x:Key="FontSizeLabelSm">12</x:Double>
+    <x:Double x:Key="FontSizeWordHero">34</x:Double>
+    <x:Double x:Key="FontSizeWordIpa">15</x:Double>
+    <x:Double x:Key="FontSizeNumericStat">28</x:Double>
 
     <!-- Typography roles (typography.scale.*): Type{Role}{Size} styles for Label. Sizes in pt map 1:1 to MAUI units. -->
     <Style x:Key="TypeDisplayLg" TargetType="Label">
@@ -197,7 +252,7 @@
         <Setter Property="FontSize" Value="15" />
         <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryLight}, Dark={StaticResource ColorBrandOnPrimaryDark}}" />
         <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorBrandPrimaryLight}, Dark={StaticResource ColorBrandPrimaryDark}}" />
-        <Setter Property="CornerRadius" Value="12" />
+        <Setter Property="CornerRadius" Value="999" />
         <Setter Property="Padding" Value="20,12" />
         <Setter Property="MinimumHeightRequest" Value="{StaticResource SizeTouchTargetMin}" />
         <Setter Property="VisualStateManager.VisualStateGroups">

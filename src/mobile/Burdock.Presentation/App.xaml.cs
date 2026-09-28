@@ -3,13 +3,14 @@ namespace Burdock.Presentation;
 // Fully qualified: the Burdock.Application namespace shadows Microsoft.Maui.Controls.Application inside Burdock.Presentation.
 public partial class App : Microsoft.Maui.Controls.Application
 {
-    private readonly AppShell _shell;
+    private readonly IServiceProvider _services;
 
-    public App(AppShell shell)
+    public App(IServiceProvider services)
     {
-        _shell = shell ?? throw new ArgumentNullException(nameof(shell));
+        _services = services ?? throw new ArgumentNullException(nameof(services));
         InitializeComponent();
     }
 
-    protected override Window CreateWindow(IActivationState? activationState) => new(_shell);
+    // The Shell is resolved here, after InitializeComponent merged the token dictionaries: AppShell.xaml uses StaticResource for its tab icons.
+    protected override Window CreateWindow(IActivationState? activationState) => new(_services.GetRequiredService<AppShell>());
 }

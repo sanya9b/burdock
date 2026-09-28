@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+<defs>
+  <radialGradient id="bodyGrad" cx="0.38" cy="0.32" r="0.8">
+    <stop offset="0" stop-color="#B8B4FE"/>
+    <stop offset="0.55" stop-color="#9A8EFE"/>
+    <stop offset="1" stop-color="#6D49EB"/>
+  </radialGradient>
+</defs>
+
+<rect x="121.0" y="33.8" width="14.4" height="28.2" rx="7.2" fill="#B4F461" transform="rotate(0.1 128.2 56.0)"/>
+<circle cx="128.2" cy="39.0" r="5.2" fill="#689C00"/>
+<rect x="146.9" y="38.3" width="13.6" height="27.9" rx="6.8" fill="#B4F461" transform="rotate(18.7 153.7 60.2)"/>
+<circle cx="159.2" cy="44.1" r="4.9" fill="#689C00"/>
+<rect x="174.7" y="58.1" width="11.6" height="23.5" rx="5.8" fill="#B4F461" transform="rotate(41.0 180.5 75.6)"/>
+<circle cx="189.2" cy="65.5" r="4.2" fill="#689C00"/>
+<rect x="190.7" y="73.3" width="12.3" height="27.8" rx="6.1" fill="#B4F461" transform="rotate(59.3 196.8 95.2)"/>
+<circle cx="211.8" cy="86.3" r="4.4" fill="#689C00"/>
+<rect x="199.8" y="103.2" width="14.0" height="24.9" rx="7.0" fill="#B4F461" transform="rotate(80.0 206.8 122.1)"/>
+<circle cx="220.5" cy="119.7" r="5.1" fill="#689C00"/>
+<rect x="198.8" y="134.0" width="14.5" height="25.5" rx="7.2" fill="#B4F461" transform="rotate(102.7 206.1 153.5)"/>
+<circle cx="220.0" cy="156.7" r="5.2" fill="#689C00"/>
+<rect x="192.0" y="150.5" width="14.1" height="28.3" rx="7.1" fill="#B4F461" transform="rotate(117.4 199.0 172.8)"/>
+<circle cx="214.3" cy="180.7" r="5.1" fill="#689C00"/>
+<rect x="175.0" y="173.8" width="13.2" height="27.5" rx="6.6" fill="#B4F461" transform="rotate(137.9 181.6 195.4)"/>
+<circle cx="192.9" cy="207.8" r="4.7" fill="#689C00"/>
+<rect x="145.2" y="194.2" width="13.1" height="24.2" rx="6.6" fill="#B4F461" transform="rotate(162.7 151.7 212.4)"/>
+<circle cx="155.8" cy="225.3" r="4.7" fill="#689C00"/>
+<rect x="118.6" y="194.8" width="12.4" height="27.1" rx="6.2" fill="#B4F461" transform="rotate(182.3 124.8 215.9)"/>
+<circle cx="124.1" cy="232.5" r="4.5" fill="#689C00"/>
+<rect x="97.5" y="189.2" width="12.9" height="29.1" rx="6.5" fill="#B4F461" transform="rotate(197.5 104.0 212.3)"/>
+<circle cx="98.4" cy="229.9" r="4.7" fill="#689C00"/>
+<rect x="66.5" y="176.8" width="13.9" height="23.8" rx="7.0" fill="#B4F461" transform="rotate(223.0 73.5 194.5)"/>
+<circle cx="64.8" cy="203.8" r="5.0" fill="#689C00"/>
+<rect x="51.7" y="150.7" width="11.6" height="29.0" rx="5.8" fill="#B4F461" transform="rotate(241.9 57.4 173.7)"/>
+<circle cx="40.8" cy="182.6" r="4.2" fill="#689C00"/>
+<rect x="42.5" y="133.8" width="13.8" height="23.1" rx="6.9" fill="#B4F461" transform="rotate(259.2 49.4 150.9)"/>
+<circle cx="37.4" cy="153.2" r="5.0" fill="#689C00"/>
+<rect x="42.7" y="100.1" width="12.6" height="29.2" rx="6.3" fill="#B4F461" transform="rotate(279.1 49.0 123.3)"/>
+<circle cx="30.5" cy="120.3" r="4.5" fill="#689C00"/>
+<rect x="53.8" y="71.4" width="12.2" height="28.6" rx="6.1" fill="#B4F461" transform="rotate(301.6 59.9 94.0)"/>
+<circle cx="44.4" cy="84.5" r="4.4" fill="#689C00"/>
+<rect x="70.4" y="51.2" width="13.1" height="29.2" rx="6.5" fill="#B4F461" transform="rotate(320.3 76.9 74.4)"/>
+<circle cx="65.1" cy="60.2" r="4.7" fill="#689C00"/>
+<rect x="92.6" y="42.6" width="13.9" height="24.6" rx="6.9" fill="#B4F461" transform="rotate(339.2 99.5 61.2)"/>
+<circle cx="94.7" cy="48.5" r="5.0" fill="#689C00"/>
+<circle cx="128.0" cy="136.0" r="84.0" fill="url(#bodyGrad)"/><ellipse cx="106.0" cy="98.0" rx="30" ry="18" fill="#B8B4FE" opacity="0.55"/>
+<ellipse cx="104.0" cy="128.0" rx="18.0" ry="23.0" fill="#FFFFFF"/><circle cx="109.0" cy="122.0" r="13.8" fill="#15131F"/><circle cx="104.2" cy="116.5" r="3.9" fill="#FFFFFF"/><ellipse cx="152.0" cy="128.0" rx="18.0" ry="23.0" fill="#FFFFFF"/><circle cx="157.0" cy="122.0" r="13.8" fill="#15131F"/><circle cx="152.2" cy="116.5" r="3.9" fill="#FFFFFF"/><path d="M 90.0 94.0 Q 104.0 86.0 118.0 94.0" fill="none" stroke="#6D49EB" stroke-width="5" stroke-linecap="round"/><path d="M 138.0 89.0 Q 152.0 78.0 166.0 83.0" fill="none" stroke="#6D49EB" stroke-width="5" stroke-linecap="round"/><circle cx="128.0" cy="172.0" r="3.5" fill="#15131F"/>
+<circle cx="214.0" cy="44.0" r="4" fill="#6D49EB"/><circle cx="228.0" cy="32.0" r="5" fill="#6D49EB"/><circle cx="242.0" cy="20.0" r="6" fill="#6D49EB"/>
+</svg>

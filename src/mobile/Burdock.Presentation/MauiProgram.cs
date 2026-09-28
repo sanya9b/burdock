@@ -24,6 +24,8 @@ public static class MauiProgram
                 fonts.AddFont("FixelText-Bold.ttf", "FixelTextBold");
                 fonts.AddFont("FixelDisplay-Bold.ttf", "FixelDisplay");
                 fonts.AddFont("FixelDisplay-ExtraBold.ttf", "FixelDisplayExtraBold");
+                // Lucide icon font (ISC, lucide-static 1.48.0): glyph constants live in Resources/Icons/Icon.cs (spec 02 section 3.9).
+                fonts.AddFont("Lucide.ttf", "Lucide");
             });
 
         builder.Services

@@ -2,15 +2,19 @@
 <!-- GENERATED from design/tokens/tokens.json by design/tokens/generate.py. Do not edit by hand; change the tokens and regenerate. -->
 <resources>
     <color name="burdock_brand_primary">#9A8EFE</color>
+    <color name="burdock_brand_primary_edge">#6D49EB</color>
     <color name="burdock_brand_on_primary">#15131F</color>
     <color name="burdock_brand_primary_vivid">#7C5CFF</color>
     <color name="burdock_brand_primary_container">#2C2160</color>
     <color name="burdock_brand_on_primary_container">#D5D4FF</color>
+    <color name="burdock_brand_primary_container_edge">#1E183E</color>
     <color name="burdock_brand_accent">#B4F461</color>
     <color name="burdock_brand_on_accent">#162404</color>
     <color name="burdock_brand_accent_text">#C4FB84</color>
+    <color name="burdock_brand_accent_edge">#689C00</color>
     <color name="burdock_surface_default">#15131F</color>
     <color name="burdock_surface_elevated">#25242D</color>
+    <color name="burdock_surface_elevated_edge">#33313B</color>
     <color name="burdock_surface_sunken">#0C0B14</color>
     <color name="burdock_surface_overlay">#A3000000</color>
     <color name="burdock_surface_brand_tint">#1E183E</color>
@@ -24,9 +28,11 @@
     <color name="burdock_border_strong">#8C8B95</color>
     <color name="burdock_border_focus">#B8B4FE</color>
     <color name="burdock_feedback_success">#C4FB84</color>
+    <color name="burdock_feedback_success_edge">#92CB42</color>
     <color name="burdock_feedback_success_container">#283D07</color>
     <color name="burdock_feedback_on_success_container">#D7FFAD</color>
     <color name="burdock_feedback_error">#FFA29E</color>
+    <color name="burdock_feedback_error_edge">#DC5556</color>
     <color name="burdock_feedback_error_container">#501C1C</color>
     <color name="burdock_feedback_on_error_container">#FFCBC7</color>
     <color name="burdock_feedback_warning">#FFD889</color>
@@ -72,4 +78,20 @@
     <color name="burdock_widget_divider">#3E2C87</color>
     <color name="burdock_widget_badge_free">#3E2C87</color>
     <color name="burdock_widget_on_badge_free">#ECECFF</color>
+    <color name="burdock_topic_communication">#2C2160</color>
+    <color name="burdock_topic_on_communication">#D5D4FF</color>
+    <color name="burdock_topic_travel">#0A3745</color>
+    <color name="burdock_topic_on_travel">#B7ECFF</color>
+    <color name="burdock_topic_work">#453100</color>
+    <color name="burdock_topic_on_work">#FFE8BA</color>
+    <color name="burdock_topic_it">#1E183E</color>
+    <color name="burdock_topic_on_it">#B8B4FE</color>
+    <color name="burdock_topic_food">#501C1C</color>
+    <color name="burdock_topic_on_food">#FFCBC7</color>
+    <color name="burdock_topic_health">#283D07</color>
+    <color name="burdock_topic_on_health">#D7FFAD</color>
+    <color name="burdock_topic_city">#08232C</color>
+    <color name="burdock_topic_on_city">#7CDDFF</color>
+    <color name="burdock_topic_shopping">#2A1D01</color>
+    <color name="burdock_topic_on_shopping">#FFD889</color>
 </resources>

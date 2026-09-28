@@ -5,6 +5,7 @@ using System.Text;
 using Burdock.Application.UseCases.Sessions;
 using Burdock.Domain.Learning;
 using Burdock.Presentation.Navigation;
+using Burdock.Presentation.Resources.Icons;
 using Burdock.Presentation.Resources.Strings;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
@@ -12,7 +13,7 @@ using Microsoft.Extensions.Logging;
 
 namespace Burdock.Presentation.ViewModels;
 
-/// <summary>Visual state of one answer option (QuizOption component, spec 02 §3.7).</summary>
+/// <summary>Visual state of one answer option (QuizOption component, spec 02 §3.11).</summary>
 public enum OptionVisual
 {
     Default,
@@ -42,6 +43,7 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
     private static readonly CompositeFormat ProgressFormat = CompositeFormat.Parse(AppResources.Session_Progress_Label);
     private static readonly CompositeFormat TypoFormat = CompositeFormat.Parse(AppResources.Session_Feedback_Typo);
     private static readonly CompositeFormat WrongFormat = CompositeFormat.Parse(AppResources.Session_Feedback_Wrong);
+    private static readonly CompositeFormat AnswerDetailFormat = CompositeFormat.Parse(AppResources.Session_Feedback_Answer_Detail);
 
     private readonly BuildSessionUseCase _buildSession;
     private readonly GradeAnswerUseCase _gradeAnswer;
@@ -67,6 +69,12 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
     private double _progress;
 
     [ObservableProperty]
+    private int _itemCount = 1;
+
+    [ObservableProperty]
+    private int _completedCount;
+
+    [ObservableProperty]
     private string _prompt = string.Empty;
 
     [ObservableProperty]
@@ -87,8 +95,21 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
     [ObservableProperty]
     private string _typedAnswer = string.Empty;
 
+    /// <summary>Full sentence for screen readers («Ще ні. Правильно: …»).</summary>
     [ObservableProperty]
     private string _feedback = string.Empty;
+
+    [ObservableProperty]
+    private string _feedbackTitle = string.Empty;
+
+    [ObservableProperty]
+    private string _feedbackDetail = string.Empty;
+
+    [ObservableProperty]
+    private bool _hasFeedbackDetail;
+
+    [ObservableProperty]
+    private string _feedbackIcon = Icon.CircleCheck;
 
     [ObservableProperty]
     private bool _feedbackIsPositive;
@@ -142,6 +163,7 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
                 return;
             }
 
+            ItemCount = _items.Count;
             State = ViewState.Ready;
             ShowNext();
         }
@@ -167,10 +189,14 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
         var item = _items[_index];
         Answered = false;
         Feedback = string.Empty;
+        FeedbackTitle = string.Empty;
+        FeedbackDetail = string.Empty;
+        HasFeedbackDetail = false;
         TypedAnswer = string.Empty;
         IsLast = _index == _items.Count - 1;
         ProgressText = string.Format(Ukrainian, ProgressFormat, _index + 1, _items.Count);
         Progress = (_index + 1) / (double)_items.Count;
+        CompletedCount = _index;
         Options.Clear();
         MatchWords.Clear();
         MatchMeanings.Clear();
@@ -307,14 +333,17 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
         _pendingWord = null;
         if (_matchedPairs == MatchWords.Count)
         {
+            SetFeedback(positive: true, AppResources.Session_Feedback_Matching_Title, string.Empty, AppResources.Session_Feedback_Correct);
+            CompletedCount = _index + 1;
             Answered = true;
-            Feedback = AppResources.Session_Feedback_Correct;
-            FeedbackIsPositive = true;
         }
     }
 
     [RelayCommand]
     private void Next() => ShowNext();
+
+    [RelayCommand]
+    private Task CloseAsync(CancellationToken cancellationToken) => _navigation.GoBackAsync(cancellationToken);
 
     [RelayCommand]
     private Task FinishAsync(CancellationToken cancellationToken)
@@ -332,11 +361,11 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
     private async Task GradeAsync(ExerciseOutcome outcome, string correctAnswer)
     {
         Answered = true;
+        CompletedCount = _index + 1;
         var result = await _gradeAnswer.ExecuteAsync(_items[_index], outcome, CancellationToken.None).ConfigureAwait(true);
         if (result.IsFailure)
         {
-            Feedback = AppResources.Common_Error_Title;
-            FeedbackIsPositive = false;
+            SetFeedback(positive: false, AppResources.Common_Error_Title, string.Empty, AppResources.Common_Error_Title);
             return;
         }
 
@@ -346,13 +375,29 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
             _correct++;
         }
 
-        FeedbackIsPositive = outcome.Correct;
-        Feedback = outcome switch
+        var detail = string.Format(Ukrainian, AnswerDetailFormat, correctAnswer);
+        switch (outcome)
         {
-            { Correct: true, NearMiss: true } => string.Format(Ukrainian, TypoFormat, correctAnswer),
-            { Correct: true } => AppResources.Session_Feedback_Correct,
-            _ => string.Format(Ukrainian, WrongFormat, correctAnswer),
-        };
+            case { Correct: true, NearMiss: true }:
+                SetFeedback(positive: true, AppResources.Session_Feedback_Typo_Title, detail, string.Format(Ukrainian, TypoFormat, correctAnswer));
+                break;
+            case { Correct: true }:
+                SetFeedback(positive: true, AppResources.Session_Feedback_Correct_Title, string.Empty, AppResources.Session_Feedback_Correct);
+                break;
+            default:
+                SetFeedback(positive: false, AppResources.Session_Feedback_Wrong_Title, detail, string.Format(Ukrainian, WrongFormat, correctAnswer));
+                break;
+        }
+    }
+
+    private void SetFeedback(bool positive, string title, string detail, string spoken)
+    {
+        FeedbackIsPositive = positive;
+        FeedbackIcon = positive ? Icon.CircleCheck : Icon.CircleX;
+        FeedbackTitle = title;
+        FeedbackDetail = detail;
+        HasFeedbackDetail = detail.Length > 0;
+        Feedback = spoken;
     }
 
     [LoggerMessage(Level = LogLevel.Error, Message = "Session failed")]

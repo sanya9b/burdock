@@ -11,7 +11,7 @@ using Microsoft.Extensions.Logging;
 
 namespace Burdock.Presentation.ViewModels;
 
-/// <summary>S-11 «Картка слова»: word, IPA, hidden translation, example, exposure counters, «Знаю» / «Вчити» (spec 03).</summary>
+/// <summary>S-11 «Картка слова»: word, IPA, hidden translation, highlighted example, exposure counters, «Знаю» / «Вчити» (spec 03).</summary>
 public sealed partial class WordCardViewModel : ObservableObject, IQueryAttributable
 {
     private static readonly CultureInfo Ukrainian = CultureInfo.GetCultureInfo("uk-UA");
@@ -39,13 +39,22 @@ public sealed partial class WordCardViewModel : ObservableObject, IQueryAttribut
     private string _partOfSpeech = string.Empty;
 
     [ObservableProperty]
+    private string _topicKey = string.Empty;
+
+    [ObservableProperty]
     private string _translation = string.Empty;
 
     [ObservableProperty]
     private string _alsoMeans = string.Empty;
 
     [ObservableProperty]
-    private string _exampleTarget = string.Empty;
+    private string _exampleBefore = string.Empty;
+
+    [ObservableProperty]
+    private string _exampleMatch = string.Empty;
+
+    [ObservableProperty]
+    private string _exampleAfter = string.Empty;
 
     [ObservableProperty]
     private string _exampleNative = string.Empty;
@@ -55,6 +64,18 @@ public sealed partial class WordCardViewModel : ObservableObject, IQueryAttribut
 
     [ObservableProperty]
     private string _stateLabel = string.Empty;
+
+    [ObservableProperty]
+    private int _scheduledExposures;
+
+    [ObservableProperty]
+    private int _confirmedExposures;
+
+    [ObservableProperty]
+    private string _retrievabilityPercent = string.Empty;
+
+    [ObservableProperty]
+    private bool _hasRetrievability;
 
     [ObservableProperty]
     private string _exposuresText = string.Empty;
@@ -108,20 +129,26 @@ public sealed partial class WordCardViewModel : ObservableObject, IQueryAttribut
             }
 
             var view = result.Value;
-            Lemma = view.Entry.Lexeme.Lemma;
-            Ipa = view.Entry.IpaGeneralAmerican ?? view.Entry.IpaReceivedPronunciation ?? string.Empty;
-            PartOfSpeech = PartOfSpeechLabel(view.Entry.Lexeme.PartOfSpeech);
-            Translation = view.Entry.Translation;
-            AlsoMeans = string.Join(", ", view.Entry.AlternativeTranslations);
+            var entry = view.Entry;
+            Lemma = entry.Lexeme.Lemma;
+            Ipa = entry.IpaGeneralAmerican ?? entry.IpaReceivedPronunciation ?? string.Empty;
+            PartOfSpeech = PartOfSpeechLabel(entry.Lexeme.PartOfSpeech);
+            TopicKey = entry.Lexeme.Topics.Count > 0 ? entry.Lexeme.Topics[0].Slug : string.Empty;
+            Translation = entry.Translation;
+            AlsoMeans = string.Join(", ", entry.AlternativeTranslations);
             HasAlsoMeans = AlsoMeans.Length > 0;
-            ExampleTarget = view.Entry.ExampleTarget ?? string.Empty;
-            ExampleNative = view.Entry.ExampleNative ?? string.Empty;
-            HasExample = ExampleTarget.Length > 0;
+            var example = entry.ExampleTarget ?? string.Empty;
+            (ExampleBefore, ExampleMatch, ExampleAfter) = Highlight(example, entry.Lexeme.Lemma, entry.AcceptedForms);
+            ExampleNative = entry.ExampleNative ?? string.Empty;
+            HasExample = example.Length > 0;
             StateLabel = StateText(view.State);
+            ScheduledExposures = view.ScheduledExposures;
+            ConfirmedExposures = view.ConfirmedExposures;
             ExposuresText = string.Format(Ukrainian, ExposuresFormat, view.ScheduledExposures, view.ConfirmedExposures);
-            RetrievabilityText = view.State is CardState.New or CardState.Introduced
-                ? string.Empty
-                : string.Format(Ukrainian, RetrievabilityFormat, (int)Math.Round(view.Retrievability * 100));
+            HasRetrievability = view.State is not (CardState.New or CardState.Introduced);
+            var percent = (int)Math.Round(view.Retrievability * 100);
+            RetrievabilityPercent = HasRetrievability ? string.Create(Ukrainian, $"{percent}%") : string.Empty;
+            RetrievabilityText = HasRetrievability ? string.Format(Ukrainian, RetrievabilityFormat, percent) : string.Empty;
             State = ViewState.Ready;
         }
         catch (OperationCanceledException)
@@ -160,6 +187,27 @@ public sealed partial class WordCardViewModel : ObservableObject, IQueryAttribut
         }
 
         await _navigation.GoBackAsync(cancellationToken).ConfigureAwait(true);
+    }
+
+    /// <summary>Splits the example around the first occurrence of the lemma or an accepted form (longest first) so the view can set it in bold.</summary>
+    internal static (string Before, string Match, string After) Highlight(string example, string lemma, IReadOnlyList<string> acceptedForms)
+    {
+        if (string.IsNullOrEmpty(example))
+        {
+            return (string.Empty, string.Empty, string.Empty);
+        }
+
+        var candidates = acceptedForms.Append(lemma).Where(f => !string.IsNullOrWhiteSpace(f)).Distinct(StringComparer.OrdinalIgnoreCase).OrderByDescending(f => f.Length);
+        foreach (var form in candidates)
+        {
+            var at = example.IndexOf(form, StringComparison.OrdinalIgnoreCase);
+            if (at >= 0)
+            {
+                return (example[..at], example.Substring(at, form.Length), example[(at + form.Length)..]);
+            }
+        }
+
+        return (example, string.Empty, string.Empty);
     }
 
     internal static string StateText(CardState state) => state switch

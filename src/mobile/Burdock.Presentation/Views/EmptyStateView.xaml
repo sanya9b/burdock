@@ -3,11 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Burdock.Presentation.Views.EmptyStateView"
              x:Name="Root">
-    <!-- EmptyState component (spec 02 section 3.7): title, body, room for the mascot (added with the first illustrations). -->
+    <!-- EmptyState component (spec 02 section 3.11): mascot state, title, body. One mascot per screen. -->
     <VerticalStackLayout Spacing="{StaticResource Space3}"
                          Padding="{StaticResource Space6}"
                          VerticalOptions="Center"
                          MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
+        <Image Source="{Binding Mascot, Source={x:Reference Root}}"
+               IsVisible="{Binding HasMascot, Source={x:Reference Root}}"
+               WidthRequest="{Binding MascotSize, Source={x:Reference Root}}"
+               HeightRequest="{Binding MascotSize, Source={x:Reference Root}}"
+               HorizontalOptions="Center"
+               Margin="0,0,0,8"
+               AutomationProperties.IsInAccessibleTree="False" />
         <Label Text="{Binding Title, Source={x:Reference Root}}"
                Style="{StaticResource TypeHeadlineMd}"
                HorizontalTextAlignment="Center"

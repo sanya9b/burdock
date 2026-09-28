@@ -157,4 +157,27 @@
   <data name="Me_Title" xml:space="preserve"><value>Я</value></data>
   <data name="Me_Empty_Title" xml:space="preserve"><value>Профіль і налаштування</value></data>
   <data name="Me_Empty_Body" xml:space="preserve"><value>Нікнейм, серія, Pro, налаштування темпу й сповіщень — усе буде тут.</value></data>
+
+  <!-- v2 visual language: headers, hero, feedback (ADR 0017) -->
+  <data name="Common_Close_Button" xml:space="preserve"><value>Закрити</value></data>
+  <data name="Today_Hero_Eyebrow" xml:space="preserve"><value>Слово дня</value><comment>Чіп на hero-картці S-10</comment></data>
+  <data name="Today_Hero_Hint" xml:space="preserve"><value>Торкнись, щоб згадати переклад</value></data>
+  <data name="Today_More_Heading" xml:space="preserve"><value>Ще сьогодні</value><comment>Заголовок стрічки решти слів дня</comment></data>
+  <data name="Word_Translation_Heading" xml:space="preserve"><value>Переклад</value></data>
+  <data name="Word_Stat_Scheduled" xml:space="preserve"><value>показано</value><comment>Підпис лічильника запланованих показів (ADR 0015)</comment></data>
+  <data name="Word_Stat_Confirmed" xml:space="preserve"><value>переглянуто</value><comment>Підпис лічильника підтверджених показів</comment></data>
+  <data name="Word_Stat_Memory" xml:space="preserve"><value>у пам’яті</value><comment>Підпис шансу пригадати (FSRS retrievability)</comment></data>
+  <data name="Session_Close_A11y" xml:space="preserve"><value>Закрити сесію</value></data>
+  <data name="Session_Feedback_Correct_Title" xml:space="preserve"><value>Правильно!</value></data>
+  <data name="Session_Feedback_Typo_Title" xml:space="preserve"><value>Майже!</value><comment>Одна одруківка зарахована (Damerau-Levenshtein ≤ 1)</comment></data>
+  <data name="Session_Feedback_Wrong_Title" xml:space="preserve"><value>Ще ні</value></data>
+  <data name="Session_Feedback_Answer_Detail" xml:space="preserve"><value>Правильна відповідь: {0}</value></data>
+  <data name="Session_Feedback_Matching_Title" xml:space="preserve"><value>Усі пари знайдено</value></data>
+  <data name="Summary_Accuracy_Caption" xml:space="preserve"><value>влучно</value><comment>Підпис під відсотком у кільці</comment></data>
+  <data name="Summary_Graded_One" xml:space="preserve"><value>{0} відповідь</value></data>
+  <data name="Summary_Graded_Few" xml:space="preserve"><value>{0} відповіді</value></data>
+  <data name="Summary_Graded_Many" xml:space="preserve"><value>{0} відповідей</value></data>
+  <data name="Summary_Correct_One" xml:space="preserve"><value>{0} правильна</value></data>
+  <data name="Summary_Correct_Few" xml:space="preserve"><value>{0} правильні</value></data>
+  <data name="Summary_Correct_Many" xml:space="preserve"><value>{0} правильних</value></data>
 </root>

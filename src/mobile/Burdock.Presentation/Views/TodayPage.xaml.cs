@@ -18,15 +18,34 @@ public partial class TodayPage : ContentPage
     protected override void OnAppearing()
     {
         base.OnAppearing();
+        if (Microsoft.Maui.Controls.Application.Current is { } app)
+        {
+            app.RequestedThemeChanged += OnThemeChanged;
+        }
+
         _loadCts = new CancellationTokenSource();
         _ = _viewModel.LoadAsync(_loadCts.Token);
     }
 
     protected override void OnDisappearing()
     {
+        if (Microsoft.Maui.Controls.Application.Current is { } app)
+        {
+            app.RequestedThemeChanged -= OnThemeChanged;
+        }
+
         _loadCts?.Cancel();
         _loadCts?.Dispose();
         _loadCts = null;
         base.OnDisappearing();
+    }
+
+    // Topic colours of the strip are resolved by a converter at bind time, so a theme switch reloads the plan with fresh tiles.
+    private void OnThemeChanged(object? sender, AppThemeChangedEventArgs e)
+    {
+        if (_loadCts is { IsCancellationRequested: false } cts)
+        {
+            _ = _viewModel.LoadAsync(cts.Token);
+        }
     }
 }

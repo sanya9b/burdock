@@ -77,6 +77,8 @@
     <!-- brand -->
     <Color x:Key="ColorBrandPrimaryLight">#6D49EB</Color>
     <Color x:Key="ColorBrandPrimaryDark">#9A8EFE</Color>
+    <Color x:Key="ColorBrandPrimaryEdgeLight">#5137AE</Color>
+    <Color x:Key="ColorBrandPrimaryEdgeDark">#6D49EB</Color>
     <Color x:Key="ColorBrandOnPrimaryLight">#FFFFFF</Color>
     <Color x:Key="ColorBrandOnPrimaryDark">#15131F</Color>
     <Color x:Key="ColorBrandPrimaryVividLight">#7C5CFF</Color>
@@ -85,17 +87,23 @@
     <Color x:Key="ColorBrandPrimaryContainerDark">#2C2160</Color>
     <Color x:Key="ColorBrandOnPrimaryContainerLight">#3E2C87</Color>
     <Color x:Key="ColorBrandOnPrimaryContainerDark">#D5D4FF</Color>
+    <Color x:Key="ColorBrandPrimaryContainerEdgeLight">#D5D4FF</Color>
+    <Color x:Key="ColorBrandPrimaryContainerEdgeDark">#1E183E</Color>
     <Color x:Key="ColorBrandAccentLight">#B4F461</Color>
     <Color x:Key="ColorBrandAccentDark">#B4F461</Color>
     <Color x:Key="ColorBrandOnAccentLight">#162404</Color>
     <Color x:Key="ColorBrandOnAccentDark">#162404</Color>
     <Color x:Key="ColorBrandAccentTextLight">#4F7700</Color>
     <Color x:Key="ColorBrandAccentTextDark">#C4FB84</Color>
+    <Color x:Key="ColorBrandAccentEdgeLight">#689C00</Color>
+    <Color x:Key="ColorBrandAccentEdgeDark">#689C00</Color>
     <!-- surface -->
     <Color x:Key="ColorSurfaceDefaultLight">#F7F6FC</Color>
     <Color x:Key="ColorSurfaceDefaultDark">#15131F</Color>
     <Color x:Key="ColorSurfaceElevatedLight">#FFFFFF</Color>
     <Color x:Key="ColorSurfaceElevatedDark">#25242D</Color>
+    <Color x:Key="ColorSurfaceElevatedEdgeLight">#DBD9E3</Color>
+    <Color x:Key="ColorSurfaceElevatedEdgeDark">#33313B</Color>
     <Color x:Key="ColorSurfaceSunkenLight">#EDEBF5</Color>
     <Color x:Key="ColorSurfaceSunkenDark">#0C0B14</Color>
     <Color x:Key="ColorSurfaceOverlayLight">#8F0C0B14</Color>
@@ -125,12 +133,16 @@
     <!-- feedback -->
     <Color x:Key="ColorFeedbackSuccessLight">#4F7700</Color>
     <Color x:Key="ColorFeedbackSuccessDark">#C4FB84</Color>
+    <Color x:Key="ColorFeedbackSuccessEdgeLight">#3E5C0E</Color>
+    <Color x:Key="ColorFeedbackSuccessEdgeDark">#92CB42</Color>
     <Color x:Key="ColorFeedbackSuccessContainerLight">#EAFFD5</Color>
     <Color x:Key="ColorFeedbackSuccessContainerDark">#283D07</Color>
     <Color x:Key="ColorFeedbackOnSuccessContainerLight">#3E5C0E</Color>
     <Color x:Key="ColorFeedbackOnSuccessContainerDark">#D7FFAD</Color>
     <Color x:Key="ColorFeedbackErrorLight">#B74244</Color>
     <Color x:Key="ColorFeedbackErrorDark">#FFA29E</Color>
+    <Color x:Key="ColorFeedbackErrorEdgeLight">#913334</Color>
+    <Color x:Key="ColorFeedbackErrorEdgeDark">#DC5556</Color>
     <Color x:Key="ColorFeedbackErrorContainerLight">#FFE9E7</Color>
     <Color x:Key="ColorFeedbackErrorContainerDark">#501C1C</Color>
     <Color x:Key="ColorFeedbackOnErrorContainerLight">#702727</Color>
@@ -225,18 +237,55 @@
     <Color x:Key="ColorWidgetBadgeFreeDark">#3E2C87</Color>
     <Color x:Key="ColorWidgetOnBadgeFreeLight">#ECECFF</Color>
     <Color x:Key="ColorWidgetOnBadgeFreeDark">#ECECFF</Color>
+    <!-- topic -->
+    <Color x:Key="ColorTopicCommunicationLight">#ECECFF</Color>
+    <Color x:Key="ColorTopicCommunicationDark">#2C2160</Color>
+    <Color x:Key="ColorTopicOnCommunicationLight">#3E2C87</Color>
+    <Color x:Key="ColorTopicOnCommunicationDark">#D5D4FF</Color>
+    <Color x:Key="ColorTopicTravelLight">#DFF6FF</Color>
+    <Color x:Key="ColorTopicTravelDark">#0A3745</Color>
+    <Color x:Key="ColorTopicOnTravelLight">#0D5064</Color>
+    <Color x:Key="ColorTopicOnTravelDark">#B7ECFF</Color>
+    <Color x:Key="ColorTopicWorkLight">#FFF3DC</Color>
+    <Color x:Key="ColorTopicWorkDark">#453100</Color>
+    <Color x:Key="ColorTopicOnWorkLight">#644900</Color>
+    <Color x:Key="ColorTopicOnWorkDark">#FFE8BA</Color>
+    <Color x:Key="ColorTopicItLight">#D5D4FF</Color>
+    <Color x:Key="ColorTopicItDark">#1E183E</Color>
+    <Color x:Key="ColorTopicOnItLight">#2C2160</Color>
+    <Color x:Key="ColorTopicOnItDark">#B8B4FE</Color>
+    <Color x:Key="ColorTopicFoodLight">#FFE9E7</Color>
+    <Color x:Key="ColorTopicFoodDark">#501C1C</Color>
+    <Color x:Key="ColorTopicOnFoodLight">#702727</Color>
+    <Color x:Key="ColorTopicOnFoodDark">#FFCBC7</Color>
+    <Color x:Key="ColorTopicHealthLight">#EAFFD5</Color>
+    <Color x:Key="ColorTopicHealthDark">#283D07</Color>
+    <Color x:Key="ColorTopicOnHealthLight">#3E5C0E</Color>
+    <Color x:Key="ColorTopicOnHealthDark">#D7FFAD</Color>
+    <Color x:Key="ColorTopicCityLight">#B7ECFF</Color>
+    <Color x:Key="ColorTopicCityDark">#08232C</Color>
+    <Color x:Key="ColorTopicOnCityLight">#0A3745</Color>
+    <Color x:Key="ColorTopicOnCityDark">#7CDDFF</Color>
+    <Color x:Key="ColorTopicShoppingLight">#FFE8BA</Color>
+    <Color x:Key="ColorTopicShoppingDark">#2A1D01</Color>
+    <Color x:Key="ColorTopicOnShoppingLight">#453100</Color>
+    <Color x:Key="ColorTopicOnShoppingDark">#FFD889</Color>
 
     <!-- Theme-aware brushes: Brush{Group}{Name} follows the system theme through AppThemeBinding. -->
     <SolidColorBrush x:Key="BrushBrandPrimary" Color="{AppThemeBinding Light={StaticResource ColorBrandPrimaryLight}, Dark={StaticResource ColorBrandPrimaryDark}}" />
+    <SolidColorBrush x:Key="BrushBrandPrimaryEdge" Color="{AppThemeBinding Light={StaticResource ColorBrandPrimaryEdgeLight}, Dark={StaticResource ColorBrandPrimaryEdgeDark}}" />
     <SolidColorBrush x:Key="BrushBrandOnPrimary" Color="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryLight}, Dark={StaticResource ColorBrandOnPrimaryDark}}" />
     <SolidColorBrush x:Key="BrushBrandPrimaryVivid" Color="{AppThemeBinding Light={StaticResource ColorBrandPrimaryVividLight}, Dark={StaticResource ColorBrandPrimaryVividDark}}" />
     <SolidColorBrush x:Key="BrushBrandPrimaryContainer" Color="{AppThemeBinding Light={StaticResource ColorBrandPrimaryContainerLight}, Dark={StaticResource ColorBrandPrimaryContainerDark}}" />
     <SolidColorBrush x:Key="BrushBrandOnPrimaryContainer" Color="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
+    <SolidColorBrush x:Key="BrushBrandPrimaryContainerEdge" Color="{AppThemeBinding Light={StaticResource ColorBrandPrimaryContainerEdgeLight}, Dark={StaticResource ColorBrandPrimaryContainerEdgeDark}}" />
     <SolidColorBrush x:Key="BrushBrandAccent" Color="{AppThemeBinding Light={StaticResource ColorBrandAccentLight}, Dark={StaticResource ColorBrandAccentDark}}" />
     <SolidColorBrush x:Key="BrushBrandOnAccent" Color="{AppThemeBinding Light={StaticResource ColorBrandOnAccentLight}, Dark={StaticResource ColorBrandOnAccentDark}}" />
     <SolidColorBrush x:Key="BrushBrandAccentText" Color="{AppThemeBinding Light={StaticResource ColorBrandAccentTextLight}, Dark={StaticResource ColorBrandAccentTextDark}}" />
+    <SolidColorBrush x:Key="BrushBrandAccentEdge" Color="{AppThemeBinding Light={StaticResource ColorBrandAccentEdgeLight}, Dark={StaticResource ColorBrandAccentEdgeDark}}" />
     <SolidColorBrush x:Key="BrushSurfaceDefault" Color="{AppThemeBinding Light={StaticResource ColorSurfaceDefaultLight}, Dark={StaticResource ColorSurfaceDefaultDark}}" />
     <SolidColorBrush x:Key="BrushSurfaceElevated" Color="{AppThemeBinding Light={StaticResource ColorSurfaceElevatedLight}, Dark={StaticResource ColorSurfaceElevatedDark}}" />
+    <SolidColorBrush x:Key="BrushSurfaceElevatedEdge" Color="{AppThemeBinding Light={StaticResource ColorSurfaceElevatedEdgeLight}, Dark={StaticResource ColorSurfaceElevatedEdgeDark}}" />
     <SolidColorBrush x:Key="BrushSurfaceSunken" Color="{AppThemeBinding Light={StaticResource ColorSurfaceSunkenLight}, Dark={StaticResource ColorSurfaceSunkenDark}}" />
     <SolidColorBrush x:Key="BrushSurfaceOverlay" Color="{AppThemeBinding Light={StaticResource ColorSurfaceOverlayLight}, Dark={StaticResource ColorSurfaceOverlayDark}}" />
     <SolidColorBrush x:Key="BrushSurfaceBrandTint" Color="{AppThemeBinding Light={StaticResource ColorSurfaceBrandTintLight}, Dark={StaticResource ColorSurfaceBrandTintDark}}" />
@@ -250,9 +299,11 @@
     <SolidColorBrush x:Key="BrushBorderStrong" Color="{AppThemeBinding Light={StaticResource ColorBorderStrongLight}, Dark={StaticResource ColorBorderStrongDark}}" />
     <SolidColorBrush x:Key="BrushBorderFocus" Color="{AppThemeBinding Light={StaticResource ColorBorderFocusLight}, Dark={StaticResource ColorBorderFocusDark}}" />
     <SolidColorBrush x:Key="BrushFeedbackSuccess" Color="{AppThemeBinding Light={StaticResource ColorFeedbackSuccessLight}, Dark={StaticResource ColorFeedbackSuccessDark}}" />
+    <SolidColorBrush x:Key="BrushFeedbackSuccessEdge" Color="{AppThemeBinding Light={StaticResource ColorFeedbackSuccessEdgeLight}, Dark={StaticResource ColorFeedbackSuccessEdgeDark}}" />
     <SolidColorBrush x:Key="BrushFeedbackSuccessContainer" Color="{AppThemeBinding Light={StaticResource ColorFeedbackSuccessContainerLight}, Dark={StaticResource ColorFeedbackSuccessContainerDark}}" />
     <SolidColorBrush x:Key="BrushFeedbackOnSuccessContainer" Color="{AppThemeBinding Light={StaticResource ColorFeedbackOnSuccessContainerLight}, Dark={StaticResource ColorFeedbackOnSuccessContainerDark}}" />
     <SolidColorBrush x:Key="BrushFeedbackError" Color="{AppThemeBinding Light={StaticResource ColorFeedbackErrorLight}, Dark={StaticResource ColorFeedbackErrorDark}}" />
+    <SolidColorBrush x:Key="BrushFeedbackErrorEdge" Color="{AppThemeBinding Light={StaticResource ColorFeedbackErrorEdgeLight}, Dark={StaticResource ColorFeedbackErrorEdgeDark}}" />
     <SolidColorBrush x:Key="BrushFeedbackErrorContainer" Color="{AppThemeBinding Light={StaticResource ColorFeedbackErrorContainerLight}, Dark={StaticResource ColorFeedbackErrorContainerDark}}" />
     <SolidColorBrush x:Key="BrushFeedbackOnErrorContainer" Color="{AppThemeBinding Light={StaticResource ColorFeedbackOnErrorContainerLight}, Dark={StaticResource ColorFeedbackOnErrorContainerDark}}" />
     <SolidColorBrush x:Key="BrushFeedbackWarning" Color="{AppThemeBinding Light={StaticResource ColorFeedbackWarningLight}, Dark={StaticResource ColorFeedbackWarningDark}}" />
@@ -298,5 +349,21 @@
     <SolidColorBrush x:Key="BrushWidgetDivider" Color="{AppThemeBinding Light={StaticResource ColorWidgetDividerLight}, Dark={StaticResource ColorWidgetDividerDark}}" />
     <SolidColorBrush x:Key="BrushWidgetBadgeFree" Color="{AppThemeBinding Light={StaticResource ColorWidgetBadgeFreeLight}, Dark={StaticResource ColorWidgetBadgeFreeDark}}" />
     <SolidColorBrush x:Key="BrushWidgetOnBadgeFree" Color="{AppThemeBinding Light={StaticResource ColorWidgetOnBadgeFreeLight}, Dark={StaticResource ColorWidgetOnBadgeFreeDark}}" />
+    <SolidColorBrush x:Key="BrushTopicCommunication" Color="{AppThemeBinding Light={StaticResource ColorTopicCommunicationLight}, Dark={StaticResource ColorTopicCommunicationDark}}" />
+    <SolidColorBrush x:Key="BrushTopicOnCommunication" Color="{AppThemeBinding Light={StaticResource ColorTopicOnCommunicationLight}, Dark={StaticResource ColorTopicOnCommunicationDark}}" />
+    <SolidColorBrush x:Key="BrushTopicTravel" Color="{AppThemeBinding Light={StaticResource ColorTopicTravelLight}, Dark={StaticResource ColorTopicTravelDark}}" />
+    <SolidColorBrush x:Key="BrushTopicOnTravel" Color="{AppThemeBinding Light={StaticResource ColorTopicOnTravelLight}, Dark={StaticResource ColorTopicOnTravelDark}}" />
+    <SolidColorBrush x:Key="BrushTopicWork" Color="{AppThemeBinding Light={StaticResource ColorTopicWorkLight}, Dark={StaticResource ColorTopicWorkDark}}" />
+    <SolidColorBrush x:Key="BrushTopicOnWork" Color="{AppThemeBinding Light={StaticResource ColorTopicOnWorkLight}, Dark={StaticResource ColorTopicOnWorkDark}}" />
+    <SolidColorBrush x:Key="BrushTopicIt" Color="{AppThemeBinding Light={StaticResource ColorTopicItLight}, Dark={StaticResource ColorTopicItDark}}" />
+    <SolidColorBrush x:Key="BrushTopicOnIt" Color="{AppThemeBinding Light={StaticResource ColorTopicOnItLight}, Dark={StaticResource ColorTopicOnItDark}}" />
+    <SolidColorBrush x:Key="BrushTopicFood" Color="{AppThemeBinding Light={StaticResource ColorTopicFoodLight}, Dark={StaticResource ColorTopicFoodDark}}" />
+    <SolidColorBrush x:Key="BrushTopicOnFood" Color="{AppThemeBinding Light={StaticResource ColorTopicOnFoodLight}, Dark={StaticResource ColorTopicOnFoodDark}}" />
+    <SolidColorBrush x:Key="BrushTopicHealth" Color="{AppThemeBinding Light={StaticResource ColorTopicHealthLight}, Dark={StaticResource ColorTopicHealthDark}}" />
+    <SolidColorBrush x:Key="BrushTopicOnHealth" Color="{AppThemeBinding Light={StaticResource ColorTopicOnHealthLight}, Dark={StaticResource ColorTopicOnHealthDark}}" />
+    <SolidColorBrush x:Key="BrushTopicCity" Color="{AppThemeBinding Light={StaticResource ColorTopicCityLight}, Dark={StaticResource ColorTopicCityDark}}" />
+    <SolidColorBrush x:Key="BrushTopicOnCity" Color="{AppThemeBinding Light={StaticResource ColorTopicOnCityLight}, Dark={StaticResource ColorTopicOnCityDark}}" />
+    <SolidColorBrush x:Key="BrushTopicShopping" Color="{AppThemeBinding Light={StaticResource ColorTopicShoppingLight}, Dark={StaticResource ColorTopicShoppingDark}}" />
+    <SolidColorBrush x:Key="BrushTopicOnShopping" Color="{AppThemeBinding Light={StaticResource ColorTopicOnShoppingLight}, Dark={StaticResource ColorTopicOnShoppingDark}}" />
 
 </ResourceDictionary>

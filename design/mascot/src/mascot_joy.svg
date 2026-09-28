@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+<defs>
+  <radialGradient id="bodyGrad" cx="0.38" cy="0.32" r="0.8">
+    <stop offset="0" stop-color="#B8B4FE"/>
+    <stop offset="0.55" stop-color="#9A8EFE"/>
+    <stop offset="1" stop-color="#6D49EB"/>
+  </radialGradient>
+</defs>
+
+<rect x="119.8" y="38.2" width="13.5" height="23.8" rx="6.7" fill="#B4F461" transform="rotate(-1.1 126.5 56.0)"/>
+<circle cx="126.3" cy="43.0" r="4.8" fill="#689C00"/>
+<rect x="145.7" y="39.3" width="12.6" height="26.4" rx="6.3" fill="#B4F461" transform="rotate(17.4 152.0 59.7)"/>
+<circle cx="156.7" cy="44.5" r="4.5" fill="#689C00"/>
+<rect x="170.7" y="52.2" width="11.6" height="26.2" rx="5.8" fill="#B4F461" transform="rotate(37.3 176.5 72.4)"/>
+<circle cx="186.3" cy="59.7" r="4.2" fill="#689C00"/>
+<rect x="191.1" y="78.3" width="11.8" height="23.3" rx="5.9" fill="#B4F461" transform="rotate(59.6 197.0 95.5)"/>
+<circle cx="208.2" cy="88.9" r="4.2" fill="#689C00"/>
+<rect x="200.7" y="99.1" width="11.9" height="28.4" rx="5.9" fill="#B4F461" transform="rotate(79.5 206.7 121.5)"/>
+<circle cx="224.5" cy="118.2" r="4.3" fill="#689C00"/>
+<rect x="200.0" y="126.6" width="14.3" height="27.0" rx="7.2" fill="#B4F461" transform="rotate(98.3 207.2 147.6)"/>
+<circle cx="222.8" cy="149.9" r="5.2" fill="#689C00"/>
+<rect x="189.7" y="157.1" width="14.4" height="25.5" rx="7.2" fill="#B4F461" transform="rotate(120.5 197.0 176.6)"/>
+<circle cx="209.3" cy="183.8" r="5.2" fill="#689C00"/>
+<rect x="176.1" y="172.2" width="12.4" height="28.6" rx="6.2" fill="#B4F461" transform="rotate(137.3 182.3 194.8)"/>
+<circle cx="194.6" cy="208.1" r="4.5" fill="#689C00"/>
+<rect x="151.9" y="192.5" width="12.4" height="23.6" rx="6.2" fill="#B4F461" transform="rotate(157.9 158.1 210.1)"/>
+<circle cx="163.1" cy="222.3" r="4.5" fill="#689C00"/>
+<rect x="118.7" y="197.9" width="13.2" height="24.0" rx="6.6" fill="#B4F461" transform="rotate(181.9 125.4 216.0)"/>
+<circle cx="124.9" cy="229.2" r="4.8" fill="#689C00"/>
+<rect x="93.0" y="191.5" width="13.1" height="25.3" rx="6.6" fill="#B4F461" transform="rotate(200.8 99.5 210.8)"/>
+<circle cx="94.4" cy="224.4" r="4.7" fill="#689C00"/>
+<rect x="73.4" y="182.4" width="12.1" height="23.2" rx="6.1" fill="#B4F461" transform="rotate(217.4 79.4 199.6)"/>
+<circle cx="71.6" cy="209.8" r="4.4" fill="#689C00"/>
+<rect x="51.8" y="155.0" width="12.4" height="25.7" rx="6.2" fill="#B4F461" transform="rotate(241.1 58.0 174.7)"/>
+<circle cx="44.7" cy="182.0" r="4.5" fill="#689C00"/>
+<rect x="42.9" y="129.3" width="12.4" height="25.8" rx="6.2" fill="#B4F461" transform="rotate(260.5 49.1 149.2)"/>
+<circle cx="33.9" cy="151.7" r="4.5" fill="#689C00"/>
+<rect x="43.6" y="98.2" width="12.2" height="27.5" rx="6.1" fill="#B4F461" transform="rotate(281.8 49.7 119.7)"/>
+<circle cx="32.9" cy="116.2" r="4.4" fill="#689C00"/>
+<rect x="52.0" y="75.1" width="14.1" height="26.3" rx="7.1" fill="#B4F461" transform="rotate(300.4 59.0 95.5)"/>
+<circle cx="45.9" cy="87.7" r="5.1" fill="#689C00"/>
+<rect x="70.8" y="54.8" width="14.4" height="24.7" rx="7.2" fill="#B4F461" transform="rotate(321.4 78.1 73.5)"/>
+<circle cx="69.6" cy="62.9" r="5.2" fill="#689C00"/>
+<rect x="90.8" y="42.4" width="13.8" height="25.6" rx="6.9" fill="#B4F461" transform="rotate(337.7 97.7 62.0)"/>
+<circle cx="92.1" cy="48.4" r="5.0" fill="#689C00"/>
+<circle cx="128.0" cy="136.0" r="84.0" fill="url(#bodyGrad)"/><ellipse cx="106.0" cy="98.0" rx="30" ry="18" fill="#B8B4FE" opacity="0.55"/>
+<path d="M 86.0 124.0 Q 104.0 146.0 122.0 124.0" fill="none" stroke="#15131F" stroke-width="7" stroke-linecap="round"/><path d="M 134.0 124.0 Q 152.0 146.0 170.0 124.0" fill="none" stroke="#15131F" stroke-width="7" stroke-linecap="round"/><path d="M 90.0 92.0 Q 104.0 84.0 118.0 92.0" fill="none" stroke="#6D49EB" stroke-width="5" stroke-linecap="round"/><path d="M 138.0 92.0 Q 152.0 84.0 166.0 92.0" fill="none" stroke="#6D49EB" stroke-width="5" stroke-linecap="round"/><ellipse cx="82.0" cy="152.0" rx="12" ry="7" fill="#FFCBC7" opacity="0.9"/><ellipse cx="174.0" cy="152.0" rx="12" ry="7" fill="#FFCBC7" opacity="0.9"/><path d="M 114.0 170.0 Q 128.0 184.0 142.0 170.0" fill="none" stroke="#15131F" stroke-width="5" stroke-linecap="round"/>
+
+</svg>

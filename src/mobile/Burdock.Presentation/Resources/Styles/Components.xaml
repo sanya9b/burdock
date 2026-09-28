@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+    Component styles on top of the generated tokens (spec 02 section 3.11, ADR 0017 «ігрова мова інтерфейсу»).
+    Hand-written. Rules: colours only through Color*/Brush* token resources; single lengths through Space*/Size*/Radius*;
+    composite paddings are named Thickness resources below (4pt grid) so pages never carry raw numbers.
+-->
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    xmlns:controls="clr-namespace:Burdock.Presentation.Controls"
+                    xmlns:vm="clr-namespace:Burdock.Presentation.ViewModels">
+
+    <!-- ===== Composite insets (4pt grid) ===== -->
+    <Thickness x:Key="PageInset">20,0</Thickness>
+    <Thickness x:Key="PageInsetTop">20,8,20,0</Thickness>
+    <Thickness x:Key="BottomBarInset">20,12,20,20</Thickness>
+    <Thickness x:Key="ChipInset">12,6</Thickness>
+    <Thickness x:Key="ChipInsetSm">10,4</Thickness>
+    <Thickness x:Key="FieldInset">16,4</Thickness>
+    <Thickness x:Key="StripBleed">-20,0</Thickness>
+    <Thickness x:Key="StripItemInset">20,4,0,8</Thickness>
+    <Thickness x:Key="MascotCornerOverhang">0,-12,-8,0</Thickness>
+    <Thickness x:Key="InsetTopSm">0,4,0,0</Thickness>
+    <Thickness x:Key="InsetTopMd">0,8,0,0</Thickness>
+    <Thickness x:Key="InsetTopLg">0,16,0,0</Thickness>
+
+    <!-- ===== Icons (Lucide font). Decorative by default; give a SemanticProperties.Description when an icon stands alone. ===== -->
+    <Style x:Key="IconGlyph" TargetType="Label">
+        <Setter Property="FontFamily" Value="Lucide" />
+        <Setter Property="FontSize" Value="{StaticResource SizeIconMd}" />
+        <Setter Property="FontAutoScalingEnabled" Value="False" />
+        <Setter Property="VerticalOptions" Value="Center" />
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+        <Setter Property="VerticalTextAlignment" Value="Center" />
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorTextPrimaryLight}, Dark={StaticResource ColorTextPrimaryDark}}" />
+    </Style>
+    <Style x:Key="IconGlyphSm" TargetType="Label" BasedOn="{StaticResource IconGlyph}">
+        <Setter Property="FontSize" Value="{StaticResource SizeIconSm}" />
+    </Style>
+    <Style x:Key="IconGlyphLg" TargetType="Label" BasedOn="{StaticResource IconGlyph}">
+        <Setter Property="FontSize" Value="{StaticResource SizeIconLg}" />
+    </Style>
+
+    <!-- ===== Text helpers ===== -->
+    <Style x:Key="TextSecondary" TargetType="Label" BasedOn="{StaticResource TypeBodyMd}">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorTextSecondaryLight}, Dark={StaticResource ColorTextSecondaryDark}}" />
+    </Style>
+    <Style x:Key="TextTertiary" TargetType="Label" BasedOn="{StaticResource TypeBodySm}">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorTextTertiaryLight}, Dark={StaticResource ColorTextTertiaryDark}}" />
+    </Style>
+    <Style x:Key="LabelSecondary" TargetType="Label" BasedOn="{StaticResource TypeLabelMd}">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorTextSecondaryLight}, Dark={StaticResource ColorTextSecondaryDark}}" />
+    </Style>
+    <Style x:Key="Eyebrow" TargetType="Label" BasedOn="{StaticResource TypeLabelSm}">
+        <Setter Property="TextTransform" Value="Uppercase" />
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorTextTertiaryLight}, Dark={StaticResource ColorTextTertiaryDark}}" />
+    </Style>
+    <Style x:Key="SectionTitle" TargetType="Label" BasedOn="{StaticResource TypeHeadlineSm}" />
+    <Style x:Key="OnHeroWord" TargetType="Label" BasedOn="{StaticResource TypeWordHero}">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorWidgetWordLight}, Dark={StaticResource ColorWidgetWordDark}}" />
+    </Style>
+    <Style x:Key="OnHeroSecondary" TargetType="Label" BasedOn="{StaticResource TypeBodyMd}">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorWidgetIpaLight}, Dark={StaticResource ColorWidgetIpaDark}}" />
+    </Style>
+    <Style x:Key="OnHeroIpa" TargetType="Label" BasedOn="{StaticResource TypeWordIpa}">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorWidgetIpaLight}, Dark={StaticResource ColorWidgetIpaDark}}" />
+    </Style>
+
+    <!-- ===== Cards (spec 02 section 3.6-3.7): light = shadow, no stroke; dark = hairline + surface lift ===== -->
+    <Style x:Key="CardElevated" TargetType="Border">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorSurfaceElevatedLight}, Dark={StaticResource ColorSurfaceElevatedDark}}" />
+        <Setter Property="Stroke" Value="{AppThemeBinding Light=Transparent, Dark={StaticResource ColorBorderDefaultDark}}" />
+        <Setter Property="StrokeThickness" Value="{StaticResource BorderWidthHairline}" />
+        <Setter Property="StrokeShape">
+            <RoundRectangle CornerRadius="{StaticResource CornerRadiusLg}" />
+        </Setter>
+        <Setter Property="Shadow" Value="{StaticResource ShadowElevation2}" />
+        <Setter Property="Padding" Value="{StaticResource Space5}" />
+    </Style>
+    <Style x:Key="CardTonal" TargetType="Border">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorBrandPrimaryContainerLight}, Dark={StaticResource ColorBrandPrimaryContainerDark}}" />
+        <Setter Property="StrokeThickness" Value="0" />
+        <Setter Property="StrokeShape">
+            <RoundRectangle CornerRadius="{StaticResource CornerRadiusLg}" />
+        </Setter>
+        <Setter Property="Padding" Value="{StaticResource Space5}" />
+    </Style>
+    <Style x:Key="CardSunken" TargetType="Border">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorSurfaceSunkenLight}, Dark={StaticResource ColorSurfaceSunkenDark}}" />
+        <Setter Property="StrokeThickness" Value="0" />
+        <Setter Property="StrokeShape">
+            <RoundRectangle CornerRadius="{StaticResource CornerRadiusLg}" />
+        </Setter>
+        <Setter Property="Padding" Value="{StaticResource Space5}" />
+    </Style>
+    <Style x:Key="HeroCard" TargetType="Border">
+        <Setter Property="Background" Value="{StaticResource BrushHeroGradient}" />
+        <Setter Property="StrokeThickness" Value="0" />
+        <Setter Property="StrokeShape">
+            <RoundRectangle CornerRadius="{StaticResource CornerRadiusXl}" />
+        </Setter>
+        <Setter Property="Shadow" Value="{StaticResource ShadowHeroGlow}" />
+        <Setter Property="Padding" Value="{StaticResource Space5}" />
+    </Style>
+    <Style x:Key="WordTile" TargetType="Border">
+        <Setter Property="StrokeThickness" Value="0" />
+        <Setter Property="StrokeShape">
+            <RoundRectangle CornerRadius="{StaticResource CornerRadiusLg}" />
+        </Setter>
+        <Setter Property="Padding" Value="{StaticResource Space4}" />
+        <Setter Property="WidthRequest" Value="{StaticResource SizeWordTileWidth}" />
+    </Style>
+    <Style x:Key="StatTile" TargetType="Border" BasedOn="{StaticResource CardElevated}">
+        <Setter Property="Shadow" Value="{StaticResource ShadowElevation1}" />
+        <Setter Property="Padding" Value="{StaticResource Space4}" />
+    </Style>
+
+    <!-- ===== Chips ===== -->
+    <Style x:Key="Chip" TargetType="Border">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorSurfaceSunkenLight}, Dark={StaticResource ColorSurfaceSunkenDark}}" />
+        <Setter Property="StrokeThickness" Value="0" />
+        <Setter Property="StrokeShape">
+            <RoundRectangle CornerRadius="{StaticResource CornerRadiusFull}" />
+        </Setter>
+        <Setter Property="Padding" Value="{StaticResource ChipInset}" />
+        <Setter Property="HorizontalOptions" Value="Start" />
+        <Setter Property="VerticalOptions" Value="Center" />
+    </Style>
+    <Style x:Key="ChipTonal" TargetType="Border" BasedOn="{StaticResource Chip}">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorBrandPrimaryContainerLight}, Dark={StaticResource ColorBrandPrimaryContainerDark}}" />
+    </Style>
+    <Style x:Key="ChipSuccess" TargetType="Border" BasedOn="{StaticResource Chip}">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorFeedbackSuccessContainerLight}, Dark={StaticResource ColorFeedbackSuccessContainerDark}}" />
+    </Style>
+    <Style x:Key="ChipGold" TargetType="Border" BasedOn="{StaticResource Chip}">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorRewardGoldContainerLight}, Dark={StaticResource ColorRewardGoldContainerDark}}" />
+    </Style>
+    <Style x:Key="ChipOnHero" TargetType="Border" BasedOn="{StaticResource Chip}">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorWidgetChipBackgroundLight}, Dark={StaticResource ColorWidgetChipBackgroundDark}}" />
+        <Setter Property="Padding" Value="{StaticResource ChipInsetSm}" />
+    </Style>
+    <Style x:Key="ChipText" TargetType="Label" BasedOn="{StaticResource TypeLabelSm}">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorTextSecondaryLight}, Dark={StaticResource ColorTextSecondaryDark}}" />
+        <Setter Property="VerticalOptions" Value="Center" />
+    </Style>
+    <Style x:Key="ChipTextTonal" TargetType="Label" BasedOn="{StaticResource ChipText}">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
+    </Style>
+    <Style x:Key="ChipTextSuccess" TargetType="Label" BasedOn="{StaticResource ChipText}">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorFeedbackOnSuccessContainerLight}, Dark={StaticResource ColorFeedbackOnSuccessContainerDark}}" />
+    </Style>
+    <Style x:Key="ChipTextGold" TargetType="Label" BasedOn="{StaticResource ChipText}">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorRewardGoldTextLight}, Dark={StaticResource ColorRewardGoldTextDark}}" />
+    </Style>
+    <Style x:Key="ChipTextOnHero" TargetType="Label" BasedOn="{StaticResource ChipText}">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorWidgetChipTextLight}, Dark={StaticResource ColorWidgetChipTextDark}}" />
+    </Style>
+
+    <!-- ===== PushButton (relief button). Implicit style = primary. ===== -->
+    <Style TargetType="controls:PushButton">
+        <Setter Property="FaceColor" Value="{AppThemeBinding Light={StaticResource ColorBrandPrimaryLight}, Dark={StaticResource ColorBrandPrimaryDark}}" />
+        <Setter Property="EdgeColor" Value="{AppThemeBinding Light={StaticResource ColorBrandPrimaryEdgeLight}, Dark={StaticResource ColorBrandPrimaryEdgeDark}}" />
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryLight}, Dark={StaticResource ColorBrandOnPrimaryDark}}" />
+        <Setter Property="EdgeHeight" Value="{StaticResource SizePushButtonEdge}" />
+        <Setter Property="HeightRequest" Value="{StaticResource SizePushButtonHeight}" />
+        <Setter Property="CornerRadius" Value="{StaticResource RadiusFull}" />
+        <Setter Property="FontFamily" Value="FixelTextBold" />
+        <Setter Property="FontSize" Value="{StaticResource FontSizeLabelLg}" />
+        <Setter Property="IconSize" Value="{StaticResource SizeIconMd}" />
+        <Setter Property="IconSpacing" Value="{StaticResource Space2}" />
+        <Setter Property="DisabledOpacity" Value="{StaticResource OpacityDisabled}" />
+    </Style>
+    <Style x:Key="PushTonal" TargetType="controls:PushButton">
+        <Setter Property="FaceColor" Value="{AppThemeBinding Light={StaticResource ColorBrandPrimaryContainerLight}, Dark={StaticResource ColorBrandPrimaryContainerDark}}" />
+        <Setter Property="EdgeColor" Value="{AppThemeBinding Light={StaticResource ColorBrandPrimaryContainerEdgeLight}, Dark={StaticResource ColorBrandPrimaryContainerEdgeDark}}" />
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
+    </Style>
+    <Style x:Key="PushAccent" TargetType="controls:PushButton">
+        <Setter Property="FaceColor" Value="{AppThemeBinding Light={StaticResource ColorBrandAccentLight}, Dark={StaticResource ColorBrandAccentDark}}" />
+        <Setter Property="EdgeColor" Value="{AppThemeBinding Light={StaticResource ColorBrandAccentEdgeLight}, Dark={StaticResource ColorBrandAccentEdgeDark}}" />
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorBrandOnAccentLight}, Dark={StaticResource ColorBrandOnAccentDark}}" />
+    </Style>
+    <Style x:Key="PushNeutral" TargetType="controls:PushButton">
+        <Setter Property="FaceColor" Value="{AppThemeBinding Light={StaticResource ColorSurfaceElevatedLight}, Dark={StaticResource ColorSurfaceElevatedDark}}" />
+        <Setter Property="EdgeColor" Value="{AppThemeBinding Light={StaticResource ColorSurfaceElevatedEdgeLight}, Dark={StaticResource ColorSurfaceElevatedEdgeDark}}" />
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorTextPrimaryLight}, Dark={StaticResource ColorTextPrimaryDark}}" />
+    </Style>
+    <Style x:Key="PushSuccess" TargetType="controls:PushButton">
+        <Setter Property="FaceColor" Value="{AppThemeBinding Light={StaticResource ColorFeedbackSuccessLight}, Dark={StaticResource ColorFeedbackSuccessDark}}" />
+        <Setter Property="EdgeColor" Value="{AppThemeBinding Light={StaticResource ColorFeedbackSuccessEdgeLight}, Dark={StaticResource ColorFeedbackSuccessEdgeDark}}" />
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorTextInverseLight}, Dark={StaticResource ColorTextInverseDark}}" />
+    </Style>
+    <Style x:Key="PushDanger" TargetType="controls:PushButton">
+        <Setter Property="FaceColor" Value="{AppThemeBinding Light={StaticResource ColorFeedbackErrorLight}, Dark={StaticResource ColorFeedbackErrorDark}}" />
+        <Setter Property="EdgeColor" Value="{AppThemeBinding Light={StaticResource ColorFeedbackErrorEdgeLight}, Dark={StaticResource ColorFeedbackErrorEdgeDark}}" />
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorTextInverseLight}, Dark={StaticResource ColorTextInverseDark}}" />
+    </Style>
+    <!-- Round icon button (TopBar back/close, inline actions). -->
+    <Style x:Key="PushIcon" TargetType="controls:PushButton" BasedOn="{StaticResource PushNeutral}">
+        <Setter Property="HeightRequest" Value="{StaticResource SizeTouchTargetMin}" />
+        <Setter Property="IconSize" Value="{StaticResource SizeIconLg}" />
+    </Style>
+    <!-- Lime speaker button on the hero (widget.accent). -->
+    <Style x:Key="PushHeroIcon" TargetType="controls:PushButton" BasedOn="{StaticResource PushAccent}">
+        <Setter Property="HeightRequest" Value="{StaticResource SizeTouchTargetMin}" />
+        <Setter Property="IconSize" Value="{StaticResource SizeIconLg}" />
+    </Style>
+
+    <!-- QuizOption / MatchPair: relief tiles with the quiz.* state colours (never colour-only: text changes too). -->
+    <Style x:Key="QuizOption" TargetType="controls:PushButton" BasedOn="{StaticResource PushNeutral}">
+        <Setter Property="CornerRadius" Value="{StaticResource RadiusLg}" />
+        <Setter Property="FontFamily" Value="FixelTextSemiBold" />
+        <Setter Property="FontSize" Value="{StaticResource FontSizeBodyLg}" />
+        <Setter Property="HorizontalOptions" Value="Fill" />
+        <Style.Triggers>
+            <DataTrigger TargetType="controls:PushButton" Binding="{Binding Visual, x:DataType=vm:OptionViewModel}" Value="{x:Static vm:OptionVisual.Selected}">
+                <Setter Property="FaceColor" Value="{AppThemeBinding Light={StaticResource ColorQuizSelectedContainerLight}, Dark={StaticResource ColorQuizSelectedContainerDark}}" />
+                <Setter Property="EdgeColor" Value="{AppThemeBinding Light={StaticResource ColorQuizSelectedBorderLight}, Dark={StaticResource ColorQuizSelectedBorderDark}}" />
+                <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorQuizSelectedLight}, Dark={StaticResource ColorQuizSelectedDark}}" />
+            </DataTrigger>
+            <DataTrigger TargetType="controls:PushButton" Binding="{Binding Visual, x:DataType=vm:OptionViewModel}" Value="{x:Static vm:OptionVisual.Correct}">
+                <Setter Property="FaceColor" Value="{AppThemeBinding Light={StaticResource ColorQuizCorrectContainerLight}, Dark={StaticResource ColorQuizCorrectContainerDark}}" />
+                <Setter Property="EdgeColor" Value="{AppThemeBinding Light={StaticResource ColorQuizCorrectBorderLight}, Dark={StaticResource ColorQuizCorrectBorderDark}}" />
+                <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorQuizCorrectLight}, Dark={StaticResource ColorQuizCorrectDark}}" />
+                <Setter Property="FontFamily" Value="FixelTextBold" />
+            </DataTrigger>
+            <DataTrigger TargetType="controls:PushButton" Binding="{Binding Visual, x:DataType=vm:OptionViewModel}" Value="{x:Static vm:OptionVisual.Incorrect}">
+                <Setter Property="FaceColor" Value="{AppThemeBinding Light={StaticResource ColorQuizIncorrectContainerLight}, Dark={StaticResource ColorQuizIncorrectContainerDark}}" />
+                <Setter Property="EdgeColor" Value="{AppThemeBinding Light={StaticResource ColorQuizIncorrectBorderLight}, Dark={StaticResource ColorQuizIncorrectBorderDark}}" />
+                <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorQuizIncorrectLight}, Dark={StaticResource ColorQuizIncorrectDark}}" />
+            </DataTrigger>
+            <DataTrigger TargetType="controls:PushButton" Binding="{Binding Visual, x:DataType=vm:OptionViewModel}" Value="{x:Static vm:OptionVisual.Disabled}">
+                <Setter Property="Opacity" Value="{StaticResource OpacityMuted}" />
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key="MatchTile" TargetType="controls:PushButton" BasedOn="{StaticResource QuizOption}">
+        <Setter Property="FontSize" Value="{StaticResource FontSizeTitleMd}" />
+        <Setter Property="ContentPadding" Value="{StaticResource ChipInset}" />
+    </Style>
+
+    <!-- Feedback panel of the session (spec 03 S-12): container + title + detail + coloured «Далі». -->
+    <Style x:Key="FeedbackCard" TargetType="Border">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorFeedbackErrorContainerLight}, Dark={StaticResource ColorFeedbackErrorContainerDark}}" />
+        <Setter Property="StrokeThickness" Value="0" />
+        <Setter Property="StrokeShape">
+            <RoundRectangle CornerRadius="{StaticResource CornerRadiusXl}" />
+        </Setter>
+        <Setter Property="Padding" Value="{StaticResource Space5}" />
+        <Style.Triggers>
+            <DataTrigger TargetType="Border" Binding="{Binding FeedbackIsPositive, x:DataType=vm:SessionViewModel}" Value="True">
+                <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorFeedbackSuccessContainerLight}, Dark={StaticResource ColorFeedbackSuccessContainerDark}}" />
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key="FeedbackTitle" TargetType="Label" BasedOn="{StaticResource TypeHeadlineSm}">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorFeedbackOnErrorContainerLight}, Dark={StaticResource ColorFeedbackOnErrorContainerDark}}" />
+        <Style.Triggers>
+            <DataTrigger TargetType="Label" Binding="{Binding FeedbackIsPositive, x:DataType=vm:SessionViewModel}" Value="True">
+                <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorFeedbackOnSuccessContainerLight}, Dark={StaticResource ColorFeedbackOnSuccessContainerDark}}" />
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key="FeedbackDetail" TargetType="Label" BasedOn="{StaticResource TypeBodyMd}">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorFeedbackOnErrorContainerLight}, Dark={StaticResource ColorFeedbackOnErrorContainerDark}}" />
+        <Style.Triggers>
+            <DataTrigger TargetType="Label" Binding="{Binding FeedbackIsPositive, x:DataType=vm:SessionViewModel}" Value="True">
+                <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorFeedbackOnSuccessContainerLight}, Dark={StaticResource ColorFeedbackOnSuccessContainerDark}}" />
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key="FeedbackIcon" TargetType="Label" BasedOn="{StaticResource IconGlyphLg}">
+        <Setter Property="VerticalOptions" Value="Start" />
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorFeedbackErrorLight}, Dark={StaticResource ColorFeedbackErrorDark}}" />
+        <Style.Triggers>
+            <DataTrigger TargetType="Label" Binding="{Binding FeedbackIsPositive, x:DataType=vm:SessionViewModel}" Value="True">
+                <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorFeedbackSuccessLight}, Dark={StaticResource ColorFeedbackSuccessDark}}" />
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key="FeedbackNext" TargetType="controls:PushButton" BasedOn="{StaticResource PushDanger}">
+        <Style.Triggers>
+            <DataTrigger TargetType="controls:PushButton" Binding="{Binding FeedbackIsPositive, x:DataType=vm:SessionViewModel}" Value="True">
+                <Setter Property="FaceColor" Value="{AppThemeBinding Light={StaticResource ColorFeedbackSuccessLight}, Dark={StaticResource ColorFeedbackSuccessDark}}" />
+                <Setter Property="EdgeColor" Value="{AppThemeBinding Light={StaticResource ColorFeedbackSuccessEdgeLight}, Dark={StaticResource ColorFeedbackSuccessEdgeDark}}" />
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <!-- ===== Inputs ===== -->
+    <Style x:Key="TypedField" TargetType="Border">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorSurfaceElevatedLight}, Dark={StaticResource ColorSurfaceElevatedDark}}" />
+        <Setter Property="Stroke" Value="{AppThemeBinding Light={StaticResource ColorBorderDefaultLight}, Dark={StaticResource ColorBorderDefaultDark}}" />
+        <Setter Property="StrokeThickness" Value="{StaticResource BorderWidthStrong}" />
+        <Setter Property="StrokeShape">
+            <RoundRectangle CornerRadius="{StaticResource CornerRadiusLg}" />
+        </Setter>
+        <Setter Property="Padding" Value="{StaticResource FieldInset}" />
+    </Style>
+
+    <!-- ===== Progress ===== -->
+    <Style TargetType="controls:SegmentedProgressBar">
+        <Setter Property="HeightRequest" Value="{StaticResource Space2}" />
+        <Setter Property="Gap" Value="{StaticResource Space1}" />
+        <Setter Property="FillColor" Value="{AppThemeBinding Light={StaticResource ColorBrandPrimaryLight}, Dark={StaticResource ColorBrandPrimaryDark}}" />
+        <Setter Property="TrackColor" Value="{AppThemeBinding Light={StaticResource ColorBorderDefaultLight}, Dark={StaticResource ColorBorderDefaultDark}}" />
+        <Setter Property="Duration" Value="{StaticResource MotionDurationBase}" />
+    </Style>
+    <Style TargetType="controls:ProgressRing">
+        <Setter Property="Thickness" Value="{StaticResource Space3}" />
+        <Setter Property="FillColor" Value="{AppThemeBinding Light={StaticResource ColorBrandPrimaryVividLight}, Dark={StaticResource ColorBrandPrimaryVividDark}}" />
+        <Setter Property="TrackColor" Value="{AppThemeBinding Light={StaticResource ColorSurfaceSunkenLight}, Dark={StaticResource ColorSurfaceSunkenDark}}" />
+        <Setter Property="Duration" Value="{StaticResource MotionDurationCelebrate}" />
+    </Style>
+
+</ResourceDictionary>

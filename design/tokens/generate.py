@@ -8,6 +8,7 @@ Usage:
   python design/tokens/generate.py --out xaml         MAUI Colors.xaml / Styles.xaml / WidgetThemes/*.xaml
   python design/tokens/generate.py --out android      Android values/colors_tokens.xml, values-night/colors_tokens.xml, dimens_tokens.xml
   python design/tokens/generate.py --out swift        Swift DesignTokens.swift for the WidgetKit extension
+  python design/tokens/generate.py --out css          CSS custom properties inside design/preview/index.html (tokens:start … tokens:end)
   python design/tokens/generate.py --out all          everything above
   python design/tokens/generate.py --seed             re-run the OKLCH ramp seed (_seed_ramps.py) that rewrites tokens.json
 
@@ -28,6 +29,9 @@ PRESENTATION = REPO / "src" / "mobile" / "Burdock.Presentation"
 STYLES_DIR = PRESENTATION / "Resources" / "Styles"
 ANDROID_RES = PRESENTATION / "Platforms" / "Android" / "Resources"
 SWIFT_DIR = REPO / "src" / "mobile" / "ios-extensions" / "BurdockWidgets" / "Shared"
+PREVIEW_HTML = REPO / "design" / "preview" / "index.html"
+CSS_START = "/* tokens:start"
+CSS_END = "/* tokens:end */"
 
 HEADER_NOTE = "GENERATED from design/tokens/tokens.json by design/tokens/generate.py. Do not edit by hand; change the tokens and regenerate."
 
@@ -296,10 +300,13 @@ def emit_styles_xaml(t: Tokens) -> str:
         if name in ("touchTargetMin", "touchTargetAndroid"):
             continue
         L.append(f'    <x:Double x:Key="Size{pascal(name)}">{fmt_num(parse_pt(tok["$value"]))}</x:Double>')
-    for name, tok in size.get("icon", {}).items():
-        if name.startswith("$"):
+    for group, items in size.items():
+        if group.startswith("$") or not isinstance(items, dict) or "$value" in items:
             continue
-        L.append(f'    <x:Double x:Key="SizeIcon{pascal(name)}">{fmt_num(parse_pt(tok["$value"]))}</x:Double>')
+        for name, tok in items.items():
+            if name.startswith("$"):
+                continue
+            L.append(f'    <x:Double x:Key="Size{pascal(group)}{pascal(name)}">{fmt_num(parse_pt(tok["$value"]))}</x:Double>')
     ios_target = fmt_num(t.dimension("size.touchTargetMin"))
     android_target = fmt_num(t.dimension("size.touchTargetAndroid"))
     L += [
@@ -312,6 +319,42 @@ def emit_styles_xaml(t: Tokens) -> str:
         if name.startswith("$"):
             continue
         L.append(f'    <x:Int32 x:Key="MotionDuration{pascal(name)}">{int(parse_pt(tok["$value"]))}</x:Int32>')
+    for name, tok in t.data.get("opacity", {}).items():
+        if name.startswith("$"):
+            continue
+        L.append(f'    <x:Double x:Key="Opacity{pascal(name)}">{fmt_num(float(t.resolve(tok["$value"])))}</x:Double>')
+
+    L += ["", "    <!-- Elevation (elevation.light|dark.N): one Shadow per level from the widest blur layer (MAUI draws a single shadow per view); Radius approximates the CSS blur. -->"]
+    for level in ("1", "2", "3"):
+        layers = {mode: max(t.data["elevation"][mode][level]["$value"], key=lambda layer: parse_pt(layer["blur"])) for mode in ("light", "dark")}
+        opacity = {mode: int(normalize_hex(layer["color"])[7:9] or "FF", 16) / 255 for mode, layer in layers.items()}
+        for mode, layer in layers.items():
+            L.append(f'    <Color x:Key="ColorShadowElevation{level}{mode.capitalize()}">{normalize_hex(layer["color"])[:7]}</Color>')
+        L.append(
+            f'    <SolidColorBrush x:Key="BrushShadowElevation{level}" Color="{{AppThemeBinding Light={{StaticResource ColorShadowElevation{level}Light}}, Dark={{StaticResource ColorShadowElevation{level}Dark}}}}" />'
+        )
+        light = layers["light"]
+        L.append(
+            f'    <Shadow x:Key="ShadowElevation{level}" Brush="{{StaticResource BrushShadowElevation{level}}}" Offset="0,{fmt_num(parse_pt(light["offsetY"]))}" '
+            f'Radius="{fmt_num(round(parse_pt(light["blur"]) * 0.75, 2))}" Opacity="{{AppThemeBinding Light={fmt_num(round(opacity["light"], 3))}, Dark={fmt_num(round(opacity["dark"], 3))}}}" />'
+        )
+    glow = max(t.data["elevation"]["light"]["3"]["$value"], key=lambda layer: parse_pt(layer["blur"]))
+    L.append(
+        f'    <Shadow x:Key="ShadowHeroGlow" Brush="{{StaticResource BrushBrandPrimaryVivid}}" Offset="0,{fmt_num(parse_pt(glow["offsetY"]))}" '
+        f'Radius="{fmt_num(round(parse_pt(glow["blur"]) * 0.75, 2))}" Opacity="{{StaticResource OpacityHeroGlow}}" />'
+    )
+    L += [
+        "",
+        "    <!-- Hero gradient (widget.background → widget.backgroundEnd): the in-app twin of the widget scene (spec 02 section 3.12). -->",
+        '    <LinearGradientBrush x:Key="BrushHeroGradient" StartPoint="0,0" EndPoint="1,1">',
+        f'        <GradientStop Offset="0" Color="{theme_binding("WidgetBackground")}" />',
+        f'        <GradientStop Offset="1" Color="{theme_binding("WidgetBackgroundEnd")}" />',
+        "    </LinearGradientBrush>",
+    ]
+
+    L += ["", "    <!-- Font sizes (typography.scale.*): FontSize{Role}{Size} for controls that are not Labels (PushButton, Entry, Span). -->"]
+    for role, sz, spec in t.type_roles():
+        L.append(f'    <x:Double x:Key="FontSize{pascal(role)}{pascal(sz)}">{fmt_num(parse_pt(spec["fontSize"]))}</x:Double>')
 
     L += ["", "    <!-- Typography roles (typography.scale.*): Type{Role}{Size} styles for Label. Sizes in pt map 1:1 to MAUI units. -->"]
     for role, sz, spec in t.type_roles():
@@ -332,7 +375,7 @@ def emit_styles_xaml(t: Tokens) -> str:
         L.append("    </Style>")
 
     body_size = fmt_num(parse_pt(t.node("typography.scale.body.md")["$value"]["fontSize"]))
-    radius_md = fmt_num(t.dimension("radius.md"))
+    radius_full = fmt_num(t.dimension("radius.full"))
     radius_lg = fmt_num(t.dimension("radius.lg"))
     L += [
         "",
@@ -361,7 +404,7 @@ def emit_styles_xaml(t: Tokens) -> str:
         f'        <Setter Property="FontSize" Value="{body_size}" />',
         f'        <Setter Property="TextColor" Value="{theme_binding("BrandOnPrimary")}" />',
         f'        <Setter Property="BackgroundColor" Value="{theme_binding("BrandPrimary")}" />',
-        f'        <Setter Property="CornerRadius" Value="{radius_md}" />',
+        f'        <Setter Property="CornerRadius" Value="{radius_full}" />',
         '        <Setter Property="Padding" Value="20,12" />',
         '        <Setter Property="MinimumHeightRequest" Value="{StaticResource SizeTouchTargetMin}" />',
         '        <Setter Property="VisualStateManager.VisualStateGroups">',
@@ -502,6 +545,60 @@ def emit_swift(t: Tokens) -> str:
     return "\n".join(L)
 
 
+def emit_css_tokens(t: Tokens) -> str:
+    """CSS custom properties for the design preview; spliced between the tokens:start / tokens:end markers of index.html."""
+    L = ["/* tokens:start — цей блок генерує design/tokens/generate.py --out css; значення = tokens.json */", ":root{"]
+    for fam, ramp in t.primitives().items():
+        L.append("  " + " ".join(f"--color-primitive-{fam}-{step}:{hex_value};" for step, hex_value in ramp.items()))
+    L.append("  " + " ".join(f"--spacing-{step}:{fmt_num(parse_pt(tok['$value']))}px;" for step, tok in t.data["spacing"].items() if not step.startswith("$")))
+    L.append("  " + " ".join(f"--radius-{name}:{fmt_num(parse_pt(tok['$value']))}px;" for name, tok in t.data["radius"].items() if not name.startswith("$")))
+    sizes = []
+    for name, tok in t.data["size"].items():
+        if name.startswith("$"):
+            continue
+        if "$value" in tok:
+            sizes.append(f"--size-{name}:{fmt_num(parse_pt(tok['$value']))}px;")
+        else:
+            sizes += [f"--size-{name}-{sub}:{fmt_num(parse_pt(st['$value']))}px;" for sub, st in tok.items() if not sub.startswith("$")]
+    L.append("  " + " ".join(sizes))
+    L.append("  " + " ".join(f"--opacity-{name}:{fmt_num(float(t.resolve(tok['$value'])))};" for name, tok in t.data.get("opacity", {}).items() if not name.startswith("$")))
+    L.append("  " + " ".join(f"--motion-duration-{name}:{int(parse_pt(tok['$value']))}ms;" for name, tok in t.data["motion"]["duration"].items() if not name.startswith("$")))
+    L.append("  " + " ".join(
+        f"--motion-easing-{name}:cubic-bezier({','.join(fmt_num(float(v)) for v in tok['$value'])});"
+        for name, tok in t.data["motion"]["easing"].items() if not name.startswith("$")))
+    families = []
+    for name, tok in t.data["typography"]["fontFamily"].items():
+        if name.startswith("$"):
+            continue
+        families.append(f"--typography-fontFamily-{name}:" + ",".join(f'"{f}"' if " " in f else f for f in tok["$value"]) + ";")
+    L.append("  " + " ".join(families))
+    L.append("}")
+    for mode in ("light", "dark"):
+        L.append(f'[data-theme="{mode}"]{{')
+        for group, items in t.semantic(mode).items():
+            L.append("  " + " ".join(f"--color-{group}-{name}:{hex_value};" for name, hex_value in items.items()))
+        shadows = []
+        for level in ("1", "2", "3"):
+            layers = t.data["elevation"][mode][level]["$value"]
+            shadows.append(f"--shadow-{level}:" + ",".join(
+                f"{fmt_num(parse_pt(layer['offsetX']))} {fmt_num(parse_pt(layer['offsetY']))}px {fmt_num(parse_pt(layer['blur']))}px {normalize_hex(layer['color'])}"
+                for layer in layers) + ";")
+        shadows.append("--elev-border:transparent;" if mode == "light" else "--elev-border:var(--color-border-default);")
+        L.append("  " + " ".join(shadows))
+        L.append("}")
+    for theme, modes in t.widget_themes().items():
+        for mode in ("light", "dark"):
+            L.append(f'[data-theme="{mode}"] .wtheme-{theme}{{' + "".join(f"--color-widget-{k}:{v};" for k, v in modes[mode].items()) + "}")
+    L.append("/* tokens:end */")
+    return "\n".join(L)
+
+
+def splice_css(html: str, block: str) -> str:
+    start = html.index(CSS_START)
+    end = html.index(CSS_END) + len(CSS_END)
+    return html[:start] + block + html[end:]
+
+
 # ----------------------------------------------------------------------------- outputs
 
 
@@ -518,6 +615,8 @@ def planned_outputs(t: Tokens, which: set[str]) -> dict[Path, str]:
         out[ANDROID_RES / "values" / "dimens_tokens.xml"] = emit_android_dimens(t)
     if "swift" in which:
         out[SWIFT_DIR / "DesignTokens.swift"] = emit_swift(t)
+    if "css" in which and PREVIEW_HTML.exists():
+        out[PREVIEW_HTML] = splice_css(PREVIEW_HTML.read_text(encoding="utf-8"), emit_css_tokens(t))
     return out
 
 
@@ -591,7 +690,7 @@ def run_checks(t: Tokens) -> int:
                 failures.append(f"hex in XAML: {rel}:{i}: use a token resource instead")
 
     # 4. Generated files are up to date.
-    for path, content in planned_outputs(t, {"xaml", "android", "swift"}).items():
+    for path, content in planned_outputs(t, {"xaml", "android", "swift", "css"}).items():
         rel = path.relative_to(REPO).as_posix()
         if not path.exists():
             failures.append(f"drift: {rel} is missing (run generate.py --out all)")
@@ -613,7 +712,7 @@ def run_checks(t: Tokens) -> int:
 def main(argv: list[str]) -> int:
     parser = argparse.ArgumentParser(description="Burdock design-token generator")
     parser.add_argument("--check", action="store_true", help="validate tokens, contrast, XAML hex lint and generated-file drift")
-    parser.add_argument("--out", choices=["xaml", "android", "swift", "all"], help="emit platform resources")
+    parser.add_argument("--out", choices=["xaml", "android", "swift", "css", "all"], help="emit platform resources")
     parser.add_argument("--seed", action="store_true", help="re-run the OKLCH ramp seed that rewrites tokens.json")
     args = parser.parse_args(argv)
 
@@ -627,7 +726,7 @@ def main(argv: list[str]) -> int:
 
     t = Tokens(load_tokens())
     if args.out:
-        which = {"xaml", "android", "swift"} if args.out == "all" else {args.out}
+        which = {"xaml", "android", "swift", "css"} if args.out == "all" else {args.out}
         write_outputs(planned_outputs(t, which))
     if args.check:
         return run_checks(t)

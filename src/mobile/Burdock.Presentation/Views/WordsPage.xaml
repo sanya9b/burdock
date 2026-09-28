@@ -6,7 +6,11 @@
              xmlns:strings="clr-namespace:Burdock.Presentation.Resources.Strings"
              x:Class="Burdock.Presentation.Views.WordsPage"
              x:DataType="vm:WordsViewModel"
+             Shell.NavBarIsVisible="False"
              Title="{x:Static strings:AppResources.Tab_Words_Title}">
-    <!-- S-14 «Слова» (spec 03): library with filters; empty until phase 1. -->
-    <views:EmptyStateView Title="{x:Static strings:AppResources.Words_Empty_Title}" Body="{x:Static strings:AppResources.Words_Empty_Body}" />
+    <!-- S-14 «Слова» (spec 03): library with filters; empty until the library slice of phase 1. -->
+    <Grid RowDefinitions="Auto,*">
+        <Label Grid.Row="0" Text="{x:Static strings:AppResources.Words_Title}" Style="{StaticResource TypeHeadlineLg}" Padding="{StaticResource PageInsetTop}" SemanticProperties.HeadingLevel="Level1" />
+        <views:EmptyStateView Grid.Row="1" Title="{x:Static strings:AppResources.Words_Empty_Title}" Body="{x:Static strings:AppResources.Words_Empty_Body}" Mascot="mascot_surprise.png" />
+    </Grid>
 </ContentPage>

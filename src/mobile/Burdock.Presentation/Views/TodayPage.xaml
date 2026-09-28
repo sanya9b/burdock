@@ -4,66 +4,109 @@
              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              xmlns:vm="clr-namespace:Burdock.Presentation.ViewModels"
              xmlns:views="clr-namespace:Burdock.Presentation.Views"
+             xmlns:controls="clr-namespace:Burdock.Presentation.Controls"
+             xmlns:converters="clr-namespace:Burdock.Presentation.Converters"
+             xmlns:icons="clr-namespace:Burdock.Presentation.Resources.Icons"
              xmlns:strings="clr-namespace:Burdock.Presentation.Resources.Strings"
              x:Class="Burdock.Presentation.Views.TodayPage"
              x:DataType="vm:TodayViewModel"
+             Shell.NavBarIsVisible="False"
              Title="{x:Static strings:AppResources.Tab_Today_Title}">
-    <!-- S-10 «Сьогодні» (spec 03): greeting, learning day, words-of-the-day strip, session CTA. Streak, calendar and tasks arrive in phase 4. -->
+    <!-- S-10 «Сьогодні» (spec 03): greeting, hero word (twin of the widget scene), strip of the other words, sticky session CTA. Streak, calendar and tasks arrive in phase 4. -->
     <ContentPage.Resources>
         <toolkit:IsEqualConverter x:Key="IsEqualConverter" />
+        <converters:TopicColorConverter x:Key="TopicColor" />
     </ContentPage.Resources>
 
-    <RefreshView Command="{Binding LoadCommand}" IsRefreshing="{Binding State, Mode=OneWay, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Loading}}">
-        <ScrollView>
-            <VerticalStackLayout Spacing="{StaticResource Space4}" Padding="{StaticResource Space5}" MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
-                <Label Text="{Binding Greeting}" Style="{StaticResource TypeDisplayMd}" SemanticProperties.HeadingLevel="Level1" />
-                <Label Text="{Binding LearningDayText}" Style="{StaticResource TypeLabelLg}"
-                       TextColor="{AppThemeBinding Light={StaticResource ColorTextSecondaryLight}, Dark={StaticResource ColorTextSecondaryDark}}" />
+    <Grid RowDefinitions="*,Auto">
+        <RefreshView Grid.Row="0" Command="{Binding LoadCommand}" IsRefreshing="{Binding State, Mode=OneWay, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Loading}}">
+            <ScrollView>
+                <VerticalStackLayout Spacing="{StaticResource Space5}" Padding="{StaticResource PageInsetTop}" MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
 
-                <Grid ColumnDefinitions="*,Auto" Margin="0,16,0,0">
-                    <Label Grid.Column="0" Text="{x:Static strings:AppResources.Today_WordsOfDay_Heading}" Style="{StaticResource TypeHeadlineSm}" SemanticProperties.HeadingLevel="Level2" />
-                    <Label Grid.Column="1" Text="{Binding PlanSummary}" Style="{StaticResource TypeLabelMd}" VerticalOptions="End"
-                           TextColor="{AppThemeBinding Light={StaticResource ColorTextTertiaryLight}, Dark={StaticResource ColorTextTertiaryDark}}" />
-                </Grid>
-
-                <!-- Words strip: compact WordCard tiles (spec 02 component WordCard, compact variant) -->
-                <CollectionView ItemsSource="{Binding Words}" IsVisible="{Binding HasWords}"
-                                ItemsLayout="HorizontalList" HeightRequest="150" SelectionMode="None" Margin="-20,0">
-                    <CollectionView.ItemTemplate>
-                        <DataTemplate x:DataType="vm:WordTile">
-                            <Border WidthRequest="168" Margin="20,4,0,8" Padding="{StaticResource Space4}">
-                                <Border.GestureRecognizers>
-                                    <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type vm:TodayViewModel}}, Path=OpenWordCommand}" CommandParameter="{Binding .}" />
-                                </Border.GestureRecognizers>
-                                <Grid RowDefinitions="Auto,*,Auto" RowSpacing="{StaticResource Space1}">
-                                    <Border Grid.Row="0" Padding="8,2" StrokeThickness="0" HorizontalOptions="Start"
-                                            BackgroundColor="{AppThemeBinding Light={StaticResource ColorBrandPrimaryContainerLight}, Dark={StaticResource ColorBrandPrimaryContainerDark}}"
-                                            StrokeShape="RoundRectangle 999">
-                                        <Label Text="{Binding Reason}" Style="{StaticResource TypeLabelSm}"
-                                               TextColor="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
-                                    </Border>
-                                    <Label Grid.Row="1" Text="{Binding Lemma}" Style="{StaticResource TypeTitleLg}" VerticalOptions="End" LineBreakMode="TailTruncation" />
-                                    <Label Grid.Row="2" Text="{Binding Translation}" Style="{StaticResource TypeBodySm}" LineBreakMode="TailTruncation"
-                                           TextColor="{AppThemeBinding Light={StaticResource ColorTextSecondaryLight}, Dark={StaticResource ColorTextSecondaryDark}}" />
-                                </Grid>
-                            </Border>
-                        </DataTemplate>
-                    </CollectionView.ItemTemplate>
-                </CollectionView>
-
-                <Border Padding="{StaticResource Space2}" IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Empty}}">
-                    <views:EmptyStateView Title="{x:Static strings:AppResources.Today_Empty_Title}" Body="{x:Static strings:AppResources.Today_Empty_Body}" />
-                </Border>
-
-                <Border Padding="{StaticResource Space4}" IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Error}}">
-                    <VerticalStackLayout Spacing="{StaticResource Space2}">
-                        <Label Text="{x:Static strings:AppResources.Common_Error_Title}" Style="{StaticResource TypeTitleMd}" />
-                        <Button Text="{x:Static strings:AppResources.Common_Error_Retry}" Style="{StaticResource ButtonSecondary}" Command="{Binding LoadCommand}" />
+                    <!-- Header -->
+                    <VerticalStackLayout Spacing="{StaticResource Space1}" Margin="{StaticResource Space2}">
+                        <Label Text="{Binding Greeting}" Style="{StaticResource TypeDisplayMd}" SemanticProperties.HeadingLevel="Level1" />
+                        <Label Text="{Binding LearningDayText}" Style="{StaticResource TextSecondary}" />
                     </VerticalStackLayout>
-                </Border>
 
-                <Button Text="{x:Static strings:AppResources.Today_StartSession_Button}" Command="{Binding StartSessionCommand}" Margin="0,8,0,0" />
-            </VerticalStackLayout>
-        </ScrollView>
-    </RefreshView>
+                    <!-- Hero word: the in-app twin of the widget, mascot stuck to the corner (spec 02 section 3.6) -->
+                    <Grid IsVisible="{Binding HasWords}" Margin="{StaticResource Space2}">
+                        <Border Style="{StaticResource HeroCard}" SemanticProperties.Description="{Binding Hero.Lemma}" SemanticProperties.Hint="{x:Static strings:AppResources.Today_Hero_Hint}">
+                            <Border.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding OpenWordCommand}" CommandParameter="{Binding Hero}" />
+                            </Border.GestureRecognizers>
+                            <VerticalStackLayout Spacing="{StaticResource Space2}">
+                                <HorizontalStackLayout Spacing="{StaticResource Space2}">
+                                    <Border Style="{StaticResource ChipOnHero}">
+                                        <Label Text="{x:Static strings:AppResources.Today_Hero_Eyebrow}" Style="{StaticResource ChipTextOnHero}" />
+                                    </Border>
+                                    <Border Style="{StaticResource ChipOnHero}">
+                                        <HorizontalStackLayout Spacing="{StaticResource Space1}">
+                                            <Label Text="{Binding Hero.ReasonIcon}" Style="{StaticResource IconGlyphSm}" TextColor="{AppThemeBinding Light={StaticResource ColorWidgetChipTextLight}, Dark={StaticResource ColorWidgetChipTextDark}}" />
+                                            <Label Text="{Binding Hero.Reason}" Style="{StaticResource ChipTextOnHero}" />
+                                        </HorizontalStackLayout>
+                                    </Border>
+                                </HorizontalStackLayout>
+                                <Label Text="{Binding Hero.Lemma}" Style="{StaticResource OnHeroWord}" Margin="{StaticResource InsetTopLg}" LineBreakMode="TailTruncation" />
+                                <Label Text="{Binding Hero.Ipa}" Style="{StaticResource OnHeroIpa}" />
+                                <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="{StaticResource Space2}" Margin="{StaticResource InsetTopMd}">
+                                    <Label Grid.Column="0" Text="{x:Static icons:Icon.Eye}" Style="{StaticResource IconGlyphSm}" TextColor="{AppThemeBinding Light={StaticResource ColorWidgetIpaLight}, Dark={StaticResource ColorWidgetIpaDark}}" />
+                                    <Label Grid.Column="1" Text="{x:Static strings:AppResources.Today_Hero_Hint}" Style="{StaticResource OnHeroSecondary}" VerticalOptions="Center" LineBreakMode="WordWrap" />
+                                    <controls:PushButton Grid.Column="2" Style="{StaticResource PushHeroIcon}" Icon="{x:Static icons:Icon.Volume2}" Command="{Binding SpeakHeroCommand}" Margin="{StaticResource Space2}"
+                                                         SemanticProperties.Description="{x:Static strings:AppResources.Word_Speak_Button}" />
+                                </Grid>
+                            </VerticalStackLayout>
+                        </Border>
+                        <Image Source="mascot_cheer.png" WidthRequest="{StaticResource SizeMascotSm}" HeightRequest="{StaticResource SizeMascotSm}"
+                               HorizontalOptions="End" VerticalOptions="Start" Margin="{StaticResource MascotCornerOverhang}" AutomationProperties.IsInAccessibleTree="False" />
+                    </Grid>
+
+                    <!-- The rest of today's words -->
+                    <Grid ColumnDefinitions="*,Auto" IsVisible="{Binding HasMore}">
+                        <Label Grid.Column="0" Text="{x:Static strings:AppResources.Today_More_Heading}" Style="{StaticResource SectionTitle}" SemanticProperties.HeadingLevel="Level2" />
+                        <Label Grid.Column="1" Text="{Binding PlanSummary}" Style="{StaticResource TextTertiary}" VerticalOptions="End" />
+                    </Grid>
+                    <CollectionView ItemsSource="{Binding More}" IsVisible="{Binding HasMore}" ItemsLayout="HorizontalList"
+                                    HeightRequest="{StaticResource SizeWordTileHeight}" SelectionMode="None" Margin="{StaticResource StripBleed}">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate x:DataType="vm:WordTile">
+                                <Border Style="{StaticResource WordTile}" Margin="{StaticResource StripItemInset}"
+                                        BackgroundColor="{Binding TopicKey, Converter={StaticResource TopicColor}}">
+                                    <Border.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type vm:TodayViewModel}}, Path=OpenWordCommand}" CommandParameter="{Binding .}" />
+                                    </Border.GestureRecognizers>
+                                    <Grid RowDefinitions="Auto,*,Auto" RowSpacing="{StaticResource Space1}">
+                                        <HorizontalStackLayout Grid.Row="0" Spacing="{StaticResource Space1}">
+                                            <Label Text="{Binding ReasonIcon}" Style="{StaticResource IconGlyphSm}" TextColor="{Binding TopicKey, Converter={StaticResource TopicColor}, ConverterParameter=on}" />
+                                            <Label Text="{Binding Reason}" Style="{StaticResource TypeLabelSm}" VerticalOptions="Center" TextColor="{Binding TopicKey, Converter={StaticResource TopicColor}, ConverterParameter=on}" />
+                                        </HorizontalStackLayout>
+                                        <Label Grid.Row="1" Text="{Binding Lemma}" Style="{StaticResource TypeTitleLg}" VerticalOptions="End" LineBreakMode="TailTruncation"
+                                               TextColor="{Binding TopicKey, Converter={StaticResource TopicColor}, ConverterParameter=on}" />
+                                        <Label Grid.Row="2" Text="{Binding Translation}" Style="{StaticResource TypeBodySm}" LineBreakMode="TailTruncation"
+                                               TextColor="{Binding TopicKey, Converter={StaticResource TopicColor}, ConverterParameter=on}" />
+                                    </Grid>
+                                </Border>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+
+                    <views:EmptyStateView Title="{x:Static strings:AppResources.Today_Empty_Title}" Body="{x:Static strings:AppResources.Today_Empty_Body}" Mascot="mascot_cheer.png"
+                                          IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Empty}}" />
+
+                    <Border Style="{StaticResource CardElevated}" IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Error}}">
+                        <VerticalStackLayout Spacing="{StaticResource Space3}">
+                            <Label Text="{x:Static strings:AppResources.Common_Error_Title}" Style="{StaticResource TypeTitleMd}" />
+                            <controls:PushButton Style="{StaticResource PushTonal}" Text="{x:Static strings:AppResources.Common_Error_Retry}" Icon="{x:Static icons:Icon.RefreshCw}" Command="{Binding LoadCommand}" />
+                        </VerticalStackLayout>
+                    </Border>
+                </VerticalStackLayout>
+            </ScrollView>
+        </RefreshView>
+
+        <!-- Sticky primary action -->
+        <Grid Grid.Row="1" Padding="{StaticResource BottomBarInset}">
+            <controls:PushButton Text="{x:Static strings:AppResources.Today_StartSession_Button}" Icon="{x:Static icons:Icon.Play}" Command="{Binding StartSessionCommand}"
+                                 MaximumWidthRequest="{StaticResource SizeContentMaxWidth}" AutomationId="Today_StartSession" />
+        </Grid>
+    </Grid>
 </ContentPage>

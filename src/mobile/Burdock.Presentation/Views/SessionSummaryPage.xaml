@@ -2,40 +2,84 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:vm="clr-namespace:Burdock.Presentation.ViewModels"
+             xmlns:controls="clr-namespace:Burdock.Presentation.Controls"
+             xmlns:icons="clr-namespace:Burdock.Presentation.Resources.Icons"
              xmlns:strings="clr-namespace:Burdock.Presentation.Resources.Strings"
              x:Class="Burdock.Presentation.Views.SessionSummaryPage"
              x:DataType="vm:SessionSummaryViewModel"
+             Shell.NavBarIsVisible="False"
+             Shell.TabBarIsVisible="False"
              Title="{x:Static strings:AppResources.Summary_Title}">
     <Shell.BackButtonBehavior>
         <BackButtonBehavior IsVisible="False" IsEnabled="False" />
     </Shell.BackButtonBehavior>
-    <!-- S-12d: numbers first, encouragement second, one primary action (spec 03). Rewards arrive in phase 4. -->
-    <VerticalStackLayout Spacing="{StaticResource Space5}" Padding="{StaticResource Space6}" VerticalOptions="Center" MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
-        <Label Text="{x:Static strings:AppResources.Summary_Title}" Style="{StaticResource TypeHeadlineLg}" HorizontalTextAlignment="Center" SemanticProperties.HeadingLevel="Level1" />
+    <!-- S-12d: mascot, numbers first (ring + chips), learning-day line, one primary action (spec 03). Rewards arrive in phase 4. -->
+    <Grid RowDefinitions="*,Auto">
+        <ScrollView Grid.Row="0">
+            <VerticalStackLayout Spacing="{StaticResource Space5}" Padding="{StaticResource Space6}" VerticalOptions="Center" MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
+                <Image Source="{Binding Mascot}" WidthRequest="{StaticResource SizeMascotLg}" HeightRequest="{StaticResource SizeMascotLg}" HorizontalOptions="Center"
+                       AutomationProperties.IsInAccessibleTree="False" />
+                <Label Text="{x:Static strings:AppResources.Summary_Title}" Style="{StaticResource TypeHeadlineLg}" HorizontalTextAlignment="Center" SemanticProperties.HeadingLevel="Level1" />
+                <Label Text="{x:Static strings:AppResources.Summary_Encouragement}" Style="{StaticResource TextSecondary}" HorizontalTextAlignment="Center" />
 
-        <Grid ColumnDefinitions="*,*" ColumnSpacing="{StaticResource Space3}">
-            <Border Grid.Column="0" Padding="{StaticResource Space4}">
-                <VerticalStackLayout Spacing="{StaticResource Space1}" HorizontalOptions="Center">
-                    <Label Text="{Binding Graded}" Style="{StaticResource TypeNumericStat}" HorizontalTextAlignment="Center" />
-                    <Label Text="{x:Static strings:AppResources.Summary_Graded_Label}" Style="{StaticResource TypeLabelMd}" HorizontalTextAlignment="Center"
-                           TextColor="{AppThemeBinding Light={StaticResource ColorTextSecondaryLight}, Dark={StaticResource ColorTextSecondaryDark}}" />
-                </VerticalStackLayout>
-            </Border>
-            <Border Grid.Column="1" Padding="{StaticResource Space4}">
-                <VerticalStackLayout Spacing="{StaticResource Space1}" HorizontalOptions="Center">
-                    <Label Text="{Binding Correct}" Style="{StaticResource TypeNumericStat}" HorizontalTextAlignment="Center"
-                           TextColor="{AppThemeBinding Light={StaticResource ColorFeedbackSuccessLight}, Dark={StaticResource ColorFeedbackSuccessDark}}" />
-                    <Label Text="{x:Static strings:AppResources.Summary_Correct_Label}" Style="{StaticResource TypeLabelMd}" HorizontalTextAlignment="Center"
-                           TextColor="{AppThemeBinding Light={StaticResource ColorTextSecondaryLight}, Dark={StaticResource ColorTextSecondaryDark}}" />
-                </VerticalStackLayout>
-            </Border>
+                <Grid ColumnDefinitions="Auto,*" ColumnSpacing="{StaticResource Space5}" HorizontalOptions="Center" Margin="{StaticResource Space2}">
+                    <Grid Grid.Column="0" WidthRequest="{StaticResource SizeProgressRingLg}" HeightRequest="{StaticResource SizeProgressRingLg}" SemanticProperties.Description="{Binding AccuracyText}">
+                        <controls:ProgressRing Value="{Binding Accuracy}" />
+                        <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                            <Label Text="{Binding AccuracyPercentText}" Style="{StaticResource TypeNumericStat}" HorizontalTextAlignment="Center" />
+                            <Label Text="{x:Static strings:AppResources.Summary_Accuracy_Caption}" Style="{StaticResource TextTertiary}" HorizontalTextAlignment="Center" />
+                        </VerticalStackLayout>
+                    </Grid>
+                    <VerticalStackLayout Grid.Column="1" Spacing="{StaticResource Space3}" VerticalOptions="Center">
+                        <Border Style="{StaticResource ChipTonal}">
+                            <HorizontalStackLayout Spacing="{StaticResource Space2}">
+                                <Label Text="{x:Static icons:Icon.ListChecks}" Style="{StaticResource IconGlyphSm}"
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
+                                <Label Text="{Binding GradedText}" Style="{StaticResource ChipTextTonal}" />
+                            </HorizontalStackLayout>
+                        </Border>
+                        <Border Style="{StaticResource ChipSuccess}">
+                            <HorizontalStackLayout Spacing="{StaticResource Space2}">
+                                <Label Text="{x:Static icons:Icon.CircleCheck}" Style="{StaticResource IconGlyphSm}"
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorFeedbackOnSuccessContainerLight}, Dark={StaticResource ColorFeedbackOnSuccessContainerDark}}" />
+                                <Label Text="{Binding CorrectText}" Style="{StaticResource ChipTextSuccess}" />
+                            </HorizontalStackLayout>
+                        </Border>
+                    </VerticalStackLayout>
+                </Grid>
+
+                <!-- Learning day: gold when counted, neutral when not yet -->
+                <Border Style="{StaticResource CardSunken}" Padding="{StaticResource Space4}">
+                    <Border.Triggers>
+                        <DataTrigger TargetType="Border" Binding="{Binding LearningDayCounted}" Value="True">
+                            <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorRewardGoldContainerLight}, Dark={StaticResource ColorRewardGoldContainerDark}}" />
+                        </DataTrigger>
+                    </Border.Triggers>
+                    <HorizontalStackLayout Spacing="{StaticResource Space3}">
+                        <Label Style="{StaticResource IconGlyphLg}" Text="{x:Static icons:Icon.Calendar}"
+                               TextColor="{AppThemeBinding Light={StaticResource ColorTextSecondaryLight}, Dark={StaticResource ColorTextSecondaryDark}}">
+                            <Label.Triggers>
+                                <DataTrigger TargetType="Label" Binding="{Binding LearningDayCounted}" Value="True">
+                                    <Setter Property="Text" Value="{x:Static icons:Icon.CalendarCheck}" />
+                                    <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorRewardGoldTextLight}, Dark={StaticResource ColorRewardGoldTextDark}}" />
+                                </DataTrigger>
+                            </Label.Triggers>
+                        </Label>
+                        <Label Text="{Binding LearningDayText}" Style="{StaticResource TypeTitleMd}" VerticalOptions="Center">
+                            <Label.Triggers>
+                                <DataTrigger TargetType="Label" Binding="{Binding LearningDayCounted}" Value="True">
+                                    <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorRewardGoldTextLight}, Dark={StaticResource ColorRewardGoldTextDark}}" />
+                                </DataTrigger>
+                            </Label.Triggers>
+                        </Label>
+                    </HorizontalStackLayout>
+                </Border>
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <Grid Grid.Row="1" Padding="{StaticResource BottomBarInset}">
+            <controls:PushButton Text="{x:Static strings:AppResources.Summary_BackToToday_Button}" Icon="{x:Static icons:Icon.ArrowRight}" Command="{Binding BackToTodayCommand}"
+                                 MaximumWidthRequest="{StaticResource SizeContentMaxWidth}" />
         </Grid>
-
-        <Label Text="{Binding AccuracyText}" Style="{StaticResource TypeTitleMd}" HorizontalTextAlignment="Center" />
-        <Label Text="{Binding LearningDayText}" Style="{StaticResource TypeBodyMd}" HorizontalTextAlignment="Center"
-               TextColor="{AppThemeBinding Light={StaticResource ColorTextSecondaryLight}, Dark={StaticResource ColorTextSecondaryDark}}" />
-        <Label Text="{x:Static strings:AppResources.Summary_Encouragement}" Style="{StaticResource TypeBodyLg}" HorizontalTextAlignment="Center" />
-
-        <Button Text="{x:Static strings:AppResources.Summary_BackToToday_Button}" Command="{Binding BackToTodayCommand}" Margin="0,16,0,0" />
-    </VerticalStackLayout>
+    </Grid>
 </ContentPage>
