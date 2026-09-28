@@ -13,6 +13,7 @@
     <Project Path="tests/Burdock.Application.Tests/Burdock.Application.Tests.csproj" />
     <Project Path="tests/Burdock.Architecture.Tests/Burdock.Architecture.Tests.csproj" />
     <Project Path="tests/Burdock.Domain.Tests/Burdock.Domain.Tests.csproj" />
+    <Project Path="tests/Burdock.Infrastructure.Tests/Burdock.Infrastructure.Tests.csproj" />
     <Project Path="tests/Burdock.TestKit/Burdock.TestKit.csproj" />
   </Folder>
 </Solution>

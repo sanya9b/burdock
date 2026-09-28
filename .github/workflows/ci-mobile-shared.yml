@@ -13,6 +13,8 @@ on:
       - "design/tokens/**"
       - "tests/Burdock.Domain.Tests/**"
       - "tests/Burdock.Application.Tests/**"
+      - "tests/Burdock.Infrastructure.Tests/**"
+      - "tests/fixtures/**"
       - "tests/Burdock.Architecture.Tests/**"
       - "tests/Burdock.TestKit/**"
       - "Directory.*.props"
@@ -60,6 +62,9 @@ jobs:
 
       - name: Build and test Application
         run: dotnet test --project tests/Burdock.Application.Tests -c Release --report-trx --results-directory artifacts/test-results
+
+      - name: Build and test Infrastructure adapters (FSRS golden vectors)
+        run: dotnet test --project tests/Burdock.Infrastructure.Tests -c Release --report-trx --results-directory artifacts/test-results
 
       - name: Architecture tests (dependency rule)
         run: dotnet test --project tests/Burdock.Architecture.Tests -c Release --report-trx --results-directory artifacts/test-results
