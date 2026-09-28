@@ -59,6 +59,8 @@ public sealed partial class OnboardingViewModel : ObservableObject
     private static readonly CompositeFormat PaceMinutesFormat = CompositeFormat.Parse(AppResources.Onboarding_Pace_Minutes);
     private static readonly CompositeFormat PaceNotificationsFormat = CompositeFormat.Parse(AppResources.Onboarding_Pace_Notifications);
     private static readonly CompositeFormat NotificationsBodyFormat = CompositeFormat.Parse(AppResources.Onboarding_Notifications_Body);
+    private static readonly CompositeFormat PlacementProgressFormat = CompositeFormat.Parse(AppResources.Onboarding_Placement_Progress);
+    private static readonly CompositeFormat PlacementResultFormat = CompositeFormat.Parse(AppResources.Onboarding_Placement_Result_Title);
 
     private readonly SuggestNicknameUseCase _suggestNickname;
     private readonly EstimateWordCountUseCase _estimate;
@@ -66,12 +68,41 @@ public sealed partial class OnboardingViewModel : ObservableObject
     private readonly BrowseWordsUseCase _browse;
     private readonly GetDailyPlanUseCase _dailyPlan;
     private readonly INotificationPrompt _notifications;
+    private readonly BuildPlacementQuizUseCase _placement;
     private readonly ILogger<OnboardingViewModel> _logger;
+    private readonly List<WordEntry> _placementQuestions = [];
+    private readonly List<PlacementAnswer> _placementAnswers = [];
     private bool _persisted;
 
     [ObservableProperty]
     [NotifyPropertyChangedFor(nameof(CurrentStep), nameof(CanGoBack), nameof(CanSkip), nameof(ShowPrimary), nameof(PrimaryText))]
     private int _stepIndex;
+
+    /// <summary>S-03a: the mini-test replaces the level list while it runs; the primary button and «Пропустити» wait.</summary>
+    [ObservableProperty]
+    [NotifyPropertyChangedFor(nameof(CanSkip), nameof(ShowPrimary))]
+    private bool _isPlacementActive;
+
+    [ObservableProperty]
+    private bool _isPlacementResult;
+
+    [ObservableProperty]
+    private string _placementWord = string.Empty;
+
+    [ObservableProperty]
+    private string _placementIpa = string.Empty;
+
+    [ObservableProperty]
+    private string _placementProgressText = string.Empty;
+
+    [ObservableProperty]
+    private int _placementTotal = LevelPlacement.QuestionCount;
+
+    [ObservableProperty]
+    private int _placementCompleted;
+
+    [ObservableProperty]
+    private string _placementResultTitle = string.Empty;
 
     [ObservableProperty]
     private string _nickname = string.Empty;
@@ -119,6 +150,7 @@ public sealed partial class OnboardingViewModel : ObservableObject
         BrowseWordsUseCase browse,
         GetDailyPlanUseCase dailyPlan,
         INotificationPrompt notifications,
+        BuildPlacementQuizUseCase placement,
         ILogger<OnboardingViewModel> logger)
     {
         _suggestNickname = suggestNickname ?? throw new ArgumentNullException(nameof(suggestNickname));
@@ -127,6 +159,7 @@ public sealed partial class OnboardingViewModel : ObservableObject
         _browse = browse ?? throw new ArgumentNullException(nameof(browse));
         _dailyPlan = dailyPlan ?? throw new ArgumentNullException(nameof(dailyPlan));
         _notifications = notifications ?? throw new ArgumentNullException(nameof(notifications));
+        _placement = placement ?? throw new ArgumentNullException(nameof(placement));
         _logger = logger ?? throw new ArgumentNullException(nameof(logger));
 
         foreach (var level in CefrLevelExtensions.All)
@@ -167,10 +200,10 @@ public sealed partial class OnboardingViewModel : ObservableObject
 
     public bool CanGoBack => StepIndex > 0 && CurrentStep != OnboardingStep.Done;
 
-    public bool CanSkip => CurrentStep is OnboardingStep.Categories or OnboardingStep.Pace or OnboardingStep.Privacy;
+    public bool CanSkip => CurrentStep is OnboardingStep.Categories or OnboardingStep.Pace or OnboardingStep.Privacy && !IsPlacementActive;
 
-    /// <summary>The notifications step has its own two equal buttons.</summary>
-    public bool ShowPrimary => CurrentStep != OnboardingStep.Notifications;
+    /// <summary>The notifications step has its own two equal buttons; the mini-test has «Знаю» / «Не знаю».</summary>
+    public bool ShowPrimary => CurrentStep != OnboardingStep.Notifications && !IsPlacementActive;
 
     public string PrimaryText => CurrentStep switch
     {
@@ -251,10 +284,93 @@ public sealed partial class OnboardingViewModel : ObservableObject
     [RelayCommand]
     private void Back()
     {
+        if (IsPlacementActive)
+        {
+            ClosePlacement();
+            return;
+        }
+
         if (CanGoBack)
         {
             StepIndex--;
         }
+    }
+
+    /// <summary>S-03a «Не знаю — перевірити за хвилину»: up to eight words, easy first; nothing happens without content.</summary>
+    [RelayCommand(AllowConcurrentExecutions = false)]
+    private async Task StartPlacementAsync(CancellationToken cancellationToken)
+    {
+        try
+        {
+            var questions = await _placement.ExecuteAsync(cancellationToken).ConfigureAwait(true);
+            if (questions.Count == 0)
+            {
+                return;
+            }
+
+            _placementQuestions.Clear();
+            _placementQuestions.AddRange(questions);
+            _placementAnswers.Clear();
+            PlacementTotal = questions.Count;
+            PlacementCompleted = 0;
+            IsPlacementResult = false;
+            IsPlacementActive = true;
+            ShowPlacementQuestion();
+        }
+        catch (OperationCanceledException)
+        {
+        }
+        catch (Exception ex) when (ex is not OutOfMemoryException)
+        {
+            LogFailed(ex);
+        }
+    }
+
+    [RelayCommand]
+    private void KnowPlacement() => AnswerPlacement(known: true);
+
+    [RelayCommand]
+    private void DontKnowPlacement() => AnswerPlacement(known: false);
+
+    [RelayCommand]
+    private void ClosePlacement()
+    {
+        IsPlacementActive = false;
+        IsPlacementResult = false;
+    }
+
+    private void AnswerPlacement(bool known)
+    {
+        if (!IsPlacementActive || IsPlacementResult || PlacementCompleted >= _placementQuestions.Count)
+        {
+            return;
+        }
+
+        _placementAnswers.Add(new PlacementAnswer(_placementQuestions[PlacementCompleted].Lexeme.Level, known));
+        PlacementCompleted++;
+        if (PlacementCompleted < _placementQuestions.Count)
+        {
+            ShowPlacementQuestion();
+            return;
+        }
+
+        var level = LevelPlacement.Estimate(_placementAnswers);
+        foreach (var chip in LevelOptions)
+        {
+            chip.IsSelected = chip.Value is CefrLevel chipLevel && chipLevel == level;
+        }
+
+        PlacementResultTitle = string.Format(Ukrainian, PlacementResultFormat, level);
+        IsPlacementResult = true;
+        _ = RefreshCounterAsync(CancellationToken.None);
+    }
+
+    private void ShowPlacementQuestion()
+    {
+        var entry = _placementQuestions[PlacementCompleted];
+        PlacementWord = entry.Lexeme.Lemma;
+        PlacementIpa = entry.IpaGeneralAmerican ?? entry.IpaReceivedPronunciation ?? string.Empty;
+        PlacementProgressText = string.Format(Ukrainian, PlacementProgressFormat, PlacementCompleted + 1, _placementQuestions.Count);
     }
 
     [RelayCommand]

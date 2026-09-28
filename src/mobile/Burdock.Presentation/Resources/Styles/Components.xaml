@@ -177,6 +177,14 @@
         <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorWidgetChipTextLight}, Dark={StaticResource ColorWidgetChipTextDark}}" />
     </Style>
 
+    <!-- ===== Skeleton (spec 02 section 3.11 «Skeleton / Shimmer»): surface.sunken blocks that appear after motion.duration.skeletonDelay and breathe. ===== -->
+    <Style TargetType="controls:Skeleton">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorSurfaceSunkenLight}, Dark={StaticResource ColorSurfaceSunkenDark}}" />
+        <Setter Property="CornerRadius" Value="{StaticResource RadiusSm}" />
+        <Setter Property="HeightRequest" Value="{StaticResource SizeSkeletonLine}" />
+        <Setter Property="HorizontalOptions" Value="Fill" />
+    </Style>
+
     <!-- ===== PushButton (relief button). Implicit style = primary. ===== -->
     <Style TargetType="controls:PushButton">
         <Setter Property="FaceColor" Value="{AppThemeBinding Light={StaticResource ColorBrandPrimaryLight}, Dark={StaticResource ColorBrandPrimaryDark}}" />
@@ -190,6 +198,10 @@
         <Setter Property="IconSize" Value="{StaticResource SizeIconMd}" />
         <Setter Property="IconSpacing" Value="{StaticResource Space2}" />
         <Setter Property="DisabledOpacity" Value="{StaticResource OpacityDisabled}" />
+        <!-- focused: 3pt border.focus ring with a 2pt gap (spec 02 section 3.11 general rules) -->
+        <Setter Property="FocusRingColor" Value="{AppThemeBinding Light={StaticResource ColorBorderFocusLight}, Dark={StaticResource ColorBorderFocusDark}}" />
+        <Setter Property="FocusRingWidth" Value="{StaticResource BorderWidthFocus}" />
+        <Setter Property="FocusRingOffset" Value="{StaticResource SizeFocusRingOffset}" />
     </Style>
     <Style x:Key="PushTonal" TargetType="controls:PushButton">
         <Setter Property="FaceColor" Value="{AppThemeBinding Light={StaticResource ColorBrandPrimaryContainerLight}, Dark={StaticResource ColorBrandPrimaryContainerDark}}" />

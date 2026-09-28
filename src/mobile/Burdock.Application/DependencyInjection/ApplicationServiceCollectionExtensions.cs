@@ -32,6 +32,7 @@ public static class ApplicationServiceCollectionExtensions
         services.AddTransient<SuggestNicknameUseCase>();
         services.AddTransient<EstimateWordCountUseCase>();
         services.AddTransient<CompleteOnboardingUseCase>();
+        services.AddTransient<BuildPlacementQuizUseCase>();
         services.AddTransient<SettleSessionRewardsUseCase>();
         services.AddTransient<GetRewardsOverviewUseCase>();
         return services;

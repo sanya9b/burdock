@@ -20,7 +20,7 @@
     </ContentPage.Resources>
 
     <Grid RowDefinitions="*,Auto">
-        <RefreshView Grid.Row="0" Command="{Binding LoadCommand}" IsRefreshing="{Binding State, Mode=OneWay, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Loading}}">
+        <RefreshView Grid.Row="0" Command="{Binding LoadCommand}" IsRefreshing="{Binding IsRefreshing, Mode=TwoWay}">
             <ScrollView>
                 <VerticalStackLayout Spacing="{StaticResource Space5}" Padding="{StaticResource PageInsetTop}" MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
 
@@ -49,6 +49,16 @@
                         </HorizontalStackLayout>
                         <Label Text="{Binding Greeting}" Style="{StaticResource TypeDisplayMd}" SemanticProperties.HeadingLevel="Level1" />
                         <Label Text="{Binding LearningDayText}" Style="{StaticResource TextSecondary}" />
+                    </VerticalStackLayout>
+
+                    <!-- loading: skeleton of the hero and the strip (spec 02 «Skeleton», NFR-03-5); the greeting above is already real -->
+                    <VerticalStackLayout Spacing="{StaticResource Space5}" Margin="{StaticResource Space2}" IsVisible="{Binding ShowSkeleton}" SemanticProperties.Description="{x:Static strings:AppResources.Common_Loading}">
+                        <controls:Skeleton HeightRequest="{StaticResource SizeSkeletonHero}" CornerRadius="{StaticResource RadiusXl}" />
+                        <controls:Skeleton HeightRequest="{StaticResource SizeSkeletonLine}" WidthRequest="{StaticResource SizeSkeletonLineWidth}" HorizontalOptions="Start" />
+                        <HorizontalStackLayout Spacing="{StaticResource Space3}">
+                            <controls:Skeleton WidthRequest="{StaticResource SizeWordTileWidth}" HeightRequest="{StaticResource SizeWordTileHeight}" CornerRadius="{StaticResource RadiusLg}" />
+                            <controls:Skeleton WidthRequest="{StaticResource SizeWordTileWidth}" HeightRequest="{StaticResource SizeWordTileHeight}" CornerRadius="{StaticResource RadiusLg}" />
+                        </HorizontalStackLayout>
                     </VerticalStackLayout>
 
                     <!-- Hero word: the in-app twin of the widget, mascot stuck to the corner (spec 02 section 3.6) -->

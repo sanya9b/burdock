@@ -31,6 +31,27 @@ public sealed class TodayViewModelTests
     }
 
     [Fact]
+    public async Task The_first_load_shows_the_skeleton_and_a_reload_uses_the_refresh_indicator()
+    {
+        var harness = new ViewModelHarness().WithBundledWords(12);
+        var vm = harness.Resolve<TodayViewModel>();
+        vm.ShowSkeleton.ShouldBeTrue();
+        vm.IsRefreshing.ShouldBeFalse();
+
+        await vm.LoadAsync(Ct);
+        vm.ShowSkeleton.ShouldBeFalse();
+
+        var refreshingSeen = false;
+        vm.PropertyChanged += (_, e) => refreshingSeen |= e.PropertyName == nameof(TodayViewModel.IsRefreshing) && vm.IsRefreshing;
+        await vm.LoadAsync(Ct);
+
+        refreshingSeen.ShouldBeTrue();
+        vm.IsRefreshing.ShouldBeFalse();
+        vm.ShowSkeleton.ShouldBeFalse();
+        vm.State.ShouldBe(ViewState.Ready);
+    }
+
+    [Fact]
     public async Task Load_without_content_is_the_empty_state()
     {
         var vm = new ViewModelHarness().Resolve<TodayViewModel>();

@@ -9,7 +9,7 @@ namespace Burdock.Presentation.Controls;
 /// edge; pressing drops the face onto the edge, releasing lifts it back. Colours, radius and fonts come from styles
 /// (implicit style = primary; PushTonal, PushAccent, PushNeutral, PushSuccess, PushDanger, PushIcon, QuizOption).
 /// </summary>
-public sealed class PushButton : ContentView
+public sealed partial class PushButton : ContentView
 {
     public static readonly BindableProperty TextProperty =
         BindableProperty.Create(nameof(Text), typeof(string), typeof(PushButton), string.Empty, propertyChanged: OnContentChanged);
@@ -56,11 +56,25 @@ public sealed class PushButton : ContentView
     public static readonly BindableProperty DisabledOpacityProperty =
         BindableProperty.Create(nameof(DisabledOpacity), typeof(double), typeof(PushButton), 0.38d, propertyChanged: OnLookChanged);
 
+    public static readonly BindableProperty IsLoadingProperty =
+        BindableProperty.Create(nameof(IsLoading), typeof(bool), typeof(PushButton), false, propertyChanged: (b, _, _) => ((PushButton)b).ApplyLoading());
+
+    public static readonly BindableProperty FocusRingColorProperty =
+        BindableProperty.Create(nameof(FocusRingColor), typeof(Color), typeof(PushButton), Colors.Transparent, propertyChanged: OnLookChanged);
+
+    public static readonly BindableProperty FocusRingWidthProperty =
+        BindableProperty.Create(nameof(FocusRingWidth), typeof(double), typeof(PushButton), 3d, propertyChanged: OnLookChanged);
+
+    public static readonly BindableProperty FocusRingOffsetProperty =
+        BindableProperty.Create(nameof(FocusRingOffset), typeof(double), typeof(PushButton), 2d, propertyChanged: OnLookChanged);
+
+    private readonly Border _ring;
     private readonly Border _edge;
     private readonly Border _face;
     private readonly Label _iconLabel;
     private readonly Label _textLabel;
     private readonly HorizontalStackLayout _content;
+    private readonly ActivityIndicator _spinner;
     private bool _pointerEventsSeen;
 
     public PushButton()
@@ -92,9 +106,16 @@ public sealed class PushButton : ContentView
             VerticalOptions = LayoutOptions.Center,
             Children = { _iconLabel, _textLabel },
         };
+        // Loading (spec 02 section 3.11): a spinner in the text colour replaces the caption without changing the size.
+        _spinner = new ActivityIndicator { IsVisible = false, IsRunning = false, InputTransparent = true, HorizontalOptions = LayoutOptions.Center, VerticalOptions = LayoutOptions.Center };
+        AutomationProperties.SetIsInAccessibleTree(_spinner, false);
+        // Focused: a ring of border.focus outside the button, visible for keyboards, switch access and full keyboard access.
+        _ring = new Border { StrokeThickness = 0, BackgroundColor = Colors.Transparent, IsVisible = false, InputTransparent = true };
         _edge = new Border { StrokeThickness = 0 };
-        _face = new Border { StrokeThickness = 0, Content = _content };
-        Content = new Grid { Children = { _edge, _face } };
+        _face = new Border { StrokeThickness = 0, Content = new Grid { Children = { _content, _spinner } } };
+        Content = new Grid { Children = { _ring, _edge, _face } };
+        Focused += (_, _) => SetFocusRing(true);
+        Unfocused += (_, _) => SetFocusRing(false);
 
         var pointer = new PointerGestureRecognizer();
         pointer.PointerPressed += (_, _) => { _pointerEventsSeen = true; SetPressed(true); };
@@ -143,6 +164,26 @@ public sealed class PushButton : ContentView
     public Thickness ContentPadding { get => (Thickness)GetValue(ContentPaddingProperty); set => SetValue(ContentPaddingProperty, value); }
 
     public double DisabledOpacity { get => (double)GetValue(DisabledOpacityProperty); set => SetValue(DisabledOpacityProperty, value); }
+
+    /// <summary>Shows a spinner instead of the caption and ignores taps; the size and the semantic description stay.</summary>
+    public bool IsLoading { get => (bool)GetValue(IsLoadingProperty); set => SetValue(IsLoadingProperty, value); }
+
+    public Color FocusRingColor { get => (Color)GetValue(FocusRingColorProperty); set => SetValue(FocusRingColorProperty, value); }
+
+    public double FocusRingWidth { get => (double)GetValue(FocusRingWidthProperty); set => SetValue(FocusRingWidthProperty, value); }
+
+    public double FocusRingOffset { get => (double)GetValue(FocusRingOffsetProperty); set => SetValue(FocusRingOffsetProperty, value); }
+
+    protected override void OnHandlerChanged()
+    {
+        base.OnHandlerChanged();
+        PlatformConfigure();
+    }
+
+    /// <summary>Platform heads make the native view focusable and route key activation here (Platforms/Android/PushButtonFocus.cs).</summary>
+    partial void PlatformConfigure();
+
+    internal void SetFocusRing(bool visible) => _ring.IsVisible = visible;
 
     protected override void OnPropertyChanged(string? propertyName = null)
     {
@@ -201,6 +242,14 @@ public sealed class PushButton : ContentView
 
         _edge.StrokeShape = new RoundRectangle { CornerRadius = new CornerRadius(CornerRadius) };
         _face.StrokeShape = new RoundRectangle { CornerRadius = new CornerRadius(CornerRadius) };
+        var ringInset = FocusRingWidth + FocusRingOffset;
+        _ring.StrokeShape = new RoundRectangle { CornerRadius = new CornerRadius(Math.Min(CornerRadius + ringInset, 999)) };
+        _ring.Stroke = new SolidColorBrush(FocusRingColor);
+        _ring.StrokeThickness = FocusRingWidth;
+        _ring.Margin = new Thickness(-ringInset);
+        _spinner.Color = TextColor;
+        _spinner.WidthRequest = IconSize;
+        _spinner.HeightRequest = IconSize;
         _edge.BackgroundColor = EdgeColor;
         _face.BackgroundColor = FaceColor;
         _edge.Margin = new Thickness(0, EdgeHeight, 0, 0);
@@ -237,14 +286,30 @@ public sealed class PushButton : ContentView
         }
     }
 
+    private void ApplyLoading()
+    {
+        if (_spinner is null)
+        {
+            return;
+        }
+
+        _spinner.IsVisible = IsLoading;
+        _spinner.IsRunning = IsLoading;
+        _content.Opacity = IsLoading ? 0 : 1;
+        if (IsLoading)
+        {
+            SetPressed(false);
+        }
+    }
+
     private void SetPressed(bool pressed)
     {
-        _face.TranslationY = pressed && IsEnabled ? EdgeHeight : 0;
+        _face.TranslationY = pressed && IsEnabled && !IsLoading ? EdgeHeight : 0;
     }
 
     private async Task HandleTapAsync()
     {
-        if (!IsEnabled)
+        if (!IsEnabled || IsLoading)
         {
             return;
         }

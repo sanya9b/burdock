@@ -4,6 +4,7 @@
              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              xmlns:vm="clr-namespace:Burdock.Presentation.ViewModels"
              xmlns:controls="clr-namespace:Burdock.Presentation.Controls"
+             xmlns:converters="clr-namespace:Burdock.Presentation.Converters"
              xmlns:icons="clr-namespace:Burdock.Presentation.Resources.Icons"
              xmlns:strings="clr-namespace:Burdock.Presentation.Resources.Strings"
              x:Class="Burdock.Presentation.Views.OnboardingPage"
@@ -14,6 +15,7 @@
     <ContentPage.Resources>
         <toolkit:IsEqualConverter x:Key="IsEqualConverter" />
         <toolkit:InvertedBoolConverter x:Key="InvertedBoolConverter" />
+        <converters:LemmaFontSizeConverter x:Key="LemmaFontSize" />
         <toolkit:IsStringNotNullOrEmptyConverter x:Key="IsNotEmptyConverter" />
     </ContentPage.Resources>
 
@@ -59,7 +61,7 @@
                 <VerticalStackLayout Spacing="{StaticResource Space3}" IsVisible="{Binding CurrentStep, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:OnboardingStep.Level}}">
                     <Label Text="{x:Static strings:AppResources.Onboarding_Level_Title}" Style="{StaticResource TypeHeadlineLg}" SemanticProperties.HeadingLevel="Level1" />
                     <Label Text="{x:Static strings:AppResources.Onboarding_Level_Subtitle}" Style="{StaticResource TextSecondary}" Margin="{StaticResource InsetBottomMd}" />
-                    <VerticalStackLayout Spacing="{StaticResource Space3}" BindableLayout.ItemsSource="{Binding LevelOptions}">
+                    <VerticalStackLayout Spacing="{StaticResource Space3}" BindableLayout.ItemsSource="{Binding LevelOptions}" IsVisible="{Binding IsPlacementActive, Converter={StaticResource InvertedBoolConverter}}">
                         <BindableLayout.ItemTemplate>
                             <DataTemplate x:DataType="vm:ChipOption">
                                 <Border Style="{StaticResource OptionCard}">
@@ -75,6 +77,55 @@
                                 </Border>
                             </DataTemplate>
                         </BindableLayout.ItemTemplate>
+                    </VerticalStackLayout>
+
+                    <!-- S-03a entry: «Не знаю — перевірити за хвилину» -->
+                    <Label Text="{x:Static strings:AppResources.Onboarding_Level_Check_Link}" Style="{StaticResource TextLink}" HorizontalOptions="Center" Margin="{StaticResource InsetTopSm}"
+                           IsVisible="{Binding IsPlacementActive, Converter={StaticResource InvertedBoolConverter}}">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding StartPlacementCommand}" />
+                        </Label.GestureRecognizers>
+                    </Label>
+
+                    <!-- S-03a mini-test: eight «знаю / не знаю» cards, then «Схоже на B1» with the chip preselected -->
+                    <VerticalStackLayout Spacing="{StaticResource Space4}" IsVisible="{Binding IsPlacementActive}">
+                        <VerticalStackLayout Spacing="{StaticResource Space4}" IsVisible="{Binding IsPlacementResult, Converter={StaticResource InvertedBoolConverter}}">
+                            <Grid ColumnDefinitions="*,Auto" ColumnSpacing="{StaticResource Space3}">
+                                <controls:SegmentedProgressBar Grid.Column="0" Total="{Binding PlacementTotal}" Completed="{Binding PlacementCompleted}" VerticalOptions="Center" />
+                                <Label Grid.Column="1" Text="{Binding PlacementProgressText}" Style="{StaticResource TextSecondary}" VerticalOptions="Center" />
+                            </Grid>
+                            <Border Style="{StaticResource HeroCard}" SemanticProperties.Description="{Binding PlacementWord}">
+                                <VerticalStackLayout Spacing="{StaticResource Space2}">
+                                    <Border Style="{StaticResource ChipOnHero}" HorizontalOptions="Start">
+                                        <Label Text="{x:Static strings:AppResources.Onboarding_Placement_Title}" Style="{StaticResource ChipTextOnHero}" />
+                                    </Border>
+                                    <Label Text="{Binding PlacementWord}" Style="{StaticResource OnHeroWord}" FontSize="{Binding PlacementWord, Converter={StaticResource LemmaFontSize}}" Margin="{StaticResource InsetTopLg}" LineBreakMode="TailTruncation" />
+                                    <Label Text="{Binding PlacementIpa}" Style="{StaticResource OnHeroIpa}" />
+                                </VerticalStackLayout>
+                            </Border>
+                            <Label Text="{x:Static strings:AppResources.Onboarding_Placement_Hint}" Style="{StaticResource TextSecondary}" HorizontalTextAlignment="Center" />
+                            <Grid ColumnDefinitions="*,*" ColumnSpacing="{StaticResource Space3}">
+                                <controls:PushButton Grid.Column="0" Style="{StaticResource PushTonal}" Text="{x:Static strings:AppResources.Onboarding_Placement_DontKnow}" Icon="{x:Static icons:Icon.CircleX}" Command="{Binding DontKnowPlacementCommand}" />
+                                <controls:PushButton Grid.Column="1" Text="{x:Static strings:AppResources.Onboarding_Placement_Know}" Icon="{x:Static icons:Icon.Check}" Command="{Binding KnowPlacementCommand}" />
+                            </Grid>
+                            <Label Text="{x:Static strings:AppResources.Onboarding_Placement_Cancel}" Style="{StaticResource TextLink}" HorizontalOptions="Center">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding ClosePlacementCommand}" />
+                                </Label.GestureRecognizers>
+                            </Label>
+                        </VerticalStackLayout>
+                        <VerticalStackLayout Spacing="{StaticResource Space4}" IsVisible="{Binding IsPlacementResult}">
+                            <Border Style="{StaticResource CardTonal}">
+                                <Grid ColumnDefinitions="Auto,*" ColumnSpacing="{StaticResource Space4}">
+                                    <Image Grid.Column="0" Source="mascot_proud.png" WidthRequest="{StaticResource SizeMascotMd}" HeightRequest="{StaticResource SizeMascotMd}" VerticalOptions="Center" AutomationProperties.IsInAccessibleTree="False" />
+                                    <VerticalStackLayout Grid.Column="1" Spacing="{StaticResource Space1}" VerticalOptions="Center">
+                                        <Label Text="{Binding PlacementResultTitle}" Style="{StaticResource TypeHeadlineMd}" SemanticProperties.HeadingLevel="Level2" />
+                                        <Label Text="{x:Static strings:AppResources.Onboarding_Placement_Result_Body}" Style="{StaticResource TextSecondary}" />
+                                    </VerticalStackLayout>
+                                </Grid>
+                            </Border>
+                            <controls:PushButton Style="{StaticResource PushTonal}" Text="{x:Static strings:AppResources.Onboarding_Placement_Done_Button}" Icon="{x:Static icons:Icon.Check}" Command="{Binding ClosePlacementCommand}" />
+                        </VerticalStackLayout>
                     </VerticalStackLayout>
                 </VerticalStackLayout>
 
@@ -202,7 +253,7 @@
 
         <!-- Primary action -->
         <Grid Grid.Row="2" Padding="{StaticResource BottomBarInset}" IsVisible="{Binding ShowPrimary}">
-            <controls:PushButton Text="{Binding PrimaryText}" Icon="{x:Static icons:Icon.ArrowRight}" Command="{Binding NextCommand}" IsEnabled="{Binding IsBusy, Converter={StaticResource InvertedBoolConverter}}"
+            <controls:PushButton Text="{Binding PrimaryText}" Icon="{x:Static icons:Icon.ArrowRight}" Command="{Binding NextCommand}" IsLoading="{Binding IsBusy}"
                                  MaximumWidthRequest="{StaticResource SizeContentMaxWidth}" />
         </Grid>
     </Grid>

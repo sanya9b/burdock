@@ -37,7 +37,12 @@ public sealed partial class TodayViewModel : ObservableObject
     private readonly ILogger<TodayViewModel> _logger;
 
     [ObservableProperty]
+    [NotifyPropertyChangedFor(nameof(ShowSkeleton))]
     private ViewState _state = ViewState.Loading;
+
+    /// <summary>True while the learner pulled to refresh over existing content (the RefreshView spinner, not the skeleton).</summary>
+    [ObservableProperty]
+    private bool _isRefreshing;
 
     [ObservableProperty]
     private string _greeting = string.Empty;
@@ -92,6 +97,9 @@ public sealed partial class TodayViewModel : ObservableObject
     /// <summary>Words after the hero, shown in the horizontal strip.</summary>
     public ObservableCollection<WordTile> More { get; } = [];
 
+    /// <summary>The first load has nothing to show yet: skeleton of the hero and the strip (NFR-03-5), never a spinner.</summary>
+    public bool ShowSkeleton => State == ViewState.Loading;
+
     public void RefreshHeader()
     {
         var localHour = TimeZoneInfo.ConvertTime(_clock.UtcNow, _clock.LocalTimeZone).Hour;
@@ -114,6 +122,10 @@ public sealed partial class TodayViewModel : ObservableObject
         if (Words.Count == 0)
         {
             State = ViewState.Loading;
+        }
+        else
+        {
+            IsRefreshing = true;
         }
 
         try
@@ -154,6 +166,10 @@ public sealed partial class TodayViewModel : ObservableObject
         {
             LogLoadFailed(ex);
             State = ViewState.Error;
+        }
+        finally
+        {
+            IsRefreshing = false;
         }
     }
 

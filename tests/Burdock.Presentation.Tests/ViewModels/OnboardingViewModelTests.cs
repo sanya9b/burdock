@@ -145,6 +145,81 @@ public sealed class OnboardingViewModelTests
     }
 
     [Fact]
+    public async Task The_mini_test_asks_eight_words_easy_first_and_preselects_the_suggested_level()
+    {
+        var (_, vm) = await GoToAsync(OnboardingStep.Level);
+
+        await vm.StartPlacementCommand.ExecuteAsync(null);
+
+        vm.IsPlacementActive.ShouldBeTrue();
+        vm.IsPlacementResult.ShouldBeFalse();
+        vm.ShowPrimary.ShouldBeFalse();
+        vm.CanSkip.ShouldBeFalse();
+        vm.PlacementTotal.ShouldBe(8);
+        vm.PlacementCompleted.ShouldBe(0);
+        vm.PlacementWord.ShouldStartWith("word");
+        vm.PlacementIpa.ShouldStartWith("/");
+        vm.PlacementProgressText.ShouldBe("1 з 8");
+
+        for (var i = 0; i < 8; i++)
+        {
+            vm.KnowPlacementCommand.Execute(null);
+        }
+
+        // Every A1 and A2 word was known and the pool had nothing harder: one level up.
+        vm.IsPlacementResult.ShouldBeTrue();
+        vm.PlacementCompleted.ShouldBe(8);
+        vm.PlacementResultTitle.ShouldBe("Схоже на B1");
+        vm.SelectedLevel.ShouldBe(CefrLevel.B1);
+        vm.KnowPlacementCommand.Execute(null);
+        vm.PlacementCompleted.ShouldBe(8);
+
+        vm.ClosePlacementCommand.Execute(null);
+
+        vm.IsPlacementActive.ShouldBeFalse();
+        vm.ShowPrimary.ShouldBeTrue();
+        vm.CurrentStep.ShouldBe(OnboardingStep.Level);
+        vm.SelectedLevel.ShouldBe(CefrLevel.B1);
+    }
+
+    [Fact]
+    public async Task Knowing_nothing_suggests_A1_and_back_leaves_a_running_test()
+    {
+        var (_, vm) = await GoToAsync(OnboardingStep.Level);
+        await vm.StartPlacementCommand.ExecuteAsync(null);
+
+        vm.DontKnowPlacementCommand.Execute(null);
+        vm.DontKnowPlacementCommand.Execute(null);
+        vm.PlacementProgressText.ShouldBe("3 з 8");
+
+        vm.BackCommand.Execute(null);
+        vm.IsPlacementActive.ShouldBeFalse();
+        vm.CurrentStep.ShouldBe(OnboardingStep.Level);
+        vm.SelectedLevel.ShouldBe(CefrLevel.A2);
+
+        await vm.StartPlacementCommand.ExecuteAsync(null);
+        vm.PlacementCompleted.ShouldBe(0);
+        for (var i = 0; i < 8; i++)
+        {
+            vm.DontKnowPlacementCommand.Execute(null);
+        }
+
+        vm.PlacementResultTitle.ShouldBe("Схоже на A1");
+        vm.SelectedLevel.ShouldBe(CefrLevel.A1);
+    }
+
+    [Fact]
+    public async Task Without_content_the_mini_test_does_not_start()
+    {
+        var vm = new ViewModelHarness().Resolve<OnboardingViewModel>();
+        await vm.LoadAsync(Ct);
+
+        await vm.StartPlacementCommand.ExecuteAsync(null);
+
+        vm.IsPlacementActive.ShouldBeFalse();
+    }
+
+    [Fact]
     public async Task Back_returns_one_step()
     {
         var (_, vm) = await GoToAsync(OnboardingStep.Pace);

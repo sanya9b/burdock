@@ -68,8 +68,8 @@
   <data name="Common_Check_Button" xml:space="preserve"><value>Перевірити</value></data>
   <data name="Common_Done_Button" xml:space="preserve"><value>Готово</value></data>
   <data name="Common_Back_Button" xml:space="preserve"><value>Назад</value></data>
-  <data name="Common_Loading" xml:space="preserve"><value>Завантажую…</value></data>
   <data name="Common_Error_Title" xml:space="preserve"><value>Щось пішло не так</value></data>
+  <data name="Common_Loading" xml:space="preserve"><value>Завантажую…</value></data>
   <data name="Common_Error_Retry" xml:space="preserve"><value>Спробувати ще раз</value></data>
 
   <!-- Tabs -->
@@ -284,6 +284,16 @@
   <data name="Onboarding_Level_B2" xml:space="preserve"><value>Вільно читаю й дискутую</value></data>
   <data name="Onboarding_Level_C1" xml:space="preserve"><value>Розумію складні тексти й нюанси</value></data>
   <data name="Onboarding_Level_C2" xml:space="preserve"><value>Майже як носій</value></data>
+  <data name="Onboarding_Level_Check_Link" xml:space="preserve"><value>Не знаю — перевірити за хвилину</value></data>
+  <data name="Onboarding_Placement_Title" xml:space="preserve"><value>Знаєш це слово?</value></data>
+  <data name="Onboarding_Placement_Hint" xml:space="preserve"><value>Не вгадуй: «Знаю» лише якщо згадуєш переклад</value></data>
+  <data name="Onboarding_Placement_Progress" xml:space="preserve"><value>{0} з {1}</value></data>
+  <data name="Onboarding_Placement_Know" xml:space="preserve"><value>Знаю</value></data>
+  <data name="Onboarding_Placement_DontKnow" xml:space="preserve"><value>Не знаю</value></data>
+  <data name="Onboarding_Placement_Result_Title" xml:space="preserve"><value>Схоже на {0}</value></data>
+  <data name="Onboarding_Placement_Result_Body" xml:space="preserve"><value>Ми поставили цей рівень. Змінити можна тут або пізніше в налаштуваннях</value></data>
+  <data name="Onboarding_Placement_Done_Button" xml:space="preserve"><value>Гаразд</value></data>
+  <data name="Onboarding_Placement_Cancel" xml:space="preserve"><value>Скасувати перевірку</value></data>
   <data name="Onboarding_Categories_Title" xml:space="preserve"><value>Що тобі цікаво?</value></data>
   <data name="Onboarding_Categories_Subtitle" xml:space="preserve"><value>Обери хоча б одну категорію, радимо три</value></data>
   <data name="Onboarding_Categories_Counter" xml:space="preserve"><value>Обрано {0} · ≈ {1}</value></data>

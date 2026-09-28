@@ -33,6 +33,11 @@
     <x:Double x:Key="SizePushButtonEdge">3</x:Double>
     <x:Double x:Key="SizePushButtonHeight">56</x:Double>
     <x:Double x:Key="SizeStatusDot">12</x:Double>
+    <x:Double x:Key="SizeFocusRingOffset">2</x:Double>
+    <x:Double x:Key="SizeSkeletonHero">208</x:Double>
+    <x:Double x:Key="SizeSkeletonTitle">28</x:Double>
+    <x:Double x:Key="SizeSkeletonLine">14</x:Double>
+    <x:Double x:Key="SizeSkeletonLineWidth">160</x:Double>
     <x:Double x:Key="SizeIconSm">16</x:Double>
     <x:Double x:Key="SizeIconMd">20</x:Double>
     <x:Double x:Key="SizeIconLg">24</x:Double>
@@ -55,6 +60,7 @@
     <x:Int32 x:Key="MotionDurationBase">200</x:Int32>
     <x:Int32 x:Key="MotionDurationSlow">320</x:Int32>
     <x:Int32 x:Key="MotionDurationCelebrate">600</x:Int32>
+    <x:Int32 x:Key="MotionDurationSkeletonDelay">300</x:Int32>
     <x:Double x:Key="OpacityDisabled">0.38</x:Double>
     <x:Double x:Key="OpacityMuted">0.55</x:Double>
     <x:Double x:Key="OpacityHeroGlow">0.35</x:Double>
