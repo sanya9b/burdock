@@ -11,4 +11,9 @@ public interface ILearnerContext
     Task<LearnerSettings> GetSettingsAsync(CancellationToken cancellationToken);
 
     Task SaveSettingsAsync(LearnerSettings settings, CancellationToken cancellationToken);
+
+    /// <summary>Nickname etc.; null before the onboarding named the learner (decision T10).</summary>
+    Task<LearnerProfile?> GetProfileAsync(CancellationToken cancellationToken);
+
+    Task SaveProfileAsync(LearnerProfile profile, CancellationToken cancellationToken);
 }

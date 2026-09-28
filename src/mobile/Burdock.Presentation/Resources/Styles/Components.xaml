@@ -26,6 +26,7 @@
     <Thickness x:Key="PageInsetScroll">20,8,20,32</Thickness>
     <Thickness x:Key="ListRowInset">20,12</Thickness>
     <Thickness x:Key="FilterChipInset">14,8</Thickness>
+    <Thickness x:Key="InsetBottomMd">0,0,0,8</Thickness>
 
     <!-- ===== Icons (Lucide font). Decorative by default; give a SemanticProperties.Description when an icon stands alone. ===== -->
     <Style x:Key="IconGlyph" TargetType="Label">
@@ -345,6 +346,34 @@
         <Setter Property="WidthRequest" Value="{StaticResource SizeTouchTargetMin}" />
         <Setter Property="HeightRequest" Value="{StaticResource SizeTouchTargetMin}" />
         <Setter Property="VerticalOptions" Value="Center" />
+    </Style>
+
+    <!-- ===== Onboarding: option cards, step dots, text link ===== -->
+    <Style x:Key="OptionCard" TargetType="Border" BasedOn="{StaticResource CardElevated}">
+        <Setter Property="Padding" Value="{StaticResource Space4}" />
+        <Setter Property="Shadow" Value="{StaticResource ShadowElevation1}" />
+        <Setter Property="StrokeThickness" Value="{StaticResource BorderWidthStrong}" />
+        <Setter Property="Stroke" Value="Transparent" />
+        <Style.Triggers>
+            <DataTrigger TargetType="Border" Binding="{Binding IsSelected, x:DataType=vm:ISelectable}" Value="True">
+                <Setter Property="Stroke" Value="{AppThemeBinding Light={StaticResource ColorBrandPrimaryLight}, Dark={StaticResource ColorBrandPrimaryDark}}" />
+                <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorSurfaceBrandTintLight}, Dark={StaticResource ColorSurfaceBrandTintDark}}" />
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key="StepDots" TargetType="IndicatorView">
+        <Setter Property="IndicatorSize" Value="{StaticResource Space2}" />
+        <Setter Property="IndicatorColor" Value="{AppThemeBinding Light={StaticResource ColorBorderDefaultLight}, Dark={StaticResource ColorBorderDefaultDark}}" />
+        <Setter Property="SelectedIndicatorColor" Value="{AppThemeBinding Light={StaticResource ColorBrandPrimaryLight}, Dark={StaticResource ColorBrandPrimaryDark}}" />
+        <Setter Property="HorizontalOptions" Value="Center" />
+        <Setter Property="VerticalOptions" Value="Center" />
+    </Style>
+    <Style x:Key="TextLink" TargetType="Label" BasedOn="{StaticResource TypeLabelLg}">
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorTextLinkLight}, Dark={StaticResource ColorTextLinkDark}}" />
+        <Setter Property="VerticalOptions" Value="Center" />
+        <Setter Property="Padding" Value="{StaticResource ChipInset}" />
+        <Setter Property="MinimumHeightRequest" Value="{StaticResource SizeTouchTargetMin}" />
+        <Setter Property="VerticalTextAlignment" Value="Center" />
     </Style>
 
     <!-- ===== Inputs ===== -->

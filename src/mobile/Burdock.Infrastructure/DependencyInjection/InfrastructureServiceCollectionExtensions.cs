@@ -33,6 +33,9 @@ public static class InfrastructureServiceCollectionExtensions
 
         services.AddSingleton(_ => Preferences.Default);
         services.AddSingleton<ILearnerContext, PreferencesLearnerContext>();
+        services.AddSingleton<IOnboardingState, PreferencesOnboardingState>();
+        services.AddSingleton<IPrivacyConsent, PreferencesPrivacyConsent>();
+        services.AddSingleton<IRandom, SystemRandom>();
         services.AddSingleton<IContentPackSource, BundledContentPackSource>();
 
         return services;

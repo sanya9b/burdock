@@ -26,6 +26,7 @@ public sealed class PreferencesLearnerContext(IPreferences preferences, IIdGener
     private const string HideTranslationKey = "settings.translationHidden";
     private const string RetentionKey = "settings.retention";
     private const string GamificationKey = "settings.gamification";
+    private const string NicknameKey = "profile.nickname";
 
     /// <summary>The eight launch categories (decision Q18) in display order.</summary>
     public static readonly IReadOnlyList<TopicId> DefaultTopics =
@@ -83,6 +84,19 @@ public sealed class PreferencesLearnerContext(IPreferences preferences, IIdGener
         preferences.Set(HideTranslationKey, settings.TranslationHiddenOnSurfaces);
         preferences.Set(RetentionKey, settings.Retention.ToString());
         preferences.Set(GamificationKey, settings.GamificationEnabled);
+        return Task.CompletedTask;
+    }
+
+    public Task<LearnerProfile?> GetProfileAsync(CancellationToken cancellationToken)
+    {
+        var nickname = preferences.Get(NicknameKey, string.Empty);
+        return Task.FromResult(LearnerProfile.Create(nickname).Match(p => (LearnerProfile?)p, _ => null));
+    }
+
+    public Task SaveProfileAsync(LearnerProfile profile, CancellationToken cancellationToken)
+    {
+        ArgumentNullException.ThrowIfNull(profile);
+        preferences.Set(NicknameKey, profile.Nickname);
         return Task.CompletedTask;
     }
 

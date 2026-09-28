@@ -1,5 +1,6 @@
 using Burdock.Application.UseCases.Content;
 using Burdock.Application.UseCases.LearningDays;
+using Burdock.Application.UseCases.Onboarding;
 using Burdock.Application.UseCases.Planning;
 using Burdock.Application.UseCases.Sessions;
 using Burdock.Application.UseCases.Settings;
@@ -26,6 +27,10 @@ public static class ApplicationServiceCollectionExtensions
         services.AddTransient<BrowseWordsUseCase>();
         services.AddTransient<GetLearnerSettingsUseCase>();
         services.AddTransient<UpdateLearnerSettingsUseCase>();
+        services.AddTransient<IsOnboardingCompletedUseCase>();
+        services.AddTransient<SuggestNicknameUseCase>();
+        services.AddTransient<EstimateWordCountUseCase>();
+        services.AddTransient<CompleteOnboardingUseCase>();
         return services;
     }
 }

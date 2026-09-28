@@ -97,6 +97,8 @@ public sealed class FakeLearnerContext(LearnerId learnerId, LearnerSettings sett
 {
     public LearnerSettings Settings { get; private set; } = settings;
 
+    public LearnerProfile? Profile { get; private set; }
+
     public Task<LearnerId> GetLearnerIdAsync(CancellationToken cancellationToken) => Task.FromResult(learnerId);
 
     public Task<LearnerSettings> GetSettingsAsync(CancellationToken cancellationToken) => Task.FromResult(Settings);
@@ -105,6 +107,53 @@ public sealed class FakeLearnerContext(LearnerId learnerId, LearnerSettings sett
     {
         Settings = settings;
         return Task.CompletedTask;
+    }
+
+    public Task<LearnerProfile?> GetProfileAsync(CancellationToken cancellationToken) => Task.FromResult(Profile);
+
+    public Task SaveProfileAsync(LearnerProfile profile, CancellationToken cancellationToken)
+    {
+        Profile = profile;
+        return Task.CompletedTask;
+    }
+}
+
+public sealed class FakeOnboardingState : IOnboardingState
+{
+    public bool Completed { get; private set; }
+
+    public Task<bool> IsCompletedAsync(CancellationToken cancellationToken) => Task.FromResult(Completed);
+
+    public Task MarkCompletedAsync(CancellationToken cancellationToken)
+    {
+        Completed = true;
+        return Task.CompletedTask;
+    }
+}
+
+public sealed class FakePrivacyConsent : IPrivacyConsent
+{
+    public bool Analytics { get; private set; }
+
+    public Task<bool> GetAnalyticsConsentAsync(CancellationToken cancellationToken) => Task.FromResult(Analytics);
+
+    public Task SetAnalyticsConsentAsync(bool granted, CancellationToken cancellationToken)
+    {
+        Analytics = granted;
+        return Task.CompletedTask;
+    }
+}
+
+/// <summary>Returns the given values in order (a value beyond the list repeats the last one).</summary>
+public sealed class FakeRandom(params int[] values) : IRandom
+{
+    private int _index;
+
+    public int Next(int minInclusive, int maxExclusive)
+    {
+        var value = values[Math.Min(_index, values.Length - 1)];
+        _index++;
+        return Math.Clamp(value, minInclusive, maxExclusive - 1);
     }
 }
 

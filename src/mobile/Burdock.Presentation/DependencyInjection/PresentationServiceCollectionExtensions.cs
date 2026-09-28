@@ -20,9 +20,12 @@ public static class PresentationServiceCollectionExtensions
         services.AddSingleton<IChoiceSheet, ShellChoiceSheet>();
         services.AddSingleton<IToastService, CommunityToast>();
         services.AddSingleton<IAppThemeService, AppThemeService>();
+        services.AddSingleton<INotificationPrompt, NotificationPrompt>();
 
         services.AddTransient<BootstrapViewModel>();
         services.AddTransient<BootstrapPage>();
+        services.AddTransient<OnboardingViewModel>();
+        services.AddTransient<OnboardingPage>();
 
         services.AddTransient<TodayViewModel>();
         services.AddTransient<TodayPage>();

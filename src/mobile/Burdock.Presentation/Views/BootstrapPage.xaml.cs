@@ -92,7 +92,9 @@ public partial class BootstrapPage : ContentPage
             await this.FadeToAsync(0, 180, Easing.CubicIn).ConfigureAwait(true);
         }
 
-        window.Page = _services.GetRequiredService<AppShell>();
+        // First run goes through the onboarding (spec 03 flow 3.5.1); later runs open the Shell directly.
+        var completed = await _services.GetRequiredService<Burdock.Application.UseCases.Onboarding.IsOnboardingCompletedUseCase>().ExecuteAsync(CancellationToken.None).ConfigureAwait(true);
+        window.Page = completed ? _services.GetRequiredService<AppShell>() : _services.GetRequiredService<OnboardingPage>();
     }
 
     /// <summary>Gentle bob with a hook wobble of the mark, looping; motion.duration.slow per half-cycle keeps it calm (spec 02 section 3.8).</summary>

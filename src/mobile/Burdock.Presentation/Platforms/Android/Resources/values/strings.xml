@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Launcher and notification name for Ukraine is «Реп’ях» (spec 02 section 3.2); the store listing name stays Burdock (ApplicationTitle). -->
+<resources>
+    <string name="app_name">Реп’ях</string>
+</resources>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:vm="clr-namespace:Burdock.Presentation.ViewModels"
+             xmlns:controls="clr-namespace:Burdock.Presentation.Controls"
+             xmlns:icons="clr-namespace:Burdock.Presentation.Resources.Icons"
+             xmlns:strings="clr-namespace:Burdock.Presentation.Resources.Strings"
+             x:Class="Burdock.Presentation.Views.OnboardingPage"
+             x:DataType="vm:OnboardingViewModel"
+             Shell.NavBarIsVisible="False"
+             Title="{x:Static strings:AppResources.App_Name}">
+    <!-- S-02…S-09 onboarding (spec 03) without the widget step: shared chrome (back, step dots, skip, full-width CTA) and one visible step at a time. -->
+    <ContentPage.Resources>
+        <toolkit:IsEqualConverter x:Key="IsEqualConverter" />
+        <toolkit:InvertedBoolConverter x:Key="InvertedBoolConverter" />
+        <toolkit:IsStringNotNullOrEmptyConverter x:Key="IsNotEmptyConverter" />
+    </ContentPage.Resources>
+
+    <Grid RowDefinitions="Auto,*,Auto">
+        <!-- Top chrome -->
+        <Grid Grid.Row="0" ColumnDefinitions="Auto,*,Auto" ColumnSpacing="{StaticResource Space3}" Padding="{StaticResource PageInsetTop}" MinimumHeightRequest="{StaticResource SizePushButtonHeight}">
+            <controls:PushButton Grid.Column="0" Style="{StaticResource PushIcon}" Icon="{x:Static icons:Icon.ChevronLeft}" Command="{Binding BackCommand}"
+                                 IsVisible="{Binding CanGoBack}" SemanticProperties.Description="{x:Static strings:AppResources.Common_Back_Button}" />
+            <IndicatorView Grid.Column="1" Count="{x:Static vm:OnboardingViewModel.StepCount}" Position="{Binding StepIndex}" Style="{StaticResource StepDots}" />
+            <Label Grid.Column="2" Text="{x:Static strings:AppResources.Onboarding_Skip_Button}" Style="{StaticResource TextLink}" IsVisible="{Binding CanSkip}">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding SkipCommand}" />
+                </Label.GestureRecognizers>
+            </Label>
+        </Grid>
+
+        <ScrollView Grid.Row="1">
+            <Grid x:Name="StepHost" Padding="{StaticResource PageInsetScroll}" MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
+
+                <!-- S-02 Welcome -->
+                <VerticalStackLayout Spacing="{StaticResource Space4}" IsVisible="{Binding CurrentStep, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:OnboardingStep.Welcome}}">
+                    <Image Source="mascot_joy.png" WidthRequest="{StaticResource SizeMascotLg}" HeightRequest="{StaticResource SizeMascotLg}" HorizontalOptions="Center" Margin="{StaticResource InsetTopLg}"
+                           AutomationProperties.IsInAccessibleTree="False" />
+                    <Label Text="{x:Static strings:AppResources.Onboarding_Welcome_Title}" Style="{StaticResource TypeHeadlineLg}" HorizontalTextAlignment="Center" SemanticProperties.HeadingLevel="Level1" />
+                    <Label Text="{x:Static strings:AppResources.Onboarding_Welcome_Subtitle}" Style="{StaticResource TextSecondary}" HorizontalTextAlignment="Center" />
+                    <Border Style="{StaticResource CardTonal}" Margin="{StaticResource InsetTopMd}">
+                        <VerticalStackLayout Spacing="{StaticResource Space2}">
+                            <Label Text="{x:Static strings:AppResources.Onboarding_Nickname_Label}" Style="{StaticResource TypeLabelMd}" TextColor="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
+                            <Grid ColumnDefinitions="*,Auto" ColumnSpacing="{StaticResource Space2}">
+                                <Entry Grid.Column="0" Text="{Binding Nickname}" FontFamily="RubikSemiBold" FontSize="{StaticResource FontSizeTitleLg}" MaxLength="24"
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}"
+                                       SemanticProperties.Description="{x:Static strings:AppResources.Onboarding_Nickname_Label}" />
+                                <Label Grid.Column="1" Text="{x:Static icons:Icon.SquarePen}" Style="{StaticResource IconGlyph}"
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
+                            </Grid>
+                            <Label Text="{Binding NicknameError}" Style="{StaticResource TypeBodySm}" IsVisible="{Binding NicknameError, Converter={StaticResource IsNotEmptyConverter}}"
+                                   TextColor="{AppThemeBinding Light={StaticResource ColorFeedbackErrorLight}, Dark={StaticResource ColorFeedbackErrorDark}}" />
+                        </VerticalStackLayout>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- S-03 Level -->
+                <VerticalStackLayout Spacing="{StaticResource Space3}" IsVisible="{Binding CurrentStep, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:OnboardingStep.Level}}">
+                    <Label Text="{x:Static strings:AppResources.Onboarding_Level_Title}" Style="{StaticResource TypeHeadlineLg}" SemanticProperties.HeadingLevel="Level1" />
+                    <Label Text="{x:Static strings:AppResources.Onboarding_Level_Subtitle}" Style="{StaticResource TextSecondary}" Margin="{StaticResource InsetBottomMd}" />
+                    <VerticalStackLayout Spacing="{StaticResource Space3}" BindableLayout.ItemsSource="{Binding LevelOptions}">
+                        <BindableLayout.ItemTemplate>
+                            <DataTemplate x:DataType="vm:ChipOption">
+                                <Border Style="{StaticResource OptionCard}">
+                                    <Border.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type vm:OnboardingViewModel}}, Path=SelectLevelCommand}" CommandParameter="{Binding .}" />
+                                    </Border.GestureRecognizers>
+                                    <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="{StaticResource Space4}">
+                                        <Label Grid.Column="0" Text="{Binding Label}" Style="{StaticResource TypeHeadlineSm}" FontFamily="UnboundedBold" VerticalOptions="Center" MinimumWidthRequest="{StaticResource SizeTouchTargetMin}" />
+                                        <Label Grid.Column="1" Text="{Binding Hint}" Style="{StaticResource TypeBodyMd}" VerticalOptions="Center" />
+                                        <Label Grid.Column="2" Text="{x:Static icons:Icon.CircleCheck}" Style="{StaticResource IconGlyphLg}" IsVisible="{Binding IsSelected}"
+                                               TextColor="{AppThemeBinding Light={StaticResource ColorBrandPrimaryLight}, Dark={StaticResource ColorBrandPrimaryDark}}" />
+                                    </Grid>
+                                </Border>
+                            </DataTemplate>
+                        </BindableLayout.ItemTemplate>
+                    </VerticalStackLayout>
+                </VerticalStackLayout>
+
+                <!-- S-04 Categories -->
+                <VerticalStackLayout Spacing="{StaticResource Space3}" IsVisible="{Binding CurrentStep, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:OnboardingStep.Categories}}">
+                    <Label Text="{x:Static strings:AppResources.Onboarding_Categories_Title}" Style="{StaticResource TypeHeadlineLg}" SemanticProperties.HeadingLevel="Level1" />
+                    <Label Text="{x:Static strings:AppResources.Onboarding_Categories_Subtitle}" Style="{StaticResource TextSecondary}" Margin="{StaticResource InsetBottomMd}" />
+                    <controls:ChipBar Items="{Binding TopicChips}" SelectCommand="{Binding ToggleTopicCommand}" Wrap="True" />
+                    <Border Style="{StaticResource ChipTonal}" Margin="{StaticResource InsetTopMd}">
+                        <HorizontalStackLayout Spacing="{StaticResource Space2}">
+                            <Label Text="{x:Static icons:Icon.Sparkles}" Style="{StaticResource IconGlyphSm}"
+                                   TextColor="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
+                            <Label Text="{Binding CategoriesCounter}" Style="{StaticResource ChipTextTonal}" />
+                        </HorizontalStackLayout>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- S-05 Pace -->
+                <VerticalStackLayout Spacing="{StaticResource Space3}" IsVisible="{Binding CurrentStep, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:OnboardingStep.Pace}}">
+                    <Label Text="{x:Static strings:AppResources.Onboarding_Pace_Title}" Style="{StaticResource TypeHeadlineLg}" SemanticProperties.HeadingLevel="Level1" />
+                    <Label Text="{x:Static strings:AppResources.Onboarding_Pace_Subtitle}" Style="{StaticResource TextSecondary}" Margin="{StaticResource InsetBottomMd}" />
+                    <VerticalStackLayout Spacing="{StaticResource Space3}" BindableLayout.ItemsSource="{Binding PaceOptions}">
+                        <BindableLayout.ItemTemplate>
+                            <DataTemplate x:DataType="vm:PaceOption">
+                                <Border Style="{StaticResource OptionCard}">
+                                    <Border.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type vm:OnboardingViewModel}}, Path=SelectPaceCommand}" CommandParameter="{Binding .}" />
+                                    </Border.GestureRecognizers>
+                                    <Grid ColumnDefinitions="*,Auto" ColumnSpacing="{StaticResource Space3}">
+                                        <VerticalStackLayout Grid.Column="0" Spacing="{StaticResource Space1}">
+                                            <Label Text="{Binding Title}" Style="{StaticResource TypeTitleLg}" />
+                                            <Label Text="{Binding Words}" Style="{StaticResource TypeBodyMd}" />
+                                            <HorizontalStackLayout Spacing="{StaticResource Space3}">
+                                                <Label Text="{Binding Minutes}" Style="{StaticResource TextTertiary}" />
+                                                <Label Text="{Binding Notifications}" Style="{StaticResource TextTertiary}" />
+                                            </HorizontalStackLayout>
+                                        </VerticalStackLayout>
+                                        <Label Grid.Column="1" Text="{x:Static icons:Icon.CircleCheck}" Style="{StaticResource IconGlyphLg}" IsVisible="{Binding IsSelected}"
+                                               TextColor="{AppThemeBinding Light={StaticResource ColorBrandPrimaryLight}, Dark={StaticResource ColorBrandPrimaryDark}}" />
+                                    </Grid>
+                                </Border>
+                            </DataTemplate>
+                        </BindableLayout.ItemTemplate>
+                    </VerticalStackLayout>
+                </VerticalStackLayout>
+
+                <!-- S-06 Notifications -->
+                <VerticalStackLayout Spacing="{StaticResource Space4}" IsVisible="{Binding CurrentStep, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:OnboardingStep.Notifications}}">
+                    <Label Text="{x:Static strings:AppResources.Onboarding_Notifications_Title}" Style="{StaticResource TypeHeadlineLg}" SemanticProperties.HeadingLevel="Level1" />
+                    <Border Style="{StaticResource CardElevated}" Margin="{StaticResource InsetTopMd}">
+                        <Grid ColumnDefinitions="Auto,*" ColumnSpacing="{StaticResource Space3}">
+                            <Image Grid.Column="0" Source="brand_mark.png" WidthRequest="{StaticResource SizeTouchTargetMin}" HeightRequest="{StaticResource SizeTouchTargetMin}" VerticalOptions="Start"
+                                   AutomationProperties.IsInAccessibleTree="False" />
+                            <VerticalStackLayout Grid.Column="1" Spacing="{StaticResource Space1}">
+                                <Label Text="{x:Static strings:AppResources.Onboarding_Notification_App}" Style="{StaticResource TextTertiary}" />
+                                <Label Text="{Binding SampleWord}" Style="{StaticResource TypeTitleLg}" />
+                                <Label Text="{Binding SampleTranslation}" Style="{StaticResource TextSecondary}" />
+                            </VerticalStackLayout>
+                        </Grid>
+                    </Border>
+                    <Label Text="{Binding NotificationsBody}" Style="{StaticResource TypeBodyLg}" />
+                    <Grid ColumnDefinitions="*,*" ColumnSpacing="{StaticResource Space3}" Margin="{StaticResource InsetTopMd}">
+                        <controls:PushButton Grid.Column="0" Style="{StaticResource PushTonal}" Text="{x:Static strings:AppResources.Onboarding_Notifications_Later}" Command="{Binding LaterNotificationsCommand}" />
+                        <controls:PushButton Grid.Column="1" Text="{x:Static strings:AppResources.Onboarding_Notifications_Enable}" Icon="{x:Static icons:Icon.Bell}" Command="{Binding EnableNotificationsCommand}" />
+                    </Grid>
+                </VerticalStackLayout>
+
+                <!-- S-08 Privacy -->
+                <VerticalStackLayout Spacing="{StaticResource Space4}" IsVisible="{Binding CurrentStep, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:OnboardingStep.Privacy}}">
+                    <Label Text="{x:Static strings:AppResources.Onboarding_Privacy_Title}" Style="{StaticResource TypeHeadlineLg}" SemanticProperties.HeadingLevel="Level1" />
+                    <Label Text="{Binding NotificationsHint}" Style="{StaticResource TextTertiary}" IsVisible="{Binding NotificationsHint, Converter={StaticResource IsNotEmptyConverter}}" />
+                    <Border Style="{StaticResource CardElevated}">
+                        <VerticalStackLayout Spacing="{StaticResource Space4}">
+                            <Grid ColumnDefinitions="Auto,*" ColumnSpacing="{StaticResource Space3}">
+                                <Border Grid.Column="0" Style="{StaticResource IconWell}">
+                                    <Label Text="{x:Static icons:Icon.ShieldCheck}" Style="{StaticResource IconGlyph}" TextColor="{AppThemeBinding Light={StaticResource ColorBrandPrimaryLight}, Dark={StaticResource ColorBrandPrimaryDark}}" />
+                                </Border>
+                                <Label Grid.Column="1" Text="{x:Static strings:AppResources.Onboarding_Privacy_Row1}" Style="{StaticResource TypeBodyMd}" VerticalOptions="Center" />
+                            </Grid>
+                            <Grid ColumnDefinitions="Auto,*" ColumnSpacing="{StaticResource Space3}">
+                                <Border Grid.Column="0" Style="{StaticResource IconWell}">
+                                    <Label Text="{x:Static icons:Icon.CloudOff}" Style="{StaticResource IconGlyph}" TextColor="{AppThemeBinding Light={StaticResource ColorBrandPrimaryLight}, Dark={StaticResource ColorBrandPrimaryDark}}" />
+                                </Border>
+                                <Label Grid.Column="1" Text="{x:Static strings:AppResources.Onboarding_Privacy_Row2}" Style="{StaticResource TypeBodyMd}" VerticalOptions="Center" />
+                            </Grid>
+                            <Grid ColumnDefinitions="Auto,*" ColumnSpacing="{StaticResource Space3}">
+                                <Border Grid.Column="0" Style="{StaticResource IconWell}">
+                                    <Label Text="{x:Static icons:Icon.Activity}" Style="{StaticResource IconGlyph}" TextColor="{AppThemeBinding Light={StaticResource ColorBrandPrimaryLight}, Dark={StaticResource ColorBrandPrimaryDark}}" />
+                                </Border>
+                                <Label Grid.Column="1" Text="{x:Static strings:AppResources.Onboarding_Privacy_Row3}" Style="{StaticResource TypeBodyMd}" VerticalOptions="Center" />
+                            </Grid>
+                            <BoxView Style="{StaticResource Divider}" />
+                            <Grid ColumnDefinitions="*,Auto" ColumnSpacing="{StaticResource Space3}">
+                                <Label Grid.Column="0" Text="{x:Static strings:AppResources.Onboarding_Privacy_Analytics}" Style="{StaticResource TypeTitleMd}" VerticalOptions="Center" />
+                                <Switch Grid.Column="1" IsToggled="{Binding AnalyticsConsent}" Style="{StaticResource SwitchBrand}" />
+                            </Grid>
+                        </VerticalStackLayout>
+                    </Border>
+                    <Label Text="{x:Static strings:AppResources.Onboarding_Privacy_Policy}" Style="{StaticResource TextLink}" HorizontalOptions="Start">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnPrivacyPolicyTapped" />
+                        </Label.GestureRecognizers>
+                    </Label>
+                </VerticalStackLayout>
+
+                <!-- S-09 Done -->
+                <VerticalStackLayout Spacing="{StaticResource Space4}" IsVisible="{Binding CurrentStep, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:OnboardingStep.Done}}">
+                    <Image Source="mascot_party.png" WidthRequest="{StaticResource SizeMascotLg}" HeightRequest="{StaticResource SizeMascotLg}" HorizontalOptions="Center" Margin="{StaticResource InsetTopLg}"
+                           AutomationProperties.IsInAccessibleTree="False" />
+                    <Label Text="{x:Static strings:AppResources.Onboarding_Done_Title}" Style="{StaticResource TypeHeadlineLg}" HorizontalTextAlignment="Center" SemanticProperties.HeadingLevel="Level1" />
+                    <Label Text="{x:Static strings:AppResources.Onboarding_Done_Subtitle}" Style="{StaticResource TextSecondary}" HorizontalTextAlignment="Center" />
+                    <Border Style="{StaticResource HeroCard}" Margin="{StaticResource InsetTopMd}" IsVisible="{Binding FirstWord, Converter={StaticResource IsNotEmptyConverter}}">
+                        <VerticalStackLayout Spacing="{StaticResource Space2}">
+                            <Border Style="{StaticResource ChipOnHero}">
+                                <Label Text="{x:Static strings:AppResources.Onboarding_Done_FirstWord}" Style="{StaticResource ChipTextOnHero}" />
+                            </Border>
+                            <Label Text="{Binding FirstWord}" Style="{StaticResource OnHeroWord}" Margin="{StaticResource InsetTopMd}" />
+                            <Label Text="{Binding FirstIpa}" Style="{StaticResource OnHeroIpa}" />
+                            <Label Text="{Binding FirstTranslation}" Style="{StaticResource OnHeroSecondary}" />
+                        </VerticalStackLayout>
+                    </Border>
+                </VerticalStackLayout>
+            </Grid>
+        </ScrollView>
+
+        <!-- Primary action -->
+        <Grid Grid.Row="2" Padding="{StaticResource BottomBarInset}" IsVisible="{Binding ShowPrimary}">
+            <controls:PushButton Text="{Binding PrimaryText}" Icon="{x:Static icons:Icon.ArrowRight}" Command="{Binding NextCommand}" IsEnabled="{Binding IsBusy, Converter={StaticResource InvertedBoolConverter}}"
+                                 MaximumWidthRequest="{StaticResource SizeContentMaxWidth}" />
+        </Grid>
+    </Grid>
+</ContentPage>

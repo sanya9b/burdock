@@ -262,4 +262,51 @@
   <data name="Me_Anonymous_Body" xml:space="preserve"><value>Прогрес зберігається на цьому пристрої. Прив’язка акаунта для синхронізації з’явиться пізніше.</value></data>
   <data name="Me_Settings_Row" xml:space="preserve"><value>Налаштування</value></data>
   <data name="Me_Settings_Row_Hint" xml:space="preserve"><value>Темп, рівень, категорії, сповіщення</value></data>
+
+  <!-- Onboarding (S-02…S-09) -->
+  <data name="Onboarding_Welcome_Title" xml:space="preserve"><value>Привіт! Я Реп’яшок</value></data>
+  <data name="Onboarding_Welcome_Subtitle" xml:space="preserve"><value>Чіпляюся до тебе словами, поки ти їх не вивчиш</value></data>
+  <data name="Onboarding_Nickname_Label" xml:space="preserve"><value>Ти —</value></data>
+  <data name="Onboarding_Nickname_Adjectives" xml:space="preserve"><value>Хоробрий|Уважний|Веселий|Кмітливий|Допитливий|Впертий|Сонячний|Меткий|Спокійний|Швидкий</value></data>
+  <data name="Onboarding_Nickname_Noun" xml:space="preserve"><value>Реп’ях</value></data>
+  <data name="Onboarding_Nickname_Error" xml:space="preserve"><value>Нікнейм має бути від 2 до 24 символів</value></data>
+  <data name="Onboarding_Go_Button" xml:space="preserve"><value>Поїхали</value></data>
+  <data name="Onboarding_Next_Button" xml:space="preserve"><value>Далі</value></data>
+  <data name="Onboarding_Skip_Button" xml:space="preserve"><value>Пропустити</value></data>
+  <data name="Onboarding_Continue_Button" xml:space="preserve"><value>Продовжити</value></data>
+  <data name="Onboarding_Start_Button" xml:space="preserve"><value>Почати</value></data>
+  <data name="Onboarding_Level_Title" xml:space="preserve"><value>Який у тебе рівень англійської?</value></data>
+  <data name="Onboarding_Level_Subtitle" xml:space="preserve"><value>Не хвилюйся, це можна змінити будь-коли</value></data>
+  <data name="Onboarding_Level_A1" xml:space="preserve"><value>Знаю найпростіші слова й фрази</value></data>
+  <data name="Onboarding_Level_A2" xml:space="preserve"><value>Розумію прості діалоги</value></data>
+  <data name="Onboarding_Level_B1" xml:space="preserve"><value>Спілкуюся на знайомі теми</value></data>
+  <data name="Onboarding_Level_B2" xml:space="preserve"><value>Вільно читаю й дискутую</value></data>
+  <data name="Onboarding_Level_C1" xml:space="preserve"><value>Розумію складні тексти й нюанси</value></data>
+  <data name="Onboarding_Level_C2" xml:space="preserve"><value>Майже як носій</value></data>
+  <data name="Onboarding_Categories_Title" xml:space="preserve"><value>Що тобі цікаво?</value></data>
+  <data name="Onboarding_Categories_Subtitle" xml:space="preserve"><value>Обери хоча б одну категорію, радимо три</value></data>
+  <data name="Onboarding_Categories_Counter" xml:space="preserve"><value>Обрано {0} · ≈ {1}</value></data>
+  <data name="Onboarding_Pace_Title" xml:space="preserve"><value>Який темп тобі підходить?</value></data>
+  <data name="Onboarding_Pace_Subtitle" xml:space="preserve"><value>Помірний підходить більшості. Змінити можна в налаштуваннях</value></data>
+  <data name="Onboarding_Pace_Light" xml:space="preserve"><value>Легкий</value></data>
+  <data name="Onboarding_Pace_Moderate" xml:space="preserve"><value>Помірний</value></data>
+  <data name="Onboarding_Pace_Intensive" xml:space="preserve"><value>Інтенсивний</value></data>
+  <data name="Onboarding_Pace_Words" xml:space="preserve"><value>{0} нових слів на день</value></data>
+  <data name="Onboarding_Pace_Minutes" xml:space="preserve"><value>≈ {0} хв на день</value></data>
+  <data name="Onboarding_Pace_Notifications" xml:space="preserve"><value>{0} сповіщення на день</value></data>
+  <data name="Onboarding_Notifications_Title" xml:space="preserve"><value>Нагадувати про слова?</value></data>
+  <data name="Onboarding_Notifications_Body" xml:space="preserve"><value>Нагадаю про слово до {0} разів на день і ніколи вночі, з 22:00 до 08:00.</value></data>
+  <data name="Onboarding_Notifications_Enable" xml:space="preserve"><value>Увімкнути</value></data>
+  <data name="Onboarding_Notifications_Later" xml:space="preserve"><value>Пізніше</value></data>
+  <data name="Onboarding_Notifications_Denied" xml:space="preserve"><value>Увімкнеш сповіщення в налаштуваннях, коли захочеш.</value></data>
+  <data name="Onboarding_Notification_App" xml:space="preserve"><value>Реп’ях · зараз</value></data>
+  <data name="Onboarding_Privacy_Title" xml:space="preserve"><value>Дані — твої</value></data>
+  <data name="Onboarding_Privacy_Row1" xml:space="preserve"><value>Прогрес зберігається на пристрої та в ЄС-хмарі під анонімним номером</value></data>
+  <data name="Onboarding_Privacy_Row2" xml:space="preserve"><value>Краші надсилаються без особистих даних</value></data>
+  <data name="Onboarding_Privacy_Row3" xml:space="preserve"><value>Анонімна статистика використання — лише якщо дозволиш</value></data>
+  <data name="Onboarding_Privacy_Analytics" xml:space="preserve"><value>Ділитися анонімною статистикою</value></data>
+  <data name="Onboarding_Privacy_Policy" xml:space="preserve"><value>Політика приватності</value></data>
+  <data name="Onboarding_Done_Title" xml:space="preserve"><value>Готово!</value></data>
+  <data name="Onboarding_Done_Subtitle" xml:space="preserve"><value>Твої перші слова вже чекають</value></data>
+  <data name="Onboarding_Done_FirstWord" xml:space="preserve"><value>Перше слово</value></data>
 </root>
