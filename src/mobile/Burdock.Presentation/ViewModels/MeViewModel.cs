@@ -15,6 +15,12 @@ namespace Burdock.Presentation.ViewModels;
 /// <summary>One achievement tile of the profile (spec 07 §3.6): hidden ones show only «Секрет» until unlocked.</summary>
 public sealed record AchievementTile(string Title, string Body, string Glyph, bool Unlocked, bool Secret, string Reward);
 
+/// <summary>Two tiles per row; a Grid with star columns wraps titles correctly where FlexLayout would clip them.</summary>
+public sealed record AchievementRow(AchievementTile Left, AchievementTile? Right)
+{
+    public bool HasRight => Right is not null;
+}
+
 /// <summary>S-17 «Я»: anonymous learner, level and XP, thorns, streak, achievements, entry to settings (spec 03; economy per spec 07).</summary>
 public sealed partial class MeViewModel : ObservableObject
 {
@@ -59,6 +65,8 @@ public sealed partial class MeViewModel : ObservableObject
 
     public ObservableCollection<AchievementTile> Achievements { get; } = [];
 
+    public ObservableCollection<AchievementRow> AchievementRows { get; } = [];
+
     [RelayCommand(AllowConcurrentExecutions = false)]
     public async Task LoadAsync(CancellationToken cancellationToken)
     {
@@ -88,6 +96,12 @@ public sealed partial class MeViewModel : ObservableObject
                     unlocked,
                     secret,
                     RewardsText.ThornsReward(definition.Thorns)));
+            }
+
+            AchievementRows.Clear();
+            for (var i = 0; i < Achievements.Count; i += 2)
+            {
+                AchievementRows.Add(new AchievementRow(Achievements[i], i + 1 < Achievements.Count ? Achievements[i + 1] : null));
             }
 
             AchievementsSummary = string.Create(Ukrainian, $"{unlockedCount} / {AchievementCatalog.All.Count}");

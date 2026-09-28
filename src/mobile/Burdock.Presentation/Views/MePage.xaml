@@ -58,34 +58,58 @@
                     <Label Grid.Column="0" Text="{x:Static strings:AppResources.Me_Achievements_Title}" Style="{StaticResource SectionTitle}" SemanticProperties.HeadingLevel="Level2" />
                     <Label Grid.Column="1" Text="{Binding AchievementsSummary}" Style="{StaticResource LabelSecondary}" VerticalOptions="End" />
                 </Grid>
-                <FlexLayout Wrap="Wrap" Direction="Row" JustifyContent="Start" AlignItems="Start" BindableLayout.ItemsSource="{Binding Achievements}">
+                <VerticalStackLayout Spacing="{StaticResource Space2}" BindableLayout.ItemsSource="{Binding AchievementRows}">
                     <BindableLayout.ItemTemplate>
-                        <DataTemplate x:DataType="vm:AchievementTile">
-                            <Border Style="{StaticResource AchievementTile}" FlexLayout.Basis="50%" SemanticProperties.Description="{Binding Title}" SemanticProperties.Hint="{Binding Body}">
-                                <Border.Triggers>
-                                    <DataTrigger TargetType="Border" Binding="{Binding Unlocked}" Value="False">
-                                        <Setter Property="Opacity" Value="{StaticResource OpacityMuted}" />
-                                    </DataTrigger>
-                                </Border.Triggers>
-                                <Grid ColumnDefinitions="Auto,*" ColumnSpacing="{StaticResource Space3}">
-                                    <Border Grid.Column="0" Style="{StaticResource IconWell}" VerticalOptions="Start">
-                                        <Border.Triggers>
-                                            <DataTrigger TargetType="Border" Binding="{Binding Unlocked}" Value="True">
-                                                <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorRewardGoldContainerLight}, Dark={StaticResource ColorRewardGoldContainerDark}}" />
-                                            </DataTrigger>
-                                        </Border.Triggers>
-                                        <Label Text="{Binding Glyph}" Style="{StaticResource IconGlyph}"
-                                               TextColor="{AppThemeBinding Light={StaticResource ColorRewardGoldTextLight}, Dark={StaticResource ColorRewardGoldTextDark}}" />
-                                    </Border>
-                                    <VerticalStackLayout Grid.Column="1" Spacing="{StaticResource Space1}" VerticalOptions="Center">
-                                        <Label Text="{Binding Title}" Style="{StaticResource TypeLabelMd}" LineBreakMode="WordWrap" MaxLines="2" />
-                                        <Label Text="{Binding Reward}" Style="{StaticResource TextTertiary}" IsVisible="{Binding Unlocked}" />
-                                    </VerticalStackLayout>
-                                </Grid>
-                            </Border>
+                        <DataTemplate x:DataType="vm:AchievementRow">
+                            <Grid ColumnDefinitions="*,*" ColumnSpacing="{StaticResource Space2}">
+                                <Border Grid.Column="0" Style="{StaticResource AchievementTile}" BindingContext="{Binding Left}" x:DataType="vm:AchievementTile" SemanticProperties.Description="{Binding Title}" SemanticProperties.Hint="{Binding Body}">
+                                    <Border.Triggers>
+                                        <DataTrigger TargetType="Border" Binding="{Binding Unlocked}" Value="False">
+                                            <Setter Property="Opacity" Value="{StaticResource OpacityMuted}" />
+                                        </DataTrigger>
+                                    </Border.Triggers>
+                                    <Grid ColumnDefinitions="Auto,*" ColumnSpacing="{StaticResource Space3}">
+                                        <Border Grid.Column="0" Style="{StaticResource IconWell}" VerticalOptions="Start">
+                                            <Border.Triggers>
+                                                <DataTrigger TargetType="Border" Binding="{Binding Unlocked}" Value="True">
+                                                    <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorRewardGoldContainerLight}, Dark={StaticResource ColorRewardGoldContainerDark}}" />
+                                                </DataTrigger>
+                                            </Border.Triggers>
+                                            <Label Text="{Binding Glyph}" Style="{StaticResource IconGlyph}"
+                                                   TextColor="{AppThemeBinding Light={StaticResource ColorRewardGoldTextLight}, Dark={StaticResource ColorRewardGoldTextDark}}" />
+                                        </Border>
+                                        <VerticalStackLayout Grid.Column="1" Spacing="{StaticResource Space1}" VerticalOptions="Center">
+                                            <Label Text="{Binding Title}" Style="{StaticResource TypeLabelMd}" LineBreakMode="WordWrap" />
+                                            <Label Text="{Binding Reward}" Style="{StaticResource TextTertiary}" IsVisible="{Binding Unlocked}" />
+                                        </VerticalStackLayout>
+                                    </Grid>
+                                </Border>
+                                <Border Grid.Column="1" Style="{StaticResource AchievementTile}" BindingContext="{Binding Right}" x:DataType="vm:AchievementTile" IsVisible="{Binding Source={RelativeSource AncestorType={x:Type vm:AchievementRow}}, Path=HasRight}" SemanticProperties.Description="{Binding Title}" SemanticProperties.Hint="{Binding Body}">
+                                    <Border.Triggers>
+                                        <DataTrigger TargetType="Border" Binding="{Binding Unlocked}" Value="False">
+                                            <Setter Property="Opacity" Value="{StaticResource OpacityMuted}" />
+                                        </DataTrigger>
+                                    </Border.Triggers>
+                                    <Grid ColumnDefinitions="Auto,*" ColumnSpacing="{StaticResource Space3}">
+                                        <Border Grid.Column="0" Style="{StaticResource IconWell}" VerticalOptions="Start">
+                                            <Border.Triggers>
+                                                <DataTrigger TargetType="Border" Binding="{Binding Unlocked}" Value="True">
+                                                    <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorRewardGoldContainerLight}, Dark={StaticResource ColorRewardGoldContainerDark}}" />
+                                                </DataTrigger>
+                                            </Border.Triggers>
+                                            <Label Text="{Binding Glyph}" Style="{StaticResource IconGlyph}"
+                                                   TextColor="{AppThemeBinding Light={StaticResource ColorRewardGoldTextLight}, Dark={StaticResource ColorRewardGoldTextDark}}" />
+                                        </Border>
+                                        <VerticalStackLayout Grid.Column="1" Spacing="{StaticResource Space1}" VerticalOptions="Center">
+                                            <Label Text="{Binding Title}" Style="{StaticResource TypeLabelMd}" LineBreakMode="WordWrap" />
+                                            <Label Text="{Binding Reward}" Style="{StaticResource TextTertiary}" IsVisible="{Binding Unlocked}" />
+                                        </VerticalStackLayout>
+                                    </Grid>
+                                </Border>
+                            </Grid>
                         </DataTemplate>
                     </BindableLayout.ItemTemplate>
-                </FlexLayout>
+                </VerticalStackLayout>
             </VerticalStackLayout>
 
             <Border Style="{StaticResource CardElevated}" Padding="{StaticResource Space2}">
