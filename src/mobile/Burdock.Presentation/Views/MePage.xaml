@@ -61,14 +61,14 @@
                 <FlexLayout Wrap="Wrap" Direction="Row" JustifyContent="Start" AlignItems="Start" BindableLayout.ItemsSource="{Binding Achievements}">
                     <BindableLayout.ItemTemplate>
                         <DataTemplate x:DataType="vm:AchievementTile">
-                            <Border Style="{StaticResource AchievementTile}" FlexLayout.Basis="33.33%" SemanticProperties.Description="{Binding Title}" SemanticProperties.Hint="{Binding Body}">
+                            <Border Style="{StaticResource AchievementTile}" FlexLayout.Basis="50%" SemanticProperties.Description="{Binding Title}" SemanticProperties.Hint="{Binding Body}">
                                 <Border.Triggers>
                                     <DataTrigger TargetType="Border" Binding="{Binding Unlocked}" Value="False">
                                         <Setter Property="Opacity" Value="{StaticResource OpacityMuted}" />
                                     </DataTrigger>
                                 </Border.Triggers>
-                                <VerticalStackLayout Spacing="{StaticResource Space2}" HorizontalOptions="Fill">
-                                    <Border Style="{StaticResource IconWell}" HorizontalOptions="Center">
+                                <Grid ColumnDefinitions="Auto,*" ColumnSpacing="{StaticResource Space3}">
+                                    <Border Grid.Column="0" Style="{StaticResource IconWell}" VerticalOptions="Start">
                                         <Border.Triggers>
                                             <DataTrigger TargetType="Border" Binding="{Binding Unlocked}" Value="True">
                                                 <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorRewardGoldContainerLight}, Dark={StaticResource ColorRewardGoldContainerDark}}" />
@@ -77,9 +77,11 @@
                                         <Label Text="{Binding Glyph}" Style="{StaticResource IconGlyph}"
                                                TextColor="{AppThemeBinding Light={StaticResource ColorRewardGoldTextLight}, Dark={StaticResource ColorRewardGoldTextDark}}" />
                                     </Border>
-                                    <Label Text="{Binding Title}" Style="{StaticResource TypeLabelSm}" HorizontalOptions="Fill" HorizontalTextAlignment="Center" VerticalTextAlignment="Start" LineBreakMode="WordWrap" MaxLines="2" HeightRequest="{StaticResource Space8}" />
-                                    <Label Text="{Binding Reward}" Style="{StaticResource TextTertiary}" HorizontalOptions="Fill" HorizontalTextAlignment="Center" IsVisible="{Binding Unlocked}" />
-                                </VerticalStackLayout>
+                                    <VerticalStackLayout Grid.Column="1" Spacing="{StaticResource Space1}" VerticalOptions="Center">
+                                        <Label Text="{Binding Title}" Style="{StaticResource TypeLabelMd}" LineBreakMode="WordWrap" MaxLines="2" />
+                                        <Label Text="{Binding Reward}" Style="{StaticResource TextTertiary}" IsVisible="{Binding Unlocked}" />
+                                    </VerticalStackLayout>
+                                </Grid>
                             </Border>
                         </DataTemplate>
                     </BindableLayout.ItemTemplate>
