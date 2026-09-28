@@ -267,7 +267,7 @@ public sealed partial class OnboardingViewModel : ObservableObject
 
         if (CurrentStep == OnboardingStep.Categories && SelectedTopics.Count == 0)
         {
-            // Skipping keeps the eight launch categories, like the settings default.
+            // Skipping keeps all launch categories, like the settings default.
             foreach (var chip in TopicChips)
             {
                 chip.IsSelected = true;

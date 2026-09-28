@@ -100,6 +100,8 @@ public enum BurdockTokens {
         public static let topicOnCity = DynamicColor(light: "#0A3745", dark: "#7CDDFF")
         public static let topicShopping = DynamicColor(light: "#FFE8BA", dark: "#2A1D01")
         public static let topicOnShopping = DynamicColor(light: "#453100", dark: "#FFD889")
+        public static let topicMilitary = DynamicColor(light: "#D7FFAD", dark: "#162404")
+        public static let topicOnMilitary = DynamicColor(light: "#283D07", dark: "#C4FB84")
     }
 
     public enum WidgetThemes {

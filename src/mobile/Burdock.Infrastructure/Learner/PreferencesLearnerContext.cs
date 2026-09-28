@@ -28,9 +28,9 @@ public sealed class PreferencesLearnerContext(IPreferences preferences, IIdGener
     private const string GamificationKey = "settings.gamification";
     private const string NicknameKey = "profile.nickname";
 
-    /// <summary>The eight launch categories (decision Q18) in display order.</summary>
+    /// <summary>The nine launch categories (decision Q18 with the 28.09.2026 addendum) in display order.</summary>
     public static readonly IReadOnlyList<TopicId> DefaultTopics =
-        new[] { "communication", "travel", "work", "it", "food", "health", "city", "shopping" }.Select(TopicId.From).ToArray();
+        new[] { "communication", "travel", "work", "it", "food", "health", "city", "shopping", "military" }.Select(TopicId.From).ToArray();
 
     public Task<LearnerId> GetLearnerIdAsync(CancellationToken cancellationToken)
     {

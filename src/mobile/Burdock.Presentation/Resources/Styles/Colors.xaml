@@ -270,6 +270,10 @@
     <Color x:Key="ColorTopicShoppingDark">#2A1D01</Color>
     <Color x:Key="ColorTopicOnShoppingLight">#453100</Color>
     <Color x:Key="ColorTopicOnShoppingDark">#FFD889</Color>
+    <Color x:Key="ColorTopicMilitaryLight">#D7FFAD</Color>
+    <Color x:Key="ColorTopicMilitaryDark">#162404</Color>
+    <Color x:Key="ColorTopicOnMilitaryLight">#283D07</Color>
+    <Color x:Key="ColorTopicOnMilitaryDark">#C4FB84</Color>
 
     <!-- Theme-aware brushes: Brush{Group}{Name} follows the system theme through AppThemeBinding. -->
     <SolidColorBrush x:Key="BrushBrandPrimary" Color="{AppThemeBinding Light={StaticResource ColorBrandPrimaryLight}, Dark={StaticResource ColorBrandPrimaryDark}}" />
@@ -365,5 +369,7 @@
     <SolidColorBrush x:Key="BrushTopicOnCity" Color="{AppThemeBinding Light={StaticResource ColorTopicOnCityLight}, Dark={StaticResource ColorTopicOnCityDark}}" />
     <SolidColorBrush x:Key="BrushTopicShopping" Color="{AppThemeBinding Light={StaticResource ColorTopicShoppingLight}, Dark={StaticResource ColorTopicShoppingDark}}" />
     <SolidColorBrush x:Key="BrushTopicOnShopping" Color="{AppThemeBinding Light={StaticResource ColorTopicOnShoppingLight}, Dark={StaticResource ColorTopicOnShoppingDark}}" />
+    <SolidColorBrush x:Key="BrushTopicMilitary" Color="{AppThemeBinding Light={StaticResource ColorTopicMilitaryLight}, Dark={StaticResource ColorTopicMilitaryDark}}" />
+    <SolidColorBrush x:Key="BrushTopicOnMilitary" Color="{AppThemeBinding Light={StaticResource ColorTopicOnMilitaryLight}, Dark={StaticResource ColorTopicOnMilitaryDark}}" />
 
 </ResourceDictionary>
