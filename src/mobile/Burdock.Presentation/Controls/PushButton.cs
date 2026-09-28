@@ -39,7 +39,7 @@ public sealed class PushButton : ContentView
         BindableProperty.Create(nameof(CornerRadius), typeof(double), typeof(PushButton), 999d, propertyChanged: OnLookChanged);
 
     public static readonly BindableProperty FontFamilyProperty =
-        BindableProperty.Create(nameof(FontFamily), typeof(string), typeof(PushButton), "FixelTextBold", propertyChanged: OnLookChanged);
+        BindableProperty.Create(nameof(FontFamily), typeof(string), typeof(PushButton), "RubikBold", propertyChanged: OnLookChanged);
 
     public static readonly BindableProperty FontSizeProperty =
         BindableProperty.Create(nameof(FontSize), typeof(double), typeof(PushButton), 16d, propertyChanged: OnLookChanged);

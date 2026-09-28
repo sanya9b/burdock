@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:Burdock.Presentation.ViewModels"
+             xmlns:controls="clr-namespace:Burdock.Presentation.Controls"
+             xmlns:icons="clr-namespace:Burdock.Presentation.Resources.Icons"
+             xmlns:strings="clr-namespace:Burdock.Presentation.Resources.Strings"
+             x:Class="Burdock.Presentation.Views.BootstrapPage"
+             x:DataType="vm:BootstrapViewModel"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="{AppThemeBinding Light={StaticResource ColorWidgetBackgroundLight}, Dark={StaticResource ColorWidgetBackgroundDark}}"
+             Title="{x:Static strings:AppResources.App_Name}">
+    <!-- S-01 Bootstrap (spec 03): continues the system splash (same mark, same size, same colour, centred), animates it while the content pack is prepared, then hands over to the Shell. -->
+    <Grid Padding="{StaticResource Space6}">
+        <Image x:Name="Mark" Source="brand_mark.png" WidthRequest="{StaticResource SizeBrandMarkSplash}" HeightRequest="{StaticResource SizeBrandMarkSplash}"
+               HorizontalOptions="Center" VerticalOptions="Center" AutomationProperties.IsInAccessibleTree="False" />
+
+        <VerticalStackLayout Spacing="{StaticResource Space3}" HorizontalOptions="Center" VerticalOptions="Center" TranslationY="{StaticResource SizeMascotMd}"
+                             MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
+            <Label x:Name="Status" Text="{Binding StatusText}" Style="{StaticResource TypeTitleLg}" HorizontalTextAlignment="Center"
+                   TextColor="{AppThemeBinding Light={StaticResource ColorWidgetWordLight}, Dark={StaticResource ColorWidgetWordDark}}" />
+            <ActivityIndicator IsRunning="{Binding IsBusy}" IsVisible="{Binding IsBusy}" HorizontalOptions="Center"
+                               Color="{AppThemeBinding Light={StaticResource ColorWidgetAccentLight}, Dark={StaticResource ColorWidgetAccentDark}}" />
+            <controls:PushButton Style="{StaticResource PushAccent}" Text="{x:Static strings:AppResources.Common_Error_Retry}" Icon="{x:Static icons:Icon.RefreshCw}"
+                                 Command="{Binding RetryCommand}" IsVisible="{Binding HasError}" />
+        </VerticalStackLayout>
+
+        <VerticalStackLayout Spacing="{StaticResource Space1}" HorizontalOptions="Center" VerticalOptions="End">
+            <Label Text="{x:Static strings:AppResources.App_Name}" Style="{StaticResource TypeHeadlineMd}" HorizontalTextAlignment="Center"
+                   TextColor="{AppThemeBinding Light={StaticResource ColorWidgetWordLight}, Dark={StaticResource ColorWidgetWordDark}}" />
+            <Label Text="{x:Static strings:AppResources.App_Tagline}" Style="{StaticResource TypeBodyMd}" HorizontalTextAlignment="Center"
+                   TextColor="{AppThemeBinding Light={StaticResource ColorWidgetIpaLight}, Dark={StaticResource ColorWidgetIpaDark}}" />
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>

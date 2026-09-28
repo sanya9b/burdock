@@ -79,7 +79,7 @@
                             <Label.FormattedText>
                                 <FormattedString>
                                     <Span Text="{Binding ExampleBefore}" />
-                                    <Span Text="{Binding ExampleMatch}" FontFamily="FixelTextBold"
+                                    <Span Text="{Binding ExampleMatch}" FontFamily="RubikBold"
                                           TextColor="{AppThemeBinding Light={StaticResource ColorTextLinkLight}, Dark={StaticResource ColorTextLinkDark}}" />
                                     <Span Text="{Binding ExampleAfter}" />
                                 </FormattedString>

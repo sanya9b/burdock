@@ -2,6 +2,8 @@ using Android.App;
 using Android.Content.PM;
 using Android.Content.Res;
 using Android.OS;
+using Android.Runtime;
+using Android.Window;
 using AndroidX.Core.View;
 
 namespace Burdock.Presentation;
@@ -11,6 +13,16 @@ public class MainActivity : MauiAppCompatActivity
 {
     protected override void OnCreate(Bundle? savedInstanceState)
     {
+        if (OperatingSystem.IsAndroidVersionAtLeast(31) && SplashScreen is { } splash)
+        {
+            // Let the animated mark (drawable-v31/burdock_splash_anim) finish before the system splash leaves; the bootstrap page underneath shows the same mark.
+            splash.SetOnExitAnimationListener(new SplashExitListener());
+        }
+        else
+        {
+            Services.SystemSplash.MarkDismissed();
+        }
+
         base.OnCreate(savedInstanceState);
         ApplySystemBarAppearance();
     }
@@ -41,5 +53,28 @@ public class MainActivity : MauiAppCompatActivity
 
         controller.AppearanceLightStatusBars = !isDark;
         controller.AppearanceLightNavigationBars = !isDark;
+    }
+
+    /// <summary>Keeps the Android 12+ splash until its icon animation has played (max 1000 ms), then fades it over the bootstrap page.</summary>
+    [System.Runtime.Versioning.SupportedOSPlatform("android31.0")]
+    private sealed class SplashExitListener : Java.Lang.Object, ISplashScreenOnExitAnimationListener
+    {
+        private const long FadeMilliseconds = 220;
+
+        public void OnSplashScreenExit(SplashScreenView view)
+        {
+            ArgumentNullException.ThrowIfNull(view);
+            // Wait only for the part of the icon animation that has not played yet; no animation info means no wait.
+            var remaining = view.IconAnimationStart is { } startedAt && view.IconAnimationDuration is { } duration
+                ? Math.Max(0, startedAt.ToEpochMilli() + duration.ToMillis() - Java.Lang.JavaSystem.CurrentTimeMillis())
+                : 0;
+            view.PostDelayed(
+                () => view.Animate()?.Alpha(0f).SetDuration(FadeMilliseconds).WithEndAction(new Java.Lang.Runnable(() =>
+                {
+                    view.Remove();
+                    Services.SystemSplash.MarkDismissed();
+                })).Start(),
+                remaining);
+        }
     }
 }

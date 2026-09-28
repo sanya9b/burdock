@@ -60,7 +60,7 @@
                                IsEnabled="{Binding Answered, Converter={StaticResource InvertedBoolConverter}}"
                                ReturnType="Done" ReturnCommand="{Binding CheckTypedCommand}"
                                Keyboard="Text" IsSpellCheckEnabled="False" IsTextPredictionEnabled="False"
-                               FontFamily="FixelTextSemiBold" FontSize="{StaticResource FontSizeHeadlineSm}" HorizontalTextAlignment="Center" />
+                               FontFamily="RubikSemiBold" FontSize="{StaticResource FontSizeHeadlineSm}" HorizontalTextAlignment="Center" />
                     </Border>
                     <controls:PushButton Text="{x:Static strings:AppResources.Common_Check_Button}" Icon="{x:Static icons:Icon.Check}" Command="{Binding CheckTypedCommand}"
                                          IsVisible="{Binding Answered, Converter={StaticResource InvertedBoolConverter}}" />

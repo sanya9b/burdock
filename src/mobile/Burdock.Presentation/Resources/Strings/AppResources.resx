@@ -180,4 +180,8 @@
   <data name="Summary_Correct_One" xml:space="preserve"><value>{0} правильна</value></data>
   <data name="Summary_Correct_Few" xml:space="preserve"><value>{0} правильні</value></data>
   <data name="Summary_Correct_Many" xml:space="preserve"><value>{0} правильних</value></data>
+
+  <!-- Bootstrap (S-01) -->
+  <data name="Bootstrap_Preparing" xml:space="preserve"><value>Готую твої перші слова…</value></data>
+  <data name="Bootstrap_Error" xml:space="preserve"><value>Не вдалося підготувати слова. Спробуй ще раз.</value></data>
 </root>

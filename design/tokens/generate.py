@@ -252,17 +252,22 @@ def emit_colors_xaml(t: Tokens) -> str:
     return "\n".join(lines)
 
 
-FONT_TEXT = {400: "FixelText", 500: "FixelTextMedium", 600: "FixelTextSemiBold", 700: "FixelTextBold"}
-FONT_DISPLAY = {600: "FixelDisplay", 700: "FixelDisplay", 800: "FixelDisplayExtraBold"}
+WEIGHT_SUFFIX = {400: "", 500: "Medium", 600: "SemiBold", 700: "Bold", 800: "ExtraBold", 900: "Black"}
+SYSTEM_FAMILIES = {"-apple-system", "system-ui", "Roboto", "Noto Sans", "Inter", "sans-serif", "Segoe UI"}
 
 
 def font_alias(family: list[str] | str, weight: int) -> str | None:
+    """MAUI font alias for a token family + weight: '<Family without spaces><WeightSuffix>' (e.g. Rubik, RubikSemiBold, UnboundedBold).
+    Families that start with a system font (IPA role) return None so the platform font is used. Aliases must match MauiProgram.cs."""
     fam = family[0] if isinstance(family, list) else str(family)
-    if fam.startswith("Fixel Display"):
-        return FONT_DISPLAY.get(int(weight), "FixelDisplay")
-    if fam.startswith("Fixel Text"):
-        return FONT_TEXT.get(int(weight), "FixelText")
-    return None  # IPA and system roles use the platform font
+    if fam in SYSTEM_FAMILIES:
+        return None
+    suffix = WEIGHT_SUFFIX.get(int(weight), "")
+    return fam.replace(" ", "") + suffix
+
+
+def text_alias(t: "Tokens", weight: int) -> str:
+    return font_alias(t.resolve(t.node("typography.fontFamily.text")["$value"]), weight) or "sans-serif"
 
 
 def theme_binding(key: str) -> str:
@@ -394,13 +399,13 @@ def emit_styles_xaml(t: Tokens) -> str:
         '        <Setter Property="Shell.NavBarHasShadow" Value="False" />',
         "    </Style>",
         '    <Style TargetType="Label">',
-        '        <Setter Property="FontFamily" Value="FixelText" />',
+        f'        <Setter Property="FontFamily" Value="{text_alias(t, 400)}" />',
         f'        <Setter Property="FontSize" Value="{body_size}" />',
         '        <Setter Property="FontAutoScalingEnabled" Value="True" />',
         f'        <Setter Property="TextColor" Value="{theme_binding("TextPrimary")}" />',
         "    </Style>",
         '    <Style x:Key="ButtonPrimary" TargetType="Button">',
-        '        <Setter Property="FontFamily" Value="FixelTextSemiBold" />',
+        f'        <Setter Property="FontFamily" Value="{text_alias(t, 600)}" />',
         f'        <Setter Property="FontSize" Value="{body_size}" />',
         f'        <Setter Property="TextColor" Value="{theme_binding("BrandOnPrimary")}" />',
         f'        <Setter Property="BackgroundColor" Value="{theme_binding("BrandPrimary")}" />',
@@ -434,7 +439,7 @@ def emit_styles_xaml(t: Tokens) -> str:
         '        <Setter Property="BorderWidth" Value="{StaticResource BorderWidthHairline}" />',
         "    </Style>",
         '    <Style TargetType="Entry">',
-        '        <Setter Property="FontFamily" Value="FixelText" />',
+        f'        <Setter Property="FontFamily" Value="{text_alias(t, 400)}" />',
         f'        <Setter Property="FontSize" Value="{body_size}" />',
         f'        <Setter Property="TextColor" Value="{theme_binding("TextPrimary")}" />',
         f'        <Setter Property="PlaceholderColor" Value="{theme_binding("TextTertiary")}" />',
@@ -536,7 +541,7 @@ def emit_swift(t: Tokens) -> str:
     L += ["    }", "", "    public struct TextStyle: Sendable { public let family: String?; public let size: Double; public let lineHeight: Double; public let weight: Int; public let tracking: Double }", "", "    public enum Type {"]
     for role, sz, spec in t.type_roles():
         fam = spec["fontFamily"][0] if isinstance(spec["fontFamily"], list) else spec["fontFamily"]
-        family = "nil" if not str(fam).startswith("Fixel") else f'"{fam}"'
+        family = "nil" if str(fam) in SYSTEM_FAMILIES else f'"{fam}"'
         L.append(
             f"        public static let {role}{pascal(sz)} = TextStyle(family: {family}, size: {fmt_num(parse_pt(spec['fontSize']))}, "
             f"lineHeight: {fmt_num(parse_pt(spec['lineHeight']))}, weight: {int(spec['fontWeight'])}, tracking: {fmt_num(parse_pt(spec.get('letterSpacing', '0em')))})"

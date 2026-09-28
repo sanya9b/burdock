@@ -11,6 +11,13 @@ public partial class App : Microsoft.Maui.Controls.Application
         InitializeComponent();
     }
 
-    // The Shell is resolved here, after InitializeComponent merged the token dictionaries: AppShell.xaml uses StaticResource for its tab icons.
-    protected override Window CreateWindow(IActivationState? activationState) => new(_services.GetRequiredService<AppShell>());
+    // S-01: the window opens on the animated bootstrap page, which hands over to the Shell once the content is ready.
+    // Resolving pages here (after InitializeComponent) matters: their XAML uses StaticResource from the merged token dictionaries.
+    protected override Window CreateWindow(IActivationState? activationState)
+    {
+#if !ANDROID
+        Services.SystemSplash.MarkDismissed();
+#endif
+        return new Window(_services.GetRequiredService<Views.BootstrapPage>());
+    }
 }

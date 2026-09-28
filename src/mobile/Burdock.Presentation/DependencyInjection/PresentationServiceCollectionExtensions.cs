@@ -15,6 +15,11 @@ public static class PresentationServiceCollectionExtensions
         services.AddSingleton<AppShell>();
         services.AddSingleton<INavigationService, ShellNavigationService>();
         services.AddSingleton<ISpeechService, MauiSpeechService>();
+        services.AddSingleton<IMotionPreferences, MotionPreferences>();
+        services.AddSingleton<ISystemSplash, SystemSplash>();
+
+        services.AddTransient<BootstrapViewModel>();
+        services.AddTransient<BootstrapPage>();
 
         services.AddTransient<TodayViewModel>();
         services.AddTransient<TodayPage>();

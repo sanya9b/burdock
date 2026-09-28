@@ -111,7 +111,7 @@
     </Style>
     <Style x:Key="StatTile" TargetType="Border" BasedOn="{StaticResource CardElevated}">
         <Setter Property="Shadow" Value="{StaticResource ShadowElevation1}" />
-        <Setter Property="Padding" Value="{StaticResource Space4}" />
+        <Setter Property="Padding" Value="{StaticResource Space3}" />
     </Style>
 
     <!-- ===== Chips ===== -->
@@ -163,7 +163,7 @@
         <Setter Property="EdgeHeight" Value="{StaticResource SizePushButtonEdge}" />
         <Setter Property="HeightRequest" Value="{StaticResource SizePushButtonHeight}" />
         <Setter Property="CornerRadius" Value="{StaticResource RadiusFull}" />
-        <Setter Property="FontFamily" Value="FixelTextBold" />
+        <Setter Property="FontFamily" Value="RubikBold" />
         <Setter Property="FontSize" Value="{StaticResource FontSizeLabelLg}" />
         <Setter Property="IconSize" Value="{StaticResource SizeIconMd}" />
         <Setter Property="IconSpacing" Value="{StaticResource Space2}" />
@@ -208,7 +208,7 @@
     <!-- QuizOption / MatchPair: relief tiles with the quiz.* state colours (never colour-only: text changes too). -->
     <Style x:Key="QuizOption" TargetType="controls:PushButton" BasedOn="{StaticResource PushNeutral}">
         <Setter Property="CornerRadius" Value="{StaticResource RadiusLg}" />
-        <Setter Property="FontFamily" Value="FixelTextSemiBold" />
+        <Setter Property="FontFamily" Value="RubikSemiBold" />
         <Setter Property="FontSize" Value="{StaticResource FontSizeBodyLg}" />
         <Setter Property="HorizontalOptions" Value="Fill" />
         <Style.Triggers>
@@ -221,7 +221,7 @@
                 <Setter Property="FaceColor" Value="{AppThemeBinding Light={StaticResource ColorQuizCorrectContainerLight}, Dark={StaticResource ColorQuizCorrectContainerDark}}" />
                 <Setter Property="EdgeColor" Value="{AppThemeBinding Light={StaticResource ColorQuizCorrectBorderLight}, Dark={StaticResource ColorQuizCorrectBorderDark}}" />
                 <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorQuizCorrectLight}, Dark={StaticResource ColorQuizCorrectDark}}" />
-                <Setter Property="FontFamily" Value="FixelTextBold" />
+                <Setter Property="FontFamily" Value="RubikBold" />
             </DataTrigger>
             <DataTrigger TargetType="controls:PushButton" Binding="{Binding Visual, x:DataType=vm:OptionViewModel}" Value="{x:Static vm:OptionVisual.Incorrect}">
                 <Setter Property="FaceColor" Value="{AppThemeBinding Light={StaticResource ColorQuizIncorrectContainerLight}, Dark={StaticResource ColorQuizIncorrectContainerDark}}" />

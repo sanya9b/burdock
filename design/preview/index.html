@@ -6,15 +6,9 @@
 <title>Реп’ях — прев’ю дизайн-системи</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&family=Unbounded:wght@600;700;800&display=swap" rel="stylesheet">
 <style>
-/* Fixel (MacPaw, OFL 1.1) з jsDelivr; шляхи перевірено HTTP 200 2026-09-27. Без мережі — Inter/системний. */
-@font-face{font-family:"Fixel Text";font-weight:400;font-display:swap;src:url(https://cdn.jsdelivr.net/gh/MacPaw/Fixel@main/fonts/webfonts/FixelText-Regular.woff2) format("woff2")}
-@font-face{font-family:"Fixel Text";font-weight:500;font-display:swap;src:url(https://cdn.jsdelivr.net/gh/MacPaw/Fixel@main/fonts/webfonts/FixelText-Medium.woff2) format("woff2")}
-@font-face{font-family:"Fixel Text";font-weight:600;font-display:swap;src:url(https://cdn.jsdelivr.net/gh/MacPaw/Fixel@main/fonts/webfonts/FixelText-SemiBold.woff2) format("woff2")}
-@font-face{font-family:"Fixel Text";font-weight:700;font-display:swap;src:url(https://cdn.jsdelivr.net/gh/MacPaw/Fixel@main/fonts/webfonts/FixelText-Bold.woff2) format("woff2")}
-@font-face{font-family:"Fixel Display";font-weight:600;font-display:swap;src:url(https://cdn.jsdelivr.net/gh/MacPaw/Fixel@main/fonts/webfonts/FixelDisplay-SemiBold.woff2) format("woff2")}
-@font-face{font-family:"Fixel Display";font-weight:700;font-display:swap;src:url(https://cdn.jsdelivr.net/gh/MacPaw/Fixel@main/fonts/webfonts/FixelDisplay-Bold.woff2) format("woff2")}
+/* Типографіка v2 (ADR 0018): Rubik (текст) + Unbounded (дисплей) з Google Fonts, обидва OFL; без мережі — системний шрифт. */
 
 /* tokens:start — цей блок генерує design/tokens/generate.py --out css; значення = tokens.json */
 :root{
@@ -26,11 +20,11 @@
   --color-primitive-neutral-0:#FFFFFF; --color-primitive-neutral-50:#F7F6FC; --color-primitive-neutral-100:#EDEBF5; --color-primitive-neutral-200:#DBD9E3; --color-primitive-neutral-300:#BAB9C3; --color-primitive-neutral-400:#8C8B95; --color-primitive-neutral-500:#6A6873; --color-primitive-neutral-600:#585661; --color-primitive-neutral-700:#45434E; --color-primitive-neutral-800:#33313B; --color-primitive-neutral-900:#25242D; --color-primitive-neutral-950:#15131F; --color-primitive-neutral-1000:#0C0B14;
   --spacing-1:4px; --spacing-2:8px; --spacing-3:12px; --spacing-4:16px; --spacing-5:20px; --spacing-6:24px; --spacing-7:32px; --spacing-8:40px; --spacing-9:48px; --spacing-10:56px; --spacing-11:64px; --spacing-12:80px;
   --radius-sm:8px; --radius-md:12px; --radius-lg:16px; --radius-xl:24px; --radius-full:999px;
-  --size-touchTargetMin:44px; --size-touchTargetAndroid:48px; --size-contentMaxWidth:640px; --size-icon-sm:16px; --size-icon-md:20px; --size-icon-lg:24px; --size-mascot-xs:32px; --size-mascot-sm:56px; --size-mascot-md:96px; --size-mascot-lg:160px; --size-mascot-xl:240px; --size-progressRing-sm:48px; --size-progressRing-md:96px; --size-progressRing-lg:120px; --size-pushButtonEdge:3px; --size-pushButtonHeight:56px; --size-wordTile-width:168px; --size-wordTile-height:148px;
+  --size-touchTargetMin:44px; --size-touchTargetAndroid:48px; --size-contentMaxWidth:640px; --size-icon-sm:16px; --size-icon-md:20px; --size-icon-lg:24px; --size-mascot-xs:32px; --size-mascot-sm:56px; --size-mascot-md:96px; --size-mascot-lg:160px; --size-mascot-xl:240px; --size-progressRing-sm:48px; --size-progressRing-md:96px; --size-progressRing-lg:120px; --size-pushButtonEdge:3px; --size-pushButtonHeight:56px; --size-wordTile-width:168px; --size-wordTile-height:148px; --size-brandMark-splash:126px;
   --opacity-disabled:0.38; --opacity-muted:0.55; --opacity-heroGlow:0.35;
   --motion-duration-fast:120ms; --motion-duration-base:200ms; --motion-duration-slow:320ms; --motion-duration-celebrate:600ms;
   --motion-easing-standard:cubic-bezier(0.2,0,0,1); --motion-easing-decelerate:cubic-bezier(0,0,0,1); --motion-easing-accelerate:cubic-bezier(0.3,0,1,1); --motion-easing-overshoot:cubic-bezier(0.34,1.56,0.64,1);
-  --typography-fontFamily-text:"Fixel Text",Inter,system-ui,sans-serif; --typography-fontFamily-display:"Fixel Display",Inter,system-ui,sans-serif; --typography-fontFamily-ipa:-apple-system,Roboto,"Noto Sans",sans-serif;
+  --typography-fontFamily-text:Rubik,Inter,system-ui,sans-serif; --typography-fontFamily-display:Unbounded,Rubik,system-ui,sans-serif; --typography-fontFamily-ipa:-apple-system,Roboto,"Noto Sans",sans-serif;
 }
 [data-theme="light"]{
   --color-brand-primary:#6D49EB; --color-brand-primaryEdge:#5137AE; --color-brand-onPrimary:#FFFFFF; --color-brand-primaryVivid:#7C5CFF; --color-brand-primaryContainer:#ECECFF; --color-brand-onPrimaryContainer:#3E2C87; --color-brand-primaryContainerEdge:#D5D4FF; --color-brand-accent:#B4F461; --color-brand-onAccent:#162404; --color-brand-accentText:#4F7700; --color-brand-accentEdge:#689C00;

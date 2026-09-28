@@ -17,13 +17,15 @@ public static class MauiProgram
             .UseMauiCommunityToolkit()
             .ConfigureFonts(fonts =>
             {
-                // Fixel (MacPaw, OFL 1.1): full Ukrainian Cyrillic incl. ґ є ї and the U+2019 apostrophe (T6, spec 02 section 3.4).
-                fonts.AddFont("FixelText-Regular.ttf", "FixelText");
-                fonts.AddFont("FixelText-Medium.ttf", "FixelTextMedium");
-                fonts.AddFont("FixelText-SemiBold.ttf", "FixelTextSemiBold");
-                fonts.AddFont("FixelText-Bold.ttf", "FixelTextBold");
-                fonts.AddFont("FixelDisplay-Bold.ttf", "FixelDisplay");
-                fonts.AddFont("FixelDisplay-ExtraBold.ttf", "FixelDisplayExtraBold");
+                // Type system (ADR 0018): Rubik for text, Unbounded for display; static instances of the OFL variable fonts,
+                // full Ukrainian Cyrillic incl. ґ є ї and U+2019. Aliases are derived by design/tokens/generate.py (family + weight suffix).
+                fonts.AddFont("Rubik-Regular.ttf", "Rubik");
+                fonts.AddFont("Rubik-Medium.ttf", "RubikMedium");
+                fonts.AddFont("Rubik-SemiBold.ttf", "RubikSemiBold");
+                fonts.AddFont("Rubik-Bold.ttf", "RubikBold");
+                fonts.AddFont("Unbounded-SemiBold.ttf", "UnboundedSemiBold");
+                fonts.AddFont("Unbounded-Bold.ttf", "UnboundedBold");
+                fonts.AddFont("Unbounded-ExtraBold.ttf", "UnboundedExtraBold");
                 // Lucide icon font (ISC, lucide-static 1.48.0): glyph constants live in Resources/Icons/Icon.cs (spec 02 section 3.9).
                 fonts.AddFont("Lucide.ttf", "Lucide");
             });
