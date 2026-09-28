@@ -41,9 +41,21 @@ public sealed class FakeSpeechService : ISpeechService
 {
     public List<string> Spoken { get; } = [];
 
+    public PronunciationAccent Accent { get; set; } = PronunciationAccent.American;
+
+    public bool CanOpenSystemVoiceSettings { get; set; } = true;
+
+    public int VoiceSettingsOpened { get; private set; }
+
     public Task SpeakEnglishAsync(string text, CancellationToken cancellationToken)
     {
         Spoken.Add(text);
+        return Task.CompletedTask;
+    }
+
+    public Task OpenSystemVoiceSettingsAsync()
+    {
+        VoiceSettingsOpened++;
         return Task.CompletedTask;
     }
 }

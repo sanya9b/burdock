@@ -274,7 +274,7 @@ static PluralCategory Uk(decimal n)
 - `SemanticProperties.Description` для іконок і кнопок без тексту — мовою інтерфейсу з ресурсів `A11y_*`; `SemanticProperties.Hint` — дія; `SemanticProperties.HeadingLevel` для заголовків; порядок читання перевіряється Accessibility Inspector / TalkBack у CI-знімках і чеклісті релізу.
 - Транскрипція IPA читається погано будь-яким голосом: `SemanticProperties.Description` для IPA-мітки = «Транскрипція» + кнопка «Прослухати» (TTS, T7); IPA виключається з фокусу за замовчуванням.
 - Віджет iOS: слово в `Text` з `AttributedString`, атрибут `languageIdentifier = "en"` (припущення; перевірити у CI-симуляторі), переклад — `uk`.
-- TTS для англійських слів: `TextToSpeech.SpeakAsync` з `Locale` `en-US` або `en-GB` за вибором вимови в налаштуваннях, незалежно від `UiLocale` (06-learning-engine).
+- Озвучення англійських слів: аудіо з пакета контенту для обраного акценту (ADR 0019), інакше системний TTS через `SpeechService`: найкращий встановлений голос `en-US` або `en-GB` (Android — за `Voice.Quality`, офлайн перед мережевими; iOS — Premium → Enhanced), темп 0,85 для окремих слів; вибір вимови зберігається на пристрої (`speech.accent`) незалежно від `UiLocale`; IPA на картках показується для обраного акценту.
 
 ### 3.12 Процес
 

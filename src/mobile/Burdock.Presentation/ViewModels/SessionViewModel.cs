@@ -55,6 +55,7 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
     private readonly INavigationService _navigation;
     private readonly IIdGenerator _ids;
     private readonly IClock _clock;
+    private readonly ISpeechService _speech;
     private readonly ILogger<SessionViewModel> _logger;
     private readonly Stopwatch _stopwatch = new();
     private readonly List<SessionItem> _items = [];
@@ -153,13 +154,14 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
     [ObservableProperty]
     private bool _lastAnswerCorrect;
 
-    public SessionViewModel(BuildSessionUseCase buildSession, GradeAnswerUseCase gradeAnswer, INavigationService navigation, IIdGenerator ids, IClock clock, ILogger<SessionViewModel> logger)
+    public SessionViewModel(BuildSessionUseCase buildSession, GradeAnswerUseCase gradeAnswer, INavigationService navigation, IIdGenerator ids, IClock clock, ISpeechService speech, ILogger<SessionViewModel> logger)
     {
         _buildSession = buildSession ?? throw new ArgumentNullException(nameof(buildSession));
         _gradeAnswer = gradeAnswer ?? throw new ArgumentNullException(nameof(gradeAnswer));
         _navigation = navigation ?? throw new ArgumentNullException(nameof(navigation));
         _ids = ids ?? throw new ArgumentNullException(nameof(ids));
         _clock = clock ?? throw new ArgumentNullException(nameof(clock));
+        _speech = speech ?? throw new ArgumentNullException(nameof(speech));
         _logger = logger ?? throw new ArgumentNullException(nameof(logger));
     }
 
@@ -248,7 +250,7 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
             case ChoiceItem choice:
                 Prompt = choice.Mode == ExerciseMode.ChoiceTargetToNative ? AppResources.Session_Choice_TargetToNative_Prompt : AppResources.Session_Choice_NativeToTarget_Prompt;
                 Stimulus = choice.Prompt;
-                StimulusSecondary = choice.Mode == ExerciseMode.ChoiceTargetToNative ? choice.Entry.IpaGeneralAmerican ?? string.Empty : string.Empty;
+                StimulusSecondary = choice.Mode == ExerciseMode.ChoiceTargetToNative ? Localization.Pronunciation.PreferredIpa(choice.Entry, _speech.Accent) : string.Empty;
                 for (var i = 0; i < choice.Options.Count; i++)
                 {
                     Options.Add(new OptionViewModel(choice.Options[i], i, isWord: false));

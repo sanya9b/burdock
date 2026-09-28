@@ -90,6 +90,29 @@ public sealed class WordCardViewModelTests
     }
 
     [Fact]
+    public async Task The_transcription_follows_the_pronunciation_accent()
+    {
+        var harness = await new ViewModelHarness().WithImportedWordsAsync(4);
+        harness.Speech.Accent = PronunciationAccent.British;
+        var vm = harness.Resolve<WordCardViewModel>();
+        vm.ApplyQueryAttributes(new Dictionary<string, object>(StringComparer.Ordinal) { ["id"] = ViewModelHarness.Word(4).Id.Value.ToString("D") });
+
+        await vm.LoadAsync(Ct);
+
+        vm.Ipa.ShouldBe("/wɜːd4/");
+    }
+
+    [Fact]
+    public async Task Speak_example_reads_the_whole_sentence()
+    {
+        var (harness, vm) = await OpenAsync(5);
+
+        await vm.SpeakExampleCommand.ExecuteAsync(null);
+
+        harness.Speech.Spoken.ShouldBe(["Example with word5 inside."]);
+    }
+
+    [Fact]
     public async Task Speak_reads_the_lemma_in_english()
     {
         var (harness, vm) = await OpenAsync(5);

@@ -12,4 +12,14 @@ public sealed partial class NotificationPrompt
 {
     private static partial Task<bool> PlatformRequestAsync(CancellationToken cancellationToken) => Task.FromResult(false);
 }
+
+public sealed partial class SpeechService
+{
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822:Mark members as static", Justification = "Implements the instance partial method the platform heads rely on.")]
+    private partial Task PlatformSpeakAsync(string text, string country, float rate, CancellationToken cancellationToken) => Task.CompletedTask;
+
+    private static partial bool PlatformSupportsVoiceSettings() => false;
+
+    private static partial Task PlatformOpenVoiceSettingsAsync() => Task.CompletedTask;
+}
 #endif

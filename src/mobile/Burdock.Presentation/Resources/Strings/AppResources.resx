@@ -99,6 +99,7 @@
   <data name="Word_Reveal_Button" xml:space="preserve"><value>Показати переклад</value></data>
   <data name="Word_Reveal_Hint" xml:space="preserve"><value>Спробуй згадати переклад</value></data>
   <data name="Word_Speak_Button" xml:space="preserve"><value>Озвучити</value></data>
+  <data name="Word_Speak_Example_Button" xml:space="preserve"><value>Озвучити приклад</value></data>
   <data name="Word_Example_Heading" xml:space="preserve"><value>Приклад</value></data>
   <data name="Word_AlsoMeans_Heading" xml:space="preserve"><value>Також означає</value></data>
   <data name="Word_Know_Button" xml:space="preserve"><value>Знаю</value></data>
@@ -252,6 +253,14 @@
   <data name="Settings_Theme_System" xml:space="preserve"><value>Системна</value></data>
   <data name="Settings_Theme_Light" xml:space="preserve"><value>Світла</value></data>
   <data name="Settings_Theme_Dark" xml:space="preserve"><value>Темна</value></data>
+  <data name="Settings_Pronunciation_Title" xml:space="preserve"><value>Вимова</value></data>
+  <data name="Settings_Pronunciation_American" xml:space="preserve"><value>Американська · GA</value></data>
+  <data name="Settings_Pronunciation_British" xml:space="preserve"><value>Британська · RP</value></data>
+  <data name="Settings_Voice_Hint" xml:space="preserve"><value>Голос звучить погано? Кращі голоси завантажуються в системних налаштуваннях мовлення</value></data>
+  <data name="Settings_Voice_Hint_NoLink" xml:space="preserve"><value>Голос звучить погано? Кращі голоси: Параметри → Доступність → Промовлений контент → Голоси</value></data>
+  <data name="Settings_Voice_Test_Button" xml:space="preserve"><value>Послухати</value></data>
+  <data name="Settings_Voice_Open_Button" xml:space="preserve"><value>Системні налаштування голосу</value></data>
+  <data name="Settings_Voice_SampleWord" xml:space="preserve"><value>burdock</value></data>
   <data name="Settings_Gamification_Title" xml:space="preserve"><value>Без гейміфікації</value></data>
   <data name="Settings_Gamification_Hint" xml:space="preserve"><value>Приховує серію, колючки й нагороди</value></data>
   <data name="Settings_Saved_Toast" xml:space="preserve"><value>Збережено</value></data>

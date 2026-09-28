@@ -110,16 +110,20 @@
 
                         <VerticalStackLayout Spacing="{StaticResource Space1}" IsVisible="{Binding HasExample}">
                             <Label Text="{x:Static strings:AppResources.Word_Example_Heading}" Style="{StaticResource Eyebrow}" />
-                            <Label Style="{StaticResource TypeBodyLg}">
-                                <Label.FormattedText>
-                                    <FormattedString>
-                                        <Span Text="{Binding ExampleBefore}" />
-                                        <Span Text="{Binding ExampleMatch}" FontFamily="RubikBold"
-                                              TextColor="{AppThemeBinding Light={StaticResource ColorTextLinkLight}, Dark={StaticResource ColorTextLinkDark}}" />
-                                        <Span Text="{Binding ExampleAfter}" />
-                                    </FormattedString>
-                                </Label.FormattedText>
-                            </Label>
+                            <Grid ColumnDefinitions="*,Auto" ColumnSpacing="{StaticResource Space2}">
+                                <Label Grid.Column="0" Style="{StaticResource TypeBodyLg}" VerticalOptions="Center">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="{Binding ExampleBefore}" />
+                                            <Span Text="{Binding ExampleMatch}" FontFamily="RubikBold"
+                                                  TextColor="{AppThemeBinding Light={StaticResource ColorTextLinkLight}, Dark={StaticResource ColorTextLinkDark}}" />
+                                            <Span Text="{Binding ExampleAfter}" />
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                                <controls:PushButton Grid.Column="1" Style="{StaticResource PushIcon}" Icon="{x:Static icons:Icon.Volume2}" Command="{Binding SpeakExampleCommand}" VerticalOptions="Start"
+                                                     SemanticProperties.Description="{x:Static strings:AppResources.Word_Speak_Example_Button}" />
+                            </Grid>
                             <Label Text="{Binding ExampleNative}" Style="{StaticResource TextSecondary}" IsVisible="{Binding TranslationRevealed}" />
                         </VerticalStackLayout>
                     </VerticalStackLayout>

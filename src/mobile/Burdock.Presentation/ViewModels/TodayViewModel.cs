@@ -137,7 +137,7 @@ public sealed partial class TodayViewModel : ObservableObject
             More.Clear();
             foreach (var word in plan.Words)
             {
-                Words.Add(ToTile(word));
+                Words.Add(ToTile(word, _speech.Accent));
             }
 
             Hero = Words.Count > 0 ? Words[0] : null;
@@ -187,7 +187,7 @@ public sealed partial class TodayViewModel : ObservableObject
     private Task StartSessionAsync()
         => _navigation.GoToAsync(Routes.Learn.Session, new Dictionary<string, object>(StringComparer.Ordinal) { ["size"] = "10" });
 
-    private static WordTile ToTile(PlannedWord word)
+    private static WordTile ToTile(PlannedWord word, PronunciationAccent accent)
     {
         var entry = word.Entry;
         var topic = entry.Lexeme.Topics.Count > 0 ? entry.Lexeme.Topics[0].Slug : string.Empty;
@@ -195,7 +195,7 @@ public sealed partial class TodayViewModel : ObservableObject
             entry.Id.Value,
             entry.Lexeme.Lemma,
             entry.Translation,
-            entry.IpaGeneralAmerican ?? entry.IpaReceivedPronunciation ?? string.Empty,
+            Localization.Pronunciation.PreferredIpa(entry, accent),
             topic,
             ReasonLabel(word.Reason),
             word.Reason.ToString(),

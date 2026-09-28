@@ -104,7 +104,7 @@ public sealed class ViewModelHarness
         n % 4 == 0 ? ["варіант"] : [],
         [$"word{n}"],
         $"/wɜrd{n}/",
-        null,
+        $"/wɜːd{n}/",
         $"Example with word{n} inside.",
         $"Приклад {n}.");
 

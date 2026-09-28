@@ -29,6 +29,7 @@ public sealed partial class SettingsViewModel : ObservableObject
     private readonly UpdateLearnerSettingsUseCase _updateSettings;
     private readonly IAppThemeService _theme;
     private readonly IToastService _toast;
+    private readonly ISpeechService _speech;
     private readonly ILogger<SettingsViewModel> _logger;
     private LearnerSettings? _current;
     private bool _loading;
@@ -58,12 +59,13 @@ public sealed partial class SettingsViewModel : ObservableObject
     [ObservableProperty]
     private bool _gamificationOff;
 
-    public SettingsViewModel(GetLearnerSettingsUseCase getSettings, UpdateLearnerSettingsUseCase updateSettings, IAppThemeService theme, IToastService toast, ILogger<SettingsViewModel> logger)
+    public SettingsViewModel(GetLearnerSettingsUseCase getSettings, UpdateLearnerSettingsUseCase updateSettings, IAppThemeService theme, IToastService toast, ISpeechService speech, ILogger<SettingsViewModel> logger)
     {
         _getSettings = getSettings ?? throw new ArgumentNullException(nameof(getSettings));
         _updateSettings = updateSettings ?? throw new ArgumentNullException(nameof(updateSettings));
         _theme = theme ?? throw new ArgumentNullException(nameof(theme));
         _toast = toast ?? throw new ArgumentNullException(nameof(toast));
+        _speech = speech ?? throw new ArgumentNullException(nameof(speech));
         _logger = logger ?? throw new ArgumentNullException(nameof(logger));
 
         foreach (var minutes in RotationCadence.PresetMinutes)
@@ -85,6 +87,9 @@ public sealed partial class SettingsViewModel : ObservableObject
         RetentionChips.Add(new ChipOption(nameof(RetentionPreset.Standard), AppResources.Settings_Retention_Standard, RetentionPreset.Standard));
         RetentionChips.Add(new ChipOption(nameof(RetentionPreset.Maximum), AppResources.Settings_Retention_Max, RetentionPreset.Maximum));
 
+        PronunciationChips.Add(new ChipOption(nameof(PronunciationAccent.American), AppResources.Settings_Pronunciation_American, PronunciationAccent.American));
+        PronunciationChips.Add(new ChipOption(nameof(PronunciationAccent.British), AppResources.Settings_Pronunciation_British, PronunciationAccent.British));
+
         ThemeChips.Add(new ChipOption(nameof(AppThemeMode.System), AppResources.Settings_Theme_System, AppThemeMode.System));
         ThemeChips.Add(new ChipOption(nameof(AppThemeMode.Light), AppResources.Settings_Theme_Light, AppThemeMode.Light));
         ThemeChips.Add(new ChipOption(nameof(AppThemeMode.Dark), AppResources.Settings_Theme_Dark, AppThemeMode.Dark));
@@ -99,6 +104,13 @@ public sealed partial class SettingsViewModel : ObservableObject
     public ObservableCollection<ChipOption> RetentionChips { get; } = [];
 
     public ObservableCollection<ChipOption> ThemeChips { get; } = [];
+
+    public ObservableCollection<ChipOption> PronunciationChips { get; } = [];
+
+    /// <summary>Android opens the system voice settings; iOS has no such link, so the hint spells out the path.</summary>
+    public bool CanOpenVoiceSettings => _speech.CanOpenSystemVoiceSettings;
+
+    public string VoiceHint => _speech.CanOpenSystemVoiceSettings ? AppResources.Settings_Voice_Hint : AppResources.Settings_Voice_Hint_NoLink;
 
     [RelayCommand(AllowConcurrentExecutions = false)]
     public async Task LoadAsync(CancellationToken cancellationToken)
@@ -119,6 +131,7 @@ public sealed partial class SettingsViewModel : ObservableObject
             SelectSingle(LevelChips, chip => chip.Value is CefrLevel l && l == settings.Level);
             SelectSingle(RetentionChips, chip => chip.Value is RetentionPreset r && r == settings.Retention);
             SelectSingle(ThemeChips, chip => chip.Value is AppThemeMode mode && mode == _theme.Mode);
+            SelectSingle(PronunciationChips, chip => chip.Value is PronunciationAccent accent && accent == _speech.Accent);
             foreach (var chip in TopicChips)
             {
                 chip.IsSelected = chip.Value is TopicId topic && settings.Topics.Contains(topic);
@@ -184,6 +197,26 @@ public sealed partial class SettingsViewModel : ObservableObject
             _theme.Apply(mode);
         }
     }
+
+    /// <summary>Accent is a device preference, not a synced learner setting; the sample word confirms the new voice at once.</summary>
+    [RelayCommand]
+    private Task SelectPronunciationAsync(ChipOption option)
+    {
+        ArgumentNullException.ThrowIfNull(option);
+        SelectSingle(PronunciationChips, chip => ReferenceEquals(chip, option));
+        if (option.Value is PronunciationAccent accent)
+        {
+            _speech.Accent = accent;
+        }
+
+        return _speech.SpeakEnglishAsync(AppResources.Settings_Voice_SampleWord, CancellationToken.None);
+    }
+
+    [RelayCommand]
+    private Task TestVoiceAsync(CancellationToken cancellationToken) => _speech.SpeakEnglishAsync(AppResources.Settings_Voice_SampleWord, cancellationToken);
+
+    [RelayCommand]
+    private Task OpenVoiceSettingsAsync() => _speech.OpenSystemVoiceSettingsAsync();
 
     partial void OnExposuresPerWordChanged(int value) => ScheduleSave();
 

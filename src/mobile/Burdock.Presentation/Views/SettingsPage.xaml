@@ -96,6 +96,19 @@
                                 <Label Text="{x:Static strings:AppResources.Settings_Retention_Title}" Style="{StaticResource TypeTitleMd}" />
                                 <controls:ChipBar Items="{Binding RetentionChips}" SelectCommand="{Binding SelectRetentionCommand}" Wrap="True" />
                             </VerticalStackLayout>
+                            <BoxView Style="{StaticResource Divider}" />
+                            <!-- Вимова (spec 12 §3.9, ADR 0019): accent for the voice and the IPA; better system voices live in the OS settings -->
+                            <VerticalStackLayout Spacing="{StaticResource Space3}">
+                                <Label Text="{x:Static strings:AppResources.Settings_Pronunciation_Title}" Style="{StaticResource TypeTitleMd}" />
+                                <controls:ChipBar Items="{Binding PronunciationChips}" SelectCommand="{Binding SelectPronunciationCommand}" Wrap="True" />
+                                <Label Text="{Binding VoiceHint}" Style="{StaticResource TextTertiary}" />
+                                <controls:PushButton Style="{StaticResource PushTonal}" HeightRequest="{StaticResource SizeTouchTargetMin}" Text="{x:Static strings:AppResources.Settings_Voice_Test_Button}" Icon="{x:Static icons:Icon.Volume2}" Command="{Binding TestVoiceCommand}" />
+                                <Label Text="{x:Static strings:AppResources.Settings_Voice_Open_Button}" Style="{StaticResource TextLink}" HorizontalOptions="Center" IsVisible="{Binding CanOpenVoiceSettings}">
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding OpenVoiceSettingsCommand}" />
+                                    </Label.GestureRecognizers>
+                                </Label>
+                            </VerticalStackLayout>
                         </VerticalStackLayout>
                     </Border>
                 </VerticalStackLayout>

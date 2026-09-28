@@ -25,6 +25,7 @@ public sealed partial class WordCardViewModel : ObservableObject, IQueryAttribut
     private readonly ISpeechService _speech;
     private readonly ILogger<WordCardViewModel> _logger;
     private LexemeId? _lexemeId;
+    private string _exampleText = string.Empty;
 
     [ObservableProperty]
     private ViewState _state = ViewState.Loading;
@@ -131,13 +132,14 @@ public sealed partial class WordCardViewModel : ObservableObject, IQueryAttribut
             var view = result.Value;
             var entry = view.Entry;
             Lemma = entry.Lexeme.Lemma;
-            Ipa = entry.IpaGeneralAmerican ?? entry.IpaReceivedPronunciation ?? string.Empty;
+            Ipa = Localization.Pronunciation.PreferredIpa(entry, _speech.Accent);
             PartOfSpeech = PartOfSpeechLabel(entry.Lexeme.PartOfSpeech);
             TopicKey = entry.Lexeme.Topics.Count > 0 ? entry.Lexeme.Topics[0].Slug : string.Empty;
             Translation = entry.Translation;
             AlsoMeans = string.Join(", ", entry.AlternativeTranslations);
             HasAlsoMeans = AlsoMeans.Length > 0;
             var example = entry.ExampleTarget ?? string.Empty;
+            _exampleText = example;
             (ExampleBefore, ExampleMatch, ExampleAfter) = Highlight(example, entry.Lexeme.Lemma, entry.AcceptedForms);
             ExampleNative = entry.ExampleNative ?? string.Empty;
             HasExample = example.Length > 0;
@@ -166,6 +168,11 @@ public sealed partial class WordCardViewModel : ObservableObject, IQueryAttribut
 
     [RelayCommand]
     private Task SpeakAsync(CancellationToken cancellationToken) => _speech.SpeakEnglishAsync(Lemma, cancellationToken);
+
+    /// <summary>The example sentence read aloud: a word in context is pronounced far more naturally than in isolation.</summary>
+    [RelayCommand]
+    private Task SpeakExampleAsync(CancellationToken cancellationToken)
+        => HasExample ? _speech.SpeakEnglishAsync(_exampleText, cancellationToken) : Task.CompletedTask;
 
     [RelayCommand]
     private async Task KnowAsync(CancellationToken cancellationToken)
@@ -242,8 +249,22 @@ public sealed partial class WordCardViewModel : ObservableObject, IQueryAttribut
     private partial void LogLoadFailed(Exception exception);
 }
 
-/// <summary>System text-to-speech (T7: on-device only, English voice).</summary>
+/// <summary>Pronunciation variety for spoken words and the IPA shown next to them (spec 12: GA by default, RP by choice).</summary>
+public enum PronunciationAccent
+{
+    American,
+    British,
+}
+
+/// <summary>English speech on the device (T7 as amended by ADR 0019): the best installed voice of the chosen accent; the choice persists on the device.</summary>
 public interface ISpeechService
 {
+    PronunciationAccent Accent { get; set; }
+
+    /// <summary>True where the app can open the system voice settings (Android); elsewhere the settings screen shows a text hint.</summary>
+    bool CanOpenSystemVoiceSettings { get; }
+
     Task SpeakEnglishAsync(string text, CancellationToken cancellationToken);
+
+    Task OpenSystemVoiceSettingsAsync();
 }
