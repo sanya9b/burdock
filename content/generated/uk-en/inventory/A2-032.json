@@ -1,0 +1,406 @@
+{
+ "chunk": "A2-032",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "e84fce26-bcb2-578a-b4e4-c06336cd1733",
+   "lemma": "sweater",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sweater"
+   ]
+  },
+  {
+   "id": "46e3d289-ba08-586e-a905-a3c47ed44d95",
+   "lemma": "sweet",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sweet"
+   ]
+  },
+  {
+   "id": "f26e0c2f-bf12-5ec5-9488-4c4aac5f6ee9",
+   "lemma": "sweetheart",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sweetheart"
+   ]
+  },
+  {
+   "id": "eb17f3d9-d7c8-5d73-9ad5-38d082377f44",
+   "lemma": "swimming costume",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "swimming costume"
+   ]
+  },
+  {
+   "id": "6a5a40ae-fad3-5157-9bb4-919418a94d18",
+   "lemma": "swimsuit",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "swimsuit"
+   ]
+  },
+  {
+   "id": "90cb6306-2413-5a37-8db3-aea4b118e757",
+   "lemma": "symbol",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "symbol"
+   ]
+  },
+  {
+   "id": "cf9efad6-0c85-53e2-bb2c-71875407f6bf",
+   "lemma": "symphony",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "symphony"
+   ]
+  },
+  {
+   "id": "8a6bf874-71ce-58f9-95c5-b70cca0e7549",
+   "lemma": "system",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "system"
+   ]
+  },
+  {
+   "id": "dd88b944-d823-581a-87d9-72ff0527e2f7",
+   "lemma": "table tennis",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "table tennis"
+   ]
+  },
+  {
+   "id": "fb021b2c-360c-597b-9978-bad0614a55a5",
+   "lemma": "tablespoon",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tablespoon"
+   ]
+  },
+  {
+   "id": "1e7c0485-89b6-523b-9ec1-52e706dc1336",
+   "lemma": "talent",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "talent"
+   ]
+  },
+  {
+   "id": "621c3157-d2f1-5af9-a0cb-32c0b861be53",
+   "lemma": "tap",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tap"
+   ]
+  },
+  {
+   "id": "9bdb87c3-987e-5668-940e-16f5983c9536",
+   "lemma": "tape",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tape"
+   ]
+  },
+  {
+   "id": "cd3eef1b-6f64-5a8e-832c-fdf26593e181",
+   "lemma": "target",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "target"
+   ]
+  },
+  {
+   "id": "21fdf7a2-18c7-5f09-b7bc-68100644e9b6",
+   "lemma": "task",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "task"
+   ]
+  },
+  {
+   "id": "c143664a-35b8-5298-9389-6f34a02693bb",
+   "lemma": "tear",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tear"
+   ]
+  },
+  {
+   "id": "862f6b54-39e6-5d97-8954-cbdfd8cdd56e",
+   "lemma": "teenage",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "teenage"
+   ]
+  },
+  {
+   "id": "02727375-8ad9-53d7-acc5-359ccfc7dea3",
+   "lemma": "teenager",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "teenager"
+   ]
+  },
+  {
+   "id": "2832a01d-d43f-5d4c-84c4-3b8a4d4fdb08",
+   "lemma": "telephone",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "telephone"
+   ]
+  },
+  {
+   "id": "8b2f6c97-b173-57da-925c-1178959f75d9",
+   "lemma": "temperature",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "temperature"
+   ]
+  },
+  {
+   "id": "ae3f5b77-b372-5c92-ab98-359ba0807c38",
+   "lemma": "terrify",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "terrify"
+   ]
+  },
+  {
+   "id": "996815ee-b272-540d-b693-4fd12ef7a853",
+   "lemma": "terrorist",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "terrorist"
+   ]
+  },
+  {
+   "id": "e6bb04b3-2847-5f42-b9fe-57a248e6062a",
+   "lemma": "text",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "text"
+   ]
+  },
+  {
+   "id": "92b9c680-af44-519d-a67b-60b5b5d81100",
+   "lemma": "text",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "text"
+   ]
+  },
+  {
+   "id": "c668869c-2293-58b7-a8e5-15275aafc429",
+   "lemma": "text message",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "text message"
+   ]
+  },
+  {
+   "id": "fb8e3e3e-7f23-556b-aba7-75dc3999de35",
+   "lemma": "textbook",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "textbook"
+   ]
+  },
+  {
+   "id": "cb03f9e6-1fb2-5bbb-b088-ba37fa4d8e7f",
+   "lemma": "theirs",
+   "pos": "pronoun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "theirs"
+   ]
+  },
+  {
+   "id": "e873c065-8344-5366-a2e8-e3c70d0fa595",
+   "lemma": "themselves",
+   "pos": "pronoun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "themselves"
+   ]
+  },
+  {
+   "id": "e086821d-0efe-5757-bd31-08bbf76c71ec",
+   "lemma": "therefore",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "therefore"
+   ]
+  },
+  {
+   "id": "46c04c77-e7cd-5299-82ac-e12ae2d698db",
+   "lemma": "thief",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thief"
+   ]
+  },
+  {
+   "id": "d68fdaa0-0054-56af-a4f2-47983f806b0b",
+   "lemma": "third",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "third"
+   ]
+  },
+  {
+   "id": "a4fb8c0c-99bb-50b9-8927-d20145a86284",
+   "lemma": "thirsty",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thirsty"
+   ]
+  },
+  {
+   "id": "78243df3-d221-54cf-bd1c-c0d2c224961b",
+   "lemma": "though",
+   "pos": "conjunction",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "though"
+   ]
+  },
+  {
+   "id": "8770c77e-cf55-5dbf-9e1a-98798e6c9a21",
+   "lemma": "thought",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thought"
+   ]
+  },
+  {
+   "id": "574c40f2-fbb2-58a3-824e-95d2d5d0df5b",
+   "lemma": "thousand",
+   "pos": "numeral",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thousand"
+   ]
+  },
+  {
+   "id": "da5d0090-960b-59f1-8f4d-824186d4ded0",
+   "lemma": "throw",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "throw"
+   ]
+  },
+  {
+   "id": "4cfe67da-1ed1-5cf4-b925-18ea9c833e03",
+   "lemma": "thunderstorm",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thunderstorm"
+   ]
+  },
+  {
+   "id": "42727afe-310f-5eb4-96d8-46b498ac2d9b",
+   "lemma": "tidy",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tidy"
+   ]
+  },
+  {
+   "id": "8042b18e-7102-5503-a950-69ed1d25af57",
+   "lemma": "tidy",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tidy"
+   ]
+  },
+  {
+   "id": "aa64e904-b1e0-5bd9-86cf-2b4f5798b6e4",
+   "lemma": "tie",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tie"
+   ]
+  }
+ ]
+}

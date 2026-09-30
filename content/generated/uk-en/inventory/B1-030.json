@@ -1,0 +1,408 @@
+{
+ "chunk": "B1-030",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "f33d3e75-faf2-5c56-9625-13b167b97a77",
+   "lemma": "interest",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "interest"
+   ]
+  },
+  {
+   "id": "8f4a3a9d-2763-569b-8449-37a71580438c",
+   "lemma": "intermediate",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "intermediate"
+   ]
+  },
+  {
+   "id": "35f2b80c-6448-5708-8450-768d6d8bc466",
+   "lemma": "intermission",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "intermission"
+   ]
+  },
+  {
+   "id": "1708a1cb-4005-5beb-a308-574253bb21b7",
+   "lemma": "internal",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "internal"
+   ]
+  },
+  {
+   "id": "2bd6d990-45dd-50a1-bec2-2a878b8a2207",
+   "lemma": "internationally",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "internationally"
+   ]
+  },
+  {
+   "id": "bb45213d-d167-5a49-807e-d79c7c65b655",
+   "lemma": "interrupt",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "interrupt"
+   ]
+  },
+  {
+   "id": "24b817bf-0117-5f26-b9b7-2dcb681a7a4c",
+   "lemma": "interval",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "interval"
+   ]
+  },
+  {
+   "id": "c57e45d4-0f32-519a-8303-a7bda08bdfb8",
+   "lemma": "interview",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "interview"
+   ]
+  },
+  {
+   "id": "ef32ccc2-daa2-5aa6-80f5-6011750a729b",
+   "lemma": "interviewee",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "interviewee"
+   ]
+  },
+  {
+   "id": "c872f42d-8365-500f-a72f-78ef0a831d1a",
+   "lemma": "introduction",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "introduction"
+   ]
+  },
+  {
+   "id": "ed6ece65-ad84-55bc-a426-892bc9a00695",
+   "lemma": "invasion",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "invasion"
+   ]
+  },
+  {
+   "id": "a073b738-ad4c-51f5-ad62-d068c8bca226",
+   "lemma": "invest",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "invest"
+   ]
+  },
+  {
+   "id": "41266240-35bf-5d81-b7aa-69959bbdca4c",
+   "lemma": "investigation",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "investigation"
+   ]
+  },
+  {
+   "id": "d95584a0-1d7f-58f3-99f8-4f40cfca17b8",
+   "lemma": "invitation",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "invitation"
+   ]
+  },
+  {
+   "id": "a10bdac6-3287-50df-9632-51cff6ff940e",
+   "lemma": "involuntarily",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "involuntarily"
+   ]
+  },
+  {
+   "id": "55412270-a7d6-54a0-8a77-676ba1e6aa1b",
+   "lemma": "involve",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "involve"
+   ]
+  },
+  {
+   "id": "666e2bd2-66f0-51c4-8179-9e98ccdb9fcf",
+   "lemma": "involved",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "involved"
+   ]
+  },
+  {
+   "id": "d99ced9e-ec98-5d37-9b38-5bcc75a89ebd",
+   "lemma": "iron",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "iron"
+   ]
+  },
+  {
+   "id": "c5a2406e-2a22-57de-ac3b-cf03b8eef0e9",
+   "lemma": "iron",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "iron"
+   ]
+  },
+  {
+   "id": "8e6d8a07-5796-5dbe-8594-a87173600a93",
+   "lemma": "ironing",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ironing"
+   ]
+  },
+  {
+   "id": "93ba420f-ded7-578f-953a-946f97eff824",
+   "lemma": "irregular",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "irregular"
+   ]
+  },
+  {
+   "id": "f78a8dc2-0cc2-5b9b-b9a9-f5efcbe1a833",
+   "lemma": "irritate",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "irritate"
+   ]
+  },
+  {
+   "id": "6bab9614-9317-562d-a412-d40aa98746e3",
+   "lemma": "isle",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "isle"
+   ]
+  },
+  {
+   "id": "0889dbb2-1e90-57ae-afb1-a0ae5faf47de",
+   "lemma": "isolation",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "isolation"
+   ]
+  },
+  {
+   "id": "8a0de817-dded-551d-af73-9780dcab36a8",
+   "lemma": "ivory",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ivory"
+   ]
+  },
+  {
+   "id": "2bee6a97-f786-5a13-99c0-57b05a49923f",
+   "lemma": "jade",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "jade"
+   ]
+  },
+  {
+   "id": "8a1089d2-429e-5912-bcf0-0f2142c18b5a",
+   "lemma": "jail",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "jail",
+    "gaol"
+   ]
+  },
+  {
+   "id": "91897383-3584-58fe-8c57-be68783234d8",
+   "lemma": "jar",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "jar"
+   ]
+  },
+  {
+   "id": "67c80782-d19b-5de2-9724-91d608f2d9b8",
+   "lemma": "jazz",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "jazz"
+   ]
+  },
+  {
+   "id": "e2cd8204-8da6-5cdf-a3af-dffa86b1f09a",
+   "lemma": "jealous",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "jealous"
+   ]
+  },
+  {
+   "id": "0cdadbb9-80ae-543b-8bf5-03b2a6ef3ea8",
+   "lemma": "jewel",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "jewel"
+   ]
+  },
+  {
+   "id": "10331b3a-f2a1-5f8c-9f6c-382d42db47a9",
+   "lemma": "jog",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "jog"
+   ]
+  },
+  {
+   "id": "a6ce4ccc-2131-555e-9d2c-fe305ca7c87a",
+   "lemma": "jogging",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "jogging"
+   ]
+  },
+  {
+   "id": "142ad37b-764f-535d-b211-98607c7ba80c",
+   "lemma": "joint",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "joint"
+   ]
+  },
+  {
+   "id": "c5d9eb40-c1d2-5cc1-bba6-338ae9e1ef3f",
+   "lemma": "joke",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "joke"
+   ]
+  },
+  {
+   "id": "3ad74cf2-c7bf-5e77-99a2-8d96fbcea1fc",
+   "lemma": "journal",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "journal"
+   ]
+  },
+  {
+   "id": "6826f91a-1146-5d26-9896-554b8ada6221",
+   "lemma": "journalist",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "journalist"
+   ]
+  },
+  {
+   "id": "c938f56b-6ed0-5269-8355-c68435381e99",
+   "lemma": "judge",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "judge"
+   ]
+  },
+  {
+   "id": "940000bf-863b-57c5-ae0d-8cd8a0b83cea",
+   "lemma": "judgment",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "judgment",
+    "judgement"
+   ]
+  },
+  {
+   "id": "6e22ce46-98fc-5b31-87bb-099b54a1ca6a",
+   "lemma": "jug",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "jug"
+   ]
+  }
+ ]
+}

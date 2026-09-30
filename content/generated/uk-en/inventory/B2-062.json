@@ -1,0 +1,406 @@
+{
+ "chunk": "B2-062",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "485bf8d7-0937-5c54-968c-89f72b28b688",
+   "lemma": "theme",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "theme"
+   ]
+  },
+  {
+   "id": "1c16f925-a9b4-5200-a67b-e1d3a6acdab0",
+   "lemma": "theorist",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "theorist"
+   ]
+  },
+  {
+   "id": "bb274c3b-48ac-5ee9-8e31-6e63cf41701b",
+   "lemma": "therapist",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "therapist"
+   ]
+  },
+  {
+   "id": "cee39ac8-603a-5aa1-aa8a-4680ccd688eb",
+   "lemma": "therapy",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "therapy"
+   ]
+  },
+  {
+   "id": "ba5245ca-1da9-5870-b21c-93ecb9f72504",
+   "lemma": "thereafter",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thereafter"
+   ]
+  },
+  {
+   "id": "bcb23820-150b-51b7-9e5d-d6514a100cc9",
+   "lemma": "thermometer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thermometer"
+   ]
+  },
+  {
+   "id": "e56b3bfd-5000-5d33-8932-251de7e79586",
+   "lemma": "thesis",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thesis"
+   ]
+  },
+  {
+   "id": "9c8c1768-edc2-5c62-b7a9-09484cedcfba",
+   "lemma": "thickly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thickly"
+   ]
+  },
+  {
+   "id": "3ffc6a2c-f0cf-5576-93c8-2e94e43d8ca6",
+   "lemma": "thickness",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thickness"
+   ]
+  },
+  {
+   "id": "03c12c67-5f3e-549c-9a88-f85f65eab29a",
+   "lemma": "thigh",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thigh"
+   ]
+  },
+  {
+   "id": "6731f063-9657-5d5d-8ba7-256c8d4012dc",
+   "lemma": "thinker",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thinker"
+   ]
+  },
+  {
+   "id": "9c79dbf0-1988-5ce0-8c0a-ad4ed38ac4d7",
+   "lemma": "third person",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "third person"
+   ]
+  },
+  {
+   "id": "766ea489-7a07-5e59-83e0-25901ae75bf1",
+   "lemma": "thirdly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thirdly"
+   ]
+  },
+  {
+   "id": "9316d568-864b-5276-ab41-8c135cb3131b",
+   "lemma": "thirst",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thirst"
+   ]
+  },
+  {
+   "id": "7bf98a66-07da-52ea-9719-5055bcbe2e4f",
+   "lemma": "thoroughly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thoroughly"
+   ]
+  },
+  {
+   "id": "073eabea-b5ee-5ddc-ab78-33f5c9014a0d",
+   "lemma": "though",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "though"
+   ]
+  },
+  {
+   "id": "08fe5171-708b-5ad0-b7d1-1959fb027afc",
+   "lemma": "thoughtful",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thoughtful"
+   ]
+  },
+  {
+   "id": "de3ce379-da95-50bc-8795-a2b1e18be2d2",
+   "lemma": "thoughtless",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thoughtless"
+   ]
+  },
+  {
+   "id": "7e4700de-4c3e-508b-bf88-261fd0035843",
+   "lemma": "thread",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thread"
+   ]
+  },
+  {
+   "id": "8807b19c-c80d-5959-801f-e832ceb6c54f",
+   "lemma": "threaten",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "threaten"
+   ]
+  },
+  {
+   "id": "871fe8d6-e2b8-5be9-bfc8-9dd85b0fa790",
+   "lemma": "thrill",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thrill"
+   ]
+  },
+  {
+   "id": "0db53adc-6de6-5b8c-96c2-0f1d80b46aa5",
+   "lemma": "thrilled",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thrilled"
+   ]
+  },
+  {
+   "id": "6e63b2d1-db40-54de-bf69-445556903d94",
+   "lemma": "thrilling",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thrilling"
+   ]
+  },
+  {
+   "id": "3d7b6ff4-593e-5a81-9faf-db674923ce48",
+   "lemma": "throat",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "throat"
+   ]
+  },
+  {
+   "id": "720ab470-a3d2-5ea2-9eb8-9206b52894cd",
+   "lemma": "tickle",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tickle"
+   ]
+  },
+  {
+   "id": "213129dd-3eb3-5a98-984c-29084c41ad6c",
+   "lemma": "tight",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tight"
+   ]
+  },
+  {
+   "id": "f71f2ba3-262b-5cae-a992-a48af6b0e0b7",
+   "lemma": "tightrope",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tightrope"
+   ]
+  },
+  {
+   "id": "6ba48972-56ee-5cc5-803f-9c8f907defb7",
+   "lemma": "time",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "time"
+   ]
+  },
+  {
+   "id": "b333eef5-190a-5c36-bc36-9d49b59adae8",
+   "lemma": "timeless",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "timeless"
+   ]
+  },
+  {
+   "id": "6ffefa97-f7e9-59f3-9a18-92539c2564c9",
+   "lemma": "timeliness",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "timeliness"
+   ]
+  },
+  {
+   "id": "7c902c27-a5e0-54a2-9243-fe63f289e740",
+   "lemma": "times",
+   "pos": "preposition",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "times"
+   ]
+  },
+  {
+   "id": "b2cb5728-e6e9-5889-8e13-fa8f7f612ed9",
+   "lemma": "timing",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "timing"
+   ]
+  },
+  {
+   "id": "318be7a0-8364-52ff-8349-9ee3f5cf6e39",
+   "lemma": "tip",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tip"
+   ]
+  },
+  {
+   "id": "2fa8349f-d9f4-5818-bc02-d9ca9cd124c8",
+   "lemma": "tiptoe",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tiptoe"
+   ]
+  },
+  {
+   "id": "357dfd3a-1f33-5ce7-812f-15d124bad5d6",
+   "lemma": "tiredness",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tiredness"
+   ]
+  },
+  {
+   "id": "c81d2597-8d6e-5398-83f0-9d135b2b49d5",
+   "lemma": "tiresome",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tiresome"
+   ]
+  },
+  {
+   "id": "6a2c1727-8c74-5bf5-be36-22ad16fc8596",
+   "lemma": "toenail",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "toenail"
+   ]
+  },
+  {
+   "id": "6e919a7f-561c-56b9-9c0e-ba5feec61cac",
+   "lemma": "toil",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "toil"
+   ]
+  },
+  {
+   "id": "09b3999a-2344-5548-b74d-4974928ccfd0",
+   "lemma": "tolerant",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tolerant"
+   ]
+  },
+  {
+   "id": "55b2eef2-2f14-537d-bbb3-4748f716bbb9",
+   "lemma": "tolerate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tolerate"
+   ]
+  }
+ ]
+}

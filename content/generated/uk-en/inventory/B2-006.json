@@ -1,0 +1,406 @@
+{
+ "chunk": "B2-006",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "bbb6a719-b3bb-5d90-8fce-e0ca9071da2b",
+   "lemma": "bewilder",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bewilder"
+   ]
+  },
+  {
+   "id": "fcd0c99e-7fa7-5216-8565-705f7801b79b",
+   "lemma": "bewilderment",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bewilderment"
+   ]
+  },
+  {
+   "id": "c79801fb-8f18-5869-a33c-daff8e0ab2f1",
+   "lemma": "bid",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bid"
+   ]
+  },
+  {
+   "id": "609fd5d4-9226-5f8f-a225-686d310bf9be",
+   "lemma": "bidding",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bidding"
+   ]
+  },
+  {
+   "id": "a9966da6-28d7-5455-b2d7-b627458dd833",
+   "lemma": "bikini",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bikini"
+   ]
+  },
+  {
+   "id": "cd489531-ddc6-5ffc-92ee-3fc92d0fb911",
+   "lemma": "billion",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "billion"
+   ]
+  },
+  {
+   "id": "9d5a6b64-3ba2-5024-8410-ffdb610f2721",
+   "lemma": "bind",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bind"
+   ]
+  },
+  {
+   "id": "1fd2620b-5ae8-5d71-9418-9ab33ff3e8f7",
+   "lemma": "bio",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bio"
+   ]
+  },
+  {
+   "id": "a15a2205-5c66-5cc4-b2dc-a073b420ecb1",
+   "lemma": "biological",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "biological"
+   ]
+  },
+  {
+   "id": "fb8968a5-72c9-5373-be1c-8335afa99896",
+   "lemma": "biotechnology",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "biotechnology"
+   ]
+  },
+  {
+   "id": "f68e062e-18d3-53fb-be44-bd9c141e19c4",
+   "lemma": "birdcage",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "birdcage"
+   ]
+  },
+  {
+   "id": "1ed45a9e-0783-5296-bca3-b657b7e5fe08",
+   "lemma": "birthplace",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "birthplace"
+   ]
+  },
+  {
+   "id": "9df05fd0-97b3-50fe-940d-e7600455a4ad",
+   "lemma": "bitterly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bitterly"
+   ]
+  },
+  {
+   "id": "c944dbbf-0fb8-50ed-b739-7fbf55b41416",
+   "lemma": "bizarre",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bizarre"
+   ]
+  },
+  {
+   "id": "d9877e57-5511-5490-b565-735d6f52c879",
+   "lemma": "blade",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "blade"
+   ]
+  },
+  {
+   "id": "503bc7e1-28e7-5b6d-bd30-bb4d818a4404",
+   "lemma": "blast",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "blast"
+   ]
+  },
+  {
+   "id": "87ecbd42-cecd-5ebe-bfad-fa4d12d67cfa",
+   "lemma": "blast",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "blast"
+   ]
+  },
+  {
+   "id": "d6b2ed5c-c019-55d8-8448-28f13098367e",
+   "lemma": "blaze",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "blaze"
+   ]
+  },
+  {
+   "id": "62970d95-4196-5acd-80ee-540a1a99faf4",
+   "lemma": "blaze",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "blaze"
+   ]
+  },
+  {
+   "id": "59280dd2-fc0d-5a0f-aa90-fca4dd531736",
+   "lemma": "blend",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "blend"
+   ]
+  },
+  {
+   "id": "7f2ab82b-e3fb-52a9-b5a5-f13939605f15",
+   "lemma": "blindly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "blindly"
+   ]
+  },
+  {
+   "id": "b6a5b390-7ddd-565d-98f1-9496df0106ee",
+   "lemma": "blindness",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "blindness"
+   ]
+  },
+  {
+   "id": "794c030a-ac38-5403-8cbd-728eb926dee8",
+   "lemma": "blink",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "blink"
+   ]
+  },
+  {
+   "id": "5dcc2cda-7033-59b7-9745-ccf8ccea5fec",
+   "lemma": "bloodstream",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bloodstream"
+   ]
+  },
+  {
+   "id": "7c77cfee-88b0-5ead-941a-fa31452e126f",
+   "lemma": "bloody",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bloody"
+   ]
+  },
+  {
+   "id": "da1bfd81-367c-5ab1-a06e-61b6f4eb6a3e",
+   "lemma": "bloody",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bloody"
+   ]
+  },
+  {
+   "id": "e8617819-b810-5357-8f31-1abc77512f29",
+   "lemma": "blooming",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "blooming"
+   ]
+  },
+  {
+   "id": "8d0ebfe8-db26-58ee-8335-b843290bc892",
+   "lemma": "blossom",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "blossom"
+   ]
+  },
+  {
+   "id": "2f91c901-a015-584e-a5b8-b97645c54497",
+   "lemma": "blur",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "blur"
+   ]
+  },
+  {
+   "id": "66b5d4ff-d0dd-5a61-95f5-5c2c5a069af3",
+   "lemma": "blurt",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "blurt"
+   ]
+  },
+  {
+   "id": "2dba30f8-790b-5390-9923-b17304c17e0f",
+   "lemma": "blush",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "blush"
+   ]
+  },
+  {
+   "id": "458dc6c5-a31d-5e2a-b9d8-e0aebabca8bd",
+   "lemma": "boiling",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "boiling"
+   ]
+  },
+  {
+   "id": "4a0bffae-3ec9-5162-8de9-60dc05895d0a",
+   "lemma": "bold",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bold"
+   ]
+  },
+  {
+   "id": "60ba470f-1323-5701-8283-648f1dc60850",
+   "lemma": "bolt",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bolt"
+   ]
+  },
+  {
+   "id": "83f61b8c-e08e-5a96-800a-d948435b91bd",
+   "lemma": "bolt",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bolt"
+   ]
+  },
+  {
+   "id": "472d1f61-ef87-5408-aa87-7e9a0b5f86c4",
+   "lemma": "bombard",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bombard"
+   ]
+  },
+  {
+   "id": "ed378dab-8cd5-5f48-b726-9fc469248723",
+   "lemma": "bomber",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bomber"
+   ]
+  },
+  {
+   "id": "1a963f40-93a9-5306-aea4-4ed71d988908",
+   "lemma": "bombing",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bombing"
+   ]
+  },
+  {
+   "id": "c4fc527f-9cde-5a07-9f31-4823cb48958d",
+   "lemma": "bony",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bony"
+   ]
+  },
+  {
+   "id": "93a804ac-ad43-52c4-93c8-23773b74d57f",
+   "lemma": "bookish",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bookish"
+   ]
+  }
+ ]
+}

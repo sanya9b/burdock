@@ -1,0 +1,407 @@
+{
+ "chunk": "A2-004",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "4bf7ed38-7264-5b1f-809c-176688f5ee52",
+   "lemma": "battery",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "battery"
+   ]
+  },
+  {
+   "id": "e06859c3-058d-5a7d-a7db-1cf147b25da2",
+   "lemma": "bay",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bay"
+   ]
+  },
+  {
+   "id": "19e73fa2-b49f-5030-b21d-aaf49dda41a9",
+   "lemma": "bear",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bear"
+   ]
+  },
+  {
+   "id": "2f28084e-43cf-5bf0-91a5-5ff8078fbf4e",
+   "lemma": "beauty",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "beauty"
+   ]
+  },
+  {
+   "id": "90352df1-cfbc-5ee4-a938-deb6c035d5d4",
+   "lemma": "been",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "been"
+   ]
+  },
+  {
+   "id": "5c840e7e-54a3-53cb-91b8-384a04a1bd3f",
+   "lemma": "beer",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "beer"
+   ]
+  },
+  {
+   "id": "61f2c921-3287-53b2-b48f-e56a2f80ef70",
+   "lemma": "before",
+   "pos": "conjunction",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "before"
+   ]
+  },
+  {
+   "id": "84de725e-8b24-56d0-a7df-28bbcb2d129f",
+   "lemma": "beg",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "beg"
+   ]
+  },
+  {
+   "id": "3f53f692-3a2d-5f70-84af-068363f3c5be",
+   "lemma": "beginner",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "beginner"
+   ]
+  },
+  {
+   "id": "c4fdbb94-3120-5f5e-bc79-952b2870f956",
+   "lemma": "beginning",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "beginning"
+   ]
+  },
+  {
+   "id": "52a5ce70-8630-5f15-92f9-3490d49a6247",
+   "lemma": "behavior",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "behavior",
+    "behaviour"
+   ]
+  },
+  {
+   "id": "5bbbd529-2c4d-58c1-8f05-cae8115aff19",
+   "lemma": "being",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "being"
+   ]
+  },
+  {
+   "id": "3b54d313-9d70-5a41-b616-6837bb02f1fd",
+   "lemma": "belly",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "belly"
+   ]
+  },
+  {
+   "id": "1cb1ec03-8af9-5a27-b019-46ea788700e5",
+   "lemma": "belong",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "belong"
+   ]
+  },
+  {
+   "id": "3283678c-69b9-5661-9896-14355ca808d5",
+   "lemma": "belt",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "belt"
+   ]
+  },
+  {
+   "id": "b6785d51-5a5a-55d3-bdb8-0262ffb73d15",
+   "lemma": "bench",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bench"
+   ]
+  },
+  {
+   "id": "bff92031-bd20-569f-8e6d-8a404dbb920a",
+   "lemma": "bend",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bend"
+   ]
+  },
+  {
+   "id": "2a35686b-eb13-57f4-afd5-05316118828b",
+   "lemma": "besides",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "besides"
+   ]
+  },
+  {
+   "id": "7393c171-70f1-535c-8343-1ecc77a19fa6",
+   "lemma": "better",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "better"
+   ]
+  },
+  {
+   "id": "73f71d7e-4325-52ae-97ba-ad8d94cb43d3",
+   "lemma": "beyond",
+   "pos": "preposition",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "beyond"
+   ]
+  },
+  {
+   "id": "5e3718b9-ee3c-5f87-ad7e-a028968bacc1",
+   "lemma": "bill",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bill"
+   ]
+  },
+  {
+   "id": "719ec85b-26d1-5ac9-8ddf-3a80b6e2c0c8",
+   "lemma": "bit",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bit"
+   ]
+  },
+  {
+   "id": "26b4dce7-4981-5868-bf0b-85bf4fab7601",
+   "lemma": "bite",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bite"
+   ]
+  },
+  {
+   "id": "81bff86e-01e9-5635-b089-d8c0fb5bbcec",
+   "lemma": "blackboard",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "blackboard"
+   ]
+  },
+  {
+   "id": "6eae4aa6-98c7-589c-b99d-3f765de39ed8",
+   "lemma": "blame",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "blame"
+   ]
+  },
+  {
+   "id": "5df31b4f-0fda-5848-b54b-550355a8d251",
+   "lemma": "blanket",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "blanket"
+   ]
+  },
+  {
+   "id": "9d3eff5b-547d-5327-82bc-ebf3e7989fdb",
+   "lemma": "blonde",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "blonde"
+   ]
+  },
+  {
+   "id": "f20ec210-1495-518c-bdc1-1c7b8862a229",
+   "lemma": "blood",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "blood"
+   ]
+  },
+  {
+   "id": "a9a8b0e4-449e-5976-9645-c19f576123d8",
+   "lemma": "bloom",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bloom"
+   ]
+  },
+  {
+   "id": "49ec2ceb-f787-555f-a89b-28197b9a400d",
+   "lemma": "blow",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "blow"
+   ]
+  },
+  {
+   "id": "caddb62c-0ef0-5af8-961b-90bb63158e57",
+   "lemma": "board game",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "board game"
+   ]
+  },
+  {
+   "id": "0af3b4a5-419b-54af-9286-7e2424cf6491",
+   "lemma": "boil",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "boil"
+   ]
+  },
+  {
+   "id": "27d292cc-1ba6-595e-8560-77cbf617b55c",
+   "lemma": "boiled",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "boiled"
+   ]
+  },
+  {
+   "id": "6c0dce56-01ec-5065-bb32-d5a0574ff21e",
+   "lemma": "bonus",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bonus"
+   ]
+  },
+  {
+   "id": "09756ca7-aa31-5399-a4cc-80bb45dc63c4",
+   "lemma": "bookcase",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bookcase"
+   ]
+  },
+  {
+   "id": "e35ed06b-9a04-527f-a824-ab8964eda108",
+   "lemma": "bookshelf",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bookshelf"
+   ]
+  },
+  {
+   "id": "dcad4918-dae0-5589-8b0e-8285df906227",
+   "lemma": "bookshop",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bookshop"
+   ]
+  },
+  {
+   "id": "1c4225c9-7565-5fb6-bbc8-629e1a518031",
+   "lemma": "bored",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bored"
+   ]
+  },
+  {
+   "id": "4c02f0ee-55d0-5c3f-b1a2-fceeeabdf176",
+   "lemma": "boss",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "boss"
+   ]
+  },
+  {
+   "id": "7b7015df-9266-5959-a7aa-5015aa57d2cb",
+   "lemma": "bother",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bother"
+   ]
+  }
+ ]
+}

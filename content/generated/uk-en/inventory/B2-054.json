@@ -1,0 +1,406 @@
+{
+ "chunk": "B2-054",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "c0d390f4-9b9c-55f5-8ab4-bd0179ab526a",
+   "lemma": "scholasticism",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "scholasticism"
+   ]
+  },
+  {
+   "id": "53e42f9d-5c1b-5efa-94f2-0453721539ba",
+   "lemma": "schoolgirl",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "schoolgirl"
+   ]
+  },
+  {
+   "id": "4bb65539-0766-577d-851a-e4c9f2a614a0",
+   "lemma": "scientifically",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "scientifically"
+   ]
+  },
+  {
+   "id": "bbbcf964-6580-58f9-9bc7-f53d67ddb6b3",
+   "lemma": "scooter",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "scooter"
+   ]
+  },
+  {
+   "id": "86006512-e0cf-5b51-b37f-435254661c7d",
+   "lemma": "scramble",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "scramble"
+   ]
+  },
+  {
+   "id": "ed579c79-605a-549f-b625-c32b68f78c41",
+   "lemma": "scratch",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "scratch"
+   ]
+  },
+  {
+   "id": "e9ae0153-3852-5d37-8317-6fd36af1c1f1",
+   "lemma": "screen",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "screen"
+   ]
+  },
+  {
+   "id": "c159a076-0daf-540a-b32e-a6d1216225a1",
+   "lemma": "screw",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "screw"
+   ]
+  },
+  {
+   "id": "a888270b-728e-5728-af22-6789710658fc",
+   "lemma": "scribble",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "scribble"
+   ]
+  },
+  {
+   "id": "ee2c1e14-eb1a-53c6-8c9a-ed7619d7a3b9",
+   "lemma": "scrooge",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "scrooge"
+   ]
+  },
+  {
+   "id": "b05a91e3-e28a-5b8a-9314-847ded283454",
+   "lemma": "scuba",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "scuba"
+   ]
+  },
+  {
+   "id": "c21c160c-9eb7-5c4e-9f6f-1c228aa72a80",
+   "lemma": "scythe",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "scythe"
+   ]
+  },
+  {
+   "id": "b2f22600-9799-5565-857b-4204c60500c6",
+   "lemma": "seal",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "seal"
+   ]
+  },
+  {
+   "id": "302c53aa-3efd-5bd6-b799-6f83dfe21582",
+   "lemma": "seasonal",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "seasonal"
+   ]
+  },
+  {
+   "id": "7592ca57-c558-5222-9442-cadb13a3b56b",
+   "lemma": "second person",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "second person"
+   ]
+  },
+  {
+   "id": "4b7447a5-973b-5d31-9243-d7eaf583787a",
+   "lemma": "secondary",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "secondary"
+   ]
+  },
+  {
+   "id": "176f03d6-ce41-5136-8e57-7b923810d403",
+   "lemma": "secondly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "secondly"
+   ]
+  },
+  {
+   "id": "bacae38e-248a-5201-8afe-e7b159184cdb",
+   "lemma": "sector",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sector"
+   ]
+  },
+  {
+   "id": "e56d5e3f-9e35-5339-9d18-e3b9f7ecb400",
+   "lemma": "seesaw",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "seesaw"
+   ]
+  },
+  {
+   "id": "9ef9443d-e30c-55ee-8359-a534044b469f",
+   "lemma": "segment",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "segment"
+   ]
+  },
+  {
+   "id": "90fec28a-55d0-560b-92a3-ace39327387c",
+   "lemma": "seldom",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "seldom"
+   ]
+  },
+  {
+   "id": "dce651e0-c51e-5236-8fcb-ec65addfda33",
+   "lemma": "select",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "select"
+   ]
+  },
+  {
+   "id": "b9f96380-f582-53c2-9a75-9b1c7e35c31a",
+   "lemma": "self-confidence",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "self-confidence"
+   ]
+  },
+  {
+   "id": "d019929e-bd3c-54e4-82f5-99d9839abb88",
+   "lemma": "self-confident",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "self-confident"
+   ]
+  },
+  {
+   "id": "0c69f554-6f1f-5c62-bae8-6d5204263ed5",
+   "lemma": "selfless",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "selfless"
+   ]
+  },
+  {
+   "id": "b0d314ab-22f1-5104-9844-9ba985b2b0a2",
+   "lemma": "seller",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "seller"
+   ]
+  },
+  {
+   "id": "8984f8c3-f188-53ac-bf44-40686e13e9b5",
+   "lemma": "semi-final",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "semi-final"
+   ]
+  },
+  {
+   "id": "682a4eb1-488c-57f7-a06c-79cf43cf0d95",
+   "lemma": "semicolon",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "semicolon"
+   ]
+  },
+  {
+   "id": "b455421a-8bdc-5afb-b82f-5b7bfa288d0f",
+   "lemma": "seminar",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "seminar"
+   ]
+  },
+  {
+   "id": "45d09a1e-4280-5f25-a212-85f234899bb4",
+   "lemma": "senator",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "senator"
+   ]
+  },
+  {
+   "id": "ccfcf939-8e82-571f-ba59-4bb84cbe013e",
+   "lemma": "sense",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sense"
+   ]
+  },
+  {
+   "id": "3d413f43-53ff-5bae-94d3-84a4e623d937",
+   "lemma": "sensible",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sensible"
+   ]
+  },
+  {
+   "id": "bf588c65-9f56-552e-b9c0-dcdd9de54f92",
+   "lemma": "sensitive",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sensitive"
+   ]
+  },
+  {
+   "id": "8243038f-4756-5e14-88c8-9085d1e89c28",
+   "lemma": "sentence",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sentence"
+   ]
+  },
+  {
+   "id": "105f088d-814f-52c4-8b1b-48a16581acf6",
+   "lemma": "separate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "separate"
+   ]
+  },
+  {
+   "id": "0a201d52-18e8-5439-a238-bff54f1e61d1",
+   "lemma": "separately",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "separately"
+   ]
+  },
+  {
+   "id": "4244f9a2-33f3-5540-835f-6b6136f29c4b",
+   "lemma": "serene",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "serene"
+   ]
+  },
+  {
+   "id": "f64b1d28-0eb8-5023-aed5-f50a0b23600c",
+   "lemma": "serial",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "serial"
+   ]
+  },
+  {
+   "id": "1ad48f70-0efb-5f35-b163-31448e473df0",
+   "lemma": "servant",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "servant"
+   ]
+  },
+  {
+   "id": "a76d53c1-a6cf-5b42-8f7c-8236e3bc3b24",
+   "lemma": "setback",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "setback"
+   ]
+  }
+ ]
+}

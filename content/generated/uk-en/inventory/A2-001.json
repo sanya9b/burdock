@@ -1,0 +1,406 @@
+{
+ "chunk": "A2-001",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "daa25411-3dac-527e-8571-e39e525dbabd",
+   "lemma": "ability",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ability"
+   ]
+  },
+  {
+   "id": "4627290b-8250-531d-b1af-1e3a5af78f6a",
+   "lemma": "abroad",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "abroad"
+   ]
+  },
+  {
+   "id": "f16b1944-aa76-5383-8081-eb89ff50ca0f",
+   "lemma": "accept",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "accept"
+   ]
+  },
+  {
+   "id": "62985ee1-caa6-576b-b870-081ea6c672d5",
+   "lemma": "acceptable",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "acceptable"
+   ]
+  },
+  {
+   "id": "f78905fc-685a-58d7-affd-f4574b7a93cf",
+   "lemma": "accident",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "accident"
+   ]
+  },
+  {
+   "id": "6554b22a-8845-5878-96c1-99155d55e1e7",
+   "lemma": "account",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "account"
+   ]
+  },
+  {
+   "id": "8cf06b10-cb37-57a6-ab8c-e56b38c561c1",
+   "lemma": "achieve",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "achieve"
+   ]
+  },
+  {
+   "id": "bf6b8cec-b7b1-5ea0-9aa5-ce170abaf4a0",
+   "lemma": "across",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "across"
+   ]
+  },
+  {
+   "id": "de83e7b6-eed5-5fbd-bd13-28e79d3ee155",
+   "lemma": "across",
+   "pos": "preposition",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "across"
+   ]
+  },
+  {
+   "id": "696b1264-3e7c-5a8f-a506-0bd620b7502d",
+   "lemma": "act",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "act"
+   ]
+  },
+  {
+   "id": "76d92854-81eb-517f-a5b3-092108198f82",
+   "lemma": "actually",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "actually"
+   ]
+  },
+  {
+   "id": "c34ea952-0ee6-5ef2-8133-ab8208faebfc",
+   "lemma": "addition",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "addition"
+   ]
+  },
+  {
+   "id": "8da7cc6f-34fe-51c3-9ce6-e2bf09cdca14",
+   "lemma": "additional",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "additional"
+   ]
+  },
+  {
+   "id": "8ca1ecec-7764-5bb9-9ad3-4762cd1d2faf",
+   "lemma": "adjective",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "adjective"
+   ]
+  },
+  {
+   "id": "a247dfcb-daf4-51c3-9875-adc9a95545d1",
+   "lemma": "adjust",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "adjust"
+   ]
+  },
+  {
+   "id": "00598bd8-9f5b-50d1-a5fa-c5ace28fad8f",
+   "lemma": "admire",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "admire"
+   ]
+  },
+  {
+   "id": "edf5a3cc-bd1b-5148-b133-42db7b4ed88b",
+   "lemma": "admit",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "admit"
+   ]
+  },
+  {
+   "id": "891d76a0-088e-5542-acad-8f786e8b5cdc",
+   "lemma": "adult",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "adult"
+   ]
+  },
+  {
+   "id": "b4bffc0b-88ea-57b0-b53c-aa1000b94408",
+   "lemma": "adult",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "adult"
+   ]
+  },
+  {
+   "id": "4192a9c0-e9e7-5af3-b1a4-47f2bcd7bf69",
+   "lemma": "advanced",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "advanced"
+   ]
+  },
+  {
+   "id": "4f92df37-9a51-5c4a-b3e7-688f1f429da5",
+   "lemma": "advantage",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "advantage"
+   ]
+  },
+  {
+   "id": "b8e33901-af68-5a97-8fa2-91f541a57ab8",
+   "lemma": "adventure",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "adventure"
+   ]
+  },
+  {
+   "id": "79172129-7f2d-5030-be0d-f73152d4e8bd",
+   "lemma": "advertisement",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "advertisement"
+   ]
+  },
+  {
+   "id": "e3795863-167c-501a-b172-41d4ce0bd5ac",
+   "lemma": "advertising",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "advertising"
+   ]
+  },
+  {
+   "id": "c93fc879-c9d3-5389-a1e5-cf6d9bbf70a0",
+   "lemma": "advice",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "advice"
+   ]
+  },
+  {
+   "id": "bf304b23-02f3-56f8-94f0-0b7a298f9113",
+   "lemma": "advise",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "advise"
+   ]
+  },
+  {
+   "id": "8314803f-e8ee-5b82-b94a-a852fc456c15",
+   "lemma": "affair",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "affair"
+   ]
+  },
+  {
+   "id": "393e97f1-f8a2-5a41-81fd-98b9f589e64d",
+   "lemma": "after",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "after"
+   ]
+  },
+  {
+   "id": "9582f1b7-c674-5bf7-a74b-bddfd32cb3e7",
+   "lemma": "against",
+   "pos": "preposition",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "against"
+   ]
+  },
+  {
+   "id": "c0cb4eca-1dfc-589b-b89a-feb346b123bd",
+   "lemma": "aged",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "aged"
+   ]
+  },
+  {
+   "id": "28c4f57d-9c2c-533b-a080-34d2abcbb782",
+   "lemma": "agency",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "agency"
+   ]
+  },
+  {
+   "id": "af9a58ec-c31b-5fe3-b4fa-186013731e95",
+   "lemma": "agent",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "agent"
+   ]
+  },
+  {
+   "id": "09a28e0f-7ccf-5f71-91b6-9f7df28fc79e",
+   "lemma": "ahead",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ahead"
+   ]
+  },
+  {
+   "id": "fc85f1fa-b0f5-5e1a-bfb3-3bd443f46584",
+   "lemma": "air",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "air"
+   ]
+  },
+  {
+   "id": "9b1e9a87-d9df-5979-b17e-755b330dfe14",
+   "lemma": "aisle",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "aisle"
+   ]
+  },
+  {
+   "id": "9c0970da-5424-55d6-a31b-bb1a48a89742",
+   "lemma": "alarm",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "alarm"
+   ]
+  },
+  {
+   "id": "6363abbb-d980-525d-ba2c-e887b4b25fd3",
+   "lemma": "alarm clock",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "alarm clock"
+   ]
+  },
+  {
+   "id": "35991d4f-b5c9-599d-b3c0-f22c653e2118",
+   "lemma": "alive",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "alive"
+   ]
+  },
+  {
+   "id": "a3e6be50-2347-50e1-8a2f-dd8a11eecf6c",
+   "lemma": "all",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "all"
+   ]
+  },
+  {
+   "id": "d894e305-1071-53d8-a9e0-352a75f0f7b3",
+   "lemma": "allow",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "allow"
+   ]
+  }
+ ]
+}

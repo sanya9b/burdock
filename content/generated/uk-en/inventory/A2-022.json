@@ -1,0 +1,408 @@
+{
+ "chunk": "A2-022",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "85e6d832-bb16-5c9f-bd63-020a958764a2",
+   "lemma": "opinion",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "opinion"
+   ]
+  },
+  {
+   "id": "ad975423-40ae-5327-8bea-d0cf0505e33e",
+   "lemma": "opportunity",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "opportunity"
+   ]
+  },
+  {
+   "id": "015c9470-e6b3-5208-a0f0-f159bb1c5cee",
+   "lemma": "oppose",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "oppose"
+   ]
+  },
+  {
+   "id": "a2cb46a6-b78e-5584-99bd-c1153193e045",
+   "lemma": "opposite",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "opposite"
+   ]
+  },
+  {
+   "id": "f6dd74b0-d47a-566e-a5db-1050245c665e",
+   "lemma": "opposite",
+   "pos": "preposition",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "opposite"
+   ]
+  },
+  {
+   "id": "ea7435b1-84a0-5940-90b4-a2a99ca6489b",
+   "lemma": "order",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "order"
+   ]
+  },
+  {
+   "id": "dad2c971-2787-507f-a745-1bafae013e7a",
+   "lemma": "organize",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "organize",
+    "organise"
+   ]
+  },
+  {
+   "id": "00c3dd78-9748-57f1-b621-ba9725011815",
+   "lemma": "organized",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "organized",
+    "organised"
+   ]
+  },
+  {
+   "id": "98cd2e8f-89d3-54fa-8c29-2d56e4cef58d",
+   "lemma": "original",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "original"
+   ]
+  },
+  {
+   "id": "f02c82c9-b6f0-5d50-99bf-ff9077d0df24",
+   "lemma": "orphan",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "orphan"
+   ]
+  },
+  {
+   "id": "604c5386-ce30-50bb-9c01-45477b24e431",
+   "lemma": "other",
+   "pos": "pronoun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "other"
+   ]
+  },
+  {
+   "id": "dd246ad4-cc86-5cb3-993a-a9da86984e96",
+   "lemma": "ourselves",
+   "pos": "pronoun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ourselves"
+   ]
+  },
+  {
+   "id": "14eb243d-a23c-5d0a-8bef-078868bafa3e",
+   "lemma": "out of",
+   "pos": "preposition",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "out of"
+   ]
+  },
+  {
+   "id": "75d1534c-008a-53fb-9563-3a25ce213548",
+   "lemma": "outside",
+   "pos": "preposition",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "outside"
+   ]
+  },
+  {
+   "id": "53f4f935-9027-5a29-9304-044bfed8d541",
+   "lemma": "oven",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "oven"
+   ]
+  },
+  {
+   "id": "bca15072-4e2d-585d-bd16-4234f76aee73",
+   "lemma": "over",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "over"
+   ]
+  },
+  {
+   "id": "5d3570bc-7ab1-5953-a3fc-b7050a5681a6",
+   "lemma": "overseas",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "overseas"
+   ]
+  },
+  {
+   "id": "82e31c1a-3a93-5545-aa18-771a95d9c89d",
+   "lemma": "overweight",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "overweight"
+   ]
+  },
+  {
+   "id": "32ba3dc2-f079-52dd-8a31-02810419a02a",
+   "lemma": "own",
+   "pos": "pronoun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "own"
+   ]
+  },
+  {
+   "id": "9497e0fe-de86-539c-a1c1-7317a7ff4317",
+   "lemma": "pacific",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pacific"
+   ]
+  },
+  {
+   "id": "356b5b87-dea2-579e-b44b-f1525a8919fd",
+   "lemma": "pack",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pack"
+   ]
+  },
+  {
+   "id": "e1f901ab-188b-570f-b393-4b7c2eff4dde",
+   "lemma": "pack",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pack"
+   ]
+  },
+  {
+   "id": "cbb2196f-6380-5011-9407-f5dce20e921b",
+   "lemma": "painter",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "painter"
+   ]
+  },
+  {
+   "id": "db91fc4b-cc3a-5b51-8e6e-86b4c55ed060",
+   "lemma": "pal",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pal"
+   ]
+  },
+  {
+   "id": "bd926a0c-f839-58fb-a7fb-4e593444225d",
+   "lemma": "pan",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pan"
+   ]
+  },
+  {
+   "id": "e2cf2fe6-cd7b-5d13-97fe-2593659f2f38",
+   "lemma": "panic",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "panic"
+   ]
+  },
+  {
+   "id": "2f1ab1ce-016a-5926-8c72-723763f3992a",
+   "lemma": "park",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "park"
+   ]
+  },
+  {
+   "id": "47c78984-fb40-566a-8384-536d59b78948",
+   "lemma": "part",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "part"
+   ]
+  },
+  {
+   "id": "b3c4e7bd-bbe1-5768-b623-fc1fb27e1a17",
+   "lemma": "partly",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "partly"
+   ]
+  },
+  {
+   "id": "1dfb20ea-46c1-57c0-97ff-c5e4cb872f60",
+   "lemma": "pass",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pass"
+   ]
+  },
+  {
+   "id": "7dd7498a-1a23-5688-b815-c345ee190f14",
+   "lemma": "pass",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pass"
+   ]
+  },
+  {
+   "id": "2e276ac0-ee82-5bb5-bc99-7b3cfc2d88a2",
+   "lemma": "passage",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "passage"
+   ]
+  },
+  {
+   "id": "a8542563-0c9e-5e73-89b7-51f4a7f1e9ab",
+   "lemma": "passenger",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "passenger"
+   ]
+  },
+  {
+   "id": "0d696b13-7842-558b-a811-fdcba2302551",
+   "lemma": "pasta",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pasta"
+   ]
+  },
+  {
+   "id": "d5e59e10-ca79-5df8-bf57-377bfbc15729",
+   "lemma": "path",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "path"
+   ]
+  },
+  {
+   "id": "1d46f414-0a71-5743-bf12-b0c9a551392c",
+   "lemma": "patient",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "patient"
+   ]
+  },
+  {
+   "id": "902a8852-62f7-568e-8e69-bf27b2306ff7",
+   "lemma": "PC",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "PC"
+   ]
+  },
+  {
+   "id": "05b4913a-1b22-526f-b22f-f81f7c1ab117",
+   "lemma": "pea",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pea"
+   ]
+  },
+  {
+   "id": "df0660ff-34c1-575c-b75f-cb98844b7064",
+   "lemma": "peaceful",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "peaceful"
+   ]
+  },
+  {
+   "id": "2739388d-254d-5bb8-82c4-babb9f1e0a67",
+   "lemma": "pear",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pear"
+   ]
+  }
+ ]
+}

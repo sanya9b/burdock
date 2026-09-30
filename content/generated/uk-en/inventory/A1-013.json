@@ -1,0 +1,406 @@
+{
+ "chunk": "A1-013",
+ "level": "A1",
+ "lexemes": [
+  {
+   "id": "119a1f63-724d-5e5b-a936-dd1054b14364",
+   "lemma": "him",
+   "pos": "pronoun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "him"
+   ]
+  },
+  {
+   "id": "66d5200e-8be3-573d-9195-897ccfeaf49b",
+   "lemma": "his",
+   "pos": "determiner",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "his"
+   ]
+  },
+  {
+   "id": "c45f2c2d-6ec4-556e-9547-48ca185deccd",
+   "lemma": "his",
+   "pos": "pronoun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "his"
+   ]
+  },
+  {
+   "id": "68c0dc99-78a9-550a-951e-26ec568fce17",
+   "lemma": "history",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "history"
+   ]
+  },
+  {
+   "id": "47f549c7-b52c-5c76-80eb-f7653995a963",
+   "lemma": "hobby",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hobby"
+   ]
+  },
+  {
+   "id": "4965d1da-917f-5772-b949-9e78390949b3",
+   "lemma": "hold",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hold"
+   ]
+  },
+  {
+   "id": "725e59dd-3a07-570f-a40e-fb05725a5b6e",
+   "lemma": "hole",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hole"
+   ]
+  },
+  {
+   "id": "28a1a293-6a0f-591e-a30d-0e0b74265b60",
+   "lemma": "holiday",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "holiday"
+   ]
+  },
+  {
+   "id": "25ad976e-5c24-5e58-8e43-a5c65f9d7db0",
+   "lemma": "home",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "home"
+   ]
+  },
+  {
+   "id": "6b233011-841a-5bf8-b602-39d461a40ca7",
+   "lemma": "hometown",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hometown"
+   ]
+  },
+  {
+   "id": "ed39feb1-04a9-5461-b251-efbe4f0e416d",
+   "lemma": "homework",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "homework"
+   ]
+  },
+  {
+   "id": "c84f9f00-6a8f-5d0e-a660-8d8a7f88edf2",
+   "lemma": "hope",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hope"
+   ]
+  },
+  {
+   "id": "dd860bf6-8797-50cc-ac2b-282eb4797a61",
+   "lemma": "horse",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "horse"
+   ]
+  },
+  {
+   "id": "3ce7ebda-5b65-541a-a2b6-7fda193460a0",
+   "lemma": "hospital",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hospital"
+   ]
+  },
+  {
+   "id": "8b67ddf3-ae57-50d0-82a1-200341be29b4",
+   "lemma": "hot",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hot"
+   ]
+  },
+  {
+   "id": "ccc8a433-5a81-513c-a22a-e077e846b1f6",
+   "lemma": "hotel",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hotel"
+   ]
+  },
+  {
+   "id": "f87ea976-f2b4-5942-9bed-189367f3dc02",
+   "lemma": "hour",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hour"
+   ]
+  },
+  {
+   "id": "04d4d588-8d3d-5389-9a3c-4d0994fd62f0",
+   "lemma": "house",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "house"
+   ]
+  },
+  {
+   "id": "7000d6b5-c3c4-5b25-96e9-fb8b42e63eb2",
+   "lemma": "how",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "how"
+   ]
+  },
+  {
+   "id": "3fdfa7d7-1bb6-553d-8141-02294268ce69",
+   "lemma": "hungry",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hungry"
+   ]
+  },
+  {
+   "id": "5f0697c2-bda6-5100-8987-c406f5974529",
+   "lemma": "hurry",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hurry"
+   ]
+  },
+  {
+   "id": "1f1e9735-fbb2-5363-ada6-1612422e1d73",
+   "lemma": "hurt",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hurt"
+   ]
+  },
+  {
+   "id": "7a6ffe89-bfd8-59da-8749-96f29743e1e2",
+   "lemma": "husband",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "husband"
+   ]
+  },
+  {
+   "id": "0ca70868-035e-55b5-ab67-195389cd04c8",
+   "lemma": "I",
+   "pos": "pronoun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "i"
+   ]
+  },
+  {
+   "id": "94c56270-94e3-5d89-ae89-885580a03e95",
+   "lemma": "ice",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ice"
+   ]
+  },
+  {
+   "id": "1e776192-9c3a-537a-803b-d6bce45a2014",
+   "lemma": "ice cream",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ice cream"
+   ]
+  },
+  {
+   "id": "60548669-bf4c-54fd-a1af-b92df49321f4",
+   "lemma": "idea",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "idea"
+   ]
+  },
+  {
+   "id": "c789ee15-0a59-537d-9afc-dea372070269",
+   "lemma": "ideal",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ideal"
+   ]
+  },
+  {
+   "id": "83034658-f02d-50c2-8779-74e3bdaa96c7",
+   "lemma": "if",
+   "pos": "conjunction",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "if"
+   ]
+  },
+  {
+   "id": "61e81593-0224-5a54-b1fc-d7c062727aa8",
+   "lemma": "imagine",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "imagine"
+   ]
+  },
+  {
+   "id": "7137d188-e4e3-5434-9a5a-1cbf617bfcca",
+   "lemma": "important",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "important"
+   ]
+  },
+  {
+   "id": "ab389e9d-383c-5816-9795-58a92603d1ea",
+   "lemma": "in",
+   "pos": "preposition",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "in"
+   ]
+  },
+  {
+   "id": "54db542a-2b98-5ff5-9651-5f728d14b2fe",
+   "lemma": "information",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "information"
+   ]
+  },
+  {
+   "id": "3622b70a-218f-55ec-a4cc-977896a75ae3",
+   "lemma": "inside",
+   "pos": "preposition",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "inside"
+   ]
+  },
+  {
+   "id": "102639cf-cf4b-58a4-beca-e9cfa1f9f61a",
+   "lemma": "interested",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "interested"
+   ]
+  },
+  {
+   "id": "eed8fc9a-0c03-5da6-8e61-ecbb677d6b29",
+   "lemma": "interesting",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "interesting"
+   ]
+  },
+  {
+   "id": "4a13d12f-cc79-531d-bf97-cb0bb75915c0",
+   "lemma": "Internet",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "internet"
+   ]
+  },
+  {
+   "id": "d619d513-f834-5633-bfaf-f06fdc605e04",
+   "lemma": "interview",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "interview"
+   ]
+  },
+  {
+   "id": "99182cfa-f6bd-5ac7-bd12-de7db58cd513",
+   "lemma": "interviewer",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "interviewer"
+   ]
+  },
+  {
+   "id": "d3ee745a-ae9e-5477-99f6-a4f9c9018585",
+   "lemma": "into",
+   "pos": "preposition",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "into"
+   ]
+  }
+ ]
+}

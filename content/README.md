@@ -16,10 +16,14 @@ content/
 ├── pipeline/
 │   ├── Burdock.ContentPipeline/        # консольний застосунок .NET 10 (System.CommandLine)
 │   ├── audio/                          # render_audio.py (Kokoro-82M), requirements.txt, models/ (.gitignore)
+│   ├── inventory/                      # build_inventory.py (CEFR-J → чанки), merge_proposals.py (C1/C2)
+│   ├── packs/                          # build_packs.py (lint + pack build + index.json)
+│   ├── prompts/                        # generate-v1.md, review-v1.md, propose-c1c2-v1.md (варіанти для агентів Claude Code)
 │   ├── prompts/                        # translate-v3.md, examples-v2.md, classify-v2.md, review-v2.md
 │   ├── filters/                        # offensive-en.txt, offensive-uk.txt, russisms-uk.csv
 │   └── appsettings.json                # константи (розд. 3.16 специфікації), без секретів
 ├── seed/                  # стартовий пакет для розробки + seed/audio/ (аудіо 4 голосів, потрапляє в застосунок як MauiAsset)
+├── generated/uk-en/       # інвентар, чанки генерації, рецензії, зібрані пакети (комітяться як доказова база; packs/ бандлиться в застосунок)
 ├── own-lists/             # CSV / Markdown-списки власника (імпортуються зі статусом human_reviewed)
 ├── review/
 │   ├── REVIEWER_GUIDE.md  # інструкція рецензента (що перевіряти, що заборонено копіювати)
@@ -55,6 +59,14 @@ burdock-content review ai --level A1                # Claude Opus 5.5, рубр�
 burdock-content review export --stratum A1/food --format md   # → content/review/queues/
 #    ... рецензент заповнює verdict / edited_value / reason_code ...
 burdock-content review import --file content/review/queues/2026-10-14-a1-food.md
+
+# 0. Інвентар і генерація v0 без API-ключа (01.10.2026): агенти Claude Code замість Message Batches
+python content/pipeline/inventory/build_inventory.py                 # CEFR-J v1.6 → content/generated/uk-en/inventory/<LEVEL>-<NNN>.json (40 лем на чанк, id = UUID v5)
+#   воркфлоу burdock-propose-c1c2 → inventory/proposals/*.json; потім:
+python content/pipeline/inventory/merge_proposals.py                 # → inventory/c1c2-proposals.json
+python content/pipeline/inventory/build_inventory.py --extra content/generated/uk-en/inventory/c1c2-proposals.json
+#   воркфлоу burdock-content-generate (промти content/pipeline/prompts/generate-v1.md, review-v1.md) → chunks/*.json, reviews/*.review.json
+python content/pipeline/packs/build_packs.py                         # lint + pack build → content/generated/uk-en/packs/*.json, index.json, report.json
 
 # 3а. Аудіо вимови (ADR 0019; див. content/pipeline/audio/README.md)
 burdock-content audio render --pack content/seed/uk-en.free-pool.seed.json --out content/seed/audio --python .venv/Scripts/python.exe

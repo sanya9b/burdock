@@ -1,0 +1,407 @@
+{
+ "chunk": "A2-019",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "ae08d254-e242-5db2-ae99-23109c880506",
+   "lemma": "logical",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "logical"
+   ]
+  },
+  {
+   "id": "31527b88-7a0b-5c9e-b5e1-aa3fe8d5149a",
+   "lemma": "long",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "long"
+   ]
+  },
+  {
+   "id": "693162af-bd79-5135-a758-85173a13915c",
+   "lemma": "loose",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "loose"
+   ]
+  },
+  {
+   "id": "a38ec4fb-463a-55a2-ad4e-1c457b3aae6d",
+   "lemma": "lose",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lose"
+   ]
+  },
+  {
+   "id": "b199c1a8-7d7c-5af8-9c46-3a835b08e0b7",
+   "lemma": "lost",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lost"
+   ]
+  },
+  {
+   "id": "cb25f4f8-7fbe-5933-908c-d2fbb1348bd7",
+   "lemma": "lot",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lot"
+   ]
+  },
+  {
+   "id": "fed57505-47fe-59fe-b6ea-b5a2a53486c3",
+   "lemma": "loudly",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "loudly"
+   ]
+  },
+  {
+   "id": "087192d8-f675-595e-92ae-141ca59819f9",
+   "lemma": "lover",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lover"
+   ]
+  },
+  {
+   "id": "90c61bda-3065-595e-aca9-9366d2e01824",
+   "lemma": "low",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "low"
+   ]
+  },
+  {
+   "id": "f22d8d0d-bb95-5dec-b88f-5c030fd21834",
+   "lemma": "low",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "low"
+   ]
+  },
+  {
+   "id": "bee62d46-c7b6-572d-9482-6466162abb87",
+   "lemma": "luckily",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "luckily"
+   ]
+  },
+  {
+   "id": "944e4ef9-13af-54f8-8244-00c7103b2424",
+   "lemma": "lunchtime",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lunchtime"
+   ]
+  },
+  {
+   "id": "6ca990db-cf19-5e23-bbf8-c18009cb60a4",
+   "lemma": "lyric",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lyric"
+   ]
+  },
+  {
+   "id": "7635cd8a-ee2c-5c18-a128-f97548fab61b",
+   "lemma": "mad",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mad"
+   ]
+  },
+  {
+   "id": "502fed37-5c20-5556-a2e7-5f12b09b3b58",
+   "lemma": "magic",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "magic"
+   ]
+  },
+  {
+   "id": "d7d313f1-4770-5790-b3c5-736272b6a8d6",
+   "lemma": "magic",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "magic"
+   ]
+  },
+  {
+   "id": "427de6a8-32de-5737-bb20-4557d5cb9072",
+   "lemma": "main course",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "main course"
+   ]
+  },
+  {
+   "id": "2451c103-c09a-58a0-8680-9c828d8c1346",
+   "lemma": "mainly",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mainly"
+   ]
+  },
+  {
+   "id": "cede298b-47ef-5063-ac05-cfffd625f850",
+   "lemma": "major",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "major"
+   ]
+  },
+  {
+   "id": "e1b7938a-5154-5dd4-9143-b1c0e5fdbe81",
+   "lemma": "make-up",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "make-up"
+   ]
+  },
+  {
+   "id": "a178d568-a956-55c2-8f4f-3552b140d733",
+   "lemma": "maker",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "maker"
+   ]
+  },
+  {
+   "id": "05f799f0-88c5-568b-8fe9-550b90a4c069",
+   "lemma": "male",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "male"
+   ]
+  },
+  {
+   "id": "04e4a092-01dc-583a-8854-fa3a0c79871f",
+   "lemma": "mall",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mall"
+   ]
+  },
+  {
+   "id": "3541c691-a1fe-5e94-ab89-487a3ec97623",
+   "lemma": "manage",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "manage"
+   ]
+  },
+  {
+   "id": "976975b9-26d3-526b-aa4b-63501bb98317",
+   "lemma": "manager",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "manager"
+   ]
+  },
+  {
+   "id": "6109e8aa-612a-5a72-917a-6f9562480575",
+   "lemma": "manner",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "manner"
+   ]
+  },
+  {
+   "id": "5ea73a8d-126e-5a85-83e5-41b16c1c547b",
+   "lemma": "mark",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mark"
+   ]
+  },
+  {
+   "id": "c2bb0353-5a53-511a-83d4-5a7f855031a2",
+   "lemma": "mark",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mark"
+   ]
+  },
+  {
+   "id": "060ca688-01b5-51f4-b5e4-fca7b607793b",
+   "lemma": "market",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "market"
+   ]
+  },
+  {
+   "id": "e790305c-fe89-5599-ad76-5a728509f2bd",
+   "lemma": "married",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "married"
+   ]
+  },
+  {
+   "id": "62e1db6c-d0c6-5d7b-a4e1-c02b1033bf63",
+   "lemma": "marry",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "marry"
+   ]
+  },
+  {
+   "id": "24afd913-d30f-5dbd-9a92-e35063df5b86",
+   "lemma": "marvelous",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "marvelous",
+    "marvellous"
+   ]
+  },
+  {
+   "id": "bd8c52a9-87b7-5de4-8170-e640a7e72976",
+   "lemma": "material",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "material"
+   ]
+  },
+  {
+   "id": "7beb0518-cc4b-57f6-8763-1fd00dadf47f",
+   "lemma": "matter",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "matter"
+   ]
+  },
+  {
+   "id": "b0bfd411-9789-5f71-8522-ec330283b483",
+   "lemma": "max",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "max"
+   ]
+  },
+  {
+   "id": "8eb4890c-f125-5582-97e5-806f9eef5048",
+   "lemma": "mean",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mean"
+   ]
+  },
+  {
+   "id": "50f8b5f3-3974-53aa-9170-abd7f6e3365c",
+   "lemma": "meaning",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "meaning"
+   ]
+  },
+  {
+   "id": "a1a2969c-1818-5d68-a2f1-231401e80a7b",
+   "lemma": "medal",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "medal"
+   ]
+  },
+  {
+   "id": "2ec51f60-d2ee-5195-b9be-fcec1a369447",
+   "lemma": "medical",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "medical"
+   ]
+  },
+  {
+   "id": "3d612392-5e19-5b42-8426-50bf49f82896",
+   "lemma": "melon",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "melon"
+   ]
+  }
+ ]
+}

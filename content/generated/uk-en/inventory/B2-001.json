@@ -1,0 +1,406 @@
+{
+ "chunk": "B2-001",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "778f3a8f-3d7a-54b0-86d0-9c0381c1ed79",
+   "lemma": "abandoned",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "abandoned"
+   ]
+  },
+  {
+   "id": "943b49cf-0810-5842-802a-a788819d4263",
+   "lemma": "abnormally",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "abnormally"
+   ]
+  },
+  {
+   "id": "21c89c6a-a921-564b-966a-9fc1d2963508",
+   "lemma": "abolish",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "abolish"
+   ]
+  },
+  {
+   "id": "502d6ace-e0dc-5098-9088-663259f5dc09",
+   "lemma": "aboriginal",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "aboriginal"
+   ]
+  },
+  {
+   "id": "08c1ecb5-e2f5-52d5-a6ef-3c7008cd7c39",
+   "lemma": "abruptly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "abruptly"
+   ]
+  },
+  {
+   "id": "fb40de46-8b9b-529e-b76b-d6ef535a5650",
+   "lemma": "absentee",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "absentee"
+   ]
+  },
+  {
+   "id": "7282c202-2f57-5c63-891e-e1aaef01eac8",
+   "lemma": "absurd",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "absurd"
+   ]
+  },
+  {
+   "id": "56c1a343-afd8-5115-97ea-0dc11d7eb7e8",
+   "lemma": "abuse",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "abuse"
+   ]
+  },
+  {
+   "id": "9bb3abfe-4081-53f2-a437-15900f83edbc",
+   "lemma": "access",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "access"
+   ]
+  },
+  {
+   "id": "aeab3727-2cc3-5de9-82dc-54d931a59fd5",
+   "lemma": "accessibility",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "accessibility"
+   ]
+  },
+  {
+   "id": "61e9e8d8-018d-53b2-bd07-e2518b19bf35",
+   "lemma": "accommodation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "accommodation"
+   ]
+  },
+  {
+   "id": "f6b42dd8-93be-5050-9450-a65d6b6cfddb",
+   "lemma": "accordingly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "accordingly"
+   ]
+  },
+  {
+   "id": "6809f652-b482-53cb-8cfc-59f73aaed3cd",
+   "lemma": "accumulate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "accumulate"
+   ]
+  },
+  {
+   "id": "45a576ef-bb1c-5aea-a0da-7c0439fbb451",
+   "lemma": "accusation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "accusation"
+   ]
+  },
+  {
+   "id": "f7d6b8ad-1bf7-562a-aa06-3706e263efcc",
+   "lemma": "ache",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ache"
+   ]
+  },
+  {
+   "id": "bc8a7178-3deb-5d33-acc5-bf435ae5e9a0",
+   "lemma": "achievable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "achievable"
+   ]
+  },
+  {
+   "id": "d0cd9bae-2e39-5f2d-93e1-ecf7818c8e6e",
+   "lemma": "acid",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "acid"
+   ]
+  },
+  {
+   "id": "1e00733e-c1e5-5231-82ed-c856980de83b",
+   "lemma": "acquisition",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "acquisition"
+   ]
+  },
+  {
+   "id": "6ac3b60f-ddeb-559f-a263-45787dce3951",
+   "lemma": "actively",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "actively"
+   ]
+  },
+  {
+   "id": "e958f0a3-73d6-52e3-9674-b3a05aca4f8c",
+   "lemma": "actual",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "actual"
+   ]
+  },
+  {
+   "id": "f1079b82-9ad1-5b10-8d14-13e4e546063f",
+   "lemma": "acute",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "acute"
+   ]
+  },
+  {
+   "id": "2548328a-e524-5a9b-82c8-de47d728eb3c",
+   "lemma": "adaptable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "adaptable"
+   ]
+  },
+  {
+   "id": "39964805-b98b-505a-9228-c44625580003",
+   "lemma": "addict",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "addict"
+   ]
+  },
+  {
+   "id": "45edf05c-7100-5a80-a966-eb4e12b110bd",
+   "lemma": "addicted",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "addicted"
+   ]
+  },
+  {
+   "id": "780247b1-57a4-5138-a308-daf1ddde26d4",
+   "lemma": "addiction",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "addiction"
+   ]
+  },
+  {
+   "id": "cf05b7f7-7a86-5e80-97d9-7ac7b324e21e",
+   "lemma": "additionally",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "additionally"
+   ]
+  },
+  {
+   "id": "069ff73a-ff4f-5b5b-971b-482b9cd1d05c",
+   "lemma": "adequate",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "adequate"
+   ]
+  },
+  {
+   "id": "633a8fc7-de37-553d-8cd9-520115a437e0",
+   "lemma": "adequately",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "adequately"
+   ]
+  },
+  {
+   "id": "f0800ecf-1825-5158-9094-68f30ec00bc4",
+   "lemma": "adjustment",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "adjustment"
+   ]
+  },
+  {
+   "id": "f5a13c18-a4f9-5832-b367-e4b5d7c50952",
+   "lemma": "administrative",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "administrative"
+   ]
+  },
+  {
+   "id": "bbd3eb85-3a88-5fb8-b7ee-4c6c5afa1a4e",
+   "lemma": "admirable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "admirable"
+   ]
+  },
+  {
+   "id": "18cbd4a4-a8e4-5a2d-93f7-fc9b8dbad761",
+   "lemma": "admiringly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "admiringly"
+   ]
+  },
+  {
+   "id": "59af1f57-5b07-5ede-ae68-0fe6646392d6",
+   "lemma": "admittedly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "admittedly"
+   ]
+  },
+  {
+   "id": "13202976-31d5-5608-b608-6e6847c01c0d",
+   "lemma": "adopted",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "adopted"
+   ]
+  },
+  {
+   "id": "312eb4da-ebe6-5060-958c-07988ada01f7",
+   "lemma": "adoption",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "adoption"
+   ]
+  },
+  {
+   "id": "0762b438-df52-504d-9270-937235b56f7d",
+   "lemma": "adore",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "adore"
+   ]
+  },
+  {
+   "id": "ea281787-7ae6-59ed-9d0b-7ec67fcd02e3",
+   "lemma": "adorn",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "adorn"
+   ]
+  },
+  {
+   "id": "68e55655-1a77-5e36-80e2-86d4a87677ad",
+   "lemma": "advance",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "advance"
+   ]
+  },
+  {
+   "id": "44559692-56d0-5c45-b87e-da577539201a",
+   "lemma": "advancement",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "advancement"
+   ]
+  },
+  {
+   "id": "bc2d4533-0961-507f-8087-6a1771cf78b8",
+   "lemma": "advent",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "advent"
+   ]
+  }
+ ]
+}

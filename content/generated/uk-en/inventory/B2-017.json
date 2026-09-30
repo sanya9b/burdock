@@ -1,0 +1,407 @@
+{
+ "chunk": "B2-017",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "dce8c1a2-b262-5368-a401-8a1d967f81ca",
+   "lemma": "dignify",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dignify"
+   ]
+  },
+  {
+   "id": "f722d0d0-d30d-5a19-b7d7-72df0d70aaf0",
+   "lemma": "dignity",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dignity"
+   ]
+  },
+  {
+   "id": "6f61db46-9a5d-51b3-8473-b0cb0206f6b5",
+   "lemma": "dilemma",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dilemma"
+   ]
+  },
+  {
+   "id": "02b7f2d1-0451-5913-9ffa-8ca37d840fa7",
+   "lemma": "dim",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dim"
+   ]
+  },
+  {
+   "id": "6fc5fa1d-d2d2-5b36-a6fa-4f2d62fa9bc6",
+   "lemma": "dime",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dime"
+   ]
+  },
+  {
+   "id": "e64898fd-1451-55c2-b076-5b2a384ebb28",
+   "lemma": "dimension",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dimension"
+   ]
+  },
+  {
+   "id": "5e28b7d6-fee2-52aa-b385-f3fb3b1430d9",
+   "lemma": "dip",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dip"
+   ]
+  },
+  {
+   "id": "c364a07e-4203-5636-b206-c82db1ed00b0",
+   "lemma": "diphtheria",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "diphtheria"
+   ]
+  },
+  {
+   "id": "88ef454e-782d-5be7-800b-764edec7695a",
+   "lemma": "diploma",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "diploma"
+   ]
+  },
+  {
+   "id": "7c13d4bb-b6c6-5bba-8703-1c72ecb20e5c",
+   "lemma": "diplomat",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "diplomat"
+   ]
+  },
+  {
+   "id": "e51c34a0-0a38-5240-9014-8e31deac4856",
+   "lemma": "disappearance",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "disappearance"
+   ]
+  },
+  {
+   "id": "160fefad-c4d5-529b-8630-ffe21789be92",
+   "lemma": "disapproval",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "disapproval"
+   ]
+  },
+  {
+   "id": "48230a15-8067-5d07-9a71-72de47116ac9",
+   "lemma": "disapprove",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "disapprove"
+   ]
+  },
+  {
+   "id": "ae6b5064-abe8-55e4-b095-b097f4642afe",
+   "lemma": "discharge",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "discharge"
+   ]
+  },
+  {
+   "id": "6547fdc6-21f3-5243-8862-97d3cc6548c2",
+   "lemma": "disciple",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "disciple"
+   ]
+  },
+  {
+   "id": "551221c8-55ec-5f38-b0de-c203c514e4e6",
+   "lemma": "discipline",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "discipline"
+   ]
+  },
+  {
+   "id": "50695523-af16-573e-ab14-1f08baffcc4a",
+   "lemma": "disconnect",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "disconnect"
+   ]
+  },
+  {
+   "id": "d5ea47ab-e49f-5724-ae30-59fec23028d2",
+   "lemma": "discredit",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "discredit"
+   ]
+  },
+  {
+   "id": "bd3d7ccb-0336-5679-89ee-6ca93085660f",
+   "lemma": "discriminate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "discriminate"
+   ]
+  },
+  {
+   "id": "01545bb3-09b5-56f5-8d72-ddde26b7f710",
+   "lemma": "disgrace",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "disgrace"
+   ]
+  },
+  {
+   "id": "9ff39782-7dd2-5c65-8460-d52d197aded4",
+   "lemma": "disguise",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "disguise"
+   ]
+  },
+  {
+   "id": "0999f870-24b3-5282-91e5-53f7c9cf23b1",
+   "lemma": "disguise",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "disguise"
+   ]
+  },
+  {
+   "id": "ec7f3a8c-895a-5547-b79c-4c3887547a41",
+   "lemma": "dishonesty",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dishonesty"
+   ]
+  },
+  {
+   "id": "c49cfd0e-b084-515e-b1e5-1c1279a9fc2f",
+   "lemma": "disillusion",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "disillusion"
+   ]
+  },
+  {
+   "id": "368091f8-7e65-53d2-ba1f-24d8b3b75903",
+   "lemma": "dismiss",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dismiss"
+   ]
+  },
+  {
+   "id": "f4f4def5-d62e-55db-89c5-47375eb22649",
+   "lemma": "disorder",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "disorder"
+   ]
+  },
+  {
+   "id": "a6414939-0f27-5151-9180-43d501a664da",
+   "lemma": "disorderly",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "disorderly"
+   ]
+  },
+  {
+   "id": "0a025c19-7884-58de-8117-02a01d36f39b",
+   "lemma": "disorganized",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "disorganized",
+    "disorganised"
+   ]
+  },
+  {
+   "id": "7da46fca-c58a-5653-abcd-a0a44f11bcb4",
+   "lemma": "dispensable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dispensable"
+   ]
+  },
+  {
+   "id": "fb9e39f8-8ff5-5212-8255-b8b662e810a2",
+   "lemma": "displace",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "displace"
+   ]
+  },
+  {
+   "id": "e5bbacbe-ce55-5624-99a2-bcf6328eb897",
+   "lemma": "displeasure",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "displeasure"
+   ]
+  },
+  {
+   "id": "f6e7a6ce-7e2c-5b76-ac56-5de8b9e3dbf8",
+   "lemma": "disposal",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "disposal"
+   ]
+  },
+  {
+   "id": "07c76ede-9410-5d4e-9b22-8ddbbb50625e",
+   "lemma": "disposition",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "disposition"
+   ]
+  },
+  {
+   "id": "caa377e9-b95f-5e06-afb2-d8792d50c2ec",
+   "lemma": "dispute",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dispute"
+   ]
+  },
+  {
+   "id": "f88031a2-b77d-5536-b98e-753356923650",
+   "lemma": "disqualify",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "disqualify"
+   ]
+  },
+  {
+   "id": "24682cd6-7672-5f82-a255-f84577a9be70",
+   "lemma": "disregard",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "disregard"
+   ]
+  },
+  {
+   "id": "1840641d-75a1-5ebf-af72-33b6ace3e2c7",
+   "lemma": "disrupt",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "disrupt"
+   ]
+  },
+  {
+   "id": "7d903ab0-2732-50e1-8714-f08065a72566",
+   "lemma": "dissatisfaction",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dissatisfaction"
+   ]
+  },
+  {
+   "id": "7eabbe43-64b2-548c-9722-18e5b5a333d9",
+   "lemma": "dissatisfied",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dissatisfied"
+   ]
+  },
+  {
+   "id": "d6cff30f-8046-5f7f-b4bf-959f14f5364a",
+   "lemma": "dissident",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dissident"
+   ]
+  }
+ ]
+}

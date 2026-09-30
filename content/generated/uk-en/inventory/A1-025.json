@@ -1,0 +1,407 @@
+{
+ "chunk": "A1-025",
+ "level": "A1",
+ "lexemes": [
+  {
+   "id": "5c8bef40-ad47-5c06-be0d-1c52d5a9cc87",
+   "lemma": "sun",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sun"
+   ]
+  },
+  {
+   "id": "97e53c3b-c1fc-50cc-a456-ece4ef6a701b",
+   "lemma": "Sunday",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sunday"
+   ]
+  },
+  {
+   "id": "cca7fec1-5ca9-5dc1-940d-25d2904242bb",
+   "lemma": "sunny",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sunny"
+   ]
+  },
+  {
+   "id": "50c780f7-6e61-5b56-b979-5b7d60a8a5c2",
+   "lemma": "sunshine",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sunshine"
+   ]
+  },
+  {
+   "id": "431efb5b-cff8-541a-8711-020a6b4f93ae",
+   "lemma": "super",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "super"
+   ]
+  },
+  {
+   "id": "51b48887-d0a6-5f5c-a1e4-8b90179e4689",
+   "lemma": "supermarket",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "supermarket"
+   ]
+  },
+  {
+   "id": "3763bf01-d011-5373-bd99-7e492f7fbfc5",
+   "lemma": "sure",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sure"
+   ]
+  },
+  {
+   "id": "d45e4e6e-0e07-57ea-b68b-02293f6b0d8d",
+   "lemma": "surf",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "surf"
+   ]
+  },
+  {
+   "id": "4335d36f-7aa7-5169-81c2-c45acfb97f1e",
+   "lemma": "surprise",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "surprise"
+   ]
+  },
+  {
+   "id": "da5decfb-851b-532f-a8e5-4b813d07eb07",
+   "lemma": "survey",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "survey"
+   ]
+  },
+  {
+   "id": "5c856463-5f48-5832-84dd-ff1cf8ea80fa",
+   "lemma": "sweet",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sweet"
+   ]
+  },
+  {
+   "id": "4f401447-5614-5706-a01b-18ab3f360b6e",
+   "lemma": "swim",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "swim"
+   ]
+  },
+  {
+   "id": "5c683792-8317-57bb-87f9-4f1d97fe0a15",
+   "lemma": "swim",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "swim"
+   ]
+  },
+  {
+   "id": "19029d3f-8729-5ad4-992a-f9385f514c93",
+   "lemma": "swimming",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "swimming"
+   ]
+  },
+  {
+   "id": "35772a9f-a2bb-5279-a582-8cafd790e17c",
+   "lemma": "swimming pool",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "swimming pool"
+   ]
+  },
+  {
+   "id": "915e4425-1382-5220-a4f5-59a408ee3773",
+   "lemma": "T-shirt",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "t-shirt",
+    "tee-shirt"
+   ]
+  },
+  {
+   "id": "40f6c820-4f2d-59a4-be44-c9c1c605a161",
+   "lemma": "table",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "table"
+   ]
+  },
+  {
+   "id": "bd7c8b44-ff5c-5f8b-a6a0-588d3818ebc9",
+   "lemma": "take",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "take"
+   ]
+  },
+  {
+   "id": "da940be9-bd71-57b3-8b62-a1070dffdee3",
+   "lemma": "talk",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "talk"
+   ]
+  },
+  {
+   "id": "b5c467e7-7c75-5ec7-852a-908b4d8b6c36",
+   "lemma": "tall",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tall"
+   ]
+  },
+  {
+   "id": "b8d553a2-071d-5651-95cf-5bfc46f2751d",
+   "lemma": "taxi",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "taxi"
+   ]
+  },
+  {
+   "id": "4b07002b-58c3-5261-8310-a71b2b8c0c7d",
+   "lemma": "tea",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tea"
+   ]
+  },
+  {
+   "id": "6aa39802-04e8-52ff-aa01-14163f36c067",
+   "lemma": "teach",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "teach"
+   ]
+  },
+  {
+   "id": "0bd726fc-b866-53f6-99c1-633bd05ead01",
+   "lemma": "teacher",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "teacher"
+   ]
+  },
+  {
+   "id": "e9bcf022-b79d-52a7-9f42-e118dbf7f84f",
+   "lemma": "team",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "team"
+   ]
+  },
+  {
+   "id": "8e688952-5124-5ff5-aa9e-6e5e5f5d54c2",
+   "lemma": "technology",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "technology"
+   ]
+  },
+  {
+   "id": "428bccf3-6ea1-5f2d-934f-8b556c1652db",
+   "lemma": "telephone",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "telephone"
+   ]
+  },
+  {
+   "id": "5d7ab386-612f-5abf-9ba8-f26297a40369",
+   "lemma": "television",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "television"
+   ]
+  },
+  {
+   "id": "337708f3-95fb-55e7-82f5-370a486274a1",
+   "lemma": "tell",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tell"
+   ]
+  },
+  {
+   "id": "fe720257-2aee-5cf1-bb43-ce654ef9c00b",
+   "lemma": "temple",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "temple"
+   ]
+  },
+  {
+   "id": "9203fe31-aad8-5ebc-b141-9c832d279300",
+   "lemma": "ten",
+   "pos": "numeral",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ten"
+   ]
+  },
+  {
+   "id": "2be2d14b-5333-528c-b627-f29b13b20570",
+   "lemma": "tennis",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tennis"
+   ]
+  },
+  {
+   "id": "ebba9814-b3be-58df-ab65-eea798f6843b",
+   "lemma": "terrible",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "terrible"
+   ]
+  },
+  {
+   "id": "18888015-24cf-5e10-99c8-a07515df02c3",
+   "lemma": "test",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "test"
+   ]
+  },
+  {
+   "id": "4dbe767c-407b-5dff-a06a-d90b739903c1",
+   "lemma": "than",
+   "pos": "conjunction",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "than"
+   ]
+  },
+  {
+   "id": "b78d2a12-3f53-5a89-8756-8732d4919a44",
+   "lemma": "than",
+   "pos": "preposition",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "than"
+   ]
+  },
+  {
+   "id": "03f4cdc7-2799-5ed2-a96f-be80dc7d0c40",
+   "lemma": "thank",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thank"
+   ]
+  },
+  {
+   "id": "1f2b3512-47f2-548e-8199-9e0f2cee8025",
+   "lemma": "thanks",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thanks"
+   ]
+  },
+  {
+   "id": "00424fb5-265d-503a-9212-56d5c3bcba7e",
+   "lemma": "that",
+   "pos": "conjunction",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "that"
+   ]
+  },
+  {
+   "id": "aba45e75-cccc-5d7a-b282-faf445138835",
+   "lemma": "that",
+   "pos": "determiner",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "that"
+   ]
+  }
+ ]
+}

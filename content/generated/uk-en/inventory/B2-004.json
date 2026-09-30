@@ -1,0 +1,409 @@
+{
+ "chunk": "B2-004",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "0eba7789-12af-5bef-adf2-5cbc27e0a59e",
+   "lemma": "assault",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "assault"
+   ]
+  },
+  {
+   "id": "7e9eea9a-08e9-5cb6-a6b6-601c3b66e837",
+   "lemma": "assemble",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "assemble"
+   ]
+  },
+  {
+   "id": "6f338e1f-7b9e-5c52-a2cd-900da352748b",
+   "lemma": "assembly",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "assembly"
+   ]
+  },
+  {
+   "id": "fc400e16-3207-59c4-815f-3fe011bef290",
+   "lemma": "assert",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "assert"
+   ]
+  },
+  {
+   "id": "d0dec109-7836-559c-83a0-6f18f0e61821",
+   "lemma": "assess",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "assess"
+   ]
+  },
+  {
+   "id": "a14d205d-29da-5959-98ff-c3eb0a881b5d",
+   "lemma": "assessment",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "assessment"
+   ]
+  },
+  {
+   "id": "c96fb64a-ca42-5ffb-88d4-6ed1a8179543",
+   "lemma": "assumption",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "assumption"
+   ]
+  },
+  {
+   "id": "da6d5e47-e6ce-54a0-9e8c-357e6e7adcd4",
+   "lemma": "assurance",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "assurance"
+   ]
+  },
+  {
+   "id": "becd62b7-53ec-5c60-a843-f13c6e43311a",
+   "lemma": "assure",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "assure"
+   ]
+  },
+  {
+   "id": "1b2f999d-7beb-5a9f-ad6a-8d9eafd4353e",
+   "lemma": "astonish",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "astonish"
+   ]
+  },
+  {
+   "id": "d852b170-6a50-5c4a-81ca-8f8b5c90c6a8",
+   "lemma": "astonished",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "astonished"
+   ]
+  },
+  {
+   "id": "6a2a4201-be5c-58f6-be3b-b1948e5b8185",
+   "lemma": "astonishing",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "astonishing"
+   ]
+  },
+  {
+   "id": "6d753048-224d-58b7-88d9-83021c6b5030",
+   "lemma": "astonishment",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "astonishment"
+   ]
+  },
+  {
+   "id": "1499b167-9dd6-52ad-b73c-2fe8a2082864",
+   "lemma": "astronomy",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "astronomy"
+   ]
+  },
+  {
+   "id": "d2f68951-ea97-5cf4-b60d-93c5b51312ac",
+   "lemma": "athletics",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "athletics"
+   ]
+  },
+  {
+   "id": "6ea3a77f-8cf5-50e4-90e4-99b5d0537653",
+   "lemma": "attached",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "attached"
+   ]
+  },
+  {
+   "id": "26939da2-f45e-522b-ab37-aad1258dc1f9",
+   "lemma": "attainable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "attainable"
+   ]
+  },
+  {
+   "id": "b500139d-ae82-5ecf-8b1b-6a20d60c6dc2",
+   "lemma": "attainment",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "attainment"
+   ]
+  },
+  {
+   "id": "14a7a0ec-bebb-5cac-9440-35ddb4aaf857",
+   "lemma": "attendance",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "attendance"
+   ]
+  },
+  {
+   "id": "51068c91-749d-5891-8fb8-f6e626ae0843",
+   "lemma": "attentive",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "attentive"
+   ]
+  },
+  {
+   "id": "58c4db1d-4763-55f7-b313-3497a41c9d1b",
+   "lemma": "attentively",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "attentively"
+   ]
+  },
+  {
+   "id": "6709f7cd-9688-5000-b4c7-7d8c3dfc9aef",
+   "lemma": "attractiveness",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "attractiveness"
+   ]
+  },
+  {
+   "id": "ce4d427c-76bb-57ab-8bf9-1cf08e3f4384",
+   "lemma": "attribute",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "attribute"
+   ]
+  },
+  {
+   "id": "3f4e19ea-a3b8-5f88-be48-18a5715be1f2",
+   "lemma": "attribute",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "attribute"
+   ]
+  },
+  {
+   "id": "4eef93f8-4689-57c2-8617-52af565d18ba",
+   "lemma": "atypical",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "atypical"
+   ]
+  },
+  {
+   "id": "33e47ec1-266e-5749-af93-d80503e4741b",
+   "lemma": "aubergine",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "aubergine"
+   ]
+  },
+  {
+   "id": "49dbb86c-2fe6-5978-a0d3-7a6887800d08",
+   "lemma": "audit",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "audit"
+   ]
+  },
+  {
+   "id": "cb679f58-b4e2-575b-a02a-e02d9667db21",
+   "lemma": "audition",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "audition"
+   ]
+  },
+  {
+   "id": "0ab77bff-51d0-53e2-a5bc-7c6225550c47",
+   "lemma": "authoritative",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "authoritative"
+   ]
+  },
+  {
+   "id": "d0910214-aba0-5c39-ad7b-c1a0c6e35848",
+   "lemma": "authorize",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "authorize",
+    "authorise"
+   ]
+  },
+  {
+   "id": "48c80292-5f30-5694-9e5c-b154bec4b587",
+   "lemma": "availability",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "availability"
+   ]
+  },
+  {
+   "id": "83393f67-febe-56bc-8d37-f4425c0457d9",
+   "lemma": "await",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "await"
+   ]
+  },
+  {
+   "id": "bb6f3a1a-95f3-5366-b34f-912e3940fec4",
+   "lemma": "awe",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "awe"
+   ]
+  },
+  {
+   "id": "e8f66157-278a-5485-ab38-519a6ea3e596",
+   "lemma": "ax",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ax",
+    "axe"
+   ]
+  },
+  {
+   "id": "f38df09d-77a7-5714-bc5b-076d14895be9",
+   "lemma": "axis",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "axis"
+   ]
+  },
+  {
+   "id": "bb68164c-c28b-5bf2-8d7f-e0ebef252148",
+   "lemma": "backup",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "backup"
+   ]
+  },
+  {
+   "id": "18e7c929-5ab2-5de0-8162-ec37ec36f139",
+   "lemma": "backward",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "backward",
+    "backwards"
+   ]
+  },
+  {
+   "id": "9387f92d-b8b5-50db-a43e-b922574a31b1",
+   "lemma": "backyard",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "backyard"
+   ]
+  },
+  {
+   "id": "7bbf8a23-b1ef-50d8-b77b-4910458f8b9f",
+   "lemma": "bad-tempered",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bad-tempered"
+   ]
+  },
+  {
+   "id": "7db7f16a-4897-5d9b-8c24-e5da231d1ee2",
+   "lemma": "badge",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "badge"
+   ]
+  }
+ ]
+}

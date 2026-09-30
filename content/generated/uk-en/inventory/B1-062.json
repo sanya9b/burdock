@@ -1,0 +1,46 @@
+{
+ "chunk": "B1-062",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "5f871319-a27b-5f73-9ed7-715c3b5f1728",
+   "lemma": "written",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "written"
+   ]
+  },
+  {
+   "id": "33c1d1e7-3db3-51ca-a4b6-3231d23f0a1a",
+   "lemma": "yell",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "yell"
+   ]
+  },
+  {
+   "id": "ebaeffad-b0bb-5d36-95af-14c714f66ed5",
+   "lemma": "yet",
+   "pos": "conjunction",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "yet"
+   ]
+  },
+  {
+   "id": "acc7cf50-4b5f-5066-a63f-c70b2d5ef5d0",
+   "lemma": "yoga",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "yoga"
+   ]
+  }
+ ]
+}

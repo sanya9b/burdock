@@ -1,0 +1,406 @@
+{
+ "chunk": "B2-030",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "87dda78e-6241-56ec-a69d-355be6f9566b",
+   "lemma": "impermanent",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "impermanent"
+   ]
+  },
+  {
+   "id": "bffef91b-a013-51a1-917e-996f201734e1",
+   "lemma": "implement",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "implement"
+   ]
+  },
+  {
+   "id": "41751940-a766-576e-9c3e-e761f5780d47",
+   "lemma": "implement",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "implement"
+   ]
+  },
+  {
+   "id": "fc86ecfc-397f-5fcb-8f90-13544dc45c25",
+   "lemma": "implication",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "implication"
+   ]
+  },
+  {
+   "id": "6088e737-ce18-5d42-9bcd-e07841ca6f17",
+   "lemma": "imply",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "imply"
+   ]
+  },
+  {
+   "id": "9c2cc011-aa0f-5b4e-a37d-adc3b66f8e57",
+   "lemma": "impolite",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "impolite"
+   ]
+  },
+  {
+   "id": "640074f0-6f80-5fc4-a196-a47b781aaaa9",
+   "lemma": "impolitely",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "impolitely"
+   ]
+  },
+  {
+   "id": "d971c3e2-d216-5b92-858a-1298bba547ea",
+   "lemma": "import",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "import"
+   ]
+  },
+  {
+   "id": "218c934a-4e39-5a06-bcd4-cb62077d3eeb",
+   "lemma": "impose",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "impose"
+   ]
+  },
+  {
+   "id": "0aa60296-8685-5f34-b962-2f17b526d44b",
+   "lemma": "impossibility",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "impossibility"
+   ]
+  },
+  {
+   "id": "fa153cf0-bc08-53fc-a6cb-064d95528857",
+   "lemma": "impractical",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "impractical"
+   ]
+  },
+  {
+   "id": "798f7172-5c11-515c-9e55-4556e77a66f4",
+   "lemma": "impressed",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "impressed"
+   ]
+  },
+  {
+   "id": "324b5dfe-df1b-574b-bc41-a5b63ac36dfe",
+   "lemma": "impressionism",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "impressionism"
+   ]
+  },
+  {
+   "id": "4ce62373-23a7-541c-9b47-3890032c5a9e",
+   "lemma": "impressionist",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "impressionist"
+   ]
+  },
+  {
+   "id": "3b92fcbe-4075-5d2f-a099-21ecc6a74fe9",
+   "lemma": "imprison",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "imprison"
+   ]
+  },
+  {
+   "id": "ba1d8267-131a-59a3-9377-27f04e715909",
+   "lemma": "imprisonment",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "imprisonment"
+   ]
+  },
+  {
+   "id": "4437d97e-4fcc-515c-bdbb-7c17549f6d90",
+   "lemma": "improbable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "improbable"
+   ]
+  },
+  {
+   "id": "f806231c-2512-50e0-8b90-a11a103886b2",
+   "lemma": "improperly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "improperly"
+   ]
+  },
+  {
+   "id": "e0c227b0-e0c6-52fb-ab21-e82c894951cb",
+   "lemma": "improved",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "improved"
+   ]
+  },
+  {
+   "id": "b6498525-f9fd-5f37-a619-f4cd28bd3116",
+   "lemma": "impulse",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "impulse"
+   ]
+  },
+  {
+   "id": "a0597b47-84ab-5f49-8a6f-d5a697fb47d4",
+   "lemma": "impulsive",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "impulsive"
+   ]
+  },
+  {
+   "id": "6ab373d8-e746-575f-99e4-2d1781fb9548",
+   "lemma": "inaccurate",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "inaccurate"
+   ]
+  },
+  {
+   "id": "721d5f35-7acc-563c-b41a-69d848c99553",
+   "lemma": "inadequate",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "inadequate"
+   ]
+  },
+  {
+   "id": "670a8bb6-168c-51b9-adeb-0ef69c76cac0",
+   "lemma": "inanimate",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "inanimate"
+   ]
+  },
+  {
+   "id": "839ea69a-7ad4-5198-9e63-be168f31072b",
+   "lemma": "inborn",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "inborn"
+   ]
+  },
+  {
+   "id": "af6ed121-f66d-5560-9102-c9e807874669",
+   "lemma": "incense",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "incense"
+   ]
+  },
+  {
+   "id": "b94aa053-ec98-519c-94ca-000e53ae6f99",
+   "lemma": "incentive",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "incentive"
+   ]
+  },
+  {
+   "id": "99beab3e-67b7-5840-a9da-8edc59369575",
+   "lemma": "inch",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "inch"
+   ]
+  },
+  {
+   "id": "728c3899-09dc-5e46-8374-126403f42705",
+   "lemma": "incur",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "incur"
+   ]
+  },
+  {
+   "id": "754ed110-e0f3-533b-a09e-44ce60cc0c53",
+   "lemma": "incurable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "incurable"
+   ]
+  },
+  {
+   "id": "dc716eec-b2ce-533a-8b2a-8f2825fb8835",
+   "lemma": "indebted",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "indebted"
+   ]
+  },
+  {
+   "id": "0aef1b8e-1b66-5398-af96-2575103c3d44",
+   "lemma": "indent",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "indent"
+   ]
+  },
+  {
+   "id": "1dd8bf8d-dd0c-5b4c-88f4-e2fb2fdc5a9b",
+   "lemma": "independently",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "independently"
+   ]
+  },
+  {
+   "id": "382d60cd-32c7-5733-a89e-f2aeba88224c",
+   "lemma": "indescribable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "indescribable"
+   ]
+  },
+  {
+   "id": "2aa6ea23-84e8-55c7-b929-37879efe8efe",
+   "lemma": "index",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "index"
+   ]
+  },
+  {
+   "id": "48c84b43-c282-503c-b323-5f8f86720a4b",
+   "lemma": "indifferent",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "indifferent"
+   ]
+  },
+  {
+   "id": "3f88ae80-5cdc-582a-8be1-95536bc4c007",
+   "lemma": "indignity",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "indignity"
+   ]
+  },
+  {
+   "id": "379368eb-1833-518d-85c8-801babdb6d9f",
+   "lemma": "indispensable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "indispensable"
+   ]
+  },
+  {
+   "id": "abc047ef-c168-50ad-82ec-d57e4ebd963e",
+   "lemma": "individual",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "individual"
+   ]
+  },
+  {
+   "id": "d88dbbb4-d8c7-5fe1-bed4-8ad0fcd37655",
+   "lemma": "indulge",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "indulge"
+   ]
+  }
+ ]
+}

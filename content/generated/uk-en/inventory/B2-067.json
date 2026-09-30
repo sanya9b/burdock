@@ -1,0 +1,408 @@
+{
+ "chunk": "B2-067",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "9a176eb2-4dc9-5b09-b2bb-c1ab6d291ce4",
+   "lemma": "upside down",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "upside down"
+   ]
+  },
+  {
+   "id": "3914cd6c-e925-511e-8595-38f0f5c1f124",
+   "lemma": "urban",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "urban"
+   ]
+  },
+  {
+   "id": "00f5ae35-e751-58b3-854f-fa0e864b19fc",
+   "lemma": "urge",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "urge"
+   ]
+  },
+  {
+   "id": "49319a02-dc61-558d-b7eb-e2148a8bb3e9",
+   "lemma": "urgently",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "urgently"
+   ]
+  },
+  {
+   "id": "5a93b751-a3f2-528c-aefd-13312b7f0ff4",
+   "lemma": "user",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "user"
+   ]
+  },
+  {
+   "id": "106b9cc3-9325-588d-adec-d921435eae23",
+   "lemma": "usher",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "usher"
+   ]
+  },
+  {
+   "id": "abdb1724-9616-53ec-8604-525bd248f2c9",
+   "lemma": "utility",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "utility"
+   ]
+  },
+  {
+   "id": "2a05d8f4-b199-5caa-8af8-ad2e847958b4",
+   "lemma": "utilize",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "utilize",
+    "utilise"
+   ]
+  },
+  {
+   "id": "bd8f0f87-6699-5afb-9126-fdd03868eed1",
+   "lemma": "utter",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "utter"
+   ]
+  },
+  {
+   "id": "1a5146e9-9498-5f91-8cca-eb961e1cb541",
+   "lemma": "utterly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "utterly"
+   ]
+  },
+  {
+   "id": "ed96da05-39ad-5b81-8646-8286676f7c43",
+   "lemma": "vacant",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "vacant"
+   ]
+  },
+  {
+   "id": "e2de2a40-f2c9-5526-92a2-b4b7957cae97",
+   "lemma": "vaccine",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "vaccine"
+   ]
+  },
+  {
+   "id": "765ddc97-b45c-59b3-9538-d7c715de1c07",
+   "lemma": "valentine",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "valentine"
+   ]
+  },
+  {
+   "id": "8c2dfd38-bd6a-59cc-9c8d-72ee99896a4b",
+   "lemma": "valid",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "valid"
+   ]
+  },
+  {
+   "id": "a72f6c4a-21ff-510c-bdbf-fe5d5c06d3fd",
+   "lemma": "value",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "value"
+   ]
+  },
+  {
+   "id": "b34502bd-e4b7-5c84-a6a1-7196dc74c8cb",
+   "lemma": "vanish",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "vanish"
+   ]
+  },
+  {
+   "id": "21bf99d1-6fba-5b3b-967c-465de33cd96d",
+   "lemma": "vanity",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "vanity"
+   ]
+  },
+  {
+   "id": "361e13f5-41e1-567c-86a5-e29364415520",
+   "lemma": "variation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "variation"
+   ]
+  },
+  {
+   "id": "8024854a-2db7-5db2-8689-12f47b4dc142",
+   "lemma": "varied",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "varied"
+   ]
+  },
+  {
+   "id": "64b3ca24-eee8-5507-88da-44b07e0d8a75",
+   "lemma": "venture",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "venture"
+   ]
+  },
+  {
+   "id": "54b02668-f4ab-57bf-ac91-d08b246e3acc",
+   "lemma": "venue",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "venue"
+   ]
+  },
+  {
+   "id": "3e61af32-ecc7-530f-bda1-eab44ca7e2fa",
+   "lemma": "verbal",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "verbal"
+   ]
+  },
+  {
+   "id": "29708935-ccd4-5f73-b183-2437f050eadc",
+   "lemma": "verbally",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "verbally"
+   ]
+  },
+  {
+   "id": "5f0b6270-c8e2-5052-9b4f-74591c22b73f",
+   "lemma": "verse",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "verse"
+   ]
+  },
+  {
+   "id": "c59dbc66-a502-54b9-8c97-3cdd01d95505",
+   "lemma": "verse",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "verse"
+   ]
+  },
+  {
+   "id": "2a81cb3a-d67a-5198-9f78-a1c2d1f7ae69",
+   "lemma": "version",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "version"
+   ]
+  },
+  {
+   "id": "070df3d2-4176-5f3b-83d2-bc451cff0e83",
+   "lemma": "versus",
+   "pos": "preposition",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "versus"
+   ]
+  },
+  {
+   "id": "89203148-4b34-510d-99fe-13b360e6f356",
+   "lemma": "very",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "very"
+   ]
+  },
+  {
+   "id": "0d2395e7-8219-59b7-b1c8-0da44d1f9c81",
+   "lemma": "veteran",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "veteran"
+   ]
+  },
+  {
+   "id": "59957817-8598-5d2f-b79a-9f4b2b2545d5",
+   "lemma": "vibrate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "vibrate"
+   ]
+  },
+  {
+   "id": "55ee14df-4284-55c9-8a71-8fbf623ac21d",
+   "lemma": "vibration",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "vibration"
+   ]
+  },
+  {
+   "id": "dc26a89d-9247-5179-b943-58dd966779c6",
+   "lemma": "viewer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "viewer"
+   ]
+  },
+  {
+   "id": "49db352d-45ef-5b3b-ad60-d9d28f359553",
+   "lemma": "vigor",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "vigor",
+    "vigour"
+   ]
+  },
+  {
+   "id": "58f3878a-77e9-5c37-bbf1-2bde3cbf9588",
+   "lemma": "vigorous",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "vigorous"
+   ]
+  },
+  {
+   "id": "125fe6a5-ab3c-5476-bf88-c4a3fa67d6d0",
+   "lemma": "vigorously",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "vigorously"
+   ]
+  },
+  {
+   "id": "ecfcd626-2a72-5505-852d-cba5f0dc66cc",
+   "lemma": "villa",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "villa"
+   ]
+  },
+  {
+   "id": "fa4a2a5c-6314-51dc-9864-4c95626ebde2",
+   "lemma": "villager",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "villager"
+   ]
+  },
+  {
+   "id": "ea7a5b81-faac-5480-8695-06250b333d36",
+   "lemma": "vinegar",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "vinegar"
+   ]
+  },
+  {
+   "id": "bf125e0f-b0ad-5958-951c-6456731930af",
+   "lemma": "violate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "violate"
+   ]
+  },
+  {
+   "id": "ec038cdf-a50c-5257-a2a5-6ede804e3b2d",
+   "lemma": "virtual reality",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "virtual reality"
+   ]
+  }
+ ]
+}

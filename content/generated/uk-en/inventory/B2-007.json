@@ -1,0 +1,406 @@
+{
+ "chunk": "B2-007",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "47a72191-9b5b-5249-b51c-4ee6e282803d",
+   "lemma": "booklet",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "booklet"
+   ]
+  },
+  {
+   "id": "06c4729a-95f7-5084-b70c-95537d5d2e4e",
+   "lemma": "bookmark",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bookmark"
+   ]
+  },
+  {
+   "id": "41170328-8af9-5ef1-aeaf-3299490bc895",
+   "lemma": "bookmark",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bookmark"
+   ]
+  },
+  {
+   "id": "b07ac399-898b-5f5e-bb15-d1fe516ad750",
+   "lemma": "boost",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "boost"
+   ]
+  },
+  {
+   "id": "a4660ad6-fb8f-5703-b50f-14a8966b18b2",
+   "lemma": "boost",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "boost"
+   ]
+  },
+  {
+   "id": "57872347-96cd-543c-b8a9-c61fe4b9a5ef",
+   "lemma": "booth",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "booth"
+   ]
+  },
+  {
+   "id": "6b4235b1-ee16-5247-b677-4460ca86f0db",
+   "lemma": "bossy",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bossy"
+   ]
+  },
+  {
+   "id": "ac228b61-241a-50cd-b5f6-6ade7e019d36",
+   "lemma": "botany",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "botany"
+   ]
+  },
+  {
+   "id": "29f2698e-fbbe-5599-9d78-6d858f2639aa",
+   "lemma": "bothered",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bothered"
+   ]
+  },
+  {
+   "id": "e767f6d7-1a38-58aa-a114-e08e55d7e5f0",
+   "lemma": "bothersome",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bothersome"
+   ]
+  },
+  {
+   "id": "2b0e3b92-c0bf-54e1-8b7a-c3f4874f6521",
+   "lemma": "bottle",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bottle"
+   ]
+  },
+  {
+   "id": "199cf34e-ddc2-5d55-8bc4-93cdd6deef4d",
+   "lemma": "bounce",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bounce"
+   ]
+  },
+  {
+   "id": "c142ce16-c14c-5c3d-8ecc-7d3728ade15a",
+   "lemma": "bourbon",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bourbon"
+   ]
+  },
+  {
+   "id": "272d6b6b-37b1-5d4e-90ab-c8db97c7ba50",
+   "lemma": "bow",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bow"
+   ]
+  },
+  {
+   "id": "9a6ad627-b436-5330-b8d6-159973243047",
+   "lemma": "boxer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "boxer"
+   ]
+  },
+  {
+   "id": "bab86459-0794-59c0-afc7-6eb164bd03ee",
+   "lemma": "bracket",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bracket"
+   ]
+  },
+  {
+   "id": "7a8b200c-4c03-5072-b1e2-8c5c2677e6c1",
+   "lemma": "brag",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "brag"
+   ]
+  },
+  {
+   "id": "3d8346ff-63e5-5e12-83e8-0593c1bdbb71",
+   "lemma": "brake",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "brake"
+   ]
+  },
+  {
+   "id": "f9673c97-4033-547d-83dd-e10cdf24f82b",
+   "lemma": "bravery",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bravery"
+   ]
+  },
+  {
+   "id": "20fb85ba-88d7-54a0-97c5-223efd3a507c",
+   "lemma": "breakable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "breakable"
+   ]
+  },
+  {
+   "id": "610bcc46-f1bb-585d-be71-2792de7230fd",
+   "lemma": "breakdown",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "breakdown"
+   ]
+  },
+  {
+   "id": "b1f561de-d52e-558c-8c9e-f8e49d46ef90",
+   "lemma": "breakup",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "breakup"
+   ]
+  },
+  {
+   "id": "a2df7e64-1d20-5130-bf98-420c3f20e63d",
+   "lemma": "breathtaking",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "breathtaking"
+   ]
+  },
+  {
+   "id": "a1215bff-116b-507d-bd14-69e4315e90d9",
+   "lemma": "breed",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "breed"
+   ]
+  },
+  {
+   "id": "ce8ca4f7-ab02-592a-9b7b-7a43f2706592",
+   "lemma": "breezy",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "breezy"
+   ]
+  },
+  {
+   "id": "9eeec058-09d0-5e5a-ba55-ae03f177b46f",
+   "lemma": "brewery",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "brewery"
+   ]
+  },
+  {
+   "id": "dd92503e-6a5e-563c-b812-eebe1f04c04b",
+   "lemma": "brilliantly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "brilliantly"
+   ]
+  },
+  {
+   "id": "48129fc9-c5dc-5fe1-86cf-29f6d1277fc3",
+   "lemma": "broadband",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "broadband"
+   ]
+  },
+  {
+   "id": "0a538457-0c69-5e6d-95ba-2b53d7dc0cd6",
+   "lemma": "broadcast",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "broadcast"
+   ]
+  },
+  {
+   "id": "606a87a1-d84a-5013-8263-64b2261b841d",
+   "lemma": "broadcaster",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "broadcaster"
+   ]
+  },
+  {
+   "id": "16191c9c-6ec2-56f7-a6d9-e4557b71ed6d",
+   "lemma": "broaden",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "broaden"
+   ]
+  },
+  {
+   "id": "efe83583-dfa6-5477-961e-d9c369b850b5",
+   "lemma": "broadly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "broadly"
+   ]
+  },
+  {
+   "id": "cd9d0364-4111-5851-a217-05f239872466",
+   "lemma": "brochure",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "brochure"
+   ]
+  },
+  {
+   "id": "2125d7db-e0dc-516b-bbcb-f4fdade452da",
+   "lemma": "brother-in-law",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "brother-in-law"
+   ]
+  },
+  {
+   "id": "f4569dca-a635-589e-99b2-fe7bfc647523",
+   "lemma": "browse",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "browse"
+   ]
+  },
+  {
+   "id": "b7c0d2df-647a-539a-b288-05e3e2fb163f",
+   "lemma": "browser",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "browser"
+   ]
+  },
+  {
+   "id": "6d81a554-1eb5-521d-9498-657623201322",
+   "lemma": "bruise",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bruise"
+   ]
+  },
+  {
+   "id": "bff87121-b7da-5f76-8ea8-162d9f674b8e",
+   "lemma": "bud",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bud"
+   ]
+  },
+  {
+   "id": "11861180-b63b-5337-9e8d-e74e3a17edea",
+   "lemma": "budget",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "budget"
+   ]
+  },
+  {
+   "id": "0a24e965-af75-5dbe-9332-ce803dedc076",
+   "lemma": "bulimia",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bulimia"
+   ]
+  }
+ ]
+}

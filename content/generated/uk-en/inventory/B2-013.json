@@ -1,0 +1,408 @@
+{
+ "chunk": "B2-013",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "d68c1c7b-4bfb-5c3b-ac7c-f54bd45860fd",
+   "lemma": "conversely",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "conversely"
+   ]
+  },
+  {
+   "id": "1457fa0a-351c-512e-b0d8-fee767621cc5",
+   "lemma": "conversion",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "conversion"
+   ]
+  },
+  {
+   "id": "747afc8c-a276-5591-a93c-8bcb86b403fe",
+   "lemma": "convert",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "convert"
+   ]
+  },
+  {
+   "id": "7545e0c9-4d33-5034-bf08-af8835719682",
+   "lemma": "convinced",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "convinced"
+   ]
+  },
+  {
+   "id": "a8742c61-b1fb-56dc-bddc-cd03dbfde00d",
+   "lemma": "cool",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cool"
+   ]
+  },
+  {
+   "id": "4053604c-bffd-58d7-aa56-ba418dcbc051",
+   "lemma": "cooperate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cooperate"
+   ]
+  },
+  {
+   "id": "0f6fd012-4f39-525a-8832-9233d363e7db",
+   "lemma": "cooperation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cooperation"
+   ]
+  },
+  {
+   "id": "3bbda608-7874-505c-b0bf-4542500ac6c4",
+   "lemma": "cooperative",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cooperative"
+   ]
+  },
+  {
+   "id": "7d1e2df9-9831-59d9-bf6e-5d496ac943c7",
+   "lemma": "cope",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cope"
+   ]
+  },
+  {
+   "id": "5e035b08-1798-5c4c-9ddc-110256722fb2",
+   "lemma": "copper",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "copper"
+   ]
+  },
+  {
+   "id": "d5e64e82-abed-5385-a9f4-4b2bc264a844",
+   "lemma": "coral",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "coral"
+   ]
+  },
+  {
+   "id": "05ce0a89-e02f-5f0e-bdcd-00c0df31cc23",
+   "lemma": "core",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "core"
+   ]
+  },
+  {
+   "id": "24d3fdfb-8fd0-55e8-835a-9f7ca814b4ce",
+   "lemma": "cornerstone",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cornerstone"
+   ]
+  },
+  {
+   "id": "be2d574a-a259-5d57-815e-75bd23001069",
+   "lemma": "cornet",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cornet"
+   ]
+  },
+  {
+   "id": "27c0a64f-6dbf-5f30-bfbc-e47225dc0481",
+   "lemma": "corona",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "corona"
+   ]
+  },
+  {
+   "id": "642da5a2-1c65-565d-8b32-ff72073fd7bd",
+   "lemma": "corporal",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "corporal"
+   ]
+  },
+  {
+   "id": "9228816c-3d4e-5996-9a22-b758c0719bf4",
+   "lemma": "corporate",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "corporate"
+   ]
+  },
+  {
+   "id": "050dceb6-f920-54db-9f5a-bea2d2ea5b41",
+   "lemma": "corporation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "corporation"
+   ]
+  },
+  {
+   "id": "4f1ad599-5747-564a-a8da-8d1c346b4710",
+   "lemma": "correct",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "correct"
+   ]
+  },
+  {
+   "id": "f77793cb-33bc-5632-b116-00d28f0ebeaf",
+   "lemma": "correctness",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "correctness"
+   ]
+  },
+  {
+   "id": "1214b1e2-26e8-5000-90f8-bbddea5b8551",
+   "lemma": "correspond",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "correspond"
+   ]
+  },
+  {
+   "id": "c0ebdfc9-5077-5d12-9385-7f958aeb4e74",
+   "lemma": "correspondence",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "correspondence"
+   ]
+  },
+  {
+   "id": "921354a4-0c7c-5954-b3e7-646304372837",
+   "lemma": "correspondent",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "correspondent"
+   ]
+  },
+  {
+   "id": "7bf27a1a-a6b5-5fda-82e4-e0b0ef028c38",
+   "lemma": "corresponding",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "corresponding"
+   ]
+  },
+  {
+   "id": "bcb1f517-d942-50ee-9b2d-08e9573aea18",
+   "lemma": "corridor",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "corridor"
+   ]
+  },
+  {
+   "id": "7fb3b641-9eab-5288-ba82-c1dea83319e1",
+   "lemma": "corrupt",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "corrupt"
+   ]
+  },
+  {
+   "id": "2cb2e9cb-3b2a-5f65-bbbe-f4a95b1d7888",
+   "lemma": "corruption",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "corruption"
+   ]
+  },
+  {
+   "id": "5acc691a-2b55-5eeb-82af-7e4f2ff8325e",
+   "lemma": "costly",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "costly"
+   ]
+  },
+  {
+   "id": "3535e6fe-34ce-5019-b3c1-137b7440b4d0",
+   "lemma": "costume",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "costume"
+   ]
+  },
+  {
+   "id": "3692be8d-0a39-58e5-a787-875af84cf3f7",
+   "lemma": "cottage",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cottage"
+   ]
+  },
+  {
+   "id": "45c61a3f-153a-55b2-b776-72fcaeba105a",
+   "lemma": "cough",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cough"
+   ]
+  },
+  {
+   "id": "0268ca12-0af7-5747-81e5-91e3d31f8197",
+   "lemma": "counter",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "counter"
+   ]
+  },
+  {
+   "id": "01a10e62-df27-5f84-bec0-b989004987b5",
+   "lemma": "countryman",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "countryman"
+   ]
+  },
+  {
+   "id": "29eaa2c2-ca86-53b7-b941-0dea77587362",
+   "lemma": "countrywide",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "countrywide"
+   ]
+  },
+  {
+   "id": "8b5a0cb7-d7e5-58d5-93ea-ed0f2ec71114",
+   "lemma": "courtesy",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "courtesy"
+   ]
+  },
+  {
+   "id": "bb7b8700-e56e-52f1-92b5-a4240379bd38",
+   "lemma": "coward",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "coward"
+   ]
+  },
+  {
+   "id": "5c0cbe57-9fdb-5383-9fd3-81191c853fc4",
+   "lemma": "cowardly",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cowardly"
+   ]
+  },
+  {
+   "id": "769307ee-320a-5b70-bca4-b4ed12e14215",
+   "lemma": "coziness",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "coziness",
+    "cosiness"
+   ]
+  },
+  {
+   "id": "6e4f6c24-b804-532e-a3b1-6bf9a39cbf1b",
+   "lemma": "cozy",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cozy",
+    "cosy"
+   ]
+  },
+  {
+   "id": "aaf6ff86-4748-52c3-a785-8fa2e20ff4ef",
+   "lemma": "crab",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "crab"
+   ]
+  }
+ ]
+}

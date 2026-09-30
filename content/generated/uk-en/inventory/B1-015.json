@@ -1,0 +1,406 @@
+{
+ "chunk": "B1-015",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "95161858-6c69-57df-a598-c831ebf284f8",
+   "lemma": "delivery",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "delivery"
+   ]
+  },
+  {
+   "id": "cd3d3d7c-ff62-5f0b-b4fd-94043ec4b220",
+   "lemma": "demand",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "demand"
+   ]
+  },
+  {
+   "id": "de605c95-b29b-5771-9b50-7f3e00525b53",
+   "lemma": "demand",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "demand"
+   ]
+  },
+  {
+   "id": "f63235c8-c25a-519c-a779-ed7bf9bc06d3",
+   "lemma": "democracy",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "democracy"
+   ]
+  },
+  {
+   "id": "46583552-2f0a-5de0-b5b2-5e0bdfba281b",
+   "lemma": "democratic",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "democratic"
+   ]
+  },
+  {
+   "id": "141056e7-7842-50e9-bece-b8c92c33172c",
+   "lemma": "demonstrate",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "demonstrate"
+   ]
+  },
+  {
+   "id": "a87f4f58-528e-552e-9269-3ae59f94303b",
+   "lemma": "demonstration",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "demonstration"
+   ]
+  },
+  {
+   "id": "67e09c6a-50d9-58cc-bd6b-de52bcaf73a9",
+   "lemma": "deny",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "deny"
+   ]
+  },
+  {
+   "id": "6aae25b8-94de-5d99-9b5f-2a9d53853a6a",
+   "lemma": "depart",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "depart"
+   ]
+  },
+  {
+   "id": "06757620-4112-5783-86f5-0709ed095a00",
+   "lemma": "department",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "department"
+   ]
+  },
+  {
+   "id": "cc818413-4a2f-5f78-acb6-b19a6c356079",
+   "lemma": "departure",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "departure"
+   ]
+  },
+  {
+   "id": "3aa79968-a851-51d5-86bc-63f171fa4ce0",
+   "lemma": "dependent",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dependent"
+   ]
+  },
+  {
+   "id": "eee71b35-a9c5-51a3-b394-12fd3a835a73",
+   "lemma": "deposit",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "deposit"
+   ]
+  },
+  {
+   "id": "bd770d84-5e33-547c-ad84-400f30def0fc",
+   "lemma": "depressed",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "depressed"
+   ]
+  },
+  {
+   "id": "e8724178-7528-589e-8bc5-2f5d0a349dac",
+   "lemma": "depressing",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "depressing"
+   ]
+  },
+  {
+   "id": "9c6345ce-cc25-5bdb-9239-9b06fe16262c",
+   "lemma": "depression",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "depression"
+   ]
+  },
+  {
+   "id": "ad003eb6-36c8-57a0-958a-5208f623f762",
+   "lemma": "deprive",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "deprive"
+   ]
+  },
+  {
+   "id": "7c862b0f-fd03-54e6-96f9-3313c43ca376",
+   "lemma": "depth",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "depth"
+   ]
+  },
+  {
+   "id": "0fea9c65-408d-59bc-b620-4f3b56dad113",
+   "lemma": "derive",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "derive"
+   ]
+  },
+  {
+   "id": "d77d3109-823c-529f-8289-0bd16e2efdcb",
+   "lemma": "deserve",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "deserve"
+   ]
+  },
+  {
+   "id": "dfc3f547-f01d-5089-8169-7b0f39aa8a1e",
+   "lemma": "design",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "design"
+   ]
+  },
+  {
+   "id": "3c531443-d02d-53a1-ab5c-59b7a54300a6",
+   "lemma": "designer",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "designer"
+   ]
+  },
+  {
+   "id": "55cd3195-caa1-51df-946d-d09254789909",
+   "lemma": "desire",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "desire"
+   ]
+  },
+  {
+   "id": "288fbd4f-d4c3-5553-8348-94e295362e23",
+   "lemma": "despair",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "despair"
+   ]
+  },
+  {
+   "id": "b30a7cbb-7bfd-59f1-858e-11987da60fec",
+   "lemma": "desperate",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "desperate"
+   ]
+  },
+  {
+   "id": "78c6ba14-0bde-5995-b488-84e4c2e25e11",
+   "lemma": "despite",
+   "pos": "preposition",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "despite"
+   ]
+  },
+  {
+   "id": "bb140cc5-73d1-53fa-8f79-2b4b98745b25",
+   "lemma": "destination",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "destination"
+   ]
+  },
+  {
+   "id": "5ba2af54-63d4-5a34-be91-d1b2c8542fd0",
+   "lemma": "destruction",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "destruction"
+   ]
+  },
+  {
+   "id": "30e717a0-9711-5d10-afc6-019900ba74d5",
+   "lemma": "destructive",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "destructive"
+   ]
+  },
+  {
+   "id": "4cc6c193-d5b8-5fa0-80cb-81780189b919",
+   "lemma": "detective",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "detective"
+   ]
+  },
+  {
+   "id": "eb22fcd9-ab54-5a11-bec5-7fd2fbb3ad94",
+   "lemma": "determination",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "determination"
+   ]
+  },
+  {
+   "id": "c5162d69-52d8-5ded-bcc1-596487fb4b0b",
+   "lemma": "determine",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "determine"
+   ]
+  },
+  {
+   "id": "a5d32c4c-292c-5fd6-a65d-abe6e67ca529",
+   "lemma": "devastate",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "devastate"
+   ]
+  },
+  {
+   "id": "045df8c0-0b9c-51fe-be13-c69fd9c6ac3c",
+   "lemma": "devastating",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "devastating"
+   ]
+  },
+  {
+   "id": "509e0148-5b60-59a7-b901-b14fc6eaf3f1",
+   "lemma": "development",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "development"
+   ]
+  },
+  {
+   "id": "a7218ba1-81d1-5e90-9035-5980db86ca6a",
+   "lemma": "device",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "device"
+   ]
+  },
+  {
+   "id": "ad6bc6ff-5a94-56e0-866b-9a3e279db78b",
+   "lemma": "devotion",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "devotion"
+   ]
+  },
+  {
+   "id": "1daddd80-3bbc-590b-8228-322389eda225",
+   "lemma": "diagram",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "diagram"
+   ]
+  },
+  {
+   "id": "a3547389-dc56-5432-b28e-c9b9a6a78fb9",
+   "lemma": "dial",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dial"
+   ]
+  },
+  {
+   "id": "842c6f22-e0a7-514c-91dd-3f85a4e8f874",
+   "lemma": "dial",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dial"
+   ]
+  }
+ ]
+}

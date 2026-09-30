@@ -1,0 +1,406 @@
+{
+ "chunk": "B1-059",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "caf4a2b5-e7db-5f00-b48c-c000858fbdc7",
+   "lemma": "update",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "update"
+   ]
+  },
+  {
+   "id": "cb12815a-2252-5ddd-851c-f39d6ef3e707",
+   "lemma": "uplifted",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "uplifted"
+   ]
+  },
+  {
+   "id": "e96aef99-0a7e-5806-a51e-25f81b1542a7",
+   "lemma": "upload",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "upload"
+   ]
+  },
+  {
+   "id": "1d2b56a9-76e9-56e2-aa56-e750fd8cfa34",
+   "lemma": "upper",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "upper"
+   ]
+  },
+  {
+   "id": "6126e083-9c3b-5aa0-9470-6b01475fa757",
+   "lemma": "upstairs",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "upstairs"
+   ]
+  },
+  {
+   "id": "58d4bf07-9498-50dc-8e36-26c3f02220b5",
+   "lemma": "upstairs",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "upstairs"
+   ]
+  },
+  {
+   "id": "7d2f05e5-a2e4-5c76-bcaa-fa42c7651da6",
+   "lemma": "upward",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "upward"
+   ]
+  },
+  {
+   "id": "c10fa96f-a916-54a8-bf96-29f47900a03c",
+   "lemma": "urge",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "urge"
+   ]
+  },
+  {
+   "id": "9677de2d-0c49-50a3-94ae-b4ea671f2476",
+   "lemma": "urgent",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "urgent"
+   ]
+  },
+  {
+   "id": "ed86d829-1434-5494-902f-fd657b89ab88",
+   "lemma": "usage",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "usage"
+   ]
+  },
+  {
+   "id": "869a89b0-55a9-585a-9900-2679a81a5b85",
+   "lemma": "used to",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "used to"
+   ]
+  },
+  {
+   "id": "4dd55064-f8c0-5901-936d-074e333fa7e0",
+   "lemma": "useless",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "useless"
+   ]
+  },
+  {
+   "id": "effb626e-cdd2-515f-8519-9e9297155365",
+   "lemma": "vacancy",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "vacancy"
+   ]
+  },
+  {
+   "id": "3af90303-0442-5c7f-bb2a-5f458d2ab29a",
+   "lemma": "vague",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "vague"
+   ]
+  },
+  {
+   "id": "253def0a-e7b5-5bd3-a858-f7f08adbf6fb",
+   "lemma": "vain",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "vain"
+   ]
+  },
+  {
+   "id": "78e9cf4b-cd43-5793-9d7e-1432a386356b",
+   "lemma": "valuable",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "valuable"
+   ]
+  },
+  {
+   "id": "807e40be-b79d-5716-8c4d-f8cb87bb2d1c",
+   "lemma": "van",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "van"
+   ]
+  },
+  {
+   "id": "4f3aa74f-05be-5e2f-a848-9d63de1b05ea",
+   "lemma": "variety",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "variety"
+   ]
+  },
+  {
+   "id": "d85a7f30-22e7-5a52-94f9-fe20b0305ddb",
+   "lemma": "various",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "various"
+   ]
+  },
+  {
+   "id": "ceaebd02-ef92-5599-91b8-592013fb73ec",
+   "lemma": "vary",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "vary"
+   ]
+  },
+  {
+   "id": "c164e12e-7b69-50e8-abb9-9dc9b39ac749",
+   "lemma": "vast",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "vast"
+   ]
+  },
+  {
+   "id": "836d4e25-5441-571c-b6c7-97f76244c6b3",
+   "lemma": "vegetarian",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "vegetarian"
+   ]
+  },
+  {
+   "id": "0d28e5cd-cc0c-5d2c-9c9e-79ec66b1481d",
+   "lemma": "vegetarian",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "vegetarian"
+   ]
+  },
+  {
+   "id": "ae234f52-cd60-5e79-a148-5856219851bf",
+   "lemma": "vehicle",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "vehicle"
+   ]
+  },
+  {
+   "id": "e0c30761-ab43-50f8-a349-056f931c6cf1",
+   "lemma": "vein",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "vein"
+   ]
+  },
+  {
+   "id": "edd777bd-3e00-5352-942c-fa15257dc7e5",
+   "lemma": "vessel",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "vessel"
+   ]
+  },
+  {
+   "id": "a14df300-6909-5953-a1db-32502164e5a0",
+   "lemma": "vet",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "vet"
+   ]
+  },
+  {
+   "id": "05522efb-979f-59e1-8b42-03a917eb143f",
+   "lemma": "via",
+   "pos": "preposition",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "via"
+   ]
+  },
+  {
+   "id": "9c74acca-0900-5cb3-8c53-d7d0310afaa3",
+   "lemma": "vice",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "vice"
+   ]
+  },
+  {
+   "id": "6d21ac2f-d54d-5daf-9c57-8b5ddae8649d",
+   "lemma": "vice president",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "vice president"
+   ]
+  },
+  {
+   "id": "b13f75d7-a126-5fd3-b8e1-267d116c8bc1",
+   "lemma": "victim",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "victim"
+   ]
+  },
+  {
+   "id": "30a7663f-5df3-5a18-a3b3-a7df5c16a06a",
+   "lemma": "victory",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "victory"
+   ]
+  },
+  {
+   "id": "7e942f0d-c2a6-5dcd-b123-b6eb8e2dfec9",
+   "lemma": "video clip",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "video clip"
+   ]
+  },
+  {
+   "id": "6db4a22b-ae8b-54e6-99af-c350d7ae00f5",
+   "lemma": "view",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "view"
+   ]
+  },
+  {
+   "id": "9d73e085-6d42-5c4c-aceb-24c4753a636a",
+   "lemma": "viewpoint",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "viewpoint"
+   ]
+  },
+  {
+   "id": "c252657e-cdf1-5f10-8ca6-adf2b310af3b",
+   "lemma": "violence",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "violence"
+   ]
+  },
+  {
+   "id": "a4057265-c5b0-54c0-b069-8faea40d8f33",
+   "lemma": "violently",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "violently"
+   ]
+  },
+  {
+   "id": "5ce2ab0c-7786-5b0b-9bf4-c8c0d3816131",
+   "lemma": "virtual",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "virtual"
+   ]
+  },
+  {
+   "id": "0e209ac2-b462-53a2-98a5-ca0e88a0e589",
+   "lemma": "virus",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "virus"
+   ]
+  },
+  {
+   "id": "13b468d4-3b70-51cc-a0e5-ba44aa4579e9",
+   "lemma": "visa",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "visa"
+   ]
+  }
+ ]
+}

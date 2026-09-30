@@ -1,0 +1,407 @@
+{
+ "chunk": "B1-027",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "ab5112b2-706a-521b-b03e-151dc3f45997",
+   "lemma": "helmet",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "helmet"
+   ]
+  },
+  {
+   "id": "b5e02789-dbf3-50cd-ad52-45adfeee2b60",
+   "lemma": "helpless",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "helpless"
+   ]
+  },
+  {
+   "id": "f37ea17c-e4f1-541f-a5e6-afeb222ca89a",
+   "lemma": "herd",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "herd"
+   ]
+  },
+  {
+   "id": "cf41184d-9b89-5695-a1b9-44e2eeb8ee6a",
+   "lemma": "hesitate",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hesitate"
+   ]
+  },
+  {
+   "id": "494b3760-da47-5cb9-8919-f2409bcbf9ea",
+   "lemma": "hidden",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hidden"
+   ]
+  },
+  {
+   "id": "bb37a142-c146-5192-8dd5-92b2add1123d",
+   "lemma": "highlight",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "highlight"
+   ]
+  },
+  {
+   "id": "1b616bcd-908c-5179-8b9b-5e7ca8eb1e41",
+   "lemma": "highly",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "highly"
+   ]
+  },
+  {
+   "id": "ac6bf425-b8a5-5a58-909e-9ff02bde42c4",
+   "lemma": "hip",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hip"
+   ]
+  },
+  {
+   "id": "174144ca-eb2e-5df9-9a69-df3218db0ff8",
+   "lemma": "hire",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hire"
+   ]
+  },
+  {
+   "id": "211581a2-e310-5642-a6ed-f7bcd4e45c6a",
+   "lemma": "historian",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "historian"
+   ]
+  },
+  {
+   "id": "4d97fdaf-7dff-5535-b9f0-879ade98047f",
+   "lemma": "historic",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "historic"
+   ]
+  },
+  {
+   "id": "1b1d2a42-ea91-537e-ac79-5b6415c39c37",
+   "lemma": "historical",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "historical"
+   ]
+  },
+  {
+   "id": "b677a5da-ced5-5db3-8647-ea5038746a65",
+   "lemma": "hit",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hit"
+   ]
+  },
+  {
+   "id": "8eae13e2-284f-5b19-befe-abcd76c753d9",
+   "lemma": "HIV",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "HIV"
+   ]
+  },
+  {
+   "id": "2096ce7c-0838-5793-a0d1-9afc751e744b",
+   "lemma": "holy",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "holy"
+   ]
+  },
+  {
+   "id": "913690b6-2e0a-5c59-9960-0175a3cc905c",
+   "lemma": "homeless",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "homeless"
+   ]
+  },
+  {
+   "id": "61fb50cd-76ee-55d6-83b7-0d396b4c1092",
+   "lemma": "honest",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "honest"
+   ]
+  },
+  {
+   "id": "575198a7-a46a-5f29-8254-770ec9dd1387",
+   "lemma": "honestly",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "honestly"
+   ]
+  },
+  {
+   "id": "5b22b881-63ec-5a98-91ae-6e5aab80279a",
+   "lemma": "honesty",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "honesty"
+   ]
+  },
+  {
+   "id": "ab7a5dc5-0520-5ef2-8869-f389fd9b982b",
+   "lemma": "honeymoon",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "honeymoon"
+   ]
+  },
+  {
+   "id": "17642620-2d0c-528f-8e6f-af60e1d1dc26",
+   "lemma": "hop",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hop"
+   ]
+  },
+  {
+   "id": "e65261b0-0233-5a9e-994b-d6c5e47c9a76",
+   "lemma": "hope",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hope"
+   ]
+  },
+  {
+   "id": "12b5b9e5-169c-5b11-80f0-d60c7ff43dee",
+   "lemma": "hopeful",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hopeful"
+   ]
+  },
+  {
+   "id": "09c6cf86-f1c8-5b7b-8eef-0b508ed480fe",
+   "lemma": "hopefully",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hopefully"
+   ]
+  },
+  {
+   "id": "21c7b685-302c-586e-ac24-bff9d6a67ae9",
+   "lemma": "hopeless",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hopeless"
+   ]
+  },
+  {
+   "id": "530ccee4-ca5e-5f1d-b344-23f0fde09bd3",
+   "lemma": "horizon",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "horizon"
+   ]
+  },
+  {
+   "id": "b9afb50a-f60f-5c36-9f47-42e0add6c2ae",
+   "lemma": "horn",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "horn"
+   ]
+  },
+  {
+   "id": "657b5e59-20a8-515f-b0ca-0be34f413dba",
+   "lemma": "horrible",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "horrible"
+   ]
+  },
+  {
+   "id": "94c53009-bc6c-5b34-99f6-6d41dda8151a",
+   "lemma": "horrify",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "horrify"
+   ]
+  },
+  {
+   "id": "eaaa868a-943b-5f0c-93ab-fa9906954131",
+   "lemma": "hostel",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hostel"
+   ]
+  },
+  {
+   "id": "1d20e529-876a-5bdf-871c-3e3aa8e32fd5",
+   "lemma": "household",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "household"
+   ]
+  },
+  {
+   "id": "f0ebad36-7a65-5f7e-8866-3e9976568942",
+   "lemma": "housework",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "housework"
+   ]
+  },
+  {
+   "id": "3245338b-43e0-5b71-b38c-064253e1ba13",
+   "lemma": "huge",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "huge"
+   ]
+  },
+  {
+   "id": "e5f4b469-199c-5969-b740-e8086038f6b9",
+   "lemma": "human",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "human"
+   ]
+  },
+  {
+   "id": "dfd3b078-e337-5160-833d-94330dc966e0",
+   "lemma": "humanity",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "humanity"
+   ]
+  },
+  {
+   "id": "50d1a176-7c6e-5b77-b878-933e9254baa1",
+   "lemma": "humid",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "humid"
+   ]
+  },
+  {
+   "id": "1b104804-4928-5277-870a-ce215fe25ace",
+   "lemma": "humor",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "humor",
+    "humour"
+   ]
+  },
+  {
+   "id": "89f7278f-b040-54ef-9297-f8d358935ffe",
+   "lemma": "humorous",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "humorous"
+   ]
+  },
+  {
+   "id": "c907db64-35de-5c41-93be-2037d3f11361",
+   "lemma": "hunger",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hunger"
+   ]
+  },
+  {
+   "id": "edb05d85-3529-5bf1-8a00-a505ab34e2e4",
+   "lemma": "hunt",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hunt"
+   ]
+  }
+ ]
+}

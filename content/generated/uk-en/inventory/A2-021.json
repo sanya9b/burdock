@@ -1,0 +1,407 @@
+{
+ "chunk": "A2-021",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "ced9672a-c3ca-5f48-b51f-a1d570ab1cc2",
+   "lemma": "national",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "national"
+   ]
+  },
+  {
+   "id": "84303b56-bfef-57bd-b433-8057f690c8e9",
+   "lemma": "native",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "native"
+   ]
+  },
+  {
+   "id": "eeb33c9f-07e5-5274-affc-d93ac724299a",
+   "lemma": "natural",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "natural"
+   ]
+  },
+  {
+   "id": "3d644e9b-53d0-565d-bfaf-bc19bbbedf0a",
+   "lemma": "nature",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nature"
+   ]
+  },
+  {
+   "id": "b3e4b99b-1916-5993-8df2-77a08884f0ca",
+   "lemma": "nearly",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nearly"
+   ]
+  },
+  {
+   "id": "8bc2c990-51f9-5751-ba1f-a13f4cd2318e",
+   "lemma": "necessary",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "necessary"
+   ]
+  },
+  {
+   "id": "7939885b-4050-5ee9-b2c5-7f75b3f177a6",
+   "lemma": "negative",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "negative"
+   ]
+  },
+  {
+   "id": "5885278e-6a66-544e-b9a0-eb35c5a39ec0",
+   "lemma": "nervous",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nervous"
+   ]
+  },
+  {
+   "id": "da334557-1b7c-579b-ab72-45782e8b335c",
+   "lemma": "net",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "net"
+   ]
+  },
+  {
+   "id": "419bf94f-38bd-598b-bc04-ec9732124ba2",
+   "lemma": "next",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "next"
+   ]
+  },
+  {
+   "id": "25343b2a-f2cf-56c6-89e4-5bfe1dcd0e74",
+   "lemma": "next",
+   "pos": "determiner",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "next"
+   ]
+  },
+  {
+   "id": "19c25486-9fdb-5c2e-8969-c75c83e346a5",
+   "lemma": "next to",
+   "pos": "preposition",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "next to"
+   ]
+  },
+  {
+   "id": "a766e069-ec16-51bb-b78e-e6bf6b3cf703",
+   "lemma": "no one",
+   "pos": "pronoun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "no one"
+   ]
+  },
+  {
+   "id": "d5acfdcf-6a84-5979-88ef-75d2d5c320f0",
+   "lemma": "nobody",
+   "pos": "pronoun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nobody"
+   ]
+  },
+  {
+   "id": "3b023d26-7083-5ec8-8fe7-c894b538ee52",
+   "lemma": "noisy",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "noisy"
+   ]
+  },
+  {
+   "id": "0f9e139a-1668-5cce-8646-5856e5690caa",
+   "lemma": "noon",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "noon"
+   ]
+  },
+  {
+   "id": "eda28aea-3f2b-58e1-baf2-0ab91e04c0b1",
+   "lemma": "normal",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "normal"
+   ]
+  },
+  {
+   "id": "a7f67a44-4c5d-54c9-ba4e-507cc482a15b",
+   "lemma": "north",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "north"
+   ]
+  },
+  {
+   "id": "aa59af1a-5d39-506f-8d0c-2d01e1e24f48",
+   "lemma": "north",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "north"
+   ]
+  },
+  {
+   "id": "cd398c4b-aff4-5075-a01f-bd4b454c1452",
+   "lemma": "north",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "north"
+   ]
+  },
+  {
+   "id": "73f9e2af-ae85-507a-8371-f5e610f0399e",
+   "lemma": "notice",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "notice"
+   ]
+  },
+  {
+   "id": "5ba04d3d-286e-56df-9794-2d704d1242d4",
+   "lemma": "noun",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "noun"
+   ]
+  },
+  {
+   "id": "31cff12f-3a6c-55eb-b4d5-c82042b56368",
+   "lemma": "novel",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "novel"
+   ]
+  },
+  {
+   "id": "904720f8-799c-51d8-811a-e1e244e395d9",
+   "lemma": "nowadays",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nowadays"
+   ]
+  },
+  {
+   "id": "64466814-b2c8-5be8-9c4d-fcac019295dc",
+   "lemma": "oak",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "oak"
+   ]
+  },
+  {
+   "id": "bfd12461-bc8e-5dda-8281-4bb7f7020df9",
+   "lemma": "occupation",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "occupation"
+   ]
+  },
+  {
+   "id": "5a157bcd-5ec7-50f1-8fa0-d85150440fdb",
+   "lemma": "off",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "off"
+   ]
+  },
+  {
+   "id": "b524811c-2083-58d0-adf8-97be8ac5fc4b",
+   "lemma": "offer",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "offer"
+   ]
+  },
+  {
+   "id": "759e3a13-4bb3-53eb-92be-a649804d1ba3",
+   "lemma": "offer",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "offer"
+   ]
+  },
+  {
+   "id": "8114f1e2-a627-5b23-82a3-cd8a8b54bf2b",
+   "lemma": "official",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "official"
+   ]
+  },
+  {
+   "id": "6ce5c6f5-3e67-5e2b-bda9-388390295a3f",
+   "lemma": "oil",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "oil"
+   ]
+  },
+  {
+   "id": "c22b3d46-6f39-5dc6-94ad-b0960d6ccae4",
+   "lemma": "olive oil",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "olive oil"
+   ]
+  },
+  {
+   "id": "9450bcc4-bbf1-5788-943f-8afb7976a7e2",
+   "lemma": "Olympic",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "olympic"
+   ]
+  },
+  {
+   "id": "6164e7b7-f2c9-565c-ac49-de0006c85dbd",
+   "lemma": "omelet",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "omelet",
+    "omelette"
+   ]
+  },
+  {
+   "id": "5e71a5ab-9b94-528f-9b9b-30c48a657172",
+   "lemma": "on",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "on"
+   ]
+  },
+  {
+   "id": "02555d0d-998e-594c-baad-11d526471d6c",
+   "lemma": "one",
+   "pos": "pronoun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "one"
+   ]
+  },
+  {
+   "id": "8c9320a7-4c80-5691-8f11-d7fc5174f309",
+   "lemma": "onion",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "onion"
+   ]
+  },
+  {
+   "id": "99f8981b-2f66-59fb-b1c1-4569d451b4b9",
+   "lemma": "online",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "online"
+   ]
+  },
+  {
+   "id": "e6eadaf2-5331-5669-b480-3da150c2a503",
+   "lemma": "online",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "online"
+   ]
+  },
+  {
+   "id": "a3d5fc5d-af61-5a1f-8ec3-655fa508cb97",
+   "lemma": "operate",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "operate"
+   ]
+  }
+ ]
+}

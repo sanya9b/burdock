@@ -1,0 +1,1015 @@
+{
+ "levels": {
+  "A1": 1162,
+  "A2": 1410,
+  "B1": 2444,
+  "B2": 2779,
+  "C1": 0,
+  "C2": 0
+ },
+ "pos": {
+  "noun": 4091,
+  "adjective": 1494,
+  "verb": 1378,
+  "adverb": 551,
+  "pronoun": 83,
+  "preposition": 76,
+  "determiner": 46,
+  "conjunction": 37,
+  "numeral": 30,
+  "interjection": 9
+ },
+ "chunks": [
+  {
+   "chunk": "A1-001",
+   "level": "A1",
+   "count": 40
+  },
+  {
+   "chunk": "A1-002",
+   "level": "A1",
+   "count": 40
+  },
+  {
+   "chunk": "A1-003",
+   "level": "A1",
+   "count": 40
+  },
+  {
+   "chunk": "A1-004",
+   "level": "A1",
+   "count": 40
+  },
+  {
+   "chunk": "A1-005",
+   "level": "A1",
+   "count": 40
+  },
+  {
+   "chunk": "A1-006",
+   "level": "A1",
+   "count": 40
+  },
+  {
+   "chunk": "A1-007",
+   "level": "A1",
+   "count": 40
+  },
+  {
+   "chunk": "A1-008",
+   "level": "A1",
+   "count": 40
+  },
+  {
+   "chunk": "A1-009",
+   "level": "A1",
+   "count": 40
+  },
+  {
+   "chunk": "A1-010",
+   "level": "A1",
+   "count": 40
+  },
+  {
+   "chunk": "A1-011",
+   "level": "A1",
+   "count": 40
+  },
+  {
+   "chunk": "A1-012",
+   "level": "A1",
+   "count": 40
+  },
+  {
+   "chunk": "A1-013",
+   "level": "A1",
+   "count": 40
+  },
+  {
+   "chunk": "A1-014",
+   "level": "A1",
+   "count": 40
+  },
+  {
+   "chunk": "A1-015",
+   "level": "A1",
+   "count": 40
+  },
+  {
+   "chunk": "A1-016",
+   "level": "A1",
+   "count": 40
+  },
+  {
+   "chunk": "A1-017",
+   "level": "A1",
+   "count": 40
+  },
+  {
+   "chunk": "A1-018",
+   "level": "A1",
+   "count": 40
+  },
+  {
+   "chunk": "A1-019",
+   "level": "A1",
+   "count": 40
+  },
+  {
+   "chunk": "A1-020",
+   "level": "A1",
+   "count": 40
+  },
+  {
+   "chunk": "A1-021",
+   "level": "A1",
+   "count": 40
+  },
+  {
+   "chunk": "A1-022",
+   "level": "A1",
+   "count": 40
+  },
+  {
+   "chunk": "A1-023",
+   "level": "A1",
+   "count": 40
+  },
+  {
+   "chunk": "A1-024",
+   "level": "A1",
+   "count": 40
+  },
+  {
+   "chunk": "A1-025",
+   "level": "A1",
+   "count": 40
+  },
+  {
+   "chunk": "A1-026",
+   "level": "A1",
+   "count": 40
+  },
+  {
+   "chunk": "A1-027",
+   "level": "A1",
+   "count": 40
+  },
+  {
+   "chunk": "A1-028",
+   "level": "A1",
+   "count": 40
+  },
+  {
+   "chunk": "A1-029",
+   "level": "A1",
+   "count": 40
+  },
+  {
+   "chunk": "A1-030",
+   "level": "A1",
+   "count": 2
+  },
+  {
+   "chunk": "A2-001",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-002",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-003",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-004",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-005",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-006",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-007",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-008",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-009",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-010",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-011",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-012",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-013",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-014",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-015",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-016",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-017",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-018",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-019",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-020",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-021",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-022",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-023",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-024",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-025",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-026",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-027",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-028",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-029",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-030",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-031",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-032",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-033",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-034",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-035",
+   "level": "A2",
+   "count": 40
+  },
+  {
+   "chunk": "A2-036",
+   "level": "A2",
+   "count": 10
+  },
+  {
+   "chunk": "B1-001",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-002",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-003",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-004",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-005",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-006",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-007",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-008",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-009",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-010",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-011",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-012",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-013",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-014",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-015",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-016",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-017",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-018",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-019",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-020",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-021",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-022",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-023",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-024",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-025",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-026",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-027",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-028",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-029",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-030",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-031",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-032",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-033",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-034",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-035",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-036",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-037",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-038",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-039",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-040",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-041",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-042",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-043",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-044",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-045",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-046",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-047",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-048",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-049",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-050",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-051",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-052",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-053",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-054",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-055",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-056",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-057",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-058",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-059",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-060",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-061",
+   "level": "B1",
+   "count": 40
+  },
+  {
+   "chunk": "B1-062",
+   "level": "B1",
+   "count": 4
+  },
+  {
+   "chunk": "B2-001",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-002",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-003",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-004",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-005",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-006",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-007",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-008",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-009",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-010",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-011",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-012",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-013",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-014",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-015",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-016",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-017",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-018",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-019",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-020",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-021",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-022",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-023",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-024",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-025",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-026",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-027",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-028",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-029",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-030",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-031",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-032",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-033",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-034",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-035",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-036",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-037",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-038",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-039",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-040",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-041",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-042",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-043",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-044",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-045",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-046",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-047",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-048",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-049",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-050",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-051",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-052",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-053",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-054",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-055",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-056",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-057",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-058",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-059",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-060",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-061",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-062",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-063",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-064",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-065",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-066",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-067",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-068",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-069",
+   "level": "B2",
+   "count": 40
+  },
+  {
+   "chunk": "B2-070",
+   "level": "B2",
+   "count": 19
+  }
+ ],
+ "total": 7795
+}

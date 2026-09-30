@@ -1,0 +1,406 @@
+{
+ "chunk": "B2-034",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "de5c1247-a9cc-5927-a676-e3eb3ff0c65f",
+   "lemma": "landlady",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "landlady"
+   ]
+  },
+  {
+   "id": "0538860c-c7b6-5128-a07c-dcf2edc597a5",
+   "lemma": "landslide",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "landslide"
+   ]
+  },
+  {
+   "id": "dfc7ed10-aa11-5565-81b3-392ae3af21fb",
+   "lemma": "lap",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lap"
+   ]
+  },
+  {
+   "id": "e8ecce7c-c490-54ce-a91b-cb2130470050",
+   "lemma": "laptop",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "laptop"
+   ]
+  },
+  {
+   "id": "73f8d617-dd70-50de-8ff6-737bab87d321",
+   "lemma": "lark",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lark"
+   ]
+  },
+  {
+   "id": "c7b10677-8064-5692-bee7-d2ec228054d9",
+   "lemma": "laser",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "laser"
+   ]
+  },
+  {
+   "id": "0205a776-bdd8-5c13-9740-8021bc44aa7d",
+   "lemma": "last minute",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "last minute"
+   ]
+  },
+  {
+   "id": "843dbf5a-fc9d-5913-8381-9fd8b44bfaff",
+   "lemma": "last-minute",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "last-minute"
+   ]
+  },
+  {
+   "id": "3dae853d-2f74-53ea-aa4a-cc40e8369e46",
+   "lemma": "lastly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lastly"
+   ]
+  },
+  {
+   "id": "03264536-7629-5443-b33a-b329c27c1726",
+   "lemma": "later",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "later"
+   ]
+  },
+  {
+   "id": "0fe43741-65e1-5855-9ea7-88c38c1960b2",
+   "lemma": "latter",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "latter"
+   ]
+  },
+  {
+   "id": "6cff3262-39d9-5d78-a65c-0352d1959aad",
+   "lemma": "laundry",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "laundry"
+   ]
+  },
+  {
+   "id": "effb9c47-7d68-516f-9f40-ef10b3677e9c",
+   "lemma": "lava",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lava"
+   ]
+  },
+  {
+   "id": "6845610f-ce57-59d8-a536-f6ed5aa44a8e",
+   "lemma": "lawmaker",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lawmaker"
+   ]
+  },
+  {
+   "id": "9aea2e73-2583-5545-8fee-6bb684536333",
+   "lemma": "lawn",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lawn"
+   ]
+  },
+  {
+   "id": "66ce62a0-f031-5992-b862-54993fc2e05a",
+   "lemma": "lawsuit",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lawsuit"
+   ]
+  },
+  {
+   "id": "eae1934e-d137-5337-9e9e-e56c83386a62",
+   "lemma": "layabout",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "layabout"
+   ]
+  },
+  {
+   "id": "f4477671-3c7d-53e3-80f5-b38a5dca08e9",
+   "lemma": "leaflet",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "leaflet"
+   ]
+  },
+  {
+   "id": "46cb0068-df5c-5422-a9e8-a6d042c491b2",
+   "lemma": "leak",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "leak"
+   ]
+  },
+  {
+   "id": "bd965b4a-accd-5a5e-a50b-7e02ef162d51",
+   "lemma": "leak",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "leak"
+   ]
+  },
+  {
+   "id": "b9ade6a5-28bd-5b41-8b1a-d736892e74bb",
+   "lemma": "lean",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lean"
+   ]
+  },
+  {
+   "id": "6dc42438-2944-554f-b5a3-9d929029fb33",
+   "lemma": "leap",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "leap"
+   ]
+  },
+  {
+   "id": "838d74f6-eb12-54e9-845f-412f3c20caef",
+   "lemma": "learning",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "learning"
+   ]
+  },
+  {
+   "id": "6defcdb8-59f7-5198-9b57-348da0f9c15a",
+   "lemma": "lease",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lease"
+   ]
+  },
+  {
+   "id": "e6f23df9-679d-52db-80b9-4ca5b65410e4",
+   "lemma": "leash",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "leash"
+   ]
+  },
+  {
+   "id": "c7403a50-4342-5583-b88c-7e22058c1662",
+   "lemma": "least",
+   "pos": "pronoun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "least"
+   ]
+  },
+  {
+   "id": "8ed2f5ba-bc01-5c47-9ab2-633ff5d389c9",
+   "lemma": "lecturer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lecturer"
+   ]
+  },
+  {
+   "id": "a563eda5-cf94-5fe7-8a33-d94755255cb6",
+   "lemma": "leek",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "leek"
+   ]
+  },
+  {
+   "id": "b4c9f4b3-1f04-5997-b59c-da4f8e128c6e",
+   "lemma": "legend",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "legend"
+   ]
+  },
+  {
+   "id": "7f6e2a99-7011-541b-97b2-d97cf1bb705d",
+   "lemma": "legendary",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "legendary"
+   ]
+  },
+  {
+   "id": "3cad7ef0-dfd0-5f06-9647-b95ed51e9b96",
+   "lemma": "legislate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "legislate"
+   ]
+  },
+  {
+   "id": "47645ef5-fb54-5629-a961-d47421bbf158",
+   "lemma": "legislation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "legislation"
+   ]
+  },
+  {
+   "id": "988f01f7-2735-59aa-83b6-1e9d1552e61a",
+   "lemma": "legislative",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "legislative"
+   ]
+  },
+  {
+   "id": "1dc3fb15-539e-5f3c-a9d8-f5c227256f0a",
+   "lemma": "legislator",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "legislator"
+   ]
+  },
+  {
+   "id": "3a3461c8-d3a2-5ebb-af94-a2f15906b76c",
+   "lemma": "legislature",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "legislature"
+   ]
+  },
+  {
+   "id": "a5dac6c9-0fe0-5c9e-84e9-c0d4a0ef75f6",
+   "lemma": "legitimate",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "legitimate"
+   ]
+  },
+  {
+   "id": "ddb68d92-c094-557d-ae64-01a345d017bb",
+   "lemma": "leisurely",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "leisurely"
+   ]
+  },
+  {
+   "id": "dcab297c-a216-51b0-9bb7-73ba193c5e59",
+   "lemma": "lengthen",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lengthen"
+   ]
+  },
+  {
+   "id": "de2cdb9e-0d6d-5b74-9769-5d25174ed2c1",
+   "lemma": "lengthy",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lengthy"
+   ]
+  },
+  {
+   "id": "d67f5487-d8ca-5a07-b106-7c897325748c",
+   "lemma": "leopard",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "leopard"
+   ]
+  }
+ ]
+}

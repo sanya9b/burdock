@@ -1,0 +1,407 @@
+{
+ "chunk": "B1-014",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "666f9c35-db13-512f-b271-a051c96cc933",
+   "lemma": "damp",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "damp"
+   ]
+  },
+  {
+   "id": "b66d8144-18dd-543c-b9c3-cd0153e16fcf",
+   "lemma": "dangerously",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dangerously"
+   ]
+  },
+  {
+   "id": "49d6eb80-7385-5b3c-83a8-b7502efa967c",
+   "lemma": "dare",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dare"
+   ]
+  },
+  {
+   "id": "db0a5b47-dc38-5b29-ae8a-e5c4d8f0517e",
+   "lemma": "darkness",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "darkness"
+   ]
+  },
+  {
+   "id": "dad67c55-8554-5309-9dc1-52116c3a0672",
+   "lemma": "date",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "date"
+   ]
+  },
+  {
+   "id": "d212c8c0-59ef-522c-aff9-cec349eae730",
+   "lemma": "dating",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dating"
+   ]
+  },
+  {
+   "id": "3af8cbd5-09bd-5d5b-8c64-ca800f23fc8f",
+   "lemma": "daze",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "daze"
+   ]
+  },
+  {
+   "id": "abc0cf4f-325c-57e2-93fe-f5796c61f0c6",
+   "lemma": "dazzle",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dazzle"
+   ]
+  },
+  {
+   "id": "bcfd6231-9517-5600-b9de-feedd9b34b0e",
+   "lemma": "deadline",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "deadline"
+   ]
+  },
+  {
+   "id": "af50028b-be3e-5cad-89bc-5a77fbd23441",
+   "lemma": "deadly",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "deadly"
+   ]
+  },
+  {
+   "id": "8306b2a3-7f4a-5a5a-993e-03c44686e0b4",
+   "lemma": "deaf",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "deaf"
+   ]
+  },
+  {
+   "id": "fdc5c026-3e1d-5333-a89d-4d5ba1e27348",
+   "lemma": "deal",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "deal"
+   ]
+  },
+  {
+   "id": "89cc5f8e-5c93-5c40-9e05-2c6f1dbdbcf2",
+   "lemma": "dealer",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dealer"
+   ]
+  },
+  {
+   "id": "ecf1e304-87fd-5454-8dec-e295c89248d5",
+   "lemma": "debris",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "debris"
+   ]
+  },
+  {
+   "id": "54a5b9df-e015-584b-919f-301fa9cee747",
+   "lemma": "debt",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "debt"
+   ]
+  },
+  {
+   "id": "8b4e82c0-8ed5-5714-b888-df25e3cd8dba",
+   "lemma": "decision",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "decision"
+   ]
+  },
+  {
+   "id": "8b023b9d-a0da-54b5-bf0e-fd2af27fae64",
+   "lemma": "declaration",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "declaration"
+   ]
+  },
+  {
+   "id": "50fcbd8d-2635-5c62-ae9f-8a1cb763a7ad",
+   "lemma": "declare",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "declare"
+   ]
+  },
+  {
+   "id": "8a94459e-243f-5718-9c6b-f4945ac62beb",
+   "lemma": "decline",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "decline"
+   ]
+  },
+  {
+   "id": "7dfbd1d4-8c29-545c-a63c-d75877e6f9e9",
+   "lemma": "decrease",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "decrease"
+   ]
+  },
+  {
+   "id": "734aa6ec-f195-580b-9b82-5d2725f22dfe",
+   "lemma": "decrease",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "decrease"
+   ]
+  },
+  {
+   "id": "0eef9e58-f90d-5ca9-9eed-e83b97c42bd9",
+   "lemma": "dedicate",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dedicate"
+   ]
+  },
+  {
+   "id": "2c7e9a23-5f6e-5cb6-ac2a-fefe1b72d3ee",
+   "lemma": "deed",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "deed"
+   ]
+  },
+  {
+   "id": "7b21d564-bcbb-5378-b4f1-6ae3b6fd6b0b",
+   "lemma": "defeat",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "defeat"
+   ]
+  },
+  {
+   "id": "22f3d645-65bb-5cc5-922f-57bd83b0fe3c",
+   "lemma": "defend",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "defend"
+   ]
+  },
+  {
+   "id": "be2c130b-9039-58ef-a2ce-c3b328288cfa",
+   "lemma": "defender",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "defender"
+   ]
+  },
+  {
+   "id": "04661080-a1fd-5ed5-83ff-cc0af80eabc3",
+   "lemma": "defense",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "defense",
+    "defence"
+   ]
+  },
+  {
+   "id": "034d1a78-f42b-5327-8ded-978a1889c874",
+   "lemma": "deficiency",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "deficiency"
+   ]
+  },
+  {
+   "id": "a2e94887-384c-5566-9953-3a153bdc48cc",
+   "lemma": "define",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "define"
+   ]
+  },
+  {
+   "id": "e414f337-654a-5a6d-a383-80732f548f4a",
+   "lemma": "definite",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "definite"
+   ]
+  },
+  {
+   "id": "b386358c-d0ee-5b16-a0bb-805965099149",
+   "lemma": "definite article",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "definite article"
+   ]
+  },
+  {
+   "id": "59fb3e66-5e23-58d0-b249-e04c28b1b5b5",
+   "lemma": "definitely",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "definitely"
+   ]
+  },
+  {
+   "id": "4fbf0eea-556b-5a3f-b601-5c6ba753f317",
+   "lemma": "definition",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "definition"
+   ]
+  },
+  {
+   "id": "567e4dd3-e5ca-5781-bfef-2fcddce62e97",
+   "lemma": "delay",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "delay"
+   ]
+  },
+  {
+   "id": "97796125-efae-5dbf-a944-233c6c6e5f6a",
+   "lemma": "delete",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "delete"
+   ]
+  },
+  {
+   "id": "9b3a50de-bb78-5bc0-9bfd-c21232c0ac89",
+   "lemma": "delicate",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "delicate"
+   ]
+  },
+  {
+   "id": "ecb7049a-f197-5df3-b4b0-b3f19c6b1a47",
+   "lemma": "delight",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "delight"
+   ]
+  },
+  {
+   "id": "4698a6b0-b9a9-57d8-8b69-1f050cc842a4",
+   "lemma": "delighted",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "delighted"
+   ]
+  },
+  {
+   "id": "073a5777-fb89-587e-9931-e8ebf2f81de2",
+   "lemma": "delightful",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "delightful"
+   ]
+  },
+  {
+   "id": "810c19ef-1060-5e6e-8bfb-05ac90d7bc4f",
+   "lemma": "deliver",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "deliver"
+   ]
+  }
+ ]
+}

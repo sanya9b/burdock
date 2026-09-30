@@ -1,0 +1,408 @@
+{
+ "chunk": "B2-016",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "94e8662a-c1a5-5f14-971f-73986ced6135",
+   "lemma": "dehumanize",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dehumanize",
+    "dehumanise"
+   ]
+  },
+  {
+   "id": "7f7aaeff-0086-5afa-90ea-748d4d7cbc25",
+   "lemma": "delegate",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "delegate"
+   ]
+  },
+  {
+   "id": "983c62bf-5c2a-5a58-bee7-950ea22aed64",
+   "lemma": "deliberate",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "deliberate"
+   ]
+  },
+  {
+   "id": "70e99227-fb03-554f-9ff0-fc94f5060429",
+   "lemma": "deliberately",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "deliberately"
+   ]
+  },
+  {
+   "id": "1c43b26b-28bf-5577-8d6c-f8271c64b18a",
+   "lemma": "delicacy",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "delicacy"
+   ]
+  },
+  {
+   "id": "8f21ed32-cc24-5218-a98d-dcc2319f016e",
+   "lemma": "delicately",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "delicately"
+   ]
+  },
+  {
+   "id": "1b31e477-cb59-57e5-9275-bc54b96e7966",
+   "lemma": "delight",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "delight"
+   ]
+  },
+  {
+   "id": "366ff807-03b9-5b7a-821f-f46249180d60",
+   "lemma": "demanding",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "demanding"
+   ]
+  },
+  {
+   "id": "a6aee295-7b1b-5966-b411-7ba034f02d06",
+   "lemma": "demolish",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "demolish"
+   ]
+  },
+  {
+   "id": "f7cb18ef-8f73-5575-a029-cbf5118e68fe",
+   "lemma": "denim",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "denim"
+   ]
+  },
+  {
+   "id": "281722b6-4105-5669-8959-786ca3fdc142",
+   "lemma": "dense",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dense"
+   ]
+  },
+  {
+   "id": "8a24c7ec-611a-5025-9c53-b1dcbfbf6106",
+   "lemma": "densely",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "densely"
+   ]
+  },
+  {
+   "id": "2c9d39fa-c944-5bc0-a10e-213b55789d64",
+   "lemma": "dental",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dental"
+   ]
+  },
+  {
+   "id": "357476db-02b9-5dd0-9a8a-7238a7a604f5",
+   "lemma": "dependable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dependable"
+   ]
+  },
+  {
+   "id": "b103cccc-77e2-574f-989d-dd72a9233846",
+   "lemma": "deposit",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "deposit"
+   ]
+  },
+  {
+   "id": "61d3635e-09f4-5986-972e-f8300a30b34c",
+   "lemma": "deputy",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "deputy"
+   ]
+  },
+  {
+   "id": "84d0e959-0ac6-5472-b5ee-25b1c5c60d4b",
+   "lemma": "descend",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "descend"
+   ]
+  },
+  {
+   "id": "e93222e3-a646-5a54-b3cd-3c9fea93370c",
+   "lemma": "descriptive",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "descriptive"
+   ]
+  },
+  {
+   "id": "09be9789-1c81-5d06-9341-2457a1c88cd6",
+   "lemma": "designer",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "designer"
+   ]
+  },
+  {
+   "id": "28924c38-ccf9-51fe-bc6f-f133ab89b328",
+   "lemma": "desirable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "desirable"
+   ]
+  },
+  {
+   "id": "3f9a0f42-8faf-506c-8ac7-b05d70910385",
+   "lemma": "desire",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "desire"
+   ]
+  },
+  {
+   "id": "99211bea-c2fe-5406-8fdd-04cac927771f",
+   "lemma": "desktop",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "desktop"
+   ]
+  },
+  {
+   "id": "cd1f3bb2-7f42-56d1-b51d-d171c3a57ccf",
+   "lemma": "desolation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "desolation"
+   ]
+  },
+  {
+   "id": "4068b675-37db-5c18-9f27-a791b5554241",
+   "lemma": "desperately",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "desperately"
+   ]
+  },
+  {
+   "id": "44c65d63-cd96-5064-a597-4f92d3b52c53",
+   "lemma": "desperation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "desperation"
+   ]
+  },
+  {
+   "id": "9b8b41b5-9742-5be3-90b1-01d3c05f202a",
+   "lemma": "despise",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "despise"
+   ]
+  },
+  {
+   "id": "9290c26c-2922-516d-94c0-c80e9dadfbdc",
+   "lemma": "destiny",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "destiny"
+   ]
+  },
+  {
+   "id": "3165154f-29bb-59f6-a313-c3d59f5ed829",
+   "lemma": "detach",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "detach"
+   ]
+  },
+  {
+   "id": "0cbf4156-3c5f-56d3-a3bb-fccdbbdebe4f",
+   "lemma": "detachment",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "detachment"
+   ]
+  },
+  {
+   "id": "6caea6b5-e826-552b-bde2-b39982abef52",
+   "lemma": "detailed",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "detailed"
+   ]
+  },
+  {
+   "id": "1a066613-9911-5df2-ab01-8453fa30d582",
+   "lemma": "detect",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "detect"
+   ]
+  },
+  {
+   "id": "c1f2ab11-5c8a-5673-a0a2-4f3cde81d822",
+   "lemma": "determined",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "determined"
+   ]
+  },
+  {
+   "id": "163502cd-cf8e-59d8-b957-6ec23da02621",
+   "lemma": "determiner",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "determiner"
+   ]
+  },
+  {
+   "id": "d5501c8b-a131-5466-8c5d-14ffa55b475d",
+   "lemma": "developing",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "developing"
+   ]
+  },
+  {
+   "id": "2aba1d1c-82d2-5f99-aa85-dfd695c7daf4",
+   "lemma": "devil",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "devil"
+   ]
+  },
+  {
+   "id": "81eea2fc-e039-5bab-8584-bafde0830afe",
+   "lemma": "devote",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "devote"
+   ]
+  },
+  {
+   "id": "f31305af-61dd-581c-8f71-5c6e20f777c9",
+   "lemma": "devoted",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "devoted"
+   ]
+  },
+  {
+   "id": "b8333a7d-fdb6-53c4-b24c-0b2f657f0617",
+   "lemma": "diarrhea",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "diarrhea",
+    "diarrhoea"
+   ]
+  },
+  {
+   "id": "38b32823-90e3-5308-b6f2-7a129766dd9e",
+   "lemma": "dictator",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dictator"
+   ]
+  },
+  {
+   "id": "21c2f8ce-6b2f-5c7e-a394-3fddfa495f2a",
+   "lemma": "digest",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "digest"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,407 @@
+{
+ "chunk": "B1-001",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "81dd641a-8325-53e6-bdc7-f98c1c10c4d9",
+   "lemma": "abandon",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "abandon"
+   ]
+  },
+  {
+   "id": "834549eb-6564-5d38-a1ef-caa49a900e2d",
+   "lemma": "able",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "able"
+   ]
+  },
+  {
+   "id": "b3637d07-e490-5804-aecf-240a2425d3c0",
+   "lemma": "abnormal",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "abnormal"
+   ]
+  },
+  {
+   "id": "fd89fa00-d6ae-5b53-b601-7b89d7806508",
+   "lemma": "aboard",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "aboard"
+   ]
+  },
+  {
+   "id": "5ddb4069-e65a-5076-a1ea-3ba1419b1dab",
+   "lemma": "aborigine",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "aborigine"
+   ]
+  },
+  {
+   "id": "689000ca-0d00-5147-91b5-ffb80b313159",
+   "lemma": "above",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "above"
+   ]
+  },
+  {
+   "id": "9019e0c4-95a5-506b-b4c1-b6e1ccf083a1",
+   "lemma": "absence",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "absence"
+   ]
+  },
+  {
+   "id": "145ed83c-1cd6-5bd5-923d-7fa72163b6dc",
+   "lemma": "absent",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "absent"
+   ]
+  },
+  {
+   "id": "2d3f650f-56bf-54f9-b7c6-2f7b561f40d7",
+   "lemma": "absolute",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "absolute"
+   ]
+  },
+  {
+   "id": "b0ed8858-e27b-5473-91b0-3244c27ae85b",
+   "lemma": "absolutely",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "absolutely"
+   ]
+  },
+  {
+   "id": "7ca6ebfc-56ce-57d7-93a1-d20c15f8d7a7",
+   "lemma": "absorb",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "absorb"
+   ]
+  },
+  {
+   "id": "9d175188-f92a-5c16-b755-bca210ecb3d7",
+   "lemma": "abstract",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "abstract"
+   ]
+  },
+  {
+   "id": "6bc41f33-6612-51ed-a4a4-d7ba19557c14",
+   "lemma": "abundance",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "abundance"
+   ]
+  },
+  {
+   "id": "0136bf9e-fb06-53c3-819c-06a6ab2a3cbf",
+   "lemma": "abundant",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "abundant"
+   ]
+  },
+  {
+   "id": "9a1f2029-1035-5881-a834-6c004a4e2eb5",
+   "lemma": "academic",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "academic"
+   ]
+  },
+  {
+   "id": "59eae837-7371-5190-b083-c68c63c1f13f",
+   "lemma": "academy",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "academy"
+   ]
+  },
+  {
+   "id": "88134648-3978-50d6-9cc4-c556fb538d69",
+   "lemma": "accent",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "accent"
+   ]
+  },
+  {
+   "id": "e7dbca99-94a8-5101-a4fe-a908b838c6e5",
+   "lemma": "acceptance",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "acceptance"
+   ]
+  },
+  {
+   "id": "23829fc1-a4a5-5795-85db-141b6c596e5f",
+   "lemma": "access",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "access"
+   ]
+  },
+  {
+   "id": "68beb43d-1ee4-52ba-8010-761ed197b62a",
+   "lemma": "accessible",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "accessible"
+   ]
+  },
+  {
+   "id": "de95c16b-e4c0-57a4-9214-599baf4403ba",
+   "lemma": "accessory",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "accessory"
+   ]
+  },
+  {
+   "id": "eabdb527-63e9-5d77-925a-86640643ae1d",
+   "lemma": "accidental",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "accidental"
+   ]
+  },
+  {
+   "id": "4d5e371e-bb7b-5e45-9438-369c09b95f90",
+   "lemma": "accidentally",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "accidentally"
+   ]
+  },
+  {
+   "id": "668e918e-4538-544d-bf1d-a88c66dd22ea",
+   "lemma": "accompany",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "accompany"
+   ]
+  },
+  {
+   "id": "098d4252-b04e-5aa0-b18c-b0f62a2b0338",
+   "lemma": "accomplish",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "accomplish"
+   ]
+  },
+  {
+   "id": "a5f148eb-690e-5ea5-8972-270512848f2b",
+   "lemma": "according to",
+   "pos": "preposition",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "according to"
+   ]
+  },
+  {
+   "id": "441eab18-5f4f-5161-88db-4b4ba59462bb",
+   "lemma": "account",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "account"
+   ]
+  },
+  {
+   "id": "0f938229-5b16-5e89-8bdb-236b7855d16d",
+   "lemma": "accountant",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "accountant"
+   ]
+  },
+  {
+   "id": "965014dd-87c6-56bc-a2b6-937ee146167a",
+   "lemma": "accuracy",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "accuracy"
+   ]
+  },
+  {
+   "id": "053acc99-5c09-5e79-ae84-0e5edc1f8a23",
+   "lemma": "accurate",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "accurate"
+   ]
+  },
+  {
+   "id": "f0eca263-095a-5343-8666-5822278e4352",
+   "lemma": "accurately",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "accurately"
+   ]
+  },
+  {
+   "id": "33109539-a50e-5427-a696-d28382eb1cdf",
+   "lemma": "accuse",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "accuse"
+   ]
+  },
+  {
+   "id": "a33f1872-fd33-52aa-ae74-0ce16e727c7b",
+   "lemma": "accustom",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "accustom"
+   ]
+  },
+  {
+   "id": "0f851ea8-04c9-5580-bbe3-1ce2d44f304b",
+   "lemma": "ache",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ache"
+   ]
+  },
+  {
+   "id": "f22f7a29-5afc-5b43-a6bc-4f7640a1c09c",
+   "lemma": "achievement",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "achievement"
+   ]
+  },
+  {
+   "id": "7ada7c47-bb1e-557b-825d-83d6b8a042a6",
+   "lemma": "acknowledge",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "acknowledge"
+   ]
+  },
+  {
+   "id": "135c24fc-bd05-5c1d-ab59-47c4135fe596",
+   "lemma": "acknowledgment",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "acknowledgment",
+    "acknowledgement"
+   ]
+  },
+  {
+   "id": "e61787a5-c6f3-5a11-9231-7dbeaf292a04",
+   "lemma": "acquaintance",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "acquaintance"
+   ]
+  },
+  {
+   "id": "2104f971-cfb0-52b8-b729-ee59b4042de4",
+   "lemma": "acquire",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "acquire"
+   ]
+  },
+  {
+   "id": "3a1ce14b-1e5e-5651-be4b-f7fc354ba800",
+   "lemma": "act",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "act"
+   ]
+  }
+ ]
+}

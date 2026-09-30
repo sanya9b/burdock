@@ -1,0 +1,407 @@
+{
+ "chunk": "B1-035",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "e4fc2a56-0902-5a69-9537-217e8fae6e38",
+   "lemma": "minority",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "minority"
+   ]
+  },
+  {
+   "id": "f928637a-923b-5b99-b175-682778196b24",
+   "lemma": "minus",
+   "pos": "preposition",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "minus"
+   ]
+  },
+  {
+   "id": "55c8c919-671d-5d34-8250-c2fa55e01dc0",
+   "lemma": "miracle",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "miracle"
+   ]
+  },
+  {
+   "id": "22611149-12a8-57de-8332-f61fc05d780f",
+   "lemma": "mischief",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mischief"
+   ]
+  },
+  {
+   "id": "d1ff1a6d-d274-56d5-9372-143e70f45b3e",
+   "lemma": "miserable",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "miserable"
+   ]
+  },
+  {
+   "id": "211a7ef6-ed98-5f16-9f20-6025dc9391e2",
+   "lemma": "misery",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "misery"
+   ]
+  },
+  {
+   "id": "d8c9a172-1df5-52d9-bb0d-99a90c15d9bd",
+   "lemma": "mislead",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mislead"
+   ]
+  },
+  {
+   "id": "b131bbcd-7c78-5c65-a675-4eb7a7013ecd",
+   "lemma": "mission",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mission"
+   ]
+  },
+  {
+   "id": "3a7e7860-7199-5e20-8c2a-a7d7762148a9",
+   "lemma": "misty",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "misty"
+   ]
+  },
+  {
+   "id": "7a3fa5fd-e9a4-55e9-96e5-fba1f18666f2",
+   "lemma": "misunderstanding",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "misunderstanding"
+   ]
+  },
+  {
+   "id": "44e5c8cd-4ea1-55ab-869b-1746cbe46de4",
+   "lemma": "mixing bowl",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mixing bowl"
+   ]
+  },
+  {
+   "id": "b08664b3-88d7-547c-bad8-6c10e640fc40",
+   "lemma": "modal verb",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "modal verb",
+    "modal"
+   ]
+  },
+  {
+   "id": "0c57a3ec-9920-57f0-bd59-5ae456ba862e",
+   "lemma": "model",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "model"
+   ]
+  },
+  {
+   "id": "bfbd92ed-df48-5ac2-a2fa-7ed0f0a1987c",
+   "lemma": "model",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "model"
+   ]
+  },
+  {
+   "id": "606a6b7a-d869-5fe7-92e0-a9c82b68bd33",
+   "lemma": "modem",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "modem"
+   ]
+  },
+  {
+   "id": "bd3b5144-3b3b-5799-a764-d8a206723d45",
+   "lemma": "moderate",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "moderate"
+   ]
+  },
+  {
+   "id": "5cdf37d8-1ad8-5bd7-a8f1-c3c9c4c9fffd",
+   "lemma": "modify",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "modify"
+   ]
+  },
+  {
+   "id": "b5592b91-c8ab-55af-bb89-ae9e67637d6e",
+   "lemma": "moisture",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "moisture"
+   ]
+  },
+  {
+   "id": "3384a502-3a8a-5aba-b4b7-adfc1d0fa5b8",
+   "lemma": "molecule",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "molecule"
+   ]
+  },
+  {
+   "id": "11a59f8b-8795-578c-bcb1-b4791b4a95c1",
+   "lemma": "monitor",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "monitor"
+   ]
+  },
+  {
+   "id": "dc5b52a2-bb72-5ef5-8ef2-e2cdd4b0512c",
+   "lemma": "monitor",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "monitor"
+   ]
+  },
+  {
+   "id": "70e2fdde-e7f9-5d35-8786-d739027c4c2d",
+   "lemma": "monk",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "monk"
+   ]
+  },
+  {
+   "id": "89182250-f7a4-5314-9b85-fa74955d1362",
+   "lemma": "monster",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "monster"
+   ]
+  },
+  {
+   "id": "6e58c06f-ef91-58ee-a87d-66175ec3e733",
+   "lemma": "monthly",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "monthly"
+   ]
+  },
+  {
+   "id": "cc7cf896-852a-5551-a487-c1290ff5e3d0",
+   "lemma": "monthly",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "monthly"
+   ]
+  },
+  {
+   "id": "9608c7e7-7e6b-544f-997c-e8d3053c49d9",
+   "lemma": "monument",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "monument"
+   ]
+  },
+  {
+   "id": "db342a5a-616e-5a57-94e4-a79f66113dd4",
+   "lemma": "moral",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "moral"
+   ]
+  },
+  {
+   "id": "176d27da-1108-565c-ba8f-826e1e8f0763",
+   "lemma": "more",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "more"
+   ]
+  },
+  {
+   "id": "3ae80ea2-7474-5efc-bc9f-ffc4034edbb3",
+   "lemma": "moreover",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "moreover"
+   ]
+  },
+  {
+   "id": "c330adbd-f96e-51de-a744-3a753a8de3ec",
+   "lemma": "mosquito",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mosquito"
+   ]
+  },
+  {
+   "id": "e357d96f-3b6d-5883-87e6-5a92cb337374",
+   "lemma": "moss",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "moss"
+   ]
+  },
+  {
+   "id": "bdae9685-a467-5e76-99bc-b870777379c7",
+   "lemma": "motherland",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "motherland"
+   ]
+  },
+  {
+   "id": "569a7bd1-6b8e-50e8-a141-fd3bd7184a36",
+   "lemma": "motionless",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "motionless"
+   ]
+  },
+  {
+   "id": "10c69232-fed0-5d72-b68c-e73797c330bc",
+   "lemma": "motivate",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "motivate"
+   ]
+  },
+  {
+   "id": "9a6154a2-10f7-5ad1-9194-26b83f15ea16",
+   "lemma": "motivation",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "motivation"
+   ]
+  },
+  {
+   "id": "632d1907-97fc-57e4-be39-1c02222f0a1d",
+   "lemma": "motive",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "motive"
+   ]
+  },
+  {
+   "id": "019483fb-96f5-57aa-896b-fc146eaab02f",
+   "lemma": "motor",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "motor"
+   ]
+  },
+  {
+   "id": "74cc567f-e3ae-5ef5-a99b-18fa2a13dad8",
+   "lemma": "motorcycle",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "motorcycle"
+   ]
+  },
+  {
+   "id": "fd65d085-bf86-5ac0-b952-c3cb4c63345c",
+   "lemma": "motto",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "motto"
+   ]
+  },
+  {
+   "id": "63387f4e-9bf1-57f5-adf2-a8c2c1672ae4",
+   "lemma": "mount",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mount"
+   ]
+  }
+ ]
+}

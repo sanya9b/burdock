@@ -1,0 +1,406 @@
+{
+ "chunk": "A2-034",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "77bc900a-03d4-5760-abac-38e43ff276b3",
+   "lemma": "uneasy",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "uneasy"
+   ]
+  },
+  {
+   "id": "326568dc-f0f1-5cc0-8bb2-7adfaf8efefb",
+   "lemma": "unfair",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unfair"
+   ]
+  },
+  {
+   "id": "024a69af-b3bf-5614-8623-2bb7de022f53",
+   "lemma": "unforgettable",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unforgettable"
+   ]
+  },
+  {
+   "id": "617b4ed3-7038-5d09-9488-c06242e44b7f",
+   "lemma": "unfortunately",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unfortunately"
+   ]
+  },
+  {
+   "id": "14b8da47-84e5-588a-b766-337957673225",
+   "lemma": "unhappy",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unhappy"
+   ]
+  },
+  {
+   "id": "e5dca5a1-fd2b-5b7a-91ab-69ec8a523bd2",
+   "lemma": "unhealthy",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unhealthy"
+   ]
+  },
+  {
+   "id": "ac8c4b8b-beec-54e1-bf60-86a0bc36d97d",
+   "lemma": "uniform",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "uniform"
+   ]
+  },
+  {
+   "id": "37752faa-1c9d-56e2-b742-ab47f92dbbef",
+   "lemma": "uniform",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "uniform"
+   ]
+  },
+  {
+   "id": "0a9c1973-a3ad-5f5c-9389-5688487bd4b0",
+   "lemma": "unimportant",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unimportant"
+   ]
+  },
+  {
+   "id": "61345370-72ce-5e71-8850-41cdb0948850",
+   "lemma": "unit",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unit"
+   ]
+  },
+  {
+   "id": "51490573-d841-5902-9d59-988e362fe1f3",
+   "lemma": "university",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "university"
+   ]
+  },
+  {
+   "id": "0391face-06c4-524e-9949-0e5a78a62bb2",
+   "lemma": "unknown",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unknown"
+   ]
+  },
+  {
+   "id": "639a6142-5b49-5dfa-909c-740ecd24b472",
+   "lemma": "unlike",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unlike"
+   ]
+  },
+  {
+   "id": "2511dcda-ba8c-53af-891a-79d44abb762d",
+   "lemma": "unnecessary",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unnecessary"
+   ]
+  },
+  {
+   "id": "316beefd-db95-5d6f-b349-e3f9f2489bef",
+   "lemma": "unpleasant",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unpleasant"
+   ]
+  },
+  {
+   "id": "8edc4edd-455e-550e-8abb-b28a5203b08a",
+   "lemma": "unusual",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unusual"
+   ]
+  },
+  {
+   "id": "3960f8df-376f-5269-86af-d207c1a30589",
+   "lemma": "up",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "up"
+   ]
+  },
+  {
+   "id": "e1788674-ef4b-5c5c-b36c-2482d2bad8d4",
+   "lemma": "upon",
+   "pos": "preposition",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "upon"
+   ]
+  },
+  {
+   "id": "a5891020-0d5e-5852-9d78-e86e84806931",
+   "lemma": "upset",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "upset"
+   ]
+  },
+  {
+   "id": "5fd254db-3947-5460-a7da-5fc99f05912e",
+   "lemma": "upstairs",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "upstairs"
+   ]
+  },
+  {
+   "id": "1cd0e0b1-169f-5973-b756-de58a37b55a4",
+   "lemma": "use",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "use"
+   ]
+  },
+  {
+   "id": "0ece9c6f-f26e-5d3f-a656-22775bfde5cb",
+   "lemma": "used",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "used"
+   ]
+  },
+  {
+   "id": "01548a6d-0e08-54cb-9a45-867f38323ea9",
+   "lemma": "useful",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "useful"
+   ]
+  },
+  {
+   "id": "4dbaebef-2e93-5e1c-a2b2-939cbd4ec981",
+   "lemma": "usual",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "usual"
+   ]
+  },
+  {
+   "id": "504aa516-ee15-56db-bc95-17ebe39d7bc5",
+   "lemma": "valley",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "valley"
+   ]
+  },
+  {
+   "id": "cfc748e5-ded1-5dc1-bbcb-257ff7b07393",
+   "lemma": "value",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "value"
+   ]
+  },
+  {
+   "id": "af99d350-edf6-5178-929a-defd20621905",
+   "lemma": "verb",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "verb"
+   ]
+  },
+  {
+   "id": "89eb2c1d-0905-5b30-b016-9d15fcd1b4d4",
+   "lemma": "video game",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "video game"
+   ]
+  },
+  {
+   "id": "eff2c636-c87c-5ff6-a109-24fc855f4a81",
+   "lemma": "view",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "view"
+   ]
+  },
+  {
+   "id": "86ea0577-a6d7-550b-b4f3-a1d3792ca936",
+   "lemma": "village",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "village"
+   ]
+  },
+  {
+   "id": "7b979301-f293-543a-b87e-1ed2d9a5a440",
+   "lemma": "violent",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "violent"
+   ]
+  },
+  {
+   "id": "9f5fec39-1eb5-57a6-bffb-e4e85e9f5473",
+   "lemma": "violin",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "violin"
+   ]
+  },
+  {
+   "id": "3c11845c-68a8-57f5-b1f1-36dba29ed948",
+   "lemma": "visitor",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "visitor"
+   ]
+  },
+  {
+   "id": "b6727d21-f35b-5d11-99b4-65334c5d23a4",
+   "lemma": "vocabulary",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "vocabulary"
+   ]
+  },
+  {
+   "id": "50e718a3-4c2b-5e21-880a-47c655839680",
+   "lemma": "voice",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "voice"
+   ]
+  },
+  {
+   "id": "49c6582f-e07b-5fbc-bd12-1139123b6948",
+   "lemma": "walking",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "walking"
+   ]
+  },
+  {
+   "id": "2b980eed-8d26-5ec3-991d-22010dbacb53",
+   "lemma": "wallet",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wallet"
+   ]
+  },
+  {
+   "id": "1eaf3063-c2b6-5d7e-b9e3-af7bf950bce8",
+   "lemma": "wander",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wander"
+   ]
+  },
+  {
+   "id": "31ac38aa-17d8-5aa2-b415-1c09b74fc0ab",
+   "lemma": "washing machine",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "washing machine"
+   ]
+  },
+  {
+   "id": "e45f7c42-7049-5a45-bcfe-c078908a9ff9",
+   "lemma": "washing-up",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "washing-up"
+   ]
+  }
+ ]
+}

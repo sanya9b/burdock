@@ -1,0 +1,407 @@
+{
+ "chunk": "B2-019",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "72aa0e77-0790-53a2-9558-44e08b7b5c20",
+   "lemma": "drapery",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "drapery"
+   ]
+  },
+  {
+   "id": "12330285-4d46-5ad4-860e-d63390acdfc8",
+   "lemma": "dread",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dread"
+   ]
+  },
+  {
+   "id": "3009af69-aa3a-5747-b1b8-49bbf5fc2e5b",
+   "lemma": "dreadful",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dreadful"
+   ]
+  },
+  {
+   "id": "04cd7537-2a9d-530a-b376-6a16728fdacd",
+   "lemma": "dreamy",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dreamy"
+   ]
+  },
+  {
+   "id": "3aa5b471-87b3-5c0c-8ed9-f077dcdcda02",
+   "lemma": "drinkable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "drinkable"
+   ]
+  },
+  {
+   "id": "986fa1f7-a62a-502b-a4d1-3ec402221e4f",
+   "lemma": "droop",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "droop"
+   ]
+  },
+  {
+   "id": "89d0553a-c908-5946-af3d-1858c97d4599",
+   "lemma": "dropout",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dropout"
+   ]
+  },
+  {
+   "id": "a96d953a-0f22-513c-b0bd-adafc7823b11",
+   "lemma": "drought",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "drought"
+   ]
+  },
+  {
+   "id": "df1b161c-db23-5338-8d0d-72117593cfd7",
+   "lemma": "duel",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "duel"
+   ]
+  },
+  {
+   "id": "ab4a92bf-f8a1-5549-b5f8-197e6bba5591",
+   "lemma": "dumb",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dumb"
+   ]
+  },
+  {
+   "id": "66720872-e464-5d32-bf2e-15bf0c426bb2",
+   "lemma": "duplicate",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "duplicate"
+   ]
+  },
+  {
+   "id": "be23fb5c-07dd-5399-b82b-b4de6ad148e6",
+   "lemma": "duplication",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "duplication"
+   ]
+  },
+  {
+   "id": "e26b82b3-d7dc-5399-b691-2c04ecd77a17",
+   "lemma": "dwarf",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dwarf"
+   ]
+  },
+  {
+   "id": "8078c513-b626-596e-9a5a-5134922f43cd",
+   "lemma": "dye",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dye"
+   ]
+  },
+  {
+   "id": "9192ed97-78d3-576d-9fe6-20470f9ef65a",
+   "lemma": "dynamic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dynamic"
+   ]
+  },
+  {
+   "id": "53dda363-cd62-5082-8e3f-9ceb21bf94a5",
+   "lemma": "eagerly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "eagerly"
+   ]
+  },
+  {
+   "id": "a5ecd012-addd-5e39-8fa8-97d2313765ff",
+   "lemma": "eagle",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "eagle"
+   ]
+  },
+  {
+   "id": "83070e70-6c5d-514c-9f70-11a725b5c090",
+   "lemma": "earnings",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "earnings"
+   ]
+  },
+  {
+   "id": "7bdac544-5a36-5155-afb9-f72d09df9d56",
+   "lemma": "ease",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ease"
+   ]
+  },
+  {
+   "id": "0917f30c-ba67-5688-9ee6-9e41858477fa",
+   "lemma": "ease",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ease"
+   ]
+  },
+  {
+   "id": "659c8d8a-3cba-59e9-b17b-b0cc842e3bdf",
+   "lemma": "eastward",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "eastward",
+    "eastwards"
+   ]
+  },
+  {
+   "id": "343526d6-47bf-55a7-b21b-46e484a60a9d",
+   "lemma": "ecologically",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ecologically"
+   ]
+  },
+  {
+   "id": "42947a17-64d9-549e-b6a1-64d8dc1b5c9f",
+   "lemma": "ecologist",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ecologist"
+   ]
+  },
+  {
+   "id": "3d6ad8d9-56af-5b10-86a2-f454a465c88f",
+   "lemma": "economical",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "economical"
+   ]
+  },
+  {
+   "id": "e47bccd0-f1a9-5e6c-a3bc-dea9f38bd539",
+   "lemma": "economist",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "economist"
+   ]
+  },
+  {
+   "id": "27e07adc-5099-5fdf-b212-94cb01e1db5f",
+   "lemma": "ecstatic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ecstatic"
+   ]
+  },
+  {
+   "id": "606cae22-be64-53de-87cf-62a8e7b9489c",
+   "lemma": "edit",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "edit"
+   ]
+  },
+  {
+   "id": "b13b3d65-4ef4-58fb-bf0c-4279ee985835",
+   "lemma": "edit",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "edit"
+   ]
+  },
+  {
+   "id": "86c8c0e9-7401-5719-8631-10da3d68590c",
+   "lemma": "editorial",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "editorial"
+   ]
+  },
+  {
+   "id": "7d0f5b5c-ddf5-577e-9fe7-cf9363f51f08",
+   "lemma": "educated",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "educated"
+   ]
+  },
+  {
+   "id": "05560c89-fcdb-54bf-b4b1-7d86a413a56b",
+   "lemma": "educator",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "educator"
+   ]
+  },
+  {
+   "id": "6c02a583-8254-5d40-b663-4597af12b3fe",
+   "lemma": "effectively",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "effectively"
+   ]
+  },
+  {
+   "id": "c6f50ea1-95fe-56f9-a2a6-10838208426e",
+   "lemma": "effectiveness",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "effectiveness"
+   ]
+  },
+  {
+   "id": "8c26fbd0-5d85-55a6-af03-9e76f0a8ed96",
+   "lemma": "elect",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "elect"
+   ]
+  },
+  {
+   "id": "24cc44a5-5abd-529c-b768-bc3d749ddea2",
+   "lemma": "elective",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "elective"
+   ]
+  },
+  {
+   "id": "96804ad7-3b35-546d-90c4-adc6d8c270cf",
+   "lemma": "electrician",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "electrician"
+   ]
+  },
+  {
+   "id": "c05ace2a-b05b-532a-9189-62c7be8d737d",
+   "lemma": "electronically",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "electronically"
+   ]
+  },
+  {
+   "id": "6bef0365-8011-5711-987c-aff6f8d928ce",
+   "lemma": "electronics",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "electronics"
+   ]
+  },
+  {
+   "id": "4ec740a4-6034-5ca5-90d3-ba18c5d3f7c9",
+   "lemma": "elegance",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "elegance"
+   ]
+  },
+  {
+   "id": "6d382b3a-ac36-523d-88a5-fa8aee3d6ebe",
+   "lemma": "elegant",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "elegant"
+   ]
+  }
+ ]
+}

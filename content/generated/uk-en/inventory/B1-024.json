@@ -1,0 +1,406 @@
+{
+ "chunk": "B1-024",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "b75e1058-8a3d-5feb-8a68-3272d3129d83",
+   "lemma": "furthest",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "furthest"
+   ]
+  },
+  {
+   "id": "af03c60f-e44b-5dff-9088-ede1a72883e2",
+   "lemma": "fuss",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fuss"
+   ]
+  },
+  {
+   "id": "79662a4f-024f-5414-aa5e-9441faab6e0c",
+   "lemma": "future",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "future"
+   ]
+  },
+  {
+   "id": "b6465485-1e07-5757-8a47-517ee862e041",
+   "lemma": "gain",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gain"
+   ]
+  },
+  {
+   "id": "0e7011e0-834b-5827-a63d-c929df70c7d4",
+   "lemma": "gain",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gain"
+   ]
+  },
+  {
+   "id": "8d3c71c9-8e39-513d-b32d-a414fad5dee3",
+   "lemma": "gall",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gall"
+   ]
+  },
+  {
+   "id": "3fabbfe8-e5b4-595d-a0a6-d9e5c549c465",
+   "lemma": "gallon",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gallon"
+   ]
+  },
+  {
+   "id": "2c890abd-0139-56f7-8c44-674b199e11d4",
+   "lemma": "gap",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gap"
+   ]
+  },
+  {
+   "id": "336bccc6-6a62-57ec-b254-3ea644b17331",
+   "lemma": "gardening",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gardening"
+   ]
+  },
+  {
+   "id": "861c5876-d8fe-59d2-9ae6-6ce4a61f2e17",
+   "lemma": "garment",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "garment"
+   ]
+  },
+  {
+   "id": "bf3c20d4-147d-57fe-887d-779b6277fdc0",
+   "lemma": "gay",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gay"
+   ]
+  },
+  {
+   "id": "147c7f5d-d77f-5be2-9a3f-c843fd7e9954",
+   "lemma": "gee",
+   "pos": "interjection",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gee"
+   ]
+  },
+  {
+   "id": "9d503104-33c7-5c9f-97eb-f847aeb49035",
+   "lemma": "gene",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gene"
+   ]
+  },
+  {
+   "id": "6e81cb91-206b-58b5-b3f6-078ceb17797e",
+   "lemma": "general",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "general"
+   ]
+  },
+  {
+   "id": "bb1f6376-2677-527c-9ed3-a07c3c6a3613",
+   "lemma": "general",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "general"
+   ]
+  },
+  {
+   "id": "e72a4a93-4191-5137-895f-e392ddf7a32a",
+   "lemma": "generally",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "generally"
+   ]
+  },
+  {
+   "id": "b1e2b807-c6bd-582a-99fa-e2bb1cf5d62f",
+   "lemma": "generate",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "generate"
+   ]
+  },
+  {
+   "id": "461f358e-10cf-5303-8b31-88aa09266703",
+   "lemma": "generous",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "generous"
+   ]
+  },
+  {
+   "id": "e57eedb8-9af9-5c1d-aaa6-68810a5f49c2",
+   "lemma": "genetic",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "genetic"
+   ]
+  },
+  {
+   "id": "dcc9eefc-e2fd-57da-8341-dce1f239f842",
+   "lemma": "genetically",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "genetically"
+   ]
+  },
+  {
+   "id": "1912938b-15f5-5547-8f16-8f804fadd6f2",
+   "lemma": "genetics",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "genetics"
+   ]
+  },
+  {
+   "id": "8d93809c-484b-5594-bfdc-f39de7e2753f",
+   "lemma": "gentleman",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gentleman"
+   ]
+  },
+  {
+   "id": "a73ee967-9a59-5927-b8bc-bd4a28875b1c",
+   "lemma": "geographical",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "geographical"
+   ]
+  },
+  {
+   "id": "5119b9b6-484a-5bf6-80c1-ed1f433c2538",
+   "lemma": "geography",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "geography"
+   ]
+  },
+  {
+   "id": "0b8d91be-63f0-5fd4-94a9-a9af2b0b313f",
+   "lemma": "geology",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "geology"
+   ]
+  },
+  {
+   "id": "a9fd1a57-85d0-5318-94bf-ece498c79407",
+   "lemma": "gesture",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gesture"
+   ]
+  },
+  {
+   "id": "8e8a4242-a734-593c-b089-c1060334b4ed",
+   "lemma": "giant",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "giant"
+   ]
+  },
+  {
+   "id": "46b5a0cb-16eb-5189-aedc-cac6147c50e9",
+   "lemma": "gifted",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gifted"
+   ]
+  },
+  {
+   "id": "00b00370-cb4a-510e-a753-b9af4026ac73",
+   "lemma": "giggle",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "giggle"
+   ]
+  },
+  {
+   "id": "0e88777e-f6b9-5e49-a780-522916c285c9",
+   "lemma": "ginger",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ginger"
+   ]
+  },
+  {
+   "id": "853addcb-9b05-56aa-aa9c-fabbf5e6eced",
+   "lemma": "giraffe",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "giraffe"
+   ]
+  },
+  {
+   "id": "bb18e0f7-a6ef-5b37-b9c7-87c9e9cb472d",
+   "lemma": "glance",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "glance"
+   ]
+  },
+  {
+   "id": "84f3c677-2de2-5e30-96b4-9b44d7a44819",
+   "lemma": "glance",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "glance"
+   ]
+  },
+  {
+   "id": "584e0ba4-6a70-5e9d-abbe-e1cb147635d5",
+   "lemma": "glide",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "glide"
+   ]
+  },
+  {
+   "id": "5b34824f-621a-52eb-a9e9-8d7601e5d36e",
+   "lemma": "glimpse",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "glimpse"
+   ]
+  },
+  {
+   "id": "cee82f51-2404-5e22-94db-6fef8e417548",
+   "lemma": "glint",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "glint"
+   ]
+  },
+  {
+   "id": "25b1fa3a-3917-58fe-a40a-6ef65b1cc5e0",
+   "lemma": "global",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "global"
+   ]
+  },
+  {
+   "id": "30e105c4-08af-5ad1-ac4e-3047609f2b7e",
+   "lemma": "glorious",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "glorious"
+   ]
+  },
+  {
+   "id": "0da057e3-a842-5a49-98d5-5482ede76c12",
+   "lemma": "glory",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "glory"
+   ]
+  },
+  {
+   "id": "416eb4d1-1c93-544b-a58f-2b0508d624a6",
+   "lemma": "go",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "go"
+   ]
+  }
+ ]
+}

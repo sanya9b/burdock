@@ -1,0 +1,408 @@
+{
+ "chunk": "A2-006",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "3067817b-2847-5417-bcbd-176dd8fe1ab4",
+   "lemma": "centimeter",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "centimeter",
+    "centimetre"
+   ]
+  },
+  {
+   "id": "d97dc1b6-c02e-511f-80cc-9f2371cec3bc",
+   "lemma": "century",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "century"
+   ]
+  },
+  {
+   "id": "efc7c754-f2c3-537e-a17b-d1276e70e71d",
+   "lemma": "cereal",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cereal"
+   ]
+  },
+  {
+   "id": "5fec5579-de2f-5696-81c6-69fc4b96fb3d",
+   "lemma": "certain",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "certain"
+   ]
+  },
+  {
+   "id": "f9475b34-7f9e-5ce1-a578-bf00ee93cbff",
+   "lemma": "certainly",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "certainly"
+   ]
+  },
+  {
+   "id": "78ead965-befc-5458-a076-8b27fc3351b7",
+   "lemma": "chain",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "chain"
+   ]
+  },
+  {
+   "id": "2c6c4b42-6ed8-5f8b-b413-961a6cba0816",
+   "lemma": "chairman",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "chairman"
+   ]
+  },
+  {
+   "id": "6bb8142b-d3bf-5666-aadc-e3b4c000f147",
+   "lemma": "challenge",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "challenge"
+   ]
+  },
+  {
+   "id": "a92c4cb1-cfbf-5adf-b381-bd7fe93b4718",
+   "lemma": "champagne",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "champagne"
+   ]
+  },
+  {
+   "id": "efff7ab5-78c7-5885-a6c7-0a9ea10cbcad",
+   "lemma": "championship",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "championship"
+   ]
+  },
+  {
+   "id": "eedfc039-eeac-5762-8eaf-6e6666477585",
+   "lemma": "chance",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "chance"
+   ]
+  },
+  {
+   "id": "9526cd1c-5c74-50f9-bac4-a5b7bd46bd2c",
+   "lemma": "chapter",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "chapter"
+   ]
+  },
+  {
+   "id": "a121f39e-c115-5d71-a19f-1ba7d2bff19a",
+   "lemma": "chart",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "chart"
+   ]
+  },
+  {
+   "id": "23b8b049-196e-5a0d-ae3b-e61da416422b",
+   "lemma": "chat",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "chat"
+   ]
+  },
+  {
+   "id": "a7813526-299f-597a-8b82-79a9fb0fcda9",
+   "lemma": "cheap",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cheap"
+   ]
+  },
+  {
+   "id": "41568f31-33d0-5688-bb93-a626da1e4a72",
+   "lemma": "check",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "check"
+   ]
+  },
+  {
+   "id": "a0b5d038-9538-5f5a-bdf3-b9244a219113",
+   "lemma": "cheek",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cheek"
+   ]
+  },
+  {
+   "id": "222f8b6e-8173-5381-b22d-5b04edc10cbb",
+   "lemma": "cheer",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cheer"
+   ]
+  },
+  {
+   "id": "ebf233ed-5435-5592-922e-e6d408d99975",
+   "lemma": "chef",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "chef"
+   ]
+  },
+  {
+   "id": "afe69801-ead0-5576-b87a-d8343072fcbb",
+   "lemma": "chemical",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "chemical"
+   ]
+  },
+  {
+   "id": "0cebae7f-2d71-5f82-9a62-14af068a5fa8",
+   "lemma": "cheque",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cheque"
+   ]
+  },
+  {
+   "id": "e24429d8-cbda-5cd2-8200-c711f39030cf",
+   "lemma": "chess",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "chess"
+   ]
+  },
+  {
+   "id": "6d88ddec-8b17-55b8-a4c5-9bd854cdcba2",
+   "lemma": "chest",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "chest"
+   ]
+  },
+  {
+   "id": "9e29070e-735b-5337-bf22-ec4840f39fd1",
+   "lemma": "childhood",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "childhood"
+   ]
+  },
+  {
+   "id": "dde4a8e7-ae27-572f-8df7-640402bbb416",
+   "lemma": "chili",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "chili",
+    "chilli"
+   ]
+  },
+  {
+   "id": "f83f8e64-7202-5927-b531-ae77178365b1",
+   "lemma": "chimpanzee",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "chimpanzee"
+   ]
+  },
+  {
+   "id": "97f1dcc6-6d0b-5413-a21d-70f4820dd102",
+   "lemma": "chin",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "chin"
+   ]
+  },
+  {
+   "id": "51b2b77e-71f1-560e-9284-8893e39b95d4",
+   "lemma": "chirp",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "chirp"
+   ]
+  },
+  {
+   "id": "7e3cd29e-c176-51ba-959d-071b5d4c5bb8",
+   "lemma": "choice",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "choice"
+   ]
+  },
+  {
+   "id": "3fe27b23-2067-543f-a9fc-4bede39f63be",
+   "lemma": "cigarette",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cigarette"
+   ]
+  },
+  {
+   "id": "d8d63612-eaab-5e36-8142-0c2043a34719",
+   "lemma": "citizen",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "citizen"
+   ]
+  },
+  {
+   "id": "bd4eb526-a09d-5337-914a-41da0c7140f7",
+   "lemma": "claim",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "claim"
+   ]
+  },
+  {
+   "id": "bb13f3ab-2d6b-5ba9-930b-c6eec494d80f",
+   "lemma": "classic",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "classic"
+   ]
+  },
+  {
+   "id": "0a3bebc3-2ddf-5f1f-a4f5-a2fcc8e2b635",
+   "lemma": "classical music",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "classical music"
+   ]
+  },
+  {
+   "id": "b9e63547-a97c-5475-b0ab-2682e5f2c95a",
+   "lemma": "cleaner",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cleaner"
+   ]
+  },
+  {
+   "id": "6ff395a2-8284-5fee-9ee0-b34b8d0e755a",
+   "lemma": "clear",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "clear"
+   ]
+  },
+  {
+   "id": "3cdbb382-c9bb-5992-a826-ad46fb322aba",
+   "lemma": "clearly",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "clearly"
+   ]
+  },
+  {
+   "id": "c0bee078-82fc-5f52-9548-e9b327a29e57",
+   "lemma": "clerk",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "clerk"
+   ]
+  },
+  {
+   "id": "446610ee-1c04-5c8d-a490-9d9892269efa",
+   "lemma": "click",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "click"
+   ]
+  },
+  {
+   "id": "7448b574-4779-535e-9426-1d2e5b260eb1",
+   "lemma": "climb",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "climb"
+   ]
+  }
+ ]
+}

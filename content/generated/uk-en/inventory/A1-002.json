@@ -1,0 +1,406 @@
+{
+ "chunk": "A1-002",
+ "level": "A1",
+ "lexemes": [
+  {
+   "id": "9badd39c-d736-543a-8173-76528467e27c",
+   "lemma": "any",
+   "pos": "pronoun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "any"
+   ]
+  },
+  {
+   "id": "e89c1942-6d5b-5abb-8c3e-515cad70acc2",
+   "lemma": "anybody",
+   "pos": "pronoun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "anybody"
+   ]
+  },
+  {
+   "id": "b78b3d58-2966-5b80-ac48-c7252d7026e5",
+   "lemma": "anyone",
+   "pos": "pronoun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "anyone"
+   ]
+  },
+  {
+   "id": "757ddbf7-d9bf-51f5-83ef-f202c2a48fff",
+   "lemma": "anything",
+   "pos": "pronoun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "anything"
+   ]
+  },
+  {
+   "id": "6791a265-e8d0-5636-9e1b-af508ed0f272",
+   "lemma": "apple",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "apple"
+   ]
+  },
+  {
+   "id": "a5a24b16-3e25-55fd-9670-e5f76a0b2e35",
+   "lemma": "April",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "april"
+   ]
+  },
+  {
+   "id": "414cd6ce-1dda-5447-9b6e-410bee35b19f",
+   "lemma": "apron",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "apron"
+   ]
+  },
+  {
+   "id": "b9001da4-742a-5dce-9ebf-36aa5701b98c",
+   "lemma": "are",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "are"
+   ]
+  },
+  {
+   "id": "2e6e3a10-da24-5d45-bc5d-c6b35f94218e",
+   "lemma": "arm",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "arm"
+   ]
+  },
+  {
+   "id": "6c2a4591-0104-566b-b2bb-c47fbaba885f",
+   "lemma": "around",
+   "pos": "preposition",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "around"
+   ]
+  },
+  {
+   "id": "ec700b61-68b8-5dec-b9d1-6b46be52e211",
+   "lemma": "arrive",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "arrive"
+   ]
+  },
+  {
+   "id": "b408f1de-d111-55e6-917d-4618efdc08b5",
+   "lemma": "art",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "art"
+   ]
+  },
+  {
+   "id": "34474820-bfec-5ac3-a236-a48dc5891049",
+   "lemma": "article",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "article"
+   ]
+  },
+  {
+   "id": "010190f7-4dcc-5ed2-b5c9-de24dfef0dc9",
+   "lemma": "as",
+   "pos": "preposition",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "as"
+   ]
+  },
+  {
+   "id": "3537be6f-f289-5c30-9fb4-bdb03cd47f9b",
+   "lemma": "ask",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ask"
+   ]
+  },
+  {
+   "id": "7196da3d-4a41-5655-a55d-f3c11bd13b2f",
+   "lemma": "at",
+   "pos": "preposition",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "at"
+   ]
+  },
+  {
+   "id": "ca69ef37-0622-5dce-87e6-8802586ee223",
+   "lemma": "August",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "august"
+   ]
+  },
+  {
+   "id": "daaed3fa-ce17-5c22-8816-b0b9d7adabc1",
+   "lemma": "aunt",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "aunt"
+   ]
+  },
+  {
+   "id": "46f17f55-ce4e-5798-95f7-719672a2488c",
+   "lemma": "autumn",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "autumn"
+   ]
+  },
+  {
+   "id": "3e74c1b2-0e09-5970-b549-82432fae90e7",
+   "lemma": "awake",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "awake"
+   ]
+  },
+  {
+   "id": "775f829e-2391-58d0-ae6b-04b88d5e9609",
+   "lemma": "away",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "away"
+   ]
+  },
+  {
+   "id": "e73232d8-f203-5a87-b845-803892a14dcc",
+   "lemma": "baby",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "baby"
+   ]
+  },
+  {
+   "id": "d9fc8302-bb9d-506c-83ed-2f6dc44d8b19",
+   "lemma": "back",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "back"
+   ]
+  },
+  {
+   "id": "3e3cedce-53cb-5bd7-9f85-5ec9b952fe33",
+   "lemma": "back",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "back"
+   ]
+  },
+  {
+   "id": "1d166a0d-ab25-5ec1-879a-0bf9dda569dd",
+   "lemma": "bad",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bad"
+   ]
+  },
+  {
+   "id": "84f9e378-99ae-5976-ad14-6933e66999f5",
+   "lemma": "bag",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bag"
+   ]
+  },
+  {
+   "id": "087116e6-f1a8-5840-8618-1ae175794ee0",
+   "lemma": "ball",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ball"
+   ]
+  },
+  {
+   "id": "d157eef8-6595-53e6-84d9-0f9083121b04",
+   "lemma": "banana",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "banana"
+   ]
+  },
+  {
+   "id": "4445c5d8-4af5-59ef-8021-fdbee8321e3f",
+   "lemma": "band",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "band"
+   ]
+  },
+  {
+   "id": "69242a5e-f759-5235-9e38-149f8c1ecba2",
+   "lemma": "bank",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bank"
+   ]
+  },
+  {
+   "id": "4f64fe27-81e0-5e5d-ad48-6fce33723cfd",
+   "lemma": "bar",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bar"
+   ]
+  },
+  {
+   "id": "3c12fbb3-f4bb-5450-81c2-2a2457fb210e",
+   "lemma": "baseball",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "baseball"
+   ]
+  },
+  {
+   "id": "eab1090f-1619-5509-b443-612c4eb846e3",
+   "lemma": "basketball",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "basketball"
+   ]
+  },
+  {
+   "id": "12967a66-0cbb-5415-b9d8-ad355dd2af24",
+   "lemma": "bat",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bat"
+   ]
+  },
+  {
+   "id": "ae34a1a3-0df2-5b73-aee3-c07848b31298",
+   "lemma": "bath",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bath"
+   ]
+  },
+  {
+   "id": "783720c3-2e4f-573a-8370-2fd0141b771a",
+   "lemma": "bathroom",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bathroom"
+   ]
+  },
+  {
+   "id": "29f35ccc-f860-5a33-bd3c-1b198c52a804",
+   "lemma": "be",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "be"
+   ]
+  },
+  {
+   "id": "fc87d7ab-9f08-58b3-9138-bdb77b3e314e",
+   "lemma": "beach",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "beach"
+   ]
+  },
+  {
+   "id": "7d38113c-94ea-5742-b985-8cb1388a91d1",
+   "lemma": "bean",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bean"
+   ]
+  },
+  {
+   "id": "9757c8b0-4069-5189-bb4e-29ced512fd09",
+   "lemma": "bear",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bear"
+   ]
+  }
+ ]
+}

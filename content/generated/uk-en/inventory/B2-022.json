@@ -1,0 +1,406 @@
+{
+ "chunk": "B2-022",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "c7c21e7f-d943-5e1b-ac5d-1d2d1d549133",
+   "lemma": "executive",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "executive"
+   ]
+  },
+  {
+   "id": "c8567550-7aa6-5a5f-8208-0ab97c1f80e7",
+   "lemma": "exhaust",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exhaust"
+   ]
+  },
+  {
+   "id": "6bf17c39-aa87-5b7e-9da7-19ef72367a38",
+   "lemma": "exhausting",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exhausting"
+   ]
+  },
+  {
+   "id": "61761d11-2f4e-5a90-994c-5eae7f7da954",
+   "lemma": "exhaustion",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exhaustion"
+   ]
+  },
+  {
+   "id": "490d11f4-3dee-5689-ad05-1c6dcc640499",
+   "lemma": "exhibit",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exhibit"
+   ]
+  },
+  {
+   "id": "acbd1bed-0e9c-5163-a474-df68d093c0ae",
+   "lemma": "exile",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exile"
+   ]
+  },
+  {
+   "id": "4d6426da-9db4-516c-b9c3-48f74042eb0b",
+   "lemma": "existing",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "existing"
+   ]
+  },
+  {
+   "id": "66916378-da92-5dd0-b562-db938deddad8",
+   "lemma": "exotic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exotic"
+   ]
+  },
+  {
+   "id": "43cb741f-5ef0-5716-b23b-a7d28b842b66",
+   "lemma": "expansion",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "expansion"
+   ]
+  },
+  {
+   "id": "dbf69fce-e0b2-5b79-9e81-5ea69db94c74",
+   "lemma": "expectation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "expectation"
+   ]
+  },
+  {
+   "id": "e9c81ae4-9408-585b-bea4-1e0e55ba0455",
+   "lemma": "expected",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "expected"
+   ]
+  },
+  {
+   "id": "a41d318b-c4e2-51dd-a654-340a7f48a5f6",
+   "lemma": "expedition",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "expedition"
+   ]
+  },
+  {
+   "id": "79c47bae-e978-5496-86a5-2dce3dd17e9e",
+   "lemma": "experiment",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "experiment"
+   ]
+  },
+  {
+   "id": "3388f395-a376-5eff-a036-b49baf2e28f4",
+   "lemma": "expert",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "expert"
+   ]
+  },
+  {
+   "id": "8ca8e5ba-f9ad-5fd5-9615-365bd5db1732",
+   "lemma": "explode",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "explode"
+   ]
+  },
+  {
+   "id": "49d19e1b-5367-57c4-8e1c-2ff1a85a3256",
+   "lemma": "exploit",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exploit"
+   ]
+  },
+  {
+   "id": "23bc9495-6156-5492-89a3-a19009aadf0c",
+   "lemma": "explorer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "explorer"
+   ]
+  },
+  {
+   "id": "fa469565-ede8-5045-8d73-af34e59d8842",
+   "lemma": "explosive",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "explosive"
+   ]
+  },
+  {
+   "id": "17ff9f40-af9e-5ed4-964a-c1e2c8ad0941",
+   "lemma": "explosive",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "explosive"
+   ]
+  },
+  {
+   "id": "964e0c7c-d676-5650-b18c-365bf0c2d694",
+   "lemma": "export",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "export"
+   ]
+  },
+  {
+   "id": "1b7ad966-d03d-5367-b8cd-9ca0575671ee",
+   "lemma": "export",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "export"
+   ]
+  },
+  {
+   "id": "29705f37-36e5-55d6-967c-ca69d2543e30",
+   "lemma": "expressive",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "expressive"
+   ]
+  },
+  {
+   "id": "53710dee-c88d-5947-bc38-070230c6ceec",
+   "lemma": "exquisite",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exquisite"
+   ]
+  },
+  {
+   "id": "2ec53b2e-ea94-5c49-ba56-8a6c7b3b0744",
+   "lemma": "extension",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "extension"
+   ]
+  },
+  {
+   "id": "406644ac-cfe0-51fe-9bf0-ea9ee23e1174",
+   "lemma": "extensive",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "extensive"
+   ]
+  },
+  {
+   "id": "914ea6a9-faf1-589a-8fb6-4dbe18b93bdf",
+   "lemma": "external",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "external"
+   ]
+  },
+  {
+   "id": "510a7e0e-08c1-54e7-8113-c269adb7250d",
+   "lemma": "extract",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "extract"
+   ]
+  },
+  {
+   "id": "61b371c4-42b6-5875-958d-55a445a4e890",
+   "lemma": "extract",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "extract"
+   ]
+  },
+  {
+   "id": "394571ff-0318-56c5-bbcc-bceb50ead129",
+   "lemma": "extraordinarily",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "extraordinarily"
+   ]
+  },
+  {
+   "id": "df7e9042-dc6f-5101-b0b3-f6eae726db1a",
+   "lemma": "exultant",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exultant"
+   ]
+  },
+  {
+   "id": "0776185e-cd53-5254-84f6-07caaeb8c6fd",
+   "lemma": "eyebrow",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "eyebrow"
+   ]
+  },
+  {
+   "id": "0a5be16d-b989-558f-9487-6d0adf445aa0",
+   "lemma": "eyelash",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "eyelash"
+   ]
+  },
+  {
+   "id": "7d03fef7-d612-5e60-97e9-ff31df43185b",
+   "lemma": "eyelid",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "eyelid"
+   ]
+  },
+  {
+   "id": "20c26ec4-b192-50ee-9179-19b985666d5b",
+   "lemma": "fabric",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fabric"
+   ]
+  },
+  {
+   "id": "92e456f6-dda4-5f52-956b-12c6dbe3de3f",
+   "lemma": "fabulous",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fabulous"
+   ]
+  },
+  {
+   "id": "8d34c0d4-e3b4-58df-a4a1-248d66582351",
+   "lemma": "facilitate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "facilitate"
+   ]
+  },
+  {
+   "id": "a957147a-616a-548b-8bac-ba3f5704af2c",
+   "lemma": "facilities",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "facilities"
+   ]
+  },
+  {
+   "id": "ff4c1326-38cc-5796-a870-2a19f32b37a5",
+   "lemma": "factor",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "factor"
+   ]
+  },
+  {
+   "id": "39ef28d9-d2d1-57b9-8f39-3347ac0b005e",
+   "lemma": "faculty",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "faculty"
+   ]
+  },
+  {
+   "id": "47e04578-e6bf-55db-bd56-5bc0ff2f4153",
+   "lemma": "faint",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "faint"
+   ]
+  }
+ ]
+}

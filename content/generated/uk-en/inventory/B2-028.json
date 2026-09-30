@@ -1,0 +1,411 @@
+{
+ "chunk": "B2-028",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "b4bf10a8-b189-57bd-88e0-28839b6f8679",
+   "lemma": "health care",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "health care"
+   ]
+  },
+  {
+   "id": "a0e2fabe-62c2-5402-a30f-bb45a43071c2",
+   "lemma": "heap",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "heap"
+   ]
+  },
+  {
+   "id": "c14b94d8-9d0b-5f00-88ef-54c06f3fe626",
+   "lemma": "heap",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "heap"
+   ]
+  },
+  {
+   "id": "e7c57198-9dfd-551b-8da0-c04029b06b02",
+   "lemma": "heartbreaking",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "heartbreaking"
+   ]
+  },
+  {
+   "id": "0c76c10d-d2e0-5a92-be33-8843a5e816e0",
+   "lemma": "heartwarming",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "heartwarming",
+    "heart-warming"
+   ]
+  },
+  {
+   "id": "c3c34593-9621-5585-8fe7-a9f7bae0f2e7",
+   "lemma": "hedge",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hedge"
+   ]
+  },
+  {
+   "id": "a0025edc-4195-58cf-805e-b3716eee89b3",
+   "lemma": "helicopter",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "helicopter"
+   ]
+  },
+  {
+   "id": "48d5a390-2758-5fd2-a598-d13a2a6bab8a",
+   "lemma": "hell",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hell"
+   ]
+  },
+  {
+   "id": "e9fc7330-fe92-50e9-95ee-1242eed666ba",
+   "lemma": "helper",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "helper"
+   ]
+  },
+  {
+   "id": "a295bb5e-746a-5eaa-b6a0-7f4bdb09e254",
+   "lemma": "hemp",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hemp"
+   ]
+  },
+  {
+   "id": "d1068e44-cd59-5e6f-8ef9-c7bda8347cba",
+   "lemma": "herb",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "herb"
+   ]
+  },
+  {
+   "id": "3b40ee88-d885-5a2d-8fc7-2558286dd272",
+   "lemma": "heritage",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "heritage"
+   ]
+  },
+  {
+   "id": "a654b1a5-1c9c-598a-bbcb-5b4ea2760608",
+   "lemma": "hesitation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hesitation"
+   ]
+  },
+  {
+   "id": "b6089260-dbc3-5802-8f5d-df265e6cf174",
+   "lemma": "high-tech",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "high-tech",
+    "hi-tech"
+   ]
+  },
+  {
+   "id": "b32c3379-7deb-5ccc-bac2-fa6c13ca5812",
+   "lemma": "highlight",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "highlight"
+   ]
+  },
+  {
+   "id": "420bbb62-721c-545c-b54c-3139327c87eb",
+   "lemma": "hijack",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hijack"
+   ]
+  },
+  {
+   "id": "be0fe9ca-c501-5baa-8e42-2170cad6af95",
+   "lemma": "hijack",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hijack"
+   ]
+  },
+  {
+   "id": "fe426d84-bc0e-5122-8b44-e92470142716",
+   "lemma": "hilarious",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hilarious"
+   ]
+  },
+  {
+   "id": "74ca31e4-890d-5be4-af65-a0a3e4463236",
+   "lemma": "hint",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hint"
+   ]
+  },
+  {
+   "id": "d27747cb-ad26-583f-96b1-84ad77bc40cd",
+   "lemma": "holder",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "holder"
+   ]
+  },
+  {
+   "id": "6b0db7db-3f55-52ca-b5c5-a05fc06c1e71",
+   "lemma": "hollow",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hollow"
+   ]
+  },
+  {
+   "id": "71c53e41-96dc-5b9c-acec-abc50928b219",
+   "lemma": "holocaust",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "holocaust"
+   ]
+  },
+  {
+   "id": "90dca84f-bb42-5eb7-b0ac-3806edb5d7a8",
+   "lemma": "homeward",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "homeward"
+   ]
+  },
+  {
+   "id": "12571c31-b8b2-5b36-8e7b-9eae3498590a",
+   "lemma": "hone",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hone"
+   ]
+  },
+  {
+   "id": "101efd64-e754-57c8-89d5-538012cea964",
+   "lemma": "honor",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "honor",
+    "honour"
+   ]
+  },
+  {
+   "id": "bc8dd1cb-e250-5b64-97f2-0e8d827bab7c",
+   "lemma": "honorable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "honorable",
+    "honourable"
+   ]
+  },
+  {
+   "id": "893a07e3-005f-50a3-b0e6-f15f23b238dc",
+   "lemma": "hood",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hood"
+   ]
+  },
+  {
+   "id": "55e1ba19-591c-599b-bbf3-ac70548badf4",
+   "lemma": "hook",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hook"
+   ]
+  },
+  {
+   "id": "502aef26-8f4f-5d35-8c0e-73d1f39eb356",
+   "lemma": "hook",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hook"
+   ]
+  },
+  {
+   "id": "d5a67f4e-01f8-527e-b44e-72f20b201026",
+   "lemma": "hospice",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hospice"
+   ]
+  },
+  {
+   "id": "625eb508-0f42-564a-b532-a6f4f1ffc1a0",
+   "lemma": "hospitable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hospitable"
+   ]
+  },
+  {
+   "id": "35d115ce-9459-52a5-9472-bbc9406c0547",
+   "lemma": "hospitality",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hospitality"
+   ]
+  },
+  {
+   "id": "d2c5f57f-10eb-5c0b-9eca-bd9467205c34",
+   "lemma": "hospitalize",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hospitalize",
+    "hospitalise"
+   ]
+  },
+  {
+   "id": "80829270-403b-59c4-bc00-ea778843c157",
+   "lemma": "hourly",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hourly"
+   ]
+  },
+  {
+   "id": "28715977-a004-58c2-aa41-a940804f65f0",
+   "lemma": "housekeeper",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "housekeeper"
+   ]
+  },
+  {
+   "id": "d5698a18-5594-53a6-9e2d-a9fb29c3247c",
+   "lemma": "housemaster",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "housemaster"
+   ]
+  },
+  {
+   "id": "4da7623b-ac10-50be-a07f-76c8ba6208d3",
+   "lemma": "housewife",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "housewife"
+   ]
+  },
+  {
+   "id": "4a9dc10d-e8e1-511e-a8d3-ff82f7592a1c",
+   "lemma": "hover",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hover"
+   ]
+  },
+  {
+   "id": "c03f10ca-3f62-5704-8d6b-ef184900b07a",
+   "lemma": "hug",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hug"
+   ]
+  },
+  {
+   "id": "c7c7ded5-0a4c-57ee-b41a-f51faec86cc9",
+   "lemma": "hugely",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hugely"
+   ]
+  }
+ ]
+}

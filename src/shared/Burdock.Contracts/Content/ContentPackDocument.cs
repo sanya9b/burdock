@@ -44,7 +44,28 @@ public sealed record ContentEntryDocument(
     [property: JsonPropertyName("exampleUk")] string? ExampleNative,
     [property: JsonPropertyName("frequencyBand")] int? FrequencyBand);
 
+/// <summary>index.json next to bundled or built packs: which pack files exist for a pair (spec 08 §3.10; the manifest of phase 2 supersedes it).</summary>
+public sealed record ContentPackIndexDocument(
+    [property: JsonPropertyName("schemaVersion")] int SchemaVersion,
+    [property: JsonPropertyName("pair")] string Pair,
+    [property: JsonPropertyName("generatedAt")] DateTimeOffset GeneratedAt,
+    [property: JsonPropertyName("packs")] IReadOnlyList<ContentPackIndexEntry> Packs)
+{
+    public const int CurrentSchemaVersion = 1;
+}
+
+public sealed record ContentPackIndexEntry(
+    [property: JsonPropertyName("packId")] string PackId,
+    [property: JsonPropertyName("file")] string File,
+    [property: JsonPropertyName("level")] string Level,
+    [property: JsonPropertyName("topic")] string Topic,
+    [property: JsonPropertyName("version")] int Version,
+    [property: JsonPropertyName("lexemeCount")] int LexemeCount,
+    [property: JsonPropertyName("sizeBytes")] long SizeBytes,
+    [property: JsonPropertyName("sha256")] string Sha256);
+
 /// <summary>Source-generated JSON context so the app can stay trimming/AOT friendly.</summary>
 [JsonSourceGenerationOptions(WriteIndented = true, DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull)]
 [JsonSerializable(typeof(ContentPackDocument))]
+[JsonSerializable(typeof(ContentPackIndexDocument))]
 public sealed partial class ContentPackJsonContext : JsonSerializerContext;

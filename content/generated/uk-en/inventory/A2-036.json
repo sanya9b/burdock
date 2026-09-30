@@ -1,0 +1,106 @@
+{
+ "chunk": "A2-036",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "a97755b9-5d95-502f-b49a-6e037e4d68b7",
+   "lemma": "worried",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "worried"
+   ]
+  },
+  {
+   "id": "593846d9-c973-54b1-b5be-2780485b84a8",
+   "lemma": "worry",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "worry"
+   ]
+  },
+  {
+   "id": "5ba680f9-16b2-5dc7-a386-263ebbec7901",
+   "lemma": "worse",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "worse"
+   ]
+  },
+  {
+   "id": "43e1445c-8044-5c8c-80a4-9213eb701005",
+   "lemma": "worse",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "worse"
+   ]
+  },
+  {
+   "id": "45456b45-be50-5042-8e73-4a5e939a44b3",
+   "lemma": "worst",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "worst"
+   ]
+  },
+  {
+   "id": "8bbaf136-4c5d-513a-ad70-5dfdef4aa914",
+   "lemma": "writing",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "writing"
+   ]
+  },
+  {
+   "id": "27d3d39d-f7aa-5363-ab65-8a78e40151a9",
+   "lemma": "wrong",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wrong"
+   ]
+  },
+  {
+   "id": "c51b4bae-669b-5199-b632-939cba25a895",
+   "lemma": "yeah",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "yeah"
+   ]
+  },
+  {
+   "id": "64969cbf-0d45-54af-bcc6-bf903c50a77b",
+   "lemma": "youth",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "youth"
+   ]
+  },
+  {
+   "id": "ee50aa79-d1a9-5837-afe7-8bd21d8d80cf",
+   "lemma": "zone",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "zone"
+   ]
+  }
+ ]
+}

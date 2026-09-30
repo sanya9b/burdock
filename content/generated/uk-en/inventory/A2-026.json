@@ -1,0 +1,406 @@
+{
+ "chunk": "A2-026",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "a4d4bf5d-7013-555a-9102-f6c8b64b542b",
+   "lemma": "regret",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "regret"
+   ]
+  },
+  {
+   "id": "6c70f051-7572-5a76-b825-6cd7770fd91a",
+   "lemma": "regular",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "regular"
+   ]
+  },
+  {
+   "id": "cea638cc-a6b1-5b07-918c-d37e5f6293a2",
+   "lemma": "regularly",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "regularly"
+   ]
+  },
+  {
+   "id": "23ee06a0-c5fb-558d-b222-a301c924fdd8",
+   "lemma": "relax",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "relax"
+   ]
+  },
+  {
+   "id": "c0f55586-01fe-5655-b6cd-a59dde854804",
+   "lemma": "relaxed",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "relaxed"
+   ]
+  },
+  {
+   "id": "022a3c41-f712-551c-96c3-401b6a8a5247",
+   "lemma": "release",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "release"
+   ]
+  },
+  {
+   "id": "8004d7fa-0522-58dd-beb4-6ba799366fe8",
+   "lemma": "remain",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "remain"
+   ]
+  },
+  {
+   "id": "4c911104-10aa-5b9b-bc31-a5856c218cb8",
+   "lemma": "remind",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "remind"
+   ]
+  },
+  {
+   "id": "63b797f2-c892-5e1c-9a7d-88df65981b2f",
+   "lemma": "remote",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "remote"
+   ]
+  },
+  {
+   "id": "de383c0b-6180-5c38-9042-933193e17f3e",
+   "lemma": "rent",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rent"
+   ]
+  },
+  {
+   "id": "9e50ff8d-f6eb-511f-a9aa-ff24edfa396f",
+   "lemma": "rent",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rent"
+   ]
+  },
+  {
+   "id": "17e60bba-a74d-59ad-82b4-104d5bf33418",
+   "lemma": "repair",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "repair"
+   ]
+  },
+  {
+   "id": "a51e7cb3-e2ad-566b-aa60-74ebbb3a4b84",
+   "lemma": "repair",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "repair"
+   ]
+  },
+  {
+   "id": "6153a715-9219-58a9-be9b-ec2de61aee20",
+   "lemma": "replace",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "replace"
+   ]
+  },
+  {
+   "id": "b0fad20b-68ea-5da6-85a7-1624878aa651",
+   "lemma": "reply",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "reply"
+   ]
+  },
+  {
+   "id": "84f013b6-012f-5959-8310-39271206d66b",
+   "lemma": "report",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "report"
+   ]
+  },
+  {
+   "id": "883942af-8810-5207-93fc-981fe8deb5c0",
+   "lemma": "represent",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "represent"
+   ]
+  },
+  {
+   "id": "7b7d97aa-c689-5cf4-a444-09e757adcda0",
+   "lemma": "request",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "request"
+   ]
+  },
+  {
+   "id": "72d33064-4567-5c86-87d5-4eb2cf75b2fe",
+   "lemma": "research",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "research"
+   ]
+  },
+  {
+   "id": "af9b5567-3720-5b94-8ea8-2db049335d27",
+   "lemma": "response",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "response"
+   ]
+  },
+  {
+   "id": "204b5f5d-aa73-5fa7-b91d-e9c2107bd461",
+   "lemma": "retire",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "retire"
+   ]
+  },
+  {
+   "id": "187e5dc0-bb5e-5209-89a2-9fe9cdca6e28",
+   "lemma": "retired",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "retired"
+   ]
+  },
+  {
+   "id": "af65b97d-0656-55c7-9d27-0aed94ab5d78",
+   "lemma": "return",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "return"
+   ]
+  },
+  {
+   "id": "0277f40f-2a0a-5a0d-9cfc-9b17744bbf32",
+   "lemma": "return",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "return"
+   ]
+  },
+  {
+   "id": "e385c1c0-a60c-5ae7-b4f6-f54587e0f9e5",
+   "lemma": "reunion",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "reunion"
+   ]
+  },
+  {
+   "id": "a2c0796d-751a-58e3-b44e-5559850eb6ab",
+   "lemma": "reveal",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "reveal"
+   ]
+  },
+  {
+   "id": "7e412b6a-b2df-520b-b90d-3fa3c408dd28",
+   "lemma": "rhythm",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rhythm"
+   ]
+  },
+  {
+   "id": "c8946614-c239-5162-b8f5-f5f3e0eedd6c",
+   "lemma": "right",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "right"
+   ]
+  },
+  {
+   "id": "c14532b1-5489-57c1-b0af-2dbc33e6edc8",
+   "lemma": "right-hand",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "right-hand"
+   ]
+  },
+  {
+   "id": "9f1ff6ca-30ae-5bf3-a437-edb9f69af266",
+   "lemma": "ring",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ring"
+   ]
+  },
+  {
+   "id": "9060f61c-3a55-57e3-8205-0efae6c71889",
+   "lemma": "road",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "road"
+   ]
+  },
+  {
+   "id": "17ce1e52-4562-53ec-b71a-9f526369d167",
+   "lemma": "roast",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "roast"
+   ]
+  },
+  {
+   "id": "6088cff4-b6f8-5806-8115-c054bb88dcb1",
+   "lemma": "rob",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rob"
+   ]
+  },
+  {
+   "id": "781dad0b-9008-5438-831c-e5b720d32eed",
+   "lemma": "robbery",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "robbery"
+   ]
+  },
+  {
+   "id": "fa6cc564-3c48-5b45-9615-a86ae1c6100d",
+   "lemma": "robin",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "robin"
+   ]
+  },
+  {
+   "id": "7362a3e6-6cea-5376-98c2-42355ac9a454",
+   "lemma": "rock",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rock"
+   ]
+  },
+  {
+   "id": "d363c620-09bc-57a8-8e8f-30dc4bc0ad7a",
+   "lemma": "roll",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "roll"
+   ]
+  },
+  {
+   "id": "a53e09a6-231b-5909-85cc-907a8107208f",
+   "lemma": "romance",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "romance"
+   ]
+  },
+  {
+   "id": "0152a819-b594-582c-b2c1-8712df7ed46a",
+   "lemma": "romantic",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "romantic"
+   ]
+  },
+  {
+   "id": "3bf4f897-a423-526f-8d4b-3739629d7bdc",
+   "lemma": "roof",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "roof"
+   ]
+  }
+ ]
+}

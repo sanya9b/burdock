@@ -1,0 +1,406 @@
+{
+ "chunk": "B1-031",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "ee5a7a83-e418-5c4c-b98d-14a1cc5fb4b7",
+   "lemma": "juicy",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "juicy"
+   ]
+  },
+  {
+   "id": "6e9be5d0-7e32-5a14-aeaf-dc13bdebea22",
+   "lemma": "jumper",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "jumper"
+   ]
+  },
+  {
+   "id": "84c6bd3e-1f79-5ddd-886e-90c913b7134b",
+   "lemma": "jungle",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "jungle"
+   ]
+  },
+  {
+   "id": "37b9f042-dea1-5986-8df5-b424e0752ea5",
+   "lemma": "justice",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "justice"
+   ]
+  },
+  {
+   "id": "32e425c0-8540-5b3c-ba22-855f07bb271c",
+   "lemma": "kettle",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "kettle"
+   ]
+  },
+  {
+   "id": "fcfea203-9ffd-5abf-ab60-115245ac316d",
+   "lemma": "keyboard",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "keyboard"
+   ]
+  },
+  {
+   "id": "91efedff-47fa-5edc-b0f6-f97eca5ed6ea",
+   "lemma": "kid",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "kid"
+   ]
+  },
+  {
+   "id": "87503faf-06f7-5e82-9926-0ba6ced321d9",
+   "lemma": "killing",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "killing"
+   ]
+  },
+  {
+   "id": "85941812-bdee-5e3f-a5ad-485446a38009",
+   "lemma": "kindly",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "kindly"
+   ]
+  },
+  {
+   "id": "e8d62f85-04d3-5b26-8514-a57d991b6395",
+   "lemma": "kindness",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "kindness"
+   ]
+  },
+  {
+   "id": "7be64699-c57f-52e7-8747-61c6eb79a0d6",
+   "lemma": "kiss",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "kiss"
+   ]
+  },
+  {
+   "id": "39abab50-f6f4-5f2e-9fb7-3af4aee34682",
+   "lemma": "kitten",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "kitten"
+   ]
+  },
+  {
+   "id": "1150aaf7-b677-5781-875a-650317cd3d3c",
+   "lemma": "knit",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "knit"
+   ]
+  },
+  {
+   "id": "b9c1dbc4-2df9-525d-811e-31cd0618b329",
+   "lemma": "knock",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "knock"
+   ]
+  },
+  {
+   "id": "1e8994b4-f9fa-5e36-87a7-578a8b10d7ea",
+   "lemma": "lab",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lab"
+   ]
+  },
+  {
+   "id": "363926e2-3a8b-591e-ab9e-b8b8fddd4758",
+   "lemma": "laboratory",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "laboratory"
+   ]
+  },
+  {
+   "id": "a8d3e4a8-a0d5-5f3a-a138-76b47b1af2b1",
+   "lemma": "ladder",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ladder"
+   ]
+  },
+  {
+   "id": "4efec6bd-bc07-58ce-bc4b-ee7ce1f2b4e0",
+   "lemma": "lamb",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lamb"
+   ]
+  },
+  {
+   "id": "6b368e51-b7a9-5fee-b431-b0a524ae02d9",
+   "lemma": "land",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "land"
+   ]
+  },
+  {
+   "id": "a13e66b2-13bd-5e8a-b366-6bbf24a51c08",
+   "lemma": "landlord",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "landlord"
+   ]
+  },
+  {
+   "id": "48c5d46a-cf3a-5746-8ca6-a30d881d6fdd",
+   "lemma": "largely",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "largely"
+   ]
+  },
+  {
+   "id": "61eb8768-04cf-5a46-ab2a-051f91e846d0",
+   "lemma": "last",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "last"
+   ]
+  },
+  {
+   "id": "09a2684a-089b-5810-bb15-5a1f7c2add6b",
+   "lemma": "last",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "last"
+   ]
+  },
+  {
+   "id": "a951610f-a3f0-55b0-8d75-0e0736895a8c",
+   "lemma": "lasting",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lasting"
+   ]
+  },
+  {
+   "id": "c48f4f3f-874b-58c0-9173-63cb7dcc4110",
+   "lemma": "latecomer",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "latecomer"
+   ]
+  },
+  {
+   "id": "72d7a68a-be2b-5d27-ac3b-da10418edd3a",
+   "lemma": "lately",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lately"
+   ]
+  },
+  {
+   "id": "d4534e15-e24e-53c7-ab0e-bb3fe4ea3e57",
+   "lemma": "laugh",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "laugh"
+   ]
+  },
+  {
+   "id": "b8c24e8e-e440-5078-a44b-2d9ddefc398c",
+   "lemma": "laughter",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "laughter"
+   ]
+  },
+  {
+   "id": "a1ed2a1b-0085-5a83-9fad-eb1a583be27e",
+   "lemma": "launch",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "launch"
+   ]
+  },
+  {
+   "id": "190bfd57-af98-5fae-be7e-679753478cca",
+   "lemma": "lawful",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lawful"
+   ]
+  },
+  {
+   "id": "0b095cfa-db0c-5ae2-9349-8582c4f94ca3",
+   "lemma": "lay",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lay"
+   ]
+  },
+  {
+   "id": "afdb735b-415a-53de-bd2d-f12608262557",
+   "lemma": "layer",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "layer"
+   ]
+  },
+  {
+   "id": "5a89e661-5c13-58cf-9961-7c8664c88b16",
+   "lemma": "lead",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lead"
+   ]
+  },
+  {
+   "id": "b298b5f1-2c5e-5374-b048-e0aff5f0129d",
+   "lemma": "lead",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lead"
+   ]
+  },
+  {
+   "id": "d6649870-29c1-5913-8cc4-b43fc7d001fc",
+   "lemma": "leadership",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "leadership"
+   ]
+  },
+  {
+   "id": "4fa10e6a-83f7-52bf-b201-0e322a18b8f1",
+   "lemma": "leading",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "leading"
+   ]
+  },
+  {
+   "id": "c6cc1ee0-3e11-5068-a239-4157c62e0b5d",
+   "lemma": "league",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "league"
+   ]
+  },
+  {
+   "id": "c86470c0-b923-5da0-b8b8-215a1e824595",
+   "lemma": "lean",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lean"
+   ]
+  },
+  {
+   "id": "e5522612-3762-575a-bbe3-14ec0503dcaf",
+   "lemma": "leap",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "leap"
+   ]
+  },
+  {
+   "id": "34fa33a3-c6f6-5cd1-babd-66fa6a2d22b1",
+   "lemma": "least",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "least"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,407 @@
+{
+ "chunk": "A2-005",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "f7782adb-e85b-524e-8b75-081ee3f79a82",
+   "lemma": "bra",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bra"
+   ]
+  },
+  {
+   "id": "2afa9d1e-02cf-5165-a685-08c91332a877",
+   "lemma": "brainstorm",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "brainstorm"
+   ]
+  },
+  {
+   "id": "a23b61f2-f65b-5dd8-99de-e2deade0cd51",
+   "lemma": "brake",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "brake"
+   ]
+  },
+  {
+   "id": "0e15711c-10d3-5cdb-a835-5e1e64a8171c",
+   "lemma": "branch",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "branch"
+   ]
+  },
+  {
+   "id": "80092990-8150-5325-ba69-6c83bfca67ac",
+   "lemma": "brand",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "brand"
+   ]
+  },
+  {
+   "id": "e31df4fd-d31e-5ba3-ac7b-cb4729b85e93",
+   "lemma": "brave",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "brave"
+   ]
+  },
+  {
+   "id": "fc1e15fc-abf9-5843-9eae-6933c229ef79",
+   "lemma": "break",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "break"
+   ]
+  },
+  {
+   "id": "f5e4669a-b005-5fed-b9bb-d73f4a59575f",
+   "lemma": "breeze",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "breeze"
+   ]
+  },
+  {
+   "id": "51b334eb-9112-580a-a22d-20ba93c1b091",
+   "lemma": "bride",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bride"
+   ]
+  },
+  {
+   "id": "e735470e-4cba-5ccb-af0d-fb8349470fcf",
+   "lemma": "brilliant",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "brilliant"
+   ]
+  },
+  {
+   "id": "27a147b9-aa9a-54a5-8e6e-c1c1a6014c87",
+   "lemma": "brown",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "brown"
+   ]
+  },
+  {
+   "id": "463d75cd-aa82-5be2-ad10-126e101e6d04",
+   "lemma": "budget",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "budget"
+   ]
+  },
+  {
+   "id": "b327e234-2106-5b28-9ed8-79c65fe2c373",
+   "lemma": "bug",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bug"
+   ]
+  },
+  {
+   "id": "b83f659d-7858-5020-b5d1-23aee5868d34",
+   "lemma": "bulb",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bulb"
+   ]
+  },
+  {
+   "id": "23c147c2-917e-5909-904a-44d93921ae68",
+   "lemma": "burn",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "burn"
+   ]
+  },
+  {
+   "id": "30b9e700-acd4-5fa1-8627-dabd28690c22",
+   "lemma": "bury",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bury"
+   ]
+  },
+  {
+   "id": "7a700fdb-e20e-59bc-8bca-9d0fd203af29",
+   "lemma": "bus station",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bus station"
+   ]
+  },
+  {
+   "id": "e3b53968-fca6-56fc-80ab-4b1cbc3adea2",
+   "lemma": "bus stop",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bus stop"
+   ]
+  },
+  {
+   "id": "3368cf41-1ec4-5ddb-b394-fe739ef109bb",
+   "lemma": "bush",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bush"
+   ]
+  },
+  {
+   "id": "83e7865d-3b08-5181-9f18-75be20c4bae8",
+   "lemma": "businessman",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "businessman"
+   ]
+  },
+  {
+   "id": "379f3437-af9b-58a5-8081-052fa9bd4b38",
+   "lemma": "businesswoman",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "businesswoman"
+   ]
+  },
+  {
+   "id": "eed34d4f-385e-5b75-899a-21f78801c5b9",
+   "lemma": "cab",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cab"
+   ]
+  },
+  {
+   "id": "06375ffc-0f0d-5e5c-b9a6-ea0542cbbffc",
+   "lemma": "cafeteria",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cafeteria"
+   ]
+  },
+  {
+   "id": "aef9e283-cb78-5e67-9c98-7ad4ed0573df",
+   "lemma": "calendar",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "calendar"
+   ]
+  },
+  {
+   "id": "b181234b-3c19-50c9-9273-2a8013e92f4a",
+   "lemma": "call",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "call"
+   ]
+  },
+  {
+   "id": "f8370be0-5054-549e-9cbd-a420cde7dd8a",
+   "lemma": "camp",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "camp"
+   ]
+  },
+  {
+   "id": "1915051c-2515-51cb-a045-785cecd6a699",
+   "lemma": "camping",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "camping"
+   ]
+  },
+  {
+   "id": "31b112e6-6e00-5ba7-a77d-0307f0b8d4ae",
+   "lemma": "campus",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "campus"
+   ]
+  },
+  {
+   "id": "f853ac3c-eda7-5da0-a2cf-56deb11cd562",
+   "lemma": "can",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "can"
+   ]
+  },
+  {
+   "id": "1273b78a-2922-5ff7-b43d-4077f5abd66e",
+   "lemma": "capital",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "capital"
+   ]
+  },
+  {
+   "id": "1b72a721-e634-54f0-be1b-a5b81fc11a97",
+   "lemma": "capital letter",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "capital letter"
+   ]
+  },
+  {
+   "id": "2fbdc80e-1789-57fb-a628-5638dd5bf8e3",
+   "lemma": "captain",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "captain"
+   ]
+  },
+  {
+   "id": "b75add41-0e33-5957-aef8-b388d3a36573",
+   "lemma": "car park",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "car park"
+   ]
+  },
+  {
+   "id": "7d566a92-dcc2-5e98-8a4f-47f59955146e",
+   "lemma": "carrot",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "carrot"
+   ]
+  },
+  {
+   "id": "151cf93c-6b17-5e70-ada1-d56cfd2badce",
+   "lemma": "cash",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cash"
+   ]
+  },
+  {
+   "id": "ef5c2fdc-ad3d-5aaf-84cf-bc785da1f3bf",
+   "lemma": "cassette",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cassette"
+   ]
+  },
+  {
+   "id": "6f044d90-9e61-5132-aabd-9ec01686f296",
+   "lemma": "castle",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "castle"
+   ]
+  },
+  {
+   "id": "dc4a5616-bf51-5918-8348-d10292aba021",
+   "lemma": "cause",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cause"
+   ]
+  },
+  {
+   "id": "2586d0bb-882f-5f50-a954-88528270374e",
+   "lemma": "cent",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cent"
+   ]
+  },
+  {
+   "id": "8f90310c-8907-56ee-a4ad-e4b9c1939522",
+   "lemma": "center",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "center",
+    "centre"
+   ]
+  }
+ ]
+}

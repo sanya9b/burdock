@@ -1,0 +1,407 @@
+{
+ "chunk": "A2-002",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "a7880086-aeee-5bfa-88de-93360c548742",
+   "lemma": "alone",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "alone"
+   ]
+  },
+  {
+   "id": "42d7077c-c7c3-530e-ae65-7e36410dfe0b",
+   "lemma": "along",
+   "pos": "preposition",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "along"
+   ]
+  },
+  {
+   "id": "f58c9ad3-1fbb-5ac0-9e8c-91406d186060",
+   "lemma": "alright",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "alright"
+   ]
+  },
+  {
+   "id": "4af6fedc-d54b-5859-82ca-cc64dddaf037",
+   "lemma": "alright",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "alright"
+   ]
+  },
+  {
+   "id": "f03d9f7c-ee3c-587e-8404-1ecd4b7d4903",
+   "lemma": "although",
+   "pos": "conjunction",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "although"
+   ]
+  },
+  {
+   "id": "37178602-7825-5f8a-aa2e-d06a586d9cf8",
+   "lemma": "ambition",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ambition"
+   ]
+  },
+  {
+   "id": "d29cb4bf-c2ba-5b32-9de4-dce92afa5276",
+   "lemma": "among",
+   "pos": "preposition",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "among"
+   ]
+  },
+  {
+   "id": "41ab0dce-0024-5075-a90b-86432190c378",
+   "lemma": "amused",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "amused"
+   ]
+  },
+  {
+   "id": "e3d8c14d-895b-5f22-971e-72d2562ea51b",
+   "lemma": "amusement",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "amusement"
+   ]
+  },
+  {
+   "id": "397ce643-c1a1-56fa-b3cb-8b52bfad7f80",
+   "lemma": "ancestor",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ancestor"
+   ]
+  },
+  {
+   "id": "493af417-c9ef-54dc-862e-bf51c93206f1",
+   "lemma": "ancient",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ancient"
+   ]
+  },
+  {
+   "id": "6d03041a-56a9-56a3-83b3-2f92fe4e976b",
+   "lemma": "angel",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "angel"
+   ]
+  },
+  {
+   "id": "0bae0c19-1376-59cf-916c-f3e6703ee8b8",
+   "lemma": "angrily",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "angrily"
+   ]
+  },
+  {
+   "id": "98cf97d0-b14b-5cdb-9ff3-22a8532e6d5a",
+   "lemma": "ankle",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ankle"
+   ]
+  },
+  {
+   "id": "0a2b3382-bc55-5d05-a27e-4af26bd52b8a",
+   "lemma": "anniversary",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "anniversary"
+   ]
+  },
+  {
+   "id": "4980631b-a252-585d-a075-59f8b14d2232",
+   "lemma": "annoy",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "annoy"
+   ]
+  },
+  {
+   "id": "a5a51810-2892-5549-b227-73b99e9f2e69",
+   "lemma": "annoying",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "annoying"
+   ]
+  },
+  {
+   "id": "32753a0d-836a-5178-bd23-a9ce5c403f95",
+   "lemma": "another",
+   "pos": "pronoun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "another"
+   ]
+  },
+  {
+   "id": "f5257af3-3019-599f-bf31-daa06b3126ed",
+   "lemma": "anxious",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "anxious"
+   ]
+  },
+  {
+   "id": "6d057e7d-d776-5653-b4fc-d4c56073d62c",
+   "lemma": "anymore",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "anymore"
+   ]
+  },
+  {
+   "id": "ee0fbe0f-5511-5e71-8c0a-95a39065c930",
+   "lemma": "anyway",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "anyway"
+   ]
+  },
+  {
+   "id": "18ebff5f-870a-5b0e-90da-47bd944b2581",
+   "lemma": "anywhere",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "anywhere"
+   ]
+  },
+  {
+   "id": "07361145-28d5-5dc9-952a-15fc03b38d21",
+   "lemma": "apart",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "apart"
+   ]
+  },
+  {
+   "id": "b3f5987a-c528-5301-8ed4-de7d0ce9a93f",
+   "lemma": "apartment",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "apartment"
+   ]
+  },
+  {
+   "id": "2de897fd-161a-5052-a940-7d122acc0d1f",
+   "lemma": "apologize",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "apologize",
+    "apologise"
+   ]
+  },
+  {
+   "id": "7f35443d-7d67-5ff8-b9dc-dd511a917f7f",
+   "lemma": "apparently",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "apparently"
+   ]
+  },
+  {
+   "id": "ca6794ba-9da3-5345-b237-fe26f7eec818",
+   "lemma": "appear",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "appear"
+   ]
+  },
+  {
+   "id": "542b3bd5-9bac-5f96-814c-0082d5178da0",
+   "lemma": "appearance",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "appearance"
+   ]
+  },
+  {
+   "id": "e4009122-4dcb-5b3e-8aa9-59df2cfa5044",
+   "lemma": "apply",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "apply"
+   ]
+  },
+  {
+   "id": "e09d1af7-4fbf-59ad-9ace-51e072860dad",
+   "lemma": "appointment",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "appointment"
+   ]
+  },
+  {
+   "id": "1d9c30e2-3292-5e12-8ef2-1af36a2d5d86",
+   "lemma": "appreciate",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "appreciate"
+   ]
+  },
+  {
+   "id": "fb8a0be9-12e8-5ef0-a9d2-8871baa96833",
+   "lemma": "appropriate",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "appropriate"
+   ]
+  },
+  {
+   "id": "c860aed0-302b-59e9-8306-5c1d5fbefa2b",
+   "lemma": "architecture",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "architecture"
+   ]
+  },
+  {
+   "id": "eef990f9-881b-5f6b-b8de-95004b63229b",
+   "lemma": "area",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "area"
+   ]
+  },
+  {
+   "id": "3fbcb69d-14c1-58c3-81b9-0a9ad5897b00",
+   "lemma": "argue",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "argue"
+   ]
+  },
+  {
+   "id": "ec8e5e86-da58-588b-91b2-15bae42fc136",
+   "lemma": "argument",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "argument"
+   ]
+  },
+  {
+   "id": "a77aa804-5bb6-5389-ac98-6e6fc660c560",
+   "lemma": "armchair",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "armchair"
+   ]
+  },
+  {
+   "id": "713b971e-40c5-58f2-8cc9-c45b8efd4a03",
+   "lemma": "armed",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "armed"
+   ]
+  },
+  {
+   "id": "11e8d8b3-12dd-5bc5-9a28-d9578f2cd53d",
+   "lemma": "around",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "around"
+   ]
+  },
+  {
+   "id": "23f38c14-ba0b-5e4d-bd67-3ecd038713bb",
+   "lemma": "artificial",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "artificial"
+   ]
+  }
+ ]
+}

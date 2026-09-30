@@ -1,0 +1,407 @@
+{
+ "chunk": "B2-044",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "e4522848-c9cd-5f1a-a6b2-86ed6538c013",
+   "lemma": "pedal",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pedal"
+   ]
+  },
+  {
+   "id": "00d51ed1-e2e4-54f3-9c92-9bf30756c63c",
+   "lemma": "pedantic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pedantic"
+   ]
+  },
+  {
+   "id": "a4bcf23c-8c81-5d5c-9273-80f033bc4617",
+   "lemma": "pedestrian",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pedestrian"
+   ]
+  },
+  {
+   "id": "ba36313a-078a-5fdf-98b6-a97b7454f73f",
+   "lemma": "pee",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pee"
+   ]
+  },
+  {
+   "id": "229dd8b8-e73a-57da-94eb-809822f119bb",
+   "lemma": "peel",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "peel"
+   ]
+  },
+  {
+   "id": "e3dd0b31-b534-50be-afa4-c47037396683",
+   "lemma": "peel",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "peel"
+   ]
+  },
+  {
+   "id": "3c18f1b6-06dd-5a59-ba58-f100d90f0a69",
+   "lemma": "peep",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "peep"
+   ]
+  },
+  {
+   "id": "328e3957-7aaa-5eb5-85ad-7f2a37122f75",
+   "lemma": "peer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "peer"
+   ]
+  },
+  {
+   "id": "3ffe2b54-cc8c-5601-8429-154b365c37ef",
+   "lemma": "peg",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "peg"
+   ]
+  },
+  {
+   "id": "10dc3f99-c575-5ebe-8b47-77bf17e78772",
+   "lemma": "penalize",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "penalize",
+    "penalise"
+   ]
+  },
+  {
+   "id": "39582e0e-0347-5aaa-959f-003f00262c4f",
+   "lemma": "penalty",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "penalty"
+   ]
+  },
+  {
+   "id": "1d965707-71b4-5d8d-80ec-8801803258c4",
+   "lemma": "penetrate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "penetrate"
+   ]
+  },
+  {
+   "id": "aa93b9ce-aee4-55e7-a7d0-8dc04e17319e",
+   "lemma": "penguin",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "penguin"
+   ]
+  },
+  {
+   "id": "626f02d8-5bf6-56c6-8715-7f80ba264c2a",
+   "lemma": "penicillin",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "penicillin"
+   ]
+  },
+  {
+   "id": "d371f8d9-c6ca-5702-8d9f-6c8206d7b46a",
+   "lemma": "pension",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pension"
+   ]
+  },
+  {
+   "id": "13496adf-0b2e-5e2b-a00c-9140f3462906",
+   "lemma": "pentagon",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pentagon"
+   ]
+  },
+  {
+   "id": "873c3b2c-1711-561f-b48a-1bd3ababe918",
+   "lemma": "perceive",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "perceive"
+   ]
+  },
+  {
+   "id": "3c5c1446-b4f4-5f09-a4e8-0bd24de3017b",
+   "lemma": "percentage",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "percentage"
+   ]
+  },
+  {
+   "id": "db7b64b0-741a-58b5-820b-158cc86cf6d8",
+   "lemma": "perception",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "perception"
+   ]
+  },
+  {
+   "id": "e2360afc-3989-51b4-887f-10eb2f99d5b0",
+   "lemma": "permanence",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "permanence"
+   ]
+  },
+  {
+   "id": "b3a43860-a212-56c7-95bd-1d2c6afe6ccd",
+   "lemma": "permeate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "permeate"
+   ]
+  },
+  {
+   "id": "b9f1b67b-12d6-5a42-9220-eb5b7a37b7ae",
+   "lemma": "perseverance",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "perseverance"
+   ]
+  },
+  {
+   "id": "3921c905-fc45-52ba-94bf-29a89366c203",
+   "lemma": "persist",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "persist"
+   ]
+  },
+  {
+   "id": "825ead62-6159-56c2-99d3-461a79d1442d",
+   "lemma": "persistence",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "persistence"
+   ]
+  },
+  {
+   "id": "91b2327f-7d39-5942-b056-ec66207db261",
+   "lemma": "persistent",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "persistent"
+   ]
+  },
+  {
+   "id": "5d9becaa-739b-5cff-b586-f72f62ba87fb",
+   "lemma": "personification",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "personification"
+   ]
+  },
+  {
+   "id": "197bab3f-b3ab-5dcc-8df3-2ae5300272b1",
+   "lemma": "personify",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "personify"
+   ]
+  },
+  {
+   "id": "edfe687a-d4e6-573b-90d6-696dfbb27b99",
+   "lemma": "personnel",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "personnel"
+   ]
+  },
+  {
+   "id": "c1eb9874-09b1-5d43-83a6-62f6f272454e",
+   "lemma": "perspective",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "perspective"
+   ]
+  },
+  {
+   "id": "5f92a5a0-ea8f-54db-8e31-9e777dce4362",
+   "lemma": "perspiration",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "perspiration"
+   ]
+  },
+  {
+   "id": "771497eb-98b7-53cb-b3bb-ed9f7a22e41a",
+   "lemma": "persuasion",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "persuasion"
+   ]
+  },
+  {
+   "id": "0898c40d-2687-51c7-b489-0eed44298259",
+   "lemma": "pessimist",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pessimist"
+   ]
+  },
+  {
+   "id": "53438c26-1baf-55a6-a2c2-f3817612d058",
+   "lemma": "pessimistic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pessimistic"
+   ]
+  },
+  {
+   "id": "4f6b1b66-9a6c-5397-963a-832d02bcdac0",
+   "lemma": "petrified",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "petrified"
+   ]
+  },
+  {
+   "id": "588989d7-6c44-5d8b-b8ef-1364014f293b",
+   "lemma": "petty",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "petty"
+   ]
+  },
+  {
+   "id": "9bf4c4f2-9cea-55be-b7e2-709c1e67718f",
+   "lemma": "pH",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ph"
+   ]
+  },
+  {
+   "id": "f3798487-6f14-5e59-b692-46a30b8fcd98",
+   "lemma": "pharmacist",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pharmacist"
+   ]
+  },
+  {
+   "id": "30dbaae9-895a-5d43-964d-0fd7e8255edf",
+   "lemma": "phase",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "phase"
+   ]
+  },
+  {
+   "id": "f958304b-8e84-5b54-82d3-1b6ce4e236ee",
+   "lemma": "philosophical",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "philosophical"
+   ]
+  },
+  {
+   "id": "bf5fa259-87b6-5a2a-a774-ce10d008dc8e",
+   "lemma": "photograph",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "photograph"
+   ]
+  }
+ ]
+}

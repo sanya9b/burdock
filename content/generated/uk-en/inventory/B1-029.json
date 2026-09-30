@@ -1,0 +1,408 @@
+{
+ "chunk": "B1-029",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "5c28e469-d10a-5387-8204-d1ed28f935c2",
+   "lemma": "industrial",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "industrial"
+   ]
+  },
+  {
+   "id": "75af4b64-f23a-529e-8f9d-69c63ced331f",
+   "lemma": "industry",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "industry"
+   ]
+  },
+  {
+   "id": "a436cd95-e96f-50e6-b3fa-25a6f86cd006",
+   "lemma": "inevitable",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "inevitable"
+   ]
+  },
+  {
+   "id": "30e87993-80fa-5945-9e6c-cb565e0bc3ee",
+   "lemma": "infection",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "infection"
+   ]
+  },
+  {
+   "id": "aedaec4d-2c1c-517e-aa22-3bf692c609a5",
+   "lemma": "infinitive",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "infinitive"
+   ]
+  },
+  {
+   "id": "02b78cea-c1b2-57c7-ad12-aec2ab6dad25",
+   "lemma": "inform",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "inform"
+   ]
+  },
+  {
+   "id": "dea81ab1-3df5-5e36-9a3a-8bc31e5b5d99",
+   "lemma": "informative",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "informative"
+   ]
+  },
+  {
+   "id": "c5d4df5e-81c4-54ef-a345-20b081a512d5",
+   "lemma": "ingredient",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ingredient"
+   ]
+  },
+  {
+   "id": "40ba1d03-f2df-5c01-8711-bec167aac72a",
+   "lemma": "inhabitant",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "inhabitant"
+   ]
+  },
+  {
+   "id": "af018dbd-3945-5a20-8d66-b047ae61778f",
+   "lemma": "inhale",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "inhale"
+   ]
+  },
+  {
+   "id": "2a5a3fd1-534e-50bc-b6cb-0782f0178009",
+   "lemma": "initial",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "initial"
+   ]
+  },
+  {
+   "id": "67e5d783-3d26-5808-8bda-68d954a42688",
+   "lemma": "initially",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "initially"
+   ]
+  },
+  {
+   "id": "28f22c64-9451-5132-bc35-3e5fd9ce2135",
+   "lemma": "inject",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "inject"
+   ]
+  },
+  {
+   "id": "989606ed-efbe-5a5e-92ff-8235f09442ae",
+   "lemma": "injury",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "injury"
+   ]
+  },
+  {
+   "id": "ee6ef50b-3732-5e44-83f1-e4f8833564df",
+   "lemma": "ink",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ink"
+   ]
+  },
+  {
+   "id": "2e180d70-c324-5838-971e-57a441ece76e",
+   "lemma": "innermost",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "innermost"
+   ]
+  },
+  {
+   "id": "802b4996-9d78-504c-ba1a-b722b633837c",
+   "lemma": "innocent",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "innocent"
+   ]
+  },
+  {
+   "id": "a882886e-f400-5d69-8182-92291f733f42",
+   "lemma": "innovator",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "innovator"
+   ]
+  },
+  {
+   "id": "432d2772-56be-53fc-8f22-13855c75d7b0",
+   "lemma": "inquiry",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "inquiry",
+    "enquiry"
+   ]
+  },
+  {
+   "id": "2d014247-252c-5431-8d7e-42a0b1b0bffe",
+   "lemma": "insane",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "insane"
+   ]
+  },
+  {
+   "id": "c2b1be2f-e748-56f4-bbd2-61646fcd6206",
+   "lemma": "inscribe",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "inscribe"
+   ]
+  },
+  {
+   "id": "25f8f8e8-f502-5555-94bc-d60c887a5fa1",
+   "lemma": "inscription",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "inscription"
+   ]
+  },
+  {
+   "id": "a71792cb-405e-5d30-b81a-0134582ddf2f",
+   "lemma": "insight",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "insight"
+   ]
+  },
+  {
+   "id": "ba9745d1-2344-5f6b-8848-4b7ba10585f4",
+   "lemma": "insist",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "insist"
+   ]
+  },
+  {
+   "id": "1843e245-3ffc-53c7-864c-0bea0c067d65",
+   "lemma": "inspection",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "inspection"
+   ]
+  },
+  {
+   "id": "d2a6ba55-713e-58d0-b879-05d2797d0897",
+   "lemma": "inspire",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "inspire"
+   ]
+  },
+  {
+   "id": "2dd33326-68f7-5c68-8bc4-b28aa8d68c45",
+   "lemma": "install",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "install",
+    "instal"
+   ]
+  },
+  {
+   "id": "0d41d391-c928-561a-8ae0-1fc654928e2d",
+   "lemma": "instance",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "instance"
+   ]
+  },
+  {
+   "id": "527c2e8c-8015-5170-a3d8-2c44f95699ef",
+   "lemma": "instead of",
+   "pos": "preposition",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "instead of"
+   ]
+  },
+  {
+   "id": "7eb2029e-d526-5f63-bed4-053d5a1e9946",
+   "lemma": "institute",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "institute"
+   ]
+  },
+  {
+   "id": "36d295fc-b7cb-5e87-879a-2761ce33b87c",
+   "lemma": "instruction",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "instruction"
+   ]
+  },
+  {
+   "id": "1992f1d3-fe1d-5c4d-9089-3567b009f18f",
+   "lemma": "instructor",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "instructor"
+   ]
+  },
+  {
+   "id": "e4f97035-c1fd-5d2e-a1ae-5cea8c55ac36",
+   "lemma": "insurance",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "insurance"
+   ]
+  },
+  {
+   "id": "55eac6c3-0f0b-580f-aac2-97046eae08ec",
+   "lemma": "intend",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "intend"
+   ]
+  },
+  {
+   "id": "6ed1d0d8-70dc-5a7e-bc0e-cf4a2dbe12f8",
+   "lemma": "intense",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "intense"
+   ]
+  },
+  {
+   "id": "2558eea6-a224-5a71-b9a1-8c88b7932fbe",
+   "lemma": "intensive",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "intensive"
+   ]
+  },
+  {
+   "id": "214403ef-128e-5c61-b068-afde9b52ce49",
+   "lemma": "intention",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "intention"
+   ]
+  },
+  {
+   "id": "955fb839-46c1-5727-8c14-975be5cc49f5",
+   "lemma": "intentionally",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "intentionally"
+   ]
+  },
+  {
+   "id": "df419212-3337-5319-9b85-3cb93e8040f9",
+   "lemma": "interact",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "interact"
+   ]
+  },
+  {
+   "id": "540ca3a4-f96b-5c8d-b6bc-f29ba163a3be",
+   "lemma": "interaction",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "interaction"
+   ]
+  }
+ ]
+}

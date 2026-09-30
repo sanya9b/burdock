@@ -1,0 +1,407 @@
+{
+ "chunk": "B2-051",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "17b4428a-33d6-52db-8d68-f581ebd5fbc4",
+   "lemma": "relief",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "relief"
+   ]
+  },
+  {
+   "id": "ef0a3454-686a-508b-8d49-1822e2b77c6f",
+   "lemma": "relieve",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "relieve"
+   ]
+  },
+  {
+   "id": "5b3b9912-1628-5592-af33-618cdfc326ce",
+   "lemma": "relieved",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "relieved"
+   ]
+  },
+  {
+   "id": "dbddb322-0aed-50a2-a41f-7fc7ee4380f6",
+   "lemma": "reluctant",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "reluctant"
+   ]
+  },
+  {
+   "id": "5596bc4f-0ac8-5791-9edf-fbd92d0156a6",
+   "lemma": "remaining",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "remaining"
+   ]
+  },
+  {
+   "id": "0953cf82-45d0-58ed-b3f1-689144e6e0a4",
+   "lemma": "remains",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "remains"
+   ]
+  },
+  {
+   "id": "34cfc9fc-d7af-5f66-af7f-34d5127bb60f",
+   "lemma": "remark",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "remark"
+   ]
+  },
+  {
+   "id": "d65dfa15-acc2-5639-81ac-2365fc32a757",
+   "lemma": "remarkably",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "remarkably"
+   ]
+  },
+  {
+   "id": "ebe0e014-622f-54f8-aa74-f9b356aea1a1",
+   "lemma": "reminder",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "reminder"
+   ]
+  },
+  {
+   "id": "180714cb-7b76-5e69-8ebc-1e55a302cab1",
+   "lemma": "rental",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rental"
+   ]
+  },
+  {
+   "id": "52baf05d-4ade-5e48-bda3-61ecc1ba6eaa",
+   "lemma": "reorganize",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "reorganize",
+    "reorganise"
+   ]
+  },
+  {
+   "id": "9da7608f-445c-5b1d-8165-dc5ec17693a8",
+   "lemma": "repaint",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "repaint"
+   ]
+  },
+  {
+   "id": "7365ac93-38e3-57e2-a25d-16bff1c77523",
+   "lemma": "repertoire",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "repertoire"
+   ]
+  },
+  {
+   "id": "b0d4e148-40c6-5bc1-83a9-f314b01bd08c",
+   "lemma": "repetition",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "repetition"
+   ]
+  },
+  {
+   "id": "7eb5f19a-550e-5e41-8aa6-83510bf798e6",
+   "lemma": "replacement",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "replacement"
+   ]
+  },
+  {
+   "id": "6c6910b4-3049-5a88-a2fa-c3fbf6af021d",
+   "lemma": "replica",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "replica"
+   ]
+  },
+  {
+   "id": "5e6fcccf-5a22-5b16-a9a4-d321ff65b225",
+   "lemma": "repress",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "repress"
+   ]
+  },
+  {
+   "id": "357365ad-37c1-5936-96f6-ea3dd8ced6c8",
+   "lemma": "repression",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "repression"
+   ]
+  },
+  {
+   "id": "5b66aa24-0189-5c01-b3c7-e633a488b92d",
+   "lemma": "reprint",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "reprint"
+   ]
+  },
+  {
+   "id": "2b559b5b-6edb-5fce-98be-09fdc3b08cc0",
+   "lemma": "reprove",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "reprove"
+   ]
+  },
+  {
+   "id": "5347025d-88db-50aa-9e6b-ed1288994ad2",
+   "lemma": "research",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "research"
+   ]
+  },
+  {
+   "id": "db4529c7-a697-59fe-b9f1-573ab7dca94c",
+   "lemma": "residence",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "residence"
+   ]
+  },
+  {
+   "id": "40bd535e-2877-54a9-8213-47cec2814d37",
+   "lemma": "resident",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "resident"
+   ]
+  },
+  {
+   "id": "98554220-b68f-578f-a290-0d4558983f12",
+   "lemma": "resign",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "resign"
+   ]
+  },
+  {
+   "id": "845ef385-7e0e-5fd1-b5ca-f94a3ff23ad8",
+   "lemma": "resignation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "resignation"
+   ]
+  },
+  {
+   "id": "4119bc2c-1ea5-5b1a-bcc3-4b05bfbba3a4",
+   "lemma": "resistance",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "resistance"
+   ]
+  },
+  {
+   "id": "d46ee232-e94d-5c2d-a775-38a2bc2a209a",
+   "lemma": "resolution",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "resolution"
+   ]
+  },
+  {
+   "id": "dd61049d-bc40-5e45-9a3c-d16f7e60a965",
+   "lemma": "resonant",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "resonant"
+   ]
+  },
+  {
+   "id": "508aba92-929e-58d4-a9ec-de8418018c1a",
+   "lemma": "respectably",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "respectably"
+   ]
+  },
+  {
+   "id": "e70c365d-3433-5dc8-af62-a2f6abe4ebd5",
+   "lemma": "respected",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "respected"
+   ]
+  },
+  {
+   "id": "8f75065f-025b-5270-bd9d-8f78288062ef",
+   "lemma": "respiration",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "respiration"
+   ]
+  },
+  {
+   "id": "99e93675-b0b0-5feb-919c-c8a7219b93be",
+   "lemma": "respiratory",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "respiratory"
+   ]
+  },
+  {
+   "id": "0b977e1b-0b4c-598a-8428-8b33c840ace8",
+   "lemma": "restriction",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "restriction"
+   ]
+  },
+  {
+   "id": "86399a58-2f55-5af9-b262-622ec7aa955b",
+   "lemma": "resume",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "resume"
+   ]
+  },
+  {
+   "id": "ed12da51-40a3-52d2-951b-1db176308574",
+   "lemma": "retailer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "retailer"
+   ]
+  },
+  {
+   "id": "b9e6a2ba-7bd7-55e5-b7eb-3e146fd1b9e8",
+   "lemma": "retard",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "retard"
+   ]
+  },
+  {
+   "id": "23b6bf70-9403-58ac-aace-64125a5c75e6",
+   "lemma": "retina",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "retina"
+   ]
+  },
+  {
+   "id": "6b94c529-6a54-5fe8-978d-67e3781ef7ef",
+   "lemma": "retirement",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "retirement"
+   ]
+  },
+  {
+   "id": "12c51eb0-0b3b-555d-a50a-2fc52dc78b96",
+   "lemma": "retreat",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "retreat"
+   ]
+  },
+  {
+   "id": "4443293b-4548-5b11-a4bb-7b9cf54016a2",
+   "lemma": "retreat",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "retreat"
+   ]
+  }
+ ]
+}

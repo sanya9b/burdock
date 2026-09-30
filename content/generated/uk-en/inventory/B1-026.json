@@ -1,0 +1,407 @@
+{
+ "chunk": "B1-026",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "667a64a0-f08d-5a0f-8110-614cf2014279",
+   "lemma": "gym",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gym"
+   ]
+  },
+  {
+   "id": "4192cb7f-ce42-5865-a7bc-da00d30ea3b2",
+   "lemma": "gymnastics",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gymnastics"
+   ]
+  },
+  {
+   "id": "25aa226c-746f-5500-9e47-c918f1ac11fe",
+   "lemma": "habitat",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "habitat"
+   ]
+  },
+  {
+   "id": "0f66b056-7b44-5fde-a756-7777b2018183",
+   "lemma": "hairdresser",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hairdresser"
+   ]
+  },
+  {
+   "id": "be27e4bc-2382-5299-90ce-6cbe8b0ae02c",
+   "lemma": "hairdryer",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hairdryer"
+   ]
+  },
+  {
+   "id": "a7842933-f096-5776-b47a-c6bdd196c2f9",
+   "lemma": "half",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "half"
+   ]
+  },
+  {
+   "id": "c49535df-a2ba-5a88-a359-a7063f968681",
+   "lemma": "hammer",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hammer"
+   ]
+  },
+  {
+   "id": "df5a875b-39d7-5cfb-9cd5-2b0c6ebfd84a",
+   "lemma": "hand-held",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hand-held"
+   ]
+  },
+  {
+   "id": "3ed2525a-034c-5ba4-bece-b5cf82465248",
+   "lemma": "handball",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "handball"
+   ]
+  },
+  {
+   "id": "0d8c2f31-8302-5a1e-928c-871987a9413a",
+   "lemma": "handkerchief",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "handkerchief"
+   ]
+  },
+  {
+   "id": "3c52432a-d1ca-5f5d-aee6-fcb532651439",
+   "lemma": "handle",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "handle"
+   ]
+  },
+  {
+   "id": "abac25cc-2c20-579a-bd35-d1558a10dd50",
+   "lemma": "handshake",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "handshake"
+   ]
+  },
+  {
+   "id": "73a6a4eb-4d40-5cd2-aef5-2ef85f83906e",
+   "lemma": "handwriting",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "handwriting"
+   ]
+  },
+  {
+   "id": "6b59c83a-b7b9-5be5-b897-414240fa9584",
+   "lemma": "handy",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "handy"
+   ]
+  },
+  {
+   "id": "52d294e8-0b21-52ba-b57c-12bed3823b96",
+   "lemma": "hang",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hang"
+   ]
+  },
+  {
+   "id": "2b214a7f-cc33-5aea-b7e7-b539c525650b",
+   "lemma": "hanging",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hanging"
+   ]
+  },
+  {
+   "id": "54a54b09-fd01-577b-a529-ecb832a9f0da",
+   "lemma": "harbor",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "harbor",
+    "harbour"
+   ]
+  },
+  {
+   "id": "3a578596-0b17-5f68-8ac5-1193732afe2e",
+   "lemma": "hard-working",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hard-working"
+   ]
+  },
+  {
+   "id": "abc2a9d6-6d08-572a-a04e-e9564fd52257",
+   "lemma": "hardship",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hardship"
+   ]
+  },
+  {
+   "id": "747bdc1b-f589-590e-a97f-abff60ab4042",
+   "lemma": "harness",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "harness"
+   ]
+  },
+  {
+   "id": "54d3f254-2df4-51c4-a7b2-5332be1b4cc1",
+   "lemma": "hasty",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hasty"
+   ]
+  },
+  {
+   "id": "e3edb650-c861-588e-a184-e3cc56f0ad85",
+   "lemma": "hatch",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hatch"
+   ]
+  },
+  {
+   "id": "b08d52f9-4789-50a9-87a2-bf27fb18fcbb",
+   "lemma": "hate",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hate"
+   ]
+  },
+  {
+   "id": "5080d764-e4a5-5d27-9517-8dca50623794",
+   "lemma": "hatred",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hatred"
+   ]
+  },
+  {
+   "id": "0471074b-a035-5668-a34c-6001234a34a4",
+   "lemma": "haunt",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "haunt"
+   ]
+  },
+  {
+   "id": "011bfc5d-ad25-53a0-b705-6017ac43902c",
+   "lemma": "haven",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "haven"
+   ]
+  },
+  {
+   "id": "bade4810-d689-5be3-9e52-09bbdd8998ca",
+   "lemma": "hazard",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hazard"
+   ]
+  },
+  {
+   "id": "c8872408-e29b-5b06-9701-55a3a40d8e90",
+   "lemma": "headline",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "headline"
+   ]
+  },
+  {
+   "id": "261673c0-35da-5179-bf58-4a244b5fc2c0",
+   "lemma": "heal",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "heal"
+   ]
+  },
+  {
+   "id": "d6b38b87-845a-5a7f-9e5b-53b1a6137107",
+   "lemma": "healing",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "healing"
+   ]
+  },
+  {
+   "id": "31c558b3-f318-5db7-ac80-c7feede054cd",
+   "lemma": "hearing",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hearing"
+   ]
+  },
+  {
+   "id": "9886aca7-c544-5aee-8738-ad3c4e82fbc9",
+   "lemma": "heart attack",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "heart attack"
+   ]
+  },
+  {
+   "id": "133963c8-79ff-5913-99e8-f7116c1033bc",
+   "lemma": "hearted",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hearted"
+   ]
+  },
+  {
+   "id": "990ce331-3e4b-5762-9d7f-d70a2a6f2218",
+   "lemma": "hearty",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hearty"
+   ]
+  },
+  {
+   "id": "594791df-426c-5f1d-b491-d4043f7b1a9f",
+   "lemma": "heat",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "heat"
+   ]
+  },
+  {
+   "id": "72ac41a6-1730-59e7-a0e9-f0fc5efd09fd",
+   "lemma": "heater",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "heater"
+   ]
+  },
+  {
+   "id": "35434ea4-ad42-5de3-b6b7-aa5d98c51cdb",
+   "lemma": "heaven",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "heaven"
+   ]
+  },
+  {
+   "id": "57011b55-eb1b-5991-bb62-495657e88410",
+   "lemma": "heavenly",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "heavenly"
+   ]
+  },
+  {
+   "id": "8bef2bcd-64b4-5083-9e1f-3fdc07dbf260",
+   "lemma": "heel",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "heel"
+   ]
+  },
+  {
+   "id": "891608ef-f965-5abd-831b-32b230028f55",
+   "lemma": "height",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "height"
+   ]
+  }
+ ]
+}

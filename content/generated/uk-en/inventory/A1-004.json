@@ -1,0 +1,406 @@
+{
+ "chunk": "A1-004",
+ "level": "A1",
+ "lexemes": [
+  {
+   "id": "6a8c48f8-bf8c-5778-a25c-b56eece16acc",
+   "lemma": "book",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "book"
+   ]
+  },
+  {
+   "id": "d85d8c0a-1b8e-5974-bf73-b7911b057bfa",
+   "lemma": "bookstore",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bookstore"
+   ]
+  },
+  {
+   "id": "7487529f-f885-5766-87e4-1361532cea3d",
+   "lemma": "boring",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "boring"
+   ]
+  },
+  {
+   "id": "9c0dc07f-9ec4-5701-9cde-53abfb4d4e54",
+   "lemma": "borrow",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "borrow"
+   ]
+  },
+  {
+   "id": "69b673f9-0877-57e3-9dcd-6fdddb8bf76d",
+   "lemma": "both",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "both"
+   ]
+  },
+  {
+   "id": "1671ce62-ee47-5fab-81dc-fd9ff59f52a0",
+   "lemma": "both",
+   "pos": "determiner",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "both"
+   ]
+  },
+  {
+   "id": "1f32ea3b-8041-5dc1-bcac-15f8be22c3cb",
+   "lemma": "both",
+   "pos": "pronoun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "both"
+   ]
+  },
+  {
+   "id": "4e35c6d7-6997-5ca2-be58-0f0d6940c6d4",
+   "lemma": "bottle",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bottle"
+   ]
+  },
+  {
+   "id": "8f01265d-765c-59e4-a9e8-bb51be3fb529",
+   "lemma": "bottom",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bottom"
+   ]
+  },
+  {
+   "id": "40620af9-5bb3-575c-acca-ce6bada64ed2",
+   "lemma": "bowl",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bowl"
+   ]
+  },
+  {
+   "id": "e6ce9cef-d828-58cb-9aab-ca7fa8ac55e4",
+   "lemma": "box",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "box"
+   ]
+  },
+  {
+   "id": "deaca715-14e2-56cb-b086-df376b5d7daf",
+   "lemma": "boy",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "boy"
+   ]
+  },
+  {
+   "id": "a6cb1993-2ded-57c6-a8dd-e9ac52f0820b",
+   "lemma": "boyfriend",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "boyfriend"
+   ]
+  },
+  {
+   "id": "ad5e3c60-6a7a-5c6f-b659-78697d9ccc09",
+   "lemma": "brain",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "brain"
+   ]
+  },
+  {
+   "id": "193793d1-9aa1-5719-af54-ccc5d972a7d6",
+   "lemma": "bread",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bread"
+   ]
+  },
+  {
+   "id": "79a3bd3f-dffe-5b3f-8f8e-a70a19896af5",
+   "lemma": "break",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "break"
+   ]
+  },
+  {
+   "id": "5d611770-4933-547d-a864-7cd20d56c471",
+   "lemma": "breakfast",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "breakfast"
+   ]
+  },
+  {
+   "id": "189b542f-4763-5bef-95b3-f1bbd5526d98",
+   "lemma": "breathe",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "breathe"
+   ]
+  },
+  {
+   "id": "5fbe5dac-466a-50b2-9b30-baf3ea6bd8f1",
+   "lemma": "bridge",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bridge"
+   ]
+  },
+  {
+   "id": "332af59d-4498-5770-a9f6-f6c20036dc97",
+   "lemma": "bright",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bright"
+   ]
+  },
+  {
+   "id": "5e2bdc99-e071-5524-9bd9-ab7bc1cdd8ba",
+   "lemma": "bring",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bring"
+   ]
+  },
+  {
+   "id": "a8b48ad0-5ec8-5e4e-8b6f-1a8f1cec1ebd",
+   "lemma": "broken",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "broken"
+   ]
+  },
+  {
+   "id": "ca412d31-345b-5614-bc6c-4e45e74d6b43",
+   "lemma": "brother",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "brother"
+   ]
+  },
+  {
+   "id": "40b4c61d-6df0-5032-9248-7c89e8cfdfcf",
+   "lemma": "brown",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "brown"
+   ]
+  },
+  {
+   "id": "005175ba-bbb9-589f-b956-85516a35cc87",
+   "lemma": "brush",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "brush"
+   ]
+  },
+  {
+   "id": "331ceeae-f452-559c-a44f-b3c617804ebf",
+   "lemma": "brush",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "brush"
+   ]
+  },
+  {
+   "id": "f0867c90-d82a-5d90-9187-837e0ef069fb",
+   "lemma": "bucket",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bucket"
+   ]
+  },
+  {
+   "id": "158e6ee3-14aa-544c-819f-bf97e97f12b5",
+   "lemma": "build",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "build"
+   ]
+  },
+  {
+   "id": "1807bbaa-a003-5728-92bd-64663e6225a9",
+   "lemma": "building",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "building"
+   ]
+  },
+  {
+   "id": "b313c881-4d52-54f6-8f16-2061e862ea11",
+   "lemma": "burger",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "burger"
+   ]
+  },
+  {
+   "id": "647afb22-0169-5842-b853-fe468dac8f04",
+   "lemma": "bus",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bus"
+   ]
+  },
+  {
+   "id": "4d6c2429-a38e-5a2d-86ce-864da951bf89",
+   "lemma": "business",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "business"
+   ]
+  },
+  {
+   "id": "c980e566-5a28-56b4-90f3-ce36c5b9a243",
+   "lemma": "busy",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "busy"
+   ]
+  },
+  {
+   "id": "3c1a14a2-a792-569a-87a4-e6fc42c32baa",
+   "lemma": "but",
+   "pos": "conjunction",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "but"
+   ]
+  },
+  {
+   "id": "72996e6b-1c5d-5b72-846c-0138de8b4709",
+   "lemma": "butter",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "butter"
+   ]
+  },
+  {
+   "id": "b719afb1-47b5-5b91-b8e1-a01283f5f07a",
+   "lemma": "butterfly",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "butterfly"
+   ]
+  },
+  {
+   "id": "e4fa6214-6464-5faf-9cf2-7a35bc77ca79",
+   "lemma": "button",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "button"
+   ]
+  },
+  {
+   "id": "021b52dd-0691-553b-b0e2-3e23d8d4e792",
+   "lemma": "buy",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "buy"
+   ]
+  },
+  {
+   "id": "9d742baa-b29c-5415-9b02-2114e69af84c",
+   "lemma": "by",
+   "pos": "preposition",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "by"
+   ]
+  },
+  {
+   "id": "e319a2f5-e478-55f7-ab0e-bce090de2819",
+   "lemma": "bye",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "bye"
+   ]
+  }
+ ]
+}

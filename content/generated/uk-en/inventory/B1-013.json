@@ -1,0 +1,406 @@
+{
+ "chunk": "B1-013",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "5b65d43a-6d30-50b9-9759-87d328bbc47e",
+   "lemma": "courageous",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "courageous"
+   ]
+  },
+  {
+   "id": "b0bd23d2-7ccc-5cd3-aa51-6f33df71e133",
+   "lemma": "courgette",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "courgette"
+   ]
+  },
+  {
+   "id": "b8dff787-cdf0-51ba-a7a6-fa3e8e6e7ad9",
+   "lemma": "craft",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "craft"
+   ]
+  },
+  {
+   "id": "19bfa3f1-cb62-5926-acd6-c5d5c9814c25",
+   "lemma": "crash",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "crash"
+   ]
+  },
+  {
+   "id": "51a1f77c-523c-5044-be97-46dadc4c6949",
+   "lemma": "crash",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "crash"
+   ]
+  },
+  {
+   "id": "0a2cbc23-e751-5e6a-8da3-c6b94199a040",
+   "lemma": "creator",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "creator"
+   ]
+  },
+  {
+   "id": "d047b615-f8b0-574e-8c25-1abefea42d7b",
+   "lemma": "criminal",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "criminal"
+   ]
+  },
+  {
+   "id": "0e35b360-2cd6-56a6-8875-daba6fce8168",
+   "lemma": "crisis",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "crisis"
+   ]
+  },
+  {
+   "id": "e9a59511-34bd-5275-9df6-52f1e5cb30c3",
+   "lemma": "critic",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "critic"
+   ]
+  },
+  {
+   "id": "72edd2b4-af66-560b-90f4-2c458e4c642b",
+   "lemma": "critical",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "critical"
+   ]
+  },
+  {
+   "id": "d3c99a6b-4d2e-567c-8f70-e8ec26b83b18",
+   "lemma": "crop",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "crop"
+   ]
+  },
+  {
+   "id": "241f88b1-ff6c-5a16-aa29-a033fc26aea9",
+   "lemma": "crossing",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "crossing"
+   ]
+  },
+  {
+   "id": "7dff8b50-852c-5a54-95fd-314f8123fdf8",
+   "lemma": "crossroads",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "crossroads"
+   ]
+  },
+  {
+   "id": "e8f83479-f4fb-5e35-8a15-a2d0303e2410",
+   "lemma": "crow",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "crow"
+   ]
+  },
+  {
+   "id": "eee97f6c-ab3e-5fc8-b8ab-099570cbdbad",
+   "lemma": "cruel",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cruel"
+   ]
+  },
+  {
+   "id": "3dbaed31-3a0a-5eaa-9074-3312e3df84ad",
+   "lemma": "crush",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "crush"
+   ]
+  },
+  {
+   "id": "d53c3b00-e69f-574a-be4c-6a39f0e5d57b",
+   "lemma": "cucumber",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cucumber"
+   ]
+  },
+  {
+   "id": "ed47b049-85a2-5ea2-8c9e-ab0c069813bc",
+   "lemma": "cultivate",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cultivate"
+   ]
+  },
+  {
+   "id": "36488f18-5d32-53e3-b4fc-f3dddfe4c350",
+   "lemma": "cultural",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cultural"
+   ]
+  },
+  {
+   "id": "c4574dcb-18f6-5546-b7fe-d7b71dcff64f",
+   "lemma": "cure",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cure"
+   ]
+  },
+  {
+   "id": "62ff0b2a-50cf-5efd-bb8b-8dcb5a133efa",
+   "lemma": "curiosity",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "curiosity"
+   ]
+  },
+  {
+   "id": "56ce890d-0d3c-549d-a322-f8db3b12fa78",
+   "lemma": "curious",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "curious"
+   ]
+  },
+  {
+   "id": "b55c0825-6832-5c98-b8bd-8e6eb8cc82c7",
+   "lemma": "curiously",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "curiously"
+   ]
+  },
+  {
+   "id": "16b8c7cb-fcb4-580c-8e85-df95247c9a63",
+   "lemma": "curly",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "curly"
+   ]
+  },
+  {
+   "id": "50e33454-ff6e-5592-ba21-9d414b011d87",
+   "lemma": "currency",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "currency"
+   ]
+  },
+  {
+   "id": "2630c12f-246c-5dc5-b5c8-dbcef8b87d72",
+   "lemma": "current",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "current"
+   ]
+  },
+  {
+   "id": "66008b56-dbdc-5d7c-9051-a3dcc3c1a172",
+   "lemma": "currently",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "currently"
+   ]
+  },
+  {
+   "id": "4eede1b5-c632-5067-80e6-560fa3a2f62c",
+   "lemma": "curriculum",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "curriculum"
+   ]
+  },
+  {
+   "id": "9bba6d83-d428-5c9a-8511-7589843f7cce",
+   "lemma": "curtain",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "curtain"
+   ]
+  },
+  {
+   "id": "7b7a072a-0456-586f-9d70-6b2216d63bcd",
+   "lemma": "curve",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "curve"
+   ]
+  },
+  {
+   "id": "c6f00853-bde1-515c-a7f2-f9484e083bbe",
+   "lemma": "cushion",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cushion"
+   ]
+  },
+  {
+   "id": "01289d80-5ec6-5331-975b-88159760db99",
+   "lemma": "customs",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "customs"
+   ]
+  },
+  {
+   "id": "40321304-0991-534a-b2bd-f20495a0e190",
+   "lemma": "cut",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cut"
+   ]
+  },
+  {
+   "id": "c503a640-a8c9-5929-a7a4-03cd8dc1c377",
+   "lemma": "CV",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "CV"
+   ]
+  },
+  {
+   "id": "31655ec7-5232-5c5f-80f8-4e677ca2881e",
+   "lemma": "cycle",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cycle"
+   ]
+  },
+  {
+   "id": "27bc76e2-60fb-580d-a3ca-2b47ac0f2ef0",
+   "lemma": "cycle",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cycle"
+   ]
+  },
+  {
+   "id": "39d90de7-020c-5aac-8957-d153dab49129",
+   "lemma": "daisy",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "daisy"
+   ]
+  },
+  {
+   "id": "bdfde6f9-a24a-5d4a-b15c-8d02ac8ca8cb",
+   "lemma": "damage",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "damage"
+   ]
+  },
+  {
+   "id": "0b18ac70-8f30-56bc-bfdf-cf4171935f73",
+   "lemma": "damage",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "damage"
+   ]
+  },
+  {
+   "id": "aecd0dbc-c11b-5a90-a9a4-4fa26080c08f",
+   "lemma": "damaged",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "damaged"
+   ]
+  }
+ ]
+}

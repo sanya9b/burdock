@@ -1,0 +1,409 @@
+{
+ "chunk": "B2-036",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "117accd7-25ac-5db3-82ab-d43439febe3e",
+   "lemma": "maestro",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "maestro"
+   ]
+  },
+  {
+   "id": "e5088f91-b4f2-5bd8-8e42-b640e4e189c8",
+   "lemma": "magnify",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "magnify"
+   ]
+  },
+  {
+   "id": "1c92651b-faaf-5d29-aecb-4c5be65dcd01",
+   "lemma": "major",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "major"
+   ]
+  },
+  {
+   "id": "43dc09b5-b836-5b49-b00c-c550428feac5",
+   "lemma": "make",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "make"
+   ]
+  },
+  {
+   "id": "ddd66b66-e9fe-5567-b4a8-cfa129d2c58d",
+   "lemma": "malady",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "malady"
+   ]
+  },
+  {
+   "id": "dfac73e5-0385-5157-b3b8-10f3dac29fd5",
+   "lemma": "malaria",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "malaria"
+   ]
+  },
+  {
+   "id": "ec0aada1-0dd6-56bd-a723-564b81af17f5",
+   "lemma": "mama",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mama",
+    "mamma"
+   ]
+  },
+  {
+   "id": "d689435b-3245-5ea9-8f96-c32fac2a7310",
+   "lemma": "mango",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mango"
+   ]
+  },
+  {
+   "id": "5d2750c0-c1e0-5642-9eac-6820b6ffc0ca",
+   "lemma": "manipulate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "manipulate"
+   ]
+  },
+  {
+   "id": "bdb34bf1-d699-5d86-a37a-3f9aaca9b37c",
+   "lemma": "mansion",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mansion"
+   ]
+  },
+  {
+   "id": "117e48b3-1047-5cca-96a8-87d46a2a95b3",
+   "lemma": "manual",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "manual"
+   ]
+  },
+  {
+   "id": "c8493d75-7b03-5c6b-a7ae-0f823aa32f94",
+   "lemma": "manual",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "manual"
+   ]
+  },
+  {
+   "id": "bf0aca11-06f3-5600-9180-e7813c776454",
+   "lemma": "manufacture",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "manufacture"
+   ]
+  },
+  {
+   "id": "4553726b-7660-5d48-a1e8-d3968b3c2dab",
+   "lemma": "manufacture",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "manufacture"
+   ]
+  },
+  {
+   "id": "19c7e438-2037-5538-9fda-18b1c6791c5a",
+   "lemma": "manufacturer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "manufacturer"
+   ]
+  },
+  {
+   "id": "0e1d8233-c57c-5483-a4e4-0eab051b43e2",
+   "lemma": "manufacturing",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "manufacturing"
+   ]
+  },
+  {
+   "id": "b8801f60-6959-533c-9ae7-8eae28b64e5f",
+   "lemma": "marathon",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "marathon"
+   ]
+  },
+  {
+   "id": "753557b7-7c1b-551e-8531-8c7ea4b553a3",
+   "lemma": "margin",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "margin"
+   ]
+  },
+  {
+   "id": "b9b1c633-5820-55f5-8fb5-a2594ffafb49",
+   "lemma": "marketing",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "marketing"
+   ]
+  },
+  {
+   "id": "76691916-a13a-5645-b3c5-6dccaf7aa847",
+   "lemma": "martial art",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "martial art"
+   ]
+  },
+  {
+   "id": "2f209484-11b5-5862-a95f-5b83151352b3",
+   "lemma": "mask",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mask"
+   ]
+  },
+  {
+   "id": "97ff22c8-e642-5793-8950-661c892a9393",
+   "lemma": "mass",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mass"
+   ]
+  },
+  {
+   "id": "e29c5580-0922-5d08-98e9-801066ff9c91",
+   "lemma": "massacre",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "massacre"
+   ]
+  },
+  {
+   "id": "ec89e43c-401c-5f9e-bae8-f3934dcefb64",
+   "lemma": "massage",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "massage"
+   ]
+  },
+  {
+   "id": "0317bb8b-cf03-5605-ae5a-751b5265aab5",
+   "lemma": "masseur",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "masseur"
+   ]
+  },
+  {
+   "id": "8c985294-0a48-5429-a595-18e8ee49d0f3",
+   "lemma": "master",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "master"
+   ]
+  },
+  {
+   "id": "e1c348c9-8ef9-5470-8e12-1707cc10a98e",
+   "lemma": "masterpiece",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "masterpiece"
+   ]
+  },
+  {
+   "id": "523c3b05-b1b2-580b-9234-76fc2da5bbc0",
+   "lemma": "mastery",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mastery"
+   ]
+  },
+  {
+   "id": "355c676a-479b-5cee-b97b-9abc41a270fc",
+   "lemma": "mate",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mate"
+   ]
+  },
+  {
+   "id": "31829173-4065-5986-9cfb-b4e3a6eac14c",
+   "lemma": "mathematical",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mathematical"
+   ]
+  },
+  {
+   "id": "b762448b-ad5d-5ef8-9ec4-897d6da1c6c8",
+   "lemma": "mature",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mature"
+   ]
+  },
+  {
+   "id": "04385267-2dfb-57cd-9178-6ac7ac4df633",
+   "lemma": "mausoleum",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mausoleum"
+   ]
+  },
+  {
+   "id": "dcd04460-3d8a-54ff-b605-a606e85c5005",
+   "lemma": "mean",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mean"
+   ]
+  },
+  {
+   "id": "d68385a6-5b4e-54eb-bc97-65c0d4719ff2",
+   "lemma": "means",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "means"
+   ]
+  },
+  {
+   "id": "72a19b1e-c4c8-5690-8f5e-1593013c2e55",
+   "lemma": "mechanize",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mechanize",
+    "mechanise"
+   ]
+  },
+  {
+   "id": "164f3fca-1189-5586-99d0-7ee20a68f6ca",
+   "lemma": "media",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "media"
+   ]
+  },
+  {
+   "id": "159707fa-072d-52e3-a1cc-2719139808a6",
+   "lemma": "medication",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "medication"
+   ]
+  },
+  {
+   "id": "51a069fd-8a33-505e-8502-d6509d6202e2",
+   "lemma": "medieval",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "medieval",
+    "mediaeval"
+   ]
+  },
+  {
+   "id": "cb894cc3-21d1-5613-8ae4-6e815f6843ca",
+   "lemma": "mediocre",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mediocre"
+   ]
+  },
+  {
+   "id": "b6674058-fbdd-517f-83b8-e1e98a3d7f39",
+   "lemma": "melody",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "melody"
+   ]
+  }
+ ]
+}

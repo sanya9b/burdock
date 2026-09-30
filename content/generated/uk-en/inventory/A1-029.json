@@ -1,0 +1,408 @@
+{
+ "chunk": "A1-029",
+ "level": "A1",
+ "lexemes": [
+  {
+   "id": "13ee85bf-874e-50e2-8aab-911e09d1db2e",
+   "lemma": "which",
+   "pos": "determiner",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "which"
+   ]
+  },
+  {
+   "id": "28e85f4e-5afa-5023-97ba-51fe5b58690d",
+   "lemma": "which",
+   "pos": "pronoun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "which"
+   ]
+  },
+  {
+   "id": "270e9110-62d3-5302-98b6-7847e3a20161",
+   "lemma": "white",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "white"
+   ]
+  },
+  {
+   "id": "809da659-1e2f-5b32-82bd-99f64a775b0e",
+   "lemma": "white",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "white"
+   ]
+  },
+  {
+   "id": "bcb5e894-192c-567c-8f1a-697065628ba2",
+   "lemma": "who",
+   "pos": "pronoun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "who"
+   ]
+  },
+  {
+   "id": "3c898da0-ac80-587a-95f6-7af4ebd3aa60",
+   "lemma": "whose",
+   "pos": "determiner",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "whose"
+   ]
+  },
+  {
+   "id": "d79c8369-951b-59ec-9073-dc973c21c813",
+   "lemma": "whose",
+   "pos": "pronoun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "whose"
+   ]
+  },
+  {
+   "id": "3182444b-4114-5d5e-a917-f1aefb331f9a",
+   "lemma": "why",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "why"
+   ]
+  },
+  {
+   "id": "3379df07-8a2c-5e74-a066-5fc533eaa7f8",
+   "lemma": "wife",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wife"
+   ]
+  },
+  {
+   "id": "a74b5c81-5e45-579c-9534-f506a2b13c0a",
+   "lemma": "will",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "will"
+   ]
+  },
+  {
+   "id": "6d2d4074-33c0-57d9-a8c3-b9683fa8174d",
+   "lemma": "win",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "win"
+   ]
+  },
+  {
+   "id": "059db568-3e91-5036-8d95-dcd56ca95a2f",
+   "lemma": "wind",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wind"
+   ]
+  },
+  {
+   "id": "fc52e310-802f-5e44-b83c-01434d67d748",
+   "lemma": "window",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "window"
+   ]
+  },
+  {
+   "id": "b60f1fae-d2f8-5559-9df6-fc2b0f19ae5b",
+   "lemma": "winter",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "winter"
+   ]
+  },
+  {
+   "id": "5ca6cee5-e050-5583-a1fa-fe8485086d57",
+   "lemma": "wish",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wish"
+   ]
+  },
+  {
+   "id": "e58969fd-6fee-5dd2-aa84-f3d32a6596e7",
+   "lemma": "with",
+   "pos": "preposition",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "with"
+   ]
+  },
+  {
+   "id": "b31be222-df7b-589d-9d5b-59d226abb32b",
+   "lemma": "woman",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "woman"
+   ]
+  },
+  {
+   "id": "2ce0c7ed-6d52-5c68-8970-09ed77ea9a49",
+   "lemma": "wonderful",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wonderful"
+   ]
+  },
+  {
+   "id": "eb11c51d-1888-5c8c-b305-14bfecc6cdd1",
+   "lemma": "word",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "word"
+   ]
+  },
+  {
+   "id": "47c41334-f5d2-55f6-b64d-1f2be2cebd04",
+   "lemma": "work",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "work"
+   ]
+  },
+  {
+   "id": "7a569dc3-c434-5070-94ec-45ad55325384",
+   "lemma": "work",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "work"
+   ]
+  },
+  {
+   "id": "7672c148-aca7-556a-930a-50a606d444df",
+   "lemma": "worker",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "worker"
+   ]
+  },
+  {
+   "id": "8243a537-fc75-5112-8c09-0feba379e229",
+   "lemma": "world",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "world"
+   ]
+  },
+  {
+   "id": "0d89aa11-d231-541f-9f53-0c4c98dfa39b",
+   "lemma": "worry",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "worry"
+   ]
+  },
+  {
+   "id": "9d8b49ad-7925-5c20-a0a0-f1b7825158a5",
+   "lemma": "would",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "would"
+   ]
+  },
+  {
+   "id": "3cb94e49-6c8b-5b83-b505-0730bfc6ba62",
+   "lemma": "write",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "write"
+   ]
+  },
+  {
+   "id": "66b80536-b08c-5a70-b2b2-07999f1fff1f",
+   "lemma": "writer",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "writer"
+   ]
+  },
+  {
+   "id": "986bb1fc-0b2c-5d9d-be54-f152d06ae0d8",
+   "lemma": "wrong",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wrong"
+   ]
+  },
+  {
+   "id": "8d960b41-5d30-5841-9899-d99422259b93",
+   "lemma": "yard",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "yard"
+   ]
+  },
+  {
+   "id": "626f8dd1-cc47-5b92-9987-d771f511d06a",
+   "lemma": "year",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "year"
+   ]
+  },
+  {
+   "id": "6ca07fa9-ca37-5d6b-b7e4-4276087e0eff",
+   "lemma": "yellow",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "yellow"
+   ]
+  },
+  {
+   "id": "d189f702-ce8a-5bcd-9d52-822dba406dd7",
+   "lemma": "yellow",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "yellow"
+   ]
+  },
+  {
+   "id": "b48aa000-d4d6-547b-b7c4-6e19827a14a5",
+   "lemma": "yes",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "yes"
+   ]
+  },
+  {
+   "id": "6f1616cd-6a3e-5b35-9eb8-5dbef7fa90ee",
+   "lemma": "yesterday",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "yesterday"
+   ]
+  },
+  {
+   "id": "3a557484-9b23-59ba-a006-a345d7478e53",
+   "lemma": "yet",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "yet"
+   ]
+  },
+  {
+   "id": "13102ce6-69ed-5cec-9f88-74b1d2b5fca6",
+   "lemma": "yogurt",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "yogurt",
+    "yoghurt",
+    "yoghourt"
+   ]
+  },
+  {
+   "id": "4e7e47c4-1600-5b82-af20-1e331922ca6f",
+   "lemma": "you",
+   "pos": "pronoun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "you"
+   ]
+  },
+  {
+   "id": "9054212e-a958-565a-a9f9-6aa8f949626a",
+   "lemma": "young",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "young"
+   ]
+  },
+  {
+   "id": "44532aec-fef8-5ae0-9ae7-4cbee3a33559",
+   "lemma": "your",
+   "pos": "determiner",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "your"
+   ]
+  },
+  {
+   "id": "e943f8e3-c347-5cd9-b0e8-51e704b5ad0b",
+   "lemma": "yours",
+   "pos": "pronoun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "yours"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,407 @@
+{
+ "chunk": "A2-030",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "b876a102-9289-5baa-9936-0b70e4dc3ca7",
+   "lemma": "solution",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "solution"
+   ]
+  },
+  {
+   "id": "09fdd053-6598-5d46-8b20-2de081996e69",
+   "lemma": "somebody",
+   "pos": "pronoun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "somebody"
+   ]
+  },
+  {
+   "id": "8d68258d-35cc-5d81-b4b7-9bf862039729",
+   "lemma": "someday",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "someday"
+   ]
+  },
+  {
+   "id": "da7c8741-d2b2-513f-81e8-a955c84df6ff",
+   "lemma": "somewhere",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "somewhere"
+   ]
+  },
+  {
+   "id": "c0653b47-a755-551f-8d8a-9c12752e8fb6",
+   "lemma": "sound",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sound"
+   ]
+  },
+  {
+   "id": "e4e99838-fa56-58c2-b448-f3a05f7ca8c8",
+   "lemma": "sound",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sound"
+   ]
+  },
+  {
+   "id": "039e91d1-a4e9-525f-9ed0-2bc7cce22287",
+   "lemma": "source",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "source"
+   ]
+  },
+  {
+   "id": "86db8df8-b87a-5a1f-bbc1-ea33861a094c",
+   "lemma": "south",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "south"
+   ]
+  },
+  {
+   "id": "807d401e-e5bc-58d6-b15a-93355e9d19a9",
+   "lemma": "south",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "south"
+   ]
+  },
+  {
+   "id": "78041c72-52d9-5f88-92a5-000674ad5f01",
+   "lemma": "south",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "south"
+   ]
+  },
+  {
+   "id": "8470b490-4bb1-53cd-a17f-83a4ad64a0a5",
+   "lemma": "space",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "space"
+   ]
+  },
+  {
+   "id": "3eb5e4a1-48e6-503b-bba4-a03e9d40e359",
+   "lemma": "spaceship",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "spaceship"
+   ]
+  },
+  {
+   "id": "1c7ad402-b446-5aa9-96ba-48b4bd7ff490",
+   "lemma": "spaghetti",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "spaghetti"
+   ]
+  },
+  {
+   "id": "a2001a03-46c0-5624-b598-272339b60b4d",
+   "lemma": "speaker",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "speaker"
+   ]
+  },
+  {
+   "id": "6b825aa1-8ac9-523a-92ef-099ff2b243a9",
+   "lemma": "specific",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "specific"
+   ]
+  },
+  {
+   "id": "272cf0b8-1afa-547d-b0e1-07263dd014e5",
+   "lemma": "speed",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "speed"
+   ]
+  },
+  {
+   "id": "23fca394-4db7-5025-a85a-770523b7d8d9",
+   "lemma": "spell",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "spell"
+   ]
+  },
+  {
+   "id": "4c445534-410b-59b3-8b05-b19413887234",
+   "lemma": "spill",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "spill"
+   ]
+  },
+  {
+   "id": "86431b47-fee0-572a-a97a-d538241fb1b8",
+   "lemma": "splash",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "splash"
+   ]
+  },
+  {
+   "id": "5792c8fe-819e-5950-9f38-8ddb5e097fee",
+   "lemma": "split",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "split"
+   ]
+  },
+  {
+   "id": "e58fb920-a9e4-55d9-b609-a9d50984a821",
+   "lemma": "spoon",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "spoon"
+   ]
+  },
+  {
+   "id": "c5249423-0817-5a9a-b15e-12d7744d9d13",
+   "lemma": "sports center",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sports center",
+    "sports centre"
+   ]
+  },
+  {
+   "id": "3653faa0-9af2-5406-843d-62e054423cec",
+   "lemma": "spread",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "spread"
+   ]
+  },
+  {
+   "id": "f115541d-db04-5382-99ea-787ebfe29d1f",
+   "lemma": "square",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "square"
+   ]
+  },
+  {
+   "id": "78b45eeb-afb8-5aed-adc0-fdb216680364",
+   "lemma": "square",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "square"
+   ]
+  },
+  {
+   "id": "b9e0c62d-dcb8-5f53-9910-79c0cec13169",
+   "lemma": "stadium",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "stadium"
+   ]
+  },
+  {
+   "id": "0c7a7ef8-3628-5458-8e93-eef12125817a",
+   "lemma": "staff",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "staff"
+   ]
+  },
+  {
+   "id": "933f92b0-8dca-5752-bc93-24bad3fc52ac",
+   "lemma": "stair",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "stair"
+   ]
+  },
+  {
+   "id": "745fdb5f-9b47-584b-a098-be345989e654",
+   "lemma": "stamp",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "stamp"
+   ]
+  },
+  {
+   "id": "178ba5ac-7f39-56b1-90e1-a79d434e00e4",
+   "lemma": "stand",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "stand"
+   ]
+  },
+  {
+   "id": "a9a366e4-b997-5018-83d6-3cb746b2d79f",
+   "lemma": "state",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "state"
+   ]
+  },
+  {
+   "id": "9e8df8e1-82f6-5345-b36b-1b0e85d9fc0b",
+   "lemma": "statement",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "statement"
+   ]
+  },
+  {
+   "id": "c10c8e6a-7fbf-5d49-9477-22b0d2503557",
+   "lemma": "statue",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "statue"
+   ]
+  },
+  {
+   "id": "6fb742e2-8f2b-552c-8ae8-42160baa1a68",
+   "lemma": "steak",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "steak"
+   ]
+  },
+  {
+   "id": "789af76a-6a2f-5839-a7ac-cc84adcee399",
+   "lemma": "steal",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "steal"
+   ]
+  },
+  {
+   "id": "347b1af4-d58c-5a3c-b3c3-c1aae7e1083b",
+   "lemma": "step",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "step"
+   ]
+  },
+  {
+   "id": "5de122f5-d770-5c5f-af22-99d4ade287a7",
+   "lemma": "still",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "still"
+   ]
+  },
+  {
+   "id": "cff5bd11-044d-51b7-867a-8592420e4a04",
+   "lemma": "stomach",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "stomach"
+   ]
+  },
+  {
+   "id": "bc311a2c-be48-5a48-96e6-af7ca416f46c",
+   "lemma": "stomachache",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "stomachache"
+   ]
+  },
+  {
+   "id": "5cbcad99-f4fb-5ca8-998f-4c035c681a99",
+   "lemma": "storm",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "storm"
+   ]
+  }
+ ]
+}

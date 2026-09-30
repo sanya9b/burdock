@@ -1,0 +1,406 @@
+{
+ "chunk": "A2-011",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "ee36c50f-bb6a-536c-bdf6-beab0c460eb3",
+   "lemma": "earthquake",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "earthquake"
+   ]
+  },
+  {
+   "id": "bc6cf015-d838-512e-ae24-3b444ccb9cc5",
+   "lemma": "easily",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "easily"
+   ]
+  },
+  {
+   "id": "a4c74244-4a2d-5987-a423-d198469f00f4",
+   "lemma": "east",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "east"
+   ]
+  },
+  {
+   "id": "a4fa2ab5-012b-53f1-aa0c-613f5804d8c9",
+   "lemma": "east",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "east"
+   ]
+  },
+  {
+   "id": "f7d7faa3-40da-58ca-b40f-a3e0d3652320",
+   "lemma": "east",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "east"
+   ]
+  },
+  {
+   "id": "2c3b63b3-81eb-5dec-822c-3265149e51e0",
+   "lemma": "editor",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "editor"
+   ]
+  },
+  {
+   "id": "f1149bd7-b1e4-5a90-abef-20f365d6e6f2",
+   "lemma": "education",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "education"
+   ]
+  },
+  {
+   "id": "1e801eb2-474f-590f-9554-9a3786491c17",
+   "lemma": "educational",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "educational"
+   ]
+  },
+  {
+   "id": "0818913d-531c-535f-ab50-1311380bc86f",
+   "lemma": "effect",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "effect"
+   ]
+  },
+  {
+   "id": "0305b6ab-f402-5bc7-ab6a-e25f83f2fc76",
+   "lemma": "effort",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "effort"
+   ]
+  },
+  {
+   "id": "6c2cc5ad-f152-5d3b-974e-16cf20192a72",
+   "lemma": "either",
+   "pos": "conjunction",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "either"
+   ]
+  },
+  {
+   "id": "c875fa5f-52d3-5781-8d6d-c41e779dddb1",
+   "lemma": "elderly",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "elderly"
+   ]
+  },
+  {
+   "id": "09031802-c113-5bde-a813-bb2471e4bb2b",
+   "lemma": "electric",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "electric"
+   ]
+  },
+  {
+   "id": "52e35a25-2dae-5f8a-ac11-99a440ec894a",
+   "lemma": "elephant",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "elephant"
+   ]
+  },
+  {
+   "id": "0d896cbb-e28c-5473-a41b-d635d425c7ac",
+   "lemma": "elevator",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "elevator"
+   ]
+  },
+  {
+   "id": "ce0a409e-1252-53f6-9c0b-873c2e530012",
+   "lemma": "elsewhere",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "elsewhere"
+   ]
+  },
+  {
+   "id": "084c8c06-dc81-5b4c-b9ed-c696a559012c",
+   "lemma": "email",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "email"
+   ]
+  },
+  {
+   "id": "30d8e349-12b2-57c6-9ff5-f170bdc17d71",
+   "lemma": "embarrassing",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "embarrassing"
+   ]
+  },
+  {
+   "id": "46f8b6d8-6fb6-51cf-b2a6-f00497ee0102",
+   "lemma": "emergency",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "emergency"
+   ]
+  },
+  {
+   "id": "58eab7eb-27d8-5336-8329-3abf900dae0c",
+   "lemma": "empty",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "empty"
+   ]
+  },
+  {
+   "id": "9e631237-ea53-591c-8840-f7fec72f0915",
+   "lemma": "encourage",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "encourage"
+   ]
+  },
+  {
+   "id": "f2004649-00ff-54a6-babf-4c10dcb0f248",
+   "lemma": "end",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "end"
+   ]
+  },
+  {
+   "id": "2fb2d375-fa06-5c3c-aebd-1ce1ee6798b5",
+   "lemma": "endangered",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "endangered"
+   ]
+  },
+  {
+   "id": "4a41e2df-d1ed-5f5d-b4de-0f89ff47c296",
+   "lemma": "ending",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ending"
+   ]
+  },
+  {
+   "id": "e35936fb-10fd-5952-b1cd-563a9d649217",
+   "lemma": "energetic",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "energetic"
+   ]
+  },
+  {
+   "id": "c8c60f6f-a4f1-5bcf-be04-90e68558d429",
+   "lemma": "enormous",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "enormous"
+   ]
+  },
+  {
+   "id": "07b3bc55-cbf8-5111-a962-e5a281ad038b",
+   "lemma": "enough",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "enough"
+   ]
+  },
+  {
+   "id": "9427f163-78d2-559a-816f-18a3089d94fb",
+   "lemma": "enough",
+   "pos": "determiner",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "enough"
+   ]
+  },
+  {
+   "id": "c0aa9bf3-ffa8-5eea-95eb-51579f70c16a",
+   "lemma": "enough",
+   "pos": "pronoun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "enough"
+   ]
+  },
+  {
+   "id": "dc92fda0-bd1d-5837-8778-18df25eb2695",
+   "lemma": "enter",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "enter"
+   ]
+  },
+  {
+   "id": "930c0f0f-f000-5afd-8bc5-b75a9b9114af",
+   "lemma": "entertainment",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "entertainment"
+   ]
+  },
+  {
+   "id": "3f73e19a-5b02-54c8-afb3-f028cfa7ad7e",
+   "lemma": "entrance",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "entrance"
+   ]
+  },
+  {
+   "id": "69d928a4-e9ef-52b3-b82c-a4562e2543fd",
+   "lemma": "envelope",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "envelope"
+   ]
+  },
+  {
+   "id": "29deb9b0-ebc0-5e1f-bb38-d6dfb3d32891",
+   "lemma": "envy",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "envy"
+   ]
+  },
+  {
+   "id": "e77a1a7f-2c5a-546d-b2a6-1da3049bfb0f",
+   "lemma": "episode",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "episode"
+   ]
+  },
+  {
+   "id": "9647d84f-b136-5384-800f-4af1e8447777",
+   "lemma": "error",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "error"
+   ]
+  },
+  {
+   "id": "14854e5b-676e-51ae-a24c-232fe0b195df",
+   "lemma": "escalator",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "escalator"
+   ]
+  },
+  {
+   "id": "b22cbaca-2d3a-5557-bc1f-59ab64624d93",
+   "lemma": "escape",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "escape"
+   ]
+  },
+  {
+   "id": "7836da73-9a51-5217-b1b2-1f7a1d5dab29",
+   "lemma": "especially",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "especially"
+   ]
+  },
+  {
+   "id": "08db39a4-9065-557c-89d1-318fe2872b90",
+   "lemma": "essay",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "essay"
+   ]
+  }
+ ]
+}

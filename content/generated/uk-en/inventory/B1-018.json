@@ -1,0 +1,408 @@
+{
+ "chunk": "B1-018",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "df207802-efcf-5919-bf7e-c567dfe69a18",
+   "lemma": "easygoing",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "easygoing",
+    "easy-going"
+   ]
+  },
+  {
+   "id": "7fa538d8-82bf-5f1d-a2ad-da7dffb8adc8",
+   "lemma": "eco",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "eco"
+   ]
+  },
+  {
+   "id": "dfb0def0-85d1-55de-88fe-2ad3fa9e35ed",
+   "lemma": "ecological",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ecological"
+   ]
+  },
+  {
+   "id": "80d994d6-ae5c-517f-9321-7d8220893483",
+   "lemma": "ecology",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ecology"
+   ]
+  },
+  {
+   "id": "1ae66eca-db33-5401-ae33-ce3778d1f6d6",
+   "lemma": "economic",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "economic"
+   ]
+  },
+  {
+   "id": "f86676fa-c063-5dd3-abaa-f56d75f9a96f",
+   "lemma": "economics",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "economics"
+   ]
+  },
+  {
+   "id": "17a1b245-f923-56fa-b466-f1490408dd99",
+   "lemma": "economy",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "economy"
+   ]
+  },
+  {
+   "id": "dc3f6a9a-d16e-5581-a04d-f2ccf262b0e1",
+   "lemma": "ecosystem",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ecosystem"
+   ]
+  },
+  {
+   "id": "d5b04755-ff83-5d54-9303-47b07d11af5e",
+   "lemma": "ecstasy",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ecstasy"
+   ]
+  },
+  {
+   "id": "f576bda1-48d9-56fe-b3cb-bed21c6ca453",
+   "lemma": "edge",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "edge"
+   ]
+  },
+  {
+   "id": "72a2094f-f5d8-5530-b337-5582a907ba11",
+   "lemma": "edition",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "edition"
+   ]
+  },
+  {
+   "id": "99bd9275-bb46-532a-8dec-4158c767d7b9",
+   "lemma": "educate",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "educate"
+   ]
+  },
+  {
+   "id": "63f8b112-80db-5629-a1cd-d7d6b665fe4c",
+   "lemma": "effective",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "effective"
+   ]
+  },
+  {
+   "id": "1bb747ae-e653-5512-91cc-fcef01a29f8a",
+   "lemma": "efficiency",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "efficiency"
+   ]
+  },
+  {
+   "id": "923404a6-dd8a-5164-9d25-e770f42b5a50",
+   "lemma": "efficient",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "efficient"
+   ]
+  },
+  {
+   "id": "a5a4dde5-4772-53de-8c92-e2d654ea5de4",
+   "lemma": "either",
+   "pos": "determiner",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "either"
+   ]
+  },
+  {
+   "id": "33fedd45-3b98-5fcc-8e74-b22b0ec186dc",
+   "lemma": "either",
+   "pos": "pronoun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "either"
+   ]
+  },
+  {
+   "id": "b4b08c69-d41e-566e-9c1d-ca8a95597308",
+   "lemma": "elbow",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "elbow"
+   ]
+  },
+  {
+   "id": "f5fb39e5-72b9-529f-bb12-c844157df39e",
+   "lemma": "election",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "election"
+   ]
+  },
+  {
+   "id": "e41a3ecb-8d2f-54e8-a8d5-fdaeaecac5de",
+   "lemma": "electrical",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "electrical"
+   ]
+  },
+  {
+   "id": "36aa8822-30d8-5f3e-8e2f-42a9714037b2",
+   "lemma": "electricity",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "electricity"
+   ]
+  },
+  {
+   "id": "d90b1fc9-9ee8-5176-9455-c4bb6822be9e",
+   "lemma": "electron",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "electron"
+   ]
+  },
+  {
+   "id": "ed514ca6-2840-5007-a1e1-c76c86033437",
+   "lemma": "electronic",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "electronic"
+   ]
+  },
+  {
+   "id": "ad7627df-0265-5cd6-bf7e-d38923a4e024",
+   "lemma": "element",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "element"
+   ]
+  },
+  {
+   "id": "4d06a48a-e135-5974-a6b3-a2566bf9eb40",
+   "lemma": "eliminate",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "eliminate"
+   ]
+  },
+  {
+   "id": "9d0b44fc-d938-5816-90b3-2336d1caf73e",
+   "lemma": "embarrass",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "embarrass"
+   ]
+  },
+  {
+   "id": "01f05bb4-bdb2-5884-ad2c-20483a176c53",
+   "lemma": "embarrassed",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "embarrassed"
+   ]
+  },
+  {
+   "id": "47d9eded-2b6a-51b6-9a1a-dc174d182c2f",
+   "lemma": "embarrassment",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "embarrassment"
+   ]
+  },
+  {
+   "id": "a90e29a1-54c0-51ad-9648-7ac815963c39",
+   "lemma": "emerge",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "emerge"
+   ]
+  },
+  {
+   "id": "94c55888-2637-5932-9fe6-2a11b023c77f",
+   "lemma": "emotion",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "emotion"
+   ]
+  },
+  {
+   "id": "4f7cea9a-fd1b-523e-a03f-9b3890509558",
+   "lemma": "emotional",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "emotional"
+   ]
+  },
+  {
+   "id": "93fc392d-6987-5cf9-a4e2-93f357bb1fc0",
+   "lemma": "emotionally",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "emotionally"
+   ]
+  },
+  {
+   "id": "952ff566-eb65-51ce-b6b8-ced63ad6ff68",
+   "lemma": "emperor",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "emperor"
+   ]
+  },
+  {
+   "id": "254c3801-1f37-5ec4-8835-fe151f114580",
+   "lemma": "emphasis",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "emphasis"
+   ]
+  },
+  {
+   "id": "170a82ac-b0e9-53d2-996d-6ed9d5026029",
+   "lemma": "emphasize",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "emphasize",
+    "emphasise"
+   ]
+  },
+  {
+   "id": "b9585fe7-3174-5188-8ec5-1680311169d1",
+   "lemma": "empire",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "empire"
+   ]
+  },
+  {
+   "id": "be53de4d-5710-544e-8efd-9bf043e8ce19",
+   "lemma": "employment",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "employment"
+   ]
+  },
+  {
+   "id": "b8aa0295-0109-5487-803f-7ca63beeb769",
+   "lemma": "enable",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "enable"
+   ]
+  },
+  {
+   "id": "d2538d46-3d23-53fd-ab3a-7996e20d3e33",
+   "lemma": "enclose",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "enclose"
+   ]
+  },
+  {
+   "id": "70cf5033-4cd7-5f2c-af49-83b98f65e94b",
+   "lemma": "encounter",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "encounter"
+   ]
+  }
+ ]
+}

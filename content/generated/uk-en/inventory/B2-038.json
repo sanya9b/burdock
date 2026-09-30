@@ -1,0 +1,410 @@
+{
+ "chunk": "B2-038",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "d4a82dff-56ad-5037-9d88-dca64145b830",
+   "lemma": "mixture",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mixture"
+   ]
+  },
+  {
+   "id": "f85d699f-35a5-502d-be1e-5a3f5eecee43",
+   "lemma": "mobility",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mobility"
+   ]
+  },
+  {
+   "id": "2157f007-07e6-5446-8ba4-3c560d62327c",
+   "lemma": "mock",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mock"
+   ]
+  },
+  {
+   "id": "34b81053-483d-5675-b26c-9415fca2a935",
+   "lemma": "modernization",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "modernization",
+    "modernisation"
+   ]
+  },
+  {
+   "id": "de48d61b-703a-553b-a61e-9dd92a6a153c",
+   "lemma": "modernize",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "modernize",
+    "modernise"
+   ]
+  },
+  {
+   "id": "f0a1f308-b402-576c-baa5-c873f5a4f229",
+   "lemma": "modest",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "modest"
+   ]
+  },
+  {
+   "id": "b0789787-1bea-5be1-bdba-31c2dab77e1c",
+   "lemma": "modification",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "modification"
+   ]
+  },
+  {
+   "id": "4877ee9c-14ee-5894-b711-e5354a0ac70d",
+   "lemma": "mogul",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mogul"
+   ]
+  },
+  {
+   "id": "a8d58e00-521f-55e5-82d5-e7f96fcb2b25",
+   "lemma": "mold",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mold",
+    "mould"
+   ]
+  },
+  {
+   "id": "7f748737-6370-5466-adf6-e93c4bd8c500",
+   "lemma": "momentarily",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "momentarily"
+   ]
+  },
+  {
+   "id": "c7ee3556-fca4-5557-ba8c-3483070b2a33",
+   "lemma": "momentary",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "momentary"
+   ]
+  },
+  {
+   "id": "577eb01a-f831-58ac-83ab-ec8eebdee53b",
+   "lemma": "monastery",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "monastery"
+   ]
+  },
+  {
+   "id": "3962efc2-75f7-5ef5-933e-0806904c1cf2",
+   "lemma": "moody",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "moody"
+   ]
+  },
+  {
+   "id": "1ebc28d3-e1eb-547d-99c0-b9c71f0af6dc",
+   "lemma": "moonlight",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "moonlight"
+   ]
+  },
+  {
+   "id": "22d8661c-7fab-5731-b704-a79a1a0b830a",
+   "lemma": "moonscape",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "moonscape"
+   ]
+  },
+  {
+   "id": "cc113bdd-bc83-5c36-98cb-b1fa5da2c8c0",
+   "lemma": "moral",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "moral"
+   ]
+  },
+  {
+   "id": "4287bebb-fb47-5f6b-abfd-3da8366c9dc7",
+   "lemma": "morality",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "morality"
+   ]
+  },
+  {
+   "id": "8e635456-3b27-5cbc-a541-e4f1252dbff9",
+   "lemma": "morally",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "morally"
+   ]
+  },
+  {
+   "id": "031cc79a-8d53-5275-9642-c2f6581601e1",
+   "lemma": "mortal",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mortal"
+   ]
+  },
+  {
+   "id": "444e0e25-ce3a-54b3-bcd0-cf4de0dee65d",
+   "lemma": "mortar",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mortar"
+   ]
+  },
+  {
+   "id": "6f75d215-4996-552e-98b9-8371bf3c2702",
+   "lemma": "mortgage",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mortgage"
+   ]
+  },
+  {
+   "id": "df17263a-74e4-5065-993c-01546e77cf92",
+   "lemma": "mortify",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mortify"
+   ]
+  },
+  {
+   "id": "2184a474-0b08-53c0-951f-6e2410c37989",
+   "lemma": "mother-in-law",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mother-in-law"
+   ]
+  },
+  {
+   "id": "e2727daa-d3fc-5d53-aa4a-0a2fc88afea3",
+   "lemma": "motion",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "motion"
+   ]
+  },
+  {
+   "id": "2bd6497a-979a-5891-8798-9e6439feca86",
+   "lemma": "motivated",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "motivated"
+   ]
+  },
+  {
+   "id": "473d938e-53bf-52e8-94fc-eb6832d1777c",
+   "lemma": "motorbike",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "motorbike"
+   ]
+  },
+  {
+   "id": "c8aa1f7d-45f6-53c0-be4f-61af8b592020",
+   "lemma": "motorist",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "motorist"
+   ]
+  },
+  {
+   "id": "017e8ff8-ce88-521c-810d-ed93f79d184c",
+   "lemma": "mount",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mount"
+   ]
+  },
+  {
+   "id": "1eace01f-1fe8-5ef2-aa98-26f6b412bfa3",
+   "lemma": "mournful",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mournful"
+   ]
+  },
+  {
+   "id": "c94196c1-a4ce-5aad-9297-d5c7ae765373",
+   "lemma": "mover",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mover"
+   ]
+  },
+  {
+   "id": "375f4ca3-9a60-56d4-afdd-0b41b2eb09b2",
+   "lemma": "moving",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "moving"
+   ]
+  },
+  {
+   "id": "916ee34c-42db-551d-ac69-16be9670cc75",
+   "lemma": "muddy",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "muddy"
+   ]
+  },
+  {
+   "id": "22a5fd46-3d00-5ccd-8669-09acdd0a2381",
+   "lemma": "multiple",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "multiple"
+   ]
+  },
+  {
+   "id": "7f8e20bb-83b4-50eb-ad9c-3e7d1d9aac86",
+   "lemma": "multiply",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "multiply"
+   ]
+  },
+  {
+   "id": "528f0bd8-695b-5ee6-b398-cf3933c7440e",
+   "lemma": "mumble",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mumble"
+   ]
+  },
+  {
+   "id": "b22b5f11-7ac5-53ba-9f43-880b64c26846",
+   "lemma": "mumble",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mumble"
+   ]
+  },
+  {
+   "id": "30587304-894b-58ba-9451-b96e644d1947",
+   "lemma": "murmur",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "murmur"
+   ]
+  },
+  {
+   "id": "769d8959-334a-5105-ac15-db7aa01bc43c",
+   "lemma": "muse",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "muse"
+   ]
+  },
+  {
+   "id": "a0622167-304a-51e3-865b-70e297b92c14",
+   "lemma": "musical",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "musical"
+   ]
+  },
+  {
+   "id": "f465b7e3-b78d-51f4-b236-b55ac4e5d482",
+   "lemma": "mustache",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mustache",
+    "moustache"
+   ]
+  }
+ ]
+}

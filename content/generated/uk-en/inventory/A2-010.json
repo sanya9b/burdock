@@ -1,0 +1,407 @@
+{
+ "chunk": "A2-010",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "910c3d6a-4640-5ab8-b747-81b2d539993d",
+   "lemma": "disagree",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "disagree"
+   ]
+  },
+  {
+   "id": "5618f690-eeef-5475-9e11-a5f71fdd62f2",
+   "lemma": "disappear",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "disappear"
+   ]
+  },
+  {
+   "id": "97b0909f-9e6c-5cdd-8acd-2415e589b9cd",
+   "lemma": "disappointed",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "disappointed"
+   ]
+  },
+  {
+   "id": "1d3695fc-6f64-5e7d-bbea-c83dc15796dc",
+   "lemma": "disappointing",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "disappointing"
+   ]
+  },
+  {
+   "id": "b42dedf6-048a-52fe-8056-20a20d14965c",
+   "lemma": "disco",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "disco"
+   ]
+  },
+  {
+   "id": "6f2d8162-57e6-5ba8-afa6-129e5839ef15",
+   "lemma": "discover",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "discover"
+   ]
+  },
+  {
+   "id": "413183d9-05bf-57cd-8e51-9b3389d55302",
+   "lemma": "discussion",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "discussion"
+   ]
+  },
+  {
+   "id": "15ea7151-a48f-574d-85e5-3f3946449a66",
+   "lemma": "dishonest",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dishonest"
+   ]
+  },
+  {
+   "id": "4274f7de-9e8d-5299-9513-49ff4f21c01b",
+   "lemma": "dislike",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dislike"
+   ]
+  },
+  {
+   "id": "e73c3c81-7d53-518a-9381-d32646ac4491",
+   "lemma": "display",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "display"
+   ]
+  },
+  {
+   "id": "b924ce34-32d9-574f-a275-4b92a60feaed",
+   "lemma": "disturb",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "disturb"
+   ]
+  },
+  {
+   "id": "e23e4864-3660-5a1e-b684-1bb6cf40ea60",
+   "lemma": "divide",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "divide"
+   ]
+  },
+  {
+   "id": "6b7c641b-0229-58f4-8b82-727de099ff46",
+   "lemma": "dizzy",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dizzy"
+   ]
+  },
+  {
+   "id": "bc84c58f-bc2f-5719-986e-e98015937740",
+   "lemma": "done",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "done"
+   ]
+  },
+  {
+   "id": "981ec3aa-ee43-574e-9cce-e6ad465263f7",
+   "lemma": "double",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "double"
+   ]
+  },
+  {
+   "id": "7d86c819-700e-58ba-85aa-15c997118380",
+   "lemma": "doubt",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "doubt"
+   ]
+  },
+  {
+   "id": "79ba5acd-50ca-5023-a017-bb64576ac59a",
+   "lemma": "down",
+   "pos": "preposition",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "down"
+   ]
+  },
+  {
+   "id": "3de032f7-0026-5183-a88d-14b8685b2a9a",
+   "lemma": "download",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "download"
+   ]
+  },
+  {
+   "id": "d43e786f-c793-5dc9-9cea-238f74959f1d",
+   "lemma": "downstairs",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "downstairs"
+   ]
+  },
+  {
+   "id": "ae545f96-7c93-518e-b414-aeeefff112a2",
+   "lemma": "downtown",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "downtown"
+   ]
+  },
+  {
+   "id": "b459db0f-c090-5b11-b9b6-3045dec62a5c",
+   "lemma": "draw",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "draw"
+   ]
+  },
+  {
+   "id": "4a9734eb-7195-57af-b613-7903c47cb68d",
+   "lemma": "drawer",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "drawer"
+   ]
+  },
+  {
+   "id": "c2611e8b-b134-5a65-9085-866adaa98963",
+   "lemma": "drawing",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "drawing"
+   ]
+  },
+  {
+   "id": "b03c0fb0-0a94-55b9-b5ae-6e5e0b14b6cb",
+   "lemma": "dream",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dream"
+   ]
+  },
+  {
+   "id": "d654a151-bc3b-5082-b72c-2ad57ec3fb16",
+   "lemma": "dress",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dress"
+   ]
+  },
+  {
+   "id": "019f74d7-3649-52de-bfb0-6bee51d96bd1",
+   "lemma": "dressed",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dressed"
+   ]
+  },
+  {
+   "id": "797c2b79-75a3-5200-81cc-dda14d921299",
+   "lemma": "drill",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "drill"
+   ]
+  },
+  {
+   "id": "3d8f4173-756d-5567-9cc1-4a2f59195cf8",
+   "lemma": "drive",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "drive"
+   ]
+  },
+  {
+   "id": "3613cf9c-bf5c-534c-92ae-e843783ab6b2",
+   "lemma": "driver's license",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "driver's license",
+    "driving licence"
+   ]
+  },
+  {
+   "id": "d4d7a976-02d7-5a5c-8c02-2652388ba472",
+   "lemma": "drop",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "drop"
+   ]
+  },
+  {
+   "id": "7b22162b-f6ef-5e57-83c4-71c31fa1303b",
+   "lemma": "drug",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "drug"
+   ]
+  },
+  {
+   "id": "b6f5b530-6288-5a0c-bca7-84767b211724",
+   "lemma": "drugstore",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "drugstore"
+   ]
+  },
+  {
+   "id": "c69be2d2-ba0f-58e1-a31e-95c641bbf00c",
+   "lemma": "dry",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dry"
+   ]
+  },
+  {
+   "id": "0dad82b9-5363-5a88-9032-6e1791ee8412",
+   "lemma": "duck",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "duck"
+   ]
+  },
+  {
+   "id": "3d9015ff-11e1-57d5-8d0c-c05c5813b833",
+   "lemma": "during",
+   "pos": "preposition",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "during"
+   ]
+  },
+  {
+   "id": "e488c946-bda7-52a7-af1b-90c540aab404",
+   "lemma": "dust",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dust"
+   ]
+  },
+  {
+   "id": "72d4336b-cc2f-5c36-91ac-ed19c8fe18ed",
+   "lemma": "early",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "early"
+   ]
+  },
+  {
+   "id": "8a8283c1-a264-59f6-a4c6-4a61958e6228",
+   "lemma": "earn",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "earn"
+   ]
+  },
+  {
+   "id": "87e3e95b-444c-54f5-ab1e-a79a12d014f0",
+   "lemma": "earring",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "earring"
+   ]
+  },
+  {
+   "id": "860291ac-94f3-583b-b514-b4d4a4ac7052",
+   "lemma": "earth",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "earth"
+   ]
+  }
+ ]
+}

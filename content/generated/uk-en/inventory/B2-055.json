@@ -1,0 +1,406 @@
+{
+ "chunk": "B2-055",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "00c95212-f6e5-5927-a39b-dc2cf58bf1cd",
+   "lemma": "sexism",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sexism"
+   ]
+  },
+  {
+   "id": "ef02eb78-fa24-5982-b395-40b35e394ce5",
+   "lemma": "sexual",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sexual"
+   ]
+  },
+  {
+   "id": "25e5e726-3b62-5a38-a4a1-49eac8a0f833",
+   "lemma": "sexy",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sexy"
+   ]
+  },
+  {
+   "id": "f20c1ce4-5a07-5129-a034-47d84333176f",
+   "lemma": "shabby",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shabby"
+   ]
+  },
+  {
+   "id": "fa5228b6-ff00-5c22-ba3a-3adadbe2e0c5",
+   "lemma": "shaken",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shaken"
+   ]
+  },
+  {
+   "id": "3eafa454-40c3-572c-a972-cd2fa41da48a",
+   "lemma": "Shakespearean",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shakespearean"
+   ]
+  },
+  {
+   "id": "6dec817d-bcb8-5d41-88e4-bd3f83d4f7cd",
+   "lemma": "shaky",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shaky"
+   ]
+  },
+  {
+   "id": "4effb5a2-0d9d-5a13-bd1c-31d3bf61bdca",
+   "lemma": "sharp",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sharp"
+   ]
+  },
+  {
+   "id": "8abd0ebb-4b38-590c-90d4-a4e1df738a88",
+   "lemma": "sharply",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sharply"
+   ]
+  },
+  {
+   "id": "0e1a2293-cb18-59de-a398-258966a8029f",
+   "lemma": "shatter",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shatter"
+   ]
+  },
+  {
+   "id": "3333bc14-8f30-537d-b7cf-6d5a79a1db76",
+   "lemma": "shed",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shed"
+   ]
+  },
+  {
+   "id": "83186bfa-bf04-57cd-bd08-8808622c5854",
+   "lemma": "shell",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shell"
+   ]
+  },
+  {
+   "id": "d2b946e1-bbda-53de-89c6-2d2b3acb00a7",
+   "lemma": "shield",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shield"
+   ]
+  },
+  {
+   "id": "3b1faac0-3a56-5695-bde6-e89e66937222",
+   "lemma": "shift",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shift"
+   ]
+  },
+  {
+   "id": "c6053937-1095-5569-9c2b-537b13f9bba1",
+   "lemma": "shipping",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shipping"
+   ]
+  },
+  {
+   "id": "8a890b4f-5333-5594-a0ca-22a33593ab6a",
+   "lemma": "shipwreck",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shipwreck"
+   ]
+  },
+  {
+   "id": "2ca884f8-9d93-5c5e-a82c-7bcd8bed2feb",
+   "lemma": "shock",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shock"
+   ]
+  },
+  {
+   "id": "f31237bc-fae9-50b8-8e01-00c8d0ea582f",
+   "lemma": "shooting",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shooting"
+   ]
+  },
+  {
+   "id": "0abfab12-8d28-57d6-a55f-fa977368d6b7",
+   "lemma": "shopkeeper",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shopkeeper"
+   ]
+  },
+  {
+   "id": "fdf814cd-bee7-5b07-9bda-700e6fe8fd7d",
+   "lemma": "shoplift",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shoplift"
+   ]
+  },
+  {
+   "id": "0d5cb752-6b80-583d-b2d0-b972b0aa16e8",
+   "lemma": "shoplifter",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shoplifter"
+   ]
+  },
+  {
+   "id": "b90e543f-d34f-5b54-b7a5-5d2ccfac9dba",
+   "lemma": "shoplifting",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shoplifting"
+   ]
+  },
+  {
+   "id": "a1da80ff-b664-569b-8c1d-2123ff5cf362",
+   "lemma": "short-term",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "short-term"
+   ]
+  },
+  {
+   "id": "97316f4e-b9c7-5c14-9a5d-8f3063fa6ab9",
+   "lemma": "shortness",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shortness"
+   ]
+  },
+  {
+   "id": "59673b5e-21c5-5211-b457-4531b79621aa",
+   "lemma": "showbiz",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "showbiz"
+   ]
+  },
+  {
+   "id": "7458b68f-e84c-5e5c-9bab-160ac3a3e706",
+   "lemma": "showcase",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "showcase"
+   ]
+  },
+  {
+   "id": "9c66157d-e312-54ab-944f-8de1e02c0bfa",
+   "lemma": "shower",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shower"
+   ]
+  },
+  {
+   "id": "ac9e3496-06c8-5af6-a75d-f5242d79a2fe",
+   "lemma": "shrink",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shrink"
+   ]
+  },
+  {
+   "id": "4a6662f8-8444-5b9d-baa5-683769f5b019",
+   "lemma": "shrink",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shrink"
+   ]
+  },
+  {
+   "id": "f69ffa91-6a1f-5cd0-973a-e1761f92f862",
+   "lemma": "shrug",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shrug"
+   ]
+  },
+  {
+   "id": "a45ba073-a447-5b2e-b050-53a08507ff25",
+   "lemma": "sigh",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sigh"
+   ]
+  },
+  {
+   "id": "68daa2d0-5c3d-5e4c-89ee-18e74101808f",
+   "lemma": "significantly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "significantly"
+   ]
+  },
+  {
+   "id": "bb6d798c-3c5d-502b-ab1d-b4a7ce4bbbea",
+   "lemma": "signify",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "signify"
+   ]
+  },
+  {
+   "id": "c7a5dad7-85aa-5a4e-b54b-eec10925dad8",
+   "lemma": "silverware",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "silverware"
+   ]
+  },
+  {
+   "id": "d83defa1-38b5-56c9-8fc8-fa04a56605e9",
+   "lemma": "simplification",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "simplification"
+   ]
+  },
+  {
+   "id": "c30e78f2-94a2-517e-bf47-1e7378c8e59b",
+   "lemma": "simultaneous",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "simultaneous"
+   ]
+  },
+  {
+   "id": "1985c26b-1298-5476-b517-d5fe41c2710a",
+   "lemma": "since",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "since"
+   ]
+  },
+  {
+   "id": "9701a0e8-a869-5573-8629-34408635405e",
+   "lemma": "sincere",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sincere"
+   ]
+  },
+  {
+   "id": "652041f2-d499-5f18-9ab9-a21160500b7e",
+   "lemma": "sincerity",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sincerity"
+   ]
+  },
+  {
+   "id": "2213c886-ec2d-581d-b1a2-a53246855d5c",
+   "lemma": "sister-in-law",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sister-in-law"
+   ]
+  }
+ ]
+}

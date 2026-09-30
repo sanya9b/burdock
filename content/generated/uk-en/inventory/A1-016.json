@@ -1,0 +1,408 @@
+{
+ "chunk": "A1-016",
+ "level": "A1",
+ "lexemes": [
+  {
+   "id": "27961cc1-68ba-5b40-b444-b4ce2973a4fa",
+   "lemma": "lunch",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lunch"
+   ]
+  },
+  {
+   "id": "147b303c-4037-57cb-aa86-6782e32654ef",
+   "lemma": "machine",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "machine"
+   ]
+  },
+  {
+   "id": "6b621d31-d4c9-54df-a9be-7c4872d0e82b",
+   "lemma": "magazine",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "magazine"
+   ]
+  },
+  {
+   "id": "d79563a1-108d-54cc-b933-89c8b33ef668",
+   "lemma": "mail",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mail"
+   ]
+  },
+  {
+   "id": "f4875b09-5adc-58ae-9c79-bffd1e38cb00",
+   "lemma": "make",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "make"
+   ]
+  },
+  {
+   "id": "ec33f10f-a0f9-524b-880e-9ff670105c6a",
+   "lemma": "man",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "man"
+   ]
+  },
+  {
+   "id": "f3360947-82e1-5626-9f3c-806d60343ba4",
+   "lemma": "many",
+   "pos": "determiner",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "many"
+   ]
+  },
+  {
+   "id": "0d338a76-a80d-5c98-ac8c-e2ef4ffa6fb7",
+   "lemma": "many",
+   "pos": "pronoun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "many"
+   ]
+  },
+  {
+   "id": "e3c12322-cfb3-5a05-b080-1ccc522ea441",
+   "lemma": "map",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "map"
+   ]
+  },
+  {
+   "id": "1a89ec78-6b75-5742-b713-c2b74cca0af1",
+   "lemma": "March",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "march"
+   ]
+  },
+  {
+   "id": "2d1f4a1c-7a28-5a1e-ab80-380f234aa7e0",
+   "lemma": "match",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "match"
+   ]
+  },
+  {
+   "id": "19d1d6c8-bb45-5c69-a845-7876fbdaf482",
+   "lemma": "math",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "math",
+    "maths"
+   ]
+  },
+  {
+   "id": "0ea15f24-2e30-51fe-b30a-0cf76a419a91",
+   "lemma": "matter",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "matter"
+   ]
+  },
+  {
+   "id": "81d67700-cab2-5c2c-95b8-a9bc9931426a",
+   "lemma": "May",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "may"
+   ]
+  },
+  {
+   "id": "4436307e-23b1-5e7c-bcd8-dd26c842e041",
+   "lemma": "may",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "may"
+   ]
+  },
+  {
+   "id": "a522fb8d-e5e4-543e-97a0-eda3928b0892",
+   "lemma": "maybe",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "maybe"
+   ]
+  },
+  {
+   "id": "c6b51a7a-2ce0-5f84-afd2-a3ff4c152fb3",
+   "lemma": "me",
+   "pos": "pronoun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "me"
+   ]
+  },
+  {
+   "id": "d0244ce6-7f03-58b9-ba9e-07773797b2cf",
+   "lemma": "meal",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "meal"
+   ]
+  },
+  {
+   "id": "e437cc50-2a3f-54b0-be7e-73bbd055adf3",
+   "lemma": "mean",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mean"
+   ]
+  },
+  {
+   "id": "9fd599f1-6e68-51e8-a3d7-8d479441d82c",
+   "lemma": "meat",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "meat"
+   ]
+  },
+  {
+   "id": "b28053ea-e438-5b1c-ba8f-e257c756310b",
+   "lemma": "medicine",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "medicine"
+   ]
+  },
+  {
+   "id": "507489f6-3812-560f-80e4-9fe58af226ee",
+   "lemma": "meet",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "meet"
+   ]
+  },
+  {
+   "id": "8f5c368f-7532-5094-9395-6d9057a9b98d",
+   "lemma": "meeting",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "meeting"
+   ]
+  },
+  {
+   "id": "8555ad73-ed87-5a55-8c06-cd2aa7486aec",
+   "lemma": "memory",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "memory"
+   ]
+  },
+  {
+   "id": "d97f2242-3ab1-503a-8423-6c3ca601517b",
+   "lemma": "merry",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "merry"
+   ]
+  },
+  {
+   "id": "7048499b-8488-5c7c-8d72-72919e150474",
+   "lemma": "message",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "message"
+   ]
+  },
+  {
+   "id": "62123f92-159d-5f83-b6b0-fd4201ea00de",
+   "lemma": "middle",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "middle"
+   ]
+  },
+  {
+   "id": "d35eb4ae-5468-57b7-8896-63ad7a569266",
+   "lemma": "milk",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "milk"
+   ]
+  },
+  {
+   "id": "dca3c064-7293-59e2-bd82-d6a4ce0c64a5",
+   "lemma": "mind",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mind"
+   ]
+  },
+  {
+   "id": "45332360-8b24-5695-98b3-e825675e07d5",
+   "lemma": "mine",
+   "pos": "pronoun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mine"
+   ]
+  },
+  {
+   "id": "2dd8c7bf-6dc2-59ae-b257-d4e4815aa5e9",
+   "lemma": "minute",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "minute"
+   ]
+  },
+  {
+   "id": "ec6b4451-674a-5fa0-859b-41ae9011e548",
+   "lemma": "Miss",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "miss"
+   ]
+  },
+  {
+   "id": "3e28ca1b-1bef-55e1-86dc-506f35a4079b",
+   "lemma": "miss",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "miss"
+   ]
+  },
+  {
+   "id": "10ac901a-884b-5548-8dd6-e66b10f5461d",
+   "lemma": "mobile",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mobile"
+   ]
+  },
+  {
+   "id": "937c5b34-afd1-5995-bc2c-ed72e5957a9a",
+   "lemma": "mobile phone",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mobile phone"
+   ]
+  },
+  {
+   "id": "d01d8081-4ca6-5cc5-b670-448e8551dcb2",
+   "lemma": "mom",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mom"
+   ]
+  },
+  {
+   "id": "42ab5c8d-a563-5b84-a0dc-7b3565096987",
+   "lemma": "moment",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "moment"
+   ]
+  },
+  {
+   "id": "baa2e447-601e-506a-8b15-b9d8b94f1d17",
+   "lemma": "mommy",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mommy",
+    "mommie"
+   ]
+  },
+  {
+   "id": "df1688e7-181d-50b3-bfde-4e7c889dbb5d",
+   "lemma": "Monday",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "monday"
+   ]
+  },
+  {
+   "id": "001d1b7f-5534-5fec-9be1-d157e653c308",
+   "lemma": "money",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "money"
+   ]
+  }
+ ]
+}

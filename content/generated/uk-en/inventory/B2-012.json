@@ -1,0 +1,406 @@
+{
+ "chunk": "B2-012",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "1784ab51-81de-5229-b532-c845e0a7008a",
+   "lemma": "concrete",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "concrete"
+   ]
+  },
+  {
+   "id": "f3dad916-cb3e-5dba-8535-812a80d4c0a6",
+   "lemma": "condemn",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "condemn"
+   ]
+  },
+  {
+   "id": "57f786eb-d4cb-5807-99ad-2741e7e6dcf1",
+   "lemma": "conduct",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "conduct"
+   ]
+  },
+  {
+   "id": "0c31361e-8020-59db-a27c-3335288aa4fd",
+   "lemma": "conductor",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "conductor"
+   ]
+  },
+  {
+   "id": "55fdfcd0-e07f-5947-bda3-57247226c26d",
+   "lemma": "cone",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cone"
+   ]
+  },
+  {
+   "id": "451a833a-6004-5d0f-9d35-6e5dec21775e",
+   "lemma": "conference",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "conference"
+   ]
+  },
+  {
+   "id": "2ef09b87-cb49-5da4-a8b0-65e9550278a0",
+   "lemma": "conferencing",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "conferencing"
+   ]
+  },
+  {
+   "id": "075efea2-6a65-5236-aed5-10445d1a0a26",
+   "lemma": "confess",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "confess"
+   ]
+  },
+  {
+   "id": "13ef0878-3136-583a-9a02-a980c81a0649",
+   "lemma": "confession",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "confession"
+   ]
+  },
+  {
+   "id": "ec4b9f41-7002-571e-b12f-b27b11f803c5",
+   "lemma": "confidently",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "confidently"
+   ]
+  },
+  {
+   "id": "770b1479-28d5-5aa8-aa0d-b58c07acf33f",
+   "lemma": "confine",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "confine"
+   ]
+  },
+  {
+   "id": "2a49cc0c-a1d7-5526-ba4b-0abaf6cf24ce",
+   "lemma": "confront",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "confront"
+   ]
+  },
+  {
+   "id": "dd16f25f-b5a5-5687-b628-e98b12aecf28",
+   "lemma": "conjunction",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "conjunction"
+   ]
+  },
+  {
+   "id": "569a3a2b-29d5-57a9-839c-e2090e2ec586",
+   "lemma": "conquest",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "conquest"
+   ]
+  },
+  {
+   "id": "6d67af31-eb0e-5199-a4da-ade2bcb3eb30",
+   "lemma": "conscience",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "conscience"
+   ]
+  },
+  {
+   "id": "37aa0ae1-1bef-5930-a9f9-94719b080065",
+   "lemma": "consciousness",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "consciousness"
+   ]
+  },
+  {
+   "id": "a2c2425c-6d78-550b-83d4-d2d87a0ddf7e",
+   "lemma": "consensus",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "consensus"
+   ]
+  },
+  {
+   "id": "16d72f24-94c0-58d5-8da2-0dd74133b7cc",
+   "lemma": "consent",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "consent"
+   ]
+  },
+  {
+   "id": "299c5c69-3686-531b-863b-f05b3025df44",
+   "lemma": "considerably",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "considerably"
+   ]
+  },
+  {
+   "id": "3afb4bda-4088-5d89-8fcb-6593a7dfa4ce",
+   "lemma": "considering",
+   "pos": "conjunction",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "considering"
+   ]
+  },
+  {
+   "id": "a395e741-f2f9-5ab4-a254-112b52284466",
+   "lemma": "considering",
+   "pos": "preposition",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "considering"
+   ]
+  },
+  {
+   "id": "a0f3b321-8b94-51e5-8097-7ed341f25845",
+   "lemma": "consistent",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "consistent"
+   ]
+  },
+  {
+   "id": "75c41513-e9f9-57b7-b84f-83a45ca6d11d",
+   "lemma": "consolation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "consolation"
+   ]
+  },
+  {
+   "id": "5d62f198-00b7-564b-89e1-ef52abdaf8b0",
+   "lemma": "console",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "console"
+   ]
+  },
+  {
+   "id": "b2d7520d-c460-58b2-8bf8-6ed2213d2b52",
+   "lemma": "constant",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "constant"
+   ]
+  },
+  {
+   "id": "b79d4126-2ec2-587b-ac7c-6148b7f56a2c",
+   "lemma": "consult",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "consult"
+   ]
+  },
+  {
+   "id": "338b6cc9-c1f8-567e-86a6-11cfd1b94122",
+   "lemma": "consultant",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "consultant"
+   ]
+  },
+  {
+   "id": "3a5db223-5978-5f7a-b37c-8bfe2c429470",
+   "lemma": "contaminate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "contaminate"
+   ]
+  },
+  {
+   "id": "f658c058-554e-5577-81ce-e8d7f80f656a",
+   "lemma": "contemporary",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "contemporary"
+   ]
+  },
+  {
+   "id": "dec1631b-3e92-5276-b8e7-74921804330f",
+   "lemma": "contempt",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "contempt"
+   ]
+  },
+  {
+   "id": "28761e65-8589-53e7-ab61-307a976cb326",
+   "lemma": "content",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "content"
+   ]
+  },
+  {
+   "id": "c2900346-9083-5af5-8b55-2a8484ac3945",
+   "lemma": "contract",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "contract"
+   ]
+  },
+  {
+   "id": "04ea4c5a-3d70-5135-bb1b-baad70c2d3a4",
+   "lemma": "contradict",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "contradict"
+   ]
+  },
+  {
+   "id": "28ff7d62-64f2-5ffa-8ee7-e2a74a54e006",
+   "lemma": "contradiction",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "contradiction"
+   ]
+  },
+  {
+   "id": "73da5f0d-8b25-5545-88bd-ff2816729fc1",
+   "lemma": "contradictory",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "contradictory"
+   ]
+  },
+  {
+   "id": "9de0dcb5-c093-5761-82ca-155678c03a9c",
+   "lemma": "controversy",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "controversy"
+   ]
+  },
+  {
+   "id": "983b4f36-185f-5e6a-beda-8a5eb4da09ce",
+   "lemma": "conveniently",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "conveniently"
+   ]
+  },
+  {
+   "id": "48775b5f-c3ac-5a73-b0b5-675ed66a2549",
+   "lemma": "convention",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "convention"
+   ]
+  },
+  {
+   "id": "32710213-53fe-56a6-87bb-f7cd4058efe8",
+   "lemma": "conventional",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "conventional"
+   ]
+  },
+  {
+   "id": "3b678a02-162c-52b0-9383-3891e0f24cd9",
+   "lemma": "converse",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "converse"
+   ]
+  }
+ ]
+}

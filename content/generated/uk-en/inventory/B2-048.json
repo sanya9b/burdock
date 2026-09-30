@@ -1,0 +1,407 @@
+{
+ "chunk": "B2-048",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "c40746e9-0aa3-5abe-a5a0-a19eadf94765",
+   "lemma": "proponent",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "proponent"
+   ]
+  },
+  {
+   "id": "869ec9d9-ea9f-5e48-99b0-fe0d7d15b3d4",
+   "lemma": "proposed",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "proposed"
+   ]
+  },
+  {
+   "id": "99314f57-0b97-511f-bbcd-78198688a550",
+   "lemma": "prose",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prose"
+   ]
+  },
+  {
+   "id": "ab3557f0-fa3a-5340-ae6b-0935392012fa",
+   "lemma": "prosecute",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prosecute"
+   ]
+  },
+  {
+   "id": "7c320e11-dafd-58bd-adad-44e57d076231",
+   "lemma": "prospect",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prospect"
+   ]
+  },
+  {
+   "id": "dba6bc83-a2b1-5c57-84cc-c6d4ebdae28a",
+   "lemma": "prosper",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prosper"
+   ]
+  },
+  {
+   "id": "8551988f-2a63-5a17-bbb5-1799380812f6",
+   "lemma": "protest",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "protest"
+   ]
+  },
+  {
+   "id": "60aec072-f8a0-510f-9b82-5ae812c95a7e",
+   "lemma": "proudly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "proudly"
+   ]
+  },
+  {
+   "id": "a83eae66-ddee-5e8a-aa0a-1ff9b6673665",
+   "lemma": "proven",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "proven"
+   ]
+  },
+  {
+   "id": "7aea1f02-e941-54f8-b41b-7107079446da",
+   "lemma": "province",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "province"
+   ]
+  },
+  {
+   "id": "8131bedf-8557-5a46-8aad-c4b0e54353ba",
+   "lemma": "provision",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "provision"
+   ]
+  },
+  {
+   "id": "2a4163a3-a94f-5d6c-88ba-cc8fa0f87cd1",
+   "lemma": "proximity",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "proximity"
+   ]
+  },
+  {
+   "id": "f27bc227-9c43-5db8-9840-16dca370a90c",
+   "lemma": "psychologically",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "psychologically"
+   ]
+  },
+  {
+   "id": "143f38c7-d204-5c5d-a4a4-423ded325130",
+   "lemma": "psychology",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "psychology"
+   ]
+  },
+  {
+   "id": "80040bd4-3bff-5b0e-9f59-552fb6820321",
+   "lemma": "publication",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "publication"
+   ]
+  },
+  {
+   "id": "2cae58f9-244a-58a5-84a6-3b2195cbb5ce",
+   "lemma": "publicity",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "publicity"
+   ]
+  },
+  {
+   "id": "66a153a9-3259-521c-bf80-3d097b55e8ca",
+   "lemma": "publicize",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "publicize",
+    "publicise"
+   ]
+  },
+  {
+   "id": "1c429e9c-bade-5a50-b968-55b8bc79697d",
+   "lemma": "pudding",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pudding"
+   ]
+  },
+  {
+   "id": "df91f507-ecbe-53b0-aa06-a67c92d764e9",
+   "lemma": "pulse",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pulse"
+   ]
+  },
+  {
+   "id": "cd88c811-582b-51b3-983c-2d8a13b31af4",
+   "lemma": "pumpkin",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pumpkin"
+   ]
+  },
+  {
+   "id": "096d927a-5193-5805-b650-35a38fb5e4a5",
+   "lemma": "punch",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "punch"
+   ]
+  },
+  {
+   "id": "840eb060-ad33-5c01-bd60-d51e18f9935f",
+   "lemma": "punch",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "punch"
+   ]
+  },
+  {
+   "id": "f8557725-182a-51cd-b320-5461d7b0fa41",
+   "lemma": "punctual",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "punctual"
+   ]
+  },
+  {
+   "id": "e61af91d-fa3e-5831-bd29-f4fb31a0792d",
+   "lemma": "punctuality",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "punctuality"
+   ]
+  },
+  {
+   "id": "2fb45335-080e-52d7-9dea-0db2b3dd768c",
+   "lemma": "purchase",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "purchase"
+   ]
+  },
+  {
+   "id": "6ccc3d2a-6efc-5752-82de-74e21a26e939",
+   "lemma": "purchase",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "purchase"
+   ]
+  },
+  {
+   "id": "f787ebaa-ae77-5c06-849c-fccae67b0409",
+   "lemma": "purposeful",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "purposeful"
+   ]
+  },
+  {
+   "id": "9ccbb529-44d3-5f3d-8d24-72c397a50cfa",
+   "lemma": "pursuit",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pursuit"
+   ]
+  },
+  {
+   "id": "18e95f87-12aa-54a3-addd-8958011a5828",
+   "lemma": "puzzled",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "puzzled"
+   ]
+  },
+  {
+   "id": "50b194d0-de84-5ad9-9b57-d17dc3183541",
+   "lemma": "qualification",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "qualification"
+   ]
+  },
+  {
+   "id": "bb205b67-0ec1-5981-81e1-21df7239c6d9",
+   "lemma": "quantify",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "quantify"
+   ]
+  },
+  {
+   "id": "b73ccb4b-a9ff-5b80-9fd4-9a9ae4805b3d",
+   "lemma": "quarantine",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "quarantine"
+   ]
+  },
+  {
+   "id": "5f186ea6-bc32-5eb0-9cb4-c3d3e0f5d964",
+   "lemma": "quarrel",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "quarrel"
+   ]
+  },
+  {
+   "id": "2f2ab4ba-19d6-54e6-8adf-9549d400569b",
+   "lemma": "quarrel",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "quarrel"
+   ]
+  },
+  {
+   "id": "b7f41963-e283-58f9-ab94-46ef6606a672",
+   "lemma": "quarrelsome",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "quarrelsome"
+   ]
+  },
+  {
+   "id": "f8bb6e6c-88ef-565b-ba72-e68ae5f973c4",
+   "lemma": "queer",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "queer"
+   ]
+  },
+  {
+   "id": "73f28115-921b-5368-ae80-f5f4b95d66a7",
+   "lemma": "query",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "query"
+   ]
+  },
+  {
+   "id": "69f8e7ec-9cc5-59d3-82f7-bf1dcc72de40",
+   "lemma": "question",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "question"
+   ]
+  },
+  {
+   "id": "19033594-948e-5ca8-a4e9-8569de79ccbe",
+   "lemma": "queue",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "queue"
+   ]
+  },
+  {
+   "id": "72cac7e9-4027-59d2-bf15-428c52d49898",
+   "lemma": "quiet",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "quiet"
+   ]
+  }
+ ]
+}

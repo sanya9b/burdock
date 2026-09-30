@@ -1,0 +1,410 @@
+{
+ "chunk": "B2-025",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "7b5ddd7b-a6c9-5974-ad2e-4232555bc005",
+   "lemma": "forthcoming",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "forthcoming"
+   ]
+  },
+  {
+   "id": "682a5312-110c-510c-a005-c1e370d579a9",
+   "lemma": "foul",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "foul"
+   ]
+  },
+  {
+   "id": "7a0dd927-8b79-5626-8433-50e81d205cf7",
+   "lemma": "found",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "found"
+   ]
+  },
+  {
+   "id": "76282c0f-befd-53b3-8e90-9cbeaf41f8c9",
+   "lemma": "fox",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fox"
+   ]
+  },
+  {
+   "id": "2f861827-7f86-5dac-9fd3-7522182b71b4",
+   "lemma": "fragrance",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fragrance"
+   ]
+  },
+  {
+   "id": "7b408a59-b08a-5519-adf6-4473c3c0a0e3",
+   "lemma": "frame",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "frame"
+   ]
+  },
+  {
+   "id": "4204a5d6-ae9a-5b06-b935-f15eabafdb31",
+   "lemma": "frankly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "frankly"
+   ]
+  },
+  {
+   "id": "a51749ef-003a-546c-97b1-50e03593cdc9",
+   "lemma": "frantically",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "frantically"
+   ]
+  },
+  {
+   "id": "9ee04147-c636-5789-8994-f8e7737f9234",
+   "lemma": "fraud",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fraud"
+   ]
+  },
+  {
+   "id": "34ec7daf-b83a-5eed-959b-c05dd3561232",
+   "lemma": "freak",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "freak"
+   ]
+  },
+  {
+   "id": "b3b10580-a93e-559a-b465-3346a9320daa",
+   "lemma": "free",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "free"
+   ]
+  },
+  {
+   "id": "7f931ac6-e86e-5a2c-9b26-c7ab5389c139",
+   "lemma": "friendly",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "friendly"
+   ]
+  },
+  {
+   "id": "e4f36af7-7e91-5c87-96d0-4ba35fcc1895",
+   "lemma": "frigate",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "frigate"
+   ]
+  },
+  {
+   "id": "7d9efa87-da4b-51a7-8a63-fab80e7a2541",
+   "lemma": "frontier",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "frontier"
+   ]
+  },
+  {
+   "id": "05a12c99-0ef8-584d-bc96-ade19a59b849",
+   "lemma": "frugal",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "frugal"
+   ]
+  },
+  {
+   "id": "5e7b2c6b-482d-5ae2-862d-b3d2005dd0f3",
+   "lemma": "fulfill",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fulfill",
+    "fulfil"
+   ]
+  },
+  {
+   "id": "6ab064d7-0516-54c2-a086-5682b77df65b",
+   "lemma": "fume",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fume"
+   ]
+  },
+  {
+   "id": "5024be12-0245-5dcf-b925-99ccf289b8c0",
+   "lemma": "functional",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "functional"
+   ]
+  },
+  {
+   "id": "9dadc70e-7b78-5336-9177-3c0789184955",
+   "lemma": "functionality",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "functionality"
+   ]
+  },
+  {
+   "id": "5fc68473-2658-5dd7-be5b-192fa31bdb2d",
+   "lemma": "fundamental",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fundamental"
+   ]
+  },
+  {
+   "id": "b7023505-3e20-5ef1-aae0-23ad6e92b29a",
+   "lemma": "funk",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "funk"
+   ]
+  },
+  {
+   "id": "4e854445-d8ef-5db3-b147-0bbe3f8845bc",
+   "lemma": "funky",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "funky"
+   ]
+  },
+  {
+   "id": "c702c9d1-bc35-5c05-9abf-fa2dd23415ce",
+   "lemma": "furious",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "furious"
+   ]
+  },
+  {
+   "id": "191dc602-b326-5b56-844e-718d03bb27f4",
+   "lemma": "furiously",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "furiously"
+   ]
+  },
+  {
+   "id": "ae06d2be-4ff6-52b2-b7f8-e78d6a6de060",
+   "lemma": "furor",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "furor",
+    "furore"
+   ]
+  },
+  {
+   "id": "7926e397-2da3-56f9-96b2-69dcf9ba524d",
+   "lemma": "gaiety",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gaiety"
+   ]
+  },
+  {
+   "id": "8c024d79-92dd-5743-bf6d-45ddd2ec6db1",
+   "lemma": "gambling",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gambling"
+   ]
+  },
+  {
+   "id": "2f144246-909a-5566-a5bf-e424cb1a3776",
+   "lemma": "gang",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gang"
+   ]
+  },
+  {
+   "id": "559ad486-e4ab-5720-955c-84669273480e",
+   "lemma": "gangster",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gangster"
+   ]
+  },
+  {
+   "id": "9967814f-2bf9-5f59-8aa7-e5b4ab63ba03",
+   "lemma": "gardener",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gardener"
+   ]
+  },
+  {
+   "id": "902ebd79-01a4-521f-a614-08f7ddc5396c",
+   "lemma": "gasp",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gasp"
+   ]
+  },
+  {
+   "id": "356da400-44c9-53f3-98bf-0e83b5f33971",
+   "lemma": "gateway",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gateway"
+   ]
+  },
+  {
+   "id": "de0f9dd8-c32c-5f6d-8c7a-4b005e7dcfc1",
+   "lemma": "gaudy",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gaudy"
+   ]
+  },
+  {
+   "id": "954d77e4-c266-5756-adeb-b5bffd341233",
+   "lemma": "gaze",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gaze"
+   ]
+  },
+  {
+   "id": "41f64501-e6e0-5773-8ba0-d0211f2f0343",
+   "lemma": "gear",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gear"
+   ]
+  },
+  {
+   "id": "350837b8-4eeb-560c-897e-96f0efd3ecbd",
+   "lemma": "generalization",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "generalization",
+    "generalisation"
+   ]
+  },
+  {
+   "id": "a045ac39-cb26-59e8-bbb0-dc42b04ca453",
+   "lemma": "generalize",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "generalize",
+    "generalise"
+   ]
+  },
+  {
+   "id": "4ffed295-dafe-5d04-abe1-88a43f843a10",
+   "lemma": "generosity",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "generosity"
+   ]
+  },
+  {
+   "id": "91e71e0d-ea33-5368-a5fc-df87298b5114",
+   "lemma": "generously",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "generously"
+   ]
+  },
+  {
+   "id": "b73045b3-c6da-57de-a66b-d1117cc70582",
+   "lemma": "genius",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "genius"
+   ]
+  }
+ ]
+}

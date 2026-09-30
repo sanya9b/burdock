@@ -1,0 +1,407 @@
+{
+ "chunk": "A2-023",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "bc249338-e2cb-508f-b963-4237e046d02f",
+   "lemma": "pence",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pence"
+   ]
+  },
+  {
+   "id": "5e8cb1b5-a404-5e15-8867-5a0215f524a0",
+   "lemma": "penfriend",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "penfriend",
+    "pen friend"
+   ]
+  },
+  {
+   "id": "04f55f8b-2d82-539e-9be4-42176c06a27d",
+   "lemma": "pepper",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "9895d491-e9ec-5aee-8578-bbead12de6ae",
+   "lemma": "perfect",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "perfect"
+   ]
+  },
+  {
+   "id": "6e8ef0ce-b031-57ec-94fb-daa4e5a90e2f",
+   "lemma": "perfectly",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "perfectly"
+   ]
+  },
+  {
+   "id": "a4bfb67b-ce9c-5889-94c7-b0fcb72ccfc6",
+   "lemma": "perform",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "perform"
+   ]
+  },
+  {
+   "id": "be14064c-57c7-5d2a-b408-5d88b260a3c7",
+   "lemma": "performance",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "performance"
+   ]
+  },
+  {
+   "id": "c9b873cb-f475-5e43-a4e3-fb580cb0fb0b",
+   "lemma": "perfume",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "perfume"
+   ]
+  },
+  {
+   "id": "a8c4bcb6-fa6c-5040-8fd4-fbf75bdbb96c",
+   "lemma": "perhaps",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "perhaps"
+   ]
+  },
+  {
+   "id": "2f50d5c9-148f-575e-8ed2-6479f6bfc5ad",
+   "lemma": "permission",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "permission"
+   ]
+  },
+  {
+   "id": "6a6f8bdd-6b27-51c4-928f-d92c54de6e64",
+   "lemma": "personality",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "personality"
+   ]
+  },
+  {
+   "id": "a686448e-698e-5219-a7de-1d66f1e306e5",
+   "lemma": "petrol",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "petrol"
+   ]
+  },
+  {
+   "id": "0c45e97f-7f4d-55ca-9cff-7aeb401132c5",
+   "lemma": "petrol station",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "petrol station"
+   ]
+  },
+  {
+   "id": "ed56009d-4aff-559e-99b8-14d61d2dce00",
+   "lemma": "photograph",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "photograph"
+   ]
+  },
+  {
+   "id": "b6ef891c-cce6-5888-bfc3-3b48767a8c61",
+   "lemma": "photographer",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "photographer"
+   ]
+  },
+  {
+   "id": "e010161d-1c4d-5b33-8589-893d19b8393c",
+   "lemma": "photography",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "photography"
+   ]
+  },
+  {
+   "id": "2da47d20-2b15-5c5f-99b2-647795458f45",
+   "lemma": "physical",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "physical"
+   ]
+  },
+  {
+   "id": "2d97567d-10d5-5db6-bb9e-ec0566e3b862",
+   "lemma": "physically",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "physically"
+   ]
+  },
+  {
+   "id": "5179326e-55eb-53f0-9340-ee81a31a1ce8",
+   "lemma": "pile",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pile"
+   ]
+  },
+  {
+   "id": "6e074c2e-9484-590f-9c4d-4f4987be231c",
+   "lemma": "pilgrim",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pilgrim"
+   ]
+  },
+  {
+   "id": "094b8893-a4b2-5a12-92e2-d08fcc204ac6",
+   "lemma": "pill",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pill"
+   ]
+  },
+  {
+   "id": "65744d27-bd16-555d-87cc-1128facd67cd",
+   "lemma": "pilot",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pilot"
+   ]
+  },
+  {
+   "id": "b27d8fc0-293b-5c0e-83a6-5901e6a9d0b4",
+   "lemma": "pink",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pink"
+   ]
+  },
+  {
+   "id": "477cac7d-eb1c-54c2-ae67-61769058a325",
+   "lemma": "pity",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pity"
+   ]
+  },
+  {
+   "id": "765dde6c-af43-5210-84b4-961dc9fc2165",
+   "lemma": "planet",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "planet"
+   ]
+  },
+  {
+   "id": "eec35f01-a69c-5033-8d67-f4328b098506",
+   "lemma": "plant",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "plant"
+   ]
+  },
+  {
+   "id": "6ea068e6-304e-512f-b23d-ff65947183ef",
+   "lemma": "plastic",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "plastic"
+   ]
+  },
+  {
+   "id": "0cd64e47-83a0-5c5b-b8f3-9c5356d7c788",
+   "lemma": "plate",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "plate"
+   ]
+  },
+  {
+   "id": "138b26d9-13fe-5b1b-a81b-154d0ac59685",
+   "lemma": "playful",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "playful"
+   ]
+  },
+  {
+   "id": "d3f1f8ce-61cc-5c60-8544-be5d15a9bb36",
+   "lemma": "playground",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "playground"
+   ]
+  },
+  {
+   "id": "5c8079e1-5963-528c-a67d-3ece8072ec5b",
+   "lemma": "pleasant",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pleasant"
+   ]
+  },
+  {
+   "id": "8121f629-4a74-5328-9375-550f75694198",
+   "lemma": "pleased",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pleased"
+   ]
+  },
+  {
+   "id": "01854439-c77e-5c1f-9155-04647c7d458c",
+   "lemma": "pleasing",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pleasing"
+   ]
+  },
+  {
+   "id": "f11d7de4-b204-5470-ac7f-f8ad2781ef5c",
+   "lemma": "plenty",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "plenty"
+   ]
+  },
+  {
+   "id": "a184a108-db2c-5299-b17d-f5998228ed17",
+   "lemma": "plural",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "plural"
+   ]
+  },
+  {
+   "id": "2f357fd8-b0ed-55ee-9897-3723656bc0fc",
+   "lemma": "plus",
+   "pos": "preposition",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "plus"
+   ]
+  },
+  {
+   "id": "fb713e9b-5fd5-58f1-bed0-3bd659c03818",
+   "lemma": "point",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "point"
+   ]
+  },
+  {
+   "id": "eec1071d-b3cf-5a63-ab98-a3eb78ecf328",
+   "lemma": "police",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "police"
+   ]
+  },
+  {
+   "id": "64d28bd6-be54-54d0-aee3-b4977236cacd",
+   "lemma": "police officer",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "police officer"
+   ]
+  },
+  {
+   "id": "ec34352b-042d-57b0-a09c-fc470b8a6a11",
+   "lemma": "police station",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "police station"
+   ]
+  }
+ ]
+}

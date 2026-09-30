@@ -1,0 +1,407 @@
+{
+ "chunk": "B2-060",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "f1fd8c80-e547-54ed-8bfc-375520b91fe2",
+   "lemma": "subjunctive",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "subjunctive"
+   ]
+  },
+  {
+   "id": "55ea29eb-b95f-5327-8091-e44a0bd4df77",
+   "lemma": "submit",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "submit"
+   ]
+  },
+  {
+   "id": "28a420fb-4bfa-53c4-ba85-d3b041598d15",
+   "lemma": "subplot",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "subplot"
+   ]
+  },
+  {
+   "id": "15df7d9f-fba8-5db7-8aeb-3173afc66fc7",
+   "lemma": "subside",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "subside"
+   ]
+  },
+  {
+   "id": "bdf60644-1efb-56a2-b914-b85c7024d255",
+   "lemma": "substance",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "substance"
+   ]
+  },
+  {
+   "id": "1f199f08-52bc-57f2-8bde-064c1d6c4830",
+   "lemma": "substitute",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "substitute"
+   ]
+  },
+  {
+   "id": "fd4243f1-d484-5b79-bcd0-fe2d4df5e117",
+   "lemma": "subtitle",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "subtitle"
+   ]
+  },
+  {
+   "id": "7f3ae105-31ba-5902-9113-dc7893eb16ec",
+   "lemma": "subtle",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "subtle"
+   ]
+  },
+  {
+   "id": "a6cc3aff-af87-545f-a686-c6b0845a2169",
+   "lemma": "subtract",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "subtract"
+   ]
+  },
+  {
+   "id": "c47935d2-f18d-5d88-8982-f1a064fbb3ee",
+   "lemma": "suburb",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "suburb"
+   ]
+  },
+  {
+   "id": "2ddea4e4-97bd-52f0-be28-f4d8b5f5270c",
+   "lemma": "successive",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "successive"
+   ]
+  },
+  {
+   "id": "d5f0bb08-db01-553a-99c7-6068093a5661",
+   "lemma": "suck",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "suck"
+   ]
+  },
+  {
+   "id": "432882ae-4b2b-5609-a192-67bfe79e97cf",
+   "lemma": "sue",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sue"
+   ]
+  },
+  {
+   "id": "2116f041-5b76-5fdc-bd14-588dba87c068",
+   "lemma": "suffering",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "suffering"
+   ]
+  },
+  {
+   "id": "df4f2bd4-911e-54d8-85c3-8fb354ccc54d",
+   "lemma": "sufficiently",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sufficiently"
+   ]
+  },
+  {
+   "id": "01e4ac34-7bf3-5060-9d05-d61b383173ae",
+   "lemma": "suitably",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "suitably"
+   ]
+  },
+  {
+   "id": "d6a1c3ba-c34a-5d42-8e62-ea1e7d913151",
+   "lemma": "sulfur",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sulfur",
+    "sulphur"
+   ]
+  },
+  {
+   "id": "2deeb207-e95d-52a4-813a-59efa065c2e4",
+   "lemma": "sunbeam",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sunbeam"
+   ]
+  },
+  {
+   "id": "477d81f3-b05a-574f-9ae5-810e9416cd2b",
+   "lemma": "superb",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "superb"
+   ]
+  },
+  {
+   "id": "68b9afc2-73ef-57da-a99e-1fd1b5aff3c0",
+   "lemma": "superintendent",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "superintendent"
+   ]
+  },
+  {
+   "id": "01f64e09-585d-502f-95d6-967302984ee0",
+   "lemma": "supernatural",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "supernatural"
+   ]
+  },
+  {
+   "id": "3070a7bd-3ca5-5077-be62-84267449d901",
+   "lemma": "supervise",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "supervise"
+   ]
+  },
+  {
+   "id": "2f2a986a-73ec-5635-b7cc-c0cab8da1f90",
+   "lemma": "supervision",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "supervision"
+   ]
+  },
+  {
+   "id": "4920067c-624f-55ca-9260-210ff1cf382f",
+   "lemma": "supervisor",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "supervisor"
+   ]
+  },
+  {
+   "id": "0c48894c-82a5-59d7-9e86-c22c19f2a7eb",
+   "lemma": "supplement",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "supplement"
+   ]
+  },
+  {
+   "id": "1957dd7a-b403-5663-9574-e68e0f703c45",
+   "lemma": "supplier",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "supplier"
+   ]
+  },
+  {
+   "id": "36f923f5-33be-57cb-bd73-1e9fd72469e6",
+   "lemma": "supply",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "supply"
+   ]
+  },
+  {
+   "id": "732075cc-44e7-5931-9c44-0fa2ea5e034e",
+   "lemma": "suppress",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "suppress"
+   ]
+  },
+  {
+   "id": "23269a41-7843-5b02-a77d-f3ece307a140",
+   "lemma": "surge",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "surge"
+   ]
+  },
+  {
+   "id": "2fde5bb4-4e20-5dba-9324-404086ad0981",
+   "lemma": "surrender",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "surrender"
+   ]
+  },
+  {
+   "id": "6f1d6c6f-d982-5856-a3d4-99c69d692a2b",
+   "lemma": "surroundings",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "surroundings"
+   ]
+  },
+  {
+   "id": "45cb4074-29be-5ac0-8eec-7e5d4cf5b28b",
+   "lemma": "surveillance",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "surveillance"
+   ]
+  },
+  {
+   "id": "58742b0a-9489-55d8-917f-cab4315340be",
+   "lemma": "suspect",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "suspect"
+   ]
+  },
+  {
+   "id": "346cc873-78c1-593f-a33d-ef92f0a9d226",
+   "lemma": "suspend",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "suspend"
+   ]
+  },
+  {
+   "id": "52c03788-1f39-5afb-b61c-c5a5f5e7a9ff",
+   "lemma": "suspicious",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "suspicious"
+   ]
+  },
+  {
+   "id": "0e49851d-28d3-5ed2-9112-58d24a9a933d",
+   "lemma": "suspiciously",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "suspiciously"
+   ]
+  },
+  {
+   "id": "f65f5cbb-7287-5a5e-acfe-e2c275bf833b",
+   "lemma": "sustain",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sustain"
+   ]
+  },
+  {
+   "id": "296d44b6-2db9-5282-b82a-5516070b68f3",
+   "lemma": "swan",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "swan"
+   ]
+  },
+  {
+   "id": "a0664650-c521-59b9-893d-516f2a54f7da",
+   "lemma": "sweep",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sweep"
+   ]
+  },
+  {
+   "id": "ddf3155b-1c3a-5a24-a8da-9418da9c95b0",
+   "lemma": "swift",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "swift"
+   ]
+  }
+ ]
+}

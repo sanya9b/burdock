@@ -1,0 +1,406 @@
+{
+ "chunk": "B2-043",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "f41c65d5-2bec-5d4f-b940-68ec5822296f",
+   "lemma": "pancake",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pancake"
+   ]
+  },
+  {
+   "id": "ec32d0b2-4c6b-5fed-91f7-8d56652609ec",
+   "lemma": "pandemic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pandemic"
+   ]
+  },
+  {
+   "id": "47fb8a4b-0b8b-50b3-b7e7-83ecc4df3b0a",
+   "lemma": "panel",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "panel"
+   ]
+  },
+  {
+   "id": "0debbbc9-71fd-57ee-97a7-58a35d685402",
+   "lemma": "panic",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "panic"
+   ]
+  },
+  {
+   "id": "ac05ee75-5181-54bd-8957-6f241dfa2585",
+   "lemma": "papaya",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "papaya"
+   ]
+  },
+  {
+   "id": "4f5e533c-f982-5a59-97d5-ffbe5e81bcd6",
+   "lemma": "paperless",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "paperless"
+   ]
+  },
+  {
+   "id": "c64b4bbe-4eb8-5758-a88a-80b0af3736e8",
+   "lemma": "paperwork",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "paperwork"
+   ]
+  },
+  {
+   "id": "a1157829-ff1d-5707-bab1-4801e171b3e7",
+   "lemma": "parade",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "parade"
+   ]
+  },
+  {
+   "id": "21a1454c-b77c-548e-bb5b-7fc9a15729de",
+   "lemma": "paradox",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "paradox"
+   ]
+  },
+  {
+   "id": "ed8d7440-0bf8-52d3-9e0e-63dea4be5d79",
+   "lemma": "paralysis",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "paralysis"
+   ]
+  },
+  {
+   "id": "3b2ab891-8ba5-5986-b2b0-a718182bce32",
+   "lemma": "paramedic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "paramedic"
+   ]
+  },
+  {
+   "id": "150e38e2-058a-5410-a998-70d34a193270",
+   "lemma": "paratrooper",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "paratrooper"
+   ]
+  },
+  {
+   "id": "dc390e76-46bc-526f-aea2-1ce1913d12ea",
+   "lemma": "parliament",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "parliament"
+   ]
+  },
+  {
+   "id": "571fdbac-2bcb-51c9-a337-11404ef2f537",
+   "lemma": "part",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "part"
+   ]
+  },
+  {
+   "id": "f2c72515-cbbf-53ce-8272-b44ff9e289cb",
+   "lemma": "participation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "participation"
+   ]
+  },
+  {
+   "id": "b2fb71ac-f552-56ad-88c4-299a3bcae9d1",
+   "lemma": "particle",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "particle"
+   ]
+  },
+  {
+   "id": "fc27c2b4-5816-5d81-887f-d47d43a7d569",
+   "lemma": "particular",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "particular"
+   ]
+  },
+  {
+   "id": "94f61578-0437-5ecf-b3b0-0800a4ba802a",
+   "lemma": "partisan",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "partisan"
+   ]
+  },
+  {
+   "id": "262b4cd6-f71e-52ed-999a-b2cf928fc371",
+   "lemma": "partnership",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "partnership"
+   ]
+  },
+  {
+   "id": "506f8e52-4589-5698-8d05-0495a62034dc",
+   "lemma": "passionate",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "passionate"
+   ]
+  },
+  {
+   "id": "2a170350-aadc-5a7b-ac02-db662b0783bc",
+   "lemma": "passionately",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "passionately"
+   ]
+  },
+  {
+   "id": "ad2d86ef-7c3f-5868-8549-138d3ec6cb55",
+   "lemma": "pastor",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pastor"
+   ]
+  },
+  {
+   "id": "21b1b2c5-d55b-5594-b715-e68e06001d05",
+   "lemma": "pastoral",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pastoral"
+   ]
+  },
+  {
+   "id": "06591d37-f893-5e3d-99a8-556002333459",
+   "lemma": "patch",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "patch"
+   ]
+  },
+  {
+   "id": "bb21982f-c15c-5d76-8df0-0c0eef794881",
+   "lemma": "patiently",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "patiently"
+   ]
+  },
+  {
+   "id": "813f6d8d-c305-543e-995e-c322a3d660c3",
+   "lemma": "patriot",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "patriot"
+   ]
+  },
+  {
+   "id": "4e69c1f6-bb71-50b0-ad7e-ea95f41f232d",
+   "lemma": "patriotic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "patriotic"
+   ]
+  },
+  {
+   "id": "47fb0106-694f-55eb-92f9-8792ec7d07ed",
+   "lemma": "patriotism",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "patriotism"
+   ]
+  },
+  {
+   "id": "81042527-4719-50e6-9928-12fa7081b791",
+   "lemma": "patron",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "patron"
+   ]
+  },
+  {
+   "id": "f6cd375c-5d0d-5240-a094-e96d587d1ec1",
+   "lemma": "pave",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pave"
+   ]
+  },
+  {
+   "id": "774a9264-4851-5764-a6bd-8853da2b6d37",
+   "lemma": "pavement",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pavement"
+   ]
+  },
+  {
+   "id": "6131d59b-ea3d-5edf-bbc1-f7c559440017",
+   "lemma": "paw",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "paw"
+   ]
+  },
+  {
+   "id": "1f1349e5-ffcd-5b89-9aff-5208b811a183",
+   "lemma": "pawnbroker",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pawnbroker"
+   ]
+  },
+  {
+   "id": "d313ad42-ccee-543a-95fc-97be96365907",
+   "lemma": "pawnshop",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pawnshop"
+   ]
+  },
+  {
+   "id": "d3d26d56-37b3-53b6-bf45-860736f6e857",
+   "lemma": "payment",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "payment"
+   ]
+  },
+  {
+   "id": "2f844507-7f5e-5c33-8259-0a50d3fcad9c",
+   "lemma": "peacefully",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "peacefully"
+   ]
+  },
+  {
+   "id": "d987335b-1e25-518a-a006-80fafb530dd9",
+   "lemma": "peach",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "peach"
+   ]
+  },
+  {
+   "id": "df999cdd-a8dc-5ed8-837e-2effb13881d7",
+   "lemma": "peak",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "peak"
+   ]
+  },
+  {
+   "id": "d6b2d8aa-1eca-58dd-ad69-94eb6d58154b",
+   "lemma": "pearl",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pearl"
+   ]
+  },
+  {
+   "id": "71e879e5-f3e5-56c8-8768-85faf8165a5e",
+   "lemma": "pebble",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pebble"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,409 @@
+{
+ "chunk": "A1-017",
+ "level": "A1",
+ "lexemes": [
+  {
+   "id": "4cbc0ea4-399f-5427-8a8a-a7491d3f3397",
+   "lemma": "monkey",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "monkey"
+   ]
+  },
+  {
+   "id": "cddce46a-8419-527c-8a1f-fe14cd8bbb6e",
+   "lemma": "month",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "month"
+   ]
+  },
+  {
+   "id": "4da1af62-2278-5fd5-96cb-eeefbfca5027",
+   "lemma": "moon",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "moon"
+   ]
+  },
+  {
+   "id": "945cdbc2-0664-5829-9648-7b7a1529eef9",
+   "lemma": "more",
+   "pos": "determiner",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "more"
+   ]
+  },
+  {
+   "id": "4502e98d-2d63-58aa-bba5-53e4eff5cbf5",
+   "lemma": "more",
+   "pos": "pronoun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "more"
+   ]
+  },
+  {
+   "id": "a17f2557-f0f5-5610-a257-22f13069fe35",
+   "lemma": "morning",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "morning"
+   ]
+  },
+  {
+   "id": "7ae26c1a-9932-5abd-a241-e612ef0ff05b",
+   "lemma": "most",
+   "pos": "determiner",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "most"
+   ]
+  },
+  {
+   "id": "bc928ca9-7e1e-5f86-a179-01805ec4292d",
+   "lemma": "mother",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mother"
+   ]
+  },
+  {
+   "id": "6fe2ed9c-86f5-5144-8c89-9b716f1be97e",
+   "lemma": "mountain",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mountain"
+   ]
+  },
+  {
+   "id": "aef75e22-af40-56ed-bed6-169bde768063",
+   "lemma": "mouse",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mouse"
+   ]
+  },
+  {
+   "id": "b8f0e114-635d-5c93-8072-3feffe8ce090",
+   "lemma": "mouth",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mouth"
+   ]
+  },
+  {
+   "id": "4a2f8c85-7e07-5fa2-8b34-26f3982b6411",
+   "lemma": "move",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "move"
+   ]
+  },
+  {
+   "id": "648f94bf-1de0-5220-871e-3ec760740f67",
+   "lemma": "movie",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "movie"
+   ]
+  },
+  {
+   "id": "02270cd3-8a23-5a54-87ec-ed41f346dc1d",
+   "lemma": "Mr.",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mr.",
+    "mr"
+   ]
+  },
+  {
+   "id": "5f1c18ce-b877-5658-ad7b-21e05a85859e",
+   "lemma": "Mrs.",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mrs.",
+    "mrs"
+   ]
+  },
+  {
+   "id": "dd5824d4-d2a0-5cbc-a8af-67c6bcabbded",
+   "lemma": "much",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "much"
+   ]
+  },
+  {
+   "id": "279fd6d3-4f30-542d-84c4-fd1716841c23",
+   "lemma": "much",
+   "pos": "determiner",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "much"
+   ]
+  },
+  {
+   "id": "4331b298-666b-5583-9b9d-613b2ff7298f",
+   "lemma": "much",
+   "pos": "pronoun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "much"
+   ]
+  },
+  {
+   "id": "28b299d0-3aa4-5154-bac7-4b411d654844",
+   "lemma": "mum",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mum"
+   ]
+  },
+  {
+   "id": "732b8ab7-389c-5940-9c1a-a87c0df8af47",
+   "lemma": "music",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "music"
+   ]
+  },
+  {
+   "id": "9531772c-8c92-568a-bc81-8b81dbe0db8b",
+   "lemma": "musician",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "musician"
+   ]
+  },
+  {
+   "id": "c5451270-f5cd-568c-9e6d-006dad6ee79c",
+   "lemma": "must",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "must"
+   ]
+  },
+  {
+   "id": "d4fe5e28-f279-5d2d-9e7a-91760b90ede7",
+   "lemma": "my",
+   "pos": "determiner",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "my"
+   ]
+  },
+  {
+   "id": "683b3783-2e75-50e0-88d8-bc5b0be25aa0",
+   "lemma": "name",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "name"
+   ]
+  },
+  {
+   "id": "280cd38f-1491-532a-80b9-c3c6579b27c1",
+   "lemma": "nationality",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nationality"
+   ]
+  },
+  {
+   "id": "e3b9b098-a282-5990-a0d0-47d9c0ed809a",
+   "lemma": "near",
+   "pos": "preposition",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "near"
+   ]
+  },
+  {
+   "id": "78e3edfe-31f5-5584-8aef-cf9ba21cbacc",
+   "lemma": "neck",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "neck"
+   ]
+  },
+  {
+   "id": "d5284f58-f72f-54a9-a10e-ee98febbfbaa",
+   "lemma": "need",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "need"
+   ]
+  },
+  {
+   "id": "c5c65e7e-161b-50ef-b4ee-1ed1b9b5256c",
+   "lemma": "neighbor",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "neighbor",
+    "neighbour"
+   ]
+  },
+  {
+   "id": "271d2d12-37f2-51f8-9ca8-e58b74fe64a1",
+   "lemma": "never",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "never"
+   ]
+  },
+  {
+   "id": "fbc325fd-b73d-5738-b6b6-94bc93355710",
+   "lemma": "new",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "new"
+   ]
+  },
+  {
+   "id": "644a014b-df53-5824-8256-169cdc374e51",
+   "lemma": "news",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "news"
+   ]
+  },
+  {
+   "id": "1e361dc4-f377-5188-bbad-63cf27b3e000",
+   "lemma": "newspaper",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "newspaper"
+   ]
+  },
+  {
+   "id": "250f2f33-4b8f-5bd6-8c00-4c4b6d9f8bf3",
+   "lemma": "nice",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nice"
+   ]
+  },
+  {
+   "id": "0256d67f-933b-5d04-9fff-a5d49e4d4d4a",
+   "lemma": "night",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "night"
+   ]
+  },
+  {
+   "id": "44307507-77d9-5bc4-9231-988a797b39b0",
+   "lemma": "nine",
+   "pos": "numeral",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nine"
+   ]
+  },
+  {
+   "id": "ed1aed79-76bd-5e24-a2da-72be2ea923dd",
+   "lemma": "nineteen",
+   "pos": "numeral",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nineteen"
+   ]
+  },
+  {
+   "id": "b25e4b6c-3768-5838-8c28-86a18be9557a",
+   "lemma": "ninety",
+   "pos": "numeral",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ninety"
+   ]
+  },
+  {
+   "id": "e7f8fece-4c5c-5021-a4d2-a4c4e8bbfa28",
+   "lemma": "no",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "no"
+   ]
+  },
+  {
+   "id": "25def46e-d8d1-5266-8ff7-fcbf8d52f492",
+   "lemma": "no",
+   "pos": "determiner",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "no"
+   ]
+  }
+ ]
+}

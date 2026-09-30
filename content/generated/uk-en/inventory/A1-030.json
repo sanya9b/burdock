@@ -1,0 +1,26 @@
+{
+ "chunk": "A1-030",
+ "level": "A1",
+ "lexemes": [
+  {
+   "id": "a1f1d365-4e6e-51e7-9e23-5de72f8d5fe2",
+   "lemma": "yourself",
+   "pos": "pronoun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "yourself"
+   ]
+  },
+  {
+   "id": "9a2e5490-a9fc-5605-b8d0-212293c47e37",
+   "lemma": "zoo",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "zoo"
+   ]
+  }
+ ]
+}

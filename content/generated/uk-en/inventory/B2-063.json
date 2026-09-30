@@ -1,0 +1,406 @@
+{
+ "chunk": "B2-063",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "3d80ea29-a1bb-51b1-8033-0c587008c25a",
+   "lemma": "toll",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "toll"
+   ]
+  },
+  {
+   "id": "43a0a7a8-3a79-54b3-951c-4e01ed1b4ca7",
+   "lemma": "tomb",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tomb"
+   ]
+  },
+  {
+   "id": "6d9b2086-a605-58e6-b3da-f7d05de5ef82",
+   "lemma": "ton",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ton"
+   ]
+  },
+  {
+   "id": "8b90aa19-f17c-59de-94b1-13a4a52c2856",
+   "lemma": "tonne",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tonne"
+   ]
+  },
+  {
+   "id": "4cd0ba7a-03bb-5a77-bdfe-407698cf63fe",
+   "lemma": "torch",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "torch"
+   ]
+  },
+  {
+   "id": "de19aead-9157-5e34-a516-7fd5d4184baa",
+   "lemma": "tortoiseshell",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tortoiseshell"
+   ]
+  },
+  {
+   "id": "012862a4-57e6-5b49-94bb-1134b1a17ca9",
+   "lemma": "torture",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "torture"
+   ]
+  },
+  {
+   "id": "dd86945f-846e-5942-a1bd-5282916d886a",
+   "lemma": "tough",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tough"
+   ]
+  },
+  {
+   "id": "882a2185-2398-520d-8454-ea0d4816c162",
+   "lemma": "toxic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "toxic"
+   ]
+  },
+  {
+   "id": "82b9976a-e9e7-539a-95fe-421f08dbc60f",
+   "lemma": "trace",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "trace"
+   ]
+  },
+  {
+   "id": "718c4091-4adb-579d-8d68-cb48e9701d34",
+   "lemma": "track",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "track"
+   ]
+  },
+  {
+   "id": "d8836a91-1df3-596a-92fd-7ec7d2458798",
+   "lemma": "trade",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "trade"
+   ]
+  },
+  {
+   "id": "1e564640-ac13-58bc-9f23-654e18c1f280",
+   "lemma": "trader",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "trader"
+   ]
+  },
+  {
+   "id": "d280b012-8aca-5031-96c6-c7e5b1240f32",
+   "lemma": "trail",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "trail"
+   ]
+  },
+  {
+   "id": "b3ba136b-10a5-598a-bc41-34d477a6a27b",
+   "lemma": "trailer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "trailer"
+   ]
+  },
+  {
+   "id": "9137c348-b3c9-580e-a1c1-e375ee9d8214",
+   "lemma": "trainee",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "trainee"
+   ]
+  },
+  {
+   "id": "9f5bed96-b5de-5407-9b05-cec63b3d5edc",
+   "lemma": "trainer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "trainer"
+   ]
+  },
+  {
+   "id": "f6ffc4b1-9841-53fb-91b6-fd35ee434a1c",
+   "lemma": "trait",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "trait"
+   ]
+  },
+  {
+   "id": "c788fa5a-44dd-5fe1-960a-64fcd5d3c3bc",
+   "lemma": "traitor",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "traitor"
+   ]
+  },
+  {
+   "id": "8a744858-0d80-5059-b653-535cd59b5814",
+   "lemma": "tramp",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tramp"
+   ]
+  },
+  {
+   "id": "5befed9c-e005-5af7-8139-0497e05acdfd",
+   "lemma": "trample",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "trample"
+   ]
+  },
+  {
+   "id": "8578288a-3ff9-5680-ac8b-c0e9876a375b",
+   "lemma": "transcript",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "transcript"
+   ]
+  },
+  {
+   "id": "aa3f9dc7-3bbe-5ea8-b71c-8045099c8303",
+   "lemma": "transfer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "transfer"
+   ]
+  },
+  {
+   "id": "c3b027f4-e832-5824-a6ef-0c707cffe172",
+   "lemma": "transfusion",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "transfusion"
+   ]
+  },
+  {
+   "id": "25da983f-1459-5809-941f-09aca23ea25a",
+   "lemma": "transient",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "transient"
+   ]
+  },
+  {
+   "id": "da893b3d-569d-522a-a75e-88a63110d8ba",
+   "lemma": "transistor",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "transistor"
+   ]
+  },
+  {
+   "id": "4f102371-0ce4-5c7c-baea-a2c1eb985839",
+   "lemma": "transition",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "transition"
+   ]
+  },
+  {
+   "id": "4347d852-261b-5ea7-a0d1-20b71f0bf8a4",
+   "lemma": "transitive",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "transitive"
+   ]
+  },
+  {
+   "id": "50bb68f3-1573-5b59-8670-0e34e4602e17",
+   "lemma": "translation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "translation"
+   ]
+  },
+  {
+   "id": "16d2b4b6-374e-500d-9b05-52a34c9d8fe7",
+   "lemma": "translator",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "translator"
+   ]
+  },
+  {
+   "id": "1a2016d1-ea20-5ac6-8681-2016a1648146",
+   "lemma": "transmission",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "transmission"
+   ]
+  },
+  {
+   "id": "0c9f16ef-c4c6-5d1e-8c90-54dbd94d620e",
+   "lemma": "transmit",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "transmit"
+   ]
+  },
+  {
+   "id": "438a90b5-0975-5606-b09b-e2a3bfde2bd6",
+   "lemma": "transparent",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "transparent"
+   ]
+  },
+  {
+   "id": "4ad8b3d4-0c7d-5128-af3d-ebea8cf3f3ce",
+   "lemma": "transport",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "transport"
+   ]
+  },
+  {
+   "id": "bc500a4a-4765-5ae6-b6b7-2e28de0f7048",
+   "lemma": "traverse",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "traverse"
+   ]
+  },
+  {
+   "id": "5e05d1e5-b3a4-597b-9340-572810c25e7a",
+   "lemma": "tray",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tray"
+   ]
+  },
+  {
+   "id": "611c2abd-5e0e-5a0e-8ce6-ae48f1b2567b",
+   "lemma": "tread",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tread"
+   ]
+  },
+  {
+   "id": "de6fa7b9-b3d4-59a7-b363-2c7ab7760c51",
+   "lemma": "treat",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "treat"
+   ]
+  },
+  {
+   "id": "599a544d-7c24-5ca8-94f7-1c3aedd3d21c",
+   "lemma": "treaty",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "treaty"
+   ]
+  },
+  {
+   "id": "8b0dd339-37af-5d3d-a1ca-95b352258aed",
+   "lemma": "trek",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "trek"
+   ]
+  }
+ ]
+}

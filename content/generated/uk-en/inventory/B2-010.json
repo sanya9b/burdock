@@ -1,0 +1,406 @@
+{
+ "chunk": "B2-010",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "e0905faf-aa49-5dc8-a37c-e244be8b06d9",
+   "lemma": "chop",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "chop"
+   ]
+  },
+  {
+   "id": "10727448-82b7-5a16-af80-b9738980f123",
+   "lemma": "chunk",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "chunk"
+   ]
+  },
+  {
+   "id": "edf5eb09-c5be-5c4b-ac2b-850a86956e1d",
+   "lemma": "circuit",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "circuit"
+   ]
+  },
+  {
+   "id": "44e5c10f-93fd-5157-baf6-21b9e527156d",
+   "lemma": "circuitry",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "circuitry"
+   ]
+  },
+  {
+   "id": "47e6a560-d724-5ce7-ad1c-7bf0f10209e7",
+   "lemma": "circumstance",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "circumstance"
+   ]
+  },
+  {
+   "id": "315bdca8-934a-5a30-9f7b-f6452f1159f3",
+   "lemma": "citywide",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "citywide"
+   ]
+  },
+  {
+   "id": "fd415b2c-c676-5d48-a66d-f6287c20d7aa",
+   "lemma": "clam",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "clam"
+   ]
+  },
+  {
+   "id": "767e5c44-de30-51bc-ac15-2a1dd7e34e06",
+   "lemma": "clap",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "clap"
+   ]
+  },
+  {
+   "id": "bc4fe5a0-d5b9-55b1-901f-c17dde67c70e",
+   "lemma": "clarify",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "clarify"
+   ]
+  },
+  {
+   "id": "38d351ff-b97a-5708-b99a-8f491158399d",
+   "lemma": "classic",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "classic"
+   ]
+  },
+  {
+   "id": "6f1f679a-87fd-5777-a396-8c5e9b24c14e",
+   "lemma": "classification",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "classification"
+   ]
+  },
+  {
+   "id": "f1405743-8ee6-54a3-beb8-d39ee0316fdf",
+   "lemma": "clause",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "clause"
+   ]
+  },
+  {
+   "id": "a8bac86b-949e-5a66-abcf-2ff174c0d039",
+   "lemma": "clearness",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "clearness"
+   ]
+  },
+  {
+   "id": "e0a58a7d-c3e1-5cdd-a601-7ddcd97b2117",
+   "lemma": "clerical",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "clerical"
+   ]
+  },
+  {
+   "id": "03616532-8d3e-5f6c-9ad4-504b61215d2b",
+   "lemma": "client",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "client"
+   ]
+  },
+  {
+   "id": "bc45c742-6122-591e-a9b7-03edcc0bd98b",
+   "lemma": "climate change",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "climate change"
+   ]
+  },
+  {
+   "id": "9bd46b04-f745-55f2-84d5-dbed1a2c0a5b",
+   "lemma": "clog",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "clog"
+   ]
+  },
+  {
+   "id": "6ef54315-7a01-5457-8fe8-a61324167160",
+   "lemma": "closure",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "closure"
+   ]
+  },
+  {
+   "id": "801f03ce-b3b9-5c14-9d9e-9ed5336211f2",
+   "lemma": "clothing",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "clothing"
+   ]
+  },
+  {
+   "id": "dff0acd6-5b2a-5aa5-8be1-bdc420e9f6f7",
+   "lemma": "clumsy",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "clumsy"
+   ]
+  },
+  {
+   "id": "39e7a7b4-74d7-5cfc-b71b-5012f7dd109c",
+   "lemma": "coach",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "coach"
+   ]
+  },
+  {
+   "id": "30d59a7e-6c8a-575a-8b31-b48132f6ed24",
+   "lemma": "coaching",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "coaching"
+   ]
+  },
+  {
+   "id": "4fe8ddb7-4602-5bef-a757-dc725f99c146",
+   "lemma": "coalition",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "coalition"
+   ]
+  },
+  {
+   "id": "286f2ec7-3705-5c2e-a220-d49bf80f0be4",
+   "lemma": "coarse",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "coarse"
+   ]
+  },
+  {
+   "id": "4d016ba5-9c91-57dc-bad6-d3997e3d5671",
+   "lemma": "coastline",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "coastline"
+   ]
+  },
+  {
+   "id": "c41816f6-39e0-548f-ad47-5f00adf21750",
+   "lemma": "cocktail",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cocktail"
+   ]
+  },
+  {
+   "id": "2466c1eb-8af2-5dea-9a84-c71942540f2b",
+   "lemma": "cocoa",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cocoa"
+   ]
+  },
+  {
+   "id": "538febdc-3052-5422-a9c5-c075336c9018",
+   "lemma": "coconut",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "coconut"
+   ]
+  },
+  {
+   "id": "ab2a699a-0cee-5165-9904-9e5220c635f4",
+   "lemma": "coherence",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "coherence"
+   ]
+  },
+  {
+   "id": "0122c597-4539-578b-a3b8-8d1f16cd8ab0",
+   "lemma": "coherent",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "coherent"
+   ]
+  },
+  {
+   "id": "352d82ae-f8c7-5f11-983a-2bce404fb6be",
+   "lemma": "coincide",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "coincide"
+   ]
+  },
+  {
+   "id": "3fa1303f-0f7f-576a-8d06-e5f5b806adfd",
+   "lemma": "coincidence",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "coincidence"
+   ]
+  },
+  {
+   "id": "29f17597-6435-5902-a1fc-40998053e47b",
+   "lemma": "collapse",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "collapse"
+   ]
+  },
+  {
+   "id": "3a9b3158-7f16-5647-9832-c269cc901967",
+   "lemma": "colleague",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "colleague"
+   ]
+  },
+  {
+   "id": "8c8d306c-03db-5e17-a399-a9bc471a56b6",
+   "lemma": "collector",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "collector"
+   ]
+  },
+  {
+   "id": "19526ea4-6354-5ef0-b497-56d14c005827",
+   "lemma": "collocation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "collocation"
+   ]
+  },
+  {
+   "id": "dea2c9c3-3901-5177-b9a7-325948284730",
+   "lemma": "colon",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "colon"
+   ]
+  },
+  {
+   "id": "1288c9e8-133c-5e85-97d4-ff0e6c029e1d",
+   "lemma": "colonial",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "colonial"
+   ]
+  },
+  {
+   "id": "34ea76df-1567-5eff-9ece-c50535821ea0",
+   "lemma": "coma",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "coma"
+   ]
+  },
+  {
+   "id": "114a56c6-a84b-5494-bdd2-f75ef59adf3c",
+   "lemma": "comb",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "comb"
+   ]
+  }
+ ]
+}

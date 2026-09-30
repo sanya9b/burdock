@@ -1,0 +1,408 @@
+{
+ "chunk": "A2-020",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "b5365bb7-ef48-59ee-b223-0efb66a10234",
+   "lemma": "member",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "member"
+   ]
+  },
+  {
+   "id": "9dcf9624-1241-5da9-ab19-942a1cd8e37f",
+   "lemma": "mention",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mention"
+   ]
+  },
+  {
+   "id": "70d3e683-8945-5cc7-8c1b-602cf29f6b6b",
+   "lemma": "menu",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "menu"
+   ]
+  },
+  {
+   "id": "e3ddaace-4fc5-5cb9-9af7-f81b20710f12",
+   "lemma": "metal",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "metal"
+   ]
+  },
+  {
+   "id": "1310c22a-fea8-5c96-80b7-e0e592b6866c",
+   "lemma": "meter",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "meter",
+    "metre"
+   ]
+  },
+  {
+   "id": "67ab0df2-8033-556d-983c-b979d7676c13",
+   "lemma": "method",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "method"
+   ]
+  },
+  {
+   "id": "4eaaff9a-3826-5d18-b7e5-3421fe6aae11",
+   "lemma": "midday",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "midday"
+   ]
+  },
+  {
+   "id": "e62b2c2a-8fdf-5c43-ab1c-ace0771d10ba",
+   "lemma": "middle",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "middle"
+   ]
+  },
+  {
+   "id": "12e262b3-538d-50cf-a41a-00d49503d9f0",
+   "lemma": "midnight",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "midnight"
+   ]
+  },
+  {
+   "id": "7f9ed0ea-987c-5f2b-a82f-21f445a3ac95",
+   "lemma": "might",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "might"
+   ]
+  },
+  {
+   "id": "9846373d-9749-58e3-a2fa-9456144a66e4",
+   "lemma": "military",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "military"
+   ]
+  },
+  {
+   "id": "f53b0c97-433c-5b41-b404-9fb0b507f14b",
+   "lemma": "million",
+   "pos": "numeral",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "million"
+   ]
+  },
+  {
+   "id": "9526ca35-5c2d-5c8d-950f-4491ea76bf5c",
+   "lemma": "mind",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mind"
+   ]
+  },
+  {
+   "id": "df204c2b-575a-5e7f-84d9-45a081827241",
+   "lemma": "mineral water",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mineral water"
+   ]
+  },
+  {
+   "id": "cc95b6ae-ffc8-5d9b-8947-696df99cdffa",
+   "lemma": "mirror",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mirror"
+   ]
+  },
+  {
+   "id": "82c93a10-cdeb-507c-ba21-6074c9d4faa4",
+   "lemma": "missing",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "missing"
+   ]
+  },
+  {
+   "id": "f3ace05b-840a-5f8d-befb-8016c48e25a0",
+   "lemma": "mistake",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mistake"
+   ]
+  },
+  {
+   "id": "41a0c072-dec6-53e4-8c79-1abe0d0a9261",
+   "lemma": "mix",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mix"
+   ]
+  },
+  {
+   "id": "2cc35862-2cda-5519-9f3c-43de887aedd1",
+   "lemma": "mobile",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mobile"
+   ]
+  },
+  {
+   "id": "adab1967-758f-5a0b-86c6-f0dc5af49610",
+   "lemma": "model",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "model"
+   ]
+  },
+  {
+   "id": "dd0100c5-7762-5f93-affc-7abdae9ab5ae",
+   "lemma": "modern",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "modern"
+   ]
+  },
+  {
+   "id": "0ee124ec-0653-5760-a449-74b5700f31db",
+   "lemma": "mood",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mood"
+   ]
+  },
+  {
+   "id": "0c576c73-bc26-5e75-9399-61d27f671257",
+   "lemma": "mosque",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mosque"
+   ]
+  },
+  {
+   "id": "deaac2dc-85ac-5ca3-907f-eadf6399ec37",
+   "lemma": "most",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "most"
+   ]
+  },
+  {
+   "id": "3b9c06c3-e9b8-5e82-a437-0f53becb3feb",
+   "lemma": "most",
+   "pos": "pronoun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "most"
+   ]
+  },
+  {
+   "id": "1bc28496-c2d8-5708-a485-2b710da74135",
+   "lemma": "mostly",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mostly"
+   ]
+  },
+  {
+   "id": "8de51550-1a2a-5eb9-aa7d-c37ac4ab700a",
+   "lemma": "motorway",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "motorway"
+   ]
+  },
+  {
+   "id": "62a23898-b9c6-5ea9-8a63-34982ab8d2af",
+   "lemma": "move",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "move"
+   ]
+  },
+  {
+   "id": "0f94cb4e-4467-5725-8d03-1443299e490e",
+   "lemma": "MP3 player",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "MP3 player"
+   ]
+  },
+  {
+   "id": "c6cbb7a1-9cf1-5338-b940-211aba43c1ac",
+   "lemma": "Ms.",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ms.",
+    "ms"
+   ]
+  },
+  {
+   "id": "12b6b2ee-c69b-5c94-8580-ff2de7655273",
+   "lemma": "mug",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mug"
+   ]
+  },
+  {
+   "id": "2c20cfd4-55d5-5a3a-bfcd-2196ad5a4fdf",
+   "lemma": "murder",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "murder"
+   ]
+  },
+  {
+   "id": "e81c821d-6c28-568b-8502-da22a70b9c31",
+   "lemma": "museum",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "museum"
+   ]
+  },
+  {
+   "id": "310b06fd-20dc-5ccd-b6e2-bac85172ceb5",
+   "lemma": "mushroom",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mushroom"
+   ]
+  },
+  {
+   "id": "b3935ce5-6b77-5b8c-8559-7c6f49e4703e",
+   "lemma": "musical",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "musical"
+   ]
+  },
+  {
+   "id": "6943be1c-6aeb-5284-b400-b03e2f60a4cd",
+   "lemma": "myself",
+   "pos": "pronoun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "myself"
+   ]
+  },
+  {
+   "id": "f87591bf-5651-5e51-9203-cf7a9628b35e",
+   "lemma": "mysterious",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mysterious"
+   ]
+  },
+  {
+   "id": "cf6a608e-d087-520d-8e59-95746719fed0",
+   "lemma": "mystery",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mystery"
+   ]
+  },
+  {
+   "id": "739c790f-eeae-5607-8cca-c41fc009f119",
+   "lemma": "napkin",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "napkin"
+   ]
+  },
+  {
+   "id": "d877dd01-9b73-518e-b9fd-a59f7a9ca4e3",
+   "lemma": "nation",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nation"
+   ]
+  }
+ ]
+}

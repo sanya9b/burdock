@@ -1,0 +1,406 @@
+{
+ "chunk": "A1-028",
+ "level": "A1",
+ "lexemes": [
+  {
+   "id": "ec1c0249-ab75-522f-aea4-9e0c67c47e34",
+   "lemma": "video",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "video"
+   ]
+  },
+  {
+   "id": "766f755e-9392-524d-8e73-313897afb8a2",
+   "lemma": "visit",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "visit"
+   ]
+  },
+  {
+   "id": "b73896af-c3da-5484-9153-32e0f60f4ccd",
+   "lemma": "visit",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "visit"
+   ]
+  },
+  {
+   "id": "781a65a3-cd67-5a09-b4b2-c9a6073b0bc8",
+   "lemma": "volleyball",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "volleyball"
+   ]
+  },
+  {
+   "id": "9edd3a32-4ad9-5c1e-98b0-058d82423b17",
+   "lemma": "vote",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "vote"
+   ]
+  },
+  {
+   "id": "80f7e1be-f25a-560b-947a-6f358d269c24",
+   "lemma": "wait",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wait"
+   ]
+  },
+  {
+   "id": "e8e29148-18ab-565f-be43-a67fc1b9cf87",
+   "lemma": "waiter",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "waiter"
+   ]
+  },
+  {
+   "id": "74414c8a-341c-5d08-bbe1-2d4cafea94de",
+   "lemma": "waitress",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "waitress"
+   ]
+  },
+  {
+   "id": "6956eae9-003a-5845-983b-52a0c32a753c",
+   "lemma": "wake",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wake"
+   ]
+  },
+  {
+   "id": "33cebede-cdab-5290-9343-4f7c87c09cf7",
+   "lemma": "walk",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "walk"
+   ]
+  },
+  {
+   "id": "4c745cd2-4696-5340-8535-9ff89bf6751a",
+   "lemma": "walk",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "walk"
+   ]
+  },
+  {
+   "id": "d6ef4327-7e9c-5262-b78e-31d3ba43422a",
+   "lemma": "wall",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wall"
+   ]
+  },
+  {
+   "id": "4ff92d7e-bd1f-5512-9bfe-ea645bac3cd1",
+   "lemma": "want",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "want"
+   ]
+  },
+  {
+   "id": "d0727c77-27dc-5971-a0fa-d19fe946f5e5",
+   "lemma": "war",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "war"
+   ]
+  },
+  {
+   "id": "baf50303-dc94-52a4-9db6-b80188fa8e2d",
+   "lemma": "warm",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "warm"
+   ]
+  },
+  {
+   "id": "74b75f11-3e6a-531e-9a11-ce3431823a87",
+   "lemma": "was",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "was"
+   ]
+  },
+  {
+   "id": "e75b3025-7afa-5938-b5f4-c98d79dd7ee8",
+   "lemma": "wash",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wash"
+   ]
+  },
+  {
+   "id": "de2a81f6-b791-5688-af87-42b0f5ea979c",
+   "lemma": "wash",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wash"
+   ]
+  },
+  {
+   "id": "8dfbbe40-f04b-51b9-a651-978a7068f95c",
+   "lemma": "watch",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "watch"
+   ]
+  },
+  {
+   "id": "cfe166f4-3a22-535d-b20d-5f8e86b73032",
+   "lemma": "watch",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "watch"
+   ]
+  },
+  {
+   "id": "af3a5612-1249-5216-b80e-08ef4ca62ce9",
+   "lemma": "water",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "water"
+   ]
+  },
+  {
+   "id": "f8d5d496-c635-5a17-9181-b5f362860692",
+   "lemma": "way",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "way"
+   ]
+  },
+  {
+   "id": "091d0223-c43a-595c-a895-54c4f9a262a2",
+   "lemma": "we",
+   "pos": "pronoun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "we"
+   ]
+  },
+  {
+   "id": "beb90a45-acdd-5ee0-a03b-2aefd8177410",
+   "lemma": "wear",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wear"
+   ]
+  },
+  {
+   "id": "bb5b75be-8a36-555c-a061-5f00a7c4becb",
+   "lemma": "weather",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "weather"
+   ]
+  },
+  {
+   "id": "1b2d56ce-fb57-5095-8b4c-003b6151f629",
+   "lemma": "Wednesday",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wednesday"
+   ]
+  },
+  {
+   "id": "c53d657a-59ed-5669-9aef-41bf75897083",
+   "lemma": "week",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "week"
+   ]
+  },
+  {
+   "id": "214bc7fd-f878-5656-be00-5ee4e160fb1c",
+   "lemma": "weekend",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "weekend"
+   ]
+  },
+  {
+   "id": "ececf6ad-4953-5fae-8061-9b604c677995",
+   "lemma": "welcome",
+   "pos": "interjection",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "welcome"
+   ]
+  },
+  {
+   "id": "739584c6-47dc-514b-bccd-60c59bebb7a4",
+   "lemma": "welcome",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "welcome"
+   ]
+  },
+  {
+   "id": "5712ecd1-6faa-53c3-ad1d-b88e31e6e82e",
+   "lemma": "well",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "well"
+   ]
+  },
+  {
+   "id": "a7aa742a-47f8-5179-8f73-3a3d5fff9e0c",
+   "lemma": "well",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "well"
+   ]
+  },
+  {
+   "id": "577a03cc-02bd-501f-b554-d5bfd5b40e83",
+   "lemma": "were",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "were"
+   ]
+  },
+  {
+   "id": "02896505-2397-586f-bc81-91ce6f0aa9c1",
+   "lemma": "what",
+   "pos": "determiner",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "what"
+   ]
+  },
+  {
+   "id": "6682b180-2588-5df1-a9f8-f08b69f58f77",
+   "lemma": "what",
+   "pos": "pronoun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "what"
+   ]
+  },
+  {
+   "id": "b3d9854f-bce4-50aa-9b86-cfcb9e68cf61",
+   "lemma": "wheel",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wheel"
+   ]
+  },
+  {
+   "id": "d8a05302-899a-549a-8bab-25804e984efc",
+   "lemma": "when",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "when"
+   ]
+  },
+  {
+   "id": "cda6cab4-7452-5b73-82db-de0d52dbbc35",
+   "lemma": "when",
+   "pos": "conjunction",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "when"
+   ]
+  },
+  {
+   "id": "55ede177-24e4-52f9-9412-3d3002cb06d8",
+   "lemma": "where",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "where"
+   ]
+  },
+  {
+   "id": "c9299e8c-966f-5493-ae3b-51e2a579ce1c",
+   "lemma": "where",
+   "pos": "conjunction",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "where"
+   ]
+  }
+ ]
+}

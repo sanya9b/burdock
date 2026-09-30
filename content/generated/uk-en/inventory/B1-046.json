@@ -1,0 +1,406 @@
+{
+ "chunk": "B1-046",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "1c50aa25-b6ab-5fa5-8651-f7d6bde24154",
+   "lemma": "relaxing",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "relaxing"
+   ]
+  },
+  {
+   "id": "5dfe6f5d-d7fd-5994-a382-c29117e107f8",
+   "lemma": "release",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "release"
+   ]
+  },
+  {
+   "id": "a58bb7e3-a66b-546f-82c4-ab979d831b5b",
+   "lemma": "reliable",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "reliable"
+   ]
+  },
+  {
+   "id": "2c3d3ab5-53d2-5b19-96f7-f1b5b6280225",
+   "lemma": "religion",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "religion"
+   ]
+  },
+  {
+   "id": "2a33f9b2-c0aa-59cf-ac22-420a96046839",
+   "lemma": "religious",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "religious"
+   ]
+  },
+  {
+   "id": "acce6919-2720-5feb-9269-6a03b2cc01ce",
+   "lemma": "rely",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rely"
+   ]
+  },
+  {
+   "id": "5ab1ccb3-4d64-50f1-9ca2-fe6e858cdb55",
+   "lemma": "remainder",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "remainder"
+   ]
+  },
+  {
+   "id": "eb37010a-46ba-5452-888f-d73f64617f6a",
+   "lemma": "remark",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "remark"
+   ]
+  },
+  {
+   "id": "8cd96964-dd94-5e0a-9975-e02255aecff8",
+   "lemma": "remarkable",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "remarkable"
+   ]
+  },
+  {
+   "id": "5b5df919-5107-5f4a-82b9-81a362fad869",
+   "lemma": "remedy",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "remedy"
+   ]
+  },
+  {
+   "id": "e1b784b4-2851-564d-a095-2dd631c7b70b",
+   "lemma": "remembrance",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "remembrance"
+   ]
+  },
+  {
+   "id": "d7ddeb80-2f28-52fe-a68a-93cb20a93dd8",
+   "lemma": "remote control",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "remote control"
+   ]
+  },
+  {
+   "id": "5bace69c-12b9-5976-a357-b7e45cd0ac38",
+   "lemma": "remove",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "remove"
+   ]
+  },
+  {
+   "id": "df7ff970-d631-530f-8bb4-26fd8b6003a0",
+   "lemma": "renew",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "renew"
+   ]
+  },
+  {
+   "id": "b7ccac1b-d996-5272-b13c-8a1af0497189",
+   "lemma": "repay",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "repay"
+   ]
+  },
+  {
+   "id": "ad6b2194-4593-531e-957a-1087b5e49ae5",
+   "lemma": "repeatedly",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "repeatedly"
+   ]
+  },
+  {
+   "id": "2e5df0d5-da85-5fc4-97a6-f30fbd2d989a",
+   "lemma": "reply",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "reply"
+   ]
+  },
+  {
+   "id": "b58538be-644a-5da7-b301-78b53d41cfed",
+   "lemma": "report",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "report"
+   ]
+  },
+  {
+   "id": "a14df7a7-9266-5b5a-a10b-facd832e6c6b",
+   "lemma": "representative",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "representative"
+   ]
+  },
+  {
+   "id": "0b02f3d1-c4f1-5fed-a68c-fa20b11c8889",
+   "lemma": "reproduce",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "reproduce"
+   ]
+  },
+  {
+   "id": "1f23e535-c6b6-5565-8257-29217a05e4d9",
+   "lemma": "republic",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "republic"
+   ]
+  },
+  {
+   "id": "df00cb4b-14f7-59f3-9187-f29c232dcbe2",
+   "lemma": "reputation",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "reputation"
+   ]
+  },
+  {
+   "id": "7ac4667a-f838-5f51-847c-7a0ff5c5ea6e",
+   "lemma": "request",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "request"
+   ]
+  },
+  {
+   "id": "88fc29fc-4254-5403-889b-7ea151b3c28a",
+   "lemma": "require",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "require"
+   ]
+  },
+  {
+   "id": "250c19a0-6f75-5ad7-ab31-9304333e631d",
+   "lemma": "requirement",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "requirement"
+   ]
+  },
+  {
+   "id": "601f1c0e-a20c-57e1-9f08-cc9d39c890cb",
+   "lemma": "rescue",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rescue"
+   ]
+  },
+  {
+   "id": "9b446dbb-3ac4-54e1-a1ff-f89de158dbec",
+   "lemma": "rescue",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rescue"
+   ]
+  },
+  {
+   "id": "814bf85b-33aa-5ecb-a47e-1409e9e58081",
+   "lemma": "researcher",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "researcher"
+   ]
+  },
+  {
+   "id": "331d7ecf-ec82-5ebc-95d3-c33b3a4ced1e",
+   "lemma": "resemble",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "resemble"
+   ]
+  },
+  {
+   "id": "e6fafc9b-31ea-5e08-9511-23f6580cfa89",
+   "lemma": "reservation",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "reservation"
+   ]
+  },
+  {
+   "id": "1ce05c5d-5902-56a4-8ce0-1c1a8111ce79",
+   "lemma": "reserve",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "reserve"
+   ]
+  },
+  {
+   "id": "00c5d3f2-2226-5aea-9945-3bfe78a00f98",
+   "lemma": "reserve",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "reserve"
+   ]
+  },
+  {
+   "id": "5e52aff7-9e41-581d-bfde-6459658fa835",
+   "lemma": "resident",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "resident"
+   ]
+  },
+  {
+   "id": "78b6078a-0929-5c6e-a052-adb75f184c18",
+   "lemma": "residential",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "residential"
+   ]
+  },
+  {
+   "id": "669bf4b2-aa31-504b-8999-32c35fa32a3e",
+   "lemma": "resist",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "resist"
+   ]
+  },
+  {
+   "id": "e868bdc9-8470-5800-9add-f86d8cad9f3e",
+   "lemma": "resolve",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "resolve"
+   ]
+  },
+  {
+   "id": "1e33f8c5-6475-5263-b89b-399cf38c4d1e",
+   "lemma": "resort",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "resort"
+   ]
+  },
+  {
+   "id": "238a60e2-32c1-5668-bf50-f1d744a70387",
+   "lemma": "resource",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "resource"
+   ]
+  },
+  {
+   "id": "26a31dd3-fad8-521a-ab9d-3d20a4542498",
+   "lemma": "respect",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "respect"
+   ]
+  },
+  {
+   "id": "3e638402-27a5-5fa6-a193-662dbc8888c4",
+   "lemma": "respect",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "respect"
+   ]
+  }
+ ]
+}

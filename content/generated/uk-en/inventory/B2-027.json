@@ -1,0 +1,406 @@
+{
+ "chunk": "B2-027",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "cc75e95d-1b5d-590c-bfe0-f7806dd6443e",
+   "lemma": "grieve",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "grieve"
+   ]
+  },
+  {
+   "id": "1ef69e4d-5762-5a54-a404-3d1c5d53d998",
+   "lemma": "grim",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "grim"
+   ]
+  },
+  {
+   "id": "5e9dcc55-8721-51bb-b29f-9e29ad07b87e",
+   "lemma": "grin",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "grin"
+   ]
+  },
+  {
+   "id": "0c77e9b2-aca7-550d-b8cc-77bb5f512d1b",
+   "lemma": "grip",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "grip"
+   ]
+  },
+  {
+   "id": "360d7f4d-ac71-5f9d-9ddd-96cabca46406",
+   "lemma": "grip",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "grip"
+   ]
+  },
+  {
+   "id": "aa7ba7ac-3d89-5b68-8be6-d66d9c8e210b",
+   "lemma": "gross",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gross"
+   ]
+  },
+  {
+   "id": "e9b9dee7-4977-559b-acca-b02a99b69487",
+   "lemma": "growing",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "growing"
+   ]
+  },
+  {
+   "id": "f90eed82-a1db-5020-901d-17daf679d829",
+   "lemma": "grown-up",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "grown-up"
+   ]
+  },
+  {
+   "id": "6ab88e27-8c9a-5cb8-87a9-0a5933378ff5",
+   "lemma": "grown-up",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "grown-up"
+   ]
+  },
+  {
+   "id": "9c6afdd3-f122-546b-8b38-496d4c25f7bd",
+   "lemma": "guarantee",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "guarantee"
+   ]
+  },
+  {
+   "id": "fa086696-776d-5ec5-9df5-b568aa1ae5ef",
+   "lemma": "guard",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "guard"
+   ]
+  },
+  {
+   "id": "a0068fe7-b02a-59c7-8124-ae1d5db46792",
+   "lemma": "guerrilla",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "guerrilla"
+   ]
+  },
+  {
+   "id": "f5e0ad3d-589f-51ff-bd3f-45192f01b508",
+   "lemma": "guideline",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "guideline"
+   ]
+  },
+  {
+   "id": "8da44ac5-beb9-5c1a-85ed-a4450d84dc6b",
+   "lemma": "gulp",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gulp"
+   ]
+  },
+  {
+   "id": "1a1a17a4-a1b9-5511-bb08-6e8a4f8b8a54",
+   "lemma": "gum",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gum"
+   ]
+  },
+  {
+   "id": "c74e8dff-1b6b-5803-b043-489fd56d90e9",
+   "lemma": "gunshot",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gunshot"
+   ]
+  },
+  {
+   "id": "56e5c80b-cf53-5cd1-ab79-857b64cf1bce",
+   "lemma": "guts",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "guts"
+   ]
+  },
+  {
+   "id": "e652babe-3a17-552e-ab85-28317ad19575",
+   "lemma": "gymnastic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gymnastic"
+   ]
+  },
+  {
+   "id": "f16adf31-8d42-54eb-92e7-7c8a0bcd7eeb",
+   "lemma": "habitant",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "habitant"
+   ]
+  },
+  {
+   "id": "d97165d8-0d0a-5c64-9e6f-16de214a3d60",
+   "lemma": "hail",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hail"
+   ]
+  },
+  {
+   "id": "16d6fbf8-c43f-55a2-904b-97ca049b70e8",
+   "lemma": "hairy",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hairy"
+   ]
+  },
+  {
+   "id": "8daa51e0-b781-50fb-b188-52d1a04a0035",
+   "lemma": "hammer",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hammer"
+   ]
+  },
+  {
+   "id": "aa634866-fa02-5214-a1f7-1b878513f5d8",
+   "lemma": "handicap",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "handicap"
+   ]
+  },
+  {
+   "id": "2773f543-2906-5d80-9d57-8ced38c8fd6a",
+   "lemma": "handicraft",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "handicraft"
+   ]
+  },
+  {
+   "id": "14e673f7-0a5e-5fdf-bc12-d3647a96b7d5",
+   "lemma": "handout",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "handout"
+   ]
+  },
+  {
+   "id": "03d357cf-da26-5b3a-9dad-a80d23e54cf6",
+   "lemma": "handrail",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "handrail"
+   ]
+  },
+  {
+   "id": "79963a49-b621-5db9-a9ba-36774846a636",
+   "lemma": "hang",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hang"
+   ]
+  },
+  {
+   "id": "d9757edc-9ba5-5bc7-ab59-2dfc1e995a10",
+   "lemma": "hard drive",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hard drive"
+   ]
+  },
+  {
+   "id": "a76aa2b3-bf7c-5430-a0e8-82e0268711cc",
+   "lemma": "hardware",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hardware"
+   ]
+  },
+  {
+   "id": "9afdbfca-3882-557c-9b61-ce182840f8e1",
+   "lemma": "harm",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "harm"
+   ]
+  },
+  {
+   "id": "122f6fea-bf70-54c5-9e82-d02a3ee7eedb",
+   "lemma": "harmless",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "harmless"
+   ]
+  },
+  {
+   "id": "66718167-f83b-5281-b183-a30782939afd",
+   "lemma": "harrow",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "harrow"
+   ]
+  },
+  {
+   "id": "f1f95cdb-a7d3-5d49-8439-a9c89659b2a5",
+   "lemma": "haste",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "haste"
+   ]
+  },
+  {
+   "id": "177e2a2e-826e-5c44-8d24-b02a489e0c4e",
+   "lemma": "hastily",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hastily"
+   ]
+  },
+  {
+   "id": "11c916f8-46b8-5693-8c1b-16d47e0e646c",
+   "lemma": "hatching",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hatching"
+   ]
+  },
+  {
+   "id": "78e015fd-948a-5163-b313-422b79f66538",
+   "lemma": "haunt",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "haunt"
+   ]
+  },
+  {
+   "id": "781da7c8-cf50-550b-9d7d-ed598b5ddac6",
+   "lemma": "haunting",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "haunting"
+   ]
+  },
+  {
+   "id": "1dc79f5e-48e6-5334-baf6-21efedc489e5",
+   "lemma": "hay",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hay"
+   ]
+  },
+  {
+   "id": "bd38e5ca-588d-5820-b172-be83e4096e32",
+   "lemma": "hazardous",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hazardous"
+   ]
+  },
+  {
+   "id": "ccd63588-b4fd-56cd-908c-2cee5fcda720",
+   "lemma": "headquarters",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "headquarters"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,407 @@
+{
+ "chunk": "A2-014",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "b26298ce-05e0-59e7-98c9-a103242ed147",
+   "lemma": "free",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "free"
+   ]
+  },
+  {
+   "id": "ff04af92-4725-589d-b626-68c06d17c4fa",
+   "lemma": "freedom",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "freedom"
+   ]
+  },
+  {
+   "id": "6ecd6169-e0a9-5efd-aec6-40e2fdaebfa4",
+   "lemma": "freeze",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "freeze"
+   ]
+  },
+  {
+   "id": "ff771e33-04c8-50c8-ae0a-ef34174f45f1",
+   "lemma": "fresh",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fresh"
+   ]
+  },
+  {
+   "id": "1efdc434-1999-55da-85e0-ed45247a36aa",
+   "lemma": "fridge",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fridge"
+   ]
+  },
+  {
+   "id": "4fdbafe4-ec08-56b6-9df9-a51786d28c1d",
+   "lemma": "fried",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fried"
+   ]
+  },
+  {
+   "id": "2da3d641-16c4-5897-8957-c5cae7806e2d",
+   "lemma": "friendship",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "friendship"
+   ]
+  },
+  {
+   "id": "d99db680-3814-59a5-a6ac-06ec07ba153e",
+   "lemma": "frighten",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "frighten"
+   ]
+  },
+  {
+   "id": "42dc54b6-4c06-541e-b911-974027e1abb3",
+   "lemma": "frightened",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "frightened"
+   ]
+  },
+  {
+   "id": "74536ec3-6d29-580d-90db-252b9ea6c5ea",
+   "lemma": "frightening",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "frightening"
+   ]
+  },
+  {
+   "id": "8960f555-ebbe-53f0-89ee-b2ad29f38164",
+   "lemma": "front",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "front"
+   ]
+  },
+  {
+   "id": "4f97e436-74d1-5fa7-9a7c-fd18818c9342",
+   "lemma": "fry",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fry"
+   ]
+  },
+  {
+   "id": "d0855aa5-4e20-5062-a3ad-f057c71371c9",
+   "lemma": "fully",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fully"
+   ]
+  },
+  {
+   "id": "cae0f1ec-9e02-595d-8e06-7341c2f9c5bf",
+   "lemma": "function",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "function"
+   ]
+  },
+  {
+   "id": "75496f22-771e-5777-acb1-bfc94c32ee8d",
+   "lemma": "furniture",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "furniture"
+   ]
+  },
+  {
+   "id": "3e37ab79-eaba-59b2-91c3-021404c0614a",
+   "lemma": "further",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "further"
+   ]
+  },
+  {
+   "id": "6986f381-caff-56f7-ad64-f767dd4b2e29",
+   "lemma": "gallery",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gallery"
+   ]
+  },
+  {
+   "id": "948cd3b6-53ad-52be-be88-9592148c097d",
+   "lemma": "garage",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "garage"
+   ]
+  },
+  {
+   "id": "eb7c6284-5f08-5308-a24a-db1c1ca2e51d",
+   "lemma": "garlic",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "garlic"
+   ]
+  },
+  {
+   "id": "061a9151-3b28-5347-a8fd-10977d99cbc2",
+   "lemma": "gas",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gas"
+   ]
+  },
+  {
+   "id": "61440edb-cc90-5d03-9b0c-01a89421e373",
+   "lemma": "gate",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gate"
+   ]
+  },
+  {
+   "id": "d6e5da65-18bb-59a0-8830-63433aa01690",
+   "lemma": "gather",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gather"
+   ]
+  },
+  {
+   "id": "6cddf7a8-2040-5bf8-b53f-bf972c4b7c0e",
+   "lemma": "gender",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gender"
+   ]
+  },
+  {
+   "id": "8345bb7a-8819-50f5-927a-109607b96d51",
+   "lemma": "generation",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "generation"
+   ]
+  },
+  {
+   "id": "34a27db7-e2af-5afe-88d6-b88b33800a87",
+   "lemma": "gentle",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gentle"
+   ]
+  },
+  {
+   "id": "fa3e8676-4c0b-56da-8b38-bf381ecdf540",
+   "lemma": "given",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "given"
+   ]
+  },
+  {
+   "id": "5b273850-2ab0-5ac4-b91e-5d778eb6a57b",
+   "lemma": "globe",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "globe"
+   ]
+  },
+  {
+   "id": "01672859-75ab-5d33-b3d3-0970785d30b7",
+   "lemma": "glove",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "glove"
+   ]
+  },
+  {
+   "id": "9241a7a2-bcab-543b-8e2e-cda9a312b745",
+   "lemma": "gold",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gold"
+   ]
+  },
+  {
+   "id": "0e20ec37-ec6a-5719-bf9a-a4aedd7ec92f",
+   "lemma": "golden",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "golden"
+   ]
+  },
+  {
+   "id": "debd0a44-a1b3-5459-8aa6-275c6ff70e70",
+   "lemma": "golf",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "golf"
+   ]
+  },
+  {
+   "id": "69c53eab-beff-57ff-97ef-b4edc4d4b982",
+   "lemma": "good-looking",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "good-looking"
+   ]
+  },
+  {
+   "id": "3bbbcc06-cfc0-5648-9a8b-c62107c9fc04",
+   "lemma": "government",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "government"
+   ]
+  },
+  {
+   "id": "eeb8e240-e278-5bc8-ba86-0979cc6152d5",
+   "lemma": "grace",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "grace"
+   ]
+  },
+  {
+   "id": "34c77784-751f-50ad-8d13-b8fba31f99b9",
+   "lemma": "gradually",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gradually"
+   ]
+  },
+  {
+   "id": "45dbc271-2528-5143-896f-7efd26b568d2",
+   "lemma": "graduate",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "graduate"
+   ]
+  },
+  {
+   "id": "97fc021e-8737-5e74-9e92-1cde8405108b",
+   "lemma": "gram",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gram",
+    "gramme"
+   ]
+  },
+  {
+   "id": "982f4918-0b12-5a76-8820-5f00b31d52f2",
+   "lemma": "grandchild",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "grandchild"
+   ]
+  },
+  {
+   "id": "be481577-07a7-50f9-ab28-90c83ee39922",
+   "lemma": "granddad",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "granddad"
+   ]
+  },
+  {
+   "id": "2f5268b1-8225-5c05-b8d0-2df5995388d8",
+   "lemma": "granddaughter",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "granddaughter"
+   ]
+  }
+ ]
+}

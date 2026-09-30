@@ -1,0 +1,407 @@
+{
+ "chunk": "B2-032",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "c8f462de-ad93-5d40-a918-1139fe700fa0",
+   "lemma": "instill",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "instill",
+    "instil"
+   ]
+  },
+  {
+   "id": "dc45ff6c-08f8-5f2b-a473-a89813fa132b",
+   "lemma": "instinct",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "instinct"
+   ]
+  },
+  {
+   "id": "f07b8e38-f575-5bb0-bcad-4e16faaac3e8",
+   "lemma": "institution",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "institution"
+   ]
+  },
+  {
+   "id": "a692f155-9519-5cf5-94d5-8a12d9741b49",
+   "lemma": "instruct",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "instruct"
+   ]
+  },
+  {
+   "id": "5022d1fe-40e8-5561-9037-4026f5a57ba4",
+   "lemma": "insufficient",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "insufficient"
+   ]
+  },
+  {
+   "id": "bbba3377-af9d-5228-bb2d-a8d54d4a9379",
+   "lemma": "insult",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "insult"
+   ]
+  },
+  {
+   "id": "426b813b-493c-5cf7-baca-b1679a521dc4",
+   "lemma": "insult",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "insult"
+   ]
+  },
+  {
+   "id": "b40ae989-c01c-5666-adfb-a1fcfffff17b",
+   "lemma": "integrate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "integrate"
+   ]
+  },
+  {
+   "id": "c3cc6cf7-a04f-5bf8-be8c-1900b70c0f02",
+   "lemma": "intellectual",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "intellectual"
+   ]
+  },
+  {
+   "id": "13ecec1e-29db-5bc0-a6e2-71812084e29e",
+   "lemma": "intellectual",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "intellectual"
+   ]
+  },
+  {
+   "id": "f80c5a0a-273f-516e-a6d4-50fb54d7c6bc",
+   "lemma": "intent",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "intent"
+   ]
+  },
+  {
+   "id": "47a55801-3124-580c-8ee9-07dd5887bdaf",
+   "lemma": "interactive",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "interactive"
+   ]
+  },
+  {
+   "id": "d51a04ac-d2b3-58d7-b028-3ad2d57b2caf",
+   "lemma": "interfere",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "interfere"
+   ]
+  },
+  {
+   "id": "d282233a-74ed-5f5d-b715-b9e45c3460b5",
+   "lemma": "interior",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "interior"
+   ]
+  },
+  {
+   "id": "5baeae8a-7697-56b9-8dfd-b58971c077b8",
+   "lemma": "interpersonal",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "interpersonal"
+   ]
+  },
+  {
+   "id": "6ebe4896-d9c6-59c3-8c2f-579938c12fee",
+   "lemma": "interpret",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "interpret"
+   ]
+  },
+  {
+   "id": "86de09ae-cd56-5552-b6db-d1f51b092076",
+   "lemma": "interpretation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "interpretation"
+   ]
+  },
+  {
+   "id": "cf0bd0f2-e67a-5364-b9df-3039eebd09cf",
+   "lemma": "interpreter",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "interpreter"
+   ]
+  },
+  {
+   "id": "42617f7c-41ec-5c67-a40d-db64730ebfec",
+   "lemma": "interruption",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "interruption"
+   ]
+  },
+  {
+   "id": "b44b4721-c117-5bb9-9952-9f4c6bf372fa",
+   "lemma": "intersection",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "intersection"
+   ]
+  },
+  {
+   "id": "ca177f02-4f14-5aa1-b00a-03c858d643e3",
+   "lemma": "intimate",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "intimate"
+   ]
+  },
+  {
+   "id": "441439f3-7688-560b-9af1-7e333044cc57",
+   "lemma": "intransitive",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "intransitive"
+   ]
+  },
+  {
+   "id": "314c168f-a9ad-57b0-a4bf-38ab6b9b7bbd",
+   "lemma": "intravenous",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "intravenous"
+   ]
+  },
+  {
+   "id": "f50dacee-76f0-5f5f-b5f6-8a83cc0d7d92",
+   "lemma": "intrude",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "intrude"
+   ]
+  },
+  {
+   "id": "670f20ad-93d6-577b-b3c4-e14ffa17b75e",
+   "lemma": "intruder",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "intruder"
+   ]
+  },
+  {
+   "id": "e441a20e-fe30-5ab8-8088-58502a7ef402",
+   "lemma": "intrusion",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "intrusion"
+   ]
+  },
+  {
+   "id": "5fb5733e-f257-5dad-96ae-768d0faae4bc",
+   "lemma": "invariable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "invariable"
+   ]
+  },
+  {
+   "id": "76820b50-67df-5768-9385-3a794ddd9270",
+   "lemma": "invariably",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "invariably"
+   ]
+  },
+  {
+   "id": "8bd81995-2645-5a85-ba37-02c176403ac1",
+   "lemma": "inventor",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "inventor"
+   ]
+  },
+  {
+   "id": "38c038be-6991-5684-bbc4-d97b7b97455c",
+   "lemma": "inverted commas",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "inverted commas"
+   ]
+  },
+  {
+   "id": "3e9237af-821c-5b5c-9666-e6a6627d2833",
+   "lemma": "investigate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "investigate"
+   ]
+  },
+  {
+   "id": "bfdb8ca0-3493-5611-9f36-58a6e5ef76b3",
+   "lemma": "investigator",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "investigator"
+   ]
+  },
+  {
+   "id": "0db21d91-ba78-5dc3-881f-3d989414b7ed",
+   "lemma": "investment",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "investment"
+   ]
+  },
+  {
+   "id": "b20c4f23-127d-519b-9813-82425be53bae",
+   "lemma": "investor",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "investor"
+   ]
+  },
+  {
+   "id": "a77e57a3-6c78-506d-b613-eed4ead9e1e1",
+   "lemma": "invisible",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "invisible"
+   ]
+  },
+  {
+   "id": "4d784f07-2a68-5126-99fb-8e640c1fe162",
+   "lemma": "invitingly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "invitingly"
+   ]
+  },
+  {
+   "id": "16e151f7-60a9-5063-8f11-f7ebb8ea9490",
+   "lemma": "invoke",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "invoke"
+   ]
+  },
+  {
+   "id": "fe22a7d7-2af0-5036-8fad-a0b65a466a30",
+   "lemma": "involvement",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "involvement"
+   ]
+  },
+  {
+   "id": "eb9350ed-9102-506d-a45e-26916398a30c",
+   "lemma": "ironically",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ironically"
+   ]
+  },
+  {
+   "id": "00b40c18-2ad5-5d06-ae33-be0fb4fc4ca5",
+   "lemma": "irrational",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "irrational"
+   ]
+  }
+ ]
+}

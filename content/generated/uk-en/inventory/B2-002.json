@@ -1,0 +1,408 @@
+{
+ "chunk": "B2-002",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "b4fd62f6-e345-5298-bf9c-6baf2a91e643",
+   "lemma": "adventurous",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "adventurous"
+   ]
+  },
+  {
+   "id": "2129f9d1-d9a9-556d-907f-95ec49b84404",
+   "lemma": "adverse",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "adverse"
+   ]
+  },
+  {
+   "id": "cafedd72-dde4-518a-8f3c-4c2699d4f235",
+   "lemma": "adversely",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "adversely"
+   ]
+  },
+  {
+   "id": "c8233875-0b6e-5941-b365-04a44aa7fd24",
+   "lemma": "adversity",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "adversity"
+   ]
+  },
+  {
+   "id": "52fb29a4-7671-5f6e-93cb-9157b983428d",
+   "lemma": "affectionate",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "affectionate"
+   ]
+  },
+  {
+   "id": "873bc94e-4470-55c8-b1ef-c3d592a9c5d2",
+   "lemma": "affectionately",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "affectionately"
+   ]
+  },
+  {
+   "id": "9a9ed376-90a9-59db-9428-416cfdd37db2",
+   "lemma": "affordable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "affordable"
+   ]
+  },
+  {
+   "id": "13fdf44f-247a-57b1-bd38-93c73777d9fd",
+   "lemma": "ageless",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ageless"
+   ]
+  },
+  {
+   "id": "0de62e43-e91c-5a25-9508-64f07fd37128",
+   "lemma": "aggressively",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "aggressively"
+   ]
+  },
+  {
+   "id": "8d8f2399-5039-50b1-b639-957ead98c0c0",
+   "lemma": "agonize",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "agonize",
+    "agonise"
+   ]
+  },
+  {
+   "id": "6ba3135a-4938-5985-8334-4870caea938b",
+   "lemma": "agony",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "agony"
+   ]
+  },
+  {
+   "id": "3c74e224-d443-5f2d-820f-38c6e4cd4ada",
+   "lemma": "aim",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "aim"
+   ]
+  },
+  {
+   "id": "8595e91e-9412-50e9-af4d-d763dc779f38",
+   "lemma": "aircraft",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "aircraft"
+   ]
+  },
+  {
+   "id": "c5d41a1e-d008-5fc4-b68f-ca72fac3a3bf",
+   "lemma": "aircrew",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "aircrew"
+   ]
+  },
+  {
+   "id": "ed76fc7e-52b5-569f-b22a-55d977bd11fd",
+   "lemma": "alcoholic",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "alcoholic"
+   ]
+  },
+  {
+   "id": "ebe6e1bf-66df-50d6-82b0-ce9fc85f79a6",
+   "lemma": "alcoholism",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "alcoholism"
+   ]
+  },
+  {
+   "id": "c51d134d-e122-5fb4-a632-e1180fa43b0f",
+   "lemma": "alert",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "alert"
+   ]
+  },
+  {
+   "id": "20bb7296-c917-5c6f-8e42-8a4dcabbea33",
+   "lemma": "allegation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "allegation"
+   ]
+  },
+  {
+   "id": "23c0761b-9dff-5bc6-98cb-aa0868917894",
+   "lemma": "alliance",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "alliance"
+   ]
+  },
+  {
+   "id": "e1c18203-b612-5bd4-b026-f5c43b42c9cf",
+   "lemma": "ally",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ally"
+   ]
+  },
+  {
+   "id": "ae0d203a-a7db-58f0-b5dc-d34f1ba978ca",
+   "lemma": "alongside",
+   "pos": "preposition",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "alongside"
+   ]
+  },
+  {
+   "id": "e0854aeb-1cb1-57c8-9d98-5b1ee1c0b0b1",
+   "lemma": "alphabetical",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "alphabetical"
+   ]
+  },
+  {
+   "id": "2573695f-c2b4-53cb-9cf5-4a84e015a3bb",
+   "lemma": "altar",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "altar"
+   ]
+  },
+  {
+   "id": "9efe79f5-6d08-5ff7-b5c6-46695dfbc822",
+   "lemma": "alter",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "alter"
+   ]
+  },
+  {
+   "id": "ef4e001f-6b57-59dd-b504-7f17755f77b9",
+   "lemma": "alternate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "alternate"
+   ]
+  },
+  {
+   "id": "18019961-7320-53db-b815-19c3b1528cc0",
+   "lemma": "alternatively",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "alternatively"
+   ]
+  },
+  {
+   "id": "6e4f4e8b-ed82-55fe-b18f-fd0689840695",
+   "lemma": "altitude",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "altitude"
+   ]
+  },
+  {
+   "id": "6e6e6a0a-96ef-5560-89be-05f201788add",
+   "lemma": "aluminum",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "aluminum",
+    "aluminium"
+   ]
+  },
+  {
+   "id": "ff31357d-be28-5e3e-ae0f-8167abaf2c80",
+   "lemma": "amaze",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "amaze"
+   ]
+  },
+  {
+   "id": "dcc38689-0f3d-53a0-af00-114e5bdd202d",
+   "lemma": "amazement",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "amazement"
+   ]
+  },
+  {
+   "id": "5b69bbc9-aa2b-560a-9b45-3eecdd315a4f",
+   "lemma": "amazingly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "amazingly"
+   ]
+  },
+  {
+   "id": "03dd0a72-dc53-53d6-aca1-ad998d126538",
+   "lemma": "ambassador",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ambassador"
+   ]
+  },
+  {
+   "id": "4793a808-cf48-5b72-90b1-c8ca0eecd64c",
+   "lemma": "ambiguity",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ambiguity"
+   ]
+  },
+  {
+   "id": "2de4a539-5036-5d8e-b15a-0d8057913fbf",
+   "lemma": "ambiguous",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ambiguous"
+   ]
+  },
+  {
+   "id": "b83e0ae5-e22b-5591-ae8f-044d9c926df4",
+   "lemma": "ammonia",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ammonia"
+   ]
+  },
+  {
+   "id": "bf0fafe2-f1b9-5388-96b5-45714d9f11b7",
+   "lemma": "amongst",
+   "pos": "preposition",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "amongst"
+   ]
+  },
+  {
+   "id": "d0a81bc3-9ba0-5a42-a599-6ea135214c5a",
+   "lemma": "ample",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ample"
+   ]
+  },
+  {
+   "id": "90c4efbf-0f6b-52a7-8622-74abaea261cd",
+   "lemma": "amplifier",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "amplifier"
+   ]
+  },
+  {
+   "id": "147f08fb-f909-5d45-9d76-b48b7d188300",
+   "lemma": "amplify",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "amplify"
+   ]
+  },
+  {
+   "id": "8573a1d6-a63c-5928-8929-ce848582241f",
+   "lemma": "amuse",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "amuse"
+   ]
+  }
+ ]
+}

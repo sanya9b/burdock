@@ -1,0 +1,408 @@
+{
+ "chunk": "B1-002",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "e4e7507f-34d3-55ac-91f0-8aa00418f5a2",
+   "lemma": "active",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "active"
+   ]
+  },
+  {
+   "id": "0af56759-d027-5b3a-b42c-3917c05e9d2f",
+   "lemma": "actress",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "actress"
+   ]
+  },
+  {
+   "id": "1d8dd6ca-30de-542f-81a0-95033dc7b17a",
+   "lemma": "ad",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ad"
+   ]
+  },
+  {
+   "id": "5c82ab3e-26c0-5b07-a298-472a4ac95fee",
+   "lemma": "adapt",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "adapt"
+   ]
+  },
+  {
+   "id": "567df28b-e60c-579b-9c58-26f7ad9c038c",
+   "lemma": "address",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "address"
+   ]
+  },
+  {
+   "id": "30d6cb98-7561-5c22-adef-b40c5aa8cccf",
+   "lemma": "addressee",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "addressee"
+   ]
+  },
+  {
+   "id": "2f46570a-ea61-59b7-aab7-c487b4440c3b",
+   "lemma": "administration",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "administration"
+   ]
+  },
+  {
+   "id": "8ffd880c-78b3-5271-8b4f-84cfed0b5f73",
+   "lemma": "admiration",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "admiration"
+   ]
+  },
+  {
+   "id": "1e0c10d6-8a13-57a7-a233-b743b44e59a2",
+   "lemma": "admission",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "admission"
+   ]
+  },
+  {
+   "id": "eb2d2933-649e-5831-80e8-768d5c804ebf",
+   "lemma": "adopt",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "adopt"
+   ]
+  },
+  {
+   "id": "1b4a8f6a-8a9b-5b35-943c-594409752b10",
+   "lemma": "adorable",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "adorable"
+   ]
+  },
+  {
+   "id": "793c9b8b-5f03-5bcf-af8b-1060489e6442",
+   "lemma": "advance",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "advance"
+   ]
+  },
+  {
+   "id": "0efda8b8-4743-575b-92f1-b8221b99f09b",
+   "lemma": "adverb",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "adverb"
+   ]
+  },
+  {
+   "id": "221f1649-f6d6-5a44-9542-bb4e7ca41cbc",
+   "lemma": "adverbial",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "adverbial"
+   ]
+  },
+  {
+   "id": "04d8f5bc-363c-5f88-a06b-881c3627c54f",
+   "lemma": "advert",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "advert"
+   ]
+  },
+  {
+   "id": "591eed9b-09ce-5e12-9efe-419f28ddf84e",
+   "lemma": "advertise",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "advertise"
+   ]
+  },
+  {
+   "id": "d1d2683b-677b-5504-af61-46b90ab0842a",
+   "lemma": "adviser",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "adviser",
+    "advisor"
+   ]
+  },
+  {
+   "id": "92ed6367-9d94-58f8-b1e7-237086ef8808",
+   "lemma": "aerobics",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "aerobics"
+   ]
+  },
+  {
+   "id": "981356f8-1e28-5f79-9c73-5f9c5f489324",
+   "lemma": "affect",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "affect"
+   ]
+  },
+  {
+   "id": "2ca004ab-7035-5fe3-88c3-ea6d7c713e3e",
+   "lemma": "affection",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "affection"
+   ]
+  },
+  {
+   "id": "3ca78f09-e75d-5865-8595-8c9a18c2d819",
+   "lemma": "afford",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "afford"
+   ]
+  },
+  {
+   "id": "6614f305-75e0-541f-944e-f355ff604844",
+   "lemma": "after",
+   "pos": "conjunction",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "after"
+   ]
+  },
+  {
+   "id": "54dd1879-37a6-53a3-9615-1f3cc3b62730",
+   "lemma": "afterward",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "afterward",
+    "afterwards"
+   ]
+  },
+  {
+   "id": "24a582c6-353c-57d4-8af9-42b1a27a7eed",
+   "lemma": "agenda",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "agenda"
+   ]
+  },
+  {
+   "id": "2fa9a9da-910c-529c-8dba-1b6e5bbb8dfe",
+   "lemma": "aggressive",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "aggressive"
+   ]
+  },
+  {
+   "id": "9e2871ab-7650-5749-92e2-16420889d5be",
+   "lemma": "agreement",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "agreement"
+   ]
+  },
+  {
+   "id": "3c56e87a-fa79-50d1-b5eb-1476512c5a68",
+   "lemma": "agricultural",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "agricultural"
+   ]
+  },
+  {
+   "id": "f8bdd4b9-fb1c-58a9-916e-b40f80ea28e5",
+   "lemma": "agriculture",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "agriculture"
+   ]
+  },
+  {
+   "id": "fc732941-019c-5979-9846-358c742f8be8",
+   "lemma": "aid",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "aid"
+   ]
+  },
+  {
+   "id": "33c8c246-0642-5bb5-b910-d4600ec7e220",
+   "lemma": "aid",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "aid"
+   ]
+  },
+  {
+   "id": "36e98d8a-5dc5-5d81-8295-89446c5bdfc9",
+   "lemma": "aim",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "aim"
+   ]
+  },
+  {
+   "id": "d5559f9d-7e07-545c-9d52-ec0d95fba3e0",
+   "lemma": "air conditioning",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "air conditioning"
+   ]
+  },
+  {
+   "id": "85087c47-c160-508d-b376-83d49bcc7d66",
+   "lemma": "air force",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "air force"
+   ]
+  },
+  {
+   "id": "45cfed2a-4529-5fcc-b910-e8d3a128e0be",
+   "lemma": "airline",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "airline"
+   ]
+  },
+  {
+   "id": "d3654082-6fe9-5c34-8f00-d86cc14933fb",
+   "lemma": "alarm",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "alarm"
+   ]
+  },
+  {
+   "id": "696b89d0-488d-5d0b-9480-4d02a919234a",
+   "lemma": "alcohol",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "alcohol"
+   ]
+  },
+  {
+   "id": "71921559-9047-5f0b-a3a8-1f9161b9e2d6",
+   "lemma": "alcoholic",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "alcoholic"
+   ]
+  },
+  {
+   "id": "d66d2615-7e4a-5a5c-81bd-e6ddfd84cdfc",
+   "lemma": "alike",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "alike"
+   ]
+  },
+  {
+   "id": "a7142d3a-a7e8-5ec1-80af-551ee8ad1fdc",
+   "lemma": "alike",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "alike"
+   ]
+  },
+  {
+   "id": "0cedaf93-dcec-5625-8541-ff1f2f5903d7",
+   "lemma": "allergic",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "allergic"
+   ]
+  }
+ ]
+}

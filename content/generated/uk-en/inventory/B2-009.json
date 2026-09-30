@@ -1,0 +1,408 @@
+{
+ "chunk": "B2-009",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "b531ee7c-e7ea-5b6d-8272-9b5a3202300f",
+   "lemma": "cast",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cast"
+   ]
+  },
+  {
+   "id": "ceb7bbf3-70f4-5136-b9de-13b3df36b109",
+   "lemma": "casually",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "casually"
+   ]
+  },
+  {
+   "id": "f0ad8fa2-b1ee-5c23-83c5-5a8f3a6e445d",
+   "lemma": "catalog",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "catalog",
+    "catalogue"
+   ]
+  },
+  {
+   "id": "57d592f1-5e8b-5f02-a43a-6280503dc363",
+   "lemma": "catalyst",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "catalyst"
+   ]
+  },
+  {
+   "id": "4e081370-1274-5f58-99c8-c749871ac635",
+   "lemma": "catastrophe",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "catastrophe"
+   ]
+  },
+  {
+   "id": "50443801-2cbc-5d12-8004-2df1c4ea6bb1",
+   "lemma": "catastrophic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "catastrophic"
+   ]
+  },
+  {
+   "id": "137a896b-016e-52ca-8c62-1a64e50faf77",
+   "lemma": "catchy",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "catchy"
+   ]
+  },
+  {
+   "id": "f239519d-e8f4-51a3-89b9-f1e8c335062e",
+   "lemma": "categorization",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "categorization",
+    "categorisation"
+   ]
+  },
+  {
+   "id": "0954046f-4061-575c-b6a2-5b59d06ce86b",
+   "lemma": "catering",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "catering"
+   ]
+  },
+  {
+   "id": "3374a8a0-26d5-53c5-ba1a-70b7eeab1b42",
+   "lemma": "cathedral",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cathedral"
+   ]
+  },
+  {
+   "id": "5581ce33-fb65-5968-b492-cbb152b8bf21",
+   "lemma": "cause",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cause"
+   ]
+  },
+  {
+   "id": "73840bd7-2847-5d61-bec0-a4dee1fbb9a5",
+   "lemma": "cease",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cease"
+   ]
+  },
+  {
+   "id": "6604958f-c40c-5031-a911-615f7285d314",
+   "lemma": "ceiling",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ceiling"
+   ]
+  },
+  {
+   "id": "f507b598-6b74-5a30-b043-21c8e413ad5a",
+   "lemma": "cellar",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cellar"
+   ]
+  },
+  {
+   "id": "1db6ae4a-9def-5843-8a08-d439f14e3db5",
+   "lemma": "cellist",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cellist"
+   ]
+  },
+  {
+   "id": "e4f5faba-255b-564e-a75e-fb957eeb2509",
+   "lemma": "cello",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cello"
+   ]
+  },
+  {
+   "id": "679a11ab-f13a-53fc-8df8-407d2494668e",
+   "lemma": "cemetery",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cemetery"
+   ]
+  },
+  {
+   "id": "9d8912b4-b124-5c4a-a18c-b260a1bfeee3",
+   "lemma": "centigrade",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "centigrade"
+   ]
+  },
+  {
+   "id": "6d6aea41-b9da-5c5d-9ae8-dd8a6c65615b",
+   "lemma": "certificate",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "certificate"
+   ]
+  },
+  {
+   "id": "b402ff4b-8bb9-5435-afbc-8d955fd5d712",
+   "lemma": "certification",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "certification"
+   ]
+  },
+  {
+   "id": "ab33c322-3f51-55fd-a390-cb83d5170458",
+   "lemma": "certify",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "certify"
+   ]
+  },
+  {
+   "id": "d2939ecf-637e-528c-ba8a-5efd01af2c21",
+   "lemma": "challenge",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "challenge"
+   ]
+  },
+  {
+   "id": "3c17f499-e44c-5f7b-a399-561c28cf89d1",
+   "lemma": "chancellor",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "chancellor"
+   ]
+  },
+  {
+   "id": "76df2b4b-e992-52f5-b865-8a3f7a9f5bb1",
+   "lemma": "chaotic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "chaotic"
+   ]
+  },
+  {
+   "id": "3a596162-6d81-5d84-8947-720f92279f48",
+   "lemma": "characteristic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "characteristic"
+   ]
+  },
+  {
+   "id": "d632eb2a-0c36-5b3c-bf59-012e59ff18d9",
+   "lemma": "charming",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "charming"
+   ]
+  },
+  {
+   "id": "5b1b7117-e15f-546c-8d90-7f8323315974",
+   "lemma": "chase",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "chase"
+   ]
+  },
+  {
+   "id": "c24dfef8-93fe-506f-a254-b0def62ec0a7",
+   "lemma": "cheat",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cheat"
+   ]
+  },
+  {
+   "id": "00cd4bdd-8822-51df-b0f7-98442f5580b5",
+   "lemma": "checkpoint",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "checkpoint"
+   ]
+  },
+  {
+   "id": "ba25466f-18cf-5f9c-a220-d61d164a82c6",
+   "lemma": "cheeky",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cheeky"
+   ]
+  },
+  {
+   "id": "486ab32c-1ebf-5dac-a6f0-7c76e58e41ec",
+   "lemma": "cheerfully",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cheerfully"
+   ]
+  },
+  {
+   "id": "def60f70-4e56-57e8-9222-a75600a4b0a7",
+   "lemma": "cheerfulness",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cheerfulness"
+   ]
+  },
+  {
+   "id": "6435825e-5d82-5791-9192-be7cc54326b3",
+   "lemma": "chemotherapy",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "chemotherapy"
+   ]
+  },
+  {
+   "id": "05dee451-1d58-5364-aac0-cd4fe6880b70",
+   "lemma": "cherished",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cherished"
+   ]
+  },
+  {
+   "id": "fd2aa852-d2a5-5221-9b6c-ed7410fdd7d6",
+   "lemma": "cherry",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cherry"
+   ]
+  },
+  {
+   "id": "fed79c40-9399-55e7-ab92-232e651cc023",
+   "lemma": "chew",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "chew"
+   ]
+  },
+  {
+   "id": "0bcaeb0c-f7ff-569f-9140-1be5d5362b05",
+   "lemma": "chief",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "chief"
+   ]
+  },
+  {
+   "id": "9f4f7df5-261f-580b-a428-f1fee0dc3406",
+   "lemma": "childish",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "childish"
+   ]
+  },
+  {
+   "id": "53e8de0f-306e-5f9f-9c68-8d0ccf62f8dd",
+   "lemma": "chimney",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "chimney"
+   ]
+  },
+  {
+   "id": "e3e26996-8f3d-563f-b6d0-f970bd942608",
+   "lemma": "chip",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "chip"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,406 @@
+{
+ "chunk": "B2-046",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "06da8454-2b48-5923-9c01-535547fcb587",
+   "lemma": "porch",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "porch"
+   ]
+  },
+  {
+   "id": "0a972a94-0950-5cc2-9dd9-b25bd6933d3d",
+   "lemma": "portion",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "portion"
+   ]
+  },
+  {
+   "id": "7045573c-6160-5373-8370-9d71da180bdf",
+   "lemma": "pose",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pose"
+   ]
+  },
+  {
+   "id": "8a7dedbf-aae0-590b-9f61-946e7fde30fe",
+   "lemma": "posh",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "posh"
+   ]
+  },
+  {
+   "id": "99e02e66-5e13-5841-84dd-e7349fa9c560",
+   "lemma": "possessed",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "possessed"
+   ]
+  },
+  {
+   "id": "326c3d8f-bfd1-50bc-bd48-b3a177d185f7",
+   "lemma": "postal",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "postal"
+   ]
+  },
+  {
+   "id": "6e476a1b-cce5-590c-b4a3-9167498316fd",
+   "lemma": "postpone",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "postpone"
+   ]
+  },
+  {
+   "id": "10f307f8-13bf-5b3a-a409-9b1e48d58353",
+   "lemma": "potent",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "potent"
+   ]
+  },
+  {
+   "id": "daad8216-2f5f-57c6-a4e3-302f59e0acb1",
+   "lemma": "potential",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "potential"
+   ]
+  },
+  {
+   "id": "82b4816e-e416-54d9-a082-01d399073fa1",
+   "lemma": "potentially",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "potentially"
+   ]
+  },
+  {
+   "id": "0e605fc1-2714-527e-9fc3-8de79f7d919b",
+   "lemma": "pound",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pound"
+   ]
+  },
+  {
+   "id": "c6b67e98-d61b-503c-8af2-ae0cef387efc",
+   "lemma": "powder",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "powder"
+   ]
+  },
+  {
+   "id": "54604a99-746f-55fd-afdd-7069835c6e62",
+   "lemma": "powerfully",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "powerfully"
+   ]
+  },
+  {
+   "id": "99f2f10e-6746-5c10-9cc1-ac533db6b215",
+   "lemma": "practicality",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "practicality"
+   ]
+  },
+  {
+   "id": "c4251e3e-edae-5839-8146-7b8fc3e6d462",
+   "lemma": "practically",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "practically"
+   ]
+  },
+  {
+   "id": "a72402b7-b191-586d-a1b7-55b7bf507cae",
+   "lemma": "praise",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "praise"
+   ]
+  },
+  {
+   "id": "bd2c60e0-f4b7-510f-9d4c-61c27799d076",
+   "lemma": "prance",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prance"
+   ]
+  },
+  {
+   "id": "ebe5435c-3b93-5507-9e50-36dd443918ce",
+   "lemma": "prawn",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prawn"
+   ]
+  },
+  {
+   "id": "2550905a-d3c5-5b4f-90e5-930299d56727",
+   "lemma": "precede",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "precede"
+   ]
+  },
+  {
+   "id": "75822b5a-9fb4-5b45-8f59-53464f5aefae",
+   "lemma": "precisely",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "precisely"
+   ]
+  },
+  {
+   "id": "c070b501-445d-5b1a-8773-7daf76298187",
+   "lemma": "predicament",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "predicament"
+   ]
+  },
+  {
+   "id": "8d1e7829-5f79-580c-9059-64043e58a326",
+   "lemma": "predicate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "predicate"
+   ]
+  },
+  {
+   "id": "8bf0db09-166c-5e4a-be89-f32f4d3d0324",
+   "lemma": "predicative",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "predicative"
+   ]
+  },
+  {
+   "id": "f366a9f0-40c7-5ca0-b249-3e93f9e9c05f",
+   "lemma": "predictable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "predictable"
+   ]
+  },
+  {
+   "id": "8cafb3d2-09ad-582a-bb99-1da35de716ff",
+   "lemma": "predictive",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "predictive"
+   ]
+  },
+  {
+   "id": "b02889df-0337-536d-b48d-e0edd627703a",
+   "lemma": "predictor",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "predictor"
+   ]
+  },
+  {
+   "id": "6dab1b87-c6dd-5ff0-a051-c769091ee986",
+   "lemma": "prefect",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prefect"
+   ]
+  },
+  {
+   "id": "5e192866-2704-5425-9a54-42d2253e0f0d",
+   "lemma": "preferable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "preferable"
+   ]
+  },
+  {
+   "id": "110312c7-b520-5e0e-8b7a-393d758154bd",
+   "lemma": "preferably",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "preferably"
+   ]
+  },
+  {
+   "id": "9b7ff938-5aa9-50a8-ada5-5e83481fe413",
+   "lemma": "prehistoric",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prehistoric"
+   ]
+  },
+  {
+   "id": "40b526ed-ca7e-5fba-b4ef-d4046879ef0b",
+   "lemma": "prehuman",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prehuman"
+   ]
+  },
+  {
+   "id": "a74f9a52-b5e1-55e4-ae8b-131db6ad76f6",
+   "lemma": "preindustrial",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "preindustrial"
+   ]
+  },
+  {
+   "id": "572ed2db-63e5-56f2-832c-1b4689c047ec",
+   "lemma": "prejudge",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prejudge"
+   ]
+  },
+  {
+   "id": "c001a13a-1646-5e04-b180-bc30d4658b59",
+   "lemma": "preliminary",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "preliminary"
+   ]
+  },
+  {
+   "id": "88f4e02b-8d6a-5cf8-91dd-cfee2c9214cf",
+   "lemma": "preoccupy",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "preoccupy"
+   ]
+  },
+  {
+   "id": "5a1dd78b-3b82-54fb-b08a-43279bf79ba3",
+   "lemma": "prescribe",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prescribe"
+   ]
+  },
+  {
+   "id": "cf9e8160-8fd5-5a95-a7ac-1ee850dfc52b",
+   "lemma": "present",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "present"
+   ]
+  },
+  {
+   "id": "854ef643-2ba8-5d7b-a9c8-ed6d7624a5e0",
+   "lemma": "presenter",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "presenter"
+   ]
+  },
+  {
+   "id": "b116022a-5745-5062-8d47-84cd260d24b5",
+   "lemma": "presidency",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "presidency"
+   ]
+  },
+  {
+   "id": "f366df7b-bcd1-549e-a401-bbef913af3ed",
+   "lemma": "presidential",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "presidential"
+   ]
+  }
+ ]
+}

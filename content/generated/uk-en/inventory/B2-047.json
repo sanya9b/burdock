@@ -1,0 +1,408 @@
+{
+ "chunk": "B2-047",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "d8f4b666-5893-51a5-bb98-151b18717a64",
+   "lemma": "prestige",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prestige"
+   ]
+  },
+  {
+   "id": "09760dd4-8278-52f2-a803-eacfa3b7e98c",
+   "lemma": "prestigious",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prestigious"
+   ]
+  },
+  {
+   "id": "fb66a7f9-e850-5a4a-922a-b211652d8446",
+   "lemma": "presumably",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "presumably"
+   ]
+  },
+  {
+   "id": "5525f639-029a-5fa7-84d7-8b37bb7d0798",
+   "lemma": "pretend",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pretend"
+   ]
+  },
+  {
+   "id": "0c468f86-8ccd-5415-a994-c5d523f7dce2",
+   "lemma": "prevail",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prevail"
+   ]
+  },
+  {
+   "id": "9fba1ce2-304a-5c1a-9a87-2d8bcaa447c5",
+   "lemma": "prevention",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prevention"
+   ]
+  },
+  {
+   "id": "e661044c-86fe-57d9-97da-3795948ec164",
+   "lemma": "preventive",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "preventive"
+   ]
+  },
+  {
+   "id": "2c3e917c-fa3c-5ee3-beac-eed05cbf5072",
+   "lemma": "previously",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "previously"
+   ]
+  },
+  {
+   "id": "f48a9f7e-dad3-5f8c-8214-6bdb74085f2a",
+   "lemma": "price",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "price"
+   ]
+  },
+  {
+   "id": "e7b3bbf9-4881-5fdc-8d3d-c234f5e622b4",
+   "lemma": "priceless",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "priceless"
+   ]
+  },
+  {
+   "id": "dcfe5494-8640-5a07-a252-30e4d91620d8",
+   "lemma": "prick",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prick"
+   ]
+  },
+  {
+   "id": "559a0051-7058-540f-8c6a-694a370bf378",
+   "lemma": "primary",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "primary"
+   ]
+  },
+  {
+   "id": "7d442c7a-d629-5f0d-b89c-1fbfa045b2b8",
+   "lemma": "prime",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prime"
+   ]
+  },
+  {
+   "id": "0baa5a86-723d-5c82-80ac-33d9140c6208",
+   "lemma": "prime minister",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prime minister"
+   ]
+  },
+  {
+   "id": "444d52d4-124d-511e-ab4d-144983e6a75e",
+   "lemma": "principal",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "principal"
+   ]
+  },
+  {
+   "id": "9952f3bb-dd7d-577a-8983-093742e74564",
+   "lemma": "prior",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prior"
+   ]
+  },
+  {
+   "id": "be1527f8-6bde-511b-8640-8c2152d4734b",
+   "lemma": "priority",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "priority"
+   ]
+  },
+  {
+   "id": "1d9eb8bd-abe4-5146-9719-5e14475bcecc",
+   "lemma": "privately",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "privately"
+   ]
+  },
+  {
+   "id": "1d693812-b3ed-52ba-901b-ae12fa54351f",
+   "lemma": "privilege",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "privilege"
+   ]
+  },
+  {
+   "id": "5ecc57f8-6d85-51d7-b9c0-9250ebc4d492",
+   "lemma": "probable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "probable"
+   ]
+  },
+  {
+   "id": "21d3faea-2810-5d89-915b-3b8726835732",
+   "lemma": "probe",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "probe"
+   ]
+  },
+  {
+   "id": "8c4798cc-1bd0-5c24-a183-58682cf27765",
+   "lemma": "procedure",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "procedure"
+   ]
+  },
+  {
+   "id": "83a2c647-77cb-583b-998b-d7a4b333554f",
+   "lemma": "process",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "process"
+   ]
+  },
+  {
+   "id": "f4334037-9525-5bd4-aafb-e9742250f8a8",
+   "lemma": "professional",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "professional"
+   ]
+  },
+  {
+   "id": "4aa63cbd-7066-508b-8ee7-34dfb2c1576d",
+   "lemma": "profile",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "profile"
+   ]
+  },
+  {
+   "id": "ba36bcd2-1262-51a8-95a5-08cc0bd510f3",
+   "lemma": "profit",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "profit"
+   ]
+  },
+  {
+   "id": "d5736b6b-c38b-5ee5-8874-83c3a960d9a3",
+   "lemma": "profitable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "profitable"
+   ]
+  },
+  {
+   "id": "db82ff44-e019-508b-9712-c58b12362997",
+   "lemma": "programmer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "programmer",
+    "programer"
+   ]
+  },
+  {
+   "id": "75e13a96-4fcf-509b-9b90-2c5879e5e9ae",
+   "lemma": "programming",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "programming",
+    "programing"
+   ]
+  },
+  {
+   "id": "e7cd69e1-b03d-5f6b-90d8-b458418803a9",
+   "lemma": "progress",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "progress"
+   ]
+  },
+  {
+   "id": "5445c81f-082c-59ac-9d16-d77c576addc5",
+   "lemma": "prohibit",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prohibit"
+   ]
+  },
+  {
+   "id": "ec4178d0-1f76-56d9-9f30-feb76e97b811",
+   "lemma": "project",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "project"
+   ]
+  },
+  {
+   "id": "c48a4a8c-a3ff-5891-b7de-f16d8fead2e5",
+   "lemma": "project",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "project"
+   ]
+  },
+  {
+   "id": "60fd317b-a3ec-515c-9138-f0e6bf7cedbf",
+   "lemma": "projection",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "projection"
+   ]
+  },
+  {
+   "id": "d105dc23-22cd-52f5-9ffd-be6551c42ae6",
+   "lemma": "prom",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prom"
+   ]
+  },
+  {
+   "id": "33838c9c-7c44-5e4b-a73a-269ea9d64ef6",
+   "lemma": "prominence",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prominence"
+   ]
+  },
+  {
+   "id": "e527d659-3911-507b-bf2c-9de9741ade04",
+   "lemma": "prompt",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prompt"
+   ]
+  },
+  {
+   "id": "afd1a1cf-3e63-505b-8c8d-088e009750d6",
+   "lemma": "prompt",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prompt"
+   ]
+  },
+  {
+   "id": "10dedbc9-6f36-589b-8583-38d375f5adf4",
+   "lemma": "prompt",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prompt"
+   ]
+  },
+  {
+   "id": "1afe2431-da35-58fe-ba45-b8bacf16cab3",
+   "lemma": "promptly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "promptly"
+   ]
+  }
+ ]
+}

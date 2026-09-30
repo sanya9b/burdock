@@ -1,0 +1,406 @@
+{
+ "chunk": "B1-041",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "26418fe7-c759-5233-949b-097af5753df0",
+   "lemma": "pillow",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pillow"
+   ]
+  },
+  {
+   "id": "3e5242c3-dbf8-5c59-a2c5-da12233a52b2",
+   "lemma": "pin",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pin"
+   ]
+  },
+  {
+   "id": "8e20cecc-81db-5475-b336-0805958fc0d2",
+   "lemma": "pineapple",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pineapple"
+   ]
+  },
+  {
+   "id": "47e18a02-e9fa-518e-899c-1893654f7af3",
+   "lemma": "pipe",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pipe"
+   ]
+  },
+  {
+   "id": "dfb9e663-1ea7-5d58-ad08-2cb660c0407f",
+   "lemma": "pit",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pit"
+   ]
+  },
+  {
+   "id": "6cf8b2f1-6e5d-5106-8df9-24f58ccdc819",
+   "lemma": "place",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "place"
+   ]
+  },
+  {
+   "id": "d8dca891-7d65-5a91-bf39-2974ca56ad51",
+   "lemma": "plain",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "plain"
+   ]
+  },
+  {
+   "id": "d4c7bce2-084e-51c2-a291-26a25a0dada3",
+   "lemma": "plan",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "plan"
+   ]
+  },
+  {
+   "id": "d57fc265-5bcd-58f0-be89-0b0457a8f50f",
+   "lemma": "plant",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "plant"
+   ]
+  },
+  {
+   "id": "62a5e778-e16e-59c6-a557-2f00ccaa8bf9",
+   "lemma": "plastic",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "plastic"
+   ]
+  },
+  {
+   "id": "28b24074-6f2e-5f5b-91ea-95bede03be75",
+   "lemma": "platform",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "platform"
+   ]
+  },
+  {
+   "id": "ac10e209-9945-576a-a8c1-71c62465495a",
+   "lemma": "pleasantly",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pleasantly"
+   ]
+  },
+  {
+   "id": "20f6acb3-0c7d-503f-b1d7-7e632beeb50d",
+   "lemma": "please",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "please"
+   ]
+  },
+  {
+   "id": "729e2e91-9156-5df2-9901-640b30b0a7b2",
+   "lemma": "plenty",
+   "pos": "pronoun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "plenty"
+   ]
+  },
+  {
+   "id": "ee4e0bf6-2494-564f-93cb-cc793dbfd4ce",
+   "lemma": "plug",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "plug"
+   ]
+  },
+  {
+   "id": "0cc39a9e-0978-5e65-82c5-5186dd237139",
+   "lemma": "plus",
+   "pos": "conjunction",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "plus"
+   ]
+  },
+  {
+   "id": "19881e97-4ee9-5548-bde5-191d0053d98f",
+   "lemma": "pocket money",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pocket money"
+   ]
+  },
+  {
+   "id": "9dea6028-4e5a-5853-af0b-8e1bff8694a7",
+   "lemma": "poet",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "poet"
+   ]
+  },
+  {
+   "id": "c8b26288-4f7e-5183-995e-8a0ab55e0436",
+   "lemma": "poetry",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "poetry"
+   ]
+  },
+  {
+   "id": "94ad8bee-245e-5094-a662-6387fa2927b6",
+   "lemma": "poison",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "poison"
+   ]
+  },
+  {
+   "id": "087ebfef-b17e-5e38-8a1b-9bc4501edc62",
+   "lemma": "poisonous",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "poisonous"
+   ]
+  },
+  {
+   "id": "d1cdb1e3-3a53-5058-8940-6dde94e37ca4",
+   "lemma": "pole",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pole"
+   ]
+  },
+  {
+   "id": "6ddef7bc-4191-55ce-bd46-c2cdf3e5407e",
+   "lemma": "policy",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "policy"
+   ]
+  },
+  {
+   "id": "7a2facf0-2662-5986-8c23-f84eb807b482",
+   "lemma": "politely",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "politely"
+   ]
+  },
+  {
+   "id": "6600ec93-ab26-58f6-8bd2-e5494b132325",
+   "lemma": "politician",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "politician"
+   ]
+  },
+  {
+   "id": "fa456a8a-0b62-56a9-869e-593d242ae575",
+   "lemma": "politics",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "politics"
+   ]
+  },
+  {
+   "id": "b68a1807-9926-5f44-b9e3-c693d5d217ee",
+   "lemma": "pollutant",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pollutant"
+   ]
+  },
+  {
+   "id": "9856802f-2bae-588c-9f81-ced83ce54d29",
+   "lemma": "pond",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pond"
+   ]
+  },
+  {
+   "id": "8419192c-98a8-58d7-b3c7-37254c0d4c56",
+   "lemma": "popcorn",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "popcorn"
+   ]
+  },
+  {
+   "id": "4f8f1473-a91e-53b2-ba8c-02aff6bbdde8",
+   "lemma": "pork",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pork"
+   ]
+  },
+  {
+   "id": "52c95663-065c-5601-93cd-f00c4a52a1ef",
+   "lemma": "port",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "port"
+   ]
+  },
+  {
+   "id": "f43f1892-7c28-50ec-9efa-3d4b2c83b4e0",
+   "lemma": "positive",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "positive"
+   ]
+  },
+  {
+   "id": "ff8c39f4-5e19-596d-9421-7a73a87e5f88",
+   "lemma": "positively",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "positively"
+   ]
+  },
+  {
+   "id": "880fcd77-f50d-57b3-99aa-0a998399a527",
+   "lemma": "possess",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "possess"
+   ]
+  },
+  {
+   "id": "fe9287e5-98d2-5d8c-b9c9-dd693e5150b9",
+   "lemma": "possession",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "possession"
+   ]
+  },
+  {
+   "id": "b5c4a1d7-a2d2-5099-852f-b91f44225f0a",
+   "lemma": "possessive",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "possessive"
+   ]
+  },
+  {
+   "id": "f5c1dfd3-adba-5c10-bc65-c7a9eb08582b",
+   "lemma": "possibility",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "possibility"
+   ]
+  },
+  {
+   "id": "a7ae7152-a386-5c28-85e1-47832c42beeb",
+   "lemma": "postcard",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "postcard"
+   ]
+  },
+  {
+   "id": "bb825f97-b91d-5be5-a513-77ba8f9f29bf",
+   "lemma": "postman",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "postman"
+   ]
+  },
+  {
+   "id": "0ee3fd77-f917-5906-8b3c-420bef8357d6",
+   "lemma": "pot",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pot"
+   ]
+  }
+ ]
+}

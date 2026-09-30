@@ -1,0 +1,406 @@
+{
+ "chunk": "B2-015",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "6d3ff97a-ce3f-519e-8e22-57c6d5c6ccc8",
+   "lemma": "damn",
+   "pos": "interjection",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "damn"
+   ]
+  },
+  {
+   "id": "fc7ee14c-1b1d-56e2-b562-19f739287439",
+   "lemma": "dandelion",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dandelion"
+   ]
+  },
+  {
+   "id": "6b87a09f-6479-5c9f-917d-4ddaf16f0582",
+   "lemma": "darling",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "darling"
+   ]
+  },
+  {
+   "id": "5aad03ac-ada9-5768-9a23-44c57f9d6e87",
+   "lemma": "darling",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "darling"
+   ]
+  },
+  {
+   "id": "bad5ce79-1d21-5c58-b9c7-9c71b13975d8",
+   "lemma": "dash",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dash"
+   ]
+  },
+  {
+   "id": "bcc064f5-9379-5fb7-9690-7868e2740fdd",
+   "lemma": "dash",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dash"
+   ]
+  },
+  {
+   "id": "21a9f530-ebb3-50ea-b0df-64ee5b8b58c2",
+   "lemma": "data",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "data"
+   ]
+  },
+  {
+   "id": "e27de924-05e4-532f-8204-0d9775f4779a",
+   "lemma": "database",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "database"
+   ]
+  },
+  {
+   "id": "5cf60076-020d-5f29-9779-5f0557f9e9cc",
+   "lemma": "dated",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dated"
+   ]
+  },
+  {
+   "id": "1f078c61-411e-5431-a9f1-803edabd0ed4",
+   "lemma": "daughter-in-law",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "daughter-in-law"
+   ]
+  },
+  {
+   "id": "3850c91d-2266-566e-9baa-de3538a52492",
+   "lemma": "dawn",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dawn"
+   ]
+  },
+  {
+   "id": "7ffacd47-7904-5720-b512-9533e8c5b8fc",
+   "lemma": "daytime",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "daytime"
+   ]
+  },
+  {
+   "id": "3e6a8d5e-3cea-5102-aec2-ddd4930c8e37",
+   "lemma": "de facto",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "de facto"
+   ]
+  },
+  {
+   "id": "385ac9a9-877c-53b9-bcd1-9f73228a4797",
+   "lemma": "dear",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dear"
+   ]
+  },
+  {
+   "id": "f8877ad2-357c-514a-b895-9b45914e7c44",
+   "lemma": "dearly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dearly"
+   ]
+  },
+  {
+   "id": "a6f55f7c-76e8-5804-89df-56d23e33abfe",
+   "lemma": "debit",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "debit"
+   ]
+  },
+  {
+   "id": "68aa134e-1f53-5cd4-a73e-f874ae7c4d2e",
+   "lemma": "debit",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "debit"
+   ]
+  },
+  {
+   "id": "ad99ca03-1ab4-57e4-b6d0-2b6cbb20234a",
+   "lemma": "debit card",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "debit card"
+   ]
+  },
+  {
+   "id": "4e47edfa-0ec5-53b6-a7be-523b6105ff5e",
+   "lemma": "decade",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "decade"
+   ]
+  },
+  {
+   "id": "57287f6d-de32-5f05-8541-bba36ecb9467",
+   "lemma": "decay",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "decay"
+   ]
+  },
+  {
+   "id": "40a9713a-09ac-506b-8188-33ff6d334691",
+   "lemma": "deceive",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "deceive"
+   ]
+  },
+  {
+   "id": "0b3c523c-ebd5-579f-907e-1a9be82a2884",
+   "lemma": "decent",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "decent"
+   ]
+  },
+  {
+   "id": "948dd1a0-bb98-5a66-967d-de1b7c9de57d",
+   "lemma": "deceptive",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "deceptive"
+   ]
+  },
+  {
+   "id": "1c921000-76f7-5c9f-bea4-fd69bc5428b6",
+   "lemma": "decisive",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "decisive"
+   ]
+  },
+  {
+   "id": "f7011393-6212-5f47-97f6-d4d6a9fede32",
+   "lemma": "deck",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "deck"
+   ]
+  },
+  {
+   "id": "46039ff0-52bd-5800-a1e4-807229acbd13",
+   "lemma": "decline",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "decline"
+   ]
+  },
+  {
+   "id": "94efefb3-9db8-564b-921a-5aecb5cf4b74",
+   "lemma": "decomposition",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "decomposition"
+   ]
+  },
+  {
+   "id": "d3eeef24-8b2f-5a9a-a00a-8165434adbfd",
+   "lemma": "decorate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "decorate"
+   ]
+  },
+  {
+   "id": "54ac5b28-c318-5f4f-a109-487e1e146e99",
+   "lemma": "decoration",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "decoration"
+   ]
+  },
+  {
+   "id": "b5118396-e459-5a3a-8ec6-b688bb4ec78d",
+   "lemma": "decorative",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "decorative"
+   ]
+  },
+  {
+   "id": "4521b492-2e32-5211-8f90-01f8cce65cd9",
+   "lemma": "dedication",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dedication"
+   ]
+  },
+  {
+   "id": "f60af52a-76e8-5a41-a57b-865acd9fa2a3",
+   "lemma": "deduce",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "deduce"
+   ]
+  },
+  {
+   "id": "80238d3f-a171-52b9-9172-84266c06f210",
+   "lemma": "deduction",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "deduction"
+   ]
+  },
+  {
+   "id": "e71da587-0f69-5e16-bf97-43011f31735d",
+   "lemma": "deem",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "deem"
+   ]
+  },
+  {
+   "id": "f9dbb369-75fb-5c61-a138-f7bffb4c99ec",
+   "lemma": "deep",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "deep"
+   ]
+  },
+  {
+   "id": "fd348d4d-840c-5dda-b454-5bf864b593f4",
+   "lemma": "deer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "deer"
+   ]
+  },
+  {
+   "id": "eff98959-0eba-5992-999b-1e93cce0c25a",
+   "lemma": "defeat",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "defeat"
+   ]
+  },
+  {
+   "id": "fe5a68eb-6c33-52c1-8936-f96f5c928d1c",
+   "lemma": "deficit",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "deficit"
+   ]
+  },
+  {
+   "id": "0ce9e31b-0ffc-5510-9b87-6d5faf0e2aea",
+   "lemma": "deforestation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "deforestation"
+   ]
+  },
+  {
+   "id": "b76b29a8-fdbd-58fa-9c70-17b1b8efb0c7",
+   "lemma": "defy",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "defy"
+   ]
+  }
+ ]
+}

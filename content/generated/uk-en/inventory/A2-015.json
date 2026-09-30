@@ -1,0 +1,406 @@
+{
+ "chunk": "A2-015",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "f72d501f-ce05-5cc9-8dce-0e8e185c2551",
+   "lemma": "grandson",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "grandson"
+   ]
+  },
+  {
+   "id": "ddb0ad52-6cfe-5c3a-a06d-b9a367a5e47b",
+   "lemma": "granny",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "granny"
+   ]
+  },
+  {
+   "id": "380ff3de-165a-515c-8e98-51151514856f",
+   "lemma": "grateful",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "grateful"
+   ]
+  },
+  {
+   "id": "765c406f-abed-584a-8c39-3de5c82e5164",
+   "lemma": "greatly",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "greatly"
+   ]
+  },
+  {
+   "id": "b3ca3a0a-2bd1-518f-89b9-e5ee0709d2c8",
+   "lemma": "greedy",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "greedy"
+   ]
+  },
+  {
+   "id": "e8ec0ab0-1d42-5447-96d8-fbe4c4698315",
+   "lemma": "green",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "green"
+   ]
+  },
+  {
+   "id": "dc101901-57b2-55ec-987d-8b41595b667b",
+   "lemma": "grilled",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "grilled"
+   ]
+  },
+  {
+   "id": "48979f14-a943-55f6-bd2c-ae34eaff56dd",
+   "lemma": "grocery store",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "grocery store"
+   ]
+  },
+  {
+   "id": "0f85544f-35d7-5130-908f-7ee1151cfb57",
+   "lemma": "guard",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "guard"
+   ]
+  },
+  {
+   "id": "27f8f99f-aa9e-5a86-9239-79e86ee68fb8",
+   "lemma": "guidebook",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "guidebook"
+   ]
+  },
+  {
+   "id": "394ad996-b4da-57d1-a1b4-fc128aaa0aff",
+   "lemma": "gun",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "gun"
+   ]
+  },
+  {
+   "id": "a375a78e-ab09-51b7-a8d8-8c6dfd0874c0",
+   "lemma": "half",
+   "pos": "determiner",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "half"
+   ]
+  },
+  {
+   "id": "c8a85c16-1bbd-5ea9-b193-6fe726135313",
+   "lemma": "half",
+   "pos": "pronoun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "half"
+   ]
+  },
+  {
+   "id": "494a0be5-5193-57d0-8a85-daf55a35338c",
+   "lemma": "half-price",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "half-price"
+   ]
+  },
+  {
+   "id": "cfb27609-1c6f-5d45-90d0-2f25e8d371af",
+   "lemma": "half-price",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "half-price"
+   ]
+  },
+  {
+   "id": "65ab1210-d51d-5746-8080-1984b8cbc535",
+   "lemma": "ham",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ham"
+   ]
+  },
+  {
+   "id": "d660e1a2-9545-574d-8dfb-2232cebaa798",
+   "lemma": "hand",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hand"
+   ]
+  },
+  {
+   "id": "fcb25668-339f-5538-b766-264381b33ecd",
+   "lemma": "handbag",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "handbag"
+   ]
+  },
+  {
+   "id": "7af2c5dc-63c0-5df5-a5f6-15181c7cc888",
+   "lemma": "handicapped",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "handicapped"
+   ]
+  },
+  {
+   "id": "565e77f1-a2f8-53ff-808a-c18a47e90859",
+   "lemma": "handle",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "handle"
+   ]
+  },
+  {
+   "id": "110a227f-d8d0-5816-896d-82f6e78b13f9",
+   "lemma": "happily",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "happily"
+   ]
+  },
+  {
+   "id": "ad243a5d-672f-5906-81b6-31e8513d4b67",
+   "lemma": "happiness",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "happiness"
+   ]
+  },
+  {
+   "id": "86a500fd-acbf-5b44-8a70-4ab07b45c7a2",
+   "lemma": "hardly",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hardly"
+   ]
+  },
+  {
+   "id": "3a9d70d6-6ce3-57ff-bc85-6eba8d1e6f30",
+   "lemma": "harm",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "harm"
+   ]
+  },
+  {
+   "id": "7b105219-24bd-57d0-b705-d595e1cd50c9",
+   "lemma": "harmful",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "harmful"
+   ]
+  },
+  {
+   "id": "df117e7d-b85d-5f60-b1d2-2a28b1518761",
+   "lemma": "harmony",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "harmony"
+   ]
+  },
+  {
+   "id": "65b83d59-6e8c-5fda-aaa7-0ffa33cfd40c",
+   "lemma": "harvest",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "harvest"
+   ]
+  },
+  {
+   "id": "0a505b51-9db1-5259-9d59-cfab2d85ebfb",
+   "lemma": "hate",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hate"
+   ]
+  },
+  {
+   "id": "e37b6be6-f26f-5d8f-856c-094e9ef21873",
+   "lemma": "head",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "head"
+   ]
+  },
+  {
+   "id": "e6f4fe4f-5f98-59a6-afc4-df4b118135fc",
+   "lemma": "headphone",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "headphone"
+   ]
+  },
+  {
+   "id": "828bbcea-f7f9-5266-a7f4-2d7aa565b3db",
+   "lemma": "headteacher",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "headteacher"
+   ]
+  },
+  {
+   "id": "f0a21f6b-3c4a-558a-be64-266e6c6fb9cd",
+   "lemma": "heat",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "heat"
+   ]
+  },
+  {
+   "id": "e864808d-1bc4-5ad1-ab6d-246edf753a9e",
+   "lemma": "heating",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "heating"
+   ]
+  },
+  {
+   "id": "16d97f88-10fc-5805-b5e2-c6010f342a73",
+   "lemma": "heavily",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "heavily"
+   ]
+  },
+  {
+   "id": "807bf370-feb5-5cab-821e-43333dc1d2ca",
+   "lemma": "help",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "help"
+   ]
+  },
+  {
+   "id": "dbd57719-f9ff-5368-9f34-ba617d1f6c78",
+   "lemma": "helpful",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "helpful"
+   ]
+  },
+  {
+   "id": "f7b6bddc-3553-57b9-9713-022a20dfdee4",
+   "lemma": "hero",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hero"
+   ]
+  },
+  {
+   "id": "404a7c70-882e-569b-bd86-3d84d2b2294d",
+   "lemma": "herself",
+   "pos": "pronoun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "herself"
+   ]
+  },
+  {
+   "id": "1f4a71da-e38e-5d4a-a180-725aee7aec8d",
+   "lemma": "hey",
+   "pos": "interjection",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hey"
+   ]
+  },
+  {
+   "id": "e971823f-657b-5d18-a492-564e9bbbc204",
+   "lemma": "high",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "high"
+   ]
+  }
+ ]
+}

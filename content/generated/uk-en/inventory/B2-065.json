@@ -1,0 +1,406 @@
+{
+ "chunk": "B2-065",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "a04c0223-dd14-5b52-b6b4-92474fb46f7f",
+   "lemma": "unavailable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unavailable"
+   ]
+  },
+  {
+   "id": "9e1c2663-ed47-56ac-902e-ca717f7047e2",
+   "lemma": "unaware",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unaware"
+   ]
+  },
+  {
+   "id": "87a0f619-1b4f-550e-b619-6b0bcda54f22",
+   "lemma": "unbearable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unbearable"
+   ]
+  },
+  {
+   "id": "2a3346c8-c0d9-512f-849e-abb389872910",
+   "lemma": "unbeatable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unbeatable"
+   ]
+  },
+  {
+   "id": "53eebd28-db9d-5aba-bdc4-eb5f75cad8f2",
+   "lemma": "unchanged",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unchanged"
+   ]
+  },
+  {
+   "id": "dd9dfd64-550c-5e6f-8505-e1a66a569be5",
+   "lemma": "uncharacteristic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "uncharacteristic"
+   ]
+  },
+  {
+   "id": "51889700-fad2-52ab-b9fe-d3b2c964c5fa",
+   "lemma": "unclearly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unclearly"
+   ]
+  },
+  {
+   "id": "ceebcbb8-76a3-5cc4-866f-e43d0a27889c",
+   "lemma": "uncomfortably",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "uncomfortably"
+   ]
+  },
+  {
+   "id": "644b51ba-26ed-5900-b633-09898757c6c8",
+   "lemma": "uncommon",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "uncommon"
+   ]
+  },
+  {
+   "id": "e31f98c1-e132-5b53-8a46-4d25dc3f6694",
+   "lemma": "unconcerned",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unconcerned"
+   ]
+  },
+  {
+   "id": "c8a881bc-902e-5e28-b063-ca231e5c19a2",
+   "lemma": "unconscious",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unconscious"
+   ]
+  },
+  {
+   "id": "1333c142-b852-544f-b3e1-078551d00712",
+   "lemma": "underestimate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "underestimate"
+   ]
+  },
+  {
+   "id": "7bd08549-6f01-556d-a88c-68980538e229",
+   "lemma": "undergraduate",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "undergraduate"
+   ]
+  },
+  {
+   "id": "59f83cbc-f842-58f5-8993-3d0e8fefa1dd",
+   "lemma": "underground",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "underground"
+   ]
+  },
+  {
+   "id": "be263997-6399-5cef-a892-2950a8b20c0c",
+   "lemma": "underground",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "underground"
+   ]
+  },
+  {
+   "id": "6b684f25-0b08-5498-b966-aed2021a64a3",
+   "lemma": "underneath",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "underneath"
+   ]
+  },
+  {
+   "id": "a6161bd8-fac5-5d95-b1d3-a89ef1ba42ca",
+   "lemma": "undersea",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "undersea"
+   ]
+  },
+  {
+   "id": "b53d9cf1-56f5-5979-8cd2-df0e501d705e",
+   "lemma": "understandable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "understandable"
+   ]
+  },
+  {
+   "id": "d8d98450-5ada-5e9b-804f-1730033eb031",
+   "lemma": "understanding",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "understanding"
+   ]
+  },
+  {
+   "id": "88c25661-aea0-50c9-85be-b1e32fb06b98",
+   "lemma": "understanding",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "understanding"
+   ]
+  },
+  {
+   "id": "74f3c8b7-3245-5901-9ea2-ae14cf52c149",
+   "lemma": "undertake",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "undertake"
+   ]
+  },
+  {
+   "id": "951fc7ef-db9a-5946-92fd-3f7dc5c347d2",
+   "lemma": "underwater",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "underwater"
+   ]
+  },
+  {
+   "id": "fbfb3a99-82a5-53d1-b1e4-194ea6cb156e",
+   "lemma": "underwear",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "underwear"
+   ]
+  },
+  {
+   "id": "acb48712-e220-5f11-b482-1da9858f009e",
+   "lemma": "undoubtedly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "undoubtedly"
+   ]
+  },
+  {
+   "id": "4283d059-1613-5b49-a59c-f91845bc60d0",
+   "lemma": "undreamed",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "undreamed"
+   ]
+  },
+  {
+   "id": "1adb2c2b-8121-5210-9905-4019518f47b4",
+   "lemma": "undressed",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "undressed"
+   ]
+  },
+  {
+   "id": "d9ca2189-997a-5224-ae43-2e4e89db4351",
+   "lemma": "unease",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unease"
+   ]
+  },
+  {
+   "id": "89a2a5e0-c6d7-5b71-bdbb-abe8a6fa127d",
+   "lemma": "uneasily",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "uneasily"
+   ]
+  },
+  {
+   "id": "f3bbbd14-d94a-5c02-b2f8-8c3b83ef967c",
+   "lemma": "unenthusiastic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unenthusiastic"
+   ]
+  },
+  {
+   "id": "197294c1-3422-5e0f-bbcb-939345e405de",
+   "lemma": "uneven",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "uneven"
+   ]
+  },
+  {
+   "id": "8591534e-0702-5e14-a773-7f77eabd8868",
+   "lemma": "unfamiliar",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unfamiliar"
+   ]
+  },
+  {
+   "id": "6dd7dfe2-7a57-53cf-9c82-0de27fdac4c4",
+   "lemma": "unfashionable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unfashionable"
+   ]
+  },
+  {
+   "id": "fb7f51a0-4120-5ea9-8a06-01931759532f",
+   "lemma": "unforeseen",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unforeseen"
+   ]
+  },
+  {
+   "id": "ec752119-2e85-5df6-b527-1ce2911298bd",
+   "lemma": "ungodly",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ungodly"
+   ]
+  },
+  {
+   "id": "7a02515c-a2f5-5af9-9b5a-c3b352ac8b35",
+   "lemma": "unhappiness",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unhappiness"
+   ]
+  },
+  {
+   "id": "35fdaaed-8abd-5c22-9dde-529c64fd5cfc",
+   "lemma": "unhelpful",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unhelpful"
+   ]
+  },
+  {
+   "id": "330b2772-0585-5601-b408-3c8276a1b1b1",
+   "lemma": "unimaginable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unimaginable"
+   ]
+  },
+  {
+   "id": "766159dc-542d-5dbc-a8ab-934380d50423",
+   "lemma": "unimaginably",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unimaginably"
+   ]
+  },
+  {
+   "id": "1afa20dd-a0f9-52d4-a992-2ba1c461678b",
+   "lemma": "united",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "united"
+   ]
+  },
+  {
+   "id": "afdd7030-3fe8-584d-bb9f-e68b678cfc8c",
+   "lemma": "universal",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "universal"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,407 @@
+{
+ "chunk": "A2-025",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "e33134b0-6d96-5ae2-9112-2ca21975893b",
+   "lemma": "proper",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "proper"
+   ]
+  },
+  {
+   "id": "2d276ee7-9e03-5ced-b5a4-d233a9fd3840",
+   "lemma": "provide",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "provide"
+   ]
+  },
+  {
+   "id": "274cf1ea-95fa-572f-ae0c-7490c4709701",
+   "lemma": "psychologist",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "psychologist"
+   ]
+  },
+  {
+   "id": "1c5b7afd-b0ec-5eac-b177-e0bf70d0aa63",
+   "lemma": "public",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "public"
+   ]
+  },
+  {
+   "id": "bec187db-723b-5cb5-a7b2-cafd93518d61",
+   "lemma": "publish",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "publish"
+   ]
+  },
+  {
+   "id": "581a7fbe-7ffe-5dd3-99f1-17e357b2b1f1",
+   "lemma": "pull",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pull"
+   ]
+  },
+  {
+   "id": "bf5ba84d-539c-5121-8d7c-86939517e7be",
+   "lemma": "punctuation",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "punctuation"
+   ]
+  },
+  {
+   "id": "f2368d1f-812c-5e5c-ad1d-aad1e4eca03d",
+   "lemma": "purple",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "purple"
+   ]
+  },
+  {
+   "id": "5eada622-b0d3-5e56-8be5-824c9b7870dc",
+   "lemma": "purpose",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "purpose"
+   ]
+  },
+  {
+   "id": "69478f1b-314a-5876-b6e8-dedbe40cdcb6",
+   "lemma": "pursue",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pursue"
+   ]
+  },
+  {
+   "id": "e7f46708-bf64-5098-836f-82f592f2d8f9",
+   "lemma": "quality",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "quality"
+   ]
+  },
+  {
+   "id": "a27fc9ab-1748-594b-821f-09e9d57fb756",
+   "lemma": "queen",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "queen"
+   ]
+  },
+  {
+   "id": "d44b4a07-b1c2-5639-b3d9-d25a2ca43a1e",
+   "lemma": "quick",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "quick"
+   ]
+  },
+  {
+   "id": "235e8f2c-2510-5e4f-87b5-5dc6266afdb2",
+   "lemma": "quietly",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "quietly"
+   ]
+  },
+  {
+   "id": "883adbb0-54dd-5282-9567-315bc609f8e2",
+   "lemma": "quit",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "quit"
+   ]
+  },
+  {
+   "id": "cbc7874b-cc6b-58aa-871d-c1ddbcb418e8",
+   "lemma": "quite",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "quite"
+   ]
+  },
+  {
+   "id": "df215363-e619-5eb5-9042-14f0136e0b7f",
+   "lemma": "quiz",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "quiz"
+   ]
+  },
+  {
+   "id": "d048be88-30d4-52f6-b651-7955f0182841",
+   "lemma": "racket",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "racket"
+   ]
+  },
+  {
+   "id": "92fbf0f7-30e9-5fa4-aed5-2146263d6532",
+   "lemma": "raincoat",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "raincoat"
+   ]
+  },
+  {
+   "id": "9bd87850-3cf4-5618-ab8e-2b0ae243cd6b",
+   "lemma": "raise",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "raise"
+   ]
+  },
+  {
+   "id": "d4666d7c-66af-5885-9a28-c781f8267104",
+   "lemma": "range",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "range"
+   ]
+  },
+  {
+   "id": "905abc7a-cdaa-5c77-83b2-1068a824b6d7",
+   "lemma": "rap",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rap"
+   ]
+  },
+  {
+   "id": "50a1ca41-aec1-54c2-81fa-e5803f1bde82",
+   "lemma": "rate",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rate"
+   ]
+  },
+  {
+   "id": "e4b7a6ff-8370-5098-a14c-26e12b87c834",
+   "lemma": "rather",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rather"
+   ]
+  },
+  {
+   "id": "3839eb18-0030-5806-a124-8ab0b2dd6f90",
+   "lemma": "rating",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rating"
+   ]
+  },
+  {
+   "id": "77b49425-2a13-5f7d-a7a7-8f5600eace94",
+   "lemma": "raw",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "raw"
+   ]
+  },
+  {
+   "id": "5888cc00-e40b-547e-898d-5e5c005ea37c",
+   "lemma": "ray",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ray"
+   ]
+  },
+  {
+   "id": "5b4c6181-5d78-5338-9c26-3d0cc0e69373",
+   "lemma": "reach",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "reach"
+   ]
+  },
+  {
+   "id": "1ee8c7a5-963d-5260-93d9-b7293d90cfce",
+   "lemma": "realize",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "realize",
+    "realise"
+   ]
+  },
+  {
+   "id": "c65e2682-3acb-5f4e-a2df-7c6fbe8c4543",
+   "lemma": "receipt",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "receipt"
+   ]
+  },
+  {
+   "id": "cfdf4745-78eb-5c74-a5ed-6e43a6b39129",
+   "lemma": "receive",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "receive"
+   ]
+  },
+  {
+   "id": "6af1dc97-e942-5f64-b662-7c51ea7c65d8",
+   "lemma": "recent",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "recent"
+   ]
+  },
+  {
+   "id": "c0f16944-4243-5e1c-a6af-9686e32f2f14",
+   "lemma": "recently",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "recently"
+   ]
+  },
+  {
+   "id": "115a78b0-7dd2-5640-a75f-3ce4fa0c360d",
+   "lemma": "receptionist",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "receptionist"
+   ]
+  },
+  {
+   "id": "58c8af9e-e76c-56bc-911d-3ab19be54dd4",
+   "lemma": "record",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "record"
+   ]
+  },
+  {
+   "id": "fbf9d87b-3d02-5075-adb1-f5b6a1fc7437",
+   "lemma": "recycle",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "recycle"
+   ]
+  },
+  {
+   "id": "a89a8238-76e6-5fd2-b066-865c7121345c",
+   "lemma": "red",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "red"
+   ]
+  },
+  {
+   "id": "0517daa0-9375-58a6-aa27-efbb4c95401f",
+   "lemma": "refer",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "refer"
+   ]
+  },
+  {
+   "id": "b2884c9b-1f90-58d1-9ad5-b2dd8b78194d",
+   "lemma": "reflect",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "reflect"
+   ]
+  },
+  {
+   "id": "008669d5-ae9b-59db-913c-b5d8c4f07abf",
+   "lemma": "refrigerator",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "refrigerator"
+   ]
+  }
+ ]
+}

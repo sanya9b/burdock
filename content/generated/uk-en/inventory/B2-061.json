@@ -1,0 +1,407 @@
+{
+ "chunk": "B2-061",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "54c3a84f-a57e-5760-99bd-683fc57dd6cf",
+   "lemma": "swing",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "swing"
+   ]
+  },
+  {
+   "id": "1c3707ea-4800-51c3-afb0-16484342f53b",
+   "lemma": "swing",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "swing"
+   ]
+  },
+  {
+   "id": "8bde156a-5cb7-5483-8978-0eb8c5278be1",
+   "lemma": "syllable",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "syllable"
+   ]
+  },
+  {
+   "id": "b77ad29a-3509-5a75-b7e1-33a7ee983297",
+   "lemma": "symbolic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "symbolic"
+   ]
+  },
+  {
+   "id": "16ba3f69-4896-5246-9238-b9e50b51f966",
+   "lemma": "sympathetic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sympathetic"
+   ]
+  },
+  {
+   "id": "73e6d512-03cd-5908-9dc0-1ab4985fb44e",
+   "lemma": "sympathize",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sympathize",
+    "sympathise"
+   ]
+  },
+  {
+   "id": "6baabd0e-3cc0-543b-ac1d-14cb8ead0217",
+   "lemma": "synonym",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "synonym"
+   ]
+  },
+  {
+   "id": "425540f2-e51c-5ff7-97b5-6bc9e8ce1f00",
+   "lemma": "tablecloth",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tablecloth"
+   ]
+  },
+  {
+   "id": "37709c95-a846-52d3-9a06-94255ecefa25",
+   "lemma": "tabloid",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tabloid"
+   ]
+  },
+  {
+   "id": "8476b10c-e88f-57e7-911c-be011a4480ba",
+   "lemma": "tabloid",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tabloid"
+   ]
+  },
+  {
+   "id": "c4cc2fe6-d00c-59fd-bd76-376412cdd114",
+   "lemma": "tack",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tack"
+   ]
+  },
+  {
+   "id": "7d4efd6a-1764-5d8f-960b-7942991bb8ad",
+   "lemma": "tackle",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tackle"
+   ]
+  },
+  {
+   "id": "4c89c912-9df7-5bb4-ad6e-a6c8e53c24c3",
+   "lemma": "tactile",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tactile"
+   ]
+  },
+  {
+   "id": "3adcd286-522e-5f3c-94d8-32770071df67",
+   "lemma": "tag",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tag"
+   ]
+  },
+  {
+   "id": "f6b27f11-b9ab-5b74-a7dc-38e124e70a95",
+   "lemma": "tail",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tail"
+   ]
+  },
+  {
+   "id": "ff7e38a5-ba58-5921-ba4e-f347bcdfefb6",
+   "lemma": "tame",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tame"
+   ]
+  },
+  {
+   "id": "95b21772-61c1-5575-8f09-971a48ed285c",
+   "lemma": "tan",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tan"
+   ]
+  },
+  {
+   "id": "ebe5b077-6119-545f-9bdf-52172bcf0809",
+   "lemma": "tanned",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tanned"
+   ]
+  },
+  {
+   "id": "8c76040d-2bf5-533e-afd7-a4ea4b069043",
+   "lemma": "tap",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tap"
+   ]
+  },
+  {
+   "id": "9696dfb5-aaa5-5f8f-b2a0-822b26ed665c",
+   "lemma": "tatter",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tatter"
+   ]
+  },
+  {
+   "id": "4e534892-e69f-50e2-b285-8b731b89918a",
+   "lemma": "tattoo",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tattoo"
+   ]
+  },
+  {
+   "id": "e28ab661-7d47-55bd-94bf-1f46ba3cf717",
+   "lemma": "taunt",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "taunt"
+   ]
+  },
+  {
+   "id": "2ff5c8d8-41fe-5ae7-b67e-3eab6232ca98",
+   "lemma": "tease",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tease"
+   ]
+  },
+  {
+   "id": "96c46e4c-adb7-57bc-a198-212265f19bd9",
+   "lemma": "teaspoon",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "teaspoon"
+   ]
+  },
+  {
+   "id": "8605da34-44ec-52fa-9284-22abf2087e38",
+   "lemma": "technical",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "technical"
+   ]
+  },
+  {
+   "id": "730dce5e-332e-5cd4-acbe-3984a71f8335",
+   "lemma": "technically",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "technically"
+   ]
+  },
+  {
+   "id": "936643fd-76d7-5e2c-85c1-971105256dc1",
+   "lemma": "telescope",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "telescope"
+   ]
+  },
+  {
+   "id": "079a3f46-199f-5f06-8eac-8310b241d71d",
+   "lemma": "temperate",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "temperate"
+   ]
+  },
+  {
+   "id": "149541ea-891e-51b2-b428-465a63acccd1",
+   "lemma": "temporarily",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "temporarily"
+   ]
+  },
+  {
+   "id": "c9571069-cb95-533c-bdf9-412539125882",
+   "lemma": "temptation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "temptation"
+   ]
+  },
+  {
+   "id": "4aaef53c-3bd8-5f9c-945a-dfa4271914ed",
+   "lemma": "tender",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tender"
+   ]
+  },
+  {
+   "id": "ce7cb1a9-544a-5c8e-9935-7d6c5da34f75",
+   "lemma": "tenderly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tenderly"
+   ]
+  },
+  {
+   "id": "59749516-7a73-59d9-975f-14fe20154b50",
+   "lemma": "tenderness",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tenderness"
+   ]
+  },
+  {
+   "id": "7396448c-acdc-5aa3-99c1-de54454356e2",
+   "lemma": "terrace",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "terrace"
+   ]
+  },
+  {
+   "id": "2956efc5-3ddb-56dc-b461-340f3d48d6b2",
+   "lemma": "terrifying",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "terrifying"
+   ]
+  },
+  {
+   "id": "4fe4920e-5dd2-5659-9266-a777c4dce006",
+   "lemma": "territory",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "territory"
+   ]
+  },
+  {
+   "id": "68cde26a-949a-52c1-be1b-8e538d9583f9",
+   "lemma": "test",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "test"
+   ]
+  },
+  {
+   "id": "03c5600f-5454-596e-ae69-2f810a9a6b94",
+   "lemma": "testify",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "testify"
+   ]
+  },
+  {
+   "id": "142903b6-238c-5764-a85b-6e8f28fcd055",
+   "lemma": "testimony",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "testimony"
+   ]
+  },
+  {
+   "id": "15f473b9-6a4a-5661-8203-b17b0bf0122a",
+   "lemma": "that",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "that"
+   ]
+  }
+ ]
+}

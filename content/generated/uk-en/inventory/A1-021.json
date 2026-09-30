@@ -1,0 +1,406 @@
+{
+ "chunk": "A1-021",
+ "level": "A1",
+ "lexemes": [
+  {
+   "id": "07822fb2-c90f-5900-8122-9bbbf9b7c776",
+   "lemma": "rainy",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rainy"
+   ]
+  },
+  {
+   "id": "95594bfa-3096-5bb6-8071-76aa5c63d599",
+   "lemma": "rat",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rat"
+   ]
+  },
+  {
+   "id": "63350b2d-e4f2-53fd-9208-8fb0a4ae1ceb",
+   "lemma": "read",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "read"
+   ]
+  },
+  {
+   "id": "6b83cbd4-01c5-5047-b30b-34af2e522e94",
+   "lemma": "reader",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "reader"
+   ]
+  },
+  {
+   "id": "1887812b-4f83-5364-aa1f-601d42a30ecf",
+   "lemma": "reading",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "reading"
+   ]
+  },
+  {
+   "id": "27f45923-4e79-55f1-9c50-b368f881c76a",
+   "lemma": "ready",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ready"
+   ]
+  },
+  {
+   "id": "83c125fd-5cb7-5ca6-bb26-03e3cbbd96b9",
+   "lemma": "real",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "real"
+   ]
+  },
+  {
+   "id": "e286dee1-85b1-5e2d-925c-14e251c0ffe8",
+   "lemma": "real",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "real"
+   ]
+  },
+  {
+   "id": "893df742-e479-5213-835c-47890a795f29",
+   "lemma": "really",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "really"
+   ]
+  },
+  {
+   "id": "adad6a69-d989-5647-a3cd-024891448edb",
+   "lemma": "reason",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "reason"
+   ]
+  },
+  {
+   "id": "f18e59e0-481b-5083-8569-6d8ec67e3704",
+   "lemma": "red",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "red"
+   ]
+  },
+  {
+   "id": "ef60425f-cf35-5d2e-bf64-b955d81ba744",
+   "lemma": "remember",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "remember"
+   ]
+  },
+  {
+   "id": "477a2814-ae37-593c-99fd-04150cd9cc15",
+   "lemma": "repeat",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "repeat"
+   ]
+  },
+  {
+   "id": "899f919e-d5bc-558e-9461-028cc933677c",
+   "lemma": "reporter",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "reporter"
+   ]
+  },
+  {
+   "id": "501c1870-1648-57e9-a595-c23fcdbbee01",
+   "lemma": "restaurant",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "restaurant"
+   ]
+  },
+  {
+   "id": "3ce1bf90-1634-509c-bf24-87abcac2974d",
+   "lemma": "result",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "result"
+   ]
+  },
+  {
+   "id": "bc825c76-8d27-51c8-9d58-9ab8e58a3241",
+   "lemma": "review",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "review"
+   ]
+  },
+  {
+   "id": "f5301c8b-513c-599a-bb67-3310180167b2",
+   "lemma": "ribbon",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ribbon"
+   ]
+  },
+  {
+   "id": "c2322c2e-fa21-54c0-bc24-635e98f5e95a",
+   "lemma": "rice",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rice"
+   ]
+  },
+  {
+   "id": "291b9cc6-d21c-59ef-be1b-835b8b7ac40d",
+   "lemma": "rich",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rich"
+   ]
+  },
+  {
+   "id": "68caec68-900f-5c02-adec-02e6d17a564f",
+   "lemma": "ride",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ride"
+   ]
+  },
+  {
+   "id": "51808576-9f3d-5a37-855a-dca57b9f23c8",
+   "lemma": "ride",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ride"
+   ]
+  },
+  {
+   "id": "6d36af2a-7962-5025-b479-529a4feac2cc",
+   "lemma": "right",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "right"
+   ]
+  },
+  {
+   "id": "1bc3f518-fc34-5734-a7e5-9fe415918d75",
+   "lemma": "right",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "right"
+   ]
+  },
+  {
+   "id": "1b11da9e-b21a-5078-a51e-0ee486e776d0",
+   "lemma": "ring",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ring"
+   ]
+  },
+  {
+   "id": "6c3e7f1e-6ef2-594b-8d83-b313225cec1f",
+   "lemma": "river",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "river"
+   ]
+  },
+  {
+   "id": "db7beecd-7f7a-55b0-9575-42184faf7dcd",
+   "lemma": "role",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "role"
+   ]
+  },
+  {
+   "id": "5e6d73ec-8e1e-5e5c-aa76-5befd4f4624c",
+   "lemma": "room",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "room"
+   ]
+  },
+  {
+   "id": "c20b86fd-72c0-5aef-a696-369b8c0d2317",
+   "lemma": "rose",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rose"
+   ]
+  },
+  {
+   "id": "8ed869fe-83ad-5ac7-8663-269f522a25ec",
+   "lemma": "row",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "row"
+   ]
+  },
+  {
+   "id": "403f4298-7e6c-535c-9907-20785efd3d00",
+   "lemma": "rude",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rude"
+   ]
+  },
+  {
+   "id": "f51d20d4-2449-5c60-b5e3-92b6ad88c171",
+   "lemma": "rule",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rule"
+   ]
+  },
+  {
+   "id": "618fa3ef-f24f-53c0-9554-35f2c0c5ecaf",
+   "lemma": "ruler",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ruler"
+   ]
+  },
+  {
+   "id": "d8f2478f-df51-5cd5-a150-4ae0d987ac15",
+   "lemma": "run",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "run"
+   ]
+  },
+  {
+   "id": "ae341802-c4f2-5459-83fd-3c81bcaafb02",
+   "lemma": "run",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "run"
+   ]
+  },
+  {
+   "id": "1ec6f32a-8e99-5aaa-9ead-c90b8d1828f0",
+   "lemma": "sad",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sad"
+   ]
+  },
+  {
+   "id": "3ee4d550-563a-5d00-a3d3-33f1fde22f68",
+   "lemma": "sailor",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sailor"
+   ]
+  },
+  {
+   "id": "34ec4d86-05ab-5eb3-b156-f5eb0cfd5770",
+   "lemma": "salad",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "salad"
+   ]
+  },
+  {
+   "id": "dc609249-564d-5d5f-8117-0719c0cb8684",
+   "lemma": "sale",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sale"
+   ]
+  },
+  {
+   "id": "346f2283-891e-5e61-abb7-eeede9ca2700",
+   "lemma": "same",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "same"
+   ]
+  }
+ ]
+}

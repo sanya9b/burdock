@@ -1,0 +1,408 @@
+{
+ "chunk": "B1-038",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "d10a77f5-a05a-547b-9308-afac269b5fc8",
+   "lemma": "obstacle",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "obstacle"
+   ]
+  },
+  {
+   "id": "874caaab-b3ba-50e9-a1d4-a9f4d0203cee",
+   "lemma": "obtain",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "obtain"
+   ]
+  },
+  {
+   "id": "673ae8ad-e559-5224-a197-1ccfffba130c",
+   "lemma": "obvious",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "obvious"
+   ]
+  },
+  {
+   "id": "d5d81c77-040e-5b4e-a8bf-26625ef87f58",
+   "lemma": "obviously",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "obviously"
+   ]
+  },
+  {
+   "id": "62f56210-7dc2-5d82-86cd-cadcc9008ef2",
+   "lemma": "occasion",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "occasion"
+   ]
+  },
+  {
+   "id": "6fde507a-26f5-54be-888e-931b496c0122",
+   "lemma": "occasion",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "occasion"
+   ]
+  },
+  {
+   "id": "d74e4711-535b-5f79-b595-0feb961495a5",
+   "lemma": "occasional",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "occasional"
+   ]
+  },
+  {
+   "id": "65753803-3160-5152-8421-23f29b24876b",
+   "lemma": "occasionally",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "occasionally"
+   ]
+  },
+  {
+   "id": "60b0d8d1-958c-532a-b186-d220e24b0965",
+   "lemma": "occupy",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "occupy"
+   ]
+  },
+  {
+   "id": "15d1bee8-4830-5713-946f-09c31ff487b8",
+   "lemma": "occur",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "occur"
+   ]
+  },
+  {
+   "id": "0a3a4f70-8579-5062-bc1b-19c59c60fd06",
+   "lemma": "ocean",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ocean"
+   ]
+  },
+  {
+   "id": "5557b1e3-53be-51a1-96d3-2c86658b72ff",
+   "lemma": "off",
+   "pos": "preposition",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "off"
+   ]
+  },
+  {
+   "id": "50a02340-9d99-5d2e-a60c-4dfcf21414ec",
+   "lemma": "offensive",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "offensive"
+   ]
+  },
+  {
+   "id": "efd9936c-816e-5048-8d03-bd91d49be1e1",
+   "lemma": "officially",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "officially"
+   ]
+  },
+  {
+   "id": "b1d9d860-3430-5a8e-860a-17aff2f9760c",
+   "lemma": "oily",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "oily"
+   ]
+  },
+  {
+   "id": "ee10b379-be15-5a68-bc70-b2626920ecfa",
+   "lemma": "old-fashioned",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "old-fashioned"
+   ]
+  },
+  {
+   "id": "4d906ae7-bbe8-5108-8b60-82cc64c32647",
+   "lemma": "oneself",
+   "pos": "pronoun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "oneself"
+   ]
+  },
+  {
+   "id": "fd3ce36b-1b60-585b-a2c1-9ebb23a74eec",
+   "lemma": "onstage",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "onstage"
+   ]
+  },
+  {
+   "id": "4d94ff55-ed03-5b31-9e60-00123d7c793c",
+   "lemma": "onto",
+   "pos": "preposition",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "onto",
+    "on to"
+   ]
+  },
+  {
+   "id": "6c1279d3-3c9e-5548-8de5-48b22f75a789",
+   "lemma": "opening",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "opening"
+   ]
+  },
+  {
+   "id": "c86f1a2a-33ad-5f0a-9ef9-332ed9c7e203",
+   "lemma": "operation",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "operation"
+   ]
+  },
+  {
+   "id": "5da86a40-d2b9-5731-9f99-845ec74e8096",
+   "lemma": "opposite",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "opposite"
+   ]
+  },
+  {
+   "id": "a14bb2a0-f9dd-53e9-826a-e9fd22ec6833",
+   "lemma": "opposite",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "opposite"
+   ]
+  },
+  {
+   "id": "4ab71049-a836-5c4b-b383-6676eb0e8e23",
+   "lemma": "opposition",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "opposition"
+   ]
+  },
+  {
+   "id": "2e2b37fb-02b7-5485-aff7-07faf95d1596",
+   "lemma": "oppress",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "oppress"
+   ]
+  },
+  {
+   "id": "f984e2d2-c1ab-5fca-b407-ab408014867b",
+   "lemma": "oppression",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "oppression"
+   ]
+  },
+  {
+   "id": "253243c6-1745-5685-baef-9ed071ad7979",
+   "lemma": "option",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "option"
+   ]
+  },
+  {
+   "id": "95bc49c6-c932-5899-9cee-3004f958712c",
+   "lemma": "oral",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "oral"
+   ]
+  },
+  {
+   "id": "97c92b96-4bed-5780-8e7a-9657577e3864",
+   "lemma": "orbit",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "orbit"
+   ]
+  },
+  {
+   "id": "ee657ab9-c88c-57e3-bb40-7070f46d4a24",
+   "lemma": "orchestra",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "orchestra"
+   ]
+  },
+  {
+   "id": "4c64c7db-f566-53eb-a661-f79c575805cf",
+   "lemma": "orderly",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "orderly"
+   ]
+  },
+  {
+   "id": "8829cccd-04df-51b2-a3c5-3b0f2b3ed47d",
+   "lemma": "ordinary",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ordinary"
+   ]
+  },
+  {
+   "id": "9b921c64-8fd1-5962-baf2-fff96d348b5b",
+   "lemma": "organ",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "organ"
+   ]
+  },
+  {
+   "id": "702d3894-6d2a-5589-9f2d-acc13e8473c2",
+   "lemma": "organic",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "organic"
+   ]
+  },
+  {
+   "id": "106b249f-be09-5f0d-9c91-4b1dcc9604a8",
+   "lemma": "organism",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "organism"
+   ]
+  },
+  {
+   "id": "c3380884-49b9-5e3f-b934-768cec15c66f",
+   "lemma": "organization",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "organization",
+    "organisation"
+   ]
+  },
+  {
+   "id": "e3222df0-ed36-5e53-8bc7-d43c769b596f",
+   "lemma": "origin",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "origin"
+   ]
+  },
+  {
+   "id": "75225a64-966b-5e2b-95f4-37357ee7ba1c",
+   "lemma": "otherwise",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "otherwise"
+   ]
+  },
+  {
+   "id": "a0dd728c-fb17-5f0f-b7dc-8c8a23ad1f17",
+   "lemma": "ought to",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ought to"
+   ]
+  },
+  {
+   "id": "c97cca3a-02aa-5704-ab09-5ee2f93575a2",
+   "lemma": "out-of-date",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "out-of-date"
+   ]
+  }
+ ]
+}

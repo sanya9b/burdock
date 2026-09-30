@@ -1,0 +1,406 @@
+{
+ "chunk": "B1-042",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "59622310-4a17-5035-840f-1d373703a0ff",
+   "lemma": "potential",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "potential"
+   ]
+  },
+  {
+   "id": "9d44ae47-41f1-5f89-9dd0-ee847cb6d5fe",
+   "lemma": "pottery",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pottery"
+   ]
+  },
+  {
+   "id": "9481f8b1-b230-521e-ba5a-43fe87d3c4ab",
+   "lemma": "pound",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pound"
+   ]
+  },
+  {
+   "id": "08617137-4a9a-5243-ba60-896dc8f6b385",
+   "lemma": "poverty",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "poverty"
+   ]
+  },
+  {
+   "id": "e238a5e3-e5c9-5eea-bb1c-c186fdb60528",
+   "lemma": "powder",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "powder"
+   ]
+  },
+  {
+   "id": "c4265ead-2059-5338-9d14-508f6373d23f",
+   "lemma": "practical",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "practical"
+   ]
+  },
+  {
+   "id": "3495802d-41b5-56ff-96dc-ffb6b15869b2",
+   "lemma": "praise",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "praise"
+   ]
+  },
+  {
+   "id": "de17f96f-5e8c-5a44-86b2-f33cd9a66d80",
+   "lemma": "prayer",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prayer"
+   ]
+  },
+  {
+   "id": "2b8eb7c5-b21d-5e16-894e-5b33fdd2cda8",
+   "lemma": "precious",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "precious"
+   ]
+  },
+  {
+   "id": "1e1a4ab8-afd5-52c6-b6dc-525c1b6ae5ed",
+   "lemma": "preference",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "preference"
+   ]
+  },
+  {
+   "id": "338468db-c446-591f-8b81-1261b343d81a",
+   "lemma": "prefix",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prefix"
+   ]
+  },
+  {
+   "id": "85ba1c40-8d60-5358-9875-4a5aacc7edb7",
+   "lemma": "pregnant",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pregnant"
+   ]
+  },
+  {
+   "id": "c9f4e975-8851-5e29-a03e-f3095a91434f",
+   "lemma": "prejudice",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prejudice"
+   ]
+  },
+  {
+   "id": "cc0ff21a-da34-58a3-ab16-66e67f9e2447",
+   "lemma": "preparation",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "preparation"
+   ]
+  },
+  {
+   "id": "abce29c3-9036-5f5a-b79f-dd648158b322",
+   "lemma": "prepared",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prepared"
+   ]
+  },
+  {
+   "id": "46c5e428-7542-59ca-8582-5c025150d23c",
+   "lemma": "preposition",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "preposition"
+   ]
+  },
+  {
+   "id": "1b7b58f3-78d3-51ac-8adb-2af8654c17b8",
+   "lemma": "preschool",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "preschool"
+   ]
+  },
+  {
+   "id": "a66b2ded-7696-5b3d-9483-ddc11959e8e0",
+   "lemma": "prescription",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prescription"
+   ]
+  },
+  {
+   "id": "9741730d-b011-5859-9ed5-0088bb54bc23",
+   "lemma": "presence",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "presence"
+   ]
+  },
+  {
+   "id": "3358e05f-05e3-501f-a30f-e44a6910b399",
+   "lemma": "present",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "present"
+   ]
+  },
+  {
+   "id": "8bb2cb89-826d-5bdb-ac70-aacf4f0a42ec",
+   "lemma": "presentation",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "presentation"
+   ]
+  },
+  {
+   "id": "6fa8f45c-44c6-54d1-b45e-bc5890adb724",
+   "lemma": "preservation",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "preservation"
+   ]
+  },
+  {
+   "id": "43f8915a-8bcd-53b7-9fbe-5d8b0889fbe4",
+   "lemma": "preserve",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "preserve"
+   ]
+  },
+  {
+   "id": "bb766c76-d75c-5442-ae8f-210f692fe4c9",
+   "lemma": "president",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "president"
+   ]
+  },
+  {
+   "id": "655a02a1-d1b4-5f8a-b494-07561b862f6e",
+   "lemma": "press",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "press"
+   ]
+  },
+  {
+   "id": "72b27817-6a79-5f6f-a368-36d35735f0bf",
+   "lemma": "press",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "press"
+   ]
+  },
+  {
+   "id": "f67cfbcf-6cd6-5b73-a98a-eee79deeaadb",
+   "lemma": "previous",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "previous"
+   ]
+  },
+  {
+   "id": "bc6ee978-d072-5e8e-98f6-a7c866121b79",
+   "lemma": "priest",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "priest"
+   ]
+  },
+  {
+   "id": "230e795e-234f-51c2-8b8d-9040d6bc03d8",
+   "lemma": "primarily",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "primarily"
+   ]
+  },
+  {
+   "id": "6dcabba5-c651-5378-a7ce-e3e1ded5b8a9",
+   "lemma": "primary school",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "primary school"
+   ]
+  },
+  {
+   "id": "40feb60c-d0c0-5249-8208-d39530f540fa",
+   "lemma": "primitive",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "primitive"
+   ]
+  },
+  {
+   "id": "ff3b5375-f19c-5cf3-beb3-7cdb44f82572",
+   "lemma": "principle",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "principle"
+   ]
+  },
+  {
+   "id": "696c6ef8-89e0-5afb-a774-7f67871eab8e",
+   "lemma": "print",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "print"
+   ]
+  },
+  {
+   "id": "5d907bf9-5230-5dc6-9907-b0987d78630e",
+   "lemma": "prison",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prison"
+   ]
+  },
+  {
+   "id": "dff36c45-48fc-593f-b8c8-5f1b38fa7e18",
+   "lemma": "prisoner",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prisoner"
+   ]
+  },
+  {
+   "id": "1beab11e-84d1-5f65-9cba-de104a66ba65",
+   "lemma": "privacy",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "privacy"
+   ]
+  },
+  {
+   "id": "77177d72-29d8-5a35-8867-d831f470f818",
+   "lemma": "prize",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "prize"
+   ]
+  },
+  {
+   "id": "51e05d5a-e26d-5cc4-864e-e0faf827dc79",
+   "lemma": "probability",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "probability"
+   ]
+  },
+  {
+   "id": "14dacc61-db1e-5ded-9a88-844b0f1f5bcc",
+   "lemma": "proceed",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "proceed"
+   ]
+  },
+  {
+   "id": "ae5e4b29-f665-5770-bf9f-07b99e353094",
+   "lemma": "process",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "process"
+   ]
+  }
+ ]
+}

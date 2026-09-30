@@ -1,0 +1,406 @@
+{
+ "chunk": "A1-010",
+ "level": "A1",
+ "lexemes": [
+  {
+   "id": "d5df28e1-ee59-528b-9429-01d420fe6d16",
+   "lemma": "fight",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fight"
+   ]
+  },
+  {
+   "id": "5799f8ce-1a3f-5524-a546-3f19b74fb68f",
+   "lemma": "file",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "file"
+   ]
+  },
+  {
+   "id": "ba553b40-ea18-53fb-a65e-9783a10e40c1",
+   "lemma": "fill",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fill"
+   ]
+  },
+  {
+   "id": "1fc77388-faa1-5308-ad1b-50bb8c3a9b75",
+   "lemma": "find",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "find"
+   ]
+  },
+  {
+   "id": "ff38ee44-2765-5387-bdde-334aa4ec962d",
+   "lemma": "fine",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fine"
+   ]
+  },
+  {
+   "id": "00378516-874f-50da-8192-0071bd3f8c13",
+   "lemma": "finish",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "finish"
+   ]
+  },
+  {
+   "id": "d5ff289b-4606-5233-bea0-f334fc10aa2c",
+   "lemma": "finish",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "finish"
+   ]
+  },
+  {
+   "id": "3b56d2ea-f130-5085-a3d3-fd0abd292b51",
+   "lemma": "fire",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fire"
+   ]
+  },
+  {
+   "id": "91af3586-742e-5493-84d4-7fe6f25f041f",
+   "lemma": "first",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "first"
+   ]
+  },
+  {
+   "id": "052dde90-c2b2-51ab-9808-7ed9b525ce71",
+   "lemma": "first",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "first"
+   ]
+  },
+  {
+   "id": "2b64e965-3a2c-593b-b3f3-3fb91c4cef97",
+   "lemma": "fish",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fish"
+   ]
+  },
+  {
+   "id": "4594f2ed-fab1-5d29-ab3a-28fb44279b68",
+   "lemma": "fishing",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fishing"
+   ]
+  },
+  {
+   "id": "97f77e4b-ebb2-5e9c-ad74-ac1a43c30243",
+   "lemma": "five",
+   "pos": "numeral",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "five"
+   ]
+  },
+  {
+   "id": "996c2201-a9d7-5c6a-b40f-e0759935f072",
+   "lemma": "flag",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "flag"
+   ]
+  },
+  {
+   "id": "c5c298d8-eb13-5a3d-853a-d19ef96cc62f",
+   "lemma": "flat",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "flat"
+   ]
+  },
+  {
+   "id": "a2130db4-68e6-5aed-baf9-94fe9e16002c",
+   "lemma": "floor",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "floor"
+   ]
+  },
+  {
+   "id": "cc47b54b-435c-533a-b41b-01d28d191b60",
+   "lemma": "flower",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "flower"
+   ]
+  },
+  {
+   "id": "ffa229d1-23c0-5fb8-b027-9437af5ce036",
+   "lemma": "fly",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fly"
+   ]
+  },
+  {
+   "id": "e23d7c0b-af69-5cb8-b10f-b8b44fc21770",
+   "lemma": "fly",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fly"
+   ]
+  },
+  {
+   "id": "35fb95b1-6d59-5019-8c8a-3b78e384eb30",
+   "lemma": "focus",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "focus"
+   ]
+  },
+  {
+   "id": "d936bffb-607a-567f-a9ff-556232a75a5d",
+   "lemma": "foggy",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "foggy"
+   ]
+  },
+  {
+   "id": "e9c11be1-b3a4-5d49-a3d5-21dc05fce2b1",
+   "lemma": "following",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "following"
+   ]
+  },
+  {
+   "id": "5ec4409b-bb34-5ccc-a592-915f8b037a6a",
+   "lemma": "food",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "food"
+   ]
+  },
+  {
+   "id": "cf2e78e8-d31d-55f7-a2ee-8e3821225389",
+   "lemma": "football",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "football"
+   ]
+  },
+  {
+   "id": "044eeaa0-e870-543d-b1c4-b7078523ad42",
+   "lemma": "for",
+   "pos": "preposition",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "for"
+   ]
+  },
+  {
+   "id": "07d0811e-7daf-5757-a6f1-94c7d9327eb3",
+   "lemma": "foreign",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "foreign"
+   ]
+  },
+  {
+   "id": "35c4c67d-1c33-5078-b7ee-e86ed0f1a6fb",
+   "lemma": "foreigner",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "foreigner"
+   ]
+  },
+  {
+   "id": "98c6e948-1411-553c-93f1-0349161f0ff0",
+   "lemma": "forget",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "forget"
+   ]
+  },
+  {
+   "id": "9471d334-b344-59e1-a31e-b5df3249171a",
+   "lemma": "form",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "form"
+   ]
+  },
+  {
+   "id": "2b799795-3ce8-5c69-9535-8746811c0a03",
+   "lemma": "forty",
+   "pos": "numeral",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "forty"
+   ]
+  },
+  {
+   "id": "66991a0f-99d3-5a63-9e5a-16c22f7c4e40",
+   "lemma": "four",
+   "pos": "numeral",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "four"
+   ]
+  },
+  {
+   "id": "d9b8ab94-20b1-5e8d-8e43-5d45fa7578d3",
+   "lemma": "fourteen",
+   "pos": "numeral",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fourteen"
+   ]
+  },
+  {
+   "id": "0cc66036-a153-53fa-87f6-a3632979f627",
+   "lemma": "free",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "free"
+   ]
+  },
+  {
+   "id": "4884fb70-45a5-5010-ad3a-8e6fd7b4d8da",
+   "lemma": "Friday",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "friday"
+   ]
+  },
+  {
+   "id": "eaae5f4f-43cf-58bd-9c11-b574a522ee18",
+   "lemma": "friend",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "friend"
+   ]
+  },
+  {
+   "id": "f14bf9e2-fe86-5279-b4f3-042fd8727d85",
+   "lemma": "frog",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "frog"
+   ]
+  },
+  {
+   "id": "0d77c945-3f8b-51fe-882f-57ddf349f12d",
+   "lemma": "from",
+   "pos": "preposition",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "from"
+   ]
+  },
+  {
+   "id": "8a7d39cc-88af-5d2a-9e23-4980bf1f96c1",
+   "lemma": "front",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "front"
+   ]
+  },
+  {
+   "id": "4b2e86fe-9bf9-5e26-8ec2-2e2d8e8661e3",
+   "lemma": "fruit",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fruit"
+   ]
+  },
+  {
+   "id": "7c6528c0-9ef4-517f-8648-cbbfeb17dd11",
+   "lemma": "full",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "full"
+   ]
+  }
+ ]
+}

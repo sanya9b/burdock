@@ -1,0 +1,407 @@
+{
+ "chunk": "B1-011",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "ba38183e-5368-56ef-8824-351d5a1aabd7",
+   "lemma": "comet",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "comet"
+   ]
+  },
+  {
+   "id": "2bbbfd8c-bdd1-58c1-a64d-4c00f5e09cc8",
+   "lemma": "comfort",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "comfort"
+   ]
+  },
+  {
+   "id": "a0974416-5c65-5ae4-8419-87b2687123e7",
+   "lemma": "comma",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "comma"
+   ]
+  },
+  {
+   "id": "59a42da5-7be6-5cc8-b4a2-0d829a36d99f",
+   "lemma": "command",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "command"
+   ]
+  },
+  {
+   "id": "3e6d5d52-45e7-5b29-babf-63aa64241007",
+   "lemma": "comment",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "comment"
+   ]
+  },
+  {
+   "id": "4a2b32f4-789c-5c18-a3dd-5dab025151f2",
+   "lemma": "commercial",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "commercial"
+   ]
+  },
+  {
+   "id": "2a4d38f4-19a6-568d-91c9-1bb5208e0978",
+   "lemma": "commit",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "commit"
+   ]
+  },
+  {
+   "id": "4338b4b9-507e-589c-b336-b71261638c7c",
+   "lemma": "common sense",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "common sense"
+   ]
+  },
+  {
+   "id": "c7178dbe-6634-517e-9fb8-97e71d7a77f9",
+   "lemma": "commonly",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "commonly"
+   ]
+  },
+  {
+   "id": "03d54cff-d504-501d-9ced-348e2a51627a",
+   "lemma": "companion",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "companion"
+   ]
+  },
+  {
+   "id": "fabcbf07-49da-59ab-b23b-fdecd1d51862",
+   "lemma": "comparison",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "comparison"
+   ]
+  },
+  {
+   "id": "41f5a5bc-c8d3-57cb-94e1-621b8de25aa9",
+   "lemma": "compete",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "compete"
+   ]
+  },
+  {
+   "id": "86ebc8ce-569b-5234-91b6-d9d7fa9dd1c9",
+   "lemma": "competitive",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "competitive"
+   ]
+  },
+  {
+   "id": "3cbce6e2-78d2-5e02-a56e-2e38edcb3ebc",
+   "lemma": "competitor",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "competitor"
+   ]
+  },
+  {
+   "id": "694daa9c-a3dd-5901-b140-8124fe1ce740",
+   "lemma": "complement",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "complement"
+   ]
+  },
+  {
+   "id": "37bb344a-8aee-5096-b6f8-a6bf2b9aec63",
+   "lemma": "complete",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "complete"
+   ]
+  },
+  {
+   "id": "b19d0b58-c77e-5b89-bc04-082b72b65484",
+   "lemma": "completely",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "completely"
+   ]
+  },
+  {
+   "id": "9d3da9dd-ab18-5cd9-b104-2609aec5b8f0",
+   "lemma": "complex",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "complex"
+   ]
+  },
+  {
+   "id": "abd3c276-4a0a-5500-b680-ffcab946bc6b",
+   "lemma": "complicate",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "complicate"
+   ]
+  },
+  {
+   "id": "8108c7e4-b9bf-5c45-a678-329a0c5b778b",
+   "lemma": "complicated",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "complicated"
+   ]
+  },
+  {
+   "id": "f667396c-cf71-52ad-97da-836fda8d1ac1",
+   "lemma": "compliment",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "compliment"
+   ]
+  },
+  {
+   "id": "eb25c2b1-6a56-51a3-9fa1-985a2f05ffb5",
+   "lemma": "compose",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "compose"
+   ]
+  },
+  {
+   "id": "d8278ef5-4b42-5fa1-b105-56d0f65e96ed",
+   "lemma": "composition",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "composition"
+   ]
+  },
+  {
+   "id": "64833be6-964e-5cdb-b150-547099084f2e",
+   "lemma": "compound",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "compound"
+   ]
+  },
+  {
+   "id": "48445ac7-9a92-583c-a81d-ef9f5af66a3c",
+   "lemma": "compromise",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "compromise"
+   ]
+  },
+  {
+   "id": "2411bd0d-b162-51ca-bf6a-11503287a98b",
+   "lemma": "concentration",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "concentration"
+   ]
+  },
+  {
+   "id": "75e1b8d1-3150-5d21-8489-e2a1ef86e7fd",
+   "lemma": "concept",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "concept"
+   ]
+  },
+  {
+   "id": "c02c589b-6d98-555a-9eea-433cc97dfb64",
+   "lemma": "concerned",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "concerned"
+   ]
+  },
+  {
+   "id": "42bc269f-33bd-5c39-aa03-3ace963765f4",
+   "lemma": "conclude",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "conclude"
+   ]
+  },
+  {
+   "id": "2d952c6f-c76b-534c-94aa-553130786eaf",
+   "lemma": "conclusion",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "conclusion"
+   ]
+  },
+  {
+   "id": "0c4ef21c-aecc-5b4a-bc7b-6afddac6d5d3",
+   "lemma": "conduct",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "conduct"
+   ]
+  },
+  {
+   "id": "aa095334-aa8f-5c27-8261-5f5d1b9600ab",
+   "lemma": "confidence",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "confidence"
+   ]
+  },
+  {
+   "id": "e2e21f89-3994-5bdc-b095-3740eed57843",
+   "lemma": "confirm",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "confirm"
+   ]
+  },
+  {
+   "id": "bd353b0d-6ce4-5b75-898b-b2a348a3a756",
+   "lemma": "confirmation",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "confirmation"
+   ]
+  },
+  {
+   "id": "6fd9a626-f86f-52e2-afa5-f0ccbc0b845e",
+   "lemma": "conflict",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "conflict"
+   ]
+  },
+  {
+   "id": "5f6e7614-b59d-5346-810d-779a701f6045",
+   "lemma": "confusing",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "confusing"
+   ]
+  },
+  {
+   "id": "ab9a8cd6-47db-5aea-8f7a-301ff677c875",
+   "lemma": "confusion",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "confusion"
+   ]
+  },
+  {
+   "id": "da73a064-e231-5840-8c22-eb30084abc22",
+   "lemma": "congratulate",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "congratulate"
+   ]
+  },
+  {
+   "id": "a246e5b8-6009-5b25-b53e-d5ae3621cb28",
+   "lemma": "connect",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "connect"
+   ]
+  },
+  {
+   "id": "04761f3f-1c6e-5460-9e1d-c19c92dfb844",
+   "lemma": "connection",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "connection",
+    "connexion"
+   ]
+  }
+ ]
+}

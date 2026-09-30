@@ -1,0 +1,408 @@
+{
+ "chunk": "B2-039",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "39cb2f62-cd45-5f68-b996-d29146eace8e",
+   "lemma": "mutability",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mutability"
+   ]
+  },
+  {
+   "id": "1e5fd38b-1719-5b55-a44c-4a6ef5068eab",
+   "lemma": "mutable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mutable"
+   ]
+  },
+  {
+   "id": "51ba87ff-0ee2-5be6-b5d0-f2e81264b652",
+   "lemma": "mutter",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mutter"
+   ]
+  },
+  {
+   "id": "9843c815-f13a-5437-a282-9ab98e4872ff",
+   "lemma": "mutter",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mutter"
+   ]
+  },
+  {
+   "id": "deb148a6-2a7f-580b-afbf-584636fa7f70",
+   "lemma": "mutton",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mutton"
+   ]
+  },
+  {
+   "id": "d07b588c-ac0c-595b-980b-764d75b5f457",
+   "lemma": "mystify",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "mystify"
+   ]
+  },
+  {
+   "id": "f78b7445-d727-5a21-95b2-df0f9df2373f",
+   "lemma": "nano",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nano"
+   ]
+  },
+  {
+   "id": "f7906304-5112-55e5-af07-c47021ae51ec",
+   "lemma": "narcissistic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "narcissistic"
+   ]
+  },
+  {
+   "id": "3f51b6b6-21b8-5156-baf7-9104a2bc5af9",
+   "lemma": "narrator",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "narrator"
+   ]
+  },
+  {
+   "id": "1ff337a6-05df-5dd4-8a31-2a21f01c19e5",
+   "lemma": "narrowly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "narrowly"
+   ]
+  },
+  {
+   "id": "c94b66f6-67ef-5171-b9c4-1bca5c6711ce",
+   "lemma": "nationwide",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nationwide"
+   ]
+  },
+  {
+   "id": "0b0e1023-678e-5b57-b79e-5ef199e903fd",
+   "lemma": "nationwide",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nationwide"
+   ]
+  },
+  {
+   "id": "bd779c0e-1e62-5516-9546-9534a035221b",
+   "lemma": "native speaker",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "native speaker"
+   ]
+  },
+  {
+   "id": "fc4df9c6-f277-5c98-99ee-466b3f9d60d3",
+   "lemma": "naughty",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "naughty"
+   ]
+  },
+  {
+   "id": "0828fef0-96a6-5edc-b8a5-09429a129f4b",
+   "lemma": "naval",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "naval"
+   ]
+  },
+  {
+   "id": "0df9fcae-f2fa-5e29-ab3a-bcff8dc7087a",
+   "lemma": "navigate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "navigate"
+   ]
+  },
+  {
+   "id": "490d13b4-c4aa-56c2-b944-b5b2566a2331",
+   "lemma": "navigation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "navigation"
+   ]
+  },
+  {
+   "id": "9b8d59ff-a404-5e29-8de1-03adc0749d49",
+   "lemma": "navy",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "navy"
+   ]
+  },
+  {
+   "id": "c4a7cd72-9f06-56ce-be58-0879949e87f2",
+   "lemma": "neat",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "neat"
+   ]
+  },
+  {
+   "id": "0b379bf0-e148-5a93-9ba7-b82e9df1598c",
+   "lemma": "necessarily",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "necessarily"
+   ]
+  },
+  {
+   "id": "5aae1ff3-dce6-546d-9c13-50cfdda8c1c0",
+   "lemma": "necessity",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "necessity"
+   ]
+  },
+  {
+   "id": "ea95c480-cf17-5976-a5bf-aae866d6ba09",
+   "lemma": "need",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "need"
+   ]
+  },
+  {
+   "id": "4229588f-4619-50b8-bf39-0705a25dd271",
+   "lemma": "needless",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "needless"
+   ]
+  },
+  {
+   "id": "e7beef69-d789-52d6-9ab8-94f1c8395cdd",
+   "lemma": "needy",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "needy"
+   ]
+  },
+  {
+   "id": "b50bea1a-f4f8-5d54-8540-ab3389b7c68a",
+   "lemma": "negatively",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "negatively"
+   ]
+  },
+  {
+   "id": "824da594-60fb-57aa-afdf-34ae550f3559",
+   "lemma": "neglect",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "neglect"
+   ]
+  },
+  {
+   "id": "f65a5263-1a4f-5743-a3c7-eeeece7c018c",
+   "lemma": "neighboring",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "neighboring",
+    "neighbouring"
+   ]
+  },
+  {
+   "id": "0a7c272f-07c5-5ec0-8354-2c716d8f4df5",
+   "lemma": "neither",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "neither"
+   ]
+  },
+  {
+   "id": "9ae78933-dc38-5532-bfaf-3033aaa623eb",
+   "lemma": "neither",
+   "pos": "conjunction",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "neither"
+   ]
+  },
+  {
+   "id": "f4deb993-c71f-58d5-853b-cfaeb87d7192",
+   "lemma": "neither",
+   "pos": "determiner",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "neither"
+   ]
+  },
+  {
+   "id": "c6b12d90-fe92-54f9-a677-8e2d938c1b12",
+   "lemma": "neither",
+   "pos": "pronoun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "neither"
+   ]
+  },
+  {
+   "id": "ff4bd4d5-ee7b-59c6-b7ef-376e55ec4810",
+   "lemma": "nerve",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nerve"
+   ]
+  },
+  {
+   "id": "44c576f2-4ed7-56fc-aefd-17d4102f0c4a",
+   "lemma": "nerves",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nerves"
+   ]
+  },
+  {
+   "id": "ad5b5189-6fe2-5e38-8f79-9ba0d8daf1cf",
+   "lemma": "nervously",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nervously"
+   ]
+  },
+  {
+   "id": "276e89d3-9c39-5a12-971a-f9dcc55946ee",
+   "lemma": "netsurfer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "netsurfer",
+    "net surfer"
+   ]
+  },
+  {
+   "id": "4dff4933-cc91-5cae-8fbc-89c0baf0c4ff",
+   "lemma": "neurosis",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "neurosis"
+   ]
+  },
+  {
+   "id": "84901b5f-d4e8-5036-8446-f620271160c4",
+   "lemma": "newscaster",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "newscaster"
+   ]
+  },
+  {
+   "id": "3430f689-f088-59dc-b212-74a0e88e3507",
+   "lemma": "newsworthy",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "newsworthy"
+   ]
+  },
+  {
+   "id": "224a13bf-8098-542b-8706-6e1cceef7602",
+   "lemma": "next",
+   "pos": "pronoun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "next"
+   ]
+  },
+  {
+   "id": "902ad61b-5077-5b0f-9901-88b989d0873d",
+   "lemma": "nicely",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nicely"
+   ]
+  }
+ ]
+}

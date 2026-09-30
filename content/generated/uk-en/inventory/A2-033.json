@@ -1,0 +1,408 @@
+{
+ "chunk": "A2-033",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "0a20e100-5eb2-5bf4-9cbe-a3e1c0c46e70",
+   "lemma": "tights",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tights"
+   ]
+  },
+  {
+   "id": "3e9b014c-3244-56fa-8f1d-a5273c19f45a",
+   "lemma": "till",
+   "pos": "preposition",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "till"
+   ]
+  },
+  {
+   "id": "effd6e9d-b82c-5ef4-882b-855faad33b8a",
+   "lemma": "timetable",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "timetable"
+   ]
+  },
+  {
+   "id": "7a575a07-fea8-5da4-9b81-72adbf5667d0",
+   "lemma": "tip",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tip"
+   ]
+  },
+  {
+   "id": "974d4c90-4f09-5d1c-8a53-6172bd67fcce",
+   "lemma": "title",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "title"
+   ]
+  },
+  {
+   "id": "a58c417f-8da1-5d22-b1bc-4c992233abd5",
+   "lemma": "toast",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "toast"
+   ]
+  },
+  {
+   "id": "b449a2ad-3f52-5e24-9660-4ceae90fa23e",
+   "lemma": "toe",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "toe"
+   ]
+  },
+  {
+   "id": "2f49e950-5d1e-5d1a-9620-7d1737a695e7",
+   "lemma": "tone",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tone"
+   ]
+  },
+  {
+   "id": "a29ddcfc-d76b-57df-9778-322b6bd5889a",
+   "lemma": "tonight",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tonight"
+   ]
+  },
+  {
+   "id": "5592c4be-4305-533d-aec8-80b5d54e7476",
+   "lemma": "toothache",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "toothache"
+   ]
+  },
+  {
+   "id": "850a2d65-a052-59e9-b047-f636a401e443",
+   "lemma": "toothbrush",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "toothbrush"
+   ]
+  },
+  {
+   "id": "735c5ed3-baf6-5252-b875-6ee46cede079",
+   "lemma": "tour",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tour"
+   ]
+  },
+  {
+   "id": "e8260d0c-4c16-5aa4-ac10-20c262e4d236",
+   "lemma": "tour guide",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tour guide"
+   ]
+  },
+  {
+   "id": "7584017a-47cd-52ef-9256-dd61fcd7b688",
+   "lemma": "tourist",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tourist"
+   ]
+  },
+  {
+   "id": "d9d39ca9-33cf-569f-b23f-497cc36fcdaf",
+   "lemma": "toward",
+   "pos": "preposition",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "toward",
+    "towards"
+   ]
+  },
+  {
+   "id": "e30a148c-995c-50de-8bf9-efaa52163315",
+   "lemma": "track",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "track"
+   ]
+  },
+  {
+   "id": "5a6da52e-c5a1-5013-a078-a4ed8d3440f3",
+   "lemma": "trade",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "trade"
+   ]
+  },
+  {
+   "id": "51c1f159-d7ca-54a2-9195-5134df599b32",
+   "lemma": "tradition",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tradition"
+   ]
+  },
+  {
+   "id": "890033a2-cc76-5d2d-9845-efdfd5f538e3",
+   "lemma": "traditional",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "traditional"
+   ]
+  },
+  {
+   "id": "7da66d1f-e011-5cf2-9316-ce98b66ba2fd",
+   "lemma": "traffic",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "traffic"
+   ]
+  },
+  {
+   "id": "c010f506-44a0-5a37-a298-2424984a7e35",
+   "lemma": "traffic light",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "traffic light"
+   ]
+  },
+  {
+   "id": "9bab2988-7207-516e-abe5-a5c6c1d1171c",
+   "lemma": "train",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "train"
+   ]
+  },
+  {
+   "id": "73dd10a7-c7b3-5f3c-a572-6c389a3f0cbf",
+   "lemma": "training",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "training"
+   ]
+  },
+  {
+   "id": "e5a59546-74d9-586d-9514-3c984b7dd8f7",
+   "lemma": "tram",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tram"
+   ]
+  },
+  {
+   "id": "b105d667-7368-5711-a9ef-070b1d0ccdf1",
+   "lemma": "trap",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "trap"
+   ]
+  },
+  {
+   "id": "c771cb9c-e9a9-5e11-a3b1-46ec24a38e3a",
+   "lemma": "travel",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "travel"
+   ]
+  },
+  {
+   "id": "e8f6d36f-d4f3-51e0-b3f2-e899ef4d7629",
+   "lemma": "traveler",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "traveler",
+    "traveller"
+   ]
+  },
+  {
+   "id": "983c36c1-f7cf-5548-a7d1-95e437856ad8",
+   "lemma": "treasure",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "treasure"
+   ]
+  },
+  {
+   "id": "054b6118-d216-52ee-84ec-235a71a8bcfd",
+   "lemma": "trick",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "trick"
+   ]
+  },
+  {
+   "id": "cd275e1f-e7b0-575d-9b5b-19f7af8c56cd",
+   "lemma": "trouble",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "trouble"
+   ]
+  },
+  {
+   "id": "82c016cf-94cd-5e26-b7bd-94a23e62230c",
+   "lemma": "truly",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "truly"
+   ]
+  },
+  {
+   "id": "bd62fa70-470c-53b8-aaad-ba5047590f85",
+   "lemma": "trust",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "trust"
+   ]
+  },
+  {
+   "id": "2754c95c-0078-5936-a464-a2ea3bf60b10",
+   "lemma": "truth",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "truth"
+   ]
+  },
+  {
+   "id": "53a88bd0-80bb-5f53-80ef-e78ec6e6f565",
+   "lemma": "try",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "try"
+   ]
+  },
+  {
+   "id": "cdf41b38-a61f-5757-acee-5f6437d13f09",
+   "lemma": "tune",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tune"
+   ]
+  },
+  {
+   "id": "35fe60dd-2d47-52ef-a770-2baab8804da1",
+   "lemma": "twice",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "twice"
+   ]
+  },
+  {
+   "id": "6d622756-04de-5617-8d81-472144ca8eb1",
+   "lemma": "uncertain",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "uncertain"
+   ]
+  },
+  {
+   "id": "334eaf8c-7cb9-5d1d-9809-a312430a163f",
+   "lemma": "uncomfortable",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "uncomfortable"
+   ]
+  },
+  {
+   "id": "750966fe-5df9-5a03-bd0b-61c300e2fb99",
+   "lemma": "understand",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "understand"
+   ]
+  },
+  {
+   "id": "88790d3c-9996-5a24-be7c-70ef15a9c3c3",
+   "lemma": "underwater",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "underwater"
+   ]
+  }
+ ]
+}

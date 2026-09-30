@@ -1,0 +1,407 @@
+{
+ "chunk": "B2-018",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "335d4d02-7549-592e-a9b5-1f67078ea5de",
+   "lemma": "distinguished",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "distinguished"
+   ]
+  },
+  {
+   "id": "9ac67595-bfec-5acd-8fa8-597af1b09487",
+   "lemma": "distortion",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "distortion"
+   ]
+  },
+  {
+   "id": "ce7cd0ce-c46d-562d-8c31-dd1219bbf38a",
+   "lemma": "distract",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "distract"
+   ]
+  },
+  {
+   "id": "20e7e0aa-043e-5adb-b993-9ebca87a04d9",
+   "lemma": "distraction",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "distraction"
+   ]
+  },
+  {
+   "id": "b8b1a298-ada1-52e7-9e81-1bde6899aa23",
+   "lemma": "distressing",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "distressing"
+   ]
+  },
+  {
+   "id": "5585f20f-167f-5b31-8a5d-df60e9ac08d6",
+   "lemma": "distributor",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "distributor"
+   ]
+  },
+  {
+   "id": "46b91ce9-d4d8-55a3-94cb-45d861818066",
+   "lemma": "diversion",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "diversion"
+   ]
+  },
+  {
+   "id": "ebe5e4c3-d32a-5f5f-a58f-cbefdb0f673b",
+   "lemma": "divert",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "divert"
+   ]
+  },
+  {
+   "id": "fd05c4a8-a027-53fd-8ed9-d25407807ecc",
+   "lemma": "divided",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "divided"
+   ]
+  },
+  {
+   "id": "8cc5dbd4-d28c-514e-a4ad-2288af29ea3c",
+   "lemma": "division",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "division"
+   ]
+  },
+  {
+   "id": "0bb9d8d7-a362-593d-b193-f1f2baaeb930",
+   "lemma": "divorce",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "divorce"
+   ]
+  },
+  {
+   "id": "8e14f71a-68be-5a70-9a0b-3d42c4034472",
+   "lemma": "divorce",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "divorce"
+   ]
+  },
+  {
+   "id": "3a06365e-166e-56c3-88bb-9abfa9c57d98",
+   "lemma": "DNA",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "DNA"
+   ]
+  },
+  {
+   "id": "fa67835f-de36-535e-93db-f4fb0ed486b9",
+   "lemma": "dock",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dock"
+   ]
+  },
+  {
+   "id": "6b453e61-336f-518c-8821-c8b2004eec60",
+   "lemma": "domestic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "domestic"
+   ]
+  },
+  {
+   "id": "5d3bea0b-e0f3-585a-92b5-f01455d3da70",
+   "lemma": "dominate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dominate"
+   ]
+  },
+  {
+   "id": "d20ba7b4-bff6-551f-b333-461f97beabe6",
+   "lemma": "donate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "donate"
+   ]
+  },
+  {
+   "id": "a2d1b50f-14dd-5758-9538-09c8affc2224",
+   "lemma": "donation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "donation"
+   ]
+  },
+  {
+   "id": "a527ad77-e8c7-54c2-81ef-1043e0822673",
+   "lemma": "donkey",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "donkey"
+   ]
+  },
+  {
+   "id": "c9c8591b-124d-5154-a4b9-33d0b73b9607",
+   "lemma": "doom",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "doom"
+   ]
+  },
+  {
+   "id": "a194c317-510a-5b86-b340-c5c9837d410c",
+   "lemma": "doorkeeper",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "doorkeeper"
+   ]
+  },
+  {
+   "id": "79de5daf-f738-5dc4-8ab4-705e75d50eea",
+   "lemma": "doorway",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "doorway"
+   ]
+  },
+  {
+   "id": "c2ee8d96-00fe-5b2a-b624-67e5f3f01566",
+   "lemma": "dorm",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dorm"
+   ]
+  },
+  {
+   "id": "3322cfc8-9373-557d-9816-42a34ca326be",
+   "lemma": "dormitory",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dormitory"
+   ]
+  },
+  {
+   "id": "dd671c6c-254d-581e-9956-9e775b9e0047",
+   "lemma": "dose",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dose"
+   ]
+  },
+  {
+   "id": "8fbc82eb-557e-52b7-adf5-0c862d8bd0cf",
+   "lemma": "double",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "double"
+   ]
+  },
+  {
+   "id": "eb4d6e1d-2a34-54f7-8538-20f6e1c420fd",
+   "lemma": "double",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "double"
+   ]
+  },
+  {
+   "id": "69c2a29e-de84-5a7a-b43d-479141190c3c",
+   "lemma": "doubly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "doubly"
+   ]
+  },
+  {
+   "id": "a9917557-9cfe-50f1-9343-349b4e6d0b1e",
+   "lemma": "doubt",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "doubt"
+   ]
+  },
+  {
+   "id": "75f3af2c-5bc1-5127-bb5e-3f65f47a9ad9",
+   "lemma": "doubtful",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "doubtful"
+   ]
+  },
+  {
+   "id": "fab50f35-6e29-5fdc-bdb4-a1205371a7a9",
+   "lemma": "dove",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dove"
+   ]
+  },
+  {
+   "id": "5c881301-fa23-5860-9cbd-4e9ac93eae5b",
+   "lemma": "down",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "down"
+   ]
+  },
+  {
+   "id": "891f585b-3673-53b6-a8f4-fd8f8676f902",
+   "lemma": "downfall",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "downfall"
+   ]
+  },
+  {
+   "id": "ee7ac95d-ff23-51d4-9a9d-d7035ec23ee4",
+   "lemma": "download",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "download"
+   ]
+  },
+  {
+   "id": "cdba6715-42a7-5356-9d2e-de334f97c309",
+   "lemma": "downsize",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "downsize"
+   ]
+  },
+  {
+   "id": "9a4300f7-6a1a-51cf-8eca-260cf0db2eaf",
+   "lemma": "dowry",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dowry"
+   ]
+  },
+  {
+   "id": "8b8b0288-3d81-5866-86f8-4df1991ce4da",
+   "lemma": "draft",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "draft",
+    "draught"
+   ]
+  },
+  {
+   "id": "055c0a97-f5f6-53dc-8fe9-db9d2bc2c274",
+   "lemma": "drain",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "drain"
+   ]
+  },
+  {
+   "id": "a6e0ce9e-383b-5e0a-8a3c-4f4af1cd0a72",
+   "lemma": "drain",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "drain"
+   ]
+  },
+  {
+   "id": "acc296b0-9738-55dd-a48a-56ae80d4b7df",
+   "lemma": "dramatically",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dramatically"
+   ]
+  }
+ ]
+}

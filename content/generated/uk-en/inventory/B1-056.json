@@ -1,0 +1,406 @@
+{
+ "chunk": "B1-056",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "0db5cebc-1ba5-52a2-b48e-c48f05afc297",
+   "lemma": "thorough",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thorough"
+   ]
+  },
+  {
+   "id": "01c9e412-adad-57a3-9371-9bdc7ef791b7",
+   "lemma": "threat",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "threat"
+   ]
+  },
+  {
+   "id": "60174327-5003-5a08-a661-831e87544198",
+   "lemma": "threatening",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "threatening"
+   ]
+  },
+  {
+   "id": "644a2235-1a64-5d28-a20e-1eeeabfeb3c9",
+   "lemma": "thriller",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thriller"
+   ]
+  },
+  {
+   "id": "e6b7893c-b42c-57de-8ada-95473735237a",
+   "lemma": "through",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "through"
+   ]
+  },
+  {
+   "id": "bdaa562e-dd0e-5b27-a3f2-ff5e2e0dab3f",
+   "lemma": "throughout",
+   "pos": "preposition",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "throughout"
+   ]
+  },
+  {
+   "id": "8b63a94b-0824-5486-84cb-26db4eeffcad",
+   "lemma": "thumb",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thumb"
+   ]
+  },
+  {
+   "id": "3a1a0198-55cf-5a03-a299-5e5c3136da2f",
+   "lemma": "thump",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thump"
+   ]
+  },
+  {
+   "id": "49a49b20-6636-5e83-8dc6-58ab54dfdab4",
+   "lemma": "thunder",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thunder"
+   ]
+  },
+  {
+   "id": "56013493-c952-5dde-8df9-00a26ddff2a8",
+   "lemma": "thunderous",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thunderous"
+   ]
+  },
+  {
+   "id": "aabf1423-645f-5206-b971-98c5139bbd76",
+   "lemma": "thus",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "thus"
+   ]
+  },
+  {
+   "id": "db7c1ea8-e5b3-5174-8088-2125efc11bc5",
+   "lemma": "tick",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tick"
+   ]
+  },
+  {
+   "id": "6f393be2-7428-5b98-a923-cb9d70f7a875",
+   "lemma": "tick",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tick"
+   ]
+  },
+  {
+   "id": "f768301d-3aa1-55d7-a4af-9969ae41a8d3",
+   "lemma": "tide",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tide"
+   ]
+  },
+  {
+   "id": "c02309f7-bf24-552a-8b47-ee6eb483dcee",
+   "lemma": "tie",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tie"
+   ]
+  },
+  {
+   "id": "bc98276b-895d-5d72-8d0f-45e69204fc49",
+   "lemma": "tighten",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tighten"
+   ]
+  },
+  {
+   "id": "1f97550c-4e0e-5a20-af80-0fdbf20e6868",
+   "lemma": "tightly",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tightly"
+   ]
+  },
+  {
+   "id": "3547d502-0eb5-5243-90e0-f5e9dbdeb227",
+   "lemma": "tile",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tile"
+   ]
+  },
+  {
+   "id": "c49c7f0f-e22f-5047-a244-d23ea350996b",
+   "lemma": "till",
+   "pos": "conjunction",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "till"
+   ]
+  },
+  {
+   "id": "070cea56-e8fc-5c7c-ad94-93d35fe9da13",
+   "lemma": "timely",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "timely"
+   ]
+  },
+  {
+   "id": "8681c149-2b03-5c63-b50d-8a9aa6912562",
+   "lemma": "tin",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tin"
+   ]
+  },
+  {
+   "id": "ad72d1c0-d06d-5f9f-b98f-13dc94216deb",
+   "lemma": "tiny",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tiny"
+   ]
+  },
+  {
+   "id": "8da9cbfb-96da-505c-8a7d-df16f6c46056",
+   "lemma": "tire",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tire"
+   ]
+  },
+  {
+   "id": "85fbfc75-f3ab-5fc5-9122-b00ba1dadf5e",
+   "lemma": "tiring",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tiring"
+   ]
+  },
+  {
+   "id": "15c3015f-9dde-52b6-92c1-4b81354e3f2d",
+   "lemma": "tissue",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tissue"
+   ]
+  },
+  {
+   "id": "929b36ff-6d1e-5dbe-b042-47b3a8205035",
+   "lemma": "tobacco",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tobacco"
+   ]
+  },
+  {
+   "id": "2ae48a25-5858-5943-a0e6-f54f4ffc48f9",
+   "lemma": "tongue",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tongue"
+   ]
+  },
+  {
+   "id": "bdefdedf-3cd9-56ba-9eab-bc7ed937817d",
+   "lemma": "toothpaste",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "toothpaste"
+   ]
+  },
+  {
+   "id": "487bbfc9-1f60-5999-9f79-ab7c1d52ceef",
+   "lemma": "top",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "top"
+   ]
+  },
+  {
+   "id": "b7e469cf-2d77-5752-a166-67cf8610f368",
+   "lemma": "tornado",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tornado"
+   ]
+  },
+  {
+   "id": "92cf1204-3b2e-5a1f-8678-b0a061cfbad4",
+   "lemma": "toss",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "toss"
+   ]
+  },
+  {
+   "id": "372cc8b2-6706-5ae0-8084-3579458da6d2",
+   "lemma": "total",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "total"
+   ]
+  },
+  {
+   "id": "50801193-2af9-5476-9aa5-b13515a3598a",
+   "lemma": "total",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "total"
+   ]
+  },
+  {
+   "id": "23628932-efc0-58db-a385-0ed04819db55",
+   "lemma": "totally",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "totally"
+   ]
+  },
+  {
+   "id": "b98cd0d8-faa3-52de-8c44-03a5d0e19c6f",
+   "lemma": "touch",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "touch"
+   ]
+  },
+  {
+   "id": "012d02e1-54e7-58a7-9d7a-5ad7d555e76b",
+   "lemma": "tour",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tour"
+   ]
+  },
+  {
+   "id": "efee639b-f543-5f08-8c96-1045acf27032",
+   "lemma": "tourism",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tourism"
+   ]
+  },
+  {
+   "id": "34ba8322-dff2-5df1-8cb2-7ec75e261948",
+   "lemma": "tournament",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tournament"
+   ]
+  },
+  {
+   "id": "6157ec89-611c-51cb-9db4-499fdc157d82",
+   "lemma": "trace",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "trace"
+   ]
+  },
+  {
+   "id": "7360c55d-f396-518f-8286-44875ece022c",
+   "lemma": "tracksuit",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tracksuit"
+   ]
+  }
+ ]
+}

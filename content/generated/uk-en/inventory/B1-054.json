@@ -1,0 +1,407 @@
+{
+ "chunk": "B1-054",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "deaa5ffb-9eff-5c66-a603-3dd7507857ac",
+   "lemma": "superstition",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "superstition"
+   ]
+  },
+  {
+   "id": "a605810b-ac58-553b-8d80-90d448a6c9db",
+   "lemma": "supply",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "supply"
+   ]
+  },
+  {
+   "id": "13052da7-348e-5f23-b208-ff6804ffd807",
+   "lemma": "support",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "support"
+   ]
+  },
+  {
+   "id": "1a647ea0-6828-5d83-a363-907909656ace",
+   "lemma": "supporter",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "supporter"
+   ]
+  },
+  {
+   "id": "268d24bf-2941-52b3-9368-c2732a636a21",
+   "lemma": "supportive",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "supportive"
+   ]
+  },
+  {
+   "id": "8a00dd00-435e-5fc9-81b7-a69eb52ff26e",
+   "lemma": "suppose",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "suppose"
+   ]
+  },
+  {
+   "id": "601eac27-919c-5037-ad5a-884327db4f06",
+   "lemma": "supposedly",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "supposedly"
+   ]
+  },
+  {
+   "id": "c634b574-9a18-593a-b11a-b5b281343496",
+   "lemma": "surely",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "surely"
+   ]
+  },
+  {
+   "id": "7d44760c-a838-5c82-887f-c59ee46e1a15",
+   "lemma": "surface",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "surface"
+   ]
+  },
+  {
+   "id": "2a77b843-09aa-5a4b-b4c9-6acf49155c90",
+   "lemma": "surgeon",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "surgeon"
+   ]
+  },
+  {
+   "id": "674df89a-5fab-597f-a151-9205dc5828cc",
+   "lemma": "surgery",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "surgery"
+   ]
+  },
+  {
+   "id": "bbdfa98e-e1e3-5d27-a805-3f7942f90674",
+   "lemma": "surprise",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "surprise"
+   ]
+  },
+  {
+   "id": "e0bf7cda-d4da-5b3e-9e31-53cbe9ca67df",
+   "lemma": "surprisingly",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "surprisingly"
+   ]
+  },
+  {
+   "id": "f6949c42-ac28-56c2-a352-8e4d6258594b",
+   "lemma": "surround",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "surround"
+   ]
+  },
+  {
+   "id": "776f8ba0-e84a-5a5f-9dcf-c86bcc0a8eda",
+   "lemma": "surrounding",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "surrounding"
+   ]
+  },
+  {
+   "id": "3550931f-f847-5a4b-84ba-3afe585e3d72",
+   "lemma": "survival",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "survival"
+   ]
+  },
+  {
+   "id": "47d4f540-42ae-5d34-b1a6-398abb0bcf3b",
+   "lemma": "survivor",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "survivor"
+   ]
+  },
+  {
+   "id": "11ad3200-ca66-5afe-8126-c90d472cc3f5",
+   "lemma": "suspect",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "suspect"
+   ]
+  },
+  {
+   "id": "03ed41b3-708e-5f84-887c-b16cf910feb7",
+   "lemma": "suspicion",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "suspicion"
+   ]
+  },
+  {
+   "id": "457d8060-9d59-55aa-8cc8-8ccfa4d43c99",
+   "lemma": "swarm",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "swarm"
+   ]
+  },
+  {
+   "id": "95637588-f79b-52d4-9c01-820353a98e11",
+   "lemma": "swear",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "swear"
+   ]
+  },
+  {
+   "id": "001e71e7-bcb7-5bbb-8862-9e2984379df5",
+   "lemma": "sweat",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sweat"
+   ]
+  },
+  {
+   "id": "731fc644-cbd6-5419-8b59-5e03dcb3023c",
+   "lemma": "sweatshirt",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sweatshirt"
+   ]
+  },
+  {
+   "id": "beec9a0b-c2ee-5ecf-a1ac-fb408025e001",
+   "lemma": "swell",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "swell"
+   ]
+  },
+  {
+   "id": "0ac38bbe-ed60-5d5a-a40a-5b8109e1d702",
+   "lemma": "swimmer",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "swimmer"
+   ]
+  },
+  {
+   "id": "ce04912f-489c-5fd7-b8ec-b6072f4c926a",
+   "lemma": "switch",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "switch"
+   ]
+  },
+  {
+   "id": "25747448-9d8e-54d2-bca6-830e054d780a",
+   "lemma": "switch",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "switch"
+   ]
+  },
+  {
+   "id": "21110b9b-ac0a-5e42-809f-c876d1525224",
+   "lemma": "swollen",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "swollen"
+   ]
+  },
+  {
+   "id": "fed871c3-7074-519b-b784-7bfd15725887",
+   "lemma": "sword",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sword"
+   ]
+  },
+  {
+   "id": "63cc785e-bd73-54dc-bd61-01c96c0bc054",
+   "lemma": "sympathy",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sympathy"
+   ]
+  },
+  {
+   "id": "b31bf2fe-e283-5f55-ba38-3c0e003e33e8",
+   "lemma": "symptom",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "symptom"
+   ]
+  },
+  {
+   "id": "65fb8950-456b-5bdf-86d6-bff01cc16d24",
+   "lemma": "syndrome",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "syndrome"
+   ]
+  },
+  {
+   "id": "995d9abf-b3df-576a-b9b5-dda2fda2edce",
+   "lemma": "systematic",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "systematic"
+   ]
+  },
+  {
+   "id": "2b88ada6-0c31-5af2-babb-9f2def1fcfee",
+   "lemma": "tablet",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tablet"
+   ]
+  },
+  {
+   "id": "75ecd139-b98d-55cd-ad31-29abf2e70f33",
+   "lemma": "take",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "take"
+   ]
+  },
+  {
+   "id": "02beb6cf-f897-5ad5-adbe-25f7eb459a15",
+   "lemma": "takeaway",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "takeaway"
+   ]
+  },
+  {
+   "id": "b09c29f4-a4d6-5826-bf81-03624292c98d",
+   "lemma": "takeoff",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "takeoff",
+    "take-off"
+   ]
+  },
+  {
+   "id": "71a431c0-9b21-5f41-b13d-dbd638c1207f",
+   "lemma": "tale",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tale"
+   ]
+  },
+  {
+   "id": "a30667fd-6659-5b22-b3db-221eff6a8b54",
+   "lemma": "talented",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "talented"
+   ]
+  },
+  {
+   "id": "31eb200d-82a8-5e8f-903c-bee9be8408df",
+   "lemma": "talk",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "talk"
+   ]
+  }
+ ]
+}

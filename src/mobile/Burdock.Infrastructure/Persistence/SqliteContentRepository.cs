@@ -52,7 +52,8 @@ public sealed class SqliteContentRepository(BurdockDatabase database) : IContent
         await db.RunInTransactionAsync(conn =>
         {
             conn.Execute("DELETE FROM word_entries WHERE PackId = ?", pack.PackId);
-            conn.InsertAll(rows);
+            // A lexeme with several topics ships in each topic pack (spec 08 §3.10); the client merges by id.
+            conn.InsertAll(rows, "OR REPLACE");
             conn.InsertOrReplace(new ContentPackRow { PackId = pack.PackId, Version = pack.Version, ImportedAtTicks = DateTimeOffset.UtcNow.UtcTicks });
         }).ConfigureAwait(false);
     }

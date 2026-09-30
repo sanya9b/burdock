@@ -1,0 +1,409 @@
+{
+ "chunk": "B2-069",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "3076bff5-8f6a-5bd7-b5e2-88709d7159f6",
+   "lemma": "whereas",
+   "pos": "conjunction",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "whereas"
+   ]
+  },
+  {
+   "id": "d7b564c5-3454-5bbb-87fb-724247d12cca",
+   "lemma": "whichever",
+   "pos": "pronoun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "whichever"
+   ]
+  },
+  {
+   "id": "7a936b6d-a938-5df0-859b-78fe98d5a3c0",
+   "lemma": "whip",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "whip"
+   ]
+  },
+  {
+   "id": "2b6e5543-5346-5bb8-9016-5ebb962dd975",
+   "lemma": "whiskey",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "whiskey",
+    "whisky"
+   ]
+  },
+  {
+   "id": "7660bc8e-0506-560c-8ecd-185773930f15",
+   "lemma": "whisper",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "whisper"
+   ]
+  },
+  {
+   "id": "8cd02b76-7f3d-5463-8a68-07d096675612",
+   "lemma": "whistle",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "whistle"
+   ]
+  },
+  {
+   "id": "f409c52e-bd45-5eac-bfec-46eef122fc1d",
+   "lemma": "widen",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "widen"
+   ]
+  },
+  {
+   "id": "6c256935-1393-5549-88e5-769a0fb42346",
+   "lemma": "widow",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "widow"
+   ]
+  },
+  {
+   "id": "e15db926-6a2f-5d3c-925c-a819326623bf",
+   "lemma": "width",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "width"
+   ]
+  },
+  {
+   "id": "52dda829-05df-50a6-888e-588041d330f5",
+   "lemma": "wilderness",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wilderness"
+   ]
+  },
+  {
+   "id": "f428bfcd-a967-58d7-9474-e0ead58475e1",
+   "lemma": "will",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "will"
+   ]
+  },
+  {
+   "id": "5d7ae48b-6661-5037-99d1-1cc5c0a0913c",
+   "lemma": "willing",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "willing"
+   ]
+  },
+  {
+   "id": "e7492e13-4f3d-593f-98b8-65316771bb42",
+   "lemma": "willingly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "willingly"
+   ]
+  },
+  {
+   "id": "b2f1ce1d-8db2-5932-ac8b-acda279a985c",
+   "lemma": "win",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "win"
+   ]
+  },
+  {
+   "id": "776682e5-e77b-53a9-aced-68f26a74765b",
+   "lemma": "wind",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wind"
+   ]
+  },
+  {
+   "id": "2a5e4b9b-e89c-5cb1-a867-89817ac6d063",
+   "lemma": "winding",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "winding"
+   ]
+  },
+  {
+   "id": "24565909-9499-5bc6-a568-8a1f7d600741",
+   "lemma": "windshield",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "windshield"
+   ]
+  },
+  {
+   "id": "59839df4-66f0-569a-89ef-784dbd86c02e",
+   "lemma": "wink",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wink"
+   ]
+  },
+  {
+   "id": "bcf9d486-f18e-583e-a44c-1b96f9bb5bc7",
+   "lemma": "wipe",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wipe"
+   ]
+  },
+  {
+   "id": "3198a2a8-6bf5-5d35-b5d9-cb713e266f20",
+   "lemma": "wire",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wire"
+   ]
+  },
+  {
+   "id": "1c252218-12e3-5533-a6b7-9d9188175f37",
+   "lemma": "wit",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wit"
+   ]
+  },
+  {
+   "id": "cec09a4f-7355-526d-9bec-6bcefd5f42ce",
+   "lemma": "withdraw",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "withdraw"
+   ]
+  },
+  {
+   "id": "3f15709b-6109-52f9-ae49-4351b1053829",
+   "lemma": "withdrawal",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "withdrawal"
+   ]
+  },
+  {
+   "id": "3b3defbc-a384-5ca1-bc30-e1f66151e408",
+   "lemma": "witness",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "witness"
+   ]
+  },
+  {
+   "id": "9ee3ca21-6f58-56f6-872b-7db773efe1e5",
+   "lemma": "witty",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "witty"
+   ]
+  },
+  {
+   "id": "d4b2e285-5081-5575-b26b-ed95bcce5c2f",
+   "lemma": "wolf",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wolf"
+   ]
+  },
+  {
+   "id": "efc90687-05cd-52e6-ac6e-c6f7ac8c43bf",
+   "lemma": "wondrous",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wondrous"
+   ]
+  },
+  {
+   "id": "0cc848e2-ff34-5cee-9234-8f4199e73817",
+   "lemma": "woodcarving",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "woodcarving"
+   ]
+  },
+  {
+   "id": "85770e5a-fc4b-5292-a839-3fa6d78a23b9",
+   "lemma": "wordlessly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wordlessly"
+   ]
+  },
+  {
+   "id": "c1a97bd2-d8e2-5830-9cd3-1b3d5722b1e8",
+   "lemma": "workaholic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "workaholic"
+   ]
+  },
+  {
+   "id": "2fcb0ff0-094f-5f92-9118-b5c6fd60086e",
+   "lemma": "workbench",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "workbench"
+   ]
+  },
+  {
+   "id": "ff401fd4-278d-5db6-afb6-2a18f8a83063",
+   "lemma": "workman",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "workman"
+   ]
+  },
+  {
+   "id": "34230ff8-dbe9-594d-a874-622a976b565c",
+   "lemma": "worktable",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "worktable"
+   ]
+  },
+  {
+   "id": "8e624b11-47d9-5af7-ba39-fbed4274deb5",
+   "lemma": "worldly",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "worldly"
+   ]
+  },
+  {
+   "id": "0883998e-3c99-5a8d-99ed-dacaf80b0b38",
+   "lemma": "worldview",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "worldview"
+   ]
+  },
+  {
+   "id": "5123ffe1-46d7-56d4-8dc8-bd39b5eb5cb3",
+   "lemma": "worldwide",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "worldwide"
+   ]
+  },
+  {
+   "id": "1b752e73-b9ae-5157-bb59-ced2d8714566",
+   "lemma": "worm",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "worm"
+   ]
+  },
+  {
+   "id": "f7c7a57f-1776-551e-a741-eb0c73118699",
+   "lemma": "wornout",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wornout",
+    "worn out",
+    "worn-out"
+   ]
+  },
+  {
+   "id": "4f894322-ceb2-5176-8d89-fcc337216830",
+   "lemma": "worrying",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "worrying"
+   ]
+  },
+  {
+   "id": "f014ddb5-7cf0-5f83-8c41-57bf134eed1b",
+   "lemma": "worse",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "worse"
+   ]
+  }
+ ]
+}

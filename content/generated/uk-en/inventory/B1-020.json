@@ -1,0 +1,406 @@
+{
+ "chunk": "B1-020",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "c5f09544-db18-593a-90ce-75c0a2e2fcd9",
+   "lemma": "eventually",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "eventually"
+   ]
+  },
+  {
+   "id": "b8e7e6f9-b12e-53eb-a91e-7643a67eb307",
+   "lemma": "evident",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "evident"
+   ]
+  },
+  {
+   "id": "ab795bcf-9c6f-5df0-b1f6-610be82a9053",
+   "lemma": "exact",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exact"
+   ]
+  },
+  {
+   "id": "47b49409-6e26-5438-a752-dfcfdd86a2dc",
+   "lemma": "examination",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "examination"
+   ]
+  },
+  {
+   "id": "4498445e-208e-529d-b56e-a82e2e855c20",
+   "lemma": "examine",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "examine"
+   ]
+  },
+  {
+   "id": "39895af2-be08-5f45-a175-469ad708608c",
+   "lemma": "examiner",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "examiner"
+   ]
+  },
+  {
+   "id": "9eb39044-2512-5b0c-b902-bb03cecc72b4",
+   "lemma": "excellence",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "excellence"
+   ]
+  },
+  {
+   "id": "fb2904c7-c213-53f5-b596-ab4696ff7f22",
+   "lemma": "excess",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "excess"
+   ]
+  },
+  {
+   "id": "fb443c96-91fe-53b6-ae3c-62916d022980",
+   "lemma": "exchange",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exchange"
+   ]
+  },
+  {
+   "id": "3e6ac5f9-f9f4-5378-94db-32683dfc3c3d",
+   "lemma": "exchange rate",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exchange rate"
+   ]
+  },
+  {
+   "id": "9d5f1c59-b098-5b83-91af-54a674f22dde",
+   "lemma": "excitedly",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "excitedly"
+   ]
+  },
+  {
+   "id": "3b215a68-c6c0-5992-a9d4-926400b06480",
+   "lemma": "excitement",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "excitement"
+   ]
+  },
+  {
+   "id": "19e8bf80-4257-5f28-af3f-59ed6d65b55d",
+   "lemma": "exclusive",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exclusive"
+   ]
+  },
+  {
+   "id": "75046dde-c382-5056-8307-f67f2d0c0dc4",
+   "lemma": "excuse",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "excuse"
+   ]
+  },
+  {
+   "id": "b207bf80-225b-5f59-968b-7883402a3b12",
+   "lemma": "exhausted",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exhausted"
+   ]
+  },
+  {
+   "id": "238066ab-69f3-5422-b2c1-7b3e710129a5",
+   "lemma": "existence",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "existence"
+   ]
+  },
+  {
+   "id": "953dd505-31b5-51f8-b9bd-d8f9b1444519",
+   "lemma": "exit",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exit"
+   ]
+  },
+  {
+   "id": "f91d61cf-a437-5ddc-aff6-5b67d24a7f0c",
+   "lemma": "exit",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exit"
+   ]
+  },
+  {
+   "id": "a8aa733c-5997-5382-8460-c94a467c836d",
+   "lemma": "expand",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "expand"
+   ]
+  },
+  {
+   "id": "2057310e-d387-57f7-a161-d78f3a77d0c1",
+   "lemma": "expense",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "expense"
+   ]
+  },
+  {
+   "id": "327b61cd-81f9-5430-a993-350974127043",
+   "lemma": "experience",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "experience"
+   ]
+  },
+  {
+   "id": "23e8ec3e-9821-5745-b41a-d84a817a272a",
+   "lemma": "experienced",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "experienced"
+   ]
+  },
+  {
+   "id": "37961dda-f859-577a-a2c9-99d9b38d7daa",
+   "lemma": "experiment",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "experiment"
+   ]
+  },
+  {
+   "id": "333768aa-e880-5133-a658-c5c617408188",
+   "lemma": "exploration",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exploration"
+   ]
+  },
+  {
+   "id": "3d8f0410-fdd7-5465-b91c-35949db9e314",
+   "lemma": "explosion",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "explosion"
+   ]
+  },
+  {
+   "id": "938bf2b4-d7e8-5ae1-9229-cbb4357ae69e",
+   "lemma": "expose",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "expose"
+   ]
+  },
+  {
+   "id": "25c47eb4-faaa-5924-acfd-ed0ef2868e5e",
+   "lemma": "express",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "express"
+   ]
+  },
+  {
+   "id": "5c4bd93e-3a94-5e16-8105-a9fc9ceb2dda",
+   "lemma": "extend",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "extend"
+   ]
+  },
+  {
+   "id": "2de1754e-5013-5f03-82ab-24c1328c88a8",
+   "lemma": "extensively",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "extensively"
+   ]
+  },
+  {
+   "id": "2eaca42d-25eb-530e-aea8-007c4e266028",
+   "lemma": "extent",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "extent"
+   ]
+  },
+  {
+   "id": "7759032c-ecbb-53fb-8502-695ba2828d5f",
+   "lemma": "extinct",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "extinct"
+   ]
+  },
+  {
+   "id": "dff8c416-9f8e-56c8-a7a1-dddd19c0b966",
+   "lemma": "extinction",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "extinction"
+   ]
+  },
+  {
+   "id": "745a4245-bc7e-538f-9c2d-652dc7b79aee",
+   "lemma": "extra",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "extra"
+   ]
+  },
+  {
+   "id": "3639f239-c447-5216-9080-be1fc691db77",
+   "lemma": "extraordinary",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "extraordinary"
+   ]
+  },
+  {
+   "id": "42f5a4cd-b0c4-50b8-bd15-a2468ae82244",
+   "lemma": "extreme",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "extreme"
+   ]
+  },
+  {
+   "id": "cd643b51-33ae-5b6b-b707-dde5746fc61b",
+   "lemma": "extreme sports",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "extreme sports"
+   ]
+  },
+  {
+   "id": "8dd0367a-f9f0-5cd8-a24b-446f8d7d8581",
+   "lemma": "eyesight",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "eyesight"
+   ]
+  },
+  {
+   "id": "7778db12-626d-53b4-aed2-d38260fed85c",
+   "lemma": "face to face",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "face to face"
+   ]
+  },
+  {
+   "id": "d10b8dad-34cf-51b7-a32f-6472af9ff1c6",
+   "lemma": "face-to-face",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "face-to-face"
+   ]
+  },
+  {
+   "id": "ced90a82-4ecd-59a2-9b0e-a1fc48e5dd4c",
+   "lemma": "facility",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "facility"
+   ]
+  }
+ ]
+}

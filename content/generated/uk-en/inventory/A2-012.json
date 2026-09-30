@@ -1,0 +1,407 @@
+{
+ "chunk": "A2-012",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "48d7aa84-63e3-5a73-acb6-0cc153b91d37",
+   "lemma": "establish",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "establish"
+   ]
+  },
+  {
+   "id": "f9c33f75-ccdb-5584-8979-bb937377a1d3",
+   "lemma": "euro",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "euro"
+   ]
+  },
+  {
+   "id": "1b820ff4-4278-5231-9a4b-c077fa8f608e",
+   "lemma": "even",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "even"
+   ]
+  },
+  {
+   "id": "8f6afd8d-b5c7-5120-9a77-b69adc94a729",
+   "lemma": "ever",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ever"
+   ]
+  },
+  {
+   "id": "9bf7cf3b-8aa0-5ab6-ac1d-ed7ffe6c0371",
+   "lemma": "evidence",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "evidence"
+   ]
+  },
+  {
+   "id": "7f1040db-61bd-5601-b9f0-00a243e740b4",
+   "lemma": "exactly",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exactly"
+   ]
+  },
+  {
+   "id": "4b4edd78-32d6-56cb-8173-fcf2e082275e",
+   "lemma": "exam",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exam"
+   ]
+  },
+  {
+   "id": "d1e37722-5c50-56d8-b97d-035d5be8437a",
+   "lemma": "except",
+   "pos": "conjunction",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "except"
+   ]
+  },
+  {
+   "id": "2ee80090-1ca2-5678-a029-435bbc04ebc1",
+   "lemma": "except",
+   "pos": "preposition",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "except"
+   ]
+  },
+  {
+   "id": "9582f2ec-dea5-529d-9f29-310fdb08b95a",
+   "lemma": "exchange",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exchange"
+   ]
+  },
+  {
+   "id": "c7e7f43f-7d6c-56ab-aa96-23f2c8b5d6c8",
+   "lemma": "exercise",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exercise"
+   ]
+  },
+  {
+   "id": "1fe66e47-c31f-5bce-95b5-a1d62e7c8e78",
+   "lemma": "exhibition",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exhibition"
+   ]
+  },
+  {
+   "id": "f87bfb9e-a853-5edd-96fe-def6ff883df2",
+   "lemma": "exist",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exist"
+   ]
+  },
+  {
+   "id": "b5452b09-fd34-555b-a8a2-7158301a5b96",
+   "lemma": "expect",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "expect"
+   ]
+  },
+  {
+   "id": "120366c0-aa7c-554a-8ec3-01735e11fd08",
+   "lemma": "experience",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "experience"
+   ]
+  },
+  {
+   "id": "b66a647d-4445-5cac-81f2-6772c8519ff7",
+   "lemma": "expert",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "expert"
+   ]
+  },
+  {
+   "id": "140ee591-cb76-5be7-b7bb-a3e585cf06a8",
+   "lemma": "explain",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "explain"
+   ]
+  },
+  {
+   "id": "be7dfc72-4650-5159-b657-840a2ad0c379",
+   "lemma": "explanation",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "explanation"
+   ]
+  },
+  {
+   "id": "8a228962-b5ee-5006-b6a4-b4970d0f7e1c",
+   "lemma": "explore",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "explore"
+   ]
+  },
+  {
+   "id": "6282c679-be62-5655-ab3a-acfe92d91f4f",
+   "lemma": "express",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "express"
+   ]
+  },
+  {
+   "id": "622e7b42-1119-559b-8350-1b7e0967810c",
+   "lemma": "expression",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "expression"
+   ]
+  },
+  {
+   "id": "918f4da7-f145-5e59-bbfb-a54a76aaeaa8",
+   "lemma": "extra",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "extra"
+   ]
+  },
+  {
+   "id": "6066de24-8f34-5281-9e82-6475dbc4b597",
+   "lemma": "extra",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "extra"
+   ]
+  },
+  {
+   "id": "de9e0d4b-1130-5208-89c3-c243823fcc53",
+   "lemma": "extremely",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "extremely"
+   ]
+  },
+  {
+   "id": "dfc49b39-d674-5e85-b42f-5248012beecd",
+   "lemma": "face",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "face"
+   ]
+  },
+  {
+   "id": "e8906560-a845-5dce-bda9-3c523ead087b",
+   "lemma": "fact",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fact"
+   ]
+  },
+  {
+   "id": "e8402bd4-96ec-53c4-a1c2-60271b92bf98",
+   "lemma": "fail",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fail"
+   ]
+  },
+  {
+   "id": "5557a0fd-378c-5fd8-baf2-86ebe6ace381",
+   "lemma": "fairly",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fairly"
+   ]
+  },
+  {
+   "id": "5b466add-881c-5070-b2e5-7c6a35c75f6e",
+   "lemma": "fall",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fall"
+   ]
+  },
+  {
+   "id": "fc039414-f2fc-5b6f-a20b-b9654a492e1c",
+   "lemma": "familiar",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "familiar"
+   ]
+  },
+  {
+   "id": "d00939c2-a234-5f46-8698-66bef90ce1d6",
+   "lemma": "fancy",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fancy"
+   ]
+  },
+  {
+   "id": "805890ab-f689-52ee-a7dd-eae521cfcda8",
+   "lemma": "fantastic",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fantastic"
+   ]
+  },
+  {
+   "id": "6c4018e9-77f7-5dde-9ea9-ed24f0b38e94",
+   "lemma": "far",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "far"
+   ]
+  },
+  {
+   "id": "9a8ac882-d0e0-51b7-ae42-d910a5de9a17",
+   "lemma": "fare",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fare"
+   ]
+  },
+  {
+   "id": "baa73ccf-3640-5e1a-8ed7-c73c7c9a556f",
+   "lemma": "fascinating",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fascinating"
+   ]
+  },
+  {
+   "id": "ba3b1cad-43c5-5c9c-8473-e4beacdf561d",
+   "lemma": "fashion",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fashion"
+   ]
+  },
+  {
+   "id": "7f82d304-8bf1-58ad-8f75-3f5eb68357e1",
+   "lemma": "fast food",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fast food"
+   ]
+  },
+  {
+   "id": "b80c92b8-0eb1-5f26-916c-0198e13f70b7",
+   "lemma": "fault",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fault"
+   ]
+  },
+  {
+   "id": "2707e825-a708-52dc-bccc-2d42d42c3917",
+   "lemma": "favor",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "favor",
+    "favour"
+   ]
+  },
+  {
+   "id": "dad1255e-ec60-5c62-ab73-e8f10c5d94ba",
+   "lemma": "fear",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fear"
+   ]
+  }
+ ]
+}

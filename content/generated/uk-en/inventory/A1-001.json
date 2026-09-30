@@ -1,0 +1,409 @@
+{
+ "chunk": "A1-001",
+ "level": "A1",
+ "lexemes": [
+  {
+   "id": "a606b78c-6c0f-58cf-9b2b-1d7f290b5a18",
+   "lemma": "a",
+   "pos": "determiner",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "a"
+   ]
+  },
+  {
+   "id": "7a2f7e38-0c5b-5ec4-a3d3-594730c4fa89",
+   "lemma": "a.m.",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "a.m.",
+    "am",
+    "AM"
+   ]
+  },
+  {
+   "id": "6a4e067a-4e18-561d-8384-31aba91d480b",
+   "lemma": "about",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "about"
+   ]
+  },
+  {
+   "id": "884417f8-3d96-5593-8460-3b3d8d430766",
+   "lemma": "about",
+   "pos": "preposition",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "about"
+   ]
+  },
+  {
+   "id": "4bbd1a52-8cbe-54db-9719-2ce14fafccda",
+   "lemma": "above",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "above"
+   ]
+  },
+  {
+   "id": "38fc2a17-2e98-594f-b60d-3cb75c664b75",
+   "lemma": "above",
+   "pos": "preposition",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "above"
+   ]
+  },
+  {
+   "id": "86ae5b95-9ca9-539a-a6ea-30a84eeed241",
+   "lemma": "action",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "action"
+   ]
+  },
+  {
+   "id": "333fa5d0-b7d5-5adf-a58e-ffbaf5085813",
+   "lemma": "activity",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "activity"
+   ]
+  },
+  {
+   "id": "1eb304eb-42db-546a-bc06-6b4173a65d6d",
+   "lemma": "actor",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "actor"
+   ]
+  },
+  {
+   "id": "60730c45-ff7b-5efc-bc14-90e273e8dd50",
+   "lemma": "add",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "add"
+   ]
+  },
+  {
+   "id": "8d39bae8-5e02-5c24-833e-76c836ee4fd8",
+   "lemma": "address",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "address"
+   ]
+  },
+  {
+   "id": "a2a52444-9956-56cd-ade9-3f2c1921d5a2",
+   "lemma": "afraid",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "afraid"
+   ]
+  },
+  {
+   "id": "2f86d2b4-414d-5bc0-bbb6-492074da3691",
+   "lemma": "after",
+   "pos": "preposition",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "after"
+   ]
+  },
+  {
+   "id": "aa54d1fe-27bd-5678-a1e7-6522102731bb",
+   "lemma": "afternoon",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "afternoon"
+   ]
+  },
+  {
+   "id": "e96dee6a-f2f8-5b0e-bdb5-a80fcb339c8c",
+   "lemma": "again",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "again"
+   ]
+  },
+  {
+   "id": "cd94c181-49ef-54fe-bea0-7e2e592620b7",
+   "lemma": "age",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "age"
+   ]
+  },
+  {
+   "id": "f1c16b90-79a5-554e-b079-0598c08b91b9",
+   "lemma": "ago",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ago"
+   ]
+  },
+  {
+   "id": "50a80270-4417-5960-9a6d-d2a2407c57e4",
+   "lemma": "agree",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "agree"
+   ]
+  },
+  {
+   "id": "d5ac955e-6d3f-5b47-bd69-b857c89c65ad",
+   "lemma": "airplane",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "airplane",
+    "aeroplane"
+   ]
+  },
+  {
+   "id": "9a9eae16-fad9-5f14-9e76-4c83da2ec5d9",
+   "lemma": "airport",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "airport"
+   ]
+  },
+  {
+   "id": "9ac65d33-f20c-5acc-96f0-c58081d5a5d5",
+   "lemma": "album",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "album"
+   ]
+  },
+  {
+   "id": "fb118ae4-bbca-574b-95f0-d7e88b1b0616",
+   "lemma": "all",
+   "pos": "determiner",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "all"
+   ]
+  },
+  {
+   "id": "69eafdba-c8b0-5cbe-9a8c-f6bc26d0b96b",
+   "lemma": "all",
+   "pos": "pronoun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "all"
+   ]
+  },
+  {
+   "id": "06818402-4120-5b47-913b-62b2cb2e57d1",
+   "lemma": "all right",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "all right"
+   ]
+  },
+  {
+   "id": "f83fbc87-e31b-5642-a764-564d8a75b25f",
+   "lemma": "all right",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "all right"
+   ]
+  },
+  {
+   "id": "326058e4-d01a-5ee3-9fb5-b35d762f6aee",
+   "lemma": "almost",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "almost"
+   ]
+  },
+  {
+   "id": "f7d01ebb-0813-5b5b-b242-5b9d69d7dc41",
+   "lemma": "alone",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "alone"
+   ]
+  },
+  {
+   "id": "22b83c6b-4727-5ffe-91a2-00191f5c9fc4",
+   "lemma": "along",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "along"
+   ]
+  },
+  {
+   "id": "58e51302-8564-58b3-9b70-a9c306568d35",
+   "lemma": "already",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "already"
+   ]
+  },
+  {
+   "id": "d1fd8e49-4c4a-5369-a66f-89ec1d621a15",
+   "lemma": "also",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "also"
+   ]
+  },
+  {
+   "id": "b37114bf-45c1-54d7-be90-9b6aa8127a95",
+   "lemma": "always",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "always"
+   ]
+  },
+  {
+   "id": "f4a57448-6812-525c-9e24-9d91aae6eb77",
+   "lemma": "am",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "am"
+   ]
+  },
+  {
+   "id": "733a1c70-e8d6-59db-802d-14e41c46fa16",
+   "lemma": "an",
+   "pos": "determiner",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "an"
+   ]
+  },
+  {
+   "id": "eb48431b-b643-5264-ab04-a921594a30d7",
+   "lemma": "and",
+   "pos": "conjunction",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "and"
+   ]
+  },
+  {
+   "id": "f350d5cd-5ba9-5e13-a509-8c850b6748c1",
+   "lemma": "angry",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "angry"
+   ]
+  },
+  {
+   "id": "c37af025-2a4c-5b87-bef4-7dba151651af",
+   "lemma": "animal",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "animal"
+   ]
+  },
+  {
+   "id": "4f24ccbf-54ea-567c-874b-19b99ffb4af9",
+   "lemma": "another",
+   "pos": "determiner",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "another"
+   ]
+  },
+  {
+   "id": "837e1173-33ca-5832-a9a3-9735e4486526",
+   "lemma": "answer",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "answer"
+   ]
+  },
+  {
+   "id": "19b30e6e-201e-5f8e-a067-ab047b3a040d",
+   "lemma": "answer",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "answer"
+   ]
+  },
+  {
+   "id": "62c16c20-947c-5478-95f1-d0b00ae7f473",
+   "lemma": "any",
+   "pos": "determiner",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "any"
+   ]
+  }
+ ]
+}

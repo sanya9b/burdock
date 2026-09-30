@@ -1,0 +1,408 @@
+{
+ "chunk": "B2-040",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "5fd1479d-69e7-51ff-975c-370d3b842c11",
+   "lemma": "nightclub",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nightclub"
+   ]
+  },
+  {
+   "id": "1c25567c-a32a-56aa-bc3d-e968ca8ce3b3",
+   "lemma": "nightmare",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nightmare"
+   ]
+  },
+  {
+   "id": "a56e6471-b4a8-5bf0-9ba6-3d17c721f673",
+   "lemma": "nobility",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nobility"
+   ]
+  },
+  {
+   "id": "837e61cf-2780-5eaf-ae5c-142a5df4157c",
+   "lemma": "noble",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "noble"
+   ]
+  },
+  {
+   "id": "7c780342-7540-5fc4-9b6c-69e342699bcd",
+   "lemma": "nobleman",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nobleman"
+   ]
+  },
+  {
+   "id": "a9b86f25-f736-5151-98ce-bca4f377a5ee",
+   "lemma": "nod",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nod"
+   ]
+  },
+  {
+   "id": "4320e19e-3fd1-5243-be39-f23a6f5baf75",
+   "lemma": "nomad",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nomad"
+   ]
+  },
+  {
+   "id": "b81dde65-df63-5098-9e33-c297addd1a0d",
+   "lemma": "nomination",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nomination"
+   ]
+  },
+  {
+   "id": "96e8a82a-e550-53c3-91aa-c9294ff06bdc",
+   "lemma": "nominee",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nominee"
+   ]
+  },
+  {
+   "id": "22a7acd6-3c42-5933-afaa-4dcb6b0b6c4b",
+   "lemma": "non-smoking",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "non-smoking"
+   ]
+  },
+  {
+   "id": "ef27b65c-a66a-5654-b7bb-c58c7c5df4d2",
+   "lemma": "nonprofessional",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nonprofessional"
+   ]
+  },
+  {
+   "id": "6cdcf7e9-4ccf-53ba-a672-8c96ee0653d9",
+   "lemma": "northward",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "northward",
+    "northwards"
+   ]
+  },
+  {
+   "id": "051d49f4-285f-5f72-92a0-2b3f60785a32",
+   "lemma": "nostril",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nostril"
+   ]
+  },
+  {
+   "id": "ae7c680c-b7a8-52b3-9d70-35ff7704b238",
+   "lemma": "nought",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nought"
+   ]
+  },
+  {
+   "id": "91f12294-6f52-5162-8780-b7ad6de64a7e",
+   "lemma": "nourish",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nourish"
+   ]
+  },
+  {
+   "id": "ae4a33db-b391-577d-95c1-7ec5986565d0",
+   "lemma": "nourishment",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nourishment"
+   ]
+  },
+  {
+   "id": "890bb1d5-3090-5fea-8917-5cb60cd39101",
+   "lemma": "novelty",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "novelty"
+   ]
+  },
+  {
+   "id": "620d15e0-6fbc-502c-aaa6-1cb16a0e57ef",
+   "lemma": "now",
+   "pos": "conjunction",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "now"
+   ]
+  },
+  {
+   "id": "79e90262-15e2-5b51-9e65-729be6e4685e",
+   "lemma": "nuisance",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nuisance"
+   ]
+  },
+  {
+   "id": "3227cf8a-a71f-53e3-8e84-5804439ad6f3",
+   "lemma": "numerical",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "numerical"
+   ]
+  },
+  {
+   "id": "a87098ae-afd2-51a0-aa52-f743c7cf1d47",
+   "lemma": "nursery",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nursery"
+   ]
+  },
+  {
+   "id": "8ad9d590-b43b-5bdc-9392-8b7e028a4c73",
+   "lemma": "nut",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nut"
+   ]
+  },
+  {
+   "id": "834dd046-5266-5ffc-8129-a6a533850147",
+   "lemma": "nutshell",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "nutshell"
+   ]
+  },
+  {
+   "id": "87a21079-1c60-5778-91e1-e567d84addd0",
+   "lemma": "oath",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "oath"
+   ]
+  },
+  {
+   "id": "a151931e-d220-55be-a17a-50781c37e2a7",
+   "lemma": "obedience",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "obedience"
+   ]
+  },
+  {
+   "id": "23a834b2-f09b-59d4-bf19-4d728d397cf9",
+   "lemma": "obedient",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "obedient"
+   ]
+  },
+  {
+   "id": "54c32794-1029-5a40-a85e-a93db2693d6d",
+   "lemma": "obey",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "obey"
+   ]
+  },
+  {
+   "id": "f0e939e3-977a-5e51-ab0c-a85e17728cf2",
+   "lemma": "obituary",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "obituary"
+   ]
+  },
+  {
+   "id": "201ccb23-8136-5a44-8023-86f6b32bde61",
+   "lemma": "object",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "object"
+   ]
+  },
+  {
+   "id": "734ffa5c-e8a1-56a3-8aed-fe8fa2bc0b9b",
+   "lemma": "objective",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "objective"
+   ]
+  },
+  {
+   "id": "f41a517d-4861-5f8b-b95a-33c44fe61b9d",
+   "lemma": "obligation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "obligation"
+   ]
+  },
+  {
+   "id": "5c02659e-79a1-5164-97f2-8afbc38773a5",
+   "lemma": "observer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "observer"
+   ]
+  },
+  {
+   "id": "b60f2060-11a6-5abf-8157-dda81aea7663",
+   "lemma": "obsess",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "obsess"
+   ]
+  },
+  {
+   "id": "722394b1-ee29-5fcc-a674-47fd47cef2eb",
+   "lemma": "obsession",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "obsession"
+   ]
+  },
+  {
+   "id": "57d56ca9-f62a-5c6f-b487-866a2459ea9c",
+   "lemma": "obsessive",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "obsessive"
+   ]
+  },
+  {
+   "id": "a9d1516c-4880-5010-87fc-dd646d573ab1",
+   "lemma": "odd",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "odd"
+   ]
+  },
+  {
+   "id": "f5806736-b1b5-5e6b-9fc9-ec5f0a12eaf1",
+   "lemma": "offend",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "offend"
+   ]
+  },
+  {
+   "id": "ffec6998-a733-583a-bb7e-ac8281ec4c45",
+   "lemma": "offender",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "offender"
+   ]
+  },
+  {
+   "id": "de9982e4-7143-56b7-b90f-9ee0f24029ec",
+   "lemma": "offense",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "offense",
+    "offence"
+   ]
+  },
+  {
+   "id": "1801bf11-e104-5ecc-b232-744e949708fc",
+   "lemma": "offhand",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "offhand"
+   ]
+  }
+ ]
+}

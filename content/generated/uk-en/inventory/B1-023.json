@@ -1,0 +1,406 @@
+{
+ "chunk": "B1-023",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "31fb7757-0fc0-5f83-b8b5-d209c3f453be",
+   "lemma": "form",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "form"
+   ]
+  },
+  {
+   "id": "608261b0-6171-5091-a13d-e987f480a06a",
+   "lemma": "formal",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "formal"
+   ]
+  },
+  {
+   "id": "24b5cb6d-cc3b-5e1a-a994-228eca1c3acd",
+   "lemma": "formally",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "formally"
+   ]
+  },
+  {
+   "id": "392cdcae-58fc-5246-9455-71731defb19b",
+   "lemma": "format",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "format"
+   ]
+  },
+  {
+   "id": "b33b8106-6635-54cb-b4a7-a35aa66025c3",
+   "lemma": "format",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "format"
+   ]
+  },
+  {
+   "id": "9016b495-d774-564f-9953-65fbdbd2eb4f",
+   "lemma": "former",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "former"
+   ]
+  },
+  {
+   "id": "ff73e5da-02fc-5e1d-9323-a16e6f100bb1",
+   "lemma": "formula",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "formula"
+   ]
+  },
+  {
+   "id": "f18f61e4-9e82-502e-9be4-e0a332b1f9b3",
+   "lemma": "forth",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "forth"
+   ]
+  },
+  {
+   "id": "c1c3821a-e570-5579-946d-a367bf727946",
+   "lemma": "fortnight",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fortnight"
+   ]
+  },
+  {
+   "id": "28f9e9d1-d139-5788-8a28-b1c5d921506c",
+   "lemma": "fortunate",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fortunate"
+   ]
+  },
+  {
+   "id": "e42378b2-04a7-59d7-9931-ffc0ea2ffda9",
+   "lemma": "foundation",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "foundation"
+   ]
+  },
+  {
+   "id": "224f012d-3cd6-5031-b414-a20d912ff9b8",
+   "lemma": "fountain",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fountain"
+   ]
+  },
+  {
+   "id": "180109ee-fc3b-5410-9c12-89240082f58c",
+   "lemma": "fragment",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fragment"
+   ]
+  },
+  {
+   "id": "85bb4cfe-7b8f-535f-837d-b85707b8ada8",
+   "lemma": "freely",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "freely"
+   ]
+  },
+  {
+   "id": "b49595c7-af86-5bef-80ff-a709b132c6f2",
+   "lemma": "freezer",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "freezer"
+   ]
+  },
+  {
+   "id": "b1648a42-f962-5e49-9c95-7d0d25ed35e0",
+   "lemma": "freezing",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "freezing"
+   ]
+  },
+  {
+   "id": "11b0c356-aea7-5cc6-be32-bedbd293628f",
+   "lemma": "frequency",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "frequency"
+   ]
+  },
+  {
+   "id": "cae06cac-00cc-594a-ba93-986719ca445b",
+   "lemma": "frequent",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "frequent"
+   ]
+  },
+  {
+   "id": "37d91c68-d4f1-57ce-abd9-bca87e5b6768",
+   "lemma": "frequently",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "frequently"
+   ]
+  },
+  {
+   "id": "9493a0c4-8ade-5120-9c09-aecaa5ed3b67",
+   "lemma": "freshman",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "freshman"
+   ]
+  },
+  {
+   "id": "5298db01-69ee-5258-a89d-e3026badd069",
+   "lemma": "friendliness",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "friendliness"
+   ]
+  },
+  {
+   "id": "6ffe3849-2997-5267-bb1b-84283093115e",
+   "lemma": "fright",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fright"
+   ]
+  },
+  {
+   "id": "ab8249b7-1f5b-5ae1-a9e5-711da621307e",
+   "lemma": "frost",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "frost"
+   ]
+  },
+  {
+   "id": "580c5810-5105-5dda-a7d6-dfadf0e03917",
+   "lemma": "frozen",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "frozen"
+   ]
+  },
+  {
+   "id": "9aafc1fd-a4bf-5a56-bd95-a35288beb219",
+   "lemma": "frustrated",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "frustrated"
+   ]
+  },
+  {
+   "id": "a5bd3fe5-3fa4-53ad-a252-7d11ea972aa0",
+   "lemma": "frustration",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "frustration"
+   ]
+  },
+  {
+   "id": "09c0c9ba-0a2f-5139-b399-5afd0a071220",
+   "lemma": "fry",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fry"
+   ]
+  },
+  {
+   "id": "20d56aad-23a3-547c-9ea5-0bcd72bcc223",
+   "lemma": "frying pan",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "frying pan"
+   ]
+  },
+  {
+   "id": "e91c30d5-7e5a-50a4-a4c5-21bdc3112e44",
+   "lemma": "fuel",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fuel"
+   ]
+  },
+  {
+   "id": "7c7abc2c-7047-5684-b5e9-7de6ebdba8a0",
+   "lemma": "full stop",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "full stop"
+   ]
+  },
+  {
+   "id": "70e42f4b-8cef-54e9-8262-3f8033bc4d32",
+   "lemma": "full-time",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "full-time"
+   ]
+  },
+  {
+   "id": "2ef205fa-ade4-5b9f-a9ec-ecbfb01bc7c0",
+   "lemma": "full-time",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "full-time"
+   ]
+  },
+  {
+   "id": "e6073395-a82e-5f12-b333-3f325bdaf18c",
+   "lemma": "function",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "function"
+   ]
+  },
+  {
+   "id": "bba0798e-f8b7-54f4-8356-49b9844d4661",
+   "lemma": "fund",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fund"
+   ]
+  },
+  {
+   "id": "4c4217f1-f8ed-530c-9df7-005088c2fa23",
+   "lemma": "fund",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fund"
+   ]
+  },
+  {
+   "id": "41d4c5c1-a7d4-5f3f-9d63-050aee32d475",
+   "lemma": "funeral",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "funeral"
+   ]
+  },
+  {
+   "id": "afc5710f-c24e-5463-a00f-4e6dcff3e33c",
+   "lemma": "fur",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fur"
+   ]
+  },
+  {
+   "id": "5baf2c6f-c862-5c8e-a7cd-dc441c70b4e6",
+   "lemma": "furnish",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "furnish"
+   ]
+  },
+  {
+   "id": "f1fb460c-92ef-545a-8f92-3c26480e8034",
+   "lemma": "further",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "further"
+   ]
+  },
+  {
+   "id": "0af84511-fea7-59eb-a56f-977688264064",
+   "lemma": "furthermore",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "furthermore"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,407 @@
+{
+ "chunk": "B2-003",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "4b6e4478-76f6-5eb5-8ea1-9b8bf679ea6c",
+   "lemma": "analogy",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "analogy"
+   ]
+  },
+  {
+   "id": "84703553-d1c0-5792-b072-278cdee495e1",
+   "lemma": "analyst",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "analyst"
+   ]
+  },
+  {
+   "id": "2158748a-12e9-5a79-8b7d-c87dab2f3160",
+   "lemma": "anchor",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "anchor"
+   ]
+  },
+  {
+   "id": "1ccca3e7-0dc2-50ee-a9bd-d91b96810682",
+   "lemma": "anchorage",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "anchorage"
+   ]
+  },
+  {
+   "id": "6f1cbf0e-b28a-50ff-979b-d435f2144edf",
+   "lemma": "anchorman",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "anchorman"
+   ]
+  },
+  {
+   "id": "7f32c2a9-51de-54cf-aada-d63ec8265739",
+   "lemma": "anchorperson",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "anchorperson"
+   ]
+  },
+  {
+   "id": "2b1f24a8-f6f8-5b5e-b582-35beb257a452",
+   "lemma": "anguish",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "anguish"
+   ]
+  },
+  {
+   "id": "c88ba141-b96e-5d73-8c9d-9d66a807e682",
+   "lemma": "animate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "animate"
+   ]
+  },
+  {
+   "id": "16f1d66e-44d1-549e-93f4-18ae11477d03",
+   "lemma": "anonymous",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "anonymous"
+   ]
+  },
+  {
+   "id": "41577fd1-7ebd-507b-b9dc-cf6c73078390",
+   "lemma": "antiaircraft",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "antiaircraft"
+   ]
+  },
+  {
+   "id": "06c0c77c-2106-5535-b56c-17e496981418",
+   "lemma": "antibacterial",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "antibacterial"
+   ]
+  },
+  {
+   "id": "8db00218-6177-580b-860c-e07ca4827f7e",
+   "lemma": "anticancer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "anticancer"
+   ]
+  },
+  {
+   "id": "b95ed798-035b-5679-b9c1-f74fe2cd54ba",
+   "lemma": "anticipate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "anticipate"
+   ]
+  },
+  {
+   "id": "b5c23b75-86a5-573e-a7c5-24a771297051",
+   "lemma": "anticipation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "anticipation"
+   ]
+  },
+  {
+   "id": "e60dc854-5369-5dc6-b8fb-ce5e50d3af4c",
+   "lemma": "antipollution",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "antipollution"
+   ]
+  },
+  {
+   "id": "dff61b73-b453-51e5-bda7-08e8aad681c3",
+   "lemma": "antique",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "antique"
+   ]
+  },
+  {
+   "id": "556a8ff6-8d49-592a-a04e-ce4f84e66470",
+   "lemma": "antistatic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "antistatic"
+   ]
+  },
+  {
+   "id": "867e5f4f-23c3-52ca-ae85-5256d50ef137",
+   "lemma": "antivirus",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "antivirus"
+   ]
+  },
+  {
+   "id": "f007db67-4b5b-5cb8-a553-26e575107574",
+   "lemma": "apostrophe",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "apostrophe"
+   ]
+  },
+  {
+   "id": "758d051b-b6aa-55b4-b98f-5ffed1ff7e7a",
+   "lemma": "appeal",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "appeal"
+   ]
+  },
+  {
+   "id": "c175314e-2cab-5909-948b-251c01b2b5b2",
+   "lemma": "applicant",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "applicant"
+   ]
+  },
+  {
+   "id": "921fcbc3-c944-5b1e-84aa-cc3721dbfcb8",
+   "lemma": "appreciative",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "appreciative"
+   ]
+  },
+  {
+   "id": "b405eda4-0284-5127-a46f-fc962ceb5949",
+   "lemma": "approach",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "approach"
+   ]
+  },
+  {
+   "id": "2149a5f8-67ca-59fe-bc0f-7550f598d845",
+   "lemma": "appropriately",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "appropriately"
+   ]
+  },
+  {
+   "id": "202f1a18-1960-5f04-b8e3-2bbfbc063593",
+   "lemma": "approximate",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "approximate"
+   ]
+  },
+  {
+   "id": "98be1725-8f34-5cce-bdd0-41528e4a7aa3",
+   "lemma": "arch",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "arch"
+   ]
+  },
+  {
+   "id": "aa493f5c-c7d5-5af5-b3ce-10e5c91683d4",
+   "lemma": "archaeologist",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "archaeologist",
+    "archeologist"
+   ]
+  },
+  {
+   "id": "e4b07e33-891c-518e-a264-236ba20a5972",
+   "lemma": "arctic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "arctic"
+   ]
+  },
+  {
+   "id": "1df13e78-35fc-5adc-af55-d8c04475e5d4",
+   "lemma": "arena",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "arena"
+   ]
+  },
+  {
+   "id": "7067d598-5562-5c24-881a-dcead3cfebd1",
+   "lemma": "aristocracy",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "aristocracy"
+   ]
+  },
+  {
+   "id": "a0086edb-6eea-55d9-bcac-b3dd1a731d26",
+   "lemma": "armful",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "armful"
+   ]
+  },
+  {
+   "id": "c9af4808-0673-571c-8030-a22723f8213f",
+   "lemma": "arouse",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "arouse"
+   ]
+  },
+  {
+   "id": "557ff421-c2ca-5b76-adc4-ed378a8ed6d1",
+   "lemma": "arrogant",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "arrogant"
+   ]
+  },
+  {
+   "id": "af88a0a8-41d0-52f5-89b7-b770ae585ba7",
+   "lemma": "artery",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "artery"
+   ]
+  },
+  {
+   "id": "bddf017b-aaea-5749-9d82-23dfdca28108",
+   "lemma": "articulate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "articulate"
+   ]
+  },
+  {
+   "id": "170b84f6-9dce-5ac2-ba22-6bccc723c72b",
+   "lemma": "artificially",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "artificially"
+   ]
+  },
+  {
+   "id": "78b6dcb2-80c0-5e0b-ad9d-7ccb80e01d3d",
+   "lemma": "artistry",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "artistry"
+   ]
+  },
+  {
+   "id": "b3f6add6-f560-5fb1-82c6-f10057e8670e",
+   "lemma": "ash",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ash"
+   ]
+  },
+  {
+   "id": "48436647-72ec-5641-90fb-d118d5a96a58",
+   "lemma": "aspiration",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "aspiration"
+   ]
+  },
+  {
+   "id": "fa06c597-19db-554e-9c4f-13ee7b80f13c",
+   "lemma": "aspire",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "aspire"
+   ]
+  }
+ ]
+}

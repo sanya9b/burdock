@@ -1,0 +1,406 @@
+{
+ "chunk": "A1-012",
+ "level": "A1",
+ "lexemes": [
+  {
+   "id": "166da658-20ab-579d-9c2d-5fcee30ed314",
+   "lemma": "guess",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "guess"
+   ]
+  },
+  {
+   "id": "91457b06-c8b0-5fc2-9a2a-0578367a62d1",
+   "lemma": "guest",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "guest"
+   ]
+  },
+  {
+   "id": "bbcda7c4-b7c8-54df-9ca1-236818c00508",
+   "lemma": "guitar",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "guitar"
+   ]
+  },
+  {
+   "id": "6056f5d9-5e27-5d06-bb11-e9f12c090513",
+   "lemma": "guy",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "guy"
+   ]
+  },
+  {
+   "id": "b127e092-1ddb-557d-b5b8-4bb4f22ae62d",
+   "lemma": "habit",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "habit"
+   ]
+  },
+  {
+   "id": "ce2d344c-6d63-5a76-8e5f-d87538a235ee",
+   "lemma": "had",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "had"
+   ]
+  },
+  {
+   "id": "433eb75b-be9b-5535-a7d6-18b06a052957",
+   "lemma": "hair",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hair"
+   ]
+  },
+  {
+   "id": "53f8cea0-1975-59af-b8aa-db702e6f9be7",
+   "lemma": "haircut",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "haircut"
+   ]
+  },
+  {
+   "id": "acc92ac5-8bf2-5c73-9e51-7c3b63585177",
+   "lemma": "half",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "half"
+   ]
+  },
+  {
+   "id": "641f9a8a-d4cc-520d-8cb5-8559c1193f4d",
+   "lemma": "hall",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hall"
+   ]
+  },
+  {
+   "id": "c831417b-6456-5372-87a5-39476337ff50",
+   "lemma": "hamburger",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hamburger"
+   ]
+  },
+  {
+   "id": "c15e240a-e3d8-53ca-adcb-af88a5034a3f",
+   "lemma": "hand",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hand"
+   ]
+  },
+  {
+   "id": "53fc7317-84a5-5338-ad2a-157311ef4359",
+   "lemma": "handsome",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "handsome"
+   ]
+  },
+  {
+   "id": "c00451d2-2732-51af-9a6b-85eab99cc6a2",
+   "lemma": "happen",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "happen"
+   ]
+  },
+  {
+   "id": "39811ed2-a9dc-5ebe-9498-a1e1b614bf9e",
+   "lemma": "happy",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "happy"
+   ]
+  },
+  {
+   "id": "2408e602-12f0-57b6-af9e-3bd012c682cc",
+   "lemma": "hard",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hard"
+   ]
+  },
+  {
+   "id": "43ae576e-41aa-5fbc-91a2-6ae3bbc921b4",
+   "lemma": "hard",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hard"
+   ]
+  },
+  {
+   "id": "847caa13-8053-5f64-83a5-16e09127a681",
+   "lemma": "has",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "has"
+   ]
+  },
+  {
+   "id": "b77ee87b-86d8-5a84-bd0a-50580ad98cec",
+   "lemma": "hat",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hat"
+   ]
+  },
+  {
+   "id": "6f325d84-c967-5b81-bfe1-e21b64205710",
+   "lemma": "have",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "have"
+   ]
+  },
+  {
+   "id": "2607c7d0-0379-58b3-a241-8024639cc45b",
+   "lemma": "have to",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "have to"
+   ]
+  },
+  {
+   "id": "cdab1620-2aba-538a-adab-7117eb008a2a",
+   "lemma": "having",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "having"
+   ]
+  },
+  {
+   "id": "ae66a274-ed82-59c2-9478-d11a123eeb22",
+   "lemma": "he",
+   "pos": "pronoun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "he"
+   ]
+  },
+  {
+   "id": "d87f6049-d9d2-59a3-98c4-5980dc39d41e",
+   "lemma": "head",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "head"
+   ]
+  },
+  {
+   "id": "2bafb034-8284-5113-b336-8b526e9f6375",
+   "lemma": "headache",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "headache"
+   ]
+  },
+  {
+   "id": "5dc2ee75-0d5d-55b2-ba1b-dd0ae7efa4c1",
+   "lemma": "health",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "health"
+   ]
+  },
+  {
+   "id": "0ef5bda9-7263-534d-ba4a-bc19d2baf81b",
+   "lemma": "healthy",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "healthy"
+   ]
+  },
+  {
+   "id": "b76870df-287f-5350-8f6f-7779d0b65829",
+   "lemma": "hear",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hear"
+   ]
+  },
+  {
+   "id": "911dea37-3e45-5514-8307-1c5d3a46f3de",
+   "lemma": "heart",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "heart"
+   ]
+  },
+  {
+   "id": "64e94785-a455-5171-bd5d-8019fe8926fe",
+   "lemma": "heavy",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "heavy"
+   ]
+  },
+  {
+   "id": "4c7fc2e9-0940-56c4-a00e-f9258b683dfd",
+   "lemma": "hello",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hello"
+   ]
+  },
+  {
+   "id": "8861a18e-d3a8-5116-af5a-897800eb4dee",
+   "lemma": "help",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "help"
+   ]
+  },
+  {
+   "id": "c72d0ec2-3286-5c4c-88b7-b2e23f259a76",
+   "lemma": "her",
+   "pos": "determiner",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "her"
+   ]
+  },
+  {
+   "id": "cb170063-6e5a-5e1b-a027-912325830883",
+   "lemma": "her",
+   "pos": "pronoun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "her"
+   ]
+  },
+  {
+   "id": "a4fd4f8c-b9f2-532d-ae8c-851cdfc1e697",
+   "lemma": "here",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "here"
+   ]
+  },
+  {
+   "id": "c95d0796-c566-53f3-afec-eca5751a45cf",
+   "lemma": "hers",
+   "pos": "pronoun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hers"
+   ]
+  },
+  {
+   "id": "ae82d6a9-4297-5ed6-8950-de8d09cbadd4",
+   "lemma": "hi",
+   "pos": "interjection",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hi"
+   ]
+  },
+  {
+   "id": "4e5dcc02-8990-509b-99ec-c35148b6249a",
+   "lemma": "hide",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hide"
+   ]
+  },
+  {
+   "id": "84d5f859-e648-5e62-a4ad-d5d1c4418f43",
+   "lemma": "high",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "high"
+   ]
+  },
+  {
+   "id": "0b02e71b-d621-576a-9ee7-f0e4c551b2e5",
+   "lemma": "hill",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hill"
+   ]
+  }
+ ]
+}

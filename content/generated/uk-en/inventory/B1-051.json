@@ -1,0 +1,407 @@
+{
+ "chunk": "B1-051",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "56fd4ab4-5420-5685-8938-c0134b898561",
+   "lemma": "slightly",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "slightly"
+   ]
+  },
+  {
+   "id": "5c6a7d2c-07c7-55aa-ba2d-6e969c164be7",
+   "lemma": "slip",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "slip"
+   ]
+  },
+  {
+   "id": "b68c482b-7fd2-565d-aa8e-52955ed83507",
+   "lemma": "slip",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "slip"
+   ]
+  },
+  {
+   "id": "9bb3bb92-d36a-5dd8-8dc0-7a17b9aadaa8",
+   "lemma": "slogan",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "slogan"
+   ]
+  },
+  {
+   "id": "3f2ed707-d62d-5ed7-9695-b4edd1a2f8ba",
+   "lemma": "slope",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "slope"
+   ]
+  },
+  {
+   "id": "04342a3b-e378-5566-9ef4-17d7b1ee1da5",
+   "lemma": "slot",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "slot"
+   ]
+  },
+  {
+   "id": "1d66e261-4781-58c1-8d40-4b36c8c350ca",
+   "lemma": "slow",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "slow"
+   ]
+  },
+  {
+   "id": "fbae9967-77ca-5e69-9beb-45b99aacb746",
+   "lemma": "slow",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "slow"
+   ]
+  },
+  {
+   "id": "3bc44907-7c1d-51b8-af43-22e5964e4cce",
+   "lemma": "smell",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "smell"
+   ]
+  },
+  {
+   "id": "0cb75cb2-4bd4-5fba-91e4-101be88b02f4",
+   "lemma": "smile",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "smile"
+   ]
+  },
+  {
+   "id": "e2b9032f-f955-5777-98fc-fff7574bc805",
+   "lemma": "smoker",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "smoker"
+   ]
+  },
+  {
+   "id": "6063dce8-b46e-57ee-9063-4bf8e66b30ed",
+   "lemma": "sneeze",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sneeze"
+   ]
+  },
+  {
+   "id": "d39dd472-db19-5362-8641-e087f9fd7d78",
+   "lemma": "snowboard",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "snowboard"
+   ]
+  },
+  {
+   "id": "5d14d88c-1964-5876-8623-a739c40fb85f",
+   "lemma": "snowstorm",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "snowstorm"
+   ]
+  },
+  {
+   "id": "5782aa2c-0ac1-53eb-a727-feee6a4a84ce",
+   "lemma": "soap opera",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "soap opera"
+   ]
+  },
+  {
+   "id": "71e26af0-10e4-5d3f-8afc-af36889554d1",
+   "lemma": "social networking",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "social networking"
+   ]
+  },
+  {
+   "id": "76f84103-7b7a-5120-b95d-e7366934a9fc",
+   "lemma": "socially",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "socially"
+   ]
+  },
+  {
+   "id": "e950cf24-27bc-50da-9e54-858b26d7691b",
+   "lemma": "soil",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "soil"
+   ]
+  },
+  {
+   "id": "862ad720-077e-561c-a32d-2c68dfefecf2",
+   "lemma": "solid",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "solid"
+   ]
+  },
+  {
+   "id": "f201a786-5d92-55fb-8ebd-6c18a005bd87",
+   "lemma": "somehow",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "somehow"
+   ]
+  },
+  {
+   "id": "65a65956-14ba-5415-af80-29f446728711",
+   "lemma": "someplace",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "someplace"
+   ]
+  },
+  {
+   "id": "d1e4216e-7849-5c0c-95e6-46d407b9896c",
+   "lemma": "sometime",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sometime"
+   ]
+  },
+  {
+   "id": "35a29f84-adf4-524d-bad7-cf125ebe32dc",
+   "lemma": "sometimes",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sometimes"
+   ]
+  },
+  {
+   "id": "c57a0af1-969f-5618-a8e8-003e982060cf",
+   "lemma": "soothe",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "soothe"
+   ]
+  },
+  {
+   "id": "1b1a3116-e315-56ce-b0f9-d843c7978def",
+   "lemma": "sophomore",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sophomore"
+   ]
+  },
+  {
+   "id": "2bded4e3-6a4e-5888-b4ae-f52155502739",
+   "lemma": "sore",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sore"
+   ]
+  },
+  {
+   "id": "bbaafaa0-1d3d-5c26-9031-ff4d22d07177",
+   "lemma": "sorrow",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sorrow"
+   ]
+  },
+  {
+   "id": "8597d683-7f21-5a2a-bd68-d02c6d225964",
+   "lemma": "sort",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sort"
+   ]
+  },
+  {
+   "id": "a185fa2a-01bc-55e2-9e10-b789de520cd5",
+   "lemma": "soul",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "soul"
+   ]
+  },
+  {
+   "id": "f413b11a-fef7-564b-b40e-d423e00a0ef4",
+   "lemma": "sour",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sour"
+   ]
+  },
+  {
+   "id": "9a93f5cd-cbc8-5c6a-a301-309c60ae0b54",
+   "lemma": "southeast",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "southeast"
+   ]
+  },
+  {
+   "id": "64d1cfaa-398f-5ae2-a791-fed6d8a51b14",
+   "lemma": "southeast",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "southeast"
+   ]
+  },
+  {
+   "id": "2ddeaea5-6452-5d2a-8763-3e6cd9e2f989",
+   "lemma": "southern",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "southern"
+   ]
+  },
+  {
+   "id": "00aace24-7a51-5da1-9164-2103c6995016",
+   "lemma": "southwest",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "southwest"
+   ]
+  },
+  {
+   "id": "f0eede74-2c71-50ae-9bac-83b32c29454f",
+   "lemma": "southwest",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "southwest"
+   ]
+  },
+  {
+   "id": "0e087bb4-63c0-5b0a-b0fb-879c55b923da",
+   "lemma": "souvenir",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "souvenir"
+   ]
+  },
+  {
+   "id": "7fbdc88e-0303-522a-850b-3f12bac96d6a",
+   "lemma": "sparkle",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sparkle"
+   ]
+  },
+  {
+   "id": "69753665-b074-5f5b-a6a3-203fcc0255e1",
+   "lemma": "specialist",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "specialist"
+   ]
+  },
+  {
+   "id": "0734f6c7-919a-5aa1-9055-33eabedd6740",
+   "lemma": "specialize",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "specialize",
+    "specialise"
+   ]
+  },
+  {
+   "id": "30fff8f0-5753-5a7f-ace7-a3040d269a84",
+   "lemma": "specially",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "specially"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,408 @@
+{
+ "chunk": "B2-020",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "70d625b8-5871-5244-85f6-10c2b6b4a070",
+   "lemma": "elegantly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "elegantly"
+   ]
+  },
+  {
+   "id": "29966f9d-0a94-5d89-bf87-6c820be1dc9c",
+   "lemma": "elemental",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "elemental"
+   ]
+  },
+  {
+   "id": "11beb0c7-f2f9-590e-bc04-a6593fe09e0a",
+   "lemma": "eligible",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "eligible"
+   ]
+  },
+  {
+   "id": "24b0808a-5443-57d5-b7d8-a51a8ed0b7fd",
+   "lemma": "elite",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "elite"
+   ]
+  },
+  {
+   "id": "d44f9cd9-ac11-509f-a086-d0c94214482a",
+   "lemma": "eloquence",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "eloquence"
+   ]
+  },
+  {
+   "id": "75ab376c-b7b8-59da-ad90-86824ccaf003",
+   "lemma": "eloquent",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "eloquent"
+   ]
+  },
+  {
+   "id": "d1abd773-55d2-543f-968d-1f0a09d29569",
+   "lemma": "embassy",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "embassy"
+   ]
+  },
+  {
+   "id": "f05accc9-b429-54ad-82d9-cad2d0dac6ac",
+   "lemma": "embrace",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "embrace"
+   ]
+  },
+  {
+   "id": "80e18b1a-3537-5127-aac8-d7380f00a9b7",
+   "lemma": "emergence",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "emergence"
+   ]
+  },
+  {
+   "id": "ae35b278-5201-5fcb-993a-26981b8cf5cf",
+   "lemma": "emphatically",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "emphatically"
+   ]
+  },
+  {
+   "id": "5827bcb0-f855-528f-8f4c-d42c452ba58e",
+   "lemma": "employ",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "employ"
+   ]
+  },
+  {
+   "id": "c880a360-af30-5bd6-9e2a-898d23984de1",
+   "lemma": "employee",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "employee"
+   ]
+  },
+  {
+   "id": "d92f1ba9-c0cb-59b6-9950-06db9ebd3978",
+   "lemma": "employer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "employer"
+   ]
+  },
+  {
+   "id": "12df1210-998a-5aa2-9cbe-2cce0821c060",
+   "lemma": "encounter",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "encounter"
+   ]
+  },
+  {
+   "id": "4e32305e-dc5b-5ea3-aff8-7cbcc3f7f132",
+   "lemma": "endeavor",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "endeavor",
+    "endeavour"
+   ]
+  },
+  {
+   "id": "9b074285-0cc9-54f7-b625-944cde1a2582",
+   "lemma": "endlessly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "endlessly"
+   ]
+  },
+  {
+   "id": "14c95d2a-d278-5b11-8763-289dd9d1917c",
+   "lemma": "endorse",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "endorse"
+   ]
+  },
+  {
+   "id": "dc9f46b7-4f0e-5766-85cd-3b4ed511c076",
+   "lemma": "endurance",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "endurance"
+   ]
+  },
+  {
+   "id": "7fe45c38-723b-5f72-9f9c-d450ba4d2ba0",
+   "lemma": "enduring",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "enduring"
+   ]
+  },
+  {
+   "id": "42e22fc8-3f70-54f1-a302-f4b738686929",
+   "lemma": "energy",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "energy"
+   ]
+  },
+  {
+   "id": "dfb28dd3-d891-51ee-b1ca-bbe6108c7206",
+   "lemma": "enforce",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "enforce"
+   ]
+  },
+  {
+   "id": "b201c47b-661b-59aa-a66a-263ce264d3a9",
+   "lemma": "engagement",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "engagement"
+   ]
+  },
+  {
+   "id": "c5a17672-cc93-5f4a-8418-897e82021d04",
+   "lemma": "engulf",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "engulf"
+   ]
+  },
+  {
+   "id": "a0bcd7ba-7fba-5b88-a4bf-012fad138371",
+   "lemma": "enhance",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "enhance"
+   ]
+  },
+  {
+   "id": "d3508a71-2e8d-5c7a-a92d-d01944f51d69",
+   "lemma": "enroll",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "enroll",
+    "enrol"
+   ]
+  },
+  {
+   "id": "9e5934f7-3219-549f-b323-e2edb55b1b07",
+   "lemma": "enterprise",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "enterprise"
+   ]
+  },
+  {
+   "id": "9cc79392-61cd-5d0d-817e-fd2395b7ff7b",
+   "lemma": "entertaining",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "entertaining"
+   ]
+  },
+  {
+   "id": "b80c4523-fd9b-5612-9cab-f6fe80276146",
+   "lemma": "enthusiastically",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "enthusiastically"
+   ]
+  },
+  {
+   "id": "96511f4c-da6e-52e7-a1a7-73204ec3ae0f",
+   "lemma": "entitle",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "entitle"
+   ]
+  },
+  {
+   "id": "ea7f4582-b43b-5459-a38e-f2b114ebfc62",
+   "lemma": "entrepreneur",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "entrepreneur"
+   ]
+  },
+  {
+   "id": "453b3a33-95be-56dc-beb1-d4f552e299f0",
+   "lemma": "environment",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "environment"
+   ]
+  },
+  {
+   "id": "5186ec2d-e043-5b02-9945-5d1cebd7461c",
+   "lemma": "environmentally",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "environmentally"
+   ]
+  },
+  {
+   "id": "b18c149f-04b0-5e00-abb9-54f7854fd1e9",
+   "lemma": "environmentally friendly",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "environmentally friendly"
+   ]
+  },
+  {
+   "id": "9e7c6d82-fd69-5c2f-ae1b-b6f3e8b40009",
+   "lemma": "envy",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "envy"
+   ]
+  },
+  {
+   "id": "33051099-af88-579b-ac3f-64bcf38df530",
+   "lemma": "equal",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "equal"
+   ]
+  },
+  {
+   "id": "defc758b-d7c0-53cb-9d4e-97e59cca4fc3",
+   "lemma": "equal",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "equal"
+   ]
+  },
+  {
+   "id": "dc03584f-357d-5259-9e11-e8dcac3cbecc",
+   "lemma": "equation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "equation"
+   ]
+  },
+  {
+   "id": "69c8d611-38d2-5248-bdce-586b9d101a1f",
+   "lemma": "equip",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "equip"
+   ]
+  },
+  {
+   "id": "8f846268-d505-569a-840e-603875335177",
+   "lemma": "equity",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "equity"
+   ]
+  },
+  {
+   "id": "12f5e4db-d9a6-59b8-84c4-7f57bbc739b2",
+   "lemma": "erect",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "erect"
+   ]
+  }
+ ]
+}

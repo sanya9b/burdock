@@ -1,0 +1,408 @@
+{
+ "chunk": "B1-040",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "d895359a-6b26-55b2-8f06-ad26034fe28d",
+   "lemma": "participate",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "participate"
+   ]
+  },
+  {
+   "id": "c4c33673-46b4-5663-ae22-bc7211aa75a8",
+   "lemma": "participle",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "participle"
+   ]
+  },
+  {
+   "id": "d764eae6-58ca-521e-aa26-05004028cc19",
+   "lemma": "particularly",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "particularly"
+   ]
+  },
+  {
+   "id": "b89f52ef-9d53-55f4-83f9-9439c7079ca5",
+   "lemma": "passion",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "passion"
+   ]
+  },
+  {
+   "id": "5834bc4f-b180-576d-844c-faf76f98c49f",
+   "lemma": "passive",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "passive"
+   ]
+  },
+  {
+   "id": "ddf98e09-af7d-5c90-96ff-fbaeddeef65d",
+   "lemma": "passport",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "passport"
+   ]
+  },
+  {
+   "id": "71e76782-5de0-541c-a8c7-6f7a80e1382b",
+   "lemma": "password",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "password"
+   ]
+  },
+  {
+   "id": "67a63e51-58d6-52f5-94e1-c6d09ce79b0a",
+   "lemma": "past",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "past"
+   ]
+  },
+  {
+   "id": "33c9c9b3-949a-5927-846c-6f479cb609ca",
+   "lemma": "patience",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "patience"
+   ]
+  },
+  {
+   "id": "c8b3210a-d393-58ea-a3cd-86fa90f88b0b",
+   "lemma": "patient",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "patient"
+   ]
+  },
+  {
+   "id": "379703bf-eb63-5491-8735-5564e4785f74",
+   "lemma": "patrol",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "patrol"
+   ]
+  },
+  {
+   "id": "a7ab11ee-1282-5880-a5d8-4490d9ad8ed8",
+   "lemma": "pattern",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pattern"
+   ]
+  },
+  {
+   "id": "a816ea6c-16a4-5189-9c0f-616e2ddc1631",
+   "lemma": "pause",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pause"
+   ]
+  },
+  {
+   "id": "591af1c5-1241-5654-bd82-d0dfe0f578c8",
+   "lemma": "pause",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pause"
+   ]
+  },
+  {
+   "id": "86437a9b-1ecc-5d6f-83a6-e73c8d36a8a7",
+   "lemma": "peanut",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "peanut"
+   ]
+  },
+  {
+   "id": "7f8f188c-f4aa-5d78-84ed-b2d64f85a385",
+   "lemma": "peculiar",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "peculiar"
+   ]
+  },
+  {
+   "id": "55b5852e-27a2-58c7-aba5-1e36d504979f",
+   "lemma": "penniless",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "penniless"
+   ]
+  },
+  {
+   "id": "3440e64e-899c-5ff2-bdde-8c890b8a84b6",
+   "lemma": "penny",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "penny"
+   ]
+  },
+  {
+   "id": "602ce031-e3b6-5173-a83a-68373eb7630d",
+   "lemma": "per",
+   "pos": "preposition",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "per"
+   ]
+  },
+  {
+   "id": "9962ecfa-5ef0-5e71-bcfa-3e550aeaeb50",
+   "lemma": "percent",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "percent",
+    "per cent"
+   ]
+  },
+  {
+   "id": "ac36c8fd-c84f-5b33-b269-f9e56ec105dd",
+   "lemma": "performer",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "performer"
+   ]
+  },
+  {
+   "id": "eb3bb35d-b0f3-524b-b3f4-9b44d835c9dc",
+   "lemma": "permanent",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "permanent"
+   ]
+  },
+  {
+   "id": "503b204f-f9ae-52dd-9b58-61b821307b7e",
+   "lemma": "permanently",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "permanently"
+   ]
+  },
+  {
+   "id": "8ab60118-07d9-5b1f-a08f-2a73027d25bf",
+   "lemma": "permit",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "permit"
+   ]
+  },
+  {
+   "id": "53524d35-15ad-5b2f-aa94-8f94117eaab9",
+   "lemma": "personally",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "personally"
+   ]
+  },
+  {
+   "id": "f79ebbb5-0648-5278-96b6-68479ef27e33",
+   "lemma": "persuade",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "persuade"
+   ]
+  },
+  {
+   "id": "dcd9aaa2-4728-54e1-9996-6338f09c5763",
+   "lemma": "persuasive",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "persuasive"
+   ]
+  },
+  {
+   "id": "d3c856f5-8199-5177-a110-e5a2c2d1f8f2",
+   "lemma": "phantom",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "phantom"
+   ]
+  },
+  {
+   "id": "a7f8d157-4f46-5bdc-a575-c15f01c2d817",
+   "lemma": "pharmacy",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pharmacy"
+   ]
+  },
+  {
+   "id": "7551a06b-1c71-5496-8a66-1827b54575f8",
+   "lemma": "phenomenon",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "phenomenon"
+   ]
+  },
+  {
+   "id": "49cd63da-11bb-518a-b118-13b15539af77",
+   "lemma": "philosopher",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "philosopher"
+   ]
+  },
+  {
+   "id": "459df867-77bd-5342-a22c-960414d007d2",
+   "lemma": "philosophy",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "philosophy"
+   ]
+  },
+  {
+   "id": "bdd3c24e-9625-538f-bf34-860df8d502c9",
+   "lemma": "phoenix",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "phoenix",
+    "phenix"
+   ]
+  },
+  {
+   "id": "55dc2ea0-b6c5-5245-adaf-ddb8e517b590",
+   "lemma": "photocopy",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "photocopy"
+   ]
+  },
+  {
+   "id": "8dc9490d-fa4a-54a4-8636-c964d546aa0e",
+   "lemma": "phrasal verb",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "phrasal verb"
+   ]
+  },
+  {
+   "id": "9f50b72a-9fff-5b2f-89da-e278e8562571",
+   "lemma": "phrase",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "phrase"
+   ]
+  },
+  {
+   "id": "5cafd5f8-73d9-58ed-a73a-025605515d54",
+   "lemma": "physics",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "physics"
+   ]
+  },
+  {
+   "id": "edbf5131-3a08-5c5a-977b-6a9c9ba8e4a7",
+   "lemma": "pick",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pick"
+   ]
+  },
+  {
+   "id": "d2497414-38e8-52dd-88e3-0eef67be6328",
+   "lemma": "pie",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pie"
+   ]
+  },
+  {
+   "id": "9bb86329-77d2-56ed-b6b0-860d84d946cf",
+   "lemma": "piety",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "piety"
+   ]
+  }
+ ]
+}

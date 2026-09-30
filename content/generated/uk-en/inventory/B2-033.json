@@ -1,0 +1,410 @@
+{
+ "chunk": "B2-033",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "55d9523c-0a94-50df-b240-ef6e9b5662eb",
+   "lemma": "irresistible",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "irresistible"
+   ]
+  },
+  {
+   "id": "6c63a384-d9d3-500e-8959-51f0da07f4bc",
+   "lemma": "irresistibly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "irresistibly"
+   ]
+  },
+  {
+   "id": "8c7c7069-2d39-51ee-aee8-4ed18f2c8365",
+   "lemma": "irresponsible",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "irresponsible"
+   ]
+  },
+  {
+   "id": "0cda0e36-ecd3-5b7f-85fa-861eb3cb869b",
+   "lemma": "irritated",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "irritated"
+   ]
+  },
+  {
+   "id": "3671a588-72ca-52b0-bdca-f48eb570a038",
+   "lemma": "irritating",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "irritating"
+   ]
+  },
+  {
+   "id": "0fe22e97-f00d-5aeb-81a1-22a08ffe7256",
+   "lemma": "irritation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "irritation"
+   ]
+  },
+  {
+   "id": "15fb1ec5-57a6-56c0-acea-4aa4b1427331",
+   "lemma": "islander",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "islander"
+   ]
+  },
+  {
+   "id": "5f9b6693-1ff3-56f6-ae43-0f74da3edab5",
+   "lemma": "issue",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "issue"
+   ]
+  },
+  {
+   "id": "9d43feec-b823-5a40-85c3-18eaf2a11476",
+   "lemma": "italicize",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "italicize",
+    "italicise"
+   ]
+  },
+  {
+   "id": "7010819b-3dee-5224-b17a-3914fa33547d",
+   "lemma": "itch",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "itch"
+   ]
+  },
+  {
+   "id": "1c5f0b93-1cf8-53bc-8213-61d38c8d13d3",
+   "lemma": "jam",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "jam"
+   ]
+  },
+  {
+   "id": "eb85a3d7-82a5-5de1-b16a-b0ac48a65e9a",
+   "lemma": "jaw",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "jaw"
+   ]
+  },
+  {
+   "id": "1ffb0f52-d618-58fc-b982-82965b7d1b2c",
+   "lemma": "jealously",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "jealously"
+   ]
+  },
+  {
+   "id": "e9651260-a312-58b4-9230-53fa3a39f414",
+   "lemma": "jeopardize",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "jeopardize",
+    "jeopardise"
+   ]
+  },
+  {
+   "id": "68229d90-8ae2-51c8-a3ad-add3bc82955e",
+   "lemma": "jeweler",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "jeweler",
+    "jeweller"
+   ]
+  },
+  {
+   "id": "f51b1bef-f1d0-57f8-930a-e5905440b45c",
+   "lemma": "jog",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "jog"
+   ]
+  },
+  {
+   "id": "fd433695-dac8-5d38-9dbc-af64767900c3",
+   "lemma": "joint",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "joint"
+   ]
+  },
+  {
+   "id": "3b7d5a05-fbab-563b-bf55-55bfaa123575",
+   "lemma": "journalism",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "journalism"
+   ]
+  },
+  {
+   "id": "643c3957-742b-5f0e-b00d-c7e993f97dde",
+   "lemma": "judo",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "judo"
+   ]
+  },
+  {
+   "id": "486b32e6-6b4e-5608-8c10-0dc3913ede03",
+   "lemma": "jump",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "jump"
+   ]
+  },
+  {
+   "id": "a1120481-2d4d-58d6-8d38-f72e5ce3c91c",
+   "lemma": "junk food",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "junk food"
+   ]
+  },
+  {
+   "id": "285a6601-770c-539b-b87c-fd7ca2eb8d27",
+   "lemma": "juror",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "juror"
+   ]
+  },
+  {
+   "id": "e7f62286-04d1-51d0-ab0b-037f7a480f71",
+   "lemma": "jury",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "jury"
+   ]
+  },
+  {
+   "id": "e3c6f993-1097-5111-a9ed-e849a5369681",
+   "lemma": "justify",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "justify"
+   ]
+  },
+  {
+   "id": "85245861-f908-5bc7-97ef-824da3f4e807",
+   "lemma": "kangaroo",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "kangaroo"
+   ]
+  },
+  {
+   "id": "c00063c6-39dc-506d-b224-1919374af6e2",
+   "lemma": "karaoke",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "karaoke"
+   ]
+  },
+  {
+   "id": "38f0a37a-b3bc-56ad-9750-77600f9efae7",
+   "lemma": "keen",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "keen"
+   ]
+  },
+  {
+   "id": "dce648e3-a2fa-57fe-967f-3e3e35e507f4",
+   "lemma": "keeper",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "keeper"
+   ]
+  },
+  {
+   "id": "008f8c50-f75d-5b3a-aa62-5ef3e34e9255",
+   "lemma": "kerosene",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "kerosene"
+   ]
+  },
+  {
+   "id": "fc6ccffa-3279-54fc-b6fb-4493353f4cb8",
+   "lemma": "keystroke",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "keystroke"
+   ]
+  },
+  {
+   "id": "f39fb271-214b-55b1-a08b-559713a785ab",
+   "lemma": "kneel",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "kneel"
+   ]
+  },
+  {
+   "id": "d5822723-af8b-583a-a779-7e052c62e703",
+   "lemma": "knot",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "knot"
+   ]
+  },
+  {
+   "id": "569ab9b1-7861-51d0-8e78-dec4b06d7ead",
+   "lemma": "knowingly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "knowingly"
+   ]
+  },
+  {
+   "id": "37e06c5c-f04f-50d8-b539-794ff01146b5",
+   "lemma": "known",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "known"
+   ]
+  },
+  {
+   "id": "4c52034f-1cd6-5852-bfd0-efb60a9d12dd",
+   "lemma": "label",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "label"
+   ]
+  },
+  {
+   "id": "b293b02f-46a1-5a1c-b7b5-2804c91acce9",
+   "lemma": "laborer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "laborer",
+    "labourer"
+   ]
+  },
+  {
+   "id": "dc5f46a0-bff1-5a48-8579-e1c7e0b9a403",
+   "lemma": "lack",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lack"
+   ]
+  },
+  {
+   "id": "daf75e4c-267e-5d7a-806e-0f2e872203c3",
+   "lemma": "lame",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lame"
+   ]
+  },
+  {
+   "id": "df862fd0-f0b5-58bd-b494-9ecfbae4e1c4",
+   "lemma": "lance",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "lance"
+   ]
+  },
+  {
+   "id": "30f7cc5a-b63c-5b5b-bd8a-22699edf9d17",
+   "lemma": "landing",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "landing"
+   ]
+  }
+ ]
+}

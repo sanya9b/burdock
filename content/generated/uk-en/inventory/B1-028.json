@@ -1,0 +1,406 @@
+{
+ "chunk": "B1-028",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "f2bf293a-28a3-5e48-9bd4-2595ee94e0e0",
+   "lemma": "hunt",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hunt"
+   ]
+  },
+  {
+   "id": "1cf08f05-dc52-5e50-b0a2-af904234263e",
+   "lemma": "hurriedly",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hurriedly"
+   ]
+  },
+  {
+   "id": "e17b4048-e5d0-5c8b-a51e-63247a6b7efa",
+   "lemma": "hurt",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hurt"
+   ]
+  },
+  {
+   "id": "55734ad5-02bf-57a1-aff9-8f460e2ba2b6",
+   "lemma": "hut",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "hut"
+   ]
+  },
+  {
+   "id": "7ed8dfb4-a172-5f5d-8a4d-8133b7d4617f",
+   "lemma": "ice hockey",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ice hockey"
+   ]
+  },
+  {
+   "id": "0ebb45ef-71ee-5a34-93da-161094a0d413",
+   "lemma": "ice skating",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ice skating"
+   ]
+  },
+  {
+   "id": "192f1df8-49cd-5f44-84de-7d46f3d020b7",
+   "lemma": "identity",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "identity"
+   ]
+  },
+  {
+   "id": "16de03a3-edbc-5b73-9b51-acfbc89023c8",
+   "lemma": "identity card",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "identity card"
+   ]
+  },
+  {
+   "id": "aeee449d-0175-5a42-b9ac-75d50841fe6c",
+   "lemma": "idiom",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "idiom"
+   ]
+  },
+  {
+   "id": "eef0af9a-5975-5617-9d19-d72fe9f08b1e",
+   "lemma": "idol",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "idol"
+   ]
+  },
+  {
+   "id": "f2384cdc-5576-5356-bb32-04355be9b8ed",
+   "lemma": "ignore",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ignore"
+   ]
+  },
+  {
+   "id": "0b716fc2-7908-5b79-9a0e-3ad6e76a898f",
+   "lemma": "illegally",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "illegally"
+   ]
+  },
+  {
+   "id": "0e53fa8a-4a37-5c85-9f86-c1b071c21543",
+   "lemma": "illness",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "illness"
+   ]
+  },
+  {
+   "id": "e7ff6116-f51f-5cd9-ae9a-67768cd954ee",
+   "lemma": "illuminate",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "illuminate"
+   ]
+  },
+  {
+   "id": "fea2342c-7bdb-5e59-bcb7-4dc5319f64bf",
+   "lemma": "imaginary",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "imaginary"
+   ]
+  },
+  {
+   "id": "2992b72d-10a2-5767-b906-4f35950fb9ef",
+   "lemma": "imitate",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "imitate"
+   ]
+  },
+  {
+   "id": "8eac5985-eb94-50d9-bde0-0f81525effe2",
+   "lemma": "immediate",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "immediate"
+   ]
+  },
+  {
+   "id": "a2bac4ac-f91d-5e06-b819-f69d71b470cc",
+   "lemma": "immediately",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "immediately"
+   ]
+  },
+  {
+   "id": "8c778201-f8af-5e6a-b88b-2583c428c017",
+   "lemma": "immigrate",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "immigrate"
+   ]
+  },
+  {
+   "id": "18a0b8c2-033b-5fa3-97b0-28e981ef982a",
+   "lemma": "immigration",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "immigration"
+   ]
+  },
+  {
+   "id": "9ff0ba9b-b692-5604-a193-5137feb9f942",
+   "lemma": "impair",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "impair"
+   ]
+  },
+  {
+   "id": "39244009-306c-53d2-abd2-d12e68b772f6",
+   "lemma": "impression",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "impression"
+   ]
+  },
+  {
+   "id": "02e38e73-e5e9-5cdc-a4e1-ac2f0ced9e1c",
+   "lemma": "impressive",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "impressive"
+   ]
+  },
+  {
+   "id": "23c80973-46d8-50fc-96c2-6962c42cf200",
+   "lemma": "improper",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "improper"
+   ]
+  },
+  {
+   "id": "654d7f37-13a1-5a58-a703-b8bcdf44782e",
+   "lemma": "improvement",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "improvement"
+   ]
+  },
+  {
+   "id": "38decfc2-f8ee-5f02-8e32-6d562812a439",
+   "lemma": "incident",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "incident"
+   ]
+  },
+  {
+   "id": "e1cea344-b232-5c05-950d-465e968b2977",
+   "lemma": "including",
+   "pos": "preposition",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "including"
+   ]
+  },
+  {
+   "id": "c5396314-62b1-58d2-9f5b-64aef1c8ce3a",
+   "lemma": "income",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "income"
+   ]
+  },
+  {
+   "id": "c487bdd2-1e5a-5394-85f9-459c8c9111eb",
+   "lemma": "inconvenient",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "inconvenient"
+   ]
+  },
+  {
+   "id": "e2333975-959b-5f3c-81d5-e31e86af6fca",
+   "lemma": "incorrect",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "incorrect"
+   ]
+  },
+  {
+   "id": "59370b20-7437-5083-b195-42d4891f4c0f",
+   "lemma": "increase",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "increase"
+   ]
+  },
+  {
+   "id": "d46f1ba7-c6d9-507b-b797-0235ab513f91",
+   "lemma": "increasingly",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "increasingly"
+   ]
+  },
+  {
+   "id": "bc2ff084-d311-5224-9529-72ac0d0656fb",
+   "lemma": "incredible",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "incredible"
+   ]
+  },
+  {
+   "id": "2ab8d200-5b95-52ac-a034-f0ac17407c3a",
+   "lemma": "incredibly",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "incredibly"
+   ]
+  },
+  {
+   "id": "e96b40cd-af68-50f7-9ff2-2a7766e991b2",
+   "lemma": "indefinite article",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "indefinite article"
+   ]
+  },
+  {
+   "id": "6742a84c-e7ad-5491-9ddb-5a1e20b211a5",
+   "lemma": "independent",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "independent"
+   ]
+  },
+  {
+   "id": "dbf7b3a9-b8dc-55b6-9ee8-d14e574292f5",
+   "lemma": "indirect",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "indirect"
+   ]
+  },
+  {
+   "id": "fb000703-7b65-5e2a-934d-0ebacd6fc60c",
+   "lemma": "indirectly",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "indirectly"
+   ]
+  },
+  {
+   "id": "6917635c-8cfd-508b-b7cc-c772d42b0241",
+   "lemma": "individual",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "individual"
+   ]
+  },
+  {
+   "id": "887fc168-58db-5dbb-96d6-c00ccb1464fa",
+   "lemma": "indoors",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "indoors"
+   ]
+  }
+ ]
+}

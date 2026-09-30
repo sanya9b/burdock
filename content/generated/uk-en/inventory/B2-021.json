@@ -1,0 +1,406 @@
+{
+ "chunk": "B2-021",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "8efa8a1a-1b21-581a-b501-1481bdae76d4",
+   "lemma": "erupt",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "erupt"
+   ]
+  },
+  {
+   "id": "a28ed2ea-e4b9-55cc-b9c4-433f5c43f225",
+   "lemma": "eruption",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "eruption"
+   ]
+  },
+  {
+   "id": "7ba6e583-76f1-5a26-b2dc-3836b46db475",
+   "lemma": "essayist",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "essayist"
+   ]
+  },
+  {
+   "id": "df0a53d9-b822-5881-894d-40eed06fe618",
+   "lemma": "essentially",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "essentially"
+   ]
+  },
+  {
+   "id": "43e7852d-cfb1-5e5e-8e8e-2f2b7362faa9",
+   "lemma": "estate",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "estate"
+   ]
+  },
+  {
+   "id": "1c4f3456-e8f2-538d-a489-26b876851e78",
+   "lemma": "estimate",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "estimate"
+   ]
+  },
+  {
+   "id": "b4789695-3d4d-5e54-83d7-3ff2dcd646bf",
+   "lemma": "estimated",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "estimated"
+   ]
+  },
+  {
+   "id": "36737717-a43d-5e22-94f3-a806c41c8455",
+   "lemma": "eternally",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "eternally"
+   ]
+  },
+  {
+   "id": "dea98288-36d5-5804-a1f3-d32969579a3d",
+   "lemma": "ethic",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ethic"
+   ]
+  },
+  {
+   "id": "60e7e844-5cb0-5c01-88b5-e29cab806374",
+   "lemma": "ethnic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ethnic"
+   ]
+  },
+  {
+   "id": "8451c11a-2c71-50ff-9650-225ef60de2ab",
+   "lemma": "evacuate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "evacuate"
+   ]
+  },
+  {
+   "id": "26bcd5b1-a8ab-5df8-8213-4e2702e6165e",
+   "lemma": "evacuation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "evacuation"
+   ]
+  },
+  {
+   "id": "9719b261-6f3b-551e-b19c-aee8837e18fd",
+   "lemma": "evaluate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "evaluate"
+   ]
+  },
+  {
+   "id": "ab28bf58-6a25-566a-83ef-7e070a26b07b",
+   "lemma": "evaluation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "evaluation"
+   ]
+  },
+  {
+   "id": "3578da28-d52a-5cc7-a020-3888d37e8a95",
+   "lemma": "everlasting",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "everlasting"
+   ]
+  },
+  {
+   "id": "7fe988c0-bd48-5db3-b05e-6fa46b6c89e6",
+   "lemma": "evidently",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "evidently"
+   ]
+  },
+  {
+   "id": "7515805a-9cdc-5617-aecf-01d1ba386460",
+   "lemma": "evil",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "evil"
+   ]
+  },
+  {
+   "id": "8068018e-76c5-5097-a109-1a5b24c6a9fb",
+   "lemma": "evil",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "evil"
+   ]
+  },
+  {
+   "id": "3ec11709-2d08-5b76-aa66-1bd1b84e768c",
+   "lemma": "evolution",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "evolution"
+   ]
+  },
+  {
+   "id": "790bd0a9-688b-5664-871f-9cc8f8ef4ca7",
+   "lemma": "evolve",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "evolve"
+   ]
+  },
+  {
+   "id": "0d51a0c1-4da0-5b0f-b23c-be14b118aecf",
+   "lemma": "exactness",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exactness"
+   ]
+  },
+  {
+   "id": "764ca867-4d7c-5ac1-8ba4-83fa5d5fe53d",
+   "lemma": "exaggerate",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exaggerate"
+   ]
+  },
+  {
+   "id": "4f173b98-f5da-523c-a518-ec8f67b102c3",
+   "lemma": "exaggeration",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exaggeration"
+   ]
+  },
+  {
+   "id": "dcce6320-8f65-5a74-b7a8-486af1c0c68d",
+   "lemma": "exalt",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exalt"
+   ]
+  },
+  {
+   "id": "a6dc0088-4f47-528b-acfb-ac5274fb696d",
+   "lemma": "examinee",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "examinee"
+   ]
+  },
+  {
+   "id": "3049df64-3161-5384-b4f0-890a82f166fa",
+   "lemma": "exceed",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exceed"
+   ]
+  },
+  {
+   "id": "3ccd3e23-319b-5d16-bd01-1f2798edf7b7",
+   "lemma": "excel",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "excel"
+   ]
+  },
+  {
+   "id": "7e4c5577-94f7-5ef9-9c9f-f8aa6a3322e8",
+   "lemma": "exception",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exception"
+   ]
+  },
+  {
+   "id": "1309a138-5652-5c40-834e-1e4c7ee6cb5a",
+   "lemma": "exceptional",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exceptional"
+   ]
+  },
+  {
+   "id": "e339693e-117a-5927-855b-bbdd4553d109",
+   "lemma": "exceptionally",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exceptionally"
+   ]
+  },
+  {
+   "id": "2d229d84-4773-5896-8257-b7ef4615bd79",
+   "lemma": "excessive",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "excessive"
+   ]
+  },
+  {
+   "id": "0a45eb4f-5c77-51a8-a797-1f0b61d7407e",
+   "lemma": "exclaim",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exclaim"
+   ]
+  },
+  {
+   "id": "7dbb2bde-8001-5329-a1c6-18b084c309e7",
+   "lemma": "exclamation mark",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exclamation mark"
+   ]
+  },
+  {
+   "id": "f854ebb3-edd6-5178-bf0a-b7628d12f280",
+   "lemma": "exclude",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exclude"
+   ]
+  },
+  {
+   "id": "a5c00988-21e9-559a-9687-ac114dff96a9",
+   "lemma": "exclusion",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exclusion"
+   ]
+  },
+  {
+   "id": "4266ac32-82e7-58aa-af95-8240e14c634e",
+   "lemma": "exclusively",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "exclusively"
+   ]
+  },
+  {
+   "id": "83d6441d-407b-51e7-ad98-a3d61bd19a03",
+   "lemma": "excursion",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "excursion"
+   ]
+  },
+  {
+   "id": "f0b7e459-3885-5d40-b372-eb37d864652a",
+   "lemma": "execute",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "execute"
+   ]
+  },
+  {
+   "id": "ea3af058-bc81-58ca-92b8-5bb8558baafe",
+   "lemma": "execution",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "execution"
+   ]
+  },
+  {
+   "id": "f8331c8b-1011-517a-bc64-0c14e89dfacb",
+   "lemma": "executive",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "executive"
+   ]
+  }
+ ]
+}

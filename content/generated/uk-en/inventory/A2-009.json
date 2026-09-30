@@ -1,0 +1,406 @@
+{
+ "chunk": "A2-009",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "7474e2a1-b046-522b-b2d5-11a8849b4400",
+   "lemma": "customer",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "customer"
+   ]
+  },
+  {
+   "id": "2f6dba7c-e3e8-5efa-a005-e59a2fa23583",
+   "lemma": "cycling",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "cycling"
+   ]
+  },
+  {
+   "id": "b8e03a17-ffce-5ac5-94cd-9aa18b4e524c",
+   "lemma": "daily",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "daily"
+   ]
+  },
+  {
+   "id": "7f80d04f-36b7-5093-bdb9-a9fda6f98b6f",
+   "lemma": "daily",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "daily"
+   ]
+  },
+  {
+   "id": "a4b9dc6f-67d2-5996-bd29-bf6ea0d08b4f",
+   "lemma": "dam",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dam"
+   ]
+  },
+  {
+   "id": "cbafd233-b536-5e54-8f3c-ad4ab46cd66d",
+   "lemma": "dancer",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dancer"
+   ]
+  },
+  {
+   "id": "179f0e65-ecf1-5ab9-ba2b-2b13be816af8",
+   "lemma": "danger",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "danger"
+   ]
+  },
+  {
+   "id": "1423daf7-3cb7-566f-a3bf-17fa8b57fde4",
+   "lemma": "dangerous",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dangerous"
+   ]
+  },
+  {
+   "id": "246f1ebe-3fbe-5ea4-afcb-5489dd6041d9",
+   "lemma": "daylight",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "daylight"
+   ]
+  },
+  {
+   "id": "d5377525-fdee-5762-be14-fb14b8164734",
+   "lemma": "dead",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dead"
+   ]
+  },
+  {
+   "id": "61a6b287-190c-55bd-ac2e-becd20bbb282",
+   "lemma": "deal",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "deal"
+   ]
+  },
+  {
+   "id": "1dd3ed76-10ba-5f0e-8de9-59b24a934337",
+   "lemma": "death",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "death"
+   ]
+  },
+  {
+   "id": "c2d4ef06-09e9-5ff0-866d-b1fcf7f9c0fd",
+   "lemma": "debate",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "debate"
+   ]
+  },
+  {
+   "id": "82b54bc7-8fa1-51b4-938f-26eb49d8dc58",
+   "lemma": "decide",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "decide"
+   ]
+  },
+  {
+   "id": "5bda953d-bdc7-5cb3-a904-bdf27a281781",
+   "lemma": "deep",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "deep"
+   ]
+  },
+  {
+   "id": "d197ad75-245f-5f2c-9ae6-56f6b5edb1a9",
+   "lemma": "deeply",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "deeply"
+   ]
+  },
+  {
+   "id": "bb40b6b7-cecd-55df-bbee-a0f34702faff",
+   "lemma": "degree",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "degree"
+   ]
+  },
+  {
+   "id": "58fdcf9c-248d-5bb8-a1aa-3a5841ecef5f",
+   "lemma": "delay",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "delay"
+   ]
+  },
+  {
+   "id": "44168c6f-f8a6-5593-b5cd-82f7f17c957f",
+   "lemma": "dentist",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dentist"
+   ]
+  },
+  {
+   "id": "9ff3b5c3-e4a2-5ed7-87cd-3bdc325a5912",
+   "lemma": "department store",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "department store"
+   ]
+  },
+  {
+   "id": "09f4c3ec-0f48-5eac-9a2e-05f75f151663",
+   "lemma": "depend",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "depend"
+   ]
+  },
+  {
+   "id": "50b86f12-1a23-5df0-82f4-813e8f6153b9",
+   "lemma": "description",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "description"
+   ]
+  },
+  {
+   "id": "1206504e-728e-5dda-904c-b71688434c42",
+   "lemma": "desert",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "desert"
+   ]
+  },
+  {
+   "id": "13c17bd8-aa4f-53e1-87c7-73115bc68157",
+   "lemma": "dessert",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dessert"
+   ]
+  },
+  {
+   "id": "e75017fc-2192-58f8-a833-08977660bb35",
+   "lemma": "destroy",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "destroy"
+   ]
+  },
+  {
+   "id": "b7ae7b71-0d12-5970-a988-891a64fc32ad",
+   "lemma": "detail",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "detail"
+   ]
+  },
+  {
+   "id": "e865da9d-b5dd-5d23-b766-c248253ae7db",
+   "lemma": "develop",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "develop"
+   ]
+  },
+  {
+   "id": "24bf8fa1-f288-57c6-b1de-21895bae1333",
+   "lemma": "developed",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "developed"
+   ]
+  },
+  {
+   "id": "edc90c7d-23f4-5a5b-8412-f8a54b47c6f4",
+   "lemma": "diamond",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "diamond"
+   ]
+  },
+  {
+   "id": "4a34a3b0-d49b-5621-9285-42c0cf20b107",
+   "lemma": "diary",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "diary"
+   ]
+  },
+  {
+   "id": "46a91bef-a456-5cf5-b704-c83730a25991",
+   "lemma": "die",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "die"
+   ]
+  },
+  {
+   "id": "c341eeca-1776-5162-9c56-7f263a059133",
+   "lemma": "diet",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "diet"
+   ]
+  },
+  {
+   "id": "5c9b715c-538a-5cc5-b19d-a70a0889a3f6",
+   "lemma": "differently",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "differently"
+   ]
+  },
+  {
+   "id": "59c4ecde-9b6e-5f93-8092-43998bf5bcb7",
+   "lemma": "difficulty",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "difficulty"
+   ]
+  },
+  {
+   "id": "8ef27dd3-3306-518c-80bb-0a071f969d6e",
+   "lemma": "digital camera",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "digital camera"
+   ]
+  },
+  {
+   "id": "e1641c28-f825-56a7-9bda-61b5a39e70f2",
+   "lemma": "dinosaur",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "dinosaur"
+   ]
+  },
+  {
+   "id": "9ffa41e6-f33f-5c7a-b0f6-0488ccdceafc",
+   "lemma": "direct",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "direct"
+   ]
+  },
+  {
+   "id": "a1dbe8ce-cb02-5750-99c2-7d6adec09d1c",
+   "lemma": "direction",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "direction"
+   ]
+  },
+  {
+   "id": "6b7091be-9335-5300-b79a-89640839c5b1",
+   "lemma": "director",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "director"
+   ]
+  },
+  {
+   "id": "648af19e-b584-5ae9-a9b9-639b05ff3183",
+   "lemma": "disadvantage",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "disadvantage"
+   ]
+  }
+ ]
+}

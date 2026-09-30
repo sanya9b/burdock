@@ -1,0 +1,407 @@
+{
+ "chunk": "B2-045",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "1d498124-db06-5931-aea3-6e0f7183509a",
+   "lemma": "physician",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "physician"
+   ]
+  },
+  {
+   "id": "312fe994-7a12-5eed-bcaf-6342d7b9123c",
+   "lemma": "pi",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pi"
+   ]
+  },
+  {
+   "id": "a3a182a4-3f18-5c65-aaaa-c6b2075fec33",
+   "lemma": "pickle",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pickle"
+   ]
+  },
+  {
+   "id": "6698475d-f6ba-5b93-92ca-de02edffb8a6",
+   "lemma": "picky",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "picky"
+   ]
+  },
+  {
+   "id": "3ff77727-b88b-58db-bb74-599c28941500",
+   "lemma": "picture",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "picture"
+   ]
+  },
+  {
+   "id": "fb9bb85e-bf76-529c-9455-a7795f6d1c9b",
+   "lemma": "picturesque",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "picturesque"
+   ]
+  },
+  {
+   "id": "d84b36de-bf1b-57d3-9fbf-f129b352934d",
+   "lemma": "pillowcase",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pillowcase"
+   ]
+  },
+  {
+   "id": "09c8d9fe-970b-533c-b0f3-e52831bd5cf2",
+   "lemma": "pin",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pin"
+   ]
+  },
+  {
+   "id": "87e1791b-aa64-58b3-91a9-1e7b0ec7e591",
+   "lemma": "pine",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pine"
+   ]
+  },
+  {
+   "id": "e1d350b4-25d2-56f3-8249-fc7b0b270978",
+   "lemma": "pint",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pint"
+   ]
+  },
+  {
+   "id": "6ca42941-7ba2-5176-8f42-d6f138dd09e5",
+   "lemma": "piracy",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "piracy"
+   ]
+  },
+  {
+   "id": "f90d108c-332a-5b70-b8b9-4f6a7aacedb3",
+   "lemma": "pirate",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pirate"
+   ]
+  },
+  {
+   "id": "5b3774d8-4858-5168-9ea6-bdb6b4bea1ae",
+   "lemma": "pitch",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pitch"
+   ]
+  },
+  {
+   "id": "f01102ad-0527-55ac-af55-ca28062a4c95",
+   "lemma": "pitch",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pitch"
+   ]
+  },
+  {
+   "id": "49a9bda6-79d4-54c0-8faf-a64fae8e4836",
+   "lemma": "plague",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "plague"
+   ]
+  },
+  {
+   "id": "87efbd5c-af82-516e-aa3a-d5ac2f157abf",
+   "lemma": "planning",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "planning"
+   ]
+  },
+  {
+   "id": "c64cb6f1-b501-5396-bfb0-ad42e5424536",
+   "lemma": "playmate",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "playmate"
+   ]
+  },
+  {
+   "id": "4e9520af-4d4e-5a69-a4f8-8258f434a394",
+   "lemma": "playwright",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "playwright"
+   ]
+  },
+  {
+   "id": "2fd8ac8d-9f20-5cea-9f7c-c526ad624be1",
+   "lemma": "plead",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "plead"
+   ]
+  },
+  {
+   "id": "176c3596-c181-5de3-be16-f05f1cebc635",
+   "lemma": "plot",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "plot"
+   ]
+  },
+  {
+   "id": "42e97a0d-ae76-51a3-804a-4326bc2f0a8a",
+   "lemma": "pluck",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pluck"
+   ]
+  },
+  {
+   "id": "33d6bd2a-c789-5aa4-a975-5e31b4562776",
+   "lemma": "plug",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "plug"
+   ]
+  },
+  {
+   "id": "331d51dc-b832-5211-8d53-d6194ec319e1",
+   "lemma": "plum",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "plum"
+   ]
+  },
+  {
+   "id": "1164816c-c101-594c-91c6-05361634368d",
+   "lemma": "plumber",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "plumber"
+   ]
+  },
+  {
+   "id": "710e4dba-e145-5380-ac44-e8505c5b7abc",
+   "lemma": "plus",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "plus"
+   ]
+  },
+  {
+   "id": "7f2ac2f1-912f-55ea-93a0-915f6d1823a0",
+   "lemma": "pneumonia",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pneumonia"
+   ]
+  },
+  {
+   "id": "d1cc2096-2f44-5beb-b974-8dd64d3c5d82",
+   "lemma": "point of view",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "point of view"
+   ]
+  },
+  {
+   "id": "d0215cee-9ebc-5f2b-bad2-6775336d74e5",
+   "lemma": "pointless",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pointless"
+   ]
+  },
+  {
+   "id": "177c5cb0-0cc3-556b-b9f9-9306338bcef6",
+   "lemma": "poison",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "poison"
+   ]
+  },
+  {
+   "id": "9e0deb2f-b7a9-53aa-b8a8-6a7a0748aba2",
+   "lemma": "polar bear",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "polar bear"
+   ]
+  },
+  {
+   "id": "ba34770c-14b5-566b-b3e6-a77ef973c832",
+   "lemma": "polio",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "polio"
+   ]
+  },
+  {
+   "id": "9db08332-3bb6-58bb-8744-2e0b75f4a917",
+   "lemma": "polish",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "polish"
+   ]
+  },
+  {
+   "id": "436f6f0d-1419-5403-a8d1-b2143b3cf63d",
+   "lemma": "politeness",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "politeness"
+   ]
+  },
+  {
+   "id": "8aec2ee6-fecc-5d33-9a8c-5a0374552daf",
+   "lemma": "politically",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "politically"
+   ]
+  },
+  {
+   "id": "7ed49a20-9c84-5dd7-8f71-cabb5e48c0d5",
+   "lemma": "polity",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "polity"
+   ]
+  },
+  {
+   "id": "4d4eda93-15c4-5391-9db2-6b7a753b7663",
+   "lemma": "polo",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "polo"
+   ]
+  },
+  {
+   "id": "98e44be9-ae2d-549e-b910-8d981ca20d65",
+   "lemma": "ponder",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ponder"
+   ]
+  },
+  {
+   "id": "58fe5a4b-e30f-57a9-a4cf-6205166e342a",
+   "lemma": "pop",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pop"
+   ]
+  },
+  {
+   "id": "b6f1b8f7-878c-5dd0-abfc-2fe7a99d44f5",
+   "lemma": "popularity",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "popularity"
+   ]
+  },
+  {
+   "id": "dadfd514-69c9-58ba-bed0-b9f74ab31643",
+   "lemma": "popularize",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "popularize",
+    "popularise"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,406 @@
+{
+ "chunk": "B1-057",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "19ac345f-6827-57ec-97d1-f808964c8634",
+   "lemma": "traditionally",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "traditionally"
+   ]
+  },
+  {
+   "id": "fd9df3b0-9aa0-5147-86af-c2ff2007beac",
+   "lemma": "traffic jam",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "traffic jam"
+   ]
+  },
+  {
+   "id": "81a8ac26-a90a-5a65-9f18-31b5b4a91f4a",
+   "lemma": "tragedy",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tragedy"
+   ]
+  },
+  {
+   "id": "90e777e2-d36c-544f-aab8-2c1114f62f3d",
+   "lemma": "tragic",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tragic"
+   ]
+  },
+  {
+   "id": "4dfab14d-dedb-5602-a489-c170cf86896f",
+   "lemma": "trail",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "trail"
+   ]
+  },
+  {
+   "id": "f967e2ba-17de-5e61-9197-7b5ba5c319d8",
+   "lemma": "transfer",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "transfer"
+   ]
+  },
+  {
+   "id": "edc3791e-9a1e-5ff3-921c-3511417efbe5",
+   "lemma": "transform",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "transform"
+   ]
+  },
+  {
+   "id": "ddceaaf6-eb2d-5170-9607-0a552ade6d6a",
+   "lemma": "transformation",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "transformation"
+   ]
+  },
+  {
+   "id": "7e4a49d5-6f9c-5850-8420-b3c1d0485584",
+   "lemma": "transitional",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "transitional"
+   ]
+  },
+  {
+   "id": "157b64af-7626-5c61-af71-f55a7feef8a1",
+   "lemma": "translate",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "translate"
+   ]
+  },
+  {
+   "id": "cf1cefb0-08c5-5b7b-a8d5-477b91a4bb53",
+   "lemma": "transport",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "transport"
+   ]
+  },
+  {
+   "id": "12c5e3ff-43f3-5c2b-bfae-bedafe286bbd",
+   "lemma": "transportation",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "transportation"
+   ]
+  },
+  {
+   "id": "b2f96f82-4580-5a57-8064-a89b739805a5",
+   "lemma": "trash",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "trash"
+   ]
+  },
+  {
+   "id": "ae606e84-3f3e-58f5-bc3e-d2bffb46cbe9",
+   "lemma": "travel agent",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "travel agent"
+   ]
+  },
+  {
+   "id": "7b6b97b6-d5af-514e-90b3-1b75b26c819a",
+   "lemma": "treat",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "treat"
+   ]
+  },
+  {
+   "id": "65f002f5-5d02-51e3-a7a0-00ec2797d6d5",
+   "lemma": "treatment",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "treatment"
+   ]
+  },
+  {
+   "id": "129d7357-c250-5d61-95ce-3f2df5b6bf51",
+   "lemma": "tremble",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tremble"
+   ]
+  },
+  {
+   "id": "0363aecd-3cde-52b0-b23b-889cdceba25f",
+   "lemma": "tremendous",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tremendous"
+   ]
+  },
+  {
+   "id": "273255f6-8327-504f-aaa7-112d17a8337f",
+   "lemma": "trend",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "trend"
+   ]
+  },
+  {
+   "id": "f558289a-e809-59f2-92eb-416e887ec4fa",
+   "lemma": "trigger",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "trigger"
+   ]
+  },
+  {
+   "id": "d58d3e5f-bd32-5c96-88d9-1d1722c00c66",
+   "lemma": "trim",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "trim"
+   ]
+  },
+  {
+   "id": "890bc6c5-c8b4-5ad0-9c61-150c3fb63e1a",
+   "lemma": "triumph",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "triumph"
+   ]
+  },
+  {
+   "id": "162e72b9-0171-5790-8750-a13b27e14273",
+   "lemma": "tropical",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tropical"
+   ]
+  },
+  {
+   "id": "7b808431-1ce6-5976-84b7-4f9f00186387",
+   "lemma": "trouble",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "trouble"
+   ]
+  },
+  {
+   "id": "e9ede781-2a50-5649-aa5e-a31b1f5c8f95",
+   "lemma": "trumpet",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "trumpet"
+   ]
+  },
+  {
+   "id": "44d5a7d0-a510-5027-8dbd-40a7b8bef064",
+   "lemma": "trustworthy",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "trustworthy"
+   ]
+  },
+  {
+   "id": "43c005cf-2876-57e7-9e74-8f089ad4680b",
+   "lemma": "tumble",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tumble"
+   ]
+  },
+  {
+   "id": "4414da55-ad94-54de-aac6-0ed4da619a9b",
+   "lemma": "tuna",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "tuna"
+   ]
+  },
+  {
+   "id": "d71f1503-74e3-5757-8f6e-b8df93bbc0f9",
+   "lemma": "turbulence",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "turbulence"
+   ]
+  },
+  {
+   "id": "fc8c6f63-8cf2-5bde-a436-21e52c431a94",
+   "lemma": "turning",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "turning"
+   ]
+  },
+  {
+   "id": "e3cfe98f-d582-5601-a5df-5ecf8dde7f1d",
+   "lemma": "turtle",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "turtle"
+   ]
+  },
+  {
+   "id": "9878f9e6-0707-5a06-9881-18d3cc7adf32",
+   "lemma": "twin",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "twin"
+   ]
+  },
+  {
+   "id": "d58c2c3b-6fb5-56ee-be9c-8b25ba25b124",
+   "lemma": "twist",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "twist"
+   ]
+  },
+  {
+   "id": "44b56941-2539-53e1-8ffe-16e8a6bb64cd",
+   "lemma": "twist",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "twist"
+   ]
+  },
+  {
+   "id": "c82669fd-26ee-5765-b5c1-e662ac0fb95d",
+   "lemma": "type",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "type"
+   ]
+  },
+  {
+   "id": "e60e31b5-d464-575b-af70-bbb7924a6257",
+   "lemma": "typical",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "typical"
+   ]
+  },
+  {
+   "id": "5047ed1f-8ba6-54e5-89cf-867e2e2a5dbf",
+   "lemma": "typically",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "typically"
+   ]
+  },
+  {
+   "id": "1d516b77-ffec-564c-875d-5a7e2109c8a3",
+   "lemma": "unable",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unable"
+   ]
+  },
+  {
+   "id": "2a5734d0-1ed3-517e-8e52-9bf24238ed6f",
+   "lemma": "unafraid",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unafraid"
+   ]
+  },
+  {
+   "id": "72482d6d-64a9-514d-839d-58bfe9261465",
+   "lemma": "unbelievable",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "unbelievable"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,406 @@
+{
+ "chunk": "B2-011",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "d8c4ae00-1bf9-5c76-92a9-e00d7ff3968c",
+   "lemma": "comfortably",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "comfortably"
+   ]
+  },
+  {
+   "id": "56d39e0c-c454-537b-9f5e-72910e6b0722",
+   "lemma": "commander",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "commander"
+   ]
+  },
+  {
+   "id": "92c31074-2c8d-5d3e-a531-e776bdc9ea84",
+   "lemma": "commemorate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "commemorate"
+   ]
+  },
+  {
+   "id": "0eafaf71-2412-5f55-b616-4a98fdbbd648",
+   "lemma": "comment",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "comment"
+   ]
+  },
+  {
+   "id": "3963345a-6224-5218-a601-fb774e490fca",
+   "lemma": "commerce",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "commerce"
+   ]
+  },
+  {
+   "id": "f59eeb6c-3789-50a2-8e21-8a8a5f50e43d",
+   "lemma": "commercial",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "commercial"
+   ]
+  },
+  {
+   "id": "b5b06763-1ec8-5a08-8649-ec990e9b08d9",
+   "lemma": "commission",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "commission"
+   ]
+  },
+  {
+   "id": "24dea31d-6600-5d8c-95ad-a5c820f1acb5",
+   "lemma": "commonwealth",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "commonwealth"
+   ]
+  },
+  {
+   "id": "93df9d2f-9f68-56d1-b208-1062e861dd46",
+   "lemma": "communicative",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "communicative"
+   ]
+  },
+  {
+   "id": "f02ba4e5-4d46-587b-b4cf-5f9804bd543d",
+   "lemma": "community",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "community"
+   ]
+  },
+  {
+   "id": "605ca82f-9770-5bf9-ab58-231036be0d37",
+   "lemma": "commute",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "commute"
+   ]
+  },
+  {
+   "id": "b96af247-94a7-5028-9909-89133d491faf",
+   "lemma": "compassion",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "compassion"
+   ]
+  },
+  {
+   "id": "78465a3e-d14c-50b9-9ef1-4499a30129e6",
+   "lemma": "compassionate",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "compassionate"
+   ]
+  },
+  {
+   "id": "3fb5f316-ae0a-53fc-90c3-4fd32970313c",
+   "lemma": "compatible",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "compatible"
+   ]
+  },
+  {
+   "id": "cc6f4897-a58b-5676-8102-293332ecd656",
+   "lemma": "compensate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "compensate"
+   ]
+  },
+  {
+   "id": "3454911e-0dcc-599d-b1e9-9dd836628c80",
+   "lemma": "compensation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "compensation"
+   ]
+  },
+  {
+   "id": "26d0d9bd-8c58-5d26-bafa-390478880cb2",
+   "lemma": "competence",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "competence"
+   ]
+  },
+  {
+   "id": "a9d9b8fd-6d37-5b9c-a613-d4282581bc59",
+   "lemma": "competent",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "competent"
+   ]
+  },
+  {
+   "id": "41f9aabb-6ebd-5f89-8a69-98e8673f9b7f",
+   "lemma": "compile",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "compile"
+   ]
+  },
+  {
+   "id": "3173c3a9-b2c3-5ee9-a21e-0e8572111cc8",
+   "lemma": "completion",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "completion"
+   ]
+  },
+  {
+   "id": "1f9127e1-7cab-5525-bea5-ee0b1f2df0e7",
+   "lemma": "complexion",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "complexion"
+   ]
+  },
+  {
+   "id": "820af0ae-fdf1-5655-81e6-6a8832315bfd",
+   "lemma": "complexity",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "complexity"
+   ]
+  },
+  {
+   "id": "17b87a6a-6ddb-58bd-830b-a3b46aec72b9",
+   "lemma": "component",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "component"
+   ]
+  },
+  {
+   "id": "dfaee886-0ed8-5bdf-af1d-bc4a398a0024",
+   "lemma": "comprehension",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "comprehension"
+   ]
+  },
+  {
+   "id": "75df23e8-02e2-5214-b67e-a4bca149f2bd",
+   "lemma": "comprehensive",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "comprehensive"
+   ]
+  },
+  {
+   "id": "8e9b25c7-3614-53fc-af82-616ddd68cdde",
+   "lemma": "compress",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "compress"
+   ]
+  },
+  {
+   "id": "ad292f33-be06-5fa0-80b2-220f8baca3e9",
+   "lemma": "compression",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "compression"
+   ]
+  },
+  {
+   "id": "0ca16325-f8f0-5504-9c0e-9e14f48c3dfb",
+   "lemma": "compromise",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "compromise"
+   ]
+  },
+  {
+   "id": "cafaea41-ebae-5527-9a23-2c10400ff42a",
+   "lemma": "compulsory",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "compulsory"
+   ]
+  },
+  {
+   "id": "66c53afb-d1e0-5f27-8dd7-656e560bc7d1",
+   "lemma": "compute",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "compute"
+   ]
+  },
+  {
+   "id": "2a2a76c8-12a9-501f-8777-0ca44e3be002",
+   "lemma": "conceal",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "conceal"
+   ]
+  },
+  {
+   "id": "0aae8c71-b379-5e82-a082-84f348962478",
+   "lemma": "concede",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "concede"
+   ]
+  },
+  {
+   "id": "6f570d0c-9860-5cb8-9997-47673b5702e3",
+   "lemma": "conceit",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "conceit"
+   ]
+  },
+  {
+   "id": "d395b572-cf58-549e-bdf1-fd66ace40730",
+   "lemma": "conceivable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "conceivable"
+   ]
+  },
+  {
+   "id": "86347297-245e-53d3-bbc8-5067b4b0dc44",
+   "lemma": "conceive",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "conceive"
+   ]
+  },
+  {
+   "id": "1b2cf281-6311-5193-94e7-f6c7a1e09748",
+   "lemma": "conception",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "conception"
+   ]
+  },
+  {
+   "id": "d20c230c-6a3b-5728-8f1c-ceed4be5db16",
+   "lemma": "concern",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "concern"
+   ]
+  },
+  {
+   "id": "3be2e065-3772-5157-8146-49a164ed06d0",
+   "lemma": "concerning",
+   "pos": "preposition",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "concerning"
+   ]
+  },
+  {
+   "id": "681f62e3-9ee5-5013-841d-1f6c207d020c",
+   "lemma": "concession",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "concession"
+   ]
+  },
+  {
+   "id": "58c8686c-76b7-594c-a0eb-d2f45558ad08",
+   "lemma": "concrete",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "concrete"
+   ]
+  }
+ ]
+}

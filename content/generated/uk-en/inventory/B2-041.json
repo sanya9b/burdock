@@ -1,0 +1,407 @@
+{
+ "chunk": "B2-041",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "cd975a48-c67f-5689-9b3b-fe72df2b278d",
+   "lemma": "official",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "official"
+   ]
+  },
+  {
+   "id": "bd75c305-010a-527e-b62d-c478f4a2c883",
+   "lemma": "offshore",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "offshore"
+   ]
+  },
+  {
+   "id": "071ed5a1-0f9f-5467-90a2-63d3769629dd",
+   "lemma": "ointment",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ointment"
+   ]
+  },
+  {
+   "id": "a0e6e043-b5fc-5b0e-8fbe-8bba342bc73e",
+   "lemma": "olive",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "olive"
+   ]
+  },
+  {
+   "id": "b6e071ad-708d-501f-9409-67182a463c59",
+   "lemma": "Olympia",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "olympia"
+   ]
+  },
+  {
+   "id": "2253ead3-885f-5e36-b818-e153cd7a60ce",
+   "lemma": "Olympiad",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "olympiad"
+   ]
+  },
+  {
+   "id": "1138ad38-c3f4-5fc8-8202-67c76fffbdd8",
+   "lemma": "once",
+   "pos": "conjunction",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "once"
+   ]
+  },
+  {
+   "id": "d8b98888-cfa2-506a-a5ab-f6adb932d8ee",
+   "lemma": "openly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "openly"
+   ]
+  },
+  {
+   "id": "09572423-cf4a-5a30-8fdd-233d086823b3",
+   "lemma": "operator",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "operator"
+   ]
+  },
+  {
+   "id": "4dd09053-8b4b-5c28-8428-2f5a4c77513b",
+   "lemma": "opponent",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "opponent"
+   ]
+  },
+  {
+   "id": "c9b51bf6-3e8a-5be2-bf70-dc149f7b3228",
+   "lemma": "optimism",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "optimism"
+   ]
+  },
+  {
+   "id": "615badbd-d8b9-53d9-bfe0-3b57af64bb88",
+   "lemma": "optimist",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "optimist"
+   ]
+  },
+  {
+   "id": "cab6c5dd-9f05-52c4-b35e-06195eccb197",
+   "lemma": "optimistic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "optimistic"
+   ]
+  },
+  {
+   "id": "e2ed302f-72fd-5593-bd6d-79a600e6850b",
+   "lemma": "optional",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "optional"
+   ]
+  },
+  {
+   "id": "4f6b8cf1-cafa-5794-af3e-86f56334785a",
+   "lemma": "oral",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "oral"
+   ]
+  },
+  {
+   "id": "07d45bdc-91cc-5735-94eb-638ef74fc3b8",
+   "lemma": "orator",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "orator"
+   ]
+  },
+  {
+   "id": "abb5eaff-12ad-5334-b1c4-fe7d3e02b180",
+   "lemma": "orchestral",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "orchestral"
+   ]
+  },
+  {
+   "id": "3b28ba9e-eceb-5d83-92b7-6644ac6d0808",
+   "lemma": "orchid",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "orchid"
+   ]
+  },
+  {
+   "id": "477e6ca4-26a3-538c-b416-feef031f547d",
+   "lemma": "organizer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "organizer",
+    "organiser"
+   ]
+  },
+  {
+   "id": "9b124145-7176-5e7d-874e-e88847413496",
+   "lemma": "original",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "original"
+   ]
+  },
+  {
+   "id": "f656f437-4f79-5d64-bc0b-6bcadb4349cd",
+   "lemma": "originality",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "originality"
+   ]
+  },
+  {
+   "id": "fd5d95c6-d4c1-5341-97ec-3bc3499056b4",
+   "lemma": "originally",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "originally"
+   ]
+  },
+  {
+   "id": "715183b7-3dc2-54f3-bf4d-213a04313687",
+   "lemma": "originate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "originate"
+   ]
+  },
+  {
+   "id": "1b72f5f7-b4e6-5c7a-93b7-afc8fd5992fc",
+   "lemma": "ornament",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ornament"
+   ]
+  },
+  {
+   "id": "ceba61c1-d452-5126-8847-439adbf811db",
+   "lemma": "ounce",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ounce"
+   ]
+  },
+  {
+   "id": "fac41a16-37db-5fac-bb07-b66f8a2f5e26",
+   "lemma": "outback",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "outback"
+   ]
+  },
+  {
+   "id": "e695732e-444e-57a5-a02e-1c3ccba6e372",
+   "lemma": "outbreak",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "outbreak"
+   ]
+  },
+  {
+   "id": "a68e5a2c-4e99-5138-b40b-62811fdcf206",
+   "lemma": "outcome",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "outcome"
+   ]
+  },
+  {
+   "id": "a75ffde0-e1d4-5569-aa18-f0645fca247c",
+   "lemma": "outdistance",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "outdistance"
+   ]
+  },
+  {
+   "id": "0327aa85-68e2-5e96-b685-67fa4715f9c1",
+   "lemma": "outdo",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "outdo"
+   ]
+  },
+  {
+   "id": "8e151c74-3a87-5f91-aed5-59304070735d",
+   "lemma": "outfit",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "outfit"
+   ]
+  },
+  {
+   "id": "43fd1459-0414-5712-b876-03eac3451580",
+   "lemma": "outgrow",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "outgrow"
+   ]
+  },
+  {
+   "id": "fb702abf-0b3e-548e-bec2-e13a35df8dee",
+   "lemma": "outing",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "outing"
+   ]
+  },
+  {
+   "id": "7ab2723e-bf02-558c-94c7-3e43c7f9dcde",
+   "lemma": "outlet",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "outlet"
+   ]
+  },
+  {
+   "id": "cd0c999a-3bb3-5249-8cae-ac25afc19b22",
+   "lemma": "outline",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "outline"
+   ]
+  },
+  {
+   "id": "6f7ad964-c44a-56a6-b697-7230377fd8bd",
+   "lemma": "outlive",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "outlive"
+   ]
+  },
+  {
+   "id": "a42c11c5-edf9-59e1-933e-da2efe9ccabb",
+   "lemma": "outlook",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "outlook"
+   ]
+  },
+  {
+   "id": "c6b750ba-80ef-5b85-afba-58fada03d9b3",
+   "lemma": "outpatient",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "outpatient"
+   ]
+  },
+  {
+   "id": "eff00116-0424-57b5-a8e3-09ab0478b448",
+   "lemma": "output",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "output"
+   ]
+  },
+  {
+   "id": "2da0f97f-2c0c-5e05-9e6a-317b20034d64",
+   "lemma": "outrage",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "outrage"
+   ]
+  }
+ ]
+}

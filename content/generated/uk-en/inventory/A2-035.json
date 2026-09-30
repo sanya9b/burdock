@@ -1,0 +1,406 @@
+{
+ "chunk": "A2-035",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "2542b25b-a3dd-5289-894a-55db6ea7e44d",
+   "lemma": "wave",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wave"
+   ]
+  },
+  {
+   "id": "444f77e5-19eb-55f5-a6b2-c27e4bce10c3",
+   "lemma": "weak",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "weak"
+   ]
+  },
+  {
+   "id": "e0b291bc-3348-55db-84b1-5c2aa2b671dc",
+   "lemma": "wealth",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wealth"
+   ]
+  },
+  {
+   "id": "0c160ec5-eed4-58ea-a6ce-50d7c29b8e7c",
+   "lemma": "web",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "web"
+   ]
+  },
+  {
+   "id": "88d34288-bd7d-5453-9e0d-3e4934bf45f9",
+   "lemma": "web page",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "web page"
+   ]
+  },
+  {
+   "id": "373662a6-77c8-5100-b6b0-ae720b3c3619",
+   "lemma": "website",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "website"
+   ]
+  },
+  {
+   "id": "ce6a5009-5d5d-5144-8bea-057315bb7538",
+   "lemma": "wedding",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wedding"
+   ]
+  },
+  {
+   "id": "2b8ecb52-016a-5506-9fb6-8be712550746",
+   "lemma": "weekday",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "weekday"
+   ]
+  },
+  {
+   "id": "c0034203-99c4-5152-b133-52ef1fb1e90f",
+   "lemma": "weekly",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "weekly"
+   ]
+  },
+  {
+   "id": "f5e046a7-be54-501a-8f0c-2648814b9e45",
+   "lemma": "weekly",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "weekly"
+   ]
+  },
+  {
+   "id": "e26b6e96-04e3-54e2-9281-4b5c1f8f92e9",
+   "lemma": "weep",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "weep"
+   ]
+  },
+  {
+   "id": "5e558fce-a674-526c-b185-c74421e28eb6",
+   "lemma": "weigh",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "weigh"
+   ]
+  },
+  {
+   "id": "a457cdc5-9e85-5fdf-b482-ac2f2139fb6d",
+   "lemma": "weight",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "weight"
+   ]
+  },
+  {
+   "id": "a23a057c-58be-528e-85e2-1f30733b0636",
+   "lemma": "well-known",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "well-known"
+   ]
+  },
+  {
+   "id": "02077fa8-0612-58f7-9d5c-9d6433060b57",
+   "lemma": "west",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "west"
+   ]
+  },
+  {
+   "id": "08cb029a-c94d-57c5-a53d-95c5b016b629",
+   "lemma": "west",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "west"
+   ]
+  },
+  {
+   "id": "813f97a0-ff71-5db6-b1a0-b32ca08a8273",
+   "lemma": "west",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "west"
+   ]
+  },
+  {
+   "id": "ad83c263-4a86-5eeb-8f0e-aaee5230a840",
+   "lemma": "wet",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wet"
+   ]
+  },
+  {
+   "id": "7c523e86-07fb-51e5-92cf-c849097e4fcd",
+   "lemma": "whatever",
+   "pos": "determiner",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "whatever"
+   ]
+  },
+  {
+   "id": "2952664f-39d9-571e-bbc1-65ca03e4314c",
+   "lemma": "wheelchair",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wheelchair"
+   ]
+  },
+  {
+   "id": "f8d69360-9d86-553c-b28c-85a182786ff0",
+   "lemma": "while",
+   "pos": "conjunction",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "while"
+   ]
+  },
+  {
+   "id": "1185e2dc-eb51-5776-8d04-a930ed3c1983",
+   "lemma": "whole",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "whole"
+   ]
+  },
+  {
+   "id": "f49c5534-6675-5aef-96d9-dba967dc8010",
+   "lemma": "whom",
+   "pos": "pronoun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "whom"
+   ]
+  },
+  {
+   "id": "15e90775-15be-5d58-9510-b8209594f985",
+   "lemma": "wide",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wide"
+   ]
+  },
+  {
+   "id": "bfa2a925-7bdc-54ad-89a5-4bd816a5f391",
+   "lemma": "wide",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wide"
+   ]
+  },
+  {
+   "id": "05438c9e-110f-5c50-bd3b-d0ac63d2a2b3",
+   "lemma": "widely",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "widely"
+   ]
+  },
+  {
+   "id": "1307d54c-44dc-5556-b646-b268e4b2d013",
+   "lemma": "wild",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wild"
+   ]
+  },
+  {
+   "id": "ad65763f-60dc-5fae-926b-c5bb26d51c8f",
+   "lemma": "windy",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "windy"
+   ]
+  },
+  {
+   "id": "8f6fcc6d-6fcd-5d75-8d36-0f7ca123888b",
+   "lemma": "wine",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wine"
+   ]
+  },
+  {
+   "id": "07044a0c-0e6c-5813-9e0c-64c2c3fd0802",
+   "lemma": "winner",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "winner"
+   ]
+  },
+  {
+   "id": "5fb87cc3-f505-5b70-9b2a-31342862c2d4",
+   "lemma": "wisdom",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wisdom"
+   ]
+  },
+  {
+   "id": "cc215c7e-886c-5ca0-8d77-d7507238e11f",
+   "lemma": "wise",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wise"
+   ]
+  },
+  {
+   "id": "3c8db23f-4168-50fc-bdba-6dff11e22c49",
+   "lemma": "wish",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wish"
+   ]
+  },
+  {
+   "id": "0ff1ff3d-8727-52b2-babc-8eb3e092c30d",
+   "lemma": "within",
+   "pos": "preposition",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "within"
+   ]
+  },
+  {
+   "id": "d2368b6c-7b71-5f05-9985-45d8974cfa06",
+   "lemma": "without",
+   "pos": "preposition",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "without"
+   ]
+  },
+  {
+   "id": "e2cd4949-3822-5449-bdb5-49835150f95e",
+   "lemma": "wonder",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wonder"
+   ]
+  },
+  {
+   "id": "380b3379-d015-5585-8f72-597ef8bdb492",
+   "lemma": "wood",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wood"
+   ]
+  },
+  {
+   "id": "3312ca99-3e3a-5c1c-b760-44c0e314d9b1",
+   "lemma": "wooden",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wooden"
+   ]
+  },
+  {
+   "id": "c1ed1bd0-10c4-5f1a-926b-f7df33bd86e3",
+   "lemma": "wool",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "wool"
+   ]
+  },
+  {
+   "id": "5108c4fa-44ad-5a76-8267-dea1e3773737",
+   "lemma": "worldwide",
+   "pos": "adverb",
+   "level": "A2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "worldwide"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,407 @@
+{
+ "chunk": "B2-052",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "9625855b-e4cd-599d-98b3-6c6e55b69897",
+   "lemma": "retrieve",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "retrieve"
+   ]
+  },
+  {
+   "id": "3b60e25d-c784-5962-894b-91ab37d17c05",
+   "lemma": "revelation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "revelation"
+   ]
+  },
+  {
+   "id": "20752e17-ba74-5f9d-812e-90bfac5e9848",
+   "lemma": "revenge",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "revenge"
+   ]
+  },
+  {
+   "id": "fa7708ea-42f7-5f97-b9ff-4983742ca811",
+   "lemma": "revenue",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "revenue"
+   ]
+  },
+  {
+   "id": "847ef3d1-41c9-56b6-85cc-fa5c116d39c8",
+   "lemma": "reverence",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "reverence"
+   ]
+  },
+  {
+   "id": "76f4db96-137d-597e-beff-aa1bf3f27b89",
+   "lemma": "reverse",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "reverse"
+   ]
+  },
+  {
+   "id": "7c102369-04ff-563c-acd5-7de084d51672",
+   "lemma": "review",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "review"
+   ]
+  },
+  {
+   "id": "00437f78-3709-5bb7-9929-8e90714fd645",
+   "lemma": "revival",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "revival"
+   ]
+  },
+  {
+   "id": "6ca8a509-23ae-5040-8b39-8c80e9054369",
+   "lemma": "revive",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "revive"
+   ]
+  },
+  {
+   "id": "79644ea7-ea78-5b38-9089-9535de417ce9",
+   "lemma": "revolution",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "revolution"
+   ]
+  },
+  {
+   "id": "8ed44d55-f4f4-5392-aefc-3e0182877337",
+   "lemma": "revolutionary",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "revolutionary"
+   ]
+  },
+  {
+   "id": "837fdfb2-8561-563e-8825-80b3c8e41b5a",
+   "lemma": "revolutionize",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "revolutionize",
+    "revolutionise"
+   ]
+  },
+  {
+   "id": "dde748a5-6b24-5680-9b8f-4d419c6b9996",
+   "lemma": "revolve",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "revolve"
+   ]
+  },
+  {
+   "id": "0d35dc9a-67fe-5a2e-99f3-07d2421a082c",
+   "lemma": "reward",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "reward"
+   ]
+  },
+  {
+   "id": "422724f0-31f9-5e96-af02-935cbb4b7aec",
+   "lemma": "rhinoceros",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rhinoceros"
+   ]
+  },
+  {
+   "id": "fe2d754f-fa06-5a1c-9d3a-75f3178fe269",
+   "lemma": "rhyme",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rhyme"
+   ]
+  },
+  {
+   "id": "38670eaa-04b9-5bde-a017-a8673e3ebb2f",
+   "lemma": "rhythmic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rhythmic"
+   ]
+  },
+  {
+   "id": "83b1521c-5222-5061-aa11-1073000e4ab4",
+   "lemma": "rib",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rib"
+   ]
+  },
+  {
+   "id": "b250c7de-abf8-5bd6-830b-a0d520363d87",
+   "lemma": "riddle",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "riddle"
+   ]
+  },
+  {
+   "id": "1fd8b6ae-616e-58a5-b7fc-4129c5824002",
+   "lemma": "rider",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rider"
+   ]
+  },
+  {
+   "id": "1e10dba9-89a3-5f82-9005-86df8d7b3fdb",
+   "lemma": "ridge",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ridge"
+   ]
+  },
+  {
+   "id": "63684be1-9a65-5284-b986-7fd0bc41c46b",
+   "lemma": "righteousness",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "righteousness"
+   ]
+  },
+  {
+   "id": "4df3804d-53c6-5d79-8080-1335aca94acc",
+   "lemma": "rightly",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rightly"
+   ]
+  },
+  {
+   "id": "5ad56c9e-3604-5567-af2e-345048baeaae",
+   "lemma": "rim",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rim"
+   ]
+  },
+  {
+   "id": "38b0d4b0-b0c0-59d4-9f81-f4a51110cafc",
+   "lemma": "rip",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rip"
+   ]
+  },
+  {
+   "id": "babb9479-16f1-505f-8e85-0b6ff0efc3e9",
+   "lemma": "risk",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "risk"
+   ]
+  },
+  {
+   "id": "a0fce0af-641e-5f39-ac67-5b020f988e46",
+   "lemma": "risky",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "risky"
+   ]
+  },
+  {
+   "id": "15db665b-a2f2-5427-aa3d-c4f3dbf3b70b",
+   "lemma": "rite",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rite"
+   ]
+  },
+  {
+   "id": "5132c00c-b5d7-5178-9569-09f52e62306e",
+   "lemma": "ritual",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ritual"
+   ]
+  },
+  {
+   "id": "4a8331e5-009f-5d16-91a0-bc855b26ea86",
+   "lemma": "rival",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rival"
+   ]
+  },
+  {
+   "id": "49e7528b-eecc-5d85-9ed8-d1f57b2242d6",
+   "lemma": "roam",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "roam"
+   ]
+  },
+  {
+   "id": "b73273f5-04e6-53b7-8aa4-0a3d65306972",
+   "lemma": "roar",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "roar"
+   ]
+  },
+  {
+   "id": "cf03b577-094b-53b3-9523-e8326d97ac18",
+   "lemma": "roast",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "roast"
+   ]
+  },
+  {
+   "id": "59983962-fa35-50f3-9bfc-063a6e2ba90b",
+   "lemma": "rock",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rock"
+   ]
+  },
+  {
+   "id": "cc0f5311-630c-57c5-8b03-e45ad54ed82c",
+   "lemma": "rocket",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rocket"
+   ]
+  },
+  {
+   "id": "6d70115d-0693-516e-b120-8c111a15304a",
+   "lemma": "rocky",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rocky"
+   ]
+  },
+  {
+   "id": "654aaf39-cc61-5b88-be03-aa7819c6b940",
+   "lemma": "roll",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "roll"
+   ]
+  },
+  {
+   "id": "08316d80-b16d-527e-b18f-df9b881c7d02",
+   "lemma": "roommate",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "roommate"
+   ]
+  },
+  {
+   "id": "2188ae7a-2fdb-544b-b3a2-30d84392c5d0",
+   "lemma": "rosy",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "rosy"
+   ]
+  },
+  {
+   "id": "abef83d1-7590-5421-a22c-89889e2b4fbb",
+   "lemma": "round",
+   "pos": "preposition",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "round"
+   ]
+  }
+ ]
+}

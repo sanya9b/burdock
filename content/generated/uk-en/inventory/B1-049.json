@@ -1,0 +1,406 @@
+{
+ "chunk": "B1-049",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "91908d1d-142a-5565-87fe-8033354ef7d4",
+   "lemma": "second-hand",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "second-hand"
+   ]
+  },
+  {
+   "id": "d14a2d68-2461-534f-b2b0-9dd2394d9b54",
+   "lemma": "second-hand",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "second-hand"
+   ]
+  },
+  {
+   "id": "b3c91e3d-f81c-57f8-b160-87799e09173c",
+   "lemma": "secondary school",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "secondary school"
+   ]
+  },
+  {
+   "id": "39ed6ff9-5947-5e3b-8b7e-2c438160720c",
+   "lemma": "secret",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "secret"
+   ]
+  },
+  {
+   "id": "7f6f7c33-8e9d-5e4f-9314-d7ced3fc9e52",
+   "lemma": "secretly",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "secretly"
+   ]
+  },
+  {
+   "id": "3e5812ab-bd55-58d3-8ec9-11ce8a5badf1",
+   "lemma": "secure",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "secure"
+   ]
+  },
+  {
+   "id": "ba3d7f19-16fa-53fc-9957-eb32551c94f3",
+   "lemma": "security",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "security"
+   ]
+  },
+  {
+   "id": "15dea28e-0e88-59cd-ac36-66c0d9dc9d84",
+   "lemma": "seize",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "seize"
+   ]
+  },
+  {
+   "id": "d5777ac1-2e7e-540f-a10b-0d0be55dea5e",
+   "lemma": "select",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "select"
+   ]
+  },
+  {
+   "id": "1c58443c-aa1e-57d4-b8c9-ed3737dc9c45",
+   "lemma": "selection",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "selection"
+   ]
+  },
+  {
+   "id": "df8dfe55-298c-5d31-aa3f-8cc27bae5757",
+   "lemma": "self-service",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "self-service"
+   ]
+  },
+  {
+   "id": "89b9bc43-233e-5a65-a006-b18ee94e4c9e",
+   "lemma": "selfish",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "selfish"
+   ]
+  },
+  {
+   "id": "9bddb900-f1cf-5959-aa89-addb8662e125",
+   "lemma": "sensation",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sensation"
+   ]
+  },
+  {
+   "id": "6788b881-1605-5e23-8ae9-818adaae0e6f",
+   "lemma": "separation",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "separation"
+   ]
+  },
+  {
+   "id": "141dc6f9-c191-5275-b3f8-c804b6e5c0d3",
+   "lemma": "sequence",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sequence"
+   ]
+  },
+  {
+   "id": "dd697149-b01f-53d8-9079-ae6d4b6e0632",
+   "lemma": "series",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "series"
+   ]
+  },
+  {
+   "id": "c8e7c2ae-76c5-525b-856c-d8e9fa067a01",
+   "lemma": "serious",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "serious"
+   ]
+  },
+  {
+   "id": "6854a24c-eb0b-53f9-909a-8244437bc4b7",
+   "lemma": "server",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "server"
+   ]
+  },
+  {
+   "id": "58fc83fa-522a-55c6-a197-89243ed76a58",
+   "lemma": "service",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "service"
+   ]
+  },
+  {
+   "id": "07d8201e-8a55-5fca-8637-3d8160418f56",
+   "lemma": "service",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "service"
+   ]
+  },
+  {
+   "id": "dd24d2ec-dcac-5e1b-bef5-4f86ae5c791d",
+   "lemma": "session",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "session"
+   ]
+  },
+  {
+   "id": "3ec744f9-7bb6-510c-ba4c-64282320067f",
+   "lemma": "setting",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "setting"
+   ]
+  },
+  {
+   "id": "d7d6e1e9-3646-5055-b8c4-0a0e3c5294d2",
+   "lemma": "settle",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "settle"
+   ]
+  },
+  {
+   "id": "4f30d0ea-d8df-58f5-b368-925db6ffa8d0",
+   "lemma": "settlement",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "settlement"
+   ]
+  },
+  {
+   "id": "e482806e-be70-5fea-ac96-e2d4d3137600",
+   "lemma": "settler",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "settler"
+   ]
+  },
+  {
+   "id": "43bc0e39-e287-5556-b0e1-a3970a4460d8",
+   "lemma": "severe",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "severe"
+   ]
+  },
+  {
+   "id": "30d55bf5-27fc-536e-ac63-c665daaa3569",
+   "lemma": "severely",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "severely"
+   ]
+  },
+  {
+   "id": "032d9142-70e8-5f86-a47a-0330d434b579",
+   "lemma": "sex",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sex"
+   ]
+  },
+  {
+   "id": "17ee89ac-378a-57fd-961a-009d9c35fc43",
+   "lemma": "shadow",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shadow"
+   ]
+  },
+  {
+   "id": "50d08ac7-dbad-5342-9536-78053becef77",
+   "lemma": "shadowy",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shadowy"
+   ]
+  },
+  {
+   "id": "a681ed90-35bc-5d0d-ad7b-2129c63a6ab3",
+   "lemma": "shake",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shake"
+   ]
+  },
+  {
+   "id": "92a21ff8-9460-5179-821a-faa26ce7bc40",
+   "lemma": "shallow",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shallow"
+   ]
+  },
+  {
+   "id": "86a26b44-248c-516a-8cc2-7659e9ce5c2b",
+   "lemma": "shame",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shame"
+   ]
+  },
+  {
+   "id": "b1c494a1-127d-5c0f-9c47-68b32082562e",
+   "lemma": "shameful",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shameful"
+   ]
+  },
+  {
+   "id": "89a16a65-d8e9-522a-bb06-e97b5a6f517a",
+   "lemma": "shape",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shape"
+   ]
+  },
+  {
+   "id": "49043515-b44b-5010-8699-dc7aeea7e60b",
+   "lemma": "sharp",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sharp"
+   ]
+  },
+  {
+   "id": "05bb18b0-c5b8-5934-93dc-d4e025c2fb05",
+   "lemma": "shave",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shave"
+   ]
+  },
+  {
+   "id": "6dfadd72-568c-5170-8c12-fc09c6928ef1",
+   "lemma": "sheer",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sheer"
+   ]
+  },
+  {
+   "id": "dbd79bf6-59ba-5b46-9bcd-6358fd960e51",
+   "lemma": "sheet",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "sheet"
+   ]
+  },
+  {
+   "id": "c351fd29-834d-54b7-94cb-a9838e542bca",
+   "lemma": "shelter",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "shelter"
+   ]
+  }
+ ]
+}

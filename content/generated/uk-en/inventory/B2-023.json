@@ -1,0 +1,408 @@
+{
+ "chunk": "B2-023",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "fe908a97-7801-59d3-ad1b-e00ae58b37ae",
+   "lemma": "faith",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "faith"
+   ]
+  },
+  {
+   "id": "0ab35f0d-47e5-52b1-800c-e56f7f3efc2e",
+   "lemma": "falter",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "falter"
+   ]
+  },
+  {
+   "id": "0d979b6d-c3fd-5423-a319-8cce087f2551",
+   "lemma": "fame",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fame"
+   ]
+  },
+  {
+   "id": "49cf6386-7cb2-5201-b25c-21fbce0646f2",
+   "lemma": "familiarize",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "familiarize",
+    "familiarise"
+   ]
+  },
+  {
+   "id": "0796fdb0-a5d5-5b26-86a4-7f9b7e8173e4",
+   "lemma": "fantastically",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fantastically"
+   ]
+  },
+  {
+   "id": "22591da6-886a-5cc2-86f2-261f152e6b6f",
+   "lemma": "far",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "far"
+   ]
+  },
+  {
+   "id": "7b2eae4c-95cd-5706-91d0-dd6cdcdd3893",
+   "lemma": "fascinated",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fascinated"
+   ]
+  },
+  {
+   "id": "b3803481-e86f-5a78-9879-d6b4724b7504",
+   "lemma": "fascination",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fascination"
+   ]
+  },
+  {
+   "id": "fc9bdd97-1909-51c4-a3a9-fb4c85ce9001",
+   "lemma": "fat",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fat"
+   ]
+  },
+  {
+   "id": "3c396f91-770d-523a-a397-678ffa458d8a",
+   "lemma": "fatal",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fatal"
+   ]
+  },
+  {
+   "id": "f68c94ed-90c8-5941-90fb-06f523aed8f3",
+   "lemma": "fate",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fate"
+   ]
+  },
+  {
+   "id": "8f2f787f-427e-5c0d-9ffd-1e36d5627cb6",
+   "lemma": "father-in-law",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "father-in-law"
+   ]
+  },
+  {
+   "id": "c763ac1f-5faf-53ff-9d9b-df876990d9e2",
+   "lemma": "faulty",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "faulty"
+   ]
+  },
+  {
+   "id": "76a0a580-6c84-5b64-8119-6d1a1a1cbe03",
+   "lemma": "fear",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fear"
+   ]
+  },
+  {
+   "id": "524b77ab-a88d-52da-9215-974034bd5fb1",
+   "lemma": "fearsome",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fearsome"
+   ]
+  },
+  {
+   "id": "fc39ef5e-c004-5e55-a781-2678da895d7d",
+   "lemma": "feat",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "feat"
+   ]
+  },
+  {
+   "id": "e1f1f663-8e71-51f2-a424-cd4ba700a771",
+   "lemma": "feature",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "feature"
+   ]
+  },
+  {
+   "id": "f6ec70ba-3049-513a-93c2-329c83e7adc1",
+   "lemma": "fed up",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fed up"
+   ]
+  },
+  {
+   "id": "31949e5b-8cf8-5231-89f0-cbe14fc96b72",
+   "lemma": "federal",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "federal"
+   ]
+  },
+  {
+   "id": "deed396b-ea8b-5b05-8869-7c99a78884c9",
+   "lemma": "feedback",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "feedback"
+   ]
+  },
+  {
+   "id": "1d69fc5b-7701-5ebe-a993-7ad35880ef60",
+   "lemma": "fellow",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fellow"
+   ]
+  },
+  {
+   "id": "9fb9cd97-3a54-537b-912e-4d6510960ed7",
+   "lemma": "female",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "female"
+   ]
+  },
+  {
+   "id": "c5ee6776-5047-5642-8a83-0a1445b22d11",
+   "lemma": "ferryboat",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "ferryboat"
+   ]
+  },
+  {
+   "id": "c8cbc518-4ab3-59ae-8ed8-a9a886fb4bcd",
+   "lemma": "fiber",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fiber",
+    "fibre"
+   ]
+  },
+  {
+   "id": "98f2ecfa-6b9e-5a66-9cd1-930c73f76bab",
+   "lemma": "fictional",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fictional"
+   ]
+  },
+  {
+   "id": "65889911-0523-5cb9-811c-fafbfc27930a",
+   "lemma": "fierce",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fierce"
+   ]
+  },
+  {
+   "id": "3d8e8a8a-4dda-59d4-96fd-3c4cd14b631f",
+   "lemma": "fighting",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fighting"
+   ]
+  },
+  {
+   "id": "d54c6350-e5f7-536c-b3e1-33982b29fd3d",
+   "lemma": "figurative",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "figurative"
+   ]
+  },
+  {
+   "id": "e99175cf-de50-5224-9cd1-8b66591d1c0a",
+   "lemma": "file",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "file"
+   ]
+  },
+  {
+   "id": "62c33de3-a2c6-5d21-b2f7-abd28730addd",
+   "lemma": "filial",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "filial"
+   ]
+  },
+  {
+   "id": "4314b793-4fce-5f18-83f0-b8a08d4c8c47",
+   "lemma": "finance",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "finance"
+   ]
+  },
+  {
+   "id": "52515d76-7c5c-5f5c-978d-f098c0b57461",
+   "lemma": "financially",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "financially"
+   ]
+  },
+  {
+   "id": "48030aa1-f607-5e26-a9af-576f07c92028",
+   "lemma": "fine",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fine"
+   ]
+  },
+  {
+   "id": "b389e91a-edab-5d2e-ac7f-ad0b577c3d95",
+   "lemma": "fine",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fine"
+   ]
+  },
+  {
+   "id": "3cf5a4c8-3f40-5ead-a4cf-469556cf7798",
+   "lemma": "finely",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "finely"
+   ]
+  },
+  {
+   "id": "2a20e37a-76e1-593b-ae8f-55ae432b5032",
+   "lemma": "fingernail",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fingernail"
+   ]
+  },
+  {
+   "id": "8a9e0c72-07d3-57ed-a787-5b0308709d17",
+   "lemma": "fire",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fire"
+   ]
+  },
+  {
+   "id": "f66886d1-03e6-5ab6-9b02-fe5126aeea9e",
+   "lemma": "fire brigade",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fire brigade"
+   ]
+  },
+  {
+   "id": "24292cf0-dc89-5729-9f76-88c543208f40",
+   "lemma": "firearm",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "firearm"
+   ]
+  },
+  {
+   "id": "738051b2-1352-5bac-8100-c4a25d6e2263",
+   "lemma": "fireplace",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "fireplace"
+   ]
+  }
+ ]
+}

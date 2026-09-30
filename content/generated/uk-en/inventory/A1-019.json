@@ -1,0 +1,408 @@
+{
+ "chunk": "A1-019",
+ "level": "A1",
+ "lexemes": [
+  {
+   "id": "e90aca04-0b16-5c77-b8f9-b378ab248f95",
+   "lemma": "over",
+   "pos": "preposition",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "over"
+   ]
+  },
+  {
+   "id": "0dcf2f26-4eb7-5ce3-b01e-d06d059d9df3",
+   "lemma": "own",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "own"
+   ]
+  },
+  {
+   "id": "f38006e4-4e63-5b83-8abf-af80e4777c9f",
+   "lemma": "owner",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "owner"
+   ]
+  },
+  {
+   "id": "b8dbec3b-f04f-5fb8-88f8-aedb167bab2d",
+   "lemma": "p.m.",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "p.m.",
+    "pm",
+    "PM"
+   ]
+  },
+  {
+   "id": "0b9e1cae-0a3d-5aa1-8167-9bd18633e269",
+   "lemma": "page",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "page"
+   ]
+  },
+  {
+   "id": "f1f0ef62-5caa-582c-8055-b0fe2e143537",
+   "lemma": "paint",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "paint"
+   ]
+  },
+  {
+   "id": "3114b049-8474-5028-88f7-d6a399456249",
+   "lemma": "paint",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "paint"
+   ]
+  },
+  {
+   "id": "ab88aedd-6a26-587b-a40b-db84bca02ed9",
+   "lemma": "painting",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "painting"
+   ]
+  },
+  {
+   "id": "07933cea-fe3f-58c1-8035-be8e7b8e9688",
+   "lemma": "pair",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pair"
+   ]
+  },
+  {
+   "id": "a81efc3d-a7fb-57e0-a59a-24e1fa4a39d6",
+   "lemma": "palace",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "palace"
+   ]
+  },
+  {
+   "id": "d741791c-bed1-5d42-bad1-63f4a0df20ee",
+   "lemma": "pants",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pants"
+   ]
+  },
+  {
+   "id": "4a59ad95-30d7-55fa-af54-35cddf906015",
+   "lemma": "paper",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "paper"
+   ]
+  },
+  {
+   "id": "54523eaf-4463-5737-b190-80314c945b52",
+   "lemma": "paragraph",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "paragraph"
+   ]
+  },
+  {
+   "id": "d58d96fa-0f68-5d0c-9f8c-18b90834420f",
+   "lemma": "pardon",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pardon"
+   ]
+  },
+  {
+   "id": "90800243-93d5-5f94-bce8-c6db7dba952d",
+   "lemma": "parent",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "parent"
+   ]
+  },
+  {
+   "id": "1b83b430-d74d-5281-925a-7bb15f68f80d",
+   "lemma": "park",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "park"
+   ]
+  },
+  {
+   "id": "3dabd24c-32f2-5644-8bfc-6604ebb27fa7",
+   "lemma": "partner",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "partner"
+   ]
+  },
+  {
+   "id": "47983d2d-d977-50cd-aea5-187fe63b8ebc",
+   "lemma": "party",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "party"
+   ]
+  },
+  {
+   "id": "71926c0d-8c89-5335-9988-6ed40ab2fb4e",
+   "lemma": "past",
+   "pos": "adverb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "past"
+   ]
+  },
+  {
+   "id": "0b72401a-33fa-5660-8807-5e2a2cba455b",
+   "lemma": "past",
+   "pos": "preposition",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "past"
+   ]
+  },
+  {
+   "id": "bd4d0803-32e4-5165-8b52-ed0b16e46b9a",
+   "lemma": "pay",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pay"
+   ]
+  },
+  {
+   "id": "2f0cf759-0f1b-54c6-99e1-44ccd51eaf85",
+   "lemma": "pay",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pay"
+   ]
+  },
+  {
+   "id": "f46d3909-52e2-5d29-b8b8-1f2215392f5c",
+   "lemma": "peace",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "peace"
+   ]
+  },
+  {
+   "id": "f150b353-e313-5e9d-bb63-15822a7dc5d8",
+   "lemma": "pen",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pen"
+   ]
+  },
+  {
+   "id": "4f69205f-d626-5dc6-a0d4-d5bc95cd4aca",
+   "lemma": "pencil",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pencil"
+   ]
+  },
+  {
+   "id": "329f9d4d-59cf-5252-a53e-afe2bef25106",
+   "lemma": "people",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "people"
+   ]
+  },
+  {
+   "id": "4d207665-34c7-526d-a6cd-961d154fc8f6",
+   "lemma": "period",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "period"
+   ]
+  },
+  {
+   "id": "dad82037-0fa3-57e3-a452-be5bee70942b",
+   "lemma": "person",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "person"
+   ]
+  },
+  {
+   "id": "ba85c355-ff9f-5dd7-878d-1fcccf772999",
+   "lemma": "personal",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "personal"
+   ]
+  },
+  {
+   "id": "dddbeb4c-e080-59f4-b881-5c8902268342",
+   "lemma": "pet",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pet"
+   ]
+  },
+  {
+   "id": "c0760313-755b-5015-bd3a-a91df822b7cf",
+   "lemma": "phone",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "phone"
+   ]
+  },
+  {
+   "id": "8479b3cb-7b9f-54dd-8415-abb1153cc1de",
+   "lemma": "phone",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "phone"
+   ]
+  },
+  {
+   "id": "5bee5d9a-4ad4-5a54-8b5e-08b2a4f9c9f9",
+   "lemma": "photo",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "photo"
+   ]
+  },
+  {
+   "id": "3567c18d-b338-5b35-a991-9ab7de9812c6",
+   "lemma": "piano",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "piano"
+   ]
+  },
+  {
+   "id": "8acbca7b-4f4f-5b77-abee-04df79239f01",
+   "lemma": "pick",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pick"
+   ]
+  },
+  {
+   "id": "f05a3eec-61f8-51a5-aba8-41e422592c23",
+   "lemma": "picnic",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "picnic"
+   ]
+  },
+  {
+   "id": "7890d561-8f53-5b90-9c8a-d4a7cb1e40f2",
+   "lemma": "picture",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "picture"
+   ]
+  },
+  {
+   "id": "a2fa2f28-032b-522a-b38a-e790c41d33c4",
+   "lemma": "piece",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "piece"
+   ]
+  },
+  {
+   "id": "f2165600-120c-59d3-ad87-d64a3d239dcb",
+   "lemma": "pig",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pig"
+   ]
+  },
+  {
+   "id": "6f1243b7-48fa-5efe-abae-32b2a44cae03",
+   "lemma": "pink",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "cefrj-1.6",
+   "acceptedForms": [
+    "pink"
+   ]
+  }
+ ]
+}
