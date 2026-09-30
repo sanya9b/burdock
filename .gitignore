@@ -79,3 +79,7 @@ desktop.ini
 logs/
 tmp/
 temp/
+
+# editor and agent scratch
+.vscode/
+.tmp-*/
