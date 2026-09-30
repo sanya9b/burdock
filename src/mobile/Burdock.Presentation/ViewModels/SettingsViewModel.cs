@@ -87,9 +87,6 @@ public sealed partial class SettingsViewModel : ObservableObject
         RetentionChips.Add(new ChipOption(nameof(RetentionPreset.Standard), AppResources.Settings_Retention_Standard, RetentionPreset.Standard));
         RetentionChips.Add(new ChipOption(nameof(RetentionPreset.Maximum), AppResources.Settings_Retention_Max, RetentionPreset.Maximum));
 
-        PronunciationChips.Add(new ChipOption(nameof(PronunciationAccent.American), AppResources.Settings_Pronunciation_American, PronunciationAccent.American));
-        PronunciationChips.Add(new ChipOption(nameof(PronunciationAccent.British), AppResources.Settings_Pronunciation_British, PronunciationAccent.British));
-
         ThemeChips.Add(new ChipOption(nameof(AppThemeMode.System), AppResources.Settings_Theme_System, AppThemeMode.System));
         ThemeChips.Add(new ChipOption(nameof(AppThemeMode.Light), AppResources.Settings_Theme_Light, AppThemeMode.Light));
         ThemeChips.Add(new ChipOption(nameof(AppThemeMode.Dark), AppResources.Settings_Theme_Dark, AppThemeMode.Dark));
@@ -105,7 +102,11 @@ public sealed partial class SettingsViewModel : ObservableObject
 
     public ObservableCollection<ChipOption> ThemeChips { get; } = [];
 
-    public ObservableCollection<ChipOption> PronunciationChips { get; } = [];
+    /// <summary>Voices of the content catalogue (ADR 0019); empty until pack audio is available, then the system voice is all there is.</summary>
+    public ObservableCollection<VoiceOption> VoiceOptions { get; } = [];
+
+    [ObservableProperty]
+    private bool _hasVoices;
 
     /// <summary>Android opens the system voice settings; iOS has no such link, so the hint spells out the path.</summary>
     public bool CanOpenVoiceSettings => _speech.CanOpenSystemVoiceSettings;
@@ -131,7 +132,7 @@ public sealed partial class SettingsViewModel : ObservableObject
             SelectSingle(LevelChips, chip => chip.Value is CefrLevel l && l == settings.Level);
             SelectSingle(RetentionChips, chip => chip.Value is RetentionPreset r && r == settings.Retention);
             SelectSingle(ThemeChips, chip => chip.Value is AppThemeMode mode && mode == _theme.Mode);
-            SelectSingle(PronunciationChips, chip => chip.Value is PronunciationAccent accent && accent == _speech.Accent);
+            await LoadVoicesAsync(cancellationToken).ConfigureAwait(true);
             foreach (var chip in TopicChips)
             {
                 chip.IsSelected = chip.Value is TopicId topic && settings.Topics.Contains(topic);
@@ -198,22 +199,42 @@ public sealed partial class SettingsViewModel : ObservableObject
         }
     }
 
-    /// <summary>Accent is a device preference, not a synced learner setting; the sample word confirms the new voice at once.</summary>
+    /// <summary>The voice is a device preference used everywhere (owner, 30.09.2026), not a synced learner setting; the sample confirms it at once.</summary>
     [RelayCommand]
-    private Task SelectPronunciationAsync(ChipOption option)
+    private Task SelectVoiceAsync(VoiceOption option)
     {
         ArgumentNullException.ThrowIfNull(option);
-        SelectSingle(PronunciationChips, chip => ReferenceEquals(chip, option));
-        if (option.Value is PronunciationAccent accent)
+        foreach (var candidate in VoiceOptions)
         {
-            _speech.Accent = accent;
+            candidate.IsSelected = ReferenceEquals(candidate, option);
         }
 
-        return _speech.SpeakEnglishAsync(AppResources.Settings_Voice_SampleWord, CancellationToken.None);
+        _speech.SelectVoice(option.Voice);
+        return _speech.PlaySampleAsync(option.Voice.Id, CancellationToken.None);
+    }
+
+    [RelayCommand]
+    private Task PreviewVoiceAsync(VoiceOption option)
+    {
+        ArgumentNullException.ThrowIfNull(option);
+        return _speech.PlaySampleAsync(option.Voice.Id, CancellationToken.None);
     }
 
     [RelayCommand]
     private Task TestVoiceAsync(CancellationToken cancellationToken) => _speech.SpeakEnglishAsync(AppResources.Settings_Voice_SampleWord, cancellationToken);
+
+    private async Task LoadVoicesAsync(CancellationToken cancellationToken)
+    {
+        var voices = await _speech.GetVoicesAsync(cancellationToken).ConfigureAwait(true);
+        VoiceOptions.Clear();
+        var selected = _speech.Voice is { } stored && voices.Any(v => v.Id == stored) ? stored : voices.Count > 0 ? voices[0].Id : (VoiceId?)null;
+        foreach (var voice in voices)
+        {
+            VoiceOptions.Add(new VoiceOption(voice, VoiceText.Describe(voice)) { IsSelected = voice.Id == selected });
+        }
+
+        HasVoices = VoiceOptions.Count > 0;
+    }
 
     [RelayCommand]
     private Task OpenVoiceSettingsAsync() => _speech.OpenSystemVoiceSettingsAsync();

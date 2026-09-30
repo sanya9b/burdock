@@ -15,10 +15,11 @@ content/
 │   └── derived/           # малі похідні файли з атрибуцією (наприклад, частотні смуги для ~10k лем, коли джерело затверджене)
 ├── pipeline/
 │   ├── Burdock.ContentPipeline/        # консольний застосунок .NET 10 (System.CommandLine)
-│   ├── Burdock.ContentPipeline.Tests/  # xunit v3
+│   ├── audio/                          # render_audio.py (Kokoro-82M), requirements.txt, models/ (.gitignore)
 │   ├── prompts/                        # translate-v3.md, examples-v2.md, classify-v2.md, review-v2.md
 │   ├── filters/                        # offensive-en.txt, offensive-uk.txt, russisms-uk.csv
 │   └── appsettings.json                # константи (розд. 3.16 специфікації), без секретів
+├── seed/                  # стартовий пакет для розробки + seed/audio/ (аудіо 4 голосів, потрапляє в застосунок як MauiAsset)
 ├── own-lists/             # CSV / Markdown-списки власника (імпортуються зі статусом human_reviewed)
 ├── review/
 │   ├── REVIEWER_GUIDE.md  # інструкція рецензента (що перевіряти, що заборонено копіювати)
@@ -54,6 +55,9 @@ burdock-content review ai --level A1                # Claude Opus 5.5, рубр�
 burdock-content review export --stratum A1/food --format md   # → content/review/queues/
 #    ... рецензент заповнює verdict / edited_value / reason_code ...
 burdock-content review import --file content/review/queues/2026-10-14-a1-food.md
+
+# 3а. Аудіо вимови (ADR 0019; див. content/pipeline/audio/README.md)
+burdock-content audio render --pack content/seed/uk-en.free-pool.seed.json --out content/seed/audio --python .venv/Scripts/python.exe
 
 # 4. Публікація та пакети
 burdock-content lint                                # ліцензії, текст, схема

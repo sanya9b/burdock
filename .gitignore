@@ -52,6 +52,7 @@ venv/
 
 # Content pipeline artifacts
 content/packs/
+content/pipeline/audio/models/
 content/sources/raw/
 content/review/tmp/
 *.sqlite-journal

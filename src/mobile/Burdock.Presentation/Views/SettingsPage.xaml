@@ -14,6 +14,7 @@
              Title="{x:Static strings:AppResources.Settings_Title}">
     <!-- S-18 «Налаштування» (spec 03): sections rotation / notifications / learning / appearance; every change saves after a pause with a toast. Pro locks arrive with entitlements (phase 5). -->
     <ContentPage.Resources>
+        <toolkit:InvertedBoolConverter x:Key="InvertedBoolConverter" />
         <toolkit:IsEqualConverter x:Key="IsEqualConverter" />
     </ContentPage.Resources>
 
@@ -97,12 +98,35 @@
                                 <controls:ChipBar Items="{Binding RetentionChips}" SelectCommand="{Binding SelectRetentionCommand}" Wrap="True" />
                             </VerticalStackLayout>
                             <BoxView Style="{StaticResource Divider}" />
-                            <!-- Вимова (spec 12 §3.9, ADR 0019): accent for the voice and the IPA; better system voices live in the OS settings -->
+                            <!-- Голос (ADR 0019): one voice for the whole app; each row previews its sample; system voices remain the fallback -->
                             <VerticalStackLayout Spacing="{StaticResource Space3}">
-                                <Label Text="{x:Static strings:AppResources.Settings_Pronunciation_Title}" Style="{StaticResource TypeTitleMd}" />
-                                <controls:ChipBar Items="{Binding PronunciationChips}" SelectCommand="{Binding SelectPronunciationCommand}" Wrap="True" />
+                                <Label Text="{x:Static strings:AppResources.Settings_Voice_Title}" Style="{StaticResource TypeTitleMd}" />
+                                <VerticalStackLayout Spacing="{StaticResource Space2}" BindableLayout.ItemsSource="{Binding VoiceOptions}" IsVisible="{Binding HasVoices}">
+                                    <BindableLayout.ItemTemplate>
+                                        <DataTemplate x:DataType="vm:VoiceOption">
+                                            <Border Style="{StaticResource OptionCard}" Padding="{StaticResource ChipInset}">
+                                                <Border.GestureRecognizers>
+                                                    <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type vm:SettingsViewModel}}, Path=SelectVoiceCommand}" CommandParameter="{Binding .}" />
+                                                </Border.GestureRecognizers>
+                                                <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="{StaticResource Space3}">
+                                                    <Label Grid.Column="0" Text="{x:Static icons:Icon.CircleCheck}" Style="{StaticResource IconGlyphLg}" VerticalOptions="Center" IsVisible="{Binding IsSelected}"
+                                                           TextColor="{AppThemeBinding Light={StaticResource ColorBrandPrimaryLight}, Dark={StaticResource ColorBrandPrimaryDark}}" />
+                                                    <Label Grid.Column="0" Text="{x:Static icons:Icon.UserRound}" Style="{StaticResource IconGlyphLg}" VerticalOptions="Center" IsVisible="{Binding IsSelected, Converter={StaticResource InvertedBoolConverter}}"
+                                                           TextColor="{AppThemeBinding Light={StaticResource ColorTextTertiaryLight}, Dark={StaticResource ColorTextTertiaryDark}}" />
+                                                    <VerticalStackLayout Grid.Column="1" Spacing="0" VerticalOptions="Center">
+                                                        <Label Text="{Binding Title}" Style="{StaticResource TypeTitleMd}" />
+                                                        <Label Text="{Binding Subtitle}" Style="{StaticResource TextTertiary}" />
+                                                    </VerticalStackLayout>
+                                                    <controls:PushButton Grid.Column="2" Style="{StaticResource PushIcon}" Icon="{x:Static icons:Icon.Volume2}"
+                                                                         Command="{Binding Source={RelativeSource AncestorType={x:Type vm:SettingsViewModel}}, Path=PreviewVoiceCommand}" CommandParameter="{Binding .}"
+                                                                         SemanticProperties.Description="{x:Static strings:AppResources.Settings_Voice_Preview_Button}" />
+                                                </Grid>
+                                            </Border>
+                                        </DataTemplate>
+                                    </BindableLayout.ItemTemplate>
+                                </VerticalStackLayout>
+                                <controls:PushButton Style="{StaticResource PushTonal}" HeightRequest="{StaticResource SizeTouchTargetMin}" Text="{x:Static strings:AppResources.Settings_Voice_Test_Button}" Icon="{x:Static icons:Icon.Volume2}" Command="{Binding TestVoiceCommand}" IsVisible="{Binding HasVoices, Converter={StaticResource InvertedBoolConverter}}" />
                                 <Label Text="{Binding VoiceHint}" Style="{StaticResource TextTertiary}" />
-                                <controls:PushButton Style="{StaticResource PushTonal}" HeightRequest="{StaticResource SizeTouchTargetMin}" Text="{x:Static strings:AppResources.Settings_Voice_Test_Button}" Icon="{x:Static icons:Icon.Volume2}" Command="{Binding TestVoiceCommand}" />
                                 <Label Text="{x:Static strings:AppResources.Settings_Voice_Open_Button}" Style="{StaticResource TextLink}" HorizontalOptions="Center" IsVisible="{Binding CanOpenVoiceSettings}">
                                     <Label.GestureRecognizers>
                                         <TapGestureRecognizer Command="{Binding OpenVoiceSettingsCommand}" />

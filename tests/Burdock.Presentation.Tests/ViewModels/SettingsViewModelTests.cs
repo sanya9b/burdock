@@ -3,6 +3,7 @@ using Burdock.Domain.SharedKernel;
 using Burdock.Domain.Vocabulary;
 using Burdock.Presentation.Resources.Strings;
 using Burdock.Presentation.Services;
+using Burdock.Presentation.Tests.Fakes;
 using Burdock.Presentation.ViewModels;
 using ViewState = Burdock.Presentation.ViewModels.ViewState;
 
@@ -97,23 +98,56 @@ public sealed class SettingsViewModelTests
     }
 
     [Fact]
-    public async Task Pronunciation_is_a_device_choice_that_switches_the_accent_and_plays_a_sample()
+    public async Task The_voice_list_comes_from_the_catalogue_with_the_first_voice_preselected()
     {
         var (harness, vm) = await OpenAsync(TwoTopics);
-        vm.PronunciationChips.Single(c => c.IsSelected).Key.ShouldBe(nameof(PronunciationAccent.American));
+
+        vm.HasVoices.ShouldBeTrue();
+        vm.VoiceOptions.Select(o => o.Title).ShouldBe(["Heart", "George"]);
+        vm.VoiceOptions[0].IsSelected.ShouldBeTrue();
+        vm.VoiceOptions[1].Subtitle.ShouldBe("Британська · чоловічий голос");
         vm.CanOpenVoiceSettings.ShouldBeTrue();
         vm.VoiceHint.ShouldBe(AppResources.Settings_Voice_Hint);
+        harness.Speech.Voice.ShouldBeNull();
+    }
 
-        await vm.SelectPronunciationCommand.ExecuteAsync(vm.PronunciationChips.Single(c => c.Key == nameof(PronunciationAccent.British)));
-        await vm.TestVoiceCommand.ExecuteAsync(null);
+    [Fact]
+    public async Task Selecting_a_voice_is_a_device_choice_that_plays_its_sample_and_touches_no_learner_settings()
+    {
+        var (harness, vm) = await OpenAsync(TwoTopics);
+
+        await vm.SelectVoiceCommand.ExecuteAsync(vm.VoiceOptions[1]);
+        await vm.PreviewVoiceCommand.ExecuteAsync(vm.VoiceOptions[0]);
         await vm.OpenVoiceSettingsCommand.ExecuteAsync(null);
         await Task.Delay(600, Ct);
 
+        vm.VoiceOptions[1].IsSelected.ShouldBeTrue();
+        vm.VoiceOptions[0].IsSelected.ShouldBeFalse();
+        harness.Speech.Voice.ShouldBe(FakeSpeechService.George.Id);
         harness.Speech.Accent.ShouldBe(PronunciationAccent.British);
-        harness.Speech.Spoken.ShouldBe([AppResources.Settings_Voice_SampleWord, AppResources.Settings_Voice_SampleWord]);
+        harness.Speech.Sampled.ShouldBe([FakeSpeechService.George.Id, FakeSpeechService.Heart.Id]);
         harness.Speech.VoiceSettingsOpened.ShouldBe(1);
         harness.Toast.Messages.ShouldBeEmpty();
         harness.LearnerContext.Settings.ShouldBe(TwoTopics);
+    }
+
+    [Fact]
+    public async Task A_stored_voice_stays_selected_and_without_a_catalogue_only_the_system_test_button_remains()
+    {
+        var harness = new ViewModelHarness(TwoTopics);
+        harness.Speech.SelectVoice(FakeSpeechService.George);
+        var vm = harness.Resolve<SettingsViewModel>();
+        await vm.LoadAsync(Ct);
+        vm.VoiceOptions.Single(o => o.IsSelected).Title.ShouldBe("George");
+
+        var bare = new ViewModelHarness(TwoTopics);
+        bare.Speech.Voices.Clear();
+        var bareVm = bare.Resolve<SettingsViewModel>();
+        await bareVm.LoadAsync(Ct);
+        await bareVm.TestVoiceCommand.ExecuteAsync(null);
+
+        bareVm.HasVoices.ShouldBeFalse();
+        bare.Speech.Spoken.ShouldBe([AppResources.Settings_Voice_SampleWord]);
     }
 
     [Fact]

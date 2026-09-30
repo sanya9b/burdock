@@ -181,13 +181,13 @@ public sealed partial class TodayViewModel : ObservableObject
 
     [RelayCommand]
     private Task SpeakHeroAsync(CancellationToken cancellationToken)
-        => Hero is { } hero ? _speech.SpeakEnglishAsync(hero.Lemma, cancellationToken) : Task.CompletedTask;
+        => Hero is { } hero ? _speech.SpeakWordAsync(Domain.SharedKernel.LexemeId.From(hero.LexemeId), hero.Lemma, cancellationToken) : Task.CompletedTask;
 
     [RelayCommand(CanExecute = nameof(HasWords))]
     private Task StartSessionAsync()
         => _navigation.GoToAsync(Routes.Learn.Session, new Dictionary<string, object>(StringComparer.Ordinal) { ["size"] = "10" });
 
-    private static WordTile ToTile(PlannedWord word, PronunciationAccent accent)
+    private static WordTile ToTile(PlannedWord word, Domain.Vocabulary.PronunciationAccent accent)
     {
         var entry = word.Entry;
         var topic = entry.Lexeme.Topics.Count > 0 ? entry.Lexeme.Topics[0].Slug : string.Empty;

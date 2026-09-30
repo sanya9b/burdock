@@ -1,4 +1,5 @@
 using Burdock.Domain.Learning;
+using Burdock.Domain.Vocabulary;
 using Burdock.Presentation.Resources.Strings;
 using Burdock.Presentation.ViewModels;
 using ViewState = Burdock.Presentation.ViewModels.ViewState;
@@ -113,13 +114,14 @@ public sealed class WordCardViewModelTests
     }
 
     [Fact]
-    public async Task Speak_reads_the_lemma_in_english()
+    public async Task Speak_asks_for_the_word_in_the_learner_voice()
     {
         var (harness, vm) = await OpenAsync(5);
 
         await vm.SpeakCommand.ExecuteAsync(null);
 
-        harness.Speech.Spoken.ShouldBe(["word5"]);
+        harness.Speech.SpokenWords.ShouldBe([(ViewModelHarness.Word(5).Id, "word5")]);
+        harness.Speech.Spoken.ShouldBeEmpty();
     }
 
     [Theory]

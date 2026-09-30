@@ -1,4 +1,5 @@
 using Android.Content;
+using Android.Media;
 using Android.Speech.Tts;
 using AndroidTts = Android.Speech.Tts.TextToSpeech;
 
@@ -8,6 +9,41 @@ public sealed partial class SpeechService
 {
     private AndroidTts? _engine;
     private Task<bool>? _engineReady;
+    private MediaPlayer? _player;
+
+    /// <summary>Pack clips are MauiAssets (assets/content/audio/…); M4A stays uncompressed in the APK, so a file descriptor plays it directly.</summary>
+    private partial Task<bool> PlatformPlayAsync(string assetPath, CancellationToken cancellationToken)
+    {
+        if (cancellationToken.IsCancellationRequested)
+        {
+            return Task.FromResult(false);
+        }
+
+        try
+        {
+            _engine?.Stop();
+            _player ??= new MediaPlayer();
+            _player.Reset();
+            using var descriptor = Android.App.Application.Context.Assets?.OpenFd(assetPath);
+            if (descriptor is null)
+            {
+                return Task.FromResult(false);
+            }
+
+            _player.SetDataSource(descriptor.FileDescriptor, descriptor.StartOffset, descriptor.Length);
+            _player.Prepare();
+            _player.Start();
+            return Task.FromResult(true);
+        }
+        catch (Java.IO.IOException)
+        {
+            return Task.FromResult(false);
+        }
+        catch (Java.Lang.IllegalStateException)
+        {
+            return Task.FromResult(false);
+        }
+    }
 
     private async partial Task PlatformSpeakAsync(string text, string country, float rate, CancellationToken cancellationToken)
     {

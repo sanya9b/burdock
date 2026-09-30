@@ -38,6 +38,7 @@ public static class InfrastructureServiceCollectionExtensions
         services.AddSingleton<IPrivacyConsent, PreferencesPrivacyConsent>();
         services.AddSingleton<IRandom, SystemRandom>();
         services.AddSingleton<IContentPackSource, BundledContentPackSource>();
+        services.AddSingleton<IPronunciationAudio, BundledPronunciationAudio>();
 
         return services;
     }

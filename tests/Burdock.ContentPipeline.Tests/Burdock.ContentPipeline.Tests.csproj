@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Content pipeline stages (spec 08): option parsing and the artefacts other parts of the system read. -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\content\pipeline\Burdock.ContentPipeline\Burdock.ContentPipeline.csproj" />
+  </ItemGroup>
+</Project>

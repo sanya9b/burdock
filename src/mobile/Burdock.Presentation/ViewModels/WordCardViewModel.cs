@@ -3,6 +3,7 @@ using System.Text;
 using Burdock.Application.UseCases.Words;
 using Burdock.Domain.Learning;
 using Burdock.Domain.SharedKernel;
+using Burdock.Domain.Vocabulary;
 using Burdock.Presentation.Navigation;
 using Burdock.Presentation.Resources.Strings;
 using CommunityToolkit.Mvvm.ComponentModel;
@@ -167,7 +168,8 @@ public sealed partial class WordCardViewModel : ObservableObject, IQueryAttribut
     private void Reveal() => TranslationRevealed = true;
 
     [RelayCommand]
-    private Task SpeakAsync(CancellationToken cancellationToken) => _speech.SpeakEnglishAsync(Lemma, cancellationToken);
+    private Task SpeakAsync(CancellationToken cancellationToken)
+        => _lexemeId is { } id ? _speech.SpeakWordAsync(id, Lemma, cancellationToken) : _speech.SpeakEnglishAsync(Lemma, cancellationToken);
 
     /// <summary>The example sentence read aloud: a word in context is pronounced far more naturally than in isolation.</summary>
     [RelayCommand]
@@ -249,22 +251,33 @@ public sealed partial class WordCardViewModel : ObservableObject, IQueryAttribut
     private partial void LogLoadFailed(Exception exception);
 }
 
-/// <summary>Pronunciation variety for spoken words and the IPA shown next to them (spec 12: GA by default, RP by choice).</summary>
-public enum PronunciationAccent
-{
-    American,
-    British,
-}
-
-/// <summary>English speech on the device (T7 as amended by ADR 0019): the best installed voice of the chosen accent; the choice persists on the device.</summary>
+/// <summary>
+/// English pronunciation (ADR 0019): pack audio in the learner's voice when the content has it, otherwise the best installed
+/// system voice of the same accent. One voice per device, used everywhere; the choice persists in Preferences.
+/// </summary>
 public interface ISpeechService
 {
-    PronunciationAccent Accent { get; set; }
+    /// <summary>The learner's explicit choice; null means «the first voice of the catalogue».</summary>
+    VoiceId? Voice { get; }
+
+    /// <summary>Accent of the effective voice; drives the IPA shown next to words.</summary>
+    PronunciationAccent Accent { get; }
 
     /// <summary>True where the app can open the system voice settings (Android); elsewhere the settings screen shows a text hint.</summary>
     bool CanOpenSystemVoiceSettings { get; }
 
+    Task<IReadOnlyList<PronunciationVoice>> GetVoicesAsync(CancellationToken cancellationToken);
+
+    void SelectVoice(PronunciationVoice voice);
+
+    /// <summary>The word in the learner's voice from the pack, or the system voice when there is no clip.</summary>
+    Task SpeakWordAsync(LexemeId lexemeId, string lemma, CancellationToken cancellationToken);
+
+    /// <summary>Free text (sentences, samples) through the system voice.</summary>
     Task SpeakEnglishAsync(string text, CancellationToken cancellationToken);
+
+    /// <summary>The sample phrase of a voice for the picker (pack clip, else the system voice).</summary>
+    Task PlaySampleAsync(VoiceId voice, CancellationToken cancellationToken);
 
     Task OpenSystemVoiceSettingsAsync();
 }

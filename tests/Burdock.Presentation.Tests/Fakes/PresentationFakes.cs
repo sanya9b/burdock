@@ -39,7 +39,20 @@ public sealed class FakeNavigationService : INavigationService
 
 public sealed class FakeSpeechService : ISpeechService
 {
+    public static readonly PronunciationVoice Heart = new(VoiceId.From("af_heart"), "Heart", PronunciationAccent.American, VoiceGender.Female);
+    public static readonly PronunciationVoice George = new(VoiceId.From("bm_george"), "George", PronunciationAccent.British, VoiceGender.Male);
+
+    /// <summary>Free text spoken through the system voice.</summary>
     public List<string> Spoken { get; } = [];
+
+    /// <summary>Words asked in the learner's voice (lexeme id, lemma).</summary>
+    public List<(LexemeId Lexeme, string Lemma)> SpokenWords { get; } = [];
+
+    public List<VoiceId> Sampled { get; } = [];
+
+    public List<PronunciationVoice> Voices { get; } = [Heart, George];
+
+    public VoiceId? Voice { get; private set; }
 
     public PronunciationAccent Accent { get; set; } = PronunciationAccent.American;
 
@@ -47,9 +60,29 @@ public sealed class FakeSpeechService : ISpeechService
 
     public int VoiceSettingsOpened { get; private set; }
 
+    public Task<IReadOnlyList<PronunciationVoice>> GetVoicesAsync(CancellationToken cancellationToken) => Task.FromResult<IReadOnlyList<PronunciationVoice>>(Voices);
+
+    public void SelectVoice(PronunciationVoice voice)
+    {
+        Voice = voice.Id;
+        Accent = voice.Accent;
+    }
+
+    public Task SpeakWordAsync(LexemeId lexemeId, string lemma, CancellationToken cancellationToken)
+    {
+        SpokenWords.Add((lexemeId, lemma));
+        return Task.CompletedTask;
+    }
+
     public Task SpeakEnglishAsync(string text, CancellationToken cancellationToken)
     {
         Spoken.Add(text);
+        return Task.CompletedTask;
+    }
+
+    public Task PlaySampleAsync(VoiceId voice, CancellationToken cancellationToken)
+    {
+        Sampled.Add(voice);
         return Task.CompletedTask;
     }
 

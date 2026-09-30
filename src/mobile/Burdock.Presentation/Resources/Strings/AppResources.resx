@@ -253,11 +253,15 @@
   <data name="Settings_Theme_System" xml:space="preserve"><value>Системна</value></data>
   <data name="Settings_Theme_Light" xml:space="preserve"><value>Світла</value></data>
   <data name="Settings_Theme_Dark" xml:space="preserve"><value>Темна</value></data>
-  <data name="Settings_Pronunciation_Title" xml:space="preserve"><value>Вимова</value></data>
-  <data name="Settings_Pronunciation_American" xml:space="preserve"><value>Американська · GA</value></data>
-  <data name="Settings_Pronunciation_British" xml:space="preserve"><value>Британська · RP</value></data>
-  <data name="Settings_Voice_Hint" xml:space="preserve"><value>Голос звучить погано? Кращі голоси завантажуються в системних налаштуваннях мовлення</value></data>
-  <data name="Settings_Voice_Hint_NoLink" xml:space="preserve"><value>Голос звучить погано? Кращі голоси: Параметри → Доступність → Промовлений контент → Голоси</value></data>
+  <data name="Settings_Voice_Title" xml:space="preserve"><value>Голос</value></data>
+  <data name="Settings_Voice_Subtitle" xml:space="preserve"><value>{0} · {1}</value></data>
+  <data name="Settings_Voice_Accent_American" xml:space="preserve"><value>Американська</value></data>
+  <data name="Settings_Voice_Accent_British" xml:space="preserve"><value>Британська</value></data>
+  <data name="Settings_Voice_Gender_Female" xml:space="preserve"><value>жіночий голос</value></data>
+  <data name="Settings_Voice_Gender_Male" xml:space="preserve"><value>чоловічий голос</value></data>
+  <data name="Settings_Voice_Preview_Button" xml:space="preserve"><value>Послухати голос</value></data>
+  <data name="Settings_Voice_Hint" xml:space="preserve"><value>Слова без власного запису читає системний голос. Кращі системні голоси завантажуються в налаштуваннях мовлення</value></data>
+  <data name="Settings_Voice_Hint_NoLink" xml:space="preserve"><value>Слова без власного запису читає системний голос. Кращі голоси: Параметри → Доступність → Промовлений контент → Голоси</value></data>
   <data name="Settings_Voice_Test_Button" xml:space="preserve"><value>Послухати</value></data>
   <data name="Settings_Voice_Open_Button" xml:space="preserve"><value>Системні налаштування голосу</value></data>
   <data name="Settings_Voice_SampleWord" xml:space="preserve"><value>burdock</value></data>

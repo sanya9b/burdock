@@ -37,6 +37,8 @@
     <MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
     <!-- Bundled content packs (spec 08 section 3.10): single source of truth lives in content/seed, linked into the package as content/<file>. -->
     <MauiAsset Include="..\..\..\content\seed\*.json" LogicalName="content/%(Filename)%(Extension)" Link="Resources\Raw\content\%(Filename)%(Extension)" />
+    <!-- Seed pronunciation audio (ADR 0019): rendered by `burdock-content audio render`, one folder per voice plus audio-index.json. -->
+    <MauiAsset Include="..\..\..\content\seed\audio\**\*" LogicalName="content/audio/%(RecursiveDir)%(Filename)%(Extension)" Link="Resources\Raw\content\audio\%(RecursiveDir)%(Filename)%(Extension)" />
   </ItemGroup>
 
   <ItemGroup>

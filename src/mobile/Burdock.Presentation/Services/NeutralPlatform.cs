@@ -18,6 +18,9 @@ public sealed partial class SpeechService
     [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822:Mark members as static", Justification = "Implements the instance partial method the platform heads rely on.")]
     private partial Task PlatformSpeakAsync(string text, string country, float rate, CancellationToken cancellationToken) => Task.CompletedTask;
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822:Mark members as static", Justification = "Implements the instance partial method the platform heads rely on.")]
+    private partial Task<bool> PlatformPlayAsync(string assetPath, CancellationToken cancellationToken) => Task.FromResult(false);
+
     private static partial bool PlatformSupportsVoiceSettings() => false;
 
     private static partial Task PlatformOpenVoiceSettingsAsync() => Task.CompletedTask;

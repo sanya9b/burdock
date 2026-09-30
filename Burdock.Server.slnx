@@ -21,6 +21,7 @@
     <Project Path="src/shared/Burdock.Domain/Burdock.Domain.csproj" />
   </Folder>
   <Folder Name="/tests/">
+    <Project Path="tests/Burdock.ContentPipeline.Tests/Burdock.ContentPipeline.Tests.csproj" />
     <Project Path="tests/Burdock.Domain.Tests/Burdock.Domain.Tests.csproj" />
     <Project Path="tests/Burdock.Server.ArchitectureTests/Burdock.Server.ArchitectureTests.csproj" />
     <Project Path="tests/Burdock.Server.Tests/Burdock.Server.Tests.csproj" />

@@ -136,7 +136,7 @@ public sealed class TodayViewModelTests
 
         await vm.SpeakHeroCommand.ExecuteAsync(null);
 
-        harness.Speech.Spoken.ShouldBe([vm.Hero!.Lemma]);
+        harness.Speech.SpokenWords.ShouldBe([(Burdock.Domain.SharedKernel.LexemeId.From(vm.Hero!.LexemeId), vm.Hero.Lemma)]);
     }
 
     [Fact]

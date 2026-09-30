@@ -1,4 +1,5 @@
 using AVFoundation;
+using Foundation;
 
 namespace Burdock.Presentation.Services;
 
@@ -6,6 +7,37 @@ public sealed partial class SpeechService
 {
     private readonly AVSpeechSynthesizer _synthesizer = new();
     private AVSpeechSynthesisVoice? _voice;
+    private AVAudioPlayer? _player;
+
+    /// <summary>Pack clips are MauiAssets copied into the bundle under their logical path.</summary>
+    private partial Task<bool> PlatformPlayAsync(string assetPath, CancellationToken cancellationToken)
+    {
+        if (cancellationToken.IsCancellationRequested)
+        {
+            return Task.FromResult(false);
+        }
+
+        var path = Path.Combine(NSBundle.MainBundle.BundlePath, assetPath);
+        if (!File.Exists(path))
+        {
+            return Task.FromResult(false);
+        }
+
+        if (_synthesizer.Speaking)
+        {
+            _synthesizer.StopSpeaking(AVSpeechBoundary.Immediate);
+        }
+
+        _player?.Stop();
+        _player?.Dispose();
+        _player = AVAudioPlayer.FromUrl(NSUrl.FromFilename(path), out var error);
+        if (_player is null || error is not null)
+        {
+            return Task.FromResult(false);
+        }
+
+        return Task.FromResult(_player.Play());
+    }
 
     private partial Task PlatformSpeakAsync(string text, string country, float rate, CancellationToken cancellationToken)
     {
