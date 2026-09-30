@@ -1,0 +1,557 @@
+{
+ "chunk": "C1-005",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "4d9ac7cb-5e4f-51a9-a1a4-0d9293f9e89e",
+   "lemma": "call into question",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "call into question"
+   ],
+   "glossEn": "cast doubt on something",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "9fa34bbe-44bb-50e1-b231-189464f3b870",
+   "lemma": "callous",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "callous"
+   ],
+   "glossEn": "insensitive and cruelly disregarding others' feelings",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "7e1779b6-e5b7-57c8-9abf-bf0579747152",
+   "lemma": "cameo",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cameo"
+   ],
+   "glossEn": "brief appearance by a famous person in a film",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "cb4e4fda-2812-501f-80a1-1e59b006263d",
+   "lemma": "camouflage",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "camouflage"
+   ],
+   "glossEn": "coloring or covering that hides soldiers or equipment",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "04933deb-b02f-5278-809a-8553e5d17fe8",
+   "lemma": "candid",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "candid"
+   ],
+   "glossEn": "truthful and straightforward, frank",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "4ef7de17-0613-58e2-988d-55f3a29ff104",
+   "lemma": "canopy",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "canopy"
+   ],
+   "glossEn": "upper layer of branches in a forest",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "e7312218-328e-5fc0-8ae1-c31457a2b04b",
+   "lemma": "canyon",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "canyon"
+   ],
+   "glossEn": "deep gorge, usually with a river",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "ea6d025d-6813-5946-bbca-65df7b3d73ad",
+   "lemma": "caregiver",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "caregiver"
+   ],
+   "glossEn": "person who looks after someone sick or elderly",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "33af4cca-5f12-5631-a299-c88e7c49f4a8",
+   "lemma": "caricature",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "caricature"
+   ],
+   "glossEn": "drawing that exaggerates someone's features for comic effect",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "987a54c9-41b5-5b68-b54b-12b898e0a5e2",
+   "lemma": "carry-on",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "carry-on"
+   ],
+   "glossEn": "small bag taken into the aircraft cabin",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "e4a623d4-72f1-5ffc-a230-c0f58ac44636",
+   "lemma": "case study",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "case study"
+   ],
+   "glossEn": "detailed study of a single person, group or event",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "ee37439e-efbc-57a8-951e-68aa3287391c",
+   "lemma": "cash flow",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cash flow"
+   ],
+   "glossEn": "movement of money into and out of a business",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "80bb2d25-a50d-5d46-b45a-c2a636f489d2",
+   "lemma": "casualty",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "casualty"
+   ],
+   "glossEn": "person killed or injured in war or an accident",
+   "proposedTopics": [
+    "military",
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "86941eec-0316-58ba-994d-2a891d5e2372",
+   "lemma": "categorically",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "categorically"
+   ],
+   "glossEn": "absolutely and without exception",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "9c8a3581-7971-5e4c-9db7-92ff68a636e5",
+   "lemma": "causation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "causation"
+   ],
+   "glossEn": "relationship in which one thing causes another",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "cae274e0-aa68-5b9f-bb27-835c41d6315a",
+   "lemma": "ceasefire",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ceasefire"
+   ],
+   "glossEn": "agreed temporary halt to fighting",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "0fbc0cf3-c860-5ff5-9890-56b27dbc0ab4",
+   "lemma": "censorship",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "censorship"
+   ],
+   "glossEn": "suppression of speech or publications by authority",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "68582560-5ac4-502e-9469-275af08602bd",
+   "lemma": "censure",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "censure"
+   ],
+   "glossEn": "express severe official disapproval of",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "f29c2cd8-7a46-5828-90ac-c89ef4581b30",
+   "lemma": "census",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "census"
+   ],
+   "glossEn": "official count of a population",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "ad5de7d2-f847-5eb9-a244-d68a0c4a6c65",
+   "lemma": "charismatic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "charismatic"
+   ],
+   "glossEn": "having a compelling charm that inspires devotion",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "ca505946-f98b-52a5-bb8b-60f820dc2738",
+   "lemma": "chatbot",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chatbot"
+   ],
+   "glossEn": "program that holds text conversations with users",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "199ee777-5262-5664-87d8-4afb8c521170",
+   "lemma": "chiefly",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chiefly"
+   ],
+   "glossEn": "mainly, principally",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "596892ea-ed62-50db-a0b0-78adad9de917",
+   "lemma": "chime in",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chime in"
+   ],
+   "glossEn": "join a conversation with a remark",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "3f89e77a-e347-5500-8c4e-8b10a8392218",
+   "lemma": "chip in",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chip in"
+   ],
+   "glossEn": "contribute money or help together with others",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "9b5dc880-a6b0-5aaa-baa3-47e243d73c08",
+   "lemma": "chore",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chore"
+   ],
+   "glossEn": "routine household task, often dull",
+   "proposedTopics": [],
+   "levelConfidence": 0.6
+  },
+  {
+   "id": "80d4239e-77bc-53ae-a932-1a2d0d832e60",
+   "lemma": "choreography",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "choreography"
+   ],
+   "glossEn": "design of dance movements for a performance",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "24174b89-34c6-5bb9-ae42-e3a74c035c67",
+   "lemma": "chronic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chronic"
+   ],
+   "glossEn": "lasting a long time or constantly recurring",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b1e79ffb-1be5-5c4c-b632-5eb1d0f7916a",
+   "lemma": "cinematography",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cinematography"
+   ],
+   "glossEn": "art of camera work and lighting in film",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "41f1b38a-67b1-5075-901f-444933db725a",
+   "lemma": "circumvent",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "circumvent"
+   ],
+   "glossEn": "find a way around an obstacle or rule",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "88c098b4-2986-5f48-bed6-9efb2c20f115",
+   "lemma": "citation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "citation"
+   ],
+   "glossEn": "reference to a source in academic writing",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "e247ec2b-69f4-53cd-9c8a-1b45f9dd450f",
+   "lemma": "cite",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cite"
+   ],
+   "glossEn": "refer to a source as evidence or authority",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "b6503d75-3a2d-5e5a-88ca-988c20bd71a9",
+   "lemma": "civilian",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "civilian"
+   ],
+   "glossEn": "person who is not a member of the armed forces",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "d8e319ec-fad1-5a52-84af-ad76eefa0829",
+   "lemma": "clear the air",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "clear the air"
+   ],
+   "glossEn": "resolve tension by talking openly",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "b2edf4e8-43ed-571d-894c-82cd668337ec",
+   "lemma": "clearance",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "clearance"
+   ],
+   "glossEn": "sale of remaining stock at reduced prices",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b1314e94-a363-54b3-9e78-fb4cc66955ab",
+   "lemma": "cliché",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cliché"
+   ],
+   "glossEn": "phrase or idea used so often it feels unoriginal",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "5871bedb-d402-548e-90e3-4181faa24208",
+   "lemma": "clickbait",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "clickbait"
+   ],
+   "glossEn": "sensational headline designed to attract clicks",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "a8b6316e-b397-5303-9c53-ab6949f974f7",
+   "lemma": "cliffhanger",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cliffhanger"
+   ],
+   "glossEn": "ending that leaves the audience in suspense",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "6f52fdcf-d154-53e7-9d5a-9ffaf7edb096",
+   "lemma": "clingy",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "clingy"
+   ],
+   "glossEn": "too emotionally dependent on someone",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "ae2be601-ca92-5a07-a1fa-dc5e9cee926f",
+   "lemma": "cloud computing",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cloud computing"
+   ],
+   "glossEn": "storing and processing data on remote internet servers",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "9cd72954-b4a6-517b-a8c0-b8470c4f3f7c",
+   "lemma": "clunky",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "clunky"
+   ],
+   "glossEn": "awkward and inefficient to use",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  }
+ ]
+}

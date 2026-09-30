@@ -1,0 +1,558 @@
+{
+ "chunk": "C1-009",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "6828b864-5a87-5045-95f7-2504415f8c80",
+   "lemma": "defer",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "defer"
+   ],
+   "glossEn": "postpone something to a later time",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "93e70ac8-55bf-5e23-910e-996960c3da8e",
+   "lemma": "deflation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deflation"
+   ],
+   "glossEn": "general fall in prices across an economy",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "8c0d6917-35b9-5451-a318-69711e6f1445",
+   "lemma": "degradation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "degradation"
+   ],
+   "glossEn": "process of a condition or environment becoming worse",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "83dce862-6684-5e22-bd35-8abab0f37c69",
+   "lemma": "dehydration",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dehydration"
+   ],
+   "glossEn": "harmful loss of water from the body",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "5c3a3f3c-6936-5082-9290-f3a10625c914",
+   "lemma": "delineate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "delineate"
+   ],
+   "glossEn": "describe or outline something precisely",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "89ec31c1-3f58-5b24-9278-591911872614",
+   "lemma": "demeanor",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "demeanor"
+   ],
+   "glossEn": "outward behavior and manner",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "7b0b45b7-b3f9-5923-9664-45d67223b2da",
+   "lemma": "demographic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "demographic"
+   ],
+   "glossEn": "relating to the structure of a population",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "16d35abd-903d-589e-9599-f6188256622d",
+   "lemma": "denote",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "denote"
+   ],
+   "glossEn": "be a sign of; indicate or mean",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "5294bb4f-f538-5c40-857b-78fa5ab4a10f",
+   "lemma": "dent",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dent"
+   ],
+   "glossEn": "small hollow made by a blow or pressure",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "a4c7e4a7-0afa-57f2-ad3e-7351dc52ceaf",
+   "lemma": "deplete",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deplete"
+   ],
+   "glossEn": "use up a supply until little remains",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "97947ddf-6b32-52e6-b546-3c9e7c04014c",
+   "lemma": "deploy",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deploy"
+   ],
+   "glossEn": "move troops or equipment into position for action",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "66011ed9-7237-59c6-9a33-1bb8722539e0",
+   "lemma": "deployment",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deployment"
+   ],
+   "glossEn": "putting new software into live use",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "8d23e6f4-4c73-5f09-9bf1-bd098d55768b",
+   "lemma": "deport",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deport"
+   ],
+   "glossEn": "force a foreigner to leave a country",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "61d92ec8-3293-59f3-b09d-74c3598202e6",
+   "lemma": "deprecated",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deprecated"
+   ],
+   "glossEn": "no longer recommended and due to be removed",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "8a12a966-c155-5583-8899-74b5a73a2805",
+   "lemma": "deregulation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deregulation"
+   ],
+   "glossEn": "removal of government rules from an industry",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "2f6bb480-b4a0-5716-adb0-51fc6d4703c2",
+   "lemma": "deride",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deride"
+   ],
+   "glossEn": "express contempt for; mock",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "f0f163c7-1b3e-511c-b329-a56c1bdd46fc",
+   "lemma": "derivative",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "derivative"
+   ],
+   "glossEn": "imitating others' work, lacking originality",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "dd87ba8f-c1c6-5987-9041-a0d697a54808",
+   "lemma": "descendant",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "descendant"
+   ],
+   "glossEn": "person related to someone who lived long ago",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "836795df-47f9-5964-9815-2ac1646fa879",
+   "lemma": "destitute",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "destitute"
+   ],
+   "glossEn": "without money, food or shelter",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "57906af2-b1ec-59ed-9a61-bccd374de7fb",
+   "lemma": "detain",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "detain"
+   ],
+   "glossEn": "keep someone in official custody",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "45c02127-3233-5670-8abd-c9aad99e3dfd",
+   "lemma": "deter",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deter"
+   ],
+   "glossEn": "discourage someone from acting through fear or doubt",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "39c7364f-d1cd-50e7-9fdc-02cd9313a771",
+   "lemma": "deteriorate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deteriorate"
+   ],
+   "glossEn": "become progressively worse",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "46eb0cbd-32f8-5304-95a9-6625406c9697",
+   "lemma": "deterrent",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deterrent"
+   ],
+   "glossEn": "thing that discourages an action through fear of consequences",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "52864b91-53db-5b75-976b-c94de5a24a71",
+   "lemma": "detonate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "detonate"
+   ],
+   "glossEn": "explode or cause a bomb to explode",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "e1794531-1998-5221-995a-2c0332716a7a",
+   "lemma": "detour",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "detour"
+   ],
+   "glossEn": "longer indirect route taken to avoid something",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "00a4b91a-ce2d-5ea0-890d-ddf07a36ee02",
+   "lemma": "devious",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "devious"
+   ],
+   "glossEn": "dishonest and indirect in achieving goals",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "e43aba2f-e4e4-5a9d-8355-53090fc19156",
+   "lemma": "devour",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "devour"
+   ],
+   "glossEn": "eat something quickly and hungrily",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "8156ffc7-fff8-5be8-b809-9e9493e7e749",
+   "lemma": "diagnose",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "diagnose"
+   ],
+   "glossEn": "identify an illness by examining its symptoms",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "162b6966-ef79-50d3-9352-fc332cb9c6f2",
+   "lemma": "diagnosis",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "diagnosis"
+   ],
+   "glossEn": "identification of an illness from its symptoms",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "467b33c9-9732-581a-8b70-f3b4215e68b1",
+   "lemma": "digital footprint",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "digital footprint"
+   ],
+   "glossEn": "trace of data a person leaves through online activity",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "9ca642fd-f063-5657-aeb1-76a9b12e0387",
+   "lemma": "digress",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "digress"
+   ],
+   "glossEn": "move away from the main topic while speaking",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "8ae093e5-4943-50d7-8abf-e4eaea6a3580",
+   "lemma": "dingy",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dingy"
+   ],
+   "glossEn": "gloomy, dirty and dull",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "1c03b943-e736-5602-b3a6-a0cc22ffc3fa",
+   "lemma": "dire",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dire"
+   ],
+   "glossEn": "extremely serious or urgent",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "ab0cf80a-f3c5-53ea-9406-3601fa532530",
+   "lemma": "discern",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "discern"
+   ],
+   "glossEn": "perceive or recognize something with difficulty",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "dbf34754-bc4e-57ca-8fa3-a0865126f062",
+   "lemma": "disclose",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disclose"
+   ],
+   "glossEn": "make secret or new information known",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "4d67fc6d-6c4e-5267-9172-11e0682f4035",
+   "lemma": "discourse",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "discourse"
+   ],
+   "glossEn": "written or spoken communication or debate on a subject",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "22ac4904-31d2-5953-aa76-7ee895f1c3c9",
+   "lemma": "discreet",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "discreet"
+   ],
+   "glossEn": "careful in speech or action to avoid embarrassment",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "8df86624-96a7-5d5a-8b84-0fcd62b3dc39",
+   "lemma": "discreetly",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "discreetly"
+   ],
+   "glossEn": "carefully, so as not to attract attention",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "61469e0c-b27c-50cb-9655-67b1c7a4d41e",
+   "lemma": "discrepancy",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "discrepancy"
+   ],
+   "glossEn": "lack of agreement between facts or figures",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "fa4ec593-e086-5931-b4b1-bfa1bf96d3db",
+   "lemma": "disembark",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disembark"
+   ],
+   "glossEn": "leave a ship, aircraft or train",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.85
+  }
+ ]
+}

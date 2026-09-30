@@ -1,0 +1,550 @@
+{
+ "chunk": "C2-009",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "2b25f75f-8e8e-59a9-8321-2d0104899a1f",
+   "lemma": "granular",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "granular"
+   ],
+   "glossEn": "detailed down to very small individual parts",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "1b63752b-748e-5c83-ad08-65218e2e8a91",
+   "lemma": "gridlock",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gridlock"
+   ],
+   "glossEn": "traffic jam in which nothing can move",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "04173640-031d-5111-bb79-4f6a1ab20fa8",
+   "lemma": "hackneyed",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hackneyed"
+   ],
+   "glossEn": "unoriginal and trite through overuse",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "7df96212-59a3-5b5b-abfa-ac60d82f4988",
+   "lemma": "hacktivist",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hacktivist"
+   ],
+   "glossEn": "hacker acting for political or social causes",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "9ce2fc2c-4c1a-55d1-987e-491af83d117c",
+   "lemma": "hallucinate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hallucinate"
+   ],
+   "glossEn": "of an AI, confidently produce false information",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "6651a454-f544-5951-8c36-1c26b39e5b71",
+   "lemma": "hapless",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hapless"
+   ],
+   "glossEn": "unfortunate, unlucky",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d1b52277-f605-5e17-bb15-8dc7b9f13e6c",
+   "lemma": "haptic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "haptic"
+   ],
+   "glossEn": "relating to touch, as in vibration feedback",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "8bf56aea-a64c-50c7-897c-5088ced54b4c",
+   "lemma": "hash",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hash"
+   ],
+   "glossEn": "fixed-length code computed from data to verify it",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "87e51038-9bd1-5147-8d2e-58f6ac009547",
+   "lemma": "hatchet job",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hatchet job"
+   ],
+   "glossEn": "harsh, unfair attack in writing meant to destroy a reputation",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "130a296b-7fa4-559b-8b32-24cb09d3f107",
+   "lemma": "haughty",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "haughty"
+   ],
+   "glossEn": "arrogantly superior and disdainful",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "88169a5a-4313-5dcb-982a-67be35439945",
+   "lemma": "hearsay",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hearsay"
+   ],
+   "glossEn": "information heard from others, not proven",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "127ef9af-89c8-5cb0-aa44-2a948c84c77a",
+   "lemma": "hearth",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hearth"
+   ],
+   "glossEn": "floor of a fireplace, symbol of home",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "cc81ed88-88b8-5bc1-ad7a-0f707808dfe7",
+   "lemma": "hegemony",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hegemony"
+   ],
+   "glossEn": "dominance of one state or group over others",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "ee8001ad-0f54-5f44-8b08-8960ad0ca397",
+   "lemma": "heinous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heinous"
+   ],
+   "glossEn": "utterly wicked or shocking",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "9ec4ad48-9e5a-5e66-8300-2da430f9ccfc",
+   "lemma": "henceforth",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "henceforth"
+   ],
+   "glossEn": "from this time on",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "5e099e78-fd28-5f43-b7a6-e39b4667b08f",
+   "lemma": "hereby",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hereby"
+   ],
+   "glossEn": "by this statement or document",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "07b6bed7-40d7-55bc-8ad2-8ebc0eb596a6",
+   "lemma": "heuristic",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heuristic"
+   ],
+   "glossEn": "practical rule of thumb that gives a good-enough answer",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "59568a1b-b65c-555f-9ec1-52f103f03dd7",
+   "lemma": "highbrow",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "highbrow"
+   ],
+   "glossEn": "intellectual and serious, for educated tastes",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d0c19599-ca8b-5c55-8a42-fd50b2aaa7c8",
+   "lemma": "hinterland",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hinterland"
+   ],
+   "glossEn": "remote area inland from a coast or city",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "7563cbc4-668c-59fc-b1f1-d4069e542841",
+   "lemma": "hitherto",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hitherto"
+   ],
+   "glossEn": "until now, up to this point",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "3a01903e-bf2c-5537-a297-1c2032a50468",
+   "lemma": "hubris",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hubris"
+   ],
+   "glossEn": "excessive pride that leads to downfall",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "06b0de92-1951-53dc-8ef4-8dfd36b708b0",
+   "lemma": "humdrum",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "humdrum"
+   ],
+   "glossEn": "boringly ordinary and routine",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "aba77283-131c-5d93-9ab4-9cd544db7079",
+   "lemma": "hypochondriac",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hypochondriac"
+   ],
+   "glossEn": "person excessively worried about their own health",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "70ab7f34-baea-5451-b1d0-9052f0238fab",
+   "lemma": "iconoclast",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "iconoclast"
+   ],
+   "glossEn": "person who attacks cherished beliefs or traditions",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "4d01401e-8e30-5584-85d0-955c68550ed4",
+   "lemma": "iconography",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "iconography"
+   ],
+   "glossEn": "system of symbols and images used in art",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "c988afba-0770-55ba-af34-98668c471191",
+   "lemma": "idiosyncratic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "idiosyncratic"
+   ],
+   "glossEn": "peculiar or individual, distinctive",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "bdca7f15-ca84-501f-afe1-557cee216dc0",
+   "lemma": "immutable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "immutable"
+   ],
+   "glossEn": "unable to be changed after creation",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "c310b51c-3d35-52c7-ac71-dd5ec15565af",
+   "lemma": "impasse",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "impasse"
+   ],
+   "glossEn": "situation where no progress or agreement is possible",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "e1288850-14d3-5d46-ad28-3e97373f1af2",
+   "lemma": "imperceptibly",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "imperceptibly"
+   ],
+   "glossEn": "so slightly that it cannot be noticed",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "dfd161b8-8e42-5ec3-8f88-21444865f711",
+   "lemma": "imperturbable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "imperturbable"
+   ],
+   "glossEn": "unable to be upset or excited, calm",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "0f85cff0-9795-57b1-8ac9-ec7b782b8475",
+   "lemma": "implore",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "implore"
+   ],
+   "glossEn": "beg someone earnestly or desperately",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "0aa4e77b-453d-541a-ba89-bafe5dd3de09",
+   "lemma": "impugn",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "impugn"
+   ],
+   "glossEn": "dispute the truth or honesty of a statement",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "1454259d-88e0-5317-abdd-53adab6be23d",
+   "lemma": "impunity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "impunity"
+   ],
+   "glossEn": "freedom from punishment for wrongdoing",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "aa4d4ad5-1f4c-5459-9f10-17625cd8280c",
+   "lemma": "in droves",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in droves"
+   ],
+   "glossEn": "in very large numbers",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "3f3c94e5-f0e9-51a7-a78e-fe08fdbeb200",
+   "lemma": "in earnest",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in earnest"
+   ],
+   "glossEn": "seriously and with real intention",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "b686c28b-c220-5cc5-93ac-d0ad3caa3318",
+   "lemma": "in lieu of",
+   "pos": "preposition",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in lieu of"
+   ],
+   "glossEn": "instead of, in place of",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "d83498b5-06f7-56d2-8e96-79f61e72ac2b",
+   "lemma": "in no uncertain terms",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in no uncertain terms"
+   ],
+   "glossEn": "very clearly and forcefully",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "f583dcab-867b-5383-905b-7f23d7062af7",
+   "lemma": "in the interim",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the interim"
+   ],
+   "glossEn": "in the meantime, until a change",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "1193a25e-b018-5fbc-ab0c-e3e4d85482c4",
+   "lemma": "in the offing",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the offing"
+   ],
+   "glossEn": "likely to happen soon",
+   "proposedTopics": [],
+   "levelConfidence": 0.9
+  },
+  {
+   "id": "7ff872dd-00fd-562e-9516-8b400ff16db2",
+   "lemma": "in the same vein",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the same vein"
+   ],
+   "glossEn": "in a similar style or manner",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  }
+ ]
+}

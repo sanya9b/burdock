@@ -1,0 +1,562 @@
+{
+ "chunk": "C2-008",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "a6d28d03-8031-593f-bdc6-30468aab5851",
+   "lemma": "figurehead",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "figurehead"
+   ],
+   "glossEn": "leader in name only, without real power",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "a6889ed8-6ed9-5831-ae99-e942178f072a",
+   "lemma": "finicky",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "finicky"
+   ],
+   "glossEn": "fussy and hard to please about details",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "16d53f20-fdea-5437-aba9-ba61a00272ef",
+   "lemma": "fissure",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fissure"
+   ],
+   "glossEn": "long narrow crack in rock or earth",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "eab1167b-9b53-5be7-9124-40cbf8a210fb",
+   "lemma": "fleece",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fleece"
+   ],
+   "glossEn": "cheat someone out of money by overcharging",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "99a69bfd-d883-53d5-99e3-93042d0eec00",
+   "lemma": "fleetingly",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fleetingly"
+   ],
+   "glossEn": "for a very short time",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "9c46dadf-eff9-5670-8d54-bb671ec26a23",
+   "lemma": "flippant",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flippant"
+   ],
+   "glossEn": "not showing a serious or respectful attitude",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "803c009e-6e20-53fb-a0d3-f4cf57d01101",
+   "lemma": "flora",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flora"
+   ],
+   "glossEn": "plants of a particular region or period",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "744e0d3e-b168-5b7b-abb8-430ca1602c2e",
+   "lemma": "foible",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "foible"
+   ],
+   "glossEn": "minor weakness or odd habit",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "9d41a6c4-3cbd-5909-b69b-d46f0cf8212f",
+   "lemma": "foist",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "foist"
+   ],
+   "glossEn": "impose an unwelcome person or thing on someone",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "10fee880-cbe0-562a-8f93-cdbc5acde6da",
+   "lemma": "foment",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "foment"
+   ],
+   "glossEn": "instigate or stir up trouble or discontent",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "0222a840-a4a7-5448-ba3a-46842a8b0ed7",
+   "lemma": "foolproof",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "foolproof"
+   ],
+   "glossEn": "so simple or reliable that it cannot go wrong",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d4a14354-8cf7-5580-ba6d-fb3b78303f78",
+   "lemma": "foot the bill",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "foot the bill"
+   ],
+   "glossEn": "pay for something, often reluctantly",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "8a4120df-531c-53b0-bd7c-7c3200b2f065",
+   "lemma": "foothold",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "foothold"
+   ],
+   "glossEn": "secure initial position from which to advance",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "3887612b-0ebc-5a3f-a9d1-e87e097f456c",
+   "lemma": "forage",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "forage"
+   ],
+   "glossEn": "search widely for food or provisions",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "0f246372-c3cc-5f65-96df-2ae7d729239b",
+   "lemma": "fork out",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fork out"
+   ],
+   "glossEn": "pay money unwillingly",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "97eff680-89e6-544d-975b-4f8445fe0e29",
+   "lemma": "form factor",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "form factor"
+   ],
+   "glossEn": "physical size and shape of a device",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "703f06b2-d2d7-5e7c-8901-489ddc9fbea4",
+   "lemma": "forte",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "forte"
+   ],
+   "glossEn": "thing someone is especially good at",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "2ea6d9e5-6c6e-5e3b-9702-fcef9cabbcf4",
+   "lemma": "forthright",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "forthright"
+   ],
+   "glossEn": "direct and honest in speech",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "aaf7c884-a805-54ac-b9b8-f4721be7687b",
+   "lemma": "fourth wall",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fourth wall"
+   ],
+   "glossEn": "imaginary barrier between performers and audience",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "339308cb-2e29-52e1-aacc-3fe164ddb6f5",
+   "lemma": "foxhole",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "foxhole"
+   ],
+   "glossEn": "small pit dug to shelter one or two soldiers",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "f8b65a34-9f04-520f-a2ec-9ec43b2271ff",
+   "lemma": "fresco",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fresco"
+   ],
+   "glossEn": "painting made on wet plaster of a wall",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b719b351-f6d5-5224-a32b-8757f886b252",
+   "lemma": "furlough",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "furlough"
+   ],
+   "glossEn": "temporary unpaid leave from work",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "e403f4dc-2772-54d4-ba43-4aa145107d33",
+   "lemma": "gamification",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gamification"
+   ],
+   "glossEn": "adding game elements to non-game activities",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "f6c60097-e752-5d82-a970-88653d6e6c6a",
+   "lemma": "garish",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "garish"
+   ],
+   "glossEn": "unpleasantly bright and showy",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "1d0f9beb-e30f-5c24-a5d1-aa4d01118b68",
+   "lemma": "garrison",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "garrison"
+   ],
+   "glossEn": "troops stationed to defend a town or fort",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "da70b3f4-d435-5125-a838-39597c48b7f9",
+   "lemma": "garrulous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "garrulous"
+   ],
+   "glossEn": "excessively talkative, especially about trivial matters",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "b3e0fa21-6a2c-5a23-8e49-3c758d45be47",
+   "lemma": "gastronomy",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gastronomy"
+   ],
+   "glossEn": "the art and practice of fine cooking and eating",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "47750f51-d8a3-5bde-ad1b-a6e3ccfa8d77",
+   "lemma": "gaunt",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gaunt"
+   ],
+   "glossEn": "very thin and bony from illness or hunger",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "612a4bf9-8963-514f-956f-e298790b3c62",
+   "lemma": "geoblocking",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "geoblocking"
+   ],
+   "glossEn": "restricting online content based on the user's location",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "62070075-59fd-5d8c-bd36-4eaa9348d17c",
+   "lemma": "germane",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "germane"
+   ],
+   "glossEn": "relevant and appropriate to the subject",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "f204e2c5-6e46-5528-941d-67129365ade9",
+   "lemma": "germinate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "germinate"
+   ],
+   "glossEn": "begin to grow and put out shoots, of seeds",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "a0a88fc0-790b-5812-ad8c-35708c1b4d91",
+   "lemma": "gerrymandering",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gerrymandering"
+   ],
+   "glossEn": "redrawing electoral boundaries for party advantage",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "9a1556e7-820b-5f15-b10e-1259b1ffed90",
+   "lemma": "gimmick",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gimmick"
+   ],
+   "glossEn": "trick or feature used only to attract buyers",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "f7b3d35f-2c1a-590e-94fe-537206ce9cc4",
+   "lemma": "glib",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "glib"
+   ],
+   "glossEn": "fluent but insincere and shallow",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "0dd66690-d479-5c62-9bfb-9f6a901bd511",
+   "lemma": "globetrotter",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "globetrotter"
+   ],
+   "glossEn": "person who travels widely around the world",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "decd9173-adf9-520c-9672-b830dd0a13ac",
+   "lemma": "glutton",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "glutton"
+   ],
+   "glossEn": "person who eats and drinks far too much",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b1b192c0-3473-5692-8c8f-b88886b134ed",
+   "lemma": "go Dutch",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go dutch"
+   ],
+   "glossEn": "share the cost of a meal equally",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "4407355d-b9f4-5c2f-9731-830c3b8bb4aa",
+   "lemma": "goad",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "goad"
+   ],
+   "glossEn": "provoke or annoy someone into acting",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "43bc7f33-edd6-55c7-b39d-bc9a7dc95915",
+   "lemma": "golden parachute",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "golden parachute"
+   ],
+   "glossEn": "large payment to an executive who loses a job",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "593441aa-e72b-509c-a276-36e4f6fcf837",
+   "lemma": "graft",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "graft"
+   ],
+   "glossEn": "corruption in politics for personal gain",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  }
+ ]
+}

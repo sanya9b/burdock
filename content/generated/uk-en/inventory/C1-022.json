@@ -1,0 +1,551 @@
+{
+ "chunk": "C1-022",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "673b2abf-810d-5d0e-b139-4e0226a089a8",
+   "lemma": "pluralism",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pluralism"
+   ],
+   "glossEn": "coexistence of diverse groups in one society",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "28b31d42-f5d4-5fcb-9224-e59f829a24b6",
+   "lemma": "poignant",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "poignant"
+   ],
+   "glossEn": "causing a sharp feeling of sadness or tenderness",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "7db6b97e-ab76-5ee2-961b-958fb3cb855d",
+   "lemma": "pollinate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pollinate"
+   ],
+   "glossEn": "carry pollen to a flower so it can reproduce",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "212f5457-3b80-5bd2-a90a-a357cfc60844",
+   "lemma": "populism",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "populism"
+   ],
+   "glossEn": "politics appealing to ordinary people against elites",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "0971e79c-6474-58c2-8598-90150c873c7d",
+   "lemma": "portfolio",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "portfolio"
+   ],
+   "glossEn": "range of investments or products held",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "3ebe1407-b392-580f-a23d-4fa719f8488d",
+   "lemma": "postgraduate",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "postgraduate"
+   ],
+   "glossEn": "relating to study after a first university degree",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "e517a8ab-f8a0-57a2-a87d-7fc41df70331",
+   "lemma": "posthumous",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "posthumous"
+   ],
+   "glossEn": "happening or published after a person's death",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d89108c7-570b-5762-aab5-cdd1d8e99c72",
+   "lemma": "posture",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "posture"
+   ],
+   "glossEn": "the way a person holds their body",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "ee7f3752-4165-5cc3-9d9c-1eb07547f939",
+   "lemma": "pothole",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pothole"
+   ],
+   "glossEn": "hole worn in a road surface",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "7c88f65c-2284-5f36-9ea7-b00b78d69b17",
+   "lemma": "pragmatic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pragmatic"
+   ],
+   "glossEn": "dealing with things practically rather than theoretically",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "eb3ff338-27fc-5386-bd16-db7ee36db38a",
+   "lemma": "precedent",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "precedent"
+   ],
+   "glossEn": "earlier decision used as an example for later cases",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "6df050bf-2648-592d-891b-9c127aead095",
+   "lemma": "precipitate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "precipitate"
+   ],
+   "glossEn": "cause something to happen suddenly or prematurely",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "32de3c9a-f43b-5dbc-8edd-c7a2cff8986d",
+   "lemma": "precipitation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "precipitation"
+   ],
+   "glossEn": "rain, snow or hail falling from the sky",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "9ba074ac-2ded-5420-b674-aa1fc4ca47aa",
+   "lemma": "preclude",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "preclude"
+   ],
+   "glossEn": "prevent something from happening or being possible",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "06605f62-a53a-5b64-88f1-562c701f412a",
+   "lemma": "predator",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "predator"
+   ],
+   "glossEn": "animal that hunts and eats other animals",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "05408448-3824-5dfb-a193-e14259a6766e",
+   "lemma": "predominantly",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "predominantly"
+   ],
+   "glossEn": "mainly, for the most part",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b71b44de-3e93-5119-a925-337361d2d64f",
+   "lemma": "premiere",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "premiere"
+   ],
+   "glossEn": "first public showing of a film or play",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "dbc0d9b9-00df-509b-96ee-65f03f4beeb9",
+   "lemma": "premise",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "premise"
+   ],
+   "glossEn": "a statement an argument is based on",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "73f875f3-09c3-5336-bc13-f65478259446",
+   "lemma": "preposterous",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "preposterous"
+   ],
+   "glossEn": "contrary to reason, utterly absurd",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "95ee148d-801e-5797-8240-99a30c675dcc",
+   "lemma": "prequel",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prequel"
+   ],
+   "glossEn": "story set before the events of an existing work",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "377b0fa4-637c-5e14-9fac-4a8903936c56",
+   "lemma": "prerequisite",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prerequisite"
+   ],
+   "glossEn": "thing required before something else can be done",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "1fc6121f-7e57-5917-a9eb-f501988fcd76",
+   "lemma": "preservative",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "preservative"
+   ],
+   "glossEn": "substance added to food to stop it going bad",
+   "proposedTopics": [
+    "food",
+    "health"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "e9be499f-0d68-583a-8d6d-36db88abc2a4",
+   "lemma": "presume",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "presume"
+   ],
+   "glossEn": "suppose something is true without proof",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "1e67bc35-af92-54b7-ab56-b306d1249b30",
+   "lemma": "pretentious",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pretentious"
+   ],
+   "glossEn": "trying to appear more important or clever than one is",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "bfd4c4e5-5fd3-56d8-b3f3-e0e9bc20d9d2",
+   "lemma": "prey",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prey"
+   ],
+   "glossEn": "animal hunted and eaten by another",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "aeeae0d8-bea7-5b2d-a06f-59012cb01c4e",
+   "lemma": "primary source",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "primary source"
+   ],
+   "glossEn": "original firsthand document or evidence",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "6c9edef4-bd1a-54e8-82ed-68f0f2e4bd80",
+   "lemma": "prior to",
+   "pos": "preposition",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prior to"
+   ],
+   "glossEn": "before a particular time or event",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "00d063f8-d29c-59bb-8a0a-9c0a28e0c4aa",
+   "lemma": "prioritize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prioritize"
+   ],
+   "glossEn": "decide the order of importance of tasks",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "4d58b43a-61af-5e07-b9ad-2ace4d66bb8f",
+   "lemma": "pristine",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pristine"
+   ],
+   "glossEn": "in its original, unspoiled condition",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "e2be4d4d-d656-5176-8ec1-f1b728ab5cb4",
+   "lemma": "privatization",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "privatization"
+   ],
+   "glossEn": "transfer of state-owned assets to private ownership",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "160e6df0-0c23-5611-b7aa-0116adf5c826",
+   "lemma": "proactive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "proactive"
+   ],
+   "glossEn": "acting in advance to control a situation",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "084426c1-05ec-57f6-bf9f-0703c792f5d3",
+   "lemma": "probation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "probation"
+   ],
+   "glossEn": "trial period at the start of a job",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "c17adbd1-85be-5c6a-adae-d42e420b8545",
+   "lemma": "procrastinate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "procrastinate"
+   ],
+   "glossEn": "keep delaying something you should do",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "7bbdef88-fbbf-502d-b432-dd496d5b35fb",
+   "lemma": "productivity",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "productivity"
+   ],
+   "glossEn": "rate at which work is produced",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "610c0347-c4fe-50db-958d-19e815c3e47e",
+   "lemma": "profess",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "profess"
+   ],
+   "glossEn": "claim openly, sometimes falsely, to have or feel",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "06f03551-9eb4-507b-ae4e-56df8135ba57",
+   "lemma": "proficiency",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "proficiency"
+   ],
+   "glossEn": "high degree of skill in something",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "583bd5bd-5b52-52b9-bf3f-94862fc015c3",
+   "lemma": "proficient",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "proficient"
+   ],
+   "glossEn": "competent or skilled in doing something",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "55112c86-7bc3-57c7-8d8a-2aae2e75d3a4",
+   "lemma": "profound",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "profound"
+   ],
+   "glossEn": "very great or intense; showing deep insight",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b407a7c5-73f4-5ee7-b642-e997941b613b",
+   "lemma": "profoundly",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "profoundly"
+   ],
+   "glossEn": "deeply, to a very great extent",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "9672ce87-5c78-5a8f-984a-4fc1636116c9",
+   "lemma": "prognosis",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prognosis"
+   ],
+   "glossEn": "likely course and outcome of a disease",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  }
+ ]
+}

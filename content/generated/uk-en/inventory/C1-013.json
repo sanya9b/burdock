@@ -1,0 +1,561 @@
+{
+ "chunk": "C1-013",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "e64b0213-b8dc-581c-9b5f-6cd1167585a3",
+   "lemma": "for the most part",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "for the most part"
+   ],
+   "glossEn": "mostly, in most cases",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "6317c1bf-bda1-58ee-a982-cce1cb494d6b",
+   "lemma": "for the time being",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "for the time being"
+   ],
+   "glossEn": "for now, until something changes",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "9802bf94-2d00-560e-b1c5-6d69b94926bd",
+   "lemma": "foreshadowing",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "foreshadowing"
+   ],
+   "glossEn": "hints early in a story about what will happen later",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "e1c83c0d-0366-5b52-9c64-91fb9d7595f9",
+   "lemma": "forgery",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "forgery"
+   ],
+   "glossEn": "fake copy of an artwork or document made to deceive",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "abdda4e5-2683-5d6e-b77b-b040c34ecf03",
+   "lemma": "formulaic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "formulaic"
+   ],
+   "glossEn": "following a predictable pattern without originality",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "92d18928-cee9-5d4a-9e22-52e08f83e090",
+   "lemma": "fossil fuel",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fossil fuel"
+   ],
+   "glossEn": "coal, oil or gas formed from ancient organisms",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "c3884870-cfef-5dae-95ff-acec9997821f",
+   "lemma": "foster",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "foster"
+   ],
+   "glossEn": "encourage the development of something",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "3262146b-aa3d-586a-96ec-a874be3a08a6",
+   "lemma": "fracture",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fracture"
+   ],
+   "glossEn": "a crack or break in a bone",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "79df6276-4d75-5694-87c3-b5d1ef3f453c",
+   "lemma": "fragile",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fragile"
+   ],
+   "glossEn": "easily broken or damaged",
+   "proposedTopics": [],
+   "levelConfidence": 0.6
+  },
+  {
+   "id": "996076e4-71d3-57f1-a88e-f41c5691a2ce",
+   "lemma": "frail",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "frail"
+   ],
+   "glossEn": "physically weak and delicate",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b7fa12c0-20bd-5a44-ad66-42ff0f8ec52b",
+   "lemma": "framework",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "framework"
+   ],
+   "glossEn": "basic structure underlying a system or concept",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "d04137b9-f04e-592d-b6c4-c981c7bde574",
+   "lemma": "franchise",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "franchise"
+   ],
+   "glossEn": "license to run a store under a company's brand",
+   "proposedTopics": [
+    "shopping",
+    "work"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "07233bbc-924e-5fdd-a1f1-3e9656fe3246",
+   "lemma": "frayed",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "frayed"
+   ],
+   "glossEn": "worn at the edges with loose threads",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "6c468a36-28e9-5c8c-8ef1-e76155e7026f",
+   "lemma": "freelance",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "freelance"
+   ],
+   "glossEn": "working for different clients rather than one employer",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "479c5a46-1d7f-5f5e-baa7-2de5549a26a2",
+   "lemma": "friction",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "friction"
+   ],
+   "glossEn": "resistance when one surface moves over another",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "6b186842-5004-5e35-a795-f8b058ed4d7f",
+   "lemma": "from scratch",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "from scratch"
+   ],
+   "glossEn": "cooked using basic ingredients, not ready-made",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "0075befa-f020-5b99-80fe-dbb2cc5ebb24",
+   "lemma": "fundraiser",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fundraiser"
+   ],
+   "glossEn": "event or person that raises money for a cause",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b7d79613-dd22-529d-b3fc-9fa29e8074ed",
+   "lemma": "fungus",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fungus"
+   ],
+   "glossEn": "organism such as mold, mushroom or yeast",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "506c1665-0c87-5e1b-9c1c-bd3cea42a39f",
+   "lemma": "galaxy",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "galaxy"
+   ],
+   "glossEn": "huge system of stars held together by gravity",
+   "proposedTopics": [],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "0a92e83a-7b7d-55a2-9fa5-e33b0037431d",
+   "lemma": "garnish",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "garnish"
+   ],
+   "glossEn": "decorate a dish with small edible items",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "7d15d6d1-af28-5ca3-95c0-3eeb24486bd8",
+   "lemma": "gauge",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gauge"
+   ],
+   "glossEn": "estimate or judge an amount, level, or attitude",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "91f2c08c-fd97-5554-9644-e1db8ad77a9d",
+   "lemma": "genome",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "genome"
+   ],
+   "glossEn": "complete set of genes of an organism",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "48f710fc-31db-5bf3-9f6d-44a3e0d5f291",
+   "lemma": "gentrification",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gentrification"
+   ],
+   "glossEn": "renewal of a poor area that pushes out its residents",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "94386ac2-f683-583f-866f-c96578dc7c32",
+   "lemma": "get across",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get across"
+   ],
+   "glossEn": "communicate an idea so that it is understood",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "76abe6ab-5591-5172-ade7-c49f358a990a",
+   "lemma": "ghostwriter",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ghostwriter"
+   ],
+   "glossEn": "person who writes a book credited to someone else",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "02b7769c-ac53-57d3-be89-2a27aef39945",
+   "lemma": "given that",
+   "pos": "conjunction",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "given that"
+   ],
+   "glossEn": "considering the fact that, since",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "47abdaa5-ca41-55cd-80b1-3074714491ac",
+   "lemma": "glacier",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "glacier"
+   ],
+   "glossEn": "slowly moving mass of ice on land",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "2e8c8725-c741-5779-942a-4e9f09a0368b",
+   "lemma": "glitch",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "glitch"
+   ],
+   "glossEn": "sudden minor malfunction of a device or program",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "0b37c07d-4666-5f35-bd6e-b839e6abdd51",
+   "lemma": "glitchy",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "glitchy"
+   ],
+   "glossEn": "prone to small sudden malfunctions",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "b5ea3702-587d-5be2-b6a1-4915214db19a",
+   "lemma": "glossary",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "glossary"
+   ],
+   "glossEn": "alphabetical list of terms with their explanations",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "a89fc9a3-c605-589e-bb06-4967fec96b97",
+   "lemma": "gourmet",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gourmet"
+   ],
+   "glossEn": "of very high quality, for lovers of fine food",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "be8f7a3b-c350-5db1-8774-e2b1ae1c5cc0",
+   "lemma": "governance",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "governance"
+   ],
+   "glossEn": "system by which an organization is directed and controlled",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "c2f03f4a-6b8b-57b8-b037-ebb3dcb334bf",
+   "lemma": "gracious",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gracious"
+   ],
+   "glossEn": "polite and kind in a dignified way",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "a3933037-280d-5346-8128-6ab37a5a24b7",
+   "lemma": "graffiti",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "graffiti"
+   ],
+   "glossEn": "words or pictures sprayed on public walls",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "68fbd0e7-524d-50bc-a700-012ea0e2a7b4",
+   "lemma": "grassroots",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "grassroots"
+   ],
+   "glossEn": "coming from ordinary people rather than leaders",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "e71d7c13-2df5-5652-848d-ba438434cc44",
+   "lemma": "gravity",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gravity"
+   ],
+   "glossEn": "force pulling objects toward the Earth",
+   "proposedTopics": [],
+   "levelConfidence": 0.6
+  },
+  {
+   "id": "ccf8609d-b53e-5974-8e23-4209b7223f98",
+   "lemma": "greenhouse gas",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "greenhouse gas"
+   ],
+   "glossEn": "gas that traps heat in the atmosphere",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "f9856cda-c239-597b-9538-2b583d84237e",
+   "lemma": "gregarious",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gregarious"
+   ],
+   "glossEn": "fond of company, sociable",
+   "proposedTopics": [],
+   "levelConfidence": 0.6
+  },
+  {
+   "id": "d08791b0-2b82-596d-9bc2-8a053d526210",
+   "lemma": "grenade",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "grenade"
+   ],
+   "glossEn": "small bomb thrown by hand or fired from a launcher",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "7c42ea83-6f5f-5b4b-b5d9-7d9dda5fec7a",
+   "lemma": "grievance",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "grievance"
+   ],
+   "glossEn": "formal complaint about unfair treatment at work",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  }
+ ]
+}

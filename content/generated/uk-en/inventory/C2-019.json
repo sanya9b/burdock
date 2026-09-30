@@ -1,0 +1,558 @@
+{
+ "chunk": "C2-019",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "5594bd3e-b9f3-564c-b099-3b9b8d7dfbba",
+   "lemma": "truism",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "truism"
+   ],
+   "glossEn": "statement so obvious that it is hardly worth saying",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "e83e14df-6d5f-57f9-86df-46e3072a368e",
+   "lemma": "truth be told",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "truth be told"
+   ],
+   "glossEn": "to be honest, in fact",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "56eefe78-4ba3-5669-9b8b-8a3a30783238",
+   "lemma": "tutelage",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tutelage"
+   ],
+   "glossEn": "instruction and guidance from a teacher",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "27e02ebf-9481-54d0-ac3c-7d42e77dadd6",
+   "lemma": "twinge",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "twinge"
+   ],
+   "glossEn": "sudden sharp brief pain",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "c6f5f5d2-35c1-5772-a618-eb64d1845f06",
+   "lemma": "tycoon",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tycoon"
+   ],
+   "glossEn": "wealthy and powerful business person",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "93488202-cbb5-5df1-8fed-a54fe1cd09cd",
+   "lemma": "ubiquitous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ubiquitous"
+   ],
+   "glossEn": "present, appearing or found everywhere",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "76190e49-530b-50e6-8539-00a90e5ed0f3",
+   "lemma": "unassuming",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unassuming"
+   ],
+   "glossEn": "modest, not drawing attention to oneself",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "0f9e9976-8906-5186-abb2-eec91b3ea9d5",
+   "lemma": "uncharted",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "uncharted"
+   ],
+   "glossEn": "not mapped or explored",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "0ea0dba7-b566-5366-a90c-134db3d2d026",
+   "lemma": "uncouth",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "uncouth"
+   ],
+   "glossEn": "lacking good manners, refinement or grace",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "157b6651-04f0-50ce-805f-6714fd70f32f",
+   "lemma": "underclass",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "underclass"
+   ],
+   "glossEn": "lowest social group, excluded from the mainstream",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "fb0dd482-215d-584d-bfd7-eeb425393d0f",
+   "lemma": "unduly",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unduly"
+   ],
+   "glossEn": "excessively, more than is reasonable",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "79b5a7a6-a85a-559b-9285-f5f539b5a8cc",
+   "lemma": "unequivocally",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unequivocally"
+   ],
+   "glossEn": "in a way that leaves no doubt",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "4446aad0-af2c-5166-9eed-4282c5985fc6",
+   "lemma": "unreliable narrator",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unreliable narrator"
+   ],
+   "glossEn": "storyteller whose account the reader cannot fully trust",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "3592612e-2848-53c6-b9fb-76388d283445",
+   "lemma": "unrequited",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unrequited"
+   ],
+   "glossEn": "not returned, especially of love",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b0de36c6-9022-567f-bae5-4a2e377d49fa",
+   "lemma": "untapped",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "untapped"
+   ],
+   "glossEn": "not yet used or exploited",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "7a05c68b-7536-5daf-adaa-0a3ed8664929",
+   "lemma": "unwittingly",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unwittingly"
+   ],
+   "glossEn": "without knowing or realizing",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "ac79f611-81ee-549a-8259-cad4ede987b0",
+   "lemma": "upbraid",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "upbraid"
+   ],
+   "glossEn": "find fault with someone; scold",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "1dd16b11-d286-5e94-b8f2-76eb113c9584",
+   "lemma": "usurp",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "usurp"
+   ],
+   "glossEn": "take a position or power illegally or by force",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "2be6f85c-2924-5849-bfbc-1c9e5887184d",
+   "lemma": "usury",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "usury"
+   ],
+   "glossEn": "lending money at unreasonably high interest",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "a6e652f9-6c46-5b8e-b5d6-c539f5b700ac",
+   "lemma": "vacillate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vacillate"
+   ],
+   "glossEn": "keep changing one's mind between options",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "2fe3d35c-8e91-5930-aceb-e780388e9148",
+   "lemma": "valor",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "valor"
+   ],
+   "glossEn": "great courage in the face of danger",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "fbd16854-9ff3-5bad-8cab-b853338f8566",
+   "lemma": "vantage point",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vantage point"
+   ],
+   "glossEn": "position giving a good wide view",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "19c50c5d-d91e-5c5f-adf3-8a775dd6e3d0",
+   "lemma": "vehemently",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vehemently"
+   ],
+   "glossEn": "with strong feeling, forcefully",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "05ca5e92-8b60-5dbd-9053-5ef4fdb28707",
+   "lemma": "venal",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "venal"
+   ],
+   "glossEn": "open to bribery; corrupt",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "a9627447-1833-5347-9221-1f6e79968534",
+   "lemma": "vendor lock-in",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vendor lock-in"
+   ],
+   "glossEn": "dependence on one supplier that makes switching costly",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "819088db-f3cd-5dce-929c-15599d5d73fc",
+   "lemma": "verbatim",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "verbatim"
+   ],
+   "glossEn": "in exactly the same words as were used originally",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "e9b536ed-f119-5a35-9407-9cd78a3f7c20",
+   "lemma": "verbose",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "verbose"
+   ],
+   "glossEn": "using more words than are needed",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "92e3446b-bd98-5386-9fcd-c1f90bf3e0ad",
+   "lemma": "verdant",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "verdant"
+   ],
+   "glossEn": "green with lush grass or vegetation",
+   "proposedTopics": [],
+   "levelConfidence": 0.9
+  },
+  {
+   "id": "bf9e3746-abe9-59f2-a6ef-d63cb24dd5e1",
+   "lemma": "verisimilitude",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "verisimilitude"
+   ],
+   "glossEn": "appearance of being true or real in fiction",
+   "proposedTopics": [],
+   "levelConfidence": 0.9
+  },
+  {
+   "id": "1114e0a1-0f48-5a6e-9ccb-5196e32c9832",
+   "lemma": "vested interest",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vested interest"
+   ],
+   "glossEn": "personal stake in keeping something as it is",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "85cb0f58-ebf3-5893-bab0-debfb0695523",
+   "lemma": "viaduct",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "viaduct"
+   ],
+   "glossEn": "long bridge carrying a road or railway across a valley",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "62c71fd5-622f-5e8b-beef-fcb45f940542",
+   "lemma": "vilify",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vilify"
+   ],
+   "glossEn": "speak about someone in an abusively disparaging way",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "cbcc573f-8354-510a-ba47-959d54b0b979",
+   "lemma": "visa waiver",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "visa waiver"
+   ],
+   "glossEn": "arrangement allowing entry without a visa",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "50de0d8c-e814-57f6-9eb5-6cf6c165648d",
+   "lemma": "viscous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "viscous"
+   ],
+   "glossEn": "thick and sticky, flowing slowly, of liquid",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "3c3a1719-a2c4-5036-90a6-8b49c2ef3120",
+   "lemma": "vista",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vista"
+   ],
+   "glossEn": "pleasing wide view, especially of a landscape",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "51e7462a-4b34-5839-9889-df1a1f7fa1ad",
+   "lemma": "vitiate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vitiate"
+   ],
+   "glossEn": "spoil or impair the quality or efficiency of",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "5f0e814c-085c-59eb-8a06-d2a53cf29eac",
+   "lemma": "vitriolic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vitriolic"
+   ],
+   "glossEn": "filled with bitter, cruel criticism",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "a1800488-c841-5d57-85e1-2685bbc8ad5b",
+   "lemma": "voracious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "voracious"
+   ],
+   "glossEn": "eating or wanting very large amounts of food",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "31a5445c-0230-5747-8ada-556f58bd7da5",
+   "lemma": "waive",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "waive"
+   ],
+   "glossEn": "choose not to enforce a right or requirement",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d306c5d0-ef5f-5b8d-a3e6-0496caf15938",
+   "lemma": "walkout",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "walkout"
+   ],
+   "glossEn": "sudden strike in which workers leave the workplace",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  }
+ ]
+}

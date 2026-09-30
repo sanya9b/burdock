@@ -1,0 +1,562 @@
+{
+ "chunk": "C1-003",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "3c1f4d67-51bb-570c-840d-bfd57abae1ad",
+   "lemma": "assertive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "assertive"
+   ],
+   "glossEn": "confidently stating opinions or claims",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "297fc9d9-5a05-5571-8dfb-f0e87b7002f7",
+   "lemma": "asset",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "asset"
+   ],
+   "glossEn": "thing of value owned by a company or person",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "627b0207-1fbe-5279-9e01-3defbe2c2012",
+   "lemma": "assimilation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "assimilation"
+   ],
+   "glossEn": "absorption of a group into the wider culture",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "2242620f-f9cd-5e6e-9115-db3916912127",
+   "lemma": "asteroid",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "asteroid"
+   ],
+   "glossEn": "small rocky body orbiting the sun",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "64078be4-7603-574b-b2a9-501e02f040c3",
+   "lemma": "astute",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "astute"
+   ],
+   "glossEn": "able to assess situations accurately and act cleverly",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "ecc1cc89-dd6c-563d-9e12-8f04a03e55ff",
+   "lemma": "asylum",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "asylum"
+   ],
+   "glossEn": "protection granted to a refugee by a foreign state",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "197d003d-95a2-5b37-a6ed-aaae73d01db0",
+   "lemma": "asymptomatic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "asymptomatic"
+   ],
+   "glossEn": "infected but showing no symptoms",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "85d906de-509d-5a42-9c62-fb74f50161d0",
+   "lemma": "at any rate",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at any rate"
+   ],
+   "glossEn": "anyway, whatever the case",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "1249a798-5f31-528c-8d00-0eb8c853d3c8",
+   "lemma": "at first glance",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at first glance"
+   ],
+   "glossEn": "when seen or considered briefly at first",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "4cce7a3c-7599-57f5-a3ee-315e25b9579d",
+   "lemma": "atrocious",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "atrocious"
+   ],
+   "glossEn": "horrifyingly wicked; of very poor quality",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "decef3b4-639e-5c24-9591-c9e1f0259cf9",
+   "lemma": "augment",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "augment"
+   ],
+   "glossEn": "make something greater by adding to it",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "975cd0a0-5f87-59e8-81ad-860e5c09eb6f",
+   "lemma": "authentic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "authentic"
+   ],
+   "glossEn": "of undisputed origin, genuine",
+   "proposedTopics": [],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "7cd19cc6-1db2-524d-9f7a-85f4ae40d493",
+   "lemma": "authenticate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "authenticate"
+   ],
+   "glossEn": "verify the identity of a user or device",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "89017efe-8b31-5aaa-8e7b-8fed342b83a2",
+   "lemma": "authentication",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "authentication"
+   ],
+   "glossEn": "process of verifying that a user is who they claim",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "07950554-f05c-52c6-b8d3-ca5962163b3e",
+   "lemma": "authenticity",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "authenticity"
+   ],
+   "glossEn": "quality of being genuine, not a copy",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "ed2417ee-ab15-5c17-a94c-98ca4c1ed5e8",
+   "lemma": "authoritarian",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "authoritarian"
+   ],
+   "glossEn": "demanding strict obedience at the expense of freedom",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "9b0d204a-9cfa-5923-92c8-480c96f70fe2",
+   "lemma": "automate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "automate"
+   ],
+   "glossEn": "make a process run by machines or software",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "23d61a0f-5465-5947-bec5-b4b4f96417cf",
+   "lemma": "automation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "automation"
+   ],
+   "glossEn": "use of technology to perform tasks without people",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "12b4d827-373f-5c0b-a153-bbfc62b3d675",
+   "lemma": "autonomy",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "autonomy"
+   ],
+   "glossEn": "freedom to make one's own decisions",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "ad6ea7bb-7418-5f56-acda-df04c57f1d3e",
+   "lemma": "avalanche",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "avalanche"
+   ],
+   "glossEn": "mass of snow sliding rapidly down a mountain",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "65432edc-5547-547e-89ff-53231eef85ab",
+   "lemma": "avant-garde",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "avant-garde"
+   ],
+   "glossEn": "experimental and innovative, especially in the arts",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "3b9ff4a1-8e79-5f91-ad9f-2b099784c763",
+   "lemma": "back down",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "back down"
+   ],
+   "glossEn": "withdraw a claim or demand under pressure",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "8f4db8d4-5e82-59c9-98dc-84322ef6bbdc",
+   "lemma": "backlog",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "backlog"
+   ],
+   "glossEn": "accumulation of work waiting to be done",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "0001727a-e061-5f4d-9506-dad8ef0c6f83",
+   "lemma": "backward compatible",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "backward compatible"
+   ],
+   "glossEn": "able to work with older versions or systems",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "c098e850-f35f-54ca-a3ab-923a7135aa29",
+   "lemma": "bacteria",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bacteria"
+   ],
+   "glossEn": "microscopic single-celled organisms, some causing disease",
+   "proposedTopics": [],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "e086b1cf-b193-5d0f-bf3d-17eef42bf574",
+   "lemma": "baffling",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "baffling"
+   ],
+   "glossEn": "impossible to understand, perplexing",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "15451d79-34f7-545b-8ece-4462feea7078",
+   "lemma": "bail",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bail"
+   ],
+   "glossEn": "money paid to release an accused person before trial",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "4ec1364b-b201-57a6-8f2d-97ee95175a3c",
+   "lemma": "bandwidth",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bandwidth"
+   ],
+   "glossEn": "maximum rate at which data can be transferred",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "5e06ced9-9981-583d-918c-643bc76d5a2d",
+   "lemma": "banter",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "banter"
+   ],
+   "glossEn": "playful, friendly teasing in conversation",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "6d4f5bcf-03b5-51a2-bc30-b50f819d7b1c",
+   "lemma": "battalion",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "battalion"
+   ],
+   "glossEn": "army unit of several hundred soldiers",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "03099a0d-0651-5978-85a8-44ac2314955a",
+   "lemma": "beforehand",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "beforehand"
+   ],
+   "glossEn": "earlier, before something happens",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "cb5fb1bc-e608-5123-8be1-0af861d072ef",
+   "lemma": "belittle",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "belittle"
+   ],
+   "glossEn": "make someone or something seem unimportant",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "18ace8d3-35d7-5a09-868d-fe5a8bea5af6",
+   "lemma": "benchmark",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "benchmark"
+   ],
+   "glossEn": "standard used to compare performance",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "6141fed3-9367-5ac7-b36f-85bf4b550522",
+   "lemma": "benign",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "benign"
+   ],
+   "glossEn": "(of a tumor) not cancerous or harmful",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "72228ddb-a979-57c1-90fc-805109351977",
+   "lemma": "bewildered",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bewildered"
+   ],
+   "glossEn": "completely confused and puzzled",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "84bf5932-b0c6-501f-b37b-59c5b0afbe6d",
+   "lemma": "bias",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bias"
+   ],
+   "glossEn": "unfair preference that distorts judgment",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "7d059158-7594-5771-8701-ff7ecc27ef16",
+   "lemma": "biased",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "biased"
+   ],
+   "glossEn": "unfairly favoring one side or view",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "4316f6db-c6e2-52f9-afa9-282b91b57588",
+   "lemma": "bibliography",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bibliography"
+   ],
+   "glossEn": "list of the sources used in a written work",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "b86ff305-3ece-5684-b773-a2e16a1489d0",
+   "lemma": "bicker",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bicker"
+   ],
+   "glossEn": "argue about unimportant things",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "1a4e9d9c-63d9-5445-a2ee-c741ae256b8c",
+   "lemma": "billboard",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "billboard"
+   ],
+   "glossEn": "large outdoor board for advertisements",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.8
+  }
+ ]
+}

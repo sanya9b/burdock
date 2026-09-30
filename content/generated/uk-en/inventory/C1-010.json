@@ -1,0 +1,560 @@
+{
+ "chunk": "C1-010",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "21975ca8-0876-58b3-9547-14cebe5941d3",
+   "lemma": "disinfect",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disinfect"
+   ],
+   "glossEn": "clean something to destroy bacteria",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "fe9fb74c-38de-51ca-bc3e-6a52e9677a8f",
+   "lemma": "disinformation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disinformation"
+   ],
+   "glossEn": "false information spread deliberately to mislead",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "2574956d-ad77-5a82-9095-d48bdb624e4c",
+   "lemma": "dismal",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dismal"
+   ],
+   "glossEn": "depressingly dreary; pitifully bad",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "57f57117-c45d-5347-887e-05980243aa6e",
+   "lemma": "dismissive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dismissive"
+   ],
+   "glossEn": "treating something as not worth considering",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "02ca34d2-640a-5c08-885a-da71424a3695",
+   "lemma": "disoriented",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disoriented"
+   ],
+   "glossEn": "confused about where or who you are",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "4bb573fb-7a50-5e6c-93b1-321d0f61a3b4",
+   "lemma": "disparage",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disparage"
+   ],
+   "glossEn": "speak of someone or something as worthless",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "7633c431-7351-5c9a-b2c6-e465b284ecc1",
+   "lemma": "disparity",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disparity"
+   ],
+   "glossEn": "great difference, especially an unfair one",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "6208ed3d-a285-5930-9d5e-2442f3482348",
+   "lemma": "displaced",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "displaced"
+   ],
+   "glossEn": "forced to leave home because of war or disaster",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "033c5bde-ce9a-5b07-aca4-6a8826cdcf6c",
+   "lemma": "disprove",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disprove"
+   ],
+   "glossEn": "show that something is not true",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "ae411f2a-ebda-5d89-8382-df232962a611",
+   "lemma": "disseminate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disseminate"
+   ],
+   "glossEn": "spread information widely",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "c2190e1f-ac48-57a8-a942-052dc7203236",
+   "lemma": "dissent",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dissent"
+   ],
+   "glossEn": "holding opinions that differ from official ones",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "124582a2-37cf-5aeb-bb07-027a467b7fd5",
+   "lemma": "dissertation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dissertation"
+   ],
+   "glossEn": "long research paper written for a university degree",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "8ab7a6a8-cec4-5ced-aa5f-379a94cc89a8",
+   "lemma": "dissipate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dissipate"
+   ],
+   "glossEn": "disappear gradually or cause to scatter",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "ee32fe02-d69b-5a5f-bb35-6f9f05237159",
+   "lemma": "dissuade",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dissuade"
+   ],
+   "glossEn": "persuade someone not to do something",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "4f74f425-cea1-58f5-b56c-403d95c3fb95",
+   "lemma": "distraught",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "distraught"
+   ],
+   "glossEn": "extremely upset and anxious",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "2c2ad5b3-371d-52c0-8e86-1be849649987",
+   "lemma": "diversify",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "diversify"
+   ],
+   "glossEn": "expand into different products or markets",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "f02132fe-4ed0-517f-a293-8a17860b615a",
+   "lemma": "dividend",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dividend"
+   ],
+   "glossEn": "share of profits paid to shareholders",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "eab232f7-9e27-5056-bca3-755267ac77bd",
+   "lemma": "divulge",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "divulge"
+   ],
+   "glossEn": "make private information known",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "6b20bcf5-8cf8-52d4-909b-db30cf67832a",
+   "lemma": "doctorate",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "doctorate"
+   ],
+   "glossEn": "highest university degree, usually a PhD",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "2339376d-fd13-56fc-9308-b3cf7a6b9845",
+   "lemma": "dogmatic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dogmatic"
+   ],
+   "glossEn": "asserting opinions as if unquestionably true",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "1fefd0f1-370f-5c35-bba2-9a813a2b85d5",
+   "lemma": "dongle",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dongle"
+   ],
+   "glossEn": "small device plugged into a port to add a function",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "fbf72f33-2e7a-5e41-953d-29b33541219a",
+   "lemma": "doomscrolling",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "doomscrolling"
+   ],
+   "glossEn": "compulsively reading bad news on a phone",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "52237f90-a69b-5e19-8825-b8f12109d67f",
+   "lemma": "dosage",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dosage"
+   ],
+   "glossEn": "prescribed amount of a medicine to take",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "38d8f32c-594b-52c9-b919-373b43084db9",
+   "lemma": "downplay",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "downplay"
+   ],
+   "glossEn": "make something seem less important than it is",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "a9f2c436-ef80-59ac-ba63-4fdfb972c7f6",
+   "lemma": "downright",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "downright"
+   ],
+   "glossEn": "completely, used to emphasize something bad",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "f6bc25e4-63c0-5eb7-a1d4-a391e02f8e27",
+   "lemma": "downtime",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "downtime"
+   ],
+   "glossEn": "time during which a system is unavailable",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "537ed50e-b253-582e-aa8c-a152340234b9",
+   "lemma": "downturn",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "downturn"
+   ],
+   "glossEn": "decline in economic or business activity",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "f459f85c-3652-5481-8295-bc1dee6c4cab",
+   "lemma": "doze off",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "doze off"
+   ],
+   "glossEn": "fall asleep without meaning to",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "67b583aa-dfd9-5ddc-96e8-3f9146689560",
+   "lemma": "drastically",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "drastically"
+   ],
+   "glossEn": "severely, with far-reaching effect",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "11e3da97-e6f9-5148-bc7f-6fcb4d923f19",
+   "lemma": "dreary",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dreary"
+   ],
+   "glossEn": "dull, bleak and lifeless, depressing",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "9f411141-3835-5522-ba33-5bff74b8d6ef",
+   "lemma": "drizzle",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "drizzle"
+   ],
+   "glossEn": "pour a thin stream of liquid over food",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "1d2de9d3-36a3-5d80-bbce-8f1993ea0c06",
+   "lemma": "drowsy",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "drowsy"
+   ],
+   "glossEn": "sleepy and slow to react",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "a96b5a1f-b5ea-5ef1-a50d-949d8ce4db10",
+   "lemma": "dubbing",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dubbing"
+   ],
+   "glossEn": "replacing a film's dialogue with another language",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "40a72b23-e621-597e-8558-84e1bc492b98",
+   "lemma": "dubious",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dubious"
+   ],
+   "glossEn": "doubtful; not to be relied upon",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "ad38117b-9451-5d94-898a-453077949f74",
+   "lemma": "dwell",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dwell"
+   ],
+   "glossEn": "keep thinking or talking about something unpleasant",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "cf16d689-c7f0-531c-b7f9-8fb73a496e50",
+   "lemma": "dwindle",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dwindle"
+   ],
+   "glossEn": "gradually shrink in size, amount, or strength",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "17c0bcb4-35de-50f9-9ec3-d54b2b7dc367",
+   "lemma": "eccentric",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "eccentric"
+   ],
+   "glossEn": "unconventional and slightly strange",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "3bdda069-5c43-51d7-a1a9-6effdd58b8fc",
+   "lemma": "echo chamber",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "echo chamber"
+   ],
+   "glossEn": "environment where people only hear views like their own",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "7c07474e-f50d-5000-8f78-15f164b2eb01",
+   "lemma": "eerie",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "eerie"
+   ],
+   "glossEn": "strange and frightening",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "078f912b-951b-5bc1-b20b-b12381d1d4fd",
+   "lemma": "egalitarian",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "egalitarian"
+   ],
+   "glossEn": "believing all people deserve equal rights and opportunities",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  }
+ ]
+}

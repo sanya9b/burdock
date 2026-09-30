@@ -1,0 +1,546 @@
+{
+ "chunk": "C2-012",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "ff0cf203-b3f8-528c-88b9-86b8b9ecfbde",
+   "lemma": "marginalize",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "marginalize"
+   ],
+   "glossEn": "push a group to the edge of society",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "5f8e747a-ab32-5ca3-a6a9-dde72816ba99",
+   "lemma": "markedly",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "markedly"
+   ],
+   "glossEn": "noticeably, to a significant degree",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "4b1aaaab-404c-5e90-8c0e-4eea3be0f304",
+   "lemma": "matrimony",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "matrimony"
+   ],
+   "glossEn": "the state of being married",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "853a4bc1-a317-50ac-a597-747e45051048",
+   "lemma": "maudlin",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "maudlin"
+   ],
+   "glossEn": "tearfully and weakly sentimental",
+   "proposedTopics": [],
+   "levelConfidence": 0.9
+  },
+  {
+   "id": "ca66e267-5686-5615-9124-80e3aa3a3ea0",
+   "lemma": "mawkish",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mawkish"
+   ],
+   "glossEn": "sentimental in a sickly, exaggerated way",
+   "proposedTopics": [],
+   "levelConfidence": 0.9
+  },
+  {
+   "id": "7b47c3c8-8f54-55f9-948b-ac8907689c96",
+   "lemma": "meander",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "meander"
+   ],
+   "glossEn": "follow a winding course; wander without hurry",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "94f40113-fd78-509f-8489-fc2413bfeee2",
+   "lemma": "meek",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "meek"
+   ],
+   "glossEn": "quiet, gentle and submissive",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "96a8118b-801c-51ed-9b42-5ff23f111974",
+   "lemma": "mendacious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mendacious"
+   ],
+   "glossEn": "not telling the truth, lying",
+   "proposedTopics": [],
+   "levelConfidence": 0.9
+  },
+  {
+   "id": "0a5c3985-091a-5206-834e-10dfeeaada32",
+   "lemma": "mercurial",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mercurial"
+   ],
+   "glossEn": "subject to sudden unpredictable changes of mood",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "cbf587f6-900f-5e2e-a57d-5d6e24dee73f",
+   "lemma": "meta-analysis",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "meta-analysis"
+   ],
+   "glossEn": "statistical analysis combining the results of many studies",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "81d554d2-913b-5315-8e12-ead353f71e4f",
+   "lemma": "metropolis",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "metropolis"
+   ],
+   "glossEn": "very large and important city",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "892795e3-08a5-5b0d-b234-6b48a046d2f0",
+   "lemma": "migratory",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "migratory"
+   ],
+   "glossEn": "moving seasonally from one region to another",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "810552b4-0de3-5f55-9c64-e922d46c83f4",
+   "lemma": "misapprehend",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "misapprehend"
+   ],
+   "glossEn": "misunderstand something",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "870bea83-8c8e-516e-ae11-cd191575f213",
+   "lemma": "misconstrue",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "misconstrue"
+   ],
+   "glossEn": "interpret something wrongly",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "8c52d2a0-d25b-573a-9276-9879aca77c6a",
+   "lemma": "mise-en-scène",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mise-en-scène"
+   ],
+   "glossEn": "arrangement of everything visible in a scene",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "24a1934e-3cfe-5edf-9974-0a72cfae7d78",
+   "lemma": "miserly",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "miserly"
+   ],
+   "glossEn": "unwilling to spend money; mean",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "2f007d10-e6a6-5225-8ec3-6b27dd724507",
+   "lemma": "molten",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "molten"
+   ],
+   "glossEn": "liquefied by heat, of rock or metal",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "7216ce74-cc68-5400-9ce9-8ac93d608cec",
+   "lemma": "monograph",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "monograph"
+   ],
+   "glossEn": "detailed scholarly book on a single subject",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "c1cd031a-ac8e-5509-86c4-e4d57444d6e0",
+   "lemma": "moral hazard",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "moral hazard"
+   ],
+   "glossEn": "taking risks because someone else bears the cost",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "76b3aa0e-50f4-5548-8bea-f31d8f5403c0",
+   "lemma": "moratorium",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "moratorium"
+   ],
+   "glossEn": "temporary official suspension of an activity",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "59979460-7b36-5181-95d8-eea3911195b7",
+   "lemma": "morose",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "morose"
+   ],
+   "glossEn": "sullen and ill-tempered",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "9e27df43-f4a4-5bf1-a69d-7662293a83df",
+   "lemma": "morsel",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "morsel"
+   ],
+   "glossEn": "small piece or mouthful of food",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "ae59534a-2f4b-591c-9ec2-acbd6ff98ffc",
+   "lemma": "muckraking",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "muckraking"
+   ],
+   "glossEn": "journalism that digs up scandal about the powerful",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "1bd19be2-7689-5d42-89d3-de9a1a7cacf4",
+   "lemma": "munitions",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "munitions"
+   ],
+   "glossEn": "military weapons, ammunition and equipment",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "27f0ae17-e2a2-572c-bad5-625a0b12e1c1",
+   "lemma": "nebula",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nebula"
+   ],
+   "glossEn": "cloud of gas and dust in space",
+   "proposedTopics": [],
+   "levelConfidence": 0.9
+  },
+  {
+   "id": "f88d00cc-cdac-58c7-8df4-61684e62c433",
+   "lemma": "nebulous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nebulous"
+   ],
+   "glossEn": "unclear, vague or ill-defined",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "4fb8cbf9-b32f-5dfc-b11b-fc442e9a51b2",
+   "lemma": "nepotism",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nepotism"
+   ],
+   "glossEn": "favoring relatives when giving jobs",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "a8b7ca30-dc33-5b50-a3d2-855ab59e47ed",
+   "lemma": "net neutrality",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "net neutrality"
+   ],
+   "glossEn": "principle that all internet traffic is treated equally",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "afd5de65-349d-5b9f-9b6f-0a2ada652461",
+   "lemma": "no-frills",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "no-frills"
+   ],
+   "glossEn": "basic, without extra features or luxuries",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "0f063962-039b-500f-82ee-2bdae57bb480",
+   "lemma": "non sequitur",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "non sequitur"
+   ],
+   "glossEn": "conclusion that does not follow from what came before",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "2491400c-314b-5ed4-9d40-fbaf47290229",
+   "lemma": "nonchalantly",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nonchalantly"
+   ],
+   "glossEn": "calmly, as if not caring",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "c27f468f-528a-5ac5-bf6d-1520746672ee",
+   "lemma": "none other than",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "none other than"
+   ],
+   "glossEn": "used to emphasize a surprising identity",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "72496fb1-c546-5b0b-aa3e-fd2c80ee5486",
+   "lemma": "nothing short of",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nothing short of"
+   ],
+   "glossEn": "used to emphasize how extreme something is",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "dc700bad-7668-5428-b5fd-b5194dd0772b",
+   "lemma": "null hypothesis",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "null hypothesis"
+   ],
+   "glossEn": "default assumption that there is no real effect",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "1e302ada-c52f-5c31-93c7-cb7584c6430a",
+   "lemma": "obfuscate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "obfuscate"
+   ],
+   "glossEn": "make something obscure or unclear deliberately",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "303a91e3-4a96-56eb-838c-cedbd0c0b888",
+   "lemma": "obsequious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "obsequious"
+   ],
+   "glossEn": "excessively eager to please or obey",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "4a0fc40f-22e5-55c2-9acd-d0fe2907ab1f",
+   "lemma": "obviate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "obviate"
+   ],
+   "glossEn": "remove a need or difficulty; prevent",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "1fdaa0a2-bf5c-598b-9791-36654fdf1ee1",
+   "lemma": "odious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "odious"
+   ],
+   "glossEn": "extremely unpleasant, repulsive",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "1a34c628-214f-5b50-8c2d-d35c3e0559db",
+   "lemma": "odyssey",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "odyssey"
+   ],
+   "glossEn": "long eventful journey",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "f37388f1-147e-5268-a427-f8c5163eb6e5",
+   "lemma": "oeuvre",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "oeuvre"
+   ],
+   "glossEn": "complete body of an artist's work",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  }
+ ]
+}

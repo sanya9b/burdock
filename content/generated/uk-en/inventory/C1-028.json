@@ -1,0 +1,562 @@
+{
+ "chunk": "C1-028",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "0a6f4916-506c-59d3-99de-74c3f1f2bf7a",
+   "lemma": "subsidiary",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subsidiary"
+   ],
+   "glossEn": "company controlled by a larger parent company",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "64410f73-1474-5631-a883-f6a98006096b",
+   "lemma": "subsidy",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subsidy"
+   ],
+   "glossEn": "money given by government to support a business",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "2f769c14-9b1e-5f5d-b7b7-41128104e922",
+   "lemma": "subsistence",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subsistence"
+   ],
+   "glossEn": "having just enough to survive",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "d4c23c5a-0434-5013-8ca4-ec100ae8529e",
+   "lemma": "substantially",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "substantially"
+   ],
+   "glossEn": "to a large degree, considerably",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "31164c9c-e20e-59db-bf53-71714377f9bf",
+   "lemma": "substantiate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "substantiate"
+   ],
+   "glossEn": "provide evidence to support a claim",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "0ce21569-07df-544f-8d84-860a98df42db",
+   "lemma": "subtly",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subtly"
+   ],
+   "glossEn": "in a delicate way that is hard to notice",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "c8fb0aa6-26bf-5bcc-94ef-62252bd9f3d0",
+   "lemma": "successor",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "successor"
+   ],
+   "glossEn": "person who takes over a position from another",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "485be446-4211-5578-b845-5688812d269e",
+   "lemma": "succinct",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "succinct"
+   ],
+   "glossEn": "brief and clearly expressed",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "6ae90a7d-c8bb-570b-8fc3-f5160ffb37e2",
+   "lemma": "succulent",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "succulent"
+   ],
+   "glossEn": "juicy, tender and full of flavor",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "8164fa90-6fdf-5b80-9e1e-98dbdac358f9",
+   "lemma": "sulk",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sulk"
+   ],
+   "glossEn": "be silent and bad-tempered out of resentment",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "3cd95898-429f-57db-bbf9-ebc3c625c704",
+   "lemma": "superficial",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "superficial"
+   ],
+   "glossEn": "existing only at the surface, shallow",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "1242ac54-33dd-5698-8474-e671c77a37b6",
+   "lemma": "superfluous",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "superfluous"
+   ],
+   "glossEn": "unnecessary, more than enough",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "a257696c-1e75-5526-95d0-ed9fdb6e4bb5",
+   "lemma": "supersede",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "supersede"
+   ],
+   "glossEn": "replace something older or less effective",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "ff8ed526-714f-5cc8-ade4-0890ef482957",
+   "lemma": "supply chain",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "supply chain"
+   ],
+   "glossEn": "network that moves goods from producer to customer",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "3290be62-8993-584a-941c-5e40dd794a3c",
+   "lemma": "surcharge",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "surcharge"
+   ],
+   "glossEn": "extra amount added to the usual price",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "a23186f1-d481-587a-839f-6b22610f1df8",
+   "lemma": "surplus",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "surplus"
+   ],
+   "glossEn": "amount left over after needs are met",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "27ccacf7-1994-531a-8027-0d660c2ddf4a",
+   "lemma": "susceptible",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "susceptible"
+   ],
+   "glossEn": "likely to be harmed by a disease",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "08ddcfa4-0cea-565f-8d61-ef76eb250a33",
+   "lemma": "sustainable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sustainable"
+   ],
+   "glossEn": "able to continue without exhausting natural resources",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "e4cd54cd-56c5-5ce7-82a6-133e9627bb8a",
+   "lemma": "swamp",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "swamp"
+   ],
+   "glossEn": "permanently waterlogged land with trees",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "c069713e-4a19-5a60-a0a5-c0ad94fd8cb5",
+   "lemma": "syllabus",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "syllabus"
+   ],
+   "glossEn": "outline of the topics covered in a course",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "4653c625-8ed4-58d3-9cc4-12c322cf4e84",
+   "lemma": "taboo",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "taboo"
+   ],
+   "glossEn": "something forbidden by social custom",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "b6cb141a-b7f2-5b34-906b-8b736ff318db",
+   "lemma": "tactful",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tactful"
+   ],
+   "glossEn": "careful not to offend or upset people",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "362d150e-2599-5168-8f5c-bb8cf41f5950",
+   "lemma": "take cover",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take cover"
+   ],
+   "glossEn": "hide from gunfire or falling debris",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "4fac1903-cc90-5625-a88f-ec5b6b1797cd",
+   "lemma": "take offense",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take offense"
+   ],
+   "glossEn": "feel insulted by something said or done",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "a9c5cea0-5ebf-5d20-8eee-1435de63cfd9",
+   "lemma": "takeover",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "takeover"
+   ],
+   "glossEn": "act of gaining control of a company",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "df053797-c038-5a86-b3a4-bf43c076e1cf",
+   "lemma": "talk down to",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "talk down to"
+   ],
+   "glossEn": "speak to someone as if they were inferior",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "a345fb40-38fd-56b2-a9a9-8b4a25348061",
+   "lemma": "tangible",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tangible"
+   ],
+   "glossEn": "perceptible by touch; clear and definite",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "f5f087f2-0bab-56a7-9546-c26f28fd47e9",
+   "lemma": "tangy",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tangy"
+   ],
+   "glossEn": "having a pleasantly sharp, slightly sour taste",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "b8292069-5270-524d-98c7-2a183e9aa8fb",
+   "lemma": "tantrum",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tantrum"
+   ],
+   "glossEn": "sudden outburst of childish anger",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b29a73c6-c55c-5282-8384-33f4b815b38a",
+   "lemma": "tariff",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tariff"
+   ],
+   "glossEn": "tax on imported or exported goods",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "620968b8-3d99-5f86-9b74-7d7e6396304a",
+   "lemma": "tattered",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tattered"
+   ],
+   "glossEn": "old and torn, in poor condition",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "1e2eb959-b4f1-5019-b910-c682664d5bad",
+   "lemma": "tedious",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tedious"
+   ],
+   "glossEn": "too long, slow or dull, tiresome",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "8a2a3455-01a8-5a6b-98df-3be73ac22b92",
+   "lemma": "temperament",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "temperament"
+   ],
+   "glossEn": "person's natural emotional nature",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "069162df-d2fe-59be-8e33-2a78a46c6f46",
+   "lemma": "tenacious",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tenacious"
+   ],
+   "glossEn": "holding firmly, not giving up easily",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "dd818b8c-dd48-512d-b362-a400d9af5f17",
+   "lemma": "tentative",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tentative"
+   ],
+   "glossEn": "not certain or fixed; provisional",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d03f6b8e-9b80-5c44-9c90-093c90938c82",
+   "lemma": "tenure",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tenure"
+   ],
+   "glossEn": "permanent academic post granted after a probation period",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "e14b8fd4-e97e-52b4-af65-5e366fc80cd7",
+   "lemma": "terminate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "terminate"
+   ],
+   "glossEn": "bring a contract or employment to an end",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "f0e1470f-cb73-58e0-b5c9-8215a3ff3e14",
+   "lemma": "terminology",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "terminology"
+   ],
+   "glossEn": "set of special terms used in a particular field",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "165e8199-158f-55b6-9209-79a524e51b62",
+   "lemma": "terrain",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "terrain"
+   ],
+   "glossEn": "type of land surface, e.g. rocky or flat",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "31f197ff-8056-50ef-8c99-fd202b85d5a4",
+   "lemma": "terse",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "terse"
+   ],
+   "glossEn": "brief and abrupt in a way that seems unfriendly",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  }
+ ]
+}

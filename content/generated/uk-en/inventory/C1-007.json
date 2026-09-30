@@ -1,0 +1,566 @@
+{
+ "chunk": "C1-007",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "47aaed4f-bb6c-5a68-894a-02c4ca873b21",
+   "lemma": "connecting flight",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "connecting flight"
+   ],
+   "glossEn": "second flight taken after changing planes",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "b51dcd4c-9cdf-54dc-bfd3-3743439f48a2",
+   "lemma": "connectivity",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "connectivity"
+   ],
+   "glossEn": "ability of devices to connect to networks and each other",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "d3977317-e93b-5344-b0b0-242cfc6af7e4",
+   "lemma": "connote",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "connote"
+   ],
+   "glossEn": "imply or suggest beyond the literal meaning",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "6d02cc9d-86d7-5274-b462-1e95b8095090",
+   "lemma": "conscientious",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "conscientious"
+   ],
+   "glossEn": "careful to do one's work thoroughly and well",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "dcc2bd03-6bee-53f5-94f7-a7ff4dd97749",
+   "lemma": "conscription",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "conscription"
+   ],
+   "glossEn": "compulsory enrollment of citizens for military service",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "360b4e8d-e0ea-5c67-8e7a-2c58508fa74d",
+   "lemma": "consolidate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "consolidate"
+   ],
+   "glossEn": "combine or strengthen into a more solid whole",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "3afa2924-7f95-546f-911d-dda545a0bb12",
+   "lemma": "constituency",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "constituency"
+   ],
+   "glossEn": "area whose voters elect a representative",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "e1f25a95-c1ea-5b91-92b8-b7655dd05716",
+   "lemma": "constrain",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "constrain"
+   ],
+   "glossEn": "restrict or limit someone's freedom of action",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "0bcef10b-3bca-5ba4-ba1c-09f65ac14612",
+   "lemma": "consulate",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "consulate"
+   ],
+   "glossEn": "office representing a government in a foreign city",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "9ecd8630-8d6b-5e67-a186-8dac25c97da6",
+   "lemma": "consumerism",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "consumerism"
+   ],
+   "glossEn": "culture preoccupied with buying more and more goods",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "e488adef-45e5-5b29-b0df-e20445514381",
+   "lemma": "contagious",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "contagious"
+   ],
+   "glossEn": "spread from person to person by contact",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "8d1eceeb-0fbb-52a0-af94-65de16bae149",
+   "lemma": "contemplate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "contemplate"
+   ],
+   "glossEn": "think deeply about something for a long time",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "a411ecc7-bcb9-56b9-b6f6-1100f3e8a18f",
+   "lemma": "contend",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "contend"
+   ],
+   "glossEn": "assert something as a position in an argument",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "7e46b64a-e94b-50cf-a564-047b4ebd9afd",
+   "lemma": "contention",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "contention"
+   ],
+   "glossEn": "point that someone argues for in a debate",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "fa5d4281-78a8-559e-bb49-4ccc69146fb4",
+   "lemma": "contingency",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "contingency"
+   ],
+   "glossEn": "possible future event that must be prepared for",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "8cba2922-1d21-50db-a1b1-099a3c9a7737",
+   "lemma": "contractor",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "contractor"
+   ],
+   "glossEn": "person or firm hired to do work under a contract",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "439d4282-6927-5ef9-834e-38f2d068a60c",
+   "lemma": "contrived",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "contrived"
+   ],
+   "glossEn": "artificial and forced rather than natural",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "31984770-6925-52f6-b95b-fda8e062df1d",
+   "lemma": "control group",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "control group"
+   ],
+   "glossEn": "experiment group that receives no treatment, used for comparison",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "818bca72-c70b-5684-894b-a07fa6babde7",
+   "lemma": "convict",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "convict"
+   ],
+   "glossEn": "declare someone guilty of a crime in court",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "f79f1637-dabe-552d-a29a-b685e906bd86",
+   "lemma": "convoy",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "convoy"
+   ],
+   "glossEn": "group of vehicles traveling together under escort",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "2cf2ad03-3307-54d8-8753-d349e91cf580",
+   "lemma": "cordial",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cordial"
+   ],
+   "glossEn": "warm and friendly but somewhat formal",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "d5f1ee38-1e3a-59d1-8e77-3d20ffd9c821",
+   "lemma": "correlation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "correlation"
+   ],
+   "glossEn": "mutual relationship between two things",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d5c06310-b1a5-5d03-afde-c18874abcfca",
+   "lemma": "corroborate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "corroborate"
+   ],
+   "glossEn": "confirm a statement with supporting evidence",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "1e49d85b-fc3c-5c44-81aa-1fe9a6976514",
+   "lemma": "counterargument",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "counterargument"
+   ],
+   "glossEn": "an argument that opposes another argument",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "7f04ca70-ad36-5f5f-9877-a9a478ac5ca7",
+   "lemma": "counterfeit",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "counterfeit"
+   ],
+   "glossEn": "made as an illegal copy to deceive buyers",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "b2b239d9-8add-5020-989e-d0402dfe3540",
+   "lemma": "counterpart",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "counterpart"
+   ],
+   "glossEn": "person with the same role in another organization",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "f2f4f3a7-f3ce-5157-92db-16f6c2f2da9b",
+   "lemma": "coup",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "coup"
+   ],
+   "glossEn": "sudden illegal seizure of power",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "24d004a1-6b51-5ee4-995b-aa68680ec4ad",
+   "lemma": "coursework",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "coursework"
+   ],
+   "glossEn": "assessed work done by students during a course",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "c677d6de-b082-5218-828c-a924ee0503df",
+   "lemma": "courteous",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "courteous"
+   ],
+   "glossEn": "polite, respectful and considerate",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "0e00352c-c13f-5381-adf7-9e534cbb42b2",
+   "lemma": "craftsmanship",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "craftsmanship"
+   ],
+   "glossEn": "skill and quality shown in making something by hand",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "9ff4fb28-98e3-57b4-a28a-7ce9f5c368d5",
+   "lemma": "cramp",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cramp"
+   ],
+   "glossEn": "sudden painful tightening of a muscle",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "64936343-c34e-5c9f-acf0-4462e394e46a",
+   "lemma": "cramped",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cramped"
+   ],
+   "glossEn": "uncomfortably small or crowded",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "3c5581d7-c565-55cb-abb3-7a326f4388de",
+   "lemma": "crave",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "crave"
+   ],
+   "glossEn": "feel a strong desire for a particular food",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "8934c165-5add-5987-921b-f847c8cdc585",
+   "lemma": "craving",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "craving"
+   ],
+   "glossEn": "powerful desire for a particular food or substance",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "54427fc9-03e3-503d-b205-917d4dd93274",
+   "lemma": "credential",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "credential"
+   ],
+   "glossEn": "username, password or key that proves identity",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "ef180e6a-b97f-54f4-819e-81fb76f1ddb2",
+   "lemma": "credentials",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "credentials"
+   ],
+   "glossEn": "qualifications proving someone's ability",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "eb8612b2-68cd-523d-82b7-b515f3c075e3",
+   "lemma": "credibility",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "credibility"
+   ],
+   "glossEn": "quality of being trusted and believed",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "8fea877c-e5b8-5fac-88ce-d93247da5483",
+   "lemma": "credible",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "credible"
+   ],
+   "glossEn": "able to be believed or trusted",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "d3d9f194-4a91-5c99-b9ea-06d6b8c20e55",
+   "lemma": "creditor",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "creditor"
+   ],
+   "glossEn": "person or company owed money",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "e029ea84-3897-569d-be55-7c323f713607",
+   "lemma": "criterion",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "criterion"
+   ],
+   "glossEn": "standard by which something is judged",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  }
+ ]
+}

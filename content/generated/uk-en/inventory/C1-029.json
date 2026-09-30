@@ -1,0 +1,553 @@
+{
+ "chunk": "C1-029",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "c3e001f2-48c7-5069-a98b-7f5d8d300927",
+   "lemma": "tethering",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tethering"
+   ],
+   "glossEn": "sharing a phone's internet connection with another device",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "fcb77083-e5fa-5d18-a3c2-95a6fd89b8df",
+   "lemma": "that said",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "that said"
+   ],
+   "glossEn": "however, taking that into account",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "7d7ded44-e2ba-5fa1-b4c6-cbc2bc98fcb4",
+   "lemma": "thaw",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "thaw"
+   ],
+   "glossEn": "become liquid or soft after being frozen",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "c0a12fb1-684d-520b-8831-14818bee8a17",
+   "lemma": "theoretical",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "theoretical"
+   ],
+   "glossEn": "based on theory rather than practice",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "12b20cc4-e14e-5bfe-a3c9-d0a3f3d5f2ce",
+   "lemma": "thereby",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "thereby"
+   ],
+   "glossEn": "by that means; as a result of that",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "2c42e509-4104-5cba-9d07-e957ac54d5a8",
+   "lemma": "thermostat",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "thermostat"
+   ],
+   "glossEn": "device that keeps a room at a set temperature",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "baeefffb-3520-5d5a-9393-2c820890b1f7",
+   "lemma": "thesis statement",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "thesis statement"
+   ],
+   "glossEn": "sentence stating the main argument of an essay",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "6d44172f-c8d0-53a2-bb2b-9a2c62103285",
+   "lemma": "thought-provoking",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "thought-provoking"
+   ],
+   "glossEn": "making people think seriously about something",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "5b2ceb0d-5376-5197-bdcb-9a3fb2965972",
+   "lemma": "thrifty",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "thrifty"
+   ],
+   "glossEn": "careful and economical with money",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "9210cdbe-9834-56f2-ae3c-ef7113c5bc49",
+   "lemma": "throttle",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "throttle"
+   ],
+   "glossEn": "deliberately slow down a connection or processor",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "4325f8b5-cb33-5b76-a79c-7e4c9f47c3bd",
+   "lemma": "thus far",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "thus far"
+   ],
+   "glossEn": "up to this point, so far",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "e8d37c87-d403-5616-ba41-965753e07e17",
+   "lemma": "thwart",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "thwart"
+   ],
+   "glossEn": "prevent someone from achieving a plan",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "9089713a-ed09-5d54-bada-df56f76e116a",
+   "lemma": "timid",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "timid"
+   ],
+   "glossEn": "lacking courage or confidence, easily frightened",
+   "proposedTopics": [],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "5abbd3f7-12fa-5749-96df-df8625e9ac53",
+   "lemma": "tinker",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tinker"
+   ],
+   "glossEn": "make small adjustments trying to fix or improve",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "c9457102-3acf-5962-8a04-0871e62726bc",
+   "lemma": "to say the least",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "to say the least"
+   ],
+   "glossEn": "used to show something is worse than stated",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "ae54499e-86ca-560b-9539-d3d2688689da",
+   "lemma": "to some extent",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "to some extent"
+   ],
+   "glossEn": "partly; in a limited way",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "f53ae957-1bc4-56f0-ba07-af5d7be8301c",
+   "lemma": "tongue-in-cheek",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tongue-in-cheek"
+   ],
+   "glossEn": "meant as a joke, not seriously",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "7a11c77d-fad3-530f-920d-87f3556d6edb",
+   "lemma": "torrential",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "torrential"
+   ],
+   "glossEn": "falling in violent heavy streams, of rain",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "9378341a-4011-5f80-b91e-2b2ddc119cac",
+   "lemma": "toss and turn",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "toss and turn"
+   ],
+   "glossEn": "move restlessly in bed, unable to sleep",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "9b4bea9d-16a1-5feb-93d7-8f2914a409a9",
+   "lemma": "totalitarian",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "totalitarian"
+   ],
+   "glossEn": "controlling all aspects of public and private life",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "cc079df4-f607-557d-973f-a52549520123",
+   "lemma": "tourist trap",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tourist trap"
+   ],
+   "glossEn": "place that attracts tourists but overcharges them",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "40d757bc-b626-55d2-8041-72e24851803a",
+   "lemma": "tourniquet",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tourniquet"
+   ],
+   "glossEn": "tight band that stops severe bleeding from a limb",
+   "proposedTopics": [
+    "military",
+    "health"
+   ],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "dcc9600d-341b-5961-92f1-f31c3492fc3d",
+   "lemma": "toxin",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "toxin"
+   ],
+   "glossEn": "poisonous substance produced by a living organism",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "22de8092-2243-5d4a-8b55-9499e1476580",
+   "lemma": "trade union",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "trade union"
+   ],
+   "glossEn": "organization of workers protecting their rights",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "35dfe8be-7ede-59c6-b939-cb1b0d29242c",
+   "lemma": "trafficking",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "trafficking"
+   ],
+   "glossEn": "illegal trade in people, drugs or weapons",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "a294fadf-5af7-5b43-8e56-cfff9d445d74",
+   "lemma": "tranquil",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tranquil"
+   ],
+   "glossEn": "calm, quiet and peaceful",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b46ebcb6-160e-57ae-948b-16cb3abfc03e",
+   "lemma": "transit",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "transit"
+   ],
+   "glossEn": "passing through a place on the way elsewhere",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "321ff00d-dddd-55bf-a484-2db6c5b6f991",
+   "lemma": "transparency",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "transparency"
+   ],
+   "glossEn": "openness about how decisions are made",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "059f0bf3-e5f6-57d9-9c1f-4590501a8879",
+   "lemma": "transplant",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "transplant"
+   ],
+   "glossEn": "operation moving an organ into another body",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "56792a16-a594-5b50-8f82-5e28fb217570",
+   "lemma": "trench",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "trench"
+   ],
+   "glossEn": "long narrow ditch dug to protect soldiers",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "e65ca1a4-19f0-56c8-a0eb-0fd9dad5c413",
+   "lemma": "tribunal",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tribunal"
+   ],
+   "glossEn": "a body set up to settle certain disputes",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d7383b67-6a46-5884-b1f0-c54713c2d2cd",
+   "lemma": "tributary",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tributary"
+   ],
+   "glossEn": "river or stream flowing into a larger river",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "cd95aeb6-b730-5ae5-aaac-e9f361c68dcb",
+   "lemma": "trickle",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "trickle"
+   ],
+   "glossEn": "flow in a thin, slow stream",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "ebb65cb4-8a6f-5933-947f-c33d1c719559",
+   "lemma": "troll",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "troll"
+   ],
+   "glossEn": "person who posts provocative messages to upset others",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "705636dc-40d5-5f46-bdb5-08e79109c47a",
+   "lemma": "trope",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "trope"
+   ],
+   "glossEn": "recurring theme or device in stories and media",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "e28495fc-3d75-5abb-9f5a-babfac43f384",
+   "lemma": "troubleshoot",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "troubleshoot"
+   ],
+   "glossEn": "trace and solve problems in a system",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "8852d84d-a378-5ad7-a2a6-d87154264402",
+   "lemma": "troupe",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "troupe"
+   ],
+   "glossEn": "traveling group of actors, dancers or acrobats",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "331d2fc0-010c-5f84-ab49-939ee4f470bb",
+   "lemma": "tsunami",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tsunami"
+   ],
+   "glossEn": "huge sea wave caused by an underwater earthquake",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "8a078dee-94d2-5423-8984-30ce72bca016",
+   "lemma": "tundra",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tundra"
+   ],
+   "glossEn": "vast treeless Arctic plain with frozen subsoil",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "368959a8-2482-5b54-94ed-bc89eb571356",
+   "lemma": "turnout",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "turnout"
+   ],
+   "glossEn": "number of people who vote in an election",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  }
+ ]
+}

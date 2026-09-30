@@ -1,0 +1,560 @@
+{
+ "chunk": "C2-010",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "9b8dab3a-4f3e-5001-bd1f-a181b327e589",
+   "lemma": "inalienable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inalienable"
+   ],
+   "glossEn": "unable to be taken away or given away",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "845e8210-35e7-5ced-a974-e18af45369af",
+   "lemma": "inane",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inane"
+   ],
+   "glossEn": "silly, lacking sense or meaning",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "e21d6cf9-9f81-5f21-9c57-782115e6f13c",
+   "lemma": "incisive",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incisive"
+   ],
+   "glossEn": "intelligently sharp and clear in analysis",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "42badc97-efdc-56e2-bdc1-34b2cd0488c5",
+   "lemma": "incriminate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incriminate"
+   ],
+   "glossEn": "make someone appear guilty of a crime",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "0026266b-0d94-5fcd-b915-48edfb60f8fb",
+   "lemma": "incumbent",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incumbent"
+   ],
+   "glossEn": "current holder of a position",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "9d3069f9-6487-57bf-92d6-c168f7afe316",
+   "lemma": "incursion",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incursion"
+   ],
+   "glossEn": "sudden brief invasion of another territory",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d45f0872-95ad-5828-a2ac-9133c5815c9a",
+   "lemma": "indefatigable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "indefatigable"
+   ],
+   "glossEn": "persisting tirelessly",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "345b59dd-a262-58dc-9105-2ca59858640a",
+   "lemma": "indemnify",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "indemnify"
+   ],
+   "glossEn": "compensate for loss; protect against liability",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d5e24413-e6f7-5ead-a7a3-36928184ccbc",
+   "lemma": "ingratiate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ingratiate"
+   ],
+   "glossEn": "bring oneself into favor by flattering",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "e75198a5-9ae7-5464-aa54-cbcc2edcb99e",
+   "lemma": "ingratiating",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ingratiating"
+   ],
+   "glossEn": "trying to please in order to gain favor",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "89f4abba-b5c0-59ca-93a4-5f8b8fbc031a",
+   "lemma": "inimitable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inimitable"
+   ],
+   "glossEn": "so good or unusual as to be impossible to copy",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "aa1e25d3-8606-5d14-bb83-e53a5d089dba",
+   "lemma": "innocuous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "innocuous"
+   ],
+   "glossEn": "not harmful or offensive",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "ec406277-6393-5612-beb5-abd3c09fbca2",
+   "lemma": "innuendo",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "innuendo"
+   ],
+   "glossEn": "an indirect, often suggestive remark",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "cd81c5bf-23d3-5ec5-a5ec-6d238c137645",
+   "lemma": "inoculate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inoculate"
+   ],
+   "glossEn": "give a vaccine to protect against a disease",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "929cbd31-5bd9-5262-8519-8657242030ee",
+   "lemma": "insidious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "insidious"
+   ],
+   "glossEn": "proceeding gradually and harmfully without being noticed",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "6375a460-6b49-5027-82d8-72d3cb7de56b",
+   "lemma": "insignia",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "insignia"
+   ],
+   "glossEn": "badge showing rank or unit membership",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "31d7abee-4e71-5be6-9afa-c45f556f43af",
+   "lemma": "insipid",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "insipid"
+   ],
+   "glossEn": "lacking flavor; dull and weak in taste",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "d859da2e-cb63-5202-9366-adaa1a621177",
+   "lemma": "insolvent",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "insolvent"
+   ],
+   "glossEn": "unable to pay debts owed",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "25a98f64-1d47-5e16-88b6-a5b5187042a7",
+   "lemma": "insurrection",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "insurrection"
+   ],
+   "glossEn": "violent uprising against authority",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "5e30a4d8-34a4-58c8-8b2e-1ebedd389994",
+   "lemma": "interlocutor",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "interlocutor"
+   ],
+   "glossEn": "a person taking part in a conversation",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d2ea5adf-a49e-50d3-bff2-5637b3f560fb",
+   "lemma": "interoperability",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "interoperability"
+   ],
+   "glossEn": "ability of different systems to work together",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "6f471d96-2071-56be-b40d-4ce5aab9b1f3",
+   "lemma": "intractable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "intractable"
+   ],
+   "glossEn": "hard to control or deal with",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "8c3acf18-3716-598b-9411-24c296ebdc4e",
+   "lemma": "intransigent",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "intransigent"
+   ],
+   "glossEn": "unwilling to change one's views or to agree",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "dd4a9f17-6a88-5a7e-9f38-973a26628094",
+   "lemma": "introspect",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "introspect"
+   ],
+   "glossEn": "examine one's own thoughts and feelings",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "8457237c-9682-54e7-a725-f796907457f7",
+   "lemma": "intuit",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "intuit"
+   ],
+   "glossEn": "understand or work out by instinct",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "b26c76ed-f3bc-5e18-b0b8-f4d4d07196ee",
+   "lemma": "inundate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inundate"
+   ],
+   "glossEn": "flood an area; overwhelm with quantity",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "c3492e20-5936-531a-8f76-98ea9a757041",
+   "lemma": "invective",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "invective"
+   ],
+   "glossEn": "insulting, abusive language",
+   "proposedTopics": [],
+   "levelConfidence": 0.9
+  },
+  {
+   "id": "5e11eae4-6b92-561d-aa75-3f7c8831aab6",
+   "lemma": "invigorate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "invigorate"
+   ],
+   "glossEn": "give strength and energy to",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "2a62e0a9-ff3d-569f-9624-ab77fc76595d",
+   "lemma": "irascible",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "irascible"
+   ],
+   "glossEn": "having a tendency to be easily angered",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "e0b01af3-3be3-57a9-8be5-ad13cc457e8a",
+   "lemma": "itinerant",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "itinerant"
+   ],
+   "glossEn": "traveling from place to place, especially for work",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "b7652da9-3bfe-5a3b-bd35-8726df1f4d0e",
+   "lemma": "ivory tower",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ivory tower"
+   ],
+   "glossEn": "academic world seen as detached from practical realities",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "34dd9ce3-26a6-5516-88f5-b696a11fff09",
+   "lemma": "jaunt",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jaunt"
+   ],
+   "glossEn": "short trip taken for pleasure",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "700c92e2-6e90-5d5b-baa8-57cbd387199c",
+   "lemma": "jaywalk",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jaywalk"
+   ],
+   "glossEn": "cross a street illegally, ignoring signals",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "45412a9c-b503-5658-88d9-94efa5cfe9f8",
+   "lemma": "jilt",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jilt"
+   ],
+   "glossEn": "suddenly abandon a lover or partner",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "2d4f2d80-5638-5263-845d-79afee0a7a97",
+   "lemma": "judicious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "judicious"
+   ],
+   "glossEn": "having or showing good judgment",
+   "proposedTopics": [],
+   "levelConfidence": 0.6
+  },
+  {
+   "id": "ee642583-ddd7-5259-b2f4-cd3494038515",
+   "lemma": "jurisprudence",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jurisprudence"
+   ],
+   "glossEn": "the theory and philosophy of law",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "fc146277-f556-5b7c-bf91-914364f78b9b",
+   "lemma": "juxtapose",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "juxtapose"
+   ],
+   "glossEn": "place side by side to show contrast",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "ae6b3d0b-125f-5275-a850-98106743eac2",
+   "lemma": "keepsake",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keepsake"
+   ],
+   "glossEn": "small item kept in memory of someone",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "79254511-87a6-52d7-bc1b-c69260239993",
+   "lemma": "kickback",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "kickback"
+   ],
+   "glossEn": "illegal payment for arranging a deal",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "0e4d2ec0-7a23-5cdd-8934-4b7f3a04bdb1",
+   "lemma": "kinetic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "kinetic"
+   ],
+   "glossEn": "relating to or produced by motion",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  }
+ ]
+}

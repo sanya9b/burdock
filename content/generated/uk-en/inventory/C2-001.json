@@ -1,0 +1,548 @@
+{
+ "chunk": "C2-001",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "791e5142-9414-5b45-b831-57885c9a7adf",
+   "lemma": "a priori",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a priori"
+   ],
+   "glossEn": "based on reasoning rather than on experience",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "6491bd74-a933-5350-94a6-832f4ae1f2c9",
+   "lemma": "abet",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "abet"
+   ],
+   "glossEn": "encourage or assist someone to do wrong",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "f1f2c1de-e443-5f7b-a1ce-29b99d26b3ed",
+   "lemma": "abhorrent",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "abhorrent"
+   ],
+   "glossEn": "inspiring disgust and loathing",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "c5ba9379-096b-569f-aa7b-bbf76bb70a45",
+   "lemma": "absenteeism",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "absenteeism"
+   ],
+   "glossEn": "habitual absence from work without good reason",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "2c1ea615-6075-5d89-ab1e-a60dd77f3b14",
+   "lemma": "abstain",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "abstain"
+   ],
+   "glossEn": "deliberately refrain from alcohol or food",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "b4b3fb67-feb5-57a4-b3a4-f23cafd25b30",
+   "lemma": "abstemious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "abstemious"
+   ],
+   "glossEn": "eating and drinking only in moderation",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "3d28eaf3-9a76-5185-ab05-06d6eabc8cb4",
+   "lemma": "abstruse",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "abstruse"
+   ],
+   "glossEn": "difficult to understand; obscure",
+   "proposedTopics": [],
+   "levelConfidence": 0.9
+  },
+  {
+   "id": "1897cd7d-9e28-57ac-a83d-3f3c3bc4b9c7",
+   "lemma": "accomplice",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "accomplice"
+   ],
+   "glossEn": "person who helps another commit a crime",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "5efeccb2-0894-59b3-8a57-9fb6512a103b",
+   "lemma": "accrue",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "accrue"
+   ],
+   "glossEn": "accumulate over time, as interest or benefits",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "ba528248-7e17-5f01-a57e-f8b1af10a964",
+   "lemma": "acerbic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "acerbic"
+   ],
+   "glossEn": "sharp and biting in tone",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "5c33d88a-2991-5535-8a45-76462ffaddf4",
+   "lemma": "ad hoc",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ad hoc"
+   ],
+   "glossEn": "created for one particular purpose only",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "5ba731cf-d856-5163-b42f-f634dbfc20b4",
+   "lemma": "ad hominem",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ad hominem"
+   ],
+   "glossEn": "attacking the person rather than their argument",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "2d44305e-918e-5242-9faa-0d84d9671812",
+   "lemma": "addendum",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "addendum"
+   ],
+   "glossEn": "item added at the end of a document",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "fa57c547-d30f-5ee7-81ff-f9afb7da9748",
+   "lemma": "adduce",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "adduce"
+   ],
+   "glossEn": "cite as evidence",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "12d7528a-f5f7-51a3-b5d4-f76739b47f47",
+   "lemma": "adjourn",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "adjourn"
+   ],
+   "glossEn": "suspend a meeting until a later time",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "dd21252a-026f-5878-9f0f-2d768d5b9556",
+   "lemma": "adjudicate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "adjudicate"
+   ],
+   "glossEn": "make a formal judgment on a dispute",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "31d6329f-e886-57e1-8a3c-c8ce41a872f4",
+   "lemma": "advertorial",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "advertorial"
+   ],
+   "glossEn": "advertisement written to look like an article",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "d4cbce84-570a-5d2c-9d91-bd5f731150a2",
+   "lemma": "affable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "affable"
+   ],
+   "glossEn": "friendly, good-natured and easy to talk to",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "04b398be-3238-53f9-ad09-b6eaadcc9733",
+   "lemma": "affinity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "affinity"
+   ],
+   "glossEn": "a natural liking or sympathy for someone",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "ae08f4a5-25c4-5f81-8e6f-99c0dcc02baa",
+   "lemma": "affliction",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "affliction"
+   ],
+   "glossEn": "something that causes pain or suffering",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "688a7899-b7b7-56e5-9c54-193e1ec64438",
+   "lemma": "aficionado",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aficionado"
+   ],
+   "glossEn": "knowledgeable and enthusiastic fan of something",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "3221cb91-c179-5218-8306-ea96f9e147cb",
+   "lemma": "aforementioned",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aforementioned"
+   ],
+   "glossEn": "mentioned earlier in the text",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "36b294c1-228d-5136-8cec-3c126176286f",
+   "lemma": "aftershock",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aftershock"
+   ],
+   "glossEn": "smaller earthquake following the main one",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d55af10b-eedc-566a-837e-fdcc972983a4",
+   "lemma": "ailing",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ailing"
+   ],
+   "glossEn": "in poor health",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "a402ccdf-dcb0-5bb7-a8df-5df1bfe9b94a",
+   "lemma": "alcove",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "alcove"
+   ],
+   "glossEn": "recess in the wall of a room",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "f53e19b8-0fdb-5a18-9fc0-39928c77eb59",
+   "lemma": "alimony",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "alimony"
+   ],
+   "glossEn": "money paid to a former spouse after divorce",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "1d5304aa-bf09-5977-b98a-11d01764e9fe",
+   "lemma": "all but",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "all but"
+   ],
+   "glossEn": "almost, very nearly",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "b43ecba3-ed1e-5440-8f91-fc2f199bdcb7",
+   "lemma": "all the while",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "all the while"
+   ],
+   "glossEn": "during the whole time",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "89cdc37f-115c-5fa5-9f6f-d97436e98bfe",
+   "lemma": "all told",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "all told"
+   ],
+   "glossEn": "in total, everything counted",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "f857e26a-958a-51f6-8230-66dfe4317eee",
+   "lemma": "allay",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "allay"
+   ],
+   "glossEn": "diminish or put at rest fear, suspicion, or worry",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d134a026-ac9e-507f-9e5b-f3c9c63ff8f3",
+   "lemma": "ameliorate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ameliorate"
+   ],
+   "glossEn": "make something bad or unsatisfactory better",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "5486502a-b910-5ca7-85fc-a4e77abac9e3",
+   "lemma": "amiable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "amiable"
+   ],
+   "glossEn": "friendly and pleasant",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "35078636-5c17-5aa8-8384-0118755951df",
+   "lemma": "anecdotal",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "anecdotal"
+   ],
+   "glossEn": "based on personal accounts rather than systematic data",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "dab5395d-98b7-5328-91be-67f9ff34e4f2",
+   "lemma": "annotate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "annotate"
+   ],
+   "glossEn": "add explanatory notes to a text",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "90d5ce47-bcb5-58b8-9d80-284cce997331",
+   "lemma": "anomaly",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "anomaly"
+   ],
+   "glossEn": "something that deviates from the normal",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "88987f84-1b72-568b-adea-e139ed201b7d",
+   "lemma": "anthropogenic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "anthropogenic"
+   ],
+   "glossEn": "caused or produced by human activity",
+   "proposedTopics": [],
+   "levelConfidence": 0.9
+  },
+  {
+   "id": "34dc8fd1-b0c3-5444-9314-19bdf9aab1ac",
+   "lemma": "antitrust",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "antitrust"
+   ],
+   "glossEn": "relating to laws against monopolies",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "3e1eb2cf-7c08-554f-b99f-d906c80ee809",
+   "lemma": "aperitif",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aperitif"
+   ],
+   "glossEn": "alcoholic drink taken before a meal to stimulate appetite",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "b39aca2c-6140-54e9-80c4-2c399584881c",
+   "lemma": "aphorism",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aphorism"
+   ],
+   "glossEn": "concise statement of a general truth",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "ffa5e8b1-1d88-5a01-9e70-df9ba523c4d3",
+   "lemma": "aplomb",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aplomb"
+   ],
+   "glossEn": "calm self-confidence in a difficult situation",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  }
+ ]
+}

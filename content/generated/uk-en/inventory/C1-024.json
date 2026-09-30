@@ -1,0 +1,560 @@
+{
+ "chunk": "C1-024",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "4665fc66-7be8-52e0-b5f3-9eff46d36d5d",
+   "lemma": "red tape",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "red tape"
+   ],
+   "glossEn": "excessive bureaucratic rules and paperwork",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "1d6a978f-13d0-5ea9-8516-d07da97ca243",
+   "lemma": "redeem",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "redeem"
+   ],
+   "glossEn": "exchange a coupon or voucher for goods or money",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "0a63bb7f-4b13-5fdb-938a-e52647b0fa68",
+   "lemma": "redundancy",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "redundancy"
+   ],
+   "glossEn": "loss of a job because the role no longer exists",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "53971fcd-ebea-58b0-9bf9-2ee862d186d0",
+   "lemma": "referendum",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "referendum"
+   ],
+   "glossEn": "direct vote by all voters on a single question",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "8669e832-915b-5d67-b92e-1a1eec0c1236",
+   "lemma": "referral",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "referral"
+   ],
+   "glossEn": "sending a patient on to a specialist",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "c2ea8b49-3565-5fb1-8647-04bfc0fe9757",
+   "lemma": "reforestation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reforestation"
+   ],
+   "glossEn": "planting trees again where forest was removed",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "fd401697-9d3b-5a07-86cc-9d14ee1e9092",
+   "lemma": "refundable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "refundable"
+   ],
+   "glossEn": "able to be paid back if canceled",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "8b55f22a-cbb2-5198-ad17-b211ae8ef207",
+   "lemma": "refurbish",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "refurbish"
+   ],
+   "glossEn": "renovate and redecorate a building or room",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "8bab041e-f4cc-53e3-a738-7560ab010d98",
+   "lemma": "refurbished",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "refurbished"
+   ],
+   "glossEn": "repaired and restored to be sold as good as new",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "706ad248-7514-5b43-98e4-f9830f0944bc",
+   "lemma": "rehabilitation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rehabilitation"
+   ],
+   "glossEn": "treatment to restore health after illness or injury",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "61624572-068a-5dcc-8aea-36e3c44cde4d",
+   "lemma": "reimburse",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reimburse"
+   ],
+   "glossEn": "pay someone back money they have spent",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "fdb68074-04ed-5ca8-aba4-591388de21e5",
+   "lemma": "reiterate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reiterate"
+   ],
+   "glossEn": "say something again for emphasis or clarity",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "4c85ab9c-3994-5bea-abdd-54775b4f6c0c",
+   "lemma": "relapse",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "relapse"
+   ],
+   "glossEn": "return of an illness after apparent recovery",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "f64d36ca-c76d-554a-aacf-9da9e0d5bebb",
+   "lemma": "relentless",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "relentless"
+   ],
+   "glossEn": "never stopping or weakening, unceasingly intense",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "44a741a5-461c-51c0-872f-70fcf164106b",
+   "lemma": "relentlessly",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "relentlessly"
+   ],
+   "glossEn": "without stopping or becoming less intense",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "3a99942b-207b-5e63-a543-0da055efb65a",
+   "lemma": "reliability",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reliability"
+   ],
+   "glossEn": "degree to which results can be trusted or repeated",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "17bfacf4-484c-5863-8679-247d63304fda",
+   "lemma": "remittance",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "remittance"
+   ],
+   "glossEn": "money sent home by a worker abroad",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "eee9dd22-378d-5885-9ef9-5683b88a40e2",
+   "lemma": "render",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "render"
+   ],
+   "glossEn": "generate a visible image or page from data",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "c8d7788d-1326-548a-b347-9ed174c3ab0e",
+   "lemma": "renewable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "renewable"
+   ],
+   "glossEn": "naturally replenished and never used up, of energy",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "a596b3bb-92ee-5c3a-8364-8dfe14280475",
+   "lemma": "renovate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "renovate"
+   ],
+   "glossEn": "repair and modernize an old building",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "3a91ca45-a5f7-5c45-9949-5618e995dc0e",
+   "lemma": "repeal",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "repeal"
+   ],
+   "glossEn": "officially cancel a law",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "5b6d86ba-b070-51d4-8a61-456656963298",
+   "lemma": "replenish",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "replenish"
+   ],
+   "glossEn": "fill or restore a supply again",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "abbf3fbd-4794-5298-bb93-4c5bcbd79921",
+   "lemma": "reportedly",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reportedly"
+   ],
+   "glossEn": "according to what people say or report",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "ae623d03-da9e-5603-a4f3-3206f7b6e540",
+   "lemma": "repository",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "repository"
+   ],
+   "glossEn": "central storage for source code and its history",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "e3589a2f-eb37-5384-83e1-144ee4e5315d",
+   "lemma": "reprimand",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reprimand"
+   ],
+   "glossEn": "officially and formally scold someone",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "99a69b07-a3f3-595e-b8ac-c9467f5f54ea",
+   "lemma": "reproach",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reproach"
+   ],
+   "glossEn": "express disapproval or disappointment to someone",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "a95fa1cf-b5b9-5538-b90d-6f3318991a2d",
+   "lemma": "reptile",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reptile"
+   ],
+   "glossEn": "cold-blooded animal such as a snake or lizard",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "53db6547-d74b-563e-8271-740a246496b9",
+   "lemma": "repulsive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "repulsive"
+   ],
+   "glossEn": "arousing intense disgust",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "5284dd92-3de7-5c13-9dfa-842ecdd3935d",
+   "lemma": "reroute",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reroute"
+   ],
+   "glossEn": "send along a different route",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "62bbd7b5-38ed-5c68-bb93-44515425f587",
+   "lemma": "resentment",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "resentment"
+   ],
+   "glossEn": "lingering bitterness at unfair treatment",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "7fd21077-1509-5c21-8416-8042e5f57e87",
+   "lemma": "resilient",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "resilient"
+   ],
+   "glossEn": "able to recover quickly from difficulties",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "b8358566-1bad-506f-9d9f-c50d1158d3c2",
+   "lemma": "resourceful",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "resourceful"
+   ],
+   "glossEn": "good at finding clever ways to overcome difficulties",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "1d61c330-a9fe-555b-bf5e-d0fff2013173",
+   "lemma": "respectively",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "respectively"
+   ],
+   "glossEn": "in the same order as the items already mentioned",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "6933e79f-07ef-587a-8400-8730add87278",
+   "lemma": "respondent",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "respondent"
+   ],
+   "glossEn": "person who answers a survey or questionnaire",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "ca91d286-1aca-5b63-8dec-5efbe88e6954",
+   "lemma": "restraint",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "restraint"
+   ],
+   "glossEn": "self-control that keeps behavior calm and moderate",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "6e764a0c-5e0d-524b-aa90-b926037c3472",
+   "lemma": "restructure",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "restructure"
+   ],
+   "glossEn": "reorganize a company or its finances",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "921310fb-ded7-514c-b358-85062e334289",
+   "lemma": "retention",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "retention"
+   ],
+   "glossEn": "ability to keep information in memory",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "3ba88610-0a2a-578f-bef4-1dc6fc31add5",
+   "lemma": "retraction",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "retraction"
+   ],
+   "glossEn": "formal withdrawal of a published statement as untrue",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "5047975e-2901-5746-bee6-71e8c04598e9",
+   "lemma": "rhetoric",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rhetoric"
+   ],
+   "glossEn": "art of persuasive speaking or writing",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "f02f742d-7f7d-521c-afdb-f95199b4d04a",
+   "lemma": "rickety",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rickety"
+   ],
+   "glossEn": "poorly made and likely to collapse",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  }
+ ]
+}

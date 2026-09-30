@@ -103,8 +103,7 @@ def main() -> None:
         print(f"extra: {added} C1/C2 lexemes appended")
 
     OUT.mkdir(parents=True, exist_ok=True)
-    for old in OUT.glob("*.json"):
-        old.unlink()
+    written: set[Path] = set()
     summary = {"levels": {}, "pos": Counter(l["pos"] for l in lexemes), "chunks": []}
     for level in LEVELS:
         items = [l for l in lexemes if l["level"] == level]
@@ -113,8 +112,15 @@ def main() -> None:
         for n, start in enumerate(range(0, len(items), CHUNK_SIZE), start=1):
             chunk = items[start:start + CHUNK_SIZE]
             name = f"{level}-{n:03d}"
-            (OUT / f"{name}.json").write_text(json.dumps({"chunk": name, "level": level, "lexemes": chunk}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+            path = OUT / f"{name}.json"
+            path.write_text(json.dumps({"chunk": name, "level": level, "lexemes": chunk}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+            written.add(path)
             summary["chunks"].append({"chunk": name, "level": level, "count": len(chunk)})
+    # chunk files are overwritten in place (generation agents may be reading them); only stale chunk files go away,
+    # other files in the folder (c1c2-proposals.json, proposals/) are left alone
+    for stale in OUT.glob("??-???.json"):
+        if stale not in written:
+            stale.unlink()
     (OUT / "lemmas.txt").write_text("\n".join(sorted({lemma_key(l["lemma"]) for l in lexemes})) + "\n", encoding="utf-8")
     summary["pos"] = dict(summary["pos"].most_common())
     summary["total"] = len(lexemes)

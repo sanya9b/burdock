@@ -1,0 +1,204 @@
+{
+ "chunk": "C2-020",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "207fabd4-63cb-5839-8eb0-1101f1c7ae17",
+   "lemma": "walled garden",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "walled garden"
+   ],
+   "glossEn": "closed platform that controls what users can access",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "d35551cf-9a70-54b7-ba81-049cc8382ad5",
+   "lemma": "wanderlust",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wanderlust"
+   ],
+   "glossEn": "strong desire to travel",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "6d968fff-6238-5cc3-8c76-ccc5a3eb6765",
+   "lemma": "wheedle",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wheedle"
+   ],
+   "glossEn": "use flattery or coaxing to persuade someone",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "55c99c8b-6ee1-5e32-ad53-78583983e596",
+   "lemma": "whereupon",
+   "pos": "conjunction",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "whereupon"
+   ],
+   "glossEn": "immediately after which",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "5e0a4431-3b8e-5f91-a203-76c7c423c68a",
+   "lemma": "whet",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "whet"
+   ],
+   "glossEn": "sharpen or stimulate appetite or interest",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "25047e96-6b97-5f0a-a981-8532aa8982cf",
+   "lemma": "whitewash",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "whitewash"
+   ],
+   "glossEn": "cover up faults or wrongdoing",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "c5fc8851-5e40-5cc5-a979-cbb21ac720a1",
+   "lemma": "wilt",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wilt"
+   ],
+   "glossEn": "droop from heat or lack of water, of plants",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "6fbd800e-24f9-5b44-9251-a591bead7d77",
+   "lemma": "windfall",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "windfall"
+   ],
+   "glossEn": "unexpected large sum of money",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "f4a9b26e-48f3-538b-ab52-141bf0dfd50c",
+   "lemma": "wistful",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wistful"
+   ],
+   "glossEn": "feeling a vague, regretful longing",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "bedd7e0e-c3f5-56dd-a4f7-e45d0049ad66",
+   "lemma": "woefully",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "woefully"
+   ],
+   "glossEn": "very badly, deplorably",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "3d9e084d-5b9d-50e6-82e3-ae1fd1da1a8a",
+   "lemma": "woo",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "woo"
+   ],
+   "glossEn": "try to win someone's love or support",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "777193c5-3ed2-5bfc-934a-91bb05fbecd7",
+   "lemma": "zeitgeist",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "zeitgeist"
+   ],
+   "glossEn": "defining spirit or mood of a period",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d2eb50cc-4728-5bf1-9426-a910f70c12e8",
+   "lemma": "zero-day",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "zero-day"
+   ],
+   "glossEn": "flaw exploited before the vendor knows about it",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "70e5b1f3-e440-5a97-b735-9cc0a82fc1fa",
+   "lemma": "zoning",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "zoning"
+   ],
+   "glossEn": "dividing a city into areas for specific uses",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.75
+  }
+ ]
+}

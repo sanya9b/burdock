@@ -1,0 +1,571 @@
+{
+ "chunk": "C1-018",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "45b7a11a-c74b-56c2-b7cd-383d81769f98",
+   "lemma": "malignant",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "malignant"
+   ],
+   "glossEn": "(of a tumor) cancerous and spreading",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "64d12e72-96be-5110-b02e-3952f2980994",
+   "lemma": "malware",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "malware"
+   ],
+   "glossEn": "software designed to damage or infiltrate a computer",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "aa81919c-f1f3-5720-bbce-f464a9bd1377",
+   "lemma": "mammal",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mammal"
+   ],
+   "glossEn": "warm-blooded animal that feeds its young with milk",
+   "proposedTopics": [],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "6babf098-31e0-567a-861c-ecf1bea6c198",
+   "lemma": "mandate",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mandate"
+   ],
+   "glossEn": "official authority or instruction to act",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "7d979eb7-455c-5dd5-874b-7d65da47f9fc",
+   "lemma": "manipulative",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "manipulative"
+   ],
+   "glossEn": "controlling people cleverly for one's own advantage",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "187e9876-d189-5665-a402-c83e58701996",
+   "lemma": "mannerism",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mannerism"
+   ],
+   "glossEn": "habitual gesture or way of speaking",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "d4649aa6-8758-5db2-9eb1-a7dacc74e471",
+   "lemma": "marginally",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "marginally"
+   ],
+   "glossEn": "very slightly, by a small amount",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "e83c862c-c44f-5089-a793-ed448f270fb2",
+   "lemma": "marinate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "marinate"
+   ],
+   "glossEn": "soak food in seasoned liquid before cooking",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "9ec99f4e-80a6-5da8-83d0-36d554309405",
+   "lemma": "market share",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "market share"
+   ],
+   "glossEn": "portion of total sales held by one company",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "6f242286-c1fe-5850-8a97-fc54cb081997",
+   "lemma": "markup",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "markup"
+   ],
+   "glossEn": "amount added to cost price to set the selling price",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b7b56571-f9ff-515a-8ed7-11378c3ae8d4",
+   "lemma": "marsh",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "marsh"
+   ],
+   "glossEn": "low wet land often flooded",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "65539430-e40f-5c16-97e3-fd13520d0a56",
+   "lemma": "martial law",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "martial law"
+   ],
+   "glossEn": "rule by the military imposed during an emergency",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "e44a0b83-81ef-5283-8f04-e5e5614dd01e",
+   "lemma": "meddle",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "meddle"
+   ],
+   "glossEn": "interfere in something that is not one's business",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "5734c6eb-ba75-50eb-9153-7c98058d37a9",
+   "lemma": "mediate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mediate"
+   ],
+   "glossEn": "intervene to resolve a dispute between parties",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "3be254d8-d988-5fed-a3bd-7dccf97b8c51",
+   "lemma": "medic",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "medic"
+   ],
+   "glossEn": "soldier or worker trained to give emergency medical care",
+   "proposedTopics": [
+    "military",
+    "health"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "f5f21d7f-bd68-5ed4-9d6e-7d0853848b41",
+   "lemma": "memoir",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "memoir"
+   ],
+   "glossEn": "book about the author's own life and memories",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "75ddc831-4d6a-5d56-9bf6-7cd5de17aec5",
+   "lemma": "mentorship",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mentorship"
+   ],
+   "glossEn": "guidance from an experienced adviser over time",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "39afe988-a522-5128-84aa-66a719776b24",
+   "lemma": "meritocracy",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "meritocracy"
+   ],
+   "glossEn": "system where advancement depends on ability",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "3322ce67-b007-5cf0-b966-4cd8a7167e97",
+   "lemma": "mesmerizing",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mesmerizing"
+   ],
+   "glossEn": "holding attention completely, as if by a spell",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "e51fb5f3-5740-579a-b726-45869a5b7ad4",
+   "lemma": "metadata",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "metadata"
+   ],
+   "glossEn": "data that describes other data, such as author or date",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "fb39fa2a-231a-5557-8fd5-99a916d7ce23",
+   "lemma": "methodology",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "methodology"
+   ],
+   "glossEn": "system of methods used in a piece of research",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "96d2986c-597f-5374-bcd2-ff786f523139",
+   "lemma": "meticulous",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "meticulous"
+   ],
+   "glossEn": "showing great attention to detail, very careful",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "1f453709-65f6-536f-8e33-eef298bae0f2",
+   "lemma": "metropolitan",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "metropolitan"
+   ],
+   "glossEn": "relating to a large city and its suburbs",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "62e4b285-db28-52b3-bd81-464c33ee5e0d",
+   "lemma": "micromanage",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "micromanage"
+   ],
+   "glossEn": "control every small detail of employees' work",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "c55243ea-7c89-585c-90da-23a0d797a642",
+   "lemma": "middleman",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "middleman"
+   ],
+   "glossEn": "trader who buys from producers and sells to retailers",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b3dd9129-0f45-5812-8502-a502037210c5",
+   "lemma": "migraine",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "migraine"
+   ],
+   "glossEn": "severe recurring headache, often with nausea",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "af2205f6-d1c5-5430-b251-50f104094a04",
+   "lemma": "mildew",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mildew"
+   ],
+   "glossEn": "grayish fungus growing on damp surfaces",
+   "proposedTopics": [],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "16f29568-c477-5e97-b408-4409cf01cf9d",
+   "lemma": "milestone",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "milestone"
+   ],
+   "glossEn": "important stage or point in a project",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "318ef261-42d3-5f21-8e8c-3053b466d48a",
+   "lemma": "mindfulness",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mindfulness"
+   ],
+   "glossEn": "calm awareness of the present moment",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "ba2def18-74ae-5d85-ac31-b7541ec18558",
+   "lemma": "minefield",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "minefield"
+   ],
+   "glossEn": "area where landmines have been laid",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "b413d6b0-7294-5c29-9184-e8345689a805",
+   "lemma": "misinformation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "misinformation"
+   ],
+   "glossEn": "false information spread without intent to deceive",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "8673f5e1-d463-5034-a6fc-a1b1ea7e55f6",
+   "lemma": "misinterpret",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "misinterpret"
+   ],
+   "glossEn": "understand or explain something wrongly",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "2d32fc1f-6174-5637-a5ea-56950bb8bfed",
+   "lemma": "mitigate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mitigate"
+   ],
+   "glossEn": "make something bad less severe or serious",
+   "proposedTopics": [],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "c8120eea-b134-5411-a49c-fe002d60b17c",
+   "lemma": "mnemonic",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mnemonic"
+   ],
+   "glossEn": "memory aid such as a pattern, rhyme or acronym",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "732fdc31-7f7d-50c5-b4d2-a5b2efb9bd4b",
+   "lemma": "mobilize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mobilize"
+   ],
+   "glossEn": "prepare and organize troops or people for action",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "4829ea8a-e9a9-5479-9a3a-eec4ad96a264",
+   "lemma": "mockumentary",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mockumentary"
+   ],
+   "glossEn": "comedy filmed in the style of a documentary",
+   "proposedTopics": [],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "444d1abf-3313-57d0-9002-0eb72ada7efd",
+   "lemma": "moderator",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "moderator"
+   ],
+   "glossEn": "person who enforces the rules of an online community",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "09c2e4b1-6992-5639-8659-bb6142f962a9",
+   "lemma": "momentum",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "momentum"
+   ],
+   "glossEn": "quantity of motion of a moving body; impetus",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "ae2e98fe-8322-50d2-80e9-ffb3a8307f7c",
+   "lemma": "monetary",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "monetary"
+   ],
+   "glossEn": "relating to money or currency and its supply",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "e20b4c91-b6e7-5916-a778-4ed6f80c8bb8",
+   "lemma": "monopoly",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "monopoly"
+   ],
+   "glossEn": "complete control of a market by one company",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  }
+ ]
+}

@@ -1,0 +1,552 @@
+{
+ "chunk": "C2-014",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "df81c0af-0862-5254-adde-1aae725e1f08",
+   "lemma": "pending",
+   "pos": "preposition",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pending"
+   ],
+   "glossEn": "while awaiting, until something happens",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "caaa6ddf-55b9-54bd-a446-6471bfbe9534",
+   "lemma": "penetration testing",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "penetration testing"
+   ],
+   "glossEn": "authorized simulated attack to find security weaknesses",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "2ed9743d-9d65-589d-ac5c-7538285f2a5b",
+   "lemma": "penny-pinching",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "penny-pinching"
+   ],
+   "glossEn": "excessively careful about spending even small amounts",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "c2c2fa29-933e-5907-b042-5f4dd978b3e0",
+   "lemma": "per se",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "per se"
+   ],
+   "glossEn": "by or in itself; intrinsically",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "96214483-9946-5326-8f67-276da8521f77",
+   "lemma": "perfunctory",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "perfunctory"
+   ],
+   "glossEn": "carried out with minimum effort or reflection",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "be4afd9d-b350-531a-a8a7-0e625a209a75",
+   "lemma": "peripatetic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "peripatetic"
+   ],
+   "glossEn": "constantly moving from place to place",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "93d4c22c-402b-5e98-a06d-3e9ddb3cf965",
+   "lemma": "permeable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "permeable"
+   ],
+   "glossEn": "allowing liquids or gases to pass through",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "13eaab81-dc81-5ab9-9835-53804e321779",
+   "lemma": "pernicious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pernicious"
+   ],
+   "glossEn": "having a harmful effect, especially gradually",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "16093546-2a76-50ca-81f4-a789bc83a877",
+   "lemma": "perpetually",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "perpetually"
+   ],
+   "glossEn": "constantly, without ever ending",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "714b8daa-9de0-5a4a-be19-29de01d05f95",
+   "lemma": "perspire",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "perspire"
+   ],
+   "glossEn": "give out sweat through the skin",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "ef09af68-c18d-5b80-a084-a7cd382dcca1",
+   "lemma": "pertinent",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pertinent"
+   ],
+   "glossEn": "directly relevant to the matter at hand",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "8e953f55-1fa6-5aa6-a085-e17ffbecef47",
+   "lemma": "pervasive",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pervasive"
+   ],
+   "glossEn": "spreading widely throughout something",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "ea8610a9-5908-59d5-8195-ab6a452429ec",
+   "lemma": "petulant",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "petulant"
+   ],
+   "glossEn": "childishly sulky or bad-tempered",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "c290eb55-88b9-511f-a287-a67adedff4a5",
+   "lemma": "philistine",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "philistine"
+   ],
+   "glossEn": "person indifferent or hostile to art and culture",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "04d71f3f-4dea-5d27-91f1-a3285345c744",
+   "lemma": "piecemeal",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "piecemeal"
+   ],
+   "glossEn": "gradually, one part at a time",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "b587aafa-44a3-5584-a8f7-754ba46f3f5b",
+   "lemma": "piquant",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "piquant"
+   ],
+   "glossEn": "pleasantly sharp or spicy in taste",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "7ce03953-249e-5d23-9c76-5417af9085c4",
+   "lemma": "placebo",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "placebo"
+   ],
+   "glossEn": "harmless substance given as a control in trials",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "7792cc7b-0153-57a3-9c69-667945993c0d",
+   "lemma": "planned obsolescence",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "planned obsolescence"
+   ],
+   "glossEn": "designing products to wear out so buyers replace them",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "1160895e-3980-5554-a3f6-d21073c411ec",
+   "lemma": "platitude",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "platitude"
+   ],
+   "glossEn": "a trite remark made as if it were meaningful",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "31ccd472-365d-52de-8ffb-284e842f955f",
+   "lemma": "poach",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "poach"
+   ],
+   "glossEn": "lure employees away from another company",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "e17ecf2a-ab60-5b63-a6a1-0329521887f7",
+   "lemma": "polemic",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "polemic"
+   ],
+   "glossEn": "strong written or spoken attack on an opinion",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "338b7ece-9e11-5edb-978a-bde6a02a3f90",
+   "lemma": "polymath",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "polymath"
+   ],
+   "glossEn": "person with expert knowledge in many different fields",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "b5d511c5-3d14-51ea-82ad-33ea9ffcee0b",
+   "lemma": "porous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "porous"
+   ],
+   "glossEn": "having tiny holes that let liquid or air through",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "4f89cb92-15ef-5aa6-8f02-5ef540b3fdcb",
+   "lemma": "port of call",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "port of call"
+   ],
+   "glossEn": "place where a ship stops during a voyage",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "13b3bf7c-0f18-5708-ab00-797c50032ba5",
+   "lemma": "posit",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "posit"
+   ],
+   "glossEn": "put forward as a fact or basis for argument",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "ec613176-702c-57ab-88be-d5a440b3fc18",
+   "lemma": "postulate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "postulate"
+   ],
+   "glossEn": "suggest or assume something as a basis for reasoning",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "9246ee22-9654-55c3-813e-a58b2a52093b",
+   "lemma": "potboiler",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "potboiler"
+   ],
+   "glossEn": "low-quality book or film made quickly for money",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "580d924a-8c52-5e9e-8c32-8a8e9cd0f8a0",
+   "lemma": "predation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "predation"
+   ],
+   "glossEn": "preying of one animal on others",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "514c4dfa-e815-5c95-bab9-ee679b3d22b4",
+   "lemma": "predisposition",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "predisposition"
+   ],
+   "glossEn": "inherited tendency to develop a condition",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "583438ca-9412-56d0-a845-45ec0044e3c2",
+   "lemma": "presuppose",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "presuppose"
+   ],
+   "glossEn": "require or assume as a prior condition",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "a143f28e-4ab0-5684-a550-9e931066338f",
+   "lemma": "prevaricate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prevaricate"
+   ],
+   "glossEn": "speak or act evasively to avoid the truth",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "a3b834dc-6da9-5478-a4ba-117a77399308",
+   "lemma": "price gouging",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "price gouging"
+   ],
+   "glossEn": "raising prices unfairly when demand is high",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "309733b9-bb22-55d6-a3d1-407bf4b02443",
+   "lemma": "profiteering",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "profiteering"
+   ],
+   "glossEn": "making excessive profit from scarcity or crisis",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "f8154fc6-b45f-56d9-9115-82ae45c2a03f",
+   "lemma": "profligate",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "profligate"
+   ],
+   "glossEn": "recklessly extravagant or wasteful",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "2068d2e8-1147-5efe-8b18-4821157c36d6",
+   "lemma": "prognosticate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prognosticate"
+   ],
+   "glossEn": "foretell or predict a future event",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b3835496-43fb-523c-8a38-c8efb5045497",
+   "lemma": "promenade",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "promenade"
+   ],
+   "glossEn": "paved public walk, often along a waterfront",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "248cbab7-be8b-5d17-8c1e-770454917f18",
+   "lemma": "promulgate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "promulgate"
+   ],
+   "glossEn": "promote or make widely known an idea or law",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "05c8a5fa-7e93-5087-aed8-a6060ac6b26b",
+   "lemma": "propensity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "propensity"
+   ],
+   "glossEn": "natural tendency to behave in a certain way",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "87095599-a0a6-5a1e-88b8-8ce9356f5fa4",
+   "lemma": "propitiate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "propitiate"
+   ],
+   "glossEn": "win or regain the favor of someone",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "c9d00400-b882-5417-bd7e-450eceb2a5a0",
+   "lemma": "propound",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "propound"
+   ],
+   "glossEn": "put forward an idea or theory for consideration",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  }
+ ]
+}

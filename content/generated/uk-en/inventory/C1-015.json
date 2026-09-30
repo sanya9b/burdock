@@ -1,0 +1,538 @@
+{
+ "chunk": "C1-015",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "04e07663-0025-51ab-a47c-a086cb2e9dde",
+   "lemma": "humidity",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "humidity"
+   ],
+   "glossEn": "amount of water vapor in the air",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "0192c90e-7836-5235-ba5e-42724792dcc6",
+   "lemma": "hurricane",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hurricane"
+   ],
+   "glossEn": "violent tropical storm with very strong winds",
+   "proposedTopics": [],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "c13daccb-1f82-5b87-ae6c-76445336c6d8",
+   "lemma": "hypothesis",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hypothesis"
+   ],
+   "glossEn": "proposed explanation to be tested",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "6928d057-ceb1-53cc-a214-fc95921a16b1",
+   "lemma": "hypothesize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hypothesize"
+   ],
+   "glossEn": "put forward a tentative explanation for testing",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "f97817aa-49bd-50a2-9c13-789eed1e30b3",
+   "lemma": "ice cap",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ice cap"
+   ],
+   "glossEn": "thick permanent ice covering a polar region",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "9bd0a2ea-3c28-5a0a-8e7a-dfde8b4fd61a",
+   "lemma": "idyllic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "idyllic"
+   ],
+   "glossEn": "extremely peaceful and beautiful",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "15d9e755-73d5-5c45-b9b6-462a38ad67db",
+   "lemma": "if anything",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "if anything"
+   ],
+   "glossEn": "used to suggest the opposite is true",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "ede4d787-a796-501e-8549-7a7ddcffa501",
+   "lemma": "immaculate",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "immaculate"
+   ],
+   "glossEn": "perfectly clean, neat or tidy",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "6208eb11-f8c2-51ff-9581-319ec61c9140",
+   "lemma": "immensely",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "immensely"
+   ],
+   "glossEn": "extremely, to a very great degree",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "ee20f957-9154-56d7-a8f6-9df16883a73a",
+   "lemma": "immune",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "immune"
+   ],
+   "glossEn": "protected against a disease or infection",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "4f930d44-9ec2-52d6-b02f-f1173b0a3791",
+   "lemma": "immunity",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "immunity"
+   ],
+   "glossEn": "body's ability to resist a particular infection",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "0319a50d-09ea-55cf-960f-f42ed80c824b",
+   "lemma": "impeach",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "impeach"
+   ],
+   "glossEn": "charge a public official with misconduct",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "3d85f95c-9316-5cb7-9265-f16a9ba6e0fd",
+   "lemma": "impeccable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "impeccable"
+   ],
+   "glossEn": "without fault, perfect",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "d365d65a-729c-5436-b8bb-3fce2f0cd5ed",
+   "lemma": "impede",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "impede"
+   ],
+   "glossEn": "delay or block movement or progress",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "19b700b0-ee62-5221-8bf7-6181b36cb94c",
+   "lemma": "implicit",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "implicit"
+   ],
+   "glossEn": "implied though not plainly expressed",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "460a819a-afaa-5197-afe3-06a30e2a5071",
+   "lemma": "implicitly",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "implicitly"
+   ],
+   "glossEn": "in a way that is suggested, not stated directly",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "039b6503-392d-5d0a-8bd7-64ee06b3ef4c",
+   "lemma": "impoverished",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "impoverished"
+   ],
+   "glossEn": "made very poor",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "ee84dbf5-9a63-50e7-a3ea-cceacd5c681e",
+   "lemma": "improvise",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "improvise"
+   ],
+   "glossEn": "perform or create without preparation",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "77dbb3fa-ad92-532f-8660-7a68c4212332",
+   "lemma": "impulse buy",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "impulse buy"
+   ],
+   "glossEn": "unplanned purchase made on a sudden desire",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "4ea5bf7c-5c01-5221-83be-19a138660c19",
+   "lemma": "in a nutshell",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in a nutshell"
+   ],
+   "glossEn": "in the fewest possible words",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "05ddcf7e-c7e1-57d5-9d75-cac4e1e25469",
+   "lemma": "in accordance with",
+   "pos": "preposition",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in accordance with"
+   ],
+   "glossEn": "following a rule, agreement or request",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "f5ea89ea-71ae-5b32-8be7-9d738f85e2e9",
+   "lemma": "in due course",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in due course"
+   ],
+   "glossEn": "at the appropriate time, eventually",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "55443f89-9759-5412-8e62-373077a7dfa8",
+   "lemma": "in essence",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in essence"
+   ],
+   "glossEn": "basically, in its most important aspects",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "739750b1-6d48-5eba-94f1-2134a3c1d8ea",
+   "lemma": "in hindsight",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in hindsight"
+   ],
+   "glossEn": "looking back, with knowledge gained later",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "9568da62-eb5b-5d3f-8bb1-208ee9d4b816",
+   "lemma": "in light of",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in light of"
+   ],
+   "glossEn": "taking something into consideration",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "949171e3-d145-5f7d-aa89-ef9b59bb9fe1",
+   "lemma": "in the wake of",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the wake of"
+   ],
+   "glossEn": "following, as a consequence of",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "3e2ee689-99f9-5ef5-9c5e-661c937434d6",
+   "lemma": "in this regard",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in this regard"
+   ],
+   "glossEn": "concerning this particular matter",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "5ffb7c63-ae3e-523e-ae9c-83cdc2bbac4a",
+   "lemma": "in turn",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in turn"
+   ],
+   "glossEn": "one after the other; as a result",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "08e2899f-dcb8-5b15-ab6b-20977d0a8e9f",
+   "lemma": "in-laws",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in-laws"
+   ],
+   "glossEn": "relatives of one's spouse",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "e2219251-cc5b-5988-bcd0-1cfffb5c637a",
+   "lemma": "inadvertently",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inadvertently"
+   ],
+   "glossEn": "by accident, without intending to",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "5e5e5604-b669-5f78-88a7-cfc41af2c5d9",
+   "lemma": "incidentally",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incidentally"
+   ],
+   "glossEn": "by the way, used to add a related remark",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "e599cfd8-046a-5aa5-8de8-725feb5da091",
+   "lemma": "incite",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incite"
+   ],
+   "glossEn": "encourage or stir up violent or unlawful behavior",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "c9cd6cdf-c5e7-5ad1-855b-ea13a7ba80ae",
+   "lemma": "incompetent",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incompetent"
+   ],
+   "glossEn": "not having the skill to do something successfully",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "c002a4ec-7aee-5e58-a6b4-3c8843f95149",
+   "lemma": "indecisive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "indecisive"
+   ],
+   "glossEn": "unable to make decisions quickly",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "ad5acc19-749b-530f-be53-53df680980ac",
+   "lemma": "indefinitely",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "indefinitely"
+   ],
+   "glossEn": "for an unlimited period of time",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "2a663489-30be-55b7-bfd2-6a2be426b04c",
+   "lemma": "indictment",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "indictment"
+   ],
+   "glossEn": "formal charge of a serious crime",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "c3bce501-e5b0-5e5e-b85a-de50f94990cd",
+   "lemma": "indigestion",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "indigestion"
+   ],
+   "glossEn": "discomfort in the stomach after eating",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "951b753e-aee2-5c70-99b3-6d14cb9b9c92",
+   "lemma": "indignant",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "indignant"
+   ],
+   "glossEn": "angry at what seems unfair treatment",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "f43cf727-84a3-5995-9c86-7777f6092eb1",
+   "lemma": "induce",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "induce"
+   ],
+   "glossEn": "bring about or persuade someone to do something",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "55d5623d-1a2b-5088-b489-e6e23dc3dded",
+   "lemma": "inductive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inductive"
+   ],
+   "glossEn": "reasoning from specific cases to a general rule",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  }
+ ]
+}

@@ -1,0 +1,546 @@
+{
+ "chunk": "C1-019",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "e190abba-126e-5dcc-8c55-50cabb172c68",
+   "lemma": "monotonous",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "monotonous"
+   ],
+   "glossEn": "dull and unchanging, always the same",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "eeb1ba11-9cdf-5f28-87ba-0ce5c1ddedf0",
+   "lemma": "monsoon",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "monsoon"
+   ],
+   "glossEn": "seasonal wind bringing heavy rains in South Asia",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d9c460ae-2159-5ff7-9e13-2564d5a6793c",
+   "lemma": "montage",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "montage"
+   ],
+   "glossEn": "quick sequence of short shots showing time passing",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "f5706937-cbba-543d-af92-a5926740427e",
+   "lemma": "morale",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "morale"
+   ],
+   "glossEn": "confidence and spirit of a group under pressure",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "1b45113f-4c1d-575c-bae0-94a130b8d45f",
+   "lemma": "mortality",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mortality"
+   ],
+   "glossEn": "death rate in a population",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "6812208a-d436-5bab-b3f7-211470a3dc43",
+   "lemma": "motif",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "motif"
+   ],
+   "glossEn": "repeated image, idea or pattern in a work",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "44c364eb-6714-5c07-8864-fe70db91e7f1",
+   "lemma": "mull",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mull"
+   ],
+   "glossEn": "think about something carefully over time",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "91410ca9-9d88-50b8-84ef-7aaf9a560835",
+   "lemma": "mundane",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mundane"
+   ],
+   "glossEn": "lacking interest or excitement, ordinary and dull",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "0040736b-6753-5e2e-a225-eee90e3ebe00",
+   "lemma": "municipal",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "municipal"
+   ],
+   "glossEn": "relating to a city or town government",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "ef019de7-d8cc-5d26-a86a-b577f09d75c4",
+   "lemma": "municipality",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "municipality"
+   ],
+   "glossEn": "town or district with its own local government",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "4a7c7bd3-47d8-578d-936b-0e0b5b7c1a8b",
+   "lemma": "mural",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mural"
+   ],
+   "glossEn": "large painting made directly on a wall",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "2e29f838-26a4-5b95-8d50-25405af96880",
+   "lemma": "musty",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "musty"
+   ],
+   "glossEn": "smelling damp, stale and old",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "3b9ebc39-1136-5699-ac48-c2d7947e3c15",
+   "lemma": "mutation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mutation"
+   ],
+   "glossEn": "change in the genetic structure of an organism",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "71049eb3-dd7e-59ef-82c9-dfab199de1dc",
+   "lemma": "nag",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nag"
+   ],
+   "glossEn": "keep criticizing or urging someone annoyingly",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "dce2fee6-dc2b-56c8-9da2-3b8183bd60e6",
+   "lemma": "naive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "naive"
+   ],
+   "glossEn": "lacking experience, too ready to trust others",
+   "proposedTopics": [],
+   "levelConfidence": 0.6
+  },
+  {
+   "id": "69f5b3f9-12a7-5ede-b821-357982bf561a",
+   "lemma": "namely",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "namely"
+   ],
+   "glossEn": "that is to say, specifically",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "f1074702-d233-54bb-8284-f111c145981b",
+   "lemma": "nationalize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nationalize"
+   ],
+   "glossEn": "bring an industry under state ownership",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "6d00dc6b-d2f2-554f-a86d-df415f78e3f8",
+   "lemma": "natural selection",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "natural selection"
+   ],
+   "glossEn": "survival and reproduction of the best-adapted organisms",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "969ee1c2-22ca-5b7e-b80c-ea95f4e7c6f4",
+   "lemma": "nausea",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nausea"
+   ],
+   "glossEn": "feeling of sickness with an urge to vomit",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "23ebdc03-2cef-5d28-b7f9-891920035bae",
+   "lemma": "needless to say",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "needless to say"
+   ],
+   "glossEn": "obviously, as everyone would expect",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "95d64567-3f8a-5b7f-a9c5-d707bf179fed",
+   "lemma": "negligence",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "negligence"
+   ],
+   "glossEn": "failure to take proper care, causing harm",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "9f7f8d14-fb9d-5909-98c7-d402bc7a3f37",
+   "lemma": "negligible",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "negligible"
+   ],
+   "glossEn": "so small as to be unimportant",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "75f852d0-24ce-5b19-a8e5-ef7f10574afa",
+   "lemma": "negotiator",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "negotiator"
+   ],
+   "glossEn": "person who conducts negotiations",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "38819612-f5c6-500d-bdea-eac1ec5a8c5b",
+   "lemma": "networking",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "networking"
+   ],
+   "glossEn": "building professional contacts",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "d925128e-9a4c-5827-be91-404f2830107c",
+   "lemma": "newlywed",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "newlywed"
+   ],
+   "glossEn": "person who has recently married",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "c9216260-8172-58d7-9f4e-253d4dc5c7fb",
+   "lemma": "next of kin",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "next of kin"
+   ],
+   "glossEn": "closest living relative",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "60122330-e7e3-5a60-a005-d2652119522f",
+   "lemma": "nibble",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nibble"
+   ],
+   "glossEn": "eat by taking small bites",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "3bc6156b-a128-5bab-9259-04c9ead6f109",
+   "lemma": "niche",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "niche"
+   ],
+   "glossEn": "small specialized segment of a market",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "c0b8922f-9709-5cfe-b6d8-d51fcbdea951",
+   "lemma": "night owl",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "night owl"
+   ],
+   "glossEn": "person who stays up late at night",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "677c9cfd-a887-5cdd-b8c6-3d2ac00daa1e",
+   "lemma": "nocturnal",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nocturnal"
+   ],
+   "glossEn": "active at night",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "a874a7b3-de47-5f0f-82ea-980014d35ef1",
+   "lemma": "nostalgic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nostalgic"
+   ],
+   "glossEn": "feeling sentimental longing for the past",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "d8f53d67-8c5d-5988-a691-e2c25a235288",
+   "lemma": "nosy",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nosy"
+   ],
+   "glossEn": "too curious about other people's affairs",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "24e37583-a458-5ecf-849e-e36f06d72fb7",
+   "lemma": "not to mention",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "not to mention"
+   ],
+   "glossEn": "in addition to, as well as",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "b1f9fd43-dd8b-5528-b7dd-df350bd9e55b",
+   "lemma": "notably",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "notably"
+   ],
+   "glossEn": "especially, in particular; remarkably",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "f2aa306b-9f64-563e-8322-59264514f095",
+   "lemma": "notwithstanding",
+   "pos": "preposition",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "notwithstanding"
+   ],
+   "glossEn": "in spite of",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "2d6b45e1-8da4-5c81-87d9-3f7ab178f137",
+   "lemma": "novice",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "novice"
+   ],
+   "glossEn": "person new to a field or activity",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "3f4df23c-57e5-5423-897f-19ce173967cb",
+   "lemma": "nuance",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nuance"
+   ],
+   "glossEn": "a subtle difference in meaning or tone",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "8bf8582c-6e63-5ea3-8e0f-61702887e28b",
+   "lemma": "numb",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "numb"
+   ],
+   "glossEn": "unable to feel anything in a body part",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b3d6614d-8a96-542b-9ee6-1cb8fa5ee424",
+   "lemma": "numeracy",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "numeracy"
+   ],
+   "glossEn": "ability to understand and work with numbers",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "75bb619b-cfb9-5313-b502-17919501fb86",
+   "lemma": "nurture",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nurture"
+   ],
+   "glossEn": "care for and encourage growth or development",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  }
+ ]
+}

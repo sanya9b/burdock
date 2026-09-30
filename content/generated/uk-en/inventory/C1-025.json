@@ -1,0 +1,564 @@
+{
+ "chunk": "C1-025",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "08542a7a-9056-5568-aedb-838b3b7b7b0d",
+   "lemma": "rift",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rift"
+   ],
+   "glossEn": "a serious break in friendly relations",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "d8a1fca6-7fd6-5471-b194-f8edc4f99dab",
+   "lemma": "rigor",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rigor"
+   ],
+   "glossEn": "strictness and precision in reasoning or method",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "2028b2da-6de9-57d2-b22a-5e3d2c6d4396",
+   "lemma": "rigorous",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rigorous"
+   ],
+   "glossEn": "extremely thorough and careful",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "7191a9a3-303b-502c-a954-c210033bd834",
+   "lemma": "rip-off",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rip-off"
+   ],
+   "glossEn": "something sold at an unfairly high price",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "7cdfee78-7107-51dd-a5f5-94c28939ae67",
+   "lemma": "riveting",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "riveting"
+   ],
+   "glossEn": "so interesting you cannot look away",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "09b89292-b6d6-5b58-ba58-eb0f631df220",
+   "lemma": "robust",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "robust"
+   ],
+   "glossEn": "strong and healthy; sturdy in construction",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "5938f2c1-290f-5631-bce0-4df7f22e5bd8",
+   "lemma": "rollback",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rollback"
+   ],
+   "glossEn": "return to a previous version after a failed update",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "4fc609d3-8ef0-5dc6-96c2-e18905b1b97b",
+   "lemma": "rugged",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rugged"
+   ],
+   "glossEn": "rough and uneven, of land or coast",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "d1b188a9-91e7-5d51-85f8-8b7afe55f9c8",
+   "lemma": "run-down",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "run-down"
+   ],
+   "glossEn": "in poor condition because of neglect",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "cf87d474-9e36-5db1-bb20-4087b6ed4f97",
+   "lemma": "ruthless",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ruthless"
+   ],
+   "glossEn": "having no pity or compassion",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "ab2ab755-f686-53e8-99aa-c4049d5b0f1d",
+   "lemma": "sabbatical",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sabbatical"
+   ],
+   "glossEn": "extended leave from work, often spent traveling",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "20bd5c0d-00c5-521e-a29d-65f59ec79dde",
+   "lemma": "saga",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "saga"
+   ],
+   "glossEn": "long story of many events, often across generations",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "89a451b9-afaa-5be6-abd7-b8e5a905f9b4",
+   "lemma": "sanction",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sanction"
+   ],
+   "glossEn": "penalty imposed to enforce a rule or law",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "91bdd430-b2f2-5e84-85d5-f36c29868d55",
+   "lemma": "sandbox",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sandbox"
+   ],
+   "glossEn": "isolated environment for running code safely",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "8b280173-96d7-5c9c-a4be-0694adebc965",
+   "lemma": "sarcasm",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sarcasm"
+   ],
+   "glossEn": "mocking remarks meaning the opposite of what is said",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "faeb5f08-dc56-50cf-ae51-a0fe0949e77a",
+   "lemma": "satire",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "satire"
+   ],
+   "glossEn": "humor that mocks people or society to criticize them",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "4c29469b-4b40-5c32-a256-b849c6eb5c8c",
+   "lemma": "satirical",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "satirical"
+   ],
+   "glossEn": "using humor and exaggeration to criticize",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "61022bcc-8404-5715-968b-f875893bd3eb",
+   "lemma": "savor",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "savor"
+   ],
+   "glossEn": "eat or drink slowly to enjoy the taste fully",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "6d883d9d-8ab7-50ba-b418-66df7fd73731",
+   "lemma": "savory",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "savory"
+   ],
+   "glossEn": "salty or spicy in taste rather than sweet",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "448dbf2a-da32-5bd6-8d85-c17cf9e8975b",
+   "lemma": "scaffolding",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scaffolding"
+   ],
+   "glossEn": "temporary metal frame around a building under repair",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "883c2aeb-fc16-51d4-83e4-c104cba75d1b",
+   "lemma": "scalable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scalable"
+   ],
+   "glossEn": "able to handle growth without losing performance",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "beb333da-3fd3-5c76-9a51-e09a9eb010c7",
+   "lemma": "scarce",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scarce"
+   ],
+   "glossEn": "insufficient for the demand, in short supply",
+   "proposedTopics": [],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "e10cea86-779b-5f2d-9d47-15d2a1d710db",
+   "lemma": "scarcity",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scarcity"
+   ],
+   "glossEn": "state of being in short supply",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "da276982-a54b-57a5-a870-8fcc3325687c",
+   "lemma": "scholarly",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scholarly"
+   ],
+   "glossEn": "relating to serious academic study",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "7bde0a77-2bbd-5448-acdb-c693d5ae96d0",
+   "lemma": "scoop",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scoop"
+   ],
+   "glossEn": "important news story published before rivals",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "9db24b45-c2a0-53e5-8e84-4c460adf726f",
+   "lemma": "screen time",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "screen time"
+   ],
+   "glossEn": "time spent using devices with screens",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "cab51edb-a41f-5ff4-b449-cecb7e973594",
+   "lemma": "screenplay",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "screenplay"
+   ],
+   "glossEn": "written script of a film with dialogue and directions",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "ea974d86-2f73-506d-b91f-4ef0f8bce107",
+   "lemma": "scrub",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scrub"
+   ],
+   "glossEn": "clean by rubbing hard with a brush",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "2a937953-fb55-5c7e-9748-f7f1e844392f",
+   "lemma": "scrutinize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scrutinize"
+   ],
+   "glossEn": "examine closely and critically",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "2e3a91d6-371c-5148-bc5a-2b514ff36fe4",
+   "lemma": "scrutiny",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scrutiny"
+   ],
+   "glossEn": "close and critical examination",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "69e471ee-5cb4-54fb-8acf-126134a03b4f",
+   "lemma": "sea level",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sea level"
+   ],
+   "glossEn": "average height of the sea surface",
+   "proposedTopics": [],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "2a615b9c-b2eb-50b8-a5bb-78f8ac281669",
+   "lemma": "seamless",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "seamless"
+   ],
+   "glossEn": "smooth, with no noticeable interruptions",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "aa95b80c-ea37-59d3-a260-12134efc5adf",
+   "lemma": "seamlessly",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "seamlessly"
+   ],
+   "glossEn": "smoothly, without any noticeable breaks",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "f71a9330-847a-581f-bb3f-93efa28d4c1b",
+   "lemma": "seasoning",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "seasoning"
+   ],
+   "glossEn": "salt, herbs or spices added to improve flavor",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "08218188-9e6e-584d-b018-c6a7b53eceb4",
+   "lemma": "secluded",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "secluded"
+   ],
+   "glossEn": "quiet and private, away from other people",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "6a9db6bc-9b4a-5e96-bde8-9e81668e2f71",
+   "lemma": "second nature",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "second nature"
+   ],
+   "glossEn": "habit so familiar it feels automatic",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "317ce400-8144-5f2a-8ef7-48fdfbf04b30",
+   "lemma": "secondary source",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "secondary source"
+   ],
+   "glossEn": "work that interprets or analyzes primary sources",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b2215ec8-cbfe-53ac-ab60-328bcf935bd3",
+   "lemma": "secular",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "secular"
+   ],
+   "glossEn": "not connected with religion",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "71379d73-3c90-5368-ad7d-cd3f03be7443",
+   "lemma": "sedentary",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sedentary"
+   ],
+   "glossEn": "involving much sitting and little exercise",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "f5b4c10d-4133-5e3f-bdd1-6f50583d055c",
+   "lemma": "sediment",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sediment"
+   ],
+   "glossEn": "solid matter settling at the bottom of liquid",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  }
+ ]
+}

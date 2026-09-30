@@ -1,0 +1,554 @@
+{
+ "chunk": "C1-023",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "b20c2527-b077-5f21-aaa5-32b3eecb9eb6",
+   "lemma": "progressively",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "progressively"
+   ],
+   "glossEn": "gradually, step by step over time",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "445e248b-7491-5e52-92b5-c23e4468f5d6",
+   "lemma": "proliferate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "proliferate"
+   ],
+   "glossEn": "increase rapidly in number; multiply",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "a517bbcb-97b7-5246-a180-d3f503d70a3c",
+   "lemma": "prologue",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prologue"
+   ],
+   "glossEn": "introductory section at the start of a book or play",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "118f1b3f-2903-58cb-9c46-d51db8d26d16",
+   "lemma": "prone",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prone"
+   ],
+   "glossEn": "likely to suffer from or do something",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "1c68fda0-8dae-50e8-8898-ae2c34f9b458",
+   "lemma": "proofread",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "proofread"
+   ],
+   "glossEn": "read a text carefully to find and correct errors",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "e2e69425-dd3e-5cdc-9a45-c5a76af65dcf",
+   "lemma": "proposition",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "proposition"
+   ],
+   "glossEn": "statement or idea put forward for consideration",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "f3b20ba5-5993-549f-a627-c061c05e6e5d",
+   "lemma": "proprietary",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "proprietary"
+   ],
+   "glossEn": "owned by a company and not freely available",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "7f42930c-dd63-5db6-80c7-7f14065ee7cb",
+   "lemma": "prosecutor",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prosecutor"
+   ],
+   "glossEn": "lawyer who conducts the case against the accused",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "7f2b51c0-cc56-5036-991e-c6c238868bb4",
+   "lemma": "protagonist",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "protagonist"
+   ],
+   "glossEn": "main character in a story, play or film",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "ae40ccc9-b6a5-55d8-a561-1fda9aff7404",
+   "lemma": "protectionism",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "protectionism"
+   ],
+   "glossEn": "policy of shielding domestic industries from imports",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "5836fd31-d143-54b3-876b-a99017af5551",
+   "lemma": "prototype",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prototype"
+   ],
+   "glossEn": "early working model built to test an idea",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "29f12d33-e53a-58a7-ad1a-e2e810c40225",
+   "lemma": "provided that",
+   "pos": "conjunction",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "provided that"
+   ],
+   "glossEn": "on the condition that, only if",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "3e8dc320-d195-5996-8191-d51a4efe041c",
+   "lemma": "prudent",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prudent"
+   ],
+   "glossEn": "acting with care and thought for the future",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "d6036ded-ad0b-59e4-861d-be2d71b06079",
+   "lemma": "pseudonym",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pseudonym"
+   ],
+   "glossEn": "invented name an author writes under",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "4cafd649-8268-534a-9e45-c0d99c92b5b2",
+   "lemma": "pull a muscle",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pull a muscle"
+   ],
+   "glossEn": "strain a muscle by overstretching it",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "58b9d493-9e68-584f-8682-0c92802af853",
+   "lemma": "punchline",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "punchline"
+   ],
+   "glossEn": "final words of a joke that make it funny",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "68282061-a396-5d9d-bbe3-99dfdd2947a3",
+   "lemma": "pundit",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pundit"
+   ],
+   "glossEn": "expert who gives opinions in the media",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "fc4fdbb2-42a7-58f5-968f-1f4dabf7e368",
+   "lemma": "pungent",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pungent"
+   ],
+   "glossEn": "having a strong, sharp smell or taste",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "8e60cff6-0f02-5282-b966-d852d0923656",
+   "lemma": "quaint",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quaint"
+   ],
+   "glossEn": "attractively unusual and old-fashioned",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "6bc1cd01-bf05-5770-8cdb-6a3350b920ba",
+   "lemma": "qualitative",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "qualitative"
+   ],
+   "glossEn": "relating to quality or kind rather than quantity",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "fd1a3496-5a58-5d3e-9d5b-3b23b599ac5c",
+   "lemma": "quantitative",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quantitative"
+   ],
+   "glossEn": "relating to measurable amounts and numbers",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "3b7ef441-21c5-5e87-8122-8c60db1f93ca",
+   "lemma": "quirk",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quirk"
+   ],
+   "glossEn": "odd habit or peculiarity of character",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "2d2ec1c2-9a6a-57cc-9304-25f71495304d",
+   "lemma": "quirky",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quirky"
+   ],
+   "glossEn": "having peculiar or unexpected traits, oddly charming",
+   "proposedTopics": [],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "8391673b-4a8f-5076-9825-ba35e06ba283",
+   "lemma": "quota",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quota"
+   ],
+   "glossEn": "fixed amount or number that must be reached",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "596d84b8-3bb1-5b87-805f-e4b2a3a45628",
+   "lemma": "radioactive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "radioactive"
+   ],
+   "glossEn": "emitting radiation from decaying atomic nuclei",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "7fa60465-3fcb-51d3-8d1e-aff7e2c25409",
+   "lemma": "rancid",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rancid"
+   ],
+   "glossEn": "smelling or tasting bad from age, of fat or oil",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "06963023-c42d-58d4-a2ab-11981f303cc5",
+   "lemma": "ransomware",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ransomware"
+   ],
+   "glossEn": "malware that locks files until a ransom is paid",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "79c44823-ea4e-5032-b3d0-fb346a810c3c",
+   "lemma": "rant",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rant"
+   ],
+   "glossEn": "speak at length in an angry, uncontrolled way",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "7886c23d-f6be-53d5-b69a-b26e1742b142",
+   "lemma": "rationale",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rationale"
+   ],
+   "glossEn": "set of reasons behind a decision or belief",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "57acf333-45ea-5dac-84c2-9655da6cd8aa",
+   "lemma": "rationalize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rationalize"
+   ],
+   "glossEn": "justify behavior with plausible but false reasons",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "fc7de7e1-bdb3-5774-97c3-e4264c3046d1",
+   "lemma": "reassess",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reassess"
+   ],
+   "glossEn": "evaluate again in light of new information",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "42f17959-c51d-57d5-bc12-ff57b71a5279",
+   "lemma": "rebate",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rebate"
+   ],
+   "glossEn": "partial refund paid back after a purchase",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "dafe32ff-581c-57f9-b100-0bb080f4f72a",
+   "lemma": "reboot",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reboot"
+   ],
+   "glossEn": "shut down and restart a computer",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "70dd07a2-3ecf-5c3a-b4b8-a501db9b6a98",
+   "lemma": "rebuke",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rebuke"
+   ],
+   "glossEn": "criticize someone sharply for their behavior",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "7157e751-4dfb-597b-8c07-b3dcccb56376",
+   "lemma": "rebut",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rebut"
+   ],
+   "glossEn": "argue that a claim or criticism is false",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "8f5f01da-3d37-5657-962c-d479195f1044",
+   "lemma": "rebuttal",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rebuttal"
+   ],
+   "glossEn": "an argument given in reply to disprove a claim",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "a38b6a26-0ec2-5ff8-a87f-898d227c9ed0",
+   "lemma": "reckless",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reckless"
+   ],
+   "glossEn": "acting without thought for danger or consequences",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "cddebcb5-0c5f-5cbb-bd31-d1f530d6a690",
+   "lemma": "reconcile",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reconcile"
+   ],
+   "glossEn": "make conflicting ideas or people compatible again",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "cded5e81-09a5-5b9a-96dc-440ea3bb428e",
+   "lemma": "recruiter",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "recruiter"
+   ],
+   "glossEn": "person whose job is to find new employees",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "5ced1d5f-fcc2-52bf-a1cf-6b0a7b3e52f2",
+   "lemma": "rectify",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rectify"
+   ],
+   "glossEn": "put right; correct a mistake or fault",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  }
+ ]
+}

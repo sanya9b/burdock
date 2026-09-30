@@ -1,0 +1,570 @@
+{
+ "chunk": "C1-008",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "e8f954ad-dc0f-5098-a325-f7d29da1c386",
+   "lemma": "critical thinking",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "critical thinking"
+   ],
+   "glossEn": "objective analysis of evidence in order to form a judgment",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "0a148f81-ddb5-558f-ba19-43f271abcbc3",
+   "lemma": "cross-border",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cross-border"
+   ],
+   "glossEn": "happening between or across two countries",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "61e1c594-ccb9-5ac6-a715-4bcf27cd2de2",
+   "lemma": "crowdfunding",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "crowdfunding"
+   ],
+   "glossEn": "raising money from many people online",
+   "proposedTopics": [
+    "military",
+    "it"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "faa83c10-d145-5117-90d0-3cbabb04d0d9",
+   "lemma": "crucially",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "crucially"
+   ],
+   "glossEn": "most importantly, decisively",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "bbadd585-6b5d-5e7d-8507-e81b4ebd3e40",
+   "lemma": "cryptocurrency",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cryptocurrency"
+   ],
+   "glossEn": "digital currency secured by cryptography",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "f35856f0-2c40-5215-b083-56430f93c79c",
+   "lemma": "culinary",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "culinary"
+   ],
+   "glossEn": "relating to cooking or the kitchen",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "d8a44d0b-0fce-5a3f-a326-f7e588660e0e",
+   "lemma": "culminate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "culminate"
+   ],
+   "glossEn": "reach a climax or final point",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "0db6736d-a9df-5aac-8c1e-9e54af9a0346",
+   "lemma": "culpable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "culpable"
+   ],
+   "glossEn": "deserving blame for a wrong",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "f858f009-1edc-50e5-bb1d-3633fc2c7102",
+   "lemma": "culture shock",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "culture shock"
+   ],
+   "glossEn": "confusion felt in an unfamiliar culture",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "83260150-f43f-5f21-9134-d605636ae889",
+   "lemma": "cunning",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cunning"
+   ],
+   "glossEn": "skilled at achieving goals by deceit",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "423c273b-fcf0-56fc-a1bc-76ee5f0fda05",
+   "lemma": "curator",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "curator"
+   ],
+   "glossEn": "person who selects and manages a museum or exhibition collection",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "4cf4675a-0441-5972-a0d8-e11448b5a177",
+   "lemma": "curb",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "curb"
+   ],
+   "glossEn": "raised stone edge between sidewalk and road",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "edd5dbdd-5a1a-5590-a469-dd6c99761a83",
+   "lemma": "curfew",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "curfew"
+   ],
+   "glossEn": "rule requiring people to stay indoors at set hours",
+   "proposedTopics": [
+    "military",
+    "city"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "7d7af3b8-4643-559b-85d5-5eeac3c900bd",
+   "lemma": "curtail",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "curtail"
+   ],
+   "glossEn": "reduce or restrict something in extent",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "a6b5e9fc-4ee5-55a4-9ca6-f97f1fbd5679",
+   "lemma": "custody",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "custody"
+   ],
+   "glossEn": "legal right to care for a child",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "ebf66736-701b-51a7-a532-cb648a95b474",
+   "lemma": "customs declaration",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "customs declaration"
+   ],
+   "glossEn": "form listing goods brought into a country",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "0ed80f65-3417-5686-8cde-84ffcad7065e",
+   "lemma": "cyberattack",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cyberattack"
+   ],
+   "glossEn": "deliberate attempt to damage or break into computer systems",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "04931676-a5c5-55aa-9277-5e4060a6336c",
+   "lemma": "cyberbullying",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cyberbullying"
+   ],
+   "glossEn": "bullying carried out through phones or the internet",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "f86bb528-47cc-5536-badf-7a000e6fbe46",
+   "lemma": "cybersecurity",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cybersecurity"
+   ],
+   "glossEn": "protection of computers and networks from attacks",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "c8cad777-1901-5766-b1b9-ab6031fa8bf8",
+   "lemma": "cynical",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cynical"
+   ],
+   "glossEn": "believing people act only from self-interest",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "9bc66cff-50d3-52cf-bbb4-c0e466a72d97",
+   "lemma": "dark web",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dark web"
+   ],
+   "glossEn": "hidden part of the internet reached with special software",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "ae35a8d0-fec5-5c2e-824a-8bbd127f4d4e",
+   "lemma": "data breach",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "data breach"
+   ],
+   "glossEn": "incident in which private data is stolen or exposed",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "ad75a264-6d4a-5c05-877e-b647eb381158",
+   "lemma": "data center",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "data center"
+   ],
+   "glossEn": "facility housing many servers and network equipment",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "f80958c0-a5a7-51db-a60e-cc16f90116c8",
+   "lemma": "dataset",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dataset"
+   ],
+   "glossEn": "collection of related data used for analysis",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "95a3feb2-a21d-510f-b7fb-d866cb7594c4",
+   "lemma": "daunting",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "daunting"
+   ],
+   "glossEn": "seeming difficult to deal with, intimidating",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "3ba12fdb-ce66-56eb-b73f-c0666254e61a",
+   "lemma": "dead end",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dead end"
+   ],
+   "glossEn": "street that is closed at one end",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b36e8b44-64a0-5d61-963e-9d078657b23e",
+   "lemma": "deadpan",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deadpan"
+   ],
+   "glossEn": "said or done with a serious, expressionless face",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "0c32c30a-167e-5cb6-82fd-d526bbcdc8c3",
+   "lemma": "dean",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dean"
+   ],
+   "glossEn": "head of a university faculty or college",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "b4a34a14-b343-577d-895d-b42d2c92cc5f",
+   "lemma": "debug",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "debug"
+   ],
+   "glossEn": "find and remove errors from software",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "77e3c5a8-234e-572a-9795-b2190f0d44b8",
+   "lemma": "debunk",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "debunk"
+   ],
+   "glossEn": "expose a widely held claim as false",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "3adabd77-e6fa-53b4-8fde-2cfc0add460d",
+   "lemma": "decentralize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "decentralize"
+   ],
+   "glossEn": "move power from central to local authorities",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "f103163c-62eb-5e58-ab55-1bb42857b899",
+   "lemma": "declutter",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "declutter"
+   ],
+   "glossEn": "remove unnecessary items to make a space tidy",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "06fd4e3a-d4c5-5006-b4fe-4012ee2ada62",
+   "lemma": "decompose",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "decompose"
+   ],
+   "glossEn": "decay or break down into simpler matter",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "b9c44729-2771-58ea-b650-ef6de04640a8",
+   "lemma": "decree",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "decree"
+   ],
+   "glossEn": "official order issued by a ruler or authority",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "b2abe98a-69a5-5bfc-83ce-daf89a064e03",
+   "lemma": "decrypt",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "decrypt"
+   ],
+   "glossEn": "convert encrypted data back into readable form",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "e748655b-e72f-5619-90d8-629372b53fd2",
+   "lemma": "deductive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deductive"
+   ],
+   "glossEn": "reasoning from general principles to a specific conclusion",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "70f6995b-0172-577a-a7b7-e5347c21745b",
+   "lemma": "deepfake",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deepfake"
+   ],
+   "glossEn": "realistic fake video or audio made by AI",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "4b466d25-9376-515b-8ed6-f2c2c3ad68fc",
+   "lemma": "defamation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "defamation"
+   ],
+   "glossEn": "damaging a reputation with false statements",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "feb48033-ec57-57a2-9630-a8c82074966e",
+   "lemma": "defective",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "defective"
+   ],
+   "glossEn": "having a fault and not working properly",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "287deac2-0075-5d10-85b5-99af3c10caa7",
+   "lemma": "defendant",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "defendant"
+   ],
+   "glossEn": "person accused or sued in a court of law",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  }
+ ]
+}

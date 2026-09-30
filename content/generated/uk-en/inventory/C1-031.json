@@ -1,0 +1,518 @@
+{
+ "chunk": "C1-031",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "c0bdb3f4-ad13-515a-a951-f51e68f5d413",
+   "lemma": "vicinity",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vicinity"
+   ],
+   "glossEn": "area near a particular place",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "f3d7a3ef-9a66-5369-9858-673879e8f830",
+   "lemma": "vile",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vile"
+   ],
+   "glossEn": "extremely unpleasant; morally bad",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "92243b41-ea67-5728-8207-da3ef2a7ff2d",
+   "lemma": "vindicate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vindicate"
+   ],
+   "glossEn": "clear of blame; show to be right or justified",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "f5fc7a53-3725-519c-8fd3-494bf789f018",
+   "lemma": "vindictive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vindictive"
+   ],
+   "glossEn": "having a strong wish for revenge",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "fbec6ed0-f802-5178-9f56-a02035044b58",
+   "lemma": "viral",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "viral"
+   ],
+   "glossEn": "spreading very quickly among internet users",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "8dce616c-d919-5690-915a-c55abd59d98e",
+   "lemma": "virtuoso",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "virtuoso"
+   ],
+   "glossEn": "performer with outstanding technical skill",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "901c2d63-9d1e-5f92-a29a-7dc8a02f41d1",
+   "lemma": "vocational",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vocational"
+   ],
+   "glossEn": "relating to training for a particular job or trade",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "8192a1dd-155e-59b8-b11c-ad903c8ee590",
+   "lemma": "voiceover",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "voiceover"
+   ],
+   "glossEn": "unseen speaker's narration heard in a film or video",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "fcc5efcf-2def-563a-860b-c4beed451f50",
+   "lemma": "volatile",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "volatile"
+   ],
+   "glossEn": "likely to change suddenly and unpredictably",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "08366832-d73e-5c25-aa42-444cc98d607e",
+   "lemma": "volcanic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "volcanic"
+   ],
+   "glossEn": "relating to or produced by a volcano",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "d8c3a6e6-36c8-59e2-a6bf-3baed35fe7aa",
+   "lemma": "vulnerability",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vulnerability"
+   ],
+   "glossEn": "weakness in a system that attackers can exploit",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "8a382ff3-ef38-5eea-995f-3b2884bbb375",
+   "lemma": "wane",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wane"
+   ],
+   "glossEn": "decrease gradually in strength or intensity",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "d47333c2-71d8-564a-8b41-fdbac23ca99d",
+   "lemma": "warrant",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "warrant"
+   ],
+   "glossEn": "official document authorizing an arrest or search",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "5f9ecba9-9c01-59bf-9c4b-c00188785b1c",
+   "lemma": "watchdog",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "watchdog"
+   ],
+   "glossEn": "organization that monitors others for wrongdoing",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "79b9de09-0a37-54f9-9bf0-82f4d478d9e0",
+   "lemma": "wavelength",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wavelength"
+   ],
+   "glossEn": "distance between successive crests of a wave",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "f27d2475-2303-5da3-850c-eaa453b184da",
+   "lemma": "waver",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "waver"
+   ],
+   "glossEn": "become weaker or less certain; hesitate",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "c7258bd6-eb69-5d1e-9054-8582e15d4dab",
+   "lemma": "wear and tear",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wear and tear"
+   ],
+   "glossEn": "damage caused by ordinary everyday use",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "7509ab8e-cefe-5550-9e4d-98313bea8457",
+   "lemma": "wear off",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wear off"
+   ],
+   "glossEn": "(of a drug's effect) gradually disappear",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "3912ea7e-78a2-5263-b089-7fdfa88838cc",
+   "lemma": "whatsoever",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "whatsoever"
+   ],
+   "glossEn": "at all, used to emphasize a negative",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d5476a72-c641-544a-a2c3-59165f341d91",
+   "lemma": "whereby",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "whereby"
+   ],
+   "glossEn": "by which; through which",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "a682de14-b27a-59d3-acb6-d365f4368570",
+   "lemma": "whisk",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "whisk"
+   ],
+   "glossEn": "beat eggs, cream or sauce quickly with a utensil",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "e9f79c61-6e63-54aa-a4da-6d8b4e1cb76c",
+   "lemma": "whistleblower",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "whistleblower"
+   ],
+   "glossEn": "person who reports wrongdoing inside an organization",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "0a295aa1-a88c-53f1-b9fd-148cc538da6f",
+   "lemma": "wholeheartedly",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wholeheartedly"
+   ],
+   "glossEn": "completely and sincerely, with full commitment",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "e64b3794-c09e-5f5f-94bc-bdfa0238969c",
+   "lemma": "wholesale",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wholesale"
+   ],
+   "glossEn": "sold in large quantities to retailers rather than consumers",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b8f0a847-de7a-5a90-9c3e-3e37b26ae007",
+   "lemma": "wholesome",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wholesome"
+   ],
+   "glossEn": "healthy and good for you, of food",
+   "proposedTopics": [
+    "food",
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "50115fc9-1243-5af2-bc61-00a39f64e781",
+   "lemma": "wield",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wield"
+   ],
+   "glossEn": "hold and use power, influence, or a weapon",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d8930550-7653-5dba-9786-11b69a9765b7",
+   "lemma": "wildfire",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wildfire"
+   ],
+   "glossEn": "large uncontrolled fire in a natural area",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "4089ba4f-5263-54a3-8ece-2fd2371fa9ed",
+   "lemma": "willpower",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "willpower"
+   ],
+   "glossEn": "strength of mind to control one's actions",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "d89e23c5-e73d-5348-9778-0460bd83a27a",
+   "lemma": "with regard to",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "with regard to"
+   ],
+   "glossEn": "concerning; about",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "7f9a8797-5acb-5851-91d2-f9d16ed6ef8f",
+   "lemma": "wobbly",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wobbly"
+   ],
+   "glossEn": "unsteady, moving from side to side",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "fda3f83a-7b6e-5112-8c2d-9ea4e78f4e63",
+   "lemma": "workaround",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "workaround"
+   ],
+   "glossEn": "temporary way of getting past a problem",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "f6bbf07c-1d92-5cda-922a-6b14db635938",
+   "lemma": "workflow",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "workflow"
+   ],
+   "glossEn": "sequence of steps in which work is done",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "75c097e0-b2a3-5122-a354-0f73940c9231",
+   "lemma": "workforce",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "workforce"
+   ],
+   "glossEn": "all the people who work for a company",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "c3dfa907-52b1-55cc-b07d-7d8453b89d58",
+   "lemma": "workload",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "workload"
+   ],
+   "glossEn": "amount of work a person has to do",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "57bfc99c-b981-5a57-b5f1-213e47da23d5",
+   "lemma": "wry",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wry"
+   ],
+   "glossEn": "dryly humorous with a hint of irony",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b4d1d20e-2c8a-5439-acdb-f377eef0740a",
+   "lemma": "xenophobia",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "xenophobia"
+   ],
+   "glossEn": "dislike or fear of people from other countries",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "b513186f-4580-502e-bbc7-69e630172a50",
+   "lemma": "zealous",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "zealous"
+   ],
+   "glossEn": "showing great energy or passion for a cause",
+   "proposedTopics": [],
+   "levelConfidence": 0.65
+  }
+ ]
+}

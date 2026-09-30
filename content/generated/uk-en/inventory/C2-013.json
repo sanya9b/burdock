@@ -1,0 +1,552 @@
+{
+ "chunk": "C2-013",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "2f2e7695-de21-5b38-9206-e11cd98d7d4d",
+   "lemma": "of late",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "of late"
+   ],
+   "glossEn": "recently, lately",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "e72d03aa-9e5a-5229-ab3a-7ecbed6d4821",
+   "lemma": "of one's own accord",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "of one's own accord"
+   ],
+   "glossEn": "voluntarily, without being asked",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "bd898806-1175-5273-b933-ecdacc5fcbcc",
+   "lemma": "ombudsman",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ombudsman"
+   ],
+   "glossEn": "official who investigates complaints against organizations",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "86bf5e0b-8d24-5348-8152-5b8b783187e3",
+   "lemma": "on a shoestring",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on a shoestring"
+   ],
+   "glossEn": "with very little money",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "6d898263-ae63-5ad0-ae27-6f8059ed356a",
+   "lemma": "on the mend",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the mend"
+   ],
+   "glossEn": "recovering after an illness",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "e139e95d-a796-5d63-b2fa-f53a59f772a9",
+   "lemma": "opine",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "opine"
+   ],
+   "glossEn": "hold and state as one's opinion",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "bd575f53-f295-5f22-ba5d-6531659df373",
+   "lemma": "ordnance",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ordnance"
+   ],
+   "glossEn": "military weapons and ammunition, especially artillery",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "cdbab507-4f11-5b48-8120-90f0bda905fb",
+   "lemma": "oscillate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "oscillate"
+   ],
+   "glossEn": "swing back and forth at a regular rate",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "39c2906b-fb64-542c-abc4-c2c2b5e72030",
+   "lemma": "ostensibly",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ostensibly"
+   ],
+   "glossEn": "apparently, but perhaps not actually",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "26323615-44b7-5428-8aa1-6efd59c675d6",
+   "lemma": "ostentatious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ostentatious"
+   ],
+   "glossEn": "designed to impress by showing off wealth",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "7b13eac1-75b6-5528-bf53-bd80467a3db2",
+   "lemma": "ostracize",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ostracize"
+   ],
+   "glossEn": "deliberately exclude someone from a group",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "0f94cb7c-b336-5082-9b40-f022d78b379e",
+   "lemma": "outlier",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "outlier"
+   ],
+   "glossEn": "data point far from the others",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "596f2f4d-3f46-5995-9a50-e28eee1510c7",
+   "lemma": "over and above",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "over and above"
+   ],
+   "glossEn": "in addition to, besides",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "daecab9d-7d3f-5bed-aaec-871af6c372cb",
+   "lemma": "overbearing",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overbearing"
+   ],
+   "glossEn": "domineering and unpleasantly bossy",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "e793be36-2765-5b38-a6bd-21934574e39d",
+   "lemma": "overtly",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overtly"
+   ],
+   "glossEn": "openly, not secretly",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d38de12f-2689-5da7-acee-f8992eaea4dc",
+   "lemma": "palatable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "palatable"
+   ],
+   "glossEn": "pleasant or acceptable to taste",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "557f9e92-0adf-5242-909c-06db697c2df8",
+   "lemma": "palliate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "palliate"
+   ],
+   "glossEn": "make symptoms less severe without curing",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "57700f05-28ad-5c63-8512-d59c2e4b1acb",
+   "lemma": "palliative",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "palliative"
+   ],
+   "glossEn": "relieving pain without curing the cause",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "d6c06de9-3427-561f-997d-f04066fbca1b",
+   "lemma": "palpable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "palpable"
+   ],
+   "glossEn": "so intense as to seem touchable, obvious",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "fcaf8c7f-9260-5f5c-aa6c-ff2165311ae0",
+   "lemma": "palpitations",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "palpitations"
+   ],
+   "glossEn": "noticeably rapid or irregular heartbeat",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "fc5b9306-6841-53e4-9f17-7b19616ad88a",
+   "lemma": "paltry",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "paltry"
+   ],
+   "glossEn": "very small or meager; petty",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b230141f-7bed-50a3-95a5-3dfb65226402",
+   "lemma": "panache",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "panache"
+   ],
+   "glossEn": "flamboyant confidence and style",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "ae4b61e5-8775-556d-9f45-b8d9563d5171",
+   "lemma": "panegyric",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "panegyric"
+   ],
+   "glossEn": "speech or text of elaborate public praise",
+   "proposedTopics": [],
+   "levelConfidence": 0.9
+  },
+  {
+   "id": "9bdcb465-9704-5eb7-85b4-3aae13dbc7ba",
+   "lemma": "par excellence",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "par excellence"
+   ],
+   "glossEn": "the best example of its kind",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "87a4eb25-00df-5de9-adab-448d93f8c827",
+   "lemma": "paradigm",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "paradigm"
+   ],
+   "glossEn": "typical model or pattern of thinking",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "383afa37-304f-582c-81ac-a186c5e8318f",
+   "lemma": "paradigm shift",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "paradigm shift"
+   ],
+   "glossEn": "fundamental change in the basic assumptions of a field",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "6ce2a63a-2da9-59b3-87aa-8bd297c74900",
+   "lemma": "parched",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "parched"
+   ],
+   "glossEn": "dried out by heat",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "8fa7840b-6c6a-552e-b4ec-f9b4d5211f9e",
+   "lemma": "pariah",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pariah"
+   ],
+   "glossEn": "an outcast rejected by society",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "6056a566-f6e9-5ffe-abe3-fe000496779d",
+   "lemma": "parse",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "parse"
+   ],
+   "glossEn": "analyze text or data into its structured parts",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "637d68e8-a352-50e7-a508-47a2b61bf4ba",
+   "lemma": "parsimonious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "parsimonious"
+   ],
+   "glossEn": "extremely unwilling to spend money or resources",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "d209a077-21b3-56af-a148-d15b2fe7a099",
+   "lemma": "part and parcel",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "part and parcel"
+   ],
+   "glossEn": "an essential and inseparable part",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "b48c52cf-90c2-50a8-8ad7-c6d6d8cf9594",
+   "lemma": "passphrase",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "passphrase"
+   ],
+   "glossEn": "long password made of several words",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "349cddb7-6f96-5127-a8e7-56d959e73e01",
+   "lemma": "pastiche",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pastiche"
+   ],
+   "glossEn": "work imitating the style of another artist or period",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "039a2434-730a-5d9b-88cd-4e4db289d3e2",
+   "lemma": "pathogen",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pathogen"
+   ],
+   "glossEn": "microorganism that causes disease",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "ee3f3529-08c3-5c95-b460-b35b8bfd3110",
+   "lemma": "pathos",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pathos"
+   ],
+   "glossEn": "quality in art that evokes pity or sadness",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "a708eba6-3a7f-56ed-a759-e6db540c3363",
+   "lemma": "patina",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "patina"
+   ],
+   "glossEn": "surface sheen or film that age gives to objects",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "eea5db6c-9b25-561f-8814-968ce75adda9",
+   "lemma": "pedestrianize",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pedestrianize"
+   ],
+   "glossEn": "close a street to vehicles for walkers only",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "1efb0aab-9f0d-5e5e-a376-4d39c55103ed",
+   "lemma": "peer review",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "peer review"
+   ],
+   "glossEn": "evaluation of scientific work by fellow experts",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "820e0c82-19c1-5d74-a3cd-1955941c5382",
+   "lemma": "peer-to-peer",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "peer-to-peer"
+   ],
+   "glossEn": "shared directly between users without a central server",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "392f2beb-b2ce-5a57-a2d7-f467a2c2d215",
+   "lemma": "penchant",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "penchant"
+   ],
+   "glossEn": "strong liking or habitual tendency",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  }
+ ]
+}

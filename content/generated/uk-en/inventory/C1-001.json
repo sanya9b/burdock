@@ -1,0 +1,553 @@
+{
+ "chunk": "C1-001",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "b872b092-66f5-55ae-8935-d6305b0801ee",
+   "lemma": "abate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "abate"
+   ],
+   "glossEn": "become less intense or widespread",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "7c238f30-1847-56e3-bd39-d3712e9a38e7",
+   "lemma": "abstraction",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "abstraction"
+   ],
+   "glossEn": "general idea considered apart from concrete details",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "d1e95df6-46d6-5f2f-b6dc-e5a1c70f0e51",
+   "lemma": "academia",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "academia"
+   ],
+   "glossEn": "world of universities and scholarly research",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "739c3751-6c50-5a0b-971f-c3d4a4aebce8",
+   "lemma": "acclaim",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "acclaim"
+   ],
+   "glossEn": "enthusiastic public praise",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b59805c7-4f0f-5b3f-b90d-9cdb7b7cea00",
+   "lemma": "acclaimed",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "acclaimed"
+   ],
+   "glossEn": "publicly praised, especially by critics",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "cd60128a-8ed5-56f1-aa94-5324ee26e5f7",
+   "lemma": "acclimatize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "acclimatize"
+   ],
+   "glossEn": "get used to a new climate or altitude",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "133758c5-9002-5034-870a-653d69fa850f",
+   "lemma": "accolade",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "accolade"
+   ],
+   "glossEn": "award or honor given as public recognition",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "871c8ad7-a6e2-5a78-a778-b098393d38f4",
+   "lemma": "accountability",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "accountability"
+   ],
+   "glossEn": "responsibility for and willingness to explain one's actions",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "fdf3fe0f-0a86-57f2-ae32-0e817317ff92",
+   "lemma": "accreditation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "accreditation"
+   ],
+   "glossEn": "official recognition that an institution meets set standards",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d1ccd220-6f22-5380-ace7-c3c3b86b5c0a",
+   "lemma": "acquit",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "acquit"
+   ],
+   "glossEn": "declare someone not guilty of a crime",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "7e708c40-8715-55f4-8b23-76b760623982",
+   "lemma": "adamant",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "adamant"
+   ],
+   "glossEn": "refusing to be persuaded or to change one's mind",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "b988e9ff-a495-59c6-adbc-7bf1c8ca28d1",
+   "lemma": "adamantly",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "adamantly"
+   ],
+   "glossEn": "firmly refusing to change one's opinion",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "ab0910f5-06ec-5a5b-8e81-819a76479ad7",
+   "lemma": "adaptation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "adaptation"
+   ],
+   "glossEn": "film or stage version of a book",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "e6de2715-dc77-5b53-96e9-f77249af770a",
+   "lemma": "additive",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "additive"
+   ],
+   "glossEn": "substance added to food to improve taste or shelf life",
+   "proposedTopics": [
+    "food",
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "e6c0561a-7e79-5a7c-a927-f3619134dfd8",
+   "lemma": "adept",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "adept"
+   ],
+   "glossEn": "very skilled or proficient at something",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "e16e3910-2a89-5c04-be90-ddba92258d12",
+   "lemma": "adjacent",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "adjacent"
+   ],
+   "glossEn": "next to and touching something",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "c2dcebac-5300-55c3-a743-a9802aebc5da",
+   "lemma": "admonish",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "admonish"
+   ],
+   "glossEn": "warn or reprimand someone firmly",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "a368ba05-4e66-5bef-9bb4-90fa16b200bc",
+   "lemma": "advocacy",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "advocacy"
+   ],
+   "glossEn": "public support for a cause or policy",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "6a8a57a1-8caf-5c70-ba31-90eb8feee82c",
+   "lemma": "aesthetic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aesthetic"
+   ],
+   "glossEn": "concerned with beauty or artistic taste",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "07fd222c-42e8-5f7d-a790-2e2cd3e9c232",
+   "lemma": "affluent",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "affluent"
+   ],
+   "glossEn": "wealthy; having plenty of money",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "60432225-14cd-5fe6-a212-e35967b24eac",
+   "lemma": "ailment",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ailment"
+   ],
+   "glossEn": "a minor illness or physical complaint",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "dfaf16e4-a28e-5d31-bfe8-a5ce8fcbc573",
+   "lemma": "air raid",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "air raid"
+   ],
+   "glossEn": "attack by aircraft dropping bombs on a place",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "dbaa467e-4b20-567d-b0f8-1b77a6aaaacf",
+   "lemma": "airstrike",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "airstrike"
+   ],
+   "glossEn": "attack by military aircraft on a ground target",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "562d1fb5-897e-59f5-9b26-c8a7b643c869",
+   "lemma": "albeit",
+   "pos": "conjunction",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "albeit"
+   ],
+   "glossEn": "although; even though",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "8633c6c7-2033-5e55-90ea-d6f292b496ee",
+   "lemma": "algorithm",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "algorithm"
+   ],
+   "glossEn": "step-by-step procedure a computer follows to solve a task",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "7f6c2596-75bc-59cb-81b7-2fb584ae1b49",
+   "lemma": "alienate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "alienate"
+   ],
+   "glossEn": "cause someone to feel isolated or estranged",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "1ac0f4a3-fbb8-5087-b474-9c39d0fd534d",
+   "lemma": "all in all",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "all in all"
+   ],
+   "glossEn": "considering everything, on the whole",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "8b6a8cb2-4394-5f69-a927-454b6cff17e6",
+   "lemma": "all things considered",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "all things considered"
+   ],
+   "glossEn": "taking everything into account",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "5ff4f62c-b634-56d5-9f7e-c63a6ed1aea1",
+   "lemma": "all-clear",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "all-clear"
+   ],
+   "glossEn": "signal that the danger of an air raid has passed",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "01170af0-a5a2-5796-a491-107641bea152",
+   "lemma": "all-inclusive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "all-inclusive"
+   ],
+   "glossEn": "price covering meals, drinks and activities",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "85449766-ae38-5695-959e-06e0a5dd8c8d",
+   "lemma": "allege",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "allege"
+   ],
+   "glossEn": "claim wrongdoing without proof",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "d6dcbf65-b6ea-52ab-bbec-808679bcce62",
+   "lemma": "allegedly",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "allegedly"
+   ],
+   "glossEn": "as claimed, but not yet proven",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "0ac7b20b-ed86-566b-8572-4dc183eb4b62",
+   "lemma": "allegory",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "allegory"
+   ],
+   "glossEn": "story whose characters and events stand for hidden meanings",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "31795636-0c96-5dd4-b8f7-8269b8e4fddc",
+   "lemma": "alleviate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "alleviate"
+   ],
+   "glossEn": "make pain or a problem less severe",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "822f40a3-6c15-54cb-add2-b4618e47da51",
+   "lemma": "allocate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "allocate"
+   ],
+   "glossEn": "distribute resources for a particular purpose",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "3aa2840e-c9da-572a-92dd-1f3056caf136",
+   "lemma": "allude",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "allude"
+   ],
+   "glossEn": "refer to something indirectly",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "044e76a3-55f4-53c0-a5f4-d4b2edd37829",
+   "lemma": "aloof",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aloof"
+   ],
+   "glossEn": "cool, distant and not friendly",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "a2ef7dfb-81e4-5118-b1a5-ccdb347ac639",
+   "lemma": "altruism",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "altruism"
+   ],
+   "glossEn": "selfless concern for the welfare of others",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "b095f816-9ab6-5c85-b6d8-f15d0713f5c5",
+   "lemma": "alumni",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "alumni"
+   ],
+   "glossEn": "former students of a school or university",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "7eef675e-01ab-55d2-a17b-5ce30b54f45d",
+   "lemma": "ambivalent",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ambivalent"
+   ],
+   "glossEn": "having mixed feelings about something",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  }
+ ]
+}

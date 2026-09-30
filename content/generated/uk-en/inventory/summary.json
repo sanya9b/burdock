@@ -4,18 +4,19 @@
   "A2": 1410,
   "B1": 2444,
   "B2": 2779,
-  "C1": 0,
-  "C2": 0
+  "C1": 1237,
+  "C2": 774
  },
  "pos": {
-  "noun": 4091,
-  "adjective": 1494,
-  "verb": 1378,
-  "adverb": 551,
+  "noun": 4889,
+  "adjective": 2005,
+  "verb": 1768,
+  "adverb": 627,
+  "phrase": 223,
+  "preposition": 84,
   "pronoun": 83,
-  "preposition": 76,
   "determiner": 46,
-  "conjunction": 37,
+  "conjunction": 42,
   "numeral": 30,
   "interjection": 9
  },
@@ -1009,7 +1010,262 @@
    "chunk": "B2-070",
    "level": "B2",
    "count": 19
+  },
+  {
+   "chunk": "C1-001",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-002",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-003",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-004",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-005",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-006",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-007",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-008",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-009",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-010",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-011",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-012",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-013",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-014",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-015",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-016",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-017",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-018",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-019",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-020",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-021",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-022",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-023",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-024",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-025",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-026",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-027",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-028",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-029",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-030",
+   "level": "C1",
+   "count": 40
+  },
+  {
+   "chunk": "C1-031",
+   "level": "C1",
+   "count": 37
+  },
+  {
+   "chunk": "C2-001",
+   "level": "C2",
+   "count": 40
+  },
+  {
+   "chunk": "C2-002",
+   "level": "C2",
+   "count": 40
+  },
+  {
+   "chunk": "C2-003",
+   "level": "C2",
+   "count": 40
+  },
+  {
+   "chunk": "C2-004",
+   "level": "C2",
+   "count": 40
+  },
+  {
+   "chunk": "C2-005",
+   "level": "C2",
+   "count": 40
+  },
+  {
+   "chunk": "C2-006",
+   "level": "C2",
+   "count": 40
+  },
+  {
+   "chunk": "C2-007",
+   "level": "C2",
+   "count": 40
+  },
+  {
+   "chunk": "C2-008",
+   "level": "C2",
+   "count": 40
+  },
+  {
+   "chunk": "C2-009",
+   "level": "C2",
+   "count": 40
+  },
+  {
+   "chunk": "C2-010",
+   "level": "C2",
+   "count": 40
+  },
+  {
+   "chunk": "C2-011",
+   "level": "C2",
+   "count": 40
+  },
+  {
+   "chunk": "C2-012",
+   "level": "C2",
+   "count": 40
+  },
+  {
+   "chunk": "C2-013",
+   "level": "C2",
+   "count": 40
+  },
+  {
+   "chunk": "C2-014",
+   "level": "C2",
+   "count": 40
+  },
+  {
+   "chunk": "C2-015",
+   "level": "C2",
+   "count": 40
+  },
+  {
+   "chunk": "C2-016",
+   "level": "C2",
+   "count": 40
+  },
+  {
+   "chunk": "C2-017",
+   "level": "C2",
+   "count": 40
+  },
+  {
+   "chunk": "C2-018",
+   "level": "C2",
+   "count": 40
+  },
+  {
+   "chunk": "C2-019",
+   "level": "C2",
+   "count": 40
+  },
+  {
+   "chunk": "C2-020",
+   "level": "C2",
+   "count": 14
   }
  ],
- "total": 7795
+ "total": 9806
 }

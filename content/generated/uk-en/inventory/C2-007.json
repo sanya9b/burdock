@@ -1,0 +1,550 @@
+{
+ "chunk": "C2-007",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "af05fce1-b090-5157-b864-382caea4afb2",
+   "lemma": "epigram",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "epigram"
+   ],
+   "glossEn": "short witty saying or poem",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "5616030b-6d92-5e07-bf08-503f8240bbd6",
+   "lemma": "epistemology",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "epistemology"
+   ],
+   "glossEn": "branch of philosophy studying knowledge and how we know things",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "73105c78-1fa7-5370-b872-9b0701370d17",
+   "lemma": "equinox",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "equinox"
+   ],
+   "glossEn": "date when day and night are of equal length",
+   "proposedTopics": [],
+   "levelConfidence": 0.9
+  },
+  {
+   "id": "fba3c37a-6277-5660-a96a-3f25357a8506",
+   "lemma": "equivocal",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "equivocal"
+   ],
+   "glossEn": "open to more than one interpretation",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "329cdcce-a089-5b78-af3c-521e3b96ab41",
+   "lemma": "equivocate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "equivocate"
+   ],
+   "glossEn": "use ambiguous language to conceal the truth",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "f4d283e3-9b8b-54c1-961c-ce9f7944ea27",
+   "lemma": "erratum",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "erratum"
+   ],
+   "glossEn": "error in a printed work listed for correction",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "57f8f950-8cea-5720-9418-c02d3ad63388",
+   "lemma": "erstwhile",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "erstwhile"
+   ],
+   "glossEn": "former, previous",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "71f3be0d-631c-5839-a901-3439e9098297",
+   "lemma": "erudite",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "erudite"
+   ],
+   "glossEn": "having or showing great knowledge or learning",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "5cf65b2e-0d68-5099-b080-b86ce1ce0b9a",
+   "lemma": "erudition",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "erudition"
+   ],
+   "glossEn": "deep and wide-ranging scholarly knowledge",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "d9f67b66-8036-5445-9ae6-dd4d4b78a3ba",
+   "lemma": "esoteric",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "esoteric"
+   ],
+   "glossEn": "understood only by a small group with special knowledge",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "45d03687-c8c8-54bb-acf9-8b2d5578bb4a",
+   "lemma": "et al.",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "et al."
+   ],
+   "glossEn": "and others, used after the first author's name",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "4119519c-7ad6-5930-b49b-68bdfb6ec620",
+   "lemma": "evacuee",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "evacuee"
+   ],
+   "glossEn": "person moved away from a dangerous place to safety",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "8dc9a168-fe43-51c7-8961-b814bbff2d56",
+   "lemma": "evince",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "evince"
+   ],
+   "glossEn": "reveal the presence of a quality or feeling",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "8071f631-55fc-52da-a296-0d806a3920ab",
+   "lemma": "exceedingly",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "exceedingly"
+   ],
+   "glossEn": "extremely, to a very great degree",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "c3d694bb-16f0-5525-8173-b8e5e7d35b97",
+   "lemma": "excoriate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "excoriate"
+   ],
+   "glossEn": "criticize someone severely",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "7da3d692-3673-5ab3-9e02-130867e1da37",
+   "lemma": "exculpate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "exculpate"
+   ],
+   "glossEn": "show or declare that someone is not guilty",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "2880b666-07b0-5984-af22-1961bf9a43b2",
+   "lemma": "exemplary",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "exemplary"
+   ],
+   "glossEn": "serving as a desirable model, very good",
+   "proposedTopics": [],
+   "levelConfidence": 0.55
+  },
+  {
+   "id": "79f312c8-2c3b-5088-9b80-36694284c32e",
+   "lemma": "exfiltrate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "exfiltrate"
+   ],
+   "glossEn": "secretly copy data out of a system",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "d90aa656-cf90-57b9-9af6-153acae33f1b",
+   "lemma": "exhort",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "exhort"
+   ],
+   "glossEn": "strongly encourage or urge someone to do something",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b0a92c70-874a-5a1d-b4c0-64a370f25a53",
+   "lemma": "exonerate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "exonerate"
+   ],
+   "glossEn": "officially clear someone of blame",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "d6cb66e3-8f0e-50a1-9762-7180f0925b76",
+   "lemma": "exorbitant",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "exorbitant"
+   ],
+   "glossEn": "unreasonably high in price",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "909f7212-0d76-5fe7-9c92-e8e309760ea9",
+   "lemma": "exposé",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "exposé"
+   ],
+   "glossEn": "report revealing hidden facts or wrongdoing",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "09294b52-9646-5c99-97a8-56299203e6eb",
+   "lemma": "expound",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "expound"
+   ],
+   "glossEn": "present and explain a theory in detail",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "643fafe6-0dfb-5867-ae9a-aecd817fc59c",
+   "lemma": "extol",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "extol"
+   ],
+   "glossEn": "praise something enthusiastically",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b91a92df-255e-5b6c-8c9b-afdb98e3bbb4",
+   "lemma": "eyesore",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "eyesore"
+   ],
+   "glossEn": "building or object that is ugly to look at",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "0eee8aea-b381-57d0-b571-6cb52c938c7a",
+   "lemma": "facetious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "facetious"
+   ],
+   "glossEn": "treating serious issues with inappropriate humor",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "a896d07b-e5e5-54b1-8949-cc612833b5d9",
+   "lemma": "fallow",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fallow"
+   ],
+   "glossEn": "plowed but left unsown to restore fertility",
+   "proposedTopics": [],
+   "levelConfidence": 0.9
+  },
+  {
+   "id": "c424f218-a22c-516a-a608-2f096c2441d4",
+   "lemma": "false dichotomy",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "false dichotomy"
+   ],
+   "glossEn": "presenting only two options when more exist",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "eff540cd-a576-5bc7-92e8-ab892c583596",
+   "lemma": "false positive",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "false positive"
+   ],
+   "glossEn": "result that wrongly flags something as a problem",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "9467e206-71ca-5ce3-ad82-57ae86e177ff",
+   "lemma": "far and away",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "far and away"
+   ],
+   "glossEn": "by a very large margin",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "a78d9661-a292-5161-9498-9cbbf1ca7e8b",
+   "lemma": "far-flung",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "far-flung"
+   ],
+   "glossEn": "distant and remote",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "c2123ef4-e8ef-5b0d-b9e3-ec079f3ca95d",
+   "lemma": "fastidious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fastidious"
+   ],
+   "glossEn": "very attentive to accuracy and detail; hard to please",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "a3ec7692-05ad-5a99-a127-c7c99e495718",
+   "lemma": "fathom",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fathom"
+   ],
+   "glossEn": "understand something after much thought",
+   "proposedTopics": [],
+   "levelConfidence": 0.6
+  },
+  {
+   "id": "5fdd561c-30a7-545a-b479-db49c7e98e40",
+   "lemma": "fatigues",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fatigues"
+   ],
+   "glossEn": "loose uniform worn by soldiers for work or combat",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "acb252dd-4087-59c1-8777-9fd81ee9fa83",
+   "lemma": "fault-tolerant",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fault-tolerant"
+   ],
+   "glossEn": "continuing to work when parts of the system fail",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "14dd9575-094c-5779-900e-87b1dd6abba1",
+   "lemma": "fauna",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fauna"
+   ],
+   "glossEn": "animals of a particular region or period",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b451edab-e860-5377-a576-e1cc70a8282d",
+   "lemma": "feckless",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "feckless"
+   ],
+   "glossEn": "lacking initiative or strength of character",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "f11bb30c-759e-5923-b5ed-6ac7c0c84f67",
+   "lemma": "feeble",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "feeble"
+   ],
+   "glossEn": "lacking physical strength; weak",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "8b3ae413-5fa5-530b-8adf-eb27cf6800e3",
+   "lemma": "feign",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "feign"
+   ],
+   "glossEn": "pretend to be affected by a feeling or state",
+   "proposedTopics": [],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "2ff601ae-037e-5a10-b610-aa0013fc93df",
+   "lemma": "fiduciary",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fiduciary"
+   ],
+   "glossEn": "involving a duty of trust to manage money for another",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  }
+ ]
+}

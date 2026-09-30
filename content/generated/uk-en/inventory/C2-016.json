@@ -1,0 +1,558 @@
+{
+ "chunk": "C2-016",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "0217dd19-0730-5f3c-a82b-e0aa2a83010a",
+   "lemma": "resuscitate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "resuscitate"
+   ],
+   "glossEn": "revive someone from unconsciousness or apparent death",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "a57323e2-2a7c-5111-a818-7f5cb19886b6",
+   "lemma": "reticent",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reticent"
+   ],
+   "glossEn": "not revealing one's thoughts or feelings readily",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "9d94d982-0d76-528e-9f4f-ae205ac2d31f",
+   "lemma": "retribution",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "retribution"
+   ],
+   "glossEn": "punishment inflicted as revenge for a wrong",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "36e4f273-faa7-5b9e-9348-8dfee7653f23",
+   "lemma": "rewilding",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rewilding"
+   ],
+   "glossEn": "restoring land to its natural uncultivated state",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "009cfb6c-0b97-5186-a02d-bd5864eabb57",
+   "lemma": "rote",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rote"
+   ],
+   "glossEn": "learning by repetition without understanding",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "4e2bceb5-2af7-5287-8c3f-d1d489bbf01b",
+   "lemma": "rubber-stamp",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rubber-stamp"
+   ],
+   "glossEn": "approve automatically without real consideration",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "257bffba-cb09-58eb-a028-07709ab46289",
+   "lemma": "rule of law",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rule of law"
+   ],
+   "glossEn": "principle that everyone is equally subject to the law",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "6ac65fb8-8e63-53b6-95e0-9660e99da9c9",
+   "lemma": "ruminate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ruminate"
+   ],
+   "glossEn": "think deeply about something over a long period",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "7c72e05f-3844-57d6-8140-1668a036a5d5",
+   "lemma": "rummage",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rummage"
+   ],
+   "glossEn": "search untidily through things, as in a bargain bin",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "f2008e4c-f001-5905-bdc7-16f741a1ffcb",
+   "lemma": "sacrosanct",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sacrosanct"
+   ],
+   "glossEn": "regarded as too important to interfere with",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "996706ac-e498-5920-b705-720b5e8b9e55",
+   "lemma": "sagacious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sagacious"
+   ],
+   "glossEn": "having or showing keen judgment, wise",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "902c1fb3-1c37-5955-a250-a42c7fac05e3",
+   "lemma": "salient",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "salient"
+   ],
+   "glossEn": "most noticeable or important",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "8da77fc2-fef0-563f-9b95-a5f2b3196dad",
+   "lemma": "salinity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "salinity"
+   ],
+   "glossEn": "amount of salt dissolved in water",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "649a14d9-84b5-58a5-b5f0-9a87a35e861d",
+   "lemma": "salivate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "salivate"
+   ],
+   "glossEn": "produce saliva, especially at the sight of food",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "acb52539-a88f-5725-9c67-23ba1917761d",
+   "lemma": "sanctimonious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sanctimonious"
+   ],
+   "glossEn": "making a show of being morally superior",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "e9d48f2a-c553-5f09-8107-606fba684ef4",
+   "lemma": "sanguine",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sanguine"
+   ],
+   "glossEn": "optimistic, especially in a difficult situation",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "33b47c03-5d0d-5432-a674-1259e1cfc97c",
+   "lemma": "sapper",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sapper"
+   ],
+   "glossEn": "soldier who lays or clears mines and builds defenses",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.6
+  },
+  {
+   "id": "6ef46024-9121-5f00-8cf5-e3259a869451",
+   "lemma": "sardonic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sardonic"
+   ],
+   "glossEn": "grimly mocking or cynical",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "beff3094-81d7-573d-a407-16e47debc833",
+   "lemma": "saturate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "saturate"
+   ],
+   "glossEn": "fill a market so that no more demand remains",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d2839631-d893-5d02-b7b2-d12aa70db94c",
+   "lemma": "saunter",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "saunter"
+   ],
+   "glossEn": "walk in a slow, relaxed way",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "bae3f1e4-00f7-59da-ba11-0cba617f36af",
+   "lemma": "scathing",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scathing"
+   ],
+   "glossEn": "witheringly scornful, severely critical",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "722e9038-235c-5ff2-b112-a6d425f42aa9",
+   "lemma": "scrape",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scrape"
+   ],
+   "glossEn": "automatically extract data from websites",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "0f968c1c-257d-5593-af57-b8d30b791834",
+   "lemma": "scrimp",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scrimp"
+   ],
+   "glossEn": "spend as little money as possible",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "660904e5-9ba3-5a89-85b5-436ea52dd9a5",
+   "lemma": "scuff",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scuff"
+   ],
+   "glossEn": "scrape or mark a surface by rubbing",
+   "proposedTopics": [],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "101cc22e-b09a-5aae-a53d-57a2ec759216",
+   "lemma": "sear",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sear"
+   ],
+   "glossEn": "brown the surface of meat quickly at high heat",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "389abdeb-fb96-5499-ba3f-f14978ecfcf9",
+   "lemma": "secede",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "secede"
+   ],
+   "glossEn": "formally withdraw from a federation or union",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "95a44730-bda4-5931-99c6-fff716e56b6d",
+   "lemma": "sedimentary",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sedimentary"
+   ],
+   "glossEn": "formed from layers of settled material, of rock",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "370980a6-027d-53aa-a4e4-c24f55f09fed",
+   "lemma": "sedition",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sedition"
+   ],
+   "glossEn": "speech or acts inciting rebellion against the state",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "76956368-362f-5f52-a84d-3298930a5400",
+   "lemma": "self-effacing",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "self-effacing"
+   ],
+   "glossEn": "modest, avoiding attention or praise",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "861f83d0-1031-5f66-80c2-51f1689e73bb",
+   "lemma": "semantics",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "semantics"
+   ],
+   "glossEn": "study of meaning in language",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "478583ed-9808-5979-9eda-2afded9b2bea",
+   "lemma": "sequester",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sequester"
+   ],
+   "glossEn": "isolate or capture, as carbon from the atmosphere",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "de733c90-d250-5300-a42a-dcb8d85c89df",
+   "lemma": "servitude",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "servitude"
+   ],
+   "glossEn": "state of being a slave or completely subject to someone",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "490faa8a-ac13-530a-b807-8c626c60fca7",
+   "lemma": "severance",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "severance"
+   ],
+   "glossEn": "payment made to an employee on dismissal",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "a331987e-3bc1-5860-8a6b-4b3e61d9d04b",
+   "lemma": "shadowban",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shadowban"
+   ],
+   "glossEn": "secretly hide a user's posts without telling them",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "6acc9773-5415-5b25-abaa-cbd85a1026d7",
+   "lemma": "shortchange",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shortchange"
+   ],
+   "glossEn": "give someone less change or value than they are owed",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "7bfcb11f-a90c-5237-b289-4ba6a27d62fd",
+   "lemma": "sic",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sic"
+   ],
+   "glossEn": "written thus, marking an error kept in a quotation",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "0240df6b-d36e-50bc-8d1b-b5e16c821cdf",
+   "lemma": "single point of failure",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "single point of failure"
+   ],
+   "glossEn": "one component whose failure stops the whole system",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "11c650dd-5fe2-5eaf-8220-0994077beb00",
+   "lemma": "skeleton staff",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "skeleton staff"
+   ],
+   "glossEn": "smallest number of employees needed to operate",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "030a2ae3-1781-5f96-a93c-c7dbc426473c",
+   "lemma": "skirmish",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "skirmish"
+   ],
+   "glossEn": "short minor fight between small groups of soldiers",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "14fbaa60-3f8c-5a29-a1b5-5fc6a6fdd72d",
+   "lemma": "slapdash",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "slapdash"
+   ],
+   "glossEn": "done too hurriedly and carelessly",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  }
+ ]
+}

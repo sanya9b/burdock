@@ -1,0 +1,558 @@
+{
+ "chunk": "C2-011",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "2527bfc9-64b3-5a42-a5f8-c4eebc8b8c2c",
+   "lemma": "kinship",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "kinship"
+   ],
+   "glossEn": "family relationship or a feeling of closeness",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "9ab5f392-a28e-5b46-bf8e-c52fc614fc9f",
+   "lemma": "kitsch",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "kitsch"
+   ],
+   "glossEn": "art or objects seen as tasteless but ironically enjoyed",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d4f1ee42-84d7-5dc7-9692-0b0244944bec",
+   "lemma": "kludge",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "kludge"
+   ],
+   "glossEn": "clumsy but working improvised fix",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "594c956a-f75c-55d1-a400-d19d8288c018",
+   "lemma": "knee-jerk",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "knee-jerk"
+   ],
+   "glossEn": "automatic and unthinking, as a reaction",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "5d007f84-ed3d-59bc-835f-b45dc6597ed8",
+   "lemma": "knick-knack",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "knick-knack"
+   ],
+   "glossEn": "small decorative object of little value",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "04db340d-5b3b-540e-a79b-13be18c38e10",
+   "lemma": "labyrinthine",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "labyrinthine"
+   ],
+   "glossEn": "like a maze, with many confusing streets or passages",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "144579a1-f82c-5eef-be1b-2b5b312a0716",
+   "lemma": "lackadaisical",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lackadaisical"
+   ],
+   "glossEn": "lacking enthusiasm and determination",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "dfcb4a07-6a84-580c-847d-1d7ade04b687",
+   "lemma": "lackluster",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lackluster"
+   ],
+   "glossEn": "lacking in vitality, force or brilliance",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "f0126f06-8c8c-5976-92cb-da23b8866cd1",
+   "lemma": "laconic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "laconic"
+   ],
+   "glossEn": "using very few words",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "6e00cb7d-010c-5f22-bb69-8dd600ba7101",
+   "lemma": "laissez-faire",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "laissez-faire"
+   ],
+   "glossEn": "policy of leaving the economy free from state control",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "fdea2c7a-e728-5eb1-abe4-81eaaefe3570",
+   "lemma": "lambaste",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lambaste"
+   ],
+   "glossEn": "criticize someone harshly",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "a5a1d7dd-0861-518e-9f1a-d17ed094a2cb",
+   "lemma": "lampoon",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lampoon"
+   ],
+   "glossEn": "publicly ridicule someone through satire",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "e2ebbdab-3348-51f8-b01f-d8132aca6dd8",
+   "lemma": "largesse",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "largesse"
+   ],
+   "glossEn": "generosity in giving money or gifts",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "166387de-a7e0-537f-8f0c-a6997554ad0c",
+   "lemma": "laud",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "laud"
+   ],
+   "glossEn": "praise someone or something highly",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "96753f58-ce7a-5ae2-9393-7c73e59eff48",
+   "lemma": "laudable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "laudable"
+   ],
+   "glossEn": "deserving praise and commendation",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "0d787fa4-3470-55e2-b4cb-808d9cfc7b11",
+   "lemma": "launder",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "launder"
+   ],
+   "glossEn": "disguise the origins of illegally obtained money",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "87d5ef74-8335-51cb-8dcc-f41e92825a7e",
+   "lemma": "leitmotif",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "leitmotif"
+   ],
+   "glossEn": "recurring theme tied to a character or idea",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "c3671bda-b9ef-502d-8fa2-dea84c9fe549",
+   "lemma": "lethargic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lethargic"
+   ],
+   "glossEn": "sluggish and without energy",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "07c152b6-b735-5957-8a4b-900d86465569",
+   "lemma": "levy",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "levy"
+   ],
+   "glossEn": "impose a tax or fee officially",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "94fa6c05-d58b-55d9-be58-e9863cad39e1",
+   "lemma": "lexicon",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lexicon"
+   ],
+   "glossEn": "vocabulary of a language, person or field",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "f4bf098e-0389-5367-8b1f-39092a91a74a",
+   "lemma": "lineage",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lineage"
+   ],
+   "glossEn": "line of descent from an ancestor",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "4973cb58-5c93-5bb7-8b20-e6b6ac65858b",
+   "lemma": "liquidate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "liquidate"
+   ],
+   "glossEn": "close a business and sell its assets to pay debts",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "40dd7d87-9d86-5abe-b6ae-d577803ebedd",
+   "lemma": "liquidity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "liquidity"
+   ],
+   "glossEn": "availability of cash or easily sold assets",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "af788df3-a90b-54f1-a617-8cdb2414350e",
+   "lemma": "listless",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "listless"
+   ],
+   "glossEn": "lacking energy or enthusiasm",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "70db1b13-efc9-5052-8a95-ce54b6c64e13",
+   "lemma": "livid",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "livid"
+   ],
+   "glossEn": "extremely angry",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "a8d5cec9-0cf3-5f68-ab07-208b4fad30c7",
+   "lemma": "loiter",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "loiter"
+   ],
+   "glossEn": "stand around a public place with no clear purpose",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "a9345974-65ca-5b9a-b3d9-d4fd2e349c16",
+   "lemma": "longitudinal",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "longitudinal"
+   ],
+   "glossEn": "of a study: following the same subjects over years",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "2fcfac87-dfc4-529e-976a-311b969148e3",
+   "lemma": "loquacious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "loquacious"
+   ],
+   "glossEn": "very talkative",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "64d7ab9b-d35a-547f-8dd2-71fac6c3303c",
+   "lemma": "loss leader",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "loss leader"
+   ],
+   "glossEn": "product sold below cost to attract customers",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "62f132c8-2afb-5a3b-ba7c-aac0fe16207a",
+   "lemma": "lowbrow",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lowbrow"
+   ],
+   "glossEn": "unsophisticated, aimed at popular taste",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "22379a3b-ef71-55a3-844a-5668d9a165ea",
+   "lemma": "lucid",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lucid"
+   ],
+   "glossEn": "clearly expressed and easy to understand",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "867bb853-0147-5920-bfb1-d39d073d18a3",
+   "lemma": "luminous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "luminous"
+   ],
+   "glossEn": "giving off light; bright or shining",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "1be8e8ff-846c-5180-98bc-0003e324d3d2",
+   "lemma": "lurk",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lurk"
+   ],
+   "glossEn": "read an online community without ever posting",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "cddd265d-9789-5747-a492-87d8ff1c0373",
+   "lemma": "magnanimous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "magnanimous"
+   ],
+   "glossEn": "generous or forgiving toward a rival or weaker person",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "5fe9cae4-1841-59ab-bcb7-a47fe47fe6ee",
+   "lemma": "magnum opus",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "magnum opus"
+   ],
+   "glossEn": "greatest single work of an artist or writer",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "4bb4e229-4991-5200-bd99-f9e849b4bcb6",
+   "lemma": "malfeasance",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "malfeasance"
+   ],
+   "glossEn": "wrongdoing by a public official",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "775bc00b-5644-5a32-b010-c2e83ba92fc6",
+   "lemma": "malign",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "malign"
+   ],
+   "glossEn": "speak about someone in a spitefully critical way",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "2701f5dd-2a2d-5616-8087-c8c4c045d8ea",
+   "lemma": "malleable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "malleable"
+   ],
+   "glossEn": "able to be hammered into shape without breaking",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "113b7fa7-334d-5515-957a-4d9bc2069c3e",
+   "lemma": "malpractice",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "malpractice"
+   ],
+   "glossEn": "negligent or improper treatment by a doctor",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "46a55afb-4596-54c1-a823-ea0ea319b423",
+   "lemma": "mantelpiece",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mantelpiece"
+   ],
+   "glossEn": "shelf above a fireplace",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  }
+ ]
+}

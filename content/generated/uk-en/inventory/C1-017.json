@@ -1,0 +1,567 @@
+{
+ "chunk": "C1-017",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "928314e0-a234-56ad-9578-7d0f4a1d9b95",
+   "lemma": "lag",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lag"
+   ],
+   "glossEn": "delay between an action and the system's response",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "156959b2-bd39-5673-95ac-321c24867ffe",
+   "lemma": "landfill",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "landfill"
+   ],
+   "glossEn": "site where waste is buried in the ground",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "810c5aa4-0526-5532-b64c-847b210961ee",
+   "lemma": "landmark",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "landmark"
+   ],
+   "glossEn": "easily recognized building used for finding your way",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "9c16e689-63fb-58d4-9970-cd4f2de34ec5",
+   "lemma": "landmine",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "landmine"
+   ],
+   "glossEn": "explosive device buried in the ground",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "cdb8bad1-a725-50c3-b0ae-11edd4dfe978",
+   "lemma": "lapse",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lapse"
+   ],
+   "glossEn": "brief failure of attention or self-control",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "57dfad88-0266-560d-9b8f-0784d08012ad",
+   "lemma": "last but not least",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "last but not least"
+   ],
+   "glossEn": "finally, and just as important",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "1578d6fd-1711-520a-b67f-c10268e50ace",
+   "lemma": "latch",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "latch"
+   ],
+   "glossEn": "small bar that fastens a door or gate",
+   "proposedTopics": [],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "81c4ff8d-d364-5ce4-a2ef-9e220ccd79ba",
+   "lemma": "latency",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "latency"
+   ],
+   "glossEn": "delay before data starts moving after a request",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b7b76aab-c4d4-5555-981a-f805c04b0d6c",
+   "lemma": "latitude",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "latitude"
+   ],
+   "glossEn": "distance north or south of the equator",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "92fa00d4-1bfb-553d-820f-879a8aefc028",
+   "lemma": "laureate",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "laureate"
+   ],
+   "glossEn": "person honored with a major prize for achievement",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "eaa9af73-8e82-5d5e-8914-9315049b13eb",
+   "lemma": "lavish",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lavish"
+   ],
+   "glossEn": "sumptuously rich, elaborate or luxurious",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "69ed3791-55d8-5323-8f12-7d0dfd59549b",
+   "lemma": "layoff",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "layoff"
+   ],
+   "glossEn": "dismissal of workers because there is not enough work",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "1bf403f1-5fbe-5227-b9b2-43ebf04a6d71",
+   "lemma": "layover",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "layover"
+   ],
+   "glossEn": "short stop between connecting flights",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "5e59520e-755f-5835-add2-8c02013b73ad",
+   "lemma": "legacy",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "legacy"
+   ],
+   "glossEn": "outdated technology that is still in use",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b24da280-ec2c-58f2-9065-567b05e41cac",
+   "lemma": "legitimacy",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "legitimacy"
+   ],
+   "glossEn": "quality of being lawful or rightful",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "883e7bc6-70fd-5ab6-9e68-b7cbb863c5e9",
+   "lemma": "legroom",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "legroom"
+   ],
+   "glossEn": "space for the legs in front of a seat",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "c5de1c97-d398-5ae1-ad3e-f40322aacb68",
+   "lemma": "lenient",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lenient"
+   ],
+   "glossEn": "more merciful or tolerant than expected",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "e4ccaaba-80f7-537d-b1b6-a17c01919566",
+   "lemma": "let alone",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "let alone"
+   ],
+   "glossEn": "used to say something is even less likely",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "80b8630d-4802-5074-bc37-254de29a20eb",
+   "lemma": "lethal",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lethal"
+   ],
+   "glossEn": "able to cause death",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "2e8ba0aa-311d-5f2d-a795-3cc9523be1f0",
+   "lemma": "liability",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "liability"
+   ],
+   "glossEn": "debt or financial obligation of a company",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "a5b591b2-2fe3-5d50-8a5d-4cbb3e299c81",
+   "lemma": "liable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "liable"
+   ],
+   "glossEn": "legally responsible for something",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "36579d59-b4ef-5a94-926c-bfe0b588d8f7",
+   "lemma": "libel",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "libel"
+   ],
+   "glossEn": "published false statement that damages someone's reputation",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "ca2013b5-db1b-5728-8241-bb7449519f6b",
+   "lemma": "lieutenant",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lieutenant"
+   ],
+   "glossEn": "commissioned officer ranking below a captain",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "ccec811e-5e4c-593d-bf0d-3b745197225d",
+   "lemma": "life expectancy",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "life expectancy"
+   ],
+   "glossEn": "average number of years a person may live",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "9b10b0d8-6d77-5a05-87fe-9a2beb3cd6c7",
+   "lemma": "lifelong learning",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lifelong learning"
+   ],
+   "glossEn": "continuing education throughout adult life",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "d403490f-f4b5-5714-a7be-d8f975945119",
+   "lemma": "literacy",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "literacy"
+   ],
+   "glossEn": "ability to read and write",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "58ed03b1-9f2a-536c-bd7f-270c15dfd823",
+   "lemma": "literature review",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "literature review"
+   ],
+   "glossEn": "survey of existing research on a topic",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "da32ce93-f008-57ee-8d39-697ebd97d770",
+   "lemma": "litigation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "litigation"
+   ],
+   "glossEn": "process of taking legal action",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "9196ac95-97c5-5579-bda6-d6f4218a08b0",
+   "lemma": "livelihood",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "livelihood"
+   ],
+   "glossEn": "means of earning money to live",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d16e1040-2340-5a62-b1dc-5b6c1a376c3a",
+   "lemma": "lodger",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lodger"
+   ],
+   "glossEn": "person who rents a room in someone else's home",
+   "proposedTopics": [],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "9a9df76e-6859-50d3-bffc-075117e460eb",
+   "lemma": "logistics",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "logistics"
+   ],
+   "glossEn": "organization of moving supplies, equipment and people",
+   "proposedTopics": [
+    "military",
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "89d479c2-4274-5b46-855e-157398bac131",
+   "lemma": "long-haul",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "long-haul"
+   ],
+   "glossEn": "covering a very long distance, especially of flights",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "e2dfc922-4420-5539-ade4-1969277a8042",
+   "lemma": "longevity",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "longevity"
+   ],
+   "glossEn": "long life; the length of a life",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "c4555bc8-a94c-56bc-bb19-f98bfd39c7e1",
+   "lemma": "loophole",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "loophole"
+   ],
+   "glossEn": "gap in rules that lets someone avoid them",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "30ff71b0-e92d-51fd-8dd0-6431b14c0289",
+   "lemma": "ludicrous",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ludicrous"
+   ],
+   "glossEn": "so foolish or unreasonable as to be amusing",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "898fb2d4-5101-56e5-b0d7-d9ab61a9ddaf",
+   "lemma": "machine learning",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "machine learning"
+   ],
+   "glossEn": "systems that learn patterns from data rather than rules",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "cfd1db5e-fd8d-5923-abae-58d83dd84e8f",
+   "lemma": "magnetic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "magnetic"
+   ],
+   "glossEn": "having the property of attracting iron",
+   "proposedTopics": [],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "addf4803-4046-54a1-beb2-7e8502853446",
+   "lemma": "make amends",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make amends"
+   ],
+   "glossEn": "do something to compensate for a wrong",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "35305c8d-dc23-5d83-9f35-1ae9a934dd6a",
+   "lemma": "make ends meet",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make ends meet"
+   ],
+   "glossEn": "have just enough money to live on",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "1daf2cbe-7cef-5f29-b31a-6ab9633aaf52",
+   "lemma": "malicious",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "malicious"
+   ],
+   "glossEn": "intending to do harm",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  }
+ ]
+}

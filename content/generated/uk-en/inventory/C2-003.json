@@ -1,0 +1,560 @@
+{
+ "chunk": "C2-003",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "2607c542-9c6e-5470-9817-7356f0cd6c43",
+   "lemma": "biome",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "biome"
+   ],
+   "glossEn": "large natural community of plants and animals, as tundra",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "569ca61c-0661-56a6-818c-e351b49dd724",
+   "lemma": "black box",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "black box"
+   ],
+   "glossEn": "system whose inner workings are hidden from view",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "ded9b061-c552-56f8-ae58-37aa7a6d586f",
+   "lemma": "bleeding edge",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bleeding edge"
+   ],
+   "glossEn": "newest technology, so new it is still unreliable",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "583abb2f-667d-5f99-a5e5-cebe874994c7",
+   "lemma": "blight",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blight"
+   ],
+   "glossEn": "plant disease; something that spoils or damages",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "4e853f81-3b46-5c26-95e7-230172cfdb63",
+   "lemma": "boilerplate",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "boilerplate"
+   ],
+   "glossEn": "standard text reused in contracts and documents",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "84bf93d5-5d4e-5a49-8aac-6151c27fe299",
+   "lemma": "bollard",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bollard"
+   ],
+   "glossEn": "short post that stops vehicles entering an area",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "a37676e2-224c-5982-97fd-9afac6f014be",
+   "lemma": "bona fide",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bona fide"
+   ],
+   "glossEn": "genuine, real, made in good faith",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "0c846e44-9618-5344-ab13-ec1f2424d095",
+   "lemma": "bone of contention",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bone of contention"
+   ],
+   "glossEn": "a subject people keep arguing about",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "25cb6df4-9603-5ec8-9c70-38690b542b7e",
+   "lemma": "bowdlerize",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bowdlerize"
+   ],
+   "glossEn": "remove offensive parts from a text, weakening it",
+   "proposedTopics": [],
+   "levelConfidence": 0.9
+  },
+  {
+   "id": "fcbdc15d-5311-53c2-9a5a-319a6ecd9b8e",
+   "lemma": "brackish",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brackish"
+   ],
+   "glossEn": "slightly salty, of water",
+   "proposedTopics": [],
+   "levelConfidence": 0.9
+  },
+  {
+   "id": "08fdc26f-b5c9-50ca-bbeb-80e45f1b0023",
+   "lemma": "braise",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "braise"
+   ],
+   "glossEn": "fry lightly, then stew slowly in a closed pot",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "577aaa0c-8307-5f02-93a8-3f17ee906001",
+   "lemma": "brittle",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brittle"
+   ],
+   "glossEn": "hard but likely to break or shatter easily",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "3c77fde8-4160-53fa-b938-122a3bf4d88d",
+   "lemma": "browbeat",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "browbeat"
+   ],
+   "glossEn": "intimidate someone with stern or abusive words",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "8ea17f7c-81c6-57d5-a903-166e2d575a81",
+   "lemma": "brusque",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brusque"
+   ],
+   "glossEn": "abrupt and blunt in manner or speech",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "7e7e00f5-2c49-5415-96ad-dd6e10fbdc37",
+   "lemma": "brute force",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brute force"
+   ],
+   "glossEn": "attack that tries every possible password",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "a093557b-d3b6-5b79-a139-ee47b93135cd",
+   "lemma": "buoyancy",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "buoyancy"
+   ],
+   "glossEn": "ability to float in water or air",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "95c4cc9e-7cfd-5b88-93a4-067de6b12925",
+   "lemma": "burden of proof",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "burden of proof"
+   ],
+   "glossEn": "obligation to prove a claim that one makes",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "2fd48c4c-b334-5f0c-b5a4-a9f1e575bc98",
+   "lemma": "buyer's remorse",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "buyer's remorse"
+   ],
+   "glossEn": "regret felt after making a purchase",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "bf54c252-ee89-5cb1-9d47-0d72e8273e96",
+   "lemma": "by degrees",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "by degrees"
+   ],
+   "glossEn": "gradually, little by little",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "38f09a9d-cdce-5540-9fd1-972ae68b89c5",
+   "lemma": "by the same token",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "by the same token"
+   ],
+   "glossEn": "for the same reason, likewise",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "bc9cbb9c-e7be-58ec-a511-752d1cca5e1c",
+   "lemma": "by virtue of",
+   "pos": "preposition",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "by virtue of"
+   ],
+   "glossEn": "because of, as a result of",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "535ae73d-bc74-5fb2-a715-8032dbde4caf",
+   "lemma": "camaraderie",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "camaraderie"
+   ],
+   "glossEn": "trust and friendship among people who serve together",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "aefa98d9-c79a-5d8a-b4fb-67a4bff9d951",
+   "lemma": "cantankerous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cantankerous"
+   ],
+   "glossEn": "bad-tempered, argumentative and uncooperative",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "01ac5470-0e84-5e73-a7ba-8864308e033c",
+   "lemma": "capitulate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "capitulate"
+   ],
+   "glossEn": "stop resisting and surrender to an enemy",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "c40aeb4c-375d-5563-90e6-ac0073b8c062",
+   "lemma": "capricious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "capricious"
+   ],
+   "glossEn": "given to sudden changes of mood or behavior",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "96f8598e-be28-54e5-b59b-d20882723b0e",
+   "lemma": "carbon sink",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "carbon sink"
+   ],
+   "glossEn": "forest or ocean absorbing more carbon than it releases",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "70082c81-d2fe-5241-b6d3-4bad49aaa41a",
+   "lemma": "cartel",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cartel"
+   ],
+   "glossEn": "group of companies agreeing to control prices",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "a89caa9d-f598-5c03-ac04-0d1237f65b6e",
+   "lemma": "cash cow",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cash cow"
+   ],
+   "glossEn": "product that reliably generates steady profit",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "60e29057-4127-502a-b484-530982f8d8fa",
+   "lemma": "caste",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "caste"
+   ],
+   "glossEn": "rigid hereditary social class",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "0927175a-08bb-5a6a-ab51-49a81640d167",
+   "lemma": "castigate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "castigate"
+   ],
+   "glossEn": "reprimand someone severely",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d03f348a-7f06-53ba-9688-748303dbb01a",
+   "lemma": "catharsis",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "catharsis"
+   ],
+   "glossEn": "emotional release and relief through art",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "4492e7f4-250e-57d2-a165-f7ec6f1d4b8c",
+   "lemma": "caustic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "caustic"
+   ],
+   "glossEn": "bitterly sarcastic and hurtful",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "2b23a577-5176-5b31-849c-9075d9f5960b",
+   "lemma": "caveat",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "caveat"
+   ],
+   "glossEn": "warning or condition attached to a statement",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "304d2173-6376-5f29-bcd4-c3a2d47cd711",
+   "lemma": "chargeback",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chargeback"
+   ],
+   "glossEn": "reversal of a card payment demanded by the buyer",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "267ca632-54f2-5394-bd5d-019a987377f0",
+   "lemma": "cherry-pick",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cherry-pick"
+   ],
+   "glossEn": "select only the evidence that supports your view",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "ca762685-fec3-551c-a2eb-5c9509c0f325",
+   "lemma": "chiaroscuro",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chiaroscuro"
+   ],
+   "glossEn": "strong contrast of light and shadow in art",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "5c5bf464-eabc-59f1-b8dc-9e300824881f",
+   "lemma": "chide",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chide"
+   ],
+   "glossEn": "scold or rebuke someone mildly",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "23a0f6c5-2730-587d-883b-ee18fe8326a1",
+   "lemma": "circumnavigate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "circumnavigate"
+   ],
+   "glossEn": "travel all the way around something, e.g. the world",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "53104179-ecc2-57bc-a491-f3b9e36a8915",
+   "lemma": "circumspect",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "circumspect"
+   ],
+   "glossEn": "wary and unwilling to take risks",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "f4b5e094-0856-58ea-8b5e-bcaf9019d1e4",
+   "lemma": "civil disobedience",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "civil disobedience"
+   ],
+   "glossEn": "peaceful refusal to obey unjust laws as protest",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  }
+ ]
+}

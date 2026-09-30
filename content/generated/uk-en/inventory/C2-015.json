@@ -1,0 +1,574 @@
+{
+ "chunk": "C2-015",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "cf35c21c-628b-5515-8380-aaed4d9a28d8",
+   "lemma": "prosaic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prosaic"
+   ],
+   "glossEn": "lacking imagination, dull and ordinary",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "1ffa8ea3-68d3-5555-a227-5f58e0aa27b1",
+   "lemma": "provenance",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "provenance"
+   ],
+   "glossEn": "record of an artwork's origin and ownership history",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "4a39bcf4-3b05-5885-9c81-f054ec8daf83",
+   "lemma": "proviso",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "proviso"
+   ],
+   "glossEn": "condition attached to an agreement",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "e97a0879-6107-5b90-919e-6bea91282ac2",
+   "lemma": "proxy",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "proxy"
+   ],
+   "glossEn": "person authorized to act or vote for another",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "ab3a19b9-3d58-5874-a681-1fadcf079bba",
+   "lemma": "pseudonymous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pseudonymous"
+   ],
+   "glossEn": "identified by a made-up name rather than a real one",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d5be3b01-1e19-5570-89c1-03fd61d16587",
+   "lemma": "puff piece",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "puff piece"
+   ],
+   "glossEn": "flattering, uncritical article promoting someone",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "912c61f3-5762-52dd-bea4-0e4b4d4286a0",
+   "lemma": "punitive",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "punitive"
+   ],
+   "glossEn": "intended as punishment",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "5196add3-f843-5b99-bae7-66197b70336e",
+   "lemma": "purport",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "purport"
+   ],
+   "glossEn": "claim to be or do something, often falsely",
+   "proposedTopics": [],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "aa69656f-00d8-5efb-bf1a-9274a67b1894",
+   "lemma": "purportedly",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "purportedly"
+   ],
+   "glossEn": "as claimed or supposed, often doubtfully",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "b3e594e5-a848-555c-9043-d2640e5b6c30",
+   "lemma": "purview",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "purview"
+   ],
+   "glossEn": "range of authority or responsibility",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "d9fda812-18b5-59ff-b115-331fc7282398",
+   "lemma": "qualm",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "qualm"
+   ],
+   "glossEn": "an uneasy feeling of doubt about one's actions",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "08958cfb-877f-5042-9f40-33b6340cda91",
+   "lemma": "quay",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quay"
+   ],
+   "glossEn": "platform by water where ships load and unload",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "db66ec16-739b-50c6-ae8b-58ff71e24ab6",
+   "lemma": "quibble",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quibble"
+   ],
+   "glossEn": "argue about trivial details",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "ca59a1ea-1898-589a-9b69-5f7dec301b15",
+   "lemma": "quintessential",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quintessential"
+   ],
+   "glossEn": "representing the most perfect example of a quality",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "17d10429-5e6d-5061-aa77-a89d3ce9ec19",
+   "lemma": "quorum",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quorum"
+   ],
+   "glossEn": "minimum number of members needed for a valid meeting",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "8e635d81-a1ac-5807-a0b7-24f5911aefb0",
+   "lemma": "ramshackle",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ramshackle"
+   ],
+   "glossEn": "badly built and about to fall down",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "d8d2bf27-78e6-5365-b895-54023ebb05aa",
+   "lemma": "rank and file",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rank and file"
+   ],
+   "glossEn": "ordinary soldiers or members rather than the leaders",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "24fdfd80-e845-5b56-95a8-6e3f9a9af061",
+   "lemma": "rapport",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rapport"
+   ],
+   "glossEn": "good relationship built on mutual understanding",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "24d50ec3-77a5-5d3a-ae86-879eba5198f9",
+   "lemma": "ratify",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ratify"
+   ],
+   "glossEn": "formally approve an agreement",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "a4eb973e-eed1-5a0c-9fee-d56bf7a30041",
+   "lemma": "ravenous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ravenous"
+   ],
+   "glossEn": "extremely hungry",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "e074356d-5de1-5a76-b66f-07359c1c4123",
+   "lemma": "ravine",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ravine"
+   ],
+   "glossEn": "deep narrow steep-sided valley",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "935deced-3a4a-522b-8826-e87d9a09af82",
+   "lemma": "reciprocate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reciprocate"
+   ],
+   "glossEn": "respond to a gesture or feeling in kind",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "88f6aced-02e9-582f-8a6c-26f90a12e012",
+   "lemma": "reconnaissance",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reconnaissance"
+   ],
+   "glossEn": "military observation to gather information about an enemy",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.6
+  },
+  {
+   "id": "01295377-c156-57ad-915c-845e769812b5",
+   "lemma": "recourse",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "recourse"
+   ],
+   "glossEn": "source of help or legal remedy in a difficult situation",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "64b2ba70-2f25-5539-8e41-b5e20385decd",
+   "lemma": "recuperate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "recuperate"
+   ],
+   "glossEn": "recover health and strength after illness",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "49531ef9-7ff3-5ad9-b807-5383d7bc9142",
+   "lemma": "redress",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "redress"
+   ],
+   "glossEn": "remedy or compensation for a wrong",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "0f65ac2f-78b9-5273-bb51-b8748b51bd70",
+   "lemma": "refract",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "refract"
+   ],
+   "glossEn": "bend light as it passes through a medium",
+   "proposedTopics": [],
+   "levelConfidence": 0.9
+  },
+  {
+   "id": "d7693a59-2e3c-5f72-8cba-ef17d1c97343",
+   "lemma": "regimen",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "regimen"
+   ],
+   "glossEn": "prescribed course of diet or exercise",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "a94a1b9d-db9e-54fb-9eb6-f64ca49c7666",
+   "lemma": "rejuvenate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rejuvenate"
+   ],
+   "glossEn": "make someone look or feel younger",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "ba5fe4d4-dd3f-5f84-85f9-67cf35d59b77",
+   "lemma": "relish",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "relish"
+   ],
+   "glossEn": "enjoy food or an experience greatly",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "13f111ae-f7cb-592f-8101-36f21f7b6344",
+   "lemma": "remission",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "remission"
+   ],
+   "glossEn": "period when a serious illness becomes less severe",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "18b3dd8a-28fd-52fc-b34d-f9c3ad40070d",
+   "lemma": "remuneration",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "remuneration"
+   ],
+   "glossEn": "payment for work or services",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "df9a8fdd-71bd-51ed-9859-a817e21e7a4b",
+   "lemma": "repartee",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "repartee"
+   ],
+   "glossEn": "quick, witty exchange of remarks",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "42c75928-7d02-5e0f-bacd-2b3698bfbcdc",
+   "lemma": "repatriate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "repatriate"
+   ],
+   "glossEn": "send someone back to their own country",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "eb8e759c-9b20-5c84-bac7-a4104f2ac01e",
+   "lemma": "replicate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "replicate"
+   ],
+   "glossEn": "reproduce an experiment to check its results",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "b467d345-43bf-5584-8f54-03a8e4123a85",
+   "lemma": "repugnant",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "repugnant"
+   ],
+   "glossEn": "extremely distasteful, unacceptable",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "2a672597-603f-570f-9a29-8cfd4ab081b7",
+   "lemma": "requisition",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "requisition"
+   ],
+   "glossEn": "officially take property for military use",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "1d94ce70-49c1-51d9-ac25-3286b4a7cddc",
+   "lemma": "rescind",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rescind"
+   ],
+   "glossEn": "cancel a law, order or agreement",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "26b534c0-148c-5c75-a6f0-c61b0e36173d",
+   "lemma": "resonance",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "resonance"
+   ],
+   "glossEn": "reinforced vibration at a natural frequency",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "c150d6eb-0df8-5ca7-98f1-15b7f5256c60",
+   "lemma": "restitution",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "restitution"
+   ],
+   "glossEn": "returning or repaying what was taken or lost",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  }
+ ]
+}

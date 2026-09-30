@@ -1,6 +1,6 @@
 """Merges the C1/C2 proposal files (prompt propose-c1c2-v1) into one deduplicated list for build_inventory.py --extra.
 
-Rules: drop lexemes already present among A1-B2 lemmas or proposed twice (first area wins), drop confidence < MIN_CONFIDENCE,
+Rules: drop lexemes already present among the CEFR-J (A1-B2) lemmas of the inventory chunks or proposed twice (first area wins), drop confidence < MIN_CONFIDENCE,
 normalise POS to the app enum, keep glossEn and the proposed topics as hints for the generator.
 """
 from __future__ import annotations
@@ -25,7 +25,8 @@ def key(lemma: str) -> str:
 
 
 def main() -> None:
-    known = set((INVENTORY / "lemmas.txt").read_text(encoding="utf-8").split())
+    known = {key(l["lemma"]) for chunk in INVENTORY.glob("??-???.json")
+             for l in json.loads(chunk.read_text(encoding="utf-8"))["lexemes"] if l["levelSource"] == "cefrj-1.6"}
     merged, seen, stats = [], set(), Counter()
     for path in sorted(PROPOSALS.glob("*.json")):
         document = json.loads(path.read_text(encoding="utf-8"))

@@ -1,0 +1,554 @@
+{
+ "chunk": "C2-002",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "9c497175-7a94-58c2-afff-7e343f56566c",
+   "lemma": "apocryphal",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "apocryphal"
+   ],
+   "glossEn": "widely told but probably not true, of a story",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "718cd9b5-3dcb-59a3-beb3-a9ce2286a216",
+   "lemma": "aptly",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aptly"
+   ],
+   "glossEn": "in a suitable and fitting way",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "f3f3eb96-9fc4-5d99-8b36-b649ed889d8c",
+   "lemma": "archaic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "archaic"
+   ],
+   "glossEn": "very old-fashioned and no longer in use, of words",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "21509589-65ee-5797-8a27-4ce3645182d1",
+   "lemma": "archetype",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "archetype"
+   ],
+   "glossEn": "original model or typical example of a character type",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "d1b3ac7d-96d7-5637-a9ab-b6d9323bb90a",
+   "lemma": "arduous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "arduous"
+   ],
+   "glossEn": "involving strenuous effort, difficult and tiring",
+   "proposedTopics": [],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "57147e9e-f25e-51ac-aa90-9e96ba2f1349",
+   "lemma": "armistice",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "armistice"
+   ],
+   "glossEn": "formal agreement to stop fighting a war",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "e87aeaf9-ea8c-5c29-a6a6-d0fd7bd57359",
+   "lemma": "arrears",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "arrears"
+   ],
+   "glossEn": "money owed that should already have been paid",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "a3e43490-ba00-5317-9fc7-3ef381235c12",
+   "lemma": "as it were",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as it were"
+   ],
+   "glossEn": "so to speak, in a manner of speaking",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "93888004-3680-5b6a-9f2a-1876fd842624",
+   "lemma": "assuage",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "assuage"
+   ],
+   "glossEn": "make an unpleasant feeling less intense",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "e63f0113-4a82-5dfd-ad81-1866f1c14ab9",
+   "lemma": "astringent",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "astringent"
+   ],
+   "glossEn": "sharp and drying in the mouth, like strong tea",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "427a8194-758f-5594-8bb1-58be36047bf1",
+   "lemma": "asynchronous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "asynchronous"
+   ],
+   "glossEn": "not happening at the same time or in step",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "31e87acb-e82f-5aff-909c-e64134397f27",
+   "lemma": "at the eleventh hour",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at the eleventh hour"
+   ],
+   "glossEn": "at the last possible moment",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "7de72060-90d7-5cd2-9ca2-8bbdf5450278",
+   "lemma": "atrocity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "atrocity"
+   ],
+   "glossEn": "extremely cruel or wicked act",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "a5592841-ca8d-5735-b280-5a2e05537eed",
+   "lemma": "attack surface",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "attack surface"
+   ],
+   "glossEn": "all the points where a system could be attacked",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "8d6f6224-c1d3-5ca3-a75b-3ea23c20d9bb",
+   "lemma": "attenuate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "attenuate"
+   ],
+   "glossEn": "reduce the force, effect, or value of",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "75404605-b90e-5a01-9522-1b6cc136cf08",
+   "lemma": "attrition",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "attrition"
+   ],
+   "glossEn": "gradual wearing down of an enemy through steady losses",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "9be7bd60-4a15-5497-ad12-668fe5d33e93",
+   "lemma": "austerity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "austerity"
+   ],
+   "glossEn": "strict policy of cutting spending",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "27382925-27fb-5606-a2eb-e55e8273b478",
+   "lemma": "auteur",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "auteur"
+   ],
+   "glossEn": "film director with a distinctive personal style",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "e9859dc8-e73f-5857-a7b6-ba548275f092",
+   "lemma": "autocracy",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "autocracy"
+   ],
+   "glossEn": "government by one person with total power",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "98e59868-c1a4-505f-82cb-d572ed49fd47",
+   "lemma": "autodidact",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "autodidact"
+   ],
+   "glossEn": "self-taught person",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "97d3b42b-d54a-57e1-93c9-24354b66921f",
+   "lemma": "avaricious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "avaricious"
+   ],
+   "glossEn": "having extreme greed for wealth",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "821b5fd8-697c-5e5a-8ac3-41259f170bd3",
+   "lemma": "aver",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aver"
+   ],
+   "glossEn": "state or assert to be the case",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "aefaa2be-aff3-51f9-857b-652ac331703d",
+   "lemma": "axiom",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "axiom"
+   ],
+   "glossEn": "statement accepted as true without proof",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "d4bc11ca-1ea5-54ec-aba9-fcacb111503c",
+   "lemma": "axiomatic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "axiomatic"
+   ],
+   "glossEn": "self-evident; accepted as an unquestioned starting point",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "b286345f-9ab2-52da-885c-d920d7276be1",
+   "lemma": "backhanded compliment",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "backhanded compliment"
+   ],
+   "glossEn": "a remark that seems to praise but actually insults",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d19670d7-a36a-5e4c-9a29-fdf9c5e820be",
+   "lemma": "bailout",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bailout"
+   ],
+   "glossEn": "financial rescue of a failing company",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "3749bc6a-734a-503b-8671-092dd66c1f41",
+   "lemma": "bait and switch",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bait and switch"
+   ],
+   "glossEn": "advertising a cheap offer, then pushing a costlier product",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "683e714d-2b55-56fb-9bd0-aa75984ae4d7",
+   "lemma": "banal",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "banal"
+   ],
+   "glossEn": "so lacking in originality as to be boring",
+   "proposedTopics": [],
+   "levelConfidence": 0.6
+  },
+  {
+   "id": "c8ef67ef-16ff-5883-91bc-f445561f4699",
+   "lemma": "be that as it may",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "be that as it may"
+   ],
+   "glossEn": "nevertheless, whatever the truth is",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "28cbf9f4-e719-5678-8f10-99cfb6da289c",
+   "lemma": "bedridden",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bedridden"
+   ],
+   "glossEn": "confined to bed by illness",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b33d9b60-c1aa-5a7a-8808-488ca6814d4f",
+   "lemma": "beg the question",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "beg the question"
+   ],
+   "glossEn": "assume the conclusion within the premise of an argument",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "6c43e394-8ddc-5c5a-963f-19cf6195db7c",
+   "lemma": "beg to differ",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "beg to differ"
+   ],
+   "glossEn": "politely say that you disagree",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "e67004f7-f146-52ff-9cde-235688684ac9",
+   "lemma": "begrudge",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "begrudge"
+   ],
+   "glossEn": "resent giving or envy someone's success",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "91c52ca7-c690-564a-8fe6-9d9c53584358",
+   "lemma": "belatedly",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "belatedly"
+   ],
+   "glossEn": "later than it should have been",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "4184694c-6a9a-50f6-9251-f621231a7be8",
+   "lemma": "berate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "berate"
+   ],
+   "glossEn": "scold or criticize someone angrily at length",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "62859280-76a8-5e4b-9db5-3297aad2f60b",
+   "lemma": "berth",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "berth"
+   ],
+   "glossEn": "sleeping place on a ship or train",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "24cfb492-6803-570e-9df8-e32fb3d18f4d",
+   "lemma": "beseech",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "beseech"
+   ],
+   "glossEn": "ask someone urgently and fervently",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "f9ec9a4c-7981-5ed5-b343-8ada747c90cb",
+   "lemma": "besiege",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "besiege"
+   ],
+   "glossEn": "surround a place with forces in order to capture it",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "0b59fc28-86e0-5a4c-8e97-b6ebded825ea",
+   "lemma": "besmirch",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "besmirch"
+   ],
+   "glossEn": "damage someone's reputation",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "6b85e3ee-3bdb-55fa-a4b2-b916666381f7",
+   "lemma": "biomass",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "biomass"
+   ],
+   "glossEn": "total mass of living matter; organic fuel material",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  }
+ ]
+}

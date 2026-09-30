@@ -1,0 +1,546 @@
+{
+ "chunk": "C2-006",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "9a2b5554-167b-5236-a1f9-bb0ddaeef5e6",
+   "lemma": "dissemble",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dissemble"
+   ],
+   "glossEn": "conceal one's true motives or feelings",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "fb1791c3-f386-53d3-a8b3-928e7e6c6f6f",
+   "lemma": "divest",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "divest"
+   ],
+   "glossEn": "sell off a business or its assets",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "ab897e48-83ef-57ea-8725-ad3f09c79834",
+   "lemma": "docile",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "docile"
+   ],
+   "glossEn": "quiet and easy to control",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "1f1dc11b-f122-5c76-9e30-c5f48c1de6bc",
+   "lemma": "dollop",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dollop"
+   ],
+   "glossEn": "small shapeless lump of soft food, such as cream",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "15d7d337-0647-5ada-844d-336930f7be95",
+   "lemma": "domesticity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "domesticity"
+   ],
+   "glossEn": "home and family life",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "2be6bbf4-7187-5964-b588-c70b8ef32887",
+   "lemma": "dote on",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dote on"
+   ],
+   "glossEn": "love someone excessively and uncritically",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "1cc48c03-448e-57c3-baf2-61251344966d",
+   "lemma": "doubtless",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "doubtless"
+   ],
+   "glossEn": "almost certainly, no doubt",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "9ffb10e2-e1bf-53a7-9d8a-2e9cda2a782b",
+   "lemma": "doxxing",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "doxxing"
+   ],
+   "glossEn": "publishing someone's private details online to harm them",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "f9095f0a-d003-532a-8e16-8d9fa62200d7",
+   "lemma": "draconian",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "draconian"
+   ],
+   "glossEn": "excessively harsh, especially of laws or measures",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "2d20befb-caba-53d1-820c-8cc7cdb0884e",
+   "lemma": "drone on",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "drone on"
+   ],
+   "glossEn": "talk at length in a boring, monotonous voice",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "324e851c-6c3b-5662-af49-1bddf0a99325",
+   "lemma": "drudgery",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "drudgery"
+   ],
+   "glossEn": "hard, dull and tiring work",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "168e530a-6b8f-54ba-b4c5-6c24c823635d",
+   "lemma": "due diligence",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "due diligence"
+   ],
+   "glossEn": "careful investigation before a deal",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "81423774-aff3-541b-95cf-af4dd413e6a4",
+   "lemma": "due process",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "due process"
+   ],
+   "glossEn": "fair legal procedures owed to every person",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "5258cbfb-6a30-5c1b-81d9-6a68392ad3a6",
+   "lemma": "duly",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "duly"
+   ],
+   "glossEn": "properly and at the expected time",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b5da412a-ca1d-5a6b-95ec-090fd9cf9a0e",
+   "lemma": "earmark",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "earmark"
+   ],
+   "glossEn": "set aside money for a specific purpose",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "1eb26090-9a0d-579a-942a-5fb8527f5e1a",
+   "lemma": "eaves",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "eaves"
+   ],
+   "glossEn": "part of a roof that overhangs the walls",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "bdb459bf-6ff8-532c-872e-6e9c44952c9f",
+   "lemma": "ebb",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ebb"
+   ],
+   "glossEn": "flow back out to sea, of the tide",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "3e863ca8-b6a7-5f03-9dea-54797f077eab",
+   "lemma": "eclipse",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "eclipse"
+   ],
+   "glossEn": "obscuring of the sun or moon by another body",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "e8d42cf1-052d-5169-889e-c88ed47a4bfb",
+   "lemma": "edict",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "edict"
+   ],
+   "glossEn": "official order issued by a person in authority",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "9fc8c77a-bc96-5396-a050-a76d1d72b67b",
+   "lemma": "effusive",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "effusive"
+   ],
+   "glossEn": "expressing praise or feeling in an unrestrained way",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "db933262-bc4b-517e-bb4d-11196e2050bb",
+   "lemma": "egregious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "egregious"
+   ],
+   "glossEn": "outstandingly bad, shocking",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "ee444400-717e-5a62-ac5f-1878713202d3",
+   "lemma": "elegy",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "elegy"
+   ],
+   "glossEn": "sad poem mourning someone who has died",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "0d82fded-cdd0-5a94-a9aa-32f7c5cf7d40",
+   "lemma": "elope",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "elope"
+   ],
+   "glossEn": "run away secretly to get married",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "c5b13972-6d51-5b9a-bfbd-ef2c1537a597",
+   "lemma": "elucidate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "elucidate"
+   ],
+   "glossEn": "make something clear by explaining it",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "3981e0fc-47da-5b5b-a624-b901ef77d90a",
+   "lemma": "emaciated",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "emaciated"
+   ],
+   "glossEn": "abnormally thin and weak",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "000f7c22-7f4c-5cef-82c5-b9d06a160aec",
+   "lemma": "emancipate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "emancipate"
+   ],
+   "glossEn": "set free from legal, social or political restrictions",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "58d400be-a60b-5159-ac9c-7e045a28e53c",
+   "lemma": "embankment",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "embankment"
+   ],
+   "glossEn": "raised bank of earth along a river or railway",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "3604aa68-8209-5257-a4cc-42ff77472625",
+   "lemma": "embezzle",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "embezzle"
+   ],
+   "glossEn": "steal money entrusted to one's care",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "d42f4a71-70b5-52e0-a2a8-4c0a5b22966c",
+   "lemma": "embolden",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "embolden"
+   ],
+   "glossEn": "give someone the courage or confidence to act",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "f5ca14b4-ea19-5f2d-b4fb-0c44f8697e79",
+   "lemma": "emeritus",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "emeritus"
+   ],
+   "glossEn": "retired but keeping an honorary title, of a professor",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "1e1cc943-fc3f-5517-90d4-3807b8781e39",
+   "lemma": "empty nester",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "empty nester"
+   ],
+   "glossEn": "parent whose children have left home",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "699ad9ea-b851-569b-b1fa-699d132d7ee0",
+   "lemma": "end-to-end",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "end-to-end"
+   ],
+   "glossEn": "covering the whole path from sender to receiver",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "28279d9a-033d-5831-b3d3-5c472b578f9a",
+   "lemma": "endemic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "endemic"
+   ],
+   "glossEn": "native and restricted to a particular place",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "30922413-3dca-5a93-9a79-e694cbe0bee9",
+   "lemma": "enervate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "enervate"
+   ],
+   "glossEn": "cause someone to feel drained of energy",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "ec745480-b649-552c-b7c7-957d4c796170",
+   "lemma": "enjoin",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "enjoin"
+   ],
+   "glossEn": "instruct or urge someone to do something",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "45c62e6d-eadf-5ff9-aba2-f177019e5457",
+   "lemma": "entreat",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "entreat"
+   ],
+   "glossEn": "ask someone earnestly or anxiously",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "787fcc77-3905-5800-b792-a57cb25b26ec",
+   "lemma": "entrenched",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "entrenched"
+   ],
+   "glossEn": "firmly established and hard to change",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "2ecab90e-9e6a-5a95-9982-e06b0d751c73",
+   "lemma": "entropy",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "entropy"
+   ],
+   "glossEn": "measure of disorder in a system",
+   "proposedTopics": [],
+   "levelConfidence": 0.9
+  },
+  {
+   "id": "0d583318-f465-5b03-b563-cb7d30723b4d",
+   "lemma": "ephemeral",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ephemeral"
+   ],
+   "glossEn": "lasting for a very short time",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "59d18c3d-4ce1-55a9-9d00-716f019c7d7d",
+   "lemma": "epicenter",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "epicenter"
+   ],
+   "glossEn": "point on the surface directly above an earthquake",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  }
+ ]
+}

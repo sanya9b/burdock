@@ -1,0 +1,564 @@
+{
+ "chunk": "C2-005",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "28a221ca-09e4-5c31-99cb-41c09411081e",
+   "lemma": "curdle",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "curdle"
+   ],
+   "glossEn": "separate into lumps and liquid, of milk",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b689a094-e068-5acc-a7af-683047ed7d42",
+   "lemma": "curt",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "curt"
+   ],
+   "glossEn": "rudely brief in speech",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b396a60d-4a67-526d-b8ef-e1a19666e115",
+   "lemma": "dank",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dank"
+   ],
+   "glossEn": "unpleasantly damp, cold and musty",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "64d461da-5ceb-5139-a087-0c0eaf039466",
+   "lemma": "dark pattern",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dark pattern"
+   ],
+   "glossEn": "interface design that tricks users into unwanted choices",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "c734fc7f-699d-5a9f-866a-b74baac12dab",
+   "lemma": "dawdle",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dawdle"
+   ],
+   "glossEn": "move or act slowly, wasting time",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "3cd7a412-aae7-57a6-a316-a41599edb260",
+   "lemma": "debilitating",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "debilitating"
+   ],
+   "glossEn": "making someone very weak",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "bbf68c2b-e5ac-5b7d-93ed-9af10eff09f8",
+   "lemma": "deciduous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deciduous"
+   ],
+   "glossEn": "shedding leaves annually, of trees",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "222a7666-7036-5929-a97a-4e320bee2f82",
+   "lemma": "decorum",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "decorum"
+   ],
+   "glossEn": "behavior that is proper and polite",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b4945ac1-2abf-596c-b2c6-8e52c92cfb42",
+   "lemma": "decouple",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "decouple"
+   ],
+   "glossEn": "separate parts so they no longer depend on each other",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "34a75919-076c-528c-9758-5d9b9babc20b",
+   "lemma": "deference",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deference"
+   ],
+   "glossEn": "polite submission to another's judgment or wishes",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d6d87e64-5014-5cc8-a37a-d49432174ab3",
+   "lemma": "deferential",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deferential"
+   ],
+   "glossEn": "showing humble respect",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d26ce3a3-37de-5f1c-9294-4740af1b5daa",
+   "lemma": "delectable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "delectable"
+   ],
+   "glossEn": "delicious and very pleasing to eat",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "41bf83f5-fad3-5755-a8c2-a0a7351392ff",
+   "lemma": "delirious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "delirious"
+   ],
+   "glossEn": "confused and restless because of fever",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "16eaf6d5-edbb-511a-af89-b3a9350c2d2d",
+   "lemma": "deluge",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deluge"
+   ],
+   "glossEn": "severe flood or very heavy rainfall",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "e00a001d-101f-5c9f-be71-e43385fa910f",
+   "lemma": "demagogue",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "demagogue"
+   ],
+   "glossEn": "leader who exploits prejudice to gain power",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "cc7e5924-b56c-5a39-b3fc-69a14efb67a8",
+   "lemma": "demobilize",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "demobilize"
+   ],
+   "glossEn": "release troops from military service",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "273d2ea5-9fa5-51d9-8ec5-6d77ed349ff2",
+   "lemma": "denigrate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "denigrate"
+   ],
+   "glossEn": "criticize unfairly; disparage",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "efb8387f-e97a-53a7-b37e-46238485590c",
+   "lemma": "denouement",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "denouement"
+   ],
+   "glossEn": "final part of a story where everything is resolved",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "db5e1f88-caf5-58e4-80bd-b47d19e0a3f0",
+   "lemma": "deplatform",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deplatform"
+   ],
+   "glossEn": "remove someone from a platform to silence them",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "916456e1-c350-552f-a256-00c80f903699",
+   "lemma": "derelict",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "derelict"
+   ],
+   "glossEn": "abandoned and falling into ruin",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "b184357e-a856-5a8b-a434-192bfdabfa13",
+   "lemma": "desertification",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "desertification"
+   ],
+   "glossEn": "process by which fertile land becomes desert",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "cc7ecbe3-35ba-5c44-91a5-5828333e8eff",
+   "lemma": "despondent",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "despondent"
+   ],
+   "glossEn": "in low spirits from loss of hope",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "5c19c357-cc22-5935-a60d-7ad868728229",
+   "lemma": "despot",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "despot"
+   ],
+   "glossEn": "ruler with absolute power who uses it cruelly",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "1c07e84e-6ce8-5406-a504-53e66fffef2c",
+   "lemma": "deterrence",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deterrence"
+   ],
+   "glossEn": "discouraging attack by the threat of strong retaliation",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "99459503-743b-5f39-9183-e8947dbb7122",
+   "lemma": "deus ex machina",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deus ex machina"
+   ],
+   "glossEn": "sudden unlikely event that conveniently resolves a plot",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "aa27c9d6-b7fa-5d1c-90b3-7ee16cccd065",
+   "lemma": "devil's advocate",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "devil's advocate"
+   ],
+   "glossEn": "person arguing an opposing view purely for debate",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "e038ea97-5783-5ece-9b92-127eb5d12fa0",
+   "lemma": "dialectic",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dialectic"
+   ],
+   "glossEn": "reasoning through the exchange of opposing arguments",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "9349df27-b9a1-5efc-8c5d-68ce0e42ab17",
+   "lemma": "diaspora",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "diaspora"
+   ],
+   "glossEn": "people spread out from their original homeland",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "e69c32be-66a5-55a2-9fa3-b76b25df5355",
+   "lemma": "diatribe",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "diatribe"
+   ],
+   "glossEn": "bitter, lengthy verbal attack",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "cfad643f-750b-58bd-b469-39fb28e72c35",
+   "lemma": "didactic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "didactic"
+   ],
+   "glossEn": "intended to teach, often in a preachy way",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "f15a8404-ae25-569f-94e2-be89e9efba0f",
+   "lemma": "diffident",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "diffident"
+   ],
+   "glossEn": "modest or shy because of a lack of confidence",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "9e1ffc80-6597-5613-8085-84d9f22c93c3",
+   "lemma": "digital divide",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "digital divide"
+   ],
+   "glossEn": "gap between people with and without access to technology",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d5b24d3b-35a4-55cf-a270-6b18159ffe4d",
+   "lemma": "digression",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "digression"
+   ],
+   "glossEn": "departure from the main subject in speech or writing",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "5dbba0a5-1716-53f4-bb92-8ca044e2bf13",
+   "lemma": "dilapidated",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dilapidated"
+   ],
+   "glossEn": "falling apart from age and neglect",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "4e6ee1f1-b72a-50c0-9a5d-f732588c30e8",
+   "lemma": "dilettante",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dilettante"
+   ],
+   "glossEn": "person with a superficial, amateur interest in art",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "4fa49e9b-3216-56c6-9546-e9c7fe2fb713",
+   "lemma": "dilly-dally",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dilly-dally"
+   ],
+   "glossEn": "waste time by being slow or indecisive",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "6cf75f98-742a-5f21-9004-9f7011600de9",
+   "lemma": "disabuse",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disabuse"
+   ],
+   "glossEn": "persuade someone that a belief is mistaken",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "54afd387-be0e-5250-be4b-b562bc26f5bb",
+   "lemma": "disenfranchise",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disenfranchise"
+   ],
+   "glossEn": "deprive someone of the right to vote",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "7227df3d-54a2-5c78-9249-6b766f1ce321",
+   "lemma": "disingenuous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disingenuous"
+   ],
+   "glossEn": "not candid or sincere, pretending to know less",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "adf875f3-54a0-5ba3-a062-c4929bedfe54",
+   "lemma": "disorient",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disorient"
+   ],
+   "glossEn": "make someone lose their sense of direction",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.7
+  }
+ ]
+}

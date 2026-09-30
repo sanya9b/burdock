@@ -1,0 +1,548 @@
+{
+ "chunk": "C1-027",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "861ea16b-f1b2-51a0-b9da-b0ca5953db61",
+   "lemma": "specimen",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "specimen"
+   ],
+   "glossEn": "sample used for scientific study",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "7a655129-0e3e-5b74-b1ae-c75f87f62375",
+   "lemma": "spectrum",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spectrum"
+   ],
+   "glossEn": "band of colors or range of wavelengths",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "553f6dbe-cbd3-54d1-a4a7-f3d79e3e8cd0",
+   "lemma": "speculate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "speculate"
+   ],
+   "glossEn": "form theories or guesses without firm evidence",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "7135e379-b55b-5687-8878-8f08d3dcf919",
+   "lemma": "speed bump",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "speed bump"
+   ],
+   "glossEn": "raised strip across a road that slows cars down",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "efafa442-0049-5566-b7e8-d0e963ca32f8",
+   "lemma": "spiteful",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spiteful"
+   ],
+   "glossEn": "showing a desire to hurt or upset someone",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "90eb1bf1-bf3e-5ff6-80cd-23ee65afc195",
+   "lemma": "split up",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "split up"
+   ],
+   "glossEn": "end a romantic relationship",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "23d3db09-898e-5367-8f1d-0ac8e0a53cc7",
+   "lemma": "splurge",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "splurge"
+   ],
+   "glossEn": "spend a lot of money freely on a treat",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "a7fe3860-f8c8-50c8-b67c-c4333ce2c6b9",
+   "lemma": "spoiler",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spoiler"
+   ],
+   "glossEn": "information that reveals a story's key surprises",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "ba0c7b57-c317-5d26-b044-9f89044b8948",
+   "lemma": "spontaneously",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spontaneously"
+   ],
+   "glossEn": "without planning, on a sudden impulse",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "ef91f3af-be65-5362-b162-3b364c573c6a",
+   "lemma": "spotless",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spotless"
+   ],
+   "glossEn": "completely clean, without a mark",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "060608f3-0aaa-536f-8017-b45e18b07a4a",
+   "lemma": "spouse",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spouse"
+   ],
+   "glossEn": "husband or wife",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "232d8583-59ad-58e6-b130-b9999890f3a8",
+   "lemma": "sprain",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sprain"
+   ],
+   "glossEn": "injure a joint by twisting it violently",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "73169068-c17e-539c-97e5-4b2f1e4d8ad8",
+   "lemma": "squabble",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "squabble"
+   ],
+   "glossEn": "argue noisily about something trivial",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "ef3bbc21-e337-502c-9f2c-07face98a603",
+   "lemma": "staggering",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "staggering"
+   ],
+   "glossEn": "deeply shocking, astonishing",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "a2fb6c09-b3c0-50d0-819c-1b549ae0e203",
+   "lemma": "stagnate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stagnate"
+   ],
+   "glossEn": "stop developing or making progress",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "dbc5c8b1-0f88-565c-99d1-c16751506227",
+   "lemma": "stagnation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stagnation"
+   ],
+   "glossEn": "state of no growth or development",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "7a376d95-862c-540f-baa6-7573480c58c1",
+   "lemma": "stakeholder",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stakeholder"
+   ],
+   "glossEn": "person or group with an interest in a company's decisions",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "dc371070-8b62-54dd-b12e-2b55a8bb52c7",
+   "lemma": "stamina",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stamina"
+   ],
+   "glossEn": "ability to sustain prolonged physical effort",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "ea4c4eec-d0cc-54ba-9ccf-6e24d4613b5d",
+   "lemma": "standing ovation",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "standing ovation"
+   ],
+   "glossEn": "audience standing up to applaud enthusiastically",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "555018f3-484b-53ab-8bb9-0cdbc325a2c3",
+   "lemma": "staple",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "staple"
+   ],
+   "glossEn": "basic food that people eat regularly",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "222ec8f2-f663-531c-8889-e04a052bb556",
+   "lemma": "startup",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "startup"
+   ],
+   "glossEn": "newly founded company, often in technology",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "046caa8c-7a63-5fbe-8404-cf63412c9615",
+   "lemma": "stash",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stash"
+   ],
+   "glossEn": "secret store of something kept for later",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "a3a4751d-7bae-569a-a44d-0d05713591c3",
+   "lemma": "statute",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "statute"
+   ],
+   "glossEn": "a written law passed by a legislature",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "acac7121-fe62-5d05-87ce-851fcf9dcc17",
+   "lemma": "steadfast",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "steadfast"
+   ],
+   "glossEn": "firmly loyal or constant, unwavering",
+   "proposedTopics": [],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "8abc8006-f7eb-5819-aee9-293a784a6df0",
+   "lemma": "sterile",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sterile"
+   ],
+   "glossEn": "completely free from bacteria",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "f7777003-8fbb-55cf-be40-88bdbb6d4544",
+   "lemma": "stifle",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stifle"
+   ],
+   "glossEn": "suppress or restrain a feeling, idea, or activity",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "3694d377-f22e-5392-9bd6-ff8f0fe81b1d",
+   "lemma": "stigma",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stigma"
+   ],
+   "glossEn": "shame attached to a condition or circumstance",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "22e10821-3352-5533-b0f4-85e8a2f38f94",
+   "lemma": "stimulus",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stimulus"
+   ],
+   "glossEn": "government measures to boost economic activity",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "8af9a45b-54f1-5a3f-a6a1-929e546eee91",
+   "lemma": "stipulate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stipulate"
+   ],
+   "glossEn": "demand or specify as a condition of an agreement",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "e933c95d-0ff2-53d1-b954-6ce86b6aeab1",
+   "lemma": "store credit",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "store credit"
+   ],
+   "glossEn": "refund given as credit to spend in the same store",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "1f997a13-9d98-5c77-bbd2-d953b0dbdcbb",
+   "lemma": "streamline",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "streamline"
+   ],
+   "glossEn": "make a process simpler and more efficient",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "cd45f836-7bc7-596d-bdea-f317f7f3c8a2",
+   "lemma": "strictly speaking",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "strictly speaking"
+   ],
+   "glossEn": "if one uses words in their exact sense",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "68f7f4e5-12fa-5db8-8d1f-ad218b2cd88f",
+   "lemma": "strikingly",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "strikingly"
+   ],
+   "glossEn": "in a way that attracts attention, remarkably",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "77669653-d88c-527f-9425-57af2a4d5a10",
+   "lemma": "stringent",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stringent"
+   ],
+   "glossEn": "strict, precise and exacting",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "c03e2b8c-c09b-5d11-a447-f4bf6cbebf71",
+   "lemma": "stuffy",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stuffy"
+   ],
+   "glossEn": "lacking fresh air, hot and airless",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "6d3e3c9d-7434-5c95-a300-372f51421e8f",
+   "lemma": "sturdy",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sturdy"
+   ],
+   "glossEn": "strongly and solidly built",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "096111cc-f7fc-564f-976e-bf6a4a9ba03d",
+   "lemma": "subjective",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subjective"
+   ],
+   "glossEn": "based on personal feelings rather than facts",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "752c2ea1-9b62-5d0e-a7d9-f077744a0902",
+   "lemma": "sublet",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sublet"
+   ],
+   "glossEn": "rent out a property you yourself are renting",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "0b3f4894-4466-5724-8e5a-db3a86bca352",
+   "lemma": "subordinate",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subordinate"
+   ],
+   "glossEn": "person under someone's authority at work",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "0e026eb0-b688-57f3-836c-7b29759653db",
+   "lemma": "subsequently",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subsequently"
+   ],
+   "glossEn": "after a particular event, afterwards",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  }
+ ]
+}

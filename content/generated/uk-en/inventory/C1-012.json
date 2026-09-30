@@ -1,0 +1,554 @@
+{
+ "chunk": "C1-012",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "02ca8b66-71ed-5853-a418-fde1b4664dce",
+   "lemma": "evoke",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "evoke"
+   ],
+   "glossEn": "bring a feeling or memory into the mind",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "34c1e3be-a9b5-5f3a-929f-c926e767beca",
+   "lemma": "exacerbate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "exacerbate"
+   ],
+   "glossEn": "make a problem or bad situation worse",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "e08da25a-d8e3-53ac-9731-155e4b1ef59e",
+   "lemma": "exasperated",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "exasperated"
+   ],
+   "glossEn": "intensely irritated and frustrated",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "46fd88fc-6745-5d10-852a-bf75af5236db",
+   "lemma": "excruciating",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "excruciating"
+   ],
+   "glossEn": "intensely painful",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b0f2bdff-962d-5e7a-bff5-02bc9b76333a",
+   "lemma": "exemplify",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "exemplify"
+   ],
+   "glossEn": "be a typical example of; illustrate",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "c2e72822-03e8-5121-90ad-ea074021ca99",
+   "lemma": "exert",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "exert"
+   ],
+   "glossEn": "apply force, influence, or effort",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "0dfa8e39-f690-5945-ad52-19f94da6a4df",
+   "lemma": "expatriate",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "expatriate"
+   ],
+   "glossEn": "person living outside their native country",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "1e991810-5462-5821-81a1-f4919511002a",
+   "lemma": "expedite",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "expedite"
+   ],
+   "glossEn": "make a process happen sooner or faster",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "a08175d5-008e-5fe7-9eca-28a684d7b5ec",
+   "lemma": "expenditure",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "expenditure"
+   ],
+   "glossEn": "amount of money spent by a government or organization",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "efa2703e-c24d-59bd-9e60-b1d94f784eca",
+   "lemma": "expertise",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "expertise"
+   ],
+   "glossEn": "expert skill or knowledge in a field",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "718a0324-4f5e-553d-bebc-10a7900d2c3e",
+   "lemma": "explicit",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "explicit"
+   ],
+   "glossEn": "stated clearly and in detail",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "92879244-e2d4-5bc3-84c1-abeeaa91918c",
+   "lemma": "explicitly",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "explicitly"
+   ],
+   "glossEn": "clearly and directly, leaving no doubt",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "79a4b8c5-f74e-54a8-b464-42565244dff8",
+   "lemma": "exponentially",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "exponentially"
+   ],
+   "glossEn": "at an increasingly rapid rate",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "6030ccac-3b83-5966-99eb-578506f22075",
+   "lemma": "extortion",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "extortion"
+   ],
+   "glossEn": "obtaining money through threats or force",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "a5c51939-1466-577c-b800-5efbe06c0d4a",
+   "lemma": "extradite",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "extradite"
+   ],
+   "glossEn": "hand over an accused person to another country",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "3ca03fc1-2fd7-5f8f-906d-93c53431178a",
+   "lemma": "extrapolate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "extrapolate"
+   ],
+   "glossEn": "extend known data to estimate the unknown",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "e7ad8687-8635-5578-8c4e-60bacf3eba67",
+   "lemma": "extravagant",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "extravagant"
+   ],
+   "glossEn": "spending or costing far too much",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "d7e385ff-0fa8-5a75-948f-d38b3a197147",
+   "lemma": "fable",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fable"
+   ],
+   "glossEn": "short tale with animals that teaches a moral",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "058b439f-9f60-5ffb-9d3d-664e43fdfe45",
+   "lemma": "facade",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "facade"
+   ],
+   "glossEn": "front outer wall of a building",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "f0125957-7358-5b00-839f-dcccdb84d23c",
+   "lemma": "fact-check",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fact-check"
+   ],
+   "glossEn": "verify whether a claim or statement is true",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "72417ea6-1a03-52a6-af55-ffee714d0816",
+   "lemma": "fall out",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fall out"
+   ],
+   "glossEn": "have an argument and stop being friendly",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "281ea289-835f-5750-8859-989d49d189b7",
+   "lemma": "fallacy",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fallacy"
+   ],
+   "glossEn": "mistaken belief or flawed piece of reasoning",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "11bf5c23-6b0e-5cdf-b02c-f0c642ed90cb",
+   "lemma": "fatigue",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fatigue"
+   ],
+   "glossEn": "extreme tiredness after effort or illness",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "50a695cd-56f5-5a9c-a335-aae8c58356ca",
+   "lemma": "feasibility",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "feasibility"
+   ],
+   "glossEn": "how practical and possible a plan is",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "5cf1b2ed-3006-5119-bd21-717805ca69ec",
+   "lemma": "feasible",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "feasible"
+   ],
+   "glossEn": "possible to do easily or conveniently",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "8bfa79a0-8774-5e8f-9029-33c5100ed29b",
+   "lemma": "ferment",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ferment"
+   ],
+   "glossEn": "change chemically through yeast or bacteria, as food or drink",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "85dc7e27-a8bd-566c-9340-d22059fc901f",
+   "lemma": "fertile",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fertile"
+   ],
+   "glossEn": "able to produce abundant crops or offspring",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "cf437ac1-0c65-5380-9191-c9706ac40d43",
+   "lemma": "feud",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "feud"
+   ],
+   "glossEn": "long, bitter quarrel between people or families",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "08c79d01-7f94-50f1-a61d-54467e597a0f",
+   "lemma": "fidget",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fidget"
+   ],
+   "glossEn": "make small restless movements from boredom or nerves",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "e1bb2c07-08bf-5394-8895-f5be165d3d67",
+   "lemma": "finalize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "finalize"
+   ],
+   "glossEn": "complete the last details of a plan or deal",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "8d8966d2-28d9-5320-80b9-c23b999b6db6",
+   "lemma": "findings",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "findings"
+   ],
+   "glossEn": "results of an investigation or study",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "55531621-5839-5d5b-816f-4038de1a8c30",
+   "lemma": "fine print",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fine print"
+   ],
+   "glossEn": "small text with conditions people often overlook",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "76e00c95-e0f2-5c30-ad78-0220dee526f2",
+   "lemma": "firewall",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "firewall"
+   ],
+   "glossEn": "system that blocks unauthorized traffic to a network",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "60bfda35-8ba0-521b-92c1-6ce260cc1250",
+   "lemma": "firmware",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "firmware"
+   ],
+   "glossEn": "permanent software built into a hardware device",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "0c5e8946-64db-539b-a17b-40becd6e8f40",
+   "lemma": "first and foremost",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "first and foremost"
+   ],
+   "glossEn": "most importantly, above everything else",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "872aa5d3-e2f8-5d72-99c3-64f522527f30",
+   "lemma": "flair",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flair"
+   ],
+   "glossEn": "natural talent or stylish ability",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "da00e772-be47-5d3c-ae5b-71715a38f38a",
+   "lemma": "flimsy",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flimsy"
+   ],
+   "glossEn": "insubstantial and easily damaged; weak",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "ca1c5230-def5-5349-9788-80d5a49bebc2",
+   "lemma": "fluctuate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fluctuate"
+   ],
+   "glossEn": "rise and fall irregularly in amount or level",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "f6e86946-0a8e-57d7-be26-b80237de98fc",
+   "lemma": "flustered",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flustered"
+   ],
+   "glossEn": "confused and nervous, especially when hurried",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "a282468a-7780-5b4a-896c-9ca8f0429251",
+   "lemma": "footage",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "footage"
+   ],
+   "glossEn": "recorded film or video material of an event",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  }
+ ]
+}

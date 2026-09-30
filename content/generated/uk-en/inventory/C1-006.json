@@ -1,0 +1,560 @@
+{
+ "chunk": "C1-006",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "9a7a6ced-719d-5874-bc5d-a312d9e5ca81",
+   "lemma": "clutter",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "clutter"
+   ],
+   "glossEn": "untidy mass of things filling a space",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "f7117c56-509b-5d0e-a471-97ddb4b3a2e8",
+   "lemma": "coax",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "coax"
+   ],
+   "glossEn": "gently persuade someone to do something",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "7c685a80-3841-5f45-929a-6feb2376e151",
+   "lemma": "coerce",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "coerce"
+   ],
+   "glossEn": "force someone to act by threats or pressure",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "df41d82e-4737-50da-aecb-736bdd60188b",
+   "lemma": "coercion",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "coercion"
+   ],
+   "glossEn": "forcing someone to act through threats or pressure",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "f8c41671-4fbe-5d05-9ce7-74555b61be4d",
+   "lemma": "cognition",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cognition"
+   ],
+   "glossEn": "mental process of acquiring knowledge and understanding",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "0a46113e-b817-5ff3-aede-679b9b6bff5f",
+   "lemma": "cognitive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cognitive"
+   ],
+   "glossEn": "relating to the mental processes of knowing and thinking",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "dd776f44-0546-5d6f-ae74-721b2325283d",
+   "lemma": "cohesion",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cohesion"
+   ],
+   "glossEn": "unity that holds a group or society together",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "5ab03dfa-c8ea-5cc0-b561-545bc745906d",
+   "lemma": "collateral",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "collateral"
+   ],
+   "glossEn": "property pledged as security for a loan",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "a17f9a25-f21c-5a1c-baba-0330ca0f84f1",
+   "lemma": "colloquial",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "colloquial"
+   ],
+   "glossEn": "used in ordinary or familiar conversation",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "84b919a6-615b-529e-9a14-3e59f3afacf2",
+   "lemma": "come down with",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "come down with"
+   ],
+   "glossEn": "begin to suffer from an illness",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "5a2baf55-e543-5c81-8b89-29f7ca7a1ea8",
+   "lemma": "commodity",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "commodity"
+   ],
+   "glossEn": "raw material or basic product that is bought and sold",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "5622b46c-f930-546c-8e34-33d5d6075605",
+   "lemma": "commuter",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "commuter"
+   ],
+   "glossEn": "person who travels regularly between home and work",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "c0ad740f-c187-5858-b7fa-5ca190d0033d",
+   "lemma": "companionship",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "companionship"
+   ],
+   "glossEn": "pleasant feeling of having company",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "963db63f-702d-545f-9a76-0fbfa1a416fa",
+   "lemma": "compartment",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "compartment"
+   ],
+   "glossEn": "separate enclosed section of a train carriage",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "174934e8-03a6-5efc-94b2-3006dcde4c00",
+   "lemma": "compel",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "compel"
+   ],
+   "glossEn": "force or oblige someone to do something",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "46bc7b52-cd6a-5cef-bd22-d9663324a711",
+   "lemma": "compelling",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "compelling"
+   ],
+   "glossEn": "powerfully attracting interest or attention; convincing",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "38905204-ad6e-509d-8852-d076ac32f1ee",
+   "lemma": "complacent",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "complacent"
+   ],
+   "glossEn": "smugly satisfied and unaware of dangers",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "6f29aa53-6b1d-5899-bc8f-c7be176850a8",
+   "lemma": "compliance",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "compliance"
+   ],
+   "glossEn": "acting according to rules or laws",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "e00e93f1-1a6e-54cd-85f7-c64aeb13bcb8",
+   "lemma": "complimentary",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "complimentary"
+   ],
+   "glossEn": "given free of charge",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "fce1c05a-5ac9-54ab-a5c2-91e7a6537eb0",
+   "lemma": "composure",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "composure"
+   ],
+   "glossEn": "calmness and control over one's emotions",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "983ebd82-fba3-59a2-b0ac-c85299647118",
+   "lemma": "comprehend",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "comprehend"
+   ],
+   "glossEn": "understand fully the meaning or nature of something",
+   "proposedTopics": [],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "000d39ad-19d2-58ec-bffe-35285e555eb4",
+   "lemma": "comprise",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "comprise"
+   ],
+   "glossEn": "consist of; be made up of",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "562b66dc-fa17-586a-ada8-50ba06e77f3e",
+   "lemma": "compulsive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "compulsive"
+   ],
+   "glossEn": "done from an irresistible urge",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "943df542-32b7-5e58-abd2-f9b9bc454d54",
+   "lemma": "conceited",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "conceited"
+   ],
+   "glossEn": "excessively proud of oneself",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "2e009a7c-41a5-5db8-bbf6-9d19b60e2d90",
+   "lemma": "conceivably",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "conceivably"
+   ],
+   "glossEn": "possibly, as far as one can imagine",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "87c8fc9f-198e-5fd9-afcc-8543bb4640f3",
+   "lemma": "conceptual",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "conceptual"
+   ],
+   "glossEn": "relating to ideas rather than concrete things",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "6649a21a-6777-5790-9b22-3fa16012f5b1",
+   "lemma": "concierge",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "concierge"
+   ],
+   "glossEn": "hotel employee who helps guests with arrangements",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "fed3991a-5726-54f5-aa9b-c8700dff1be9",
+   "lemma": "concise",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "concise"
+   ],
+   "glossEn": "expressing much clearly in few words",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b7506857-5bd8-5ee3-923d-e09b59ef9033",
+   "lemma": "conclusive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "conclusive"
+   ],
+   "glossEn": "settling a question beyond doubt",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "7035b0bd-c342-5691-af57-589bb71d3ab5",
+   "lemma": "concur",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "concur"
+   ],
+   "glossEn": "agree; be of the same opinion",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b17f2e32-aee0-58ef-aeb2-f63b312690f8",
+   "lemma": "concussion",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "concussion"
+   ],
+   "glossEn": "brain injury from a blow to the head",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "db9c121d-6bf7-5bb1-9a45-a2f405f037df",
+   "lemma": "condensation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "condensation"
+   ],
+   "glossEn": "water drops formed when vapor cools",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "c694ec97-b374-5688-a8ab-b5f5653fbcaa",
+   "lemma": "condescending",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "condescending"
+   ],
+   "glossEn": "showing a feeling of superiority toward others",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "3c981d92-e9fa-5c4b-a6b9-4cf8efe15c76",
+   "lemma": "condiment",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "condiment"
+   ],
+   "glossEn": "sauce or seasoning added to food at the table",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "80c086fe-65b2-5bc8-b894-48a1e4462d94",
+   "lemma": "condone",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "condone"
+   ],
+   "glossEn": "accept or allow behavior that is morally wrong",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "497059ef-a341-5cfb-a2f8-38a0ca243379",
+   "lemma": "confide",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "confide"
+   ],
+   "glossEn": "tell someone a secret or private matter in trust",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "26bbb19c-d916-5b6b-9293-d2545d89f16d",
+   "lemma": "confidentiality",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "confidentiality"
+   ],
+   "glossEn": "keeping business information private",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "6e9b8fd8-e522-5990-bc75-718e4df871fa",
+   "lemma": "configure",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "configure"
+   ],
+   "glossEn": "set up software or hardware for a particular use",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "a8ad9f26-fca9-5483-a898-c7815197b9c6",
+   "lemma": "confiscate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "confiscate"
+   ],
+   "glossEn": "officially take something away, e.g. at customs",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "8a31b60b-4c3e-5453-bd54-896fa99b25a2",
+   "lemma": "congestion",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "congestion"
+   ],
+   "glossEn": "heavy traffic that slows or blocks movement",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.85
+  }
+ ]
+}

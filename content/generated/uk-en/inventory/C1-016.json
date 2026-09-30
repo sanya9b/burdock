@@ -1,0 +1,565 @@
+{
+ "chunk": "C1-016",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "802f7d9a-9f3e-501e-9d97-345ef692f065",
+   "lemma": "inept",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inept"
+   ],
+   "glossEn": "having no skill, clumsy",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "34cfdd21-2232-5fa5-b43b-a38376d5fd6f",
+   "lemma": "inequality",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inequality"
+   ],
+   "glossEn": "unequal distribution of wealth, rights or opportunity",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "762c9f92-8e00-5201-ab3b-0518fd132e40",
+   "lemma": "inertia",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inertia"
+   ],
+   "glossEn": "tendency to stay at rest or in uniform motion",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "fd10a992-2c7b-57b5-99da-8a3d6daf21fe",
+   "lemma": "inevitably",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inevitably"
+   ],
+   "glossEn": "unavoidably, as was certain to happen",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "0db68bf3-db4a-5fb1-be27-16a384ab70b9",
+   "lemma": "infantry",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "infantry"
+   ],
+   "glossEn": "soldiers who fight on foot",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "bd5ea942-f407-521f-8c7e-21bd28ed24b4",
+   "lemma": "infatuation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "infatuation"
+   ],
+   "glossEn": "intense but short-lived passion for someone",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "7b96f9b5-ed2e-5e69-bd1e-a77bbf64be14",
+   "lemma": "influencer",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "influencer"
+   ],
+   "glossEn": "person who promotes products to a large online following",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.6
+  },
+  {
+   "id": "05417e30-908a-580e-a410-d237ee46cdc4",
+   "lemma": "infrastructure",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "infrastructure"
+   ],
+   "glossEn": "basic systems a city needs such as roads and power",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "44d8a88a-4d03-55c3-896e-4dae3c3ea286",
+   "lemma": "ingenious",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ingenious"
+   ],
+   "glossEn": "clever, original and inventive",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "4e3f3585-d634-5fbb-90c5-5c6e7cb919ca",
+   "lemma": "ingrained",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ingrained"
+   ],
+   "glossEn": "firmly fixed and hard to change",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "482b4298-deaf-5670-ab58-7c3616315b0f",
+   "lemma": "injunction",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "injunction"
+   ],
+   "glossEn": "court order requiring someone to do or stop something",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "8cfe7a76-f3b8-5800-a7e5-bd99df7e5f91",
+   "lemma": "insinuate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "insinuate"
+   ],
+   "glossEn": "suggest something unpleasant in an indirect way",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "509a65b2-c42d-5e83-ae22-d34eda56c9eb",
+   "lemma": "insofar as",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "insofar as"
+   ],
+   "glossEn": "to the extent that",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "182fc237-d979-55af-871c-5e91d499d37b",
+   "lemma": "insomnia",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "insomnia"
+   ],
+   "glossEn": "habitual inability to sleep",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "972c5bcf-3e62-5238-a854-f404d062e906",
+   "lemma": "installment",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "installment"
+   ],
+   "glossEn": "one of several regular payments for a purchase",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "f217ab4d-73e3-5b39-bd3a-1df2423d2097",
+   "lemma": "instigate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "instigate"
+   ],
+   "glossEn": "bring about or start an action or event",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "f58a2310-d221-54dd-af09-b43c259f9915",
+   "lemma": "insulation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "insulation"
+   ],
+   "glossEn": "material that stops heat or sound passing through",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "ab4a023f-041c-563c-8c87-acfd53f0d91f",
+   "lemma": "intake",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "intake"
+   ],
+   "glossEn": "amount of food or drink taken in",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "5f36bfa0-3340-5c67-89d0-882a7c803050",
+   "lemma": "interdisciplinary",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "interdisciplinary"
+   ],
+   "glossEn": "combining two or more academic fields",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "792bf2b6-2438-581e-b8c7-8cffa374e36e",
+   "lemma": "interface",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "interface"
+   ],
+   "glossEn": "point where a user or program interacts with a system",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "791a7ae2-f6b6-5b6e-a95c-2a1f8fbd7890",
+   "lemma": "interim",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "interim"
+   ],
+   "glossEn": "temporary, until a permanent arrangement is made",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "5c2cbb40-7915-5148-9924-bad94c1bf0ef",
+   "lemma": "interject",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "interject"
+   ],
+   "glossEn": "say something suddenly in the middle of a conversation",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "d0e0f834-a2a8-5e52-9451-f5fc9203770b",
+   "lemma": "intermittently",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "intermittently"
+   ],
+   "glossEn": "at irregular intervals, stopping and starting",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "314cbb2a-f5ef-5fb2-8798-6008fef760bd",
+   "lemma": "internship",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "internship"
+   ],
+   "glossEn": "temporary position for gaining work experience",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "9ff6434c-d088-5d2a-9a6e-bbaa4b34952f",
+   "lemma": "intricate",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "intricate"
+   ],
+   "glossEn": "very detailed and complicated in design",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "0850eedd-6f73-566b-ac8b-a93de1462a94",
+   "lemma": "intriguing",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "intriguing"
+   ],
+   "glossEn": "arousing one's curiosity or interest",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "1efe084a-d78b-5e51-af78-2029158a9abd",
+   "lemma": "intuitive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "intuitive"
+   ],
+   "glossEn": "easy to use without instructions",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "2b036ae0-f9a4-5b82-bd2f-e8ff2023b2f2",
+   "lemma": "inventory",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inventory"
+   ],
+   "glossEn": "complete stock of goods a store holds",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "122725f9-0a46-542b-88d0-805c2f1ca49d",
+   "lemma": "invoice",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "invoice"
+   ],
+   "glossEn": "itemized bill requesting payment for goods or services",
+   "proposedTopics": [
+    "shopping",
+    "work"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "3e741747-b8fd-5902-adef-f14ad671c60c",
+   "lemma": "irony",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "irony"
+   ],
+   "glossEn": "saying the opposite of what you mean, often humorously",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "f04dc796-a7e4-5045-a001-c28ed1b80850",
+   "lemma": "irrespective of",
+   "pos": "preposition",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "irrespective of"
+   ],
+   "glossEn": "regardless of, without considering",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "03672e9f-3ca7-58eb-906f-b177f56ee919",
+   "lemma": "iteration",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "iteration"
+   ],
+   "glossEn": "one repetition of a cycle of improving a product",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "192e9fc4-d636-5e37-8428-7c0336c155d8",
+   "lemma": "itinerary",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "itinerary"
+   ],
+   "glossEn": "planned route and schedule of a journey",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "5f8ccab6-b228-5393-b1e7-cad73faef3f4",
+   "lemma": "jargon",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jargon"
+   ],
+   "glossEn": "special words used by a profession or group",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "203404ce-3070-5798-8cfc-f8b721610220",
+   "lemma": "jet lag",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jet lag"
+   ],
+   "glossEn": "tiredness after flying across time zones",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.6
+  },
+  {
+   "id": "eedc91e8-16fd-5516-bb39-f120961b47c7",
+   "lemma": "judiciary",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "judiciary"
+   ],
+   "glossEn": "the system of courts and judges of a country",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "602c6523-f715-5a66-80ae-462db49957cd",
+   "lemma": "jurisdiction",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jurisdiction"
+   ],
+   "glossEn": "official power to make legal decisions in an area",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "3a3e4830-2a1a-5086-b218-315240f3d7f9",
+   "lemma": "knack",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "knack"
+   ],
+   "glossEn": "special skill for doing something easily",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "d2a1bd69-8b8a-5358-a683-91ba3aa36600",
+   "lemma": "knead",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "knead"
+   ],
+   "glossEn": "press and fold dough with the hands",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "3bd96e4f-a4b3-5f33-ad64-34033e237473",
+   "lemma": "knockoff",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "knockoff"
+   ],
+   "glossEn": "cheap copy of a branded product",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.75
+  }
+ ]
+}

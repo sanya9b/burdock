@@ -1,0 +1,554 @@
+{
+ "chunk": "C2-017",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "0f6db076-d8d6-5082-a2e1-60eb73f9c15e",
+   "lemma": "slovenly",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "slovenly"
+   ],
+   "glossEn": "messy and careless in appearance or habits",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "459f688f-2d88-50bc-8776-ad73425b815e",
+   "lemma": "so much so that",
+   "pos": "conjunction",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "so much so that"
+   ],
+   "glossEn": "to such a degree that",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "37e942f0-2c67-5791-ab82-97f7c56accd1",
+   "lemma": "social engineering",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "social engineering"
+   ],
+   "glossEn": "manipulating people into giving away secure information",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "ed4ca13f-1880-50fd-be78-96128aba5b4f",
+   "lemma": "social mobility",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "social mobility"
+   ],
+   "glossEn": "ability to move between social classes",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b5c1a4be-6f8e-516e-ba59-9b8dedc1d6a7",
+   "lemma": "sojourn",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sojourn"
+   ],
+   "glossEn": "temporary stay in a place",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "16641820-90fd-55de-81f3-824965b075bc",
+   "lemma": "solicit",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "solicit"
+   ],
+   "glossEn": "formally ask for business, support, or offers",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "e1e5780c-eba0-55ab-9213-ef7f5b5eb019",
+   "lemma": "solstice",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "solstice"
+   ],
+   "glossEn": "longest or shortest day of the year",
+   "proposedTopics": [],
+   "levelConfidence": 0.9
+  },
+  {
+   "id": "48db75f5-48c0-5729-aa78-797748984c41",
+   "lemma": "sophistry",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sophistry"
+   ],
+   "glossEn": "clever but false reasoning intended to deceive",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "005cb25f-87cf-5f22-aad4-bf8625aab58b",
+   "lemma": "soporific",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "soporific"
+   ],
+   "glossEn": "tending to induce drowsiness, boring",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "1b5713e5-43e7-5c37-8425-55fd0a77d363",
+   "lemma": "sordid",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sordid"
+   ],
+   "glossEn": "involving immoral or dishonorable actions",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "aeffaec6-a440-563f-bf74-929b5c4d99ce",
+   "lemma": "specious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "specious"
+   ],
+   "glossEn": "superficially plausible but actually wrong",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "5012f015-880e-5c41-b6c4-e974d8549b87",
+   "lemma": "spendthrift",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spendthrift"
+   ],
+   "glossEn": "person who spends money wastefully",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "2673250e-ae88-54b2-8b68-b3cc8f969688",
+   "lemma": "spick-and-span",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spick-and-span"
+   ],
+   "glossEn": "perfectly clean and tidy",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "4b56594b-77da-59e0-ae1d-8151d05fe7b5",
+   "lemma": "spin doctor",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spin doctor"
+   ],
+   "glossEn": "adviser who presents events favorably to the media",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "248f5fef-7dc2-5bac-92f6-2ac31dbda068",
+   "lemma": "split hairs",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "split hairs"
+   ],
+   "glossEn": "argue about very small, unimportant differences",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "44bc1b7c-6358-52eb-83e3-18df40df024f",
+   "lemma": "spoof",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spoof"
+   ],
+   "glossEn": "fake an identity, address or website to deceive",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "3df73923-b223-5cbe-88ec-4caa0ecaea20",
+   "lemma": "sporadically",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sporadically"
+   ],
+   "glossEn": "occasionally, at irregular intervals",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "7cc79689-194e-57c8-9a5a-c02e7c298067",
+   "lemma": "spurious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spurious"
+   ],
+   "glossEn": "not being what it claims to be, false",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "4389e243-e338-503f-833b-d7e73d2354a7",
+   "lemma": "squalid",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "squalid"
+   ],
+   "glossEn": "extremely dirty and unpleasant from neglect",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "b891f8de-395e-5e52-8d70-cff95c0fba7d",
+   "lemma": "squall",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "squall"
+   ],
+   "glossEn": "sudden violent gust of wind, often with rain",
+   "proposedTopics": [],
+   "levelConfidence": 0.9
+  },
+  {
+   "id": "fcfce1c3-02f6-565c-8949-c51bd2452dee",
+   "lemma": "squalor",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "squalor"
+   ],
+   "glossEn": "extremely dirty and unpleasant conditions caused by poverty",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "7a9d6652-310e-5dc0-8930-32a8e9181928",
+   "lemma": "squander",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "squander"
+   ],
+   "glossEn": "waste money or resources carelessly",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "d84f3979-7354-56eb-a82f-c9a32deaf55e",
+   "lemma": "stagflation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stagflation"
+   ],
+   "glossEn": "high inflation combined with stagnant growth",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "a55533c2-83ac-5f14-9da2-f89d89bb8609",
+   "lemma": "standoffish",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "standoffish"
+   ],
+   "glossEn": "cold and distant in manner",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "944e27e9-adc9-531f-a3d9-efb01fcb7945",
+   "lemma": "starkly",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "starkly"
+   ],
+   "glossEn": "in a harsh, clear and unpleasant way",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "f5b5fe72-ed17-5d71-bc2e-664ec8e29c36",
+   "lemma": "stateless",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stateless"
+   ],
+   "glossEn": "not recognized as a citizen of any country",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "38485744-a08b-59ac-be73-8a857d9c6972",
+   "lemma": "status quo",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "status quo"
+   ],
+   "glossEn": "the existing state of affairs",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b6501b52-ca85-5ca9-a991-8b3dfaef089b",
+   "lemma": "stewardship",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stewardship"
+   ],
+   "glossEn": "responsible management of something entrusted",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "5441e7e9-bc90-57ad-897f-838d94f3edbb",
+   "lemma": "stipend",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stipend"
+   ],
+   "glossEn": "fixed regular sum paid as an allowance",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "bd292b1a-951a-53bd-89db-8151cfe3ddda",
+   "lemma": "stone's throw",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stone's throw"
+   ],
+   "glossEn": "very short distance away",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "956a4710-feac-511f-8899-08b015eff4b0",
+   "lemma": "stopgap",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stopgap"
+   ],
+   "glossEn": "temporary solution until a better one is found",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "46a20082-9927-527a-a58e-b0f18aaef7b1",
+   "lemma": "stowaway",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stowaway"
+   ],
+   "glossEn": "person hiding on a ship or plane to travel free",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "f5733da5-2981-52b5-ae40-346fbd78dc91",
+   "lemma": "stratum",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stratum"
+   ],
+   "glossEn": "layer of rock or soil",
+   "proposedTopics": [],
+   "levelConfidence": 0.9
+  },
+  {
+   "id": "ce082e13-1d54-529b-9ab5-3b6d097bfacc",
+   "lemma": "straw man",
+   "pos": "phrase",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "straw man"
+   ],
+   "glossEn": "distorted version of an argument, set up to be attacked",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "f4edbc3d-f965-55f6-875d-ffe7e94e8e61",
+   "lemma": "stymie",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stymie"
+   ],
+   "glossEn": "prevent or hinder the progress of",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "ee46162d-d4f3-5631-8b15-248a50153cf2",
+   "lemma": "subjugate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subjugate"
+   ],
+   "glossEn": "bring under domination or control by force",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "6dda5d83-e2ff-5ded-9629-8d3f078cfb22",
+   "lemma": "sublime",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sublime"
+   ],
+   "glossEn": "of such excellence or beauty as to inspire awe",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "32c3683a-a9fb-5690-921d-c1eec67085d8",
+   "lemma": "subsume",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subsume"
+   ],
+   "glossEn": "include or absorb something in a larger category",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "55c659ae-2f44-546c-a5eb-066ed283bd29",
+   "lemma": "subvert",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subvert"
+   ],
+   "glossEn": "undermine the power and authority of a system",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "ec485cf5-43ac-55b6-9bac-0c6649f02633",
+   "lemma": "suffrage",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "suffrage"
+   ],
+   "glossEn": "the right to vote in elections",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  }
+ ]
+}

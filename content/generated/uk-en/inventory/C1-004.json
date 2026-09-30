@@ -1,0 +1,571 @@
+{
+ "chunk": "C1-004",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "faac17ea-2689-5b5f-b778-26dbdd51c994",
+   "lemma": "binge",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "binge"
+   ],
+   "glossEn": "short period of excessive eating or drinking",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "e2489829-7d68-5709-8680-a27b7fa83f69",
+   "lemma": "biodegradable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "biodegradable"
+   ],
+   "glossEn": "able to decay naturally without harming the environment",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "e9793839-d89d-5424-a838-0106acbe5f11",
+   "lemma": "biodiversity",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "biodiversity"
+   ],
+   "glossEn": "variety of living species in a habitat or on Earth",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "30689e09-3ab5-59c4-8593-c9c05c08e04a",
+   "lemma": "biometric",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "biometric"
+   ],
+   "glossEn": "using fingerprints or face to identify a person",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "127c428f-7390-51b7-acca-49561271dedb",
+   "lemma": "bipartisan",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bipartisan"
+   ],
+   "glossEn": "supported by two opposing political parties",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "508a6bc2-5ba4-5ce3-88b9-5c510954f3bd",
+   "lemma": "blackout",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blackout"
+   ],
+   "glossEn": "period without electricity or with all lights hidden",
+   "proposedTopics": [
+    "military",
+    "city"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "ac7a9079-74dc-5e40-8a58-07d2c115c8b6",
+   "lemma": "bland",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bland"
+   ],
+   "glossEn": "lacking strong flavor or seasoning",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "8ac92d07-b4b4-5457-94c1-91c92ed5fd9e",
+   "lemma": "blatant",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blatant"
+   ],
+   "glossEn": "done openly and unashamedly, obvious",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "6a3cc2f2-ee94-51ca-bf30-6524d6087b07",
+   "lemma": "blatantly",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blatantly"
+   ],
+   "glossEn": "openly and obviously, without shame",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "2bb49ef9-8b8a-5e57-b4d3-5f2af77a50cc",
+   "lemma": "bleak",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bleak"
+   ],
+   "glossEn": "lacking warmth, hope or encouragement",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "d5b628f3-a0bf-5b39-940b-9e2da9dd283c",
+   "lemma": "blister",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blister"
+   ],
+   "glossEn": "fluid-filled bubble on the skin from friction",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "199feef5-ffb3-5371-a6cd-0bacfeee3468",
+   "lemma": "blizzard",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blizzard"
+   ],
+   "glossEn": "severe snowstorm with strong winds",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "06797f2f-f994-5c6a-aeba-bd175fc3e241",
+   "lemma": "bloated",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bloated"
+   ],
+   "glossEn": "swollen with fluid or gas",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "657c8e9f-8cb2-5d7f-bdb4-bd63274e632f",
+   "lemma": "blockbuster",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blockbuster"
+   ],
+   "glossEn": "hugely successful and expensive film or book",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "f170fdbf-247f-562e-bca7-f2466bba471a",
+   "lemma": "blockchain",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blockchain"
+   ],
+   "glossEn": "shared digital ledger of records that cannot be altered",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "fed52312-5f8d-5238-a794-d168eb7d7b0a",
+   "lemma": "blunt",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blunt"
+   ],
+   "glossEn": "speaking directly without trying to be polite",
+   "proposedTopics": [],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "5415e4a5-faba-56bd-a061-995ce419ce5a",
+   "lemma": "blurb",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blurb"
+   ],
+   "glossEn": "short promotional description on a book cover",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "b219e01d-6d41-58fb-8696-4e26eb659a90",
+   "lemma": "body armor",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "body armor"
+   ],
+   "glossEn": "protective vest worn against bullets and shrapnel",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "c7d16fe9-7336-5ab7-8c50-d34e7bd50b10",
+   "lemma": "bolster",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bolster"
+   ],
+   "glossEn": "support or strengthen something",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "a2def9b2-e06f-577a-ad22-f425757d0c81",
+   "lemma": "borough",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "borough"
+   ],
+   "glossEn": "administrative district of a large city",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "c84eb0b4-5f7c-52df-9e46-0e3b258d8d94",
+   "lemma": "bottle up",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bottle up"
+   ],
+   "glossEn": "keep feelings hidden instead of expressing them",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "9a655efd-a432-5276-8901-865b3cb04466",
+   "lemma": "bottleneck",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bottleneck"
+   ],
+   "glossEn": "point where work slows because capacity is limited",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "f18531d2-258e-5892-9850-5d9aa963ae73",
+   "lemma": "bottom line",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bottom line"
+   ],
+   "glossEn": "final profit or loss; the essential point",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "0bf31bb1-ded0-59f4-b96e-5f87c1acf883",
+   "lemma": "box office",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "box office"
+   ],
+   "glossEn": "ticket sales of a film, or the ticket counter",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "7affd308-669b-5533-9812-e750dba72fa0",
+   "lemma": "breach",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "breach"
+   ],
+   "glossEn": "act of breaking a contract, rule, or agreement",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "9d1c910b-cd54-5959-9e76-4179dd02a761",
+   "lemma": "breadwinner",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "breadwinner"
+   ],
+   "glossEn": "family member who earns the money",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "3db92446-cce2-5049-95c9-dab4e8528be2",
+   "lemma": "bribery",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bribery"
+   ],
+   "glossEn": "giving money to influence someone dishonestly",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "92fd9027-8e28-58ec-bbcd-0d3c540ab2f8",
+   "lemma": "brick-and-mortar",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brick-and-mortar"
+   ],
+   "glossEn": "of a physical store rather than an online one",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d9a4fdc2-4594-5efb-9e6b-c79b3377bf63",
+   "lemma": "brigade",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brigade"
+   ],
+   "glossEn": "large army unit made up of several battalions",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "b3c615d5-eca6-5615-bd05-3d1347f8cd4d",
+   "lemma": "broadly speaking",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "broadly speaking"
+   ],
+   "glossEn": "in general terms, without details",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d152a809-9667-59bd-ac3f-d6e7268f3739",
+   "lemma": "broth",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "broth"
+   ],
+   "glossEn": "thin soup made by boiling meat, bones or vegetables",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "22bd3850-ccb1-5755-9cdf-99664d6e8245",
+   "lemma": "bulky",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bulky"
+   ],
+   "glossEn": "large and awkward to carry or store",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "dbc51bb9-17ab-5966-acf4-25e95437e66e",
+   "lemma": "bunker",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bunker"
+   ],
+   "glossEn": "reinforced underground shelter against bombs",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d18b745b-1be2-5bdf-ab52-8518c663d39f",
+   "lemma": "burnout",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "burnout"
+   ],
+   "glossEn": "exhaustion caused by prolonged stress",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "8b6d1c03-6983-59b4-894e-88dfb1dfa3dc",
+   "lemma": "by and large",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "by and large"
+   ],
+   "glossEn": "generally speaking, mostly",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "0244a260-9127-5b91-8693-616e67e70875",
+   "lemma": "by contrast",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "by contrast"
+   ],
+   "glossEn": "used to show a clear difference",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "19c1ebb2-ed8a-5384-858e-182c67c201e3",
+   "lemma": "by no means",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "by no means"
+   ],
+   "glossEn": "not at all, in no way",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "4174721e-89a8-5cf9-8ccf-aa680c2f3cb7",
+   "lemma": "byline",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "byline"
+   ],
+   "glossEn": "line naming the writer of a newspaper article",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "84321525-7fc0-59a2-84f3-1acf8a2c6b55",
+   "lemma": "bypass",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bypass"
+   ],
+   "glossEn": "road that goes around a town center",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "53600138-2b97-57fd-a621-9c2ac0391ca4",
+   "lemma": "cache",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cache"
+   ],
+   "glossEn": "temporary storage that speeds up repeated access to data",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.75
+  }
+ ]
+}

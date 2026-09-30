@@ -1,0 +1,554 @@
+{
+ "chunk": "C1-002",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "6039d4da-2e0c-5e9d-bd70-627d4694c9b2",
+   "lemma": "amend",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "amend"
+   ],
+   "glossEn": "make minor changes to improve a text or rule",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "e2b7882e-d586-53c1-b2bd-ac914675ccc5",
+   "lemma": "amendment",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "amendment"
+   ],
+   "glossEn": "formal change to a document or contract",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "bff2ac51-1cab-503c-a731-19866a13653c",
+   "lemma": "amenity",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "amenity"
+   ],
+   "glossEn": "useful facility or service, e.g. in a hotel",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "6b44f8b8-906d-5f60-80c9-031937b26224",
+   "lemma": "amid",
+   "pos": "preposition",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "amid"
+   ],
+   "glossEn": "in the middle of, surrounded by",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "61261095-1d2e-5fc1-b3db-a28b24354acc",
+   "lemma": "ammunition",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ammunition"
+   ],
+   "glossEn": "bullets, shells and other projectiles fired from weapons",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "042b84c7-3dbd-51f4-84fd-5d06c2b492af",
+   "lemma": "amnesty",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "amnesty"
+   ],
+   "glossEn": "official pardon for people convicted of offenses",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "2eceea45-c2ac-5b67-b913-f0c4db135ea1",
+   "lemma": "amphibian",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "amphibian"
+   ],
+   "glossEn": "animal living both in water and on land",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d1b4fbcf-51b3-5f1e-ac49-99e8de934718",
+   "lemma": "analytics",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "analytics"
+   ],
+   "glossEn": "systematic analysis of data to find patterns",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "21bc3a07-f70c-57e1-97c8-a5bd2dfe8ad9",
+   "lemma": "ancestry",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ancestry"
+   ],
+   "glossEn": "one's family origins going back generations",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "de7c00ce-7239-5270-9e35-27702406c6f6",
+   "lemma": "anesthetic",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "anesthetic"
+   ],
+   "glossEn": "drug that removes the feeling of pain",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "d1320781-5152-5b30-b0d1-47eb853a4309",
+   "lemma": "animosity",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "animosity"
+   ],
+   "glossEn": "strong hostility or dislike",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "8617bbbd-517a-553e-bc00-8581f37e6b30",
+   "lemma": "anonymity",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "anonymity"
+   ],
+   "glossEn": "state of not being identified by name",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "eb3fbf5a-6085-5c55-8919-53e7e861b281",
+   "lemma": "anonymize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "anonymize"
+   ],
+   "glossEn": "remove details that could identify a person from data",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "23663161-ff79-5ede-bcc6-6fbb233b2291",
+   "lemma": "antagonist",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "antagonist"
+   ],
+   "glossEn": "character who opposes the main character",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "bc917ea6-11bb-5747-bfc3-f7bcd299cf66",
+   "lemma": "antagonize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "antagonize"
+   ],
+   "glossEn": "cause someone to become hostile",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "6da52783-e2a4-5753-8d2f-a2129578cab7",
+   "lemma": "anthology",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "anthology"
+   ],
+   "glossEn": "collection of poems, stories or essays by various authors",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "0ef71310-a4b5-5a50-969e-f6fb38988618",
+   "lemma": "apathetic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "apathetic"
+   ],
+   "glossEn": "showing no interest, enthusiasm or concern",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "144a1383-f30a-5a56-953c-6bc4dba01e91",
+   "lemma": "appalling",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "appalling"
+   ],
+   "glossEn": "causing shock or dismay, horrifying",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "1c2ce4bd-b9ee-591c-8913-3e94a1809224",
+   "lemma": "appease",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "appease"
+   ],
+   "glossEn": "pacify someone by giving in to their demands",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "8b7a9300-e755-5947-b0dc-116f6929d9f1",
+   "lemma": "appendix",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "appendix"
+   ],
+   "glossEn": "extra material placed at the end of a document",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "da6130e4-f296-5f6f-b310-d9597f663ca2",
+   "lemma": "appetizing",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "appetizing"
+   ],
+   "glossEn": "looking or smelling good to eat",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "da0a48e0-157d-5b67-80ad-6294c47775aa",
+   "lemma": "appraisal",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "appraisal"
+   ],
+   "glossEn": "formal assessment of an employee's performance",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "4483d5b8-cd0b-5a91-b6bf-e25006325ce9",
+   "lemma": "appraise",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "appraise"
+   ],
+   "glossEn": "assess the value or quality of something",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "dfce5ffb-876f-55d3-974f-e17e50460b08",
+   "lemma": "apprehensive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "apprehensive"
+   ],
+   "glossEn": "anxious that something bad may happen",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "961b0f91-cc05-5bb4-a5fd-4617a927638c",
+   "lemma": "apprenticeship",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "apprenticeship"
+   ],
+   "glossEn": "period of learning a trade from a skilled worker",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "732c0c82-30bd-5baa-88cb-1b6da7b81ca9",
+   "lemma": "approachable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "approachable"
+   ],
+   "glossEn": "friendly and easy to talk to",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "e1353392-7ffd-5374-9fa4-d7e95daee0ea",
+   "lemma": "aptitude",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aptitude"
+   ],
+   "glossEn": "natural ability to learn or do something",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b1d63df0-b43d-5dfa-9af9-b3b3176262a7",
+   "lemma": "arbitrary",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "arbitrary"
+   ],
+   "glossEn": "based on random choice rather than reason",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "585b1a54-d6f2-512c-9721-9f75a515a111",
+   "lemma": "arbitration",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "arbitration"
+   ],
+   "glossEn": "settling a dispute through a neutral third party",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "0c60e469-40c5-5942-9d11-5c86b36a61d9",
+   "lemma": "archipelago",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "archipelago"
+   ],
+   "glossEn": "group of islands",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "b02643cb-7eff-55fe-a716-d3171e844c48",
+   "lemma": "arguably",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "arguably"
+   ],
+   "glossEn": "it can be argued, probably true",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "eff8edd3-a4db-52cc-87d6-f8ac3b8855f1",
+   "lemma": "arid",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "arid"
+   ],
+   "glossEn": "very dry with little or no rain",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "bf3468c4-408d-527f-9c9f-8dd515d86dab",
+   "lemma": "armored",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "armored"
+   ],
+   "glossEn": "protected by heavy metal plating",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "2253031f-74a1-5db8-a4ad-b519889142de",
+   "lemma": "arthouse",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "arthouse"
+   ],
+   "glossEn": "artistic, experimental, not made for mass audiences, of films",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "0f4c82a5-cce2-56c1-a196-0f8025b4bf2d",
+   "lemma": "artillery",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "artillery"
+   ],
+   "glossEn": "large guns that fire shells over long distances",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "90611377-c8c8-5225-b427-024272e041b7",
+   "lemma": "artisan",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "artisan"
+   ],
+   "glossEn": "skilled worker who makes things by hand",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "216edad7-39d1-57f3-b4c5-764781c03617",
+   "lemma": "as such",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as such"
+   ],
+   "glossEn": "in the exact sense; consequently",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "908d5c02-fa14-5354-9096-efaa52522421",
+   "lemma": "as yet",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as yet"
+   ],
+   "glossEn": "until now, so far",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "ab945438-1dfe-5f1b-b6b2-cfd6390e40f3",
+   "lemma": "ascertain",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ascertain"
+   ],
+   "glossEn": "find out something for certain",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "35ee3c2c-aca7-555e-923a-09f16c20a914",
+   "lemma": "assertion",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "assertion"
+   ],
+   "glossEn": "confident statement of fact or belief",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  }
+ ]
+}

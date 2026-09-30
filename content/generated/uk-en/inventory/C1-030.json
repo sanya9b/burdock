@@ -1,0 +1,554 @@
+{
+ "chunk": "C1-030",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "1554a60e-5489-5e2f-a97d-cd3174629d01",
+   "lemma": "turnover",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "turnover"
+   ],
+   "glossEn": "total money a business receives; rate of staff leaving",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "ad9c3589-1bc1-59f0-a9c8-99f961cd2248",
+   "lemma": "turnstile",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "turnstile"
+   ],
+   "glossEn": "rotating gate that lets one person through at a time",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "051f31f2-6d48-5d91-be98-d6bef81a68fa",
+   "lemma": "tutorial",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tutorial"
+   ],
+   "glossEn": "small-group teaching session led by a tutor",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "cbb3e93f-a452-5c72-a3d0-f6aa57446050",
+   "lemma": "typecast",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "typecast"
+   ],
+   "glossEn": "repeatedly give an actor the same kind of role",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "8025b023-a550-5f71-a065-368c9030adaa",
+   "lemma": "ultimatum",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ultimatum"
+   ],
+   "glossEn": "final demand with a threat if refused",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "714a6c28-1796-5213-9fa8-3ac84db592db",
+   "lemma": "ultraviolet",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ultraviolet"
+   ],
+   "glossEn": "having wavelengths shorter than visible violet light",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "b3913a99-b0b4-51f4-87da-6a103865eb04",
+   "lemma": "unanimous",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unanimous"
+   ],
+   "glossEn": "agreed by everyone",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "4fe1ed29-785a-5d80-8bbb-8b44f4dbef9c",
+   "lemma": "uncanny",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "uncanny"
+   ],
+   "glossEn": "strange or mysterious in an unsettling way",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "67cc4a25-aa83-58fa-8b60-e1f9c047ee71",
+   "lemma": "under the weather",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "under the weather"
+   ],
+   "glossEn": "slightly unwell",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "3ce46c1d-2969-5b04-bb66-b555b43310ea",
+   "lemma": "undercut",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "undercut"
+   ],
+   "glossEn": "sell at a lower price than a competitor",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "1fc4a7eb-842b-5511-8373-7924eea84403",
+   "lemma": "undermine",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "undermine"
+   ],
+   "glossEn": "gradually weaken or damage something",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "2cd41398-e1e5-5bdc-a764-3288143142a7",
+   "lemma": "underpass",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "underpass"
+   ],
+   "glossEn": "road or path that passes under another road",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "84bad3b5-9869-5cb1-b94c-4f17fb9d4d95",
+   "lemma": "underpin",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "underpin"
+   ],
+   "glossEn": "support, justify, or form the basis for",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "f124e02e-0c04-54b8-93e1-b2f5de946f5d",
+   "lemma": "underprivileged",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "underprivileged"
+   ],
+   "glossEn": "having fewer advantages than most people in society",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "8c76dd17-9ffa-53ba-ac75-e3a999828a4d",
+   "lemma": "underscore",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "underscore"
+   ],
+   "glossEn": "emphasize or draw attention to something",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "65ab7b79-be14-58aa-9372-da3f7f0ff9cc",
+   "lemma": "understated",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "understated"
+   ],
+   "glossEn": "deliberately restrained and not showy",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "8b9da183-4310-5bc2-a982-f8ed234f409e",
+   "lemma": "understudy",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "understudy"
+   ],
+   "glossEn": "actor who learns a role to replace the main performer",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "9407a490-441b-5e8a-a974-3c90be891795",
+   "lemma": "underwhelming",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "underwhelming"
+   ],
+   "glossEn": "disappointing, less impressive than expected",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "46ef2788-c789-5501-91dc-05e6eeed77c1",
+   "lemma": "unequivocal",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unequivocal"
+   ],
+   "glossEn": "leaving no doubt; completely clear",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "25cd3f7f-2eca-5a12-85c7-2898e8ccd775",
+   "lemma": "unexploded",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unexploded"
+   ],
+   "glossEn": "not yet detonated and still dangerous",
+   "proposedTopics": [
+    "military"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "18865cde-3683-59b3-bbe3-ccd5874b1383",
+   "lemma": "unquestionably",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unquestionably"
+   ],
+   "glossEn": "certainly, beyond any doubt",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "5db175b6-77ee-5df7-ab15-911da13a37f0",
+   "lemma": "unwind",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unwind"
+   ],
+   "glossEn": "relax after stress or work",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "65ff6304-b770-5162-9aec-26fe31d7b30f",
+   "lemma": "upheaval",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "upheaval"
+   ],
+   "glossEn": "sudden violent change or disruption",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "1f744092-cf0b-5b29-9d6b-2fa2900a65c0",
+   "lemma": "uphold",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "uphold"
+   ],
+   "glossEn": "confirm a decision or maintain a principle",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d8cb0b5b-6a75-57b5-9665-8f893a398658",
+   "lemma": "upkeep",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "upkeep"
+   ],
+   "glossEn": "work and cost of keeping something in good condition",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "582fc9f6-9825-5fee-9d18-a3b1cfece7bc",
+   "lemma": "urban sprawl",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "urban sprawl"
+   ],
+   "glossEn": "uncontrolled spread of a city into the countryside",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "07cb1074-2346-5e16-86cf-8a936b347c3c",
+   "lemma": "urbanization",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "urbanization"
+   ],
+   "glossEn": "growth of cities as people move from rural areas",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "80bfa0d4-dc3b-5fee-9b15-96dda5ec3b98",
+   "lemma": "usability",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "usability"
+   ],
+   "glossEn": "how easy and pleasant a product is to use",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "4a814a8a-d25e-5184-98db-172b06852a90",
+   "lemma": "user-friendly",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "user-friendly"
+   ],
+   "glossEn": "easy for ordinary people to use",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "6c0a8918-42aa-5c20-a0e0-fb15f956e86e",
+   "lemma": "utensil",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "utensil"
+   ],
+   "glossEn": "tool used for preparing or eating food",
+   "proposedTopics": [
+    "food"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "6974cb06-f97f-5727-a535-747975a67df2",
+   "lemma": "validate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "validate"
+   ],
+   "glossEn": "confirm that something is sound or acceptable",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "e84694b9-f20e-5272-b13c-3aa3f74430ba",
+   "lemma": "validity",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "validity"
+   ],
+   "glossEn": "quality of being logically or factually sound",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "2be63a8c-edc3-57d3-9e7e-1688efdab6d9",
+   "lemma": "variable",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "variable"
+   ],
+   "glossEn": "factor that can change in an experiment",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "527df43b-dfbb-5009-9398-bb8c535d3dd4",
+   "lemma": "vegetation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vegetation"
+   ],
+   "glossEn": "plants in general, especially of an area",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "1176618e-e9b0-5ec6-98c5-0c2c3e87b822",
+   "lemma": "velocity",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "velocity"
+   ],
+   "glossEn": "speed of something in a given direction",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "078d17ad-46f5-5161-a459-b255f34160ed",
+   "lemma": "vendor",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vendor"
+   ],
+   "glossEn": "person or company that sells goods",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "4fbcd4a9-de2e-5712-b08b-e9db83a94d9b",
+   "lemma": "verdict",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "verdict"
+   ],
+   "glossEn": "decision of a jury or judge in a trial",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "40ee94dd-6fa9-5ef7-bbcc-acec1f70a3cd",
+   "lemma": "versatile",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "versatile"
+   ],
+   "glossEn": "able to adapt to many different functions",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "de911251-adc0-5e9e-98a7-f62f46569465",
+   "lemma": "veto",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "veto"
+   ],
+   "glossEn": "reject a decision or proposal officially",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "fa730ccd-9486-564e-987a-c800efe39171",
+   "lemma": "viable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "viable"
+   ],
+   "glossEn": "capable of working successfully",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  }
+ ]
+}

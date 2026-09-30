@@ -1,0 +1,554 @@
+{
+ "chunk": "C1-014",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "3c03558e-e971-57af-874b-8bbaafa88e24",
+   "lemma": "grimy",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "grimy"
+   ],
+   "glossEn": "covered with ingrained dirt",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "b3be4b94-d669-5809-8f1f-aad9df9c91cd",
+   "lemma": "groggy",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "groggy"
+   ],
+   "glossEn": "dazed and weak, as after sleep or illness",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "0916eb8e-f909-5967-9133-c4f1ee7b82bb",
+   "lemma": "grotesque",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "grotesque"
+   ],
+   "glossEn": "comically or repulsively ugly or distorted",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "208a4ac3-ff99-5ba8-af0d-b48badee1f23",
+   "lemma": "groundwater",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "groundwater"
+   ],
+   "glossEn": "water held underground in soil and rock",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "3702e687-3534-57d4-8063-3525c3d002ca",
+   "lemma": "grudge",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "grudge"
+   ],
+   "glossEn": "persistent ill will over a past wrong",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "6659082e-14cb-5b54-a4fc-694940e1fd00",
+   "lemma": "gullible",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gullible"
+   ],
+   "glossEn": "easily persuaded to believe something",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "ad788a86-f4e0-5fa4-a4d5-d7d9117ce0de",
+   "lemma": "habitual",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "habitual"
+   ],
+   "glossEn": "done regularly as a habit",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "67246e84-9352-5b9f-8bc1-9b3572cb5165",
+   "lemma": "haggle",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "haggle"
+   ],
+   "glossEn": "negotiate persistently over the price of something",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "95496ade-c028-507f-87da-cff899fd9f79",
+   "lemma": "half board",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "half board"
+   ],
+   "glossEn": "hotel rate including breakfast and dinner",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "6d684996-7169-56cf-a28c-676ff794d75e",
+   "lemma": "hamper",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hamper"
+   ],
+   "glossEn": "restrict the movement or progress of",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "859d02af-2586-5673-9587-3697ae1a27a8",
+   "lemma": "hand-me-down",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hand-me-down"
+   ],
+   "glossEn": "used item passed on from someone else",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "1eef898b-2ad5-5973-b603-88f33c06d9bd",
+   "lemma": "handyman",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "handyman"
+   ],
+   "glossEn": "person paid to do small repairs around the home",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "c18719a7-c2f5-5059-8f58-5b203eb32974",
+   "lemma": "harassment",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "harassment"
+   ],
+   "glossEn": "unwanted behavior that intimidates or offends",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "d1b932ca-454c-52f2-bccf-2f5fb8debf7a",
+   "lemma": "hasten",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hasten"
+   ],
+   "glossEn": "make something happen sooner or more quickly",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "26923f0d-cd33-5165-bffa-16389bc33d59",
+   "lemma": "heckle",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heckle"
+   ],
+   "glossEn": "interrupt a performer with rude shouted remarks",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "14f5b95f-010d-5797-8efd-d1becdea701e",
+   "lemma": "hefty",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hefty"
+   ],
+   "glossEn": "large and heavy, especially of a price or sum",
+   "proposedTopics": [
+    "shopping"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "87dbcfac-e111-569e-abc4-c6a4a34f4f3e",
+   "lemma": "heir",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heir"
+   ],
+   "glossEn": "person legally entitled to inherit property or a title",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "57ecd1d8-0377-55f7-9c6f-205a28bfb405",
+   "lemma": "heirloom",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heirloom"
+   ],
+   "glossEn": "valuable object passed down through generations",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "c2f941f4-acbb-5262-b8cc-fa28507da6a0",
+   "lemma": "hemisphere",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hemisphere"
+   ],
+   "glossEn": "half of the Earth, north or south",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "66af29e6-f29f-53bf-a4fb-44fe823b93b0",
+   "lemma": "hence",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hence"
+   ],
+   "glossEn": "for this reason; as a result",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "23237f07-3013-502a-8618-24343110ed5f",
+   "lemma": "herbivore",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "herbivore"
+   ],
+   "glossEn": "animal that feeds only on plants",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "d14fee74-1edb-5d7d-ad5a-70aceea27fd6",
+   "lemma": "hereditary",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hereditary"
+   ],
+   "glossEn": "passed genetically from parent to child",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "a054b27f-7923-5c77-b666-969760ea759d",
+   "lemma": "heredity",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heredity"
+   ],
+   "glossEn": "passing of traits from parents to offspring",
+   "proposedTopics": [],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "5464fac1-029a-57de-ac6b-778155ecc8e7",
+   "lemma": "hesitant",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hesitant"
+   ],
+   "glossEn": "slow to act or speak through uncertainty",
+   "proposedTopics": [],
+   "levelConfidence": 0.65
+  },
+  {
+   "id": "47645a4c-1f0e-5ea7-a130-3ed2a392a84f",
+   "lemma": "hibernate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hibernate"
+   ],
+   "glossEn": "spend winter in a deep sleep, of animals",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "26d3edf5-f10c-5b0f-b211-8779c5eaab6a",
+   "lemma": "hideous",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hideous"
+   ],
+   "glossEn": "extremely ugly",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "52a00d8b-693a-5cd5-b480-04919ab45043",
+   "lemma": "hierarchy",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hierarchy"
+   ],
+   "glossEn": "system ranking people by authority",
+   "proposedTopics": [
+    "work"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "a738914b-d5b1-5f18-8310-6305d685d5d0",
+   "lemma": "high-rise",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "high-rise"
+   ],
+   "glossEn": "very tall building with many floors",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.85
+  },
+  {
+   "id": "989fc178-cfce-5d27-bfca-abb14ba6b3fa",
+   "lemma": "hinder",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hinder"
+   ],
+   "glossEn": "make progress difficult; obstruct",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "f759b0a1-4bd6-5478-b9f5-36810c1c0097",
+   "lemma": "hinge",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hinge"
+   ],
+   "glossEn": "depend entirely on something",
+   "proposedTopics": [],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "17bd7d24-60c3-502a-81bf-35c05e736105",
+   "lemma": "hoard",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hoard"
+   ],
+   "glossEn": "collect and keep large amounts of things",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "120fe9a7-0d02-5e1a-b8aa-990efcdd8aee",
+   "lemma": "hoarse",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hoarse"
+   ],
+   "glossEn": "(of a voice) rough and harsh",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "56fa2b2f-31d1-5b99-a820-6178c4d6059a",
+   "lemma": "hoax",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hoax"
+   ],
+   "glossEn": "deliberate trick that makes people believe something false",
+   "proposedTopics": [
+    "communication"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "42639214-75ef-5e80-9671-a430b6e22a02",
+   "lemma": "holistic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "holistic"
+   ],
+   "glossEn": "treating the whole person, not just symptoms",
+   "proposedTopics": [
+    "health"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "7f52afe2-0583-5e12-bcf5-f4218a9bbdc6",
+   "lemma": "homebody",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "homebody"
+   ],
+   "glossEn": "person who prefers staying at home",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "0a9de12a-c17a-57fb-a0b3-f981b96879fa",
+   "lemma": "hostile",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hostile"
+   ],
+   "glossEn": "unfriendly, showing opposition or dislike",
+   "proposedTopics": [],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "ae4cce1e-9cf6-549f-8195-f407b9e1a138",
+   "lemma": "hotfix",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hotfix"
+   ],
+   "glossEn": "small urgent update that fixes a serious bug",
+   "proposedTopics": [
+    "it"
+   ],
+   "levelConfidence": 0.75
+  },
+  {
+   "id": "d9aeb237-badc-518e-bdbc-62e5e6f16617",
+   "lemma": "housekeeping",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "housekeeping"
+   ],
+   "glossEn": "hotel department that cleans and prepares rooms",
+   "proposedTopics": [
+    "travel"
+   ],
+   "levelConfidence": 0.7
+  },
+  {
+   "id": "5ef7c636-3ee6-5cc2-b72b-da65b7cc390e",
+   "lemma": "hub",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hub"
+   ],
+   "glossEn": "central point where transport routes meet",
+   "proposedTopics": [
+    "city"
+   ],
+   "levelConfidence": 0.8
+  },
+  {
+   "id": "02bed78d-dd3a-5fdf-b986-55f4720c0cc5",
+   "lemma": "humanities",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "humanities"
+   ],
+   "glossEn": "academic study of literature, history, philosophy and the arts",
+   "proposedTopics": [],
+   "levelConfidence": 0.75
+  }
+ ]
+}
