@@ -128,9 +128,12 @@ public sealed class WordCardViewModelTests
     [InlineData("I bought a ticket yesterday.", "ticket", "", "I bought a ", "ticket", " yesterday.")]
     [InlineData("Two tickets, please.", "ticket", "tickets", "Two ", "tickets", ", please.")]
     [InlineData("Thanks a lot!", "thank you", "thanks", "", "Thanks", " a lot!")]
+    [InlineData("I have a cat.", "a", "", "I have ", "a", " cat.")]
+    [InlineData("An apple a day keeps the doctor away.", "a", "", "An apple ", "a", " day keeps the doctor away.")]
+    [InlineData("She walked home.", "walk", "", "She ", "walk", "ed home.")]
     [InlineData("Nothing here.", "ticket", "", "Nothing here.", "", "")]
     [InlineData("", "ticket", "", "", "", "")]
-    public void Highlight_splits_the_example_around_the_longest_matching_form(string example, string lemma, string acceptedForm, string before, string match, string after)
+    public void Highlight_prefers_a_whole_word_then_a_word_start_then_any_substring_of_the_longest_form(string example, string lemma, string acceptedForm, string before, string match, string after)
     {
         var forms = acceptedForm.Length == 0 ? Array.Empty<string>() : [acceptedForm];
 

@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "chunk": "C2-015",
+ "reviewer": {"model": "claude-code/claude-fable-5-1", "promptVersion": "review-v1", "reviewedAt": "2026-10-01T00:00:00+00:00"},
+ "items": [
+{"id":"cf35c21c-628b-5515-8380-aaed4d9a28d8","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"1ffa8ea3-68d3-5555-a227-5f58e0aa27b1","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"4a39bcf4-3b05-5885-9c81-f054ec8daf83","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"e97a0879-6107-5b90-919e-6bea91282ac2","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"ab3a19b9-3d58-5874-a681-1fadcf079bba","scores":{"accuracy":5,"naturalness":4,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"unnatural_uk","suggestion":"«під псевдонімом автора» незграбно; краще «Роман вийшов під авторським псевдонімом»."}]}
+,
+{"id":"d5be3b01-1e19-5570-89c1-03fd61d16587","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"912c61f3-5762-52dd-bea4-0e4b4d4286a0","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"5196add3-f843-5b99-bae7-66197b70336e","scores":{"accuracy":3,"naturalness":3,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":true,"primaryAlternative":"нібито бути","issues":[{"reasonCode":"wrong_sense","suggestion":"purport = «нібито бути, видавати себе за»; «претендувати» не передає сенсу."},{"reasonCode":"unnatural_uk","suggestion":"«Що цей документ претендує довести?» неприродно; краще «Що нібито доводить цей документ?»."}]},
+{"id":"aa69656f-00d8-5efb-bf1a-9274a67b1894","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"b3e594e5-a848-555c-9043-d2640e5b6c30","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+,
+{"id":"d9fda812-18b5-59ff-b115-331fc7282398","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"08958cfb-877f-5042-9f40-33b6340cda91","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"db66ec16-739b-50c6-ae8b-58ff71e24ab6","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"ca59a1ea-1898-589a-9b69-5f7dec301b15","scores":{"accuracy":4,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"wrong_sense","suggestion":"«типовий» надто блідо для quintessential; точніше «взірцевий» або «найтиповіший»."}]},
+{"id":"17d10429-5e6d-5061-aa77-a89d3ce9ec19","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+,
+{"id":"8e635d81-a1ac-5807-a0b7-24f5911aefb0","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"d8d2bf27-78e6-5365-b895-54023ebb05aa","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"24fdfd80-e845-5b56-95a8-6e3f9a9af061","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"24d50ec3-77a5-5d3a-ae86-879eba5198f9","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"a4eb973e-eed1-5a0c-9fee-d56bf7a30041","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+,
+{"id":"e074356d-5de1-5a76-b66f-07359c1c4123","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"935deced-3a4a-522b-8826-e87d9a09af82","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"88f6aced-02e9-582f-8a6c-26f90a12e012","scores":{"accuracy":5,"naturalness":4,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"russism","suggestion":"«рекогносцировка» в altTranslations — росіянізм; замінити на «рекогносцирування»."}]},
+{"id":"01295377-c156-57ad-915c-845e769812b5","scores":{"accuracy":4,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"wrong_sense","suggestion":"«засіб захисту» вузько; загальніший основний переклад — «вихід» або «спосіб домогтися свого»."}]},
+{"id":"64b2ba70-2f25-5539-8e41-b5e20385decd","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+,
+{"id":"49531ef9-7ff3-5ad9-b807-5383d7bc9142","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"0f65ac2f-78b9-5273-bb51-b8748b51bd70","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"d7693a59-2e3c-5f72-8cba-ef17d1c97343","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"a94a1b9d-db9e-54fb-9eb6-f64ca49c7666","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"ba5fe4d4-dd3f-5f84-85f9-67cf35d59b77","scores":{"accuracy":5,"naturalness":4,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"unnatural_uk","suggestion":"«смакувала кожною ложкою» — керування хибне; «смакувала кожну ложку вишневого варення»."}]}
+,
+{"id":"13f111ae-f7cb-592f-8101-36f21f7b6344","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"18b3dd8a-28fd-52fc-b34d-f9c3ad40070d","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"df9a8fdd-71bd-51ed-9859-a817e21e7a4b","scores":{"accuracy":4,"naturalness":4,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"unnatural_uk","suggestion":"«перепалка» має відтінок сварки; точніше основне «обмін дотепами»."}]},
+{"id":"42c75928-7d02-5e0f-bacd-2b3698bfbcdc","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"eb8e759c-9b20-5c84-bac7-a4104f2ac01e","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+,
+{"id":"b467d345-43bf-5584-8f54-03a8e4123a85","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"2a672597-603f-570f-9a29-8cfd4ab081b7","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"1d94ce70-49c1-51d9-ac25-3286b4a7cddc","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"26b534c0-148c-5c75-a6f0-c61b0e36173d","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"c150d6eb-0df8-5ca7-98f1-15b7f5256c60","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+ ]
+}

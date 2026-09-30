@@ -1,0 +1,34 @@
+{
+ "schemaVersion": 1,
+ "packId": "uk-en.a1.it",
+ "pair": "uk-en",
+ "level": "A1",
+ "topic": "it",
+ "version": 1,
+ "generatedAt": "2026-09-30T23:43:18+00:00",
+ "provenance": {
+  "source": "burdock-pipeline generate-v1 + review-v1 (Claude Code, claude-fable-5-1)",
+  "status": "ai_reviewed",
+  "promptVersion": "generate-v1",
+  "reviewer": "review-v1",
+  "attributions": [
+   "cefrj-1.6",
+   "claude-outputs"
+  ]
+ },
+ "entries": [
+  {"id":"e4fa6214-6464-5faf-9cf2-7a35bc77ca79","lemma":"button","pos":"noun","level":"A1","topics":["it"],"translation":"кнопка","altTranslations":["ґудзик"],"acceptedForms":["button"],"ipaGa":"/ˈbʌtən/","ipaRp":"/ˈbʌtn/","exampleEn":"Press the red button to start.","exampleUk":"Натисніть червону кнопку, щоб почати.","frequencyBand":null},
+  {"id":"26c116b4-ab88-5801-a723-4b60ad92e1f4","lemma":"code","pos":"noun","level":"A1","topics":["it"],"translation":"код","altTranslations":["шифр"],"acceptedForms":["code"],"ipaGa":"/ˈkoʊd/","ipaRp":"/ˈkəʊd/","exampleEn":"The code for the door is 1234.","exampleUk":"Код від дверей — 1234.","frequencyBand":null},
+  {"id":"963060a3-5c6e-5e87-98e3-796cdbfd2280","lemma":"computer","pos":"noun","level":"A1","topics":["it"],"translation":"комп’ютер","altTranslations":[],"acceptedForms":["computer"],"ipaGa":"/kəmˈpjutər/","ipaRp":"/kəmˈpjuːtə/","exampleEn":"I work on my computer every day.","exampleUk":"Я щодня працюю за комп’ютером.","frequencyBand":null},
+  {"id":"9d5ec251-6f16-5da2-9ec1-4639413b7d59","lemma":"email","pos":"noun","level":"A1","topics":["it","communication"],"translation":"електронний лист","altTranslations":["електронна пошта","імейл"],"acceptedForms":["email","e-mail"],"ipaGa":"/ˈimeɪl/","ipaRp":"/ˈiːmeɪl/","exampleEn":"I got an email from my teacher.","exampleUk":"Я отримав електронного листа від учителя.","frequencyBand":null},
+  {"id":"5799f8ce-1a3f-5524-a546-3f19b74fb68f","lemma":"file","pos":"noun","level":"A1","topics":["it","work"],"translation":"файл","altTranslations":["папка","тека"],"acceptedForms":["file"],"ipaGa":"/faɪl/","ipaRp":"/faɪl/","exampleEn":"Please send me the file today.","exampleUk":"Будь ласка, надішліть мені файл сьогодні.","frequencyBand":null},
+  {"id":"4a13d12f-cc79-531d-bf97-cb0bb75915c0","lemma":"Internet","pos":"noun","level":"A1","topics":["it"],"translation":"інтернет","altTranslations":["мережа"],"acceptedForms":["Internet","the internet"],"ipaGa":"/ˈɪntərnɛt/","ipaRp":"/ˈɪntənet/","exampleEn":"I read the news on the Internet.","exampleUk":"Я читаю новини в інтернеті.","frequencyBand":null},
+  {"id":"937c5b34-afd1-5995-bc2c-ed72e5957a9a","lemma":"mobile phone","pos":"noun","level":"A1","topics":["communication","it"],"translation":"мобільний телефон","altTranslations":["мобільний","смартфон"],"acceptedForms":["mobile phone","mobilephone","mobile-phone"],"ipaGa":"/ˌmoʊbəl ˈfoʊn/","ipaRp":"/ˌməʊbaɪl ˈfəʊn/","exampleEn":"I need a new mobile phone.","exampleUk":"Мені потрібен новий мобільний телефон.","frequencyBand":null},
+  {"id":"c0760313-755b-5015-bd3a-a91df822b7cf","lemma":"phone","pos":"noun","level":"A1","topics":["communication","it"],"translation":"телефон","altTranslations":[],"acceptedForms":["phone"],"ipaGa":"/foʊn/","ipaRp":"/fəʊn/","exampleEn":"My phone is on the table.","exampleUk":"Мій телефон на столі.","frequencyBand":null},
+  {"id":"bca9121c-d685-50d7-8df5-def01ed2d02e","lemma":"program","pos":"noun","level":"A1","topics":["it"],"translation":"програма","altTranslations":["передача"],"acceptedForms":["program","programme"],"ipaGa":"/ˈproʊɡræm/","ipaRp":"/ˈprəʊɡræm/","exampleEn":"This program helps you learn new words.","exampleUk":"Ця програма допомагає вчити нові слова.","frequencyBand":null},
+  {"id":"10771b3b-2639-5b1c-9c22-3fc4a599c277","lemma":"save","pos":"verb","level":"A1","topics":["it"],"translation":"зберігати","altTranslations":["заощаджувати","рятувати"],"acceptedForms":["save"],"ipaGa":"/seɪv/","ipaRp":"/seɪv/","exampleEn":"Save the file before you close it.","exampleUk":"Збережіть файл, перш ніж закрити його.","frequencyBand":null},
+  {"id":"3e3f89e8-c6a9-560b-ac92-f45476b0c410","lemma":"site","pos":"noun","level":"A1","topics":["it"],"translation":"сайт","altTranslations":["місце","майданчик"],"acceptedForms":["site","website"],"ipaGa":"/saɪt/","ipaRp":"/saɪt/","exampleEn":"This site has a lot of good recipes.","exampleUk":"На цьому сайті багато добрих рецептів.","frequencyBand":null},
+  {"id":"8e688952-5124-5ff5-aa9e-6e5e5f5d54c2","lemma":"technology","pos":"noun","level":"A1","topics":["it"],"translation":"технологія","altTranslations":["техніка"],"acceptedForms":["technology"],"ipaGa":"/tɛkˈnɑlədʒi/","ipaRp":"/tɛkˈnɒlədʒi/","exampleEn":"New technology helps us learn languages.","exampleUk":"Нові технології допомагають нам вивчати мови.","frequencyBand":null},
+  {"id":"ec1c0249-ab75-522f-aea4-9e0c67c47e34","lemma":"video","pos":"noun","level":"A1","topics":["it"],"translation":"відео","altTranslations":["відеозапис"],"acceptedForms":["video"],"ipaGa":"/ˈvɪdioʊ/","ipaRp":"/ˈvɪdiəʊ/","exampleEn":"Anna sent me a short video of her cat.","exampleUk":"Анна надіслала мені коротке відео своєї кішки.","frequencyBand":null}
+ ]
+}

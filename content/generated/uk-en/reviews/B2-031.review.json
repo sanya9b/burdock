@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "chunk": "B2-031",
+ "reviewer": {"model": "claude-code/claude-fable-5-1", "promptVersion": "review-v1", "reviewedAt": "2026-10-01T00:00:00+00:00"},
+ "items": [
+{"id":"53d92750-f7e3-5249-abc7-76e2df46797f","scores":{"accuracy":5,"naturalness":4,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"unnatural_uk","suggestion":"«потуральний» рідковживане; краще alt «м’який» або «поступливий»."}]},
+{"id":"5514fa54-84c3-588b-bfe1-8581e174a711","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"b273b2ca-9eb7-5f25-b956-4bbb865ad855","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"7a9f63f2-ff63-5b58-b8b4-e25e37501c16","scores":{"accuracy":4,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"mismatch_en_uk","suggestion":"Перший укр. приклад передає «нерухомо», а не основний переклад «інертний»; доречно, але сенси різні."}]},
+{"id":"be2307be-bc74-59d5-9ea2-898b9bc387e7","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":4,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"other","suggestion":"alt «початківець» — іменник; для прикметника краще «недосвідчений, без досвіду»."}]}
+,
+{"id":"633bd03f-6f18-5d1e-974e-91d63fb5d355","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"efcbf210-7a0d-5992-a850-6f59c65ca45e","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"02219fe6-9dc9-5b46-9d53-f9117482d5ec","scores":{"accuracy":5,"naturalness":4,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"unnatural_uk","suggestion":"«запалився й заразився» громіздко; краще «за кілька днів у поріз потрапила інфекція»."}]},
+{"id":"246c628f-0150-5b5d-8739-79c0beaf2410","scores":{"accuracy":4,"naturalness":3,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":true,"primaryAlternative":null,"issues":[{"reasonCode":"unnatural_uk","suggestion":"Про сміх українською «заразливий», не «заразний»; у першому прикладі — «Її сміх такий заразливий…»."}]},
+{"id":"131cb37f-1c9c-589f-a066-ff28c62f37c1","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+,
+{"id":"3f57dcea-824e-5e16-bc87-2503fc8f967e","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"7dd71985-8500-5e51-87a0-415dd9534068","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"17e8c5ec-c0a8-5519-9417-76e73fd6033c","scores":{"accuracy":4,"naturalness":5,"levelFit":4,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"wrong_sense","suggestion":"Другий приклад уживає сенс «провокаційний», а не основний медичний; приклади лише для основного сенсу."}]},
+{"id":"e3de1e6f-35f8-5888-a343-b6040bdccc88","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"eeb87fec-f8f4-57a0-85e9-a8cf064e9af0","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+,
+{"id":"1e80ef9a-b9d9-5ecd-ac28-ddf38c2a484a","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"633d2be6-9031-596e-b9ca-4bb1afe87f9a","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"822a1b25-554b-5c0f-8875-3a3234a409f9","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":4,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"other","suggestion":"«flu» — окрема лексема, а не варіант написання; прибрати з acceptedForms, лишити в usageNote."}]},
+{"id":"8d6a9ec1-033b-5d85-bf7f-68320127e97b","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"59ae717c-e80b-5e74-b988-d707df00d134","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+,
+{"id":"5576a7b4-5747-5195-8681-724ca67c5f9f","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"8fc94cf8-7dc1-586e-ac4f-c9c68cd8b358","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"81454e43-0b71-5b93-a19c-5d0e549ec594","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"24897f91-5d4c-5ca8-909e-b0670e92656a","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"6a298aa5-e742-545d-b2c6-8b87db7ce263","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+,
+{"id":"7332ae47-2211-5065-b886-872060572559","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"eacd24b4-71ff-538c-8d76-1a71e7d67604","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"de531f26-8d4b-5c6d-9dfe-35f0b7689745","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"f72f2b24-c445-515b-8e10-82e998dba82f","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"543dd813-34d8-5823-b9cf-8051a694331a","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+,
+{"id":"0d57f560-bd62-5b6e-a2d4-408a77f152f4","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"976d9675-0e5b-5fef-8652-f29fe7632ac9","scores":{"accuracy":4,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"mismatch_en_uk","suggestion":"Другий укр. приклад передає «думку», а не «внесок»; узгодити з основним перекладом або дати alt «думка»."}]},
+{"id":"56c5effd-1f58-5cbe-b38c-2f7c20691b7c","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"12267b9d-0707-5135-9e88-c45268b835c8","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"d4866d1d-5125-52fb-95f7-b7cd6a724b62","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+,
+{"id":"96aacde8-5889-5c53-b2a5-679fdeb74c7f","scores":{"accuracy":4,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":4,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"wrong_ipa","suggestion":"Для іменника наголос однаковий в обох варіантах: GA /ˌɪnˈsaɪd/, як і RP."},{"reasonCode":"mismatch_en_uk","suggestion":"Укр. приклади передають «усередині/зсередини», а не «внутрішня частина»; узгодити хоча б один."}]},
+{"id":"f9e51aef-7b58-5825-ab9d-409c4a923f3b","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"e273e04d-fcc7-5fc9-80cf-f3100e4eb128","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"aa94200f-36e6-5684-94ca-4a71ff75312b","scores":{"accuracy":4,"naturalness":3,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":true,"primaryAlternative":"надихальний","issues":[{"reasonCode":"unnatural_uk","suggestion":"Активний дієприкметник «надихаючий» не властивий літературній нормі; краще «надихальний» або «що надихає»."}]},
+{"id":"f88a585e-3c00-5033-9a17-eb1e97d07750","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+ ]
+}

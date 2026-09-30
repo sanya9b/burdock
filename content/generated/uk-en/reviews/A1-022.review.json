@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "chunk": "A1-022",
+ "reviewer": {"model": "claude-code/claude-fable-5-1", "promptVersion": "review-v1", "reviewedAt": "2026-10-01T00:00:00+00:00"},
+ "items": [
+{"id":"da5033bd-60b9-5b89-a13f-c60f7fa72927","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"9a1ccfdd-2a8b-598b-be17-397227c4d961","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"43aca8bb-b089-5c69-91e4-95f6e9aef4ff","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"20a8ea69-991b-5c58-bee5-dbd9ebdbc125","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"10771b3b-2639-5b1c-9c22-3fc4a599c277","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":4},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"wrong_topic","suggestion":"Заощадження грошей — не «Покупки»; тему shopping краще прибрати."}]}
+,
+{"id":"d7842d4f-8362-55f5-9602-f1993306cf20","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"c783b1c6-de24-5f01-85f3-ac88034cdd6d","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"8e2d9a3c-44b5-50b5-870f-06ef6b51035e","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"1825e252-6941-55aa-bdc7-a009d5e058ce","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"bd37bce7-81d0-599b-99b8-6ca68e696c91","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+,
+{"id":"4052f0c1-915b-57a4-89bf-b71804a8810a","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"ae951662-8b5c-52db-96e6-9b0e5c21338a","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"06d6c4a9-b8ac-5ce5-a10a-8287f0acafbf","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"11b99efb-3e8d-5db5-a88c-221e6411a441","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"9dfd0462-6c48-5223-ae35-602852b3c084","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":4,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"other","suggestion":"«побачити» дублює aspectNote; в altTranslations лишити «розуміти»."}]}
+,
+{"id":"8b2db9e4-47e2-5a7d-b435-dca2e710e0d8","scores":{"accuracy":3,"naturalness":3,"levelFit":3,"safety":5,"grammarNotes":4,"topics":5},"autoReject":false,"needsRegeneration":true,"primaryAlternative":"себе","issues":[{"reasonCode":"unnatural_uk","suggestion":"«власне я» неприродне як словниковий переклад; дати «себе» або «власна особа»."},{"reasonCode":"too_hard","suggestion":"Ідіоми «her old self», «best self» вищі за A1; взяти прості речення з myself/yourself."}]},
+{"id":"cbd0f984-d71e-534d-98a5-fc04e08440d0","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"03199da8-ab72-5f0b-a6dc-57006258128c","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"c131c1ae-0f14-51ca-85b4-d021985487bc","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"1def6ec4-3744-5876-bf04-aeb6a28564ee","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+,
+{"id":"eaba88f5-63e5-558c-bfa1-efdec12a5a76","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"d8cd19c5-19a9-5927-b479-dd36cf83f3c1","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"a13e5a4a-3c79-5497-8c61-b23e5706ef7e","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"fa7e7752-909a-50c0-8404-1dd87a27cecd","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":4,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"other","suggestion":"«milkshake» в acceptedForms — інша лексема; лишити тільки «shake»."}]},
+{"id":"96b7a86f-7d51-5265-95a8-c6ca819c7c91","scores":{"accuracy":5,"naturalness":4,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"mismatch_en_uk","suggestion":"«We share a room with my sister» неприродне; краще «I share a room with my sister.»"}]}
+,
+{"id":"324a9fce-4ab3-58f7-a1bd-4f34a1951089","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"98879392-1553-5470-9e0a-ca339aa3e5db","scores":{"accuracy":4,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"wrong_sense","suggestion":"«баран» — це ram, не sheep; в altTranslations прибрати або дати «вівці»."}]},
+{"id":"b2ce4985-db88-5f2d-8edf-c3cc977b5b30","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"af065551-17a3-5fad-807e-3c04729c7a57","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"db3c7cc3-1f1e-5bbb-8928-3110f23cf76b","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+,
+{"id":"2ad61774-0430-5fbf-9d6b-4074ba53cd53","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"c2c6850d-c345-5d47-83ab-862c01750420","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"426cfa01-6bb2-5218-8dc9-4a51697459c3","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":4,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"other","suggestion":"genderNote «мн.» і usageNote «незлічуване» суперечать; уточнити: «незлічуване в англійській»."}]},
+{"id":"cf42f356-3580-55ba-a0f8-3f479f76c679","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"fdd5ce08-bf6e-56f1-9ead-ac6a2226bbe4","scores":{"accuracy":4,"naturalness":4,"levelFit":3,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":true,"primaryAlternative":"коротко","issues":[{"reasonCode":"too_hard","suggestion":"Ідіоми «stop short», «cut short» вищі за A1; дати «коротко» з простими прикладами (cut hair short)."}]}
+,
+{"id":"f98de71e-462b-5741-ab78-151792dcd28c","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"99d5d0e4-ad4d-5e6f-824e-2cef37dae716","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"b9dcecb1-1298-54e8-968f-f5effeae1371","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"5c11f800-faac-52b1-a841-ba490019afa6","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"fccac67f-b183-5109-8f7c-1f199c514367","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+ ]
+}

@@ -67,6 +67,8 @@ python content/pipeline/inventory/merge_proposals.py                 # → inven
 python content/pipeline/inventory/build_inventory.py --extra content/generated/uk-en/inventory/c1c2-proposals.json
 #   воркфлоу burdock-content-generate (промти content/pipeline/prompts/generate-v1.md, review-v1.md) → chunks/*.json, reviews/*.review.json
 python content/pipeline/packs/build_packs.py                         # lint + pack build → content/generated/uk-en/packs/*.json, index.json, report.json
+#   чорний список лем, які ніколи не потрапляють у пакети: content/pipeline/packs/blocklist.txt (лема або лема|pos, коментарі після #)
+#   report.json: excluded (причини), needsHuman (позначені рецензентом і не виправлені), unparseableChunks/unparseableReviews/incompleteChunks (файли, які ще пишуть агенти)
 
 # 3а. Аудіо вимови (ADR 0019; див. content/pipeline/audio/README.md)
 burdock-content audio render --pack content/seed/uk-en.free-pool.seed.json --out content/seed/audio --python .venv/Scripts/python.exe

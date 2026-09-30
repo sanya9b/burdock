@@ -32,6 +32,7 @@ MAX_WORDS = {"A1": 12, "A2": 12}
 FREE_POOL_PER_LEVEL = {"A1": 200, "A2": 200, "B1": 200}
 APOSTROPHES = str.maketrans({"'": "’", "ʼ": "’", "‘": "’", "´": "’"})
 FORBIDDEN_UK = set("ыэъёЫЭЪЁ")
+BLOCKLIST_FILE = REPO / "content/pipeline/packs/blocklist.txt"  # lemma or lemma|pos per line, # comments; never shipped
 CYRILLIC_WORD = re.compile(r"[А-Яа-яЄєІіЇїҐґ’]+")
 LATIN_IN_CYRILLIC = re.compile(r"(?=\w*[А-Яа-яЄєІіЇїҐґ])(?=\w*[A-Za-z])\w+")
 STRESS = "́"
@@ -50,10 +51,57 @@ def stem(form: str) -> str:
     return form[: max(4, len(form) - 2)] if len(form) > 5 else form[: max(3, len(form) - 1)]
 
 
+IRREGULAR_VERBS = {
+    "arise": "arose arisen", "awake": "awoke awoken", "be": "was were been is are am", "bear": "bore borne", "beat": "beaten",
+    "become": "became", "begin": "began begun", "bend": "bent", "bind": "bound", "bite": "bit bitten", "bleed": "bled",
+    "blow": "blew blown", "break": "broke broken", "breed": "bred", "bring": "brought", "build": "built", "burn": "burnt",
+    "buy": "bought", "catch": "caught", "choose": "chose chosen", "cling": "clung", "come": "came", "creep": "crept",
+    "deal": "dealt", "dig": "dug", "do": "did done does", "draw": "drew drawn", "dream": "dreamt", "drink": "drank drunk",
+    "drive": "drove driven", "eat": "ate eaten", "fall": "fell fallen", "feed": "fed", "feel": "felt", "fight": "fought",
+    "find": "found", "flee": "fled", "fling": "flung", "fly": "flew flown flies", "forbid": "forbade forbidden",
+    "forget": "forgot forgotten", "forgive": "forgave forgiven", "freeze": "froze frozen", "get": "got gotten",
+    "give": "gave given", "go": "went gone goes", "grind": "ground", "grow": "grew grown", "hang": "hung", "have": "had has",
+    "hear": "heard", "hide": "hid hidden", "hold": "held", "keep": "kept", "kneel": "knelt", "know": "knew known",
+    "lay": "laid", "lead": "led", "lean": "leant", "leap": "leapt", "learn": "learnt", "leave": "left", "lend": "lent",
+    "lie": "lay lain", "light": "lit", "lose": "lost", "make": "made", "mean": "meant", "meet": "met", "pay": "paid",
+    "prove": "proven", "ride": "rode ridden", "ring": "rang rung", "rise": "rose risen", "run": "ran", "say": "said",
+    "see": "saw seen", "seek": "sought", "sell": "sold", "send": "sent", "sew": "sewn", "shake": "shook shaken",
+    "shine": "shone", "shoot": "shot", "show": "shown", "shrink": "shrank shrunk", "sing": "sang sung", "sink": "sank sunk",
+    "sit": "sat", "sleep": "slept", "slide": "slid", "sling": "slung", "speak": "spoke spoken", "speed": "sped",
+    "spend": "spent", "spin": "spun", "spit": "spat", "spring": "sprang sprung", "stand": "stood", "steal": "stole stolen",
+    "stick": "stuck", "sting": "stung", "stink": "stank stunk", "stride": "strode", "strike": "struck", "string": "strung",
+    "strive": "strove striven", "swear": "swore sworn", "sweep": "swept", "swell": "swollen", "swim": "swam swum",
+    "swing": "swung", "take": "took taken", "teach": "taught", "tear": "tore torn", "tell": "told", "think": "thought",
+    "throw": "threw thrown", "tread": "trod", "wake": "woke woken", "wear": "wore worn", "weave": "wove woven",
+    "weep": "wept", "win": "won", "wind": "wound", "wring": "wrung", "write": "wrote written",
+}
+PARTICLES = {"a", "an", "the", "to", "of", "in", "on", "up", "out", "off", "into", "with", "for", "at", "by", "down", "away", "back", "over", "one's", "someone", "something", "sb", "sth"}
+
+
+def word_variants(word: str) -> set[str]:
+    """Surface forms a lemma word may take in an example: the word, its stem, y→i, irregular past/participle (also with a prefix, e.g. overtake)."""
+    w = word.lower()
+    out = {w, stem(w)}
+    if w.endswith("y"):
+        out.add(w[:-1] + "i")
+    if w.endswith("ie"):
+        out.add(w[:-2] + "y")  # lie → lying, tie → tying
+    for base, forms in IRREGULAR_VERBS.items():
+        if w == base:
+            out.update(forms.split())
+        elif w.endswith(base) and len(w) > len(base) + 1:
+            out.update(w[: -len(base)] + f for f in forms.split())
+    return out
+
+
 def contains_lemma(sentence: str, forms: list[str]) -> bool:
     low = sentence.lower()
     for form in forms:
-        if form.lower() in low or (" " not in form and stem(form) in low):
+        if form.lower() in low:
+            return True
+        words = form.lower().split()
+        content = [w for w in words if w not in PARTICLES] or words
+        if all(any(v in low for v in word_variants(w)) for w in content):
             return True
     return False
 
@@ -165,27 +213,47 @@ def pick_free_pool(by_level: dict[str, list[dict]]) -> list[dict]:
 def main() -> None:
     now = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
     inventory = {}
-    for path in INVENTORY.glob("*-*.json"):
+    for path in INVENTORY.glob("??-???.json"):  # chunk files only (c1c2-proposals.json lives next to them)
         for lexeme in json.loads(path.read_text(encoding="utf-8"))["lexemes"]:
-            inventory[lexeme["id"]] = lexeme
-    reviews = {}
+            inventory[lexeme["id"]] = {**lexeme, "chunk": path.stem}
+    reviews, unparseable_reviews = {}, []
     for path in REVIEWS.glob("*.review.json"):
-        for item in json.loads(path.read_text(encoding="utf-8")).get("items", []):
+        try:
+            document = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            unparseable_reviews.append(path.stem)  # still being written by a reviewer agent
+            continue
+        for item in document.get("items", []):
             reviews[item["id"]] = item
 
     PACKS.mkdir(parents=True, exist_ok=True)
     for old in PACKS.glob("*.json"):
         old.unlink()
 
-    accepted, report = [], {"chunks": 0, "entriesSeen": 0, "excluded": Counter(), "warnings": Counter(), "needsHuman": [], "excludedIds": []}
+    blocklist = set()
+    if BLOCKLIST_FILE.exists():
+        for raw in BLOCKLIST_FILE.read_text(encoding="utf-8").splitlines():
+            raw = raw.split("#", 1)[0].strip().lower()
+            if raw:
+                blocklist.add(tuple(raw.split("|", 1)) if "|" in raw else raw)
+    accepted, report = [], {"chunks": 0, "entriesSeen": 0, "excluded": Counter(), "warnings": Counter(), "needsHuman": [], "excludedIds": [], "unparseableChunks": [], "incompleteChunks": [], "unparseableReviews": unparseable_reviews}
     for path in sorted(CHUNKS.glob("*.json")):
-        chunk = json.loads(path.read_text(encoding="utf-8"))
+        try:
+            chunk = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as ex:
+            report["unparseableChunks"].append({"chunk": path.stem, "error": str(ex)[:120]})  # still being written by an agent
+            continue
+        expected = sum(1 for l in inventory.values() if l["chunk"] == path.stem)
+        if len(chunk.get("entries", [])) != expected:
+            report["incompleteChunks"].append({"chunk": path.stem, "entries": len(chunk.get("entries", [])), "expected": expected})
         level = chunk["level"]
         report["chunks"] += 1
         for entry in chunk["entries"]:
             report["entriesSeen"] += 1
             errors, warnings = validate(entry, level, inventory)
             review = reviews.get(entry.get("id"))
+            if entry.get("lemma", "").lower() in blocklist or (entry.get("lemma", "").lower(), entry.get("pos")) in blocklist:
+                errors.append("blocklisted")
             if review and review.get("autoReject") and not entry.get("regenerated"):
                 errors.append("review_auto_reject")
             if review and review.get("needsRegeneration") and not entry.get("regenerated"):

@@ -1,0 +1,5 @@
+# Lemmas that never ship in packs even if the source list contains them (offensive or slur senses).
+# One lemma per line, optionally lemma|pos. Reviewed by the owner; remove a line to allow the lemma again.
+gook      # ethnic slur in US English; CEFR-J B2 lists it, the generator used the "sticky mass" sense
+retard    # noun sense is a disability slur
+cripple   # noun sense is a disability slur

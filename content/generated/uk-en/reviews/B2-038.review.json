@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "chunk": "B2-038",
+ "reviewer": {"model": "claude-code/claude-fable-5-1", "promptVersion": "review-v1", "reviewedAt": "2026-10-01T00:00:00+00:00"},
+ "items": [
+{"id":"d4a82dff-56ad-5037-9d88-dca64145b830","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"f85d699f-35a5-502d-be1e-5a3f5eecee43","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"2157f007-07e6-5446-8ba4-3c560d62327c","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"34b81053-483d-5675-b26c-9415fca2a935","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"de48d61b-703a-553b-a61e-9dd92a6a153c","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+,
+{"id":"f0a1f308-b402-576c-baa5-c873f5a4f229","scores":{"accuracy":4,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"mismatch_en_uk","suggestion":"У першому прикладі прикметник передано прислівником; краще «Вона дуже скромна щодо свого успіху на роботі»."}]},
+{"id":"b0789787-1bea-5be1-bdba-31c2dab77e1c","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"4877ee9c-14ee-5894-b711-e5354a0ac70d","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"a8d58e00-521f-55e5-82d5-e7f96fcb2b25","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"7f748737-6370-5466-adf6-e93c4bd8c500","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+,
+{"id":"c7ee3556-fca4-5557-ba8c-3483070b2a33","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"577eb01a-f831-58ac-83ab-ec8eebdee53b","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":4,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"unsafe","suggestion":"Лексема релігійна, але приклади нейтральні (музей, туристи); прийнятно."}]},
+{"id":"3962efc2-75f7-5ef5-933e-0806904c1cf2","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"1ebc28d3-e1eb-547d-99c0-b9c71f0af6dc","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":4},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"wrong_topic","suggestion":"Тема travel (0.3) нетипова для слова; краще лишити без тем."}]},
+{"id":"22d8661c-7fab-5731-b704-a79a1a0b830a","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":4},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"wrong_topic","suggestion":"Тема travel слабко пов’язана; можна лишити без тем."}]}
+,
+{"id":"cc113bdd-bc83-5c36-98cb-b1fa5da2c8c0","scores":{"accuracy":4,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"mismatch_en_uk","suggestion":"У першому прикладі прикметник передано прислівником; можна «було морально правильно»."}]},
+{"id":"4287bebb-fb47-5f6b-abfd-3da8366c9dc7","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"8e635456-3b27-5cbc-a541-e4f1252dbff9","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"031cc79a-8d53-5275-9642-c2f6581601e1","scores":{"accuracy":4,"naturalness":5,"levelFit":5,"safety":4,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"mismatch_en_uk","suggestion":"У другому прикладі прикметник передано іменником «смертність»; краще «про те, що ми смертні»."}]},
+{"id":"444e0e25-ce3a-54b3-bcd0-cf4de0dee65d","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+,
+{"id":"6f75d215-4996-552e-98b9-8371bf3c2702","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"df17263a-74e4-5065-993c-01546e77cf92","scores":{"accuracy":4,"naturalness":3,"levelFit":5,"safety":5,"grammarNotes":4,"topics":5},"autoReject":false,"needsRegeneration":true,"primaryAlternative":"присоромлювати","issues":[{"reasonCode":"unnatural_uk","suggestion":"«страшенно соромити» неприродне як словниковий переклад; краще «присоромлювати» або «змушувати згоряти від сорому»."},{"reasonCode":"wrong_aspect","suggestion":"aspectNote не відповідає основному перекладу; узгодити пару з обраним перекладом."}]},
+{"id":"2184a474-0b08-53c0-951f-6e2410c37989","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"e2727daa-d3fc-5d53-aa4a-0a2fc88afea3","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"2bd6497a-979a-5891-8798-9e6439feca86","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+,
+{"id":"473d938e-53bf-52e8-94fc-eb6832d1777c","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"c8aa1f7d-45f6-53c0-be4f-61af8b592020","scores":{"accuracy":4,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"wrong_sense","suggestion":"«водій» ширше за motorist (саме автомобіліст); варто розглянути «автомобіліст» основним."}]},
+{"id":"017e8ff8-ce88-521c-810d-ed93f79d184c","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":4},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"wrong_topic","suggestion":"Тема it для сенсу «встановлювати полицю» нетипова; лишити без тем."}]},
+{"id":"1eace01f-1fe8-5ef2-aa98-26f6b412bfa3","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"c94196c1-a4ce-5aad-9297-d5c7ae765373","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+,
+{"id":"375f4ca3-9a60-56d4-afdd-0b41b2eb09b2","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"916ee34c-42db-551d-ac69-16be9670cc75","scores":{"accuracy":4,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"wrong_sense","suggestion":"«брудний» ширше за muddy; точніше «багнистий» / «забруднений багном», як у першому прикладі."}]},
+{"id":"22a5fd46-3d00-5ccd-8669-09acdd0a2381","scores":{"accuracy":4,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"wrong_sense","suggestion":"Основний переклад «численний» не збігається з прикладами («кількома», «кілька разів»); узгодити."}]},
+{"id":"7f8e20bb-83b4-50eb-ad9c-3e7d1d9aac86","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"528f0bd8-695b-5ee6-b398-cf3933c7440e","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+,
+{"id":"b22b5f11-7ac5-53ba-9f43-880b64c26846","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"30587304-894b-58ba-9451-b96e644d1947","scores":{"accuracy":4,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"mismatch_en_uk","suggestion":"Обидва приклади вживають альтернативи («гомін», «дзюрчання»), а не основний переклад «шепіт»; додати приклад із «шепіт»."}]},
+{"id":"769d8959-334a-5105-ac15-db7aa01bc43c","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"a0622167-304a-51e3-865b-70e297b92c14","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"f465b7e3-b78d-51f4-b236-b55ac4e5d482","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":4},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"wrong_topic","suggestion":"Тема health для «вуса» нетипова; лишити без тем."}]}
+ ]
+}

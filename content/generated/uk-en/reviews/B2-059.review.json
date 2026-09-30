@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "chunk": "B2-059",
+ "reviewer": {"model": "claude-code/claude-fable-5-1", "promptVersion": "review-v1", "reviewedAt": "2026-10-01T00:00:00+00:00"},
+ "items": [
+{"id":"1ab12e4d-7a7d-5ea8-90b2-0d64de965c97","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"1ff8f83d-e52d-5b17-8b6f-02d395476e2e","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"daffb0ba-4832-5de6-844b-1fab5cad2f39","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"ada50321-a73a-5571-855f-2e1df20f954d","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"3d040ef5-7619-5919-b34c-ef7e9beb193c","scores":{"accuracy":4,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"wrong_sense","suggestion":"Основний сенс stiff — «жорсткий, негнучкий»; «затерплий» краще лишити в altTranslations."}]}
+,
+{"id":"2195d2b1-118b-5863-b1d7-8ad6a1f6fe0a","scores":{"accuracy":5,"naturalness":4,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"other","suggestion":"«збудник» в altTranslations асоціюється з хворобами; краще «збуджувальний засіб» або прибрати."}]},
+{"id":"156ed309-f29f-54cf-8627-9141a920f590","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"7ad95280-0f67-526c-868d-985005f37a5e","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":4},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"wrong_topic","suggestion":"Тема health слабка для stimulation; можна лишити без тем."}]},
+{"id":"6ca716af-0d13-5737-954d-97eaa5a5b0fd","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"20a84cf9-a9e2-586a-a94f-f04bb5e6235b","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+,
+{"id":"9d7273a1-2a25-585d-a415-d36ea05e5fd6","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":4},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"wrong_topic","suggestion":"Тема shopping для stitch нетипова; краще без тем."}]},
+{"id":"0b434310-638d-5ced-988b-a45358e94d3a","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"d9c71379-e675-58e1-9aa2-0f45fbead27d","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"37eb2a7a-59a3-54cd-8cca-c037270df4c6","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"1d02f93f-1d2d-5761-bfff-9863b12b45b5","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+,
+{"id":"5eb1df5b-2f26-5c60-9e0d-bf18e2f63cd6","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":4},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"wrong_topic","suggestion":"Тема food для stool притягнута; краще без тем."}]},
+{"id":"08d62e72-0c0b-50d6-b428-692efa115497","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"d7d9dc32-6639-5c51-bea3-f5204b20b7ea","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"8232064c-b4dc-5877-b924-cd25018949ca","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"40b93854-b23e-5204-b473-78b9bcea0032","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+,
+{"id":"d8b5ed46-73e0-5cf0-a624-c2b5fc76663a","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"a4e68313-fbaf-5a40-97e8-78cc8904e210","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":4,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"wrong_aspect","suggestion":"В altTranslations «розтягнути» доконаний; узгодити з основним: «розтягувати»."}]},
+{"id":"f60bb89f-3db2-504b-b47c-c147df0bfd1c","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"3e834033-ad2b-5cc6-8cfe-06ddee636cae","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"d62e0104-db3b-5d9d-b53f-e8083dd0bdb7","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":4,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"unsafe","suggestion":"Лексема про удушення; приклади нейтральні, widgetSafe=false виставлено правильно."}]}
+,
+{"id":"4aa98f8d-57ee-5ecf-ba40-c728038cc92e","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"c6b5096c-6e61-5eec-99e9-63677dbee1a9","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"d059f0e1-8dcc-5249-a6e6-e8c1b1eb288f","scores":{"accuracy":4,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"mismatch_en_uk","suggestion":"В українському прикладі додано «упевнено», якого немає в англійському; прибрати."}]},
+{"id":"2cedc34e-70eb-5588-9282-6b85336f6ae0","scores":{"accuracy":5,"naturalness":3,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":true,"primaryAlternative":"разючий","issues":[{"reasonCode":"unnatural_uk","suggestion":"«вражаючий» — активний дієприкметник-калька; основним дати «разючий», у прикладах він уже вжитий."}]},
+{"id":"8f12bba9-3436-5195-8a9d-47e899d7c17d","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+,
+{"id":"6087fe07-1859-569b-b11d-68cc96ecc9c0","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"1941832d-129b-5308-b130-4efa5c867c51","scores":{"accuracy":2,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":4},"autoReject":true,"needsRegeneration":true,"primaryAlternative":"інсульт","issues":[{"reasonCode":"wrong_sense","suggestion":"Основний переклад «удар», а приклади про мазок і гребок; обрати один сенс і узгодити переклад із прикладами."}]},
+{"id":"9011358f-d2a7-551f-aa85-8d7279d69636","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":4},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"wrong_topic","suggestion":"Тема communication для stroke (гладити) нетипова; краще без тем."}]},
+{"id":"701cebc7-b199-53d4-b9f4-c45d31e377ff","scores":{"accuracy":3,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":true,"primaryAlternative":"насилу справлятися","issues":[{"reasonCode":"wrong_sense","suggestion":"Приклади в сенсі «ледве справлятися», а переклад «боротися»; узгодити переклад із прикладами."}]},
+{"id":"5cee98c8-0eb9-5b43-88ae-0ee862478b37","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+,
+{"id":"8bebe7cd-39eb-549a-b8d0-99126cd32b13","scores":{"accuracy":5,"naturalness":4,"levelFit":5,"safety":5,"grammarNotes":5,"topics":4},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"unnatural_uk","suggestion":"«так, що вона не зачиняється» → «так щільно, що вона не зачиниться»."},{"reasonCode":"wrong_topic","suggestion":"Тема travel для stuff слабка; краще без тем."}]},
+{"id":"d63d041d-327f-50c8-8363-f32b8a28e23c","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"9ca3c433-7f17-54e3-b8d7-d5cf028b4dfb","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"f3b750fb-e6c7-55da-9edb-dc00e3d46606","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"305b2cde-7ebe-5d11-a360-eef9af6870c5","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+ ]
+}

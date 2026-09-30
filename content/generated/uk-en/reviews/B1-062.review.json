@@ -1,0 +1,11 @@
+{
+ "schemaVersion": 1,
+ "chunk": "B1-062",
+ "reviewer": {"model": "claude-code/claude-fable-5-1", "promptVersion": "review-v1", "reviewedAt": "2026-10-01T00:00:00+00:00"},
+ "items": [
+  {"id": "5f871319-a27b-5f73-9ed7-715c3b5f1728", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": [{"reasonCode": "wrong_topic", "suggestion": "«communication» слабко типова для «written»; достатньо лишити «work»."}]},
+  {"id": "33c1d1e7-3db3-51ca-a4b6-3231d23f0a1a", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "ebaeffad-b0bb-5d36-95af-14c714f66ed5", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "acc7cf50-4b5f-5066-a63f-c70b2d5ef5d0", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []}
+ ]
+}

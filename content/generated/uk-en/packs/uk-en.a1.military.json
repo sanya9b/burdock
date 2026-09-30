@@ -1,0 +1,22 @@
+{
+ "schemaVersion": 1,
+ "packId": "uk-en.a1.military",
+ "pair": "uk-en",
+ "level": "A1",
+ "topic": "military",
+ "version": 1,
+ "generatedAt": "2026-09-30T23:43:18+00:00",
+ "provenance": {
+  "source": "burdock-pipeline generate-v1 + review-v1 (Claude Code, claude-fable-5-1)",
+  "status": "ai_reviewed",
+  "promptVersion": "generate-v1",
+  "reviewer": "review-v1",
+  "attributions": [
+   "cefrj-1.6",
+   "claude-outputs"
+  ]
+ },
+ "entries": [
+  {"id":"d0727c77-27dc-5971-a0fa-d19fe946f5e5","lemma":"war","pos":"noun","level":"A1","topics":["military"],"translation":"війна","altTranslations":[],"acceptedForms":["war"],"ipaGa":"/wɔr/","ipaRp":"/wɔː/","exampleEn":"My grandfather often talks about the war.","exampleUk":"Мій дідусь часто говорить про війну.","frequencyBand":null}
+ ]
+}

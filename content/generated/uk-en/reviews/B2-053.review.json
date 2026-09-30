@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "chunk": "B2-053",
+ "reviewer": {"model": "claude-code/claude-fable-5-1", "promptVersion": "review-v1", "reviewedAt": "2026-10-01T00:00:00+00:00"},
+ "items": [
+  {"id": "11467ef2-564f-5185-bd1d-b27d0891acb1", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "603f728a-c182-5289-afbd-ff800b648202", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "b085d0dd-cd75-56e2-b635-dea14611f54b", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "93155ea5-95bf-5bac-a891-7b7efd3a41d1", "scores": {"accuracy": 3, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 4, "topics": 4}, "autoReject": false, "needsRegeneration": true, "primaryAlternative": "члени королівської родини", "issues": [{"reasonCode": "wrong_sense", "suggestion": "Для B2 основний сенс royalty — королівські особи; «авторська винагорода» краще як altTranslations."}, {"reasonCode": "mismatch_en_uk", "suggestion": "У першому прикладі «винагороду» — додати «авторську», щоб лексема була в українському тексті."}]},
+  {"id": "2c3dd1d2-a261-5130-abf2-e4bbfb5aff1b", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []}
+,
+  {"id": "303c67b1-d9cb-55bc-84dd-ce3ec29cb4a3", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 4, "topics": 4}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": [{"reasonCode": "other", "suggestion": "genderNote «мн.» і usageNote «незлічуване» суперечать; лишити «мн.», прибрати «незлічуване»."}]},
+  {"id": "462856ae-815b-5771-ac58-8346293ab059", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "6e095bb0-b0b7-57ba-87f7-516f92d32d3b", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "ebdb9a9e-9f43-5260-bfd9-41cfe19a0e5c", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 4, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "1786901f-ed66-5eaf-9059-2457e634ca3b", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []}
+,
+  {"id": "988fb441-f152-599d-8917-825467e694ad", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "a6ca8cd6-d02e-5794-8060-7b262ea009c3", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "a6f83270-4d9e-570b-afa5-6cd424fa5be5", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "acc8a278-7de7-5e50-b421-336fbb217991", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "d5d591d6-8900-554d-b2ab-a89b139aed81", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []}
+,
+  {"id": "6605c2b0-51a4-56bd-97cc-5691ea876e96", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "23080f2e-ad17-5207-859a-37536e6834ca", "scores": {"accuracy": 4, "naturalness": 3, "levelFit": 5, "safety": 5, "grammarNotes": 4, "topics": 5}, "autoReject": false, "needsRegeneration": true, "primaryAlternative": null, "issues": [{"reasonCode": "wrong_stress", "suggestion": "Наголос «плисти́», не «пли́сти»: translationStressed → «плисти́ під вітри́лами»."}, {"reasonCode": "wrong_sense", "suggestion": "Другий приклад (ferry sail) вживає сенс «відпливати», а не основний; замінити на речення про вітрильник."}]},
+  {"id": "44d0dd49-3fe5-5433-976b-675765918f42", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "db936f86-dc3f-5351-93e9-a4ac34cf87ca", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "e33e4fd7-6ab8-554b-a710-b3c7c5dea6fd", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []}
+,
+  {"id": "3eefbc78-d277-55d1-b6c2-43c4e451163c", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "2cd41ddc-2dd0-5ef0-977d-60950bfc51b0", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "af785b2c-c0f7-5a10-99e2-3046d4359670", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "c0ba9285-f382-59b7-903b-ed286d8b0772", "scores": {"accuracy": 5, "naturalness": 3, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": true, "primaryAlternative": null, "issues": [{"reasonCode": "unnatural_uk", "suggestion": "«трохи засолоний» ненормативне; краще «трохи пересолений» або «надто солоний»."}]},
+  {"id": "6dd938f5-5577-563c-a3fb-8a838aeec352", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []}
+,
+  {"id": "91190797-bee1-5fc6-9f84-c9aa818f9bcb", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "00a9dd52-99c7-5bbd-a65b-b1ca61abe389", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "50716b91-20a3-5527-bb52-13b20505f88d", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "017c92a1-6a0e-59d1-94d4-3d04c9cfd503", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "24a47390-a6d3-53ee-8adb-fc803f3892e9", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []}
+,
+  {"id": "11aa6623-edb5-5f68-a097-425cc41ae71c", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "24adf09a-b2c2-5880-aaa6-1cb7544f19c4", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "d498395d-5ec1-5556-9800-dad31afbc1f5", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "c32355b0-7d30-56f6-8a62-9977e5450c4f", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "c9962198-c0b6-5385-9a02-9f74d3c8360d", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []}
+,
+  {"id": "320b3bfa-e6a5-529d-91e5-d7c59f9c5de1", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "7e73b5be-d9c6-56a6-9f48-e01dc2aac763", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "8a051fbc-2d8a-5142-a912-d100db6bc898", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "fdacd0b9-ca75-57a3-a284-a363bb22e5f2", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "2126e910-abf4-57e0-8c7b-0b501bc6d4e1", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []}
+ ]
+}

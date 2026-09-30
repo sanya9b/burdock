@@ -1,0 +1,617 @@
+{
+ "schemaVersion": 1,
+ "pair": "uk-en",
+ "generatedAt": "2026-09-30T23:43:18+00:00",
+ "packs": [
+  {
+   "packId": "uk-en.a1.communication",
+   "file": "uk-en.a1.communication.json",
+   "level": "A1",
+   "topic": "communication",
+   "version": 1,
+   "lexemeCount": 111,
+   "sizeBytes": 45231,
+   "sha256": "ec4a824cf01a465ccf2bdf7be44e0e240e325567a2a7459b30178d7773bd03bb"
+  },
+  {
+   "packId": "uk-en.a1.travel",
+   "file": "uk-en.a1.travel.json",
+   "level": "A1",
+   "topic": "travel",
+   "version": 1,
+   "lexemeCount": 45,
+   "sizeBytes": 18106,
+   "sha256": "c87f1b962ebb7b8bfd90c9ab6d4c2b594f25b71eb7d9bf5167dc08b687b085be"
+  },
+  {
+   "packId": "uk-en.a1.work",
+   "file": "uk-en.a1.work.json",
+   "level": "A1",
+   "topic": "work",
+   "version": 1,
+   "lexemeCount": 28,
+   "sizeBytes": 11655,
+   "sha256": "a9f5ccd3af161af19b8bff298d8f541a11990c2bfc7ae03921cbbd076a7704b7"
+  },
+  {
+   "packId": "uk-en.a1.it",
+   "file": "uk-en.a1.it.json",
+   "level": "A1",
+   "topic": "it",
+   "version": 1,
+   "lexemeCount": 13,
+   "sizeBytes": 5845,
+   "sha256": "ccaa0f337b23acdd8059c669fdcd4e6888e4bb4d3e6effd5f3ba3a645f52b0e2"
+  },
+  {
+   "packId": "uk-en.a1.food",
+   "file": "uk-en.a1.food.json",
+   "level": "A1",
+   "topic": "food",
+   "version": 1,
+   "lexemeCount": 71,
+   "sizeBytes": 26957,
+   "sha256": "87df4695aed71907904777e76bee04e62a2805305b6815e41f310cfc433d029b"
+  },
+  {
+   "packId": "uk-en.a1.health",
+   "file": "uk-en.a1.health.json",
+   "level": "A1",
+   "topic": "health",
+   "version": 1,
+   "lexemeCount": 48,
+   "sizeBytes": 18674,
+   "sha256": "0c9f59a0311b4142fd787f0e5cad65fa546bd3b60130d1db9544b1bc04a468a7"
+  },
+  {
+   "packId": "uk-en.a1.city",
+   "file": "uk-en.a1.city.json",
+   "level": "A1",
+   "topic": "city",
+   "version": 1,
+   "lexemeCount": 55,
+   "sizeBytes": 21805,
+   "sha256": "1273c823fa6b678f4eeab9d8a5a4be6949333f0676605c3b9ec28c9998ca1240"
+  },
+  {
+   "packId": "uk-en.a1.shopping",
+   "file": "uk-en.a1.shopping.json",
+   "level": "A1",
+   "topic": "shopping",
+   "version": 1,
+   "lexemeCount": 37,
+   "sizeBytes": 15036,
+   "sha256": "8b8ef8826b724a2390cd9dad550d5b2f31aaf337cc7e6ed13c3a5c4e66f746c2"
+  },
+  {
+   "packId": "uk-en.a1.military",
+   "file": "uk-en.a1.military.json",
+   "level": "A1",
+   "topic": "military",
+   "version": 1,
+   "lexemeCount": 1,
+   "sizeBytes": 822,
+   "sha256": "65635d834b50c9974e445a1475dba7f46efe3e111724169377e2327731c35d57"
+  },
+  {
+   "packId": "uk-en.a1.general",
+   "file": "uk-en.a1.general.json",
+   "level": "A1",
+   "topic": "general",
+   "version": 1,
+   "lexemeCount": 779,
+   "sizeBytes": 291583,
+   "sha256": "4fbf152cef590731c20df30f74125229f0a2a4e68028693b1e9e632da5d061b0"
+  },
+  {
+   "packId": "uk-en.a2.communication",
+   "file": "uk-en.a2.communication.json",
+   "level": "A2",
+   "topic": "communication",
+   "version": 1,
+   "lexemeCount": 140,
+   "sizeBytes": 60980,
+   "sha256": "2f45fdd0ebe9ae6e3ae332ed040abd91e52d56676b51924336df4df58755d3f9"
+  },
+  {
+   "packId": "uk-en.a2.travel",
+   "file": "uk-en.a2.travel.json",
+   "level": "A2",
+   "topic": "travel",
+   "version": 1,
+   "lexemeCount": 91,
+   "sizeBytes": 38724,
+   "sha256": "a55ccb3330b8017221b524eae760f4b47944cb1e58fa74ba919a2f8d0d9a5e16"
+  },
+  {
+   "packId": "uk-en.a2.work",
+   "file": "uk-en.a2.work.json",
+   "level": "A2",
+   "topic": "work",
+   "version": 1,
+   "lexemeCount": 75,
+   "sizeBytes": 32777,
+   "sha256": "4f93ee953d64ef2378937aa9a33372d0e2d7634a89f1541af1bf3a6179ba91c0"
+  },
+  {
+   "packId": "uk-en.a2.it",
+   "file": "uk-en.a2.it.json",
+   "level": "A2",
+   "topic": "it",
+   "version": 1,
+   "lexemeCount": 32,
+   "sizeBytes": 14086,
+   "sha256": "569bd0c7bf0c8c6cb53585db18fa2643b40fa40948ad0abe8492ce08a7764457"
+  },
+  {
+   "packId": "uk-en.a2.food",
+   "file": "uk-en.a2.food.json",
+   "level": "A2",
+   "topic": "food",
+   "version": 1,
+   "lexemeCount": 87,
+   "sizeBytes": 35258,
+   "sha256": "259b25289e6b5d852807536300fbfb8d16f02156f0e3998d6668cf9b33f6b3bb"
+  },
+  {
+   "packId": "uk-en.a2.health",
+   "file": "uk-en.a2.health.json",
+   "level": "A2",
+   "topic": "health",
+   "version": 1,
+   "lexemeCount": 57,
+   "sizeBytes": 24531,
+   "sha256": "becf78cf318212a005243daa65657ffb1745245887379bd95fd308ee4eb8d7df"
+  },
+  {
+   "packId": "uk-en.a2.city",
+   "file": "uk-en.a2.city.json",
+   "level": "A2",
+   "topic": "city",
+   "version": 1,
+   "lexemeCount": 72,
+   "sizeBytes": 31324,
+   "sha256": "d99e552c75944b5b0014192b54c9ad3da5f7ea6f0932a25489d51b686588fc55"
+  },
+  {
+   "packId": "uk-en.a2.shopping",
+   "file": "uk-en.a2.shopping.json",
+   "level": "A2",
+   "topic": "shopping",
+   "version": 1,
+   "lexemeCount": 59,
+   "sizeBytes": 24847,
+   "sha256": "d187be4a74840e67eeea661ee6629a168aba3164e0578e973d3a55f917d1a617"
+  },
+  {
+   "packId": "uk-en.a2.military",
+   "file": "uk-en.a2.military.json",
+   "level": "A2",
+   "topic": "military",
+   "version": 1,
+   "lexemeCount": 8,
+   "sizeBytes": 3891,
+   "sha256": "57fd92b7661263767f88b61fe1c2f9611f48674b7e390be2b1ddf9ab85a15be1"
+  },
+  {
+   "packId": "uk-en.a2.general",
+   "file": "uk-en.a2.general.json",
+   "level": "A2",
+   "topic": "general",
+   "version": 1,
+   "lexemeCount": 828,
+   "sizeBytes": 337133,
+   "sha256": "28f249224c5205535504e39647d167baf666437e6b170ce29d3f104ec9b4500e"
+  },
+  {
+   "packId": "uk-en.b1.communication",
+   "file": "uk-en.b1.communication.json",
+   "level": "B1",
+   "topic": "communication",
+   "version": 1,
+   "lexemeCount": 229,
+   "sizeBytes": 108934,
+   "sha256": "772c6b6c6fd563ecca0ebbd7093ffb04e4366373acf26e8335b316d782dc6fac"
+  },
+  {
+   "packId": "uk-en.b1.travel",
+   "file": "uk-en.b1.travel.json",
+   "level": "B1",
+   "topic": "travel",
+   "version": 1,
+   "lexemeCount": 143,
+   "sizeBytes": 67159,
+   "sha256": "a36c6739f0577d07dbffa1337c2eaca4f9bbdfa668697e0d663f669fd869b62b"
+  },
+  {
+   "packId": "uk-en.b1.work",
+   "file": "uk-en.b1.work.json",
+   "level": "B1",
+   "topic": "work",
+   "version": 1,
+   "lexemeCount": 227,
+   "sizeBytes": 109347,
+   "sha256": "621d9878f0976129af149815ecaa3f45b47ac3958a5a3adab9b537158278a4b6"
+  },
+  {
+   "packId": "uk-en.b1.it",
+   "file": "uk-en.b1.it.json",
+   "level": "B1",
+   "topic": "it",
+   "version": 1,
+   "lexemeCount": 67,
+   "sizeBytes": 31376,
+   "sha256": "a97faee9588794e616a90030f049ccfedeb594e5b4c7105982337a6d2a621d8f"
+  },
+  {
+   "packId": "uk-en.b1.food",
+   "file": "uk-en.b1.food.json",
+   "level": "B1",
+   "topic": "food",
+   "version": 1,
+   "lexemeCount": 86,
+   "sizeBytes": 38677,
+   "sha256": "60488b50168c1f7fb20d6f7f93cd9c361704fbb72e3384509236562bcc7c399b"
+  },
+  {
+   "packId": "uk-en.b1.health",
+   "file": "uk-en.b1.health.json",
+   "level": "B1",
+   "topic": "health",
+   "version": 1,
+   "lexemeCount": 133,
+   "sizeBytes": 60662,
+   "sha256": "f87442f1c7e0240a2fb6822d1ae6ef6c25ce7fca5f07dbd5070ae1a9d0a17533"
+  },
+  {
+   "packId": "uk-en.b1.city",
+   "file": "uk-en.b1.city.json",
+   "level": "B1",
+   "topic": "city",
+   "version": 1,
+   "lexemeCount": 62,
+   "sizeBytes": 29322,
+   "sha256": "2cee716d49099b3468411b9fd05b240501220859a543e3c0b2046ba7f170a335"
+  },
+  {
+   "packId": "uk-en.b1.shopping",
+   "file": "uk-en.b1.shopping.json",
+   "level": "B1",
+   "topic": "shopping",
+   "version": 1,
+   "lexemeCount": 76,
+   "sizeBytes": 35141,
+   "sha256": "876866b7bd77d7a7eb90d0316f537006b10e1873b41527694144004e3354ea42"
+  },
+  {
+   "packId": "uk-en.b1.military",
+   "file": "uk-en.b1.military.json",
+   "level": "B1",
+   "topic": "military",
+   "version": 1,
+   "lexemeCount": 22,
+   "sizeBytes": 10297,
+   "sha256": "a1903284e8261389aa49c0c330bef7669e63b4c1d813bccabb4666a52147194e"
+  },
+  {
+   "packId": "uk-en.b1.general",
+   "file": "uk-en.b1.general.json",
+   "level": "B1",
+   "topic": "general",
+   "version": 1,
+   "lexemeCount": 1436,
+   "sizeBytes": 651462,
+   "sha256": "454a9a15240a802058c11bb93542b9a7b8341d3036e4a0c23f56b65654893a44"
+  },
+  {
+   "packId": "uk-en.b2.communication",
+   "file": "uk-en.b2.communication.json",
+   "level": "B2",
+   "topic": "communication",
+   "version": 1,
+   "lexemeCount": 294,
+   "sizeBytes": 145656,
+   "sha256": "89c2656876a7e2867de735ce18a8e632fe17a8c602297028b02e598356adbdca"
+  },
+  {
+   "packId": "uk-en.b2.travel",
+   "file": "uk-en.b2.travel.json",
+   "level": "B2",
+   "topic": "travel",
+   "version": 1,
+   "lexemeCount": 95,
+   "sizeBytes": 46429,
+   "sha256": "2333b6e7b3172fc12c593a1834cb6495eb807e805d6a2f46a3582d49df439a73"
+  },
+  {
+   "packId": "uk-en.b2.work",
+   "file": "uk-en.b2.work.json",
+   "level": "B2",
+   "topic": "work",
+   "version": 1,
+   "lexemeCount": 305,
+   "sizeBytes": 151310,
+   "sha256": "44e9a067ade23199f9d952ba50dab45b533fe343202f6db96b66aaa54c4435ad"
+  },
+  {
+   "packId": "uk-en.b2.it",
+   "file": "uk-en.b2.it.json",
+   "level": "B2",
+   "topic": "it",
+   "version": 1,
+   "lexemeCount": 100,
+   "sizeBytes": 50516,
+   "sha256": "c1d4f930884ecb6528d1c23c8c623e0bf7cffecf17ed2352f5562e03abc18242"
+  },
+  {
+   "packId": "uk-en.b2.food",
+   "file": "uk-en.b2.food.json",
+   "level": "B2",
+   "topic": "food",
+   "version": 1,
+   "lexemeCount": 84,
+   "sizeBytes": 38321,
+   "sha256": "97c9f834958185059347afc7f2252b4671fa5e6f03aefbd32ea6c35b8f7af55b"
+  },
+  {
+   "packId": "uk-en.b2.health",
+   "file": "uk-en.b2.health.json",
+   "level": "B2",
+   "topic": "health",
+   "version": 1,
+   "lexemeCount": 141,
+   "sizeBytes": 67721,
+   "sha256": "c270a148332e4f0a9fe8dc5a0e42733769e0f1a1dde14147502a04603b1724f3"
+  },
+  {
+   "packId": "uk-en.b2.city",
+   "file": "uk-en.b2.city.json",
+   "level": "B2",
+   "topic": "city",
+   "version": 1,
+   "lexemeCount": 68,
+   "sizeBytes": 32688,
+   "sha256": "7610df9d3d908c6911c35b2918fb29b72beb84d37cb824f0925c398d1a9d8713"
+  },
+  {
+   "packId": "uk-en.b2.shopping",
+   "file": "uk-en.b2.shopping.json",
+   "level": "B2",
+   "topic": "shopping",
+   "version": 1,
+   "lexemeCount": 59,
+   "sizeBytes": 29141,
+   "sha256": "991fa20bb085fb20b11efbcaca6ed0a1935eb59ac025cb7389011d179209a103"
+  },
+  {
+   "packId": "uk-en.b2.military",
+   "file": "uk-en.b2.military.json",
+   "level": "B2",
+   "topic": "military",
+   "version": 1,
+   "lexemeCount": 35,
+   "sizeBytes": 17756,
+   "sha256": "a4904e520494dd8608b8b60005a5fed7499e0671b9cceebf4b4bb5f95dbff7cc"
+  },
+  {
+   "packId": "uk-en.b2.general",
+   "file": "uk-en.b2.general.json",
+   "level": "B2",
+   "topic": "general",
+   "version": 1,
+   "lexemeCount": 1627,
+   "sizeBytes": 765463,
+   "sha256": "d563f1704bc52a23ce4f87982caa6af2bb28e22ba155b3e8ba262b7f99417a7d"
+  },
+  {
+   "packId": "uk-en.c1.communication",
+   "file": "uk-en.c1.communication.json",
+   "level": "C1",
+   "topic": "communication",
+   "version": 1,
+   "lexemeCount": 178,
+   "sizeBytes": 97000,
+   "sha256": "dd1f015cd63a66964a01a53901d4eb69c3e39fe8d1a93bea7c513fc45636cedc"
+  },
+  {
+   "packId": "uk-en.c1.travel",
+   "file": "uk-en.c1.travel.json",
+   "level": "C1",
+   "topic": "travel",
+   "version": 1,
+   "lexemeCount": 51,
+   "sizeBytes": 27773,
+   "sha256": "174e5005da5f9ea55230f38b96189c7d0d10d0552ba8626b68d931d184591e76"
+  },
+  {
+   "packId": "uk-en.c1.work",
+   "file": "uk-en.c1.work.json",
+   "level": "C1",
+   "topic": "work",
+   "version": 1,
+   "lexemeCount": 173,
+   "sizeBytes": 93758,
+   "sha256": "cc4337f216693fa99310621e63a44a1ebf59f93740edc6b7683be07fdb0613a2"
+  },
+  {
+   "packId": "uk-en.c1.it",
+   "file": "uk-en.c1.it.json",
+   "level": "C1",
+   "topic": "it",
+   "version": 1,
+   "lexemeCount": 100,
+   "sizeBytes": 55751,
+   "sha256": "f98daa20c561cc0a82ce5e3340f808902849e87496f1891c9d032d51711b5aa0"
+  },
+  {
+   "packId": "uk-en.c1.food",
+   "file": "uk-en.c1.food.json",
+   "level": "C1",
+   "topic": "food",
+   "version": 1,
+   "lexemeCount": 38,
+   "sizeBytes": 19436,
+   "sha256": "b2a7f64daf11da8604748c7482f91f72a0536cfba1eb0175ec989b062e92e382"
+  },
+  {
+   "packId": "uk-en.c1.health",
+   "file": "uk-en.c1.health.json",
+   "level": "C1",
+   "topic": "health",
+   "version": 1,
+   "lexemeCount": 82,
+   "sizeBytes": 43000,
+   "sha256": "d408e02d2701b307d324298885b1cbc167ab471155f046a2cefe8f1cd02a511d"
+  },
+  {
+   "packId": "uk-en.c1.city",
+   "file": "uk-en.c1.city.json",
+   "level": "C1",
+   "topic": "city",
+   "version": 1,
+   "lexemeCount": 42,
+   "sizeBytes": 22349,
+   "sha256": "6237d1191d08d9f65b3b0c211ba86e95c4c94a10e34856c6242c847a2dc106c9"
+  },
+  {
+   "packId": "uk-en.c1.shopping",
+   "file": "uk-en.c1.shopping.json",
+   "level": "C1",
+   "topic": "shopping",
+   "version": 1,
+   "lexemeCount": 33,
+   "sizeBytes": 18370,
+   "sha256": "17425d6f580de4468ee966e610f48fe265d726b7e61638a0c9f338ea7d84d256"
+  },
+  {
+   "packId": "uk-en.c1.military",
+   "file": "uk-en.c1.military.json",
+   "level": "C1",
+   "topic": "military",
+   "version": 1,
+   "lexemeCount": 42,
+   "sizeBytes": 22363,
+   "sha256": "eeb5a504eab520a492de81b14e74e06a2bbe36f9cdd96793bf246bf9285a5531"
+  },
+  {
+   "packId": "uk-en.c1.general",
+   "file": "uk-en.c1.general.json",
+   "level": "C1",
+   "topic": "general",
+   "version": 1,
+   "lexemeCount": 545,
+   "sizeBytes": 280972,
+   "sha256": "7098ec84c81502c68799f15856b98fed5b88f38604a61364f96adcbc6a2f52c1"
+  },
+  {
+   "packId": "uk-en.c2.communication",
+   "file": "uk-en.c2.communication.json",
+   "level": "C2",
+   "topic": "communication",
+   "version": 1,
+   "lexemeCount": 145,
+   "sizeBytes": 79557,
+   "sha256": "770e9da3473584fc47c4824cfa2e5a39ece6f288192f0f3537c99b1f5fa5ade0"
+  },
+  {
+   "packId": "uk-en.c2.travel",
+   "file": "uk-en.c2.travel.json",
+   "level": "C2",
+   "topic": "travel",
+   "version": 1,
+   "lexemeCount": 24,
+   "sizeBytes": 13513,
+   "sha256": "4c91a3d8625ff570a8f10367b836ed091be31d07361e4445eb98c01da8b7781d"
+  },
+  {
+   "packId": "uk-en.c2.work",
+   "file": "uk-en.c2.work.json",
+   "level": "C2",
+   "topic": "work",
+   "version": 1,
+   "lexemeCount": 76,
+   "sizeBytes": 41697,
+   "sha256": "8ed9a5c78c57389a3866cd192f492cdff8a2e2f2e38032fc9f4e98fcf7276185"
+  },
+  {
+   "packId": "uk-en.c2.it",
+   "file": "uk-en.c2.it.json",
+   "level": "C2",
+   "topic": "it",
+   "version": 1,
+   "lexemeCount": 44,
+   "sizeBytes": 25212,
+   "sha256": "08ea953239051dfd757119eae176c62cd9f8344fd9ebad745af026b16f4f096b"
+  },
+  {
+   "packId": "uk-en.c2.food",
+   "file": "uk-en.c2.food.json",
+   "level": "C2",
+   "topic": "food",
+   "version": 1,
+   "lexemeCount": 24,
+   "sizeBytes": 12321,
+   "sha256": "65666050cdfdcd823d225da5bde8f6520af8ea10e97e14568bb8e8e631f8d9ac"
+  },
+  {
+   "packId": "uk-en.c2.health",
+   "file": "uk-en.c2.health.json",
+   "level": "C2",
+   "topic": "health",
+   "version": 1,
+   "lexemeCount": 35,
+   "sizeBytes": 18351,
+   "sha256": "22cb58a10e971659c5ded9d39d86ef8b59eff9a9c0b9cc01646057a83a03f9fa"
+  },
+  {
+   "packId": "uk-en.c2.city",
+   "file": "uk-en.c2.city.json",
+   "level": "C2",
+   "topic": "city",
+   "version": 1,
+   "lexemeCount": 22,
+   "sizeBytes": 12255,
+   "sha256": "6991a86e24287e72435e1c84c3297800e258c4f6dd6efa97247ebb4cd8324d91"
+  },
+  {
+   "packId": "uk-en.c2.shopping",
+   "file": "uk-en.c2.shopping.json",
+   "level": "C2",
+   "topic": "shopping",
+   "version": 1,
+   "lexemeCount": 21,
+   "sizeBytes": 12435,
+   "sha256": "2426e87f5b061ca35f499ccfd62471a944bb9288bea86f05172058d907dcf20d"
+  },
+  {
+   "packId": "uk-en.c2.military",
+   "file": "uk-en.c2.military.json",
+   "level": "C2",
+   "topic": "military",
+   "version": 1,
+   "lexemeCount": 21,
+   "sizeBytes": 11856,
+   "sha256": "b385eff31e2c81889ec8872ed96988f7fa8ba980f8515ba4789206a7fea1dd1b"
+  },
+  {
+   "packId": "uk-en.c2.general",
+   "file": "uk-en.c2.general.json",
+   "level": "C2",
+   "topic": "general",
+   "version": 1,
+   "lexemeCount": 366,
+   "sizeBytes": 189670,
+   "sha256": "51fca9706a286b2081506fc4e1cebb09e3cb8ab6a364c585725e376a6afb2d1e"
+  },
+  {
+   "packId": "uk-en.free-pool",
+   "file": "uk-en.free-pool.json",
+   "level": "A1-B1",
+   "topic": "free-pool",
+   "version": 1,
+   "lexemeCount": 600,
+   "sizeBytes": 244352,
+   "sha256": "cd5a86b9138992df7e3f3dcad709989b736906e8682c1161eeddb185ceeb0a65"
+  }
+ ]
+}

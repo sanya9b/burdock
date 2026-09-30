@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "chunk": "A1-016",
+ "reviewer": {"model": "claude-code/claude-fable-5-1", "promptVersion": "review-v1", "reviewedAt": "2026-10-01T00:00:00+00:00"},
+ "items": [
+{"id": "27961cc1-68ba-5b40-b444-b4ce2973a4fa", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+{"id": "147b303c-4037-57cb-aa86-6782e32654ef", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": [{"reasonCode": "wrong_topic", "suggestion": "Слово загальне; тема work не типова — краще без тем."}]},
+{"id": "6b621d31-d4c9-54df-a9be-7c4872d0e82b", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": [{"reasonCode": "wrong_topic", "suggestion": "Тема shopping слабка; краще без тем або communication."}]},
+{"id": "d79563a1-108d-54cc-b933-89c8b33ef668", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+{"id": "f4875b09-5adc-58ae-9c79-bffd1e38cb00", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []}
+,
+{"id": "ec33f10f-a0f9-524b-880e-9ff670105c6a", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+{"id": "f3360947-82e1-5626-9f3c-806d60343ba4", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+{"id": "0d338a76-a80d-5c98-ac8c-e2ef4ffa6fb7", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+{"id": "e3c12322-cfb3-5a05-b080-1ccc522ea441", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+{"id": "1a89ec78-6b75-5742-b713-c2b74cca0af1", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []}
+,
+{"id": "2d1f4a1c-7a28-5a1e-ab80-380f234aa7e0", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": [{"reasonCode": "wrong_topic", "suggestion": "Футбольний матч не про здоров’я; тема health зайва — краще без тем."}]},
+{"id": "19d1d6c8-bb45-5c69-a845-7876fbdaf482", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 4, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": [{"reasonCode": "wrong_ipa", "suggestion": "ipaRp дано для maths; для леми math має бути /mæθ/."}]},
+{"id": "0ea15f24-2e30-51fe-b30a-0cf76a419a91", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+{"id": "81d67700-cab2-5c2c-95b8-a9bc9931426a", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+{"id": "4436307e-23b1-5e7c-bcd8-dd26c842e041", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []}
+,
+{"id": "a522fb8d-e5e4-543e-97a0-eda3928b0892", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+{"id": "c6b51a7a-2ce0-5f84-afd2-a3ff4c152fb3", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+{"id": "d0244ce6-7f03-58b9-ba9e-07773797b2cf", "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": [{"reasonCode": "unnatural_uk", "suggestion": "«прийом їжі за день» канцелярське; природніше «моя улюблена їжа дня» або «страва»."}]},
+{"id": "e437cc50-2a3f-54b0-be7e-73bbd055adf3", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+{"id": "9fd599f1-6e68-51e8-a3d7-8d479441d82c", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []}
+,
+{"id": "b28053ea-e438-5b1c-ba8f-e257c756310b", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+{"id": "507489f6-3812-560f-80e4-9fe58af226ee", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+{"id": "8f5c368f-7532-5094-9395-6d9057a9b98d", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+{"id": "8555ad73-ed87-5a55-8c06-cd2aa7486aec", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": [{"reasonCode": "wrong_topic", "suggestion": "Тема health для «пам’ять» на A1 слабка; краще без тем."}]},
+{"id": "d97f2242-3ab1-503a-8423-6c3ca601517b", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 4, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": [{"reasonCode": "unsafe", "suggestion": "Різдво — релігійне свято; безпечніше «Have a merry holiday» в обох прикладах."}]}
+,
+{"id": "7048499b-8488-5c7c-8d72-72919e150474", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+{"id": "62123f92-159d-5f83-b6b0-fd4201ea00de", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+{"id": "d35eb4ae-5468-57b7-8896-63ad7a569266", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+{"id": "dca3c064-7293-59e2-bd82-d6a4ce0c64a5", "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": [{"reasonCode": "unnatural_uk", "suggestion": "«бистрий розум» рідковживане; природніше «гострий розум»."}]},
+{"id": "45332360-8b24-5695-98b3-e825675e07d5", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []}
+,
+{"id": "2dd8c7bf-6dc2-59ae-b257-d4e4815aa5e9", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+{"id": "ec6b4451-674a-5fa0-859b-41ae9011e548", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+{"id": "3e28ca1b-1bef-55e1-86dc-506f35a4079b", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+{"id": "10ac901a-884b-5548-8dd6-e66b10f5461d", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+{"id": "937c5b34-afd1-5995-bc2c-ed72e5957a9a", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []}
+,
+{"id": "d01d8081-4ca6-5cc5-b670-448e8551dcb2", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+{"id": "42ab5c8d-a563-5b84-a0dc-7b3565096987", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+{"id": "baa2e447-601e-506a-8b15-b9d8b94f1d17", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+{"id": "df1688e7-181d-50b3-bfde-4e7c889dbb5d", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+{"id": "001d1b7f-5534-5fec-9be1-d157e653c308", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []}
+ ]
+}

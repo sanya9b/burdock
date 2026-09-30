@@ -1,0 +1,54 @@
+{
+ "schemaVersion": 1,
+ "chunk": "B1-053",
+ "reviewer": {"model": "claude-code/claude-fable-5-1", "promptVersion": "review-v1", "reviewedAt": "2026-10-01T00:00:00+00:00"},
+ "items": [
+{"id":"5545d7fc-3d0a-58c6-988e-98421818754e","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"cc6bac10-c9fd-5d1e-835b-b06d3d52db81","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"c4135dd2-53f7-50d3-b172-cc7eb269219d","scores":{"accuracy":5,"naturalness":4,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"other","suggestion":"Англ. «at my grandmother’s garden» → «in my grandmother’s garden»."}]},
+{"id":"0570e74a-1e4d-5b3f-bd91-4533c0f08999","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":4},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"wrong_topic","suggestion":"«travel» для струмка натягнуто; краще без тем."}]},
+{"id":"3273a9f8-5d2f-5944-9855-87d32e1c8d0f","scores":{"accuracy":4,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":4,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"mismatch_en_uk","suggestion":"Приклад 1 вживає сенс «дивитися онлайн», а не основний «транслювати»; дати приклад із трансляцією."},{"reasonCode":"other","suggestion":"«протранслювати» штучне; пара недок./док. для цього сенсу практично відсутня — пояснити коротко."}]}
+,
+{"id":"215446db-529b-5c40-bc0b-2370b72353a5","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"a0138f31-30bc-507d-87c7-c7ebbe09b9d7","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"f86f9cfc-432e-52d5-8469-4849f10ffef9","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"2079f0e7-650c-58fe-9384-26e71fda7a64","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"fad6f615-4008-586e-92f3-5809fa2313f7","scores":{"accuracy":5,"naturalness":4,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"unnatural_uk","suggestion":"«Розтягуйте ноги» незвично; краще «Завжди робіть розтяжку ніг перед бігом»."}]}
+,
+{"id":"993383de-1262-5be2-b913-b51a0de258bd","scores":{"accuracy":4,"naturalness":5,"levelFit":4,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"wrong_sense","suggestion":"Приклад 2 вживає сенс «приголомшений», а основний переклад «уражений»; узгодити приклади з одним сенсом."},{"reasonCode":"too_hard","suggestion":"«drought-stricken» на межі B1; можна «flood-stricken» або простіше речення."}]},
+{"id":"37be8bfe-339f-580e-8642-54eb8241a834","scores":{"accuracy":4,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"wrong_sense","suggestion":"«Годинник пробив» — переносний сенс; дати приклад із прямим «ударяти»."}]},
+{"id":"8e714dd8-f1a0-5227-a13a-1bc15465e76b","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"c47fc50a-aea5-5326-be41-bff82b8f1237","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"02e216ed-c737-5029-8005-9cfc6107686b","scores":{"accuracy":5,"naturalness":4,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"unnatural_uk","suggestion":"«було справжньою боротьбою» калька; краще «було для мене справжнім випробуванням»."}]}
+,
+{"id":"6b1e827a-9bcb-583a-b541-c790d59c55a8","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"other","suggestion":"«впертий» — лише варіант чергування у/в того ж слова; в altTranslations зайвий, лишити «затятий»."}]},
+{"id":"63922536-c0b2-58c0-858d-957894203cc8","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"1a43b4bf-cac9-5b90-9b5d-d29168bfd1cb","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":4},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"wrong_topic","suggestion":"«work» і «city» для студії слабкі; краще без тем або лише «city»."}]},
+{"id":"b60761a9-31b4-57df-9c6f-a59582625625","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"a4f03be0-938d-5578-80a5-166ef1cdc309","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+,
+{"id":"4b1e80e1-e14a-5c60-992c-95913909ce52","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"60df41a2-cb00-5275-8e88-cb32ab853b6c","scores":{"accuracy":5,"naturalness":4,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"unnatural_uk","suggestion":"«вражаючий» — активний дієприкметник; замінити на «разючий» або «вражальний»."}]},
+{"id":"5614ca4b-ac2d-5641-a29d-8a3d83884e65","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"d98ab8ff-3eee-5f23-a3d3-e80c8dce901a","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"3598e59b-1efa-536a-a6ee-22c5cda340b8","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":4},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"wrong_topic","suggestion":"«health» для підсвідомого слабка; краще без тем."}]}
+,
+{"id":"619c3003-8c4a-595b-a330-def6b27b39b7","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"de0a5900-e33c-5ee1-9e40-4137aa8f9ff0","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"67d59283-3da9-599b-a554-f607495b9be1","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"fd0536e4-8a76-5272-a87a-bbd0852e9469","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"a72341a3-8cee-5f40-9bf6-32f9a06814c7","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+,
+{"id":"325ed8de-2f42-546d-b91b-8948536c14f1","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"18292073-51e4-5200-b470-9f47491f2e99","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"5fcffc51-c3cc-56f9-9b2a-ad1d8020080a","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":4,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"unsafe","suggestion":"Делікатна тема; приклади про запобігання доречні, але в usageNote прибрати «commit suicide» (нерекомендована фраза)."}]},
+{"id":"ba63f4ab-1176-5b45-bc7b-452ca6b6917c","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"3038cbba-f705-5f6f-bf4a-22bd6c26c6fa","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+,
+{"id":"742f6d34-65b2-5822-b100-2f1b8e0c60ad","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"e5015418-c48c-5d5b-aec5-5112a4cefc04","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":4},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[{"reasonCode":"wrong_topic","suggestion":"«city» для сонячного годинника слабка; краще без тем."}]},
+{"id":"72dc3bd4-f423-56d2-a5ad-a44f46bf4058","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"7d0646e1-ad45-5c80-94e0-b3ade6354912","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]},
+{"id":"f8c24abc-2aff-511f-ab40-dd62ecf1083d","scores":{"accuracy":5,"naturalness":5,"levelFit":5,"safety":5,"grammarNotes":5,"topics":5},"autoReject":false,"needsRegeneration":false,"primaryAlternative":null,"issues":[]}
+ ]
+}

@@ -19,15 +19,26 @@ public sealed class SqliteContentRepository(BurdockDatabase database) : IContent
     {
         ArgumentNullException.ThrowIfNull(levels);
         ArgumentNullException.ThrowIfNull(topics);
+        if (levels.Count == 0)
+        {
+            return [];
+        }
+
         var db = await database.GetOpenConnectionAsync(cancellationToken).ConfigureAwait(false);
-        var pairKey = pair.ToString();
-        var levelSet = levels.Select(l => (int)l).ToHashSet();
-        var rows = await db.Table<WordEntryRow>().Where(r => r.Pair == pairKey).OrderBy(r => r.Lemma).ToListAsync().ConfigureAwait(false);
-        var topicKeys = topics.Select(t => "," + t.Slug + ",").ToArray();
-        return rows
-            .Where(r => levelSet.Contains(r.Level) && (topicKeys.Length == 0 || topicKeys.Any(k => r.Topics.Contains(k, StringComparison.Ordinal))))
-            .Select(ToEntry)
-            .ToArray();
+        // Filters run in SQL: with ~10k bundled entries, loading every row of the pair and filtering in memory cost seconds on the day plan.
+        var args = new List<object> { pair.ToString() };
+        var sql = new System.Text.StringBuilder("SELECT * FROM word_entries WHERE Pair = ?");
+        sql.Append(" AND Level IN (").Append(string.Join(", ", levels.Select(_ => "?"))).Append(')');
+        args.AddRange(levels.Select(l => (object)(int)l));
+        if (topics.Count > 0)
+        {
+            sql.Append(" AND (").Append(string.Join(" OR ", topics.Select(_ => "Topics LIKE ?"))).Append(')');
+            args.AddRange(topics.Select(t => (object)("%," + t.Slug + ",%")));
+        }
+
+        sql.Append(" ORDER BY Lemma");
+        var rows = await db.QueryAsync<WordEntryRow>(sql.ToString(), [.. args]).ConfigureAwait(false);
+        return rows.Select(ToEntry).ToArray();
     }
 
     public async Task<int> CountAsync(LanguagePair pair, CancellationToken cancellationToken)

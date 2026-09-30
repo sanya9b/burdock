@@ -1,0 +1,29 @@
+{
+ "schemaVersion": 1,
+ "packId": "uk-en.a2.military",
+ "pair": "uk-en",
+ "level": "A2",
+ "topic": "military",
+ "version": 1,
+ "generatedAt": "2026-09-30T23:43:18+00:00",
+ "provenance": {
+  "source": "burdock-pipeline generate-v1 + review-v1 (Claude Code, claude-fable-5-1)",
+  "status": "ai_reviewed",
+  "promptVersion": "generate-v1",
+  "reviewer": "review-v1",
+  "attributions": [
+   "cefrj-1.6",
+   "claude-outputs"
+  ]
+ },
+ "entries": [
+  {"id":"713b971e-40c5-58f2-8cc9-c45b8efd4a03","lemma":"armed","pos":"adjective","level":"A2","topics":["military"],"translation":"озброєний","altTranslations":[],"acceptedForms":["armed"],"ipaGa":"/ɑrmd/","ipaRp":"/ɑːmd/","exampleEn":"The armed guards checked our documents at the gate.","exampleUk":"Озброєна охорона перевірила наші документи на воротах.","frequencyBand":null},
+  {"id":"87161eca-ba4d-5cd1-bf4d-25da8bf1c011","lemma":"attack","pos":"noun","level":"A2","topics":["military"],"translation":"напад","altTranslations":["атака","приступ"],"acceptedForms":["attack"],"ipaGa":"/əˈtæk/","ipaRp":"/əˈtæk/","exampleEn":"Our team started a fast attack in the second half.","exampleUk":"Наша команда почала швидкий напад у другому таймі.","frequencyBand":null},
+  {"id":"6d67086b-42dc-5190-a7af-857159eba865","lemma":"attack","pos":"verb","level":"A2","topics":["military"],"translation":"нападати","altTranslations":["атакувати"],"acceptedForms":["attack"],"ipaGa":"/əˈtæk/","ipaRp":"/əˈtæk/","exampleEn":"The cat attacked the toy mouse.","exampleUk":"Кіт напав на іграшкову мишку.","frequencyBand":null},
+  {"id":"2fbdc80e-1789-57fb-a628-5638dd5bf8e3","lemma":"captain","pos":"noun","level":"A2","topics":["military"],"translation":"капітан","altTranslations":[],"acceptedForms":["captain"],"ipaGa":"/ˈkæptən/","ipaRp":"/ˈkæptɪn/","exampleEn":"Sam is the captain of our football team.","exampleUk":"Сем — капітан нашої футбольної команди.","frequencyBand":null},
+  {"id":"e7c11eb3-5b58-5725-bc4e-527dbd4ecb71","lemma":"fighter","pos":"noun","level":"A2","topics":["military"],"translation":"боєць","altTranslations":["винищувач","борець"],"acceptedForms":["fighter"],"ipaGa":"/ˈfaɪtər/","ipaRp":"/ˈfaɪtə/","exampleEn":"The volunteers sent warm socks to the fighters.","exampleUk":"Волонтери надіслали бійцям теплі шкарпетки.","frequencyBand":null},
+  {"id":"394ad996-b4da-57d1-a1b4-fc128aaa0aff","lemma":"gun","pos":"noun","level":"A2","topics":["military"],"translation":"пістолет","altTranslations":["рушниця","зброя"],"acceptedForms":["gun"],"ipaGa":"/ɡʌn/","ipaRp":"/ɡʌn/","exampleEn":"The boy has a toy gun.","exampleUk":"У хлопчика іграшковий пістолет.","frequencyBand":null},
+  {"id":"9846373d-9749-58e3-a2fa-9456144a66e4","lemma":"military","pos":"adjective","level":"A2","topics":["military"],"translation":"військовий","altTranslations":["воєнний"],"acceptedForms":["military"],"ipaGa":"/ˈmɪləˌtɛri/","ipaRp":"/ˈmɪlɪtri/","exampleEn":"My uncle wears a military uniform at work.","exampleUk":"Мій дядько носить на роботі військову форму.","frequencyBand":null},
+  {"id":"0cce4bc5-1eeb-5229-ad1f-909bdffc8b24","lemma":"soldier","pos":"noun","level":"A2","topics":["military"],"translation":"солдат","altTranslations":["військовий","боєць"],"acceptedForms":["soldier"],"ipaGa":"/ˈsoʊldʒər/","ipaRp":"/ˈsəʊldʒə/","exampleEn":"My cousin is a soldier and writes to us every week.","exampleUk":"Мій двоюрідний брат — солдат і пише нам щотижня.","frequencyBand":null}
+ ]
+}

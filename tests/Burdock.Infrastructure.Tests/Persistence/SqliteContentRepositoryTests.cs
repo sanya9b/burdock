@@ -46,6 +46,46 @@ public sealed class SqliteContentRepositoryTests
         }
     }
 
+    [Fact]
+    public async Task ListAsync_filters_by_level_and_topic_in_the_query_and_orders_by_lemma()
+    {
+        var path = Path.Combine(Path.GetTempPath(), $"burdock-content-{Guid.NewGuid():N}.db3");
+        try
+        {
+            var repository = new SqliteContentRepository(new BurdockDatabase(new DatabaseOptions(path)));
+            var ct = TestContext.Current.CancellationToken;
+            var pack = new ImportedContentPack("uk-en.mixed", LanguagePair.UkrainianToEnglish, 1,
+            [
+                Entry("00000000-0000-7000-8000-000000000001", "ticket", CefrLevel.A1, ["travel"]),
+                Entry("00000000-0000-7000-8000-000000000002", "apple", CefrLevel.A1, ["food"]),
+                Entry("00000000-0000-7000-8000-000000000003", "voyage", CefrLevel.B2, ["travel"]),
+                Entry("00000000-0000-7000-8000-000000000004", "abstract", CefrLevel.B2, []),
+            ]);
+            await repository.ImportPackAsync(pack, ct);
+
+            (await repository.ListAsync(LanguagePair.UkrainianToEnglish, [CefrLevel.A1], [], ct)).Select(e => e.Lexeme.Lemma).ShouldBe(["apple", "ticket"]);
+            (await repository.ListAsync(LanguagePair.UkrainianToEnglish, [CefrLevel.A1, CefrLevel.B2], [TopicId.From("travel")], ct)).Select(e => e.Lexeme.Lemma).ShouldBe(["ticket", "voyage"]);
+            (await repository.ListAsync(LanguagePair.UkrainianToEnglish, [CefrLevel.B2], [TopicId.From("food"), TopicId.From("travel")], ct)).Select(e => e.Lexeme.Lemma).ShouldBe(["voyage"]);
+            (await repository.ListAsync(LanguagePair.UkrainianToEnglish, CefrLevelExtensions.All, [], ct)).Count.ShouldBe(4);
+            (await repository.ListAsync(LanguagePair.UkrainianToEnglish, [], [], ct)).ShouldBeEmpty();
+        }
+        finally
+        {
+            try
+            {
+                File.Delete(path);
+            }
+            catch (IOException)
+            {
+                // the connection may still hold the file on Windows; the temp folder is cleaned by the OS
+            }
+        }
+    }
+
+    private static WordEntry Entry(string id, string lemma, CefrLevel level, string[] topics) => new(
+        new Lexeme(LexemeId.From(Guid.Parse(id)), LanguagePair.UkrainianToEnglish, lemma, PartOfSpeech.Noun, level, topics.Select(TopicId.From).ToArray(), null),
+        lemma, [], [lemma], "/x/", "/x/", $"A {lemma}.", "Приклад.");
+
     private static ImportedContentPack Pack(string packId, WordEntry entry) => new(packId, LanguagePair.UkrainianToEnglish, 1, [entry]);
 
     private static WordEntry Entry(string[] topics) => new(

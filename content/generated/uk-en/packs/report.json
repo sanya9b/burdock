@@ -1,0 +1,266 @@
+{
+ "chunks": 249,
+ "entriesSeen": 9806,
+ "excluded": {
+  "review_auto_reject": 8,
+  "identity_mismatch": 3,
+  "blocklisted": 3
+ },
+ "warnings": {},
+ "needsHuman": [
+  {
+   "id": "eba59f8e-2479-5eae-bb89-03e90bfd3682",
+   "lemma": "for",
+   "chunk": "A2-013",
+   "issues": [
+    "too_hard"
+   ]
+  },
+  {
+   "id": "fa994d64-8a66-52ab-96a2-73628ce34722",
+   "lemma": "Christian",
+   "chunk": "B1-010",
+   "issues": [
+    "unsafe"
+   ]
+  },
+  {
+   "id": "af142848-fd17-5e9e-af39-95d8f10413e4",
+   "lemma": "ness",
+   "chunk": "B1-036",
+   "issues": [
+    "too_hard"
+   ]
+  },
+  {
+   "id": "f6f8e961-b28e-55db-ad7d-c6500902c791",
+   "lemma": "slight",
+   "chunk": "B1-050",
+   "issues": [
+    "too_hard"
+   ]
+  },
+  {
+   "id": "66b5d4ff-d0dd-5a61-95f5-5c2c5a069af3",
+   "lemma": "blurt",
+   "chunk": "B2-006",
+   "issues": [
+    "other",
+    "unnatural_uk"
+   ]
+  },
+  {
+   "id": "472d1f61-ef87-5408-aa87-7e9a0b5f86c4",
+   "lemma": "bombard",
+   "chunk": "B2-006",
+   "issues": [
+    "too_hard"
+   ]
+  },
+  {
+   "id": "71c53e41-96dc-5b9c-acec-abc50928b219",
+   "lemma": "holocaust",
+   "chunk": "B2-028",
+   "issues": [
+    "unsafe",
+    "wrong_sense"
+   ]
+  },
+  {
+   "id": "ad2d86ef-7c3f-5868-8549-138d3ec6cb55",
+   "lemma": "pastor",
+   "chunk": "B2-043",
+   "issues": [
+    "unsafe"
+   ]
+  },
+  {
+   "id": "e9e76e06-107e-5654-b0f0-046b08572d53",
+   "lemma": "quit",
+   "chunk": "B2-049",
+   "issues": [
+    "too_hard"
+   ]
+  },
+  {
+   "id": "c0028744-9466-5cfb-8070-8f4d320c221c",
+   "lemma": "rape",
+   "chunk": "B2-049",
+   "issues": [
+    "unsafe"
+   ]
+  },
+  {
+   "id": "9284d569-a970-528c-8083-6fed2285b569",
+   "lemma": "rape",
+   "chunk": "B2-049",
+   "issues": [
+    "unsafe"
+   ]
+  },
+  {
+   "id": "2b6e5543-5346-5bb8-9016-5ebb962dd975",
+   "lemma": "whiskey",
+   "chunk": "B2-069",
+   "issues": [
+    "unsafe"
+   ]
+  },
+  {
+   "id": "e4320ae7-7f9c-52cc-b481-71e34f41f655",
+   "lemma": "one-way",
+   "chunk": "C1-020",
+   "issues": [
+    "other"
+   ]
+  },
+  {
+   "id": "3e1eb2cf-7c08-554f-b99f-d906c80ee809",
+   "lemma": "aperitif",
+   "chunk": "C2-001",
+   "issues": [
+    "unsafe"
+   ]
+  }
+ ],
+ "excludedIds": [
+  {
+   "id": "fa994d64-8a66-52ab-96a2-73628ce34722",
+   "lemma": "Christian",
+   "chunk": "B1-010",
+   "errors": [
+    "review_auto_reject"
+   ]
+  },
+  {
+   "id": "8db00218-6177-580b-860c-e07ca4827f7e",
+   "lemma": "anticancer",
+   "chunk": "B2-003",
+   "errors": [
+    "identity_mismatch"
+   ]
+  },
+  {
+   "id": "e60dc854-5369-5dc6-b8fb-ce5e50d3af4c",
+   "lemma": "antipollution",
+   "chunk": "B2-003",
+   "errors": [
+    "identity_mismatch"
+   ]
+  },
+  {
+   "id": "1b6310e4-76c9-5726-890a-4bcd2ba5435a",
+   "lemma": "cripple",
+   "chunk": "B2-014",
+   "errors": [
+    "blocklisted"
+   ]
+  },
+  {
+   "id": "764ca867-4d7c-5ac1-8ba4-83fa5d5fe53d",
+   "lemma": "exaggerate",
+   "chunk": "B2-021",
+   "errors": [
+    "identity_mismatch"
+   ]
+  },
+  {
+   "id": "dc365f09-ede7-51f0-a757-fd1b9638613f",
+   "lemma": "gook",
+   "chunk": "B2-026",
+   "errors": [
+    "blocklisted"
+   ]
+  },
+  {
+   "id": "71c53e41-96dc-5b9c-acec-abc50928b219",
+   "lemma": "holocaust",
+   "chunk": "B2-028",
+   "errors": [
+    "review_auto_reject"
+   ]
+  },
+  {
+   "id": "ad2d86ef-7c3f-5868-8549-138d3ec6cb55",
+   "lemma": "pastor",
+   "chunk": "B2-043",
+   "errors": [
+    "review_auto_reject"
+   ]
+  },
+  {
+   "id": "c0028744-9466-5cfb-8070-8f4d320c221c",
+   "lemma": "rape",
+   "chunk": "B2-049",
+   "errors": [
+    "review_auto_reject"
+   ]
+  },
+  {
+   "id": "9284d569-a970-528c-8083-6fed2285b569",
+   "lemma": "rape",
+   "chunk": "B2-049",
+   "errors": [
+    "review_auto_reject"
+   ]
+  },
+  {
+   "id": "b9e6a2ba-7bd7-55e5-b7eb-3e146fd1b9e8",
+   "lemma": "retard",
+   "chunk": "B2-051",
+   "errors": [
+    "blocklisted"
+   ]
+  },
+  {
+   "id": "2b6e5543-5346-5bb8-9016-5ebb962dd975",
+   "lemma": "whiskey",
+   "chunk": "B2-069",
+   "errors": [
+    "review_auto_reject"
+   ]
+  },
+  {
+   "id": "e4320ae7-7f9c-52cc-b481-71e34f41f655",
+   "lemma": "one-way",
+   "chunk": "C1-020",
+   "errors": [
+    "review_auto_reject"
+   ]
+  },
+  {
+   "id": "3e1eb2cf-7c08-554f-b99f-d906c80ee809",
+   "lemma": "aperitif",
+   "chunk": "C2-001",
+   "errors": [
+    "review_auto_reject"
+   ]
+  }
+ ],
+ "unparseableChunks": [],
+ "incompleteChunks": [],
+ "unparseableReviews": [],
+ "accepted": 9792,
+ "byLevel": {
+  "A1": 1162,
+  "A2": 1410,
+  "B1": 2443,
+  "B2": 2768,
+  "C1": 1236,
+  "C2": 773
+ },
+ "byTopic": {
+  "communication": 1097,
+  "city": 321,
+  "travel": 449,
+  "food": 390,
+  "health": 496,
+  "shopping": 285,
+  "work": 884,
+  "it": 356,
+  "military": 129
+ },
+ "general": 5581,
+ "freePool": 600,
+ "packs": 61
+}

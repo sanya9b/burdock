@@ -1,0 +1,10 @@
+{
+ "schemaVersion": 1,
+ "chunk": "A1-030",
+ "level": "A1",
+ "provenance": {"model": "claude-code/claude-fable-5-1", "promptVersion": "generate-v1", "generatedAt": "2026-10-01T00:00:00+00:00", "status": "draft"},
+ "entries": [
+  {"id": "a1f1d365-4e6e-51e7-9e23-5de72f8d5fe2", "lemma": "yourself", "pos": "pronoun", "level": "A1", "acceptedForms": ["yourself"], "translation": "себе", "translationStressed": "себе́", "altTranslations": ["сам", "самі"], "register": "neutral", "genderNote": null, "pluralNote": null, "aspectNote": null, "usageNote": "зворотний займенник для «ви» в однині; у множині — yourselves", "ipaGa": "/jʊrˈsɛlf/", "ipaRp": "/jɔːˈself/", "exampleEn": "Look at yourself in the mirror.", "exampleUk": "Подивіться на себе в дзеркало.", "exampleEn2": "Did you hurt yourself?", "exampleUk2": "Ви не забилися?", "topics": [], "widgetSafe": true, "regenerated": 1},
+  {"id": "9a2e5490-a9fc-5605-b8d0-212293c47e37", "lemma": "zoo", "pos": "noun", "level": "A1", "acceptedForms": ["zoo"], "translation": "зоопарк", "translationStressed": "зоопа́рк", "altTranslations": [], "register": "neutral", "genderNote": "ч.", "pluralNote": null, "aspectNote": null, "usageNote": null, "ipaGa": "/zu/", "ipaRp": "/zuː/", "exampleEn": "We saw a big elephant at the zoo.", "exampleUk": "Ми бачили великого слона в зоопарку.", "exampleEn2": "Do you want to go to the zoo on Sunday?", "exampleUk2": "Хочете піти в зоопарк у неділю?", "topics": [{"slug": "city", "confidence": 0.7}, {"slug": "travel", "confidence": 0.5}], "widgetSafe": true}
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "schemaVersion": 1,
+ "chunk": "A1-030",
+ "reviewer": {"model": "claude-code/claude-fable-5-1", "promptVersion": "review-v1", "reviewedAt": "2026-10-01T00:00:00+00:00"},
+ "items": [
+  {"id": "a1f1d365-4e6e-51e7-9e23-5de72f8d5fe2", "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 3}, "autoReject": false, "needsRegeneration": true, "primaryAlternative": null, "issues": [{"reasonCode": "wrong_topic", "suggestion": "Зворотний займенник — загальне слово; тему communication прибрати, лишити topics порожнім."}, {"reasonCode": "wrong_sense", "suggestion": "Жоден приклад не показує сенс «себе»: «help yourself» — ідіома, другий — підсилювальне «самі». Додати, напр., «Look at yourself in the mirror»."}]},
+  {"id": "9a2e5490-a9fc-5605-b8d0-212293c47e37", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []}
+ ]
+}

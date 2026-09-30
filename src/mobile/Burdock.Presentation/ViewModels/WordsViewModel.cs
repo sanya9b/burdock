@@ -88,7 +88,9 @@ public sealed partial class WordsViewModel : ObservableObject
 
     public ObservableCollection<ChipOption> StatusChips { get; } = [];
 
-    public ObservableCollection<WordRow> Words { get; } = [];
+    /// <summary>Replaced as a whole on every refresh: ~10k rows added one by one would raise 10k collection-changed events and freeze the list for seconds.</summary>
+    [ObservableProperty]
+    private IReadOnlyList<WordRow> _words = [];
 
     [RelayCommand(AllowConcurrentExecutions = false)]
     public Task LoadAsync(CancellationToken cancellationToken) => RefreshAsync(cancellationToken);
@@ -185,12 +187,13 @@ public sealed partial class WordsViewModel : ObservableObject
             var now = _clock.UtcNow;
             var today = DateOnly.FromDateTime(TimeZoneInfo.ConvertTime(now, _clock.LocalTimeZone).DateTime);
 
-            Words.Clear();
+            var rows = new List<WordRow>(words.Count);
             foreach (var word in words)
             {
-                Words.Add(ToRow(word, now, today));
+                rows.Add(ToRow(word, now, today));
             }
 
+            Words = rows;
             CountText = Plural.Uk(words.Count, CountOne, CountFew, CountMany);
             IsSearchEmpty = words.Count == 0 && !string.IsNullOrWhiteSpace(SearchText);
             IsFilterEmpty = words.Count == 0 && !IsSearchEmpty;

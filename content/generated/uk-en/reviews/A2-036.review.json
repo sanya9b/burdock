@@ -1,0 +1,17 @@
+{
+ "schemaVersion": 1,
+ "chunk": "A2-036",
+ "reviewer": {"model": "claude-code/claude-fable-5-1", "promptVersion": "review-v1", "reviewedAt": "2026-10-01T00:00:00+00:00"},
+ "items": [
+  {"id": "a97755b9-5d95-502f-b49a-6e037e4d68b7", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "593846d9-c973-54b1-b5be-2780485b84a8", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "5ba680f9-16b2-5dc7-a386-263ebbec7901", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "43e1445c-8044-5c8c-80a4-9213eb701005", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "45456b45-be50-5042-8e73-4a5e939a44b3", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "8bbaf136-4c5d-513a-ad70-5dfdef4aa914", "scores": {"accuracy": 4, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": [{"reasonCode": "wrong_sense", "suggestion": "Перший приклад ближчий до сенсу «почерк»; краще про навички письма: «Її письмо англійською стало кращим»."}]},
+  {"id": "27d3d39d-f7aa-5363-ab65-8a78e40151a9", "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": [{"reasonCode": "wrong_sense", "suggestion": "«went wrong» — ідіома; для A2 краще другий приклад із прямим сенсом: «Did I say the word wrong?»."}]},
+  {"id": "c51b4bae-669b-5199-b632-939cba25a895", "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 4, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": [{"reasonCode": "unnatural_uk", "suggestion": "«Ага, передасте мені сіль?» звучить неприродно; краще «Ага, а передасте сіль?» або інший приклад-питання."}, {"reasonCode": "wrong_ipa", "suggestion": "GA частіше /jɛ/ або /jæ/; /jɛə/ радше RP-подібна форма."}]},
+  {"id": "64969cbf-0d45-54af-bcc6-bf903c50a77b", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+  {"id": "ee50aa79-d1a9-5837-afe7-8bd21d8d80cf", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []}
+ ]
+}

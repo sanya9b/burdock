@@ -198,7 +198,10 @@ public sealed partial class WordCardViewModel : ObservableObject, IQueryAttribut
         await _navigation.GoBackAsync(cancellationToken).ConfigureAwait(true);
     }
 
-    /// <summary>Splits the example around the first occurrence of the lemma or an accepted form (longest first) so the view can set it in bold.</summary>
+    /// <summary>
+    /// Splits the example around the lemma or an accepted form (longest first) so the view can set it in bold.
+    /// A whole word wins («a» in «I have a cat»), then the start of a word (ticket → tickets, walk → walked), then any substring.
+    /// </summary>
     internal static (string Before, string Match, string After) Highlight(string example, string lemma, IReadOnlyList<string> acceptedForms)
     {
         if (string.IsNullOrEmpty(example))
@@ -206,17 +209,52 @@ public sealed partial class WordCardViewModel : ObservableObject, IQueryAttribut
             return (string.Empty, string.Empty, string.Empty);
         }
 
-        var candidates = acceptedForms.Append(lemma).Where(f => !string.IsNullOrWhiteSpace(f)).Distinct(StringComparer.OrdinalIgnoreCase).OrderByDescending(f => f.Length);
-        foreach (var form in candidates)
+        var candidates = acceptedForms.Append(lemma).Where(f => !string.IsNullOrWhiteSpace(f)).Distinct(StringComparer.OrdinalIgnoreCase).OrderByDescending(f => f.Length).ToArray();
+        foreach (var mode in new[] { FormMatch.WholeWord, FormMatch.WordStart, FormMatch.Anywhere })
         {
-            var at = example.IndexOf(form, StringComparison.OrdinalIgnoreCase);
-            if (at >= 0)
+            foreach (var form in candidates)
             {
-                return (example[..at], example.Substring(at, form.Length), example[(at + form.Length)..]);
+                var at = FindForm(example, form, mode);
+                if (at >= 0)
+                {
+                    return (example[..at], example.Substring(at, form.Length), example[(at + form.Length)..]);
+                }
             }
         }
 
         return (example, string.Empty, string.Empty);
+    }
+
+    private enum FormMatch
+    {
+        WholeWord,
+        WordStart,
+        Anywhere,
+    }
+
+    private static int FindForm(string text, string form, FormMatch mode)
+    {
+        var from = 0;
+        while (from <= text.Length - form.Length)
+        {
+            var at = text.IndexOf(form, from, StringComparison.OrdinalIgnoreCase);
+            if (at < 0)
+            {
+                return -1;
+            }
+
+            var end = at + form.Length;
+            var startsWord = at == 0 || !char.IsLetterOrDigit(text[at - 1]);
+            var endsWord = end == text.Length || !char.IsLetterOrDigit(text[end]);
+            if (mode == FormMatch.Anywhere || (startsWord && (mode == FormMatch.WordStart || endsWord)))
+            {
+                return at;
+            }
+
+            from = at + 1;
+        }
+
+        return -1;
     }
 
     internal static string StateText(CardState state) => state switch
