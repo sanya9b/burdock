@@ -57,7 +57,10 @@ jobs:
           global-json-file: global.json
 
       - name: Install MAUI workloads (Infrastructure multi-targets android and ios on macOS)
-        run: dotnet workload install maui-ios maui-android --skip-sign-check
+        # Pinned workload set: 10.0.401 ships .NET for iOS 26.5.10318, which matches Xcode 26.6 on the macos-26 image.
+        # The unpinned latest set moved to iOS 27.0.10722 (requires Xcode 27.0) on 2026-09-30 and broke the build.
+        # Bump the set and XCODE_PREFERRED together once the runner image ships Xcode 27.
+        run: dotnet workload install maui-ios maui-android --skip-sign-check --version 10.0.401
 
       - name: Cache NuGet
         uses: actions/cache@v4
