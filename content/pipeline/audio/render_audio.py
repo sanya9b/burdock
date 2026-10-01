@@ -82,6 +82,7 @@ def main() -> int:
     parser.add_argument("--word-speed", type=float, default=0.9)
     parser.add_argument("--bitrate", default="32k")
     parser.add_argument("--force", action="store_true", help="re-render files that already exist")
+    parser.add_argument("--threads", type=int, default=0, help="onnxruntime intra-op threads; 0 = runtime default (all cores). Use 2 when running one process per voice in parallel")
     args = parser.parse_args()
 
     sys.stdout.reconfigure(encoding="utf-8")
@@ -103,7 +104,15 @@ def main() -> int:
 
     from kokoro_onnx import Kokoro
 
-    kokoro = Kokoro(str(model), str(voices_bin))
+    if args.threads > 0:
+        import onnxruntime as rt
+
+        options = rt.SessionOptions()
+        options.intra_op_num_threads = args.threads
+        options.inter_op_num_threads = 1
+        kokoro = Kokoro.from_session(rt.InferenceSession(str(model), options, providers=["CPUExecutionProvider"]), str(voices_bin))
+    else:
+        kokoro = Kokoro(str(model), str(voices_bin))
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
     started = time.time()

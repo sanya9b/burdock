@@ -503,6 +503,18 @@ erDiagram
 
 Індекси: `packs (id, version)` PK; `packs (status)`; `reports (user_id, client_report_id)` UNIQUE; `reports (status, created_at)`.
 
+### 3.4a. Модуль Pronunciation (ADR 0020)
+
+Вимова для слів, яких не було у пре-рендері пайплайну (ADR 0019): адміністратор (пізніше пайплайн і слова користувача) просить кліп для лексеми, фоновий воркер рендерить відсутні голоси один раз через сайдкар Kokoro і кладе їх як незмінні активи. Клієнт ніколи не чекає на синтез: поки кліпа немає, він озвучує системним TTS.
+
+| Ендпоінт | Доступ | Поведінка |
+|---|---|---|
+| `GET /v1/pronunciation/voices` | публічний | каталог голосів v1 (af_heart, am_michael, bf_emma, bm_george), `Cache-Control: public, max-age=86400` |
+| `GET /v1/pronunciation/clips/{lexemeId}/{voice}` | публічний | `302` на CDN-адресу (коли налаштовано `Pronunciation:PublicBaseUrl`) або сам файл `audio/mp4` з `ETag` і `Cache-Control: immutable`; `202` + `Retry-After: 5`, поки кліп у черзі; `404`, якщо його не просили; `503`, якщо рендер остаточно не вдався |
+| `POST /v1/pronunciation/clips {lexemeId, text, voices?}` | заголовок `X-Burdock-Admin-Key` (sops-секрет `Pronunciation__AdminKey`; без ключа ендпоінт відповідає `503`) | ставить у чергу відсутні голоси, повертає `202` зі станом кожного; ідемпотентний: відрендерений кліп поточної версії рушія не рендериться вдруге, невдалий ставиться знову |
+
+Домен: `PronunciationText` (1–64 символи латиницею з апострофом, дефісом, крапкою, пробілами; нормалізує пробіли й апострофи), `Clip` (queued → rendered | failed після 3 спроб), `VoiceCatalog.V1`, шлях `pronunciation/{engineVersion}/{voice}/{lexemeId}.m4a`. Порти: `IPronunciationRenderer` (сайдкар, `content/pipeline/audio/server.py`, образ `infra/kokoro/Dockerfile`), `IClipStore` (v1: тека `Pronunciation:StorePath`; продакшн: Object Storage за CDN), `IClipRepository` (v1: у пам'яті процесу; далі таблиця `pronunciation.clip`), `IRenderJobs` (v1: `Channel`; далі `shared.jobs`). Налаштування: `Pronunciation:KokoroBaseUrl` (`http://kokoro:8081/` у compose), `EngineVersion` (`kokoro-82m-v1.0`, змінюється разом із моделлю чи параметрами), `WordSpeed` 0.9, `RenderTimeoutSeconds` 60.
+
 ### 3.5. Модуль LearnerProgress
 
 **Модель подій.** Конверт події єдиний для всіх типів (payload належить 06):

@@ -12,6 +12,7 @@
     <Project Path="src/server/Burdock.Server.Modules.Identity/Burdock.Server.Modules.Identity.csproj" />
     <Project Path="src/server/Burdock.Server.Modules.LearnerProgress/Burdock.Server.Modules.LearnerProgress.csproj" />
     <Project Path="src/server/Burdock.Server.Modules.Notifications/Burdock.Server.Modules.Notifications.csproj" />
+    <Project Path="src/server/Burdock.Server.Modules.Pronunciation/Burdock.Server.Modules.Pronunciation.csproj" />
     <Project Path="src/server/Burdock.Server.Modules.Rewards/Burdock.Server.Modules.Rewards.csproj" />
     <Project Path="src/server/Burdock.Server.Modules.SettingsSync/Burdock.Server.Modules.SettingsSync.csproj" />
     <Project Path="src/server/Burdock.Server.Shared/Burdock.Server.Shared.csproj" />

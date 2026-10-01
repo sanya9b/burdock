@@ -5,6 +5,7 @@ using Burdock.Server.Modules.Entitlements;
 using Burdock.Server.Modules.Identity;
 using Burdock.Server.Modules.LearnerProgress;
 using Burdock.Server.Modules.Notifications;
+using Burdock.Server.Modules.Pronunciation;
 using Burdock.Server.Modules.Rewards;
 using Burdock.Server.Modules.SettingsSync;
 using Burdock.Server.Shared.Modules;
@@ -20,6 +21,7 @@ public sealed class ModuleIsolationTests
     {
         ["Burdock.Server.Modules.Identity"] = typeof(IdentityModule).Assembly,
         ["Burdock.Server.Modules.Content"] = typeof(ContentModule).Assembly,
+        ["Burdock.Server.Modules.Pronunciation"] = typeof(PronunciationModule).Assembly,
         ["Burdock.Server.Modules.LearnerProgress"] = typeof(LearnerProgressModule).Assembly,
         ["Burdock.Server.Modules.Rewards"] = typeof(RewardsModule).Assembly,
         ["Burdock.Server.Modules.Entitlements"] = typeof(EntitlementsModule).Assembly,

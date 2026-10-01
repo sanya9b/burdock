@@ -11,6 +11,16 @@ public static class ApiRoutes
         public const string Manifest = Group + "/manifest";
     }
 
+    public static class Pronunciation
+    {
+        public const string Group = Prefix + "/pronunciation";
+        public const string Voices = Group + "/voices";
+        public const string Clips = Group + "/clips";
+
+        /// <summary>Shared admin secret of the write endpoints until the Identity module issues scoped tokens (ADR 0020).</summary>
+        public const string AdminKeyHeader = "X-Burdock-Admin-Key";
+    }
+
     public static class Identity
     {
         public const string Group = Prefix + "/identity";

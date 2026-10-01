@@ -119,3 +119,7 @@ flowchart LR
 - Секретів у відкритому вигляді (тільки `*.enc`; push protection GitHub блокує випадкові коміти).
 - Конфігурації застосунку, що є політикою (ліміти, TTL): вона в `appsettings.*.json` сервера і в таблиці констант 09 §3.15; тут лише інфраструктурні значення.
 - Скриптів для Azure: міграція на Azure Container Apps + PostgreSQL Flexible Server (Q17) можлива без зміни коду, але оформлюється окремим ADR, коли буде потрібна.
+
+## kokoro/
+
+Образ сайдкара синтезу вимови для модуля Pronunciation (ADR 0020): `docker build -f infra/kokoro/Dockerfile -t burdock-kokoro .` з кореня репозиторію; у compose сервіс `kokoro` на порту 8081 лише у приватній мережі, API звертається до нього за `Pronunciation:KokoroBaseUrl`.

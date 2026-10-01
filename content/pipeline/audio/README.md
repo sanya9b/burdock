@@ -44,3 +44,15 @@ dotnet run --project content/pipeline/Burdock.ContentPipeline -- audio render --
 ```
 
 Seed-аудіо для 54 слів стартового пакета лежить у `content/seed/audio/` і потрапляє в застосунок як MauiAsset `content/audio/**` (тимчасово, поки пакети не роздає сервер).
+
+## Сайдкар для сервера (ADR 0020)
+
+`server.py` піднімає той самий рушій як HTTP-сервіс для модуля Pronunciation: `POST /render {text, voice, lang, speed}` → `audio/mp4`, `GET /health`. Локально:
+
+```bash
+.venv/Scripts/pip install -r content/pipeline/audio/requirements-server.txt
+KOKORO_MODEL_DIR=content/pipeline/audio/models .venv/Scripts/uvicorn server:app --host 127.0.0.1 --port 8081 --app-dir content/pipeline/audio
+Pronunciation__AdminKey=<ключ> dotnet run --project src/server/Burdock.Server.Api     # POST /v1/pronunciation/clips з заголовком X-Burdock-Admin-Key
+```
+
+У продакшні це контейнер `kokoro` (`infra/kokoro/Dockerfile`, моделі завантажуються під час збирання й звіряються за SHA-256, 2 потоки onnxruntime, лише приватна мережа compose). Повний рендер словника робиться не сайдкаром, а `render_audio.py` (одна команда на голос з `--threads 2`, щоб чотири процеси ділили процесор без простою; індекс для всіх голосів перезбирається останнім проходом без `--force`).

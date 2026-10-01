@@ -12,6 +12,7 @@
     <ProjectReference Include="..\..\src\server\Burdock.Server.Api\Burdock.Server.Api.csproj" />
     <ProjectReference Include="..\..\src\server\Burdock.Server.Modules.Identity\Burdock.Server.Modules.Identity.csproj" />
     <ProjectReference Include="..\..\src\server\Burdock.Server.Modules.Content\Burdock.Server.Modules.Content.csproj" />
+    <ProjectReference Include="..\..\src\server\Burdock.Server.Modules.Pronunciation\Burdock.Server.Modules.Pronunciation.csproj" />
     <ProjectReference Include="..\..\src\server\Burdock.Server.Modules.LearnerProgress\Burdock.Server.Modules.LearnerProgress.csproj" />
     <ProjectReference Include="..\..\src\server\Burdock.Server.Modules.Rewards\Burdock.Server.Modules.Rewards.csproj" />
     <ProjectReference Include="..\..\src\server\Burdock.Server.Modules.Entitlements\Burdock.Server.Modules.Entitlements.csproj" />
