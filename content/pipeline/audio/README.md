@@ -43,7 +43,7 @@ dotnet run --project content/pipeline/Burdock.ContentPipeline -- audio render --
 └── …
 ```
 
-Seed-аудіо для 54 слів стартового пакета лежить у `content/seed/audio/` і потрапляє в застосунок як MauiAsset `content/audio/**` (тимчасово, поки пакети не роздає сервер).
+У застосунок вбудовується аудіо безкоштовного пулу (600 слів × 4 голоси ≈ 13 МБ): `bundle_audio.py --index <rendered>/audio-index.json --out content/seed/audio` копіює кліпи з перевіркою SHA-256, і тека потрапляє в застосунок як MauiAsset `content/audio/**` (тимчасово, поки аудіо не роздає сервер за маніфестом). Решта словника лежить у `content/generated/uk-en/audio/` (не комітиться) до появи Object Storage.
 
 ## Сайдкар для сервера (ADR 0020)
 
