@@ -1,0 +1,57 @@
+name: publish-server
+
+# Builds the API container with the SDK's PublishContainer target (spec 14 §3.12) and pushes it to GHCR as
+# ghcr.io/<owner>/burdock-api:<short sha> and :main. Deploys pick a tag explicitly (deploy-server).
+on:
+  push:
+    branches: [main]
+    paths:
+      - "src/server/**"
+      - "src/shared/**"
+      - "Directory.Packages.props"
+      - "Directory.Build.props"
+      - "global.json"
+      - ".github/workflows/publish-server.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: write
+
+concurrency:
+  group: publish-server
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    name: Publish API image
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v5
+        with:
+          global-json-file: global.json
+      - name: Log in to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Compute tags
+        id: tags
+        run: |
+          echo "sha=${GITHUB_SHA::7}" >> "$GITHUB_OUTPUT"
+          echo "owner=${GITHUB_REPOSITORY_OWNER,,}" >> "$GITHUB_OUTPUT"
+      - name: Publish container
+        run: >
+          dotnet publish src/server/Burdock.Server.Api/Burdock.Server.Api.csproj
+          -c Release
+          -p:TreatWarningsAsErrors=true
+          -p:PublishProfile=DefaultContainer
+          -p:ContainerRegistry=ghcr.io
+          -p:ContainerRepository=${{ steps.tags.outputs.owner }}/burdock-api
+          -p:ContainerImageTags='"${{ steps.tags.outputs.sha }};main"'
+          -p:ContainerUser=app
+      - name: Summary
+        run: echo "Published ghcr.io/${{ steps.tags.outputs.owner }}/burdock-api:${{ steps.tags.outputs.sha }}" >> "$GITHUB_STEP_SUMMARY"

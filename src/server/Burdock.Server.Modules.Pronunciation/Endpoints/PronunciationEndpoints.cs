@@ -6,6 +6,7 @@ using Burdock.Domain.Vocabulary;
 using Burdock.Server.Modules.Pronunciation.Application;
 using Burdock.Server.Modules.Pronunciation.Domain;
 using Burdock.Server.Shared.Errors;
+using Burdock.Server.Shared.Security;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Routing;
@@ -25,14 +26,20 @@ public static class PronunciationEndpoints
         var group = endpoints.MapGroup(ApiRoutes.Pronunciation.Group).WithTags("Pronunciation");
 
         group.MapGet("/voices", GetVoices)
+            .AllowAnonymous()
+            .RequireRateLimiting(Policies.RateLimits.AnonIp)
             .WithName("GetPronunciationVoices")
             .WithSummary("The voice catalogue the app offers in «Голос».");
 
         group.MapGet("/clips/{lexemeId:guid}/{voice}", GetClipAsync)
+            .AllowAnonymous()
+            .RequireRateLimiting(Policies.RateLimits.AnonIp)
             .WithName("GetPronunciationClip")
             .WithSummary("The clip of a lexeme in one voice: redirect to the CDN or the file itself; 202 while it renders, 404 when never requested.");
 
         group.MapPost("/clips", RequestClipsAsync)
+            .AllowAnonymous()
+            .RequireRateLimiting(Policies.RateLimits.AnonIp)
             .AddEndpointFilter<AdminKeyFilter>()
             .WithName("RequestPronunciationClips")
             .WithSummary("Queues the missing voices of a lexeme for rendering (admin key required); idempotent.");

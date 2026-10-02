@@ -5,6 +5,9 @@ public static class ApiRoutes
 {
     public const string Prefix = "/v1";
 
+    /// <summary>GET /v1/config: anonymous remote configuration (spec 09 FR-09-22).</summary>
+    public const string Config = Prefix + "/config";
+
     public static class Content
     {
         public const string Group = Prefix + "/content";
@@ -24,6 +27,19 @@ public static class ApiRoutes
     public static class Identity
     {
         public const string Group = Prefix + "/identity";
+        public const string Anonymous = Group + "/anonymous";
+        public const string Me = Group + "/me";
+    }
+
+    /// <summary>OpenIddict endpoints (spec 09 §3.2, §3.3.1): the only issuer of tokens.</summary>
+    public static class Connect
+    {
+        public const string Token = Prefix + "/connect/token";
+        public const string Revocation = Prefix + "/connect/revocation";
+
+        /// <summary>Custom grant that exchanges an installation id + secret for tokens of the anonymous account.</summary>
+        public const string InstallationGrantType = "urn:burdock:grant:installation";
+        public const string ClientId = "burdock-mobile";
     }
 
     public static class Progress

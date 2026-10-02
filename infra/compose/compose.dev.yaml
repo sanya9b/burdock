@@ -1,0 +1,21 @@
+# Local development database (spec 14 §3.11). Start: docker compose -f infra/compose/compose.dev.yaml up -d
+# The credentials below exist only for this local container; production values come from sops (infra/secrets).
+services:
+  postgres:
+    image: postgres:18
+    container_name: burdock-postgres-dev
+    environment:
+      POSTGRES_DB: burdock
+      POSTGRES_USER: burdock
+      POSTGRES_PASSWORD: burdock-dev
+    ports:
+      - "5432:5432"
+    volumes:
+      - burdock-pg-dev:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U burdock -d burdock"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+volumes:
+  burdock-pg-dev:

@@ -1,0 +1,29 @@
+# Production overrides (spec 14 §3.11): memory limits for a 4 vCPU / 8 GB VM (CX33) and log rotation.
+services:
+  api:
+    deploy:
+      resources:
+        limits:
+          memory: 1g
+    logging:
+      driver: json-file
+      options:
+        max-size: "20m"
+        max-file: "5"
+  postgres:
+    command: ["postgres", "-c", "shared_buffers=1GB", "-c", "max_connections=100", "-c", "wal_level=replica", "-c", "archive_mode=on", "-c", "archive_command=/bin/true"]
+    deploy:
+      resources:
+        limits:
+          memory: 2500m
+    logging:
+      driver: json-file
+      options:
+        max-size: "20m"
+        max-file: "5"
+  caddy:
+    logging:
+      driver: json-file
+      options:
+        max-size: "20m"
+        max-file: "5"

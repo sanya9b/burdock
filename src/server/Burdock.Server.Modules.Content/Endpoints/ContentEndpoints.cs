@@ -3,6 +3,7 @@ using Burdock.Contracts.V1;
 using Burdock.Domain.Vocabulary;
 using Burdock.Server.Modules.Content.Application;
 using Burdock.Server.Shared.Errors;
+using Burdock.Server.Shared.Security;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Routing;
@@ -22,6 +23,8 @@ public static class ContentEndpoints
         var group = endpoints.MapGroup(ApiRoutes.Content.Group).WithTags("Content");
 
         group.MapGet("/manifest", GetManifestAsync)
+            .RequireAuthorization(Policies.User)
+            .RequireRateLimiting(Policies.RateLimits.User)
             .WithName("GetContentManifest")
             .WithSummary("Manifest of content packs for a language pair; supports If-None-Match.");
     }

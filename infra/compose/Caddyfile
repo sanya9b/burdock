@@ -1,0 +1,36 @@
+# api.burdock.org (spec 14 §3.11): automatic ACME certificates, HSTS one day at launch (raise to a year after 30 days),
+# only /health/live is exposed for the external monitor, access logs carry no client address.
+{
+	email ops@burdock.org
+	servers {
+		trusted_proxies static private_ranges
+	}
+}
+
+api.burdock.org {
+	encode zstd gzip
+
+	header {
+		Strict-Transport-Security "max-age=86400"
+		X-Content-Type-Options "nosniff"
+		Referrer-Policy "no-referrer"
+		-Server
+	}
+
+	@internalHealth path /health/ready /healthz/ready
+	respond @internalHealth 404
+
+	reverse_proxy api:8080 {
+		header_up X-Forwarded-Proto {scheme}
+	}
+
+	log {
+		output stdout
+		format filter {
+			request>remote_ip delete
+			request>client_ip delete
+			request>headers>Authorization delete
+			request>headers>X-Burdock-Admin-Key delete
+		}
+	}
+}

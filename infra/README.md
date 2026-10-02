@@ -123,3 +123,11 @@ flowchart LR
 ## kokoro/
 
 Образ сайдкара синтезу вимови для модуля Pronunciation (ADR 0020): `docker build -f infra/kokoro/Dockerfile -t burdock-kokoro .` з кореня репозиторію; у compose сервіс `kokoro` на порту 8081 лише у приватній мережі, API звертається до нього за `Pronunciation:KokoroBaseUrl`.
+
+## compose/
+
+- `compose.dev.yaml` — лише PostgreSQL 18 для локальної розробки (`docker compose -f infra/compose/compose.dev.yaml up -d`); облікові дані в файлі діють тільки для цього контейнера.
+- `compose.yaml` + `compose.prod.yaml` + `Caddyfile` — продакшн-топологія на одній VM (спека 14 §3.11): `caddy` (TLS, HSTS, фільтрація адрес у логах), `api` (образ з GHCR, read-only rootfs, `/health/live`), `postgres:18`, `kokoro` (сайдкар синтезу, лише внутрішня мережа). Секрети приходять із `secrets/prod.enc.env` через sops у `.env` на VM.
+- `scripts/burdock-deploy.sh <tag>` — єдина точка деплою (спека 14 §3.12): pull → `api migrate` → up → readiness → smoke `/v1/config`, інакше відкат на попередній тег. Запускається воркфлоу `deploy-server` по SSH або вручну з runbook-у.
+
+Поки що не розгорнуто: потрібні акаунт Hetzner, DNS `api.burdock.org`, ключ age для sops і секрети `DEPLOY_HOST`/`DEPLOY_USER`/`DEPLOY_SSH_KEY` у середовищі `prod` GitHub.

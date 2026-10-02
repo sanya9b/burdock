@@ -1,0 +1,33 @@
+name: deploy-server
+
+# Manual production deploy (spec 14 §3.12): runs infra/scripts/burdock-deploy.sh on the Hetzner VM over SSH with the
+# chosen image tag. Requires the `prod` environment secrets DEPLOY_HOST, DEPLOY_USER and DEPLOY_SSH_KEY.
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "API image tag (short commit SHA from publish-server)"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-server
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Deploy ${{ inputs.tag }}
+    runs-on: ubuntu-latest
+    environment: prod
+    steps:
+      - name: Deploy over SSH
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.DEPLOY_HOST }}
+          username: ${{ secrets.DEPLOY_USER }}
+          key: ${{ secrets.DEPLOY_SSH_KEY }}
+          script_stop: true
+          script: /opt/burdock/scripts/burdock-deploy.sh ${{ inputs.tag }}

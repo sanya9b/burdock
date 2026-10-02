@@ -52,3 +52,9 @@ dotnet_naming_rule.interfaces_prefix_i.severity = error
 dotnet_naming_symbols.interfaces.applicable_kinds = interface
 dotnet_naming_style.prefix_i.capitalization = pascal_case
 dotnet_naming_style.prefix_i.required_prefix = I
+
+# EF Core migrations are scaffolded by `dotnet ef`; they are generated code and stay out of analysis (spec 09 §3.1).
+[**/Migrations/*.cs]
+generated_code = true
+dotnet_analyzer_diagnostic.severity = none
+dotnet_diagnostic.IDE0161.severity = none

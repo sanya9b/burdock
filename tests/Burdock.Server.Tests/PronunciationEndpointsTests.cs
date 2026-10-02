@@ -14,7 +14,7 @@ using Microsoft.Extensions.DependencyInjection;
 namespace Burdock.Server.Tests;
 
 /// <summary>Host with the admin key set, a temp file store and a fake engine instead of the Kokoro sidecar (ADR 0020).</summary>
-public sealed class PronunciationApiFactory : WebApplicationFactory<Program>
+public sealed class PronunciationApiFactory(string connectionString) : BurdockApiFactory(connectionString)
 {
     public const string AdminKey = "test-admin-key";
 
@@ -22,7 +22,7 @@ public sealed class PronunciationApiFactory : WebApplicationFactory<Program>
 
     public FakeRenderer Renderer { get; } = new();
 
-    protected override void ConfigureWebHost(IWebHostBuilder builder)
+    protected override void Configure(IWebHostBuilder builder)
     {
         ArgumentNullException.ThrowIfNull(builder);
         builder.UseSetting("Pronunciation:AdminKey", AdminKey);
@@ -55,16 +55,23 @@ public sealed class FakeRenderer : IPronunciationRenderer
     }
 }
 
-public sealed class PronunciationEndpointsTests : IClassFixture<PronunciationApiFactory>
+[Collection(PostgresBackedApi.Name)]
+public sealed class PronunciationEndpointsTests : IDisposable
 {
     private readonly PronunciationApiFactory _factory;
     private readonly HttpClient _client;
 
-    public PronunciationEndpointsTests(PronunciationApiFactory factory)
+    public PronunciationEndpointsTests(PostgresFixture postgres)
     {
-        ArgumentNullException.ThrowIfNull(factory);
-        _factory = factory;
-        _client = factory.CreateClient(new WebApplicationFactoryClientOptions { AllowAutoRedirect = false });
+        ArgumentNullException.ThrowIfNull(postgres);
+        _factory = new PronunciationApiFactory(postgres.ConnectionString);
+        _client = _factory.CreateClient(new WebApplicationFactoryClientOptions { AllowAutoRedirect = false });
+    }
+
+    public void Dispose()
+    {
+        _client.Dispose();
+        _factory.Dispose();
     }
 
     [Fact]
