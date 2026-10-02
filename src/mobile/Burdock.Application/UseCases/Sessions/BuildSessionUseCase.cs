@@ -20,13 +20,28 @@ public sealed class BuildSessionUseCase(GetDailyPlanUseCase dailyPlan, ILearnerC
     /// <summary>learning.session.optionsPerChoice</summary>
     public const int OptionsPerChoice = 4;
 
+    /// <summary>learning.session.minDistractorPool: below this many candidates the pool widens to all topics, then to all levels.</summary>
+    public const int MinDistractorPool = 40;
+
     public async Task<SessionPlan> ExecuteAsync(int size, CancellationToken cancellationToken)
     {
         var plan = await dailyPlan.ExecuteAsync(cancellationToken).ConfigureAwait(false);
         var learnerId = await learner.GetLearnerIdAsync(cancellationToken).ConfigureAwait(false);
         var settings = await learner.GetSettingsAsync(cancellationToken).ConfigureAwait(false);
         var learnerCards = await cards.ListAsync(learnerId, cancellationToken).ConfigureAwait(false);
-        var pool = await content.ListAsync(settings.Pair, CefrLevelExtensions.All, [], cancellationToken).ConfigureAwait(false);
+        // Distractors come from the learner's levels and topics (spec 06 §3.6 prefers the same level and semantic field); the
+        // whole pair is read only when that pool is too small to offer three alternatives (issue #4: 9.8k rows per session).
+        var levels = settings.Level.WithNeighbours();
+        var pool = await content.ListAsync(settings.Pair, levels, settings.Topics, cancellationToken).ConfigureAwait(false);
+        if (pool.Count < MinDistractorPool)
+        {
+            pool = await content.ListAsync(settings.Pair, levels, [], cancellationToken).ConfigureAwait(false);
+        }
+
+        if (pool.Count < MinDistractorPool)
+        {
+            pool = await content.ListAsync(settings.Pair, CefrLevelExtensions.All, [], cancellationToken).ConfigureAwait(false);
+        }
 
         var chosen = plan.Words.Take(Math.Max(size, LearningPolicy.MinGradedCardsForLearningDay)).ToList();
         if (chosen.Count == 0)

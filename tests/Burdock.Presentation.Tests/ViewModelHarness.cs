@@ -120,6 +120,7 @@ public sealed class ViewModelHarness
         services.AddSingleton<IClock>(Clock);
         services.AddSingleton<IContentRepository>(ContentPort);
         services.AddSingleton<ILearnerCardRepository>(Cards);
+        services.AddSingleton<IDailyPlanCache>(new InMemoryDailyPlanCache());
         services.AddSingleton<IReviewLogStore>(Reviews);
         services.AddSingleton<IExposureStore>(Exposures);
         services.AddSingleton<IRewardsStore>(Rewards);

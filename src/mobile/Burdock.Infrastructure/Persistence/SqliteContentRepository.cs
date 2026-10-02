@@ -8,6 +8,9 @@ namespace Burdock.Infrastructure.Persistence;
 
 public sealed class SqliteContentRepository(BurdockDatabase database) : IContentRepository
 {
+    /// <summary>Stays well under SQLite's default limit of 999 bound variables per statement.</summary>
+    private const int IdChunkSize = 400;
+
     public async Task<WordEntry?> GetAsync(LexemeId id, CancellationToken cancellationToken)
     {
         var db = await database.GetOpenConnectionAsync(cancellationToken).ConfigureAwait(false);
@@ -41,6 +44,26 @@ public sealed class SqliteContentRepository(BurdockDatabase database) : IContent
         return rows.Select(ToEntry).ToArray();
     }
 
+    public async Task<IReadOnlyList<WordEntry>> ListByIdsAsync(IReadOnlyCollection<LexemeId> ids, CancellationToken cancellationToken)
+    {
+        ArgumentNullException.ThrowIfNull(ids);
+        if (ids.Count == 0)
+        {
+            return [];
+        }
+
+        var db = await database.GetOpenConnectionAsync(cancellationToken).ConfigureAwait(false);
+        var entries = new List<WordEntry>(ids.Count);
+        foreach (var chunk in ids.Select(id => (object)id.Value).Chunk(IdChunkSize))
+        {
+            var sql = "SELECT * FROM word_entries WHERE Id IN (" + string.Join(", ", chunk.Select(_ => "?")) + ")";
+            var rows = await db.QueryAsync<WordEntryRow>(sql, chunk).ConfigureAwait(false);
+            entries.AddRange(rows.Select(ToEntry));
+        }
+
+        return entries;
+    }
+
     public async Task<int> CountAsync(LanguagePair pair, CancellationToken cancellationToken)
     {
         var db = await database.GetOpenConnectionAsync(cancellationToken).ConfigureAwait(false);
@@ -53,6 +76,13 @@ public sealed class SqliteContentRepository(BurdockDatabase database) : IContent
         var db = await database.GetOpenConnectionAsync(cancellationToken).ConfigureAwait(false);
         var row = await db.FindAsync<ContentPackRow>(packId).ConfigureAwait(false);
         return row?.Version;
+    }
+
+    public async Task<IReadOnlyDictionary<string, int>> GetImportedPackVersionsAsync(CancellationToken cancellationToken)
+    {
+        var db = await database.GetOpenConnectionAsync(cancellationToken).ConfigureAwait(false);
+        var rows = await db.Table<ContentPackRow>().ToListAsync().ConfigureAwait(false);
+        return rows.ToDictionary(r => r.PackId, r => r.Version, StringComparer.Ordinal);
     }
 
     public async Task ImportPackAsync(ImportedContentPack pack, CancellationToken cancellationToken)

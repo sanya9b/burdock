@@ -25,6 +25,7 @@ public static class InfrastructureServiceCollectionExtensions
         services.AddSingleton<BurdockDatabase>();
         services.AddSingleton<IContentRepository, SqliteContentRepository>();
         services.AddSingleton<ILearnerCardRepository, SqliteLearnerCardRepository>();
+        services.AddSingleton<IDailyPlanCache, SqliteDailyPlanCache>();
         services.AddSingleton<IReviewLogStore, SqliteReviewLogStore>();
         services.AddSingleton<IExposureStore, SqliteExposureStore>();
         services.AddSingleton<IRewardsStore, SqliteRewardsStore>();

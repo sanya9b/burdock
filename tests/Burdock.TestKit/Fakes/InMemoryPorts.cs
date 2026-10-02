@@ -12,10 +12,17 @@ public sealed class InMemoryContentRepository : IContentRepository
     private readonly Dictionary<LexemeId, WordEntry> _entries = [];
     private readonly Dictionary<string, int> _packs = new(StringComparer.Ordinal);
 
+    /// <summary>How many candidate scans ran; the day plan must scan once per day, not on every open.</summary>
+    public int ListCalls { get; private set; }
+
     public Task<WordEntry?> GetAsync(LexemeId id, CancellationToken cancellationToken) => Task.FromResult(_entries.GetValueOrDefault(id));
+
+    public Task<IReadOnlyList<WordEntry>> ListByIdsAsync(IReadOnlyCollection<LexemeId> ids, CancellationToken cancellationToken)
+        => Task.FromResult<IReadOnlyList<WordEntry>>(ids.Select(id => _entries.GetValueOrDefault(id)).Where(e => e is not null).Select(e => e!).ToArray());
 
     public Task<IReadOnlyList<WordEntry>> ListAsync(LanguagePair pair, IReadOnlyCollection<CefrLevel> levels, IReadOnlyCollection<TopicId> topics, CancellationToken cancellationToken)
     {
+        ListCalls++;
         IReadOnlyList<WordEntry> list = _entries.Values
             .Where(e => e.Lexeme.Pair == pair && levels.Contains(e.Lexeme.Level) && (topics.Count == 0 || topics.Any(e.Lexeme.BelongsTo)))
             .OrderBy(e => e.Lexeme.Lemma, StringComparer.Ordinal)
@@ -27,6 +34,9 @@ public sealed class InMemoryContentRepository : IContentRepository
 
     public Task<int?> GetImportedPackVersionAsync(string packId, CancellationToken cancellationToken)
         => Task.FromResult(_packs.TryGetValue(packId, out var v) ? v : (int?)null);
+
+    public Task<IReadOnlyDictionary<string, int>> GetImportedPackVersionsAsync(CancellationToken cancellationToken)
+        => Task.FromResult<IReadOnlyDictionary<string, int>>(new Dictionary<string, int>(_packs, StringComparer.Ordinal));
 
     public Task ImportPackAsync(ImportedContentPack pack, CancellationToken cancellationToken)
     {
@@ -42,8 +52,30 @@ public sealed class InMemoryContentRepository : IContentRepository
 
 public sealed class InMemoryPackSource(params ImportedContentPack[] packs) : IContentPackSource
 {
-    public Task<IReadOnlyList<ImportedContentPack>> LoadBundledPacksAsync(LanguagePair pair, CancellationToken cancellationToken)
-        => Task.FromResult<IReadOnlyList<ImportedContentPack>>(packs.Where(p => p.Pair == pair).ToArray());
+    /// <summary>How many pack bodies were requested; the bootstrap must not read packs that are already current.</summary>
+    public int LoadCalls { get; private set; }
+
+    public Task<IReadOnlyList<BundledPackDescriptor>> ListBundledPacksAsync(LanguagePair pair, CancellationToken cancellationToken)
+        => Task.FromResult<IReadOnlyList<BundledPackDescriptor>>(packs.Where(p => p.Pair == pair).Select(p => new BundledPackDescriptor(p.PackId, p.Pair, p.Version, p.PackId)).ToArray());
+
+    public Task<ImportedContentPack?> LoadBundledPackAsync(BundledPackDescriptor descriptor, CancellationToken cancellationToken)
+    {
+        LoadCalls++;
+        return Task.FromResult(packs.FirstOrDefault(p => p.PackId == descriptor.PackId));
+    }
+}
+
+public sealed class InMemoryDailyPlanCache : IDailyPlanCache
+{
+    private readonly Dictionary<LearnerId, DailyPlanSnapshot> _snapshots = [];
+
+    public Task<DailyPlanSnapshot?> GetAsync(LearnerId learnerId, CancellationToken cancellationToken) => Task.FromResult(_snapshots.GetValueOrDefault(learnerId));
+
+    public Task SaveAsync(DailyPlanSnapshot snapshot, CancellationToken cancellationToken)
+    {
+        _snapshots[snapshot.LearnerId] = snapshot;
+        return Task.CompletedTask;
+    }
 }
 
 public sealed class InMemoryCardRepository : ILearnerCardRepository

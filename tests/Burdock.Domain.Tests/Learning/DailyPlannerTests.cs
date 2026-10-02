@@ -35,6 +35,29 @@ public sealed class DailyPlannerTests
     }
 
     [Fact]
+    public void New_words_come_from_the_chosen_level_before_its_neighbours()
+    {
+        var chosen = Enumerable.Range(1, 6).Select(n => EntryAt(n, CefrLevel.A1)).ToArray();
+        var neighbours = Enumerable.Range(7, 6).Select(n => EntryAt(n, CefrLevel.A2)).ToArray();
+        var candidates = neighbours.Concat(chosen).ToArray();
+        var cards = new Dictionary<LexemeId, LearnerCard>();
+
+        var plan = DailyPlanner.Plan(Learner, Today, Now, TestTimeZones.KyivFixed, candidates, cards, Settings(8), new FixedScheduler(0.5));
+
+        plan.NewCount.ShouldBe(8);
+        plan.Words.Take(6).ShouldAllBe(w => w.Entry.Lexeme.Level == CefrLevel.A1);
+        plan.Words.Skip(6).ShouldAllBe(w => w.Entry.Lexeme.Level == CefrLevel.A2);
+
+        var order = DailyPlanner.FreshInPlanOrder(Learner, Today, candidates, cards, Settings(8));
+        order.Take(6).Select(e => e.Id).ShouldBe(plan.Words.Take(6).Select(w => w.Entry.Id));
+        order.Count.ShouldBe(12);
+    }
+
+    private static WordEntry EntryAt(int n, CefrLevel level) => new(
+        LexemeBuilder.ALexeme().WithId(Guid.Parse($"0199a4c0-0000-7000-8000-0000000000{n:x2}")).WithLemma($"word{n}").AtLevel(level).Build(),
+        $"слово{n}", [], [], null, null, null, null);
+
+    [Fact]
     public void Due_cards_come_first_ordered_by_retrievability_then_learning_then_new()
     {
         var candidates = Enumerable.Range(1, 6).Select(Entry).ToArray();

@@ -172,7 +172,11 @@ public sealed class FlakyContentRepository(IContentRepository inner) : IContentR
 
     public Task<int> CountAsync(LanguagePair pair, CancellationToken cancellationToken) => Guard(() => inner.CountAsync(pair, cancellationToken));
 
+    public Task<IReadOnlyList<WordEntry>> ListByIdsAsync(IReadOnlyCollection<LexemeId> ids, CancellationToken cancellationToken) => Guard(() => inner.ListByIdsAsync(ids, cancellationToken));
+
     public Task<int?> GetImportedPackVersionAsync(string packId, CancellationToken cancellationToken) => Guard(() => inner.GetImportedPackVersionAsync(packId, cancellationToken));
+
+    public Task<IReadOnlyDictionary<string, int>> GetImportedPackVersionsAsync(CancellationToken cancellationToken) => Guard(() => inner.GetImportedPackVersionsAsync(cancellationToken));
 
     public Task ImportPackAsync(ImportedContentPack pack, CancellationToken cancellationToken) => Guard(() => inner.ImportPackAsync(pack, cancellationToken));
 

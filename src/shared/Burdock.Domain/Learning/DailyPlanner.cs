@@ -87,8 +87,7 @@ public static class DailyPlanner
         }
 
         var newBudget = Math.Max(0, (newWordsOverride ?? settings.NewWordsPerDay) - introducedToday);
-        var newWords = fresh
-            .OrderBy(e => SeededOrder(learnerId, day, e.Id))
+        var newWords = OrderFresh(learnerId, day, fresh, settings)
             .Take(newBudget)
             .Select(e => new PlannedWord(e, PlanReason.New, 0))
             .ToList();
@@ -100,6 +99,30 @@ public static class DailyPlanner
 
         return new DailyPlan(day, ordered);
     }
+
+    /// <summary>
+    /// Candidates that would be new today, in the order the plan takes them: the chosen level first and neighbouring
+    /// levels only after it runs dry (spec 06 §3.5 spill-over), ties broken by the (learner, day) seed. The use case
+    /// remembers a prefix of this list so later opens of the same day do not rescan the content.
+    /// </summary>
+    public static IReadOnlyList<WordEntry> FreshInPlanOrder(
+        LearnerId learnerId,
+        LearningDay day,
+        IReadOnlyList<WordEntry> candidates,
+        IReadOnlyDictionary<LexemeId, LearnerCard> cards,
+        LearnerSettings settings)
+    {
+        ArgumentNullException.ThrowIfNull(candidates);
+        ArgumentNullException.ThrowIfNull(cards);
+        ArgumentNullException.ThrowIfNull(settings);
+        var fresh = candidates.Where(e => !cards.TryGetValue(e.Id, out var card) || card.State == CardState.New).ToList();
+        return OrderFresh(learnerId, day, fresh, settings).ToArray();
+    }
+
+    private static IOrderedEnumerable<WordEntry> OrderFresh(LearnerId learnerId, LearningDay day, List<WordEntry> fresh, LearnerSettings settings)
+        => fresh
+            .OrderBy(e => e.Lexeme.Level == settings.Level ? 0 : 1)
+            .ThenBy(e => SeededOrder(learnerId, day, e.Id));
 
     /// <summary>Stable pseudo-random key: SHA-256 over learner, day and lexeme (spec 06 §3.5 FreeDailySet seed idea).</summary>
     public static ulong SeededOrder(LearnerId learnerId, LearningDay day, LexemeId lexemeId)
