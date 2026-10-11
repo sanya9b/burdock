@@ -5,8 +5,10 @@ using Burdock.Infrastructure.Identity;
 using Burdock.Infrastructure.Learner;
 using Burdock.Infrastructure.Persistence;
 using Burdock.Infrastructure.Scheduling;
+using Burdock.Infrastructure.Sync;
 using Burdock.Infrastructure.Time;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using Microsoft.Maui.Storage;
 
 namespace Burdock.Infrastructure.DependencyInjection;
@@ -14,7 +16,10 @@ namespace Burdock.Infrastructure.DependencyInjection;
 /// <summary>Registers port implementations shared by every platform. Platform-specific adapters are added in Platforms/ folders.</summary>
 public static class InfrastructureServiceCollectionExtensions
 {
-    public static IServiceCollection AddBurdockInfrastructure(this IServiceCollection services, DatabaseOptions? database = null, FsrsOptions? fsrs = null)
+    /// <summary>HTTP calls to the API give up after this long; the sync treats a timeout as being offline.</summary>
+    private static readonly TimeSpan HttpTimeout = TimeSpan.FromSeconds(30);
+
+    public static IServiceCollection AddBurdockInfrastructure(this IServiceCollection services, DatabaseOptions? database = null, FsrsOptions? fsrs = null, SyncOptions? sync = null)
     {
         ArgumentNullException.ThrowIfNull(services);
 
@@ -40,6 +45,21 @@ public static class InfrastructureServiceCollectionExtensions
         services.AddSingleton<IRandom, SystemRandom>();
         services.AddSingleton<IContentPackSource, BundledContentPackSource>();
         services.AddSingleton<IPronunciationAudio, BundledPronunciationAudio>();
+
+        // Sync (spec 09 sections 3.3-3.6): credentials in the keychain, outbox and cursors in SQLite, one HttpClient for the API.
+        services.AddSingleton(_ => SecureStorage.Default);
+        services.AddSingleton<IDeviceCredentials, SecureStorageDeviceCredentials>();
+        services.AddSingleton<IProgressOutbox, SqliteProgressOutbox>();
+        services.AddSingleton<ISyncState, SqliteSyncState>();
+        services.AddSingleton<ISyncableSettings, PreferencesSettingsSync>();
+        services.AddSingleton(_ => sync ?? SyncOptions.ForThisDevice());
+        services.AddSingleton(sp => new HttpClient { BaseAddress = sp.GetRequiredService<SyncOptions>().BaseUrl, Timeout = HttpTimeout });
+        services.AddSingleton<ISyncGateway>(sp => new HttpSyncGateway(
+            sp.GetRequiredService<HttpClient>(),
+            sp.GetRequiredService<SyncOptions>(),
+            sp.GetRequiredService<IDeviceCredentials>(),
+            sp.GetRequiredService<IClock>(),
+            sp.GetRequiredService<ILogger<HttpSyncGateway>>()));
 
         return services;
     }

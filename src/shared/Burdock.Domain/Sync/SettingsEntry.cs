@@ -2,11 +2,11 @@ using System.Security.Cryptography;
 using System.Text;
 using Burdock.Domain.SharedKernel;
 
-namespace Burdock.Server.Modules.SettingsSync.Domain;
+namespace Burdock.Domain.Sync;
 
 /// <summary>
-/// One setting with its last-writer-wins stamp (spec 09 §3.6, FR-09-13). Values are opaque JSON: the keys and their
-/// meaning belong to specs 05/06 and the app; the server only merges and stores them.
+/// One synchronised setting with its last-writer-wins stamp (spec 09 §3.6, FR-09-13). Shared by the app and the server so
+/// both sides merge identically. Values are opaque JSON; keys and their meaning belong to specs 05/06 and the app.
 /// </summary>
 public sealed record SettingsEntry(string Key, string ValueJson, DateTimeOffset UpdatedAt, string ClientId)
 {

@@ -3,9 +3,10 @@ namespace Burdock.Contracts.V1.Identity;
 /// <summary>
 /// First call of a fresh installation (spec 09 §3.3.1, FR-09-1): the client generates the installation id (UUIDv4) and a
 /// 32-byte secret, keeps both in SecureStorage and registers the anonymous account. Repeating the call with the same
-/// pair is idempotent; a different secret for a known id is a conflict.
+/// pair is idempotent; a different secret for a known id is a conflict. <see cref="LearnerId"/> lets the app keep the
+/// id it already uses locally (ADR 0006): it becomes the account id when free, otherwise the server answers 409.
 /// </summary>
-public sealed record RegisterInstallationDto(Guid InstallationId, string InstallationSecret, string Platform, string AppVersion, string? Locale);
+public sealed record RegisterInstallationDto(Guid InstallationId, string InstallationSecret, string Platform, string AppVersion, string? Locale, Guid? LearnerId = null);
 
 /// <summary>The anonymous account as the client sees it (no personal data by design, decision T10).</summary>
 public sealed record AccountDto(Guid UserId, string Nickname, string Status, DateTimeOffset CreatedAt);

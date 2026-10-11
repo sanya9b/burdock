@@ -1,5 +1,5 @@
 using Burdock.Domain.SharedKernel;
-using Burdock.Server.Modules.SettingsSync.Domain;
+using Burdock.Domain.Sync;
 using Burdock.Server.Shared.Time;
 
 namespace Burdock.Server.Modules.SettingsSync.Application;

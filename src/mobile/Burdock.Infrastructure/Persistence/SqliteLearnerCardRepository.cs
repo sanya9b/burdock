@@ -104,6 +104,12 @@ public sealed class SqliteReviewLogStore(BurdockDatabase database) : IReviewLogS
         }).ConfigureAwait(false);
     }
 
+    public async Task<bool> ExistsAsync(Guid id, CancellationToken cancellationToken)
+    {
+        var db = await database.GetOpenConnectionAsync(cancellationToken).ConfigureAwait(false);
+        return await db.FindAsync<ReviewLogRow>(id).ConfigureAwait(false) is not null;
+    }
+
     public async Task<int> CountGradedOnDayAsync(LearnerId learnerId, DateTimeOffset dayStartUtc, DateTimeOffset dayEndUtc, CancellationToken cancellationToken)
     {
         var db = await database.GetOpenConnectionAsync(cancellationToken).ConfigureAwait(false);
@@ -149,6 +155,12 @@ public sealed class SqliteExposureStore(BurdockDatabase database) : IExposureSto
             Kind = (int)record.Kind,
             AtTicks = Ticks.From(record.At),
         }).ConfigureAwait(false);
+    }
+
+    public async Task<bool> ExistsAsync(Guid id, CancellationToken cancellationToken)
+    {
+        var db = await database.GetOpenConnectionAsync(cancellationToken).ConfigureAwait(false);
+        return await db.FindAsync<ExposureRow>(id).ConfigureAwait(false) is not null;
     }
 
     public async Task<ExposureCounts> CountAsync(LearnerId learnerId, LexemeId lexemeId, CancellationToken cancellationToken)

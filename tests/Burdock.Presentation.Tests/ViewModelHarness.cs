@@ -44,6 +44,8 @@ public sealed class ViewModelHarness
 
     public InMemoryExposureStore Exposures { get; } = new();
 
+    public InMemoryProgressOutbox Outbox { get; } = new();
+
     public InMemoryRewardsStore Rewards { get; } = new();
 
     public SequentialIdGenerator Ids { get; } = new();
@@ -57,6 +59,8 @@ public sealed class ViewModelHarness
     public FakePrivacyConsent Privacy { get; } = new();
 
     public FakeRandom Random { get; } = new(0);
+
+    public FakeSyncCoordinator Sync { get; } = new();
 
     public List<ImportedContentPack> Packs { get; } = [];
 
@@ -123,6 +127,7 @@ public sealed class ViewModelHarness
         services.AddSingleton<IDailyPlanCache>(new InMemoryDailyPlanCache());
         services.AddSingleton<IReviewLogStore>(Reviews);
         services.AddSingleton<IExposureStore>(Exposures);
+        services.AddSingleton<IProgressOutbox>(Outbox);
         services.AddSingleton<IRewardsStore>(Rewards);
         services.AddSingleton<IIdGenerator>(Ids);
         services.AddSingleton<IReviewScheduler>(Scheduler);
@@ -140,6 +145,7 @@ public sealed class ViewModelHarness
         services.AddSingleton<INotificationPrompt>(Notifications);
         services.AddSingleton<IMotionPreferences>(Motion);
         services.AddSingleton<IAppThemeService>(Theme);
+        services.AddSingleton<ISyncCoordinator>(Sync);
 
         services.AddTransient<BootstrapViewModel>();
         services.AddTransient<OnboardingViewModel>();

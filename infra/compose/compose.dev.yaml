@@ -9,7 +9,7 @@ services:
       POSTGRES_USER: burdock
       POSTGRES_PASSWORD: burdock-dev
     ports:
-      - "5432:5432"
+      - "5433:5432"
     volumes:
       - burdock-pg-dev:/var/lib/postgresql
     healthcheck:

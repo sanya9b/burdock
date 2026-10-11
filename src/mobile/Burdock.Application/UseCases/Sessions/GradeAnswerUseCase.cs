@@ -1,11 +1,12 @@
 using Burdock.Application.Ports;
 using Burdock.Application.UseCases.LearningDays;
+using Burdock.Application.UseCases.Sync;
 using Burdock.Domain.Learning;
 using Burdock.Domain.SharedKernel;
 
 namespace Burdock.Application.UseCases.Sessions;
 
-/// <summary>Turns an exercise outcome into a grade, schedules the next review and appends the review log (ADR 0008).</summary>
+/// <summary>Turns an exercise outcome into a grade, schedules the next review, appends the review log and queues the ReviewLog event for sync (ADR 0008, spec 09 section 3.5).</summary>
 public sealed class GradeAnswerUseCase(
     ILearnerContext learner,
     ILearnerCardRepository cards,
@@ -13,7 +14,8 @@ public sealed class GradeAnswerUseCase(
     IReviewScheduler scheduler,
     IIdGenerator ids,
     IClock clock,
-    LearningDayResolver learningDays)
+    LearningDayResolver learningDays,
+    IProgressOutbox outbox)
 {
     public async Task<Result<GradeResult>> ExecuteAsync(SessionItem item, ExerciseOutcome outcome, CancellationToken cancellationToken)
     {
@@ -39,8 +41,10 @@ public sealed class GradeAnswerUseCase(
         }
 
         await cards.UpsertAsync(card, cancellationToken).ConfigureAwait(false);
-        await reviewLog.AppendAsync(new ReviewLogEntry(ids.NewId(), learnerId, card.Id, card.LexemeId, rating.Value, item.Mode, now, outcome.ResponseTime,
-            scheduled.Memory.Stability, scheduled.Memory.Difficulty, scheduled.Due), cancellationToken).ConfigureAwait(false);
+        var entry = new ReviewLogEntry(ids.NewId(), learnerId, card.Id, card.LexemeId, rating.Value, item.Mode, now, outcome.ResponseTime,
+            scheduled.Memory.Stability, scheduled.Memory.Difficulty, scheduled.Due);
+        await reviewLog.AppendAsync(entry, cancellationToken).ConfigureAwait(false);
+        await outbox.AppendAsync(ProgressEventFactory.ReviewLog(entry, clock.LocalTimeZone), cancellationToken).ConfigureAwait(false);
 
         var retrievability = scheduler.Retrievability(card.ToSchedulingInput(), now);
         var correctAnswer = item switch

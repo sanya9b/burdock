@@ -1,6 +1,6 @@
 using Burdock.Domain.SharedKernel;
 using Burdock.Server.Modules.SettingsSync.Application;
-using Burdock.Server.Modules.SettingsSync.Domain;
+using Burdock.Domain.Sync;
 using Microsoft.EntityFrameworkCore;
 
 namespace Burdock.Server.Modules.SettingsSync.Infrastructure;

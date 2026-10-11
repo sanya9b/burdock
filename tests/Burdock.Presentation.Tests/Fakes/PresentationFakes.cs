@@ -182,3 +182,17 @@ public sealed class FlakyContentRepository(IContentRepository inner) : IContentR
 
     private T Guard<T>(Func<T> call) => Failure is { } failure ? throw failure : call();
 }
+
+/// <summary>Records sync triggers instead of talking to the server.</summary>
+public sealed class FakeSyncCoordinator : ISyncCoordinator
+{
+    public List<string> Reasons { get; } = [];
+
+    public Burdock.Application.UseCases.Sync.SyncReport? LastReport { get; set; }
+
+    public Task TriggerAsync(string reason, CancellationToken cancellationToken = default)
+    {
+        Reasons.Add(reason);
+        return Task.CompletedTask;
+    }
+}

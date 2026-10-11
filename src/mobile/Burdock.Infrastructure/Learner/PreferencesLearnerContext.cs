@@ -9,24 +9,32 @@ using Microsoft.Maui.Storage;
 namespace Burdock.Infrastructure.Learner;
 
 /// <summary>
-/// Local anonymous learner until the server issues an account (ADR 0006). The id is a random GUID kept in Preferences;
-/// settings are stored as scalar keys so they survive schema changes. Replaced by the sync-backed context in phase 2.
+/// Local anonymous learner (ADR 0006). The id is a random GUID kept in Preferences and proposed to the server as the
+/// account id at registration; settings are stored as scalar keys so they survive schema changes. Every write of a
+/// changed value stamps the key with the clock, which is what the settings sync sends as the last-writer-wins stamp
+/// (spec 09 section 3.6); <see cref="PreferencesSettingsSync"/> reads and applies those stamps.
 /// </summary>
-public sealed class PreferencesLearnerContext(IPreferences preferences, IIdGenerator ids) : ILearnerContext
+public sealed class PreferencesLearnerContext(IPreferences preferences, IIdGenerator ids, IClock clock) : ILearnerContext
 {
-    private const string LearnerIdKey = "learner.id";
-    private const string LevelKey = "settings.level";
-    private const string TopicsKey = "settings.topics";
-    private const string NewWordsKey = "settings.newWordsPerDay";
-    private const string ExposuresKey = "settings.exposuresPerWordPerDay";
-    private const string CadenceKey = "settings.cadenceMinutes";
-    private const string NotificationsKey = "settings.notificationsPerDay";
-    private const string QuietStartKey = "settings.quietStart";
-    private const string QuietEndKey = "settings.quietEnd";
-    private const string HideTranslationKey = "settings.translationHidden";
-    private const string RetentionKey = "settings.retention";
-    private const string GamificationKey = "settings.gamification";
-    private const string NicknameKey = "profile.nickname";
+    internal const string LearnerIdKey = "learner.id";
+    internal const string LevelKey = "settings.level";
+    internal const string TopicsKey = "settings.topics";
+    internal const string NewWordsKey = "settings.newWordsPerDay";
+    internal const string ExposuresKey = "settings.exposuresPerWordPerDay";
+    internal const string CadenceKey = "settings.cadenceMinutes";
+    internal const string NotificationsKey = "settings.notificationsPerDay";
+    internal const string QuietStartKey = "settings.quietStart";
+    internal const string QuietEndKey = "settings.quietEnd";
+    internal const string HideTranslationKey = "settings.translationHidden";
+    internal const string RetentionKey = "settings.retention";
+    internal const string GamificationKey = "settings.gamification";
+    internal const string NicknameKey = "profile.nickname";
+
+    /// <summary>UTC ticks of the last local or applied change of a synced key.</summary>
+    internal const string StampPrefix = "sync.stamp.";
+
+    /// <summary>Client id of the device that wrote the current value; absent for values written on this device.</summary>
+    internal const string ClientPrefix = "sync.client.";
 
     /// <summary>The nine launch categories (decision Q18 with the 28.09.2026 addendum) in display order.</summary>
     public static readonly IReadOnlyList<TopicId> DefaultTopics =
@@ -73,17 +81,18 @@ public sealed class PreferencesLearnerContext(IPreferences preferences, IIdGener
     public Task SaveSettingsAsync(LearnerSettings settings, CancellationToken cancellationToken)
     {
         ArgumentNullException.ThrowIfNull(settings);
-        preferences.Set(LevelKey, settings.Level.ToString());
-        preferences.Set(TopicsKey, string.Join(",", settings.Topics.Select(t => t.Slug)));
-        preferences.Set(NewWordsKey, settings.NewWordsPerDay);
-        preferences.Set(ExposuresKey, settings.ExposuresPerWordPerDay);
-        preferences.Set(CadenceKey, settings.Cadence.Minutes);
-        preferences.Set(NotificationsKey, settings.NotificationsPerDay);
-        preferences.Set(QuietStartKey, settings.QuietHours.Start.ToString("HH:mm", CultureInfo.InvariantCulture));
-        preferences.Set(QuietEndKey, settings.QuietHours.End.ToString("HH:mm", CultureInfo.InvariantCulture));
-        preferences.Set(HideTranslationKey, settings.TranslationHiddenOnSurfaces);
-        preferences.Set(RetentionKey, settings.Retention.ToString());
-        preferences.Set(GamificationKey, settings.GamificationEnabled);
+        var now = clock.UtcNow;
+        Write(LevelKey, settings.Level.ToString(), now);
+        Write(TopicsKey, string.Join(",", settings.Topics.Select(t => t.Slug)), now);
+        Write(NewWordsKey, settings.NewWordsPerDay, now);
+        Write(ExposuresKey, settings.ExposuresPerWordPerDay, now);
+        Write(CadenceKey, settings.Cadence.Minutes, now);
+        Write(NotificationsKey, settings.NotificationsPerDay, now);
+        Write(QuietStartKey, settings.QuietHours.Start.ToString("HH:mm", CultureInfo.InvariantCulture), now);
+        Write(QuietEndKey, settings.QuietHours.End.ToString("HH:mm", CultureInfo.InvariantCulture), now);
+        Write(HideTranslationKey, settings.TranslationHiddenOnSurfaces, now);
+        Write(RetentionKey, settings.Retention.ToString(), now);
+        Write(GamificationKey, settings.GamificationEnabled, now);
         return Task.CompletedTask;
     }
 
@@ -96,8 +105,21 @@ public sealed class PreferencesLearnerContext(IPreferences preferences, IIdGener
     public Task SaveProfileAsync(LearnerProfile profile, CancellationToken cancellationToken)
     {
         ArgumentNullException.ThrowIfNull(profile);
-        preferences.Set(NicknameKey, profile.Nickname);
+        Write(NicknameKey, profile.Nickname, clock.UtcNow);
         return Task.CompletedTask;
+    }
+
+    /// <summary>Writes a value only when it changed, and stamps it as a local change.</summary>
+    private void Write<T>(string key, T value, DateTimeOffset now)
+    {
+        if (preferences.ContainsKey(key) && EqualityComparer<T>.Default.Equals(preferences.Get(key, value), value))
+        {
+            return;
+        }
+
+        preferences.Set(key, value);
+        preferences.Set(StampPrefix + key, now.UtcTicks);
+        preferences.Remove(ClientPrefix + key);
     }
 
     private static TimeOnly ParseTime(string value)

@@ -4,7 +4,7 @@ using Burdock.Server.Shared.Time;
 
 namespace Burdock.Server.Modules.Identity.Application;
 
-public sealed record RegisterInstallationCommand(Guid InstallationId, string? Secret, string? Platform, string? AppVersion);
+public sealed record RegisterInstallationCommand(Guid InstallationId, string? Secret, string? Platform, string? AppVersion, Guid? LearnerId = null);
 
 public sealed record RegisteredAccount(UserAccount Account, bool Created);
 
@@ -58,7 +58,14 @@ public sealed class RegisterInstallationUseCase(IAccountStore accounts, IInstall
             return Result.Success(new RegisteredAccount(owner, Created: false));
         }
 
-        var account = UserAccount.Register(LearnerId.From(Guid.CreateVersion7(now)), Nicknames.Generate(random), now);
+        var accountId = LearnerId.From(command.LearnerId is { } proposed && proposed != Guid.Empty ? proposed : Guid.CreateVersion7(now));
+        if (command.LearnerId is not null && await accounts.GetAsync(accountId, cancellationToken).ConfigureAwait(false) is not null)
+        {
+            // The proposed id belongs to someone else: the client generates a fresh one (never hands over an account).
+            return Result.Failure<RegisteredAccount>(DomainError.Conflict("learner_id_taken", "Errors_Identity_LearnerIdTaken"));
+        }
+
+        var account = UserAccount.Register(accountId, Nicknames.Generate(random), now);
         var installation = Installation.Register(command.InstallationId, account.Id, secret.Value, platform.Value, command.AppVersion, now);
         if (installation.IsFailure)
         {

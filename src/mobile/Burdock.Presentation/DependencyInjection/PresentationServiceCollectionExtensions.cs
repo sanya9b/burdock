@@ -22,6 +22,7 @@ public static class PresentationServiceCollectionExtensions
         services.AddSingleton<IAppThemeService, AppThemeService>();
         services.AddSingleton<INotificationPrompt, NotificationPrompt>();
         services.AddSingleton<IHaptics, MauiHaptics>();
+        services.AddSingleton<ISyncCoordinator, SyncCoordinator>();
 
         services.AddTransient<BootstrapViewModel>();
         services.AddTransient<BootstrapPage>();

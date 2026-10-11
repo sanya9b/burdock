@@ -45,6 +45,7 @@ public sealed class BurdockDatabase : IAsyncDisposable
                 await db.CreateTablesAsync<WordEntryRow, ContentPackRow, LearnerCardRow, ReviewLogRow, ExposureRow>().ConfigureAwait(false);
                 await db.CreateTablesAsync<RewardsStateRow, LedgerEventRow>().ConfigureAwait(false);
                 await db.CreateTableAsync<DailyPlanCacheRow>().ConfigureAwait(false);
+                await db.CreateTablesAsync<Sync.SyncOutboxRow, Sync.SyncStateRow>().ConfigureAwait(false);
                 _initialized = true;
             }
         }

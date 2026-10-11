@@ -20,6 +20,9 @@ public partial class App : Microsoft.Maui.Controls.Application
 #endif
         var theme = _services.GetRequiredService<Services.IAppThemeService>();
         theme.Apply(theme.Mode);
-        return new Window(_services.GetRequiredService<Views.BootstrapPage>());
+        var window = new Window(_services.GetRequiredService<Views.BootstrapPage>());
+        var sync = _services.GetRequiredService<Services.ISyncCoordinator>();
+        window.Resumed += (_, _) => _ = sync.TriggerAsync("resume");
+        return window;
     }
 }

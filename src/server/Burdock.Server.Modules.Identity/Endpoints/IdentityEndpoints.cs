@@ -44,7 +44,7 @@ public static class IdentityEndpoints
             return DomainError.Validation("identity.body_missing", "Errors_Identity_BodyMissing").ToProblem();
         }
 
-        var result = await useCase.ExecuteAsync(new RegisterInstallationCommand(body.InstallationId, body.InstallationSecret, body.Platform, body.AppVersion), cancellationToken).ConfigureAwait(false);
+        var result = await useCase.ExecuteAsync(new RegisterInstallationCommand(body.InstallationId, body.InstallationSecret, body.Platform, body.AppVersion, body.LearnerId), cancellationToken).ConfigureAwait(false);
         return result.ToResult(registered => registered.Created
             ? Results.Created(ApiRoutes.Identity.Me, ToDto(registered.Account))
             : Results.Ok(ToDto(registered.Account)));

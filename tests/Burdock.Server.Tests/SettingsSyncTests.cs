@@ -3,7 +3,7 @@ using System.Net.Http.Json;
 using System.Text.Json;
 using Burdock.Contracts.V1;
 using Burdock.Contracts.V1.Settings;
-using Burdock.Server.Modules.SettingsSync.Domain;
+using Burdock.Domain.Sync;
 
 namespace Burdock.Server.Tests;
 

@@ -51,6 +51,7 @@ public sealed class SessionSummaryViewModelTests
         var events = harness.Rewards.Events.Count;
         await vm.LoadAsync(Ct);
         harness.Rewards.Events.Count.ShouldBe(events);
+        harness.Sync.Reasons.ShouldBe(["session"]);
 
         CelebrationItem? last = null;
         var shown = 0;

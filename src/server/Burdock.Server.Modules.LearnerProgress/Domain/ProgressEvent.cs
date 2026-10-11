@@ -1,28 +1,7 @@
 using Burdock.Domain.SharedKernel;
+using Burdock.Domain.Sync;
 
 namespace Burdock.Server.Modules.LearnerProgress.Domain;
-
-/// <summary>Event types the server accepts (spec 09 §3.5); payload schemas live in spec 06 and are not interpreted here.</summary>
-public static class ProgressEventTypes
-{
-    public const string ReviewLog = "ReviewLog";
-    public const string ExposureConfirmed = "ExposureConfirmed";
-    public const string ExposureDaily = "ExposureDaily";
-    public const string CardIntroduced = "CardIntroduced";
-    public const string WordListChanged = "WordListChanged";
-
-    public static readonly IReadOnlySet<string> All = new HashSet<string>(StringComparer.Ordinal) { ReviewLog, ExposureConfirmed, ExposureDaily, CardIntroduced, WordListChanged };
-}
-
-/// <summary>Why an event in a batch was rejected (spec 09 §3.5); accepted and duplicate events carry no code.</summary>
-public static class ProgressRejectionCodes
-{
-    public const string SchemaInvalid = "schema_invalid";
-    public const string FutureTimestamp = "future_timestamp";
-    public const string LocalDateImplausible = "local_date_implausible";
-    public const string UnknownType = "unknown_type";
-    public const string PayloadTooLarge = "payload_too_large";
-}
 
 /// <summary>
 /// One append-only learner event. The envelope is validated here; the payload is opaque JSON owned by spec 06. The

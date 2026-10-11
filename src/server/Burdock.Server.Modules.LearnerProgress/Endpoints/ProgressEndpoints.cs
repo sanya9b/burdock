@@ -3,6 +3,7 @@ using System.Text.Json;
 using Burdock.Contracts.V1;
 using Burdock.Contracts.V1.Progress;
 using Burdock.Domain.SharedKernel;
+using Burdock.Domain.Sync;
 using Burdock.Server.Modules.LearnerProgress.Application;
 using Burdock.Server.Modules.LearnerProgress.Domain;
 using Burdock.Server.Shared.Errors;

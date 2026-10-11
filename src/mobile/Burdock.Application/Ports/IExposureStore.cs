@@ -8,6 +8,8 @@ public interface IExposureStore
 {
     Task AppendAsync(ExposureRecord record, CancellationToken cancellationToken);
 
+    Task<bool> ExistsAsync(Guid id, CancellationToken cancellationToken);
+
     Task<ExposureCounts> CountAsync(LearnerId learnerId, LexemeId lexemeId, CancellationToken cancellationToken);
 }
 

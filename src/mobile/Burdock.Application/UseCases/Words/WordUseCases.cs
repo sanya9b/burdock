@@ -1,5 +1,6 @@
 using Burdock.Application.Ports;
 using Burdock.Application.UseCases.LearningDays;
+using Burdock.Application.UseCases.Sync;
 using Burdock.Domain.Exposure;
 using Burdock.Domain.Learning;
 using Burdock.Domain.SharedKernel;
@@ -19,7 +20,7 @@ internal static class CardAccess
 }
 
 /// <summary>Records a passive or confirmed exposure from any surface (ADR 0015) and applies the introduction rule (T4).</summary>
-public sealed class RecordExposureUseCase(ILearnerContext learner, ILearnerCardRepository cards, IExposureStore exposures, IIdGenerator ids, IClock clock, LearningDayResolver learningDays)
+public sealed class RecordExposureUseCase(ILearnerContext learner, ILearnerCardRepository cards, IExposureStore exposures, IIdGenerator ids, IClock clock, LearningDayResolver learningDays, IProgressOutbox outbox)
 {
     public async Task<LearnerCard> ExecuteAsync(LexemeId lexemeId, ExposureSurface surface, ExposureKind kind, CancellationToken cancellationToken)
     {
@@ -27,8 +28,15 @@ public sealed class RecordExposureUseCase(ILearnerContext learner, ILearnerCardR
         var now = clock.UtcNow;
         var card = await CardAccess.GetOrCreateAsync(cards, ids, learnerId, lexemeId, now, cancellationToken).ConfigureAwait(false);
         card.RecordExposure(kind, learningDays.Today(), now);
-        await exposures.AppendAsync(new ExposureRecord(ids.NewId(), learnerId, lexemeId, surface, kind, now), cancellationToken).ConfigureAwait(false);
+        var record = new ExposureRecord(ids.NewId(), learnerId, lexemeId, surface, kind, now);
+        await exposures.AppendAsync(record, cancellationToken).ConfigureAwait(false);
         await cards.UpsertAsync(card, cancellationToken).ConfigureAwait(false);
+        if (kind == ExposureKind.Confirmed)
+        {
+            // Scheduled (passive) exposures travel as a daily aggregate once the widget surfaces exist (spec 09 section 3.5, ExposureDaily).
+            await outbox.AppendAsync(ProgressEventFactory.ExposureConfirmed(record, clock.LocalTimeZone), cancellationToken).ConfigureAwait(false);
+        }
+
         return card;
     }
 }
@@ -51,14 +59,20 @@ public sealed class OpenWordUseCase(IContentRepository content, RecordExposureUs
 }
 
 /// <summary>«Вчити»: introduce the word explicitly so it enters the session queue today.</summary>
-public sealed class IntroduceWordUseCase(ILearnerContext learner, ILearnerCardRepository cards, IIdGenerator ids, IClock clock)
+public sealed class IntroduceWordUseCase(ILearnerContext learner, ILearnerCardRepository cards, IIdGenerator ids, IClock clock, IProgressOutbox outbox)
 {
     public async Task ExecuteAsync(LexemeId lexemeId, CancellationToken cancellationToken)
     {
         var learnerId = await learner.GetLearnerIdAsync(cancellationToken).ConfigureAwait(false);
-        var card = await CardAccess.GetOrCreateAsync(cards, ids, learnerId, lexemeId, clock.UtcNow, cancellationToken).ConfigureAwait(false);
-        card.Introduce(clock.UtcNow);
+        var now = clock.UtcNow;
+        var card = await CardAccess.GetOrCreateAsync(cards, ids, learnerId, lexemeId, now, cancellationToken).ConfigureAwait(false);
+        var wasNew = card.State == CardState.New;
+        card.Introduce(now);
         await cards.UpsertAsync(card, cancellationToken).ConfigureAwait(false);
+        if (wasNew)
+        {
+            await outbox.AppendAsync(ProgressEventFactory.CardIntroduced(ids.NewId(), card, now, clock.LocalTimeZone), cancellationToken).ConfigureAwait(false);
+        }
     }
 }
 

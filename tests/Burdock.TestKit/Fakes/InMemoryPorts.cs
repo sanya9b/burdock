@@ -108,6 +108,8 @@ public sealed class InMemoryReviewLog : IReviewLogStore
         return Task.CompletedTask;
     }
 
+    public Task<bool> ExistsAsync(Guid id, CancellationToken cancellationToken) => Task.FromResult(Entries.Any(e => e.Id == id));
+
     public Task<int> CountGradedOnDayAsync(LearnerId learnerId, DateTimeOffset dayStartUtc, DateTimeOffset dayEndUtc, CancellationToken cancellationToken)
         => Task.FromResult(Entries.Count(e => e.LearnerId == learnerId && e.ReviewedAt >= dayStartUtc && e.ReviewedAt < dayEndUtc));
 }
@@ -121,6 +123,8 @@ public sealed class InMemoryExposureStore : IExposureStore
         Records.Add(record);
         return Task.CompletedTask;
     }
+
+    public Task<bool> ExistsAsync(Guid id, CancellationToken cancellationToken) => Task.FromResult(Records.Any(r => r.Id == id));
 
     public Task<ExposureCounts> CountAsync(LearnerId learnerId, LexemeId lexemeId, CancellationToken cancellationToken)
     {

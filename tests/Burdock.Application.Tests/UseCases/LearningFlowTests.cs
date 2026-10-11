@@ -27,6 +27,7 @@ public sealed class LearningFlowTests
     private readonly InMemoryExposureStore _exposures = new();
     private readonly SequentialIdGenerator _ids = new();
     private readonly FakeScheduler _scheduler = new();
+    private readonly InMemoryProgressOutbox _outbox = new();
     private readonly FakeLearnerContext _learner = new(Learner, LearnerSettings.Moderate(LanguagePair.UkrainianToEnglish, CefrLevel.A1, []) with { NewWordsPerDay = 5 });
 
     private LearningDayResolver Days => new(_clock);
@@ -55,9 +56,9 @@ public sealed class LearningFlowTests
     {
         await _content.ImportPackAsync(SeedPack(12), TestContext.Current.CancellationToken);
         var plan = new GetDailyPlanUseCase(_learner, _content, _cards, _scheduler, _clock, Days, _planCache);
-        var record = new RecordExposureUseCase(_learner, _cards, _exposures, _ids, _clock, Days);
+        var record = new RecordExposureUseCase(_learner, _cards, _exposures, _ids, _clock, Days, _outbox);
         var open = new OpenWordUseCase(_content, record, _scheduler, _clock);
-        var grade = new GradeAnswerUseCase(_learner, _cards, _reviews, _scheduler, _ids, _clock, Days);
+        var grade = new GradeAnswerUseCase(_learner, _cards, _reviews, _scheduler, _ids, _clock, Days, _outbox);
 
         var today = await plan.ExecuteAsync(TestContext.Current.CancellationToken);
         today.NewCount.ShouldBe(5);
@@ -94,7 +95,7 @@ public sealed class LearningFlowTests
             "абстрактний", [], ["abstract"], null, null, "An abstract idea.", "Абстрактна ідея.");
         await _content.ImportPackAsync(new ImportedContentPack("uk-en.b2", LanguagePair.UkrainianToEnglish, 1, [far]), TestContext.Current.CancellationToken);
         var plan = new GetDailyPlanUseCase(_learner, _content, _cards, _scheduler, _clock, Days, _planCache);
-        var record = new RecordExposureUseCase(_learner, _cards, _exposures, _ids, _clock, Days);
+        var record = new RecordExposureUseCase(_learner, _cards, _exposures, _ids, _clock, Days, _outbox);
         var open = new OpenWordUseCase(_content, record, _scheduler, _clock);
 
         var scanned = await plan.ExecuteAsync(TestContext.Current.CancellationToken);
@@ -133,7 +134,7 @@ public sealed class LearningFlowTests
     public async Task Matching_answers_are_rejected_by_grading()
     {
         var entry = SeedPack(1).Entries[0];
-        var grade = new GradeAnswerUseCase(_learner, _cards, _reviews, _scheduler, _ids, _clock, Days);
+        var grade = new GradeAnswerUseCase(_learner, _cards, _reviews, _scheduler, _ids, _clock, Days, _outbox);
 
         var result = await grade.ExecuteAsync(new MatchingItem([entry]), new ExerciseOutcome(ExerciseMode.Matching, true, TimeSpan.Zero), TestContext.Current.CancellationToken);
 
