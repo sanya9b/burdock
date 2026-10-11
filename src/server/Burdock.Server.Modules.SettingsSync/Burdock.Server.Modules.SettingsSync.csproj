@@ -1,5 +1,5 @@
 <Project Sdk="Microsoft.NET.Sdk">
-  <!-- Module "SettingsSync": Domain/ Application/ Infrastructure/ Endpoints/ folders enforced by architecture tests (spec 09 section 1.1). -->
+  <!-- Module "SettingsSync" (spec 09 §3.6, T14): learner settings merged per key with last-writer-wins. Domain/ Application/ Infrastructure/ Endpoints/ folders enforced by architecture tests. -->
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>

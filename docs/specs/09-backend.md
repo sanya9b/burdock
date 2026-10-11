@@ -592,6 +592,8 @@ erDiagram
 
 Таблиця: `settings.entries (user_id, key, value jsonb, updated_at, client_id, PRIMARY KEY (user_id, key))`, `settings.documents (user_id PK, schema_version, etag, updated_at)`.
 
+> Реалізовано 11.10.2026 (`Burdock.Server.Modules.SettingsSync`): схема `settings` з таблицями `entries (user_id, key, value jsonb, updated_at, client_id)` і `documents (user_id, schema_version, etag, updated_at)`; `GET /v1/settings` віддає документ із сильним ETag і відповідає 304 на `If-None-Match`; `PUT /v1/settings {schemaVersion, entries}` перевіряє ключі (`[A-Za-z0-9._-]{1,64}`), розмір значення (≤ 4 КіБ), clientId, ліміт 200 ключів і версію схеми, зливає за правилом LWW (`SettingsEntry.Supersedes`: пізніший `updatedAt`, при рівності більший `clientId` за ordinal) і повертає результуючий документ; незмінені ключі не перезаписуються. Клієнтська частина синхронізації ще не підключена.
+
 ### 3.7. Модуль Rewards
 
 **Приймання леджера.** `POST /v1/rewards/ledger {events: [LedgerEvent]}` (до `Rewards:MaxBatchEvents` = 200). `LedgerEvent` (07): `{id UUIDv7, type: Earned|Spent|StreakFreezeUsed|Adjusted, source, amount, itemId?, occurredAt, localDate, rulesVersion, installationId}`. Обробка в одній транзакції на користувача (`SELECT … FOR UPDATE` на `rewards.accounts`):
