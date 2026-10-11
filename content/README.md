@@ -69,6 +69,7 @@ python content/pipeline/inventory/build_inventory.py --extra content/generated/u
 python content/pipeline/packs/build_packs.py                         # lint + pack build → content/generated/uk-en/packs/*.json, index.json, report.json
 #   чорний список лем, які ніколи не потрапляють у пакети: content/pipeline/packs/blocklist.txt (лема або лема|pos, коментарі після #)
 #   report.json: excluded (причини), needsHuman (позначені рецензентом і не виправлені), unparseableChunks/unparseableReviews/incompleteChunks (файли, які ще пишуть агенти)
+dotnet run --project src/server/Burdock.Server.Api -- content publish --index content/generated/uk-en/packs/index.json --attributions content/pipeline/packs/attributions.json   # публікація пакетів у сховище й content.packs (сервер, спека 09 §3.4)
 
 # 3а. Аудіо вимови (ADR 0019; див. content/pipeline/audio/README.md)
 burdock-content audio render --pack content/seed/uk-en.free-pool.seed.json --out content/seed/audio --python .venv/Scripts/python.exe

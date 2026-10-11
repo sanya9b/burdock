@@ -46,6 +46,7 @@ public class BurdockApiFactory(string connectionString) : WebApplicationFactory<
         builder.UseSetting("RateLimits:AnonIp", "1000/00:01:00");
         builder.UseSetting("RateLimits:User", "1000/00:01:00");
         builder.UseSetting("RateLimits:UserWrite", "1000/00:01:00");
+        builder.UseSetting("RateLimits:ProgressBatch", "1000/00:01:00");
         Configure(builder);
     }
 

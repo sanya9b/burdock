@@ -1,3 +1,4 @@
+using Burdock.Server.Shared.Contracts;
 using Burdock.Server.Shared.Time;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
@@ -11,6 +12,8 @@ public static class SharedServiceCollectionExtensions
     {
         ArgumentNullException.ThrowIfNull(services);
         services.TryAddSingleton<IClock, SystemClock>();
+        // Replaced by the Entitlements module when it ships; until then every learner has the configured default state.
+        services.TryAddSingleton<IEntitlementReader, ConfiguredEntitlementReader>();
         return services;
     }
 }

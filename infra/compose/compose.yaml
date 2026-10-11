@@ -31,6 +31,11 @@ services:
       Proxy__TrustedNetworks__0: 172.28.0.0/16
       Pronunciation__KokoroBaseUrl: http://kokoro:8081/
       Pronunciation__StorePath: /data/pronunciation
+      Content__ObjectStore: S3
+      Content__PublicBaseUrl: https://cdn.burdock.org/
+      Content__S3__ServiceUrl: https://hel1.your-objectstorage.com
+      Content__S3__Bucket: burdock-content
+      Content__S3__Region: hel1
     volumes:
       - pronunciation-data:/data/pronunciation
     networks: [internal]

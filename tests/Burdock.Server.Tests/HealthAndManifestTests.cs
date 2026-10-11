@@ -55,7 +55,7 @@ public sealed class HealthAndManifestTests : IDisposable
         manifest.ShouldNotBeNull();
         manifest.Pair.ShouldBe("uk-en");
         manifest.SchemaVersion.ShouldBe(1);
-        manifest.Packs.ShouldBeEmpty();
+        manifest.Packs.ShouldAllBe(p => p.Id.StartsWith("uk-en.", StringComparison.Ordinal));
     }
 
     [Fact]

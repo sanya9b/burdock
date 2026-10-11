@@ -505,6 +505,8 @@ erDiagram
 
 Індекси: `packs (id, version)` PK; `packs (status)`; `reports (user_id, client_report_id)` UNIQUE; `reports (status, created_at)`.
 
+> Реалізовано 02.10.2026 (`Burdock.Server.Modules.Content`): таблиця `content.packs` (id + version, sha256 об'єкта, розмір, object_key, min_app_version, status, published_at, deprecated_after, attributions jsonb); команда `api content publish --index <index.json> --attributions content/pipeline/packs/attributions.json` gzip-ує кожен пакет з `build_packs.py` детерміновано, кладе його за шляхом `packs/v1/{pair}/{level}/{topic}/{packId}-{version}.json.gz` у сховище (`Content:ObjectStore` = FileSystem для розробки або S3 для Hetzner Object Storage) і деприкує старіші версії на `Content:DeprecatedRetentionDays`; повторна публікація тієї самої версії з тим самим вмістом є no-op, з іншим — 409 `content.pack_version_conflict`. `GET /v1/content/manifest` (лише з токеном) віддає найновішу опубліковану версію кожного пакета, видиму для entitlement учня (`IEntitlementReader` у `Burdock.Server.Shared.Contracts`; до появи модуля Entitlements усі мають `Entitlements:DefaultState`, типово Trial), з URL `Content:PublicBaseUrl` + ключ, `Required` = true для free-pool, атрибуціями та слабким ETag від складу маніфесту. У Development `Content:ServeStoreLocally` вмикає `GET /v1/content/store/{key}`. Скарги (FR-09-9) ще не реалізовані.
+
 ### 3.4a. Модуль Pronunciation (ADR 0020)
 
 Вимова для слів, яких не було у пре-рендері пайплайну (ADR 0019): адміністратор (пізніше пайплайн і слова користувача) просить кліп для лексеми, фоновий воркер рендерить відсутні голоси один раз через сайдкар Kokoro і кладе їх як незмінні активи. Клієнт ніколи не чекає на синтез: поки кліпа немає, він озвучує системним TTS.
@@ -581,6 +583,8 @@ erDiagram
 ```
 
 Індекси: `events` PK `(user_id, id)` (унікальність для ідемпотентності), `events (user_id, server_seq)` UNIQUE (курсор), партиціювання `PARTITION BY RANGE (occurred_at)`; PK у партиційованій таблиці включає ключ партиції, тому фактичний PK `(user_id, id, occurred_at)`, а унікальність `id` на користувача додатково гарантується перевіркою в транзакції приймання (припущення; альтернатива — глобальна таблиця `event_ids` без партицій, якщо перевірка виявиться дорогою).
+
+> Реалізовано 11.10.2026 (`Burdock.Server.Modules.LearnerProgress`): схема `progress` з таблицями `events` (PK `(user_id, id)`, унікальний `(user_id, server_seq)`, payload jsonb) і `user_seq`; `POST /v1/progress/events` приймає до `Progress:MaxBatchEvents` = 500 подій (тіло ≤ 1 МіБ), валідує конверт (`schema_invalid`, `unknown_type`, `future_timestamp` понад `Progress:FutureSkewTolerance` = 5 хв, `local_date_implausible`, `payload_too_large` > 16 КіБ), у транзакції блокує рядок `user_seq` (`FOR UPDATE`), відсіює дублікати за `(user_id, id)` і присвоює послідовні `server_seq`; відповідь `{accepted, duplicates, rejected[{id, code}], serverSeq}`. `GET /v1/progress/events?since&limit&excludeInstallation` віддає сторінку в порядку `server_seq` з `nextSince` і `hasMore` (ліміт ≤ `Progress:PageSize` = 1000). Партиціювання за місяцем, проєкції та `GET /v1/progress/stats` ще не реалізовані.
 
 ### 3.6. Модуль SettingsSync
 

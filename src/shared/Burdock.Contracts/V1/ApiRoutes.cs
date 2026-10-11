@@ -45,11 +45,13 @@ public static class ApiRoutes
     public static class Progress
     {
         public const string Group = Prefix + "/progress";
+        public const string Events = Group + "/events";
     }
 
     public static class Settings
     {
         public const string Group = Prefix + "/settings";
+        public const string Document = Group;
     }
 
     public static class Rewards

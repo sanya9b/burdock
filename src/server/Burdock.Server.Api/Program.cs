@@ -56,6 +56,13 @@ if (args.Length > 0 && string.Equals(args[0], "migrate", StringComparison.Ordina
     return;
 }
 
+if (args.Length > 1 && string.Equals(args[0], "content", StringComparison.Ordinal) && string.Equals(args[1], "publish", StringComparison.Ordinal))
+{
+    // `api content publish --index …`: uploads the packs of a build_packs.py index and records them (spec 09 §3.4).
+    Environment.ExitCode = await ContentPublishCommand.RunAsync(app.Services, args, app.Logger, CancellationToken.None).ConfigureAwait(false);
+    return;
+}
+
 app.UseForwardedHeaders();
 app.UseExceptionHandler();
 app.UseStatusCodePages();

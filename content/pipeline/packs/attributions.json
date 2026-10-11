@@ -1,0 +1,18 @@
+[
+  {
+    "source": "CEFR-J Wordlist Version 1.6",
+    "license": "custom-citation",
+    "text": "The CEFR-J Wordlist Version 1.6. Compiled by Yukio Tono, Tokyo University of Foreign Studies. Retrieved from https://www.cefr-j.org/download_eng.html on 01/10/2026.",
+    "url": "https://www.cefr-j.org/download_eng.html",
+    "levels": ["A1", "A2", "B1", "B2"],
+    "packIds": ["uk-en.free-pool"]
+  },
+  {
+    "source": "Claude (Anthropic)",
+    "license": "Anthropic Commercial Terms",
+    "text": "Переклади та приклади створено з допомогою моделей Claude (Anthropic) і відредаговано редакторами «Реп’яха». Попри перевірку, окремі формулювання можуть містити помилки.",
+    "url": "https://www.anthropic.com/legal/commercial-terms",
+    "levels": null,
+    "packIds": null
+  }
+]

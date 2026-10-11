@@ -35,5 +35,6 @@ public static class Policies
         public const string Token = "token";
         public const string User = "user";
         public const string UserWrite = "user-write";
+        public const string ProgressBatch = "progress-batch";
     }
 }

@@ -47,6 +47,7 @@ public static class BurdockRateLimiting
         var anonIp = RateLimitRule.Parse(section["AnonIp"], new RateLimitRule(60, TimeSpan.FromMinutes(1)));
         var user = RateLimitRule.Parse(section["User"], new RateLimitRule(120, TimeSpan.FromMinutes(1)));
         var userWrite = RateLimitRule.Parse(section["UserWrite"], new RateLimitRule(60, TimeSpan.FromMinutes(1)));
+        var progressBatch = RateLimitRule.Parse(section["ProgressBatch"], new RateLimitRule(30, TimeSpan.FromMinutes(1)));
 
         services.AddRateLimiter(options =>
         {
@@ -66,6 +67,7 @@ public static class BurdockRateLimiting
             options.AddPolicy(Policies.RateLimits.AnonIp, context => Partition(ClientKey(context), anonIp));
             options.AddPolicy(Policies.RateLimits.User, context => Partition(ClientKey(context), user));
             options.AddPolicy(Policies.RateLimits.UserWrite, context => Partition(ClientKey(context), userWrite));
+            options.AddPolicy(Policies.RateLimits.ProgressBatch, context => Partition(ClientKey(context), progressBatch));
         });
         return services;
     }
