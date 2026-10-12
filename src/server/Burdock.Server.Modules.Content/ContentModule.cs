@@ -3,9 +3,11 @@ using Burdock.Server.Modules.Content.Endpoints;
 using Burdock.Server.Modules.Content.Infrastructure;
 using Burdock.Server.Shared.Modules;
 using Burdock.Server.Shared.Persistence;
+using Burdock.Server.Shared.Storage;
 using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 namespace Burdock.Server.Modules.Content;
 
@@ -23,14 +25,9 @@ public sealed class ContentModule : IModule
         services.AddSingleton(options);
         services.AddModuleDbContext<ContentDbContext>(configuration, ContentDbContext.Schema);
         services.AddScoped<IPackCatalog, EfPackCatalog>();
-        if (string.Equals(options.ObjectStore, ContentOptions.S3Store, StringComparison.OrdinalIgnoreCase))
-        {
-            services.AddSingleton<IPackObjectStore, S3PackObjectStore>();
-        }
-        else
-        {
-            services.AddSingleton<IPackObjectStore, FileSystemPackObjectStore>();
-        }
+        services.AddSingleton<IPackObjectStore>(sp => new PackObjectStore(
+            ObjectStores.Create(options, sp.GetRequiredService<IHostEnvironment>(), ContentOptions.SectionName),
+            options.PublicBaseUrl ?? PackObjectStore.DevelopmentBaseUrl));
 
         services.AddScoped<PublishPackUseCase>();
         services.AddScoped<GetManifestUseCase>();

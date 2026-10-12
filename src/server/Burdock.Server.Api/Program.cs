@@ -65,6 +65,13 @@ if (args.Length > 1 && string.Equals(args[0], "content", StringComparison.Ordina
     return;
 }
 
+if (args.Length > 1 && string.Equals(args[0], "pronunciation", StringComparison.Ordinal) && string.Equals(args[1], "publish", StringComparison.Ordinal))
+{
+    // `api pronunciation publish --index … --pack …`: registers the pre-rendered dictionary clips (ADR 0020 §6).
+    Environment.ExitCode = await PronunciationPublishCommand.RunAsync(app.Services, args, app.Logger, CancellationToken.None).ConfigureAwait(false);
+    return;
+}
+
 app.UseForwardedHeaders();
 app.UseExceptionHandler();
 app.UseStatusCodePages();

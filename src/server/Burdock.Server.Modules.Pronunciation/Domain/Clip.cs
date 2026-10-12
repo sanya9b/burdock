@@ -65,4 +65,11 @@ public sealed record Clip(
         ArgumentException.ThrowIfNullOrWhiteSpace(engineVersion);
         return string.Create(CultureInfo.InvariantCulture, $"pronunciation/{engineVersion}/{key.Voice.Value}/{key.LexemeId.Value:D}.m4a");
     }
+
+    /// <summary>The voice's sample phrase for the voice picker lives next to its clips.</summary>
+    public static string SamplePath(string engineVersion, VoiceId voice)
+    {
+        ArgumentException.ThrowIfNullOrWhiteSpace(engineVersion);
+        return string.Create(CultureInfo.InvariantCulture, $"pronunciation/{engineVersion}/{voice.Value}/sample.m4a");
+    }
 }

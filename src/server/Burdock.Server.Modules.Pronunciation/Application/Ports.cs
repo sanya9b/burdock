@@ -33,6 +33,9 @@ public interface IClipRepository
 
     Task<IReadOnlyList<Clip>> ListAsync(LexemeId lexemeId, CancellationToken cancellationToken);
 
+    /// <summary>Clips still waiting for the current engine, oldest first; the worker re-queues them after a restart.</summary>
+    Task<IReadOnlyList<ClipKey>> ListQueuedAsync(string engineVersion, int limit, CancellationToken cancellationToken);
+
     Task SaveAsync(Clip clip, CancellationToken cancellationToken);
 }
 

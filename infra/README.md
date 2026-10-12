@@ -143,3 +143,28 @@ OTEL_EXPORTER_OTLP_PROTOCOL=http/protobuf
 ```
 
 Без `OTEL_EXPORTER_OTLP_ENDPOINT` телеметрія лишається в процесі. Health-проби не трасуються; спани не містять IP, заголовків чи тіл (спека 13 §1). Точну адресу OTLP-шлюзу беріть із консолі Grafana Cloud свого стека (регіон ЄС).
+
+## Об'єктне сховище (пакети й вимова)
+
+Обидва модулі використовують одну реалізацію (`Burdock.Server.Shared.Storage`). У проді в `.env`:
+
+```
+Content__ObjectStore=S3
+Content__PublicBaseUrl=https://cdn.burdock.org/
+Content__S3__ServiceUrl=https://fsn1.your-objectstorage.com
+Content__S3__Bucket=burdock-content
+Content__S3__AccessKeyId=...
+Content__S3__SecretAccessKey=...
+Pronunciation__ObjectStore=S3
+Pronunciation__PublicBaseUrl=https://cdn.burdock.org/
+Pronunciation__S3__ServiceUrl=...   # той самий бакет або окремий
+Pronunciation__S3__Bucket=burdock-content
+Pronunciation__S3__AccessKeyId=...
+Pronunciation__S3__SecretAccessKey=...
+```
+
+Публікація словника вимови одноразово з машини власника (≈ 39 тис. об'єктів, ідемпотентно):
+
+```
+dotnet run --project src/server/Burdock.Server.Api -- pronunciation publish --index content/generated/uk-en/audio/audio-index.json --pack content/generated/uk-en/audio/_all-words.json --parallel 8
+```
