@@ -245,6 +245,8 @@ flowchart LR
 
 **OpenAPI та SDK.** `Microsoft.AspNetCore.OpenApi` (`AddOpenApi`/`MapOpenApi`) видає документ `/openapi/v1.json` у Development; на збірці `Microsoft.Extensions.ApiDescription.Server` записує `docs/api/openapi.v1.json`. Рішення щодо генератора клієнта: **Kiota**. Обґрунтування: генерує клієнт з мінімальними залежностями і серіалізацією через System.Text.Json (без Newtonsoft), що узгоджується з обрізанням і AOT-профілем MAUI; підтримує генерацію підмножини документа; це інструмент Microsoft з активною підтримкою. NSwag відхилено через типово більший монолітний клієнт і додаткову конфігурацію для STJ. Kiota генерує `Burdock.Contracts/Client` та `Burdock.Contracts/Models`; CI перевіряє, що перегенерація не дає diff (FR-09-25). Ручні DTO у `Burdock.Contracts` заборонені; доменні типи (`LedgerEvent`) відображаються у wire-моделі мапером на клієнті.
 
+> Розбіжність, зафіксована 12.10.2026 (ADR 0021, Proposed): реалізація фази 2 використовує рукописні версіоновані DTO у `Burdock.Contracts/V1`, спільні для сервера й мобільного шлюзу `HttpSyncGateway`, без Kiota; документ OpenAPI генерується з коду і знімається з живого хоста контрактним тестом `tests/Burdock.Server.ContractTests` у `docs/api/openapi.v1.json` (не на етапі `dotnet build`, бо хост на старті виконує hosted-сервіси з доступом до бази). Трансформери `OpenApiContract` задають info, сервер `https://api.burdock.org`, схему `bearer` і вимогу токена для захищених ендпоінтів. До рішення власника щодо ADR 0021 цей абзац спеки лишається як є.
+
 #### 3.2.1. Реєстр ендпоїнтів `/v1`
 
 | Метод і шлях | Модуль | Авторизація | Rate-limit політика | Ідемпотентність |
@@ -880,6 +882,8 @@ erDiagram
 | Навантажувальні | k6 (`tests/server/Burdock.Server.LoadTests`) проти staging | сценарій «ранок»: 50 RPS стало, сплеск 200 RPS 2 хв; цілі NFR-09-2, помилки < 0.1% |
 | Хаос (мінімум) | скрипти в `infra/scripts/chaos/` на staging | рестарт `postgres` (readiness падає й відновлюється ≤ 30 с, нуль втрачених прийнятих подій); APNs-заглушка з 5xx/410; зсув годинника клієнта ±1 год; перехід межі місяця партицій; заповнення диска до 90% (алерт) |
 | Відновлення | щомісячний ранбук | `pgbackrest restore` у staging-контейнер + smoke-тести; фіксується час (RTO) |
+
+> Реалізовано 12.10.2026: контрактний рівень = `tests/Burdock.Server.ContractTests` (знімок `docs/api/openapi.v1.json` із живого хоста на Testcontainers, оновлення через `BURDOCK_UPDATE_SNAPSHOTS=1`, інваріанти: шляхи v1, схема `bearer`, вимога токена на `/v1/progress/*` і `/v1/settings`, анонімна реєстрація, відсутність `/v1/connect/token`). Регенерація Kiota не виконується (ADR 0021); `oasdiff breaking` у CI чекає на закріплену версію дії.
 
 ### 3.15. Константи та ключі конфігурації
 

@@ -119,7 +119,8 @@ tests/                    тести за шарами та архітектур
 
 ```
 dotnet build Burdock.Server.slnx                                   # сервер, контент-пайплайн, спільні шари, тести
-dotnet test --solution Burdock.Server.slnx --no-build              # доменні, серверні архітектурні та інтеграційні тести (інтеграційні піднімають PostgreSQL 18 через Testcontainers, потрібен Docker)
+dotnet test --solution Burdock.Server.slnx --no-build              # доменні, серверні архітектурні, інтеграційні та контрактні тести (інтеграційні й контрактні піднімають PostgreSQL 18 через Testcontainers, потрібен Docker)
+BURDOCK_UPDATE_SNAPSHOTS=1 dotnet test --project tests/Burdock.Server.ContractTests   # оновити знімок контракту docs/api/openapi.v1.json; без змінної той самий тест лише звіряє і падає при розходженні
 dotnet test --project tests/Burdock.Application.Tests              # use cases
 dotnet test --project tests/Burdock.Architecture.Tests             # правило залежностей мобільних шарів
 dotnet test --project tests/Burdock.Infrastructure.Tests           # адаптери net10.0: golden-тести FSRS проти векторів py-fsrs 6.3.2 (tests/fixtures/fsrs)

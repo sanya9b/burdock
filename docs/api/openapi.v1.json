@@ -1,0 +1,542 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "Burdock API",
+    "description": "API v1 of the Burdock (Реп’ях) vocabulary app: anonymous identity, content manifest, progress and settings sync, pronunciation. Tokens come from POST /v1/connect/token (OAuth 2.0, installation grant and refresh_token).",
+    "version": "v1"
+  },
+  "servers": [
+    {
+      "url": "https://api.burdock.org"
+    }
+  ],
+  "paths": {
+    "/v1/config": {
+      "get": {
+        "tags": [
+          "Config"
+        ],
+        "summary": "Feature flags, minimum app versions and public policy constants; supports If-None-Match.",
+        "operationId": "GetRemoteConfig",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/v1/identity/anonymous": {
+      "post": {
+        "tags": [
+          "Identity"
+        ],
+        "summary": "Creates the anonymous account of a new installation, or returns the existing one for a known id and secret.",
+        "operationId": "RegisterAnonymousAccount",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterInstallationDto"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/v1/identity/me": {
+      "get": {
+        "tags": [
+          "Identity"
+        ],
+        "operationId": "GetMyAccount",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      },
+      "patch": {
+        "tags": [
+          "Identity"
+        ],
+        "operationId": "RenameMyAccount",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RenameAccountDto"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/v1/content/manifest": {
+      "get": {
+        "tags": [
+          "Content"
+        ],
+        "summary": "Manifest of content packs for a language pair, filtered by entitlement; supports If-None-Match.",
+        "operationId": "GetContentManifest",
+        "parameters": [
+          {
+            "name": "pair",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/v1/pronunciation/voices": {
+      "get": {
+        "tags": [
+          "Pronunciation"
+        ],
+        "summary": "The voice catalogue the app offers in «Голос».",
+        "operationId": "GetPronunciationVoices",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/v1/pronunciation/clips/{lexemeId}/{voice}": {
+      "get": {
+        "tags": [
+          "Pronunciation"
+        ],
+        "summary": "The clip of a lexeme in one voice: redirect to the CDN or the file itself; 202 while it renders, 404 when never requested.",
+        "operationId": "GetPronunciationClip",
+        "parameters": [
+          {
+            "name": "lexemeId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "name": "voice",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/v1/pronunciation/clips": {
+      "post": {
+        "tags": [
+          "Pronunciation"
+        ],
+        "summary": "Queues the missing voices of a lexeme for rendering (admin key required); idempotent.",
+        "operationId": "RequestPronunciationClips",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestClipsDto"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/v1/progress/events": {
+      "post": {
+        "tags": [
+          "Progress"
+        ],
+        "summary": "Appends a batch of client events idempotently by id; returns accepted, duplicate and rejected ids and the learner's cursor.",
+        "operationId": "AppendProgressEvents",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PostEventsDto"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      },
+      "get": {
+        "tags": [
+          "Progress"
+        ],
+        "summary": "Events after the cursor in server_seq order; excludeInstallation lets a device skip its own events.",
+        "operationId": "ReadProgressEvents",
+        "parameters": [
+          {
+            "name": "since",
+            "in": "query",
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int64"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          },
+          {
+            "name": "excludeInstallation",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/v1/settings": {
+      "get": {
+        "tags": [
+          "Settings"
+        ],
+        "summary": "The learner's merged settings document with its ETag; supports If-None-Match.",
+        "operationId": "GetSettings",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      },
+      "put": {
+        "tags": [
+          "Settings"
+        ],
+        "summary": "Merges the given entries per key with last-writer-wins and returns the resulting document.",
+        "operationId": "PutSettings",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PutSettingsDto"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "JsonElement": {},
+      "PostEventsDto": {
+        "required": [
+          "events"
+        ],
+        "type": "object",
+        "properties": {
+          "events": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ProgressEventDto"
+            }
+          }
+        }
+      },
+      "ProgressEventDto": {
+        "required": [
+          "id",
+          "type",
+          "schemaVersion",
+          "occurredAt",
+          "localDate",
+          "installationId",
+          "payload"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "type": {
+            "type": "string"
+          },
+          "schemaVersion": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "occurredAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "localDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "installationId": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "uuid"
+          },
+          "payload": {
+            "$ref": "#/components/schemas/JsonElement"
+          }
+        },
+        "description": "One append-only progress event (spec 09 §3.5, FR-09-10): the envelope is the same for every type, the payload belongs\r\nto spec 06 and is opaque to the server. Ids are client UUIDv7, unique per learner, which makes batches idempotent."
+      },
+      "PutSettingsDto": {
+        "required": [
+          "schemaVersion",
+          "entries"
+        ],
+        "type": "object",
+        "properties": {
+          "schemaVersion": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "entries": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/SettingsEntryDto"
+            }
+          }
+        },
+        "description": "PUT /v1/settings: a full or partial set of entries; the server merges per key and returns the resulting document."
+      },
+      "RegisterInstallationDto": {
+        "required": [
+          "installationId",
+          "installationSecret",
+          "platform",
+          "appVersion",
+          "locale"
+        ],
+        "type": "object",
+        "properties": {
+          "installationId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "installationSecret": {
+            "type": "string"
+          },
+          "platform": {
+            "type": "string"
+          },
+          "appVersion": {
+            "type": "string"
+          },
+          "locale": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "learnerId": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "uuid"
+          }
+        },
+        "description": "First call of a fresh installation (spec 09 §3.3.1, FR-09-1): the client generates the installation id (UUIDv4) and a\r\n32-byte secret, keeps both in SecureStorage and registers the anonymous account. Repeating the call with the same\r\npair is idempotent; a different secret for a known id is a conflict. Guid? RegisterInstallationDto.LearnerId lets the app keep the\r\nid it already uses locally (ADR 0006): it becomes the account id when free, otherwise the server answers 409."
+      },
+      "RenameAccountDto": {
+        "required": [
+          "nickname"
+        ],
+        "type": "object",
+        "properties": {
+          "nickname": {
+            "type": "string"
+          }
+        }
+      },
+      "RequestClipsDto": {
+        "required": [
+          "lexemeId",
+          "text",
+          "voices"
+        ],
+        "type": "object",
+        "properties": {
+          "lexemeId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "text": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "voices": {
+            "type": [
+              "null",
+              "array"
+            ],
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "description": "Request to render the pronunciation of one lexeme in the given voices, or in every voice when the list is empty (ADR 0020 §2)."
+      },
+      "SettingsEntryDto": {
+        "required": [
+          "value",
+          "updatedAt",
+          "clientId"
+        ],
+        "type": "object",
+        "properties": {
+          "value": {
+            "$ref": "#/components/schemas/JsonElement"
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "clientId": {
+            "type": "string"
+          }
+        },
+        "description": "One synchronised setting (spec 09 §3.6, FR-09-13): the value plus the last-writer-wins stamp (updatedAt, clientId)."
+      }
+    },
+    "securitySchemes": {
+      "bearer": {
+        "type": "http",
+        "description": "Access token issued by POST /v1/connect/token.",
+        "scheme": "bearer",
+        "bearerFormat": "opaque"
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Config"
+    },
+    {
+      "name": "Identity"
+    },
+    {
+      "name": "Content"
+    },
+    {
+      "name": "Pronunciation"
+    },
+    {
+      "name": "Progress"
+    },
+    {
+      "name": "Settings"
+    }
+  ]
+}

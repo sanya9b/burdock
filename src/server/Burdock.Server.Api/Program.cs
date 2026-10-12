@@ -16,7 +16,7 @@ builder.Services.AddProblemDetails(options => options.CustomizeProblemDetails = 
     // RFC 9457 with a traceId extension (spec 09 FR-09-23); the machine code is added by ErrorResults.
     context.ProblemDetails.Extensions.TryAdd("traceId", Activity.Current?.Id ?? context.HttpContext.TraceIdentifier);
 });
-builder.Services.AddOpenApi();
+builder.Services.AddOpenApi(OpenApiContract.DocumentName, OpenApiContract.Configure);
 builder.Services.AddHealthChecks().AddCheck<ModuleDatabasesHealthCheck>(ModuleDatabasesHealthCheck.Name, tags: ["ready"]);
 builder.Services.AddServerShared();
 builder.Services.AddBurdockRateLimiting(builder.Configuration);

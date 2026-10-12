@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Contract tests (spec 09 §3.14, spec 15): the OpenAPI document served by the real host must equal the committed
+       snapshot docs/api/openapi.v1.json. Refresh the snapshot with BURDOCK_UPDATE_SNAPSHOTS=1 (see docs/api/README.md). -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\server\Burdock.Server.Api\Burdock.Server.Api.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" />
+    <PackageReference Include="Testcontainers.PostgreSql" />
+  </ItemGroup>
+</Project>
