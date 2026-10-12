@@ -131,3 +131,15 @@ flowchart LR
 - `scripts/burdock-deploy.sh <tag>` — єдина точка деплою (спека 14 §3.12): pull → `api migrate` → up → readiness → smoke `/v1/config`, інакше відкат на попередній тег. Запускається воркфлоу `deploy-server` по SSH або вручну з runbook-у.
 
 Поки що не розгорнуто: потрібні акаунт Hetzner, DNS `api.burdock.org`, ключ age для sops і секрети `DEPLOY_HOST`/`DEPLOY_USER`/`DEPLOY_SSH_KEY` у середовищі `prod` GitHub.
+
+## Спостережуваність (OpenTelemetry)
+
+API експортує трасування, метрики й логи по OTLP лише тоді, коли в `.env` (із sops) задано:
+
+```
+OTEL_EXPORTER_OTLP_ENDPOINT=https://otlp-gateway-prod-eu-west-2.grafana.net/otlp   # або адреса власного OTel Collector
+OTEL_EXPORTER_OTLP_HEADERS=Authorization=Basic <base64(instanceId:token)>
+OTEL_EXPORTER_OTLP_PROTOCOL=http/protobuf
+```
+
+Без `OTEL_EXPORTER_OTLP_ENDPOINT` телеметрія лишається в процесі. Health-проби не трасуються; спани не містять IP, заголовків чи тіл (спека 13 §1). Точну адресу OTLP-шлюзу беріть із консолі Grafana Cloud свого стека (регіон ЄС).

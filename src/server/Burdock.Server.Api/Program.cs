@@ -3,6 +3,7 @@ using Burdock.Server.Api;
 using Burdock.Server.Shared;
 using Burdock.Server.Shared.Health;
 using Burdock.Server.Shared.Modules;
+using Burdock.Server.Shared.Observability;
 using Burdock.Server.Shared.Persistence;
 using Burdock.Server.Shared.RateLimiting;
 using Burdock.Server.Shared.Security;
@@ -10,6 +11,7 @@ using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.HttpOverrides;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.AddBurdockObservability();
 
 builder.Services.AddProblemDetails(options => options.CustomizeProblemDetails = static context =>
 {

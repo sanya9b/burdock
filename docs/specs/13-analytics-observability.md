@@ -242,6 +242,8 @@ flowchart LR
 - **Бекенд**: Grafana Cloud EU (Німеччина) безкоштовний рівень на старті (10k серій / 50 ГБ логів / 14 днів); при перевищенні — перехід на self-hosted Grafana + Prometheus + Loki + Tempo на окремому Hetzner-вузлі або платний рівень (ADR). Seq як альтернатива для логів у розробці.
 - **Трейси**: `ParentBased(TraceIdRatioBased(otel.tracesSampleRatio))`; помилки семплюються завжди (tail sampling у Collector за `status=ERROR`).
 
+> Реалізовано 12.10.2026: інструментування сервера (`AddBurdockObservability` у `Burdock.Server.Shared`): трасування й метрики ASP.NET Core, HttpClient, рантайму, Npgsql, rate limiting; логи через OTel; експорт OTLP вмикається лише змінною `OTEL_EXPORTER_OTLP_ENDPOINT` (у проді — адреса колектора з процесором редагування або напряму Grafana Cloud EU з `OTEL_EXPORTER_OTLP_HEADERS`). Health-проби не трасуються; тест перевіряє відсутність `client.address`, `http.client_ip`, `enduser.id` і заголовка авторизації в спанах. Пакет Aspire ServiceDefaults не підключено (та сама конфігурація написана явно, менше залежностей); колектор, алерти (3.8) і дашборди додаються після створення акаунтів Grafana Cloud EU.
+
 ### 3.8 Правила алертів
 
 | Алерт | Умова | Вікно | Рівень | Runbook |

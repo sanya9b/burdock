@@ -863,6 +863,8 @@ erDiagram
 
 **Спостережуваність.** Aspire ServiceDefaults (OpenTelemetry трасування/метрики/логи, health, resilience) → OTLP напряму до Grafana Cloud EU (регіон Німеччина, безкоштовний рівень на старті); Sentry (регіон ЄС) для винятків з `SendDefaultPii = false`. Логи через `[LoggerMessage]` з класифікацією даних і `Redaction` (HMAC для ідентифікаторів, стирання для решти) до експорту (10). Метрики, що мають алерти: 5xx rate, p95 на групу ендпоїнтів, глибина `shared.jobs`, вік outbox, `dead` завдання, помилки APNs, вік бекапу, вільне місце на диску, кількість відкликань refresh-токенів через повторне використання (сигнал крадіжки).
 
+> Реалізовано 12.10.2026 (`Burdock.Server.Shared.Observability.AddBurdockObservability`): OpenTelemetry без пакета Aspire, але в формі ServiceDefaults: ресурс `burdock-api` з версією збірки, трасування ASP.NET Core (health-проби відфільтровані), вихідного HTTP і Npgsql, метрики ASP.NET Core, HttpClient, рантайму, Npgsql і rate limiting, логи через OTel-пайплайн зі скоупами. Експорт лише OTLP і лише коли задано `OTEL_EXPORTER_OTLP_ENDPOINT` (`OTEL_EXPORTER_OTLP_HEADERS` для Grafana Cloud, `OTEL_EXPORTER_OTLP_PROTOCOL`) з `.env` із sops; без змінної нічого не виходить з процесу. Тест у `Burdock.Server.Tests` перевіряє, що спани запитів не несуть адрес клієнта й заголовків, а проби не трасуються. Sentry (рішення власника, журнал §7 п. 8), колектор із процесором редагування, алерти й дашборди Grafana чекають на акаунти.
+
 **Шлях масштабування** (без зміни коду, лише конфігурація):
 1. Вертикально: більша VM (до ~10k користувачів за оцінкою §3.11).
 2. БД на окрему VM у приватній мережі Hetzner; API лишається на першій.
