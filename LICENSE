@@ -1,0 +1,57 @@
+Burdock («Реп’ях») — source-available, all rights reserved
+===========================================================
+
+Copyright (c) 2026 the author of Burdock (github.com/sanya9b, burdock.org).
+All rights reserved.
+
+This repository is published so that its code, specifications and content
+pipeline can be read and studied. No licence is granted beyond that:
+
+1. You may view, clone and read this repository for reference.
+2. You may not copy, modify, merge, publish, distribute, sublicense, sell or
+   otherwise use any part of it (code, specifications, design tokens, mascot
+   artwork, generated word packs, audio clips, prompts) in your own software,
+   content or services without prior written permission of the copyright
+   holder.
+3. The names «Реп’ях» and Burdock, the mascot Реп’яшок and the app icon are
+   not licensed for any use.
+4. Third-party components keep their own licences and notices: fonts in
+   src/mobile/Burdock.Presentation/Resources/Fonts (SIL OFL 1.1), the Lucide
+   icon font (ISC), NuGet, npm and Python packages (see their package metadata),
+   and the data sources of the word base listed in content/sources/README.md
+   with their attribution strings (CEFR-J Wordlist, Open English WordNet,
+   CMU Pronouncing Dictionary, Kokoro-82M). Nothing in this notice restricts
+   rights granted by those licences.
+5. The software and content are provided "as is", without warranty of any
+   kind, express or implied.
+
+Contact for permissions: see burdock.org.
+
+----------------------------------------------------------------------------
+
+Burdock («Реп’ях») — відкритий для читання код, усі права захищені
+----------------------------------------------------------------------------
+
+© 2026 автор проєкту Burdock (github.com/sanya9b, burdock.org). Усі права
+захищені.
+
+Репозиторій опубліковано, щоб код, специфікації та контент-пайплайн можна було
+читати й вивчати. Інших дозволів не надається:
+
+1. Можна переглядати, клонувати й читати репозиторій для ознайомлення.
+2. Не можна копіювати, змінювати, поширювати, субліцензувати, продавати чи
+   інакше використовувати будь-яку його частину (код, специфікації,
+   дизайн-токени, зображення маскота, згенеровані пакети слів, аудіокліпи,
+   промти) у власному програмному забезпеченні, контенті чи сервісах без
+   попереднього письмового дозволу правовласника.
+3. Назви «Реп’ях» і Burdock, маскот Реп’яшок та іконка застосунку не
+   ліцензуються для жодного використання.
+4. Компоненти третіх сторін зберігають власні ліцензії та повідомлення: шрифти
+   у src/mobile/Burdock.Presentation/Resources/Fonts (SIL OFL 1.1), шрифт
+   іконок Lucide (ISC), пакети NuGet, npm і Python (див. їхні метадані) та
+   джерела даних бази слів із content/sources/README.md з рядками атрибуції
+   (CEFR-J Wordlist, Open English WordNet, CMU Pronouncing Dictionary,
+   Kokoro-82M). Це повідомлення не обмежує прав, наданих тими ліцензіями.
+5. Програмне забезпечення та контент надаються «як є», без будь-яких гарантій.
+
+Контакт щодо дозволів: burdock.org.
