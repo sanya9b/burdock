@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- End-to-end sync (spec 17 phase 2 exit criterion, spec 09 sections 3.3-3.6): the real HttpSyncGateway and the
+       Application use cases of two installations of one account against the real API host on Testcontainers
+       PostgreSQL 18. Runs in ci-mobile-shared (MAUI workload for Infrastructure plus Docker); not part of the server
+       solution because Infrastructure needs the maui-android workload. -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\mobile\Burdock.Infrastructure\Burdock.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\server\Burdock.Server.Api\Burdock.Server.Api.csproj" />
+    <ProjectReference Include="..\Burdock.TestKit\Burdock.TestKit.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" />
+    <PackageReference Include="Testcontainers.PostgreSql" />
+  </ItemGroup>
+</Project>

@@ -14,6 +14,15 @@ public sealed record SettingsEntry(string Key, string ValueJson, DateTimeOffset 
     public const int MaxValueBytes = 4096;
     public const int MaxClientIdLength = 64;
 
+    /// <summary>
+    /// Stamps carry millisecond resolution. Clients stamp with 100 ns ticks while PostgreSQL keeps microseconds, so
+    /// without a common resolution a device would see its own stamp come back "older" and resend the same entry forever.
+    /// </summary>
+    public const long StampResolutionTicks = TimeSpan.TicksPerMillisecond;
+
+    /// <summary>UTC, truncated to the stamp resolution; applied before storing and before comparing.</summary>
+    public static DateTimeOffset NormalizeStamp(DateTimeOffset value) => new(value.UtcTicks - (value.UtcTicks % StampResolutionTicks), TimeSpan.Zero);
+
     public static Result<SettingsEntry> Create(string? key, string? valueJson, DateTimeOffset updatedAt, string? clientId)
     {
         if (string.IsNullOrEmpty(key) || key.Length > MaxKeyLength || !key.All(c => char.IsAsciiLetterOrDigit(c) || c is '.' or '_' or '-'))
@@ -31,14 +40,16 @@ public sealed record SettingsEntry(string Key, string ValueJson, DateTimeOffset 
             return Result.Failure<SettingsEntry>(DomainError.Validation("settings.client_invalid", "Errors_Settings_ClientInvalid", new Dictionary<string, string>(StringComparer.Ordinal) { ["key"] = key }));
         }
 
-        return Result.Success(new SettingsEntry(key, valueJson, updatedAt, clientId.Trim()));
+        return Result.Success(new SettingsEntry(key, valueJson, NormalizeStamp(updatedAt), clientId.Trim()));
     }
 
-    /// <summary>LWW: the later stamp wins; on an equal stamp the lexicographically larger client id wins, which both sides compute identically.</summary>
+    /// <summary>LWW at stamp resolution: the later stamp wins; on an equal stamp the lexicographically larger client id wins, which both sides compute identically.</summary>
     public bool Supersedes(SettingsEntry other)
     {
         ArgumentNullException.ThrowIfNull(other);
-        return UpdatedAt > other.UpdatedAt || (UpdatedAt == other.UpdatedAt && string.CompareOrdinal(ClientId, other.ClientId) > 0);
+        var mine = NormalizeStamp(UpdatedAt);
+        var theirs = NormalizeStamp(other.UpdatedAt);
+        return mine > theirs || (mine == theirs && string.CompareOrdinal(ClientId, other.ClientId) > 0);
     }
 }
 

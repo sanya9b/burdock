@@ -62,6 +62,22 @@ public sealed class SettingsRulesTests
     }
 
     [Fact]
+    public void Stamps_compare_and_persist_at_millisecond_resolution()
+    {
+        var fine = new DateTimeOffset(2026, 10, 12, 9, 0, 0, TimeSpan.Zero).AddTicks(4_567);
+        var coarse = SettingsEntry.NormalizeStamp(fine);
+        var local = new SettingsEntry("level", "\"B2\"", fine, "same");
+        var stored = new SettingsEntry("level", "\"B2\"", coarse, "same");
+
+        coarse.ShouldBe(new DateTimeOffset(2026, 10, 12, 9, 0, 0, TimeSpan.Zero));
+        local.Supersedes(stored).ShouldBeFalse();
+        stored.Supersedes(local).ShouldBeFalse();
+        (local with { UpdatedAt = fine.AddMilliseconds(1) }).Supersedes(stored).ShouldBeTrue();
+        SettingsEntry.Create("level", "1", fine, "c").Value.UpdatedAt.ShouldBe(coarse);
+        SettingsEntry.NormalizeStamp(new DateTimeOffset(2026, 10, 12, 12, 0, 0, 123, TimeSpan.FromHours(3))).ShouldBe(new DateTimeOffset(2026, 10, 12, 9, 0, 0, 123, TimeSpan.Zero));
+    }
+
+    [Fact]
     public void The_event_type_catalogue_is_closed()
     {
         ProgressEventTypes.All.ShouldBe([ProgressEventTypes.ReviewLog, ProgressEventTypes.ExposureConfirmed, ProgressEventTypes.ExposureDaily, ProgressEventTypes.CardIntroduced, ProgressEventTypes.WordListChanged], ignoreOrder: true);

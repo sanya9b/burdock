@@ -118,7 +118,7 @@ public sealed class PreferencesLearnerContext(IPreferences preferences, IIdGener
         }
 
         preferences.Set(key, value);
-        preferences.Set(StampPrefix + key, now.UtcTicks);
+        preferences.Set(StampPrefix + key, Burdock.Domain.Sync.SettingsEntry.NormalizeStamp(now).UtcTicks);
         preferences.Remove(ClientPrefix + key);
     }
 
