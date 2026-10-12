@@ -102,7 +102,11 @@ public sealed class OpenApiSnapshotTests(ContractPostgresFixture postgres) : ICl
         return Normalize(body);
     }
 
-    /// <summary>Indented JSON with LF line endings, so the snapshot diffs line by line regardless of the serializer's whitespace.</summary>
+    /// <summary>
+    /// Indented JSON with LF line endings, so the snapshot diffs line by line regardless of the serializer's whitespace.
+    /// Descriptions come from XML doc comments, whose line breaks follow the checkout (CRLF on Windows, LF on Linux), so the
+    /// escaped breaks inside string values are normalised too.
+    /// </summary>
     private static string Normalize(string json)
     {
         using var document = JsonDocument.Parse(json);
@@ -112,7 +116,10 @@ public sealed class OpenApiSnapshotTests(ContractPostgresFixture postgres) : ICl
             document.WriteTo(writer);
         }
 
-        return Encoding.UTF8.GetString(buffer.ToArray()).Replace("\r\n", "\n", StringComparison.Ordinal).TrimEnd() + "\n";
+        return Encoding.UTF8.GetString(buffer.ToArray())
+            .Replace("\r\n", "\n", StringComparison.Ordinal)
+            .Replace("\\r\\n", "\\n", StringComparison.Ordinal)
+            .TrimEnd() + "\n";
     }
 
     private static string FirstDifference(string expected, string actual)

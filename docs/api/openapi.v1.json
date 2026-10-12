@@ -382,7 +382,7 @@
             "$ref": "#/components/schemas/JsonElement"
           }
         },
-        "description": "One append-only progress event (spec 09 §3.5, FR-09-10): the envelope is the same for every type, the payload belongs\r\nto spec 06 and is opaque to the server. Ids are client UUIDv7, unique per learner, which makes batches idempotent."
+        "description": "One append-only progress event (spec 09 §3.5, FR-09-10): the envelope is the same for every type, the payload belongs\nto spec 06 and is opaque to the server. Ids are client UUIDv7, unique per learner, which makes batches idempotent."
       },
       "PutSettingsDto": {
         "required": [
@@ -445,7 +445,7 @@
             "format": "uuid"
           }
         },
-        "description": "First call of a fresh installation (spec 09 §3.3.1, FR-09-1): the client generates the installation id (UUIDv4) and a\r\n32-byte secret, keeps both in SecureStorage and registers the anonymous account. Repeating the call with the same\r\npair is idempotent; a different secret for a known id is a conflict. Guid? RegisterInstallationDto.LearnerId lets the app keep the\r\nid it already uses locally (ADR 0006): it becomes the account id when free, otherwise the server answers 409."
+        "description": "First call of a fresh installation (spec 09 §3.3.1, FR-09-1): the client generates the installation id (UUIDv4) and a\n32-byte secret, keeps both in SecureStorage and registers the anonymous account. Repeating the call with the same\npair is idempotent; a different secret for a known id is a conflict. Guid? RegisterInstallationDto.LearnerId lets the app keep the\nid it already uses locally (ADR 0006): it becomes the account id when free, otherwise the server answers 409."
       },
       "RenameAccountDto": {
         "required": [
