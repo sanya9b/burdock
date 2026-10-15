@@ -3,6 +3,9 @@
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <!-- NU1510: the shared framework also ships these assemblies, but the direct references exist only to lift the
+         transitive package versions above known advisories for the test projects that restore this module's graph. -->
+    <NoWarn>$(NoWarn);NU1510</NoWarn>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Burdock.Server.Shared\Burdock.Server.Shared.csproj" />
@@ -13,5 +16,8 @@
   <ItemGroup>
     <PackageReference Include="OpenIddict.AspNetCore" />
     <PackageReference Include="OpenIddict.EntityFrameworkCore" />
+    <!-- Direct references lift the transitive System.Security.Cryptography.* packages of OpenIddict DataProtection above the advisories. -->
+    <PackageReference Include="System.Security.Cryptography.Pkcs" />
+    <PackageReference Include="System.Security.Cryptography.Xml" />
   </ItemGroup>
 </Project>
