@@ -179,6 +179,8 @@ flowchart LR
 | Генерація контенту через LLM | ні (бюджет контролює CI) | так | — | — | — |
 | Бекапи, моніторинг | — | — | — | — | так |
 
+> Реалізовано 15.10.2026: `release-ios.yml` за цією таблицею (тег `mobile/v*` або вручну, environment `prod-ios` з обов'язковим рецензентом, тимчасовий keychain, `dotnet publish … -p:ArchiveOnBuild=true -p:CodesignKey -p:CodesignProvision`, `altool --validate-app` і `--upload-app` з API-ключем, IPA + dSYM як артефакти 30 днів, очищення в `if: always()`); додатково режим `dry_run` (Release `ios-arm64` без підпису, без секретів) для перевірки AOT і лінкування. Розширення віджетів (appex) і dSYM у Sentry з'являться у фазі 3 і після рішення щодо Sentry. Runbook: `docs/runbooks/release-ios.md` (сертифікати через OpenSSL на Windows). Info.plist: `ITSAppUsesNonExemptEncryption = false`, `CFBundleDevelopmentRegion = uk`.
+
 ### 3.7 Секрети та підписання
 
 | Секрет | Де зберігається | Формат | Ротація |
