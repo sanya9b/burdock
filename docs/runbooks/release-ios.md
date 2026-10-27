@@ -6,7 +6,7 @@
 
 - Членство в Apple Developer Program активне; Apple Developer Agreement і Paid Apps Agreement в App Store Connect прийняті (інакше завантаження відхиляється з помилкою про угоди).
 - Bundle ID `org.burdock.app` зареєстровано в Certificates, Identifiers & Profiles → Identifiers (тип App; додаткові можливості поки не потрібні; App Groups і Push додаються у фазі 3 для віджетів).
-- Запис застосунку створено в App Store Connect → My Apps → + (Name «Реп’ях», Primary Language Ukrainian, Bundle ID `org.burdock.app`, SKU довільний).
+- Запис застосунку створено в App Store Connect → My Apps → + (Name «Реп’ях», Primary Language Ukrainian, Bundle ID `org.burdock.app`, SKU `burdock-ios`). Без запису `altool` відповідає `Cannot determine the Apple ID from Bundle ID`, хоча збірка й підпис уже пройшли; через API запис створити не можна.
 - Git Bash на Windows (у ньому є `openssl` і `base64`).
 
 ## Крок 1. Сертифікат Apple Distribution без Mac (разово, діє рік)
@@ -58,7 +58,7 @@ GitHub → repo → Settings → Environments → New environment `prod-ios` →
 - **Тег** (основний): `git tag mobile/v0.1.0 && git push origin mobile/v0.1.0`. Маркетингова версія береться з тегу, номер збірки = номер запуску воркфлоу (монотонно зростає, тому повторний запуск того самого тегу дає нову збірку).
 - **Вручну**: Actions → release-ios → Run workflow; `display_version` за потреби, `dry_run` вимкнено.
 
-Після старту GitHub чекає на підтвердження середовища `prod-ios` (кнопка Review deployments). Далі ≈ 35–50 хв: воркloads, AOT-збірка, підпис, `altool --validate-app`, `altool --upload-app`.
+Після старту GitHub чекає на підтвердження середовища `prod-ios` (кнопка Review deployments; потрібно бути залогіненим як рецензент; з командного рядка те саме робить `gh api -X POST repos/sanya9b/burdock/actions/runs/<run>/pending_deployments` зі `state: approved`). Далі ≈ 35–50 хв: воркloads, AOT-збірка, підпис, `altool --validate-app`, `altool --upload-app`.
 
 **Сухий прогін.** `dry_run = true` збирає Release для `ios-arm64` без підпису й нічого не завантажує; секрети й підтвердження не потрібні. Використовуй після змін у залежностях чи лінкуванні, щоб зловити проблеми AOT до витрачання підтвердження.
 
@@ -76,13 +76,15 @@ GitHub → repo → Settings → Environments → New environment `prod-ios` →
 
 ## Час виконання
 
-Крок 1–4 разово ≈ 1 година. Один реліз ≈ 45 хв CI + 15 хв обробки Apple.
+Крок 1–4 разово ≈ 1 година. Один реліз ≈ 15 хв CI (виміряно 27.10.2026: підписана збірка з AOT і завантаження) + 5–20 хв обробки Apple.
 
 ## Типові помилки
 
 | Симптом | Причина | Дія |
 |---|---|---|
 | `No Apple Distribution identity in the imported .p12` | `.p12` без приватного ключа або зібраний без `-legacy` | перезібрати `.p12` за кроком 1 |
+| `MAC verification failed during PKCS12 import (wrong password?)` | `.p12` у форматі OpenSSL 3 (PBES2/AES-256, MAC sha256): keychain macOS його не читає, навіть якщо пароль правильний | перепакувати: `openssl pkcs12 -in old.p12 -nodes -out bundle.pem`, потім `openssl pkcs12 -export -legacy -inkey bundle.pem -in bundle.pem -certfile AppleWWDRCAG3.pem -out legacy.p12`; оновити секрет |
+| `Cannot determine the Apple ID from Bundle ID 'org.burdock.app'` | в App Store Connect немає запису застосунку з цим bundle ID | створити запис (передумови), потім `Re-run failed jobs` і підтвердити деплой |
 | `Provisioning profile … doesn't include signing certificate` | профіль створено під інший сертифікат | перевипустити профіль (крок 2) і оновити секрет |
 | `ITMS-90xxx` від `altool` | найчастіше іконка, версія або entitlements | текст помилки точно називає ключ; номер збірки має бути більшим за попередній для тієї ж версії |
 | `You must first sign the relevant contracts online` | неприйняті угоди в App Store Connect | Agreements, Tax, and Banking → прийняти |
