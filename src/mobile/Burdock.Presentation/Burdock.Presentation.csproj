@@ -55,7 +55,8 @@
 
   <!-- Widget extension (spec 04 §3.1.3): opt-in until the App Group exists in the developer portal, because the entitlement
        must also be in the provisioning profile. CI builds the .appex first (ios-extensions/BurdockWidgets/scripts/build-appex.sh),
-       then this project embeds it into Burdock.app/PlugIns and signs the app with Platforms/iOS/Entitlements.plist. -->
+       then this project embeds it into Burdock.app/PlugIns and signs the app with Platforms/iOS/Entitlements.plist. MSBuild re-signs
+       the .appex and takes its entitlements from ios-extensions/BurdockWidgets/BurdockWidgets.entitlements, which build-appex.sh writes. -->
   <PropertyGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios' And '$(BurdockWidgets)' == 'true'">
     <CodesignEntitlements>Platforms\iOS\Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>

@@ -45,6 +45,9 @@ targets:
       properties:
         CFBundleDisplayName: Реп’ях
         CFBundleDevelopmentRegion: uk
+        # Must match the containing app (App Store Connect warns on a mismatch); release-ios passes both build settings.
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
         NSExtension:
           NSExtensionPointIdentifier: com.apple.widgetkit-extension
         UIAppFonts:

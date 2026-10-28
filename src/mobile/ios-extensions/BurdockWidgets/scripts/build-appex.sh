@@ -52,8 +52,17 @@ fi
 du -sh "$appex"
 /usr/libexec/PlistBuddy -c 'Print CFBundleIdentifier' "$appex/Info.plist"
 /usr/libexec/PlistBuddy -c 'Print NSExtension:NSExtensionPointIdentifier' "$appex/Info.plist"
+# MSBuild re-signs the embedded .appex with the app's identity and reads its entitlements from <dir>/<Name>.entitlements
+# (macios _ExtendAppExtensionReferences). A signed build hands over exactly what xcodebuild signed (application-identifier,
+# team, App Groups); an unsigned one the XcodeGen entitlements, which only matter for the simulator.
+entitlements="$dir/BurdockWidgets.entitlements"
 if [ -f "$appex/embedded.mobileprovision" ]; then
   echo "Embedded provisioning profile: $(security cms -D -i "$appex/embedded.mobileprovision" | /usr/libexec/PlistBuddy -c 'Print Name' /dev/stdin)"
+  codesign -d --entitlements - --xml "$appex" > "$entitlements"
 else
   echo "Unsigned build (no embedded provisioning profile)"
+  cp "$dir/BurdockWidgets/BurdockWidgets.entitlements" "$entitlements"
 fi
+plutil -lint "$entitlements"
+echo "Entitlements for the MSBuild re-sign ($entitlements):"
+/usr/libexec/PlistBuddy -c 'Print' "$entitlements"

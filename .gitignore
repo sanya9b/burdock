@@ -92,5 +92,6 @@ src/mobile/ios-extensions/**/*.xcodeproj/
 src/mobile/ios-extensions/BurdockWidgets/build/
 src/mobile/ios-extensions/BurdockWidgets/BurdockWidgets/Info.plist
 src/mobile/ios-extensions/BurdockWidgets/BurdockWidgets/BurdockWidgets.entitlements
+src/mobile/ios-extensions/BurdockWidgets/BurdockWidgets.entitlements
 src/mobile/ios-extensions/BurdockWidgets/BurdockWidgetGallery/Info.plist
 src/mobile/ios-extensions/BurdockWidgets/BurdockShared/.build/
