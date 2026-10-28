@@ -37,6 +37,7 @@ public sealed partial class SessionSummaryViewModel : ObservableObject, IQueryAt
     private readonly INavigationService _navigation;
     private readonly SettleSessionRewardsUseCase _settle;
     private readonly ISyncCoordinator _sync;
+    private readonly IWidgetCoordinator _widgets;
     private readonly ILogger<SessionSummaryViewModel> _logger;
     private readonly Queue<CelebrationItem> _celebrations = new();
     private SessionReport? _report;
@@ -99,11 +100,12 @@ public sealed partial class SessionSummaryViewModel : ObservableObject, IQueryAt
     [ObservableProperty]
     private CelebrationItem? _currentCelebration;
 
-    public SessionSummaryViewModel(INavigationService navigation, SettleSessionRewardsUseCase settle, ISyncCoordinator sync, ILogger<SessionSummaryViewModel> logger)
+    public SessionSummaryViewModel(INavigationService navigation, SettleSessionRewardsUseCase settle, ISyncCoordinator sync, IWidgetCoordinator widgets, ILogger<SessionSummaryViewModel> logger)
     {
         _navigation = navigation ?? throw new ArgumentNullException(nameof(navigation));
         _settle = settle ?? throw new ArgumentNullException(nameof(settle));
         _sync = sync ?? throw new ArgumentNullException(nameof(sync));
+        _widgets = widgets ?? throw new ArgumentNullException(nameof(widgets));
         _logger = logger ?? throw new ArgumentNullException(nameof(logger));
     }
 
@@ -146,6 +148,7 @@ public sealed partial class SessionSummaryViewModel : ObservableObject, IQueryAt
         try
         {
             var view = await _settle.ExecuteAsync(_report, cancellationToken).ConfigureAwait(true);
+            _ = _widgets.TriggerAsync("session", CancellationToken.None);
             _ = _sync.TriggerAsync("session", CancellationToken.None);
             var s = view.Settlement;
             if (!view.GamificationEnabled || s.IsEmpty)

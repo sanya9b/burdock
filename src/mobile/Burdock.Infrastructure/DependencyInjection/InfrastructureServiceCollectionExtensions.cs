@@ -7,6 +7,7 @@ using Burdock.Infrastructure.Persistence;
 using Burdock.Infrastructure.Scheduling;
 using Burdock.Infrastructure.Sync;
 using Burdock.Infrastructure.Time;
+using Burdock.Infrastructure.Widgets;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Maui.Storage;
@@ -45,6 +46,8 @@ public static class InfrastructureServiceCollectionExtensions
         services.AddSingleton<IRandom, SystemRandom>();
         services.AddSingleton<IContentPackSource, BundledContentPackSource>();
         services.AddSingleton<IPronunciationAudio, BundledPronunciationAudio>();
+        // Widget timeline hand-off (spec 04 §3.2): active only where an App Group container exists (iOS with the entitlement).
+        services.AddSingleton<IWidgetBridge, AppGroupWidgetBridge>();
 
         // Sync (spec 09 sections 3.3-3.6): credentials in the keychain, outbox and cursors in SQLite, one HttpClient for the API.
         services.AddSingleton(_ => SecureStorage.Default);

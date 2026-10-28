@@ -163,6 +163,15 @@ public sealed class SqliteExposureStore(BurdockDatabase database) : IExposureSto
         return await db.FindAsync<ExposureRow>(id).ConfigureAwait(false) is not null;
     }
 
+    public async Task<IReadOnlyDictionary<LexemeId, int>> CountSinceAsync(LearnerId learnerId, DateTimeOffset sinceUtc, CancellationToken cancellationToken)
+    {
+        var db = await database.GetOpenConnectionAsync(cancellationToken).ConfigureAwait(false);
+        var learner = learnerId.Value;
+        var since = sinceUtc.UtcTicks;
+        var rows = await db.Table<ExposureRow>().Where(r => r.LearnerId == learner && r.AtTicks >= since).ToListAsync().ConfigureAwait(false);
+        return rows.GroupBy(r => r.LexemeId).ToDictionary(g => LexemeId.From(g.Key), g => g.Count());
+    }
+
     public async Task<ExposureCounts> CountAsync(LearnerId learnerId, LexemeId lexemeId, CancellationToken cancellationToken)
     {
         var db = await database.GetOpenConnectionAsync(cancellationToken).ConfigureAwait(false);

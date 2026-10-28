@@ -62,6 +62,8 @@ public sealed class ViewModelHarness
 
     public FakeSyncCoordinator Sync { get; } = new();
 
+    public FakeWidgetCoordinator Widgets { get; } = new();
+
     public List<ImportedContentPack> Packs { get; } = [];
 
     public FakeNavigationService Navigation { get; } = new();
@@ -146,6 +148,7 @@ public sealed class ViewModelHarness
         services.AddSingleton<IMotionPreferences>(Motion);
         services.AddSingleton<IAppThemeService>(Theme);
         services.AddSingleton<ISyncCoordinator>(Sync);
+        services.AddSingleton<IWidgetCoordinator>(Widgets);
 
         services.AddTransient<BootstrapViewModel>();
         services.AddTransient<OnboardingViewModel>();

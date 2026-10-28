@@ -30,6 +30,7 @@ public sealed partial class SettingsViewModel : ObservableObject
     private readonly IAppThemeService _theme;
     private readonly IToastService _toast;
     private readonly ISpeechService _speech;
+    private readonly IWidgetCoordinator _widgets;
     private readonly ILogger<SettingsViewModel> _logger;
     private LearnerSettings? _current;
     private bool _loading;
@@ -59,13 +60,14 @@ public sealed partial class SettingsViewModel : ObservableObject
     [ObservableProperty]
     private bool _gamificationOff;
 
-    public SettingsViewModel(GetLearnerSettingsUseCase getSettings, UpdateLearnerSettingsUseCase updateSettings, IAppThemeService theme, IToastService toast, ISpeechService speech, ILogger<SettingsViewModel> logger)
+    public SettingsViewModel(GetLearnerSettingsUseCase getSettings, UpdateLearnerSettingsUseCase updateSettings, IAppThemeService theme, IToastService toast, ISpeechService speech, IWidgetCoordinator widgets, ILogger<SettingsViewModel> logger)
     {
         _getSettings = getSettings ?? throw new ArgumentNullException(nameof(getSettings));
         _updateSettings = updateSettings ?? throw new ArgumentNullException(nameof(updateSettings));
         _theme = theme ?? throw new ArgumentNullException(nameof(theme));
         _toast = toast ?? throw new ArgumentNullException(nameof(toast));
         _speech = speech ?? throw new ArgumentNullException(nameof(speech));
+        _widgets = widgets ?? throw new ArgumentNullException(nameof(widgets));
         _logger = logger ?? throw new ArgumentNullException(nameof(logger));
 
         foreach (var minutes in RotationCadence.PresetMinutes)
@@ -324,6 +326,8 @@ public sealed partial class SettingsViewModel : ObservableObject
             }
 
             _current = result.Value;
+            // Cadence, quiet hours, translation mode and categories all change the widget timeline (spec 04 §3.3.2).
+            _ = _widgets.TriggerAsync("settings", CancellationToken.None);
             await _toast.ShowAsync(AppResources.Settings_Saved_Toast, cancellationToken).ConfigureAwait(true);
         }
         catch (OperationCanceledException)

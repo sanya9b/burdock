@@ -126,6 +126,9 @@ public sealed class InMemoryExposureStore : IExposureStore
 
     public Task<bool> ExistsAsync(Guid id, CancellationToken cancellationToken) => Task.FromResult(Records.Any(r => r.Id == id));
 
+    public Task<IReadOnlyDictionary<LexemeId, int>> CountSinceAsync(LearnerId learnerId, DateTimeOffset sinceUtc, CancellationToken cancellationToken)
+        => Task.FromResult<IReadOnlyDictionary<LexemeId, int>>(Records.Where(r => r.LearnerId == learnerId && r.At >= sinceUtc).GroupBy(r => r.LexemeId).ToDictionary(g => g.Key, g => g.Count()));
+
     public Task<ExposureCounts> CountAsync(LearnerId learnerId, LexemeId lexemeId, CancellationToken cancellationToken)
     {
         var mine = Records.Where(r => r.LearnerId == learnerId && r.LexemeId == lexemeId).ToArray();

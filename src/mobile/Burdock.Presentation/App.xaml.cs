@@ -22,7 +22,12 @@ public partial class App : Microsoft.Maui.Controls.Application
         theme.Apply(theme.Mode);
         var window = new Window(_services.GetRequiredService<Views.BootstrapPage>());
         var sync = _services.GetRequiredService<Services.ISyncCoordinator>();
-        window.Resumed += (_, _) => _ = sync.TriggerAsync("resume");
+        var widgets = _services.GetRequiredService<Services.IWidgetCoordinator>();
+        window.Resumed += (_, _) =>
+        {
+            _ = widgets.TriggerAsync("resume");
+            _ = sync.TriggerAsync("resume");
+        };
         return window;
     }
 }

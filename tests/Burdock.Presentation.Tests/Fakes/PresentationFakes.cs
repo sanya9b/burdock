@@ -196,3 +196,17 @@ public sealed class FakeSyncCoordinator : ISyncCoordinator
         return Task.CompletedTask;
     }
 }
+
+/// <summary>Records widget re-plan triggers instead of touching the App Group.</summary>
+public sealed class FakeWidgetCoordinator : IWidgetCoordinator
+{
+    public List<string> Reasons { get; } = [];
+
+    public Burdock.Application.UseCases.Widgets.WidgetPlanReport? LastReport { get; set; }
+
+    public Task TriggerAsync(string reason, CancellationToken cancellationToken = default)
+    {
+        Reasons.Add(reason);
+        return Task.CompletedTask;
+    }
+}

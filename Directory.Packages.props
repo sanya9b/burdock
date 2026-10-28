@@ -9,6 +9,8 @@
     <PackageVersion Include="Microsoft.Extensions.Hosting.Abstractions" Version="10.0.12" />
     <PackageVersion Include="Microsoft.Extensions.Options" Version="10.0.12" />
     <PackageVersion Include="Fsrs.Sharp" Version="2.0.0" />
+    <!-- WidgetCenter bridge for .NET for iOS (MIT): WidgetKit is Swift-only, the proxy exposes reloadAllTimelines (spec 04 §3.1.3). -->
+    <PackageVersion Include="WidgetKit.WidgetCenterProxy" Version="10.0.0" />
   </ItemGroup>
   <ItemGroup Label="Mobile">
     <PackageVersion Include="Microsoft.Maui.Controls" Version="10.0.110" />

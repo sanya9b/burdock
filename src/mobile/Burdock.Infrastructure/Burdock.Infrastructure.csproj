@@ -21,4 +21,7 @@
     <PackageReference Include="sqlite-net-pcl" />
     <PackageReference Include="Fsrs.Sharp" />
   </ItemGroup>
+  <ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">
+    <PackageReference Include="WidgetKit.WidgetCenterProxy" />
+  </ItemGroup>
 </Project>

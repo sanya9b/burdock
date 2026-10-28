@@ -6,11 +6,13 @@ namespace Burdock.Presentation;
 public partial class AppShell : Shell
 {
     private readonly ISyncCoordinator _sync;
+    private readonly IWidgetCoordinator _widgets;
     private bool _syncStarted;
 
-    public AppShell(ISyncCoordinator sync)
+    public AppShell(ISyncCoordinator sync, IWidgetCoordinator widgets)
     {
         _sync = sync ?? throw new ArgumentNullException(nameof(sync));
+        _widgets = widgets ?? throw new ArgumentNullException(nameof(widgets));
         InitializeComponent();
 
         // Detail routes pushed on top of a tab (Navigation/Routes.cs is the only other place that knows these strings).
@@ -30,6 +32,7 @@ public partial class AppShell : Shell
         }
 
         _syncStarted = true;
+        _ = _widgets.TriggerAsync("start");
         _ = _sync.TriggerAsync("start");
     }
 }

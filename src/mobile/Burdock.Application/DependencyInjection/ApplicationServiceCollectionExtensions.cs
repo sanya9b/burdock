@@ -6,6 +6,7 @@ using Burdock.Application.UseCases.Rewards;
 using Burdock.Application.UseCases.Sessions;
 using Burdock.Application.UseCases.Settings;
 using Burdock.Application.UseCases.Sync;
+using Burdock.Application.UseCases.Widgets;
 using Burdock.Application.UseCases.Words;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -40,6 +41,7 @@ public static class ApplicationServiceCollectionExtensions
         services.AddTransient<SyncSettingsUseCase>();
         services.AddTransient<RefreshContentUseCase>();
         services.AddTransient<SyncUseCase>();
+        services.AddTransient<PlanWidgetTimelineUseCase>();
         return services;
     }
 }
