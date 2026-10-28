@@ -117,6 +117,7 @@ jobs:
       - name: Build the widget extension for the simulator (unsigned)
         run: bash "$WIDGETS_DIR/scripts/build-appex.sh" iphonesimulator
 
+      # Entitlements make macios look for a signing identity even on the simulator; this job only checks embedding, release-ios signs.
       - name: Build Presentation (net10.0-ios, simulator, Debug, extension embedded)
         run: >
           dotnet build src/mobile/Burdock.Presentation/Burdock.Presentation.csproj
@@ -124,6 +125,7 @@ jobs:
           -p:BurdockTargets=net10.0-ios
           -p:RuntimeIdentifier=iossimulator-arm64
           -p:BurdockWidgets=true
+          -p:EnableCodeSigning=false
 
       - name: Verify the extension is embedded
         run: |
