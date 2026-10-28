@@ -44,7 +44,7 @@ public static class MauiProgram
             .AddBurdockPresentation();
 
 #if IOS
-        if (OperatingSystem.IsIOS() || OperatingSystem.IsMacCatalyst())
+        if (OperatingSystem.IsIOSVersionAtLeast(15) || OperatingSystem.IsMacCatalystVersionAtLeast(15))
         {
             ConfigureDeepLinks(builder);
         }
