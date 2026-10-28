@@ -1,3 +1,4 @@
+using Burdock.Domain.SharedKernel;
 using Burdock.Domain.Learning;
 using Burdock.Presentation.Navigation;
 using Burdock.Presentation.Resources.Strings;
@@ -62,6 +63,36 @@ public sealed class TodayViewModelTests
         vm.HasWords.ShouldBeFalse();
         vm.Hero.ShouldBeNull();
         vm.StartSessionCommand.CanExecute(null).ShouldBeFalse();
+    }
+
+    [Fact]
+    public async Task Meeting_the_daily_goal_shows_goal_done_and_offers_five_more_cards()
+    {
+        // Five words introduced today and already graduated to review (due tomorrow): nothing to show, the goal is met.
+        var harness = await new ViewModelHarness().WithImportedWordsAsync(12);
+        var now = harness.Clock.UtcNow;
+        for (var n = 1; n <= 5; n++)
+        {
+            var card = LearnerCard.Restore(CardId.From(Guid.NewGuid()), ViewModelHarness.Learner, ViewModelHarness.Word(n).Id, now.AddHours(-2), CardState.Review, null, null,
+                now.AddDays(1), now.AddHours(-1), now.AddHours(-2), null, 1, 0, 0, 1, 1, [], []);
+            await harness.Cards.UpsertAsync(card, Ct);
+        }
+
+        var vm = harness.Resolve<TodayViewModel>();
+        await vm.LoadAsync(Ct);
+        await vm.MoreWordsCommand.ExecuteAsync(null);
+
+        vm.State.ShouldBe(ViewState.GoalDone);
+        vm.HasWords.ShouldBeFalse();
+        harness.Navigation.Last.Route.ShouldBe(Routes.Learn.Session);
+        harness.Navigation.Last.Parameters!["size"].ShouldBe("5");
+        harness.Navigation.Last.Parameters["extra"].ShouldBe("5");
+
+        // The extra session really gets five new words beyond the pace.
+        var session = harness.Resolve<SessionViewModel>();
+        session.ApplyQueryAttributes(new Dictionary<string, object>(StringComparer.Ordinal) { ["size"] = "5", ["extra"] = "5" });
+        await session.LoadAsync(Ct);
+        session.State.ShouldBe(ViewState.Ready);
     }
 
     [Fact]

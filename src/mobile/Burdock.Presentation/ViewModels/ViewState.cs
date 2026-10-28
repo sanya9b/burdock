@@ -6,5 +6,8 @@ public enum ViewState
     Loading,
     Ready,
     Empty,
+
+    /// <summary>S-10 goal_done: the day's words are all met; the primary action becomes «Ще 5 карток».</summary>
+    GoalDone,
     Error,
 }

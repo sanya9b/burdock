@@ -23,9 +23,12 @@ public sealed class BuildSessionUseCase(GetDailyPlanUseCase dailyPlan, ILearnerC
     /// <summary>learning.session.minDistractorPool: below this many candidates the pool widens to all topics, then to all levels.</summary>
     public const int MinDistractorPool = 40;
 
-    public async Task<SessionPlan> ExecuteAsync(int size, CancellationToken cancellationToken)
+    public Task<SessionPlan> ExecuteAsync(int size, CancellationToken cancellationToken) => ExecuteAsync(size, 0, cancellationToken);
+
+    /// <summary>A session that may dip into <paramref name="extraNewWords"/> beyond today's pace («Ще 5 карток», spec 03 S-10/S-12d).</summary>
+    public async Task<SessionPlan> ExecuteAsync(int size, int extraNewWords, CancellationToken cancellationToken)
     {
-        var plan = await dailyPlan.ExecuteAsync(cancellationToken).ConfigureAwait(false);
+        var plan = await dailyPlan.ExecuteAsync(extraNewWords, cancellationToken).ConfigureAwait(false);
         var learnerId = await learner.GetLearnerIdAsync(cancellationToken).ConfigureAwait(false);
         var settings = await learner.GetSettingsAsync(cancellationToken).ConfigureAwait(false);
         var learnerCards = await cards.ListAsync(learnerId, cancellationToken).ConfigureAwait(false);

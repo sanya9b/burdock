@@ -125,6 +125,13 @@
                     <views:EmptyStateView Title="{x:Static strings:AppResources.Today_Empty_Title}" Body="{x:Static strings:AppResources.Today_Empty_Body}" Mascot="mascot_cheer.png"
                                           IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Empty}}" />
 
+                    <!-- goal_done (spec 03 S-10): the day's words are met; Реп'яшок celebrates and offers five more cards. -->
+                    <VerticalStackLayout Spacing="{StaticResource Space3}" IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.GoalDone}}">
+                        <views:EmptyStateView Title="{x:Static strings:AppResources.Today_GoalDone_Title}" Body="{x:Static strings:AppResources.Today_GoalDone_Body}" Mascot="mascot_party.png" />
+                        <controls:PushButton Style="{StaticResource PushAccent}" Text="{x:Static strings:AppResources.Today_GoalDone_Action}" Icon="{x:Static icons:Icon.Plus}" Command="{Binding MoreWordsCommand}"
+                                             HorizontalOptions="Center" AutomationId="Today_MoreWords" />
+                    </VerticalStackLayout>
+
                     <Border Style="{StaticResource CardElevated}" IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Error}}">
                         <VerticalStackLayout Spacing="{StaticResource Space3}">
                             <Label Text="{x:Static strings:AppResources.Common_Error_Title}" Style="{StaticResource TypeTitleMd}" />

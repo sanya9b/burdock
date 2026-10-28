@@ -62,6 +62,7 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
     private Guid _sessionId;
     private int _index = -1;
     private int _size = BuildSessionUseCase.DefaultSize;
+    private int _extraNewWords;
     private int _graded;
     private int _correct;
     private int _againCount;
@@ -178,6 +179,12 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
         {
             _size = Math.Clamp(size, 1, 30);
         }
+
+        // «Ще 5 карток» (S-10 goal_done): new words beyond today's pace, for this session only.
+        if (query.TryGetValue("extra", out var rawExtra) && int.TryParse(rawExtra?.ToString(), NumberStyles.Integer, CultureInfo.InvariantCulture, out var extra))
+        {
+            _extraNewWords = Math.Clamp(extra, 0, 30);
+        }
     }
 
     [RelayCommand(AllowConcurrentExecutions = false)]
@@ -191,7 +198,7 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
         State = ViewState.Loading;
         try
         {
-            var plan = await _buildSession.ExecuteAsync(_size, cancellationToken).ConfigureAwait(true);
+            var plan = await _buildSession.ExecuteAsync(_size, _extraNewWords, cancellationToken).ConfigureAwait(true);
             _items.AddRange(plan.Items);
             _sessionId = _ids.NewId();
             _startedAt = _clock.UtcNow;

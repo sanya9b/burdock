@@ -86,6 +86,9 @@
   <data name="Today_WordsOfDay_Heading" xml:space="preserve"><value>Слова дня</value></data>
   <data name="Today_Empty_Title" xml:space="preserve"><value>Слова вже на віджеті</value><comment>Порожній стан empty_morning (S-10)</comment></data>
   <data name="Today_Empty_Body" xml:space="preserve"><value>Заглянь на екран блокування — перше слово вже чекає. А тут з’являться ті, що ти переглянеш.</value></data>
+  <data name="Today_GoalDone_Title" xml:space="preserve"><value>На сьогодні досить</value><comment>Стан goal_done (S-10)</comment></data>
+  <data name="Today_GoalDone_Body" xml:space="preserve"><value>Слова дня пройдені. Вони повернуться на повторення, коли настане їхній час, а віджет нагадуватиме про них протягом дня. Але якщо хочеться ще…</value></data>
+  <data name="Today_GoalDone_Action" xml:space="preserve"><value>Ще 5 карток</value></data>
   <data name="Today_StartSession_Button" xml:space="preserve"><value>Почати сесію</value></data>
   <data name="Today_LearningDay_Label" xml:space="preserve"><value>Навчальний день {0}</value><comment>{0} = дата у форматі d MMMM</comment></data>
   <data name="Today_Plan_Summary" xml:space="preserve"><value>{0} нових · {1} на повторення</value><comment>{0} кількість нових слів, {1} кількість повторень</comment></data>

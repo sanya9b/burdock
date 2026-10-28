@@ -26,10 +26,17 @@ public sealed class GetDailyPlanUseCase(
     /// <summary>learning.plan.snapshotFactor: how many days' worth of new words the snapshot keeps as spares for words marked known or suspended.</summary>
     public const int SnapshotFactor = 3;
 
-    public async Task<DailyPlan> ExecuteAsync(CancellationToken cancellationToken)
+    /// <summary>learning.plan.extraBatch: «Ще 5 карток» after the daily goal (spec 03 S-10 goal_done, S-12d).</summary>
+    public const int ExtraWordsBatch = 5;
+
+    public Task<DailyPlan> ExecuteAsync(CancellationToken cancellationToken) => ExecuteAsync(0, cancellationToken);
+
+    /// <summary>The plan with the new-word budget raised by <paramref name="extraNewWords"/> for this call only (the pace itself is unchanged).</summary>
+    public async Task<DailyPlan> ExecuteAsync(int extraNewWords, CancellationToken cancellationToken)
     {
         var learnerId = await learner.GetLearnerIdAsync(cancellationToken).ConfigureAwait(false);
         var settings = await learner.GetSettingsAsync(cancellationToken).ConfigureAwait(false);
+        var budget = settings.NewWordsPerDay + Math.Max(0, extraNewWords);
         var day = learningDays.Today();
         var now = clock.UtcNow;
         var learnerCards = await cards.ListAsync(learnerId, cancellationToken).ConfigureAwait(false);
@@ -44,15 +51,15 @@ public sealed class GetDailyPlanUseCase(
             var known = (await content.ListByIdsAsync(ids, cancellationToken).ConfigureAwait(false))
                 .Where(e => levels.Contains(e.Lexeme.Level) && (settings.Topics.Count == 0 || settings.Topics.Any(e.Lexeme.BelongsTo)))
                 .ToArray();
-            var fromSnapshot = DailyPlanner.Plan(learnerId, day, now, clock.LocalTimeZone, known, learnerCards, settings, scheduler);
-            if (!HasShortage(fromSnapshot, learnerCards, settings, day))
+            var fromSnapshot = DailyPlanner.Plan(learnerId, day, now, clock.LocalTimeZone, known, learnerCards, settings, scheduler, budget);
+            if (!HasShortage(fromSnapshot, learnerCards, day, budget))
             {
                 return fromSnapshot;
             }
         }
 
         var candidates = await content.ListAsync(settings.Pair, levels, settings.Topics, cancellationToken).ConfigureAwait(false);
-        var plan = DailyPlanner.Plan(learnerId, day, now, clock.LocalTimeZone, candidates, learnerCards, settings, scheduler);
+        var plan = DailyPlanner.Plan(learnerId, day, now, clock.LocalTimeZone, candidates, learnerCards, settings, scheduler, budget);
         var prefix = DailyPlanner.FreshInPlanOrder(learnerId, day, candidates, learnerCards, settings)
             .Take(settings.NewWordsPerDay * SnapshotFactor)
             .Select(e => e.Id)
@@ -62,10 +69,10 @@ public sealed class GetDailyPlanUseCase(
     }
 
     /// <summary>The snapshot ran out of spares: fewer new words than the budget allows while the full candidate set might still have some.</summary>
-    private bool HasShortage(DailyPlan plan, IReadOnlyDictionary<LexemeId, LearnerCard> learnerCards, LearnerSettings settings, LearningDay day)
+    private bool HasShortage(DailyPlan plan, IReadOnlyDictionary<LexemeId, LearnerCard> learnerCards, LearningDay day, int budget)
     {
         var introducedToday = learnerCards.Values.Count(c => c.IntroducedAt is { } at && c.State != CardState.New && LearningDay.From(at, clock.LocalTimeZone) == day);
-        return plan.NewCount < Math.Max(0, settings.NewWordsPerDay - introducedToday);
+        return plan.NewCount < Math.Max(0, budget - introducedToday);
     }
 
     private static string Fingerprint(LearnerSettings settings)

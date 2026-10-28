@@ -87,6 +87,31 @@ public sealed class LearningFlowTests
     }
 
     [Fact]
+    public async Task Extra_new_words_raise_the_budget_for_one_call_only()
+    {
+        await _content.ImportPackAsync(SeedPack(12), TestContext.Current.CancellationToken);
+        var plan = new GetDailyPlanUseCase(_learner, _content, _cards, _scheduler, _clock, Days, _planCache);
+        var record = new RecordExposureUseCase(_learner, _cards, _exposures, _ids, _clock, Days, _outbox);
+        var open = new OpenWordUseCase(_content, record, _scheduler, _clock);
+        var today = await plan.ExecuteAsync(TestContext.Current.CancellationToken);
+        foreach (var word in today.Words)
+        {
+            (await open.ExecuteAsync(word.Entry.Id, TestContext.Current.CancellationToken)).IsSuccess.ShouldBeTrue();
+        }
+
+        var exhausted = await plan.ExecuteAsync(TestContext.Current.CancellationToken);
+        var extra = await plan.ExecuteAsync(GetDailyPlanUseCase.ExtraWordsBatch, TestContext.Current.CancellationToken);
+        var again = await plan.ExecuteAsync(TestContext.Current.CancellationToken);
+
+        exhausted.NewCount.ShouldBe(0);
+        exhausted.IntroducedToday.ShouldBe(5);
+        exhausted.GoalReached.ShouldBeFalse("the five introduced words are still in the plan as Learning");
+        extra.NewCount.ShouldBe(5);
+        extra.Words.Count(w => w.Reason == PlanReason.Learning).ShouldBe(5);
+        again.NewCount.ShouldBe(0);
+    }
+
+    [Fact]
     public async Task A_card_outside_the_learner_levels_stays_out_of_the_plan_on_both_paths()
     {
         await _content.ImportPackAsync(SeedPack(12), TestContext.Current.CancellationToken);

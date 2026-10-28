@@ -156,7 +156,8 @@ public sealed partial class TodayViewModel : ObservableObject
             ThornsText = overview.Thorns.ToString(Ukrainian);
             HasWords = Words.Count > 0;
             HasMore = More.Count > 0;
-            State = HasWords ? ViewState.Ready : ViewState.Empty;
+            // goal_done (spec 03 S-10): the day's words were all met and nothing is due; otherwise the morning empty state.
+            State = HasWords ? ViewState.Ready : plan.GoalReached ? ViewState.GoalDone : ViewState.Empty;
         }
         catch (OperationCanceledException)
         {
@@ -186,6 +187,15 @@ public sealed partial class TodayViewModel : ObservableObject
     [RelayCommand(CanExecute = nameof(HasWords))]
     private Task StartSessionAsync()
         => _navigation.GoToAsync(Routes.Learn.Session, new Dictionary<string, object>(StringComparer.Ordinal) { ["size"] = "10" });
+
+    /// <summary>«Ще 5 карток» after the daily goal: a short session that may take new words beyond today's pace.</summary>
+    [RelayCommand]
+    private Task MoreWordsAsync()
+        => _navigation.GoToAsync(Routes.Learn.Session, new Dictionary<string, object>(StringComparer.Ordinal)
+        {
+            ["size"] = GetDailyPlanUseCase.ExtraWordsBatch.ToString(CultureInfo.InvariantCulture),
+            ["extra"] = GetDailyPlanUseCase.ExtraWordsBatch.ToString(CultureInfo.InvariantCulture),
+        });
 
     private static WordTile ToTile(PlannedWord word, Domain.Vocabulary.PronunciationAccent accent)
     {

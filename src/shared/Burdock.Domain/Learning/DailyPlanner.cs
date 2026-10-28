@@ -22,8 +22,11 @@ public enum PlanReason
 public sealed record PlannedWord(WordEntry Entry, PlanReason Reason, double Retrievability);
 
 /// <summary>Today's word list in display order (spec 06 §3.5).</summary>
-public sealed record DailyPlan(LearningDay Day, IReadOnlyList<PlannedWord> Words)
+public sealed record DailyPlan(LearningDay Day, IReadOnlyList<PlannedWord> Words, int IntroducedToday = 0)
 {
+    /// <summary>S-10 «goal_done»: the day's new words were all met and nothing is left to show (spec 03 §S-10).</summary>
+    public bool GoalReached => Words.Count == 0 && IntroducedToday > 0;
+
     public int NewCount => Words.Count(w => w.Reason == PlanReason.New);
 
     public int DueCount => Words.Count(w => w.Reason == PlanReason.Due);
@@ -97,7 +100,7 @@ public static class DailyPlanner
             .Concat(newWords)
             .ToArray();
 
-        return new DailyPlan(day, ordered);
+        return new DailyPlan(day, ordered, introducedToday);
     }
 
     /// <summary>
