@@ -105,8 +105,7 @@ public enum BurdockTokens {
     }
 
     public enum WidgetThemes {
-        public static let tsvit: [String: DynamicColor] = [
-        ]
+        public static let tsvit: [String: DynamicColor] = [:]
         public static let luh: [String: DynamicColor] = [
             "background": DynamicColor(light: "#EAFFD5", dark: "#162404"),
             "backgroundEnd": DynamicColor(light: "#D7FFAD", dark: "#15131F"),
@@ -185,7 +184,7 @@ public enum BurdockTokens {
 
     public struct TextStyle: Sendable { public let family: String?; public let size: Double; public let lineHeight: Double; public let weight: Int; public let tracking: Double }
 
-    public enum Type {
+    public enum Typography {
         public static let displayLg = TextStyle(family: "Unbounded", size: 40, lineHeight: 46, weight: 700, tracking: -0.02)
         public static let displayMd = TextStyle(family: "Unbounded", size: 32, lineHeight: 38, weight: 700, tracking: -0.015)
         public static let headlineLg = TextStyle(family: "Unbounded", size: 28, lineHeight: 34, weight: 600, tracking: -0.01)

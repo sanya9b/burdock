@@ -526,6 +526,10 @@ def emit_swift(t: Tokens) -> str:
             L.append(f'        public static let {ident} = DynamicColor(light: "{light[group][name]}", dark: "{dark[group][name]}")')
     L += ["    }", "", "    public enum WidgetThemes {"]
     for theme, modes in t.widget_themes().items():
+        if not modes["light"]:
+            # The default theme has no overrides (it is color.widget.*); Swift needs [:] for an empty dictionary literal.
+            L.append(f"        public static let {theme}: [String: DynamicColor] = [:]")
+            continue
         L.append(f"        public static let {theme}: [String: DynamicColor] = [")
         for key in modes["light"]:
             L.append(f'            "{key}": DynamicColor(light: "{modes["light"][key]}", dark: "{modes["dark"].get(key, modes["light"][key])}"),')
@@ -538,7 +542,7 @@ def emit_swift(t: Tokens) -> str:
     for name, tok in t.data["radius"].items():
         if not name.startswith("$"):
             L.append(f"        public static let {name}: Double = {fmt_num(parse_pt(tok['$value']))}")
-    L += ["    }", "", "    public struct TextStyle: Sendable { public let family: String?; public let size: Double; public let lineHeight: Double; public let weight: Int; public let tracking: Double }", "", "    public enum Type {"]
+    L += ["    }", "", "    public struct TextStyle: Sendable { public let family: String?; public let size: Double; public let lineHeight: Double; public let weight: Int; public let tracking: Double }", "", "    public enum Typography {"]
     for role, sz, spec in t.type_roles():
         fam = spec["fontFamily"][0] if isinstance(spec["fontFamily"], list) else spec["fontFamily"]
         family = "nil" if str(fam) in SYSTEM_FAMILIES else f'"{fam}"'
