@@ -26,6 +26,7 @@ public sealed partial class WordCardViewModel : ObservableObject, IQueryAttribut
     private readonly ISpeechService _speech;
     private readonly ILogger<WordCardViewModel> _logger;
     private LexemeId? _lexemeId;
+    private Domain.Exposure.ExposureSurface _surface = Domain.Exposure.ExposureSurface.InApp;
     private string _exampleText = string.Empty;
 
     [ObservableProperty]
@@ -108,6 +109,10 @@ public sealed partial class WordCardViewModel : ObservableObject, IQueryAttribut
         {
             _lexemeId = LexemeId.From(id);
             TranslationRevealed = query.TryGetValue("reveal", out var reveal) && string.Equals(reveal?.ToString(), "1", StringComparison.Ordinal);
+            // Deep links from widgets and notifications name their surface (spec 04 §3.4); in-app navigation leaves it out.
+            _surface = query.TryGetValue("surface", out var surface) && Enum.TryParse<Domain.Exposure.ExposureSurface>(surface?.ToString(), ignoreCase: true, out var parsed)
+                ? parsed
+                : Domain.Exposure.ExposureSurface.InApp;
         }
     }
 
@@ -123,7 +128,7 @@ public sealed partial class WordCardViewModel : ObservableObject, IQueryAttribut
         State = ViewState.Loading;
         try
         {
-            var result = await _openWord.ExecuteAsync(id, cancellationToken).ConfigureAwait(true);
+            var result = await _openWord.ExecuteAsync(id, _surface, cancellationToken).ConfigureAwait(true);
             if (result.IsFailure)
             {
                 State = ViewState.Error;

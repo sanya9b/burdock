@@ -3,6 +3,9 @@ using Burdock.Infrastructure.DependencyInjection;
 using Burdock.Presentation.DependencyInjection;
 using CommunityToolkit.Maui;
 using Microsoft.Extensions.Logging;
+#if IOS
+using Microsoft.Maui.LifecycleEvents;
+#endif
 
 namespace Burdock.Presentation;
 
@@ -40,10 +43,39 @@ public static class MauiProgram
             .AddBurdockInfrastructure()
             .AddBurdockPresentation();
 
+#if IOS
+        // burdock:// links from widgets and notifications (spec 04 §3.4): the router keeps the link until the Shell can navigate.
+        builder.ConfigureLifecycleEvents(events => events.AddiOS(ios =>
+        {
+            ios.FinishedLaunching((_, options) =>
+            {
+                if (options?.ObjectForKey(UIKit.UIApplication.LaunchOptionsUrlKey) is Foundation.NSUrl url)
+                {
+                    AcceptDeepLink(url);
+                }
+
+                return true;
+            });
+            ios.OpenUrl((_, url, _) =>
+            {
+                AcceptDeepLink(url);
+                return true;
+            });
+        }));
+#endif
+
 #if DEBUG
         builder.Logging.AddDebug();
 #endif
 
         return builder.Build();
     }
+
+#if IOS
+    private static void AcceptDeepLink(Foundation.NSUrl url)
+    {
+        var router = IPlatformApplication.Current?.Services.GetService<Navigation.IDeepLinkRouter>();
+        router?.Accept(Uri.TryCreate(url.AbsoluteString, UriKind.Absolute, out var uri) ? uri : null);
+    }
+#endif
 }

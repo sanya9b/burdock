@@ -14,6 +14,7 @@ public static class PresentationServiceCollectionExtensions
 
         services.AddSingleton<AppShell>();
         services.AddSingleton<INavigationService, ShellNavigationService>();
+        services.AddSingleton<IDeepLinkRouter, DeepLinkRouter>();
         services.AddSingleton<ISpeechService, SpeechService>();
         services.AddSingleton<IMotionPreferences, MotionPreferences>();
         services.AddSingleton<ISystemSplash, SystemSplash>();

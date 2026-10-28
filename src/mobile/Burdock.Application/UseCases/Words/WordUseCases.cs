@@ -41,10 +41,16 @@ public sealed class RecordExposureUseCase(ILearnerContext learner, ILearnerCardR
     }
 }
 
-/// <summary>Opens a word in the app: a confirmed in-app exposure plus the data for the card (spec 03 S-11).</summary>
+/// <summary>
+/// Opens a word in the app: one confirmed exposure plus the data for the card (spec 03 S-11). The surface is where the tap
+/// came from (spec 04 §3.4, §3.5): in-app by default, a widget or notification when a deep link opened the card.
+/// </summary>
 public sealed class OpenWordUseCase(IContentRepository content, RecordExposureUseCase recordExposure, IReviewScheduler scheduler, IClock clock)
 {
-    public async Task<Result<WordCardView>> ExecuteAsync(LexemeId lexemeId, CancellationToken cancellationToken)
+    public Task<Result<WordCardView>> ExecuteAsync(LexemeId lexemeId, CancellationToken cancellationToken)
+        => ExecuteAsync(lexemeId, ExposureSurface.InApp, cancellationToken);
+
+    public async Task<Result<WordCardView>> ExecuteAsync(LexemeId lexemeId, ExposureSurface surface, CancellationToken cancellationToken)
     {
         var entry = await content.GetAsync(lexemeId, cancellationToken).ConfigureAwait(false);
         if (entry is null)
@@ -52,7 +58,7 @@ public sealed class OpenWordUseCase(IContentRepository content, RecordExposureUs
             return DomainError.NotFound("lexeme.notFound", "Errors_Lexeme_NotFound");
         }
 
-        var card = await recordExposure.ExecuteAsync(lexemeId, ExposureSurface.InApp, ExposureKind.Confirmed, cancellationToken).ConfigureAwait(false);
+        var card = await recordExposure.ExecuteAsync(lexemeId, surface, ExposureKind.Confirmed, cancellationToken).ConfigureAwait(false);
         var retrievability = card.Memory is null ? 0 : scheduler.Retrievability(card.ToSchedulingInput(), clock.UtcNow);
         return new WordCardView(entry, card.State, card.ScheduledExposures, card.ConfirmedExposures, retrievability, card.Due);
     }

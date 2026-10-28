@@ -1,0 +1,162 @@
+{
+  "sourceLanguage" : "uk",
+  "strings" : {
+    "widget.description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нове англійське слово кожні 15–120 хвилин. Натисни «Далі», щоб змінити."
+          }
+        }
+      }
+    },
+    "widget.displayName" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Слово"
+          }
+        }
+      }
+    },
+    "widget.fallback.body" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Відкрий застосунок, щоб продовжити"
+          }
+        }
+      }
+    },
+    "widget.fallback.inline" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Реп’ях · відкрий застосунок"
+          }
+        }
+      }
+    },
+    "widget.fallback.title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Реп’яшок спить"
+          }
+        }
+      }
+    },
+    "widget.next" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Далі"
+          }
+        }
+      }
+    },
+    "widget.progress" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld/%lld сьогодні"
+          }
+        }
+      }
+    },
+    "widget.quiz" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перевірити"
+          }
+        }
+      }
+    },
+    "widget.quizCount" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "uk" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Перевірити %lld слова"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Перевірити %lld слів"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Перевірити %lld слово"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Перевірити %lld слова"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "widget.recent" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нещодавні"
+          }
+        }
+      }
+    },
+    "widget.tapToRecall" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Торкнись, щоб згадати"
+          }
+        }
+      }
+    },
+    "widget.wordOfHour" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Слово години"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -104,6 +104,20 @@ public sealed class WordCardViewModelTests
     }
 
     [Fact]
+    public async Task A_widget_deep_link_records_the_exposure_on_the_widget_surface()
+    {
+        var harness = await new ViewModelHarness().WithImportedWordsAsync(4);
+        var vm = harness.Resolve<WordCardViewModel>();
+        vm.ApplyQueryAttributes(new Dictionary<string, object>(StringComparer.Ordinal) { ["id"] = ViewModelHarness.Word(4).Id.Value.ToString("D"), ["surface"] = "WidgetHome" });
+
+        await vm.LoadAsync(Ct);
+
+        // One tap on the widget is one confirmed exposure on the widget surface, not an extra in-app one (spec 04 section 3.5).
+        vm.State.ShouldBe(ViewState.Ready);
+        harness.Exposures.Records.ShouldHaveSingleItem().Surface.ShouldBe(Burdock.Domain.Exposure.ExposureSurface.WidgetHome);
+    }
+
+    [Fact]
     public async Task Speak_example_reads_the_whole_sentence()
     {
         var (harness, vm) = await OpenAsync(5);

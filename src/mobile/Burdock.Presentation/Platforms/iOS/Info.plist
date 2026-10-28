@@ -9,6 +9,20 @@
 	<!-- Export compliance (TestFlight asks otherwise): the app uses only HTTPS, which is exempt from encryption documentation. -->
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
+	<!-- burdock:// deep links from widgets and notifications (spec 04 §3.1.2, §3.4). -->
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>org.burdock.app</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>burdock</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+		</dict>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIDeviceFamily</key>

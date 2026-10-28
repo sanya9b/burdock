@@ -53,6 +53,20 @@
     </EmbeddedResource>
   </ItemGroup>
 
+  <!-- Widget extension (spec 04 §3.1.3): opt-in until the App Group exists in the developer portal, because the entitlement
+       must also be in the provisioning profile. CI builds the .appex first (ios-extensions/BurdockWidgets/scripts/build-appex.sh),
+       then this project embeds it into Burdock.app/PlugIns and signs the app with Platforms/iOS/Entitlements.plist. -->
+  <PropertyGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios' And '$(BurdockWidgets)' == 'true'">
+    <CodesignEntitlements>Platforms\iOS\Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+  <ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios' And '$(BurdockWidgets)' == 'true'">
+    <AdditionalAppExtensions Include="$(MSBuildThisFileDirectory)..\ios-extensions\BurdockWidgets">
+      <Name>BurdockWidgets</Name>
+      <BuildOutput Condition="$(RuntimeIdentifier.StartsWith('iossimulator'))">build/Release-iphonesimulator</BuildOutput>
+      <BuildOutput Condition="!$(RuntimeIdentifier.StartsWith('iossimulator'))">build/Release-iphoneos</BuildOutput>
+    </AdditionalAppExtensions>
+  </ItemGroup>
+
   <ItemGroup>
     <InternalsVisibleTo Include="Burdock.Presentation.Tests" />
   </ItemGroup>

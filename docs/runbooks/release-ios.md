@@ -32,6 +32,13 @@ openssl pkcs12 -export -legacy -inkey apple-distribution.key -in apple-distribut
 
 developer.apple.com → Profiles → + → **App Store Connect** (Distribution) → App ID `org.burdock.app` → сертифікат із кроку 1 → ім’я, наприклад `Burdock App Store` → Download `Burdock_App_Store.mobileprovision`.
 
+**Із віджетами (спека 04 §3.1.2).** Потрібні App Group і другий профіль:
+
+1. Identifiers → App Groups → + → опис `Burdock`, ідентифікатор `group.org.burdock.app`.
+2. Identifiers → App IDs → `org.burdock.app` → Capabilities → App Groups → Configure → обрати групу → Save. Те саме для `org.burdock.app.widgets` (App ID уже зареєстровано через API 27.10.2026).
+3. Після цього профіль `Burdock App Store` стає Invalid: відкрити його → Edit → Save (або перегенерувати через API) і завантажити заново; створити другий профіль App Store Connect для `org.burdock.app.widgets`, ім’я `Burdock Widgets App Store`.
+4. Обидва профілі мають містити entitlement `com.apple.security.application-groups` (перевірка: `security cms -D -i <profile> | grep -A2 application-groups`).
+
 ## Крок 3. Ключ App Store Connect API (разово)
 
 App Store Connect → Users and Access → Integrations → App Store Connect API → Team Keys → + → ім’я `github-release-ios`, роль **App Manager** → Download `AuthKey_XXXXXXXXXX.p8` (завантажується лише один раз). Запиши **Key ID** (у назві файла) та **Issuer ID** (вгорі сторінки).
@@ -45,22 +52,27 @@ GitHub → repo → Settings → Environments → New environment `prod-ios` →
 | `APPLE_DISTRIBUTION_P12_BASE64` | `base64 -w0 apple-distribution.p12` |
 | `APPLE_DISTRIBUTION_P12_PASSWORD` | пароль із кроку 1 |
 | `APPLE_PROVISIONING_PROFILE_BASE64` | `base64 -w0 Burdock_App_Store.mobileprovision` |
+| `APPLE_WIDGETS_PROVISIONING_PROFILE_BASE64` | `base64 -w0 Burdock_Widgets_App_Store.mobileprovision` (лише з віджетами) |
 | `APP_STORE_CONNECT_API_KEY_BASE64` | `base64 -w0 AuthKey_XXXXXXXXXX.p8` |
 | `APP_STORE_CONNECT_KEY_ID` | Key ID |
 | `APP_STORE_CONNECT_ISSUER_ID` | Issuer ID |
 
 Нічого з цього не потрапляє в репозиторій (CLAUDE.md §6, §9). Воркфлоу видаляє тимчасовий keychain, профіль і `.p8` у кроці `if: always()`.
 
+Змінна репозиторію (Settings → Variables) `BURDOCK_WIDGETS = true` вмикає розширення для збірок за тегом; для ручного запуску те саме робить ввід `widgets`. Поки App Group не налаштовано, змінну не вмикати: підпис із entitlement, якого немає у профілі, падає.
+
 ## Крок 5. Запуск
 
 Два способи:
 
 - **Тег** (основний): `git tag mobile/v0.1.0 && git push origin mobile/v0.1.0`. Маркетингова версія береться з тегу, номер збірки = номер запуску воркфлоу (монотонно зростає, тому повторний запуск того самого тегу дає нову збірку).
-- **Вручну**: Actions → release-ios → Run workflow; `display_version` за потреби, `dry_run` вимкнено.
+- **Вручну**: Actions → release-ios → Run workflow; `display_version` за потреби, `dry_run` вимкнено, `widgets` увімкнено, якщо профілі з App Groups уже в секретах.
 
 Після старту GitHub чекає на підтвердження середовища `prod-ios` (кнопка Review deployments; потрібно бути залогіненим як рецензент; з командного рядка те саме робить `gh api -X POST repos/sanya9b/burdock/actions/runs/<run>/pending_deployments` зі `state: approved`). Далі ≈ 35–50 хв: воркloads, AOT-збірка, підпис, `altool --validate-app`, `altool --upload-app`.
 
-**Сухий прогін.** `dry_run = true` збирає Release для `ios-arm64` без підпису й нічого не завантажує; секрети й підтвердження не потрібні. Використовуй після змін у залежностях чи лінкуванні, щоб зловити проблеми AOT до витрачання підтвердження.
+**Сухий прогін.** `dry_run = true` збирає Release для `ios-arm64` без підпису й нічого не завантажує; секрети й підтвердження не потрібні. Використовуй після змін у залежностях чи лінкуванні, щоб зловити проблеми AOT до витрачання підтвердження. Разом із `widgets = true` сухий прогін також збирає `.appex` без підпису і перевіряє, що він вбудований у `Burdock.app/PlugIns`.
+
+**Віджети у підписаній збірці.** Воркфлоу спершу збирає `BurdockWidgets.appex` через `xcodebuild` із ручним підписом (той самий сертифікат розповсюдження, профіль `Burdock Widgets App Store`), потім `dotnet publish … -p:BurdockWidgets=true` вбудовує його і підписує застосунок з `Platforms/iOS/Entitlements.plist`. Перевірка в кроці «Locate IPA»: `unzip -l` має показати `PlugIns/BurdockWidgets.appex/Info.plist`. Якщо `altool --validate-app` скаржиться на entitlements (`application-groups`), профіль застосунку згенеровано до ввімкнення App Groups: перегенерувати і оновити секрет.
 
 ## Перевірка результату
 

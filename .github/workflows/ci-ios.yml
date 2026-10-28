@@ -1,7 +1,9 @@
 name: ci-ios
 
-# The only place iOS is built: the developer has no Mac (decision Q6/Q16). Simulator build first; device signing,
-# the Swift widget extension and TestFlight upload are added in phase 3 (spec 14 section 3.6).
+# The only place iOS is built: the developer has no Mac (decision Q6/Q16). Two jobs run in parallel (spec 04 §3.1.4):
+#   widget-extension  BurdockShared unit tests, the .appex for a real device (unsigned) and the render boards of the gallery
+#   build-simulator   the MAUI app for the simulator with the extension embedded (-p:BurdockWidgets=true)
+# Device signing and TestFlight upload live in release-ios.yml (spec 14 section 3.6).
 on:
   push:
     branches: [main]
@@ -23,19 +25,62 @@ concurrency:
   group: ci-ios-${{ github.ref }}
   cancel-in-progress: true
 
+env:
+  # .NET for iOS 26.5.10318 requires Xcode 26.6. Use the canonical app path: the Xcode_26.6.0.app alias made xcrun report
+  # "MacOSX.sdk cannot be located" for actool (2026-09-27).
+  XCODE_PREFERRED: "26.6"
+  # Pinned workload set: 10.0.401 ships .NET for iOS 26.5.10318, which matches Xcode 26.6 on the macos-26 image. The unpinned
+  # latest set moved to iOS 27.0.10722 (requires Xcode 27.0) on 2026-09-30 and broke the build. Bump both together.
+  WORKLOAD_SET: "10.0.401"
+  WIDGETS_DIR: src/mobile/ios-extensions/BurdockWidgets
+
 jobs:
+  widget-extension:
+    name: Widget extension (Swift tests, device appex, render boards)
+    runs-on: macos-26
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Select Xcode
+        run: |
+          candidate="/Applications/Xcode_${XCODE_PREFERRED}.app"
+          if [ ! -e "$candidate" ]; then echo "Xcode ${XCODE_PREFERRED} not found"; ls -la /Applications | grep -i xcode; exit 1; fi
+          sudo xcode-select -s "$(realpath "$candidate")"
+          xcodebuild -version
+          swift --version
+
+      - name: Install XcodeGen
+        run: brew install xcodegen
+
+      - name: BurdockShared unit tests (swift test, macOS host)
+        run: swift test --package-path "$WIDGETS_DIR/BurdockShared"
+
+      - name: Generate the Xcode project
+        run: xcodegen generate --spec "$WIDGETS_DIR/project.yml" --project "$WIDGETS_DIR"
+
+      - name: Build the extension for a device (unsigned)
+        run: bash "$WIDGETS_DIR/scripts/build-appex.sh" iphoneos
+
+      - name: Render the widget gallery (light and dark boards)
+        run: bash "$WIDGETS_DIR/scripts/render-gallery.sh" "$RUNNER_TEMP/boards"
+
+      - name: Upload render boards
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: widget-render-boards
+          path: ${{ runner.temp }}/boards
+          if-no-files-found: warn
+
   build-simulator:
-    name: Build iOS app (simulator)
+    name: Build iOS app (simulator, with the widget extension)
     runs-on: macos-26
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
 
       - name: Select Xcode
-        env:
-          # .NET for iOS 26.5.10318 requires Xcode 26.6. Use the canonical app path: the Xcode_26.6.0.app alias made
-          # xcrun report "MacOSX.sdk cannot be located" for actool (2026-09-27).
-          XCODE_PREFERRED: "26.6"
         run: |
           ls -la /Applications | grep -i xcode || true
           candidate="/Applications/Xcode_${XCODE_PREFERRED}.app"
@@ -57,10 +102,7 @@ jobs:
           global-json-file: global.json
 
       - name: Install MAUI workloads (Infrastructure multi-targets android and ios on macOS)
-        # Pinned workload set: 10.0.401 ships .NET for iOS 26.5.10318, which matches Xcode 26.6 on the macos-26 image.
-        # The unpinned latest set moved to iOS 27.0.10722 (requires Xcode 27.0) on 2026-09-30 and broke the build.
-        # Bump the set and XCODE_PREFERRED together once the runner image ships Xcode 27.
-        run: dotnet workload install maui-ios maui-android --skip-sign-check --version 10.0.401
+        run: dotnet workload install maui-ios maui-android --skip-sign-check --version "$WORKLOAD_SET"
 
       - name: Cache NuGet
         uses: actions/cache@v4
@@ -69,12 +111,32 @@ jobs:
           key: nuget-ios-${{ runner.os }}-${{ hashFiles('Directory.Packages.props', '**/*.csproj') }}
           restore-keys: nuget-ios-${{ runner.os }}-
 
-      - name: Build Presentation (net10.0-ios, simulator, Debug)
+      - name: Install XcodeGen
+        run: brew install xcodegen
+
+      - name: Build the widget extension for the simulator (unsigned)
+        run: bash "$WIDGETS_DIR/scripts/build-appex.sh" iphonesimulator
+
+      - name: Build Presentation (net10.0-ios, simulator, Debug, extension embedded)
         run: >
           dotnet build src/mobile/Burdock.Presentation/Burdock.Presentation.csproj
           -f net10.0-ios -c Debug
           -p:BurdockTargets=net10.0-ios
           -p:RuntimeIdentifier=iossimulator-arm64
+          -p:BurdockWidgets=true
+
+      - name: Verify the extension is embedded
+        run: |
+          set -euo pipefail
+          app="$(find src/mobile/Burdock.Presentation/bin/Debug/net10.0-ios/iossimulator-arm64 -maxdepth 1 -name '*.app' | head -1)"
+          echo "App bundle: $app"
+          appex="$app/PlugIns/BurdockWidgets.appex"
+          test -d "$appex" || { echo "PlugIns/BurdockWidgets.appex is missing"; ls -la "$app" "$app/PlugIns" 2>/dev/null || true; exit 1; }
+          /usr/libexec/PlistBuddy -c 'Print CFBundleIdentifier' "$appex/Info.plist"
+          /usr/libexec/PlistBuddy -c 'Print NSExtension:NSExtensionPointIdentifier' "$appex/Info.plist"
+          /usr/libexec/PlistBuddy -c 'Print CFBundleURLTypes:0:CFBundleURLSchemes:0' "$app/Info.plist"
+          codesign -d --entitlements :- "$app" 2>/dev/null | grep -A 3 application-groups || echo "(simulator build: no signature to inspect)"
+          du -sh "$app" "$appex"
 
       - name: Upload simulator app
         uses: actions/upload-artifact@v4
