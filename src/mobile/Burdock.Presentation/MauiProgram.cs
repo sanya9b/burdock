@@ -44,7 +44,26 @@ public static class MauiProgram
             .AddBurdockPresentation();
 
 #if IOS
-        // burdock:// links from widgets and notifications (spec 04 §3.4): the router keeps the link until the Shell can navigate.
+        if (OperatingSystem.IsIOS() || OperatingSystem.IsMacCatalyst())
+        {
+            ConfigureDeepLinks(builder);
+        }
+#endif
+
+#if DEBUG
+        builder.Logging.AddDebug();
+#endif
+
+        return builder.Build();
+    }
+
+#if IOS
+    // burdock:// links from widgets and notifications (spec 04 §3.4): the router keeps the link until the Shell can navigate.
+    // A separate method so the lambdas inherit iOS-only platform attributes (CA1416) instead of the Android ones above.
+    [System.Runtime.Versioning.SupportedOSPlatform("ios15.0")]
+    [System.Runtime.Versioning.SupportedOSPlatform("maccatalyst15.0")]
+    private static void ConfigureDeepLinks(MauiAppBuilder builder)
+    {
         builder.ConfigureLifecycleEvents(events => events.AddiOS(ios =>
         {
             ios.FinishedLaunching((_, options) =>
@@ -62,16 +81,10 @@ public static class MauiProgram
                 return true;
             });
         }));
-#endif
-
-#if DEBUG
-        builder.Logging.AddDebug();
-#endif
-
-        return builder.Build();
     }
 
-#if IOS
+    [System.Runtime.Versioning.SupportedOSPlatform("ios15.0")]
+    [System.Runtime.Versioning.SupportedOSPlatform("maccatalyst15.0")]
     private static void AcceptDeepLink(Foundation.NSUrl url)
     {
         var router = IPlatformApplication.Current?.Services.GetService<Navigation.IDeepLinkRouter>();
