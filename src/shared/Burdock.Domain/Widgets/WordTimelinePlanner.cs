@@ -91,7 +91,9 @@ public static class WordTimelinePlanner
             var distinct = distinctPerDay.TryGetValue(day, out var set) ? set : distinctPerDay[day] = [];
             var preferNew = newUsed < NewShare * (entries.Count + 1);
             var pick = Pick(state.Values, preferNew, previous, slotIndex, minGap, budget, day, distinct, exposuresPerDay, strictGap: true)
-                       ?? Pick(state.Values, preferNew, previous, slotIndex, minGap, budget, day, distinct, exposuresPerDay, strictGap: false);
+                       ?? Pick(state.Values, preferNew, previous, slotIndex, minGap, budget, day, distinct, exposuresPerDay, strictGap: false)
+                       // The current slot must never be empty: a word past its daily cap beats «Реп’яшок спить» in the middle of the day.
+                       ?? (isFirst ? Pick(state.Values, preferNew, previous, slotIndex, minGap, int.MaxValue, day, distinct, exposuresPerDay, strictGap: false) : null);
             if (pick is not null)
             {
                 var candidate = pick.Candidate;

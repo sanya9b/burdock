@@ -49,18 +49,15 @@ public enum TimelineSelection {
             return [TimelineSlot(date: now, entry: nil)]
         }
         var slots: [TimelineSlot] = []
-        let current = currentEntry(in: timeline, cursor: cursor, now: now)
+        // Before the first slot (or when today is already over its caps) the first upcoming word shows right away:
+        // WidgetKit would otherwise keep the placeholder, which reads as a broken widget.
+        let current = currentEntry(in: timeline, cursor: cursor, now: now) ?? timeline.entries.first(where: { $0.fireDate > now })
         if let current = current {
             slots.append(TimelineSlot(date: now, entry: current))
         }
         let threshold = current?.entryIndex ?? -1
         for entry in timeline.entries where entry.entryIndex > threshold && entry.fireDate > now {
             slots.append(TimelineSlot(date: entry.fireDate, entry: entry))
-        }
-        if slots.isEmpty {
-            for entry in timeline.entries {
-                slots.append(TimelineSlot(date: entry.fireDate, entry: entry))
-            }
         }
         slots.append(TimelineSlot(date: timeline.plannedUntil, entry: nil))
         return slots

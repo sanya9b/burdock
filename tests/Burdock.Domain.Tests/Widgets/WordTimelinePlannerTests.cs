@@ -108,6 +108,20 @@ public sealed class WordTimelinePlannerTests
     }
 
     [Fact]
+    public void When_every_word_already_hit_todays_cap_the_current_slot_still_shows_one()
+    {
+        var saturated = Enumerable.Range(1, 3).Select(n => new TimelineCandidate(Entry(n), false, n, ExposuresToday: 5)).ToArray();
+
+        var timeline = WordTimelinePlanner.Plan(Request(Settings(cadence: 60, exposures: 5), saturated));
+
+        var today = LearningDay.From(Now, Kyiv);
+        var todays = timeline.Entries.Where(e => LearningDay.From(e.FireDate, Kyiv) == today).ToArray();
+        todays.Length.ShouldBe(1);
+        todays[0].FireDate.ShouldBeLessThanOrEqualTo(Now);
+        timeline.Entries.Where(e => LearningDay.From(e.FireDate, Kyiv) == today.Next()).ShouldNotBeEmpty();
+    }
+
+    [Fact]
     public void Free_tier_fixes_the_cadence_and_limits_the_pool()
     {
         var timeline = WordTimelinePlanner.Plan(Request(Settings(cadence: 15), Candidates(20), freeTier: true));

@@ -68,6 +68,28 @@ public sealed class PlanWidgetTimelineUseCaseTests
     }
 
     [Fact]
+    public async Task An_empty_daily_plan_falls_back_to_the_learners_known_words_instead_of_sleeping()
+    {
+        // Every candidate of the level is marked known: the Today screen is empty, but the widget keeps repeating them.
+        var entries = await _content.ListAsync(LanguagePair.UkrainianToEnglish, [CefrLevel.A1], [], Ct);
+        foreach (var (entry, index) in entries.Select((e, i) => (e, i)))
+        {
+            var card = LearnerCard.CreateNew(CardId.From(Guid.NewGuid()), Learner, entry.Id, T0.AddDays(-2));
+            card.ClaimKnown(T0.AddDays(-1).AddMinutes(index));
+            await _cards.UpsertAsync(card, Ct);
+        }
+
+        var report = await UseCase().ExecuteAsync("start", Ct);
+
+        report.Written.ShouldBeTrue();
+        report.Entries.ShouldBeGreaterThan(0);
+        var timeline = _bridge.Timeline.ShouldNotBeNull();
+        timeline.PlannedUntil.ShouldBeGreaterThan(T0);
+        timeline.Entries.Select(e => e.LexemeId).Distinct().Count().ShouldBeLessThanOrEqualTo(Burdock.Domain.Widgets.WordTimelinePlanner.MaxDistinctWordsPerDay);
+        timeline.Entries[0].FireDate.ShouldBeLessThanOrEqualTo(T0);
+    }
+
+    [Fact]
     public async Task An_unchanged_leading_timeline_is_not_rewritten_until_the_horizon_runs_short()
     {
         var useCase = UseCase();
@@ -137,7 +159,7 @@ public sealed class PlanWidgetTimelineUseCaseTests
     {
         var days = new LearningDayResolver(_clock);
         var plan = new GetDailyPlanUseCase(_learner, _content, _cards, _scheduler, _clock, days, new InMemoryDailyPlanCache());
-        return new PlanWidgetTimelineUseCase(_bridge, _learner, plan, _cards, _exposures, _outbox, _state, _ids, _clock, days, NullLogger<PlanWidgetTimelineUseCase>.Instance);
+        return new PlanWidgetTimelineUseCase(_bridge, _learner, plan, _content, _cards, _exposures, _outbox, _state, _ids, _clock, days, NullLogger<PlanWidgetTimelineUseCase>.Instance);
     }
 
     private sealed class RandomIds : IIdGenerator

@@ -24,6 +24,7 @@ public sealed partial class PlanWidgetTimelineUseCase(
     IWidgetBridge widgets,
     ILearnerContext learner,
     GetDailyPlanUseCase dailyPlan,
+    IContentRepository content,
     ILearnerCardRepository cards,
     IExposureStore exposures,
     IProgressOutbox outbox,
@@ -56,6 +57,12 @@ public sealed partial class PlanWidgetTimelineUseCase(
         var candidates = plan.Words
             .Select((word, index) => new TimelineCandidate(word.Entry, word.Reason == PlanReason.New, word.Reason == PlanReason.New ? index : word.Retrievability, counts.GetValueOrDefault(word.Entry.Id)))
             .ToArray();
+        if (candidates.Length == 0)
+        {
+            candidates = await LearnedWordsAsync(learnerId, counts, cancellationToken).ConfigureAwait(false);
+            LogFallbackCandidates(reason, candidates.Length);
+        }
+
         var timeline = WordTimelinePlanner.Plan(new TimelineRequest(now, clock.LocalTimeZone, settings, candidates));
 
         var unchanged = previous is not null
@@ -70,6 +77,32 @@ public sealed partial class PlanWidgetTimelineUseCase(
         await widgets.RequestReloadAsync(reason, cancellationToken).ConfigureAwait(false);
         LogPlanned(reason, timeline.Entries.Count, timeline.CadenceMinutes, scheduled, confirmed);
         return new WidgetPlanReport(true, true, timeline.Entries.Count, scheduled, confirmed);
+    }
+
+    /// <summary>
+    /// When the day's plan is empty (everything marked known, no reviews due, pool exhausted) the widget keeps repeating the
+    /// learner's own words instead of sleeping: the most recently touched cards, up to the distinct-words-per-day limit.
+    /// </summary>
+    private async Task<TimelineCandidate[]> LearnedWordsAsync(LearnerId learnerId, IReadOnlyDictionary<LexemeId, int> counts, CancellationToken cancellationToken)
+    {
+        var learnerCards = await cards.ListAsync(learnerId, cancellationToken).ConfigureAwait(false);
+        var recent = learnerCards.Values
+            .Where(c => c.State is not (CardState.New or CardState.Suspended))
+            .OrderByDescending(c => c.LastReview ?? c.IntroducedAt ?? DateTimeOffset.MinValue)
+            .ThenBy(c => c.LexemeId.Value)
+            .Take(WordTimelinePlanner.MaxDistinctWordsPerDay)
+            .Select(c => c.LexemeId)
+            .ToArray();
+        if (recent.Length == 0)
+        {
+            return [];
+        }
+
+        var entries = (await content.ListByIdsAsync(recent, cancellationToken).ConfigureAwait(false)).ToDictionary(e => e.Id);
+        return recent
+            .Where(entries.ContainsKey)
+            .Select((id, index) => new TimelineCandidate(entries[id], false, index, counts.GetValueOrDefault(id)))
+            .ToArray();
     }
 
     /// <summary>Turns the previous timeline into exposure records once, up to <paramref name="now"/> (spec 04 §3.5).</summary>
@@ -146,6 +179,9 @@ public sealed partial class PlanWidgetTimelineUseCase(
         var lockOnly = marker.Families.All(f => f.StartsWith("accessory", StringComparison.OrdinalIgnoreCase));
         return lockOnly ? ExposureSurface.WidgetLock : ExposureSurface.WidgetHome;
     }
+
+    [LoggerMessage(Level = LogLevel.Information, Message = "Widget plan ({Reason}): the daily plan is empty, falling back to {Count} learned words")]
+    private partial void LogFallbackCandidates(string reason, int count);
 
     [LoggerMessage(Level = LogLevel.Information, Message = "Widget timeline written ({Reason}): {Entries} entries at {Cadence} min; settled {Scheduled} scheduled, {Confirmed} confirmed exposures")]
     private partial void LogPlanned(string reason, int entries, int cadence, int scheduled, int confirmed);

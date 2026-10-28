@@ -27,7 +27,7 @@ struct WordTimelineProvider: TimelineProvider {
 
     func getTimeline(in context: Context, completion: @escaping (Timeline<WordTimelineEntry>) -> Void) {
         let now = Date()
-        guard let store = TimelineStore.appGroup(), let timeline = store.loadTimeline() else {
+        guard let store = TimelineStore.appGroup(), let timeline = store.loadTimeline(), !timeline.entries.isEmpty else {
             completion(Timeline(entries: [WordTimelineEntry(date: now, model: .fallback())], policy: .after(now.addingTimeInterval(Self.retryWithoutTimeline))))
             return
         }

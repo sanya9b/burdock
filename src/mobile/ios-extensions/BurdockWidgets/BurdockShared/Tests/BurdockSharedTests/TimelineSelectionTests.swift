@@ -50,13 +50,15 @@ final class TimelineSelectionTests: XCTestCase {
         XCTAssertEqual(TimelineSelection.upcoming(in: tl, cursor: nil, now: tl.plannedUntil.addingTimeInterval(1)).count, 1)
     }
 
-    func testBeforeTheFirstSlotTheWholeTimelineIsScheduled() {
+    func testBeforeTheFirstSlotTheFirstWordShowsAtOnce() {
         let tl = timeline()
+        let now = t0.addingTimeInterval(-600)
 
-        let slots = TimelineSelection.upcoming(in: tl, cursor: nil, now: t0.addingTimeInterval(-600))
+        let slots = TimelineSelection.upcoming(in: tl, cursor: nil, now: now)
 
         XCTAssertEqual(slots.map { $0.entry?.entryIndex }, [0, 1, 2, 3, nil])
-        XCTAssertEqual(slots.first?.date, t0)
+        XCTAssertEqual(slots.first?.date, now, "the first word is shown immediately, not at its slot")
+        XCTAssertEqual(slots[1].date, t0.addingTimeInterval(3600))
     }
 
     func testNextIndexFollowsTheCurrentWordAndStopsAtTheEnd() {
