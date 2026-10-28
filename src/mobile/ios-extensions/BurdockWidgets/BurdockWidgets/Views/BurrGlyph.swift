@@ -43,11 +43,11 @@ struct BurrGlyph: View {
             }
             .offset(y: -size * 0.04)
         case .asleep:
-            HStack(spacing: size * 0.10) {
-                Capsule().fill(eyeColor).frame(width: size * 0.14, height: size * 0.035)
-                Capsule().fill(eyeColor).frame(width: size * 0.14, height: size * 0.035)
+            HStack(spacing: size * 0.12) {
+                Capsule().fill(eyeColor).frame(width: size * 0.16, height: size * 0.06)
+                Capsule().fill(eyeColor).frame(width: size * 0.16, height: size * 0.06)
             }
-            .offset(y: -size * 0.02)
+            .offset(y: -size * 0.03)
         }
     }
 }

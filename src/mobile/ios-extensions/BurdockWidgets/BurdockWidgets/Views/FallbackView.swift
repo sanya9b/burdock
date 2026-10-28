@@ -36,9 +36,12 @@ struct FallbackView: View {
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
         default:
             let small = family == .systemSmall
-            VStack(alignment: .leading, spacing: WidgetMetrics.s2) {
-                BurrGlyph(size: small ? 40 : 56, color: model.palette.word, eyeColor: model.palette.background, eyes: .asleep)
-                Spacer(minLength: 0)
+            // Small: glyph on top, text at the bottom. Medium and large: one compact block, centred vertically.
+            VStack(alignment: .leading, spacing: small ? WidgetMetrics.s2 : WidgetMetrics.s3) {
+                BurrGlyph(size: small ? 40 : 64, color: model.palette.word, eyeColor: model.palette.background, eyes: .asleep)
+                if small {
+                    Spacer(minLength: 0)
+                }
                 Text("widget.fallback.title")
                     .font(WidgetFont.word(small ? 15 : 20, relativeTo: .headline))
                     .foregroundStyle(model.palette.word)
@@ -50,7 +53,7 @@ struct FallbackView: View {
                     .foregroundStyle(model.palette.translation)
                     .lineLimit(2)
             }
-            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: small ? .topLeading : .leading)
         }
     }
 }

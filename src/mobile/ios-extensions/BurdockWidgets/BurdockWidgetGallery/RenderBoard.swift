@@ -4,7 +4,8 @@ import BurdockShared
 
 /// One appearance of the render board: every scenario × every family at iPhone 6.1" widget sizes.
 struct RenderBoard: View {
-    static let width: CGFloat = 1000
+    /// small + (medium | accessory row) + large columns with gaps and padding.
+    static let width: CGFloat = 1180
 
     let scheme: ColorScheme
 
