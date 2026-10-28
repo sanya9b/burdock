@@ -449,8 +449,10 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
             return;
         }
 
-        // The drill may have queued this word again: the step counter and the «last» flag follow it.
+        // The drill may have queued this word again: the step counter, its label and the «last» flag follow it.
         ItemCount = ExpectedTotal();
+        ProgressText = string.Format(Ukrainian, ProgressFormat, _index + 1, ItemCount);
+        Progress = (_index + 1) / (double)ItemCount;
         IsLast = _index == _items.Count - 1 && (_drill?.PendingCount ?? 0) == 0;
         if (step is { } mastery)
         {
