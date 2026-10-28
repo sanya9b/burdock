@@ -1,3 +1,5 @@
+using Burdock.Application.UseCases.Sessions;
+using Burdock.Domain.Learning;
 using Burdock.Presentation.Navigation;
 using Burdock.Presentation.ViewModels;
 using ViewState = Burdock.Presentation.ViewModels.ViewState;
@@ -10,14 +12,15 @@ public sealed class SessionViewModelTests
     private static CancellationToken Ct => TestContext.Current.CancellationToken;
 
     [Fact]
-    public async Task Load_opens_with_the_matching_warmup_followed_by_one_exercise_per_word()
+    public async Task Load_opens_with_the_matching_warmup_and_plans_four_answers_per_word()
     {
         var (_, vm) = await StartAsync();
 
         vm.State.ShouldBe(ViewState.Ready);
         vm.IsMatching.ShouldBeTrue();
         vm.IsChoice.ShouldBeFalse();
-        vm.ItemCount.ShouldBe(6); // five new words + the warm-up
+        vm.ItemCount.ShouldBe(21); // the warm-up + five new words × four correct answers in a row (mastery drill)
+        vm.MasteryTarget.ShouldBe(LearningPolicy.MasteryStreak);
         vm.MatchWords.Count.ShouldBe(5);
         vm.MatchMeanings.Count.ShouldBe(5);
         vm.ProgressText.ShouldContain("1");
@@ -109,24 +112,63 @@ public sealed class SessionViewModelTests
         CompleteWarmup(vm);
         var reviewsBefore = harness.Reviews.Entries.Count;
 
-        for (var i = 0; i < 5; i++)
+        // Mastery drill: every word is asked until four correct answers in a row, so the session has 5 × 4 graded steps.
+        var answered = 0;
+        do
         {
             vm.NextCommand.Execute(null);
-            await vm.ChooseCommand.ExecuteAsync(CorrectOption(vm));
+            await AnswerCorrectlyAsync(vm);
+            answered++;
         }
+        while (!vm.IsLast && answered < 40);
 
+        answered.ShouldBe(20);
         vm.IsLast.ShouldBeTrue();
+        vm.MasteryStreak.ShouldBe(4);
         vm.NextCommand.Execute(null);
 
-        harness.Reviews.Entries.Count.ShouldBe(reviewsBefore + 5);
+        harness.Reviews.Entries.Count.ShouldBe(reviewsBefore + 20);
+        var cards = await harness.Cards.ListAsync(ViewModelHarness.Learner, Ct);
+        cards.Values.Count(c => c.State == CardState.Learned).ShouldBe(5);
         harness.Navigation.Last.Route.ShouldBe(Routes.Learn.Summary);
         var parameters = harness.Navigation.Last.Parameters!;
-        parameters["graded"].ShouldBe("5");
-        parameters["correct"].ShouldBe("5");
+        parameters["graded"].ShouldBe("20");
+        parameters["correct"].ShouldBe("20");
         parameters["again"].ShouldBe("0");
+        parameters["learned"].ShouldBe("5");
         parameters["warmup"].ShouldBe("1");
         parameters["seconds"].ShouldBe("0"); // the clock is frozen
         Guid.TryParse(parameters["session"].ToString(), out _).ShouldBeTrue();
+    }
+
+    [Fact]
+    public async Task A_wrong_answer_resets_the_word_counter_and_queues_it_again()
+    {
+        var (_, vm) = await StartAsync();
+        CompleteWarmup(vm);
+        vm.NextCommand.Execute(null);
+        var word = vm.CurrentItem!.Entry.Id;
+        var total = vm.ItemCount;
+
+        var correct = CorrectOption(vm);
+        await vm.ChooseCommand.ExecuteAsync(vm.Options.First(o => !ReferenceEquals(o, correct)));
+
+        vm.MasteryStreak.ShouldBe(0);
+        vm.ItemCount.ShouldBe(total + 1, "a reset costs one more step");
+        vm.IsLast.ShouldBeFalse();
+
+        // The word comes back after the other four words of the first pass.
+        var seen = new List<Guid>();
+        for (var i = 0; i < 5; i++)
+        {
+            vm.NextCommand.Execute(null);
+            seen.Add(vm.CurrentItem!.Entry.Id.Value);
+            await AnswerCorrectlyAsync(vm);
+        }
+
+        seen[^1].ShouldBe(word.Value);
+        seen.Take(4).ShouldNotContain(word.Value);
+        vm.MasteryStreak.ShouldBe(1);
     }
 
     [Fact]
@@ -154,6 +196,23 @@ public sealed class SessionViewModelTests
         {
             vm.PickMatchCommand.Execute(word);
             vm.PickMatchCommand.Execute(vm.MatchMeanings.First(m => m.Index == word.Index));
+        }
+    }
+
+    /// <summary>Answers the current exercise correctly whatever its kind (the drill escalates from choices to typed recall).</summary>
+    private static async Task AnswerCorrectlyAsync(SessionViewModel vm)
+    {
+        switch (vm.CurrentItem)
+        {
+            case ChoiceItem choice:
+                await vm.ChooseCommand.ExecuteAsync(vm.Options[choice.CorrectIndex]);
+                break;
+            case TypedItem typed:
+                vm.TypedAnswer = typed.AcceptedForms[0];
+                await vm.CheckTypedCommand.ExecuteAsync(null);
+                break;
+            default:
+                throw new InvalidOperationException("No graded exercise is on screen.");
         }
     }
 

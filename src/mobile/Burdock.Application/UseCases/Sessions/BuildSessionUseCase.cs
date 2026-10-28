@@ -17,9 +17,6 @@ public sealed class BuildSessionUseCase(GetDailyPlanUseCase dailyPlan, ILearnerC
     /// <summary>learning.session.defaultSize</summary>
     public const int DefaultSize = 10;
 
-    /// <summary>learning.session.optionsPerChoice</summary>
-    public const int OptionsPerChoice = 4;
-
     /// <summary>learning.session.minDistractorPool: below this many candidates the pool widens to all topics, then to all levels.</summary>
     public const int MinDistractorPool = 40;
 
@@ -54,6 +51,7 @@ public sealed class BuildSessionUseCase(GetDailyPlanUseCase dailyPlan, ILearnerC
 
         var seed = unchecked((int)DailyPlanner.SeededOrder(learnerId, learningDays.Today(), chosen[0].Entry.Id));
         var random = new Random(seed);
+        var factory = new SessionItemFactory(pool, random);
         var items = new List<SessionItem>();
 
         if (chosen.Count >= 5)
@@ -63,13 +61,11 @@ public sealed class BuildSessionUseCase(GetDailyPlanUseCase dailyPlan, ILearnerC
 
         foreach (var word in chosen)
         {
-            var mode = PickMode(word, learnerCards);
-            items.Add(mode == ExerciseMode.TypedRecall
-                ? new TypedItem(word.Entry, word.Entry.Translation, word.Entry.AcceptedForms)
-                : BuildChoice(word.Entry, mode, pool, random));
+            items.Add(factory.Create(word.Entry, PickMode(word, learnerCards)));
         }
 
-        return new SessionPlan(items);
+        // Mastery drill (decision 2026-10-28): after this first pass every word is asked again until four correct answers in a row.
+        return new SessionPlan(items, new SessionDrill(chosen.Select(w => w.Entry).ToArray(), factory));
     }
 
     private static ExerciseMode PickMode(PlannedWord word, IReadOnlyDictionary<LexemeId, LearnerCard> learnerCards)
@@ -85,32 +81,5 @@ public sealed class BuildSessionUseCase(GetDailyPlanUseCase dailyPlan, ILearnerC
         }
 
         return card.Reps % 2 == 0 ? ExerciseMode.ChoiceTargetToNative : ExerciseMode.ChoiceNativeToTarget;
-    }
-
-    private static ChoiceItem BuildChoice(WordEntry entry, ExerciseMode mode, IReadOnlyList<WordEntry> pool, Random random)
-    {
-        var toNative = mode == ExerciseMode.ChoiceTargetToNative;
-        string Text(WordEntry e) => toNative ? e.Translation : e.Lexeme.Lemma;
-        var correct = Text(entry);
-        var distractors = pool
-            .Where(e => e.Id != entry.Id && !string.Equals(Text(e), correct, StringComparison.OrdinalIgnoreCase))
-            .OrderBy(e => DistractorRank(entry, e))
-            .ThenBy(_ => random.Next())
-            .Select(Text)
-            .Distinct(StringComparer.OrdinalIgnoreCase)
-            .Take(OptionsPerChoice - 1)
-            .ToList();
-
-        var options = distractors.Append(correct).OrderBy(_ => random.Next()).ToArray();
-        return new ChoiceItem(entry, mode, toNative ? entry.Lexeme.Lemma : entry.Translation, options, Array.IndexOf(options, correct));
-    }
-
-    /// <summary>Lower is better: same level and part of speech first, then neighbouring levels (spec 06 §3.6 distractor rules).</summary>
-    private static int DistractorRank(WordEntry target, WordEntry candidate)
-    {
-        var levelDistance = Math.Abs((int)target.Lexeme.Level - (int)candidate.Lexeme.Level);
-        var posPenalty = target.Lexeme.PartOfSpeech == candidate.Lexeme.PartOfSpeech ? 0 : 1;
-        var topicBonus = target.Lexeme.Topics.Any(candidate.Lexeme.BelongsTo) ? 0 : 1;
-        return levelDistance * 4 + posPenalty * 2 + topicBonus;
     }
 }

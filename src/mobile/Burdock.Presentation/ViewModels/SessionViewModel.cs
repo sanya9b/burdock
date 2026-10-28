@@ -59,6 +59,7 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
     private readonly ILogger<SessionViewModel> _logger;
     private readonly Stopwatch _stopwatch = new();
     private readonly List<SessionItem> _items = [];
+    private SessionDrill? _drill;
     private Guid _sessionId;
     private int _index = -1;
     private int _size = BuildSessionUseCase.DefaultSize;
@@ -68,6 +69,12 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
     private int _againCount;
     private int _typedCorrect;
     private int _wordsLearned;
+
+    [ObservableProperty]
+    private int _masteryStreak;
+
+    [ObservableProperty]
+    private int _masteryTarget = LearningPolicy.MasteryStreak;
     private bool _warmupCompleted;
     private int _combo;
     private DateTimeOffset _startedAt;
@@ -200,6 +207,7 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
         {
             var plan = await _buildSession.ExecuteAsync(_size, _extraNewWords, cancellationToken).ConfigureAwait(true);
             _items.AddRange(plan.Items);
+            _drill = plan.Drill;
             _sessionId = _ids.NewId();
             _startedAt = _clock.UtcNow;
             if (_items.Count == 0)
@@ -208,7 +216,7 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
                 return;
             }
 
-            ItemCount = _items.Count;
+            ItemCount = ExpectedTotal();
             State = ViewState.Ready;
             ShowNext();
         }
@@ -222,13 +230,37 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
         }
     }
 
+    /// <summary>The current exercise (tests only).</summary>
+    internal SessionItem? CurrentItem => _index >= 0 && _index < _items.Count ? _items[_index] : null;
+
+    /// <summary>Steps shown so far plus the answers the mastery drill still needs (grows after a mistake, spec 06 §3.7).</summary>
+    private int ExpectedTotal()
+    {
+        if (_drill is null)
+        {
+            return _items.Count;
+        }
+
+        // Answered steps so far, open warm-ups, then the correct answers the drill still needs (the current open exercise is one of them).
+        var answered = Math.Clamp(Answered ? _index + 1 : _index, 0, _items.Count);
+        var openWarmups = _items.Skip(answered).Count(i => i.Mode.IsUngraded());
+        return Math.Max(_items.Count, answered + openWarmups + _drill.AnswersRemaining);
+    }
+
     private void ShowNext()
     {
         _index++;
         if (_index >= _items.Count)
         {
-            _ = FinishAsync(CancellationToken.None);
-            return;
+            // Mastery drill: words that still lack four correct answers in a row come back until the drill is complete.
+            var followUp = _drill?.Dequeue();
+            if (followUp is null)
+            {
+                _ = FinishAsync(CancellationToken.None);
+                return;
+            }
+
+            _items.Add(followUp);
         }
 
         var item = _items[_index];
@@ -238,9 +270,10 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
         FeedbackDetail = string.Empty;
         HasFeedbackDetail = false;
         TypedAnswer = string.Empty;
-        IsLast = _index == _items.Count - 1;
-        ProgressText = string.Format(Ukrainian, ProgressFormat, _index + 1, _items.Count);
-        Progress = (_index + 1) / (double)_items.Count;
+        ItemCount = ExpectedTotal();
+        IsLast = _index == _items.Count - 1 && (_drill?.PendingCount ?? 0) == 0;
+        ProgressText = string.Format(Ukrainian, ProgressFormat, _index + 1, ItemCount);
+        Progress = (_index + 1) / (double)ItemCount;
         CompletedCount = _index;
         Options.Clear();
         MatchWords.Clear();
@@ -408,11 +441,21 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
     {
         Answered = true;
         CompletedCount = _index + 1;
-        var result = await _gradeAnswer.ExecuteAsync(_items[_index], outcome, CancellationToken.None).ConfigureAwait(true);
+        var step = _drill?.Record(_items[_index], outcome.Correct);
+        var result = await _gradeAnswer.ExecuteAsync(_items[_index], outcome, step?.Mastered ?? false, CancellationToken.None).ConfigureAwait(true);
         if (result.IsFailure)
         {
             SetFeedback(positive: false, AppResources.Common_Error_Title, string.Empty, AppResources.Common_Error_Title);
             return;
+        }
+
+        // The drill may have queued this word again: the step counter and the «last» flag follow it.
+        ItemCount = ExpectedTotal();
+        IsLast = _index == _items.Count - 1 && (_drill?.PendingCount ?? 0) == 0;
+        if (step is { } mastery)
+        {
+            MasteryStreak = mastery.Streak;
+            MasteryTarget = _drill!.Target;
         }
 
         _graded++;

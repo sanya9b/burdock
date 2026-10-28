@@ -16,7 +16,7 @@ public sealed record TypedItem(WordEntry Entry, string Prompt, IReadOnlyList<str
 public sealed record MatchingItem(IReadOnlyList<WordEntry> Entries) : SessionItem(Entries[0], ExerciseMode.Matching);
 
 /// <summary>A planned session (spec 06 §3.7): mixed modes, at least <see cref="LearningPolicy.MinGradedCardsForLearningDay"/> graded cards when content allows.</summary>
-public sealed record SessionPlan(IReadOnlyList<SessionItem> Items)
+public sealed record SessionPlan(IReadOnlyList<SessionItem> Items, SessionDrill? Drill = null)
 {
     public int GradedCount => Items.Count(i => !i.Mode.IsUngraded());
 }

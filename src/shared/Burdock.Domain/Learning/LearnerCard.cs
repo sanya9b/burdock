@@ -190,6 +190,22 @@ public sealed class LearnerCard
 
     public void Suspend() => State = CardState.Suspended;
 
+    /// <summary>
+    /// Session mastery (decision 2026-10-28, spec 06 §3.7): the word collected <see cref="LearningPolicy.MasteryStreak"/> correct
+    /// answers in a row within one session and is learned regardless of FSRS stability; a later <c>Again</c> still regresses it.
+    /// </summary>
+    public void MarkMastered(DateTimeOffset at)
+    {
+        if (State is CardState.Known or CardState.Suspended)
+        {
+            return;
+        }
+
+        IntroducedAt ??= at;
+        State = CardState.Learned;
+        LearnedAt ??= at;
+    }
+
     private CardState ResolveState(CardState schedulerState, Rating rating)
     {
         if (rating == Rating.Again)
@@ -232,6 +248,9 @@ public static class LearningPolicy
 
     /// <summary>learning.learned.minRecallDays</summary>
     public const int LearnedMinRecallDays = 2;
+
+    /// <summary>session.masteryStreak: correct answers in a row within one session that make a word learned (decision 2026-10-28).</summary>
+    public const int MasteryStreak = 4;
 
     /// <summary>learning.session.minGradedCardsForLearningDay (T11)</summary>
     public const int MinGradedCardsForLearningDay = 5;

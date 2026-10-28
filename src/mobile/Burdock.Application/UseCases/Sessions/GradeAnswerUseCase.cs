@@ -17,7 +17,11 @@ public sealed class GradeAnswerUseCase(
     LearningDayResolver learningDays,
     IProgressOutbox outbox)
 {
-    public async Task<Result<GradeResult>> ExecuteAsync(SessionItem item, ExerciseOutcome outcome, CancellationToken cancellationToken)
+    public Task<Result<GradeResult>> ExecuteAsync(SessionItem item, ExerciseOutcome outcome, CancellationToken cancellationToken)
+        => ExecuteAsync(item, outcome, masteredInSession: false, cancellationToken);
+
+    /// <summary>Grades one answer; when <paramref name="masteredInSession"/> is set the answer completed the session's mastery streak (spec 06 §3.7) and the card becomes learned.</summary>
+    public async Task<Result<GradeResult>> ExecuteAsync(SessionItem item, ExerciseOutcome outcome, bool masteredInSession, CancellationToken cancellationToken)
     {
         ArgumentNullException.ThrowIfNull(item);
         var rating = GradingPolicy.Grade(outcome);
@@ -38,6 +42,11 @@ public sealed class GradeAnswerUseCase(
         if (applied.IsFailure)
         {
             return applied.Error;
+        }
+
+        if (masteredInSession && outcome.Correct)
+        {
+            card.MarkMastered(now);
         }
 
         await cards.UpsertAsync(card, cancellationToken).ConfigureAwait(false);
