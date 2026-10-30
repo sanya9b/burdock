@@ -96,11 +96,37 @@ public sealed class LearnerCardTests
     }
 
     [Fact]
+    public void Mastery_progress_follows_the_drill_and_fills_on_learned_or_known()
+    {
+        var card = LearnerCard.CreateNew(CardId.From(Guid.NewGuid()), Learner, Lexeme, T0);
+
+        card.RecordMastery(2);
+        card.MasteryProgress.ShouldBe(2);
+        card.RecordMastery(0);
+        card.MasteryProgress.ShouldBe(0);
+        card.RecordMastery(9);
+        card.MasteryProgress.ShouldBe(LearningPolicy.MasteryStreak);
+
+        var mastered = LearnerCard.CreateNew(CardId.From(Guid.NewGuid()), Learner, Lexeme, T0);
+        mastered.MarkMastered(T0);
+        mastered.State.ShouldBe(CardState.Learned);
+        mastered.LearnedAt.ShouldBe(T0);
+        mastered.MasteryProgress.ShouldBe(LearningPolicy.MasteryStreak);
+
+        var known = LearnerCard.CreateNew(CardId.From(Guid.NewGuid()), Learner, Lexeme, T0);
+        known.ClaimKnown(T0);
+        known.MasteryProgress.ShouldBe(LearningPolicy.MasteryStreak);
+        known.MarkMastered(T0.AddDays(1));
+        known.State.ShouldBe(CardState.Known, "a claimed word is not downgraded to learned");
+    }
+
+    [Fact]
     public void Restore_round_trips_all_state()
     {
         var restored = LearnerCard.Restore(CardId.From(Guid.NewGuid()), Learner, Lexeme, T0, CardState.Learning, MemoryState.Create(3, 5), 1,
-            T0.AddDays(3), T0, T0, null, 2, 0, 5, 1, 1, [Day(0), Day(1)], [Day(1)]);
+            T0.AddDays(3), T0, T0, null, 2, 0, 5, 1, 1, [Day(0), Day(1)], [Day(1)], masteryProgress: 3);
 
+        restored.MasteryProgress.ShouldBe(3);
         restored.State.ShouldBe(CardState.Learning);
         restored.Step.ShouldBe(1);
         restored.ExposureDays.Count.ShouldBe(2);

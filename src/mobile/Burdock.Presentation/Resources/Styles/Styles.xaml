@@ -33,6 +33,8 @@
     <x:Double x:Key="SizePushButtonEdge">3</x:Double>
     <x:Double x:Key="SizePushButtonHeight">56</x:Double>
     <x:Double x:Key="SizeStatusDot">12</x:Double>
+    <x:Double x:Key="SizeMasteryRing">28</x:Double>
+    <x:Double x:Key="SizeMasteryRingStroke">4</x:Double>
     <x:Double x:Key="SizeFocusRingOffset">2</x:Double>
     <x:Double x:Key="SizeSkeletonHero">208</x:Double>
     <x:Double x:Key="SizeSkeletonTitle">28</x:Double>

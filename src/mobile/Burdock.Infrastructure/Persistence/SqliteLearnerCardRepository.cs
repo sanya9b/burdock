@@ -51,6 +51,7 @@ public sealed class SqliteLearnerCardRepository(BurdockDatabase database) : ILea
         ScheduledExposures = card.ScheduledExposures,
         ConfirmedExposures = card.ConfirmedExposures,
         RecallSuccesses = card.RecallSuccesses,
+        MasteryProgress = card.MasteryProgress,
         ExposureDays = JoinDays(card.ExposureDays),
         RecallSuccessDays = JoinDays(card.RecallSuccessDays),
     };
@@ -73,7 +74,8 @@ public sealed class SqliteLearnerCardRepository(BurdockDatabase database) : ILea
         row.ConfirmedExposures,
         row.RecallSuccesses,
         SplitDays(row.ExposureDays),
-        SplitDays(row.RecallSuccessDays));
+        SplitDays(row.RecallSuccessDays),
+        row.MasteryProgress);
 
     private static string JoinDays(IEnumerable<LearningDay> days)
         => string.Join(",", days.OrderBy(d => d.Date).Select(d => d.Date.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture)));

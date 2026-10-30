@@ -1,3 +1,4 @@
+using Burdock.Domain.Learning;
 using System.Collections.ObjectModel;
 using System.Globalization;
 using System.Text;
@@ -15,8 +16,8 @@ using Microsoft.Extensions.Logging;
 
 namespace Burdock.Presentation.ViewModels;
 
-/// <summary>One row of the library list; <see cref="StatusKey"/> is the <c>LibraryStatus</c> name used for the dot colour.</summary>
-public sealed record WordRow(Guid LexemeId, string Lemma, string Translation, string StatusLabel, string StatusKey, string DueText, string Level, string Accessibility);
+/// <summary>One row of the library list; <see cref="StatusKey"/> is the <c>LibraryStatus</c> name used for the ring colour, <see cref="Mastery"/> the 0..1 share of the four-answer streak.</summary>
+public sealed record WordRow(Guid LexemeId, string Lemma, string Translation, string StatusLabel, string StatusKey, string DueText, string Level, string Accessibility, double Mastery, int MasteryProgress);
 
 /// <summary>S-14 «Слова»: search with a 200 ms debounce, status chips, level and category pickers, the list (spec 03).</summary>
 [System.Diagnostics.CodeAnalysis.SuppressMessage("Design", "CA1001:Types that own disposable fields should be disposable", Justification = "The debounce token source is replaced and cancelled per change; the transient view model lives as long as its page.")]
@@ -32,6 +33,7 @@ public sealed partial class WordsViewModel : ObservableObject
     private static readonly CompositeFormat DueDaysFew = CompositeFormat.Parse(AppResources.Words_Due_Days_Few);
     private static readonly CompositeFormat DueDaysMany = CompositeFormat.Parse(AppResources.Words_Due_Days_Many);
     private static readonly CompositeFormat RowFormat = CompositeFormat.Parse(AppResources.Words_Row_A11y);
+    private static readonly CompositeFormat MasteryFormat = CompositeFormat.Parse(AppResources.Words_Mastery_A11y);
 
     private readonly BrowseWordsUseCase _browse;
     private readonly INavigationService _navigation;
@@ -215,6 +217,7 @@ public sealed partial class WordsViewModel : ObservableObject
         var due = DueText(word, now, today);
         var lemma = word.Entry.Lexeme.Lemma;
         var translation = word.Entry.Translation;
+        var mastery = string.Format(Ukrainian, MasteryFormat, word.MasteryProgress, LearningPolicy.MasteryStreak);
         return new WordRow(
             word.Entry.Id.Value,
             lemma,
@@ -223,7 +226,9 @@ public sealed partial class WordsViewModel : ObservableObject
             word.Status.ToString(),
             due,
             word.Entry.Lexeme.Level.ToString(),
-            string.Format(Ukrainian, RowFormat, lemma, translation, status, due));
+            string.Format(Ukrainian, RowFormat, lemma, translation, status, due, mastery),
+            word.MasteryProgress / (double)LearningPolicy.MasteryStreak,
+            word.MasteryProgress);
     }
 
     private string DueText(LibraryWord word, DateTimeOffset now, DateOnly today)

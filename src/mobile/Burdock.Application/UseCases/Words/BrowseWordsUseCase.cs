@@ -29,8 +29,8 @@ public static class LibraryStatusExtensions
     };
 }
 
-/// <summary>One row of the library: the entry joined with the learner's card (or its absence).</summary>
-public sealed record LibraryWord(WordEntry Entry, CardState State, LibraryStatus Status, DateTimeOffset? Due, int ConfirmedExposures, int Reps);
+/// <summary>One row of the library: the entry joined with the learner's card (or its absence); <c>MasteryProgress</c> is the streak of the last drill, 0..<see cref="LearningPolicy.MasteryStreak"/>, full for learned and known words.</summary>
+public sealed record LibraryWord(WordEntry Entry, CardState State, LibraryStatus Status, DateTimeOffset? Due, int ConfirmedExposures, int Reps, int MasteryProgress = 0);
 
 /// <summary>Filters of S-14; null means «any». Search matches the lemma, accepted forms and translations after normalisation.</summary>
 public sealed record WordsQuery(string? Search = null, LibraryStatus? Status = null, CefrLevel? Level = null, TopicId? Topic = null)
@@ -55,7 +55,8 @@ public sealed class BrowseWordsUseCase(ILearnerContext learner, IContentReposito
         {
             learnerCards.TryGetValue(entry.Id, out var card);
             var state = card?.State ?? CardState.New;
-            return new LibraryWord(entry, state, state.ToLibraryStatus(), card?.Due, card?.ConfirmedExposures ?? 0, card?.Reps ?? 0);
+            var mastery = card is null ? 0 : state is CardState.Learned or CardState.Known ? LearningPolicy.MasteryStreak : card.MasteryProgress;
+            return new LibraryWord(entry, state, state.ToLibraryStatus(), card?.Due, card?.ConfirmedExposures ?? 0, card?.Reps ?? 0, mastery);
         });
         return Filter(words, query).ToArray();
     }

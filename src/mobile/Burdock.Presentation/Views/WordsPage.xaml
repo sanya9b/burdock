@@ -77,12 +77,12 @@
                             <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type vm:WordsViewModel}}, Path=OpenCommand}" CommandParameter="{Binding .}" />
                         </Grid.GestureRecognizers>
                         <Grid Grid.Row="0" ColumnDefinitions="Auto,*,Auto" ColumnSpacing="{StaticResource Space3}" Padding="{StaticResource ListRowInset}">
-                            <Border Grid.Column="0" WidthRequest="{StaticResource SizeStatusDot}" HeightRequest="{StaticResource SizeStatusDot}" StrokeThickness="0" VerticalOptions="Center"
-                                    BackgroundColor="{Binding StatusKey, Converter={StaticResource StatusColor}}">
-                                <Border.StrokeShape>
-                                    <RoundRectangle CornerRadius="{StaticResource CornerRadiusFull}" />
-                                </Border.StrokeShape>
-                            </Border>
+                            <!-- Mastery ring (journal item 15): four segments = four correct answers in a row; colour = status, value also read aloud. -->
+                            <controls:ProgressRing Grid.Column="0" WidthRequest="{StaticResource SizeMasteryRing}" HeightRequest="{StaticResource SizeMasteryRing}" Thickness="{StaticResource SizeMasteryRingStroke}"
+                                                   Segments="4" Duration="0" Value="{Binding Mastery}" VerticalOptions="Center"
+                                                   FillColor="{Binding StatusKey, Converter={StaticResource StatusColor}}"
+                                                   TrackColor="{AppThemeBinding Light={StaticResource ColorSurfaceSunkenLight}, Dark={StaticResource ColorSurfaceSunkenDark}}"
+                                                   AutomationProperties.IsInAccessibleTree="False" />
                             <VerticalStackLayout Grid.Column="1" Spacing="{StaticResource Space1}" VerticalOptions="Center">
                                 <Label Text="{Binding Lemma}" Style="{StaticResource TypeTitleMd}" LineBreakMode="TailTruncation" />
                                 <Label Text="{Binding Translation}" Style="{StaticResource TextSecondary}" LineBreakMode="TailTruncation" />

@@ -172,6 +172,26 @@ public sealed class SessionViewModelTests
     }
 
     [Fact]
+    public async Task After_the_feedback_dwell_the_session_moves_on_by_itself()
+    {
+        var (_, vm) = await StartAsync();
+        vm.AutoAdvanceOverride = TimeSpan.Zero;
+        CompleteWarmup(vm);
+        await Task.Delay(50, Ct);
+
+        vm.IsChoice.ShouldBeTrue("the warm-up advanced on its own");
+        vm.Answered.ShouldBeFalse();
+        var step = vm.CompletedCount;
+
+        await AnswerCorrectlyAsync(vm);
+        await Task.Delay(50, Ct);
+
+        vm.Answered.ShouldBeFalse("the next exercise is already on screen");
+        vm.CompletedCount.ShouldBe(step + 1);
+        SessionViewModel.AutoAdvanceAfterWrong.ShouldBeGreaterThan(SessionViewModel.AutoAdvanceAfterCorrect);
+    }
+
+    [Fact]
     public async Task Close_leaves_the_session()
     {
         var (harness, vm) = await StartAsync();
@@ -185,6 +205,8 @@ public sealed class SessionViewModelTests
     {
         var harness = await new ViewModelHarness().WithImportedWordsAsync(12);
         var vm = harness.Resolve<SessionViewModel>();
+        // The manual flow is deterministic for the tests; auto-advance has its own test.
+        vm.AutoAdvanceOverride = Timeout.InfiniteTimeSpan;
         vm.ApplyQueryAttributes(new Dictionary<string, object>(StringComparer.Ordinal) { ["size"] = "10" });
         await vm.LoadAsync(Ct);
         return (harness, vm);

@@ -18,6 +18,12 @@ public sealed class ProgressRing : GraphicsView, IDrawable
     public static readonly BindableProperty DurationProperty =
         BindableProperty.Create(nameof(Duration), typeof(int), typeof(ProgressRing), 600);
 
+    public static readonly BindableProperty SegmentsProperty =
+        BindableProperty.Create(nameof(Segments), typeof(int), typeof(ProgressRing), 0, propertyChanged: (b, _, _) => ((ProgressRing)b).Invalidate());
+
+    /// <summary>Gap between segments in degrees.</summary>
+    private const float SegmentGapDegrees = 14f;
+
     private double _shown;
 
     public ProgressRing()
@@ -37,6 +43,9 @@ public sealed class ProgressRing : GraphicsView, IDrawable
     /// <summary>Sweep animation length in ms (motion.duration.celebrate).</summary>
     public int Duration { get => (int)GetValue(DurationProperty); set => SetValue(DurationProperty, value); }
 
+    /// <summary>0 = continuous arc; N &gt; 0 = N separate segments, of which round(Value × N) are filled (mastery ring, S-14).</summary>
+    public int Segments { get => (int)GetValue(SegmentsProperty); set => SetValue(SegmentsProperty, value); }
+
     public void Draw(ICanvas canvas, RectF dirtyRect)
     {
         ArgumentNullException.ThrowIfNull(canvas);
@@ -52,6 +61,12 @@ public sealed class ProgressRing : GraphicsView, IDrawable
         canvas.Antialias = true;
         canvas.StrokeSize = stroke;
         canvas.StrokeLineCap = LineCap.Round;
+        if (Segments > 0)
+        {
+            DrawSegments(canvas, x, y, side);
+            return;
+        }
+
         canvas.StrokeColor = TrackColor;
         canvas.DrawEllipse(x, y, side, side);
 
@@ -63,6 +78,21 @@ public sealed class ProgressRing : GraphicsView, IDrawable
 
         canvas.StrokeColor = FillColor;
         canvas.DrawArc(x, y, side, side, 90, 90 - Math.Min(sweep, 359.9f), clockwise: true, closed: false);
+    }
+
+    private void DrawSegments(ICanvas canvas, float x, float y, float side)
+    {
+        var count = Segments;
+        var filled = (int)Math.Round(Math.Clamp(_shown, 0, 1) * count, MidpointRounding.AwayFromZero);
+        var span = 360f / count;
+        var arc = Math.Max(1f, span - SegmentGapDegrees);
+        for (var i = 0; i < count; i++)
+        {
+            // Segments run clockwise from 12 o'clock; Maui angles are counter-clockwise from 3 o'clock.
+            var start = 90 - i * span - SegmentGapDegrees / 2;
+            canvas.StrokeColor = i < filled ? FillColor : TrackColor;
+            canvas.DrawArc(x, y, side, side, start, start - arc, clockwise: true, closed: false);
+        }
     }
 
     private static void OnValueChanged(BindableObject bindable, object oldValue, object newValue)

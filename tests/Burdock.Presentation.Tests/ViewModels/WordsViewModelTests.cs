@@ -18,6 +18,7 @@ public sealed class WordsViewModelTests
         vm.Words.Count.ShouldBe(12);
         vm.CountText.ShouldContain("12");
         vm.Words.ShouldAllBe(w => w.StatusKey == "New");
+        vm.Words.ShouldAllBe(w => w.Mastery == 0 && w.Accessibility.EndsWith("знання 0 з 4", StringComparison.Ordinal));
         vm.Words[0].Lemma.ShouldBe("word1");
         vm.Words[0].Level.ShouldBe("A1");
         vm.Words[0].Accessibility.ShouldContain("слово1");

@@ -93,6 +93,9 @@ public sealed class LearnerCardRow
 
     public int RecallSuccesses { get; set; }
 
+    /// <summary>Session mastery streak 0..4 (added 30.10.2026; sqlite-net adds the column to existing databases).</summary>
+    public int MasteryProgress { get; set; }
+
     /// <summary>Learning days as yyyy-MM-dd joined by commas.</summary>
     public string ExposureDays { get; set; } = string.Empty;
 

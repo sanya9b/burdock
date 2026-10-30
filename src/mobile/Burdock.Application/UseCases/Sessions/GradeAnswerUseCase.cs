@@ -18,10 +18,10 @@ public sealed class GradeAnswerUseCase(
     IProgressOutbox outbox)
 {
     public Task<Result<GradeResult>> ExecuteAsync(SessionItem item, ExerciseOutcome outcome, CancellationToken cancellationToken)
-        => ExecuteAsync(item, outcome, masteredInSession: false, cancellationToken);
+        => ExecuteAsync(item, outcome, mastery: null, cancellationToken);
 
-    /// <summary>Grades one answer; when <paramref name="masteredInSession"/> is set the answer completed the session's mastery streak (spec 06 §3.7) and the card becomes learned.</summary>
-    public async Task<Result<GradeResult>> ExecuteAsync(SessionItem item, ExerciseOutcome outcome, bool masteredInSession, CancellationToken cancellationToken)
+    /// <summary>Grades one answer; <paramref name="mastery"/> is the session drill's step for this word (spec 06 §3.7): the streak is kept on the card and reaching the target makes it learned.</summary>
+    public async Task<Result<GradeResult>> ExecuteAsync(SessionItem item, ExerciseOutcome outcome, MasteryStep? mastery, CancellationToken cancellationToken)
     {
         ArgumentNullException.ThrowIfNull(item);
         var rating = GradingPolicy.Grade(outcome);
@@ -44,9 +44,13 @@ public sealed class GradeAnswerUseCase(
             return applied.Error;
         }
 
-        if (masteredInSession && outcome.Correct)
+        if (mastery is { } step)
         {
-            card.MarkMastered(now);
+            card.RecordMastery(step.Streak);
+            if (step.Mastered && outcome.Correct)
+            {
+                card.MarkMastered(now);
+            }
         }
 
         await cards.UpsertAsync(card, cancellationToken).ConfigureAwait(false);

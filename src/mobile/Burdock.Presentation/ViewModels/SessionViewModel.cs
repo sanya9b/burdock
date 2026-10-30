@@ -42,6 +42,10 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
 {
     private const int MismatchResetMilliseconds = 400;
 
+    /// <summary>Feedback dwell before the next exercise appears on its own (owner decision 30.10.2026); a wrong answer stays longer so the correct one can be read.</summary>
+    public static readonly TimeSpan AutoAdvanceAfterCorrect = TimeSpan.FromMilliseconds(900);
+    public static readonly TimeSpan AutoAdvanceAfterWrong = TimeSpan.FromMilliseconds(1800);
+
     private static readonly CultureInfo Ukrainian = CultureInfo.GetCultureInfo("uk-UA");
     private static readonly CompositeFormat ProgressFormat = CompositeFormat.Parse(AppResources.Session_Progress_Label);
     private static readonly CompositeFormat TypoFormat = CompositeFormat.Parse(AppResources.Session_Feedback_Typo);
@@ -60,6 +64,7 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
     private readonly Stopwatch _stopwatch = new();
     private readonly List<SessionItem> _items = [];
     private SessionDrill? _drill;
+    private bool _closed;
     private Guid _sessionId;
     private int _index = -1;
     private int _size = BuildSessionUseCase.DefaultSize;
@@ -232,6 +237,43 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
 
     /// <summary>The current exercise (tests only).</summary>
     internal SessionItem? CurrentItem => _index >= 0 && _index < _items.Count ? _items[_index] : null;
+
+    /// <summary>Tests override the auto-advance dwell (<see cref="Timeout.InfiniteTimeSpan"/> keeps the manual flow).</summary>
+    internal TimeSpan? AutoAdvanceOverride { get; set; }
+
+    /// <summary>After the feedback dwell the session moves on by itself; tapping «Далі» earlier or leaving the page cancels it.</summary>
+    private async void ScheduleAutoAdvance(bool correct)
+    {
+        var tick = AnswerTick;
+        var delay = AutoAdvanceOverride ?? (correct ? AutoAdvanceAfterCorrect : AutoAdvanceAfterWrong);
+        if (delay == Timeout.InfiniteTimeSpan)
+        {
+            return;
+        }
+
+        try
+        {
+            await Task.Delay(delay).ConfigureAwait(true);
+        }
+        catch (OperationCanceledException)
+        {
+            return;
+        }
+
+        if (_closed || !Answered || AnswerTick != tick)
+        {
+            return;
+        }
+
+        if (IsLast)
+        {
+            await FinishAsync(CancellationToken.None).ConfigureAwait(true);
+        }
+        else
+        {
+            ShowNext();
+        }
+    }
 
     /// <summary>Steps shown so far plus the answers the mastery drill still needs (grows after a mistake, spec 06 §3.7).</summary>
     private int ExpectedTotal()
@@ -410,6 +452,7 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
             Answered = true;
             LastAnswerCorrect = true;
             AnswerTick++;
+            ScheduleAutoAdvance(correct: true);
         }
     }
 
@@ -417,7 +460,11 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
     private void Next() => ShowNext();
 
     [RelayCommand]
-    private Task CloseAsync(CancellationToken cancellationToken) => _navigation.GoBackAsync(cancellationToken);
+    private Task CloseAsync(CancellationToken cancellationToken)
+    {
+        _closed = true;
+        return _navigation.GoBackAsync(cancellationToken);
+    }
 
     [RelayCommand]
     private Task FinishAsync(CancellationToken cancellationToken)
@@ -442,7 +489,7 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
         Answered = true;
         CompletedCount = _index + 1;
         var step = _drill?.Record(_items[_index], outcome.Correct);
-        var result = await _gradeAnswer.ExecuteAsync(_items[_index], outcome, step?.Mastered ?? false, CancellationToken.None).ConfigureAwait(true);
+        var result = await _gradeAnswer.ExecuteAsync(_items[_index], outcome, step, CancellationToken.None).ConfigureAwait(true);
         if (result.IsFailure)
         {
             SetFeedback(positive: false, AppResources.Common_Error_Title, string.Empty, AppResources.Common_Error_Title);
@@ -506,6 +553,7 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
 
         LastAnswerCorrect = outcome.Correct;
         AnswerTick++;
+        ScheduleAutoAdvance(outcome.Correct);
     }
 
     /// <summary>A mismatched meaning flashes red, then returns to neutral (spec 02 section 3.8).</summary>

@@ -54,6 +54,9 @@ public sealed class LearnerCard
 
     public int RecallSuccesses { get; private set; }
 
+    /// <summary>Correct answers in a row from the last session drill, 0..<see cref="LearningPolicy.MasteryStreak"/> (the «кільце знання» of S-14).</summary>
+    public int MasteryProgress { get; private set; }
+
     public IReadOnlyCollection<LearningDay> ExposureDays => _exposureDays;
 
     public IReadOnlyCollection<LearningDay> RecallSuccessDays => _recallSuccessDays;
@@ -66,7 +69,8 @@ public sealed class LearnerCard
     public static LearnerCard Restore(
         CardId id, LearnerId learnerId, LexemeId lexemeId, DateTimeOffset createdAt, CardState state, MemoryState? memory, int? step,
         DateTimeOffset? due, DateTimeOffset? lastReview, DateTimeOffset? introducedAt, DateTimeOffset? learnedAt, int reps, int lapses,
-        int scheduledExposures, int confirmedExposures, int recallSuccesses, IEnumerable<LearningDay> exposureDays, IEnumerable<LearningDay> recallSuccessDays)
+        int scheduledExposures, int confirmedExposures, int recallSuccesses, IEnumerable<LearningDay> exposureDays, IEnumerable<LearningDay> recallSuccessDays,
+        int masteryProgress = 0)
     {
         ArgumentNullException.ThrowIfNull(exposureDays);
         ArgumentNullException.ThrowIfNull(recallSuccessDays);
@@ -84,6 +88,7 @@ public sealed class LearnerCard
             ScheduledExposures = scheduledExposures,
             ConfirmedExposures = confirmedExposures,
             RecallSuccesses = recallSuccesses,
+            MasteryProgress = Math.Clamp(masteryProgress, 0, LearningPolicy.MasteryStreak),
         };
         card._exposureDays.UnionWith(exposureDays);
         card._recallSuccessDays.UnionWith(recallSuccessDays);
@@ -186,7 +191,11 @@ public sealed class LearnerCard
     {
         State = CardState.Known;
         IntroducedAt ??= at;
+        MasteryProgress = LearningPolicy.MasteryStreak;
     }
+
+    /// <summary>The session drill reports the word's streak after an answer (a mistake reports 0).</summary>
+    public void RecordMastery(int streak) => MasteryProgress = Math.Clamp(streak, 0, LearningPolicy.MasteryStreak);
 
     public void Suspend() => State = CardState.Suspended;
 
@@ -204,6 +213,7 @@ public sealed class LearnerCard
         IntroducedAt ??= at;
         State = CardState.Learned;
         LearnedAt ??= at;
+        MasteryProgress = LearningPolicy.MasteryStreak;
     }
 
     private CardState ResolveState(CardState schedulerState, Rating rating)

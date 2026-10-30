@@ -216,7 +216,8 @@
   <data name="Words_Due_Days_One" xml:space="preserve"><value>через {0} день</value></data>
   <data name="Words_Due_Days_Few" xml:space="preserve"><value>через {0} дні</value></data>
   <data name="Words_Due_Days_Many" xml:space="preserve"><value>через {0} днів</value></data>
-  <data name="Words_Row_A11y" xml:space="preserve"><value>{0}, {1}, {2}, {3}</value><comment>Одне речення для читача екрана: слово, переклад, статус, наступне повторення</comment></data>
+  <data name="Words_Row_A11y" xml:space="preserve"><value>{0}, {1}, {2}, {3}, {4}</value><comment>Одне речення для читача екрана: слово, переклад, статус, наступне повторення, знання</comment></data>
+  <data name="Words_Mastery_A11y" xml:space="preserve"><value>знання {0} з {1}</value><comment>Кільце знання слова (4 правильні відповіді поспіль)</comment></data>
 
   <!-- Categories (decision Q18) -->
   <data name="Topic_communication" xml:space="preserve"><value>Спілкування</value></data>
