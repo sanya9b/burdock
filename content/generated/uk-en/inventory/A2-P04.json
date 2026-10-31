@@ -1,0 +1,657 @@
+{
+ "chunk": "A2-P04",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "3ddeed8b-54df-54dd-b821-2f25801fab1e",
+   "lemma": "window shopping",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "window shopping",
+    "go window shopping"
+   ],
+   "kind": "collocation",
+   "glossEn": "looking at shop displays without buying",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "17fd8d55-859a-577c-b6c9-091ca7dbc159",
+   "lemma": "sales assistant",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sales assistant",
+    "shop assistant",
+    "sales clerk"
+   ],
+   "kind": "collocation",
+   "glossEn": "a person who serves customers in a shop",
+   "topics": [
+    "shopping",
+    "work"
+   ]
+  },
+  {
+   "id": "c60eb825-4778-5bf7-a858-0bc9d6c07105",
+   "lemma": "fitting room",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fitting room",
+    "changing room",
+    "dressing room"
+   ],
+   "kind": "collocation",
+   "glossEn": "a place in a shop to try on clothes",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "3f9ee22a-578b-55a5-b990-49d8cb900230",
+   "lemma": "have a meeting",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have a meeting",
+    "hold a meeting"
+   ],
+   "kind": "collocation",
+   "glossEn": "meet with colleagues to discuss work",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "7653924d-63de-5b26-9c08-fbd8a0506281",
+   "lemma": "attend a meeting",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "attend a meeting",
+    "go to a meeting"
+   ],
+   "kind": "collocation",
+   "glossEn": "be present at a meeting",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "46f4bc03-82ab-593c-92d8-aebbee2776a0",
+   "lemma": "work hard",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "work hard"
+   ],
+   "kind": "collocation",
+   "glossEn": "put a lot of effort into work",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "6352e148-057c-5749-872f-b89f20b8d040",
+   "lemma": "work overtime",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "work overtime",
+    "do overtime"
+   ],
+   "kind": "collocation",
+   "glossEn": "work more hours than usual",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "eb7d43d4-8fe3-53c0-bd4d-5eb80839201f",
+   "lemma": "work from home",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "work from home",
+    "work remotely"
+   ],
+   "kind": "collocation",
+   "glossEn": "do your job at home instead of the office",
+   "topics": [
+    "work",
+    "it"
+   ]
+  },
+  {
+   "id": "2bb014fa-a1d4-5101-aa8f-f4564eadc2ee",
+   "lemma": "earn money",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "earn money",
+    "earn a living"
+   ],
+   "kind": "collocation",
+   "glossEn": "receive money for work",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "71d03715-dbb8-51ca-9e02-f60502b0489d",
+   "lemma": "get a raise",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get a raise",
+    "get a pay rise",
+    "get a pay raise"
+   ],
+   "kind": "collocation",
+   "glossEn": "receive an increase in salary",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "451fbd6a-894a-53dc-a352-02864065c785",
+   "lemma": "apply for a job",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "apply for a job",
+    "apply for a position"
+   ],
+   "kind": "collocation",
+   "glossEn": "formally ask to be given a job",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "0f637183-9067-576d-81a3-64cc536295fe",
+   "lemma": "quit your job",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quit your job",
+    "quit a job",
+    "leave your job"
+   ],
+   "kind": "collocation",
+   "glossEn": "leave your job by choice",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "e83d7274-7248-5f31-8fdf-143552259302",
+   "lemma": "run a business",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "run a business",
+    "run a company"
+   ],
+   "kind": "collocation",
+   "glossEn": "manage your own company",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "78a5315d-8e6d-5490-9e19-7974852064d1",
+   "lemma": "start a business",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "start a business",
+    "set up a business",
+    "start a company"
+   ],
+   "kind": "collocation",
+   "glossEn": "create a new company",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "3159fb36-5f4e-55d3-a1e4-1ca9edb6aea1",
+   "lemma": "write a report",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "write a report",
+    "write up a report"
+   ],
+   "kind": "collocation",
+   "glossEn": "produce a written account of something",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "3fa09408-1bed-5a59-b6f1-f406a2237477",
+   "lemma": "give a presentation",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "give a presentation",
+    "make a presentation",
+    "do a presentation"
+   ],
+   "kind": "collocation",
+   "glossEn": "speak to an audience with slides or notes",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  },
+  {
+   "id": "57242fac-53d9-5540-aac5-1afbeb81550f",
+   "lemma": "have a word with sb",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have a word with sb",
+    "have a word",
+    "have a quick word"
+   ],
+   "kind": "collocation",
+   "glossEn": "speak briefly and privately to someone",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "75115499-6e43-5d82-992c-c4f7472a6779",
+   "lemma": "have a chat",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have a chat",
+    "have a chat with sb"
+   ],
+   "kind": "collocation",
+   "glossEn": "talk in a friendly informal way",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "e1879d70-7c6f-5773-a9d5-462d80defeed",
+   "lemma": "have a conversation",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have a conversation",
+    "have a conversation with sb"
+   ],
+   "kind": "collocation",
+   "glossEn": "talk with someone",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "b8313546-a062-523d-92ae-61880a50d11c",
+   "lemma": "have an argument",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have an argument",
+    "have an argument with sb",
+    "have a row"
+   ],
+   "kind": "collocation",
+   "glossEn": "disagree angrily with someone",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "f0182c3e-5d49-5bee-9e65-e5f9c6e92dca",
+   "lemma": "have a problem",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have a problem",
+    "have problems",
+    "have a problem with sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "face a difficulty",
+   "topics": []
+  },
+  {
+   "id": "143ec1e6-6f62-509f-a934-2b6dfc3af62f",
+   "lemma": "have an idea",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have an idea",
+    "have ideas",
+    "have no idea"
+   ],
+   "kind": "collocation",
+   "glossEn": "think of a plan or thought",
+   "topics": []
+  },
+  {
+   "id": "96b4ed78-e088-5550-a916-8f4eb6ab375b",
+   "lemma": "have a dream",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have a dream",
+    "have dreams"
+   ],
+   "kind": "collocation",
+   "glossEn": "see images while sleeping; have a strong wish",
+   "topics": []
+  },
+  {
+   "id": "ad37a7e6-f958-52f1-bf1a-e357543657ce",
+   "lemma": "have a go",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have a go",
+    "have a try",
+    "have a go at sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "try to do something",
+   "topics": []
+  },
+  {
+   "id": "cf0ad193-c2a1-56da-b874-92b33e7569ac",
+   "lemma": "have an accident",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have an accident",
+    "have a car accident"
+   ],
+   "kind": "collocation",
+   "glossEn": "be hurt or damaged in an unexpected event",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "a6cb40fa-b743-5c48-8a3e-45bf57764399",
+   "lemma": "have an operation",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have an operation",
+    "have surgery",
+    "undergo an operation"
+   ],
+   "kind": "collocation",
+   "glossEn": "be treated by a surgeon",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "c068a7d2-80da-5b97-b65d-b3a66f2093b1",
+   "lemma": "have a temperature",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have a temperature",
+    "run a temperature",
+    "have a fever"
+   ],
+   "kind": "collocation",
+   "glossEn": "have a fever",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "e24b8dad-74eb-5806-81de-7c0187836e69",
+   "lemma": "have a sore throat",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have a sore throat",
+    "sore throat"
+   ],
+   "kind": "collocation",
+   "glossEn": "feel pain in your throat",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "01daaf47-4f9d-5aad-ae34-474cfbfdbde2",
+   "lemma": "have a stomachache",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have a stomachache",
+    "have a stomach ache",
+    "have stomach ache"
+   ],
+   "kind": "collocation",
+   "glossEn": "feel pain in your stomach",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "3e36cf25-d2fb-5981-a923-a772da80babd",
+   "lemma": "have a toothache",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have a toothache",
+    "have toothache"
+   ],
+   "kind": "collocation",
+   "glossEn": "feel pain in a tooth",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "a13f162d-9a93-5793-9d51-9bd39138122d",
+   "lemma": "have the flu",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have the flu",
+    "get the flu",
+    "catch the flu"
+   ],
+   "kind": "collocation",
+   "glossEn": "be ill with influenza",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "795e2e65-76c6-59d3-a89e-eb5280747768",
+   "lemma": "see a doctor",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "see a doctor",
+    "go to the doctor",
+    "go to the doctor's"
+   ],
+   "kind": "collocation",
+   "glossEn": "visit a doctor for medical help",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "5cd0b66d-1ec3-572e-9224-27183af490c1",
+   "lemma": "take a pill",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take a pill",
+    "take pills",
+    "take a tablet"
+   ],
+   "kind": "collocation",
+   "glossEn": "swallow a small tablet of medicine",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "a40fdca9-0766-5218-9092-a2c6c4dcae73",
+   "lemma": "take sb's temperature",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take sb's temperature",
+    "take your temperature"
+   ],
+   "kind": "collocation",
+   "glossEn": "measure how hot someone's body is",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "83f7f8a7-45b1-5705-968d-4c26085455d4",
+   "lemma": "get a prescription",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get a prescription",
+    "write a prescription"
+   ],
+   "kind": "collocation",
+   "glossEn": "receive a doctor's written order for medicine",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "1fb660fb-9e09-58ad-9a38-ec90c4a5def7",
+   "lemma": "get an injection",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get an injection",
+    "have an injection",
+    "get a shot"
+   ],
+   "kind": "collocation",
+   "glossEn": "have medicine put in with a needle",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "f8b27fb5-0ddc-5e0d-98a3-53b9ce666ddd",
+   "lemma": "blood pressure",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blood pressure"
+   ],
+   "kind": "collocation",
+   "glossEn": "the force of blood in your arteries",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "e63305a9-7340-53fc-8931-54edf51dc83a",
+   "lemma": "healthy diet",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "healthy diet",
+    "balanced diet"
+   ],
+   "kind": "collocation",
+   "glossEn": "food habits that are good for the body",
+   "topics": [
+    "health",
+    "food"
+   ]
+  },
+  {
+   "id": "33d25e3a-7c95-502a-a142-8950ff6db844",
+   "lemma": "healthy lifestyle",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "healthy lifestyle"
+   ],
+   "kind": "collocation",
+   "glossEn": "a way of living that keeps you well",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "771f3365-ede0-58f8-b781-fd5f815ed8fb",
+   "lemma": "regular exercise",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "regular exercise",
+    "take regular exercise"
+   ],
+   "kind": "collocation",
+   "glossEn": "physical activity done often",
+   "topics": [
+    "health"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,658 @@
+{
+ "chunk": "A1-P04",
+ "level": "A1",
+ "lexemes": [
+  {
+   "id": "e141930f-496c-50d4-ac5b-ce9739deab83",
+   "lemma": "me too",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "me too"
+   ],
+   "kind": "formula",
+   "glossEn": "saying the same is true for you",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "cabfa21c-916c-5ba9-ba0e-dbb57fba4c09",
+   "lemma": "and you",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "and you"
+   ],
+   "kind": "formula",
+   "glossEn": "returning a question to the other person",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "cead61d7-dd9d-532b-9b93-f882ee8bf769",
+   "lemma": "let's go",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "let's go",
+    "let us go"
+   ],
+   "kind": "formula",
+   "glossEn": "suggesting to leave or start",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "320dc09f-4024-5a22-b79f-21fb787caa51",
+   "lemma": "just a moment",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "just a moment",
+    "just a minute",
+    "just a second",
+    "one moment, please"
+   ],
+   "kind": "formula",
+   "glossEn": "asking someone to wait briefly",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "34c317f1-6d13-5d17-90de-f12a85d51e9b",
+   "lemma": "wait a minute",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wait a minute",
+    "wait a second",
+    "wait a sec"
+   ],
+   "kind": "formula",
+   "glossEn": "asking someone to pause; expressing surprise",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "e535d413-f3c8-5152-a7d9-897e45f3fb8a",
+   "lemma": "I think so",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I think so"
+   ],
+   "kind": "formula",
+   "glossEn": "agreeing with some uncertainty",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "21f39fa6-62bb-5716-9069-8ee681e29502",
+   "lemma": "I hope so",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I hope so"
+   ],
+   "kind": "formula",
+   "glossEn": "expressing hope that something is true",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "c1125c10-c9b6-5d0d-b231-b88af696977a",
+   "lemma": "I agree",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I agree",
+    "I agree with you"
+   ],
+   "kind": "formula",
+   "glossEn": "saying you share the opinion",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "bdc467ca-77e5-5950-9a99-2fa60325bb74",
+   "lemma": "that's a good idea",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "that's a good idea",
+    "good idea",
+    "that is a good idea"
+   ],
+   "kind": "formula",
+   "glossEn": "approving a suggestion",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "6ed959f3-5117-5265-8eef-d8846549e8cf",
+   "lemma": "well done",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "well done",
+    "good job",
+    "nice job"
+   ],
+   "kind": "formula",
+   "glossEn": "praising someone for success",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "ef14cb22-f467-588c-9461-331040911a92",
+   "lemma": "no, thanks",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "no, thanks",
+    "no, thank you",
+    "no thanks"
+   ],
+   "kind": "formula",
+   "glossEn": "politely refusing an offer",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "7e694e60-4c87-5e8d-847d-f1ca9551df4e",
+   "lemma": "yes, please",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "yes, please",
+    "yes please"
+   ],
+   "kind": "formula",
+   "glossEn": "politely accepting an offer",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "f36f5179-50ad-50c6-b02a-d0a4bded4a60",
+   "lemma": "how about you",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "how about you",
+    "what about you"
+   ],
+   "kind": "formula",
+   "glossEn": "asking the same question back",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "f3745598-f4dc-5178-974d-291e58e3d01b",
+   "lemma": "for example",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "for example",
+    "for instance"
+   ],
+   "kind": "formula",
+   "glossEn": "introducing an example",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "814db456-cb15-5efe-ac67-fb7dbd948f81",
+   "lemma": "hold on",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hold on",
+    "hold on a second",
+    "hold on a minute"
+   ],
+   "kind": "formula",
+   "glossEn": "asking someone to wait briefly",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "f6fd43ff-b087-579e-bfe0-e44e633ab8a8",
+   "lemma": "come on",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "come on",
+    "c'mon"
+   ],
+   "kind": "formula",
+   "glossEn": "urging someone to hurry or try; disbelief",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "326db278-e3d7-5eb1-892a-8c39d551b3a6",
+   "lemma": "watch out",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "watch out",
+    "look out"
+   ],
+   "kind": "formula",
+   "glossEn": "warning of danger",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "cda1d93e-df5d-516d-a778-dcf93bdab8ef",
+   "lemma": "bless you",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bless you"
+   ],
+   "kind": "formula",
+   "glossEn": "said after someone sneezes",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "9259a41d-1ee7-5856-9fb1-553cbb1b132c",
+   "lemma": "nice to see you",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nice to see you",
+    "good to see you",
+    "nice to see you again"
+   ],
+   "kind": "formula",
+   "glossEn": "greeting someone you already know",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "59768c61-8749-5bbf-8a8b-22772b8bfcc4",
+   "lemma": "the check, please",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "the check, please",
+    "check, please",
+    "the bill, please",
+    "can we have the check"
+   ],
+   "kind": "formula",
+   "glossEn": "asking for the bill in a restaurant",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "613aa436-2ce5-58a5-b0cc-56c3828079c9",
+   "lemma": "a table for two",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a table for two",
+    "a table for two, please",
+    "table for two"
+   ],
+   "kind": "formula",
+   "glossEn": "asking for a restaurant table for two people",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "8e54c5bb-877b-533a-b11a-4585739d3b07",
+   "lemma": "I'm looking for",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I'm looking for",
+    "I am looking for"
+   ],
+   "kind": "formula",
+   "glossEn": "saying what you want to find or buy",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "f5f678be-c9fd-579c-a039-b6f2d2e98ebd",
+   "lemma": "can I have",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "can I have",
+    "could I have",
+    "may I have"
+   ],
+   "kind": "formula",
+   "glossEn": "polite request for something",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "7399474b-2a12-5091-8b01-3d90a1fa0466",
+   "lemma": "enjoy your meal",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "enjoy your meal",
+    "bon appetit"
+   ],
+   "kind": "formula",
+   "glossEn": "wishing a pleasant meal",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "7a96b3a3-308e-5751-aca6-b73d165fd506",
+   "lemma": "same here",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "same here"
+   ],
+   "kind": "formula",
+   "glossEn": "saying the same applies to you",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "b102a5a6-cd4e-5f80-b265-d46d52fa8bdc",
+   "lemma": "it doesn't matter",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "it doesn't matter",
+    "it does not matter",
+    "doesn't matter"
+   ],
+   "kind": "formula",
+   "glossEn": "saying something is not important",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "2c4aa0d7-d104-52a7-bd63-57e11e88d6f5",
+   "lemma": "are you okay",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "are you okay",
+    "are you OK",
+    "are you all right"
+   ],
+   "kind": "formula",
+   "glossEn": "asking if someone is fine",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "d8d15cad-6b02-5105-916d-cefc02ae3940",
+   "lemma": "what does it mean",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "what does it mean",
+    "what does that mean",
+    "what does this mean"
+   ],
+   "kind": "formula",
+   "glossEn": "asking for the meaning of a word or phrase",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "bb133703-2455-5159-bd53-6d48eaed6f1a",
+   "lemma": "how do you say",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "how do you say",
+    "how do you say it in English"
+   ],
+   "kind": "formula",
+   "glossEn": "asking for a word in another language",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "2ff85d8b-0b8c-5125-a0dd-51b221e8b105",
+   "lemma": "that's okay",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "that's okay",
+    "that's OK",
+    "that's fine",
+    "that is okay"
+   ],
+   "kind": "formula",
+   "glossEn": "saying something is fine or accepted",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "af21d20c-6004-5283-8974-f16da1c8ca64",
+   "lemma": "not bad",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "not bad",
+    "not too bad"
+   ],
+   "kind": "formula",
+   "glossEn": "fairly good; a modest positive reply",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "64a08aa6-445a-5cd5-95b8-d9472347994b",
+   "lemma": "see you",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "see you",
+    "see ya"
+   ],
+   "kind": "formula",
+   "glossEn": "short informal goodbye",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "6dbe72a6-90aa-5345-91fc-092493be47bc",
+   "lemma": "anything else",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "anything else",
+    "would you like anything else"
+   ],
+   "kind": "formula",
+   "glossEn": "asking if more is wanted",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "25aa2366-af26-5671-b49c-3854b0a7487f",
+   "lemma": "that's it",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "that's it",
+    "that is it"
+   ],
+   "kind": "formula",
+   "glossEn": "that is all; exactly",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "0609ad54-b12c-50d2-b600-41f476e3b4b1",
+   "lemma": "not yet",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "not yet"
+   ],
+   "kind": "formula",
+   "glossEn": "saying something has not happened so far",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "b75472d2-487e-533e-9a0c-c8d7419f0fcc",
+   "lemma": "what do you think",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "what do you think",
+    "what do you think about it"
+   ],
+   "kind": "formula",
+   "glossEn": "asking for an opinion",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "f61d4c12-7532-5347-8648-249696dc1929",
+   "lemma": "I have to go",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I have to go",
+    "I've got to go",
+    "I must go"
+   ],
+   "kind": "formula",
+   "glossEn": "saying you must leave",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "04a32f14-a8a1-5dea-9721-b6877c960460",
+   "lemma": "sorry I'm late",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sorry I'm late",
+    "sorry for being late",
+    "I'm sorry I'm late"
+   ],
+   "kind": "formula",
+   "glossEn": "apologizing for being late",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "1377eacb-d372-5ed6-90af-73e525728452",
+   "lemma": "can I help you",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "can I help you",
+    "may I help you",
+    "how can I help you"
+   ],
+   "kind": "formula",
+   "glossEn": "offer of help, often by staff",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "d88f343a-fb48-582f-bcfc-887b7b1878c6",
+   "lemma": "why not",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "why not"
+   ],
+   "kind": "formula",
+   "glossEn": "agreeing to a suggestion; asking the reason for refusal",
+   "topics": [
+    "communication"
+   ]
+  }
+ ]
+}

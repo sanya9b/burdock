@@ -21,7 +21,7 @@ public sealed record AchievementRow(AchievementTile Left, AchievementTile? Right
     public bool HasRight => Right is not null;
 }
 
-/// <summary>S-17 «Я»: anonymous learner, level and XP, thorns, streak, achievements, entry to settings (spec 03; economy per spec 07).</summary>
+/// <summary>S-17 «Я»: the learner's growing Реп’яшок (spec 07 §3.2.7), level and XP, thorns, streak, achievements, entry to settings (spec 03; economy per spec 07).</summary>
 public sealed partial class MeViewModel : ObservableObject
 {
     private static readonly CultureInfo Ukrainian = CultureInfo.GetCultureInfo("uk-UA");
@@ -37,6 +37,21 @@ public sealed partial class MeViewModel : ObservableObject
 
     [ObservableProperty]
     private bool _showRewards;
+
+    [ObservableProperty]
+    private GrowthStage _growthStage = GrowthRules.Adult.Stage;
+
+    [ObservableProperty]
+    private double _growthProgress = GrowthRules.Adult.Progress;
+
+    [ObservableProperty]
+    private string _stageName = string.Empty;
+
+    [ObservableProperty]
+    private string _growthCaption = string.Empty;
+
+    [ObservableProperty]
+    private string _growthDescription = AppResources.Growth_A11y_Plain;
 
     [ObservableProperty]
     private string _levelText = string.Empty;
@@ -74,6 +89,15 @@ public sealed partial class MeViewModel : ObservableObject
         {
             var overview = await _overview.ExecuteAsync(cancellationToken).ConfigureAwait(true);
             ShowRewards = overview.GamificationEnabled;
+
+            // Without gamification the burr stays as an illustration in its grown-up form (spec 07 §3.9); growth keeps being recorded silently.
+            var growth = overview.GamificationEnabled ? overview.Growth : GrowthRules.Adult;
+            GrowthStage = growth.Stage;
+            GrowthProgress = growth.Progress;
+            StageName = RewardsText.StageName(growth.Stage);
+            GrowthCaption = RewardsText.GrowthCaption(growth);
+            GrowthDescription = overview.GamificationEnabled ? RewardsText.GrowthDescription(growth.Stage) : AppResources.Growth_A11y_Plain;
+
             LevelText = RewardsText.Level(overview.Level);
             XpProgress = overview.XpNeededForLevel == 0 ? 1 : (double)overview.XpEarnedInLevel / overview.XpNeededForLevel;
             XpText = overview.XpNeededForLevel == 0

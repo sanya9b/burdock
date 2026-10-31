@@ -1,0 +1,564 @@
+{
+ "chunk": "B1-P19",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "f9daae35-7181-5dd3-803e-754951f3e92c",
+   "lemma": "tie up",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tie up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "fasten with rope; keep someone busy",
+   "topics": []
+  },
+  {
+   "id": "49285935-daa2-5cd6-afc9-b2e92a0fd105",
+   "lemma": "top up sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "top up sth",
+    "top up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "add more to make something full again",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "48037285-88b2-5355-9feb-cab91d7af6ec",
+   "lemma": "try out sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "try out sth",
+    "try out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "test something to see if it works",
+   "topics": []
+  },
+  {
+   "id": "dbccc01c-6886-591e-a18c-7240933953ae",
+   "lemma": "turn away sb",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "turn away sb",
+    "turn away"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "refuse to let someone enter",
+   "topics": []
+  },
+  {
+   "id": "81b43da8-7c67-5316-8eb0-4a0dbb88fea1",
+   "lemma": "turn in",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "turn in"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "go to bed; submit work; hand over to the police",
+   "topics": []
+  },
+  {
+   "id": "37ba9fe3-338e-5fda-bbe9-a869628ca96c",
+   "lemma": "turn to sb",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "turn to sb",
+    "turn to"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "ask someone for help or advice",
+   "topics": []
+  },
+  {
+   "id": "d7662cdf-d54d-575b-b550-ad039874bba7",
+   "lemma": "wait on sb",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wait on sb",
+    "wait on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "serve food and drink to someone",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "b2a7c6c4-5fbb-594a-b023-c8526e24448b",
+   "lemma": "walk out",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "walk out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "leave suddenly as a protest",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "774bcc75-9fcb-5dae-991e-736a974a2512",
+   "lemma": "watch over sb",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "watch over sb",
+    "watch over"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "guard and protect someone",
+   "topics": []
+  },
+  {
+   "id": "3b46df96-dc9c-5658-8d4d-51026b89fbf3",
+   "lemma": "wear out",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wear out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "become unusable through use; make very tired",
+   "topics": []
+  },
+  {
+   "id": "18311f16-3d12-57b0-b59c-ba0dc0405d2e",
+   "lemma": "write back",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "write back"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "reply to a letter or message",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "9321aa38-0b14-5a26-97f1-dd184bd9fc5e",
+   "lemma": "zip up sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "zip up sth",
+    "zip up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "fasten clothing or a bag with a zipper",
+   "topics": []
+  },
+  {
+   "id": "2348cdd0-a90c-5b8c-94af-cbb1566cd0c7",
+   "lemma": "ask around",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ask around",
+    "ask round"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "ask several people for information",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "2b35b718-baf6-5f3b-bfbd-e083381d4eeb",
+   "lemma": "back off",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "back off"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "move away; stop pressuring someone",
+   "topics": []
+  },
+  {
+   "id": "97459c18-14d1-5d0c-8c01-010821d60018",
+   "lemma": "black out",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "black out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "lose consciousness briefly; lose all lights",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "b40322bf-1935-543c-9a56-02d775f87039",
+   "lemma": "brush up on sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brush up on sth",
+    "brush up on",
+    "brush up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "improve a skill you have not used for a while",
+   "topics": []
+  },
+  {
+   "id": "a2e38fea-18cd-5bf1-838d-9ede2aa738fc",
+   "lemma": "build up",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "build up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "increase gradually; develop over time",
+   "topics": []
+  },
+  {
+   "id": "fa9cbccb-428d-53bc-b46c-9637bdb81942",
+   "lemma": "cheer on sb",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cheer on sb",
+    "cheer on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "encourage a team or person by shouting",
+   "topics": []
+  },
+  {
+   "id": "491b96ee-966b-5169-8400-9c6275cee67d",
+   "lemma": "chill out",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chill out",
+    "chill"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "relax completely, informal",
+   "topics": []
+  },
+  {
+   "id": "9e2d2b32-e4da-501e-9a5c-d0a66de502ca",
+   "lemma": "in advance",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in advance"
+   ],
+   "kind": "prepositional",
+   "glossEn": "before a particular time or event",
+   "topics": []
+  },
+  {
+   "id": "5bd09ac3-fcc5-503a-a8bb-141f6583046b",
+   "lemma": "on behalf of",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on behalf of",
+    "on one's behalf"
+   ],
+   "kind": "prepositional",
+   "glossEn": "representing or instead of someone",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "d8452aa0-4f28-5d76-92f2-3592c3a78b0d",
+   "lemma": "in charge of",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in charge of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "responsible for and controlling something",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "018ce438-cb46-590a-b4b5-c503d5c611ce",
+   "lemma": "up to date",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "up to date",
+    "up-to-date"
+   ],
+   "kind": "prepositional",
+   "glossEn": "modern; including the latest information",
+   "topics": []
+  },
+  {
+   "id": "75d53fae-0c75-5dfd-a74c-11bd77b6130a",
+   "lemma": "out of date",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "out of date",
+    "out-of-date"
+   ],
+   "kind": "prepositional",
+   "glossEn": "old-fashioned; no longer valid",
+   "topics": []
+  },
+  {
+   "id": "a627eac8-4f14-58cf-8525-a46e251ead91",
+   "lemma": "out of order",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "out of order"
+   ],
+   "kind": "prepositional",
+   "glossEn": "not working, broken (of a machine)",
+   "topics": []
+  },
+  {
+   "id": "944cfc58-6385-5e8e-b160-e4db1886a622",
+   "lemma": "under pressure",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "under pressure"
+   ],
+   "kind": "prepositional",
+   "glossEn": "experiencing stress or strong demands",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "ec624580-180e-5fb7-87e5-9071e856b841",
+   "lemma": "at first sight",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at first sight",
+    "at first glance"
+   ],
+   "kind": "prepositional",
+   "glossEn": "when seen for the first time",
+   "topics": []
+  },
+  {
+   "id": "0000cbe8-871d-5547-8df4-b3b184521c8b",
+   "lemma": "in person",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in person"
+   ],
+   "kind": "prepositional",
+   "glossEn": "physically present, not by phone or online",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "5171bd91-ca52-51c3-a632-6ab684e9f8f6",
+   "lemma": "in particular",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in particular"
+   ],
+   "kind": "prepositional",
+   "glossEn": "especially, more than others",
+   "topics": []
+  },
+  {
+   "id": "e11932ed-f844-5994-a766-b420cfc94417",
+   "lemma": "in addition",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in addition",
+    "in addition to"
+   ],
+   "kind": "prepositional",
+   "glossEn": "also, as an extra point",
+   "topics": []
+  },
+  {
+   "id": "e7bd40a0-2181-58de-a75b-5300d91bf958",
+   "lemma": "as a result",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as a result",
+    "as a result of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "because of what has just been mentioned",
+   "topics": []
+  },
+  {
+   "id": "4c8dcd73-5985-500b-91ec-92455d235f4b",
+   "lemma": "in spite of",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in spite of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "despite; without being affected by",
+   "topics": []
+  },
+  {
+   "id": "be0ba939-8203-5d7e-9613-09af0367da6f",
+   "lemma": "in case of",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in case of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "if a particular thing happens",
+   "topics": []
+  },
+  {
+   "id": "3dbccbfc-05f1-5301-b690-3d70f045533c",
+   "lemma": "on average",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on average"
+   ],
+   "kind": "prepositional",
+   "glossEn": "typically, taking the usual amount",
+   "topics": []
+  },
+  {
+   "id": "c247ced6-d5f2-56d9-b3c9-feb2a2c2ee67",
+   "lemma": "at random",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at random"
+   ],
+   "kind": "prepositional",
+   "glossEn": "without any plan or pattern",
+   "topics": []
+  },
+  {
+   "id": "d5e0eab9-ff95-5c7e-853a-0b7655d8ba84",
+   "lemma": "by chance",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "by chance"
+   ],
+   "kind": "prepositional",
+   "glossEn": "without planning; accidentally",
+   "topics": []
+  },
+  {
+   "id": "268c5d31-17c5-5f99-8fdf-80d46fae0919",
+   "lemma": "on the spot",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the spot"
+   ],
+   "kind": "prepositional",
+   "glossEn": "immediately, at that place and time",
+   "topics": []
+  },
+  {
+   "id": "298bcfd5-d2ae-5193-a989-6c37798e7bc9",
+   "lemma": "in public",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in public"
+   ],
+   "kind": "prepositional",
+   "glossEn": "where other people can see or hear",
+   "topics": []
+  },
+  {
+   "id": "8a8aefd2-3d0f-534b-b567-d7bf3012b25c",
+   "lemma": "in private",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in private"
+   ],
+   "kind": "prepositional",
+   "glossEn": "with no other people present",
+   "topics": []
+  },
+  {
+   "id": "f2c6876b-fd2a-5133-9921-2045991f680c",
+   "lemma": "in danger",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in danger"
+   ],
+   "kind": "prepositional",
+   "glossEn": "likely to be harmed",
+   "topics": []
+  }
+ ]
+}

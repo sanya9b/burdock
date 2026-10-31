@@ -1,0 +1,655 @@
+{
+ "chunk": "A2-P03",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "73d41575-a989-53a2-b0e2-4253c5b3f7a9",
+   "lemma": "high quality",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "high quality",
+    "high-quality",
+    "good quality"
+   ],
+   "kind": "collocation",
+   "glossEn": "very good standard",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "644f66c2-a20f-56ad-9d2f-f1e83ee864a3",
+   "lemma": "low quality",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "low quality",
+    "low-quality",
+    "poor quality"
+   ],
+   "kind": "collocation",
+   "glossEn": "poor standard",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "bd1e7def-1a64-533e-9c87-944105d8646c",
+   "lemma": "high price",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "high price",
+    "high prices"
+   ],
+   "kind": "collocation",
+   "glossEn": "a large amount of money asked for something",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "bed17b4c-8d47-5e7f-a4f9-e3e90b4f08ff",
+   "lemma": "low price",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "low price",
+    "low prices"
+   ],
+   "kind": "collocation",
+   "glossEn": "a small amount of money asked for something",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "b407aac3-ac31-5078-813d-e935ae46c576",
+   "lemma": "high temperature",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "high temperature",
+    "high fever"
+   ],
+   "kind": "collocation",
+   "glossEn": "a body temperature above normal; a fever",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "80c9db8c-137c-5d08-8107-39059002c199",
+   "lemma": "bad weather",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bad weather",
+    "terrible weather"
+   ],
+   "kind": "collocation",
+   "glossEn": "rainy, cold or stormy conditions",
+   "topics": []
+  },
+  {
+   "id": "a0ee527e-756d-55ea-b1fe-01cf4ad7c50e",
+   "lemma": "good weather",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "good weather",
+    "nice weather",
+    "fine weather"
+   ],
+   "kind": "collocation",
+   "glossEn": "sunny and pleasant conditions",
+   "topics": []
+  },
+  {
+   "id": "74d8c42a-c47f-5bad-a565-d01a2b118526",
+   "lemma": "fresh air",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fresh air",
+    "get some fresh air"
+   ],
+   "kind": "collocation",
+   "glossEn": "clean air outdoors",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "7e533715-3e70-5a92-9919-4beb844a05fa",
+   "lemma": "fresh bread",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fresh bread"
+   ],
+   "kind": "collocation",
+   "glossEn": "bread that was baked recently",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "c44e87a8-032e-5192-a0d0-1a50c5e0631e",
+   "lemma": "fresh fruit",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fresh fruit",
+    "fresh fruits"
+   ],
+   "kind": "collocation",
+   "glossEn": "fruit that is not cooked, frozen or canned",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "349d1c23-4933-5020-ac4c-20372b01473f",
+   "lemma": "fresh vegetables",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fresh vegetables",
+    "fresh veg",
+    "fresh veggies"
+   ],
+   "kind": "collocation",
+   "glossEn": "vegetables that are not cooked, frozen or canned",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "3dd5c865-5305-577b-87de-9134c58d9555",
+   "lemma": "sparkling water",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sparkling water",
+    "fizzy water",
+    "carbonated water"
+   ],
+   "kind": "collocation",
+   "glossEn": "water with bubbles of gas",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "e01e2b29-05c2-556a-ba14-f648636e262c",
+   "lemma": "still water",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "still water",
+    "flat water"
+   ],
+   "kind": "collocation",
+   "glossEn": "water without bubbles of gas",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "9cb72d51-a555-5982-968f-79b1b6fa01fc",
+   "lemma": "side dish",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "side dish",
+    "side order",
+    "side"
+   ],
+   "kind": "collocation",
+   "glossEn": "a small dish served with the main one",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "764bb5bd-c159-5796-a775-332c7dbf0d42",
+   "lemma": "job interview",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "job interview",
+    "interview"
+   ],
+   "kind": "collocation",
+   "glossEn": "a formal meeting to assess a job candidate",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "c7890a85-769d-5b8d-9acc-eddee11d60dd",
+   "lemma": "part-time job",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "part-time job",
+    "part-time work"
+   ],
+   "kind": "collocation",
+   "glossEn": "work for only part of the normal hours",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "f9771542-1488-5bb8-893d-edce17843396",
+   "lemma": "full-time job",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "full-time job",
+    "full-time work"
+   ],
+   "kind": "collocation",
+   "glossEn": "work for the whole normal working week",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "bc139ef3-dbf1-532f-ad6b-5c591207fd11",
+   "lemma": "day off",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "day off",
+    "days off"
+   ],
+   "kind": "collocation",
+   "glossEn": "a day when you do not have to work",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "9eb349b3-e04c-5d57-8388-7e655cdc98d9",
+   "lemma": "business trip",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "business trip",
+    "go on a business trip"
+   ],
+   "kind": "collocation",
+   "glossEn": "a journey made for work",
+   "topics": [
+    "work",
+    "travel"
+   ]
+  },
+  {
+   "id": "8d7b3445-cdae-5149-841c-462a081cf7ed",
+   "lemma": "boarding pass",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "boarding pass",
+    "boarding card"
+   ],
+   "kind": "collocation",
+   "glossEn": "the card that lets you get on a plane",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "43b66a28-abcb-576f-ab22-d99a00a0213a",
+   "lemma": "round-trip ticket",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "round-trip ticket",
+    "return ticket",
+    "round trip"
+   ],
+   "kind": "collocation",
+   "glossEn": "a ticket to a place and back",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "95f1bbdd-0968-5c13-b36c-3035a0f0db45",
+   "lemma": "one-way ticket",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "one-way ticket",
+    "single ticket"
+   ],
+   "kind": "collocation",
+   "glossEn": "a ticket to a place only, not back",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "a5ce743c-467f-5c82-8f0f-1f5c492c2d18",
+   "lemma": "window seat",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "window seat"
+   ],
+   "kind": "collocation",
+   "glossEn": "a seat next to the window on transport",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "b723f2e7-e37c-58a1-b28b-11bf1c15a105",
+   "lemma": "aisle seat",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aisle seat"
+   ],
+   "kind": "collocation",
+   "glossEn": "a seat next to the passage on transport",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "aa532a25-e9e5-5c95-84cd-0ae0ed03bc47",
+   "lemma": "hand luggage",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hand luggage",
+    "carry-on bag",
+    "carry-on",
+    "cabin baggage"
+   ],
+   "kind": "collocation",
+   "glossEn": "small bags you carry onto a plane",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "4d1e2b3f-0350-5756-954a-b30f495418c8",
+   "lemma": "tourist attraction",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tourist attraction",
+    "tourist attractions"
+   ],
+   "kind": "collocation",
+   "glossEn": "a place many visitors come to see",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "792909a6-0ca9-5db3-b0ba-1aff0c275ce0",
+   "lemma": "go sightseeing",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go sightseeing",
+    "do some sightseeing"
+   ],
+   "kind": "collocation",
+   "glossEn": "visit famous places as a tourist",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "21b38967-4dea-5937-8e44-ca39579c00e6",
+   "lemma": "travel agency",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "travel agency",
+    "travel agent's"
+   ],
+   "kind": "collocation",
+   "glossEn": "a company that arranges trips",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "472fbaed-3213-5d10-b2f1-f725947576ef",
+   "lemma": "speed limit",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "speed limit"
+   ],
+   "kind": "collocation",
+   "glossEn": "the fastest legal speed on a road",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "f16b5bc3-d9f0-5657-bfb4-5fc1f8e8ef13",
+   "lemma": "parking space",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "parking space",
+    "parking spot"
+   ],
+   "kind": "collocation",
+   "glossEn": "a place to leave one car",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "a2cf5604-debb-5b40-8941-2bc94ac76e7e",
+   "lemma": "city center",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "city center",
+    "city centre",
+    "town center",
+    "downtown"
+   ],
+   "kind": "collocation",
+   "glossEn": "the central part of a city",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "7dde1497-81e7-52ab-a2b3-94d33299242b",
+   "lemma": "main street",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "main street",
+    "high street"
+   ],
+   "kind": "collocation",
+   "glossEn": "the most important street with shops",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "c3b9a130-60b1-594e-a51f-c793df58a420",
+   "lemma": "shopping list",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shopping list"
+   ],
+   "kind": "collocation",
+   "glossEn": "a list of things you plan to buy",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "e085704c-5470-515a-b42e-0a7c54b1b3be",
+   "lemma": "shopping cart",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shopping cart",
+    "shopping trolley",
+    "trolley"
+   ],
+   "kind": "collocation",
+   "glossEn": "a wheeled basket in a supermarket or online",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "724db592-743f-54e0-9fee-f35965b66ad4",
+   "lemma": "cash machine",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cash machine",
+    "ATM",
+    "cashpoint"
+   ],
+   "kind": "collocation",
+   "glossEn": "a machine that gives out money from your account",
+   "topics": [
+    "shopping",
+    "city"
+   ]
+  },
+  {
+   "id": "729be96b-0bc8-59fe-9104-18629dd89724",
+   "lemma": "price tag",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "price tag",
+    "price label"
+   ],
+   "kind": "collocation",
+   "glossEn": "the label showing how much something costs",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "de83d1b6-d178-5695-bfb4-d20e8ab0bfb7",
+   "lemma": "special offer",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "special offer",
+    "on special offer"
+   ],
+   "kind": "collocation",
+   "glossEn": "a lower price for a short time",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "e770aeda-eff1-5d61-9951-6e4c6174935e",
+   "lemma": "half price",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "half price",
+    "at half price",
+    "half-price"
+   ],
+   "kind": "collocation",
+   "glossEn": "costing fifty percent of the usual price",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "ac23a06a-2ccb-5a42-9c50-4b2d9448aede",
+   "lemma": "online shopping",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "online shopping",
+    "shop online"
+   ],
+   "kind": "collocation",
+   "glossEn": "buying things on the internet",
+   "topics": [
+    "shopping",
+    "it"
+   ]
+  },
+  {
+   "id": "34daed6b-9246-56c4-bcc6-4210ed061338",
+   "lemma": "customer service",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "customer service",
+    "customer support"
+   ],
+   "kind": "collocation",
+   "glossEn": "help a company gives to its buyers",
+   "topics": [
+    "shopping",
+    "work"
+   ]
+  }
+ ]
+}

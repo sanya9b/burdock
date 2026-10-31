@@ -1,0 +1,579 @@
+{
+ "chunk": "A2-P15",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "9462f72c-025e-5023-affb-cc8b9d9b9e5f",
+   "lemma": "cut up sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cut up sth",
+    "cut up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "cut something into several pieces",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "b8e95a18-dda6-5900-a59e-f883aa0f3118",
+   "lemma": "wrap up sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wrap up sth",
+    "wrap up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "cover in paper; dress warmly; finish a task",
+   "topics": []
+  },
+  {
+   "id": "e20bb084-3286-5041-94bf-fc530238984c",
+   "lemma": "pack up",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pack up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "put things into bags or boxes before leaving",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "e01dec12-0f12-5da3-ba79-a970b693a6e6",
+   "lemma": "line up",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "line up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "form a line of people waiting",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "09a1b84a-92d7-56ff-adc7-9f28219c1809",
+   "lemma": "sign in",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sign in"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "write your name on arrival; enter an account",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "99de70e3-08e7-52e8-8a78-d3023b747757",
+   "lemma": "sign out",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sign out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "record that you are leaving; exit an account",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "f5575bd2-775d-5e01-beb0-a6747e22869a",
+   "lemma": "show sb around",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "show sb around",
+    "show around",
+    "show round"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "take someone on a tour of a place",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "ea270664-3497-5cb1-abc6-802b8710fa58",
+   "lemma": "show off",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "show off"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "try to impress people with your skills or things",
+   "topics": []
+  },
+  {
+   "id": "93eb2e0f-8790-5947-bd34-f0b61875ce34",
+   "lemma": "hang around",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hang around",
+    "hang round"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "wait or spend time somewhere doing nothing",
+   "topics": []
+  },
+  {
+   "id": "799291fb-1988-504c-993b-9342a692d4ca",
+   "lemma": "go around",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go around",
+    "go round"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "spread, of news or illness; be enough for everyone",
+   "topics": []
+  },
+  {
+   "id": "cd57e795-e977-5822-9ad5-0df2001b2ef2",
+   "lemma": "keep off sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep off sth",
+    "keep off"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "stay away from a place or avoid a food",
+   "topics": []
+  },
+  {
+   "id": "6efea83b-096c-5aa8-803f-7f34b7a23a34",
+   "lemma": "keep out",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "not enter; prevent from entering",
+   "topics": []
+  },
+  {
+   "id": "06b4f7cd-e6a5-5e43-b436-afa6919fe2b8",
+   "lemma": "stay away from sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stay away from sth",
+    "stay away from",
+    "stay away"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "not go near something or someone",
+   "topics": []
+  },
+  {
+   "id": "0fc509d9-d4e7-51bf-b840-dbb22b685869",
+   "lemma": "stay out",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stay out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "not come home until late",
+   "topics": []
+  },
+  {
+   "id": "7c145d5c-42ed-57b2-9168-925e6bde3e7d",
+   "lemma": "stay over",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stay over"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "spend the night at someone's home",
+   "topics": []
+  },
+  {
+   "id": "2ce3e574-9fa5-5f08-847e-13f3a5c680ff",
+   "lemma": "sleep in",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sleep in"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "sleep later than usual in the morning",
+   "topics": []
+  },
+  {
+   "id": "decf14df-8b90-597e-bf67-1e366e2cde0e",
+   "lemma": "sleep over",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sleep over"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "sleep at a friend's house for a night",
+   "topics": []
+  },
+  {
+   "id": "3016e204-150b-51b9-a7af-d2b6563f7ce7",
+   "lemma": "get going",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get going"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "start moving or start doing something",
+   "topics": []
+  },
+  {
+   "id": "d788a56e-8df0-557d-96e5-b5a70d41477a",
+   "lemma": "go by",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go by"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "pass, of time; move past",
+   "topics": []
+  },
+  {
+   "id": "541c8d87-3310-55c7-9a89-ac808148b2f4",
+   "lemma": "go up to sb",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go up to sb",
+    "go up to"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "walk toward and approach someone",
+   "topics": []
+  },
+  {
+   "id": "8ee13c5f-5346-51b4-a007-aa6b8aa40f4c",
+   "lemma": "run over sb",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "run over sb",
+    "run over"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "hit someone or something with a vehicle",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "06e23e27-4896-5f4e-a274-e803ca4c29dc",
+   "lemma": "walk away",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "walk away"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "leave a difficult situation instead of dealing with it",
+   "topics": []
+  },
+  {
+   "id": "8962a27b-4d28-532e-a700-211f5f3fc7d9",
+   "lemma": "turn over sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "turn over sth",
+    "turn over"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "turn something so the other side faces up",
+   "topics": []
+  },
+  {
+   "id": "2da6eae8-7619-5c96-ab9e-895da263d8dd",
+   "lemma": "turn back",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "turn back"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "return the way you came",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "a5cd7a39-86af-5bac-aba1-a743458d8987",
+   "lemma": "pull over",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pull over"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "stop a car at the side of the road",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "35bc8cf5-7287-5e5a-afb4-276e0d08ddd4",
+   "lemma": "bring over sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bring over sth",
+    "bring over"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "bring something or someone to a place nearby",
+   "topics": []
+  },
+  {
+   "id": "22ad2542-90b3-57c0-bb88-62ce99d0bacd",
+   "lemma": "do over sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "do over sth",
+    "do over"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "do something again from the beginning",
+   "topics": []
+  },
+  {
+   "id": "9336624b-4d30-5944-a217-3a75d5df7813",
+   "lemma": "zoom in",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "zoom in"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "make an image on a screen look larger",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "1a2f7f2b-a470-5cbf-9b83-7918292247a4",
+   "lemma": "zoom out",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "zoom out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "make an image on a screen look smaller",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "0a700669-ff85-54fd-bf1c-001fdcdfd014",
+   "lemma": "scroll down",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scroll down",
+    "scroll up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "move the content of a screen to see what is lower",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "15c89721-f405-50d6-8947-c0350300e4cc",
+   "lemma": "back up sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "back up sth",
+    "back up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "make a copy of computer data; move a car backward",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "be0f5007-cd0f-57fb-b327-27b2663cd3e1",
+   "lemma": "throw up",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "throw up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "vomit",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "6095ddc0-b724-54a9-a3e1-6d9f8d7d7cb2",
+   "lemma": "run after sb",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "run after sb",
+    "run after"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "chase someone or something",
+   "topics": []
+  },
+  {
+   "id": "7e97a762-bfce-5894-8803-2408216517ba",
+   "lemma": "at least",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at least"
+   ],
+   "kind": "prepositional",
+   "glossEn": "not less than a stated amount; anyway",
+   "topics": []
+  },
+  {
+   "id": "2d8f76aa-a7b9-5212-9db2-1de4947837d0",
+   "lemma": "at last",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at last"
+   ],
+   "kind": "prepositional",
+   "glossEn": "finally, after a long wait",
+   "topics": []
+  },
+  {
+   "id": "d7720294-c090-531d-80b4-76ccc84ca4bb",
+   "lemma": "on time",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on time"
+   ],
+   "kind": "prepositional",
+   "glossEn": "at the planned time, not late",
+   "topics": []
+  },
+  {
+   "id": "c784b0f2-c723-5e41-8159-1d3ef70ff932",
+   "lemma": "in time",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in time"
+   ],
+   "kind": "prepositional",
+   "glossEn": "early enough, before it is too late",
+   "topics": []
+  },
+  {
+   "id": "93f7b26e-cf15-541f-b011-9638c5090b0b",
+   "lemma": "on foot",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on foot"
+   ],
+   "kind": "prepositional",
+   "glossEn": "walking rather than using transport",
+   "topics": [
+    "travel",
+    "city"
+   ]
+  },
+  {
+   "id": "fe3a8edf-9be9-569d-828f-de857a2cc149",
+   "lemma": "by car",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "by car"
+   ],
+   "kind": "prepositional",
+   "glossEn": "traveling in a car",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "99f73433-13de-5b58-8c55-b5a4627fc685",
+   "lemma": "by bus",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "by bus"
+   ],
+   "kind": "prepositional",
+   "glossEn": "traveling on a bus",
+   "topics": [
+    "travel",
+    "city"
+   ]
+  }
+ ]
+}

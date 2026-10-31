@@ -1,4 +1,7 @@
 using System.Globalization;
+using Burdock.Domain.Rewards;
+using Burdock.Presentation.Controls;
+using Burdock.Presentation.Localization;
 using Burdock.Presentation.Navigation;
 using Burdock.Presentation.Resources.Strings;
 using Burdock.Presentation.ViewModels;
@@ -24,11 +27,11 @@ public sealed class SessionSummaryViewModelTests
         good.CorrectText.ShouldContain("8");
         good.LearningDayCounted.ShouldBeTrue();
         good.LearningDayText.ShouldBe(AppResources.Summary_LearningDay_Counted);
-        good.Mascot.ShouldBe("mascot_party.png");
+        good.Mood.ShouldBe(MascotMood.Party);
 
         weak.LearningDayCounted.ShouldBeFalse();
         weak.LearningDayText.ShouldContain("2"); // two more graded cards to reach five
-        weak.Mascot.ShouldBe("mascot_cheer.png");
+        weak.Mood.ShouldBe(MascotMood.Cheer);
     }
 
     [Fact]
@@ -45,6 +48,13 @@ public sealed class SessionSummaryViewModelTests
         vm.ThornsTotal.ShouldBeGreaterThan(0);
         vm.StreakLength.ShouldBe(1);
         vm.LevelText.ShouldNotBeNullOrWhiteSpace();
+        vm.MascotReady.ShouldBeTrue();
+        vm.MascotStage.ShouldBe(GrowthStage.Seed);
+        vm.MascotProgress.ShouldBe(0);
+        vm.MascotDescription.ShouldBe(RewardsText.GrowthDescription(GrowthStage.Seed));
+        vm.GrowthAfter.ShouldNotBeNull();
+        vm.GrowthAfter.Xp.ShouldBe(harness.Rewards.State!.Xp);
+        vm.FeedSeeds.ShouldBeInRange(3, 12);
         vm.Celebrations.Count.ShouldBeGreaterThanOrEqualTo(1);
         vm.CurrentCelebration.ShouldNotBeNull();
 
@@ -77,6 +87,37 @@ public sealed class SessionSummaryViewModelTests
         vm.ShowRewards.ShouldBeFalse();
         vm.CurrentCelebration.ShouldBeNull();
         harness.Rewards.State.ShouldNotBeNull();
+        vm.MascotReady.ShouldBeTrue();
+        vm.MascotStage.ShouldBe(GrowthRules.Adult.Stage);
+        vm.GrowthAfter.ShouldBeNull();
+        vm.MascotDescription.ShouldBe(AppResources.Growth_A11y_Plain);
+    }
+
+    [Fact]
+    public async Task Crossing_a_growth_stage_turns_the_level_up_card_into_a_growth_celebration()
+    {
+        var harness = new ViewModelHarness();
+        await harness.Rewards.SaveAsync(ViewModelHarness.Learner, RewardsState.Empty with { Xp = 95 }, [], Ct); // five XP short of «Паросток»
+        var vm = Open(harness, graded: 10, correct: 10);
+
+        await vm.LoadAsync(Ct);
+
+        vm.MascotStage.ShouldBe(GrowthStage.Seed);
+        vm.GrowthAfter!.Stage.ShouldBe(GrowthStage.Sprout);
+        vm.Celebrations.ShouldContain(c => c.Eyebrow == AppResources.Celebration_Growth_Eyebrow && c.Title == RewardsText.StageName(GrowthStage.Sprout));
+        vm.Celebrations.ShouldNotContain(c => c.Eyebrow == AppResources.Celebration_LevelUp_Eyebrow);
+    }
+
+    [Fact]
+    public async Task Without_a_session_the_mascot_is_still_shown()
+    {
+        var harness = new ViewModelHarness();
+        var vm = Open(harness, graded: 3, correct: 3, withSession: false);
+
+        await vm.LoadAsync(Ct);
+
+        vm.MascotReady.ShouldBeTrue();
+        vm.GrowthAfter.ShouldBeNull();
     }
 
     [Fact]

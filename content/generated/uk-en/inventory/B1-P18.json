@@ -1,0 +1,582 @@
+{
+ "chunk": "B1-P18",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "763611b3-9e73-54c4-86aa-c47abf0c1259",
+   "lemma": "read through sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "read through sth",
+    "read through"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "read something from beginning to end to check it",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "cb4215ba-88ce-5aef-8aae-a8159a4c9edf",
+   "lemma": "rip off sb",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rip off sb",
+    "rip off"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "charge someone far too much money",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "49ced837-3bfc-5352-a5ab-35d92370e148",
+   "lemma": "run off",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "run off"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "leave quickly; print copies",
+   "topics": []
+  },
+  {
+   "id": "53ea1dc0-7867-5ba8-9053-fa679dfddf6e",
+   "lemma": "run through sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "run through sth",
+    "run through"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "rehearse or review something quickly",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "966b8c0d-89f9-5de1-b926-5e1de8a44c93",
+   "lemma": "save up",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "save up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "keep money over time to buy something",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "c772012a-3172-53a2-a8dd-5584a35b9bfc",
+   "lemma": "see off sb",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "see off sb",
+    "see off"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "go to say goodbye to someone who is leaving",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "426398e2-f11c-5cc4-b624-e85044bdc540",
+   "lemma": "send for sb",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "send for sb",
+    "send for"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "ask someone to come, such as a doctor",
+   "topics": []
+  },
+  {
+   "id": "df855afc-2b46-5354-a409-7c95eed41954",
+   "lemma": "send out sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "send out sth",
+    "send out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "send something to many people",
+   "topics": [
+    "communication",
+    "work"
+   ]
+  },
+  {
+   "id": "047a33ab-918e-52a0-9320-b81457d24775",
+   "lemma": "set out",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "set out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "start a journey; begin with an aim; explain clearly",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "ea90fb52-6824-5ce5-8d0b-c51b83dbfebb",
+   "lemma": "settle down",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "settle down"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "start a calm, stable life; become quiet",
+   "topics": []
+  },
+  {
+   "id": "71d6b510-16a8-543d-abc5-0e6224602c05",
+   "lemma": "settle in",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "settle in"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "become comfortable in a new home or job",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "19f38f65-dcf3-5495-9b6b-6e9cfccbbce9",
+   "lemma": "settle for sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "settle for sth",
+    "settle for"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "accept something less than you wanted",
+   "topics": []
+  },
+  {
+   "id": "231b998f-4214-5dc5-8a9e-5870a987c20a",
+   "lemma": "shop around",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shop around"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "compare prices in different shops before buying",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "47845e7c-fc1d-5118-94d5-351df6d5b4eb",
+   "lemma": "sit back",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sit back"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "relax and make no effort to act",
+   "topics": []
+  },
+  {
+   "id": "ee2e43d9-d29c-5616-ab6b-087df99c1b7b",
+   "lemma": "sit up",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sit up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "sit with a straight back; stay up late",
+   "topics": []
+  },
+  {
+   "id": "651f0d40-c900-5610-a650-7d4644630bdc",
+   "lemma": "sneak out",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sneak out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "leave quietly so that nobody notices",
+   "topics": []
+  },
+  {
+   "id": "759f7c4b-b0f9-56f4-bc11-65a76b49aa8a",
+   "lemma": "speak up",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "speak up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "talk more loudly; express your opinion openly",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "7bd01fdf-b713-532e-a0d5-49c6a9c0025b",
+   "lemma": "stand by",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stand by"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "support someone in trouble; be ready to act",
+   "topics": []
+  },
+  {
+   "id": "a2e411b2-ee4f-51c6-bea9-3c7cde7596ec",
+   "lemma": "stand for sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stand for sth",
+    "stand for"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "represent, of letters or symbols; tolerate",
+   "topics": []
+  },
+  {
+   "id": "5d773de0-0351-5477-8369-c28ddd9b647e",
+   "lemma": "stand out",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stand out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "be easy to notice; be clearly better",
+   "topics": []
+  },
+  {
+   "id": "4f59fb40-3624-5754-bb47-cd0ba62a68fd",
+   "lemma": "stand up for sb",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stand up for sb",
+    "stand up for"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "defend someone or something that is attacked",
+   "topics": []
+  },
+  {
+   "id": "3aa19535-4b2e-536f-8658-95e2e4930b6b",
+   "lemma": "stay on",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stay on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "remain in a place or job longer than planned",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "624fcabd-1be2-561a-9363-7b4811e0f0cc",
+   "lemma": "step in",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "step in"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "become involved to help or stop a problem",
+   "topics": []
+  },
+  {
+   "id": "ae97c569-a553-596b-b814-2d17268a0e2a",
+   "lemma": "stick to sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stick to sth",
+    "stick to"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "continue with a plan or decision; not change",
+   "topics": []
+  },
+  {
+   "id": "050c631f-7013-5f6a-a805-45bc4392e10b",
+   "lemma": "stick together",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stick together"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "remain loyal and support each other",
+   "topics": []
+  },
+  {
+   "id": "291a8d1a-ef5e-5e7d-84a2-1c6ef9168edc",
+   "lemma": "stick out",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stick out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "extend beyond a surface; be very noticeable",
+   "topics": []
+  },
+  {
+   "id": "783301c2-92d7-5e25-beea-2bde35db0176",
+   "lemma": "stick around",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stick around"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "stay in a place for a while",
+   "topics": []
+  },
+  {
+   "id": "cde90c43-48e6-565c-9dda-386328e6c40a",
+   "lemma": "stick with sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stick with sth",
+    "stick with"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "continue using or doing something",
+   "topics": []
+  },
+  {
+   "id": "c8b82937-b255-58b6-acd8-2e3644a26daa",
+   "lemma": "stop off",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stop off",
+    "stop over"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "interrupt a journey for a short visit",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "8530ceb4-6cda-5427-8411-6eb37efa43ff",
+   "lemma": "sum up",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sum up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "state the main points briefly",
+   "topics": [
+    "communication",
+    "work"
+   ]
+  },
+  {
+   "id": "74631c24-56ee-5cf7-8b2c-78153a5b07d3",
+   "lemma": "switch over",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "switch over"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "change to a different channel, system or supplier",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "bdc30755-bf21-5ebd-a71d-69bb749f32b9",
+   "lemma": "talk sb into sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "talk sb into sth",
+    "talk into"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "persuade someone to do something",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "80488cdf-f48f-52a0-9e32-dbef2bfe022c",
+   "lemma": "talk sb out of sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "talk sb out of sth",
+    "talk out of"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "persuade someone not to do something",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "eea42c9d-a46f-5f9c-ab1e-54b0b02a23ac",
+   "lemma": "talk over sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "talk over sth",
+    "talk over"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "discuss a problem before deciding",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "2ce93006-6403-538b-aa72-57113c0769c2",
+   "lemma": "tear up sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tear up sth",
+    "tear up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "rip paper into pieces",
+   "topics": []
+  },
+  {
+   "id": "6c5ff2f7-f980-5a6a-b16f-e280185b47b3",
+   "lemma": "tell apart",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tell apart"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "see the difference between two similar things",
+   "topics": []
+  },
+  {
+   "id": "7e3d7636-03c4-5431-b8c9-9886b8029805",
+   "lemma": "tell off sb",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tell off sb",
+    "tell off"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "speak angrily to someone who did something wrong",
+   "topics": []
+  },
+  {
+   "id": "ad316c40-43a4-5ba2-bb3c-33b870fb34f6",
+   "lemma": "think over sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "think over sth",
+    "think over"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "consider something carefully before deciding",
+   "topics": []
+  },
+  {
+   "id": "ba8462d8-f454-5271-b76c-06e8ae53d8a7",
+   "lemma": "think up sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "think up sth",
+    "think up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "invent an idea, excuse or name",
+   "topics": []
+  },
+  {
+   "id": "6f6e6871-7efc-5ff0-85b8-7668c188a952",
+   "lemma": "throw out sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "throw out sth",
+    "throw out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "discard something; force someone to leave",
+   "topics": []
+  }
+ ]
+}

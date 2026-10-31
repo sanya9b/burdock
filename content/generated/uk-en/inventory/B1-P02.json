@@ -1,0 +1,630 @@
+{
+ "chunk": "B1-P02",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "091cb71c-3a7e-5d76-bf87-4ae15a6a370a",
+   "lemma": "lost and found",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lost and found",
+    "lost property"
+   ],
+   "kind": "binomial",
+   "glossEn": "office where lost items are kept",
+   "topics": [
+    "travel",
+    "city"
+   ]
+  },
+  {
+   "id": "8cbbe0f6-a164-5bd1-a00e-4141bab748c1",
+   "lemma": "arts and crafts",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "arts and crafts"
+   ],
+   "kind": "binomial",
+   "glossEn": "creative handmade activities",
+   "topics": []
+  },
+  {
+   "id": "b2b68ba7-ea77-5f96-ba6c-a1e08a3dd9b1",
+   "lemma": "as busy as a bee",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as busy as a bee",
+    "busy as a bee"
+   ],
+   "kind": "binomial",
+   "glossEn": "very busy and active",
+   "topics": []
+  },
+  {
+   "id": "795d7bc9-dd59-5f4c-9edf-9b1ff9d1794e",
+   "lemma": "as blind as a bat",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as blind as a bat",
+    "blind as a bat"
+   ],
+   "kind": "binomial",
+   "glossEn": "having very poor eyesight",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "75ae6b2c-7e51-5826-936d-661e9e9a1508",
+   "lemma": "as light as a feather",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as light as a feather",
+    "light as a feather"
+   ],
+   "kind": "binomial",
+   "glossEn": "extremely light in weight",
+   "topics": []
+  },
+  {
+   "id": "2ebfa6fd-c82b-58d5-9e9c-df3f1d1adb79",
+   "lemma": "as quiet as a mouse",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as quiet as a mouse",
+    "quiet as a mouse"
+   ],
+   "kind": "binomial",
+   "glossEn": "making no noise at all",
+   "topics": []
+  },
+  {
+   "id": "5cfaf9e3-6e1f-510e-a256-c0f637e45960",
+   "lemma": "as white as snow",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as white as snow",
+    "white as snow",
+    "snow-white"
+   ],
+   "kind": "binomial",
+   "glossEn": "pure, brilliant white",
+   "topics": []
+  },
+  {
+   "id": "2369de6f-8a5c-59c5-9d23-029cc9bb2a3b",
+   "lemma": "as good as new",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as good as new",
+    "good as new"
+   ],
+   "kind": "binomial",
+   "glossEn": "in perfect condition after repair or rest",
+   "topics": []
+  },
+  {
+   "id": "ee24d8d6-c18f-57f8-9a4f-0905f96ac588",
+   "lemma": "as easy as pie",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as easy as pie",
+    "easy as pie",
+    "as easy as ABC"
+   ],
+   "kind": "binomial",
+   "glossEn": "very easy to do",
+   "topics": []
+  },
+  {
+   "id": "73753f78-89f4-5f93-9fa4-e81e62f4f781",
+   "lemma": "as strong as an ox",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as strong as an ox",
+    "strong as an ox",
+    "as strong as a horse"
+   ],
+   "kind": "binomial",
+   "glossEn": "physically very strong",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "8f43c92a-8ac3-5bfc-b8ba-eeade1baac51",
+   "lemma": "as brave as a lion",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as brave as a lion",
+    "brave as a lion"
+   ],
+   "kind": "binomial",
+   "glossEn": "very courageous",
+   "topics": []
+  },
+  {
+   "id": "8fb9bb5b-09d4-539f-9aac-c0fd9a2077f0",
+   "lemma": "as free as a bird",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as free as a bird",
+    "free as a bird"
+   ],
+   "kind": "binomial",
+   "glossEn": "completely free of duties or worries",
+   "topics": []
+  },
+  {
+   "id": "ef17d0e0-4f9f-5e65-a0a2-442604e318fc",
+   "lemma": "as cold as ice",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as cold as ice",
+    "cold as ice",
+    "ice-cold"
+   ],
+   "kind": "binomial",
+   "glossEn": "extremely cold; emotionally unfriendly",
+   "topics": []
+  },
+  {
+   "id": "bee11a97-32da-50ea-ab11-9626a9c4cd6c",
+   "lemma": "as fast as lightning",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as fast as lightning",
+    "fast as lightning",
+    "lightning-fast"
+   ],
+   "kind": "binomial",
+   "glossEn": "extremely fast",
+   "topics": []
+  },
+  {
+   "id": "677f6ee2-d891-5d97-8693-4a65b7d54aa8",
+   "lemma": "as slow as a snail",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as slow as a snail",
+    "slow as a snail",
+    "at a snail's pace"
+   ],
+   "kind": "binomial",
+   "glossEn": "extremely slow",
+   "topics": []
+  },
+  {
+   "id": "afa2ebec-892c-5761-b61f-8a7176c67782",
+   "lemma": "sleep like a log",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sleep like a log"
+   ],
+   "kind": "binomial",
+   "glossEn": "sleep very deeply",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "800e30c3-2509-5ce1-9b48-ab212cdcfb73",
+   "lemma": "sleep like a baby",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sleep like a baby"
+   ],
+   "kind": "binomial",
+   "glossEn": "sleep very well and peacefully",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "974c6bea-6f13-5270-9e25-05b28d552c0b",
+   "lemma": "eat like a horse",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "eat like a horse"
+   ],
+   "kind": "binomial",
+   "glossEn": "eat a very large amount",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "6fb38861-d619-5ec3-aeac-e2b0e8804dd6",
+   "lemma": "swim like a fish",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "swim like a fish"
+   ],
+   "kind": "binomial",
+   "glossEn": "swim very well and easily",
+   "topics": []
+  },
+  {
+   "id": "7bd8e497-d310-528a-85f8-af9725f1e9c0",
+   "lemma": "make a living",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a living",
+    "make a living as sth",
+    "make a good living"
+   ],
+   "kind": "collocation",
+   "glossEn": "earn enough money to live on",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "f0204a99-012b-52e3-a07f-9f26f3033d86",
+   "lemma": "make a profit",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a profit",
+    "make profits",
+    "turn a profit"
+   ],
+   "kind": "collocation",
+   "glossEn": "earn more money than you spend",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "40964800-adb4-5832-89c0-4cd4bb99f193",
+   "lemma": "make a loss",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a loss",
+    "make losses",
+    "run at a loss"
+   ],
+   "kind": "collocation",
+   "glossEn": "spend more money than you earn",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "51097dea-7c2f-587b-8875-6199c6534c3f",
+   "lemma": "make a fortune",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a fortune",
+    "earn a fortune"
+   ],
+   "kind": "collocation",
+   "glossEn": "become very rich",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "d96144c0-710f-5ea1-9f33-4fb1e7425002",
+   "lemma": "make an impression",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make an impression",
+    "make a good impression",
+    "make an impression on sb"
+   ],
+   "kind": "collocation",
+   "glossEn": "cause people to notice or admire you",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "f09b8b28-8e9d-5477-ae09-0c035a083012",
+   "lemma": "make a point",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a point",
+    "make a good point",
+    "make your point"
+   ],
+   "kind": "collocation",
+   "glossEn": "state an argument clearly",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "644e86d6-8f34-51b4-8046-5a5efd91f459",
+   "lemma": "make a comment",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a comment",
+    "make comments",
+    "make a comment on sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "say what you think about something",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "48f9ce1b-4d61-5680-8aea-dd4cc2793e03",
+   "lemma": "make a statement",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a statement",
+    "issue a statement"
+   ],
+   "kind": "collocation",
+   "glossEn": "say something publicly or officially",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "d3cff95b-0a8c-5336-a976-76938576a905",
+   "lemma": "make a speech",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a speech",
+    "give a speech",
+    "deliver a speech"
+   ],
+   "kind": "collocation",
+   "glossEn": "talk formally to an audience",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "1615c4eb-fb46-5f9e-8112-56bd49d67601",
+   "lemma": "make a fuss",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a fuss",
+    "make a fuss about sth",
+    "make a fuss of sb"
+   ],
+   "kind": "collocation",
+   "glossEn": "complain or worry too much about something small",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "8a6eb803-88dc-5cd0-8d9a-9ff3955fd78d",
+   "lemma": "make a fool of yourself",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a fool of yourself",
+    "make a fool of sb"
+   ],
+   "kind": "collocation",
+   "glossEn": "behave so that people laugh at you",
+   "topics": []
+  },
+  {
+   "id": "ff143811-e142-5061-92b0-6cea418bb59b",
+   "lemma": "make an exception",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make an exception",
+    "make an exception for sb"
+   ],
+   "kind": "collocation",
+   "glossEn": "not apply a rule in one case",
+   "topics": []
+  },
+  {
+   "id": "996ad008-838d-5147-9436-39b62798de57",
+   "lemma": "make room",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make room",
+    "make room for sth",
+    "make space"
+   ],
+   "kind": "collocation",
+   "glossEn": "create space for something",
+   "topics": []
+  },
+  {
+   "id": "65fce5ef-0d60-5434-9bc2-982abec326db",
+   "lemma": "make time",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make time",
+    "make time for sth",
+    "make time for sb"
+   ],
+   "kind": "collocation",
+   "glossEn": "arrange to have time for something",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "f229e56d-37ea-5566-9b74-895df17317ca",
+   "lemma": "make arrangements",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make arrangements",
+    "make an arrangement",
+    "make arrangements for sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "plan and organize the details of something",
+   "topics": [
+    "work",
+    "travel"
+   ]
+  },
+  {
+   "id": "6b73463c-f719-5ed3-8dbc-72598690587b",
+   "lemma": "make a contribution",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a contribution",
+    "make a contribution to sth",
+    "make contributions"
+   ],
+   "kind": "collocation",
+   "glossEn": "give money, help or ideas to something",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "cae34e67-9311-54eb-9328-90ddc4b08b61",
+   "lemma": "make a claim",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a claim",
+    "make claims",
+    "file a claim"
+   ],
+   "kind": "collocation",
+   "glossEn": "state something is true; ask for insurance money",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "71a4f6eb-1745-5b05-9866-96b13e999229",
+   "lemma": "make a habit of sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a habit of sth",
+    "make a habit of doing sth",
+    "get into the habit of"
+   ],
+   "kind": "collocation",
+   "glossEn": "start doing something regularly",
+   "topics": []
+  },
+  {
+   "id": "9cf55f2c-825c-59e2-b9b2-bbc804f94f59",
+   "lemma": "make a discovery",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a discovery",
+    "make discoveries"
+   ],
+   "kind": "collocation",
+   "glossEn": "find something new or unknown",
+   "topics": []
+  },
+  {
+   "id": "9f3f70d7-cc64-5759-9be3-a5a4223b726a",
+   "lemma": "make a recovery",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a recovery",
+    "make a full recovery",
+    "make a quick recovery"
+   ],
+   "kind": "collocation",
+   "glossEn": "get better after an illness",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "9142dcc6-004c-5622-8d0f-e379dbaf900d",
+   "lemma": "reach an agreement",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reach an agreement",
+    "come to an agreement",
+    "reach a deal"
+   ],
+   "kind": "collocation",
+   "glossEn": "agree after discussion",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  }
+ ]
+}

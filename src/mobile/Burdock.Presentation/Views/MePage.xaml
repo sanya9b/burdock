@@ -2,28 +2,29 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:vm="clr-namespace:Burdock.Presentation.ViewModels"
+             xmlns:controls="clr-namespace:Burdock.Presentation.Controls"
              xmlns:icons="clr-namespace:Burdock.Presentation.Resources.Icons"
              xmlns:strings="clr-namespace:Burdock.Presentation.Resources.Strings"
              x:Class="Burdock.Presentation.Views.MePage"
              x:DataType="vm:MeViewModel"
              Shell.NavBarIsVisible="False"
              Title="{x:Static strings:AppResources.Tab_Me_Title}">
-    <!-- S-17 «Я» (spec 03): anonymous learner, level and XP, thorns and streak, achievements (spec 07 §3.6), settings entry. Account linking and Pro come with phases 2 and 5. -->
+    <!-- S-17 «Я» (spec 03): the learner's growing Реп’яшок (spec 07 §3.2.7), level and XP, thorns and streak, achievements (spec 07 §3.6), anonymous learner, settings entry. Account linking and Pro come with phases 2 and 5. -->
     <ScrollView>
         <VerticalStackLayout Spacing="{StaticResource Space5}" Padding="{StaticResource PageInsetScroll}" MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
             <Label Text="{x:Static strings:AppResources.Me_Title}" Style="{StaticResource TypeHeadlineLg}" SemanticProperties.HeadingLevel="Level1" />
 
+            <!-- Growth hero: one mascot per screen (spec 02 §3.10). The burr grows with XP and never shrinks; without gamification it is the grown-up illustration. -->
             <Border Style="{StaticResource CardTonal}">
-                <Grid ColumnDefinitions="Auto,*" ColumnSpacing="{StaticResource Space4}">
-                    <Image Grid.Column="0" Source="mascot_proud.png" WidthRequest="{StaticResource SizeMascotMd}" HeightRequest="{StaticResource SizeMascotMd}" VerticalOptions="Center"
-                           AutomationProperties.IsInAccessibleTree="False" />
-                    <VerticalStackLayout Grid.Column="1" Spacing="{StaticResource Space1}" VerticalOptions="Center">
-                        <Label Text="{x:Static strings:AppResources.Me_Anonymous_Title}" Style="{StaticResource TypeTitleLg}"
-                               TextColor="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
-                        <Label Text="{x:Static strings:AppResources.Me_Anonymous_Body}" Style="{StaticResource TypeBodySm}"
-                               TextColor="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
-                    </VerticalStackLayout>
-                </Grid>
+                <VerticalStackLayout Spacing="{StaticResource Space2}">
+                    <controls:MascotView x:Name="Mascot" Stage="{Binding GrowthStage}" Progress="{Binding GrowthProgress}" Mood="Proud"
+                                         WidthRequest="{StaticResource SizeMascotLg}" HeightRequest="{StaticResource SizeMascotLg}" HorizontalOptions="Center"
+                                         SemanticProperties.Description="{Binding GrowthDescription}" />
+                    <Label Text="{Binding StageName}" Style="{StaticResource TypeHeadlineMd}" HorizontalTextAlignment="Center" IsVisible="{Binding ShowRewards}" SemanticProperties.HeadingLevel="Level2"
+                           TextColor="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
+                    <Label Text="{Binding GrowthCaption}" Style="{StaticResource TypeBodySm}" HorizontalTextAlignment="Center" IsVisible="{Binding ShowRewards}"
+                           TextColor="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
+                </VerticalStackLayout>
             </Border>
 
             <!-- Level, XP, thorns, streak -->
@@ -50,6 +51,19 @@
                         </Border>
                     </HorizontalStackLayout>
                 </VerticalStackLayout>
+            </Border>
+
+            <Border Style="{StaticResource CardSunken}" Padding="{StaticResource Space4}">
+                <Grid ColumnDefinitions="Auto,*" ColumnSpacing="{StaticResource Space3}">
+                    <Border Grid.Column="0" Style="{StaticResource IconWell}" VerticalOptions="Start">
+                        <Label Text="{x:Static icons:Icon.UserRound}" Style="{StaticResource IconGlyph}"
+                               TextColor="{AppThemeBinding Light={StaticResource ColorBrandPrimaryLight}, Dark={StaticResource ColorBrandPrimaryDark}}" />
+                    </Border>
+                    <VerticalStackLayout Grid.Column="1" Spacing="{StaticResource Space1}" VerticalOptions="Center">
+                        <Label Text="{x:Static strings:AppResources.Me_Anonymous_Title}" Style="{StaticResource TypeTitleMd}" />
+                        <Label Text="{x:Static strings:AppResources.Me_Anonymous_Body}" Style="{StaticResource TextTertiary}" LineBreakMode="WordWrap" />
+                    </VerticalStackLayout>
+                </Grid>
             </Border>
 
             <!-- Achievements -->

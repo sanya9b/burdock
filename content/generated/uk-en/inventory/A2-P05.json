@@ -1,0 +1,656 @@
+{
+ "chunk": "A2-P05",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "7b9ac62b-0428-50a6-8b35-6c296cbd1498",
+   "lemma": "good health",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "good health",
+    "be in good health"
+   ],
+   "kind": "collocation",
+   "glossEn": "the state of being well",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "fae011f2-5bc5-54a7-8984-2af3c8a4800e",
+   "lemma": "common cold",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "common cold",
+    "the common cold"
+   ],
+   "kind": "collocation",
+   "glossEn": "the usual mild illness of the nose and throat",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "25789dbd-6828-5423-b126-3de0a17faa79",
+   "lemma": "side effect",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "side effect",
+    "side effects"
+   ],
+   "kind": "collocation",
+   "glossEn": "an unwanted effect of a medicine",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "334dcdb0-1632-51b8-a873-1f710dafc31d",
+   "lemma": "sick leave",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sick leave",
+    "be on sick leave",
+    "take sick leave"
+   ],
+   "kind": "collocation",
+   "glossEn": "time off work because of illness",
+   "topics": [
+    "work",
+    "health"
+   ]
+  },
+  {
+   "id": "14f16b1c-6577-514a-aa12-acbfd42b5a41",
+   "lemma": "family doctor",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "family doctor",
+    "GP",
+    "general practitioner"
+   ],
+   "kind": "collocation",
+   "glossEn": "the general doctor you usually see",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "2573f519-50bc-5bdb-8501-ce6d4f5c6c16",
+   "lemma": "first aid",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "first aid",
+    "give first aid"
+   ],
+   "kind": "collocation",
+   "glossEn": "basic help given to an injured person",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "39e6aa89-b12b-54b9-a43c-37b0404a264b",
+   "lemma": "emergency room",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "emergency room",
+    "ER",
+    "A&E"
+   ],
+   "kind": "collocation",
+   "glossEn": "the hospital department for urgent cases",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "6e4a9a24-dacf-55e7-8a1e-b87c8d1ad31b",
+   "lemma": "waiting room",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "waiting room"
+   ],
+   "kind": "collocation",
+   "glossEn": "a room where patients wait to be seen",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "f5bd4492-e2c3-54e8-83c5-97bd76b5f399",
+   "lemma": "runny nose",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "runny nose",
+    "have a runny nose"
+   ],
+   "kind": "collocation",
+   "glossEn": "a nose that keeps producing liquid",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "15515cda-1f22-5770-9ff4-af191610413d",
+   "lemma": "fall asleep",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fall asleep"
+   ],
+   "kind": "collocation",
+   "glossEn": "start sleeping",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "9f6c8cfe-efc5-5679-bcd9-ce2d01f785ec",
+   "lemma": "get some sleep",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get some sleep",
+    "get enough sleep"
+   ],
+   "kind": "collocation",
+   "glossEn": "sleep for a while",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "05030474-640b-58a3-9ec5-fc74d10d3b78",
+   "lemma": "have a nightmare",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have a nightmare",
+    "have nightmares"
+   ],
+   "kind": "collocation",
+   "glossEn": "have a frightening dream",
+   "topics": []
+  },
+  {
+   "id": "a100348a-33d8-5289-be91-2d65161462ac",
+   "lemma": "go to sleep",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go to sleep"
+   ],
+   "kind": "collocation",
+   "glossEn": "begin to sleep",
+   "topics": []
+  },
+  {
+   "id": "28134028-99cb-5611-ba0b-d10662373c4f",
+   "lemma": "stay up late",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stay up late",
+    "stay up"
+   ],
+   "kind": "collocation",
+   "glossEn": "not go to bed until late",
+   "topics": []
+  },
+  {
+   "id": "f306ef0c-3471-5b26-a368-15d12b0d52b0",
+   "lemma": "set the alarm",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "set the alarm",
+    "set an alarm",
+    "set your alarm"
+   ],
+   "kind": "collocation",
+   "glossEn": "make an alarm clock ring at a time",
+   "topics": []
+  },
+  {
+   "id": "ab1d3eb4-89f5-5b08-9e84-aa367426cf35",
+   "lemma": "check your email",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "check your email",
+    "check email",
+    "check your emails"
+   ],
+   "kind": "collocation",
+   "glossEn": "look at new messages in your inbox",
+   "topics": [
+    "it",
+    "communication"
+   ]
+  },
+  {
+   "id": "b359c84a-bccf-5c1e-9be1-a1c5c29bde45",
+   "lemma": "download an app",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "download an app",
+    "download apps",
+    "install an app"
+   ],
+   "kind": "collocation",
+   "glossEn": "copy an application onto your device",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "4455d70c-0e10-54b3-aa00-e0ce683841df",
+   "lemma": "surf the internet",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "surf the internet",
+    "surf the web",
+    "browse the internet"
+   ],
+   "kind": "collocation",
+   "glossEn": "look at websites for interest",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "0d9ee454-55fa-5376-9907-dcb627d2d6bb",
+   "lemma": "go online",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go online",
+    "be online"
+   ],
+   "kind": "collocation",
+   "glossEn": "connect to the internet",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "0dbdb2a8-a18b-5521-983b-232e2d88ac8c",
+   "lemma": "search engine",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "search engine"
+   ],
+   "kind": "collocation",
+   "glossEn": "a website that finds pages for your query",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "4d954b6e-83fd-5ead-a851-4b965ccec040",
+   "lemma": "social media",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "social media",
+    "social networks",
+    "social networking"
+   ],
+   "kind": "collocation",
+   "glossEn": "websites and apps for sharing with others",
+   "topics": [
+    "it",
+    "communication"
+   ]
+  },
+  {
+   "id": "d2697574-ff24-5f81-b94f-7527b0d8cda6",
+   "lemma": "voice message",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "voice message",
+    "voice note",
+    "voicemail"
+   ],
+   "kind": "collocation",
+   "glossEn": "a recorded spoken message",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "ff8a9381-e437-564d-80b9-184e4b274558",
+   "lemma": "missed call",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "missed call",
+    "missed calls"
+   ],
+   "kind": "collocation",
+   "glossEn": "a phone call you did not answer",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "8a1a5faf-c2cd-55da-912e-acc1c1bcd9cb",
+   "lemma": "wrong number",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wrong number",
+    "get the wrong number"
+   ],
+   "kind": "collocation",
+   "glossEn": "a phone number dialed by mistake",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "90b2148c-2d3a-5a54-855f-25a4496b3a2b",
+   "lemma": "make a complaint",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a complaint",
+    "make a complaint about sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "formally say you are unhappy with something",
+   "topics": [
+    "shopping",
+    "communication"
+   ]
+  },
+  {
+   "id": "9d2bdaee-a37b-582c-a3f2-9a06792acf1d",
+   "lemma": "give advice",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "give advice",
+    "give sb advice",
+    "give sb some advice"
+   ],
+   "kind": "collocation",
+   "glossEn": "tell someone what they should do",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "2c988e0b-6054-5cf6-91aa-f9d1020ebdc3",
+   "lemma": "take advice",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take advice",
+    "take sb's advice",
+    "follow advice"
+   ],
+   "kind": "collocation",
+   "glossEn": "do what someone recommends",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "028027c4-3664-5ec6-a281-a92fa5d4b08d",
+   "lemma": "give sb a hand",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "give sb a hand",
+    "give a hand",
+    "lend a hand"
+   ],
+   "kind": "collocation",
+   "glossEn": "help someone",
+   "topics": []
+  },
+  {
+   "id": "f10b983b-0b97-51ca-b1e8-4658522fdec4",
+   "lemma": "give an example",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "give an example",
+    "give examples",
+    "give sb an example"
+   ],
+   "kind": "collocation",
+   "glossEn": "mention a case that shows what you mean",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "2efef451-5cbd-50d2-a333-e795cb054859",
+   "lemma": "give sb a lift",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "give sb a lift",
+    "give a lift",
+    "give sb a ride"
+   ],
+   "kind": "collocation",
+   "glossEn": "take someone somewhere in your car",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "4f003b40-54ec-5697-8ee4-1e2fcb615821",
+   "lemma": "book a room",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "book a room",
+    "reserve a room",
+    "book a hotel"
+   ],
+   "kind": "collocation",
+   "glossEn": "reserve a hotel room in advance",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "a3b2a508-fc83-5c9d-8db2-b908e5ba4ea0",
+   "lemma": "book a table",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "book a table",
+    "reserve a table"
+   ],
+   "kind": "collocation",
+   "glossEn": "reserve a table at a restaurant",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "75190833-bf93-5968-9cbe-9b7c585d1e0a",
+   "lemma": "book a flight",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "book a flight",
+    "book a ticket",
+    "book flights"
+   ],
+   "kind": "collocation",
+   "glossEn": "buy a plane ticket in advance",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "a07b4b63-93ef-577a-bd02-81f6aa1f997d",
+   "lemma": "rent a car",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rent a car",
+    "hire a car"
+   ],
+   "kind": "collocation",
+   "glossEn": "pay to use a car for a period",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "7972d5fd-cc88-5296-a951-319ac7480f55",
+   "lemma": "pack a suitcase",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pack a suitcase",
+    "pack your bags",
+    "pack your suitcase"
+   ],
+   "kind": "collocation",
+   "glossEn": "put your things in a case for a trip",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "f2c955ed-88c7-5a18-bae5-71689d8cf4e7",
+   "lemma": "go abroad",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go abroad",
+    "travel abroad",
+    "live abroad"
+   ],
+   "kind": "collocation",
+   "glossEn": "travel to a foreign country",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "c7537c72-948b-5c5a-8fed-4d9096a45098",
+   "lemma": "go camping",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go camping"
+   ],
+   "kind": "collocation",
+   "glossEn": "stay outdoors in a tent for a holiday",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "27654453-ba9a-5bf8-a47e-0f92144997ba",
+   "lemma": "go hiking",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go hiking",
+    "go for a hike"
+   ],
+   "kind": "collocation",
+   "glossEn": "walk long distances in nature",
+   "topics": [
+    "travel",
+    "health"
+   ]
+  },
+  {
+   "id": "0743a5c5-c1f3-54bd-8e18-3caa7235a6df",
+   "lemma": "leave a tip",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "leave a tip",
+    "give a tip",
+    "tip the waiter"
+   ],
+   "kind": "collocation",
+   "glossEn": "give extra money to a waiter for service",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "13b7771c-8097-5d68-bb1c-a657df89967f",
+   "lemma": "order food",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "order food",
+    "order a meal",
+    "order takeout"
+   ],
+   "kind": "collocation",
+   "glossEn": "ask for a dish in a restaurant or for delivery",
+   "topics": [
+    "food"
+   ]
+  }
+ ]
+}

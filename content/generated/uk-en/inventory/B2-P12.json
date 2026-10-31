@@ -1,0 +1,608 @@
+{
+ "chunk": "B2-P12",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "6f92a34c-9970-59dc-b70b-9f0e54b1be85",
+   "lemma": "throw caution to the wind",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "throw caution to the wind",
+    "throw caution to the winds"
+   ],
+   "kind": "idiom",
+   "glossEn": "stop being careful and take a risk",
+   "topics": []
+  },
+  {
+   "id": "b5feebd6-bdaf-5d4d-922e-e0158b4bae16",
+   "lemma": "tighten one's belt",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tighten one's belt",
+    "tighten your belt",
+    "belt-tightening"
+   ],
+   "kind": "idiom",
+   "glossEn": "spend less money",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "02e37cdd-e1c6-577b-aa49-366d5a2392d7",
+   "lemma": "a sitting duck",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a sitting duck",
+    "sitting duck",
+    "sitting ducks"
+   ],
+   "kind": "idiom",
+   "glossEn": "easy target for attack or criticism",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "fe137218-f439-599d-9d80-d373569d32bb",
+   "lemma": "a tough nut to crack",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a tough nut to crack",
+    "a hard nut to crack"
+   ],
+   "kind": "idiom",
+   "glossEn": "difficult problem or person",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "333d1e0d-eef8-5912-ae85-810306239052",
+   "lemma": "turn a blind eye",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "turn a blind eye",
+    "turn a blind eye to sth"
+   ],
+   "kind": "idiom",
+   "glossEn": "deliberately ignore something wrong",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "6eb7fa7e-29d0-5edb-9d32-0bada0f0c25a",
+   "lemma": "turn the tables",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "turn the tables",
+    "turn the tables on sb"
+   ],
+   "kind": "idiom",
+   "glossEn": "reverse a situation to gain advantage",
+   "topics": []
+  },
+  {
+   "id": "c73bacc1-7f8b-5010-9b0d-f1acb0d90be1",
+   "lemma": "turn over a new leaf",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "turn over a new leaf"
+   ],
+   "kind": "idiom",
+   "glossEn": "start behaving better",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "58ce2d02-4424-5b0d-a483-a1f80cba048c",
+   "lemma": "under one's nose",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "under one's nose",
+    "right under your nose"
+   ],
+   "kind": "idiom",
+   "glossEn": "right in front of you, unnoticed",
+   "topics": []
+  },
+  {
+   "id": "582b4618-bba9-5121-b340-1e9518ea4c42",
+   "lemma": "up the ante",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "up the ante",
+    "raise the ante"
+   ],
+   "kind": "idiom",
+   "glossEn": "increase the demands or risks",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "99c28f39-2fc2-5664-bb58-183fade2c5c7",
+   "lemma": "walk on eggshells",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "walk on eggshells",
+    "tread on eggshells"
+   ],
+   "kind": "idiom",
+   "glossEn": "be very careful not to upset someone",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "0149a76a-8b9c-54ff-ac23-b6da99c320b9",
+   "lemma": "wear one's heart on one's sleeve",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wear one's heart on one's sleeve",
+    "wear your heart on your sleeve"
+   ],
+   "kind": "idiom",
+   "glossEn": "show your feelings openly",
+   "topics": []
+  },
+  {
+   "id": "becd8b55-5502-57cd-9f9e-7941fff31307",
+   "lemma": "weather the storm",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "weather the storm",
+    "ride out the storm"
+   ],
+   "kind": "idiom",
+   "glossEn": "survive a difficult period",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "c489055e-aec3-551d-9580-7568b2e8be97",
+   "lemma": "win hands down",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "win hands down",
+    "hands down"
+   ],
+   "kind": "idiom",
+   "glossEn": "win very easily",
+   "topics": []
+  },
+  {
+   "id": "e6f91695-87f6-5428-b305-3d32331b5f45",
+   "lemma": "the writing on the wall",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "the writing on the wall",
+    "the writing is on the wall",
+    "the handwriting on the wall"
+   ],
+   "kind": "idiom",
+   "glossEn": "clear sign that something will fail",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "b326ddee-2082-5276-8111-7dccc5190d21",
+   "lemma": "a zero-sum game",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a zero-sum game",
+    "zero-sum game",
+    "zero-sum"
+   ],
+   "kind": "idiom",
+   "glossEn": "situation where one gains only if another loses",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "9166f05c-4ca9-549e-89e7-0453ad9dc3aa",
+   "lemma": "put forward sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "put forward sth",
+    "put forward"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "propose an idea or plan for discussion",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "09fc36ce-0ad0-5fc5-bcdd-82403691ed06",
+   "lemma": "make for sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make for sth",
+    "make for"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "move toward a place; help to produce a result",
+   "topics": []
+  },
+  {
+   "id": "6f441d5e-f56d-5bd2-bfb1-28c2ac78be50",
+   "lemma": "make of sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make of sth",
+    "make of"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "have an opinion or understanding of something",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "49b1c64b-baaf-5968-b523-095ccf4f83f4",
+   "lemma": "put in for sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "put in for sth",
+    "put in for"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "formally apply for a job, leave or transfer",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "171ba00d-f909-5a97-a016-5045c0c79c34",
+   "lemma": "take to sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take to sth",
+    "take to"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "start to like; begin a habit",
+   "topics": []
+  },
+  {
+   "id": "b99cf2b0-061f-5f84-9e20-50abe9ec2cd9",
+   "lemma": "bring about sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bring about sth",
+    "bring about"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "cause something to happen",
+   "topics": []
+  },
+  {
+   "id": "68f65301-cb1b-5134-a78b-962dc6e706aa",
+   "lemma": "bring forward sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bring forward sth",
+    "bring forward"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "move an event to an earlier time",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "1dd82de7-7c0e-57e5-a4ee-3a805a416967",
+   "lemma": "bring round sb",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bring round sb",
+    "bring round",
+    "bring around"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "persuade someone to agree; make someone conscious again",
+   "topics": []
+  },
+  {
+   "id": "3fd752f0-5849-5024-9905-efed92653ad2",
+   "lemma": "break through",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "break through"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "force a way past a barrier; make an important discovery",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "be2a0fb5-06e0-5cf9-a575-5d397d427a1d",
+   "lemma": "break away",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "break away"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "escape; leave a group to become independent",
+   "topics": []
+  },
+  {
+   "id": "b309f174-54ef-5817-8161-d3c8b81d11b1",
+   "lemma": "get carried away",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get carried away",
+    "be carried away"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "become so excited that you lose control",
+   "topics": []
+  },
+  {
+   "id": "0ba42070-6f1f-5368-bf3e-f5e06a70b83a",
+   "lemma": "come out with sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "come out with sth",
+    "come out with"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "say something surprising or unexpected",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "46edfc1b-9246-5cae-84e2-7109dc5a0e67",
+   "lemma": "come up against sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "come up against sth",
+    "come up against"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "face a problem or opposition",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "2b55b411-5cee-5003-82a7-94b459a376ec",
+   "lemma": "go about sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go about sth",
+    "go about"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "approach or begin dealing with a task",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "36cf10d6-fd44-5c2c-8eeb-564ac9b16a5b",
+   "lemma": "go back on sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go back on sth",
+    "go back on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "fail to keep a promise",
+   "topics": []
+  },
+  {
+   "id": "a50385d7-c1eb-5dde-a59f-2e90f0e4db23",
+   "lemma": "go in for sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go in for sth",
+    "go in for"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "enjoy a type of activity; enter a competition",
+   "topics": []
+  },
+  {
+   "id": "7b1af455-1c5d-5151-b963-27f7c1b98e37",
+   "lemma": "go through with sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go through with sth",
+    "go through with"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "do something difficult as planned despite doubts",
+   "topics": []
+  },
+  {
+   "id": "bbbb2a1f-64ae-55d7-a79a-f2ffa5a89ca8",
+   "lemma": "go under",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go under"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "fail financially, of a business; sink",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "b46ee164-b816-597b-bd1e-c7eeda0e9230",
+   "lemma": "grow apart",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "grow apart"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "gradually become less close to someone",
+   "topics": []
+  },
+  {
+   "id": "dd1cff40-9259-53c7-a07e-9fc4c59374d2",
+   "lemma": "hand down sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hand down sth",
+    "hand down",
+    "pass down"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "pass to a younger generation; announce a verdict",
+   "topics": []
+  },
+  {
+   "id": "447bf2bb-b92c-5ef1-b573-1140cfcb9afb",
+   "lemma": "hear out sb",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hear out sb",
+    "hear out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "listen to someone until they have finished",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "10a55c22-268b-5663-97ed-d2c5e804ba27",
+   "lemma": "hold off",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hold off"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "delay doing something; keep an attacker away",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "63352c73-e3dc-5d84-b209-2389a36d4778",
+   "lemma": "hold out",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hold out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "continue to resist; last, of supplies",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "2ceacfe8-bc34-5565-9d6e-c5c6d4d23203",
+   "lemma": "keep sb from sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep sb from sth",
+    "keep from"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "prevent someone from doing something",
+   "topics": []
+  },
+  {
+   "id": "b19e82fe-20a6-5068-a2f7-6091efab335d",
+   "lemma": "let up",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "let up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "become less strong or stop, of rain or pressure",
+   "topics": []
+  }
+ ]
+}

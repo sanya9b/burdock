@@ -1,0 +1,642 @@
+{
+ "chunk": "B1-P06",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "697aa127-bc53-5a45-aac3-8700c4197cdf",
+   "lemma": "save sb a seat",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "save sb a seat",
+    "save a seat",
+    "save me a seat"
+   ],
+   "kind": "collocation",
+   "glossEn": "keep a seat free for someone",
+   "topics": []
+  },
+  {
+   "id": "2bf7ee10-827b-5565-9ea7-d016eed08d28",
+   "lemma": "save a file",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "save a file",
+    "save a document",
+    "save your work"
+   ],
+   "kind": "collocation",
+   "glossEn": "store a document on a computer",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "b5315e66-29bb-5061-9375-5176d39e59ea",
+   "lemma": "spend a fortune",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spend a fortune",
+    "spend a fortune on sth",
+    "cost a fortune"
+   ],
+   "kind": "collocation",
+   "glossEn": "spend a very large amount of money",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "b426d497-71ea-5ab8-8b67-238ccc8f1551",
+   "lemma": "miss an opportunity",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "miss an opportunity",
+    "miss a chance",
+    "miss the opportunity"
+   ],
+   "kind": "collocation",
+   "glossEn": "fail to use a chance",
+   "topics": []
+  },
+  {
+   "id": "a800e597-3e43-512f-b83f-31c096c4884f",
+   "lemma": "miss a deadline",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "miss a deadline",
+    "miss the deadline"
+   ],
+   "kind": "collocation",
+   "glossEn": "fail to finish by the required time",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "9355c46c-9a68-5d52-9e08-437fe14dbd8f",
+   "lemma": "miss the point",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "miss the point",
+    "miss the point of sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "not understand the main idea",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "7b6579e4-365b-5d14-b33e-a83183a095fc",
+   "lemma": "miss a class",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "miss a class",
+    "miss a lesson",
+    "miss school"
+   ],
+   "kind": "collocation",
+   "glossEn": "not attend a lesson",
+   "topics": []
+  },
+  {
+   "id": "6f1840e7-426f-5c9b-a8dd-dbb51f41ecdb",
+   "lemma": "draw attention",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "draw attention",
+    "draw attention to sth",
+    "attract attention"
+   ],
+   "kind": "collocation",
+   "glossEn": "make people notice something",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "59ee91a6-6863-5aaf-affc-2b4fe9aee612",
+   "lemma": "strong opinion",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "strong opinion",
+    "strong opinions",
+    "strong views"
+   ],
+   "kind": "collocation",
+   "glossEn": "a firm view that you defend",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "4bf2c7ac-7277-5a7b-afe4-79baf4772956",
+   "lemma": "strong smell",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "strong smell",
+    "strong taste"
+   ],
+   "kind": "collocation",
+   "glossEn": "a smell that is easy to notice",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "7f3e1c4d-3720-50fc-8ed6-f7954814fa27",
+   "lemma": "strong feeling",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "strong feeling",
+    "strong feelings",
+    "have strong feelings about sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "an intense emotion",
+   "topics": []
+  },
+  {
+   "id": "47bfeed6-9d8d-5a15-b9cb-f79e38905ce6",
+   "lemma": "strong relationship",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "strong relationship",
+    "strong relationships",
+    "strong bond"
+   ],
+   "kind": "collocation",
+   "glossEn": "a close and lasting connection between people",
+   "topics": []
+  },
+  {
+   "id": "dd967235-d626-5842-8528-11a5d4c58090",
+   "lemma": "heavy smoker",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heavy smoker",
+    "heavy smokers"
+   ],
+   "kind": "collocation",
+   "glossEn": "a person who smokes a lot",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "8431d837-ccfe-5d10-b015-aacebf704186",
+   "lemma": "heavy drinker",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heavy drinker",
+    "heavy drinking"
+   ],
+   "kind": "collocation",
+   "glossEn": "a person who drinks a lot of alcohol",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "259e5469-b7ec-53b4-970e-4fda5f9ff415",
+   "lemma": "heavy workload",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heavy workload",
+    "have a heavy workload"
+   ],
+   "kind": "collocation",
+   "glossEn": "a large amount of work to do",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "667d2288-0b47-5c03-b668-709457c44c7d",
+   "lemma": "heavy fine",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heavy fine",
+    "hefty fine"
+   ],
+   "kind": "collocation",
+   "glossEn": "a large sum to pay as punishment",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "251fb2cb-e008-5557-985f-8dbc3df66d51",
+   "lemma": "heavy sleeper",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heavy sleeper",
+    "deep sleeper"
+   ],
+   "kind": "collocation",
+   "glossEn": "a person who is hard to wake up",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "56efe70f-d7ca-5c08-9e1f-fff6129cf7a2",
+   "lemma": "light sleeper",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "light sleeper"
+   ],
+   "kind": "collocation",
+   "glossEn": "a person who wakes up easily",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "863010c1-b03f-52de-bb73-26ba1da8c0a5",
+   "lemma": "high standard",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "high standard",
+    "high standards",
+    "to a high standard"
+   ],
+   "kind": "collocation",
+   "glossEn": "a very good level of quality",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "501bb909-7a27-56ff-8336-ca43ecdd1943",
+   "lemma": "high risk",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "high risk",
+    "high-risk",
+    "at high risk"
+   ],
+   "kind": "collocation",
+   "glossEn": "a strong chance of danger or loss",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "7bfcb413-d4ba-5df7-ac27-cf17deb98642",
+   "lemma": "high salary",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "high salary",
+    "high salaries",
+    "low salary"
+   ],
+   "kind": "collocation",
+   "glossEn": "a large amount of pay for a job",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "41260b3b-6c42-5745-a68e-d237852b09ed",
+   "lemma": "high blood pressure",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "high blood pressure",
+    "low blood pressure"
+   ],
+   "kind": "collocation",
+   "glossEn": "a medical condition of raised blood pressure",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "bd6eef92-a161-5c8c-bc06-51381f1541c8",
+   "lemma": "high expectations",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "high expectations",
+    "have high expectations"
+   ],
+   "kind": "collocation",
+   "glossEn": "a strong belief that results will be very good",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "91bb06f4-85d2-596a-9c31-bfdd29c9bad0",
+   "lemma": "high demand",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "high demand",
+    "be in high demand",
+    "great demand"
+   ],
+   "kind": "collocation",
+   "glossEn": "many people wanting something",
+   "topics": [
+    "work",
+    "shopping"
+   ]
+  },
+  {
+   "id": "b9def9a2-c44f-5719-80a0-6314eba97a19",
+   "lemma": "low income",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "low income",
+    "low-income",
+    "high income"
+   ],
+   "kind": "collocation",
+   "glossEn": "a small amount of money earned",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "0fbca664-255e-58be-aa31-416c20c76bd8",
+   "lemma": "low cost",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "low cost",
+    "low-cost",
+    "at low cost"
+   ],
+   "kind": "collocation",
+   "glossEn": "cheap to buy or run",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "0dd83ae0-b296-53fe-8393-bf400ed7984f",
+   "lemma": "low fat",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "low fat",
+    "low-fat",
+    "low in fat"
+   ],
+   "kind": "collocation",
+   "glossEn": "containing little fat",
+   "topics": [
+    "food",
+    "health"
+   ]
+  },
+  {
+   "id": "4cd8c337-7459-5703-816e-a5bd7a91333d",
+   "lemma": "deep sleep",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deep sleep",
+    "be in a deep sleep",
+    "sleep deeply"
+   ],
+   "kind": "collocation",
+   "glossEn": "sleep from which it is hard to wake",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "4683828a-8fea-57f6-bf76-c5c2f2cfcb03",
+   "lemma": "deep trouble",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deep trouble",
+    "be in deep trouble",
+    "big trouble"
+   ],
+   "kind": "collocation",
+   "glossEn": "a very serious difficult situation",
+   "topics": []
+  },
+  {
+   "id": "4fc34131-a6b1-50a1-9264-b8efa4972ef8",
+   "lemma": "big decision",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "big decision",
+    "major decision"
+   ],
+   "kind": "collocation",
+   "glossEn": "an important choice",
+   "topics": []
+  },
+  {
+   "id": "23d625b0-c20c-58e5-afda-434068497d18",
+   "lemma": "big difference",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "big difference",
+    "huge difference"
+   ],
+   "kind": "collocation",
+   "glossEn": "a large and noticeable change or gap",
+   "topics": []
+  },
+  {
+   "id": "ecfee1db-75af-5a5b-9036-6e7874c34696",
+   "lemma": "big fan",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "big fan",
+    "be a big fan of sth",
+    "huge fan"
+   ],
+   "kind": "collocation",
+   "glossEn": "a person who likes something very much",
+   "topics": []
+  },
+  {
+   "id": "05fc05aa-f47f-577a-b76a-f6a049b83603",
+   "lemma": "huge success",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "huge success",
+    "great success",
+    "be a huge success"
+   ],
+   "kind": "collocation",
+   "glossEn": "a very successful result",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "9f05038f-f2ce-5d2d-bc05-37386b325c17",
+   "lemma": "wide range",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wide range",
+    "a wide range of sth",
+    "broad range"
+   ],
+   "kind": "collocation",
+   "glossEn": "many different kinds of something",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "67c76dc4-297b-5616-8c2f-3ec3753ed50e",
+   "lemma": "wide variety",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wide variety",
+    "a wide variety of sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "many different types",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "7137b406-e6fa-538a-87b7-889a10507ea4",
+   "lemma": "wide awake",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wide awake"
+   ],
+   "kind": "collocation",
+   "glossEn": "completely awake",
+   "topics": []
+  },
+  {
+   "id": "14aac769-48c9-5a05-985c-68a7b83e690d",
+   "lemma": "fast asleep",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fast asleep",
+    "sound asleep"
+   ],
+   "kind": "collocation",
+   "glossEn": "completely asleep",
+   "topics": []
+  },
+  {
+   "id": "c2887087-809c-57fa-bd18-5aed8f808d8f",
+   "lemma": "quick look",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quick look",
+    "take a quick look",
+    "have a quick look"
+   ],
+   "kind": "collocation",
+   "glossEn": "a brief glance at something",
+   "topics": []
+  },
+  {
+   "id": "69300559-3433-5391-823f-9422e1a9062c",
+   "lemma": "fair price",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fair price",
+    "reasonable price"
+   ],
+   "kind": "collocation",
+   "glossEn": "a reasonable amount to pay",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "a96f989f-0564-53fd-b541-f6375ae94fa2",
+   "lemma": "fair share",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fair share",
+    "your fair share of sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "the part someone deserves to get or do",
+   "topics": []
+  }
+ ]
+}

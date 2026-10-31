@@ -1,0 +1,558 @@
+{
+ "chunk": "B2-P16",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "47ef306e-be8b-5cdb-b6cd-8ab4e16231fc",
+   "lemma": "tone down sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tone down sth",
+    "tone down"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "make language or color less strong",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "ad6442bf-16a8-59d5-baf4-3e50c3ffb95b",
+   "lemma": "touch on sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "touch on sth",
+    "touch on",
+    "touch upon"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "mention a subject briefly",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "3eb0b9a7-651a-5ba2-9b0c-e0733dbc3e1d",
+   "lemma": "in the event of",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the event of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "if something happens (formal)",
+   "topics": []
+  },
+  {
+   "id": "c3dde000-f0e5-5e86-a515-8ba47c5043cf",
+   "lemma": "in the face of",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the face of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "despite having to deal with",
+   "topics": []
+  },
+  {
+   "id": "e76ddc12-dd10-500b-9127-f5f5c448f79a",
+   "lemma": "in terms of",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in terms of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "with regard to a particular aspect",
+   "topics": []
+  },
+  {
+   "id": "5c749dfd-a8ee-5b27-90df-c0ce22f7d63b",
+   "lemma": "in line with",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in line with"
+   ],
+   "kind": "prepositional",
+   "glossEn": "consistent with; matching",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "c3c0e1c6-3a29-5f8e-b676-04bb08ce825e",
+   "lemma": "on account of",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on account of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "because of",
+   "topics": []
+  },
+  {
+   "id": "e8ff6463-9771-5b79-8c17-904af635cacf",
+   "lemma": "on the basis of",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the basis of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "using something as the reason or starting point",
+   "topics": []
+  },
+  {
+   "id": "3fd2f5e0-8759-566a-9372-6fcb9738cc65",
+   "lemma": "on the grounds of",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the grounds of",
+    "on the grounds that"
+   ],
+   "kind": "prepositional",
+   "glossEn": "for the stated reason (formal)",
+   "topics": []
+  },
+  {
+   "id": "3cca52a9-04c8-5939-9b9c-70938c8b87ed",
+   "lemma": "on the brink of",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the brink of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "very close to a major, often bad, event",
+   "topics": []
+  },
+  {
+   "id": "c1523b5f-46d1-5220-bf76-5497a7f430ee",
+   "lemma": "on the point of",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the point of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "just about to do something",
+   "topics": []
+  },
+  {
+   "id": "fad5e37d-89ec-5f8d-810b-7c8fbe0b2d4a",
+   "lemma": "at the expense of",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at the expense of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "causing loss or harm to something else",
+   "topics": []
+  },
+  {
+   "id": "da815a2a-28b0-5203-8407-d4b289e8beaf",
+   "lemma": "at the mercy of",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at the mercy of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "unable to protect oneself against",
+   "topics": []
+  },
+  {
+   "id": "99e87acd-b665-5021-86b8-2ff6f6f6dfa8",
+   "lemma": "at stake",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at stake"
+   ],
+   "kind": "prepositional",
+   "glossEn": "at risk of being lost",
+   "topics": []
+  },
+  {
+   "id": "808e3854-ace3-52ec-a642-30f623368c1b",
+   "lemma": "at a loss",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at a loss"
+   ],
+   "kind": "prepositional",
+   "glossEn": "not knowing what to do or say",
+   "topics": []
+  },
+  {
+   "id": "c2705c81-b628-5185-8281-69393b1a20c1",
+   "lemma": "at face value",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at face value"
+   ],
+   "kind": "prepositional",
+   "glossEn": "as it appears, without questioning",
+   "topics": []
+  },
+  {
+   "id": "d6a219a2-a6c5-57e1-84c4-c48bd7838998",
+   "lemma": "at one's disposal",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at one's disposal",
+    "at the disposal of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "available for one to use",
+   "topics": []
+  },
+  {
+   "id": "2fd573d1-e01b-5fe5-a62e-30a69618b2d4",
+   "lemma": "at all costs",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at all costs",
+    "at any cost"
+   ],
+   "kind": "prepositional",
+   "glossEn": "whatever is needed, no matter the effort",
+   "topics": []
+  },
+  {
+   "id": "77db43dc-590e-5c03-9b66-c62065e4b382",
+   "lemma": "beyond repair",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "beyond repair"
+   ],
+   "kind": "prepositional",
+   "glossEn": "too damaged to be fixed",
+   "topics": []
+  },
+  {
+   "id": "b0a7e6af-f683-5892-b9e3-7b81e7d9f33b",
+   "lemma": "beyond recognition",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "beyond recognition"
+   ],
+   "kind": "prepositional",
+   "glossEn": "changed so much it cannot be recognized",
+   "topics": []
+  },
+  {
+   "id": "e257cf50-6634-5b70-96bc-8b30fcb55997",
+   "lemma": "beside the point",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "beside the point"
+   ],
+   "kind": "prepositional",
+   "glossEn": "not relevant to the matter",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "62e3edfd-9414-5101-990b-7c6bb490e993",
+   "lemma": "by design",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "by design"
+   ],
+   "kind": "prepositional",
+   "glossEn": "intentionally, as planned",
+   "topics": []
+  },
+  {
+   "id": "ae1da9fa-c5b3-5b8a-bfed-c50fedef4467",
+   "lemma": "by word of mouth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "by word of mouth"
+   ],
+   "kind": "prepositional",
+   "glossEn": "spread by people telling each other",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "ee125b61-a99c-59ff-a1ee-3bcc41a1eeee",
+   "lemma": "for lack of",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "for lack of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "because there is not enough of",
+   "topics": []
+  },
+  {
+   "id": "cb8f1f08-a94c-5275-bc90-9838b104a1e4",
+   "lemma": "for fear of",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "for fear of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "because one is afraid that",
+   "topics": []
+  },
+  {
+   "id": "f1153744-e43c-5d03-8d89-46dd6ed1a1e5",
+   "lemma": "to a certain extent",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "to a certain extent",
+    "to a certain degree"
+   ],
+   "kind": "prepositional",
+   "glossEn": "partly, to a limited degree",
+   "topics": []
+  },
+  {
+   "id": "66c5fc60-6056-58a4-a09b-ea2191343a98",
+   "lemma": "to date",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "to date"
+   ],
+   "kind": "prepositional",
+   "glossEn": "up to the present time",
+   "topics": []
+  },
+  {
+   "id": "91c1039e-5919-5fcf-a066-07bc1ccd95cb",
+   "lemma": "to this day",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "to this day"
+   ],
+   "kind": "prepositional",
+   "glossEn": "even now, still",
+   "topics": []
+  },
+  {
+   "id": "9c39320d-3607-5aaa-bbae-3e0ce2cafe7f",
+   "lemma": "off limits",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "off limits",
+    "off-limits"
+   ],
+   "kind": "prepositional",
+   "glossEn": "not allowed to be entered or discussed",
+   "topics": []
+  },
+  {
+   "id": "e3388bb7-4c87-5349-8339-19f65e6b119f",
+   "lemma": "off the shelf",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "off the shelf",
+    "off-the-shelf"
+   ],
+   "kind": "prepositional",
+   "glossEn": "ready-made, not custom-built",
+   "topics": [
+    "it",
+    "shopping"
+   ]
+  },
+  {
+   "id": "d6397871-4ac8-5ece-990f-09b3702f42e6",
+   "lemma": "out of hand",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "out of hand"
+   ],
+   "kind": "prepositional",
+   "glossEn": "out of control; rejected without thought",
+   "topics": []
+  },
+  {
+   "id": "3964efbe-00c2-583f-884b-bd91eb72920f",
+   "lemma": "out of the ordinary",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "out of the ordinary"
+   ],
+   "kind": "prepositional",
+   "glossEn": "unusual, different from normal",
+   "topics": []
+  },
+  {
+   "id": "80c4923a-4d1c-5144-8ba6-a611f6bc6238",
+   "lemma": "out of character",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "out of character"
+   ],
+   "kind": "prepositional",
+   "glossEn": "not typical of someone's usual behavior",
+   "topics": []
+  },
+  {
+   "id": "2fed42e2-e2a3-58df-b7a2-a95c158ecd16",
+   "lemma": "out of context",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "out of context"
+   ],
+   "kind": "prepositional",
+   "glossEn": "without the surrounding words that give meaning",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "aeadc6b0-3740-578d-a968-7377ee6dcac8",
+   "lemma": "out of proportion",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "out of proportion",
+    "out of all proportion"
+   ],
+   "kind": "prepositional",
+   "glossEn": "too large or extreme for the situation",
+   "topics": []
+  },
+  {
+   "id": "7d692224-7087-5211-af9a-c8dbe68f1b10",
+   "lemma": "out of the loop",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "out of the loop"
+   ],
+   "kind": "prepositional",
+   "glossEn": "not informed about what is happening",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "46a263e2-d39c-516a-90fa-0b4d86b00588",
+   "lemma": "in vain",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in vain"
+   ],
+   "kind": "prepositional",
+   "glossEn": "without success",
+   "topics": []
+  },
+  {
+   "id": "1ae90fe7-28fb-54a8-b9c8-6feafef6684b",
+   "lemma": "in effect",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in effect"
+   ],
+   "kind": "prepositional",
+   "glossEn": "in reality; officially in force",
+   "topics": []
+  },
+  {
+   "id": "c87058b5-b27e-5d99-9c66-cbb831b0fe28",
+   "lemma": "in demand",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in demand",
+    "in high demand"
+   ],
+   "kind": "prepositional",
+   "glossEn": "wanted by many people",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "8d391a87-6401-5ed7-bc2f-654e34710139",
+   "lemma": "in bulk",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in bulk"
+   ],
+   "kind": "prepositional",
+   "glossEn": "in large quantities at once",
+   "topics": [
+    "shopping"
+   ]
+  }
+ ]
+}

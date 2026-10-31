@@ -1,0 +1,671 @@
+{
+ "chunk": "B1-P08",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "c15ecba3-422c-5483-bbb9-83bf203e6a14",
+   "lemma": "gift card",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gift card",
+    "gift voucher",
+    "voucher"
+   ],
+   "kind": "collocation",
+   "glossEn": "a card with money to spend in a shop",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "6797ba80-5b44-57b7-8ac1-fa314aa7b752",
+   "lemma": "real bargain",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "real bargain",
+    "a real bargain",
+    "good bargain"
+   ],
+   "kind": "collocation",
+   "glossEn": "something bought for much less than its worth",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "712c2c2d-a0e7-56e8-ba12-b0f8fab42b8f",
+   "lemma": "cover letter",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cover letter",
+    "covering letter"
+   ],
+   "kind": "collocation",
+   "glossEn": "a letter sent with a CV when applying for jobs",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "0c4ea461-e86e-5269-9cee-0b54ae903041",
+   "lemma": "single room",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "single room"
+   ],
+   "kind": "collocation",
+   "glossEn": "a hotel room for one person",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "ab073948-869b-5734-9920-0ca6681182e6",
+   "lemma": "double room",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "double room",
+    "twin room"
+   ],
+   "kind": "collocation",
+   "glossEn": "a hotel room for two people",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "d02cd638-7d9c-5bae-b629-67b69fcdb0c5",
+   "lemma": "room service",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "room service",
+    "order room service"
+   ],
+   "kind": "collocation",
+   "glossEn": "food and drinks brought to your hotel room",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "717236ce-cccd-5e23-a37e-abf1bb30e1ae",
+   "lemma": "gas station",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gas station",
+    "petrol station",
+    "filling station"
+   ],
+   "kind": "collocation",
+   "glossEn": "a place where you buy fuel for a car",
+   "topics": [
+    "travel",
+    "city"
+   ]
+  },
+  {
+   "id": "f5eb6844-d222-583c-ba0b-aa90dd60994f",
+   "lemma": "parking ticket",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "parking ticket",
+    "get a parking ticket",
+    "parking fine"
+   ],
+   "kind": "collocation",
+   "glossEn": "a fine for parking in the wrong place",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "42b8e9f8-484b-5af8-9a0e-12fddc54fa92",
+   "lemma": "crosswalk",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "crosswalk",
+    "zebra crossing",
+    "pedestrian crossing"
+   ],
+   "kind": "collocation",
+   "glossEn": "a marked place for people to cross the road",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "067a39f8-7647-58f9-8fe4-e61831392920",
+   "lemma": "one-way street",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "one-way street"
+   ],
+   "kind": "collocation",
+   "glossEn": "a street where traffic goes in one direction",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "2969a592-707f-5861-b86d-a1189dac2b12",
+   "lemma": "city hall",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "city hall",
+    "town hall"
+   ],
+   "kind": "collocation",
+   "glossEn": "the building of the local government",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "5181b656-7411-5075-9723-202da310566d",
+   "lemma": "bike lane",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bike lane",
+    "cycle lane",
+    "bike path"
+   ],
+   "kind": "collocation",
+   "glossEn": "a part of the road only for bicycles",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "3fc8a273-6cc3-5edb-a127-9f453acaf48d",
+   "lemma": "street market",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "street market",
+    "outdoor market",
+    "flea market"
+   ],
+   "kind": "collocation",
+   "glossEn": "stalls selling goods outdoors in a street",
+   "topics": [
+    "city",
+    "shopping"
+   ]
+  },
+  {
+   "id": "cc4ef593-1e2b-5cf9-a47a-c710edf6a78d",
+   "lemma": "convenience store",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "convenience store",
+    "corner shop",
+    "corner store"
+   ],
+   "kind": "collocation",
+   "glossEn": "a small shop open long hours for basics",
+   "topics": [
+    "shopping",
+    "city"
+   ]
+  },
+  {
+   "id": "f5f3c93f-482a-56bd-a64f-66ecd9c2fb14",
+   "lemma": "coffee break",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "coffee break",
+    "tea break",
+    "take a coffee break"
+   ],
+   "kind": "collocation",
+   "glossEn": "a short rest from work for a drink",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "82b3393f-c3cf-5ddf-ae30-ae69b6456276",
+   "lemma": "lunch break",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lunch break",
+    "lunch hour",
+    "on your lunch break"
+   ],
+   "kind": "collocation",
+   "glossEn": "the time off work to eat at midday",
+   "topics": [
+    "work",
+    "food"
+   ]
+  },
+  {
+   "id": "7eb973a0-f54b-59ee-a133-cd99ef226c6d",
+   "lemma": "working hours",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "working hours",
+    "work hours",
+    "flexible working hours"
+   ],
+   "kind": "collocation",
+   "glossEn": "the time of day when people work",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "446a64da-71ad-5069-a6f9-3076fd5ee93b",
+   "lemma": "office hours",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "office hours",
+    "opening hours",
+    "business hours"
+   ],
+   "kind": "collocation",
+   "glossEn": "the times when an office is open",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "2f37f09e-2e6b-5ab7-abb3-65c5e015878e",
+   "lemma": "team meeting",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "team meeting",
+    "staff meeting"
+   ],
+   "kind": "collocation",
+   "glossEn": "a meeting of the people who work together",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "200d1efb-3ab8-5ce7-8435-b16e56020cd0",
+   "lemma": "job offer",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "job offer",
+    "get a job offer",
+    "accept a job offer"
+   ],
+   "kind": "collocation",
+   "glossEn": "a formal proposal to employ someone",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "b24a90be-bd4a-5f08-b061-bf4ec1715bce",
+   "lemma": "job application",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "job application",
+    "application form",
+    "submit a job application"
+   ],
+   "kind": "collocation",
+   "glossEn": "a formal request to be given a job",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "2d2e6abf-10e2-5ee1-acc1-9987e606f58e",
+   "lemma": "work experience",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "work experience",
+    "previous work experience"
+   ],
+   "kind": "collocation",
+   "glossEn": "the jobs and skills you have had before",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "19542a2a-a113-54ee-b0fe-bec9130848c4",
+   "lemma": "as far as I know",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as far as I know",
+    "as far as I'm aware",
+    "afaik"
+   ],
+   "kind": "formula",
+   "glossEn": "hedge: according to what I know",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "cd076644-3dad-5e53-9d4c-502906d83b6a",
+   "lemma": "to be honest",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "to be honest",
+    "to be honest with you",
+    "honestly",
+    "tbh"
+   ],
+   "kind": "formula",
+   "glossEn": "introducing a frank opinion",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "2cf3241e-6380-5251-a366-e8da9f2ac094",
+   "lemma": "to tell you the truth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "to tell you the truth",
+    "to tell the truth",
+    "truth be told"
+   ],
+   "kind": "formula",
+   "glossEn": "introducing a sincere, sometimes unexpected admission",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "cf1956f3-ae8a-56e9-a4c8-fe90a41e2ca2",
+   "lemma": "in my opinion",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in my opinion",
+    "in my view",
+    "imo"
+   ],
+   "kind": "formula",
+   "glossEn": "introducing a personal view",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "a8d7bcee-9f69-50f2-8f6b-1a1253bd3597",
+   "lemma": "it seems to me",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "it seems to me",
+    "it seems to me that",
+    "seems to me"
+   ],
+   "kind": "formula",
+   "glossEn": "softly introducing an impression or opinion",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "4d0d2732-a410-5941-9589-9682eff23f7c",
+   "lemma": "as a matter of fact",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as a matter of fact"
+   ],
+   "kind": "formula",
+   "glossEn": "adding or correcting with a surprising fact",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "a6f44b02-ea65-5fbe-bc7d-7e1191474458",
+   "lemma": "I'm afraid",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I'm afraid",
+    "I am afraid",
+    "I'm afraid not",
+    "I'm afraid so"
+   ],
+   "kind": "formula",
+   "glossEn": "politely introducing bad news or a refusal",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "e11033e5-98c5-5519-b43b-8712c71b01f8",
+   "lemma": "I doubt it",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I doubt it",
+    "I doubt that"
+   ],
+   "kind": "formula",
+   "glossEn": "saying you think something is unlikely",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "61dca22f-9c39-574c-b601-8380af98f275",
+   "lemma": "it's hard to say",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "it's hard to say",
+    "it is hard to say",
+    "hard to say",
+    "it's hard to tell"
+   ],
+   "kind": "formula",
+   "glossEn": "saying the answer is uncertain",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "d877a56d-a6ac-5770-b6e4-88bc4b63787a",
+   "lemma": "sort of",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sort of",
+    "kind of",
+    "kinda"
+   ],
+   "kind": "formula",
+   "glossEn": "hedge: partly, to some extent",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "4dfa7e0e-a3f0-54c9-beb5-0d84f18b555d",
+   "lemma": "if you ask me",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "if you ask me"
+   ],
+   "kind": "formula",
+   "glossEn": "introducing a personal, often blunt opinion",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "d3a126dd-bac0-50f2-a03d-cf605d4f8eb6",
+   "lemma": "as far as I'm concerned",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as far as I'm concerned",
+    "as far as I am concerned"
+   ],
+   "kind": "formula",
+   "glossEn": "stating a firm personal position",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "4d666e2d-0761-5e66-bfe0-ba409d2b01c4",
+   "lemma": "for what it's worth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "for what it's worth",
+    "for what it is worth",
+    "fwiw"
+   ],
+   "kind": "formula",
+   "glossEn": "modestly offering an opinion that may not matter",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "973ea995-f189-5ef2-9176-7d64f3fa6a2c",
+   "lemma": "I'd rather not",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I'd rather not",
+    "I would rather not"
+   ],
+   "kind": "formula",
+   "glossEn": "politely declining to do something",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "ec6eabea-0bd8-57b1-a29e-c211ac6ed13b",
+   "lemma": "on the one hand",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the one hand",
+    "on one hand"
+   ],
+   "kind": "formula",
+   "glossEn": "introducing the first of two contrasting points",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "880fd3cf-b0d3-5e30-ab0b-6d13fb6643b2",
+   "lemma": "on the other hand",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the other hand"
+   ],
+   "kind": "formula",
+   "glossEn": "introducing a contrasting point",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "3b2af776-ad3e-5e77-86ec-d3ae42dfccfd",
+   "lemma": "in other words",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in other words"
+   ],
+   "kind": "formula",
+   "glossEn": "restating something more simply",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "3005ac74-fbdf-57ed-8c94-3561942244d5",
+   "lemma": "to sum up",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "to sum up",
+    "to summarize",
+    "summing up"
+   ],
+   "kind": "formula",
+   "glossEn": "introducing a summary or conclusion",
+   "topics": [
+    "communication"
+   ]
+  }
+ ]
+}

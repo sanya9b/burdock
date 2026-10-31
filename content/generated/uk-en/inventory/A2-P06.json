@@ -1,0 +1,620 @@
+{
+ "chunk": "A2-P06",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "23b29033-8229-58f5-82cb-0eaa870ba81b",
+   "lemma": "set the table",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "set the table",
+    "lay the table"
+   ],
+   "kind": "collocation",
+   "glossEn": "put plates and cutlery on the table",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "60d18be2-13eb-5ff5-87be-c528058e52ca",
+   "lemma": "clear the table",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "clear the table"
+   ],
+   "kind": "collocation",
+   "glossEn": "remove plates after a meal",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "70215ed4-983e-5fda-bba6-b4c8815bf768",
+   "lemma": "light meal",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "light meal",
+    "light lunch",
+    "light snack"
+   ],
+   "kind": "collocation",
+   "glossEn": "a small meal that is easy to digest",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "a50c49ca-0559-52ca-9665-70925891128d",
+   "lemma": "heavy meal",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heavy meal",
+    "big meal"
+   ],
+   "kind": "collocation",
+   "glossEn": "a large filling meal",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "b37663e0-40bc-5e76-98bb-9fff9302cee1",
+   "lemma": "scrambled eggs",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scrambled eggs",
+    "scrambled egg"
+   ],
+   "kind": "collocation",
+   "glossEn": "eggs mixed and cooked in a pan",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "62b924a2-b37b-5829-9f33-e629d64223b4",
+   "lemma": "mashed potatoes",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mashed potatoes",
+    "mashed potato",
+    "mash"
+   ],
+   "kind": "collocation",
+   "glossEn": "boiled potatoes crushed until soft",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "1224faef-d6d8-5807-9fa1-7c6c22624a6f",
+   "lemma": "fried chicken",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fried chicken"
+   ],
+   "kind": "collocation",
+   "glossEn": "chicken pieces cooked in hot oil",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "27161c86-b141-5501-aaad-6696b0a01d32",
+   "lemma": "tap water",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tap water"
+   ],
+   "kind": "collocation",
+   "glossEn": "water that comes from the pipes in a building",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "4629cd42-206d-5b48-ba89-018ff96104dd",
+   "lemma": "black coffee",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "black coffee",
+    "black tea"
+   ],
+   "kind": "collocation",
+   "glossEn": "coffee without milk",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "a803f4d1-6f19-5f8f-b173-ea28405f85c3",
+   "lemma": "spare time",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spare time",
+    "in your spare time"
+   ],
+   "kind": "collocation",
+   "glossEn": "time when you have nothing you must do",
+   "topics": []
+  },
+  {
+   "id": "c47d3dd8-e2ae-5ca2-ad75-2c124dc07854",
+   "lemma": "have a picnic",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have a picnic",
+    "go on a picnic",
+    "go for a picnic"
+   ],
+   "kind": "collocation",
+   "glossEn": "eat a meal outdoors for pleasure",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "85d406cf-6a44-5846-9a9e-dc8cf5a9ab69",
+   "lemma": "throw a party",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "throw a party",
+    "throw sb a party"
+   ],
+   "kind": "collocation",
+   "glossEn": "organize and host a party",
+   "topics": []
+  },
+  {
+   "id": "9cfea6c2-2d2e-5ebe-a0a3-147e2b0fc1d8",
+   "lemma": "play cards",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "play cards",
+    "play a card game"
+   ],
+   "kind": "collocation",
+   "glossEn": "play a game with playing cards",
+   "topics": []
+  },
+  {
+   "id": "213837f3-fb8a-5014-9fee-4bb434e58a18",
+   "lemma": "play chess",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "play chess"
+   ],
+   "kind": "collocation",
+   "glossEn": "play the board game chess",
+   "topics": []
+  },
+  {
+   "id": "db634420-8d71-5345-9d0e-171835b67d9c",
+   "lemma": "play a game",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "play a game",
+    "play games"
+   ],
+   "kind": "collocation",
+   "glossEn": "take part in a game",
+   "topics": []
+  },
+  {
+   "id": "5c823a3c-c4f9-5d39-ad16-2f0f37ee2721",
+   "lemma": "play video games",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "play video games",
+    "play computer games",
+    "play a video game"
+   ],
+   "kind": "collocation",
+   "glossEn": "play games on a console, computer or phone",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "a5c19319-7ca9-5e12-8358-74c4af8f8059",
+   "lemma": "go to the gym",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go to the gym",
+    "work out at the gym"
+   ],
+   "kind": "collocation",
+   "glossEn": "exercise at a fitness center",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "425074ca-3f8a-5e50-bb25-dbb37be0e56a",
+   "lemma": "go jogging",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go jogging",
+    "go for a run",
+    "go running"
+   ],
+   "kind": "collocation",
+   "glossEn": "run slowly for exercise",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "1634747e-d47e-58ee-9c31-eb0992a1c2d4",
+   "lemma": "go dancing",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go dancing"
+   ],
+   "kind": "collocation",
+   "glossEn": "go out to dance for fun",
+   "topics": []
+  },
+  {
+   "id": "48bb9eb3-f6ac-5f95-90d1-faf4ac4bce22",
+   "lemma": "go fishing",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go fishing"
+   ],
+   "kind": "collocation",
+   "glossEn": "try to catch fish as a hobby",
+   "topics": []
+  },
+  {
+   "id": "85bf7722-1c9f-5dc5-8137-833bc854320c",
+   "lemma": "go skiing",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go skiing",
+    "go snowboarding"
+   ],
+   "kind": "collocation",
+   "glossEn": "ski as a sport or holiday",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "518f49ba-910b-59f0-8a2a-1381e40e2645",
+   "lemma": "ride a horse",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ride a horse",
+    "go horse riding",
+    "go horseback riding"
+   ],
+   "kind": "collocation",
+   "glossEn": "sit on and control a horse",
+   "topics": []
+  },
+  {
+   "id": "a6a86e61-9655-52ae-b211-6c540a191976",
+   "lemma": "take the stairs",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take the stairs",
+    "use the stairs"
+   ],
+   "kind": "collocation",
+   "glossEn": "walk up or down instead of using a lift",
+   "topics": [
+    "city",
+    "health"
+   ]
+  },
+  {
+   "id": "a98c79ce-e5ed-5b56-8921-60f07cc29a57",
+   "lemma": "take the elevator",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take the elevator",
+    "take the lift",
+    "use the lift"
+   ],
+   "kind": "collocation",
+   "glossEn": "go up or down in a lift",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "53e8fec0-69e4-52a2-9206-268c45b08c98",
+   "lemma": "wait in line",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wait in line",
+    "stand in line",
+    "queue up",
+    "queue"
+   ],
+   "kind": "collocation",
+   "glossEn": "stand in a queue and wait your turn",
+   "topics": [
+    "shopping",
+    "city"
+   ]
+  },
+  {
+   "id": "305c7258-cf47-5c7e-9e51-6a8e695a1429",
+   "lemma": "loud music",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "loud music"
+   ],
+   "kind": "collocation",
+   "glossEn": "music played at high volume",
+   "topics": []
+  },
+  {
+   "id": "9dbf330b-58f2-55cd-b0e2-f1ea4d3c2def",
+   "lemma": "dark chocolate",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dark chocolate",
+    "milk chocolate"
+   ],
+   "kind": "collocation",
+   "glossEn": "chocolate with little or no milk",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "9ae9569c-daf7-5859-a02c-b2997a4c0f4d",
+   "lemma": "fast internet",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fast internet",
+    "high-speed internet",
+    "fast Wi-Fi"
+   ],
+   "kind": "collocation",
+   "glossEn": "an internet connection with high speed",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "62089a6d-ca9e-570e-9fa4-5531500742cc",
+   "lemma": "strong password",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "strong password",
+    "weak password"
+   ],
+   "kind": "collocation",
+   "glossEn": "a password that is hard to guess",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "75ad4b55-e6d8-5232-b6bd-9fdd61c28ba3",
+   "lemma": "right answer",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "right answer",
+    "correct answer",
+    "the right answer"
+   ],
+   "kind": "collocation",
+   "glossEn": "the correct reply",
+   "topics": []
+  },
+  {
+   "id": "de3064ec-1add-5abd-b78e-50287796b415",
+   "lemma": "wrong answer",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wrong answer",
+    "the wrong answer"
+   ],
+   "kind": "collocation",
+   "glossEn": "an incorrect reply",
+   "topics": []
+  },
+  {
+   "id": "155f857c-c3b3-5b78-9005-54102cc639c6",
+   "lemma": "big mistake",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "big mistake",
+    "huge mistake",
+    "terrible mistake"
+   ],
+   "kind": "collocation",
+   "glossEn": "a serious error",
+   "topics": []
+  },
+  {
+   "id": "bfca83b7-e535-545f-9b54-08b6c924cec8",
+   "lemma": "close friend",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "close friend",
+    "close friends"
+   ],
+   "kind": "collocation",
+   "glossEn": "a friend you know and trust very well",
+   "topics": []
+  },
+  {
+   "id": "cbc69ab9-94b3-5d05-ae5a-f4b50672d5a5",
+   "lemma": "old friend",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "old friend",
+    "old friends"
+   ],
+   "kind": "collocation",
+   "glossEn": "a friend you have known for a long time",
+   "topics": []
+  },
+  {
+   "id": "8aa3c0e9-cf96-5418-85dd-b2a296898831",
+   "lemma": "only child",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "only child",
+    "an only child"
+   ],
+   "kind": "collocation",
+   "glossEn": "a child with no brothers or sisters",
+   "topics": []
+  },
+  {
+   "id": "fc60b756-7e66-58ed-98ff-56f8d5e5cb95",
+   "lemma": "daily routine",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "daily routine",
+    "morning routine"
+   ],
+   "kind": "collocation",
+   "glossEn": "the things you do every day in order",
+   "topics": []
+  },
+  {
+   "id": "234062ab-057f-5efd-b2a7-535c66bb726b",
+   "lemma": "bad habit",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bad habit",
+    "bad habits"
+   ],
+   "kind": "collocation",
+   "glossEn": "something harmful you do regularly",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "e277f56b-15e8-52fa-bb04-10b322b80a14",
+   "lemma": "good news",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "good news",
+    "great news",
+    "bad news"
+   ],
+   "kind": "collocation",
+   "glossEn": "information that makes you happy",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "59a07785-496e-501e-9e78-09a2c00fe9ec",
+   "lemma": "bad luck",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bad luck",
+    "hard luck"
+   ],
+   "kind": "collocation",
+   "glossEn": "misfortune that happens by chance",
+   "topics": []
+  },
+  {
+   "id": "0aedc5b7-44e0-53d6-a9ae-207176f97029",
+   "lemma": "by the way",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "by the way",
+    "btw"
+   ],
+   "kind": "formula",
+   "glossEn": "introducing a side remark or new topic",
+   "topics": [
+    "communication"
+   ]
+  }
+ ]
+}

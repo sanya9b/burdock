@@ -403,4 +403,11 @@
   <data name="Ach_ACH_PERFECT_20_Body" xml:space="preserve"><value>Сесія на 20 карток без помилок</value></data>
   <data name="Word_AlsoMeans_Inline" xml:space="preserve"><value>Також: </value></data>
   <data name="Word_Stat_Memory_None" xml:space="preserve"><value>—</value><comment>Шанс пригадати ще не рахується (нове слово)</comment></data>
+  <data name="Rewards_Level_Short" xml:space="preserve"><value>Рівень {0}</value></data>
+  <data name="Growth_ToNext" xml:space="preserve"><value>Ще {0} XP до стадії «{1}»</value><comment>Підпис під Реп’яшком у профілі: скільки XP лишилось до наступної стадії росту</comment></data>
+  <data name="Growth_Final" xml:space="preserve"><value>Найвища стадія росту</value></data>
+  <data name="Growth_A11y" xml:space="preserve"><value>Реп’яшок на стадії «{0}»</value><comment>Опис маскота для читача екрана</comment></data>
+  <data name="Growth_A11y_Plain" xml:space="preserve"><value>Реп’яшок</value><comment>Опис маскота для читача екрана в режимі без гейміфікації</comment></data>
+  <data name="Celebration_Growth_Eyebrow" xml:space="preserve"><value>Реп’яшок підріс</value></data>
+  <data name="Celebration_Growth_Body" xml:space="preserve"><value>Кожна сесія підживлює його. Так тримати!</value></data>
 </root>

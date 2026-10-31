@@ -1,0 +1,620 @@
+{
+ "chunk": "A2-P02",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "89ef80e1-ca50-59bd-a912-55da3dea2c4f",
+   "lemma": "miss the bus",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "miss the bus",
+    "miss the train",
+    "miss a flight"
+   ],
+   "kind": "collocation",
+   "glossEn": "arrive too late to get on the bus",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "c2f45bef-3984-5ea4-b533-f82946752694",
+   "lemma": "take the train",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take the train",
+    "take a train",
+    "go by train"
+   ],
+   "kind": "collocation",
+   "glossEn": "travel somewhere by train",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "1f1b51a2-2453-5e1e-969c-9357da2d8e9d",
+   "lemma": "take a day off",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take a day off",
+    "have a day off",
+    "take the day off"
+   ],
+   "kind": "collocation",
+   "glossEn": "not go to work for a day",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "ae9941ac-2ed3-5af1-bb7b-ae80b0a62aad",
+   "lemma": "take care of sb",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take care of sb",
+    "take care of sth",
+    "take care"
+   ],
+   "kind": "collocation",
+   "glossEn": "look after someone or something",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "2188aff7-e5f8-5c41-8a28-114eeca71f8f",
+   "lemma": "take your time",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take your time",
+    "take my time"
+   ],
+   "kind": "collocation",
+   "glossEn": "do something slowly without hurrying",
+   "topics": []
+  },
+  {
+   "id": "739435c4-297c-569e-adb1-46b543534620",
+   "lemma": "take place",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take place"
+   ],
+   "kind": "collocation",
+   "glossEn": "happen, especially an event",
+   "topics": []
+  },
+  {
+   "id": "168138e7-6cbd-5f85-8fa5-37889ed4c941",
+   "lemma": "take part in sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take part in sth",
+    "take part"
+   ],
+   "kind": "collocation",
+   "glossEn": "participate in an activity",
+   "topics": []
+  },
+  {
+   "id": "dfcd16a2-bcad-585d-af80-864160cc4eaf",
+   "lemma": "take turns",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take turns",
+    "take it in turns"
+   ],
+   "kind": "collocation",
+   "glossEn": "do something one after another",
+   "topics": []
+  },
+  {
+   "id": "0ae8aee2-25b2-544b-883b-1c8c1eebef4e",
+   "lemma": "take a message",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take a message",
+    "leave a message"
+   ],
+   "kind": "collocation",
+   "glossEn": "write down a message for an absent person",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "de7fde2e-6bce-50fd-8e32-43905967bddb",
+   "lemma": "take a deep breath",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take a deep breath",
+    "take a breath"
+   ],
+   "kind": "collocation",
+   "glossEn": "breathe in slowly and fully",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "ec79fd4c-2d48-511e-9811-bafffb14f6a2",
+   "lemma": "catch a cold",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "catch a cold",
+    "catch cold"
+   ],
+   "kind": "collocation",
+   "glossEn": "become ill with a cold",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "d549c21c-4fa4-5f89-a86c-2096816f879e",
+   "lemma": "get a job",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get a job",
+    "find a job"
+   ],
+   "kind": "collocation",
+   "glossEn": "be given paid work",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "bca260d2-0cdf-5043-8250-3e89b11a566d",
+   "lemma": "lose your job",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lose your job",
+    "lose a job"
+   ],
+   "kind": "collocation",
+   "glossEn": "be dismissed from paid work",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "5712c8e6-f23d-5f99-95ad-27c55ef75c0d",
+   "lemma": "get a haircut",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get a haircut",
+    "have a haircut",
+    "get your hair cut"
+   ],
+   "kind": "collocation",
+   "glossEn": "have your hair cut",
+   "topics": []
+  },
+  {
+   "id": "5388ca37-6ea0-5913-933a-e9c153f134c6",
+   "lemma": "get lost",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get lost"
+   ],
+   "kind": "collocation",
+   "glossEn": "not know where you are",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "241b1b28-de24-5ddb-ac07-10a253a452d4",
+   "lemma": "get ready",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get ready",
+    "get ready for sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "prepare yourself for something",
+   "topics": []
+  },
+  {
+   "id": "a1531eec-b7b9-5002-aa0b-cc52d93bf52a",
+   "lemma": "get a ticket",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get a ticket",
+    "buy a ticket",
+    "get tickets"
+   ],
+   "kind": "collocation",
+   "glossEn": "obtain a ticket for travel or an event",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "61350ef4-c23c-51eb-b4fa-034a3a76e1c9",
+   "lemma": "get a discount",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get a discount",
+    "get a discount on sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "pay a reduced price",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "80cb9b0b-547e-577f-a419-fe3a19f3d8d5",
+   "lemma": "get in touch with sb",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get in touch with sb",
+    "get in touch"
+   ],
+   "kind": "collocation",
+   "glossEn": "contact someone",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "aa9c8291-3bac-5256-b868-165ebb6182d0",
+   "lemma": "keep in touch",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep in touch",
+    "stay in touch",
+    "keep in touch with sb"
+   ],
+   "kind": "collocation",
+   "glossEn": "continue to communicate with someone",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "d9e5f9d5-227c-5ca2-ab6d-c0d05836ad0d",
+   "lemma": "keep a secret",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep a secret",
+    "keep secrets"
+   ],
+   "kind": "collocation",
+   "glossEn": "not tell others something private",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "0f62a71b-6048-56a2-8107-569adfdf6f87",
+   "lemma": "keep a promise",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep a promise",
+    "keep your promise"
+   ],
+   "kind": "collocation",
+   "glossEn": "do what you promised",
+   "topics": []
+  },
+  {
+   "id": "5ec74330-aae4-5eea-9500-e94cd0114493",
+   "lemma": "keep a diary",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep a diary",
+    "keep a journal"
+   ],
+   "kind": "collocation",
+   "glossEn": "write regularly about your days",
+   "topics": []
+  },
+  {
+   "id": "19f5ada3-db84-5882-acd3-3fc383f61c4a",
+   "lemma": "break a promise",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "break a promise",
+    "break your promise"
+   ],
+   "kind": "collocation",
+   "glossEn": "fail to do what you promised",
+   "topics": []
+  },
+  {
+   "id": "ad0a625b-c96f-5b5c-ab82-dc4780e48d03",
+   "lemma": "break the law",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "break the law"
+   ],
+   "kind": "collocation",
+   "glossEn": "do something illegal",
+   "topics": []
+  },
+  {
+   "id": "290a744d-8132-5cf3-ac41-42175d071ee1",
+   "lemma": "pay attention to sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pay attention to sth",
+    "pay attention"
+   ],
+   "kind": "collocation",
+   "glossEn": "listen to or watch something carefully",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "671fc3a5-aeec-5815-a782-b323e37cd8c0",
+   "lemma": "pay in cash",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pay in cash",
+    "pay cash"
+   ],
+   "kind": "collocation",
+   "glossEn": "pay with coins and notes",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "9c683cb4-c648-509d-b661-886047cf0f4e",
+   "lemma": "pay by card",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pay by card",
+    "pay by credit card"
+   ],
+   "kind": "collocation",
+   "glossEn": "pay with a bank card",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "183a9332-b6f1-53fe-aaab-1da794951602",
+   "lemma": "save time",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "save time"
+   ],
+   "kind": "collocation",
+   "glossEn": "do something in a way that uses less time",
+   "topics": []
+  },
+  {
+   "id": "657e4803-2597-57a4-9ddc-578ba5da5818",
+   "lemma": "waste time",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "waste time",
+    "waste your time",
+    "waste time on sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "use time badly on useless things",
+   "topics": []
+  },
+  {
+   "id": "9f06d3b4-698a-5fa7-b989-ad7f578f1fec",
+   "lemma": "waste money",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "waste money",
+    "waste money on sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "spend money on useless things",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "8570e726-3020-5ca0-86a2-61abc0e973b8",
+   "lemma": "spend the night",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spend the night",
+    "stay the night"
+   ],
+   "kind": "collocation",
+   "glossEn": "stay somewhere overnight",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "061102be-ecae-5a6f-92ea-0d8128605964",
+   "lemma": "lose weight",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lose weight"
+   ],
+   "kind": "collocation",
+   "glossEn": "become lighter and thinner",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "a26df57c-f810-5e1b-b7ce-381890019a20",
+   "lemma": "gain weight",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gain weight",
+    "put on weight"
+   ],
+   "kind": "collocation",
+   "glossEn": "become heavier",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "3708e2f1-e014-56c5-ac51-eff35a602e1c",
+   "lemma": "go on a diet",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go on a diet",
+    "be on a diet"
+   ],
+   "kind": "collocation",
+   "glossEn": "start eating less to lose weight",
+   "topics": [
+    "health",
+    "food"
+   ]
+  },
+  {
+   "id": "4b885e94-02a3-5417-88bb-c5c17c475450",
+   "lemma": "heavy rain",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heavy rain"
+   ],
+   "kind": "collocation",
+   "glossEn": "rain that falls in large amounts",
+   "topics": []
+  },
+  {
+   "id": "cdfd84b8-752f-5a50-84b3-1b5f774b18c8",
+   "lemma": "heavy traffic",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heavy traffic"
+   ],
+   "kind": "collocation",
+   "glossEn": "many vehicles moving slowly on the road",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "f2b4f9c3-ee9a-50db-be84-0734556766a8",
+   "lemma": "heavy snow",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heavy snow",
+    "heavy snowfall"
+   ],
+   "kind": "collocation",
+   "glossEn": "snow that falls in large amounts",
+   "topics": []
+  },
+  {
+   "id": "05eda182-c6a7-5682-84fe-2af4ff220867",
+   "lemma": "strong coffee",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "strong coffee",
+    "strong tea"
+   ],
+   "kind": "collocation",
+   "glossEn": "coffee with a powerful taste",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "d7567f39-6f1c-5452-ae2d-5de199ec2778",
+   "lemma": "strong accent",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "strong accent",
+    "thick accent"
+   ],
+   "kind": "collocation",
+   "glossEn": "a very noticeable way of pronouncing words",
+   "topics": [
+    "communication"
+   ]
+  }
+ ]
+}

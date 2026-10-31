@@ -4,6 +4,7 @@ using System.Text;
 using Burdock.Application.UseCases.Rewards;
 using Burdock.Domain.Learning;
 using Burdock.Domain.Rewards;
+using Burdock.Presentation.Controls;
 using Burdock.Presentation.Localization;
 using Burdock.Presentation.Navigation;
 using Burdock.Presentation.Resources.Icons;
@@ -15,11 +16,17 @@ using Microsoft.Extensions.Logging;
 
 namespace Burdock.Presentation.ViewModels;
 
-/// <summary>S-12d: numbers first, then the economy (XP, thorns, streak) and a queue of celebrations (spec 03, spec 07 §3.8). The learning-day rule counts graded cards only (T11).</summary>
+/// <summary>
+/// S-12d: numbers first, then the economy (XP, thorns, streak), the burr being fed with the XP just earned (spec 07 §3.2.7) and a queue of
+/// celebrations (spec 03, spec 07 §3.8). The learning-day rule counts graded cards only (T11).
+/// </summary>
 public sealed partial class SessionSummaryViewModel : ObservableObject, IQueryAttributable
 {
     /// <summary>Below this accuracy the mascot encourages instead of celebrating (spec 03 S-12d).</summary>
     internal const double CelebrationThreshold = 0.6;
+
+    /// <summary>XP per flying seed in the feeding animation; the count is clamped to 3..12 so one card and a full session both read well.</summary>
+    internal const int XpPerSeed = 4;
 
     private static readonly CultureInfo Ukrainian = CultureInfo.GetCultureInfo("uk-UA");
     private static readonly CompositeFormat AccuracyFormat = CompositeFormat.Parse(AppResources.Summary_Accuracy_Label);
@@ -71,7 +78,27 @@ public sealed partial class SessionSummaryViewModel : ObservableObject, IQueryAt
     private bool _learningDayCounted;
 
     [ObservableProperty]
-    private string _mascot = "mascot_party.png";
+    private MascotMood _mood = MascotMood.Party;
+
+    [ObservableProperty]
+    private GrowthStage _mascotStage = GrowthRules.Adult.Stage;
+
+    [ObservableProperty]
+    private double _mascotProgress = GrowthRules.Adult.Progress;
+
+    [ObservableProperty]
+    private string _mascotDescription = AppResources.Growth_A11y_Plain;
+
+    /// <summary>True once the stage before the session is known; the page shows the mascot only then, so a seed never flashes as a grown burr.</summary>
+    [ObservableProperty]
+    private bool _mascotReady;
+
+    /// <summary>Growth after the session; set after <see cref="ShowRewards"/> so the page can feed the burr and then let it grow.</summary>
+    [ObservableProperty]
+    private GrowthSnapshot? _growthAfter;
+
+    [ObservableProperty]
+    private int _feedSeeds;
 
     [ObservableProperty]
     private bool _showRewards;
@@ -122,7 +149,7 @@ public sealed partial class SessionSummaryViewModel : ObservableObject, IQueryAt
         AccuracyText = string.Format(Ukrainian, AccuracyFormat, percent);
         GradedText = Plural.Uk(Graded, GradedOne, GradedFew, GradedMany);
         CorrectText = Plural.Uk(Correct, CorrectOne, CorrectFew, CorrectMany);
-        Mascot = Accuracy >= CelebrationThreshold ? "mascot_party.png" : "mascot_cheer.png";
+        Mood = Accuracy >= CelebrationThreshold ? MascotMood.Party : MascotMood.Cheer;
         LearningDayCounted = Graded >= LearningPolicy.MinGradedCardsForLearningDay;
         LearningDayText = LearningDayCounted
             ? AppResources.Summary_LearningDay_Counted
@@ -141,6 +168,7 @@ public sealed partial class SessionSummaryViewModel : ObservableObject, IQueryAt
     {
         if (_settled || _report is null)
         {
+            MascotReady = true;
             return;
         }
 
@@ -151,6 +179,14 @@ public sealed partial class SessionSummaryViewModel : ObservableObject, IQueryAt
             _ = _widgets.TriggerAsync("session", CancellationToken.None);
             _ = _sync.TriggerAsync("session", CancellationToken.None);
             var s = view.Settlement;
+
+            // The burr appears as it was before this session; without gamification it is the grown-up illustration (spec 07 §3.9).
+            var before = view.GamificationEnabled ? s.GrowthBefore : GrowthRules.Adult;
+            MascotStage = before.Stage;
+            MascotProgress = before.Progress;
+            MascotDescription = view.GamificationEnabled ? RewardsText.GrowthDescription(before.Stage) : AppResources.Growth_A11y_Plain;
+            MascotReady = true;
+
             if (!view.GamificationEnabled || s.IsEmpty)
             {
                 ShowRewards = false;
@@ -166,6 +202,10 @@ public sealed partial class SessionSummaryViewModel : ObservableObject, IQueryAt
             LevelText = RewardsText.Level(s.LevelAfter);
             ShowRewards = true;
 
+            // Feeding: the XP just earned flies into the burr, then it grows to its new size (spec 02 §3.9 «Підживлення»).
+            FeedSeeds = Math.Clamp(s.XpGained / XpPerSeed, 3, 12);
+            GrowthAfter = s.GrowthAfter;
+
             if (s.StreakMilestone is { } milestone)
             {
                 _celebrations.Enqueue(new CelebrationItem(
@@ -179,7 +219,12 @@ public sealed partial class SessionSummaryViewModel : ObservableObject, IQueryAt
                     AppResources.Celebration_Button));
             }
 
-            if (s.LeveledUp)
+            if (s.StageChanged)
+            {
+                // A new growth stage always comes with a level-up; one card celebrates both (spec 07 §3.8.1 L3).
+                _celebrations.Enqueue(new CelebrationItem(3, AppResources.Celebration_Growth_Eyebrow, RewardsText.StageName(s.GrowthAfter.Stage), AppResources.Celebration_Growth_Body, string.Empty, Icon.Sprout, "mascot_party.png", AppResources.Celebration_Button));
+            }
+            else if (s.LeveledUp)
             {
                 _celebrations.Enqueue(new CelebrationItem(3, AppResources.Celebration_LevelUp_Eyebrow, RewardsText.Level(s.LevelAfter), AppResources.Celebration_LevelUp_Body, string.Empty, Icon.Award, "mascot_party.png", AppResources.Celebration_Button));
             }
@@ -210,6 +255,7 @@ public sealed partial class SessionSummaryViewModel : ObservableObject, IQueryAt
         }
         catch (Exception ex) when (ex is not OutOfMemoryException)
         {
+            MascotReady = true;
             LogFailed(ex);
         }
     }

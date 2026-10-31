@@ -1,0 +1,579 @@
+{
+ "chunk": "B1-P01",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "e7c7f645-5126-568b-be10-5bbed4b73d18",
+   "lemma": "safe and sound",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "safe and sound"
+   ],
+   "kind": "binomial",
+   "glossEn": "unharmed and well after a risk",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "6d1fb622-e3e9-580f-9376-df308080c7c4",
+   "lemma": "sooner or later",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sooner or later"
+   ],
+   "kind": "binomial",
+   "glossEn": "at some time in the future, certainly",
+   "topics": []
+  },
+  {
+   "id": "ff488316-e8e9-525d-ac0a-ceffae9c9cb2",
+   "lemma": "black and white",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "black and white",
+    "black-and-white"
+   ],
+   "kind": "binomial",
+   "glossEn": "without color; or clearly right or wrong",
+   "topics": []
+  },
+  {
+   "id": "59d8c520-e207-5609-9bc0-854f485c309a",
+   "lemma": "more or less",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "more or less"
+   ],
+   "kind": "binomial",
+   "glossEn": "approximately; almost",
+   "topics": []
+  },
+  {
+   "id": "39762105-b6a8-546b-bbd7-cc47fb864fc1",
+   "lemma": "now and then",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "now and then",
+    "every now and then",
+    "now and again"
+   ],
+   "kind": "binomial",
+   "glossEn": "occasionally, from time to time",
+   "topics": []
+  },
+  {
+   "id": "03067cf4-bfce-5bf0-a1d8-d079c745805d",
+   "lemma": "back and forth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "back and forth",
+    "backwards and forwards"
+   ],
+   "kind": "binomial",
+   "glossEn": "repeatedly in one direction and then the other",
+   "topics": []
+  },
+  {
+   "id": "a72c049a-f94d-5f60-9f61-2865b656e1f4",
+   "lemma": "up and down",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "up and down"
+   ],
+   "kind": "binomial",
+   "glossEn": "repeatedly rising and falling; along a whole area",
+   "topics": []
+  },
+  {
+   "id": "c2788242-c26c-5fd1-93d9-76090573c25f",
+   "lemma": "in and out",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in and out"
+   ],
+   "kind": "binomial",
+   "glossEn": "entering and leaving repeatedly",
+   "topics": []
+  },
+  {
+   "id": "db34b4db-52aa-5336-a0e6-2c37e574cda5",
+   "lemma": "here and there",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "here and there"
+   ],
+   "kind": "binomial",
+   "glossEn": "in various scattered places",
+   "topics": []
+  },
+  {
+   "id": "88989b08-91aa-582a-bff2-ce59ec632e5b",
+   "lemma": "again and again",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "again and again",
+    "time and again"
+   ],
+   "kind": "binomial",
+   "glossEn": "many times, repeatedly",
+   "topics": []
+  },
+  {
+   "id": "c5928cfe-b29c-5985-a7ea-efbc4cebcda2",
+   "lemma": "over and over",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "over and over",
+    "over and over again"
+   ],
+   "kind": "binomial",
+   "glossEn": "repeatedly, many times",
+   "topics": []
+  },
+  {
+   "id": "674b5dfb-73d2-511b-a676-9b142b8f9d91",
+   "lemma": "on and off",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on and off",
+    "off and on"
+   ],
+   "kind": "binomial",
+   "glossEn": "not continuously, with interruptions",
+   "topics": []
+  },
+  {
+   "id": "08ae6448-a29d-55d8-87a7-cc94f591b98f",
+   "lemma": "bread and butter",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bread and butter",
+    "bread-and-butter"
+   ],
+   "kind": "binomial",
+   "glossEn": "main source of income; basic essentials",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "12e0f2e8-0c7f-5edb-bba1-338459f6996f",
+   "lemma": "fish and chips",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fish and chips",
+    "fish 'n' chips"
+   ],
+   "kind": "binomial",
+   "glossEn": "fried fish served with fried potatoes",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "a75040ad-3bc5-5c76-9248-41756e0b0a01",
+   "lemma": "salt and pepper",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "salt and pepper"
+   ],
+   "kind": "binomial",
+   "glossEn": "the two basic table seasonings",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "2424fc04-c1a8-56d9-ba34-1e21b4470db0",
+   "lemma": "knife and fork",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "knife and fork"
+   ],
+   "kind": "binomial",
+   "glossEn": "cutlery used for eating a meal",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "fc13c96a-a64d-57fd-ad24-38db5e1dadf1",
+   "lemma": "ladies and gentlemen",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ladies and gentlemen"
+   ],
+   "kind": "binomial",
+   "glossEn": "formal address to an audience",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "5730bc76-1f4e-5ed4-aa38-4a9ea6764505",
+   "lemma": "pros and cons",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pros and cons",
+    "the pros and cons"
+   ],
+   "kind": "binomial",
+   "glossEn": "advantages and disadvantages",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "f9b97223-31cc-50c1-a853-f91f7f746a34",
+   "lemma": "right or wrong",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "right or wrong",
+    "rightly or wrongly"
+   ],
+   "kind": "binomial",
+   "glossEn": "whether correct or not; regardless",
+   "topics": []
+  },
+  {
+   "id": "1dd446c7-ad1f-534c-9b4e-9a6453eff7f5",
+   "lemma": "day and night",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "day and night",
+    "night and day"
+   ],
+   "kind": "binomial",
+   "glossEn": "all the time, without stopping",
+   "topics": []
+  },
+  {
+   "id": "0da4f9ed-4052-5fb8-9d45-262c28bbada7",
+   "lemma": "hide and seek",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hide and seek",
+    "hide-and-seek"
+   ],
+   "kind": "binomial",
+   "glossEn": "children's game of hiding and finding",
+   "topics": []
+  },
+  {
+   "id": "e9ac9453-4129-5ea1-af23-f1ad19014389",
+   "lemma": "trial and error",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "trial and error",
+    "trial-and-error"
+   ],
+   "kind": "binomial",
+   "glossEn": "learning by trying and correcting mistakes",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "c799a51d-9502-5f91-8532-8b8ec9dfa6f9",
+   "lemma": "give and take",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "give and take",
+    "give-and-take"
+   ],
+   "kind": "binomial",
+   "glossEn": "mutual compromise between people",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "b674189c-a763-5f1b-b33e-b44bd2db5ac1",
+   "lemma": "peace and quiet",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "peace and quiet"
+   ],
+   "kind": "binomial",
+   "glossEn": "calm without noise or disturbance",
+   "topics": []
+  },
+  {
+   "id": "102f54b0-952d-5a59-a06e-134f019396ba",
+   "lemma": "terms and conditions",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "terms and conditions",
+    "T&Cs"
+   ],
+   "kind": "binomial",
+   "glossEn": "rules of a contract or service",
+   "topics": [
+    "shopping",
+    "it"
+   ]
+  },
+  {
+   "id": "897bfe55-1c56-53a7-94f1-b24898d98d62",
+   "lemma": "loud and clear",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "loud and clear"
+   ],
+   "kind": "binomial",
+   "glossEn": "heard or understood very clearly",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "3fa65535-63bf-51d1-bc50-787d340ec87d",
+   "lemma": "young and old",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "young and old",
+    "young and old alike"
+   ],
+   "kind": "binomial",
+   "glossEn": "people of all ages",
+   "topics": []
+  },
+  {
+   "id": "204d7aff-8048-510b-b5ac-e957069f9302",
+   "lemma": "husband and wife",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "husband and wife"
+   ],
+   "kind": "binomial",
+   "glossEn": "a married couple",
+   "topics": []
+  },
+  {
+   "id": "fea76904-161f-5202-8d61-df57554d2d9f",
+   "lemma": "sick and tired",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sick and tired",
+    "sick and tired of sth"
+   ],
+   "kind": "binomial",
+   "glossEn": "very annoyed and bored with something",
+   "topics": []
+  },
+  {
+   "id": "07aafc5d-693a-5b46-ae95-374391abdb63",
+   "lemma": "alive and well",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "alive and well",
+    "alive and kicking"
+   ],
+   "kind": "binomial",
+   "glossEn": "still living and healthy; still popular",
+   "topics": []
+  },
+  {
+   "id": "3e58832d-7024-52e6-baee-7f23f7929f94",
+   "lemma": "neat and tidy",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "neat and tidy",
+    "clean and tidy"
+   ],
+   "kind": "binomial",
+   "glossEn": "clean and well organized",
+   "topics": []
+  },
+  {
+   "id": "eacb4f43-e2c3-51e3-92bf-65cd57c6f9bb",
+   "lemma": "fit and healthy",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fit and healthy",
+    "fit and well"
+   ],
+   "kind": "binomial",
+   "glossEn": "in good physical condition",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "e7b4cab9-e472-57c8-b7c7-22306aef25e4",
+   "lemma": "pen and paper",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pen and paper",
+    "pencil and paper"
+   ],
+   "kind": "binomial",
+   "glossEn": "basic tools for writing by hand",
+   "topics": []
+  },
+  {
+   "id": "92d826be-2504-5e89-970b-23f3082e54c7",
+   "lemma": "bed and breakfast",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bed and breakfast",
+    "B&B"
+   ],
+   "kind": "binomial",
+   "glossEn": "small guesthouse offering a room and breakfast",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "2da8fb74-14ff-58e5-9b9c-33088f6718d0",
+   "lemma": "trick or treat",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "trick or treat",
+    "trick-or-treat"
+   ],
+   "kind": "binomial",
+   "glossEn": "Halloween call of children asking for sweets",
+   "topics": []
+  },
+  {
+   "id": "eb5bc294-2a2b-545f-a165-5c57a02417e4",
+   "lemma": "ups and downs",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ups and downs"
+   ],
+   "kind": "binomial",
+   "glossEn": "good and bad periods in life",
+   "topics": []
+  },
+  {
+   "id": "4a86dac3-0e49-5f14-bc90-6b82d0965033",
+   "lemma": "now or never",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "now or never",
+    "it's now or never"
+   ],
+   "kind": "binomial",
+   "glossEn": "the only chance is right now",
+   "topics": []
+  },
+  {
+   "id": "8950cf9a-fe67-5706-8325-c2032b259d74",
+   "lemma": "wait and see",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wait and see",
+    "wait-and-see"
+   ],
+   "kind": "binomial",
+   "glossEn": "be patient until the result is known",
+   "topics": []
+  },
+  {
+   "id": "12af2d21-f8aa-55d5-8a85-d0c75083f709",
+   "lemma": "rise and shine",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rise and shine"
+   ],
+   "kind": "binomial",
+   "glossEn": "cheerful call to wake up and get up",
+   "topics": []
+  },
+  {
+   "id": "642557b5-3c44-592c-ba0b-8f292c13d813",
+   "lemma": "hopes and dreams",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hopes and dreams"
+   ],
+   "kind": "binomial",
+   "glossEn": "what one wishes for in the future",
+   "topics": []
+  }
+ ]
+}

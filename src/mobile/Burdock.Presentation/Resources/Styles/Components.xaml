@@ -463,6 +463,24 @@
     <Style x:Key="SummaryConfetti" TargetType="controls:ConfettiView" BasedOn="{StaticResource CelebrationConfetti}">
         <Setter Property="ParticleCount" Value="8" />
     </Style>
+    <!-- Procedural Реп’яшок (spec 02 section 3.10, growth stages of spec 07 §3.2.7). An illustration, so it draws with the primitive ramps the mascot guide names. -->
+    <Style TargetType="controls:MascotView">
+        <Setter Property="BodyColor" Value="{StaticResource Violet400}" />
+        <Setter Property="BodyLightColor" Value="{StaticResource Violet300}" />
+        <Setter Property="BodyShadeColor" Value="{StaticResource Violet600}" />
+        <Setter Property="HookColor" Value="{StaticResource Lime400}" />
+        <Setter Property="HookTipColor" Value="{StaticResource Lime600}" />
+        <Setter Property="EyeColor" Value="{StaticResource Neutral0}" />
+        <Setter Property="PupilColor" Value="{StaticResource Neutral950}" />
+        <Setter Property="BlushColor" Value="{StaticResource Coral200}" />
+        <Setter Property="LeafColor" Value="{StaticResource Lime400}" />
+        <Setter Property="LeafEdgeColor" Value="{StaticResource Lime600}" />
+        <Setter Property="BloomColor" Value="{StaticResource Violet300}" />
+        <Setter Property="BloomEdgeColor" Value="{StaticResource Coral300}" />
+        <Setter Property="AccentColor" Value="{StaticResource Sunny400}" />
+        <Setter Property="GrowthDuration" Value="{StaticResource MotionDurationCelebrate}" />
+        <Setter Property="BackgroundColor" Value="Transparent" />
+    </Style>
 
     <!-- ===== Inputs ===== -->
     <Style x:Key="TypedField" TargetType="Border">

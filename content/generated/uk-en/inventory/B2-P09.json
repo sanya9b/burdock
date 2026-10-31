@@ -1,0 +1,619 @@
+{
+ "chunk": "B2-P09",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "0f5388cb-5d79-5998-a23b-bef4e365b329",
+   "lemma": "fit the bill",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fit the bill",
+    "fill the bill"
+   ],
+   "kind": "idiom",
+   "glossEn": "be exactly what is needed",
+   "topics": [
+    "work",
+    "shopping"
+   ]
+  },
+  {
+   "id": "0c176471-8306-517e-a1b5-c2c198adb677",
+   "lemma": "fly off the handle",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fly off the handle"
+   ],
+   "kind": "idiom",
+   "glossEn": "suddenly become very angry",
+   "topics": []
+  },
+  {
+   "id": "7b44f6c5-3b8c-55fb-98e9-ed88b1ede87a",
+   "lemma": "follow suit",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "follow suit"
+   ],
+   "kind": "idiom",
+   "glossEn": "do the same as someone else",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "95909653-0645-59b1-aff7-ca99ae38a802",
+   "lemma": "a foot in the door",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a foot in the door",
+    "get a foot in the door"
+   ],
+   "kind": "idiom",
+   "glossEn": "first small step into an organization",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "9f4b7bb0-1920-58a9-85db-72ea48182d8e",
+   "lemma": "from the ground up",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "from the ground up"
+   ],
+   "kind": "idiom",
+   "glossEn": "completely, from the very beginning",
+   "topics": [
+    "work",
+    "it"
+   ]
+  },
+  {
+   "id": "c35060c4-9b14-5d6e-a478-c61e1244ea69",
+   "lemma": "a leap of faith",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a leap of faith",
+    "take a leap of faith"
+   ],
+   "kind": "idiom",
+   "glossEn": "decision to trust without proof",
+   "topics": []
+  },
+  {
+   "id": "5aff48fd-aff7-51c1-991f-a0a52256f1d6",
+   "lemma": "get a word in edgewise",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get a word in edgewise",
+    "get a word in edgeways",
+    "get a word in"
+   ],
+   "kind": "idiom",
+   "glossEn": "manage to speak when others talk constantly",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "7b28e633-94ce-526d-ab41-fb7afb1cfbbd",
+   "lemma": "get one's feet wet",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get one's feet wet",
+    "get your feet wet"
+   ],
+   "kind": "idiom",
+   "glossEn": "gain first experience of something",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "7ccca437-8fea-5712-a98c-c75ec66be145",
+   "lemma": "get the picture",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get the picture"
+   ],
+   "kind": "idiom",
+   "glossEn": "understand the situation",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "4e44e3d9-c4b3-5e57-ba81-9e9036a54792",
+   "lemma": "get wind of sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get wind of sth",
+    "get wind of",
+    "get wind of it"
+   ],
+   "kind": "idiom",
+   "glossEn": "hear about something secret",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "06e914f8-cab6-51b9-9561-acba8b959cf7",
+   "lemma": "give sb a run for their money",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "give sb a run for their money",
+    "a run for your money"
+   ],
+   "kind": "idiom",
+   "glossEn": "compete strongly against someone",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "ed419aa3-af71-53ee-a3a0-010e821e6451",
+   "lemma": "go against the grain",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go against the grain",
+    "against the grain"
+   ],
+   "kind": "idiom",
+   "glossEn": "be contrary to what is usual or expected",
+   "topics": []
+  },
+  {
+   "id": "f1bad55a-c895-5373-a63d-90d4b96f9914",
+   "lemma": "go back on one's word",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go back on one's word",
+    "go back on your word",
+    "go back on a promise"
+   ],
+   "kind": "idiom",
+   "glossEn": "break a promise",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "4462e419-6490-50c5-a19b-7057c8f7619c",
+   "lemma": "go belly up",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go belly up",
+    "go belly-up"
+   ],
+   "kind": "idiom",
+   "glossEn": "fail completely, go bankrupt",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "a15e8a8e-2045-5f28-a75d-fecc1c1c13f3",
+   "lemma": "go down in flames",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go down in flames",
+    "crash and burn"
+   ],
+   "kind": "idiom",
+   "glossEn": "fail spectacularly",
+   "topics": []
+  },
+  {
+   "id": "25f5eef3-d925-5848-96c4-a62752558420",
+   "lemma": "go out on a limb",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go out on a limb",
+    "out on a limb"
+   ],
+   "kind": "idiom",
+   "glossEn": "take a risk by saying or doing something",
+   "topics": []
+  },
+  {
+   "id": "ee565d51-fb67-5d91-99c4-5f8a96171164",
+   "lemma": "go overboard",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go overboard"
+   ],
+   "kind": "idiom",
+   "glossEn": "do something too much, excessively",
+   "topics": []
+  },
+  {
+   "id": "1993e79f-af26-5830-9fd9-e36772e3d37e",
+   "lemma": "go to great lengths",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go to great lengths",
+    "go to any lengths"
+   ],
+   "kind": "idiom",
+   "glossEn": "try very hard to achieve something",
+   "topics": []
+  },
+  {
+   "id": "99d7e4c7-0b1f-5ebf-8250-64ef764944e1",
+   "lemma": "fly under the radar",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fly under the radar",
+    "under the radar",
+    "below the radar"
+   ],
+   "kind": "idiom",
+   "glossEn": "stay unnoticed",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "d9e144bc-018f-5100-9489-e01a37984b80",
+   "lemma": "grasp at straws",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "grasp at straws",
+    "clutch at straws"
+   ],
+   "kind": "idiom",
+   "glossEn": "try anything in a desperate situation",
+   "topics": []
+  },
+  {
+   "id": "1751c550-572a-5c87-bf31-fee1f34a2ce7",
+   "lemma": "hang by a thread",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hang by a thread",
+    "hanging by a thread"
+   ],
+   "kind": "idiom",
+   "glossEn": "be in a very uncertain or dangerous state",
+   "topics": []
+  },
+  {
+   "id": "b794a85a-d60f-58ff-b4d9-cbfc034c6ca8",
+   "lemma": "have a field day",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have a field day",
+    "a field day"
+   ],
+   "kind": "idiom",
+   "glossEn": "enjoy an opportunity fully, often to criticize",
+   "topics": []
+  },
+  {
+   "id": "90b922ea-18c6-5c6e-8a85-825644b660cb",
+   "lemma": "have an axe to grind",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have an axe to grind",
+    "an axe to grind",
+    "an ax to grind"
+   ],
+   "kind": "idiom",
+   "glossEn": "have a hidden personal motive",
+   "topics": []
+  },
+  {
+   "id": "15ae5472-38fb-56a3-b0cd-4b4014f66b4d",
+   "lemma": "have one's cake and eat it too",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have one's cake and eat it too",
+    "have your cake and eat it"
+   ],
+   "kind": "idiom",
+   "glossEn": "want two things that cannot both be had",
+   "topics": []
+  },
+  {
+   "id": "43beda6a-6b7f-59dc-b726-c55e93839efd",
+   "lemma": "have the upper hand",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have the upper hand",
+    "the upper hand",
+    "gain the upper hand"
+   ],
+   "kind": "idiom",
+   "glossEn": "be in a stronger position",
+   "topics": [
+    "work",
+    "military"
+   ]
+  },
+  {
+   "id": "a5dc347c-4bc7-5a3b-bba8-66e270516d13",
+   "lemma": "hit the ground running",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hit the ground running"
+   ],
+   "kind": "idiom",
+   "glossEn": "start something quickly and successfully",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "a6e8b110-573e-53b6-aaf7-461f2e2303ce",
+   "lemma": "hit the jackpot",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hit the jackpot"
+   ],
+   "kind": "idiom",
+   "glossEn": "have great sudden success or luck",
+   "topics": []
+  },
+  {
+   "id": "ab3cb0d4-9c8c-597a-a4c4-29f0e6c14290",
+   "lemma": "hold all the cards",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hold all the cards"
+   ],
+   "kind": "idiom",
+   "glossEn": "be in control of a situation",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "4eefdc41-9af4-5ee5-ac3a-8d1d46aa8ffa",
+   "lemma": "stand one's ground",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stand one's ground",
+    "hold one's ground",
+    "stand your ground"
+   ],
+   "kind": "idiom",
+   "glossEn": "refuse to change your position",
+   "topics": [
+    "communication",
+    "military"
+   ]
+  },
+  {
+   "id": "94bc1f94-ef0d-5347-a647-f7653b727334",
+   "lemma": "hold water",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hold water",
+    "doesn't hold water"
+   ],
+   "kind": "idiom",
+   "glossEn": "be logical and convincing",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "5fe6ed65-4a40-5ce2-977d-4ff0c1de8252",
+   "lemma": "in a pickle",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in a pickle",
+    "in a bit of a pickle"
+   ],
+   "kind": "idiom",
+   "glossEn": "in a difficult situation",
+   "topics": []
+  },
+  {
+   "id": "c45bacae-ed0e-5f3d-a64f-fa0031dd3cec",
+   "lemma": "in full swing",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in full swing"
+   ],
+   "kind": "idiom",
+   "glossEn": "at the most active stage",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "747876e9-d050-508f-b499-1280e00531a6",
+   "lemma": "in the loop",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the loop",
+    "keep sb in the loop",
+    "out of the loop"
+   ],
+   "kind": "idiom",
+   "glossEn": "informed about what is happening",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  },
+  {
+   "id": "88e27f72-2b8f-5496-bcb5-191fe5cea3b6",
+   "lemma": "in the pipeline",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the pipeline"
+   ],
+   "kind": "idiom",
+   "glossEn": "being planned or developed",
+   "topics": [
+    "work",
+    "it"
+   ]
+  },
+  {
+   "id": "da4a7c73-b252-5af8-9ac6-d7eff17806e2",
+   "lemma": "in the red",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the red",
+    "in the black"
+   ],
+   "kind": "idiom",
+   "glossEn": "owing money, in debt",
+   "topics": [
+    "work",
+    "shopping"
+   ]
+  },
+  {
+   "id": "14da9c4d-2dc9-52ff-b30c-086a9467f77b",
+   "lemma": "in the driver's seat",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the driver's seat",
+    "in the driving seat"
+   ],
+   "kind": "idiom",
+   "glossEn": "in control of a situation",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "c633e106-993e-5645-b42f-a10489af2b6f",
+   "lemma": "the moment of truth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "the moment of truth",
+    "moment of truth"
+   ],
+   "kind": "idiom",
+   "glossEn": "time when a result is finally revealed",
+   "topics": []
+  },
+  {
+   "id": "ad8b8b0a-01ef-52a5-9397-4e3d25a28b80",
+   "lemma": "jump through hoops",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jump through hoops"
+   ],
+   "kind": "idiom",
+   "glossEn": "do many difficult things to get something",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "d7ccc9fa-e51a-56c3-b97b-94deee2e27f8",
+   "lemma": "jump ship",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jump ship"
+   ],
+   "kind": "idiom",
+   "glossEn": "leave an organization that is failing",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "52dc0bfe-f315-5fa3-b99a-d73810f649c3",
+   "lemma": "keep one's cards close to one's chest",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep one's cards close to one's chest",
+    "play one's cards close to one's chest"
+   ],
+   "kind": "idiom",
+   "glossEn": "not reveal your plans or intentions",
+   "topics": [
+    "work"
+   ]
+  }
+ ]
+}

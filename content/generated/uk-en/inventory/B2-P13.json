@@ -1,0 +1,601 @@
+{
+ "chunk": "B2-P13",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "79ee19b4-d89d-56df-9ce9-89bfa4516f12",
+   "lemma": "live up to sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "live up to sth",
+    "live up to"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "be as good as expected or promised",
+   "topics": []
+  },
+  {
+   "id": "aa03b4fc-0237-5b25-a7be-2a65bebafb14",
+   "lemma": "make off with sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make off with sth",
+    "make off with",
+    "make off"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "steal something and escape",
+   "topics": []
+  },
+  {
+   "id": "7bba4fdf-2db5-51e9-9301-32f4e4436efd",
+   "lemma": "own up",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "own up",
+    "own up to"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "admit that you did something wrong",
+   "topics": []
+  },
+  {
+   "id": "4aa4ef82-c0e8-5bc5-b721-6b28c0ba375e",
+   "lemma": "pick up on sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pick up on sth",
+    "pick up on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "notice something that is not obvious; return to a point",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "78e346ba-468c-5aa6-a1f7-fd641f97352d",
+   "lemma": "play down sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "play down sth",
+    "play down"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "make something seem less important than it is",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "b3dd58d8-276f-5029-9f0a-dfb809704c7d",
+   "lemma": "play up",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "play up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "emphasize something; cause trouble, of a machine or child",
+   "topics": []
+  },
+  {
+   "id": "2a32ac50-73ac-57a7-8f64-c70859f98e22",
+   "lemma": "pull off sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pull off sth",
+    "pull off"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "succeed in doing something difficult",
+   "topics": []
+  },
+  {
+   "id": "8f945a91-3807-56a8-947e-d828e92bd990",
+   "lemma": "pull through",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pull through"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "recover from a serious illness or crisis",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "5a39e310-fea5-5ab4-8b21-0bf66c731a7e",
+   "lemma": "pull together",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pull together"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "work together to achieve something",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "a89d8b03-8214-5690-b6ad-605e3ca05f7d",
+   "lemma": "push ahead",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "push ahead",
+    "push ahead with"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "continue with a plan in a determined way",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "6598c21c-a36c-5e55-8c56-515249a0bc58",
+   "lemma": "put across sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "put across sth",
+    "put across"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "explain an idea so that people understand it",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "7ef1940b-981a-53b4-a13e-9b9d7bcf0186",
+   "lemma": "rule out sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rule out sth",
+    "rule out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "decide that something is impossible or not suitable",
+   "topics": []
+  },
+  {
+   "id": "78b256ba-6814-5dca-a7a2-cb3d25039a58",
+   "lemma": "run down",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "run down"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "criticize unfairly; lose power gradually; hit with a vehicle",
+   "topics": []
+  },
+  {
+   "id": "a63aeed1-3b97-5ffd-92ab-98e5cb619290",
+   "lemma": "run up sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "run up sth",
+    "run up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "accumulate a large debt or bill",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "f426eaa6-774c-51e0-9dad-bed64051eb77",
+   "lemma": "see to sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "see to sth",
+    "see to"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "deal with or take care of something",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "5d081551-ee89-5088-a286-5ba16efbd89e",
+   "lemma": "see through sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "see through sth",
+    "see through"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "recognize a lie or trick; continue until finished",
+   "topics": []
+  },
+  {
+   "id": "100dfd6e-40be-5887-831b-652ce6d4bcac",
+   "lemma": "sell off sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sell off sth",
+    "sell off"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "sell cheaply to get rid of quickly",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "3a68d5c8-8612-5fa9-8966-0147c0d4b62c",
+   "lemma": "set about sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "set about sth",
+    "set about"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "start doing something with energy",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "dee8fcb8-b74a-524f-aef4-d3f33c601080",
+   "lemma": "set aside sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "set aside sth",
+    "set aside"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "keep for a special purpose; ignore for now",
+   "topics": []
+  },
+  {
+   "id": "4c46886f-df10-5430-aff2-870a508474c1",
+   "lemma": "set back sb",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "set back sb",
+    "set back"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "delay progress; cost someone a lot of money",
+   "topics": []
+  },
+  {
+   "id": "b292ebfd-7846-5c4f-a40e-a9afbfa3071c",
+   "lemma": "set in",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "set in"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "begin and seem likely to continue, of weather or feelings",
+   "topics": []
+  },
+  {
+   "id": "fb1ebc28-bd1a-5a7d-b134-6303cf3aec28",
+   "lemma": "sign off",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sign off",
+    "sign off on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "end a letter or broadcast; give official approval",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  },
+  {
+   "id": "0d1504a6-30fe-5a73-b6ab-c2513555281d",
+   "lemma": "single out sb",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "single out sb",
+    "single out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "choose one person for special attention",
+   "topics": []
+  },
+  {
+   "id": "f99f651c-6a50-54f4-ba9a-dfd164508e26",
+   "lemma": "slip up",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "slip up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "make a careless mistake",
+   "topics": []
+  },
+  {
+   "id": "3cbdf02c-80b7-5831-8f59-7fcbf8c85264",
+   "lemma": "speak out",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "speak out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "publicly state an opinion, often against something",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "586b05c6-4f3c-58e3-bfd4-67d0faf08c91",
+   "lemma": "stand up to sb",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stand up to sb",
+    "stand up to"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "refuse to be treated badly by someone powerful",
+   "topics": []
+  },
+  {
+   "id": "9d14c79a-1861-5dd1-a373-46096fb4809b",
+   "lemma": "step down",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "step down"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "resign from an important position",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "ae4e4f07-1f2e-59bb-aea7-d4e0940848d3",
+   "lemma": "step up sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "step up sth",
+    "step up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "increase the amount or intensity of something",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "54b92eda-c176-59e2-bdb8-17399970c5e8",
+   "lemma": "tear down sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tear down sth",
+    "tear down"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "demolish a building or structure",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "39a038d2-1b95-5055-b923-f3a723ceb816",
+   "lemma": "think through sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "think through sth",
+    "think through"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "consider all possible results of a decision",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "c64fd161-7008-59b7-a43e-7d75605620fc",
+   "lemma": "track down sb",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "track down sb",
+    "track down"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "find someone or something after a long search",
+   "topics": []
+  },
+  {
+   "id": "ae43db02-49ef-518e-b298-cada12bc639f",
+   "lemma": "wake up to sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wake up to sth",
+    "wake up to"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "start to realize something important",
+   "topics": []
+  },
+  {
+   "id": "57a219d3-1365-50fa-96cf-1fb348089622",
+   "lemma": "warm up to sb",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "warm up to sb",
+    "warm up to",
+    "warm to"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "gradually begin to like someone or something",
+   "topics": []
+  },
+  {
+   "id": "bd369a4e-17b2-51ac-9e58-b87d0d3115f5",
+   "lemma": "wind down",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wind down"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "relax after stress; gradually reduce activity",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "c19a900c-88be-56df-be16-8230ba6d6dca",
+   "lemma": "wind up",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wind up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "end up in a situation; close a business; tease someone",
+   "topics": []
+  },
+  {
+   "id": "f8869518-2b47-5e7a-9f63-298790cf18c3",
+   "lemma": "wipe out sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wipe out sth",
+    "wipe out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "destroy or remove completely",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "60a3e647-404a-5740-95d8-249256716e34",
+   "lemma": "work up sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "work up sth",
+    "work up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "gradually develop an appetite, courage or interest",
+   "topics": []
+  },
+  {
+   "id": "23265d8d-24fa-5034-9a3e-f8ac58c03baf",
+   "lemma": "write off sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "write off sth",
+    "write off"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "cancel a debt; decide something is a failure",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "1ebbc6da-ef8e-5d95-9007-ea50f323d6fe",
+   "lemma": "write up sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "write up sth",
+    "write up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "write a complete report from notes",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "f9330ee5-7e4c-5f17-8cd7-1d46c65ccc97",
+   "lemma": "bail out sb",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bail out sb",
+    "bail out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "rescue from financial trouble",
+   "topics": [
+    "work"
+   ]
+  }
+ ]
+}

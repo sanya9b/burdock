@@ -1,0 +1,620 @@
+{
+ "chunk": "B1-P21",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "14e3f4ee-b08a-5623-91cd-86f85d8d407b",
+   "lemma": "at the last minute",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at the last minute",
+    "last-minute"
+   ],
+   "kind": "prepositional",
+   "glossEn": "at the latest possible time",
+   "topics": []
+  },
+  {
+   "id": "53f27ce6-2916-5ed6-9a69-e07531c018ab",
+   "lemma": "on one's mind",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on one's mind",
+    "on my mind"
+   ],
+   "kind": "prepositional",
+   "glossEn": "being thought or worried about",
+   "topics": []
+  },
+  {
+   "id": "cd785d4b-7dc5-5d25-a711-a94c6267c24d",
+   "lemma": "in one's spare time",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in one's spare time",
+    "in one's free time"
+   ],
+   "kind": "prepositional",
+   "glossEn": "when not working or studying",
+   "topics": []
+  },
+  {
+   "id": "5dad9155-8dde-5718-8db5-a56a0d058d93",
+   "lemma": "in the first place",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the first place"
+   ],
+   "kind": "prepositional",
+   "glossEn": "at the start; before anything else",
+   "topics": []
+  },
+  {
+   "id": "685707d0-335b-532f-8225-17ac33151747",
+   "lemma": "on display",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on display"
+   ],
+   "kind": "prepositional",
+   "glossEn": "shown publicly for people to see",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "cd7a0b33-d0ed-5131-b1ee-88c3ed42363f",
+   "lemma": "on board",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on board",
+    "aboard"
+   ],
+   "kind": "prepositional",
+   "glossEn": "on a ship, plane, or train",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "bbe604b0-fa4b-544b-8443-8360100017d4",
+   "lemma": "on duty",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on duty"
+   ],
+   "kind": "prepositional",
+   "glossEn": "working at one's job at that time",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "d45da8da-22ec-573f-9fa9-12ee52acb832",
+   "lemma": "off duty",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "off duty",
+    "off-duty"
+   ],
+   "kind": "prepositional",
+   "glossEn": "not working at that time",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "1322e34f-2333-5032-bbff-503e3f235312",
+   "lemma": "on strike",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on strike"
+   ],
+   "kind": "prepositional",
+   "glossEn": "refusing to work as a protest",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "95bc6af8-ec37-5902-b296-393af9521679",
+   "lemma": "on schedule",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on schedule"
+   ],
+   "kind": "prepositional",
+   "glossEn": "happening at the planned time",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "cd12a589-4a84-55ae-97f8-069b2f3d4cb0",
+   "lemma": "behind schedule",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "behind schedule"
+   ],
+   "kind": "prepositional",
+   "glossEn": "later than planned",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "d46d8e14-f13f-56b0-aca6-24df2d297a7d",
+   "lemma": "ahead of schedule",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ahead of schedule"
+   ],
+   "kind": "prepositional",
+   "glossEn": "earlier than planned",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "c99a3d10-6cee-52f0-8619-2493e441bbb6",
+   "lemma": "off work",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "off work"
+   ],
+   "kind": "prepositional",
+   "glossEn": "not at work, e.g. because of illness",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "e8262093-c6dc-526e-bb17-b743faca0bd6",
+   "lemma": "out of the office",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "out of the office",
+    "out of office"
+   ],
+   "kind": "prepositional",
+   "glossEn": "away from one's workplace",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  },
+  {
+   "id": "1de9a366-9cd4-554e-b297-a73a6b284182",
+   "lemma": "on a business trip",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on a business trip"
+   ],
+   "kind": "prepositional",
+   "glossEn": "traveling for work",
+   "topics": [
+    "work",
+    "travel"
+   ]
+  },
+  {
+   "id": "01ff530d-7472-5d21-a228-804a0b334c26",
+   "lemma": "in a meeting",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in a meeting"
+   ],
+   "kind": "prepositional",
+   "glossEn": "attending a work meeting, unavailable",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "26053278-00e3-5e10-95d4-d1c1127c5040",
+   "lemma": "on a regular basis",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on a regular basis",
+    "on a daily basis"
+   ],
+   "kind": "prepositional",
+   "glossEn": "regularly, repeatedly",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "55f13453-75a7-5577-9a3e-590503b7a9f8",
+   "lemma": "on leave",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on leave",
+    "on sick leave"
+   ],
+   "kind": "prepositional",
+   "glossEn": "officially away from work",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "debe357e-5f17-5ccc-a18a-f969da86d439",
+   "lemma": "in pain",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in pain"
+   ],
+   "kind": "prepositional",
+   "glossEn": "feeling physical pain",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "d1c7b27e-38af-56d2-ab3b-98f1e3d333ef",
+   "lemma": "on a diet",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on a diet"
+   ],
+   "kind": "prepositional",
+   "glossEn": "eating less to lose weight",
+   "topics": [
+    "health",
+    "food"
+   ]
+  },
+  {
+   "id": "bc20890a-1e2b-5686-ba09-6c6eb69daffb",
+   "lemma": "in the hospital",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the hospital",
+    "in hospital"
+   ],
+   "kind": "prepositional",
+   "glossEn": "staying in hospital as a patient",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "d2ac0b59-4bb9-5fe1-a678-20815da846d2",
+   "lemma": "out of shape",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "out of shape"
+   ],
+   "kind": "prepositional",
+   "glossEn": "not physically fit",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "335a7963-fb84-50ff-b450-62baf875339b",
+   "lemma": "by default",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "by default"
+   ],
+   "kind": "prepositional",
+   "glossEn": "as the automatic setting or outcome",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "17e0e64a-38f1-5be1-9f90-ba0378511279",
+   "lemma": "in the cloud",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the cloud"
+   ],
+   "kind": "prepositional",
+   "glossEn": "stored on remote internet servers",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "3cc3b2eb-0336-5efa-9812-0f2f5ed1dfd8",
+   "lemma": "in the background",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the background"
+   ],
+   "kind": "prepositional",
+   "glossEn": "not noticed; running without attention",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "caa6a296-2163-569a-bdd3-482f17c3ba65",
+   "lemma": "out of range",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "out of range"
+   ],
+   "kind": "prepositional",
+   "glossEn": "too far to receive a signal",
+   "topics": [
+    "it",
+    "communication"
+   ]
+  },
+  {
+   "id": "1027f4a5-94b2-57fd-984f-cbb658bb08d9",
+   "lemma": "on mute",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on mute"
+   ],
+   "kind": "prepositional",
+   "glossEn": "with the microphone or sound switched off",
+   "topics": [
+    "it",
+    "communication"
+   ]
+  },
+  {
+   "id": "0c0a484f-0775-50e7-8fa8-5959d9725703",
+   "lemma": "by phone",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "by phone",
+    "by telephone"
+   ],
+   "kind": "prepositional",
+   "glossEn": "using the telephone as the means of contact",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "2b10d8db-9216-512c-b21a-ce9d59c32537",
+   "lemma": "within walking distance",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "within walking distance"
+   ],
+   "kind": "prepositional",
+   "glossEn": "close enough to walk to",
+   "topics": [
+    "city",
+    "travel"
+   ]
+  },
+  {
+   "id": "3af13b7e-13b6-54d8-bc37-0cb3318adbe8",
+   "lemma": "in the suburbs",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the suburbs"
+   ],
+   "kind": "prepositional",
+   "glossEn": "in residential areas outside the city center",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "ae65436c-ac1d-5471-93c2-f1f9596b3b3c",
+   "lemma": "on the outskirts",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the outskirts",
+    "on the outskirts of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "on the outer edge of a city",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "6c0edd87-fb96-55a9-954d-793ba139dbdf",
+   "lemma": "around the corner",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "around the corner",
+    "round the corner"
+   ],
+   "kind": "prepositional",
+   "glossEn": "very near; about to happen",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "286726c7-0f7a-5e04-90d8-e2b14b82e1f9",
+   "lemma": "in a traffic jam",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in a traffic jam",
+    "in traffic"
+   ],
+   "kind": "prepositional",
+   "glossEn": "stuck in a line of slow traffic",
+   "topics": [
+    "city",
+    "travel"
+   ]
+  },
+  {
+   "id": "cf71d12c-9adb-54b6-a744-51a9a0aa724a",
+   "lemma": "in rush hour",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in rush hour",
+    "at rush hour",
+    "during rush hour"
+   ],
+   "kind": "prepositional",
+   "glossEn": "during the busiest traffic time",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "0658c2af-d8db-527a-bc37-b9562edf84a5",
+   "lemma": "by air",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "by air"
+   ],
+   "kind": "prepositional",
+   "glossEn": "transported or traveling by plane",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "e28e91ee-71ee-5089-bca3-585a291d9790",
+   "lemma": "at customs",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at customs"
+   ],
+   "kind": "prepositional",
+   "glossEn": "at the border inspection point",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "b5569865-9797-5843-baae-44ef88283148",
+   "lemma": "out of the country",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "out of the country"
+   ],
+   "kind": "prepositional",
+   "glossEn": "abroad, away from one's home country",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "abb72b4f-f221-5c03-a278-a37fd7c5416a",
+   "lemma": "in stock",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in stock"
+   ],
+   "kind": "prepositional",
+   "glossEn": "available for sale in the shop",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "86ef62cd-6ede-533c-a85d-9306410f66bc",
+   "lemma": "out of stock",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "out of stock"
+   ],
+   "kind": "prepositional",
+   "glossEn": "temporarily not available to buy",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "36e69728-e500-5353-be6f-671e32a8f3d7",
+   "lemma": "at a discount",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at a discount"
+   ],
+   "kind": "prepositional",
+   "glossEn": "at a reduced price",
+   "topics": [
+    "shopping"
+   ]
+  }
+ ]
+}

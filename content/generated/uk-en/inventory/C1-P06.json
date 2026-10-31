@@ -1,0 +1,380 @@
+{
+ "chunk": "C1-P06",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "867cd7c5-c842-5004-84bb-4aa60c39fb54",
+   "lemma": "pore over sth",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pore over sth",
+    "pore over"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "study a text or map very closely",
+   "topics": []
+  },
+  {
+   "id": "19270453-3536-532c-948f-ce927b212716",
+   "lemma": "prop up sth",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prop up sth",
+    "prop up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "support something that would otherwise fail",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "8e66a5b4-79df-5a0d-91eb-0fc584342c8f",
+   "lemma": "rattle off sth",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rattle off sth",
+    "rattle off",
+    "reel off"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "say a list quickly from memory",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "a9cc85cc-cd0a-5ded-add9-e6ec18c50df6",
+   "lemma": "rein in sth",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rein in sth",
+    "rein in"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "bring spending or behavior under control",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "6eb693a8-c4ff-56dd-ad0b-f347e74784d3",
+   "lemma": "root out sth",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "root out sth",
+    "root out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "find and remove something harmful",
+   "topics": []
+  },
+  {
+   "id": "2d03c4f6-4886-5fcd-adb8-f24d8d988d6c",
+   "lemma": "rope in sb",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rope in sb",
+    "rope in"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "persuade someone to help with something",
+   "topics": []
+  },
+  {
+   "id": "a2d97efc-f2d3-5c2e-a8f8-003446a003ae",
+   "lemma": "rub off on sb",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rub off on sb",
+    "rub off on",
+    "rub off"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "pass a quality to someone through contact",
+   "topics": []
+  },
+  {
+   "id": "77ff8008-c31b-5827-87e5-4a540fdabf67",
+   "lemma": "scrape by",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scrape by"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "manage to live with very little money",
+   "topics": []
+  },
+  {
+   "id": "4588686f-b4ee-5fb8-98f8-7d14aecb4343",
+   "lemma": "shore up sth",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shore up sth",
+    "shore up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "strengthen something that is weak",
+   "topics": [
+    "work",
+    "military"
+   ]
+  },
+  {
+   "id": "80c03213-1972-5960-8a0c-f88b058512c5",
+   "lemma": "sift through sth",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sift through sth",
+    "sift through"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "examine many items carefully to find what matters",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "19c03bd6-d729-5b50-8e26-41484dc341f6",
+   "lemma": "soldier on",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "soldier on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "continue despite difficulties",
+   "topics": []
+  },
+  {
+   "id": "89a2c3c8-3c9f-5d39-8591-ed43a949403b",
+   "lemma": "stave off sth",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stave off sth",
+    "stave off"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "prevent something bad for a time",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "8a682a2b-a513-5e1c-84a8-2c7384c9eca0",
+   "lemma": "in tandem with",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in tandem with",
+    "in tandem"
+   ],
+   "kind": "prepositional",
+   "glossEn": "together with, at the same time",
+   "topics": []
+  },
+  {
+   "id": "997a4a82-32c7-551c-aacd-e70aa0862548",
+   "lemma": "in conjunction with",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in conjunction with"
+   ],
+   "kind": "prepositional",
+   "glossEn": "combined or working together with",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "eccd32f0-2bb3-592a-93c7-f73d8cc5570d",
+   "lemma": "in retrospect",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in retrospect"
+   ],
+   "kind": "prepositional",
+   "glossEn": "thinking back on a past event",
+   "topics": []
+  },
+  {
+   "id": "582abe76-80ee-5a4b-9406-a4976954601a",
+   "lemma": "in the vicinity of",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the vicinity of",
+    "in the vicinity"
+   ],
+   "kind": "prepositional",
+   "glossEn": "near; approximately (of amounts)",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "17bb0872-d879-5f23-aaad-f82e990c17cf",
+   "lemma": "in compliance with",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in compliance with"
+   ],
+   "kind": "prepositional",
+   "glossEn": "obeying a rule or law (formal)",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "904ef39b-0f7f-5ea4-974c-c56716e2e82a",
+   "lemma": "in breach of",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in breach of",
+    "in violation of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "breaking a rule, law, or agreement",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "6ec62158-39ab-5fce-8671-41955b61a52a",
+   "lemma": "at length",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at length",
+    "at great length"
+   ],
+   "kind": "prepositional",
+   "glossEn": "in great detail, for a long time",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "7c3f0c64-5a0d-5500-bdb4-8832b86c5881",
+   "lemma": "at large",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at large"
+   ],
+   "kind": "prepositional",
+   "glossEn": "not yet caught; as a whole (society)",
+   "topics": []
+  },
+  {
+   "id": "09882c08-6258-5188-b53b-85238bcffd70",
+   "lemma": "at odds with",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at odds with",
+    "at odds"
+   ],
+   "kind": "prepositional",
+   "glossEn": "in disagreement or conflict with",
+   "topics": []
+  },
+  {
+   "id": "9467f4d1-f119-5f76-b29a-903238b980e1",
+   "lemma": "at the outset",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at the outset",
+    "from the outset"
+   ],
+   "kind": "prepositional",
+   "glossEn": "at the very beginning",
+   "topics": []
+  },
+  {
+   "id": "0ffb68ec-9ddb-5bda-bd74-659d57329f58",
+   "lemma": "at the discretion of",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at the discretion of",
+    "at one's discretion"
+   ],
+   "kind": "prepositional",
+   "glossEn": "decided freely by the person in charge",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "7d0c81e6-00bd-575f-bf67-739776d0e909",
+   "lemma": "at the forefront of",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at the forefront of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "in the leading position in a field",
+   "topics": [
+    "it",
+    "work"
+   ]
+  },
+  {
+   "id": "bbbd5a25-cb6b-5503-893c-a00edb571355",
+   "lemma": "under siege",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "under siege"
+   ],
+   "kind": "prepositional",
+   "glossEn": "surrounded by enemy forces; heavily criticized",
+   "topics": [
+    "military"
+   ]
+  }
+ ]
+}

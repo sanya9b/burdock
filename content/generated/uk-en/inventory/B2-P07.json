@@ -1,0 +1,662 @@
+{
+ "chunk": "B2-P07",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "9f98f9f6-b73d-5997-940c-03bd7e8e63c5",
+   "lemma": "no doubt about it",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "no doubt about it",
+    "there's no doubt about it",
+    "without a doubt"
+   ],
+   "kind": "formula",
+   "glossEn": "expressing complete certainty",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "f3d65664-ad62-59da-af85-5bcdb8d4a503",
+   "lemma": "if it's any consolation",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "if it's any consolation",
+    "if it is any consolation",
+    "if it's any comfort"
+   ],
+   "kind": "formula",
+   "glossEn": "offering a small comfort after bad news",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "b6c28dbb-829b-5f38-a9c3-272f49d4290f",
+   "lemma": "I stand corrected",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I stand corrected"
+   ],
+   "kind": "formula",
+   "glossEn": "admitting you were wrong after being corrected",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "a06b5399-35bb-5f67-875c-fe66c144d27b",
+   "lemma": "let's not get ahead of ourselves",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "let's not get ahead of ourselves",
+    "don't get ahead of yourself",
+    "let's not jump to conclusions"
+   ],
+   "kind": "formula",
+   "glossEn": "urging patience before planning too far",
+   "topics": [
+    "communication",
+    "work"
+   ]
+  },
+  {
+   "id": "94d7237f-0e1c-5185-9868-bc0567b9456d",
+   "lemma": "don't take this the wrong way",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "don't take this the wrong way",
+    "don't take it the wrong way",
+    "don't take this personally"
+   ],
+   "kind": "formula",
+   "glossEn": "softening a remark that may offend",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "14458173-2f41-587b-bb6f-c7522ea4bdd6",
+   "lemma": "I wouldn't go that far",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I wouldn't go that far",
+    "I would not go that far",
+    "I wouldn't say that"
+   ],
+   "kind": "formula",
+   "glossEn": "partly disagreeing with an exaggerated claim",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "263935c0-d4cb-559a-8502-b09e029cdcd2",
+   "lemma": "there's no denying",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "there's no denying",
+    "there is no denying",
+    "there's no denying that"
+   ],
+   "kind": "formula",
+   "glossEn": "introducing something clearly true",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "a1af3301-3519-5163-9032-1b393c06f55a",
+   "lemma": "rest assured",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rest assured",
+    "you can rest assured",
+    "rest assured that"
+   ],
+   "kind": "formula",
+   "glossEn": "formally telling someone not to worry",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  },
+  {
+   "id": "85f705b5-fa81-5c4d-931a-9f9440eb9b04",
+   "lemma": "let's get down to business",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "let's get down to business",
+    "down to business",
+    "let's get down to it"
+   ],
+   "kind": "formula",
+   "glossEn": "moving from small talk to the real work",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "4ed4c6e3-6259-5af0-bebb-f95c1c5b814d",
+   "lemma": "thanks for the heads-up",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "thanks for the heads-up",
+    "thanks for the heads up",
+    "just a heads-up"
+   ],
+   "kind": "formula",
+   "glossEn": "thanking someone for an advance warning",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  },
+  {
+   "id": "3e66ca58-e48a-51a0-973e-ba4ee4641908",
+   "lemma": "as far as I can tell",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as far as I can tell",
+    "as far as I can see",
+    "from what I can tell"
+   ],
+   "kind": "formula",
+   "glossEn": "hedge based on what you can observe",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "8fa97afc-1a0b-5806-af78-2869068e4638",
+   "lemma": "I'm inclined to agree",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I'm inclined to agree",
+    "I am inclined to agree",
+    "I'm inclined to think"
+   ],
+   "kind": "formula",
+   "glossEn": "cautiously expressing agreement",
+   "topics": [
+    "communication",
+    "work"
+   ]
+  },
+  {
+   "id": "94486a32-e7c0-5f3f-ac80-cbb03d8cf9d7",
+   "lemma": "I take your point",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I take your point",
+    "I take your point, but"
+   ],
+   "kind": "formula",
+   "glossEn": "acknowledging an argument before replying",
+   "topics": [
+    "communication",
+    "work"
+   ]
+  },
+  {
+   "id": "c9cb670b-38dd-54c3-bd57-73eb0e9ecf71",
+   "lemma": "where were we",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "where were we",
+    "where was I",
+    "now, where were we"
+   ],
+   "kind": "formula",
+   "glossEn": "resuming a conversation after an interruption",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "1b5ef6ad-b8be-58ec-a922-e78d742d5391",
+   "lemma": "so to speak",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "so to speak",
+    "in a manner of speaking",
+    "if you will"
+   ],
+   "kind": "formula",
+   "glossEn": "signaling a figurative or loose expression",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "d509f598-fe39-507c-81ba-28ddbbc5b3dd",
+   "lemma": "as things stand",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as things stand",
+    "as it stands",
+    "as matters stand"
+   ],
+   "kind": "formula",
+   "glossEn": "describing the present situation, which may change",
+   "topics": [
+    "communication",
+    "work"
+   ]
+  },
+  {
+   "id": "3e8f241f-94ea-50a6-b662-1091d66f88d3",
+   "lemma": "I'd appreciate it if",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I'd appreciate it if",
+    "I would appreciate it if",
+    "I'd appreciate it if you could",
+    "I would be grateful if"
+   ],
+   "kind": "formula",
+   "glossEn": "formal polite request",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  },
+  {
+   "id": "b3942c50-33ed-551e-a0da-3ff3f6318e71",
+   "lemma": "would it be possible to",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "would it be possible to",
+    "would it be possible for you to",
+    "is there any chance"
+   ],
+   "kind": "formula",
+   "glossEn": "very polite request for something",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  },
+  {
+   "id": "d7689461-c243-5fba-89c6-6cad0c82f022",
+   "lemma": "I couldn't help but notice",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I couldn't help but notice",
+    "I couldn't help noticing",
+    "I could not help but notice"
+   ],
+   "kind": "formula",
+   "glossEn": "politely introducing something you observed",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "32f13cc7-31fc-5cc7-bea2-bb9229aa954e",
+   "lemma": "if memory serves",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "if memory serves",
+    "if memory serves me right",
+    "if I remember correctly",
+    "if I recall correctly"
+   ],
+   "kind": "formula",
+   "glossEn": "hedge: if I remember correctly",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "a2f4b565-9693-5051-a5f6-45b7a4ae37db",
+   "lemma": "a chip on one's shoulder",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a chip on one's shoulder",
+    "a chip on your shoulder"
+   ],
+   "kind": "idiom",
+   "glossEn": "lasting anger about being treated unfairly",
+   "topics": []
+  },
+  {
+   "id": "d4aef1ee-9403-50bb-8ff9-20bdc458f0e9",
+   "lemma": "a double-edged sword",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a double-edged sword",
+    "double-edged sword"
+   ],
+   "kind": "idiom",
+   "glossEn": "something with both good and bad effects",
+   "topics": [
+    "work",
+    "it"
+   ]
+  },
+  {
+   "id": "07e8671f-c226-5e0c-969a-2b1b617eaca0",
+   "lemma": "a slap on the wrist",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a slap on the wrist",
+    "slap on the wrist"
+   ],
+   "kind": "idiom",
+   "glossEn": "very mild punishment",
+   "topics": []
+  },
+  {
+   "id": "8f87cee4-6078-52a2-8653-5fa767783ffe",
+   "lemma": "save face",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "save face"
+   ],
+   "kind": "idiom",
+   "glossEn": "avoid losing respect or looking foolish",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  },
+  {
+   "id": "4cfe34d5-7900-511c-980f-ba541414724a",
+   "lemma": "a ballpark figure",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a ballpark figure",
+    "ballpark figure",
+    "in the ballpark"
+   ],
+   "kind": "idiom",
+   "glossEn": "rough estimate of a number",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "5b0f01b9-ae47-5639-8bf2-6e2306acbf34",
+   "lemma": "above board",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "above board",
+    "aboveboard"
+   ],
+   "kind": "idiom",
+   "glossEn": "honest and legal",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "76fd595e-1141-52ce-b2b0-b55f06fddcfc",
+   "lemma": "across the board",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "across the board"
+   ],
+   "kind": "idiom",
+   "glossEn": "affecting everyone or everything equally",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "e3919faf-a243-50d5-9d8f-525e45d75793",
+   "lemma": "an ace up one's sleeve",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "an ace up one's sleeve",
+    "an ace up your sleeve",
+    "a card up one's sleeve"
+   ],
+   "kind": "idiom",
+   "glossEn": "secret advantage kept for later",
+   "topics": []
+  },
+  {
+   "id": "d708f9b4-5f3b-5a56-9c84-1dc3adae580a",
+   "lemma": "add insult to injury",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "add insult to injury",
+    "to add insult to injury"
+   ],
+   "kind": "idiom",
+   "glossEn": "make a bad situation even worse",
+   "topics": []
+  },
+  {
+   "id": "6a44faf8-35d1-5580-9e3b-62cdfd840764",
+   "lemma": "against the clock",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "against the clock",
+    "work against the clock"
+   ],
+   "kind": "idiom",
+   "glossEn": "in a hurry to meet a deadline",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "6fce1859-70dd-5821-8ffd-8ff56b381113",
+   "lemma": "the apple of one's eye",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "the apple of one's eye",
+    "the apple of my eye"
+   ],
+   "kind": "idiom",
+   "glossEn": "person someone loves most",
+   "topics": []
+  },
+  {
+   "id": "059ae18a-8d7b-5975-8618-3dcdf1cc2fb5",
+   "lemma": "at the drop of a hat",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at the drop of a hat"
+   ],
+   "kind": "idiom",
+   "glossEn": "immediately, without hesitation",
+   "topics": []
+  },
+  {
+   "id": "9379d974-8556-51b6-9279-e407ea193f66",
+   "lemma": "bark up the wrong tree",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bark up the wrong tree",
+    "barking up the wrong tree"
+   ],
+   "kind": "idiom",
+   "glossEn": "pursue a mistaken idea or wrong person",
+   "topics": []
+  },
+  {
+   "id": "392c42dd-081d-5a56-8da1-652b578ada69",
+   "lemma": "in the dark",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the dark",
+    "keep sb in the dark"
+   ],
+   "kind": "idiom",
+   "glossEn": "not informed about something",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  },
+  {
+   "id": "5e8b00c5-3fbb-5a32-9bc7-61a217dd409b",
+   "lemma": "beat a dead horse",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "beat a dead horse",
+    "flog a dead horse"
+   ],
+   "kind": "idiom",
+   "glossEn": "waste effort on something already settled",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "d4c52ddb-dafd-5388-a29b-def764353345",
+   "lemma": "behind the scenes",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "behind the scenes",
+    "behind-the-scenes"
+   ],
+   "kind": "idiom",
+   "glossEn": "secretly, out of public view",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "75dd931c-5803-5d57-a838-0495f535fb11",
+   "lemma": "bend the rules",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bend the rules"
+   ],
+   "kind": "idiom",
+   "glossEn": "break rules slightly, not seriously",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "b923f01e-e000-5a26-a73d-f26e03bb1c8e",
+   "lemma": "bite one's tongue",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bite one's tongue",
+    "bite your tongue",
+    "hold one's tongue"
+   ],
+   "kind": "idiom",
+   "glossEn": "stop yourself from saying something",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "d967d456-2849-5521-ab1a-b1c27713baec",
+   "lemma": "blow off steam",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blow off steam",
+    "let off steam"
+   ],
+   "kind": "idiom",
+   "glossEn": "release anger or stress",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "80a055a6-5a2d-58cd-b73f-d242feb6d602",
+   "lemma": "blow one's own horn",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blow one's own horn",
+    "blow one's own trumpet",
+    "toot one's own horn"
+   ],
+   "kind": "idiom",
+   "glossEn": "boast about yourself",
+   "topics": [
+    "communication"
+   ]
+  }
+ ]
+}

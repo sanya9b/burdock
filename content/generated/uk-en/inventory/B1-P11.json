@@ -1,0 +1,590 @@
+{
+ "chunk": "B1-P11",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "a1121b2a-8b5b-52f4-8047-54a2a46cfe42",
+   "lemma": "the ball is in your court",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "the ball is in your court",
+    "the ball is in sb's court"
+   ],
+   "kind": "idiom",
+   "glossEn": "it is your turn to decide or act",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  },
+  {
+   "id": "a88a77d2-ec52-5806-ac28-4312325a960c",
+   "lemma": "kill two birds with one stone",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "kill two birds with one stone"
+   ],
+   "kind": "idiom",
+   "glossEn": "achieve two things with one action",
+   "topics": []
+  },
+  {
+   "id": "5ff58b79-f1e2-5de7-90f5-0f6ac0e4a62a",
+   "lemma": "hit the nail on the head",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hit the nail on the head"
+   ],
+   "kind": "idiom",
+   "glossEn": "describe a situation exactly right",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "6cae4df8-eadb-5f51-8d6d-23cfe7d31de7",
+   "lemma": "let the cat out of the bag",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "let the cat out of the bag"
+   ],
+   "kind": "idiom",
+   "glossEn": "reveal a secret by accident",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "cbdab70e-bbfe-50c8-a7b3-7332835b612c",
+   "lemma": "spill the beans",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spill the beans"
+   ],
+   "kind": "idiom",
+   "glossEn": "tell a secret",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "7114700b-f1d6-545e-9f23-655708c3a41f",
+   "lemma": "the last straw",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "the last straw",
+    "the final straw",
+    "the straw that broke the camel's back"
+   ],
+   "kind": "idiom",
+   "glossEn": "final problem that makes you give up",
+   "topics": []
+  },
+  {
+   "id": "6ee4c67d-1439-5119-a998-739faaf8627f",
+   "lemma": "a rule of thumb",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a rule of thumb",
+    "rule of thumb"
+   ],
+   "kind": "idiom",
+   "glossEn": "practical general principle, not exact",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "2b59b302-d8d6-51ad-b082-8d7afbe2ac31",
+   "lemma": "bite the bullet",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bite the bullet"
+   ],
+   "kind": "idiom",
+   "glossEn": "force yourself to do something unpleasant",
+   "topics": []
+  },
+  {
+   "id": "a4389629-784c-5d4f-b057-6856b343bbe4",
+   "lemma": "cut corners",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cut corners"
+   ],
+   "kind": "idiom",
+   "glossEn": "do something cheaply or carelessly",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "edc29dc6-85bb-51e9-83e4-de6ddfa7e9c1",
+   "lemma": "miss the boat",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "miss the boat"
+   ],
+   "kind": "idiom",
+   "glossEn": "miss an opportunity by being late",
+   "topics": []
+  },
+  {
+   "id": "456c63a3-3c2b-5eae-ab4c-156673906efa",
+   "lemma": "go the extra mile",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go the extra mile"
+   ],
+   "kind": "idiom",
+   "glossEn": "make more effort than expected",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "98e4d8f3-e242-526e-becc-f5af492fd797",
+   "lemma": "on the fence",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the fence",
+    "sit on the fence"
+   ],
+   "kind": "idiom",
+   "glossEn": "undecided between two options",
+   "topics": []
+  },
+  {
+   "id": "4e3f112d-9514-553c-aebf-858ee080fbe6",
+   "lemma": "up in the air",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "up in the air"
+   ],
+   "kind": "idiom",
+   "glossEn": "not yet decided",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "ba34a135-4c25-599e-91ff-4282ffa2e8ff",
+   "lemma": "burn the midnight oil",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "burn the midnight oil"
+   ],
+   "kind": "idiom",
+   "glossEn": "work late into the night",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "48740014-ab60-56e7-90ab-fc18a89bd80f",
+   "lemma": "beat around the bush",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "beat around the bush",
+    "beat about the bush"
+   ],
+   "kind": "idiom",
+   "glossEn": "avoid talking about the main point",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "c2b91276-e22e-560a-8f75-c74b121ba84c",
+   "lemma": "a blessing in disguise",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a blessing in disguise",
+    "blessing in disguise"
+   ],
+   "kind": "idiom",
+   "glossEn": "bad thing that turns out good",
+   "topics": []
+  },
+  {
+   "id": "d9777ca2-4393-5d4a-812b-07eeb43e880b",
+   "lemma": "the elephant in the room",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "the elephant in the room",
+    "elephant in the room"
+   ],
+   "kind": "idiom",
+   "glossEn": "obvious problem nobody wants to discuss",
+   "topics": [
+    "communication",
+    "work"
+   ]
+  },
+  {
+   "id": "9a378c9e-1293-5ee9-913d-30212206e6b7",
+   "lemma": "a drop in the ocean",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a drop in the ocean",
+    "a drop in the bucket"
+   ],
+   "kind": "idiom",
+   "glossEn": "very small amount compared to what is needed",
+   "topics": []
+  },
+  {
+   "id": "99530445-ae6a-5c05-9412-85ad31b97811",
+   "lemma": "add fuel to the fire",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "add fuel to the fire",
+    "add fuel to the flames"
+   ],
+   "kind": "idiom",
+   "glossEn": "make a bad situation worse",
+   "topics": []
+  },
+  {
+   "id": "f88fe334-72f3-5be4-9045-102dabf448f5",
+   "lemma": "back to square one",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "back to square one"
+   ],
+   "kind": "idiom",
+   "glossEn": "back to the beginning after a failure",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "6f07da8a-34e0-5ad8-bf37-f681b3a9ec93",
+   "lemma": "back to the drawing board",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "back to the drawing board"
+   ],
+   "kind": "idiom",
+   "glossEn": "start planning again after a failure",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "f1081886-ef1e-50a4-9c75-552d8c15fc8f",
+   "lemma": "give sb a piece of one's mind",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "give sb a piece of one's mind",
+    "a piece of one's mind"
+   ],
+   "kind": "idiom",
+   "glossEn": "tell someone angrily what you think",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "351c95b7-5a2e-578e-add2-13b7e23dc7d4",
+   "lemma": "call the shots",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "call the shots"
+   ],
+   "kind": "idiom",
+   "glossEn": "be the person who makes decisions",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "07693242-d454-5fce-a9a9-f5e72b89a876",
+   "lemma": "keep one's fingers crossed",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep one's fingers crossed",
+    "fingers crossed",
+    "cross one's fingers"
+   ],
+   "kind": "idiom",
+   "glossEn": "hope for good luck",
+   "topics": []
+  },
+  {
+   "id": "6db6317c-28ce-59e1-baa2-bd1f9edad6e1",
+   "lemma": "a dark horse",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a dark horse",
+    "dark horse"
+   ],
+   "kind": "idiom",
+   "glossEn": "unexpected winner or person with hidden talents",
+   "topics": []
+  },
+  {
+   "id": "3662b41f-6c94-599e-b912-794e11a47f19",
+   "lemma": "down to earth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "down to earth",
+    "down-to-earth"
+   ],
+   "kind": "idiom",
+   "glossEn": "practical, realistic and modest",
+   "topics": []
+  },
+  {
+   "id": "23e0547e-5413-5ac6-b475-2b008c49b3c0",
+   "lemma": "face the music",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "face the music"
+   ],
+   "kind": "idiom",
+   "glossEn": "accept criticism or punishment for your actions",
+   "topics": []
+  },
+  {
+   "id": "4dcd3cfe-650e-5811-ad19-77f49b1f21ab",
+   "lemma": "get out of hand",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get out of hand",
+    "out of hand"
+   ],
+   "kind": "idiom",
+   "glossEn": "become impossible to control",
+   "topics": []
+  },
+  {
+   "id": "1095adf5-516a-55d0-a137-2e2f8fe269df",
+   "lemma": "get sth off one's chest",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get sth off one's chest",
+    "get it off your chest"
+   ],
+   "kind": "idiom",
+   "glossEn": "talk about something that worries you",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "50329036-17d7-5522-9e9d-81f016e70e17",
+   "lemma": "go with the flow",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go with the flow"
+   ],
+   "kind": "idiom",
+   "glossEn": "accept things as they happen",
+   "topics": []
+  },
+  {
+   "id": "4406ca6b-54db-55c6-812e-57434317aadd",
+   "lemma": "hit the books",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hit the books"
+   ],
+   "kind": "idiom",
+   "glossEn": "study hard",
+   "topics": []
+  },
+  {
+   "id": "417243ab-f18e-5e4d-b9bf-b107948d3490",
+   "lemma": "in the long run",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the long run",
+    "in the long term"
+   ],
+   "kind": "idiom",
+   "glossEn": "over a long period, eventually",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "ee10cf6a-72f5-546d-abed-87befc21dfbb",
+   "lemma": "jump on the bandwagon",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jump on the bandwagon",
+    "get on the bandwagon"
+   ],
+   "kind": "idiom",
+   "glossEn": "join something because it is popular",
+   "topics": []
+  },
+  {
+   "id": "a6ed1fc3-c425-5082-9922-d37714d4ae1b",
+   "lemma": "keep one's chin up",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep one's chin up",
+    "chin up"
+   ],
+   "kind": "idiom",
+   "glossEn": "stay cheerful in a difficult situation",
+   "topics": []
+  },
+  {
+   "id": "95120951-bac2-5947-b20e-b82a9ee5e753",
+   "lemma": "learn the ropes",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "learn the ropes",
+    "know the ropes"
+   ],
+   "kind": "idiom",
+   "glossEn": "learn how a job is done",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "e2844232-3302-5203-8607-f0e70e92ad5b",
+   "lemma": "lose track of time",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lose track of time",
+    "lose track of sth"
+   ],
+   "kind": "idiom",
+   "glossEn": "not notice how much time has passed",
+   "topics": []
+  },
+  {
+   "id": "81b673f0-cd65-5767-a06b-769c1c877249",
+   "lemma": "off the top of one's head",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "off the top of one's head",
+    "off the top of my head"
+   ],
+   "kind": "idiom",
+   "glossEn": "from memory, without careful thought",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "a81a5de1-1694-543b-88fb-df4c052cdb23",
+   "lemma": "on cloud nine",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on cloud nine"
+   ],
+   "kind": "idiom",
+   "glossEn": "extremely happy",
+   "topics": []
+  },
+  {
+   "id": "5f054dc3-4d94-5362-84ca-ad1c2789355d",
+   "lemma": "once and for all",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "once and for all"
+   ],
+   "kind": "idiom",
+   "glossEn": "finally and completely",
+   "topics": []
+  },
+  {
+   "id": "0ef867a7-467c-5e89-9f9b-acdc257e932f",
+   "lemma": "pull oneself together",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pull oneself together",
+    "pull yourself together"
+   ],
+   "kind": "idiom",
+   "glossEn": "calm down and regain control",
+   "topics": []
+  }
+ ]
+}

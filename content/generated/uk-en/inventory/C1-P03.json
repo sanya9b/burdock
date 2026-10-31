@@ -1,0 +1,615 @@
+{
+ "chunk": "C1-P03",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "51cc4992-454a-578c-982d-ad77b1065854",
+   "lemma": "stir up a hornet's nest",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stir up a hornet's nest",
+    "a hornet's nest",
+    "a hornets' nest"
+   ],
+   "kind": "idiom",
+   "glossEn": "provoke a situation full of trouble",
+   "topics": []
+  },
+  {
+   "id": "1a3cbbb4-25d2-565f-bb02-522e58a8c0f4",
+   "lemma": "a house of cards",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a house of cards",
+    "house of cards"
+   ],
+   "kind": "idiom",
+   "glossEn": "plan or structure likely to collapse",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "48c15d9e-1251-5f2c-80a2-e5c70e644544",
+   "lemma": "a litmus test",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a litmus test",
+    "litmus test"
+   ],
+   "kind": "idiom",
+   "glossEn": "decisive test of someone's attitude or quality",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "3dbf1bb0-7ea6-5f5a-821f-f9c6faf0069d",
+   "lemma": "a moot point",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a moot point",
+    "moot point",
+    "moot"
+   ],
+   "kind": "idiom",
+   "glossEn": "question no longer worth debating",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "c53929c6-1742-50a4-a472-63ffe42debeb",
+   "lemma": "a paper tiger",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a paper tiger",
+    "paper tiger"
+   ],
+   "kind": "idiom",
+   "glossEn": "something that seems powerful but is weak",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "31613555-777b-5f32-85df-d249f776360c",
+   "lemma": "a smoking gun",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a smoking gun",
+    "smoking gun"
+   ],
+   "kind": "idiom",
+   "glossEn": "conclusive evidence of wrongdoing",
+   "topics": []
+  },
+  {
+   "id": "41c7af0f-eb41-5118-9482-6b011ee3b970",
+   "lemma": "a sticking point",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a sticking point",
+    "sticking point"
+   ],
+   "kind": "idiom",
+   "glossEn": "issue that blocks an agreement",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "833c97c1-2d74-5363-9604-82da48a2ca45",
+   "lemma": "a thorn in one's side",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a thorn in one's side",
+    "a thorn in the side of",
+    "a thorn in one's flesh"
+   ],
+   "kind": "idiom",
+   "glossEn": "person or thing that keeps causing trouble",
+   "topics": []
+  },
+  {
+   "id": "f5916532-601f-58d4-acbb-b1bb70a4fa5e",
+   "lemma": "a watershed moment",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a watershed moment",
+    "a watershed",
+    "watershed"
+   ],
+   "kind": "idiom",
+   "glossEn": "turning point that changes everything",
+   "topics": []
+  },
+  {
+   "id": "5396926d-f10e-5b3c-8ebc-14f8fe09a323",
+   "lemma": "a wild card",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a wild card",
+    "wild card",
+    "wildcard"
+   ],
+   "kind": "idiom",
+   "glossEn": "unpredictable person or factor",
+   "topics": []
+  },
+  {
+   "id": "c99c0192-a46a-593a-8bda-57d65b4578d2",
+   "lemma": "at loggerheads",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at loggerheads",
+    "at loggerheads with sb"
+   ],
+   "kind": "idiom",
+   "glossEn": "in strong disagreement",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "0c6586b6-2625-5440-a865-f2b624e91b7d",
+   "lemma": "beyond the pale",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "beyond the pale"
+   ],
+   "kind": "idiom",
+   "glossEn": "completely unacceptable",
+   "topics": []
+  },
+  {
+   "id": "c1a856c5-a129-5c02-a3e3-6a064fe5d644",
+   "lemma": "bite the hand that feeds you",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bite the hand that feeds you",
+    "bite the hand that feeds one"
+   ],
+   "kind": "idiom",
+   "glossEn": "harm someone who supports you",
+   "topics": []
+  },
+  {
+   "id": "0d990360-6927-5a57-ac9f-9508eb4a0ffc",
+   "lemma": "blow the whistle on sb",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blow the whistle on sb",
+    "blow the whistle on",
+    "blow the whistle",
+    "whistleblower"
+   ],
+   "kind": "idiom",
+   "glossEn": "report wrongdoing to authorities or public",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "d899edc0-59ed-58b6-b0eb-ad53c521b4da",
+   "lemma": "burn the candle at both ends",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "burn the candle at both ends"
+   ],
+   "kind": "idiom",
+   "glossEn": "exhaust yourself by working and playing late",
+   "topics": [
+    "health",
+    "work"
+   ]
+  },
+  {
+   "id": "6b9ccd47-66c4-5cd9-b91c-02554b5e0b55",
+   "lemma": "bury one's head in the sand",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bury one's head in the sand",
+    "head in the sand",
+    "stick one's head in the sand"
+   ],
+   "kind": "idiom",
+   "glossEn": "refuse to face an unpleasant reality",
+   "topics": []
+  },
+  {
+   "id": "8ede1263-7c40-5dab-bb20-8fd062906b5d",
+   "lemma": "move heaven and earth",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "move heaven and earth"
+   ],
+   "kind": "idiom",
+   "glossEn": "do everything possible to achieve something",
+   "topics": []
+  },
+  {
+   "id": "42ab41c9-3702-5533-8623-dbc58da4286d",
+   "lemma": "call sb's bluff",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "call sb's bluff",
+    "call one's bluff"
+   ],
+   "kind": "idiom",
+   "glossEn": "challenge someone to prove a threat is real",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "0cc37283-da6a-5757-8e4c-89ec2c09a2ca",
+   "lemma": "stand the test of time",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stand the test of time",
+    "the test of time"
+   ],
+   "kind": "idiom",
+   "glossEn": "remain good or popular for a long time",
+   "topics": []
+  },
+  {
+   "id": "9dade7bb-2fa7-52a2-8fa5-476ebe7afa1c",
+   "lemma": "take the wind out of sb's sails",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take the wind out of sb's sails",
+    "take the wind out of your sails"
+   ],
+   "kind": "idiom",
+   "glossEn": "make someone lose confidence or momentum",
+   "topics": []
+  },
+  {
+   "id": "6a43120e-a356-51c9-83d0-2c77f8099829",
+   "lemma": "the jury is still out",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "the jury is still out",
+    "the jury is out",
+    "the jury's still out"
+   ],
+   "kind": "idiom",
+   "glossEn": "no decision has been reached yet",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "31e759f3-1b9b-5854-adc7-2e26a8e7a453",
+   "lemma": "come to a head",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "come to a head",
+    "bring sth to a head"
+   ],
+   "kind": "idiom",
+   "glossEn": "reach a crisis point requiring action",
+   "topics": []
+  },
+  {
+   "id": "cac3bf74-eb1a-58a0-9be6-04afbed4ebfa",
+   "lemma": "the cream of the crop",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "the cream of the crop",
+    "cream of the crop"
+   ],
+   "kind": "idiom",
+   "glossEn": "the very best of a group",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "2df62d5d-798a-5029-a875-b37c11791158",
+   "lemma": "cut from the same cloth",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cut from the same cloth"
+   ],
+   "kind": "idiom",
+   "glossEn": "very similar in character",
+   "topics": []
+  },
+  {
+   "id": "32981876-d6d8-5056-8935-985832a37ff3",
+   "lemma": "draw a line in the sand",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "draw a line in the sand",
+    "a line in the sand"
+   ],
+   "kind": "idiom",
+   "glossEn": "set a firm limit that must not be crossed",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "495a96fc-c1d5-5fe4-907d-966425898fa4",
+   "lemma": "fall from grace",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fall from grace",
+    "a fall from grace"
+   ],
+   "kind": "idiom",
+   "glossEn": "lose status or respect after wrongdoing",
+   "topics": []
+  },
+  {
+   "id": "c2b39d79-76ba-5b84-a7f0-01aba1d9316e",
+   "lemma": "tread water",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tread water",
+    "treading water"
+   ],
+   "kind": "idiom",
+   "glossEn": "make no progress while staying afloat",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "a292e4da-67f4-5bec-bffc-2acc6a918b6f",
+   "lemma": "tie up loose ends",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tie up loose ends",
+    "loose ends"
+   ],
+   "kind": "idiom",
+   "glossEn": "finish the remaining small tasks",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "8a98ca89-4600-58d7-8b3b-2fb86849ef5d",
+   "lemma": "fight tooth and nail",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fight tooth and nail",
+    "tooth and nail"
+   ],
+   "kind": "idiom",
+   "glossEn": "fight with great determination",
+   "topics": []
+  },
+  {
+   "id": "f6ebde8c-09a3-5a39-a2c7-9461f79bf29a",
+   "lemma": "the final nail in the coffin",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "the final nail in the coffin",
+    "the last nail in the coffin",
+    "a nail in the coffin"
+   ],
+   "kind": "idiom",
+   "glossEn": "event that finally destroys something",
+   "topics": []
+  },
+  {
+   "id": "eb332988-0b6b-5173-b392-a9e8ae86ef38",
+   "lemma": "fly in the face of sth",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fly in the face of sth",
+    "fly in the face of"
+   ],
+   "kind": "idiom",
+   "glossEn": "completely contradict what is expected",
+   "topics": []
+  },
+  {
+   "id": "2f461f4a-0e5a-59ab-b6c4-07962d61125e",
+   "lemma": "a fly in the ointment",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a fly in the ointment",
+    "fly in the ointment"
+   ],
+   "kind": "idiom",
+   "glossEn": "small problem that spoils something good",
+   "topics": []
+  },
+  {
+   "id": "c8d239f3-22f6-57e5-812d-b5b33f3b2b93",
+   "lemma": "a force to be reckoned with",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a force to be reckoned with",
+    "to be reckoned with"
+   ],
+   "kind": "idiom",
+   "glossEn": "someone powerful who must be taken seriously",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "995ecd22-dbad-5922-89bf-906d68ba4358",
+   "lemma": "throw one's hat in the ring",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "throw one's hat in the ring",
+    "throw one's hat into the ring",
+    "toss one's hat in the ring"
+   ],
+   "kind": "idiom",
+   "glossEn": "announce that you are competing",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "2908d76d-9199-575c-aed3-4ad1aa683f0d",
+   "lemma": "give sb a wide berth",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "give sb a wide berth",
+    "give sth a wide berth",
+    "a wide berth"
+   ],
+   "kind": "idiom",
+   "glossEn": "deliberately avoid someone or something",
+   "topics": []
+  },
+  {
+   "id": "929d71fd-682a-5fd1-a1e7-f8c6f19a7e86",
+   "lemma": "go down the rabbit hole",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go down the rabbit hole",
+    "down the rabbit hole",
+    "a rabbit hole"
+   ],
+   "kind": "idiom",
+   "glossEn": "get absorbed in something increasingly complex",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "b656662d-02c7-5988-97f5-d349b6fb76ee",
+   "lemma": "a slap in the face",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a slap in the face",
+    "slap in the face"
+   ],
+   "kind": "idiom",
+   "glossEn": "insulting or disappointing action",
+   "topics": []
+  },
+  {
+   "id": "a0dbf7c0-4475-5756-8d2f-0c62df2ce99d",
+   "lemma": "hang in the balance",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hang in the balance",
+    "in the balance"
+   ],
+   "kind": "idiom",
+   "glossEn": "be in an uncertain, critical state",
+   "topics": []
+  },
+  {
+   "id": "97307567-0cc0-5d92-92a6-fc0db2e550fd",
+   "lemma": "have one's work cut out",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have one's work cut out",
+    "have one's work cut out for one",
+    "have your work cut out"
+   ],
+   "kind": "idiom",
+   "glossEn": "face a very difficult task",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "023a00d4-4eaf-5b42-aac4-2192ccf3ea89",
+   "lemma": "hedge one's bets",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hedge one's bets",
+    "hedge your bets"
+   ],
+   "kind": "idiom",
+   "glossEn": "support several options to reduce risk",
+   "topics": [
+    "work"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,643 @@
+{
+ "chunk": "B1-P05",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "ea873ce1-c093-582a-876f-5877e1a3e954",
+   "lemma": "set a deadline",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "set a deadline",
+    "set deadlines",
+    "set a deadline for sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "fix the latest time to finish something",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "e3efd378-5bba-5e2f-be70-b30d7129c05b",
+   "lemma": "set an example",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "set an example",
+    "set a good example",
+    "set an example for sb"
+   ],
+   "kind": "collocation",
+   "glossEn": "behave in a way others should copy",
+   "topics": []
+  },
+  {
+   "id": "32eb68d2-be79-5b79-8d76-dd089c095bdb",
+   "lemma": "set a price",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "set a price",
+    "set prices",
+    "set the price"
+   ],
+   "kind": "collocation",
+   "glossEn": "decide how much something will cost",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "607c9dca-aeef-582b-bced-770dcc5e20dc",
+   "lemma": "set fire to sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "set fire to sth",
+    "set sth on fire"
+   ],
+   "kind": "collocation",
+   "glossEn": "make something start burning",
+   "topics": []
+  },
+  {
+   "id": "9fe35055-039b-5224-b1eb-6973ee4e69a9",
+   "lemma": "set a date",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "set a date",
+    "set the date",
+    "fix a date"
+   ],
+   "kind": "collocation",
+   "glossEn": "decide on the day for an event",
+   "topics": []
+  },
+  {
+   "id": "e64be716-9b53-5401-82aa-6117befd7c11",
+   "lemma": "set a budget",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "set a budget",
+    "set the budget",
+    "stick to a budget"
+   ],
+   "kind": "collocation",
+   "glossEn": "decide how much money can be spent",
+   "topics": [
+    "work",
+    "shopping"
+   ]
+  },
+  {
+   "id": "51741f8f-66e8-5d27-a62f-1b519d4b3243",
+   "lemma": "set priorities",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "set priorities",
+    "set your priorities"
+   ],
+   "kind": "collocation",
+   "glossEn": "decide which things are most important",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "8c876c59-7e78-502b-a5a3-dae1f64440e1",
+   "lemma": "meet a deadline",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "meet a deadline",
+    "meet the deadline",
+    "meet deadlines"
+   ],
+   "kind": "collocation",
+   "glossEn": "finish something by the required time",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "cf7975a8-9f22-5b83-9d4b-a9a11065cab6",
+   "lemma": "meet sb's needs",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "meet sb's needs",
+    "meet a need",
+    "meet the needs of sb"
+   ],
+   "kind": "collocation",
+   "glossEn": "provide what someone requires",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "f033b208-d8c6-5d20-8967-a8fad7eb6f25",
+   "lemma": "meet expectations",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "meet expectations",
+    "meet sb's expectations",
+    "live up to expectations"
+   ],
+   "kind": "collocation",
+   "glossEn": "be as good as people hoped",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "c625c495-43a0-51e3-b674-8730058ebadb",
+   "lemma": "meet the requirements",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "meet the requirements",
+    "meet a requirement",
+    "fulfill the requirements"
+   ],
+   "kind": "collocation",
+   "glossEn": "have everything that is officially needed",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "1fb48799-6d1c-502f-960a-b2b89b18c5df",
+   "lemma": "meet a target",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "meet a target",
+    "meet targets",
+    "hit a target"
+   ],
+   "kind": "collocation",
+   "glossEn": "achieve the planned result",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "d71592e6-d270-5e82-b466-3393f7d89902",
+   "lemma": "face a problem",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "face a problem",
+    "face problems",
+    "be faced with a problem"
+   ],
+   "kind": "collocation",
+   "glossEn": "have to deal with a difficulty",
+   "topics": []
+  },
+  {
+   "id": "ff2a01eb-8b1a-5ff3-81f7-e3414f878586",
+   "lemma": "face a challenge",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "face a challenge",
+    "face challenges"
+   ],
+   "kind": "collocation",
+   "glossEn": "have to deal with something difficult",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "d77ffd11-1091-5226-84f6-969c397cfc3c",
+   "lemma": "face the facts",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "face the facts",
+    "face facts",
+    "face the truth"
+   ],
+   "kind": "collocation",
+   "glossEn": "accept an unpleasant truth",
+   "topics": []
+  },
+  {
+   "id": "1da75eff-281d-51d3-b7e8-dc13e345ad1d",
+   "lemma": "face the consequences",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "face the consequences",
+    "face the consequences of sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "accept the bad results of your actions",
+   "topics": []
+  },
+  {
+   "id": "9884cd8f-e23b-5ea2-a0bd-2a976d2c20f1",
+   "lemma": "solve a problem",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "solve a problem",
+    "solve problems",
+    "solve the problem"
+   ],
+   "kind": "collocation",
+   "glossEn": "find an answer to a difficulty",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "cc24a18b-bbd8-5df1-8010-4622efdc63f4",
+   "lemma": "raise a question",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "raise a question",
+    "raise questions",
+    "raise the question of"
+   ],
+   "kind": "collocation",
+   "glossEn": "bring up a question for discussion",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "746231a1-b0d7-5840-91b8-739abefca960",
+   "lemma": "raise money",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "raise money",
+    "raise funds",
+    "raise money for sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "collect money for a purpose",
+   "topics": []
+  },
+  {
+   "id": "c7a9fd46-8918-59ca-8f67-03667c54bb4e",
+   "lemma": "raise awareness",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "raise awareness",
+    "raise awareness of sth",
+    "raise public awareness"
+   ],
+   "kind": "collocation",
+   "glossEn": "make more people know about an issue",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "ba0e6683-3bd1-5d68-92b4-3c85988bed1c",
+   "lemma": "raise your voice",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "raise your voice",
+    "raise your voice to sb"
+   ],
+   "kind": "collocation",
+   "glossEn": "speak louder, often in anger",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "89672cdb-4a2d-5558-9284-22d3b22fda30",
+   "lemma": "raise a family",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "raise a family",
+    "start a family"
+   ],
+   "kind": "collocation",
+   "glossEn": "bring up children",
+   "topics": []
+  },
+  {
+   "id": "357ebc44-d78d-56a9-a655-cd14a31d9b72",
+   "lemma": "raise prices",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "raise prices",
+    "raise the price",
+    "increase prices"
+   ],
+   "kind": "collocation",
+   "glossEn": "make things cost more",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "76babead-edb7-56c5-8b4d-57323cf16f60",
+   "lemma": "raise a child",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "raise a child",
+    "raise children",
+    "bring up a child"
+   ],
+   "kind": "collocation",
+   "glossEn": "care for a child until grown up",
+   "topics": []
+  },
+  {
+   "id": "0011ffaa-178b-5131-bf96-ee786abdd690",
+   "lemma": "lose your temper",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lose your temper",
+    "lose my temper",
+    "lose your temper with sb"
+   ],
+   "kind": "collocation",
+   "glossEn": "suddenly become angry",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "36c12487-3f9b-5c15-b301-606620741d90",
+   "lemma": "lose touch",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lose touch",
+    "lose touch with sb",
+    "lose contact"
+   ],
+   "kind": "collocation",
+   "glossEn": "stop communicating with someone",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "44185fe1-9caf-5616-9531-03999ebd3cb2",
+   "lemma": "lose interest",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lose interest",
+    "lose interest in sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "stop being interested",
+   "topics": []
+  },
+  {
+   "id": "8948b3b8-29d0-5b04-a6aa-d61a6a379290",
+   "lemma": "lose track of sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lose track of sth",
+    "lose track of time",
+    "lose track"
+   ],
+   "kind": "collocation",
+   "glossEn": "no longer know what is happening",
+   "topics": []
+  },
+  {
+   "id": "447fafb0-3f75-5e37-8daf-ecf59d0fffee",
+   "lemma": "lose your way",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lose your way",
+    "lose my way"
+   ],
+   "kind": "collocation",
+   "glossEn": "not know which way to go",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "557700cc-3a5b-5804-adaa-0b71f92f7c5d",
+   "lemma": "lose your voice",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lose your voice",
+    "lose my voice"
+   ],
+   "kind": "collocation",
+   "glossEn": "be unable to speak because of a sore throat",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "c0b403a9-b102-5d60-8405-e15b00390c7b",
+   "lemma": "lose patience",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lose patience",
+    "lose your patience",
+    "lose patience with sb"
+   ],
+   "kind": "collocation",
+   "glossEn": "stop being able to stay calm and wait",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "bacad3d4-d1b4-5d24-86a2-11055cf77a70",
+   "lemma": "lose hope",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lose hope",
+    "give up hope"
+   ],
+   "kind": "collocation",
+   "glossEn": "stop believing things will get better",
+   "topics": []
+  },
+  {
+   "id": "e6c691d9-e7c9-502d-be61-447496962ff9",
+   "lemma": "lose a game",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lose a game",
+    "lose a match",
+    "win a game"
+   ],
+   "kind": "collocation",
+   "glossEn": "be defeated in a game or match",
+   "topics": []
+  },
+  {
+   "id": "54fc528c-1e7d-5a13-8466-ae02f4d671fb",
+   "lemma": "lose money",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lose money",
+    "lose money on sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "end up with less money than before",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "b1c98d95-90c1-519d-9407-7a06caa60a4a",
+   "lemma": "lose count",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lose count",
+    "lose count of sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "forget how many there are",
+   "topics": []
+  },
+  {
+   "id": "6e2b9ac5-6c19-5dfa-a851-ab22059a95a2",
+   "lemma": "lose your balance",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lose your balance",
+    "lose my balance",
+    "keep your balance"
+   ],
+   "kind": "collocation",
+   "glossEn": "become unsteady and nearly fall",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "78a69692-f95c-5327-97d9-18545e788873",
+   "lemma": "lose consciousness",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lose consciousness",
+    "regain consciousness"
+   ],
+   "kind": "collocation",
+   "glossEn": "faint; stop being awake",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "233050ea-0894-559e-a3e8-fbfa6d71c218",
+   "lemma": "lose a bet",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lose a bet",
+    "win a bet"
+   ],
+   "kind": "collocation",
+   "glossEn": "be wrong in a bet and have to pay",
+   "topics": []
+  },
+  {
+   "id": "ac7fc82b-1cc4-5d77-8738-0fad28641a1c",
+   "lemma": "save a life",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "save a life",
+    "save lives",
+    "save sb's life"
+   ],
+   "kind": "collocation",
+   "glossEn": "stop someone from dying",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "98be3ee0-151e-531e-b26d-22073eadc40d",
+   "lemma": "save energy",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "save energy",
+    "save electricity",
+    "save power"
+   ],
+   "kind": "collocation",
+   "glossEn": "use less electricity or fuel",
+   "topics": [
+    "city"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,560 @@
+{
+ "chunk": "A2-P16",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "51b5c2fa-4a52-532f-bc7c-ae2d8b9337ff",
+   "lemma": "by train",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "by train"
+   ],
+   "kind": "prepositional",
+   "glossEn": "traveling on a train",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "f2b8a262-9a69-541a-a741-9606c4052385",
+   "lemma": "by plane",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "by plane"
+   ],
+   "kind": "prepositional",
+   "glossEn": "traveling on an airplane",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "55d94083-41dc-5803-bd0f-b455cba69861",
+   "lemma": "at home",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at home"
+   ],
+   "kind": "prepositional",
+   "glossEn": "in one's own house; comfortable",
+   "topics": []
+  },
+  {
+   "id": "fc8bbea1-0514-55af-8eab-0365b000c3d1",
+   "lemma": "at work",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at work"
+   ],
+   "kind": "prepositional",
+   "glossEn": "at one's workplace; busy working",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "c8ca168f-7533-55e1-a1df-5d12be9cb605",
+   "lemma": "at school",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at school"
+   ],
+   "kind": "prepositional",
+   "glossEn": "attending school; in the school building",
+   "topics": []
+  },
+  {
+   "id": "880a5b55-ae87-5177-8c0c-70a130dbf642",
+   "lemma": "at night",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at night"
+   ],
+   "kind": "prepositional",
+   "glossEn": "during the night",
+   "topics": []
+  },
+  {
+   "id": "3a0a04d3-7e79-5ea6-99b7-4d3d9351848e",
+   "lemma": "in the morning",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the morning"
+   ],
+   "kind": "prepositional",
+   "glossEn": "during the early part of the day",
+   "topics": []
+  },
+  {
+   "id": "3d7b321d-02ce-56cf-8306-66ecf1aa3e00",
+   "lemma": "in the afternoon",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the afternoon"
+   ],
+   "kind": "prepositional",
+   "glossEn": "during the part of the day after noon",
+   "topics": []
+  },
+  {
+   "id": "9282ecfc-decb-547e-9dcc-39fe21809327",
+   "lemma": "in the evening",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the evening"
+   ],
+   "kind": "prepositional",
+   "glossEn": "during the late part of the day",
+   "topics": []
+  },
+  {
+   "id": "48981988-e2ee-5d23-9f77-4af021ea105d",
+   "lemma": "at the moment",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at the moment"
+   ],
+   "kind": "prepositional",
+   "glossEn": "now, at this time",
+   "topics": []
+  },
+  {
+   "id": "d7b407e5-ed54-5f9f-ad91-e4f0f26b0af7",
+   "lemma": "in a hurry",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in a hurry"
+   ],
+   "kind": "prepositional",
+   "glossEn": "needing to move or act quickly",
+   "topics": []
+  },
+  {
+   "id": "cb1fad05-4553-5bcf-9b8a-804d3ce7d375",
+   "lemma": "on vacation",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on vacation",
+    "on holiday"
+   ],
+   "kind": "prepositional",
+   "glossEn": "away from work or school for a holiday",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "e2bb8c88-5b37-5f24-b72e-cb2a383918d1",
+   "lemma": "on the weekend",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the weekend",
+    "at the weekend",
+    "on weekends"
+   ],
+   "kind": "prepositional",
+   "glossEn": "on Saturday or Sunday",
+   "topics": []
+  },
+  {
+   "id": "a0d61546-2b1d-5ef8-9cc7-be31fa78b7bf",
+   "lemma": "by email",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "by email",
+    "by e-mail"
+   ],
+   "kind": "prepositional",
+   "glossEn": "using email as the means of contact",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "f19751b5-712e-56e0-9a7a-2e3df4f0ce2d",
+   "lemma": "in front of",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in front of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "ahead of; facing something or someone",
+   "topics": []
+  },
+  {
+   "id": "52f3ccad-795a-5d0b-a125-fa554e11d8d1",
+   "lemma": "in the middle of",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the middle of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "at the center of; busy doing something",
+   "topics": []
+  },
+  {
+   "id": "899e8976-144d-5227-8ca9-39c7a9aea097",
+   "lemma": "at the end of",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at the end of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "at the final part of something",
+   "topics": []
+  },
+  {
+   "id": "53140be7-0d09-5721-a070-4fb4723a011a",
+   "lemma": "at the beginning of",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at the beginning of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "at the first part of something",
+   "topics": []
+  },
+  {
+   "id": "c632de59-c7bd-50e3-ac8c-22113fee2267",
+   "lemma": "on the left",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the left",
+    "on the left-hand side"
+   ],
+   "kind": "prepositional",
+   "glossEn": "on the left side",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "6295eb18-8c6b-55e5-8e63-f9ebcb3cfab9",
+   "lemma": "on the right",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the right",
+    "on the right-hand side"
+   ],
+   "kind": "prepositional",
+   "glossEn": "on the right side",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "d037ac09-ffff-5fd8-b637-55405e37bc3a",
+   "lemma": "at the top of",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at the top of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "at the highest part of something",
+   "topics": []
+  },
+  {
+   "id": "2d02d46f-b4e9-576e-80f2-3f895764204b",
+   "lemma": "at the bottom of",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at the bottom of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "at the lowest part of something",
+   "topics": []
+  },
+  {
+   "id": "f9ee3e0f-1cfa-5f32-878e-0668dd1582ac",
+   "lemma": "on the way",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the way",
+    "on one's way"
+   ],
+   "kind": "prepositional",
+   "glossEn": "while traveling to a place",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "ad2300cd-dbda-5d1e-b14e-4b2b5cf6d1d9",
+   "lemma": "by hand",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "by hand"
+   ],
+   "kind": "prepositional",
+   "glossEn": "made or done with the hands, not machines",
+   "topics": []
+  },
+  {
+   "id": "095deb17-7db2-5159-8a50-30102d0c0fab",
+   "lemma": "for sale",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "for sale"
+   ],
+   "kind": "prepositional",
+   "glossEn": "available to be bought",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "952c3b4b-4700-5ecc-bcf0-aa8a1dc6eb3b",
+   "lemma": "on sale",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on sale"
+   ],
+   "kind": "prepositional",
+   "glossEn": "sold at a reduced price",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "90527874-9d93-5710-b276-246cddd89197",
+   "lemma": "in love",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in love"
+   ],
+   "kind": "prepositional",
+   "glossEn": "feeling romantic love for someone",
+   "topics": []
+  },
+  {
+   "id": "195616be-64c8-510b-8c4a-6c43d8838673",
+   "lemma": "at first",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at first"
+   ],
+   "kind": "prepositional",
+   "glossEn": "in the beginning, before something changed",
+   "topics": []
+  },
+  {
+   "id": "6ff708b8-6df0-50db-8838-afce63750d03",
+   "lemma": "on purpose",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on purpose"
+   ],
+   "kind": "prepositional",
+   "glossEn": "intentionally, not by accident",
+   "topics": []
+  },
+  {
+   "id": "da422ea7-5a65-535a-bb03-b3c16c0d53be",
+   "lemma": "by accident",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "by accident"
+   ],
+   "kind": "prepositional",
+   "glossEn": "unintentionally, by chance",
+   "topics": []
+  },
+  {
+   "id": "ee941f48-0823-5775-ad26-bffa374d6aa7",
+   "lemma": "by mistake",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "by mistake"
+   ],
+   "kind": "prepositional",
+   "glossEn": "as the result of an error",
+   "topics": []
+  },
+  {
+   "id": "35193981-8054-5480-90a9-6db440f54111",
+   "lemma": "in a moment",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in a moment"
+   ],
+   "kind": "prepositional",
+   "glossEn": "very soon, in a short time",
+   "topics": []
+  },
+  {
+   "id": "1d38f3a6-28af-5e83-86c3-1146caa05f5b",
+   "lemma": "for a while",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "for a while"
+   ],
+   "kind": "prepositional",
+   "glossEn": "for a short period of time",
+   "topics": []
+  },
+  {
+   "id": "ae36862e-90d0-5fe2-9920-2cad50976c4d",
+   "lemma": "for a long time",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "for a long time"
+   ],
+   "kind": "prepositional",
+   "glossEn": "over a long period",
+   "topics": []
+  },
+  {
+   "id": "188aeffc-b97f-56d5-bf31-daae893e4aa6",
+   "lemma": "all day long",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "all day long",
+    "all day"
+   ],
+   "kind": "prepositional",
+   "glossEn": "during the whole day",
+   "topics": []
+  },
+  {
+   "id": "93cf5f47-17fd-57be-ab7a-38465f6f8f80",
+   "lemma": "all the time",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "all the time"
+   ],
+   "kind": "prepositional",
+   "glossEn": "constantly, very often",
+   "topics": []
+  },
+  {
+   "id": "4fdd6785-a5d4-5b2e-8571-559003d2e03b",
+   "lemma": "at once",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at once"
+   ],
+   "kind": "prepositional",
+   "glossEn": "immediately; at the same time",
+   "topics": []
+  },
+  {
+   "id": "1245bea2-21ab-559e-849a-b199204fe031",
+   "lemma": "in cash",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in cash"
+   ],
+   "kind": "prepositional",
+   "glossEn": "paying with coins and banknotes",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "570a8382-ffa9-504d-b6d6-742d109ce2f8",
+   "lemma": "by credit card",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "by credit card",
+    "by card"
+   ],
+   "kind": "prepositional",
+   "glossEn": "paying with a credit card",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "ea5c1ce5-752a-5999-a14c-363d4a137494",
+   "lemma": "on TV",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on TV",
+    "on television"
+   ],
+   "kind": "prepositional",
+   "glossEn": "being broadcast on television",
+   "topics": []
+  }
+ ]
+}

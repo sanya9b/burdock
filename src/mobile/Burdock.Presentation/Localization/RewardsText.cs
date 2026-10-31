@@ -1,5 +1,6 @@
 using System.Globalization;
 using System.Text;
+using Burdock.Domain.Rewards;
 using Burdock.Presentation.Resources.Icons;
 using Burdock.Presentation.Resources.Strings;
 
@@ -21,6 +22,9 @@ internal static class RewardsText
     private static readonly CompositeFormat RewardFew = CompositeFormat.Parse(AppResources.Celebration_Reward_Few);
     private static readonly CompositeFormat RewardMany = CompositeFormat.Parse(AppResources.Celebration_Reward_Many);
     private static readonly string[] LevelTitles = AppResources.Rewards_Level_Titles.Split('|', StringSplitOptions.TrimEntries);
+    private static readonly CompositeFormat LevelShortFormat = CompositeFormat.Parse(AppResources.Rewards_Level_Short);
+    private static readonly CompositeFormat GrowthToNextFormat = CompositeFormat.Parse(AppResources.Growth_ToNext);
+    private static readonly CompositeFormat GrowthA11yFormat = CompositeFormat.Parse(AppResources.Growth_A11y);
 
     public static string Days(int days) => Plural.Uk(days, DayOne, DayFew, DayMany);
 
@@ -36,6 +40,24 @@ internal static class RewardsText
 
     /// <summary>«Рівень 2 · Паросток».</summary>
     public static string Level(int level) => string.Format(Ukrainian, LevelFormat, level, LevelTitle(level));
+
+    /// <summary>«Рівень 5».</summary>
+    public static string LevelShort(int level) => string.Format(Ukrainian, LevelShortFormat, level);
+
+    /// <summary>Stage names are the titles of the first level of each stage (spec 07 §3.2.7): «Насінинка», «Паросток», … «Великий Реп’ях».</summary>
+    public static string StageName(GrowthStage stage) => LevelTitle(GrowthRules.FirstLevel(stage));
+
+    /// <summary>«Ще 300 XP до стадії «Бутончик»» or «Найвища стадія росту».</summary>
+    public static string GrowthCaption(GrowthSnapshot growth)
+    {
+        ArgumentNullException.ThrowIfNull(growth);
+        return growth.NextStage is { } next
+            ? string.Format(Ukrainian, GrowthToNextFormat, growth.XpToNextStage.ToString("N0", Ukrainian), StageName(next))
+            : AppResources.Growth_Final;
+    }
+
+    /// <summary>Screen-reader description of the mascot: «Реп’яшок на стадії «Кущик»».</summary>
+    public static string GrowthDescription(GrowthStage stage) => string.Format(Ukrainian, GrowthA11yFormat, StageName(stage));
 
     public static string AchievementTitle(string id) => AppResources.ResourceManager.GetString($"Ach_{id}_Title", AppResources.Culture) ?? id;
 

@@ -1,0 +1,663 @@
+{
+ "chunk": "B1-P03",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "d075fc5d-9dd1-5c03-adbe-f6c6acd9bbf9",
+   "lemma": "reach a conclusion",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reach a conclusion",
+    "come to a conclusion",
+    "reach the conclusion that"
+   ],
+   "kind": "collocation",
+   "glossEn": "decide what you think after considering",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "161477c1-cde6-59de-ac7f-7c7e7ccf9211",
+   "lemma": "draw a conclusion",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "draw a conclusion",
+    "draw conclusions",
+    "draw conclusions from sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "decide something is true from the facts",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "aa7ff004-83b3-5c06-bb04-740c1b392a1c",
+   "lemma": "do research",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "do research",
+    "carry out research",
+    "do research into sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "study something carefully to learn facts",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "65c27e59-96a8-5e0e-9a9a-a03d44432acb",
+   "lemma": "do harm",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "do harm",
+    "do sb harm",
+    "do more harm than good"
+   ],
+   "kind": "collocation",
+   "glossEn": "hurt or damage someone or something",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "173bf451-226b-5abf-b772-1fe34a4cb405",
+   "lemma": "do damage",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "do damage",
+    "do damage to sth",
+    "cause damage"
+   ],
+   "kind": "collocation",
+   "glossEn": "harm or break something",
+   "topics": []
+  },
+  {
+   "id": "030891be-963c-5590-ab2e-226ff3e85fa3",
+   "lemma": "do the paperwork",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "do the paperwork",
+    "do paperwork",
+    "fill in the paperwork"
+   ],
+   "kind": "collocation",
+   "glossEn": "complete the required forms and documents",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "ef076e9e-7b98-5d6c-9dcc-bd8587820e16",
+   "lemma": "do an experiment",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "do an experiment",
+    "carry out an experiment",
+    "conduct an experiment"
+   ],
+   "kind": "collocation",
+   "glossEn": "test something scientifically",
+   "topics": []
+  },
+  {
+   "id": "7a6c83ca-5fea-55ec-b8f7-b9d9a1108ada",
+   "lemma": "do sb good",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "do sb good",
+    "do good",
+    "do you good"
+   ],
+   "kind": "collocation",
+   "glossEn": "be helpful or healthy for someone",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "c657f7bc-11dc-5519-98fe-bfe658934045",
+   "lemma": "take a risk",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take a risk",
+    "take risks",
+    "take the risk"
+   ],
+   "kind": "collocation",
+   "glossEn": "do something that could go wrong",
+   "topics": []
+  },
+  {
+   "id": "534c46ff-022d-5e7f-8a09-49698968b2a9",
+   "lemma": "take a chance",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take a chance",
+    "take chances",
+    "take a chance on sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "try something although it may fail",
+   "topics": []
+  },
+  {
+   "id": "7ab2883a-7dcd-512a-b688-979abacd15db",
+   "lemma": "take responsibility",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take responsibility",
+    "take responsibility for sth",
+    "accept responsibility"
+   ],
+   "kind": "collocation",
+   "glossEn": "accept that you are in charge or to blame",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "9d988f72-25e5-5c64-8f59-97da2e240128",
+   "lemma": "take action",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take action",
+    "take action against sb",
+    "take steps"
+   ],
+   "kind": "collocation",
+   "glossEn": "do something to deal with a problem",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "21b27eef-4f1e-555a-bbea-767d6c318ea4",
+   "lemma": "take advantage of sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take advantage of sth",
+    "take advantage of sb",
+    "take advantage"
+   ],
+   "kind": "collocation",
+   "glossEn": "use an opportunity; use someone unfairly",
+   "topics": []
+  },
+  {
+   "id": "0ec8176c-5408-5853-bf70-3a5cd2223bd9",
+   "lemma": "take control",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take control",
+    "take control of sth",
+    "gain control"
+   ],
+   "kind": "collocation",
+   "glossEn": "start to manage or command something",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "38d16ff5-5fa4-5da8-8e6e-b61b27e8d580",
+   "lemma": "take charge",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take charge",
+    "take charge of sth",
+    "be in charge"
+   ],
+   "kind": "collocation",
+   "glossEn": "become the person responsible for something",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "c866d781-1697-58b8-94e6-be9faa3c0876",
+   "lemma": "take an interest in sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take an interest in sth",
+    "take interest",
+    "show an interest in sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "become interested in something",
+   "topics": []
+  },
+  {
+   "id": "c1943548-088d-5931-8e9a-6890a7c18b30",
+   "lemma": "take pride in sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take pride in sth",
+    "take pride",
+    "take pride in your work"
+   ],
+   "kind": "collocation",
+   "glossEn": "feel proud of something you do or own",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "90b2a9ff-27a8-5131-8e50-841e9b428e1c",
+   "lemma": "take sides",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take sides",
+    "take sb's side"
+   ],
+   "kind": "collocation",
+   "glossEn": "support one person in an argument",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "f6052a27-127c-5719-8701-4b1b0661cac3",
+   "lemma": "take effect",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take effect",
+    "come into effect"
+   ],
+   "kind": "collocation",
+   "glossEn": "start to work or apply",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "fad737d5-7d14-5742-b22b-a8629470cf9a",
+   "lemma": "take shape",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take shape",
+    "begin to take shape"
+   ],
+   "kind": "collocation",
+   "glossEn": "develop into a clear form",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "0729801a-9d9b-52eb-8634-f32e2332b71c",
+   "lemma": "take a shortcut",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take a shortcut",
+    "take a short cut",
+    "take shortcuts"
+   ],
+   "kind": "collocation",
+   "glossEn": "use a quicker route or method",
+   "topics": [
+    "city",
+    "travel"
+   ]
+  },
+  {
+   "id": "6a46f806-2ae9-5c85-87c9-336bbced1fd3",
+   "lemma": "take the lead",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take the lead",
+    "take the lead in sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "go into first place; start to guide others",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "09c98333-8761-5877-8c58-15ed9aa765a6",
+   "lemma": "take a vote",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take a vote",
+    "hold a vote",
+    "put sth to a vote"
+   ],
+   "kind": "collocation",
+   "glossEn": "decide something by voting",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "dff0a349-9684-52c7-ac39-538c2e83203c",
+   "lemma": "take a step",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take a step",
+    "take steps",
+    "take the first step"
+   ],
+   "kind": "collocation",
+   "glossEn": "do one action toward a goal",
+   "topics": []
+  },
+  {
+   "id": "063f976c-959d-55c6-836c-2a1261dd245a",
+   "lemma": "take notice of sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take notice of sth",
+    "take notice",
+    "take no notice of sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "pay attention to something",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "9cb7fe54-89b5-5d57-ae42-9f50dd9741c8",
+   "lemma": "take the blame",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take the blame",
+    "take the blame for sth",
+    "get the blame"
+   ],
+   "kind": "collocation",
+   "glossEn": "accept that a fault is yours",
+   "topics": []
+  },
+  {
+   "id": "51de65e1-0db1-59b9-97b2-44dca538bd5a",
+   "lemma": "take a sip",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take a sip",
+    "have a sip",
+    "take a sip of sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "drink a very small amount",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "6b836bf6-eda7-51f0-b984-ae8a9884db8e",
+   "lemma": "take a bite",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take a bite",
+    "have a bite",
+    "take a bite of sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "bite off a small piece of food",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "2d499882-a094-5ec7-8ffe-df385bbab2c1",
+   "lemma": "give a talk",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "give a talk",
+    "give a lecture",
+    "give a talk on sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "speak to an audience about a subject",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  },
+  {
+   "id": "7b39b20f-29bd-50ac-8fb6-3cd748de38ce",
+   "lemma": "give sb a call",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "give sb a call",
+    "give a call",
+    "give sb a ring"
+   ],
+   "kind": "collocation",
+   "glossEn": "phone someone",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "9228da59-e1e8-5729-9f55-15beb5303911",
+   "lemma": "give permission",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "give permission",
+    "give sb permission",
+    "grant permission"
+   ],
+   "kind": "collocation",
+   "glossEn": "allow someone officially to do something",
+   "topics": []
+  },
+  {
+   "id": "2c258fd2-8e31-5b98-b8d0-1ee8b91f6f52",
+   "lemma": "give a reason",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "give a reason",
+    "give reasons",
+    "give a reason for sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "explain why something happened",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "25cc275a-70a4-534e-95ec-a5d877b8beb4",
+   "lemma": "give directions",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "give directions",
+    "give sb directions",
+    "ask for directions"
+   ],
+   "kind": "collocation",
+   "glossEn": "explain to someone how to get somewhere",
+   "topics": [
+    "city",
+    "travel",
+    "communication"
+   ]
+  },
+  {
+   "id": "8e27993e-d46a-5890-b2f6-0a483d3bdaaa",
+   "lemma": "give feedback",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "give feedback",
+    "give sb feedback",
+    "get feedback"
+   ],
+   "kind": "collocation",
+   "glossEn": "tell someone how well they did",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  },
+  {
+   "id": "4ab37768-a469-5d8d-b2ba-828accdd2330",
+   "lemma": "give a warning",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "give a warning",
+    "give sb a warning",
+    "issue a warning"
+   ],
+   "kind": "collocation",
+   "glossEn": "tell someone about a possible danger",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "3bcf7f4f-0ae2-547b-9fd8-234671f5428b",
+   "lemma": "express an opinion",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "express an opinion",
+    "give an opinion",
+    "give your opinion"
+   ],
+   "kind": "collocation",
+   "glossEn": "say what you think about something",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "4427a271-d632-5fb0-8189-f66c8ae58248",
+   "lemma": "give sb a hug",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "give sb a hug",
+    "give a hug"
+   ],
+   "kind": "collocation",
+   "glossEn": "put your arms around someone warmly",
+   "topics": []
+  },
+  {
+   "id": "5a734508-1e05-5859-b821-e97b60a893ff",
+   "lemma": "give birth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "give birth",
+    "give birth to sb"
+   ],
+   "kind": "collocation",
+   "glossEn": "produce a baby",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "fa3fc9e3-a2b9-583b-b7fe-cee03822febe",
+   "lemma": "give sb a chance",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "give sb a chance",
+    "give a chance",
+    "give sb a second chance"
+   ],
+   "kind": "collocation",
+   "glossEn": "let someone try or prove themselves",
+   "topics": []
+  },
+  {
+   "id": "405d846a-9589-59b4-a580-9546a2f7021a",
+   "lemma": "give way",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "give way",
+    "give way to sth",
+    "yield"
+   ],
+   "kind": "collocation",
+   "glossEn": "let other traffic go first; collapse",
+   "topics": [
+    "city"
+   ]
+  }
+ ]
+}

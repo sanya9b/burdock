@@ -1,0 +1,580 @@
+{
+ "chunk": "B1-P17",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "a95fbaad-4c98-5d66-92a8-a156eb131b8f",
+   "lemma": "get into sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get into sth",
+    "get into"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "become interested in; be accepted by a school; enter",
+   "topics": []
+  },
+  {
+   "id": "670b1407-fe8e-5b5d-8335-f72279b498c6",
+   "lemma": "get out",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "leave a place; become known, of a secret",
+   "topics": []
+  },
+  {
+   "id": "9084c2d2-c6bd-5e61-911a-4b9a71eef0e9",
+   "lemma": "get rid of sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get rid of sth",
+    "get rid of"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "remove or throw away something unwanted",
+   "topics": []
+  },
+  {
+   "id": "3d77b2a7-2770-52d7-809a-909603c6cecb",
+   "lemma": "give off sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "give off sth",
+    "give off"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "produce heat, light or a smell",
+   "topics": []
+  },
+  {
+   "id": "a04783bb-ee8a-551c-ac3a-8d8b340d7e9c",
+   "lemma": "go against sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go against sth",
+    "go against"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "oppose or act contrary to something",
+   "topics": []
+  },
+  {
+   "id": "2a3f7aa3-7387-505c-be5f-f2e1b429f576",
+   "lemma": "go into sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go into sth",
+    "go into"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "discuss in detail; start a career in",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "e548da7f-f8a8-5bbe-adf8-0a3593cda1d8",
+   "lemma": "grow out of sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "grow out of sth",
+    "grow out of"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "become too big for clothes; stop a childish habit",
+   "topics": []
+  },
+  {
+   "id": "b217eb16-a0c9-5aba-8f47-3e74579aeb22",
+   "lemma": "hand back sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hand back sth",
+    "hand back"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "return something to the person who gave it",
+   "topics": []
+  },
+  {
+   "id": "adc7c5b0-3562-59df-92af-8d1b69b9e3de",
+   "lemma": "head for sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "head for sth",
+    "head for",
+    "head to"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "move in the direction of a place",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "32f80152-2f24-5754-95da-977755883349",
+   "lemma": "head back",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "head back"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "start returning to where you came from",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "e625bd76-3d77-5094-9328-56a4d2214062",
+   "lemma": "hear of sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hear of sth",
+    "hear of"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "know that something or someone exists",
+   "topics": []
+  },
+  {
+   "id": "21ccd3a0-4e4c-52b5-916b-2539e1feca3d",
+   "lemma": "help out",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "help out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "assist someone, especially in a difficult time",
+   "topics": []
+  },
+  {
+   "id": "c1f0c5ec-0758-5777-b782-c42a848dcb09",
+   "lemma": "hold back sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hold back sth",
+    "hold back"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "control an emotion; prevent progress",
+   "topics": []
+  },
+  {
+   "id": "6b6ca728-5acf-5b25-ba6a-b925a8ecf843",
+   "lemma": "hold on to sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hold on to sth",
+    "hold on to",
+    "hold onto"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "keep something; grip firmly",
+   "topics": []
+  },
+  {
+   "id": "8f3b899a-321c-54ab-a344-223b923aeabe",
+   "lemma": "jot down sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jot down sth",
+    "jot down"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "write something quickly",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "3ffeffdb-ae05-5961-83ae-8e6ee16c9fca",
+   "lemma": "keep back sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep back sth",
+    "keep back"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "not tell or give something; stay at a distance",
+   "topics": []
+  },
+  {
+   "id": "92df3b57-55c1-5f1e-a494-fba473ca9c5d",
+   "lemma": "keep down sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep down sth",
+    "keep down"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "stop a level from rising; keep food in your stomach",
+   "topics": []
+  },
+  {
+   "id": "5a766bdb-22ef-58fc-ac9d-6f19ca8343b1",
+   "lemma": "keep to sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep to sth",
+    "keep to"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "follow a plan, path or rule",
+   "topics": []
+  },
+  {
+   "id": "8b464ea2-bb74-5ba7-80a7-9b2bffb00f29",
+   "lemma": "kick off",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "kick off"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "start a match, meeting or event",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "81e028a2-da10-5650-a9c3-5e3b69587ec7",
+   "lemma": "kick out sb",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "kick out sb",
+    "kick out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "force someone to leave a place or group",
+   "topics": []
+  },
+  {
+   "id": "e2236c8a-f8ef-50b5-b91f-ee70b5cba2c0",
+   "lemma": "lay off sb",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lay off sb",
+    "lay off"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "dismiss workers because there is not enough work",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "2826fe09-0179-51db-b1e6-16d6ba090f7a",
+   "lemma": "lay out sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lay out sth",
+    "lay out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "arrange things on a surface; explain a plan clearly",
+   "topics": []
+  },
+  {
+   "id": "82566782-999b-50f7-a809-714d36eb22b6",
+   "lemma": "lead to sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lead to sth",
+    "lead to"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "cause a result",
+   "topics": []
+  },
+  {
+   "id": "d639bd05-8769-5fee-ade1-5e0cdf1dcab9",
+   "lemma": "let off sb",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "let off sb",
+    "let off"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "not punish someone; make a firework explode",
+   "topics": []
+  },
+  {
+   "id": "150c6713-08c8-5ac1-9317-26f055733248",
+   "lemma": "light up",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "light up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "become bright; show sudden happiness, of a face",
+   "topics": []
+  },
+  {
+   "id": "4c2e762c-535b-58ec-af39-06555942df04",
+   "lemma": "look ahead",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "look ahead"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "think about and plan the future",
+   "topics": []
+  },
+  {
+   "id": "bb215a20-89d4-5de2-bca7-ca7fe7708e21",
+   "lemma": "miss out",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "miss out",
+    "miss out on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "lose the chance to enjoy something",
+   "topics": []
+  },
+  {
+   "id": "2ba01c8e-00ff-5b1d-bda2-2efe8b843c12",
+   "lemma": "move on",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "move on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "go to the next topic or stage; leave the past behind",
+   "topics": []
+  },
+  {
+   "id": "4fa460da-564a-5ee1-b94e-241a4f42217f",
+   "lemma": "move over",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "move over"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "change position to make room for someone",
+   "topics": []
+  },
+  {
+   "id": "cbaec085-5ec3-560c-b135-c50897c1f90b",
+   "lemma": "move up",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "move up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "advance to a higher position; shift to make space",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "36523865-c135-5151-b9bd-ed71e35e179a",
+   "lemma": "narrow down sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "narrow down sth",
+    "narrow down"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "reduce the number of options",
+   "topics": []
+  },
+  {
+   "id": "09fcafec-5bd4-55a3-a54e-ae3e56d4bfbe",
+   "lemma": "open up",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "open up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "talk freely about feelings; become available",
+   "topics": []
+  },
+  {
+   "id": "5994264a-7ebc-5f23-8a0c-9de0c2e9f04d",
+   "lemma": "pay off",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pay off"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "bring a good result; repay a debt in full",
+   "topics": []
+  },
+  {
+   "id": "97af0772-1b7d-5fdc-a728-29d67554af3a",
+   "lemma": "pick on sb",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pick on sb",
+    "pick on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "repeatedly treat someone unfairly or unkindly",
+   "topics": []
+  },
+  {
+   "id": "3247ce1d-d5c4-59ac-b303-106f4e93a867",
+   "lemma": "pick out sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pick out sth",
+    "pick out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "choose from a group; recognize among others",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "e3af90dc-4c96-5273-bfda-fdf5ba213781",
+   "lemma": "pop up",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pop up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "appear suddenly or unexpectedly",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "67d28e6e-7f6c-5adc-a8e5-23fbf07ceb8e",
+   "lemma": "pull down sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pull down sth",
+    "pull down"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "demolish a building; move something lower",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "844d8223-2a62-5860-857c-10a85f090190",
+   "lemma": "pull in",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pull in"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "arrive and stop, of a train or car; attract crowds",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "bc258a63-7377-5058-971d-e8e07ae0f833",
+   "lemma": "pull up",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pull up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "stop a vehicle; bring a chair closer",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "0c027c34-57df-5db3-b410-8e5d86592135",
+   "lemma": "read out sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "read out sth",
+    "read out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "read something aloud to others",
+   "topics": [
+    "communication"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,647 @@
+{
+ "chunk": "B1-P04",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "a6d10cda-8bd1-5779-a9df-0b1b8a00eb2d",
+   "lemma": "keep a record",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep a record",
+    "keep records",
+    "keep a record of sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "write down information to keep it",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "cadca086-6469-5068-bb2e-976b031f31bc",
+   "lemma": "keep an eye on sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep an eye on sth",
+    "keep an eye on sb"
+   ],
+   "kind": "collocation",
+   "glossEn": "watch something or someone carefully",
+   "topics": []
+  },
+  {
+   "id": "b67849b0-a14e-5e9a-ba2b-49b34013e8d3",
+   "lemma": "keep calm",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep calm",
+    "stay calm",
+    "remain calm"
+   ],
+   "kind": "collocation",
+   "glossEn": "stay relaxed in a difficult moment",
+   "topics": []
+  },
+  {
+   "id": "9e9ff318-103f-5cba-9a70-b122ee42c7af",
+   "lemma": "keep fit",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep fit",
+    "stay fit",
+    "get fit"
+   ],
+   "kind": "collocation",
+   "glossEn": "stay healthy through exercise",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "8234d1ad-cac6-512d-9946-ba3c9e27f544",
+   "lemma": "keep track of sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep track of sth",
+    "keep track"
+   ],
+   "kind": "collocation",
+   "glossEn": "stay informed about what is happening",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "cc3c31b6-79c6-55f8-a1a2-ad35c8a2f569",
+   "lemma": "keep sb company",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep sb company",
+    "keep company"
+   ],
+   "kind": "collocation",
+   "glossEn": "stay with someone so they are not alone",
+   "topics": []
+  },
+  {
+   "id": "405db909-b924-5a1d-9719-1b8bafabd443",
+   "lemma": "keep your word",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep your word",
+    "keep my word"
+   ],
+   "kind": "collocation",
+   "glossEn": "do what you promised",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "54ba09ff-9c8b-5963-9cb0-b46a093d592e",
+   "lemma": "keep the change",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep the change"
+   ],
+   "kind": "collocation",
+   "glossEn": "let the seller keep the extra money",
+   "topics": [
+    "shopping",
+    "food"
+   ]
+  },
+  {
+   "id": "b9f347ec-71b5-5873-887c-eb4732f28344",
+   "lemma": "keep pace with sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep pace with sth",
+    "keep pace",
+    "keep up with sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "move or develop at the same speed",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "8d50a9d1-9e2c-5494-b156-6717d0d69bec",
+   "lemma": "keep your distance",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep your distance",
+    "keep a distance"
+   ],
+   "kind": "collocation",
+   "glossEn": "stay away from someone or something",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "ce77da2c-bb50-5d2b-a6ef-8dd386937bca",
+   "lemma": "keep control",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep control",
+    "keep control of sth",
+    "stay in control"
+   ],
+   "kind": "collocation",
+   "glossEn": "continue to manage a situation",
+   "topics": []
+  },
+  {
+   "id": "4f697a08-6e77-5f52-ace7-ee95d89c208b",
+   "lemma": "hold your breath",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hold your breath",
+    "hold my breath"
+   ],
+   "kind": "collocation",
+   "glossEn": "stop breathing for a short time",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "23fd8dba-fd8f-5ba7-b379-b25dd01a55e4",
+   "lemma": "hold a conversation",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hold a conversation",
+    "hold a conversation in English"
+   ],
+   "kind": "collocation",
+   "glossEn": "be able to talk with someone",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "578e504e-c47f-5dcb-a846-f726d4bdaeca",
+   "lemma": "hold an election",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hold an election",
+    "hold elections"
+   ],
+   "kind": "collocation",
+   "glossEn": "organize a vote to choose leaders",
+   "topics": []
+  },
+  {
+   "id": "e58d1317-c8f4-55f2-b2a4-0b27e24d445e",
+   "lemma": "hold a position",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hold a position",
+    "hold a post",
+    "hold the position of"
+   ],
+   "kind": "collocation",
+   "glossEn": "have a particular job or rank",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "128d251a-c504-5b01-b184-d10ca5a2997a",
+   "lemma": "break a record",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "break a record",
+    "break the record",
+    "set a record"
+   ],
+   "kind": "collocation",
+   "glossEn": "do better than the best result so far",
+   "topics": []
+  },
+  {
+   "id": "fb11735b-48df-5dc5-b015-39ccd5276ae9",
+   "lemma": "break the news",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "break the news",
+    "break the news to sb"
+   ],
+   "kind": "collocation",
+   "glossEn": "tell someone something unpleasant",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "6694f5aa-4c08-5e14-9a3c-5a1a8ea48c75",
+   "lemma": "break the silence",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "break the silence"
+   ],
+   "kind": "collocation",
+   "glossEn": "be the first to speak after a quiet moment",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "958e8dc8-19c4-5c89-bf13-7dc0fc648361",
+   "lemma": "break a habit",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "break a habit",
+    "break a bad habit",
+    "break the habit"
+   ],
+   "kind": "collocation",
+   "glossEn": "stop doing something you do regularly",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "dc0103fe-cbd6-56ff-86a7-18f4651b847c",
+   "lemma": "break a bone",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "break a bone",
+    "break your arm",
+    "break your leg"
+   ],
+   "kind": "collocation",
+   "glossEn": "fracture a bone in your body",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "593e47d7-e00a-5a86-acbf-ba4bb9ae3ff6",
+   "lemma": "break a contract",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "break a contract",
+    "breach a contract"
+   ],
+   "kind": "collocation",
+   "glossEn": "fail to do what a contract requires",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "3819b568-8eeb-5709-95ab-979ae2fab601",
+   "lemma": "break the rules",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "break the rules",
+    "break a rule"
+   ],
+   "kind": "collocation",
+   "glossEn": "do what the rules forbid",
+   "topics": []
+  },
+  {
+   "id": "41d1b574-7581-5992-86e9-7af6e7c3789f",
+   "lemma": "catch sb's attention",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "catch sb's attention",
+    "catch sb's eye",
+    "attract sb's attention"
+   ],
+   "kind": "collocation",
+   "glossEn": "make someone notice you",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "045c9a26-9966-5aab-a1d7-823c6586ccb3",
+   "lemma": "catch fire",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "catch fire"
+   ],
+   "kind": "collocation",
+   "glossEn": "start burning",
+   "topics": []
+  },
+  {
+   "id": "2f5849e1-a100-5eba-85df-989c03cdfad0",
+   "lemma": "catch a glimpse of sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "catch a glimpse of sth",
+    "catch a glimpse",
+    "catch sight of sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "see something for a very short moment",
+   "topics": []
+  },
+  {
+   "id": "2609e2e8-88c8-58ab-a6b7-31e2158b8fe0",
+   "lemma": "catch a disease",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "catch a disease",
+    "catch a virus",
+    "catch an infection"
+   ],
+   "kind": "collocation",
+   "glossEn": "become infected with an illness",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "8d1c2f69-0edf-53d6-b5a8-a59658cd7d83",
+   "lemma": "pay a visit",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pay a visit",
+    "pay sb a visit",
+    "pay a visit to sb"
+   ],
+   "kind": "collocation",
+   "glossEn": "go to see someone or a place",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "3194b0cf-9599-551c-8630-bdaac67c23f9",
+   "lemma": "pay a fine",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pay a fine",
+    "get a fine"
+   ],
+   "kind": "collocation",
+   "glossEn": "pay money as a punishment",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "da9e19e9-eca9-54c0-b567-3f924e2d93d8",
+   "lemma": "pay a compliment",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pay a compliment",
+    "pay sb a compliment",
+    "give sb a compliment"
+   ],
+   "kind": "collocation",
+   "glossEn": "say something nice about someone",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "416d9f9d-da96-5b9d-ae12-3da4e3cc8cdc",
+   "lemma": "pay the price",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pay the price",
+    "pay a price",
+    "pay the price for sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "suffer the bad results of your actions",
+   "topics": []
+  },
+  {
+   "id": "608f70ad-f766-5409-b7ea-0f7a9c8fce89",
+   "lemma": "pay interest",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pay interest",
+    "pay interest on sth",
+    "earn interest"
+   ],
+   "kind": "collocation",
+   "glossEn": "pay extra money for borrowing money",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "09afd06f-b5dd-5d01-8975-38c1c4c1fda3",
+   "lemma": "pay the rent",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pay the rent",
+    "pay rent"
+   ],
+   "kind": "collocation",
+   "glossEn": "pay money regularly to live in a place",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "ae4f0076-f8c4-5308-8100-b895b212b1d4",
+   "lemma": "pay taxes",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pay taxes",
+    "pay tax",
+    "pay income tax"
+   ],
+   "kind": "collocation",
+   "glossEn": "give money to the government as required",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "fe1d3646-5ba4-591c-a9a7-ad3db2075287",
+   "lemma": "pay a deposit",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pay a deposit",
+    "put down a deposit",
+    "leave a deposit"
+   ],
+   "kind": "collocation",
+   "glossEn": "pay part of the price in advance",
+   "topics": [
+    "shopping",
+    "travel"
+   ]
+  },
+  {
+   "id": "5671c7c9-ff9e-5a65-a58e-36911695b744",
+   "lemma": "run late",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "run late",
+    "be running late"
+   ],
+   "kind": "collocation",
+   "glossEn": "be behind schedule",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "4cefd26c-bf92-5d6c-9777-a14c5e0c3c33",
+   "lemma": "run a red light",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "run a red light",
+    "jump a red light",
+    "go through a red light"
+   ],
+   "kind": "collocation",
+   "glossEn": "drive through a red traffic light",
+   "topics": [
+    "city",
+    "travel"
+   ]
+  },
+  {
+   "id": "02226f3c-98b2-514c-beac-7647895d38ce",
+   "lemma": "run errands",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "run errands",
+    "run an errand",
+    "do errands"
+   ],
+   "kind": "collocation",
+   "glossEn": "go out to do small tasks like shopping",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "c0763d7b-9403-5468-b86b-d7e2dbfa771a",
+   "lemma": "run a bath",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "run a bath",
+    "run sb a bath"
+   ],
+   "kind": "collocation",
+   "glossEn": "fill a bathtub with water",
+   "topics": []
+  },
+  {
+   "id": "8f02c9b3-d4b5-5b42-90eb-3e239b73c793",
+   "lemma": "run a test",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "run a test",
+    "run tests",
+    "run some tests"
+   ],
+   "kind": "collocation",
+   "glossEn": "carry out a test or check",
+   "topics": [
+    "it",
+    "health"
+   ]
+  },
+  {
+   "id": "6286f668-4f78-53c5-9995-42b24708766b",
+   "lemma": "set a goal",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "set a goal",
+    "set goals",
+    "set yourself a goal"
+   ],
+   "kind": "collocation",
+   "glossEn": "decide what you want to achieve",
+   "topics": [
+    "work"
+   ]
+  }
+ ]
+}

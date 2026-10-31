@@ -1,0 +1,550 @@
+{
+ "chunk": "B1-P20",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "c2aae3ad-753c-5389-ab5d-352dddfdc178",
+   "lemma": "in control",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in control",
+    "in control of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "having the power to direct a situation",
+   "topics": []
+  },
+  {
+   "id": "9f00fc88-a44e-50e1-b6a3-0fe3c2626969",
+   "lemma": "out of control",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "out of control"
+   ],
+   "kind": "prepositional",
+   "glossEn": "impossible to manage or stop",
+   "topics": []
+  },
+  {
+   "id": "b80258e8-0677-50ef-9150-07718f710cde",
+   "lemma": "in touch",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in touch",
+    "in touch with"
+   ],
+   "kind": "prepositional",
+   "glossEn": "in regular contact with someone",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "967be4db-4c96-567d-b3c8-296f39e8a7d1",
+   "lemma": "in the meantime",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the meantime"
+   ],
+   "kind": "prepositional",
+   "glossEn": "during the time before something happens",
+   "topics": []
+  },
+  {
+   "id": "344c43f3-3838-56ce-89d3-ac811716afba",
+   "lemma": "at short notice",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at short notice",
+    "on short notice"
+   ],
+   "kind": "prepositional",
+   "glossEn": "with very little advance warning",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "4cae444c-27c7-5f98-a636-b5d60a5b103d",
+   "lemma": "at a glance",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at a glance"
+   ],
+   "kind": "prepositional",
+   "glossEn": "immediately, with one quick look",
+   "topics": []
+  },
+  {
+   "id": "014b6fee-a78b-5773-96f1-0f71de4acc34",
+   "lemma": "at risk",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at risk"
+   ],
+   "kind": "prepositional",
+   "glossEn": "in danger of harm or loss",
+   "topics": []
+  },
+  {
+   "id": "3a164f63-a683-5ef0-82de-90b25729ecf6",
+   "lemma": "in return",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in return",
+    "in return for"
+   ],
+   "kind": "prepositional",
+   "glossEn": "as payment or reward for something",
+   "topics": []
+  },
+  {
+   "id": "ac02dda6-4101-5231-8bd8-42c4e713fea4",
+   "lemma": "in favor of",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in favor of",
+    "in favour of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "supporting or agreeing with something",
+   "topics": []
+  },
+  {
+   "id": "db0e7e68-a723-5e4e-8d2e-31b2baa321f4",
+   "lemma": "against the law",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "against the law"
+   ],
+   "kind": "prepositional",
+   "glossEn": "illegal",
+   "topics": []
+  },
+  {
+   "id": "51c0f0f2-67f7-5427-9c0b-e6834b507ac7",
+   "lemma": "in practice",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in practice"
+   ],
+   "kind": "prepositional",
+   "glossEn": "in real situations, not in theory",
+   "topics": []
+  },
+  {
+   "id": "098dda74-16a6-5c65-97f7-0acbf0cf10c5",
+   "lemma": "in theory",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in theory"
+   ],
+   "kind": "prepositional",
+   "glossEn": "according to ideas, not yet in reality",
+   "topics": []
+  },
+  {
+   "id": "2e6997c3-d294-50bf-bf69-27fa47c5bb2b",
+   "lemma": "at present",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at present"
+   ],
+   "kind": "prepositional",
+   "glossEn": "now, at this time",
+   "topics": []
+  },
+  {
+   "id": "02bbf04e-4f98-54b1-9eb2-9a5b76e8553a",
+   "lemma": "at all",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at all"
+   ],
+   "kind": "prepositional",
+   "glossEn": "in any way, used to add emphasis",
+   "topics": []
+  },
+  {
+   "id": "f72f7f93-71d2-5f27-8e68-440add8acf0f",
+   "lemma": "by far",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "by far"
+   ],
+   "kind": "prepositional",
+   "glossEn": "by a large amount, clearly",
+   "topics": []
+  },
+  {
+   "id": "da5d7415-3627-5807-a644-ca49c948738b",
+   "lemma": "in common",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in common"
+   ],
+   "kind": "prepositional",
+   "glossEn": "shared by two or more people",
+   "topics": []
+  },
+  {
+   "id": "841e9d42-ea8b-5c68-a006-81de2f1531b7",
+   "lemma": "in response to",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in response to"
+   ],
+   "kind": "prepositional",
+   "glossEn": "as a reaction or answer to",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "5f922d21-d6cc-5649-8f4b-fcdb695923b4",
+   "lemma": "in search of",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in search of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "trying to find something",
+   "topics": []
+  },
+  {
+   "id": "5b41b0e9-257e-5f81-8adc-37bf8483a5ba",
+   "lemma": "out of breath",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "out of breath"
+   ],
+   "kind": "prepositional",
+   "glossEn": "breathing fast after effort",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "632d423e-9b62-52cd-9081-18df16dcd73b",
+   "lemma": "out of reach",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "out of reach"
+   ],
+   "kind": "prepositional",
+   "glossEn": "too far away to touch or get",
+   "topics": []
+  },
+  {
+   "id": "8532ffae-9f2d-5ffe-bc06-b4651a03e2fe",
+   "lemma": "within reach",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "within reach"
+   ],
+   "kind": "prepositional",
+   "glossEn": "close enough to touch or achieve",
+   "topics": []
+  },
+  {
+   "id": "04e46374-c86d-544f-895d-a284af569daf",
+   "lemma": "on hold",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on hold"
+   ],
+   "kind": "prepositional",
+   "glossEn": "waiting on the phone; postponed",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "52d4cc36-2611-5834-b150-fc9cbc946b82",
+   "lemma": "on fire",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on fire"
+   ],
+   "kind": "prepositional",
+   "glossEn": "burning",
+   "topics": []
+  },
+  {
+   "id": "ec45f17a-4f70-5bc5-8caa-41590d7332d5",
+   "lemma": "at a time",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at a time"
+   ],
+   "kind": "prepositional",
+   "glossEn": "during one single occasion; each",
+   "topics": []
+  },
+  {
+   "id": "67aa978e-3bd1-5a73-bc51-1301dfca126b",
+   "lemma": "for good",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "for good"
+   ],
+   "kind": "prepositional",
+   "glossEn": "permanently, forever",
+   "topics": []
+  },
+  {
+   "id": "ad8499d3-df23-5a07-914c-3b1369a61829",
+   "lemma": "for now",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "for now"
+   ],
+   "kind": "prepositional",
+   "glossEn": "at the present time, temporarily",
+   "topics": []
+  },
+  {
+   "id": "9dc6c2ae-97eb-55ff-a9f0-e92d1b3e6bdc",
+   "lemma": "for instance",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "for instance"
+   ],
+   "kind": "prepositional",
+   "glossEn": "for example",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "b3f6fd1b-a2a4-5578-8c52-8971ba7b731e",
+   "lemma": "for the sake of",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "for the sake of",
+    "for one's sake"
+   ],
+   "kind": "prepositional",
+   "glossEn": "in order to help or benefit",
+   "topics": []
+  },
+  {
+   "id": "72abd255-f8fb-5695-af09-6441f1d984a2",
+   "lemma": "under control",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "under control"
+   ],
+   "kind": "prepositional",
+   "glossEn": "being managed successfully",
+   "topics": []
+  },
+  {
+   "id": "1e39ac61-710f-50b1-a7af-df816ca043b7",
+   "lemma": "without warning",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "without warning"
+   ],
+   "kind": "prepositional",
+   "glossEn": "suddenly, with no notice",
+   "topics": []
+  },
+  {
+   "id": "6a7ef64f-1bc5-5f87-bafb-3ef0a5e889c2",
+   "lemma": "on second thought",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on second thought",
+    "on second thoughts"
+   ],
+   "kind": "prepositional",
+   "glossEn": "having changed one's mind after reconsidering",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "a3ca1e33-189a-5240-a74e-501b5aa3219f",
+   "lemma": "out of curiosity",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "out of curiosity"
+   ],
+   "kind": "prepositional",
+   "glossEn": "because one wants to know",
+   "topics": []
+  },
+  {
+   "id": "f1171599-ebf8-587b-ad94-660a6f202ded",
+   "lemma": "all of a sudden",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "all of a sudden"
+   ],
+   "kind": "prepositional",
+   "glossEn": "suddenly and unexpectedly",
+   "topics": []
+  },
+  {
+   "id": "a1f2625c-b623-5d49-ad59-81c38002e066",
+   "lemma": "in no time",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in no time"
+   ],
+   "kind": "prepositional",
+   "glossEn": "very quickly, almost immediately",
+   "topics": []
+  },
+  {
+   "id": "d03d3777-3122-57f6-9f8d-8368bc44751c",
+   "lemma": "in the near future",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the near future"
+   ],
+   "kind": "prepositional",
+   "glossEn": "soon",
+   "topics": []
+  },
+  {
+   "id": "d868d935-9a0b-509f-b2a9-2740197281de",
+   "lemma": "in progress",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in progress"
+   ],
+   "kind": "prepositional",
+   "glossEn": "happening or being done now",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "22eeec8f-a3ab-58d1-a398-95ce47fa7c76",
+   "lemma": "out of the way",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "out of the way"
+   ],
+   "kind": "prepositional",
+   "glossEn": "not blocking; finished and dealt with",
+   "topics": []
+  },
+  {
+   "id": "e554fd37-e6f3-5bd6-9b42-4606a7a43814",
+   "lemma": "up to now",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "up to now",
+    "until now"
+   ],
+   "kind": "prepositional",
+   "glossEn": "until the present time",
+   "topics": []
+  },
+  {
+   "id": "e8321c12-8b61-5fe1-8617-e2a64e1dfd10",
+   "lemma": "ahead of time",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ahead of time"
+   ],
+   "kind": "prepositional",
+   "glossEn": "earlier than planned or needed",
+   "topics": []
+  },
+  {
+   "id": "68e31b71-3f5e-5395-9773-9329c2bf2627",
+   "lemma": "at some point",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at some point"
+   ],
+   "kind": "prepositional",
+   "glossEn": "at an unspecified time",
+   "topics": []
+  }
+ ]
+}

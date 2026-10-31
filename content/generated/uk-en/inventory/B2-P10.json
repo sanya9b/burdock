@@ -1,0 +1,625 @@
+{
+ "chunk": "B2-P10",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "be490f0c-6c51-5e69-8886-783c3df83b8d",
+   "lemma": "keep one's eye on the ball",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep one's eye on the ball",
+    "keep your eye on the ball"
+   ],
+   "kind": "idiom",
+   "glossEn": "stay focused on what matters",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "42f79e3c-df13-5e35-8272-db2963947e85",
+   "lemma": "keep one's options open",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep one's options open",
+    "keep your options open"
+   ],
+   "kind": "idiom",
+   "glossEn": "avoid committing to one choice",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "ce515a44-6bf4-53b0-9e5f-843f87243b87",
+   "lemma": "keep sb at arm's length",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep sb at arm's length",
+    "at arm's length"
+   ],
+   "kind": "idiom",
+   "glossEn": "avoid becoming close to someone",
+   "topics": []
+  },
+  {
+   "id": "7ca13623-ba36-5646-8902-f1c0926b39e9",
+   "lemma": "keep up appearances",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep up appearances"
+   ],
+   "kind": "idiom",
+   "glossEn": "hide problems and seem fine to others",
+   "topics": []
+  },
+  {
+   "id": "f14c897d-b20d-5ebf-85bb-8866af8177dd",
+   "lemma": "kick the can down the road",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "kick the can down the road"
+   ],
+   "kind": "idiom",
+   "glossEn": "postpone a difficult decision",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "40ef7155-660f-5744-88f8-1f1e7a76bfb6",
+   "lemma": "a knee-jerk reaction",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a knee-jerk reaction",
+    "knee-jerk reaction",
+    "knee-jerk"
+   ],
+   "kind": "idiom",
+   "glossEn": "automatic reaction without thinking",
+   "topics": []
+  },
+  {
+   "id": "a0efb796-c75a-5c13-8e98-065560912c8e",
+   "lemma": "know the drill",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "know the drill",
+    "you know the drill"
+   ],
+   "kind": "idiom",
+   "glossEn": "know the usual procedure",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "a729ec07-ea23-5f46-a217-0a0cd3cf0bac",
+   "lemma": "have the last word",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have the last word",
+    "the last word",
+    "the final word"
+   ],
+   "kind": "idiom",
+   "glossEn": "make the final statement in an argument",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "1bb38019-4b10-552c-8378-cd11740698c7",
+   "lemma": "lay one's cards on the table",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lay one's cards on the table",
+    "put one's cards on the table"
+   ],
+   "kind": "idiom",
+   "glossEn": "be completely open about your plans",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  },
+  {
+   "id": "3df8b17e-2f35-5477-ba46-4ef0b1a28f3e",
+   "lemma": "let sleeping dogs lie",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "let sleeping dogs lie"
+   ],
+   "kind": "idiom",
+   "glossEn": "avoid stirring up an old problem",
+   "topics": []
+  },
+  {
+   "id": "21ed4575-7c46-55ab-92d1-7a32fe72d405",
+   "lemma": "a level playing field",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a level playing field",
+    "level playing field"
+   ],
+   "kind": "idiom",
+   "glossEn": "situation where everyone has equal chances",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "bc7e81ea-9e00-54b6-b7c4-ceced5d4ad07",
+   "lemma": "not lift a finger",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "not lift a finger",
+    "lift a finger"
+   ],
+   "kind": "idiom",
+   "glossEn": "make no effort to help",
+   "topics": []
+  },
+  {
+   "id": "2b7d64a4-fdaf-51d8-95e9-d06831d029db",
+   "lemma": "like clockwork",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "like clockwork",
+    "run like clockwork"
+   ],
+   "kind": "idiom",
+   "glossEn": "regularly and without problems",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "d82e62c8-1ff6-5060-b8d0-9d57edee7ac2",
+   "lemma": "the lion's share",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "the lion's share",
+    "lion's share"
+   ],
+   "kind": "idiom",
+   "glossEn": "the largest part of something",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "0402c156-7809-5414-8719-08eb6d11c692",
+   "lemma": "a loose cannon",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a loose cannon",
+    "loose cannon"
+   ],
+   "kind": "idiom",
+   "glossEn": "unpredictable person who may cause harm",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "492ff117-2616-586d-97e6-ee2fef8cfca4",
+   "lemma": "lose face",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lose face"
+   ],
+   "kind": "idiom",
+   "glossEn": "lose other people's respect",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "d7de18b8-d271-5a71-a311-7cdf89a38357",
+   "lemma": "put two and two together",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "put two and two together"
+   ],
+   "kind": "idiom",
+   "glossEn": "guess the truth from the facts",
+   "topics": []
+  },
+  {
+   "id": "f162a2be-08a7-5f98-970e-77abb7f37ad9",
+   "lemma": "low-hanging fruit",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "low-hanging fruit",
+    "the low-hanging fruit"
+   ],
+   "kind": "idiom",
+   "glossEn": "easiest goals to achieve first",
+   "topics": [
+    "work",
+    "it"
+   ]
+  },
+  {
+   "id": "e28407e7-f05c-521a-ae11-79a910afcffa",
+   "lemma": "make a killing",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a killing"
+   ],
+   "kind": "idiom",
+   "glossEn": "earn a lot of money quickly",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "3813b589-08ae-5a3d-bc72-e982ac23af00",
+   "lemma": "make headway",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make headway"
+   ],
+   "kind": "idiom",
+   "glossEn": "make progress",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "cbbc3b8c-eec7-59c7-a3cd-35bea6f855b4",
+   "lemma": "cut sb some slack",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cut sb some slack",
+    "cut me some slack"
+   ],
+   "kind": "idiom",
+   "glossEn": "be less strict with someone",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  },
+  {
+   "id": "c45b7af7-ebcb-5950-a005-03e1f374e0ac",
+   "lemma": "miss the mark",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "miss the mark",
+    "wide of the mark"
+   ],
+   "kind": "idiom",
+   "glossEn": "fail to achieve the intended result",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "6a5ad7e7-2fc3-5016-8952-014a7b5ed4f0",
+   "lemma": "move the goalposts",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "move the goalposts",
+    "shift the goalposts"
+   ],
+   "kind": "idiom",
+   "glossEn": "unfairly change the rules or targets",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "a5252912-9a0d-5f94-8948-7d4c398a6b33",
+   "lemma": "a necessary evil",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a necessary evil",
+    "necessary evil"
+   ],
+   "kind": "idiom",
+   "glossEn": "unpleasant thing that must be accepted",
+   "topics": []
+  },
+  {
+   "id": "b85aa239-27f3-502c-b09a-fa54fd12431b",
+   "lemma": "nip sth in the bud",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nip sth in the bud",
+    "nip it in the bud"
+   ],
+   "kind": "idiom",
+   "glossEn": "stop a problem at an early stage",
+   "topics": [
+    "work",
+    "health"
+   ]
+  },
+  {
+   "id": "83981a97-44c0-5271-bf12-ca41047b4a23",
+   "lemma": "no strings attached",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "no strings attached",
+    "with no strings attached"
+   ],
+   "kind": "idiom",
+   "glossEn": "without hidden conditions",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "b4b74afd-4f85-5758-94be-8c32b2d7d52d",
+   "lemma": "not hold one's breath",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "not hold one's breath",
+    "don't hold your breath"
+   ],
+   "kind": "idiom",
+   "glossEn": "not expect something to happen soon",
+   "topics": []
+  },
+  {
+   "id": "3bd77bd8-6225-5689-ab6d-8ca78d348353",
+   "lemma": "off the beaten track",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "off the beaten track",
+    "off the beaten path"
+   ],
+   "kind": "idiom",
+   "glossEn": "far from popular tourist places",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "a7044310-5f82-56be-a353-034ecc49b14a",
+   "lemma": "off the hook",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "off the hook",
+    "let sb off the hook"
+   ],
+   "kind": "idiom",
+   "glossEn": "free from blame or an obligation",
+   "topics": []
+  },
+  {
+   "id": "d2cbb49b-ee59-591e-ba39-65e36f707df0",
+   "lemma": "on a roll",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on a roll"
+   ],
+   "kind": "idiom",
+   "glossEn": "having a series of successes",
+   "topics": []
+  },
+  {
+   "id": "01606ccb-76b1-5683-9995-c03f01a82f82",
+   "lemma": "on the right track",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the right track",
+    "on the wrong track"
+   ],
+   "kind": "idiom",
+   "glossEn": "doing something the correct way",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "11d41d7f-2aef-570a-8a28-394588021653",
+   "lemma": "on the same wavelength",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the same wavelength"
+   ],
+   "kind": "idiom",
+   "glossEn": "thinking in a similar way",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "307b27ed-fa54-55c5-bec1-384c822ec784",
+   "lemma": "on the table",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the table",
+    "off the table"
+   ],
+   "kind": "idiom",
+   "glossEn": "offered for discussion or consideration",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "a7490d59-47a8-5ddf-9001-dfb9d278ac21",
+   "lemma": "one's bread and butter",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "one's bread and butter",
+    "bread and butter"
+   ],
+   "kind": "idiom",
+   "glossEn": "main source of income",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "e6d03a4a-1e64-597b-9035-f742427cab0b",
+   "lemma": "out of the woods",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "out of the woods",
+    "not out of the woods yet"
+   ],
+   "kind": "idiom",
+   "glossEn": "no longer in danger or difficulty",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "f4fa94f0-6737-5e86-930f-59000376e1c2",
+   "lemma": "think on one's feet",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "think on one's feet",
+    "think on your feet"
+   ],
+   "kind": "idiom",
+   "glossEn": "react quickly and well under pressure",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "c9b558a1-e958-5385-b623-36dcd060d561",
+   "lemma": "paint oneself into a corner",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "paint oneself into a corner",
+    "back oneself into a corner"
+   ],
+   "kind": "idiom",
+   "glossEn": "put yourself in a situation with no escape",
+   "topics": []
+  },
+  {
+   "id": "1f9768c2-341e-5c33-b4ee-b4eec1f6befc",
+   "lemma": "pass the buck",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pass the buck",
+    "the buck stops here"
+   ],
+   "kind": "idiom",
+   "glossEn": "shift responsibility to someone else",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "88c8b6ad-dbf5-59e9-9857-41d0f64e6117",
+   "lemma": "a vicious circle",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a vicious circle",
+    "a vicious cycle",
+    "vicious circle"
+   ],
+   "kind": "idiom",
+   "glossEn": "problem that keeps causing itself",
+   "topics": [
+    "health",
+    "work"
+   ]
+  },
+  {
+   "id": "04ed746d-e434-524b-acf8-011de9b0ea44",
+   "lemma": "pick sb's brain",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pick sb's brain",
+    "pick sb's brains",
+    "pick your brain"
+   ],
+   "kind": "idiom",
+   "glossEn": "ask someone for advice or ideas",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  }
+ ]
+}

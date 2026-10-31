@@ -1,0 +1,614 @@
+{
+ "chunk": "B2-P02",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "c6b3ef56-90e9-521b-946a-27c7f0e7d018",
+   "lemma": "cool, calm and collected",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cool, calm and collected",
+    "calm and collected"
+   ],
+   "kind": "binomial",
+   "glossEn": "relaxed and in control under pressure",
+   "topics": []
+  },
+  {
+   "id": "71712ab1-cef5-543c-b6c9-f9ac35900e0f",
+   "lemma": "one and only",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "one and only",
+    "the one and only"
+   ],
+   "kind": "binomial",
+   "glossEn": "unique; the single, famous one",
+   "topics": []
+  },
+  {
+   "id": "af9ce1cc-70fa-5721-9e72-bb6ce38958a9",
+   "lemma": "nice and easy",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nice and easy",
+    "nice and slow"
+   ],
+   "kind": "binomial",
+   "glossEn": "gently and without hurry",
+   "topics": []
+  },
+  {
+   "id": "099e60eb-7647-57df-bd43-1d28da3cef07",
+   "lemma": "as cool as a cucumber",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as cool as a cucumber",
+    "cool as a cucumber"
+   ],
+   "kind": "binomial",
+   "glossEn": "very calm, not nervous at all",
+   "topics": []
+  },
+  {
+   "id": "c086653b-a7dd-5e82-bebc-8764ee596158",
+   "lemma": "as white as a sheet",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as white as a sheet",
+    "white as a sheet",
+    "as pale as a ghost"
+   ],
+   "kind": "binomial",
+   "glossEn": "very pale from fear or illness",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "60d61244-826a-554c-9cba-6676c529da70",
+   "lemma": "as good as gold",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as good as gold",
+    "good as gold"
+   ],
+   "kind": "binomial",
+   "glossEn": "very well behaved, usually of children",
+   "topics": []
+  },
+  {
+   "id": "051e6ee7-1347-59d1-9aed-239ed996aa40",
+   "lemma": "as stubborn as a mule",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as stubborn as a mule",
+    "stubborn as a mule"
+   ],
+   "kind": "binomial",
+   "glossEn": "refusing to change one's mind",
+   "topics": []
+  },
+  {
+   "id": "a2c0b7a2-d1a4-59e4-a1ed-73cf3b011019",
+   "lemma": "as sly as a fox",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as sly as a fox",
+    "sly as a fox",
+    "as cunning as a fox"
+   ],
+   "kind": "binomial",
+   "glossEn": "clever and cunning",
+   "topics": []
+  },
+  {
+   "id": "c018a3c4-2a9d-53f9-9838-1eaa0eadbe71",
+   "lemma": "as fresh as a daisy",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as fresh as a daisy",
+    "fresh as a daisy"
+   ],
+   "kind": "binomial",
+   "glossEn": "full of energy, well rested",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "f0b4948e-0932-5719-ae36-f6f7995f3f3b",
+   "lemma": "as fit as a fiddle",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as fit as a fiddle",
+    "fit as a fiddle"
+   ],
+   "kind": "binomial",
+   "glossEn": "in excellent health",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "ef7b7979-980c-5df9-82cc-598fa27457d6",
+   "lemma": "as dry as a bone",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as dry as a bone",
+    "dry as a bone",
+    "bone-dry"
+   ],
+   "kind": "binomial",
+   "glossEn": "completely dry",
+   "topics": []
+  },
+  {
+   "id": "04e92f74-0c08-5f5b-8d6d-79353fa576b8",
+   "lemma": "as old as the hills",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as old as the hills",
+    "old as the hills"
+   ],
+   "kind": "binomial",
+   "glossEn": "extremely old",
+   "topics": []
+  },
+  {
+   "id": "d80f39e8-0fda-54fa-99e1-2e36fd430c64",
+   "lemma": "as hard as nails",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as hard as nails",
+    "hard as nails",
+    "as tough as nails"
+   ],
+   "kind": "binomial",
+   "glossEn": "very tough, physically or emotionally",
+   "topics": []
+  },
+  {
+   "id": "d967364c-d614-5997-a8b9-59e00cc9d6e9",
+   "lemma": "as flat as a pancake",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as flat as a pancake",
+    "flat as a pancake"
+   ],
+   "kind": "binomial",
+   "glossEn": "completely flat",
+   "topics": []
+  },
+  {
+   "id": "f85b07ef-83ae-5098-8cda-f7ff0fa32792",
+   "lemma": "as pretty as a picture",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as pretty as a picture",
+    "pretty as a picture"
+   ],
+   "kind": "binomial",
+   "glossEn": "very pretty or charming",
+   "topics": []
+  },
+  {
+   "id": "508926a9-cc04-59a3-a435-70b8c073f3b1",
+   "lemma": "as thin as a rake",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as thin as a rake",
+    "thin as a rake",
+    "as thin as a rail"
+   ],
+   "kind": "binomial",
+   "glossEn": "very thin, of a person",
+   "topics": []
+  },
+  {
+   "id": "02652800-c112-5b77-a042-1d2e78ff2ac8",
+   "lemma": "as sick as a dog",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as sick as a dog",
+    "sick as a dog"
+   ],
+   "kind": "binomial",
+   "glossEn": "very ill, especially with nausea",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "f9a367d5-0390-5bc7-bb1b-c3b7b88e196a",
+   "lemma": "as regular as clockwork",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as regular as clockwork",
+    "regular as clockwork",
+    "like clockwork"
+   ],
+   "kind": "binomial",
+   "glossEn": "happening predictably at the same time",
+   "topics": []
+  },
+  {
+   "id": "c3ad3f79-75f5-5f68-992a-1c3db34bcf35",
+   "lemma": "as quick as a flash",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as quick as a flash",
+    "quick as a flash",
+    "in a flash"
+   ],
+   "kind": "binomial",
+   "glossEn": "extremely quickly, instantly",
+   "topics": []
+  },
+  {
+   "id": "19fac683-6751-529b-bcc4-d917a2fed349",
+   "lemma": "like two peas in a pod",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "like two peas in a pod",
+    "two peas in a pod"
+   ],
+   "kind": "binomial",
+   "glossEn": "very similar in appearance or character",
+   "topics": []
+  },
+  {
+   "id": "bbb06c5b-b82e-59a0-865b-e374cb689cde",
+   "lemma": "like a fish out of water",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "like a fish out of water",
+    "a fish out of water"
+   ],
+   "kind": "binomial",
+   "glossEn": "uncomfortable in an unfamiliar situation",
+   "topics": []
+  },
+  {
+   "id": "d4a08c84-267a-5339-8234-e1bf0872eab1",
+   "lemma": "fit like a glove",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fit like a glove",
+    "fit sb like a glove"
+   ],
+   "kind": "binomial",
+   "glossEn": "fit the body perfectly",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "350c8711-cf1b-58b5-9170-d715dc9af175",
+   "lemma": "drink like a fish",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "drink like a fish"
+   ],
+   "kind": "binomial",
+   "glossEn": "regularly drink too much alcohol",
+   "topics": []
+  },
+  {
+   "id": "ea01e89e-983d-5419-9bb0-959f7723fbe6",
+   "lemma": "spread like wildfire",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spread like wildfire"
+   ],
+   "kind": "binomial",
+   "glossEn": "spread very quickly, of news or disease",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "1615b7f1-008b-53c5-bbc0-1b96dea9c41d",
+   "lemma": "sell like hot cakes",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sell like hot cakes",
+    "sell like hotcakes",
+    "go like hot cakes"
+   ],
+   "kind": "binomial",
+   "glossEn": "sell very quickly in large numbers",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "81b5ccad-c6da-516b-9fe2-d2aa69caa66d",
+   "lemma": "watch sb like a hawk",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "watch sb like a hawk",
+    "watch like a hawk"
+   ],
+   "kind": "binomial",
+   "glossEn": "observe someone very closely",
+   "topics": []
+  },
+  {
+   "id": "3c639aa0-65f3-540b-827b-b3fcf01846a1",
+   "lemma": "like a broken record",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "like a broken record",
+    "sound like a broken record"
+   ],
+   "kind": "binomial",
+   "glossEn": "repeating the same thing annoyingly",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "6fce9b10-8522-5b63-9054-f991ae5f6bca",
+   "lemma": "highly unlikely",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "highly unlikely",
+    "highly likely"
+   ],
+   "kind": "collocation",
+   "glossEn": "very improbable",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "63e2322f-a782-5c43-a33d-ca2fd87c2468",
+   "lemma": "highly recommended",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "highly recommended",
+    "highly recommend"
+   ],
+   "kind": "collocation",
+   "glossEn": "strongly advised as good",
+   "topics": [
+    "shopping",
+    "travel"
+   ]
+  },
+  {
+   "id": "9aebcddc-f92d-5bdd-97a1-df99259e77a6",
+   "lemma": "highly skilled",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "highly skilled",
+    "highly trained"
+   ],
+   "kind": "collocation",
+   "glossEn": "having a very high level of ability",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "ac99ba3b-7bee-5ab4-a8d0-1351ec1d9a92",
+   "lemma": "highly qualified",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "highly qualified",
+    "well qualified"
+   ],
+   "kind": "collocation",
+   "glossEn": "having many formal qualifications",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "5c4b3f02-27ff-588e-9828-3a2a21fd4f31",
+   "lemma": "highly effective",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "highly effective",
+    "highly efficient"
+   ],
+   "kind": "collocation",
+   "glossEn": "producing very good results",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "c10baa04-7ce0-59a3-98ce-90186f1b3f06",
+   "lemma": "highly competitive",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "highly competitive",
+    "highly competitive market"
+   ],
+   "kind": "collocation",
+   "glossEn": "involving strong competition",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "edc0b53f-4739-5bf9-a56a-73e750868bdb",
+   "lemma": "deeply sorry",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deeply sorry",
+    "truly sorry"
+   ],
+   "kind": "collocation",
+   "glossEn": "very sincerely sorry",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "a0a7d63d-bc94-5273-bac5-dfb609c5a411",
+   "lemma": "deeply concerned",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deeply concerned",
+    "deeply concerned about sth",
+    "deeply worried"
+   ],
+   "kind": "collocation",
+   "glossEn": "very worried about something",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "1ade6a30-892b-5eb0-88b9-4bd8e0fa73a5",
+   "lemma": "deeply rooted",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deeply rooted",
+    "deeply rooted in sth",
+    "deep-rooted"
+   ],
+   "kind": "collocation",
+   "glossEn": "existing for a long time and hard to change",
+   "topics": []
+  },
+  {
+   "id": "e0c5af09-7983-5aec-ac23-fd8acd96d707",
+   "lemma": "deeply moved",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deeply moved",
+    "deeply touched"
+   ],
+   "kind": "collocation",
+   "glossEn": "strongly affected emotionally",
+   "topics": []
+  },
+  {
+   "id": "51c0422f-e679-552f-913f-5bb7d8d6829b",
+   "lemma": "fully aware",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fully aware",
+    "be fully aware of sth",
+    "well aware"
+   ],
+   "kind": "collocation",
+   "glossEn": "knowing something completely",
+   "topics": []
+  },
+  {
+   "id": "592c49f3-c974-5499-af18-b24b1455a43e",
+   "lemma": "fully booked",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fully booked",
+    "booked up"
+   ],
+   "kind": "collocation",
+   "glossEn": "having no places or rooms left",
+   "topics": [
+    "travel",
+    "food"
+   ]
+  },
+  {
+   "id": "560c249e-e32d-5d61-b5b9-cb585faeeaca",
+   "lemma": "fully equipped",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fully equipped",
+    "fully equipped kitchen",
+    "well equipped"
+   ],
+   "kind": "collocation",
+   "glossEn": "having all the necessary equipment",
+   "topics": [
+    "travel"
+   ]
+  }
+ ]
+}

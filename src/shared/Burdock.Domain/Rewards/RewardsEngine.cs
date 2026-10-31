@@ -77,6 +77,14 @@ public sealed record SessionSettlement(
     public bool LeveledUp => LevelAfter > LevelBefore;
 
     public bool IsEmpty => Events.Count == 0;
+
+    /// <summary>Mascot growth before this session (spec 07 §3.2.7); XP never decreases, so this is the state minus what was just earned.</summary>
+    public GrowthSnapshot GrowthBefore => GrowthRules.For(State.Xp - XpGained);
+
+    public GrowthSnapshot GrowthAfter => GrowthRules.For(State.Xp);
+
+    /// <summary>The burr moved to a new stage; the summary celebrates growth instead of a plain level-up.</summary>
+    public bool StageChanged => GrowthAfter.Stage != GrowthBefore.Stage;
 }
 
 /// <summary>Pure settlement of a session (spec 07 §3.2, §3.3, §3.6). Idempotent per session id; the daily cap applies to repeatable sources only.</summary>

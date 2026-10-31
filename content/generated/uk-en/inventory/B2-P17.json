@@ -1,0 +1,387 @@
+{
+ "chunk": "B2-P17",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "5000d9c1-6cb1-54bd-9ff1-076a2f014302",
+   "lemma": "in the foreseeable future",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the foreseeable future",
+    "for the foreseeable future"
+   ],
+   "kind": "prepositional",
+   "glossEn": "as far ahead as one can predict",
+   "topics": []
+  },
+  {
+   "id": "7778e803-195f-5669-94e2-cf53224d7979",
+   "lemma": "in the process of",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the process of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "currently doing something that takes time",
+   "topics": []
+  },
+  {
+   "id": "7f6d785e-ca36-523b-b17d-56745e0411d7",
+   "lemma": "in an attempt to",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in an attempt to",
+    "in an effort to"
+   ],
+   "kind": "prepositional",
+   "glossEn": "trying to achieve something",
+   "topics": []
+  },
+  {
+   "id": "cbb20026-9887-5f93-8c5c-927390953eee",
+   "lemma": "in a position to",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in a position to",
+    "in no position to"
+   ],
+   "kind": "prepositional",
+   "glossEn": "able or allowed to do something",
+   "topics": []
+  },
+  {
+   "id": "9cf0ddf2-3c63-5d36-80b0-c84ea54367f5",
+   "lemma": "in the absence of",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the absence of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "when something or someone is not there",
+   "topics": []
+  },
+  {
+   "id": "479f71ad-eec5-5bf8-b2e1-a351e77f5a80",
+   "lemma": "at fault",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at fault"
+   ],
+   "kind": "prepositional",
+   "glossEn": "responsible for a mistake or accident",
+   "topics": []
+  },
+  {
+   "id": "ac388963-93d4-52fa-9d80-62f2a11a3a5f",
+   "lemma": "on the whole",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the whole"
+   ],
+   "kind": "prepositional",
+   "glossEn": "generally, considering everything",
+   "topics": []
+  },
+  {
+   "id": "aa949355-cb7f-5061-8b51-dfca222e6cb6",
+   "lemma": "on the rise",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the rise",
+    "on the increase"
+   ],
+   "kind": "prepositional",
+   "glossEn": "increasing",
+   "topics": []
+  },
+  {
+   "id": "753f70c8-fe46-5bff-9e1b-6b8642e4c96b",
+   "lemma": "on the decline",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the decline",
+    "in decline"
+   ],
+   "kind": "prepositional",
+   "glossEn": "decreasing or becoming weaker",
+   "topics": []
+  },
+  {
+   "id": "71773139-287a-5e7c-8f58-fc50ec856aff",
+   "lemma": "on the horizon",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the horizon"
+   ],
+   "kind": "prepositional",
+   "glossEn": "likely to happen soon",
+   "topics": []
+  },
+  {
+   "id": "c2348486-cd2a-5133-8c95-6d9c32024504",
+   "lemma": "on the lookout for",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the lookout for"
+   ],
+   "kind": "prepositional",
+   "glossEn": "watching carefully to find something",
+   "topics": []
+  },
+  {
+   "id": "0f53f9ef-7189-5b00-a248-154572b1dbfc",
+   "lemma": "on call",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on call"
+   ],
+   "kind": "prepositional",
+   "glossEn": "available to work if needed",
+   "topics": [
+    "work",
+    "health"
+   ]
+  },
+  {
+   "id": "e3ba09f4-2e9d-5c6d-92ab-879c0e307c8c",
+   "lemma": "on standby",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on standby"
+   ],
+   "kind": "prepositional",
+   "glossEn": "ready to act or be used if needed",
+   "topics": [
+    "travel",
+    "it"
+   ]
+  },
+  {
+   "id": "bb5251fe-31e7-53c4-9632-ded70e59383a",
+   "lemma": "on site",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on site",
+    "on-site"
+   ],
+   "kind": "prepositional",
+   "glossEn": "at the place where the work happens",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "a92a1499-2885-5639-9851-663f92a1f946",
+   "lemma": "on probation",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on probation"
+   ],
+   "kind": "prepositional",
+   "glossEn": "in a trial period at a new job",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "1fb85470-499e-5a95-9eb6-87874d381066",
+   "lemma": "on the payroll",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the payroll"
+   ],
+   "kind": "prepositional",
+   "glossEn": "officially employed and paid by a company",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "803085a9-85b6-511c-97bc-e72a0920c5ca",
+   "lemma": "in real time",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in real time",
+    "real-time"
+   ],
+   "kind": "prepositional",
+   "glossEn": "immediately, as events happen",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "658600a3-bd9b-5ca3-85b9-d8626510697a",
+   "lemma": "in transit",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in transit"
+   ],
+   "kind": "prepositional",
+   "glossEn": "being moved from one place to another",
+   "topics": [
+    "travel",
+    "shopping"
+   ]
+  },
+  {
+   "id": "1555e45d-54f7-5660-9c24-b744096ef143",
+   "lemma": "on medication",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on medication"
+   ],
+   "kind": "prepositional",
+   "glossEn": "regularly taking prescribed medicine",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "8e30ad68-51b4-508c-a3b0-3a1aa7fbf5ff",
+   "lemma": "in intensive care",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in intensive care"
+   ],
+   "kind": "prepositional",
+   "glossEn": "in the hospital unit for critically ill patients",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "b990da70-3ade-520d-9a87-40f5c05f7a56",
+   "lemma": "under fire",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "under fire",
+    "under enemy fire"
+   ],
+   "kind": "prepositional",
+   "glossEn": "being shot at; strongly criticized",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "c63c5591-c159-5c42-b03a-4a55d683336c",
+   "lemma": "on patrol",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on patrol"
+   ],
+   "kind": "prepositional",
+   "glossEn": "moving around an area to guard it",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "1d1b17e3-17cc-5202-9d70-1f0e1ec51294",
+   "lemma": "on the front line",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the front line",
+    "on the frontline",
+    "at the front"
+   ],
+   "kind": "prepositional",
+   "glossEn": "where the fighting is closest to the enemy",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "2744a8bb-c65f-5099-9825-fa842ce04bde",
+   "lemma": "behind enemy lines",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "behind enemy lines"
+   ],
+   "kind": "prepositional",
+   "glossEn": "in territory controlled by the enemy",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "e2cde00f-dc33-5b69-a6a3-4065ff31c804",
+   "lemma": "on air",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on air",
+    "on the air"
+   ],
+   "kind": "prepositional",
+   "glossEn": "being broadcast live on radio or TV",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "39393f18-fea4-564a-97e2-f966cf9d984d",
+   "lemma": "under the impression",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "under the impression",
+    "under the impression that"
+   ],
+   "kind": "prepositional",
+   "glossEn": "believing something, often wrongly",
+   "topics": []
+  }
+ ]
+}

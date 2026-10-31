@@ -1,0 +1,369 @@
+{
+ "chunk": "A2-P17",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "e239a96c-1a30-5b56-afe0-c51a535ddd09",
+   "lemma": "on the phone",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the phone"
+   ],
+   "kind": "prepositional",
+   "glossEn": "talking to someone by telephone",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "2006fa35-549c-5ddc-8c7f-9056dbb27514",
+   "lemma": "on the internet",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the internet",
+    "on the Internet"
+   ],
+   "kind": "prepositional",
+   "glossEn": "available or happening online",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "9e317c45-b1d3-5ccd-82cc-26531482fbdb",
+   "lemma": "at the same time",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at the same time"
+   ],
+   "kind": "prepositional",
+   "glossEn": "simultaneously; however",
+   "topics": []
+  },
+  {
+   "id": "f1a34fc6-2d6f-5526-81f9-293c51231a9b",
+   "lemma": "in the past",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the past"
+   ],
+   "kind": "prepositional",
+   "glossEn": "at an earlier time",
+   "topics": []
+  },
+  {
+   "id": "910678c0-5004-5681-90ae-ae38e46119da",
+   "lemma": "in the future",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the future"
+   ],
+   "kind": "prepositional",
+   "glossEn": "at a later time",
+   "topics": []
+  },
+  {
+   "id": "f6e2706e-ea65-55c1-917d-6b486770296f",
+   "lemma": "on business",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on business"
+   ],
+   "kind": "prepositional",
+   "glossEn": "traveling or visiting for work purposes",
+   "topics": [
+    "work",
+    "travel"
+   ]
+  },
+  {
+   "id": "d763f7de-91de-5e96-a303-741d537b8587",
+   "lemma": "at the age of",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at the age of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "when someone is a particular age",
+   "topics": []
+  },
+  {
+   "id": "5cf407b4-b3fc-5436-80c1-db9d430aa3a1",
+   "lemma": "in bed",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in bed"
+   ],
+   "kind": "prepositional",
+   "glossEn": "lying in bed, resting or sleeping",
+   "topics": []
+  },
+  {
+   "id": "dfce5086-5a78-59c5-ab2b-e0f0e6bab49f",
+   "lemma": "in a minute",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in a minute"
+   ],
+   "kind": "prepositional",
+   "glossEn": "very soon",
+   "topics": []
+  },
+  {
+   "id": "7128521c-befe-5fd8-a13d-8a2ef74d5a4a",
+   "lemma": "from time to time",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "from time to time"
+   ],
+   "kind": "prepositional",
+   "glossEn": "occasionally, sometimes",
+   "topics": []
+  },
+  {
+   "id": "c68d6f13-7d01-5661-b585-0504138b0497",
+   "lemma": "on the corner",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the corner",
+    "at the corner"
+   ],
+   "kind": "prepositional",
+   "glossEn": "at the point where two streets meet",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "83bc9324-8f5e-52ef-8c57-7b3e100128a3",
+   "lemma": "in half",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in half"
+   ],
+   "kind": "prepositional",
+   "glossEn": "into two equal parts",
+   "topics": []
+  },
+  {
+   "id": "01c329eb-6aca-515a-9edf-2493a5239a9e",
+   "lemma": "on one's own",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on one's own",
+    "on my own"
+   ],
+   "kind": "prepositional",
+   "glossEn": "alone; without help from others",
+   "topics": []
+  },
+  {
+   "id": "f8f4dc12-b7d7-5a79-955e-c05a4a15ea54",
+   "lemma": "by oneself",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "by oneself",
+    "by myself"
+   ],
+   "kind": "prepositional",
+   "glossEn": "alone, without company or help",
+   "topics": []
+  },
+  {
+   "id": "21c36cfb-e7fa-535f-a82f-67f7032bb566",
+   "lemma": "out of work",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "out of work"
+   ],
+   "kind": "prepositional",
+   "glossEn": "unemployed, without a job",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "29b00a47-54bc-5541-b60c-fcdd7d80ca9f",
+   "lemma": "in order to",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in order to"
+   ],
+   "kind": "prepositional",
+   "glossEn": "with the purpose of doing something",
+   "topics": []
+  },
+  {
+   "id": "425e21a8-fc57-5bc4-b163-7fc8cfac69d0",
+   "lemma": "in the countryside",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the countryside",
+    "in the country"
+   ],
+   "kind": "prepositional",
+   "glossEn": "in rural areas away from cities",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "5001918c-2323-5053-b8ca-ad3430ac41a3",
+   "lemma": "in trouble",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in trouble"
+   ],
+   "kind": "prepositional",
+   "glossEn": "in a difficult situation; likely to be punished",
+   "topics": []
+  },
+  {
+   "id": "8cb4997e-cca8-5d61-bdd0-994c0f80625f",
+   "lemma": "for free",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "for free"
+   ],
+   "kind": "prepositional",
+   "glossEn": "without having to pay",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "96a28066-f60a-5083-97de-ff9ad3927c3e",
+   "lemma": "out of town",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "out of town"
+   ],
+   "kind": "prepositional",
+   "glossEn": "away from one's home town",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "bf402984-611d-5a49-886f-45dd30e14ce7",
+   "lemma": "in the sun",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the sun"
+   ],
+   "kind": "prepositional",
+   "glossEn": "in direct sunlight",
+   "topics": []
+  },
+  {
+   "id": "11e5a9fb-5f8c-58e9-939d-0f4708a0b252",
+   "lemma": "in a row",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in a row"
+   ],
+   "kind": "prepositional",
+   "glossEn": "one after another without a break",
+   "topics": []
+  },
+  {
+   "id": "2384f849-6f0d-5f36-a2f0-3303476da23c",
+   "lemma": "at the latest",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at the latest"
+   ],
+   "kind": "prepositional",
+   "glossEn": "no later than the stated time",
+   "topics": []
+  },
+  {
+   "id": "3b8488b8-6cbb-5ece-b155-5601e6e66826",
+   "lemma": "in the center of",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the center of",
+    "in the centre of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "in the middle part of a place",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "4aea7b50-4298-5dfe-9d28-9a7e30854b39",
+   "lemma": "in the open air",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the open air"
+   ],
+   "kind": "prepositional",
+   "glossEn": "outdoors, not inside a building",
+   "topics": []
+  },
+  {
+   "id": "d3868953-d287-514e-87fc-7c8a158d145d",
+   "lemma": "at the back of",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at the back of"
+   ],
+   "kind": "prepositional",
+   "glossEn": "in the rear part of something",
+   "topics": []
+  }
+ ]
+}

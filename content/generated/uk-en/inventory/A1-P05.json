@@ -1,0 +1,70 @@
+{
+ "chunk": "A1-P05",
+ "level": "A1",
+ "lexemes": [
+  {
+   "id": "cf8950b4-b935-53d4-8904-f112d4fed59a",
+   "lemma": "I'm not sure",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I'm not sure",
+    "I am not sure",
+    "not sure"
+   ],
+   "kind": "formula",
+   "glossEn": "expressing uncertainty",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "ba9d5e86-6afb-522c-be96-d9c41a897af3",
+   "lemma": "you're right",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "you're right",
+    "you are right"
+   ],
+   "kind": "formula",
+   "glossEn": "agreeing that someone is correct",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "4bb3f3bc-056f-5530-ada8-58e61771fab1",
+   "lemma": "I don't think so",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I don't think so",
+    "I do not think so"
+   ],
+   "kind": "formula",
+   "glossEn": "polite disagreement or doubt",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "0fab897e-9e3d-5224-878f-0429bbdbc4bd",
+   "lemma": "oh no",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "oh no"
+   ],
+   "kind": "formula",
+   "glossEn": "expressing dismay",
+   "topics": [
+    "communication"
+   ]
+  }
+ ]
+}

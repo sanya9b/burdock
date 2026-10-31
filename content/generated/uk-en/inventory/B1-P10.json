@@ -1,0 +1,700 @@
+{
+ "chunk": "B1-P10",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "db9f1b28-4e5c-57fa-af94-fd5813cd84b7",
+   "lemma": "let's touch base",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "let's touch base",
+    "touch base",
+    "let's touch base later"
+   ],
+   "kind": "formula",
+   "glossEn": "suggesting a short catch-up conversation",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "2f9b7ca6-a2e2-51e2-8977-a3f150a06ae8",
+   "lemma": "could you bear with me",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "could you bear with me",
+    "bear with me",
+    "please bear with me"
+   ],
+   "kind": "formula",
+   "glossEn": "politely asking for patience for a moment",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  },
+  {
+   "id": "d015425a-ba23-59fc-a746-365d5b5e4080",
+   "lemma": "let me know if anything comes up",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "let me know if anything comes up",
+    "if anything comes up, let me know",
+    "let me know if something comes up"
+   ],
+   "kind": "formula",
+   "glossEn": "asking to be told about new problems",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "83f7cc56-5287-5035-bc14-a8d406a6ee2c",
+   "lemma": "let's get started",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "let's get started",
+    "shall we begin",
+    "let's begin",
+    "let's kick off"
+   ],
+   "kind": "formula",
+   "glossEn": "opening a meeting, lesson or task",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "b15e2f8c-e7df-5b85-a9e4-e83a885ef70a",
+   "lemma": "let's move on",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "let's move on",
+    "moving on",
+    "let's move on to"
+   ],
+   "kind": "formula",
+   "glossEn": "switching to the next topic or item",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  },
+  {
+   "id": "f749ea0e-81cf-515b-bf1c-b3417a5cc787",
+   "lemma": "let's call it a day",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "let's call it a day",
+    "call it a day",
+    "let's wrap up"
+   ],
+   "kind": "formula",
+   "glossEn": "suggesting to stop work for today",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "6dbb88aa-bb25-55f5-a6ad-d603a921549c",
+   "lemma": "please find attached",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "please find attached",
+    "attached please find",
+    "I've attached",
+    "please see attached"
+   ],
+   "kind": "formula",
+   "glossEn": "email formula introducing an attachment",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "4d560442-c616-5f5c-a0a8-c08e9e51fd8c",
+   "lemma": "I hope this email finds you well",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I hope this email finds you well",
+    "hope this finds you well",
+    "I hope you are well"
+   ],
+   "kind": "formula",
+   "glossEn": "polite opening line of a business email",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "0cbcace4-f923-5a5d-972b-7e05c330221c",
+   "lemma": "looking forward to hearing from you",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "looking forward to hearing from you",
+    "I look forward to hearing from you",
+    "look forward to hearing from you"
+   ],
+   "kind": "formula",
+   "glossEn": "polite closing line expecting a reply",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "3674d67f-502b-59b0-b975-c0e4c0c6c54a",
+   "lemma": "thank you for your patience",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "thank you for your patience",
+    "thanks for your patience",
+    "thank you for waiting"
+   ],
+   "kind": "formula",
+   "glossEn": "thanking someone for waiting",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  },
+  {
+   "id": "4d24c81e-0f2f-57ed-8567-2ee36f750158",
+   "lemma": "sorry for the late reply",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sorry for the late reply",
+    "sorry for the delay",
+    "apologies for the late reply",
+    "sorry for the slow reply"
+   ],
+   "kind": "formula",
+   "glossEn": "apologizing for answering late",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  },
+  {
+   "id": "075a004e-e7eb-5ccd-9aea-239f3b9b1013",
+   "lemma": "just to confirm",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "just to confirm",
+    "just to clarify",
+    "just to double-check"
+   ],
+   "kind": "formula",
+   "glossEn": "checking that something is agreed or correct",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  },
+  {
+   "id": "6c3d638e-e076-5966-b9fd-ee60309953bd",
+   "lemma": "correct me if I'm wrong",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "correct me if I'm wrong",
+    "correct me if I am wrong",
+    "correct me if I'm wrong, but"
+   ],
+   "kind": "formula",
+   "glossEn": "politely stating something you believe is true",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "1439fdbb-b6b8-5983-9c32-99852814d3a1",
+   "lemma": "I'll look into it",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I'll look into it",
+    "I will look into it",
+    "let me look into it"
+   ],
+   "kind": "formula",
+   "glossEn": "promising to investigate a problem",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "bf1e3ba4-a0fa-5903-9e8f-f63417474adc",
+   "lemma": "I'll keep you posted",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I'll keep you posted",
+    "I will keep you posted",
+    "keep you posted",
+    "I'll keep you updated"
+   ],
+   "kind": "formula",
+   "glossEn": "promising to share updates",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  },
+  {
+   "id": "b8480f49-bec6-5285-ac75-466cb3df49bd",
+   "lemma": "I'm on it",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I'm on it",
+    "on it",
+    "I am on it"
+   ],
+   "kind": "formula",
+   "glossEn": "saying you are already handling the task",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "08b242cd-61c3-5032-8dee-1184cc802ffc",
+   "lemma": "sounds like a plan",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sounds like a plan",
+    "that sounds like a plan"
+   ],
+   "kind": "formula",
+   "glossEn": "agreeing to a proposed arrangement",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "506c1bde-bda4-56ef-b00f-680d62cbf5a0",
+   "lemma": "would you mind",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "would you mind",
+    "would you mind if",
+    "do you mind if"
+   ],
+   "kind": "formula",
+   "glossEn": "very polite request or asking permission",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "69ee5be4-6cd0-5abb-b584-a7fe970f559c",
+   "lemma": "I was wondering if",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I was wondering if",
+    "I was wondering whether",
+    "I was wondering if you could"
+   ],
+   "kind": "formula",
+   "glossEn": "very polite indirect request",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "6ef14ae5-9918-5009-a4c5-d461b2a9839a",
+   "lemma": "sorry to interrupt",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sorry to interrupt",
+    "sorry to interrupt, but",
+    "sorry for interrupting"
+   ],
+   "kind": "formula",
+   "glossEn": "polite phrase before cutting in",
+   "topics": [
+    "communication",
+    "work"
+   ]
+  },
+  {
+   "id": "036a9dcb-0d6e-5f36-b23b-8b5e356af2a3",
+   "lemma": "could you do me a favor",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "could you do me a favor",
+    "can you do me a favor",
+    "could you do me a favour",
+    "do me a favor"
+   ],
+   "kind": "formula",
+   "glossEn": "asking for a small act of help",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "7caedf51-88e8-5727-af03-6c0e170f6012",
+   "lemma": "no rush",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "no rush",
+    "there's no rush",
+    "no hurry"
+   ],
+   "kind": "formula",
+   "glossEn": "saying there is no hurry",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "3960aea0-f219-526a-aa04-2a1d29c8fee6",
+   "lemma": "whenever you're ready",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "whenever you're ready",
+    "whenever you are ready",
+    "when you're ready"
+   ],
+   "kind": "formula",
+   "glossEn": "letting someone choose when to start",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "ec117fe3-93c9-5e86-ab3b-00345da4e5c1",
+   "lemma": "first things first",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "first things first"
+   ],
+   "kind": "formula",
+   "glossEn": "dealing with the most important thing first",
+   "topics": [
+    "communication",
+    "work"
+   ]
+  },
+  {
+   "id": "416143aa-ae2d-5fe1-a4a9-abc99f048b63",
+   "lemma": "one more thing",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "one more thing",
+    "just one more thing",
+    "one last thing"
+   ],
+   "kind": "formula",
+   "glossEn": "adding a final point or request",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "aea13b50-b210-5ad8-97e4-459e62aec2b2",
+   "lemma": "by all means",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "by all means"
+   ],
+   "kind": "formula",
+   "glossEn": "giving permission or agreement emphatically",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "843a1a15-7cf0-55cb-921c-579ff1ae577b",
+   "lemma": "feel free to",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "feel free to",
+    "feel free",
+    "don't hesitate to"
+   ],
+   "kind": "formula",
+   "glossEn": "inviting someone to do something without hesitation",
+   "topics": [
+    "communication",
+    "work"
+   ]
+  },
+  {
+   "id": "b33a9231-6a64-5cdb-ae29-9fd38e46cbf8",
+   "lemma": "to be fair",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "to be fair",
+    "in fairness",
+    "to be fair to"
+   ],
+   "kind": "formula",
+   "glossEn": "adding a point in someone's defense",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "1220009c-3036-5fc7-a745-7e12eed02c7d",
+   "lemma": "make yourself at home",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make yourself at home",
+    "make yourselves at home"
+   ],
+   "kind": "formula",
+   "glossEn": "telling a guest to relax and feel comfortable",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "e75a10a3-5ecc-5691-9273-62238aa8f04f",
+   "lemma": "so far so good",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "so far so good",
+    "so far, so good"
+   ],
+   "kind": "formula",
+   "glossEn": "things are going well up to now",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "ce3e06a7-91fb-5bcc-88b5-090017a2b6bd",
+   "lemma": "it's on me",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "it's on me",
+    "this one's on me",
+    "my treat"
+   ],
+   "kind": "formula",
+   "glossEn": "saying you will pay for everyone",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "c883105e-0300-5551-8250-ecec55663543",
+   "lemma": "I'd like to make a reservation",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I'd like to make a reservation",
+    "I would like to make a reservation",
+    "I'd like to book a table",
+    "I'd like to book a room"
+   ],
+   "kind": "formula",
+   "glossEn": "booking a table, room or seat in advance",
+   "topics": [
+    "travel",
+    "food"
+   ]
+  },
+  {
+   "id": "cc92d2af-93d6-5fef-adb5-bbc064923dc8",
+   "lemma": "I'm afraid I can't make it",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I'm afraid I can't make it",
+    "I can't make it",
+    "I won't be able to make it"
+   ],
+   "kind": "formula",
+   "glossEn": "politely saying you cannot attend",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "6b5e59b6-1b57-5371-8496-9a7b4e24e5a1",
+   "lemma": "no offense, but",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "no offense, but",
+    "no offense",
+    "no offence, but",
+    "none taken"
+   ],
+   "kind": "formula",
+   "glossEn": "softening a possibly hurtful remark",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "c7307997-7273-5320-842e-0799e38f894f",
+   "lemma": "let's see how it goes",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "let's see how it goes",
+    "we'll see how it goes",
+    "let's see how things go"
+   ],
+   "kind": "formula",
+   "glossEn": "deciding to wait and judge by results",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "c2d95c60-4701-5522-822b-d5dbc6ed2a15",
+   "lemma": "I'd like to check in",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I'd like to check in",
+    "I would like to check in",
+    "I'd like to check out",
+    "checking in, please"
+   ],
+   "kind": "formula",
+   "glossEn": "arriving at a hotel or airport desk",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "33261a7f-518a-51b2-bdee-9dc3fb95177e",
+   "lemma": "do you have this in a different size",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "do you have this in a different size",
+    "do you have this in a smaller size",
+    "do you have this in another color",
+    "do you have it in a larger size"
+   ],
+   "kind": "formula",
+   "glossEn": "asking a shop for another size or color",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "8df07a8e-39a7-5595-aef6-1836ee4505c2",
+   "lemma": "can I get a refund",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "can I get a refund",
+    "could I get a refund",
+    "I'd like a refund",
+    "I'd like to return this"
+   ],
+   "kind": "formula",
+   "glossEn": "asking for your money back",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "538d1fb8-45c2-5c43-93f5-880b028a364a",
+   "lemma": "what are you up to",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "what are you up to",
+    "what have you been up to",
+    "what are you up to this weekend"
+   ],
+   "kind": "formula",
+   "glossEn": "casually asking what someone is doing or planning",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "8a7fe8a9-9c5e-520d-a83b-1b0404274881",
+   "lemma": "I'll think about it",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I'll think about it",
+    "I will think about it",
+    "let me think about it",
+    "I'll sleep on it"
+   ],
+   "kind": "formula",
+   "glossEn": "politely postponing a decision on an offer",
+   "topics": [
+    "communication"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,572 @@
+{
+ "chunk": "A2-P11",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "6e4401d1-78d5-57f2-9c33-5a25c907606b",
+   "lemma": "pull sb's leg",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pull sb's leg",
+    "pull your leg"
+   ],
+   "kind": "idiom",
+   "glossEn": "joke by telling someone something untrue",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "1634a95e-1fbc-500e-b497-fa41d61fac0f",
+   "lemma": "get up",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "get out of bed in the morning",
+   "topics": []
+  },
+  {
+   "id": "e95dbb13-36bf-50df-8a73-dc2656f18ff1",
+   "lemma": "wake up",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wake up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "stop sleeping; make someone stop sleeping",
+   "topics": []
+  },
+  {
+   "id": "e8064ce1-5b6d-59ef-8e8f-a358f2202dc6",
+   "lemma": "sit down",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sit down"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "move from standing to a sitting position",
+   "topics": []
+  },
+  {
+   "id": "ea03f56f-d718-5c90-be3f-6c36f3cb9f5b",
+   "lemma": "stand up",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stand up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "rise to your feet",
+   "topics": []
+  },
+  {
+   "id": "cf26ae4d-8773-5052-be27-abda047f86c9",
+   "lemma": "go out",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "leave home to have fun or meet people",
+   "topics": []
+  },
+  {
+   "id": "80a2cbd8-c619-5e57-8200-abb6c6637e0a",
+   "lemma": "come back",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "come back"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "return to a place",
+   "topics": []
+  },
+  {
+   "id": "acfe11f5-17f9-571a-819f-18fcb214686f",
+   "lemma": "go back",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go back"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "return to a place you were before",
+   "topics": []
+  },
+  {
+   "id": "bc6b2bd1-22f1-5b4b-a156-2de14eb6edb0",
+   "lemma": "get back",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get back"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "return home or to a place; receive again",
+   "topics": []
+  },
+  {
+   "id": "bb67ff26-2f95-59c3-b757-ee4ba6a3f3bb",
+   "lemma": "go on",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "continue; happen",
+   "topics": []
+  },
+  {
+   "id": "3a4c3fe9-4052-5cc3-bcad-e46f8949b9d5",
+   "lemma": "turn on sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "turn on sth",
+    "turn on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "start a device, light or machine",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "3595652b-9d51-5701-8deb-85c0e6f69ab1",
+   "lemma": "turn off sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "turn off sth",
+    "turn off"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "stop a device, light or machine",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "46f39db7-289e-50d8-adaf-1ec934185db8",
+   "lemma": "switch on sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "switch on sth",
+    "switch on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "start a device by using a switch",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "0638daeb-c8d1-5afe-b0ad-974aee8b844e",
+   "lemma": "switch off sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "switch off sth",
+    "switch off"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "stop a device by using a switch",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "bc03e006-fb4d-52bc-9c45-19e46c21842f",
+   "lemma": "put on sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "put on sth",
+    "put on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "dress yourself in a piece of clothing",
+   "topics": []
+  },
+  {
+   "id": "7d2645d9-a44d-5094-95aa-445f29059b87",
+   "lemma": "take off",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take off"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "remove clothing; leave the ground, of a plane",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "68eaef6b-fb17-5ea8-90fa-adf79e54c9aa",
+   "lemma": "look for sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "look for sth",
+    "look for"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "try to find something or someone",
+   "topics": []
+  },
+  {
+   "id": "da9ea7e9-90e9-5006-b324-7501553dad76",
+   "lemma": "look at sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "look at sth",
+    "look at"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "direct your eyes toward something; examine",
+   "topics": []
+  },
+  {
+   "id": "cbb6f2a5-9248-5f15-85d5-b4a57cc2ba85",
+   "lemma": "look after sb",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "look after sb",
+    "look after"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "take care of someone or something",
+   "topics": []
+  },
+  {
+   "id": "5cdb7f1c-ccda-5bce-b0e2-22a572464ed4",
+   "lemma": "pick up sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pick up sth",
+    "pick up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "lift something; collect someone by car; learn casually",
+   "topics": []
+  },
+  {
+   "id": "752f2de0-d3be-5e2c-a793-b5610c013ad6",
+   "lemma": "put down sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "put down sth",
+    "put down"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "place something on a surface",
+   "topics": []
+  },
+  {
+   "id": "20f10d6d-bd83-599a-8c20-b052309ff577",
+   "lemma": "put away sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "put away sth",
+    "put away"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "put something back in its usual place",
+   "topics": []
+  },
+  {
+   "id": "8ccbcf8e-df7f-5e6c-861a-00e5fc060882",
+   "lemma": "throw away sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "throw away sth",
+    "throw away"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "get rid of something you no longer need",
+   "topics": []
+  },
+  {
+   "id": "c3617527-e772-5303-bd94-42a32ba4028a",
+   "lemma": "give back sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "give back sth",
+    "give back"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "return something to its owner",
+   "topics": []
+  },
+  {
+   "id": "4d36805b-b676-5797-bcb4-db085dd3a744",
+   "lemma": "give up",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "give up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "stop trying to do something; quit a habit",
+   "topics": []
+  },
+  {
+   "id": "eef508bf-99fe-5211-8749-41e2ae78bc72",
+   "lemma": "find out",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "find out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "discover a fact or piece of information",
+   "topics": []
+  },
+  {
+   "id": "b110982e-4458-5a8f-9ae3-28bd496e2f43",
+   "lemma": "fill in sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fill in sth",
+    "fill in",
+    "fill out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "complete a form by writing information",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "98ed0165-e8b6-5654-ac54-c1a275ab783a",
+   "lemma": "write down sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "write down sth",
+    "write down"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "record something on paper",
+   "topics": []
+  },
+  {
+   "id": "f1a20048-5e9c-5d1a-9a36-70c62b276692",
+   "lemma": "hurry up",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hurry up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "do something more quickly",
+   "topics": []
+  },
+  {
+   "id": "11e0a29d-ce3e-52fd-aa82-a33eb0036e4d",
+   "lemma": "grow up",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "grow up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "become an adult",
+   "topics": []
+  },
+  {
+   "id": "73adbca4-b41d-52e1-a85f-de087a46b49a",
+   "lemma": "get on",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "board a bus, train or plane",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "e4ad5ca0-2ce6-5ab5-bbf3-07e5f1524a0d",
+   "lemma": "get off",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get off"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "leave a bus, train or plane",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "70b30b3c-636c-5dd7-92e1-f889fc47d8c5",
+   "lemma": "get in",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get in"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "enter a car; arrive home or at work",
+   "topics": []
+  },
+  {
+   "id": "1f74bbfa-3d57-5d59-90bf-efacb9cb7dee",
+   "lemma": "get out of sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get out of sth",
+    "get out of"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "leave a car or place; avoid a duty",
+   "topics": []
+  },
+  {
+   "id": "b2584178-d07e-527a-b534-1987718f259e",
+   "lemma": "check in",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "check in"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "register on arrival at a hotel or airport",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "05a560d5-26bf-537d-8377-dd3bfc10b666",
+   "lemma": "check out",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "check out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "pay and leave a hotel; take a look at",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "6354d953-cfde-57de-95d3-7dea35fb20ef",
+   "lemma": "wait for sb",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wait for sb",
+    "wait for"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "stay somewhere until someone or something arrives",
+   "topics": []
+  },
+  {
+   "id": "bdad646d-b88e-5d80-b15e-9dd687fee41f",
+   "lemma": "call back sb",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "call back sb",
+    "call back"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "phone someone again in return",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "d2572d51-c2f7-5309-81df-82b3e91adfad",
+   "lemma": "hang up",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hang up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "end a phone call",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "261ebcb3-525c-5483-bb18-afc84a3cf042",
+   "lemma": "turn up",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "turn up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "arrive or appear; increase the volume",
+   "topics": []
+  }
+ ]
+}

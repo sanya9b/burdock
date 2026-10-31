@@ -1,0 +1,584 @@
+{
+ "chunk": "B1-P15",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "b41aac36-1fbd-5dc4-98ab-44004e6bb68b",
+   "lemma": "end up",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "end up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "finally be in a place or situation",
+   "topics": []
+  },
+  {
+   "id": "6705ad65-542f-5b70-a50d-a9994e7a083f",
+   "lemma": "count on sb",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "count on sb",
+    "count on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "rely on someone to do something",
+   "topics": []
+  },
+  {
+   "id": "1919525e-08a2-533d-a676-2228cb24ddda",
+   "lemma": "rely on sb",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rely on sb",
+    "rely on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "trust someone or something to help you",
+   "topics": []
+  },
+  {
+   "id": "d44f7ae3-8f67-5ec5-afa9-157ccdd85557",
+   "lemma": "fit in",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fit in"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "feel accepted in a group; find time for",
+   "topics": []
+  },
+  {
+   "id": "ac71011f-b796-54cd-a3e8-4c6bcfeddb50",
+   "lemma": "mess up sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mess up sth",
+    "mess up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "spoil something or do it badly",
+   "topics": []
+  },
+  {
+   "id": "8c7e5b43-3a27-5170-a0a4-b6991fe58ea3",
+   "lemma": "sort out sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sort out sth",
+    "sort out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "solve a problem; organize things",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "a429a2dd-4675-5b65-9fe1-41090ed519d2",
+   "lemma": "add up",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "add up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "make sense; calculate a total",
+   "topics": []
+  },
+  {
+   "id": "daf3a0f0-73cb-5029-a33d-2171a109dc90",
+   "lemma": "pass out",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pass out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "become unconscious",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "0d9d7195-7a60-5d86-97f8-93dfd14e1c30",
+   "lemma": "get behind",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get behind"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "fail to do work or pay on time",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "0415f968-0e28-55ab-b8c6-efb6338e78a2",
+   "lemma": "fall behind",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fall behind"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "fail to keep the same pace as others",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "c90d9aec-b9d8-5484-abde-e782840bc3da",
+   "lemma": "catch up",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "catch up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "reach the same level; exchange recent news",
+   "topics": []
+  },
+  {
+   "id": "b3c17d2a-bbc4-5c34-8e04-3b3b272ffd92",
+   "lemma": "keep up",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "move or progress at the same speed; continue",
+   "topics": []
+  },
+  {
+   "id": "01c77bc5-050b-542e-a520-848d928612a7",
+   "lemma": "keep up with sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep up with sth",
+    "keep up with"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "stay informed about or level with something",
+   "topics": []
+  },
+  {
+   "id": "a7433fcd-9874-542f-87a9-cc8d1cdba0d3",
+   "lemma": "blow up",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blow up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "explode; fill with air; suddenly become angry",
+   "topics": []
+  },
+  {
+   "id": "70ac21ac-bce0-5236-bcc1-95b04e5a1f59",
+   "lemma": "cut down on sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cut down on sth",
+    "cut down on",
+    "cut down"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "reduce the amount you consume or use",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "46ead666-f9ea-55f9-bd78-ec74dc179f28",
+   "lemma": "cut back",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cut back",
+    "cut back on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "reduce spending or activity",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "20737e6e-ce03-58d0-8dec-c48d80f326c2",
+   "lemma": "pile up",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pile up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "accumulate in a large amount",
+   "topics": []
+  },
+  {
+   "id": "31235ee7-bf66-5f1c-a95d-627f95571fb6",
+   "lemma": "check up on sb",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "check up on sb",
+    "check up on",
+    "check on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "make sure someone is well or behaving",
+   "topics": []
+  },
+  {
+   "id": "67dfa0bb-8f09-5ef3-8140-1c2fa9bab19e",
+   "lemma": "pass on sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pass on sth",
+    "pass on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "give information to someone else; decline an offer",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "a2d2a4b5-45a5-59a2-ac4f-55207dd11035",
+   "lemma": "hand over sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hand over sth",
+    "hand over"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "give something or control to someone else",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "f7d3a572-a1d4-5af5-b8f4-3f13f45fd35c",
+   "lemma": "get on with sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get on with sth",
+    "get on with"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "continue doing a task without delay",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "537d7f73-edb4-5541-af7e-3ada34c15f03",
+   "lemma": "go along with sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go along with sth",
+    "go along with"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "accept a plan or opinion",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "7cefb40b-27fa-5abf-83a7-8021c67f3f2e",
+   "lemma": "go over sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go over sth",
+    "go over"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "review or check something carefully",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "7d58ec40-1efd-5a0c-9efe-9180acd51fbd",
+   "lemma": "turn out",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "turn out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "prove to be in the end; attend an event",
+   "topics": []
+  },
+  {
+   "id": "9cf2d37d-8c1c-55c3-b171-29d418269400",
+   "lemma": "pull out",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pull out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "withdraw from an agreement; drive onto a road",
+   "topics": []
+  },
+  {
+   "id": "bef3fc8c-0503-5f24-8cf9-a628a60d7e1a",
+   "lemma": "live on sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "live on sth",
+    "live on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "survive on a certain amount of money or food",
+   "topics": []
+  },
+  {
+   "id": "9db2a6be-98b3-5930-84c3-2f1046bc665a",
+   "lemma": "live with sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "live with sth",
+    "live with"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "accept an unpleasant situation",
+   "topics": []
+  },
+  {
+   "id": "ab963c14-8bc8-52af-a91d-003e76ccdf50",
+   "lemma": "take over",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take over"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "gain control of a company or job",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "bc4eef8f-8863-5935-b3d7-15e43160f3c5",
+   "lemma": "do up sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "do up sth",
+    "do up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "fasten clothing; repair and decorate a building",
+   "topics": []
+  },
+  {
+   "id": "0343419a-fcc1-53cc-9b76-824c2ed9c783",
+   "lemma": "do without sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "do without sth",
+    "do without"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "manage without something",
+   "topics": []
+  },
+  {
+   "id": "f0d53d5d-7524-56f8-a039-46ac3f2e0cde",
+   "lemma": "figure out sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "figure out sth",
+    "figure out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "understand or solve something after thinking",
+   "topics": []
+  },
+  {
+   "id": "aa56766a-e229-5cc1-b281-3e1a779703ae",
+   "lemma": "work on sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "work on sth",
+    "work on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "spend time improving or producing something",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "72531009-de24-595d-b112-70fdb1db20a3",
+   "lemma": "look into sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "look into sth",
+    "look into"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "investigate a problem",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "7cf87aa9-000b-5b4b-96b7-e4d16e3943ef",
+   "lemma": "look through sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "look through sth",
+    "look through"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "examine papers or a book quickly",
+   "topics": []
+  },
+  {
+   "id": "2f8149cb-3b71-5f78-a327-3d76de8b9785",
+   "lemma": "look over sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "look over sth",
+    "look over"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "inspect something quickly to check it",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "97d2e600-04b0-5457-a82e-d806383fd55b",
+   "lemma": "look back",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "look back"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "think about the past",
+   "topics": []
+  },
+  {
+   "id": "8ad65b3d-25fd-5622-aed1-87fac896edcf",
+   "lemma": "look down on sb",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "look down on sb",
+    "look down on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "consider someone less important than you",
+   "topics": []
+  },
+  {
+   "id": "8fd6f50b-66c8-5ede-9b85-2abf98679c91",
+   "lemma": "look up to sb",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "look up to sb",
+    "look up to"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "admire and respect someone",
+   "topics": []
+  },
+  {
+   "id": "6dd4e8cc-d2c5-593a-91e9-906fd3f0996a",
+   "lemma": "look out for sb",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "look out for sb",
+    "look out for"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "take care of someone; watch for something",
+   "topics": []
+  },
+  {
+   "id": "d54a439d-1d1b-5aa0-8d59-7c56080c20dd",
+   "lemma": "make out sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make out sth",
+    "make out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "manage to see, hear or understand with difficulty",
+   "topics": []
+  }
+ ]
+}

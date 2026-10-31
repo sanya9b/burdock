@@ -16,9 +16,9 @@ content/
 ├── pipeline/
 │   ├── Burdock.ContentPipeline/        # консольний застосунок .NET 10 (System.CommandLine)
 │   ├── audio/                          # render_audio.py (Kokoro-82M), requirements.txt, models/ (.gitignore)
-│   ├── inventory/                      # build_inventory.py (CEFR-J → чанки), merge_proposals.py (C1/C2)
+│   ├── inventory/                      # build_inventory.py (CEFR-J → чанки), merge_proposals.py (C1/C2), merge_phrases.py (сталі фрази)
 │   ├── packs/                          # build_packs.py (lint + pack build + index.json)
-│   ├── prompts/                        # generate-v1.md, review-v1.md, propose-c1c2-v1.md (варіанти для агентів Claude Code)
+│   ├── prompts/                        # generate-v1.md, review-v1.md, propose-c1c2-v1.md, propose-phrases-v1.md (варіанти для агентів Claude Code)
 │   ├── prompts/                        # translate-v3.md, examples-v2.md, classify-v2.md, review-v2.md
 │   ├── filters/                        # offensive-en.txt, offensive-uk.txt, russisms-uk.csv
 │   └── appsettings.json                # константи (розд. 3.16 специфікації), без секретів
@@ -64,6 +64,8 @@ burdock-content review import --file content/review/queues/2026-10-14-a1-food.md
 python content/pipeline/inventory/build_inventory.py                 # CEFR-J v1.6 → content/generated/uk-en/inventory/<LEVEL>-<NNN>.json (40 лем на чанк, id = UUID v5)
 #   воркфлоу burdock-propose-c1c2 → inventory/proposals/*.json; потім:
 python content/pipeline/inventory/merge_proposals.py                 # → inventory/c1c2-proposals.json
+#   сталі фрази (31.10.2026): агенти за промтом propose-phrases-v1 → inventory/phrases/<kind>-NN.json; потім:
+python content/pipeline/inventory/merge_phrases.py --write           # → inventory/<LEVEL>-PNN.json (чанки по 40 для generate-v1), phrases-proposals.json, lemmas.txt; без --write лише статистика
 python content/pipeline/inventory/build_inventory.py --extra content/generated/uk-en/inventory/c1c2-proposals.json
 #   воркфлоу burdock-content-generate (промти content/pipeline/prompts/generate-v1.md, review-v1.md) → chunks/*.json, reviews/*.review.json
 python content/pipeline/packs/build_packs.py                         # lint + pack build → content/generated/uk-en/packs/*.json, index.json, report.json

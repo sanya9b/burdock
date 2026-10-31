@@ -1,0 +1,634 @@
+{
+ "chunk": "C1-P01",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "663c7951-ac35-5a56-b67f-00a92f70c654",
+   "lemma": "to and fro",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "to and fro",
+    "to-and-fro"
+   ],
+   "kind": "binomial",
+   "glossEn": "backwards and forwards repeatedly",
+   "topics": []
+  },
+  {
+   "id": "fd5c9072-43f7-5c18-8c56-e7c06d6786c2",
+   "lemma": "nooks and crannies",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nooks and crannies",
+    "every nook and cranny"
+   ],
+   "kind": "binomial",
+   "glossEn": "every small hidden corner of a place",
+   "topics": []
+  },
+  {
+   "id": "1f4435d9-3189-5ccc-a347-24570e71865f",
+   "lemma": "nuts and bolts",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nuts and bolts",
+    "the nuts and bolts of sth"
+   ],
+   "kind": "binomial",
+   "glossEn": "basic practical details of something",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "d810781e-bccb-55da-b8ce-2e781c4328f5",
+   "lemma": "null and void",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "null and void"
+   ],
+   "kind": "binomial",
+   "glossEn": "legally invalid, having no effect",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "b35e824f-6c11-5a41-9551-aedde2e95f73",
+   "lemma": "touch and go",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "touch and go",
+    "touch-and-go"
+   ],
+   "kind": "binomial",
+   "glossEn": "uncertain and risky, could go either way",
+   "topics": []
+  },
+  {
+   "id": "b1b092a8-f077-525d-8e3d-62642656eec8",
+   "lemma": "cut and dried",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cut and dried",
+    "cut-and-dried",
+    "cut and dry"
+   ],
+   "kind": "binomial",
+   "glossEn": "already decided and unlikely to change",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "dfc17151-95f3-5ec6-8b00-253b82e90ff4",
+   "lemma": "few and far between",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "few and far between"
+   ],
+   "kind": "binomial",
+   "glossEn": "rare, not happening often",
+   "topics": []
+  },
+  {
+   "id": "ea458f03-78ee-5e98-a140-f675b57ccd41",
+   "lemma": "trials and tribulations",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "trials and tribulations"
+   ],
+   "kind": "binomial",
+   "glossEn": "difficulties and troubles over time",
+   "topics": []
+  },
+  {
+   "id": "9d46a0b2-bd02-59c8-85ee-dbef3289f844",
+   "lemma": "lock, stock and barrel",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lock, stock and barrel",
+    "lock, stock, and barrel"
+   ],
+   "kind": "binomial",
+   "glossEn": "completely, including everything",
+   "topics": []
+  },
+  {
+   "id": "8c7a2b14-0e48-5c8f-8be2-38c6fc786fa5",
+   "lemma": "hook, line and sinker",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hook, line and sinker",
+    "hook, line, and sinker"
+   ],
+   "kind": "binomial",
+   "glossEn": "believing something completely, being fooled",
+   "topics": []
+  },
+  {
+   "id": "2ea7593a-bddb-590c-a0a8-c35bc5c44f98",
+   "lemma": "every Tom, Dick and Harry",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "every Tom, Dick and Harry",
+    "any Tom, Dick or Harry"
+   ],
+   "kind": "binomial",
+   "glossEn": "any ordinary person, anyone at all",
+   "topics": []
+  },
+  {
+   "id": "4594335e-52f4-59e1-b71b-80849d380212",
+   "lemma": "spick and span",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spick and span",
+    "spic and span",
+    "spick-and-span"
+   ],
+   "kind": "binomial",
+   "glossEn": "perfectly clean and tidy",
+   "topics": []
+  },
+  {
+   "id": "de57818b-a1e1-55f0-a31f-d79e273e3c2c",
+   "lemma": "as right as rain",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as right as rain",
+    "right as rain"
+   ],
+   "kind": "binomial",
+   "glossEn": "perfectly well again after illness",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "159d5f6b-544c-56d9-a952-c3be54b34ca4",
+   "lemma": "as clear as mud",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as clear as mud",
+    "clear as mud"
+   ],
+   "kind": "binomial",
+   "glossEn": "not clear at all, ironically",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "869561d7-c1ea-52c2-b31c-84fd50598cd9",
+   "lemma": "as dead as a doornail",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as dead as a doornail",
+    "dead as a doornail",
+    "as dead as a dodo"
+   ],
+   "kind": "binomial",
+   "glossEn": "completely dead or no longer working",
+   "topics": []
+  },
+  {
+   "id": "1035011a-31fb-5cd4-bcbc-c5ba16037f5a",
+   "lemma": "like a bull in a china shop",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "like a bull in a china shop",
+    "a bull in a china shop"
+   ],
+   "kind": "binomial",
+   "glossEn": "clumsy and careless in a delicate situation",
+   "topics": []
+  },
+  {
+   "id": "6ef4077b-555e-596c-9d31-8e1d753f9030",
+   "lemma": "like water off a duck's back",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "like water off a duck's back",
+    "water off a duck's back"
+   ],
+   "kind": "binomial",
+   "glossEn": "criticism having no effect on someone",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "a2ecf824-46c2-5e2d-8ee4-7a34024a1dce",
+   "lemma": "stick out like a sore thumb",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stick out like a sore thumb",
+    "stand out like a sore thumb"
+   ],
+   "kind": "binomial",
+   "glossEn": "be very noticeably different from surroundings",
+   "topics": []
+  },
+  {
+   "id": "e0afb028-0170-5e79-94bc-964f7b4ba332",
+   "lemma": "sheer luck",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sheer luck",
+    "by sheer luck",
+    "sheer coincidence"
+   ],
+   "kind": "collocation",
+   "glossEn": "pure chance and nothing else",
+   "topics": []
+  },
+  {
+   "id": "4e92e8ea-0f26-5363-9a19-5de3aec98d57",
+   "lemma": "sheer volume",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sheer volume",
+    "the sheer volume of sth",
+    "sheer number"
+   ],
+   "kind": "collocation",
+   "glossEn": "the very large amount of something",
+   "topics": [
+    "work",
+    "it"
+   ]
+  },
+  {
+   "id": "ea4ceb88-2eb9-5a8b-bee0-c252556ddf4f",
+   "lemma": "utter nonsense",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "utter nonsense",
+    "complete nonsense",
+    "absolute nonsense"
+   ],
+   "kind": "collocation",
+   "glossEn": "complete rubbish",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "47b4c858-b6d6-57e3-8485-0e8eed7c9d6b",
+   "lemma": "utter disbelief",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "utter disbelief",
+    "in utter disbelief",
+    "total disbelief"
+   ],
+   "kind": "collocation",
+   "glossEn": "complete refusal to believe something",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "68d88147-64e0-5c0c-96df-21408f2dacc2",
+   "lemma": "blatant lie",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blatant lie",
+    "blatant lies",
+    "outright lie"
+   ],
+   "kind": "collocation",
+   "glossEn": "an obvious and shameless lie",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "d3fbab32-fba9-5d3f-bc66-e4128d7003f9",
+   "lemma": "flagrant violation",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flagrant violation",
+    "blatant violation",
+    "flagrant breach"
+   ],
+   "kind": "collocation",
+   "glossEn": "an obvious and shocking breaking of a rule",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "cf68d8ed-f124-510d-9260-235f5180fc55",
+   "lemma": "vivid imagination",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vivid imagination",
+    "have a vivid imagination"
+   ],
+   "kind": "collocation",
+   "glossEn": "the ability to picture things very clearly",
+   "topics": []
+  },
+  {
+   "id": "39e47c31-b5b0-5a80-b5cd-96057ded62d3",
+   "lemma": "vivid memory",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vivid memory",
+    "vivid memories",
+    "vivid recollection"
+   ],
+   "kind": "collocation",
+   "glossEn": "a memory that is very clear and detailed",
+   "topics": []
+  },
+  {
+   "id": "9d46afa3-9eee-5d5b-9d88-43a32eb27177",
+   "lemma": "glaring error",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "glaring error",
+    "glaring mistake",
+    "glaring omission"
+   ],
+   "kind": "collocation",
+   "glossEn": "an obvious mistake that is hard to miss",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "de6696dd-11f6-5c30-9d23-f7ec352c0145",
+   "lemma": "abject poverty",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "abject poverty",
+    "live in abject poverty",
+    "extreme poverty"
+   ],
+   "kind": "collocation",
+   "glossEn": "extreme poverty",
+   "topics": []
+  },
+  {
+   "id": "d87f7f2e-311f-54a3-b961-99604ad0ecbe",
+   "lemma": "excruciating pain",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "excruciating pain",
+    "be in excruciating pain",
+    "agonizing pain"
+   ],
+   "kind": "collocation",
+   "glossEn": "extremely severe pain",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "c3e08a73-e15d-581c-8063-e25d9a46998e",
+   "lemma": "chronic illness",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chronic illness",
+    "chronic disease",
+    "chronic condition"
+   ],
+   "kind": "collocation",
+   "glossEn": "a long-lasting disease",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "1c5badb1-98f6-531b-83d9-8d184a468369",
+   "lemma": "acute shortage",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "acute shortage",
+    "acute shortage of sth",
+    "severe shortage"
+   ],
+   "kind": "collocation",
+   "glossEn": "a very serious lack of something",
+   "topics": [
+    "work",
+    "military"
+   ]
+  },
+  {
+   "id": "963abe1a-058c-5602-a9d3-02d7a0c69334",
+   "lemma": "dire consequences",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dire consequences",
+    "have dire consequences",
+    "dire warning"
+   ],
+   "kind": "collocation",
+   "glossEn": "extremely serious bad results",
+   "topics": []
+  },
+  {
+   "id": "aef78036-9996-58f8-93e1-9b96acde6bbb",
+   "lemma": "grave concern",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "grave concern",
+    "a matter of grave concern",
+    "express grave concern"
+   ],
+   "kind": "collocation",
+   "glossEn": "very serious worry",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "bba5890a-29ae-527c-846c-1262750c1acd",
+   "lemma": "grave danger",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "grave danger",
+    "be in grave danger",
+    "grave threat"
+   ],
+   "kind": "collocation",
+   "glossEn": "very serious danger",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "27e1268c-47b0-5aa0-a4d8-2ee8f5424503",
+   "lemma": "meticulous attention to detail",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "meticulous attention to detail",
+    "meticulous attention",
+    "meticulous planning"
+   ],
+   "kind": "collocation",
+   "glossEn": "extreme care about every small point",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "40916e70-0092-5b12-b27a-898a99b39930",
+   "lemma": "painstaking work",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "painstaking work",
+    "painstaking research",
+    "painstaking effort"
+   ],
+   "kind": "collocation",
+   "glossEn": "work done with great care and effort",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "354f77bf-4489-52da-84fe-5e677c57312c",
+   "lemma": "fervent supporter",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fervent supporter",
+    "fervent believer",
+    "fervent advocate"
+   ],
+   "kind": "collocation",
+   "glossEn": "a person who supports something passionately",
+   "topics": []
+  },
+  {
+   "id": "99a902ea-570c-5f2c-b450-cdabac2f814f",
+   "lemma": "staunch supporter",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "staunch supporter",
+    "staunch ally",
+    "staunch defender"
+   ],
+   "kind": "collocation",
+   "glossEn": "a very loyal supporter",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "2d299dcb-8146-5cf7-9867-7d4027141e74",
+   "lemma": "unwavering support",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unwavering support",
+    "unwavering commitment",
+    "unwavering loyalty"
+   ],
+   "kind": "collocation",
+   "glossEn": "support that never weakens",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "649c992d-b7f8-5a97-88d4-034815244cfd",
+   "lemma": "tacit agreement",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tacit agreement",
+    "tacit approval",
+    "tacit understanding"
+   ],
+   "kind": "collocation",
+   "glossEn": "an agreement understood without being stated",
+   "topics": [
+    "communication",
+    "work"
+   ]
+  }
+ ]
+}

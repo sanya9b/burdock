@@ -1,0 +1,654 @@
+{
+ "chunk": "B2-P03",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "21ad7956-5b09-5dd9-96bf-d1c881267de6",
+   "lemma": "fully understand",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fully understand",
+    "completely understand"
+   ],
+   "kind": "collocation",
+   "glossEn": "understand something completely",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "97c42c15-f88e-5dc7-a885-791829d2a94a",
+   "lemma": "completely different",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "completely different",
+    "totally different",
+    "entirely different"
+   ],
+   "kind": "collocation",
+   "glossEn": "not alike in any way",
+   "topics": []
+  },
+  {
+   "id": "efbb8422-e2af-5150-a714-b66d5f6d4d94",
+   "lemma": "utterly ridiculous",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "utterly ridiculous",
+    "absolutely ridiculous"
+   ],
+   "kind": "collocation",
+   "glossEn": "completely absurd",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "092e5ed3-d1c4-5b18-aafe-aae54a9967e9",
+   "lemma": "bitterly cold",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bitterly cold",
+    "freezing cold"
+   ],
+   "kind": "collocation",
+   "glossEn": "extremely and unpleasantly cold",
+   "topics": []
+  },
+  {
+   "id": "68ceb4d5-4b39-5633-9905-f29bb50be32a",
+   "lemma": "bitterly disappointed",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bitterly disappointed",
+    "deeply disappointed"
+   ],
+   "kind": "collocation",
+   "glossEn": "extremely disappointed",
+   "topics": []
+  },
+  {
+   "id": "8a9b44aa-0948-52d5-9bf7-9c0cf5cebfb0",
+   "lemma": "perfectly normal",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "perfectly normal",
+    "perfectly natural"
+   ],
+   "kind": "collocation",
+   "glossEn": "completely usual and acceptable",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "ad970257-85b8-55d3-856d-efbea9a2a618",
+   "lemma": "perfectly clear",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "perfectly clear",
+    "make sth perfectly clear",
+    "crystal clear"
+   ],
+   "kind": "collocation",
+   "glossEn": "completely easy to understand",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "c0570bcf-db71-5225-b220-2a8ac7a74179",
+   "lemma": "painfully slow",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "painfully slow",
+    "painfully shy"
+   ],
+   "kind": "collocation",
+   "glossEn": "so slow that it is annoying",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "33e547e3-8a95-574d-a8fb-88112328e5cf",
+   "lemma": "seriously injured",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "seriously injured",
+    "badly injured",
+    "critically injured"
+   ],
+   "kind": "collocation",
+   "glossEn": "badly hurt",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "c6ead42a-5330-51a5-87b4-a328e75c18b4",
+   "lemma": "seriously ill",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "seriously ill",
+    "critically ill",
+    "terminally ill"
+   ],
+   "kind": "collocation",
+   "glossEn": "very sick",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "d3183c54-338e-5773-8ddb-e111a8119e05",
+   "lemma": "badly damaged",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "badly damaged",
+    "severely damaged",
+    "heavily damaged"
+   ],
+   "kind": "collocation",
+   "glossEn": "severely harmed or broken",
+   "topics": []
+  },
+  {
+   "id": "a3df6b03-6955-54a6-a872-b59995a95ca7",
+   "lemma": "badly hurt",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "badly hurt",
+    "badly wounded"
+   ],
+   "kind": "collocation",
+   "glossEn": "seriously injured",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "8390d45f-5ad7-52a6-9674-ea87310c0cc2",
+   "lemma": "badly needed",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "badly needed",
+    "much needed",
+    "much-needed"
+   ],
+   "kind": "collocation",
+   "glossEn": "very much required",
+   "topics": []
+  },
+  {
+   "id": "b1b706e6-b203-51e5-aa97-fb22640eff53",
+   "lemma": "strongly recommend",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "strongly recommend",
+    "strongly advise",
+    "strongly suggest"
+   ],
+   "kind": "collocation",
+   "glossEn": "advise something very firmly",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "d2df838e-c2dc-52f4-965d-ee7fdbdb505c",
+   "lemma": "strongly disagree",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "strongly disagree",
+    "strongly agree",
+    "strongly oppose"
+   ],
+   "kind": "collocation",
+   "glossEn": "have a very different opinion",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "15ae8bf4-150f-589e-a6de-8f7c0c73787f",
+   "lemma": "strongly believe",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "strongly believe",
+    "strongly believe that"
+   ],
+   "kind": "collocation",
+   "glossEn": "be very sure something is true",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "aebf046e-e5e4-5f74-90cb-f9666d061be3",
+   "lemma": "firmly believe",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "firmly believe",
+    "firmly convinced"
+   ],
+   "kind": "collocation",
+   "glossEn": "hold a belief with certainty",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "b343d7ad-257d-505d-aaf3-cfb73140c666",
+   "lemma": "widely available",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "widely available"
+   ],
+   "kind": "collocation",
+   "glossEn": "easy to find or buy in many places",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "a9536fe8-1134-59b1-964f-516bb2122950",
+   "lemma": "widely known",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "widely known",
+    "well known",
+    "widely known as"
+   ],
+   "kind": "collocation",
+   "glossEn": "known by many people",
+   "topics": []
+  },
+  {
+   "id": "1cc2bc05-a9bb-55f9-8f54-1f9b54fe94be",
+   "lemma": "widely used",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "widely used",
+    "commonly used"
+   ],
+   "kind": "collocation",
+   "glossEn": "used by many people or in many places",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "a5963e84-00e7-5dc4-b4f5-3d902ea01d38",
+   "lemma": "widely accepted",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "widely accepted",
+    "generally accepted",
+    "widely recognized"
+   ],
+   "kind": "collocation",
+   "glossEn": "agreed with by most people",
+   "topics": []
+  },
+  {
+   "id": "85e84272-4473-5814-b91f-016f83588352",
+   "lemma": "closely related",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "closely related",
+    "closely related to sth",
+    "closely connected"
+   ],
+   "kind": "collocation",
+   "glossEn": "having a strong connection",
+   "topics": []
+  },
+  {
+   "id": "3a1f516f-283b-5d41-89e3-8ec3e20ca0ea",
+   "lemma": "closely linked",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "closely linked",
+    "closely linked to sth",
+    "closely associated"
+   ],
+   "kind": "collocation",
+   "glossEn": "strongly connected to each other",
+   "topics": []
+  },
+  {
+   "id": "a90679e6-1dae-55f8-b08e-eb885d41504f",
+   "lemma": "closely monitor",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "closely monitor",
+    "monitor sth closely",
+    "closely watch"
+   ],
+   "kind": "collocation",
+   "glossEn": "watch something carefully over time",
+   "topics": [
+    "work",
+    "health"
+   ]
+  },
+  {
+   "id": "2c2d33c3-4974-5db0-a7ac-ea65e5765c56",
+   "lemma": "openly admit",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "openly admit",
+    "freely admit",
+    "readily admit"
+   ],
+   "kind": "collocation",
+   "glossEn": "admit something without hiding it",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "c4d7745c-a06b-5d33-aa12-96f1bfcd3461",
+   "lemma": "freely available",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "freely available",
+    "freely available online"
+   ],
+   "kind": "collocation",
+   "glossEn": "easy to get, often without paying",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "856319d4-c6a1-5a51-adac-a785ad80ca8f",
+   "lemma": "readily available",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "readily available",
+    "readily accessible"
+   ],
+   "kind": "collocation",
+   "glossEn": "easy to obtain quickly",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "a1f5c2e4-fd92-5fab-8de8-3c0331c6fb08",
+   "lemma": "heavily armed",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heavily armed",
+    "heavily armed soldiers"
+   ],
+   "kind": "collocation",
+   "glossEn": "carrying many powerful weapons",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "964beec1-d3cc-51a5-a885-764287c28493",
+   "lemma": "densely populated",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "densely populated",
+    "heavily populated",
+    "sparsely populated"
+   ],
+   "kind": "collocation",
+   "glossEn": "having many people living close together",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "cb2f9e58-db35-5869-867f-e593bc5f79e8",
+   "lemma": "heavily dependent on sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heavily dependent on sth",
+    "heavily dependent",
+    "heavily reliant on sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "needing something very much",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "c52d6f6c-0fb8-53a5-9782-d3717052f6ba",
+   "lemma": "heavily influenced",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heavily influenced",
+    "heavily influenced by sth",
+    "strongly influenced"
+   ],
+   "kind": "collocation",
+   "glossEn": "strongly affected by something",
+   "topics": []
+  },
+  {
+   "id": "984f9155-f984-54c7-8f9a-1b2f6f195087",
+   "lemma": "vaguely remember",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vaguely remember",
+    "vaguely recall",
+    "vaguely familiar"
+   ],
+   "kind": "collocation",
+   "glossEn": "remember something only slightly",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "0c56a517-710e-58b1-a801-48903761c7dd",
+   "lemma": "totally agree",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "totally agree",
+    "completely agree",
+    "entirely agree"
+   ],
+   "kind": "collocation",
+   "glossEn": "agree completely",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "4d3c9be6-8b65-5cee-8d85-fdadc4ec28fe",
+   "lemma": "sincerely hope",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sincerely hope",
+    "sincerely apologize",
+    "sincerely believe"
+   ],
+   "kind": "collocation",
+   "glossEn": "hope something honestly and strongly",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "5327f81f-d6f0-5e7e-b5b9-10c46ff74da5",
+   "lemma": "actively involved",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "actively involved",
+    "be actively involved in sth",
+    "actively participate"
+   ],
+   "kind": "collocation",
+   "glossEn": "taking a real part in something",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "f5cea21b-584c-5367-aeec-ab2cb2a3fca4",
+   "lemma": "reasonably priced",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reasonably priced",
+    "competitively priced",
+    "fairly priced"
+   ],
+   "kind": "collocation",
+   "glossEn": "not too expensive",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "d6790327-2ae6-54a2-87de-83ff7f90de13",
+   "lemma": "ridiculously expensive",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ridiculously expensive",
+    "ridiculously cheap",
+    "outrageously expensive"
+   ],
+   "kind": "collocation",
+   "glossEn": "absurdly costly",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "398feb82-7d9b-50b1-8d5a-4100e3d12094",
+   "lemma": "make a breakthrough",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a breakthrough",
+    "achieve a breakthrough",
+    "major breakthrough"
+   ],
+   "kind": "collocation",
+   "glossEn": "achieve an important discovery or advance",
+   "topics": [
+    "work",
+    "it"
+   ]
+  },
+  {
+   "id": "5de617bc-d752-5f9e-a509-50ebaa00d28f",
+   "lemma": "make a commitment",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a commitment",
+    "make a commitment to sth",
+    "make commitments"
+   ],
+   "kind": "collocation",
+   "glossEn": "promise firmly to do something",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "5daf05af-60d2-5f01-8b84-2502fd4817bd",
+   "lemma": "reach a compromise",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reach a compromise",
+    "make a compromise",
+    "come to a compromise"
+   ],
+   "kind": "collocation",
+   "glossEn": "agree by each side giving up something",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  }
+ ]
+}

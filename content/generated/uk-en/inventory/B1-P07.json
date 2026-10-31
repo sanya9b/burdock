@@ -1,0 +1,662 @@
+{
+ "chunk": "B1-P07",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "07955374-4417-54f9-b9be-dc7bfc4dade8",
+   "lemma": "hard copy",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hard copy",
+    "paper copy"
+   ],
+   "kind": "collocation",
+   "glossEn": "a printed version of a document",
+   "topics": [
+    "work",
+    "it"
+   ]
+  },
+  {
+   "id": "3345ec06-d4b5-5395-910f-aa7a09b78c94",
+   "lemma": "hard decision",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hard decision",
+    "tough decision",
+    "difficult decision"
+   ],
+   "kind": "collocation",
+   "glossEn": "a choice that is difficult to make",
+   "topics": []
+  },
+  {
+   "id": "a6b4775b-91d8-5c5b-8bad-59aed8016737",
+   "lemma": "hard worker",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hard worker",
+    "hard-working"
+   ],
+   "kind": "collocation",
+   "glossEn": "a person who works with much effort",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "0f0b0199-2826-5a61-8874-f3cffb20ef06",
+   "lemma": "full attention",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "full attention",
+    "give sb your full attention",
+    "undivided attention"
+   ],
+   "kind": "collocation",
+   "glossEn": "complete focus on someone or something",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "723e61cf-7fa1-5908-8979-5ca4f01e7ea9",
+   "lemma": "full refund",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "full refund",
+    "get a full refund"
+   ],
+   "kind": "collocation",
+   "glossEn": "all your money returned",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "03a8cfb4-3969-57af-9f2c-492494fb813d",
+   "lemma": "full price",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "full price",
+    "pay full price"
+   ],
+   "kind": "collocation",
+   "glossEn": "the normal price without discount",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "a28ea2a3-3280-5422-b828-861d7bedb1f6",
+   "lemma": "empty promise",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "empty promise",
+    "empty promises"
+   ],
+   "kind": "collocation",
+   "glossEn": "a promise that will not be kept",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "3dfe9bb7-ded0-5a66-9b36-3f6eb5650937",
+   "lemma": "empty stomach",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "empty stomach",
+    "on an empty stomach"
+   ],
+   "kind": "collocation",
+   "glossEn": "the state of not having eaten",
+   "topics": [
+    "food",
+    "health"
+   ]
+  },
+  {
+   "id": "1dcb51af-b428-5ebb-bd5f-4245465a38cb",
+   "lemma": "tight schedule",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tight schedule",
+    "on a tight schedule"
+   ],
+   "kind": "collocation",
+   "glossEn": "a plan with little free time",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "b1eb077e-4413-5ebc-a6c0-e3048f0de629",
+   "lemma": "tight budget",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tight budget",
+    "on a tight budget",
+    "limited budget"
+   ],
+   "kind": "collocation",
+   "glossEn": "a small amount of money to spend",
+   "topics": [
+    "work",
+    "shopping"
+   ]
+  },
+  {
+   "id": "f374e8cc-39ac-512b-8bbb-e20ea483820b",
+   "lemma": "tight deadline",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tight deadline",
+    "tight deadlines"
+   ],
+   "kind": "collocation",
+   "glossEn": "very little time to finish a task",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "de506993-89ff-5410-b68e-eddc4ec6a5d2",
+   "lemma": "busy schedule",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "busy schedule",
+    "have a busy schedule"
+   ],
+   "kind": "collocation",
+   "glossEn": "a timetable full of things to do",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "03e08a8d-31ff-56a0-94fb-01ac3556e5ce",
+   "lemma": "rough estimate",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rough estimate",
+    "rough guess"
+   ],
+   "kind": "collocation",
+   "glossEn": "an approximate calculation",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "45cacc28-96ca-55bf-a690-de37c9dca415",
+   "lemma": "rough idea",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rough idea",
+    "have a rough idea",
+    "general idea"
+   ],
+   "kind": "collocation",
+   "glossEn": "a general, not exact, understanding",
+   "topics": []
+  },
+  {
+   "id": "92141d9f-4748-5240-8a2c-13a7f74e913e",
+   "lemma": "round number",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "round number",
+    "in round numbers"
+   ],
+   "kind": "collocation",
+   "glossEn": "a number ending in zero, used approximately",
+   "topics": []
+  },
+  {
+   "id": "0ea1fad7-03a7-5182-8e92-a17554c82719",
+   "lemma": "sharp pain",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sharp pain",
+    "feel a sharp pain"
+   ],
+   "kind": "collocation",
+   "glossEn": "a sudden strong pain",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "71a0ac62-49ae-501f-8b25-e4a84440c565",
+   "lemma": "sharp knife",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sharp knife",
+    "blunt knife"
+   ],
+   "kind": "collocation",
+   "glossEn": "a knife that cuts easily",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "78833116-bfd7-5acd-a03c-964bff8e23fd",
+   "lemma": "sharp turn",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sharp turn",
+    "sharp bend",
+    "sharp corner"
+   ],
+   "kind": "collocation",
+   "glossEn": "a sudden change of direction on a road",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "ab292929-8eaa-5bf3-8b61-5cd248aa0881",
+   "lemma": "sharp rise",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sharp rise",
+    "sharp increase",
+    "sharp fall"
+   ],
+   "kind": "collocation",
+   "glossEn": "a sudden large increase",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "6213fabe-3c71-5d5b-bda9-6d2dd6eefedd",
+   "lemma": "mild symptoms",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mild symptoms",
+    "mild illness"
+   ],
+   "kind": "collocation",
+   "glossEn": "signs of illness that are not severe",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "5e07697d-9e22-598f-a8e4-91bd2f746ff7",
+   "lemma": "severe pain",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "severe pain",
+    "be in severe pain"
+   ],
+   "kind": "collocation",
+   "glossEn": "very strong pain",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "1b8647cb-afe4-5015-8a99-4ded8b6d2c7f",
+   "lemma": "serious injury",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "serious injury",
+    "serious injuries",
+    "suffer a serious injury"
+   ],
+   "kind": "collocation",
+   "glossEn": "a bad physical harm to the body",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "4ab8847f-1677-5950-b692-e19f5d0ff5b8",
+   "lemma": "serious illness",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "serious illness",
+    "serious disease"
+   ],
+   "kind": "collocation",
+   "glossEn": "a dangerous disease",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "cd71b79f-c046-5e56-b7df-3b7bebc66f28",
+   "lemma": "minor injury",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "minor injury",
+    "minor injuries"
+   ],
+   "kind": "collocation",
+   "glossEn": "a small harm to the body",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "c1515f9b-3192-54a8-8e04-9d5d5291fa61",
+   "lemma": "minor change",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "minor change",
+    "minor changes",
+    "minor adjustment"
+   ],
+   "kind": "collocation",
+   "glossEn": "a small unimportant change",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "b10ef2e8-76e3-537e-b18c-da3f02f57962",
+   "lemma": "major problem",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "major problem",
+    "major problems",
+    "major issue"
+   ],
+   "kind": "collocation",
+   "glossEn": "a serious difficulty",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "b910eb09-e7df-5eff-a716-ad0df8554a53",
+   "lemma": "major change",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "major change",
+    "major changes"
+   ],
+   "kind": "collocation",
+   "glossEn": "a large important change",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "b3627818-16dc-5368-87e1-e57e5fc0385a",
+   "lemma": "main road",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "main road",
+    "main roads",
+    "major road"
+   ],
+   "kind": "collocation",
+   "glossEn": "a large important road",
+   "topics": [
+    "city",
+    "travel"
+   ]
+  },
+  {
+   "id": "7ca42ead-d7f2-553f-9958-cf99a55d7fb4",
+   "lemma": "main point",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "main point",
+    "main points",
+    "key point"
+   ],
+   "kind": "collocation",
+   "glossEn": "the most important thing being said",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "db6cd391-2d8c-5306-a156-3eb2eb8899e4",
+   "lemma": "main idea",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "main idea",
+    "central idea"
+   ],
+   "kind": "collocation",
+   "glossEn": "the central thought of a text or talk",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "15cc7de6-881a-5ec8-a3c2-8079aec0aabb",
+   "lemma": "key role",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "key role",
+    "play a key role",
+    "play a key role in sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "a very important part in something",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "237d5250-648a-56d5-af55-cb1ee09bcef7",
+   "lemma": "key factor",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "key factor",
+    "key factors",
+    "key factor in sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "a very important influence on a result",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "b8d0d5e7-2494-52b3-95b4-3728f63e0452",
+   "lemma": "cost of living",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cost of living",
+    "living costs",
+    "the cost of living"
+   ],
+   "kind": "collocation",
+   "glossEn": "how much money daily life requires",
+   "topics": [
+    "city",
+    "shopping"
+   ]
+  },
+  {
+   "id": "0f63c0f6-c846-5d70-9e61-3eacdf1c7729",
+   "lemma": "household chores",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "household chores",
+    "do the chores",
+    "household tasks"
+   ],
+   "kind": "collocation",
+   "glossEn": "regular cleaning and tidying jobs at home",
+   "topics": []
+  },
+  {
+   "id": "e52716d6-0369-5d67-85f6-156179da5162",
+   "lemma": "email address",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "email address",
+    "e-mail address"
+   ],
+   "kind": "collocation",
+   "glossEn": "the address used to receive email",
+   "topics": [
+    "it",
+    "communication"
+   ]
+  },
+  {
+   "id": "d48d7df4-420b-5820-bbad-bdd612249549",
+   "lemma": "electricity bill",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "electricity bill",
+    "utility bill",
+    "gas bill"
+   ],
+   "kind": "collocation",
+   "glossEn": "a request to pay for the electricity used",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "41c4ee2f-f68b-5d26-a408-a94104ab8f8b",
+   "lemma": "interest rate",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "interest rate",
+    "interest rates"
+   ],
+   "kind": "collocation",
+   "glossEn": "the percentage charged or paid on money",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "6b019412-003c-5f70-9971-203022c15c08",
+   "lemma": "return policy",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "return policy",
+    "refund policy",
+    "returns policy"
+   ],
+   "kind": "collocation",
+   "glossEn": "a shop's rules for giving goods back",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "1ef879e6-e71f-5bfc-918d-ae148474d351",
+   "lemma": "keep the receipt",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep the receipt",
+    "keep your receipt"
+   ],
+   "kind": "collocation",
+   "glossEn": "save the paper proof of a purchase",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "4bbc23b2-e3ed-54b1-9b73-371825bb7daf",
+   "lemma": "loyalty card",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "loyalty card",
+    "reward card",
+    "store card"
+   ],
+   "kind": "collocation",
+   "glossEn": "a shop card that gives regular customers rewards",
+   "topics": [
+    "shopping"
+   ]
+  }
+ ]
+}

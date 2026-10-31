@@ -1,0 +1,628 @@
+{
+ "chunk": "B2-P08",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "9600cac6-55bf-5a72-a04e-5983b4734219",
+   "lemma": "a bone of contention",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a bone of contention",
+    "bone of contention"
+   ],
+   "kind": "idiom",
+   "glossEn": "subject people keep arguing about",
+   "topics": []
+  },
+  {
+   "id": "6080db0b-05fe-5df7-a6b5-228a719f9ee8",
+   "lemma": "have a bone to pick with sb",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have a bone to pick with sb",
+    "a bone to pick"
+   ],
+   "kind": "idiom",
+   "glossEn": "have a complaint to discuss with someone",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "b4825dde-8315-5931-9aff-e12a2dbffe3f",
+   "lemma": "break even",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "break even",
+    "break-even"
+   ],
+   "kind": "idiom",
+   "glossEn": "neither make a profit nor lose money",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "59bf96fa-dd0d-5ecc-8bd1-60ce7e1bc054",
+   "lemma": "break new ground",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "break new ground",
+    "groundbreaking"
+   ],
+   "kind": "idiom",
+   "glossEn": "do something innovative",
+   "topics": [
+    "work",
+    "it"
+   ]
+  },
+  {
+   "id": "8c4c85cf-606e-5577-bcff-0f298b7fb83c",
+   "lemma": "bring sth to the table",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bring sth to the table",
+    "bring to the table"
+   ],
+   "kind": "idiom",
+   "glossEn": "contribute something useful",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "bfbf1c1e-828a-5b27-9bea-3b12224ecbce",
+   "lemma": "burn bridges",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "burn bridges",
+    "burn one's bridges",
+    "burn your bridges"
+   ],
+   "kind": "idiom",
+   "glossEn": "damage relationships beyond repair",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "04ec756e-4940-50f6-8f42-205a9bc586b0",
+   "lemma": "the calm before the storm",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "the calm before the storm",
+    "calm before the storm"
+   ],
+   "kind": "idiom",
+   "glossEn": "quiet period before trouble starts",
+   "topics": []
+  },
+  {
+   "id": "2e7fa6d9-1b8a-56d9-94be-ab3e4d759766",
+   "lemma": "call it quits",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "call it quits"
+   ],
+   "kind": "idiom",
+   "glossEn": "stop doing something for good",
+   "topics": []
+  },
+  {
+   "id": "adf5bb04-43ce-5fea-80af-0ad2a778eeb6",
+   "lemma": "open a can of worms",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "open a can of worms",
+    "a can of worms"
+   ],
+   "kind": "idiom",
+   "glossEn": "start dealing with a complicated problem",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "a9f11f3a-f246-5fef-a429-23cf844eb70a",
+   "lemma": "a tall order",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a tall order",
+    "tall order"
+   ],
+   "kind": "idiom",
+   "glossEn": "something very difficult to do",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "5ac296f8-4078-5b3f-9acc-3129a2fcc058",
+   "lemma": "an uphill battle",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "an uphill battle",
+    "an uphill struggle",
+    "uphill battle"
+   ],
+   "kind": "idiom",
+   "glossEn": "struggle that is very hard to win",
+   "topics": []
+  },
+  {
+   "id": "b7a14cb8-3b9d-51a5-aa62-50a4fb9a0aea",
+   "lemma": "a catch-22",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a catch-22",
+    "catch-22",
+    "a catch-22 situation"
+   ],
+   "kind": "idiom",
+   "glossEn": "situation with no way out because of contradictory rules",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "dc5736a6-00d5-5628-aef0-52f4b95aa9b3",
+   "lemma": "between a rock and a hard place",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "between a rock and a hard place",
+    "caught between a rock and a hard place"
+   ],
+   "kind": "idiom",
+   "glossEn": "facing two equally bad choices",
+   "topics": []
+  },
+  {
+   "id": "fad34216-f74a-5452-b73c-65359c9f87a5",
+   "lemma": "a change of heart",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a change of heart",
+    "have a change of heart"
+   ],
+   "kind": "idiom",
+   "glossEn": "change in attitude or decision",
+   "topics": []
+  },
+  {
+   "id": "73d417e9-2b51-5788-861e-464cf84801b1",
+   "lemma": "climb the ladder",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "climb the ladder",
+    "climb the corporate ladder",
+    "the career ladder"
+   ],
+   "kind": "idiom",
+   "glossEn": "advance in a career",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "aaf76ae7-0ddb-5dca-86e5-53f3c0c6bcbb",
+   "lemma": "come full circle",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "come full circle",
+    "full circle"
+   ],
+   "kind": "idiom",
+   "glossEn": "return to the original situation",
+   "topics": []
+  },
+  {
+   "id": "9f476826-ee35-511a-b4ff-29571b1a850f",
+   "lemma": "come out of one's shell",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "come out of one's shell",
+    "come out of your shell"
+   ],
+   "kind": "idiom",
+   "glossEn": "become more confident and sociable",
+   "topics": []
+  },
+  {
+   "id": "4a3d0860-ab99-5bd1-898f-d3ae8602bc29",
+   "lemma": "come to grips with sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "come to grips with sth",
+    "come to grips with",
+    "get to grips with"
+   ],
+   "kind": "idiom",
+   "glossEn": "start to understand or deal with something",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "1a334294-b9a7-581a-9ef7-f3f0c155f014",
+   "lemma": "a game changer",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a game changer",
+    "game changer",
+    "game-changer"
+   ],
+   "kind": "idiom",
+   "glossEn": "something that changes a situation completely",
+   "topics": [
+    "work",
+    "it"
+   ]
+  },
+  {
+   "id": "82a22b8f-07b2-5078-9e84-4dc9e4fdeac3",
+   "lemma": "cover one's tracks",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cover one's tracks",
+    "cover your tracks"
+   ],
+   "kind": "idiom",
+   "glossEn": "hide evidence of what you did",
+   "topics": []
+  },
+  {
+   "id": "7bc69663-0d0a-5aaf-bb1f-0d34e2ff9304",
+   "lemma": "a wake-up call",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a wake-up call",
+    "wake-up call"
+   ],
+   "kind": "idiom",
+   "glossEn": "event that warns you to change",
+   "topics": [
+    "health",
+    "work"
+   ]
+  },
+  {
+   "id": "7541babe-241c-5da1-b41d-43111010dabf",
+   "lemma": "cry wolf",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cry wolf"
+   ],
+   "kind": "idiom",
+   "glossEn": "raise false alarms repeatedly",
+   "topics": []
+  },
+  {
+   "id": "b8acae24-5b31-505f-917a-c0fb115aa03f",
+   "lemma": "cut one's losses",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cut one's losses",
+    "cut your losses"
+   ],
+   "kind": "idiom",
+   "glossEn": "stop before losing even more",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "42df6521-6bb2-5724-98db-b967ed65fb95",
+   "lemma": "the bottom line",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "the bottom line",
+    "bottom line"
+   ],
+   "kind": "idiom",
+   "glossEn": "most important point or final result",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "d51a29c6-caf2-5a5f-8439-46526f168313",
+   "lemma": "the devil is in the details",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "the devil is in the details",
+    "the devil is in the detail"
+   ],
+   "kind": "idiom",
+   "glossEn": "small details cause the real problems",
+   "topics": [
+    "work",
+    "it"
+   ]
+  },
+  {
+   "id": "4d084fbd-172a-592c-b72a-4126f5d44c44",
+   "lemma": "a dime a dozen",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a dime a dozen",
+    "ten a penny"
+   ],
+   "kind": "idiom",
+   "glossEn": "very common and of little value",
+   "topics": []
+  },
+  {
+   "id": "64acb20b-c85d-5250-91b5-2df7104c45a3",
+   "lemma": "do one's homework",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "do one's homework",
+    "do your homework"
+   ],
+   "kind": "idiom",
+   "glossEn": "prepare by finding out the facts",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "bb105934-17c0-5f74-9fe3-f3a95a1220d9",
+   "lemma": "dodge a bullet",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dodge a bullet",
+    "dodge the bullet"
+   ],
+   "kind": "idiom",
+   "glossEn": "narrowly avoid a bad situation",
+   "topics": []
+  },
+  {
+   "id": "8f699112-cac6-546f-b321-847fbe67be73",
+   "lemma": "dot the i's and cross the t's",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dot the i's and cross the t's",
+    "dot the i's"
+   ],
+   "kind": "idiom",
+   "glossEn": "check every small detail carefully",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "4f00db87-268a-57fc-98e2-9660bf50f2ee",
+   "lemma": "down the line",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "down the line",
+    "down the road",
+    "further down the line"
+   ],
+   "kind": "idiom",
+   "glossEn": "at a later point in the future",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "0b8b2775-ed1e-576a-aef4-db8c004c37da",
+   "lemma": "drag one's feet",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "drag one's feet",
+    "drag your feet",
+    "drag one's heels"
+   ],
+   "kind": "idiom",
+   "glossEn": "deliberately delay doing something",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "96bf18a1-96cf-51e2-9d7a-e1757fa55e29",
+   "lemma": "draw the line",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "draw the line",
+    "draw the line at sth"
+   ],
+   "kind": "idiom",
+   "glossEn": "set a limit on what you accept",
+   "topics": []
+  },
+  {
+   "id": "57ef222e-92c1-5fa5-85f9-9452849e77d9",
+   "lemma": "a dry run",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a dry run",
+    "dry run",
+    "a trial run"
+   ],
+   "kind": "idiom",
+   "glossEn": "practice before the real event",
+   "topics": [
+    "work",
+    "it"
+   ]
+  },
+  {
+   "id": "d0b13381-8f48-54b7-a27d-2be3347e07ee",
+   "lemma": "eat one's words",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "eat one's words",
+    "eat your words"
+   ],
+   "kind": "idiom",
+   "glossEn": "admit that what you said was wrong",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "6e78bf5a-f4cf-5ed9-b7ea-73afa7adb5be",
+   "lemma": "the end of the road",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "the end of the road",
+    "the end of the line"
+   ],
+   "kind": "idiom",
+   "glossEn": "point where something can no longer continue",
+   "topics": []
+  },
+  {
+   "id": "7768f4e3-bac4-5330-b124-8827bea6e12f",
+   "lemma": "at a crossroads",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at a crossroads",
+    "at the crossroads"
+   ],
+   "kind": "idiom",
+   "glossEn": "at a point where an important choice must be made",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "0a7efe1f-c17a-50ba-a8a1-1cf8e6fdbb08",
+   "lemma": "fall through the cracks",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fall through the cracks",
+    "slip through the cracks",
+    "slip through the net"
+   ],
+   "kind": "idiom",
+   "glossEn": "be overlooked or forgotten by a system",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "e43a9415-97d8-522f-89e2-af91a3055f59",
+   "lemma": "fight fire with fire",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fight fire with fire"
+   ],
+   "kind": "idiom",
+   "glossEn": "respond to an attack with similar methods",
+   "topics": []
+  },
+  {
+   "id": "65ce68f1-f76f-563e-9460-81c71616935a",
+   "lemma": "find one's feet",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "find one's feet",
+    "find your feet"
+   ],
+   "kind": "idiom",
+   "glossEn": "become confident in a new situation",
+   "topics": [
+    "work",
+    "travel"
+   ]
+  },
+  {
+   "id": "2e881cd7-cb8c-5488-9a39-9b0d5aa88815",
+   "lemma": "a fine line",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a fine line",
+    "a fine line between",
+    "a thin line"
+   ],
+   "kind": "idiom",
+   "glossEn": "very small difference between two things",
+   "topics": []
+  }
+ ]
+}

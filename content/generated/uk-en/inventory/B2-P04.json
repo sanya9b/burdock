@@ -1,0 +1,680 @@
+{
+ "chunk": "B2-P04",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "e21c3c47-94a6-5011-9bcf-046d03258ba0",
+   "lemma": "make allowances for sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make allowances for sth",
+    "make allowances",
+    "make allowances for sb"
+   ],
+   "kind": "collocation",
+   "glossEn": "consider special circumstances when judging",
+   "topics": []
+  },
+  {
+   "id": "f07bd502-1fd5-5986-bd5d-265b4a0c16b4",
+   "lemma": "make headlines",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make headlines",
+    "hit the headlines",
+    "make the headlines"
+   ],
+   "kind": "collocation",
+   "glossEn": "be reported widely in the news",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "deb50d62-9533-52f3-8c7d-940e68f17974",
+   "lemma": "make a transition",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a transition",
+    "make the transition",
+    "make the transition to sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "change from one state to another",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "0e511b4f-1411-5207-ac83-e2632b983076",
+   "lemma": "make a confession",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a confession",
+    "make a full confession"
+   ],
+   "kind": "collocation",
+   "glossEn": "admit that you did something wrong",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "cd600662-da2f-56c0-aaa3-ed31f405c164",
+   "lemma": "make an observation",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make an observation",
+    "make observations"
+   ],
+   "kind": "collocation",
+   "glossEn": "say what you have noticed",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "6e6a078c-05b9-5182-a002-5e3cdca1a80f",
+   "lemma": "make inquiries",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make inquiries",
+    "make enquiries",
+    "make an inquiry"
+   ],
+   "kind": "collocation",
+   "glossEn": "ask for information officially",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "36296f00-3b1a-5022-ac6b-09dae392099e",
+   "lemma": "make a gesture",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a gesture",
+    "make a kind gesture",
+    "make a gesture of goodwill"
+   ],
+   "kind": "collocation",
+   "glossEn": "move your hands; do something symbolic",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "dfbe4ebd-8284-561c-9c32-4d4233359024",
+   "lemma": "do your duty",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "do your duty",
+    "do my duty",
+    "be on duty"
+   ],
+   "kind": "collocation",
+   "glossEn": "do what you are morally or legally required to",
+   "topics": [
+    "military",
+    "work"
+   ]
+  },
+  {
+   "id": "41fd0324-ddee-5f76-8191-9bd6350142ee",
+   "lemma": "take the initiative",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take the initiative",
+    "show initiative",
+    "use your initiative"
+   ],
+   "kind": "collocation",
+   "glossEn": "act first without being asked",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "33727222-53a0-502a-81b5-ee608b410cd4",
+   "lemma": "take precautions",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take precautions",
+    "take a precaution",
+    "as a precaution"
+   ],
+   "kind": "collocation",
+   "glossEn": "do things in advance to avoid danger",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "4e62f501-a9ff-5d7b-98a4-058e5e12fb21",
+   "lemma": "take sth for granted",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take sth for granted",
+    "take for granted",
+    "take sb for granted"
+   ],
+   "kind": "collocation",
+   "glossEn": "assume something will always be there",
+   "topics": []
+  },
+  {
+   "id": "5edb4b49-313f-530e-ab29-d97eeff62e7a",
+   "lemma": "take a toll",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take a toll",
+    "take its toll",
+    "take a toll on sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "cause gradual harm or damage",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "33b97726-4873-535d-a6f2-bf97bd846004",
+   "lemma": "take a stand",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take a stand",
+    "take a stand on sth",
+    "take a stand against sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "publicly defend an opinion",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "2d5e57d0-3ddc-5c61-8d89-b135077dacdd",
+   "lemma": "take legal action",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take legal action",
+    "take legal action against sb",
+    "take sb to court"
+   ],
+   "kind": "collocation",
+   "glossEn": "go to court against someone",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "f731e4b6-e1f1-5d04-987b-65046454f56b",
+   "lemma": "take office",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take office",
+    "leave office",
+    "hold office"
+   ],
+   "kind": "collocation",
+   "glossEn": "officially start an important position",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "5884a5fa-65cf-576d-9b19-3b73524c6c82",
+   "lemma": "take root",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take root",
+    "begin to take root"
+   ],
+   "kind": "collocation",
+   "glossEn": "become established, said of ideas",
+   "topics": []
+  },
+  {
+   "id": "ab6e948e-6bfe-5ada-b887-23b37a46665e",
+   "lemma": "take command",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take command",
+    "take command of sth",
+    "be in command"
+   ],
+   "kind": "collocation",
+   "glossEn": "become the leader of a military unit",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "957e01b0-c41b-5068-a243-c6475361b2e9",
+   "lemma": "take sb hostage",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take sb hostage",
+    "take hostages",
+    "hold sb hostage"
+   ],
+   "kind": "collocation",
+   "glossEn": "hold someone prisoner to force demands",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "0f0a659e-e4e5-58e0-b973-03eee7901177",
+   "lemma": "take casualties",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take casualties",
+    "suffer casualties",
+    "heavy casualties"
+   ],
+   "kind": "collocation",
+   "glossEn": "have soldiers killed or wounded",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "0208741a-4aa8-5c65-8378-6910f913945f",
+   "lemma": "take sb prisoner",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take sb prisoner",
+    "take prisoners",
+    "be taken prisoner"
+   ],
+   "kind": "collocation",
+   "glossEn": "capture someone in a war",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "11b7a8ba-aeaf-5071-b1ff-488602f02e82",
+   "lemma": "open fire",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "open fire",
+    "open fire on sb",
+    "cease fire"
+   ],
+   "kind": "collocation",
+   "glossEn": "start shooting",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "22f98528-4827-598d-9211-45b87a5a85ed",
+   "lemma": "return fire",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "return fire",
+    "exchange fire",
+    "hold your fire"
+   ],
+   "kind": "collocation",
+   "glossEn": "shoot back at someone shooting at you",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "049a7b8c-f491-5a26-b49f-b512668b75c7",
+   "lemma": "launch an attack",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "launch an attack",
+    "launch an offensive",
+    "launch an attack on sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "begin a military attack",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "06c72666-52e6-5366-8ef7-13e481eeb1f7",
+   "lemma": "launch a campaign",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "launch a campaign",
+    "launch a campaign against sth",
+    "launch a military campaign"
+   ],
+   "kind": "collocation",
+   "glossEn": "begin a planned series of actions",
+   "topics": [
+    "military",
+    "work"
+   ]
+  },
+  {
+   "id": "72f29066-6650-5d7a-9526-c85a770dd9fd",
+   "lemma": "launch a product",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "launch a product",
+    "launch a new product",
+    "product launch"
+   ],
+   "kind": "collocation",
+   "glossEn": "start selling a new product",
+   "topics": [
+    "work",
+    "shopping"
+   ]
+  },
+  {
+   "id": "cec86ef1-96e3-5871-ab06-a651ef97689b",
+   "lemma": "suffer losses",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "suffer losses",
+    "suffer heavy losses",
+    "sustain losses"
+   ],
+   "kind": "collocation",
+   "glossEn": "lose soldiers, money or equipment",
+   "topics": [
+    "military",
+    "work"
+   ]
+  },
+  {
+   "id": "9e354f32-143b-504d-977b-ec23779acb78",
+   "lemma": "sustain injuries",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sustain injuries",
+    "sustain an injury",
+    "sustain serious injuries"
+   ],
+   "kind": "collocation",
+   "glossEn": "be injured, in formal language",
+   "topics": [
+    "health",
+    "military"
+   ]
+  },
+  {
+   "id": "305fc647-4a79-5766-a075-030693253e6b",
+   "lemma": "armed forces",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "armed forces",
+    "the armed forces",
+    "the military"
+   ],
+   "kind": "collocation",
+   "glossEn": "a country's army, navy and air force",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "00677a4d-903c-57a2-b2a1-b39590f4f158",
+   "lemma": "air strike",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "air strike",
+    "airstrike",
+    "carry out an air strike"
+   ],
+   "kind": "collocation",
+   "glossEn": "an attack by military aircraft or missiles",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "eac03187-6e44-53b7-9fe4-49797e35d4d1",
+   "lemma": "friendly fire",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "friendly fire",
+    "friendly-fire incident"
+   ],
+   "kind": "collocation",
+   "glossEn": "shooting that hits your own side by mistake",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "f96c04ee-53e8-588b-ae48-444e1ab26143",
+   "lemma": "front line",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "front line",
+    "frontline",
+    "on the front line"
+   ],
+   "kind": "collocation",
+   "glossEn": "the place where armies meet and fight",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "e1c93e12-9683-5aec-bf63-2d90bdc5cac9",
+   "lemma": "military service",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "military service",
+    "do military service",
+    "compulsory military service"
+   ],
+   "kind": "collocation",
+   "glossEn": "a period of serving in the armed forces",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "59c0b41b-bfbb-5ede-8083-c6b6527042af",
+   "lemma": "peace talks",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "peace talks",
+    "peace negotiations",
+    "hold peace talks"
+   ],
+   "kind": "collocation",
+   "glossEn": "discussions to end a war",
+   "topics": [
+    "military",
+    "communication"
+   ]
+  },
+  {
+   "id": "d481a7eb-a67d-5f61-95e7-3112a286542a",
+   "lemma": "peace treaty",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "peace treaty",
+    "sign a peace treaty",
+    "peace agreement"
+   ],
+   "kind": "collocation",
+   "glossEn": "a formal agreement that ends a war",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "1a83922a-448d-5de8-9646-8e8027f413f7",
+   "lemma": "war crime",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "war crime",
+    "war crimes",
+    "commit war crimes"
+   ],
+   "kind": "collocation",
+   "glossEn": "a serious violation of the laws of war",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "79f0b4d6-9696-55bf-b4bc-59b01fa51a40",
+   "lemma": "civilian casualties",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "civilian casualties",
+    "civilian deaths",
+    "civilian population"
+   ],
+   "kind": "collocation",
+   "glossEn": "people killed or injured who are not soldiers",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "6451644d-582b-59be-94eb-3f6c6e3d1d39",
+   "lemma": "chain of command",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chain of command",
+    "the chain of command"
+   ],
+   "kind": "collocation",
+   "glossEn": "the order of ranks through which orders pass",
+   "topics": [
+    "military",
+    "work"
+   ]
+  },
+  {
+   "id": "e5fcd858-8a68-5b21-b94c-a69702d2600a",
+   "lemma": "rules of engagement",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rules of engagement"
+   ],
+   "kind": "collocation",
+   "glossEn": "orders defining when soldiers may use force",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "20dfbaf1-4971-5d0b-8789-33d1ecb0ae71",
+   "lemma": "enemy lines",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "enemy lines",
+    "behind enemy lines",
+    "enemy territory"
+   ],
+   "kind": "collocation",
+   "glossEn": "the area controlled by the opposing army",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "9c0d5ea5-d66c-5d4e-85f0-23273e99579a",
+   "lemma": "draw a comparison",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "draw a comparison",
+    "draw a parallel",
+    "draw a comparison between"
+   ],
+   "kind": "collocation",
+   "glossEn": "point out how two things are similar",
+   "topics": [
+    "communication"
+   ]
+  }
+ ]
+}

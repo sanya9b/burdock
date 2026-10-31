@@ -1,0 +1,684 @@
+{
+ "chunk": "B2-P06",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "a3c65d26-7eb2-53b0-b944-3d3a204b7177",
+   "lemma": "run a risk",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "run a risk",
+    "run the risk of sth",
+    "run the risk"
+   ],
+   "kind": "collocation",
+   "glossEn": "be in a situation where something bad may happen",
+   "topics": []
+  },
+  {
+   "id": "620e15a5-aca1-5d52-b994-983da11ed3a7",
+   "lemma": "run smoothly",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "run smoothly",
+    "go smoothly",
+    "keep things running smoothly"
+   ],
+   "kind": "collocation",
+   "glossEn": "happen without problems",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "0ce64e4b-e01e-5fe7-a101-2539602bdcae",
+   "lemma": "run a campaign",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "run a campaign",
+    "run an advertising campaign",
+    "conduct a campaign"
+   ],
+   "kind": "collocation",
+   "glossEn": "organize a series of planned activities",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  },
+  {
+   "id": "a8c08250-06d9-5e3c-9486-2fa73a8cb130",
+   "lemma": "run for office",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "run for office",
+    "run for president",
+    "stand for election"
+   ],
+   "kind": "collocation",
+   "glossEn": "try to be elected to a political position",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "217316e7-7fc4-53fa-bc09-37d57ec6bf50",
+   "lemma": "fierce competition",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fierce competition",
+    "stiff competition",
+    "intense competition"
+   ],
+   "kind": "collocation",
+   "glossEn": "very strong rivalry",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "79ea397f-1e4d-58fa-b271-8137a6e1956c",
+   "lemma": "heated debate",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heated debate",
+    "fierce debate",
+    "heated discussion"
+   ],
+   "kind": "collocation",
+   "glossEn": "an angry, emotional discussion",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "fe34abe6-d88f-5fd8-904e-daeccbc9b19f",
+   "lemma": "heated argument",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heated argument",
+    "have a heated argument",
+    "heated exchange"
+   ],
+   "kind": "collocation",
+   "glossEn": "an angry quarrel",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "05c2cc91-f3ed-5c2a-820f-2853344c77aa",
+   "lemma": "steep rise",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "steep rise",
+    "steep increase",
+    "steep rise in prices"
+   ],
+   "kind": "collocation",
+   "glossEn": "a sudden large increase",
+   "topics": [
+    "work",
+    "shopping"
+   ]
+  },
+  {
+   "id": "65ab4d3d-2671-5ee2-adf0-6d8da9631e4a",
+   "lemma": "steep decline",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "steep decline",
+    "steep fall",
+    "sharp decline"
+   ],
+   "kind": "collocation",
+   "glossEn": "a sudden large decrease",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "cbb13489-4fc9-5dcf-8c58-80bc06976457",
+   "lemma": "steady growth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "steady growth",
+    "steady increase",
+    "steady decline"
+   ],
+   "kind": "collocation",
+   "glossEn": "an increase that continues at an even rate",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "50dd43cd-529e-5c9c-bbfe-8b7a1746a69a",
+   "lemma": "rapid growth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rapid growth",
+    "rapid increase",
+    "rapid expansion"
+   ],
+   "kind": "collocation",
+   "glossEn": "a very fast increase",
+   "topics": [
+    "work",
+    "it"
+   ]
+  },
+  {
+   "id": "e3cdbd3f-6ade-5952-9431-33be08e4e87f",
+   "lemma": "dramatic change",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dramatic change",
+    "dramatic changes",
+    "dramatic increase"
+   ],
+   "kind": "collocation",
+   "glossEn": "a sudden and very noticeable change",
+   "topics": []
+  },
+  {
+   "id": "f4b3bd13-5c44-5d84-b4aa-6b89d04bf37f",
+   "lemma": "drastic measures",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "drastic measures",
+    "take drastic measures",
+    "drastic action"
+   ],
+   "kind": "collocation",
+   "glossEn": "extreme actions taken to fix a serious problem",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "b218ca0d-f063-5d8d-969d-a004ffba95c6",
+   "lemma": "mounting pressure",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mounting pressure",
+    "growing pressure",
+    "be under mounting pressure"
+   ],
+   "kind": "collocation",
+   "glossEn": "pressure that keeps increasing",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "a354a87f-c758-5bba-b212-665e667f1c4d",
+   "lemma": "to put it mildly",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "to put it mildly",
+    "to say the least",
+    "mildly put"
+   ],
+   "kind": "formula",
+   "glossEn": "signaling the real situation is stronger than stated",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "f5b8e681-fe03-5b23-80dc-955621c21b41",
+   "lemma": "having said that",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "having said that",
+    "that said",
+    "that being said",
+    "with that said"
+   ],
+   "kind": "formula",
+   "glossEn": "introducing a point that qualifies what was said",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "f8e40ec2-c09b-5a5f-be8a-80207ab4438b",
+   "lemma": "mind you",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mind you",
+    "mind"
+   ],
+   "kind": "formula",
+   "glossEn": "adding a qualification the listener should note",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "e97eff56-8ed4-5807-811b-9fcabf0353f9",
+   "lemma": "the way I see it",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "the way I see it",
+    "as I see it",
+    "from where I stand"
+   ],
+   "kind": "formula",
+   "glossEn": "introducing your personal interpretation",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "b31cace5-1434-54fd-a931-cfb99cb05d60",
+   "lemma": "long story short",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "long story short",
+    "to make a long story short",
+    "to cut a long story short"
+   ],
+   "kind": "formula",
+   "glossEn": "skipping details to give the outcome",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "a455c059-1016-5fb8-a600-57fed4af62f9",
+   "lemma": "that's debatable",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "that's debatable",
+    "that is debatable",
+    "debatable"
+   ],
+   "kind": "formula",
+   "glossEn": "politely saying you are not convinced",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "27b0b4c0-ec5f-519c-8963-47eb269cd235",
+   "lemma": "that's beside the point",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "that's beside the point",
+    "that is beside the point",
+    "beside the point"
+   ],
+   "kind": "formula",
+   "glossEn": "saying something is irrelevant to the issue",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "d1bb3a46-dfa9-558f-8f7a-c37fd899d882",
+   "lemma": "suit yourself",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "suit yourself"
+   ],
+   "kind": "formula",
+   "glossEn": "do as you like, though I disagree",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "784cf59a-b289-5a66-83c3-005f83ddf0c2",
+   "lemma": "I beg to differ",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I beg to differ",
+    "beg to differ"
+   ],
+   "kind": "formula",
+   "glossEn": "formally and politely disagreeing",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "76a9558d-9933-5bae-8b2b-7a628ba43a2f",
+   "lemma": "with all due respect",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "with all due respect",
+    "with respect",
+    "with the greatest respect"
+   ],
+   "kind": "formula",
+   "glossEn": "politely introducing disagreement or criticism",
+   "topics": [
+    "communication",
+    "work"
+   ]
+  },
+  {
+   "id": "736cc1fa-649e-5cb8-b7ea-9bdf99cd72fa",
+   "lemma": "I see where you're coming from",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I see where you're coming from",
+    "I see where you are coming from",
+    "I get where you're coming from"
+   ],
+   "kind": "formula",
+   "glossEn": "showing you understand someone's reasoning",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "58d2e700-8df4-5131-807f-75a89ac849b8",
+   "lemma": "let's face it",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "let's face it",
+    "let's be realistic"
+   ],
+   "kind": "formula",
+   "glossEn": "urging acceptance of an unpleasant truth",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "b658a71c-3221-54bf-be02-5e11e8726935",
+   "lemma": "in all honesty",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in all honesty",
+    "in all fairness",
+    "if I'm honest"
+   ],
+   "kind": "formula",
+   "glossEn": "introducing a completely frank statement",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "0ed0fff1-5f49-535d-af0f-7508d011b1d7",
+   "lemma": "I'd rather not say",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I'd rather not say",
+    "I would rather not say",
+    "I'd rather not go into it"
+   ],
+   "kind": "formula",
+   "glossEn": "politely refusing to share information",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "6c5485bb-742f-577a-972c-d304ade9a7bf",
+   "lemma": "I hate to say it, but",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I hate to say it, but",
+    "I hate to say this, but",
+    "I hate to break it to you, but"
+   ],
+   "kind": "formula",
+   "glossEn": "reluctantly introducing an unwelcome truth",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "bcaf7e12-ebe7-532f-81d7-4cfc1b5b292e",
+   "lemma": "as per our conversation",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as per our conversation",
+    "as discussed",
+    "as per our discussion",
+    "further to our conversation"
+   ],
+   "kind": "formula",
+   "glossEn": "email formula referring to an earlier discussion",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "0d4f7537-2924-5a7f-aae2-f3e0af2a2212",
+   "lemma": "could you elaborate",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "could you elaborate",
+    "could you elaborate on that",
+    "can you elaborate",
+    "would you care to elaborate"
+   ],
+   "kind": "formula",
+   "glossEn": "asking someone to explain in more detail",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  },
+  {
+   "id": "2cd736ec-9345-5dbe-bf9d-1ded8e140580",
+   "lemma": "let's play it by ear",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "let's play it by ear",
+    "play it by ear",
+    "we'll play it by ear"
+   ],
+   "kind": "formula",
+   "glossEn": "deciding as the situation develops",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "8781b217-4e7f-5d44-9c9e-71700d27b723",
+   "lemma": "let's circle back",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "let's circle back",
+    "circle back",
+    "let's come back to that",
+    "let's revisit this later"
+   ],
+   "kind": "formula",
+   "glossEn": "returning to a topic later in a meeting",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "25fedaf3-edae-57c4-8da7-718ab99307d0",
+   "lemma": "keep me in the loop",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep me in the loop",
+    "keep me posted",
+    "loop me in"
+   ],
+   "kind": "formula",
+   "glossEn": "asking to be kept informed",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "7b195a46-46f4-533c-8fd7-72009b38f38c",
+   "lemma": "for the record",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "for the record",
+    "just for the record"
+   ],
+   "kind": "formula",
+   "glossEn": "stating something officially or for clarity",
+   "topics": [
+    "communication",
+    "work"
+   ]
+  },
+  {
+   "id": "3fd58505-530b-5db0-8677-56c68554c251",
+   "lemma": "to the best of my knowledge",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "to the best of my knowledge",
+    "to my knowledge"
+   ],
+   "kind": "formula",
+   "glossEn": "formal hedge: as far as I know",
+   "topics": [
+    "communication",
+    "work"
+   ]
+  },
+  {
+   "id": "9c5a7260-7cc6-5b58-bdc6-202939fe8802",
+   "lemma": "what's the catch",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "what's the catch",
+    "what is the catch",
+    "there must be a catch"
+   ],
+   "kind": "formula",
+   "glossEn": "asking what hidden disadvantage an offer has",
+   "topics": [
+    "communication",
+    "shopping"
+   ]
+  },
+  {
+   "id": "92a87388-f5a7-5a8d-892c-3e404bcce017",
+   "lemma": "I'll take a rain check",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I'll take a rain check",
+    "can I take a rain check",
+    "rain check"
+   ],
+   "kind": "formula",
+   "glossEn": "declining now but accepting for another time",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "2efae2cb-9a59-5e34-834e-e0fd54d2d22d",
+   "lemma": "you can say that again",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "you can say that again"
+   ],
+   "kind": "formula",
+   "glossEn": "emphatic agreement",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "201780c4-fca4-551a-bc2f-611c8ed5c5f0",
+   "lemma": "at the end of the day",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at the end of the day",
+    "when all is said and done"
+   ],
+   "kind": "formula",
+   "glossEn": "introducing what matters most after all considerations",
+   "topics": [
+    "communication"
+   ]
+  }
+ ]
+}

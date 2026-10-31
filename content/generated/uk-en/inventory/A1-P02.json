@@ -1,0 +1,622 @@
+{
+ "chunk": "A1-P02",
+ "level": "A1",
+ "lexemes": [
+  {
+   "id": "bd253e8e-8627-5d5f-8586-6ff38d4c70df",
+   "lemma": "make a phone call",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a phone call",
+    "make a call"
+   ],
+   "kind": "collocation",
+   "glossEn": "phone someone",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "e02d0a07-af5d-5ffb-a74b-c4d1026ff93d",
+   "lemma": "tell a story",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tell a story",
+    "tell sb a story",
+    "tell stories"
+   ],
+   "kind": "collocation",
+   "glossEn": "narrate events to listeners",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "8395f395-a8e2-5b5c-82c4-faed04c4db8d",
+   "lemma": "tell the truth",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tell the truth",
+    "tell sb the truth"
+   ],
+   "kind": "collocation",
+   "glossEn": "say what is really true",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "82797624-f592-5087-a3c2-ca42d0a8cb85",
+   "lemma": "tell a lie",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tell a lie",
+    "tell lies"
+   ],
+   "kind": "collocation",
+   "glossEn": "say something you know is not true",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "f2517e5d-3b6d-5fd9-9531-d870c75bad30",
+   "lemma": "ask a question",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ask a question",
+    "ask sb a question",
+    "ask questions"
+   ],
+   "kind": "collocation",
+   "glossEn": "say something to get information",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "4bf893c5-6769-583f-89c4-1d49c1ae041c",
+   "lemma": "answer a question",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "answer a question",
+    "answer the question"
+   ],
+   "kind": "collocation",
+   "glossEn": "give a reply to a question",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "eda7d7eb-2506-5cee-b73e-4777e986742b",
+   "lemma": "say hello",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "say hello",
+    "say hi",
+    "say hello to sb"
+   ],
+   "kind": "collocation",
+   "glossEn": "greet someone",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "8c5e04b2-7761-5280-bed7-157027f78983",
+   "lemma": "say goodbye",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "say goodbye",
+    "say bye",
+    "say goodbye to sb"
+   ],
+   "kind": "collocation",
+   "glossEn": "use parting words when leaving",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "958a218b-fc98-5fb4-8162-6f4193b26a55",
+   "lemma": "say sorry",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "say sorry",
+    "say sorry to sb"
+   ],
+   "kind": "collocation",
+   "glossEn": "apologize",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "ff929328-646f-5c04-ad05-189c6b8830ab",
+   "lemma": "say thank you",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "say thank you",
+    "say thanks"
+   ],
+   "kind": "collocation",
+   "glossEn": "express thanks to someone",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "8c68c47b-e0e7-5f67-8c1d-24133988708d",
+   "lemma": "have a party",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have a party"
+   ],
+   "kind": "collocation",
+   "glossEn": "organize a celebration with guests",
+   "topics": []
+  },
+  {
+   "id": "88eb6768-3d80-5fd7-a4f9-a580ac781539",
+   "lemma": "go for a walk",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go for a walk",
+    "take a walk"
+   ],
+   "kind": "collocation",
+   "glossEn": "walk somewhere for pleasure or exercise",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "fb231045-aa31-5fee-850b-5797c6b5311c",
+   "lemma": "go swimming",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go swimming"
+   ],
+   "kind": "collocation",
+   "glossEn": "swim as a leisure activity",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "e00f6705-d146-53eb-bd89-0983365a971a",
+   "lemma": "strong wind",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "strong wind",
+    "strong winds"
+   ],
+   "kind": "collocation",
+   "glossEn": "wind that blows with great force",
+   "topics": []
+  },
+  {
+   "id": "264c08bf-695e-5eca-86f0-550dedf4c5dd",
+   "lemma": "big city",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "big city",
+    "big cities"
+   ],
+   "kind": "collocation",
+   "glossEn": "a large city with many people",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "07a1dd66-ed35-5f7f-9398-827373d9c714",
+   "lemma": "small town",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "small town",
+    "small towns"
+   ],
+   "kind": "collocation",
+   "glossEn": "a town with few people",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "798756b2-4c81-5e45-803b-fed3b3ff175f",
+   "lemma": "best friend",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "best friend",
+    "best friends"
+   ],
+   "kind": "collocation",
+   "glossEn": "the friend you are closest to",
+   "topics": []
+  },
+  {
+   "id": "1181fc75-aa43-5e41-9893-131dbdfe4cf2",
+   "lemma": "good luck",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "good luck"
+   ],
+   "kind": "collocation",
+   "glossEn": "success that happens by chance",
+   "topics": []
+  },
+  {
+   "id": "396f3e74-c6be-51c2-b968-30bff735eaba",
+   "lemma": "hard work",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hard work"
+   ],
+   "kind": "collocation",
+   "glossEn": "work that needs much effort",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "6c4c7087-acba-58bb-a611-21681791b5d3",
+   "lemma": "free time",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "free time"
+   ],
+   "kind": "collocation",
+   "glossEn": "time when you are not working or studying",
+   "topics": []
+  },
+  {
+   "id": "82d5b934-2335-5da8-b8da-801497d355c1",
+   "lemma": "full name",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "full name"
+   ],
+   "kind": "collocation",
+   "glossEn": "your first name and last name together",
+   "topics": []
+  },
+  {
+   "id": "d5d6f098-f676-5bb4-9eda-def18d513f61",
+   "lemma": "phone number",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "phone number",
+    "telephone number"
+   ],
+   "kind": "collocation",
+   "glossEn": "the digits you dial to call someone",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "1140b8cc-e409-5888-a5e7-2f2bcbdf6e3d",
+   "lemma": "train station",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "train station",
+    "railway station"
+   ],
+   "kind": "collocation",
+   "glossEn": "a place where trains stop for passengers",
+   "topics": [
+    "travel",
+    "city"
+   ]
+  },
+  {
+   "id": "a03f821d-b8b1-57c9-adac-e84cf2b2fc6f",
+   "lemma": "parking lot",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "parking lot",
+    "car park"
+   ],
+   "kind": "collocation",
+   "glossEn": "an area where cars are parked",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "d463f6b7-ee34-5a77-8b8d-1f6725aed0c0",
+   "lemma": "birthday party",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "birthday party"
+   ],
+   "kind": "collocation",
+   "glossEn": "a celebration of someone's birthday",
+   "topics": []
+  },
+  {
+   "id": "f5c7f568-3c76-51d8-83a7-7d58419a0e4a",
+   "lemma": "birthday present",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "birthday present",
+    "birthday gift"
+   ],
+   "kind": "collocation",
+   "glossEn": "a gift given for a birthday",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "ef45bc53-f32f-5cd3-9c81-99afa6d98fd3",
+   "lemma": "front door",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "front door"
+   ],
+   "kind": "collocation",
+   "glossEn": "the main entrance door of a home",
+   "topics": []
+  },
+  {
+   "id": "6e92467e-1fcc-54da-a1d5-6795b33bdc4d",
+   "lemma": "shopping center",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shopping center",
+    "shopping centre",
+    "shopping mall"
+   ],
+   "kind": "collocation",
+   "glossEn": "a large building with many shops",
+   "topics": [
+    "shopping",
+    "city"
+   ]
+  },
+  {
+   "id": "d16cefe9-29c9-55d7-95a0-04c20ff38a88",
+   "lemma": "cell phone",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cell phone",
+    "mobile phone",
+    "cellphone"
+   ],
+   "kind": "collocation",
+   "glossEn": "a portable telephone",
+   "topics": [
+    "communication",
+    "it"
+   ]
+  },
+  {
+   "id": "568c878f-af30-5360-be9f-15b1b3594e02",
+   "lemma": "take a break",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take a break",
+    "have a break"
+   ],
+   "kind": "collocation",
+   "glossEn": "stop working for a short rest",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "7bf1c250-4cf5-55bc-9eb7-902194936c75",
+   "lemma": "take a seat",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take a seat",
+    "have a seat"
+   ],
+   "kind": "collocation",
+   "glossEn": "sit down",
+   "topics": []
+  },
+  {
+   "id": "b6772a72-8a86-529c-bd96-992407f49a63",
+   "lemma": "take the bus",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take the bus",
+    "take a bus",
+    "go by bus"
+   ],
+   "kind": "collocation",
+   "glossEn": "travel somewhere by bus",
+   "topics": [
+    "travel",
+    "city"
+   ]
+  },
+  {
+   "id": "d47ecdce-4a36-53fc-aa1a-a565bd3da03c",
+   "lemma": "get dressed",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get dressed"
+   ],
+   "kind": "collocation",
+   "glossEn": "put your clothes on",
+   "topics": []
+  },
+  {
+   "id": "8fd39368-506b-57fc-9ef8-5de531a273ab",
+   "lemma": "get married",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get married",
+    "get married to sb"
+   ],
+   "kind": "collocation",
+   "glossEn": "become husband and wife",
+   "topics": []
+  },
+  {
+   "id": "78923436-e2b6-543e-93f5-53bcb8b072e9",
+   "lemma": "get home",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get home"
+   ],
+   "kind": "collocation",
+   "glossEn": "arrive at the place where you live",
+   "topics": []
+  },
+  {
+   "id": "1b5a3300-bd45-556c-aae8-46aaf3867cde",
+   "lemma": "go to work",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go to work"
+   ],
+   "kind": "collocation",
+   "glossEn": "travel to your workplace",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "0778ffc4-051e-50d9-9f62-33447a211e84",
+   "lemma": "go to school",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go to school"
+   ],
+   "kind": "collocation",
+   "glossEn": "attend school as a pupil",
+   "topics": []
+  },
+  {
+   "id": "4d290fac-b7af-5567-bb24-f6efc22fad53",
+   "lemma": "go on vacation",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go on vacation",
+    "go on holiday",
+    "be on vacation"
+   ],
+   "kind": "collocation",
+   "glossEn": "travel away from home for a holiday",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "69f1fd0b-1401-57b1-a803-9aff5e9bfc10",
+   "lemma": "make a list",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a list",
+    "make a shopping list",
+    "write a list"
+   ],
+   "kind": "collocation",
+   "glossEn": "write items down one after another",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "3197ad58-44c5-52bc-a3e6-68be40fb304f",
+   "lemma": "play sports",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "play sports",
+    "do sport",
+    "do sports"
+   ],
+   "kind": "collocation",
+   "glossEn": "take part in sports activities",
+   "topics": [
+    "health"
+   ]
+  }
+ ]
+}

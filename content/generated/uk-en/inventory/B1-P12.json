@@ -1,0 +1,595 @@
+{
+ "chunk": "B1-P12",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "017c1e93-82a9-5f02-aa84-97896233004d",
+   "lemma": "put all one's eggs in one basket",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "put all one's eggs in one basket",
+    "all your eggs in one basket"
+   ],
+   "kind": "idiom",
+   "glossEn": "risk everything on one plan",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "5056e6ab-9573-525b-a4ac-8b11c41c9136",
+   "lemma": "read between the lines",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "read between the lines"
+   ],
+   "kind": "idiom",
+   "glossEn": "understand a hidden meaning",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "d42e4d2f-0605-5589-ba1c-5da4de971049",
+   "lemma": "run out of steam",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "run out of steam"
+   ],
+   "kind": "idiom",
+   "glossEn": "lose energy or enthusiasm",
+   "topics": []
+  },
+  {
+   "id": "dfa2a7bb-0b79-52bf-b333-c922fa16d10d",
+   "lemma": "speak of the devil",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "speak of the devil",
+    "talk of the devil"
+   ],
+   "kind": "idiom",
+   "glossEn": "said when a person mentioned appears",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "8c8cf6ff-f67f-5eb9-9040-20ea9363d960",
+   "lemma": "stab sb in the back",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stab sb in the back",
+    "stab in the back"
+   ],
+   "kind": "idiom",
+   "glossEn": "betray someone who trusts you",
+   "topics": []
+  },
+  {
+   "id": "0b36ada5-b1b7-505f-b2ae-246144afa6dc",
+   "lemma": "take sth with a grain of salt",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take sth with a grain of salt",
+    "take sth with a pinch of salt",
+    "with a grain of salt"
+   ],
+   "kind": "idiom",
+   "glossEn": "not completely believe something",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "d89ed46f-eb47-54ec-9e8c-794c9c803a59",
+   "lemma": "the tip of the iceberg",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "the tip of the iceberg",
+    "tip of the iceberg"
+   ],
+   "kind": "idiom",
+   "glossEn": "small visible part of a bigger problem",
+   "topics": []
+  },
+  {
+   "id": "73c41192-089b-555b-9d87-eb519f83d2e2",
+   "lemma": "throw in the towel",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "throw in the towel"
+   ],
+   "kind": "idiom",
+   "glossEn": "give up, admit defeat",
+   "topics": []
+  },
+  {
+   "id": "be06a2fa-4d39-5af9-9995-6cbd03d9c5a8",
+   "lemma": "under one's belt",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "under one's belt",
+    "under your belt"
+   ],
+   "kind": "idiom",
+   "glossEn": "already achieved or experienced",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "ea4f0303-cf38-5ab9-89cd-1c5bafa5add1",
+   "lemma": "a wild goose chase",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a wild goose chase",
+    "wild goose chase"
+   ],
+   "kind": "idiom",
+   "glossEn": "hopeless search for something",
+   "topics": []
+  },
+  {
+   "id": "627c2b63-a182-5979-9bfa-f431cdb0a718",
+   "lemma": "a win-win situation",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a win-win situation",
+    "win-win"
+   ],
+   "kind": "idiom",
+   "glossEn": "situation where everyone benefits",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "b944261a-40f5-5cb1-9781-d40fc91f8bef",
+   "lemma": "word of mouth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "word of mouth",
+    "by word of mouth"
+   ],
+   "kind": "idiom",
+   "glossEn": "information spread by people talking",
+   "topics": [
+    "communication",
+    "shopping"
+   ]
+  },
+  {
+   "id": "9c88e871-b96e-58b7-8275-a457c99e11b8",
+   "lemma": "the best of both worlds",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "the best of both worlds"
+   ],
+   "kind": "idiom",
+   "glossEn": "advantages of two different things at once",
+   "topics": []
+  },
+  {
+   "id": "16fe9724-655c-5c7e-943c-701a4b50762c",
+   "lemma": "bend over backwards",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bend over backwards"
+   ],
+   "kind": "idiom",
+   "glossEn": "try very hard to help someone",
+   "topics": []
+  },
+  {
+   "id": "a07c2bd1-d475-5fbb-be06-f87ab71f1304",
+   "lemma": "a bitter pill to swallow",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a bitter pill to swallow",
+    "a bitter pill"
+   ],
+   "kind": "idiom",
+   "glossEn": "unpleasant fact that must be accepted",
+   "topics": []
+  },
+  {
+   "id": "d97154cd-2e7d-5075-998e-dad07656cda2",
+   "lemma": "a breath of fresh air",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a breath of fresh air",
+    "breath of fresh air"
+   ],
+   "kind": "idiom",
+   "glossEn": "someone or something refreshingly new",
+   "topics": []
+  },
+  {
+   "id": "c7bf4d40-d353-58df-81ce-980aafb54cbc",
+   "lemma": "bury the hatchet",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bury the hatchet"
+   ],
+   "kind": "idiom",
+   "glossEn": "end a quarrel and become friends",
+   "topics": []
+  },
+  {
+   "id": "cf41ab4a-42df-50f7-9ca9-2130976b87ee",
+   "lemma": "by the skin of one's teeth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "by the skin of one's teeth",
+    "by the skin of your teeth"
+   ],
+   "kind": "idiom",
+   "glossEn": "only just, narrowly",
+   "topics": []
+  },
+  {
+   "id": "72998056-87ce-512f-8807-758233a88e5a",
+   "lemma": "catch sb off guard",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "catch sb off guard",
+    "off guard"
+   ],
+   "kind": "idiom",
+   "glossEn": "surprise someone who is not prepared",
+   "topics": []
+  },
+  {
+   "id": "7cbc4d78-22bd-537f-a441-5590571b9c81",
+   "lemma": "come rain or shine",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "come rain or shine",
+    "rain or shine"
+   ],
+   "kind": "idiom",
+   "glossEn": "whatever happens, in any weather",
+   "topics": []
+  },
+  {
+   "id": "698a8478-bf67-5368-ac39-eeb5468ac9be",
+   "lemma": "not one's cup of tea",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "not one's cup of tea",
+    "not my cup of tea",
+    "one's cup of tea"
+   ],
+   "kind": "idiom",
+   "glossEn": "not something you like",
+   "topics": []
+  },
+  {
+   "id": "82aee682-2d0e-59fa-a4f8-e8d140d043a5",
+   "lemma": "cut to the chase",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cut to the chase"
+   ],
+   "kind": "idiom",
+   "glossEn": "get to the main point quickly",
+   "topics": [
+    "communication",
+    "work"
+   ]
+  },
+  {
+   "id": "2630e018-f77e-5d45-a1ca-7a20f80264b5",
+   "lemma": "draw a blank",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "draw a blank"
+   ],
+   "kind": "idiom",
+   "glossEn": "fail to remember or find something",
+   "topics": []
+  },
+  {
+   "id": "1b86d4e1-0cb6-5907-b26c-47d2fb82272c",
+   "lemma": "drive sb up the wall",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "drive sb up the wall",
+    "drive sb crazy"
+   ],
+   "kind": "idiom",
+   "glossEn": "annoy someone very much",
+   "topics": []
+  },
+  {
+   "id": "803f639c-8fc4-53c5-a193-1c8eba10861c",
+   "lemma": "every cloud has a silver lining",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "every cloud has a silver lining",
+    "a silver lining"
+   ],
+   "kind": "idiom",
+   "glossEn": "every bad situation has a good side",
+   "topics": []
+  },
+  {
+   "id": "f7f4ec3c-54da-5cfd-971a-d4f2ac59c4ca",
+   "lemma": "fall on deaf ears",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fall on deaf ears"
+   ],
+   "kind": "idiom",
+   "glossEn": "be ignored, not listened to",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "479e0fa4-4c4f-5a1b-94cf-71e1e932bf31",
+   "lemma": "a far cry from sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a far cry from sth",
+    "a far cry from",
+    "a far cry"
+   ],
+   "kind": "idiom",
+   "glossEn": "very different from something",
+   "topics": []
+  },
+  {
+   "id": "4bd8ae58-a0f7-5af1-81db-d0077765d892",
+   "lemma": "a fish out of water",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a fish out of water",
+    "fish out of water"
+   ],
+   "kind": "idiom",
+   "glossEn": "person uncomfortable in an unfamiliar situation",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "00c363cf-0296-597f-be33-c909d06ff331",
+   "lemma": "a fly on the wall",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a fly on the wall",
+    "fly on the wall"
+   ],
+   "kind": "idiom",
+   "glossEn": "unseen observer of a private situation",
+   "topics": []
+  },
+  {
+   "id": "eccfe26e-5f44-5840-98d5-c0575b4a2ff7",
+   "lemma": "food for thought",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "food for thought"
+   ],
+   "kind": "idiom",
+   "glossEn": "something worth thinking about carefully",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "ef2b73e6-a06e-5f0d-9394-c7aa058c021a",
+   "lemma": "get a kick out of sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get a kick out of sth",
+    "get a kick out of",
+    "get a kick out of it"
+   ],
+   "kind": "idiom",
+   "glossEn": "enjoy something very much",
+   "topics": []
+  },
+  {
+   "id": "f941f193-3cbe-5a3f-b1d1-03adfbe17094",
+   "lemma": "get the ball rolling",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get the ball rolling",
+    "start the ball rolling"
+   ],
+   "kind": "idiom",
+   "glossEn": "start something happening",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "5fcf039d-7465-5695-a25f-36cb65ecaa92",
+   "lemma": "get one's act together",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get one's act together",
+    "get your act together"
+   ],
+   "kind": "idiom",
+   "glossEn": "become organized and effective",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "f2222c5d-aaf0-5026-82b5-b3ce96e4f321",
+   "lemma": "give sb the benefit of the doubt",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "give sb the benefit of the doubt",
+    "the benefit of the doubt"
+   ],
+   "kind": "idiom",
+   "glossEn": "believe someone although you are not sure",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "fcd42d53-7fbc-5465-b01c-d02947da41d5",
+   "lemma": "give sb the cold shoulder",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "give sb the cold shoulder",
+    "the cold shoulder"
+   ],
+   "kind": "idiom",
+   "glossEn": "deliberately ignore someone",
+   "topics": []
+  },
+  {
+   "id": "f5bcad81-786b-5c74-972c-6aabaf5b3f1b",
+   "lemma": "go down the drain",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go down the drain",
+    "down the drain"
+   ],
+   "kind": "idiom",
+   "glossEn": "be wasted or lost",
+   "topics": []
+  },
+  {
+   "id": "6897749c-ff1c-54ee-a7a4-b88fa33e2430",
+   "lemma": "go from bad to worse",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go from bad to worse",
+    "from bad to worse"
+   ],
+   "kind": "idiom",
+   "glossEn": "keep getting worse",
+   "topics": []
+  },
+  {
+   "id": "f20b1e01-88f7-551b-b227-485835a451af",
+   "lemma": "a gray area",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a gray area",
+    "a grey area",
+    "gray area"
+   ],
+   "kind": "idiom",
+   "glossEn": "situation where rules are not clear",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "ee3234f3-b4f9-5448-889f-b1707110ba62",
+   "lemma": "have a lot on one's plate",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have a lot on one's plate",
+    "a lot on your plate"
+   ],
+   "kind": "idiom",
+   "glossEn": "have many things to deal with",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "0bfef02c-d196-5483-b6a6-c9ecaaf65138",
+   "lemma": "have mixed feelings",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have mixed feelings",
+    "mixed feelings"
+   ],
+   "kind": "idiom",
+   "glossEn": "feel both good and bad about something",
+   "topics": []
+  }
+ ]
+}

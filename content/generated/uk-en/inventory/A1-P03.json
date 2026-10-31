@@ -1,0 +1,642 @@
+{
+ "chunk": "A1-P03",
+ "level": "A1",
+ "lexemes": [
+  {
+   "id": "9e7f2476-c16e-5c82-8e8f-16719993d5cc",
+   "lemma": "do exercise",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "do exercise",
+    "do exercises",
+    "exercise"
+   ],
+   "kind": "collocation",
+   "glossEn": "move your body to stay healthy",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "8f93877e-7a32-5bcf-ab76-7d59aef7a44f",
+   "lemma": "have a baby",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have a baby"
+   ],
+   "kind": "collocation",
+   "glossEn": "give birth to a child",
+   "topics": []
+  },
+  {
+   "id": "ad7634d6-8b67-51a9-91e6-c6c9ea04d7b6",
+   "lemma": "have a look",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have a look",
+    "take a look",
+    "have a look at sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "look at something briefly",
+   "topics": []
+  },
+  {
+   "id": "f492dd74-9397-5e50-865b-85d3f3d3a095",
+   "lemma": "have a rest",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have a rest",
+    "take a rest",
+    "get some rest"
+   ],
+   "kind": "collocation",
+   "glossEn": "relax and stop being active",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "4421af86-4131-501a-809a-740ca7ecee5c",
+   "lemma": "have a drink",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have a drink",
+    "have drinks"
+   ],
+   "kind": "collocation",
+   "glossEn": "drink something, often with friends",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "70573e8c-9ef6-5f47-86ee-eaa79f42252c",
+   "lemma": "feel sick",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "feel sick",
+    "feel ill",
+    "feel unwell"
+   ],
+   "kind": "collocation",
+   "glossEn": "feel ill or as if you may vomit",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "4d0da463-460e-553f-b126-75b0e8ba03e5",
+   "lemma": "get better",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get better"
+   ],
+   "kind": "collocation",
+   "glossEn": "recover from illness; improve",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "db03792f-4387-57a6-8fe2-8d3dcd662734",
+   "lemma": "spend money",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spend money",
+    "spend money on sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "use money to buy things",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "ab985000-270b-5814-87ea-24b68fec084f",
+   "lemma": "spend time",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spend time",
+    "spend time with sb",
+    "spend time on sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "use time doing something",
+   "topics": []
+  },
+  {
+   "id": "880e38fd-0c20-5dc2-b6ae-05023202c025",
+   "lemma": "pay the bill",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pay the bill",
+    "pay the check",
+    "pay a bill"
+   ],
+   "kind": "collocation",
+   "glossEn": "pay what you owe in a restaurant or for services",
+   "topics": [
+    "shopping",
+    "food"
+   ]
+  },
+  {
+   "id": "e1688452-6894-560c-869b-7bc541237cb1",
+   "lemma": "good evening",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "good evening"
+   ],
+   "kind": "formula",
+   "glossEn": "greeting used in the evening",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "b1a1bfa2-761f-54d1-bb14-e259349d1857",
+   "lemma": "how are you",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "how are you",
+    "how are you doing"
+   ],
+   "kind": "formula",
+   "glossEn": "polite question about well-being when meeting",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "cbe0a8ac-e6e7-54cc-9ca0-a5f79169714d",
+   "lemma": "nice to meet you",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nice to meet you",
+    "it's nice to meet you",
+    "it is nice to meet you"
+   ],
+   "kind": "formula",
+   "glossEn": "polite phrase when meeting someone for the first time",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "9e03f486-0fef-5a81-b997-0f1d3f201642",
+   "lemma": "see you later",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "see you later",
+    "see ya later"
+   ],
+   "kind": "formula",
+   "glossEn": "informal goodbye expecting to meet again",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "f7e66b91-5fb9-5a06-ace1-545fb2ab98dd",
+   "lemma": "see you soon",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "see you soon"
+   ],
+   "kind": "formula",
+   "glossEn": "friendly goodbye expecting to meet again shortly",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "f499aed9-5095-57be-976f-c94cc02f1e09",
+   "lemma": "thank you very much",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "thank you very much",
+    "thank you so much"
+   ],
+   "kind": "formula",
+   "glossEn": "emphatic polite thanks",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "f5a20bcb-68a0-5f6c-9e9f-8031a6ca0c6e",
+   "lemma": "thanks a lot",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "thanks a lot",
+    "thanks very much"
+   ],
+   "kind": "formula",
+   "glossEn": "informal emphatic thanks",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "fe6d768b-1ffa-555b-801a-d8a2b5fdefdb",
+   "lemma": "you're welcome",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "you're welcome",
+    "you are welcome"
+   ],
+   "kind": "formula",
+   "glossEn": "polite reply to thanks",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "637819d2-4aa2-5e5e-8ae8-0375847efc9b",
+   "lemma": "excuse me",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "excuse me"
+   ],
+   "kind": "formula",
+   "glossEn": "polite way to get attention or apologize",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "c30022f4-82c8-5ab5-8cf6-5066123fc9dd",
+   "lemma": "I'm sorry",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I'm sorry",
+    "I am sorry",
+    "sorry"
+   ],
+   "kind": "formula",
+   "glossEn": "apology or expression of sympathy",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "2370310a-bdfd-586f-846d-d1b9dbc57814",
+   "lemma": "no problem",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "no problem",
+    "not a problem"
+   ],
+   "kind": "formula",
+   "glossEn": "reply meaning it is fine or no trouble",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "1963ac52-ee9d-547c-88d2-0e255ab7d6e6",
+   "lemma": "of course",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "of course"
+   ],
+   "kind": "formula",
+   "glossEn": "yes, certainly; naturally",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "2a64883d-30b6-59cf-9dc8-6f2d1cb050b5",
+   "lemma": "here you are",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "here you are"
+   ],
+   "kind": "formula",
+   "glossEn": "said when handing something to someone",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "18f757c0-f676-5dda-96a2-211b30c0cefd",
+   "lemma": "how much is it",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "how much is it",
+    "how much is this"
+   ],
+   "kind": "formula",
+   "glossEn": "asking the price of something",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "e9699178-0ff4-5c28-a294-ca7655904c36",
+   "lemma": "I don't know",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I don't know",
+    "I do not know"
+   ],
+   "kind": "formula",
+   "glossEn": "saying you have no answer or information",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "276562e1-abe4-5cd9-956a-c46b478d9f3e",
+   "lemma": "I don't understand",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I don't understand",
+    "I do not understand"
+   ],
+   "kind": "formula",
+   "glossEn": "saying you cannot follow what was said",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "547c1029-f874-5b9f-a2b8-f5c39d979dae",
+   "lemma": "can you help me",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "can you help me",
+    "could you help me"
+   ],
+   "kind": "formula",
+   "glossEn": "simple request for help",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "cc338983-ada0-5035-8702-ff66326f7e8d",
+   "lemma": "come in",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "come in",
+    "please come in"
+   ],
+   "kind": "formula",
+   "glossEn": "inviting someone to enter",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "d33aa550-169d-5b88-a0f8-fa7771b31d13",
+   "lemma": "I'd like",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I'd like",
+    "I would like"
+   ],
+   "kind": "formula",
+   "glossEn": "polite way to say what you want",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "d72d56d6-c97b-5fa3-bde8-75c7c3f76f73",
+   "lemma": "that's right",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "that's right",
+    "that is right"
+   ],
+   "kind": "formula",
+   "glossEn": "confirming something is correct",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "ec35ad1d-c2f1-5ddd-9020-d1cf59267419",
+   "lemma": "that's all",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "that's all",
+    "that is all",
+    "that's all, thanks"
+   ],
+   "kind": "formula",
+   "glossEn": "saying nothing more is needed or wanted",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "c81f963b-ff87-583c-81f9-729d62caeb53",
+   "lemma": "not at all",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "not at all"
+   ],
+   "kind": "formula",
+   "glossEn": "polite reply to thanks or an apology; no",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "1bba0d38-1665-5a4f-8365-a94aa5ab90a1",
+   "lemma": "have a nice day",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have a nice day",
+    "have a good day"
+   ],
+   "kind": "formula",
+   "glossEn": "friendly parting wish",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "85f1e821-00d0-5eb6-92c5-ba8d5420cb81",
+   "lemma": "take care",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take care",
+    "take care of yourself"
+   ],
+   "kind": "formula",
+   "glossEn": "warm informal goodbye",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "8bdbedfe-b360-58d4-a912-9a7f387a07b1",
+   "lemma": "happy birthday",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "happy birthday"
+   ],
+   "kind": "formula",
+   "glossEn": "birthday greeting",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "945f80ad-9bac-5bc5-922e-adb9a3eb41ee",
+   "lemma": "merry Christmas",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "merry Christmas",
+    "happy Christmas"
+   ],
+   "kind": "formula",
+   "glossEn": "Christmas greeting",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "91e3c280-1e28-5922-bf9a-37badbc5b20c",
+   "lemma": "happy new year",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "happy new year"
+   ],
+   "kind": "formula",
+   "glossEn": "New Year greeting",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "beff39b9-e80b-5ce0-9c36-428a861fe120",
+   "lemma": "what time is it",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "what time is it",
+    "what's the time"
+   ],
+   "kind": "formula",
+   "glossEn": "asking the current time",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "ad84c549-dfbf-5a43-9017-70680e40180d",
+   "lemma": "how do you spell it",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "how do you spell it",
+    "how do you spell that",
+    "could you spell that"
+   ],
+   "kind": "formula",
+   "glossEn": "asking for the spelling of a word",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "ca6a43a1-faa3-5bb9-800c-ee9ab4a27623",
+   "lemma": "can you repeat that",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "can you repeat that",
+    "could you repeat that",
+    "could you say that again"
+   ],
+   "kind": "formula",
+   "glossEn": "asking someone to say something again",
+   "topics": [
+    "communication"
+   ]
+  }
+ ]
+}

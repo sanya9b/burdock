@@ -1,0 +1,611 @@
+{
+ "chunk": "B2-P01",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "2171b368-2ce4-563a-a540-d5e50fc740bb",
+   "lemma": "odds and ends",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "odds and ends"
+   ],
+   "kind": "binomial",
+   "glossEn": "small miscellaneous items left over",
+   "topics": []
+  },
+  {
+   "id": "54f07d64-5889-5766-97a3-d2348d18a286",
+   "lemma": "sooner rather than later",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sooner rather than later"
+   ],
+   "kind": "binomial",
+   "glossEn": "soon, without much delay",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "9e3de74d-ec99-5020-8da7-30d7717bcbe3",
+   "lemma": "rules and regulations",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rules and regulations"
+   ],
+   "kind": "binomial",
+   "glossEn": "official rules, often seen as excessive",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "0fdfdb61-6baf-53d3-a774-b98ffbaf5529",
+   "lemma": "supply and demand",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "supply and demand"
+   ],
+   "kind": "binomial",
+   "glossEn": "economic balance of goods offered and wanted",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "2639944f-0c0f-5786-83f5-7905608ad495",
+   "lemma": "profit and loss",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "profit and loss",
+    "P&L"
+   ],
+   "kind": "binomial",
+   "glossEn": "financial gains and losses of a business",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "6edd6934-eb84-5f89-93fe-cdf44efa731a",
+   "lemma": "research and development",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "research and development",
+    "R&D"
+   ],
+   "kind": "binomial",
+   "glossEn": "company work on new products and ideas",
+   "topics": [
+    "work",
+    "it"
+   ]
+  },
+  {
+   "id": "372a1359-b5dd-5497-a5b0-2f14df05058c",
+   "lemma": "law and order",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "law and order"
+   ],
+   "kind": "binomial",
+   "glossEn": "situation where laws are obeyed",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "dfcee26c-4e30-5e08-896f-af3700402036",
+   "lemma": "short and sweet",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "short and sweet"
+   ],
+   "kind": "binomial",
+   "glossEn": "brief and pleasant, to the point",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "12074686-0d6e-50fa-a24d-a4a9bccf8dd7",
+   "lemma": "far and wide",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "far and wide"
+   ],
+   "kind": "binomial",
+   "glossEn": "over a large area, everywhere",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "e8e3208f-8c23-55d4-8e0e-718e1e192937",
+   "lemma": "high and low",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "high and low",
+    "search high and low"
+   ],
+   "kind": "binomial",
+   "glossEn": "everywhere, when searching thoroughly",
+   "topics": []
+  },
+  {
+   "id": "fee62e1b-cbdb-547f-869d-35728ca64673",
+   "lemma": "life and death",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "life and death",
+    "a matter of life and death",
+    "life-and-death"
+   ],
+   "kind": "binomial",
+   "glossEn": "extremely serious, involving survival",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "6561540f-06b1-5f3e-8bd1-c2c7cf9f46fc",
+   "lemma": "tried and tested",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tried and tested",
+    "tried and true",
+    "tried-and-tested"
+   ],
+   "kind": "binomial",
+   "glossEn": "proven reliable by experience",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "6d121a03-ba00-5730-8854-0a7e86538640",
+   "lemma": "cause and effect",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cause and effect",
+    "cause-and-effect"
+   ],
+   "kind": "binomial",
+   "glossEn": "relationship between an action and its result",
+   "topics": []
+  },
+  {
+   "id": "5530a351-29f4-58e1-931e-301b8b21437c",
+   "lemma": "hustle and bustle",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hustle and bustle"
+   ],
+   "kind": "binomial",
+   "glossEn": "busy, noisy activity of a place",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "7b7319d2-d87f-598e-bd63-c4f621bd1d53",
+   "lemma": "bits and pieces",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bits and pieces",
+    "bits and bobs"
+   ],
+   "kind": "binomial",
+   "glossEn": "small assorted things or tasks",
+   "topics": []
+  },
+  {
+   "id": "a0329dea-39e0-5f00-a094-22ec5ccc361a",
+   "lemma": "ins and outs",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ins and outs",
+    "the ins and outs of sth"
+   ],
+   "kind": "binomial",
+   "glossEn": "all the details of how something works",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "35086fe6-1216-5a74-87cb-ceba59a47e18",
+   "lemma": "dos and don'ts",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dos and don'ts",
+    "do's and don'ts"
+   ],
+   "kind": "binomial",
+   "glossEn": "rules about what to do and avoid",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "905c133f-a793-5245-87e5-fac4786b244a",
+   "lemma": "each and every",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "each and every",
+    "each and every one"
+   ],
+   "kind": "binomial",
+   "glossEn": "every single one, for emphasis",
+   "topics": []
+  },
+  {
+   "id": "54b14671-cf57-5111-9dbf-37989e0e1b93",
+   "lemma": "all or nothing",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "all or nothing",
+    "all-or-nothing"
+   ],
+   "kind": "binomial",
+   "glossEn": "complete success or total failure, no middle",
+   "topics": []
+  },
+  {
+   "id": "dd85e070-5c2f-561e-82e5-66909ac0fa82",
+   "lemma": "make or break",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make or break",
+    "make-or-break"
+   ],
+   "kind": "binomial",
+   "glossEn": "deciding complete success or failure",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "3fb96a1e-6e69-5384-8ea5-7dca06be3897",
+   "lemma": "take it or leave it",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take it or leave it",
+    "take-it-or-leave-it"
+   ],
+   "kind": "binomial",
+   "glossEn": "accept the offer as it is or refuse",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "2a50a9ab-2053-5da5-8394-a678717f15b5",
+   "lemma": "hit or miss",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hit or miss",
+    "hit-or-miss",
+    "hit-and-miss"
+   ],
+   "kind": "binomial",
+   "glossEn": "unpredictable in quality, sometimes good",
+   "topics": []
+  },
+  {
+   "id": "9a2bd54e-3acc-50e0-ae60-38fa988121ef",
+   "lemma": "heart and soul",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heart and soul",
+    "put one's heart and soul into sth"
+   ],
+   "kind": "binomial",
+   "glossEn": "with all one's energy and devotion",
+   "topics": []
+  },
+  {
+   "id": "67d12da0-8396-5213-803c-ba04296f19a0",
+   "lemma": "flesh and blood",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flesh and blood",
+    "one's own flesh and blood"
+   ],
+   "kind": "binomial",
+   "glossEn": "one's own family; a real human being",
+   "topics": []
+  },
+  {
+   "id": "74452dbe-fb09-5b75-9ab1-3ad53cc6ddef",
+   "lemma": "slowly but surely",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "slowly but surely"
+   ],
+   "kind": "binomial",
+   "glossEn": "gradually but with steady progress",
+   "topics": []
+  },
+  {
+   "id": "1bc09e92-9102-51a9-98df-49cf959200fd",
+   "lemma": "live and learn",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "live and learn",
+    "you live and learn"
+   ],
+   "kind": "binomial",
+   "glossEn": "said after learning from a mistake",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "ae6df117-8b15-5129-b2b9-d7d5211d24f3",
+   "lemma": "meet and greet",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "meet and greet",
+    "meet-and-greet"
+   ],
+   "kind": "binomial",
+   "glossEn": "event for welcoming and talking to people",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "736ef646-1257-59d5-b3a3-7172acc84eaa",
+   "lemma": "forgive and forget",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "forgive and forget"
+   ],
+   "kind": "binomial",
+   "glossEn": "stop blaming and let go of a wrong",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "3cdd00f7-6109-5352-b96a-973b8afd8304",
+   "lemma": "thick and thin",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "thick and thin",
+    "through thick and thin"
+   ],
+   "kind": "binomial",
+   "glossEn": "in good times and bad, loyally",
+   "topics": []
+  },
+  {
+   "id": "abb1c6b4-3d13-5dbe-9f23-ba1cce848ac1",
+   "lemma": "bricks and mortar",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bricks and mortar",
+    "brick-and-mortar",
+    "bricks-and-mortar"
+   ],
+   "kind": "binomial",
+   "glossEn": "physical buildings or shops, not online",
+   "topics": [
+    "shopping",
+    "it"
+   ]
+  },
+  {
+   "id": "4fd12b98-9e62-548a-b3f1-4e51ac3c57f9",
+   "lemma": "pins and needles",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pins and needles",
+    "on pins and needles"
+   ],
+   "kind": "binomial",
+   "glossEn": "tingling feeling in a numb limb",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "42e76142-e005-54c1-a754-efe94c879007",
+   "lemma": "aches and pains",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aches and pains"
+   ],
+   "kind": "binomial",
+   "glossEn": "minor bodily discomforts",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "bbf42fc8-6ee8-5555-8403-347340d4d317",
+   "lemma": "facts and figures",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "facts and figures"
+   ],
+   "kind": "binomial",
+   "glossEn": "precise data and statistics",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "919afd18-09de-5a72-80ef-09678cb46c34",
+   "lemma": "goods and services",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "goods and services"
+   ],
+   "kind": "binomial",
+   "glossEn": "products and work sold in an economy",
+   "topics": [
+    "work",
+    "shopping"
+   ]
+  },
+  {
+   "id": "929f7609-bce8-56fb-8568-0cd7cb770016",
+   "lemma": "health and safety",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "health and safety"
+   ],
+   "kind": "binomial",
+   "glossEn": "rules protecting people at work",
+   "topics": [
+    "work",
+    "health"
+   ]
+  },
+  {
+   "id": "0fab6b72-3a3e-56c0-8bfc-0055b873497e",
+   "lemma": "search and rescue",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "search and rescue",
+    "search-and-rescue"
+   ],
+   "kind": "binomial",
+   "glossEn": "operation to find and save people in danger",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "6baedf3f-0ac8-5b2d-9287-39e40ef2f523",
+   "lemma": "black and blue",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "black and blue"
+   ],
+   "kind": "binomial",
+   "glossEn": "covered in bruises",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "0969be57-37d6-5915-9354-f09043cbce80",
+   "lemma": "blood, sweat and tears",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blood, sweat and tears",
+    "blood, sweat, and tears"
+   ],
+   "kind": "binomial",
+   "glossEn": "very hard work and great effort",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "e61e5631-48a3-5852-9251-9273ad05dbf2",
+   "lemma": "tall, dark and handsome",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tall, dark and handsome"
+   ],
+   "kind": "binomial",
+   "glossEn": "stereotypically attractive man",
+   "topics": []
+  },
+  {
+   "id": "2d5f0cab-8eda-5729-b242-6c97b242bd73",
+   "lemma": "morning, noon and night",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "morning, noon and night"
+   ],
+   "kind": "binomial",
+   "glossEn": "all day long, constantly",
+   "topics": []
+  }
+ ]
+}

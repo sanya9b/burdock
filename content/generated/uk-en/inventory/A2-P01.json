@@ -1,0 +1,613 @@
+{
+ "chunk": "A2-P01",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "e4409c30-9aac-51f7-9664-7aeb5bc1b42a",
+   "lemma": "make a decision",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a decision",
+    "make decisions"
+   ],
+   "kind": "collocation",
+   "glossEn": "choose what to do after thinking",
+   "topics": []
+  },
+  {
+   "id": "5480819f-0106-56d7-a941-d6c042f91868",
+   "lemma": "make money",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make money"
+   ],
+   "kind": "collocation",
+   "glossEn": "earn or gain money",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "33db917d-9d64-52dc-9f26-2e2f776d7225",
+   "lemma": "make an effort",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make an effort",
+    "make an effort to do sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "try hard to do something",
+   "topics": []
+  },
+  {
+   "id": "c44861b4-6b32-5394-8d9c-c0d87056e876",
+   "lemma": "make a noise",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a noise",
+    "make noise"
+   ],
+   "kind": "collocation",
+   "glossEn": "produce a loud or unwanted sound",
+   "topics": []
+  },
+  {
+   "id": "321ca326-79ef-5c63-856b-8175cfaee0dd",
+   "lemma": "make a plan",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a plan",
+    "make plans"
+   ],
+   "kind": "collocation",
+   "glossEn": "decide in detail what you will do",
+   "topics": []
+  },
+  {
+   "id": "afbec836-7b35-5fee-aac9-c8ec2ce1d6af",
+   "lemma": "make an appointment",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make an appointment",
+    "book an appointment"
+   ],
+   "kind": "collocation",
+   "glossEn": "arrange a time to see someone",
+   "topics": [
+    "health",
+    "work"
+   ]
+  },
+  {
+   "id": "234ef14b-2794-57eb-855e-72c2c682796f",
+   "lemma": "make a reservation",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a reservation",
+    "make a booking"
+   ],
+   "kind": "collocation",
+   "glossEn": "book a table, room or seat in advance",
+   "topics": [
+    "travel",
+    "food"
+   ]
+  },
+  {
+   "id": "e14a2c68-c9ef-541e-956e-4bc76d0411ed",
+   "lemma": "make a choice",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a choice",
+    "make choices"
+   ],
+   "kind": "collocation",
+   "glossEn": "choose between options",
+   "topics": []
+  },
+  {
+   "id": "211ac97f-d3be-5462-a337-e9a3fa8f3a57",
+   "lemma": "make dinner",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make dinner",
+    "cook dinner",
+    "make lunch"
+   ],
+   "kind": "collocation",
+   "glossEn": "cook the evening meal",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "3f6354ac-50a0-514b-9945-ecc8f88976a5",
+   "lemma": "make a wish",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a wish"
+   ],
+   "kind": "collocation",
+   "glossEn": "silently ask for something you hope for",
+   "topics": []
+  },
+  {
+   "id": "4381a8dd-d861-5dd8-a2f8-19402795b1a3",
+   "lemma": "make progress",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make progress"
+   ],
+   "kind": "collocation",
+   "glossEn": "improve or move forward",
+   "topics": []
+  },
+  {
+   "id": "8b93f0ef-a949-5771-afaa-022d816539a9",
+   "lemma": "make sense",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make sense"
+   ],
+   "kind": "collocation",
+   "glossEn": "be understandable or logical",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "bff62bdb-acec-5e3a-b384-2baac399e46c",
+   "lemma": "make sure",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make sure",
+    "make sure that",
+    "make certain"
+   ],
+   "kind": "collocation",
+   "glossEn": "check so that something is certain",
+   "topics": []
+  },
+  {
+   "id": "703f06b3-ae49-58b8-b6dd-d2fdf03123e9",
+   "lemma": "make a difference",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a difference",
+    "make a big difference"
+   ],
+   "kind": "collocation",
+   "glossEn": "have an important effect",
+   "topics": []
+  },
+  {
+   "id": "b8793f31-37c6-5589-8154-68e82cb9d3c9",
+   "lemma": "make a note",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a note",
+    "make a note of sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "write something down to remember it",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "9fb7b730-73ba-57a2-957f-7f7d5ab09035",
+   "lemma": "make a copy",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a copy",
+    "make copies"
+   ],
+   "kind": "collocation",
+   "glossEn": "produce a duplicate of a document",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "21a91893-a87f-5bfc-8c63-11f469a834c8",
+   "lemma": "make an excuse",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make an excuse",
+    "make excuses"
+   ],
+   "kind": "collocation",
+   "glossEn": "give a reason to avoid blame or a duty",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "e7749480-f17e-54f5-a2ed-9f65c258e4a3",
+   "lemma": "make an offer",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make an offer",
+    "make sb an offer"
+   ],
+   "kind": "collocation",
+   "glossEn": "say how much you will pay or give",
+   "topics": [
+    "shopping",
+    "work"
+   ]
+  },
+  {
+   "id": "b964fb0b-152a-5578-b9ff-4b35f01f2fb9",
+   "lemma": "make a payment",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a payment",
+    "make payments"
+   ],
+   "kind": "collocation",
+   "glossEn": "pay an amount of money",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "62e6d89b-17d5-5e1e-aad8-bf52f832b4e6",
+   "lemma": "make a suggestion",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a suggestion",
+    "make suggestions"
+   ],
+   "kind": "collocation",
+   "glossEn": "propose an idea for others to consider",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "90d9b8d9-631e-5da3-847f-be5798837219",
+   "lemma": "make a promise",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a promise",
+    "make promises"
+   ],
+   "kind": "collocation",
+   "glossEn": "say firmly that you will do something",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "76cdb0fd-950a-5112-8438-a5c006a311c3",
+   "lemma": "tell a joke",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tell a joke",
+    "make a joke",
+    "tell jokes"
+   ],
+   "kind": "collocation",
+   "glossEn": "say something funny to make people laugh",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "e8ff1230-2302-5dea-83c8-b262a5cbdc09",
+   "lemma": "do your best",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "do your best",
+    "do my best",
+    "try your best"
+   ],
+   "kind": "collocation",
+   "glossEn": "try as hard as you can",
+   "topics": []
+  },
+  {
+   "id": "cd5fc9da-272c-5875-9dcf-3a381532a67e",
+   "lemma": "do business",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "do business",
+    "do business with sb"
+   ],
+   "kind": "collocation",
+   "glossEn": "buy and sell as a company",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "0017d15c-cded-592b-87c5-b10bf8336786",
+   "lemma": "do sb a favor",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "do sb a favor",
+    "do a favor",
+    "do sb a favour"
+   ],
+   "kind": "collocation",
+   "glossEn": "help someone with a kind act",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "80313f0c-4dc1-5abf-ae77-f62f2496811d",
+   "lemma": "do a good job",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "do a good job",
+    "do a great job"
+   ],
+   "kind": "collocation",
+   "glossEn": "complete work well",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "9b7ad1c4-4c4d-57d4-a57e-73f4961e6138",
+   "lemma": "do a course",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "do a course",
+    "take a course",
+    "do a course in sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "study a series of lessons",
+   "topics": []
+  },
+  {
+   "id": "db194337-266b-509e-bd6c-7cd369255ea2",
+   "lemma": "do the cooking",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "do the cooking"
+   ],
+   "kind": "collocation",
+   "glossEn": "prepare meals as a household task",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "97f8e619-c100-5b08-b53d-b0217cbc1289",
+   "lemma": "do the ironing",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "do the ironing"
+   ],
+   "kind": "collocation",
+   "glossEn": "press clothes with an iron",
+   "topics": []
+  },
+  {
+   "id": "ed3683da-c2c4-5aec-9e52-1fa5c66e749b",
+   "lemma": "do the housework",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "do the housework",
+    "do housework"
+   ],
+   "kind": "collocation",
+   "glossEn": "clean and tidy the home",
+   "topics": []
+  },
+  {
+   "id": "61e9ab6e-4501-5622-acf2-43e498f337d2",
+   "lemma": "do a puzzle",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "do a puzzle",
+    "do a crossword"
+   ],
+   "kind": "collocation",
+   "glossEn": "solve a puzzle for fun",
+   "topics": []
+  },
+  {
+   "id": "96150c9e-eb1c-5cfc-833b-99e7ef962973",
+   "lemma": "do well",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "do well",
+    "do well in sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "be successful in something",
+   "topics": []
+  },
+  {
+   "id": "b429bea1-80ad-54be-bc07-d6d96200ebb3",
+   "lemma": "take a nap",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take a nap",
+    "have a nap"
+   ],
+   "kind": "collocation",
+   "glossEn": "sleep for a short time during the day",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "1a73f92e-107a-53ae-a8fb-0cd178689272",
+   "lemma": "take notes",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take notes",
+    "make notes"
+   ],
+   "kind": "collocation",
+   "glossEn": "write down key points while listening",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "61902f39-20ed-5a41-8fb4-c369cd006e6e",
+   "lemma": "take a test",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take a test",
+    "do a test"
+   ],
+   "kind": "collocation",
+   "glossEn": "answer questions to show your knowledge",
+   "topics": []
+  },
+  {
+   "id": "97f994ea-3013-5ddb-9c7d-76bbbbb12ba2",
+   "lemma": "take an exam",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take an exam",
+    "sit an exam",
+    "do an exam"
+   ],
+   "kind": "collocation",
+   "glossEn": "sit a formal examination",
+   "topics": []
+  },
+  {
+   "id": "c80dec3b-6835-5a4e-8e74-7d0e9c46e0bd",
+   "lemma": "pass an exam",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pass an exam",
+    "pass a test"
+   ],
+   "kind": "collocation",
+   "glossEn": "succeed in an examination",
+   "topics": []
+  },
+  {
+   "id": "03a6c407-ec36-5eb4-9861-c4fe1344e47d",
+   "lemma": "fail an exam",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fail an exam",
+    "fail a test"
+   ],
+   "kind": "collocation",
+   "glossEn": "not succeed in an examination",
+   "topics": []
+  },
+  {
+   "id": "df7bde92-0823-5fbc-8c23-05e8b4187d3c",
+   "lemma": "take a trip",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take a trip",
+    "go on a trip",
+    "make a trip"
+   ],
+   "kind": "collocation",
+   "glossEn": "travel somewhere for a short time",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "f20d4def-f3d2-5be4-a7f7-b2b8b7a3ba03",
+   "lemma": "catch a flight",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "catch a flight",
+    "catch a plane"
+   ],
+   "kind": "collocation",
+   "glossEn": "get to the airport in time for a plane",
+   "topics": [
+    "travel"
+   ]
+  }
+ ]
+}

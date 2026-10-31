@@ -1,0 +1,633 @@
+{
+ "chunk": "B2-P11",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "5be503bf-0d76-5717-b3b1-de42956ce5ba",
+   "lemma": "play devil's advocate",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "play devil's advocate",
+    "devil's advocate"
+   ],
+   "kind": "idiom",
+   "glossEn": "argue the opposite side to test an idea",
+   "topics": [
+    "communication",
+    "work"
+   ]
+  },
+  {
+   "id": "a550e258-3042-5766-986e-bb365363eccb",
+   "lemma": "get the green light",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get the green light",
+    "give sb the green light",
+    "the green light"
+   ],
+   "kind": "idiom",
+   "glossEn": "receive permission to start",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "39343069-e91a-5283-9c18-20a1a14ab4e8",
+   "lemma": "play one's cards right",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "play one's cards right",
+    "play your cards right"
+   ],
+   "kind": "idiom",
+   "glossEn": "act cleverly to get what you want",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "8cf4d9a4-c385-57c4-959f-bbe387cc1e7f",
+   "lemma": "play second fiddle",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "play second fiddle",
+    "second fiddle"
+   ],
+   "kind": "idiom",
+   "glossEn": "be less important than someone else",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "8d40bf1e-00f0-5925-bdbd-0b4f6f55ee01",
+   "lemma": "a pipe dream",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a pipe dream",
+    "pipe dream"
+   ],
+   "kind": "idiom",
+   "glossEn": "hope or plan that is impossible",
+   "topics": []
+  },
+  {
+   "id": "8ff88eea-2712-5529-8a5c-5e037932fae9",
+   "lemma": "the point of no return",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "the point of no return",
+    "point of no return"
+   ],
+   "kind": "idiom",
+   "glossEn": "stage after which you cannot go back",
+   "topics": []
+  },
+  {
+   "id": "6e819cad-1a3d-58c5-9f33-744c0426df1a",
+   "lemma": "pour cold water on sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pour cold water on sth",
+    "pour cold water on",
+    "throw cold water on"
+   ],
+   "kind": "idiom",
+   "glossEn": "discourage enthusiasm for an idea",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  },
+  {
+   "id": "241dbfba-6268-55a9-b6a8-fccc56658c07",
+   "lemma": "pull one's weight",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pull one's weight",
+    "pull your weight"
+   ],
+   "kind": "idiom",
+   "glossEn": "do your fair share of the work",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "d446235f-1c90-53f1-9165-76bbd0193cf2",
+   "lemma": "pull the rug out from under sb",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pull the rug out from under sb",
+    "pull the rug out from under sb's feet"
+   ],
+   "kind": "idiom",
+   "glossEn": "suddenly remove someone's support",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "8312718a-e603-5c7c-81dc-1386d836fad2",
+   "lemma": "push one's luck",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "push one's luck",
+    "push your luck",
+    "press one's luck"
+   ],
+   "kind": "idiom",
+   "glossEn": "take more risks after being lucky",
+   "topics": []
+  },
+  {
+   "id": "8ee3b4f0-648b-57a1-90e8-b40c66e1ce8c",
+   "lemma": "put one's money where one's mouth is",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "put one's money where one's mouth is",
+    "put your money where your mouth is"
+   ],
+   "kind": "idiom",
+   "glossEn": "back up words with action or money",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "7bb8499e-f281-5641-ab6f-78e3467a0ed3",
+   "lemma": "put the cart before the horse",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "put the cart before the horse"
+   ],
+   "kind": "idiom",
+   "glossEn": "do things in the wrong order",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "a815599e-f160-52aa-99b7-75de75858f5c",
+   "lemma": "a red flag",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a red flag",
+    "red flag",
+    "red flags"
+   ],
+   "kind": "idiom",
+   "glossEn": "warning sign of a problem",
+   "topics": [
+    "work",
+    "health"
+   ]
+  },
+  {
+   "id": "ad1eb754-4e0a-5cb2-908d-24413097e721",
+   "lemma": "reinvent the wheel",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reinvent the wheel"
+   ],
+   "kind": "idiom",
+   "glossEn": "waste effort creating something that exists",
+   "topics": [
+    "work",
+    "it"
+   ]
+  },
+  {
+   "id": "46b39ae7-d2e1-5ca7-9353-ee3b593fab08",
+   "lemma": "rest on one's laurels",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rest on one's laurels",
+    "rest on your laurels"
+   ],
+   "kind": "idiom",
+   "glossEn": "stop trying because of past success",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "f95205d9-7930-50af-9cce-f4067318f68b",
+   "lemma": "rub salt in the wound",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rub salt in the wound",
+    "rub salt into the wound"
+   ],
+   "kind": "idiom",
+   "glossEn": "make someone's pain or shame worse",
+   "topics": []
+  },
+  {
+   "id": "3e24e05f-bf22-54b1-b403-18a6ecca33ae",
+   "lemma": "rub sb the wrong way",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rub sb the wrong way",
+    "rub sb up the wrong way"
+   ],
+   "kind": "idiom",
+   "glossEn": "annoy someone without intending to",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "713df7b6-077e-55a3-9f87-5eedb55f56c8",
+   "lemma": "run its course",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "run its course",
+    "let sth run its course"
+   ],
+   "kind": "idiom",
+   "glossEn": "develop and end naturally",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "9efb1955-3374-5513-874a-cc9d21c5e016",
+   "lemma": "scrape the bottom of the barrel",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scrape the bottom of the barrel",
+    "scrape the barrel"
+   ],
+   "kind": "idiom",
+   "glossEn": "use the worst option because nothing better remains",
+   "topics": []
+  },
+  {
+   "id": "23515bbd-2443-5ee7-b6b1-a3fc94e070b9",
+   "lemma": "the big picture",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "the big picture",
+    "see the big picture",
+    "the bigger picture"
+   ],
+   "kind": "idiom",
+   "glossEn": "whole situation rather than details",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "67a17e5d-0ed7-50b3-8c59-3052da7b8b02",
+   "lemma": "a recipe for disaster",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a recipe for disaster",
+    "recipe for disaster"
+   ],
+   "kind": "idiom",
+   "glossEn": "situation certain to end badly",
+   "topics": []
+  },
+  {
+   "id": "3efa38b4-9db6-55be-8439-8eaadaac6a21",
+   "lemma": "set the record straight",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "set the record straight",
+    "put the record straight"
+   ],
+   "kind": "idiom",
+   "glossEn": "correct a false impression",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "50a2a129-9b72-5869-8d10-c1fb36770f14",
+   "lemma": "shoot oneself in the foot",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shoot oneself in the foot",
+    "shoot yourself in the foot"
+   ],
+   "kind": "idiom",
+   "glossEn": "harm your own interests by mistake",
+   "topics": []
+  },
+  {
+   "id": "8480edf9-ec2a-561d-a3e3-3f861adc216e",
+   "lemma": "a shot in the dark",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a shot in the dark",
+    "shot in the dark"
+   ],
+   "kind": "idiom",
+   "glossEn": "guess with little information",
+   "topics": []
+  },
+  {
+   "id": "0cee7d72-21b9-5810-9a84-8826b657b46b",
+   "lemma": "show one's true colors",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "show one's true colors",
+    "show one's true colours",
+    "true colors"
+   ],
+   "kind": "idiom",
+   "glossEn": "reveal your real character",
+   "topics": []
+  },
+  {
+   "id": "74fe3927-6c66-5698-b4ee-baaa8552f0a2",
+   "lemma": "a skeleton in the closet",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a skeleton in the closet",
+    "a skeleton in the cupboard",
+    "skeletons in the closet"
+   ],
+   "kind": "idiom",
+   "glossEn": "embarrassing secret from the past",
+   "topics": []
+  },
+  {
+   "id": "d8eb3442-2f64-5f0b-a808-949682ce9db2",
+   "lemma": "a slippery slope",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a slippery slope",
+    "slippery slope"
+   ],
+   "kind": "idiom",
+   "glossEn": "action likely to lead to worse things",
+   "topics": []
+  },
+  {
+   "id": "0dba189a-6cf9-5dd1-a098-a8598f5ccc4a",
+   "lemma": "steal the show",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "steal the show",
+    "steal the spotlight"
+   ],
+   "kind": "idiom",
+   "glossEn": "attract the most attention and praise",
+   "topics": []
+  },
+  {
+   "id": "78dde2b4-0bdb-59c3-bd2d-656cf42c0b3d",
+   "lemma": "steal sb's thunder",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "steal sb's thunder",
+    "steal my thunder"
+   ],
+   "kind": "idiom",
+   "glossEn": "take attention or credit that belongs to someone else",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "2a546326-cc9b-5119-af07-a28675742550",
+   "lemma": "up one's game",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "up one's game",
+    "step up one's game",
+    "raise one's game"
+   ],
+   "kind": "idiom",
+   "glossEn": "improve your performance",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "2b35dafc-4dc5-56ca-b01f-98e4cef75c5f",
+   "lemma": "stick one's neck out",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stick one's neck out",
+    "stick your neck out"
+   ],
+   "kind": "idiom",
+   "glossEn": "take a risk by expressing an opinion",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "6662e63f-f4fe-55b6-a2f9-f4dc46cda8cb",
+   "lemma": "a stepping stone",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a stepping stone",
+    "stepping stone",
+    "a stepping stone to sth"
+   ],
+   "kind": "idiom",
+   "glossEn": "stage that helps you reach a bigger goal",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "87ca18a5-5bc1-5280-9c49-5e244b03b757",
+   "lemma": "swallow one's pride",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "swallow one's pride",
+    "swallow your pride"
+   ],
+   "kind": "idiom",
+   "glossEn": "accept something humiliating",
+   "topics": []
+  },
+  {
+   "id": "0365ec26-6d4c-52e7-b23a-89f557aa1752",
+   "lemma": "sweep sth under the rug",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sweep sth under the rug",
+    "sweep sth under the carpet",
+    "brush sth under the carpet"
+   ],
+   "kind": "idiom",
+   "glossEn": "hide a problem instead of dealing with it",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "e6a81f04-e5c7-58c1-bd50-e06fb2af0e47",
+   "lemma": "take a back seat",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take a back seat",
+    "take a backseat"
+   ],
+   "kind": "idiom",
+   "glossEn": "let others lead, become less involved",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "543e5b73-fcb2-55f5-bcc7-a3bf2df4a2d6",
+   "lemma": "take a toll on sb",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take a toll on sb",
+    "take a toll on",
+    "take its toll",
+    "take its toll on sb"
+   ],
+   "kind": "idiom",
+   "glossEn": "cause gradual harm or damage",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "95949811-82f5-5769-956e-83e1e9a25ea1",
+   "lemma": "take the plunge",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take the plunge"
+   ],
+   "kind": "idiom",
+   "glossEn": "finally decide to do something risky",
+   "topics": []
+  },
+  {
+   "id": "523869a6-f5c8-563e-a6b8-d9246fd0f149",
+   "lemma": "take sth at face value",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take sth at face value",
+    "at face value"
+   ],
+   "kind": "idiom",
+   "glossEn": "accept something as it appears",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "f9095826-0b88-55b5-a6cc-8b0b4d3475e1",
+   "lemma": "tick all the boxes",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tick all the boxes",
+    "check all the boxes",
+    "tick the boxes"
+   ],
+   "kind": "idiom",
+   "glossEn": "meet every requirement",
+   "topics": [
+    "work",
+    "shopping"
+   ]
+  },
+  {
+   "id": "ada8fa7a-1300-5fd2-b44d-d5d5b8a921d8",
+   "lemma": "test the waters",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "test the waters",
+    "test the water"
+   ],
+   "kind": "idiom",
+   "glossEn": "try something carefully before committing",
+   "topics": [
+    "work"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,595 @@
+{
+ "chunk": "B2-P14",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "c31b5d13-5907-5d4f-8b99-f9a3e3994cd1",
+   "lemma": "boil down to sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "boil down to sth",
+    "boil down to"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "have as the most important point",
+   "topics": []
+  },
+  {
+   "id": "879e14f2-4165-5eab-937f-dc8582791fc5",
+   "lemma": "bring on sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bring on sth",
+    "bring on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "cause an illness or unpleasant situation",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "067b9918-df16-5144-b103-a19f9ab48f48",
+   "lemma": "butt in",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "butt in"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "interrupt a conversation rudely",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "f9ecfcbf-75c0-55eb-bbfc-c8086550199b",
+   "lemma": "buy out sb",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "buy out sb",
+    "buy out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "buy someone's share of a business",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "720a2301-d132-58d5-8b1a-c1b5996e166a",
+   "lemma": "carry over",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "carry over"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "continue into a later period",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "dde7bb19-d360-5cb0-9ab4-adfb24bdd60f",
+   "lemma": "cash in on sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cash in on sth",
+    "cash in on",
+    "cash in"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "profit from a situation, often unfairly",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "9121aad7-2992-5bf7-b7f8-fecb88800464",
+   "lemma": "catch on",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "catch on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "become popular; understand after a while",
+   "topics": []
+  },
+  {
+   "id": "ffb6f1bf-83e3-50bf-b78c-be18a0209d02",
+   "lemma": "chase up sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chase up sth",
+    "chase up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "remind someone to do something they promised",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "bf682322-125b-51c7-b996-830df14ec43c",
+   "lemma": "clamp down on sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "clamp down on sth",
+    "clamp down on",
+    "clamp down"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "enforce rules more strictly against something",
+   "topics": []
+  },
+  {
+   "id": "667daaf8-6384-5036-995c-8f29392457b1",
+   "lemma": "crack down on sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "crack down on sth",
+    "crack down on",
+    "crack down"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "take severe action against something illegal",
+   "topics": []
+  },
+  {
+   "id": "ede23b53-9d78-556d-8b5d-9f56392e9df4",
+   "lemma": "come about",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "come about"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "happen, especially unexpectedly",
+   "topics": []
+  },
+  {
+   "id": "ddfe9c90-e3f9-53a8-8489-689778ae0901",
+   "lemma": "come through",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "come through"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "survive a difficult time; arrive, of a document",
+   "topics": []
+  },
+  {
+   "id": "745c53cf-28e2-5fe2-9100-c74354af3e6c",
+   "lemma": "count sb in",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "count sb in",
+    "count in"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "include someone in an activity",
+   "topics": []
+  },
+  {
+   "id": "d08bad37-ab4f-5ec2-bc33-5507a6198d9c",
+   "lemma": "count sb out",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "count sb out",
+    "count out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "not include someone in an activity",
+   "topics": []
+  },
+  {
+   "id": "bbbbb258-9d0d-5abb-806d-609c13938eec",
+   "lemma": "crop up",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "crop up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "appear or happen unexpectedly",
+   "topics": []
+  },
+  {
+   "id": "1c00b643-5987-5195-aded-eab32ee2d5c6",
+   "lemma": "die down",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "die down"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "become quieter or less strong",
+   "topics": []
+  },
+  {
+   "id": "9c67439a-5a88-58be-8eea-287949e24b42",
+   "lemma": "die out",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "die out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "disappear completely; become extinct",
+   "topics": []
+  },
+  {
+   "id": "b993a882-dbf0-572a-91d2-8ccfb4c08bc3",
+   "lemma": "do away with sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "do away with sth",
+    "do away with"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "abolish or get rid of something",
+   "topics": []
+  },
+  {
+   "id": "69045c00-6e0c-58fa-a671-59bb074cb9c7",
+   "lemma": "drag on",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "drag on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "continue for too long",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "edb83302-4190-5958-80d9-5bf636eaa2b5",
+   "lemma": "draw up sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "draw up sth",
+    "draw up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "prepare a document, list or plan",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "a73a0d1f-036e-5b36-ac58-e3d2127583ba",
+   "lemma": "draw on sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "draw on sth",
+    "draw on",
+    "draw upon"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "use experience or resources",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "459e0b92-0907-5234-9c1c-e999ff6b79b3",
+   "lemma": "drive at sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "drive at sth",
+    "drive at"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "try to say indirectly",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "20714c7f-5c89-5bed-bb08-561d47cd187e",
+   "lemma": "ease off",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ease off",
+    "ease up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "become less intense; reduce effort or pressure",
+   "topics": []
+  },
+  {
+   "id": "eeab9d09-c7ad-5acf-b8d0-4e4cb2b626e6",
+   "lemma": "fall back on sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fall back on sth",
+    "fall back on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "use something when other things have failed",
+   "topics": []
+  },
+  {
+   "id": "02c54e99-cf1d-55e0-93e9-02d3fd25f38d",
+   "lemma": "follow through",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "follow through",
+    "follow through on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "complete what you started or promised",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "1e24438f-0e6e-5e95-84f9-6cbd7b56bb77",
+   "lemma": "follow up",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "follow up",
+    "follow up on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "take further action after something",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  },
+  {
+   "id": "a4dcb966-5d9a-5c0c-b2b6-781c9c346558",
+   "lemma": "get up to sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get up to sth",
+    "get up to"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "do something, often slightly bad or secret",
+   "topics": []
+  },
+  {
+   "id": "a4e4acb3-21e3-51a4-9fff-ff9b72379945",
+   "lemma": "hang back",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hang back"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "hesitate to move or act",
+   "topics": []
+  },
+  {
+   "id": "98704b83-7150-513e-9c42-3d0bc3aad331",
+   "lemma": "head off",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "head off"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "prevent something from happening; leave",
+   "topics": []
+  },
+  {
+   "id": "66795679-811b-5b5a-bc5f-3655ebbc0804",
+   "lemma": "hit back",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hit back"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "respond to an attack or criticism",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "c89ab457-102d-5749-87b5-f3ef47283abd",
+   "lemma": "hit on sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hit on sth",
+    "hit on",
+    "hit upon"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "discover an idea or solution by chance",
+   "topics": []
+  },
+  {
+   "id": "e174f986-52e9-56e2-b883-673601defedf",
+   "lemma": "hold sth against sb",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hold sth against sb",
+    "hold against"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "continue to resent someone for a past action",
+   "topics": []
+  },
+  {
+   "id": "9a49201e-cf49-518b-bf45-5432847060b2",
+   "lemma": "iron out sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "iron out sth",
+    "iron out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "resolve small problems or differences",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "716c1e14-bb86-5b6c-993b-c86392526c0d",
+   "lemma": "kick in",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "kick in"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "start to take effect",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "a413ce91-721b-5755-b7fc-593de415956a",
+   "lemma": "lash out",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lash out",
+    "lash out at"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "suddenly attack with words or blows",
+   "topics": []
+  },
+  {
+   "id": "57ac585e-3f2b-5bdd-805c-437050770f24",
+   "lemma": "latch on to sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "latch on to sth",
+    "latch on to",
+    "latch onto"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "understand and adopt an idea; attach yourself to",
+   "topics": []
+  },
+  {
+   "id": "f17af63f-1cc0-5748-a940-a54305a98527",
+   "lemma": "lay down sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lay down sth",
+    "lay down"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "officially establish rules; put down weapons",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "e7a9cbaf-ffe1-51af-8efa-fc94e679edf7",
+   "lemma": "lead up to sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lead up to sth",
+    "lead up to"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "happen before and cause an event",
+   "topics": []
+  },
+  {
+   "id": "dd16bf73-5888-5a3f-94ad-0fe3f4cda0fd",
+   "lemma": "let on",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "let on"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "reveal a secret, usually in the negative",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "0ba72ece-dc88-51f8-b361-4ca6128e9d3a",
+   "lemma": "level with sb",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "level with sb",
+    "level with"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "speak honestly to someone",
+   "topics": [
+    "communication"
+   ]
+  }
+ ]
+}

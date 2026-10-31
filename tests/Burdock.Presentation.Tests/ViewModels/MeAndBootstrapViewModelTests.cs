@@ -24,6 +24,13 @@ public sealed class MeViewModelTests
         vm.ShowRewards.ShouldBeTrue();
         vm.LevelText.ShouldBe(RewardsText.Level(1));
         vm.XpProgress.ShouldBe(0);
+        vm.GrowthStage.ShouldBe(GrowthStage.Seed);
+        vm.GrowthProgress.ShouldBe(0);
+        vm.StageName.ShouldBe(RewardsText.StageName(GrowthStage.Seed));
+        vm.GrowthCaption.ShouldBe(RewardsText.GrowthCaption(GrowthRules.For(0)));
+        vm.GrowthCaption.ShouldContain("100");
+        vm.GrowthCaption.ShouldContain(RewardsText.StageName(GrowthStage.Sprout));
+        vm.GrowthDescription.ShouldBe(RewardsText.GrowthDescription(GrowthStage.Seed));
         vm.Achievements.Count.ShouldBe(AchievementCatalog.All.Count);
         vm.AchievementRows.Count.ShouldBe((AchievementCatalog.All.Count + 1) / 2);
         vm.AchievementRows[^1].HasRight.ShouldBe(AchievementCatalog.All.Count % 2 == 0);
@@ -41,6 +48,32 @@ public sealed class MeViewModelTests
         await vm.LoadAsync(Ct);
 
         vm.ShowRewards.ShouldBeFalse();
+        vm.GrowthStage.ShouldBe(GrowthRules.Adult.Stage);
+        vm.GrowthProgress.ShouldBe(GrowthRules.Adult.Progress);
+        vm.GrowthDescription.ShouldBe(AppResources.Growth_A11y_Plain);
+    }
+
+    [Fact]
+    public async Task The_burr_shows_the_stage_of_the_learner_xp_and_the_distance_to_the_next_one()
+    {
+        var harness = new ViewModelHarness();
+        await harness.Rewards.SaveAsync(ViewModelHarness.Learner, RewardsState.Empty with { Xp = 700 }, [], Ct); // level 5 «Кущик»
+        var vm = harness.Resolve<MeViewModel>();
+
+        await vm.LoadAsync(Ct);
+
+        vm.GrowthStage.ShouldBe(GrowthStage.Bush);
+        vm.GrowthProgress.ShouldBe(0);
+        vm.StageName.ShouldBe(RewardsText.StageName(GrowthStage.Bush));
+        vm.GrowthCaption.ShouldContain("300");
+        vm.GrowthCaption.ShouldContain(RewardsText.StageName(GrowthStage.Bud));
+
+        await harness.Rewards.SaveAsync(ViewModelHarness.Learner, RewardsState.Empty with { Xp = 30_000 }, [], Ct);
+        await vm.LoadAsync(Ct);
+
+        vm.GrowthStage.ShouldBe(GrowthStage.GreatBurr);
+        vm.GrowthProgress.ShouldBe(1);
+        vm.GrowthCaption.ShouldBe(AppResources.Growth_Final);
     }
 
     [Fact]

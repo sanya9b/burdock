@@ -1,0 +1,660 @@
+{
+ "chunk": "B1-P09",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "e8853308-74a8-5e68-8530-c07a15e66eb7",
+   "lemma": "in short",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in short",
+    "in brief"
+   ],
+   "kind": "formula",
+   "glossEn": "briefly; to put it in a few words",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "1dbbbbe4-0abc-5da7-9656-9a68492af087",
+   "lemma": "the thing is",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "the thing is",
+    "the thing is that",
+    "here's the thing"
+   ],
+   "kind": "formula",
+   "glossEn": "introducing the main problem or reason",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "dc826b5e-a2cc-569f-b765-977dc88a500e",
+   "lemma": "the point is",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "the point is",
+    "the point is that",
+    "my point is"
+   ],
+   "kind": "formula",
+   "glossEn": "introducing the essential argument",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "b302c2d3-ae95-5f93-b286-42a9f142f208",
+   "lemma": "speaking of which",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "speaking of which",
+    "speaking of",
+    "talking of which"
+   ],
+   "kind": "formula",
+   "glossEn": "linking to a topic just mentioned",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "10e8dbd5-db92-5c6a-83d8-cd41bbe10417",
+   "lemma": "that reminds me",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "that reminds me",
+    "which reminds me"
+   ],
+   "kind": "formula",
+   "glossEn": "introducing something you just remembered",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "3d681eea-16e3-577a-a139-ab7d451eb54e",
+   "lemma": "as I said",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as I said",
+    "like I said",
+    "as I was saying",
+    "as I mentioned"
+   ],
+   "kind": "formula",
+   "glossEn": "repeating a point made earlier",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "4f8f151f-af2c-5fa4-b41a-3d1c1e8c421c",
+   "lemma": "in fact",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in fact",
+    "actually"
+   ],
+   "kind": "formula",
+   "glossEn": "adding emphasis or a stronger detail",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "b2f1e2bf-2667-51b4-a489-336bf3ea8bef",
+   "lemma": "after all",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "after all"
+   ],
+   "kind": "formula",
+   "glossEn": "giving a reason the listener should remember",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "490138b2-6a0c-5237-af57-2a7a81b99240",
+   "lemma": "when it comes to",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "when it comes to",
+    "when it comes to sth"
+   ],
+   "kind": "formula",
+   "glossEn": "introducing the topic you are talking about",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "2df6950f-30c7-5d74-888f-0257be6e2cd9",
+   "lemma": "let's say",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "let's say",
+    "let us say",
+    "say"
+   ],
+   "kind": "formula",
+   "glossEn": "introducing a hypothetical example",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "440ed855-582d-5f86-976a-bcb268e73f4d",
+   "lemma": "to begin with",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "to begin with",
+    "to start with",
+    "for starters"
+   ],
+   "kind": "formula",
+   "glossEn": "introducing the first point or reason",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "3aaaca3f-a6fc-5864-b61a-21185ad12ce6",
+   "lemma": "in any case",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in any case",
+    "anyhow"
+   ],
+   "kind": "formula",
+   "glossEn": "whatever happens; returning to the main point",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "d4d5b248-0f19-54d2-aaa4-f0a48ee6d21a",
+   "lemma": "either way",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "either way",
+    "one way or another"
+   ],
+   "kind": "formula",
+   "glossEn": "whichever of the two is true",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "1c6cbe4a-cf2e-51bc-9d45-4bad2c8e7679",
+   "lemma": "believe it or not",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "believe it or not"
+   ],
+   "kind": "formula",
+   "glossEn": "introducing a surprising but true fact",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "aa4d5660-c2aa-5ce3-9ad1-e59c0f9af0ce",
+   "lemma": "as it turns out",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as it turns out",
+    "as it turned out",
+    "it turns out"
+   ],
+   "kind": "formula",
+   "glossEn": "introducing what was discovered to be true",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "8c423184-0e42-5bd4-8ec4-008c7b57dfba",
+   "lemma": "fair enough",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fair enough"
+   ],
+   "kind": "formula",
+   "glossEn": "accepting that something is reasonable",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "83593137-5e75-587f-b036-07684c1f2767",
+   "lemma": "I see what you mean",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I see what you mean",
+    "I know what you mean",
+    "I see your point"
+   ],
+   "kind": "formula",
+   "glossEn": "saying you understand someone's point",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "718ab835-97de-59d7-a8e2-c3cd46c9bdb1",
+   "lemma": "tell me about it",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tell me about it"
+   ],
+   "kind": "formula",
+   "glossEn": "agreeing strongly from your own experience",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "e6886dce-d5c8-5218-b540-655df95b717c",
+   "lemma": "that's a good question",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "that's a good question",
+    "good question",
+    "that is a good question"
+   ],
+   "kind": "formula",
+   "glossEn": "gaining time before answering a hard question",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "87437f01-f0d6-5a81-b719-69aa8dcaeefa",
+   "lemma": "don't get me wrong",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "don't get me wrong",
+    "do not get me wrong"
+   ],
+   "kind": "formula",
+   "glossEn": "preventing a misunderstanding before a criticism",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "03017829-0fbd-5fd0-b73e-80e8c5e7a3a6",
+   "lemma": "it's not a big deal",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "it's not a big deal",
+    "no big deal",
+    "it is not a big deal",
+    "not a big deal"
+   ],
+   "kind": "formula",
+   "glossEn": "saying something is not important",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "60495852-dd8b-5e6c-85f5-6e3068c27b20",
+   "lemma": "I couldn't agree more",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I couldn't agree more",
+    "I could not agree more",
+    "couldn't agree more"
+   ],
+   "kind": "formula",
+   "glossEn": "expressing complete agreement",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "8db3a2fa-24d2-5c66-994d-e368006bf5db",
+   "lemma": "that's not the point",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "that's not the point",
+    "that is not the point"
+   ],
+   "kind": "formula",
+   "glossEn": "saying someone has missed the real issue",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "b1971b5e-3f71-5ca0-a97a-d6e0874d3d91",
+   "lemma": "point taken",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "point taken"
+   ],
+   "kind": "formula",
+   "glossEn": "accepting a criticism or argument",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "0cd3c1ce-8960-563a-bbcc-534daf8adf75",
+   "lemma": "no hard feelings",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "no hard feelings"
+   ],
+   "kind": "formula",
+   "glossEn": "saying there is no resentment after a dispute",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "e105bba2-53bb-57be-929c-e8c220188622",
+   "lemma": "let's agree to disagree",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "let's agree to disagree",
+    "agree to disagree",
+    "we'll have to agree to disagree"
+   ],
+   "kind": "formula",
+   "glossEn": "ending an argument without changing minds",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "f49d8d2e-0a20-5e1d-8279-a21e77056cd4",
+   "lemma": "I'll take your word for it",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I'll take your word for it",
+    "I will take your word for it"
+   ],
+   "kind": "formula",
+   "glossEn": "accepting a claim without checking it",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "f903d0a7-baee-5b79-8530-703b5fbd6071",
+   "lemma": "it's a deal",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "it's a deal",
+    "deal",
+    "you've got a deal"
+   ],
+   "kind": "formula",
+   "glossEn": "agreeing to an offer or arrangement",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "066803fe-9cd0-5c85-aebe-0a0b1be37003",
+   "lemma": "count me in",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "count me in",
+    "I'm in",
+    "count me out"
+   ],
+   "kind": "formula",
+   "glossEn": "saying you want to take part",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "5f8e07b3-bc05-5a06-8726-83314793c2e2",
+   "lemma": "be my guest",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "be my guest"
+   ],
+   "kind": "formula",
+   "glossEn": "politely giving permission to do something",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "c86291f9-b17e-5b87-91ca-8f750f440772",
+   "lemma": "you never know",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "you never know",
+    "one never knows"
+   ],
+   "kind": "formula",
+   "glossEn": "saying something unexpected might still happen",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "1aaab001-3392-58c1-baeb-614a49066b1a",
+   "lemma": "look on the bright side",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "look on the bright side",
+    "on the bright side"
+   ],
+   "kind": "formula",
+   "glossEn": "encouraging someone to see the positive",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "be804651-0f20-5a88-8abb-126da58f0c7f",
+   "lemma": "hang in there",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hang in there"
+   ],
+   "kind": "formula",
+   "glossEn": "encouraging someone to keep going despite difficulty",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "86b7347d-2545-5c1c-ac9f-9309bb34a59e",
+   "lemma": "it could be worse",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "it could be worse",
+    "could be worse",
+    "it could have been worse"
+   ],
+   "kind": "formula",
+   "glossEn": "comforting: the situation is not the worst",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "2f4b4345-4194-5e1b-8632-491571d60539",
+   "lemma": "good to know",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "good to know",
+    "that's good to know",
+    "nice to know"
+   ],
+   "kind": "formula",
+   "glossEn": "acknowledging useful information",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "27620e01-c96a-5b5a-a1d8-59233f12a08a",
+   "lemma": "I appreciate it",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I appreciate it",
+    "much appreciated",
+    "I really appreciate it"
+   ],
+   "kind": "formula",
+   "glossEn": "thanking someone for help or kindness",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "8b9979c6-6a0d-533d-9c20-5ba0d1f54676",
+   "lemma": "I owe you one",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I owe you one",
+    "I owe you"
+   ],
+   "kind": "formula",
+   "glossEn": "thanking and promising to return the favor",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "84763ffb-b3d5-57f2-be01-f9eb55b54c1c",
+   "lemma": "don't mention it",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "don't mention it",
+    "do not mention it"
+   ],
+   "kind": "formula",
+   "glossEn": "polite reply to thanks",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "56e500de-f5a2-5207-9f4e-1fc98238a577",
+   "lemma": "what a relief",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "what a relief",
+    "that's a relief",
+    "phew, what a relief"
+   ],
+   "kind": "formula",
+   "glossEn": "expressing that worry has ended",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "88a4c6ac-7c14-51ff-bdad-2e2641c5660e",
+   "lemma": "I'll get back to you",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I'll get back to you",
+    "I will get back to you",
+    "let me get back to you"
+   ],
+   "kind": "formula",
+   "glossEn": "promising to reply or follow up later",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,679 @@
+{
+ "chunk": "B2-P05",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "e109132e-7774-565e-b948-1fa911d6251f",
+   "lemma": "draw a distinction",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "draw a distinction",
+    "draw a distinction between",
+    "make a distinction"
+   ],
+   "kind": "collocation",
+   "glossEn": "show how two things are different",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "ff564d30-09a8-5f77-96f4-e4f813a5fa69",
+   "lemma": "carry out a plan",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "carry out a plan",
+    "implement a plan",
+    "execute a plan"
+   ],
+   "kind": "collocation",
+   "glossEn": "do what was planned",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "4b585ae3-14e0-5eb0-b8a4-dd7b3f41f05a",
+   "lemma": "carry out a survey",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "carry out a survey",
+    "conduct a survey",
+    "do a survey"
+   ],
+   "kind": "collocation",
+   "glossEn": "ask many people questions to collect data",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "af08e9c1-888f-57ef-9955-77baca2014cf",
+   "lemma": "carry out an inspection",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "carry out an inspection",
+    "conduct an inspection",
+    "carry out checks"
+   ],
+   "kind": "collocation",
+   "glossEn": "officially examine something",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "63126259-abdd-570f-ac2c-a00c9fc603db",
+   "lemma": "conduct an interview",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "conduct an interview",
+    "conduct interviews",
+    "carry out an interview"
+   ],
+   "kind": "collocation",
+   "glossEn": "formally question someone, e.g. for a job",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  },
+  {
+   "id": "01f0646f-3945-5897-9616-63bf69cb7fa4",
+   "lemma": "conduct a study",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "conduct a study",
+    "conduct research",
+    "conduct a survey"
+   ],
+   "kind": "collocation",
+   "glossEn": "carry out organized research",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "1e37066e-e57a-503d-a856-7296ed47c64c",
+   "lemma": "hold talks",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hold talks",
+    "hold negotiations",
+    "hold talks with sb"
+   ],
+   "kind": "collocation",
+   "glossEn": "have formal discussions, e.g. between governments",
+   "topics": [
+    "work",
+    "communication",
+    "military"
+   ]
+  },
+  {
+   "id": "e8e681b2-8856-5255-ab65-49143c136be0",
+   "lemma": "hold a grudge",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hold a grudge",
+    "bear a grudge",
+    "hold a grudge against sb"
+   ],
+   "kind": "collocation",
+   "glossEn": "keep feeling angry at someone for a long time",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "1764521c-e658-5b57-b0b7-929f3aa0dc2a",
+   "lemma": "hold sb accountable",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hold sb accountable",
+    "hold sb responsible",
+    "hold sb accountable for sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "make someone take responsibility",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "89bb7069-17e3-5546-beca-ea0260cb50c4",
+   "lemma": "hold an opinion",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hold an opinion",
+    "hold the view that",
+    "hold strong opinions"
+   ],
+   "kind": "collocation",
+   "glossEn": "have a particular view",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "22aae189-8977-531a-a3c0-5fd8f0296ff5",
+   "lemma": "reach an audience",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reach an audience",
+    "reach a wide audience",
+    "reach a wider audience"
+   ],
+   "kind": "collocation",
+   "glossEn": "get a message to a group of people",
+   "topics": [
+    "communication",
+    "it"
+   ]
+  },
+  {
+   "id": "fdaa18a5-e9ec-5c42-9272-1e1eb90bcc75",
+   "lemma": "reach a verdict",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reach a verdict",
+    "return a verdict",
+    "deliver a verdict"
+   ],
+   "kind": "collocation",
+   "glossEn": "decide whether someone is guilty in court",
+   "topics": []
+  },
+  {
+   "id": "145d356a-dcda-5876-890b-af4d234d1e68",
+   "lemma": "golden opportunity",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "golden opportunity",
+    "a golden opportunity"
+   ],
+   "kind": "collocation",
+   "glossEn": "an excellent chance that may not come again",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "6f0773a8-36e6-5ed8-a5bd-133108e5b195",
+   "lemma": "strike a balance",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "strike a balance",
+    "strike a balance between",
+    "strike the right balance"
+   ],
+   "kind": "collocation",
+   "glossEn": "find a fair middle position between two things",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "910ad94b-8f67-51bf-8419-711c4fcfe22e",
+   "lemma": "strike a deal",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "strike a deal",
+    "strike a deal with sb",
+    "strike a bargain"
+   ],
+   "kind": "collocation",
+   "glossEn": "reach an agreement, often in business",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "ef31c4af-2e44-556e-b4c8-c4ec42a6221d",
+   "lemma": "go on strike",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go on strike",
+    "be on strike",
+    "call a strike"
+   ],
+   "kind": "collocation",
+   "glossEn": "stop working as a protest",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "c5afb744-b318-5021-b09e-76b8d5ccdeb5",
+   "lemma": "go bankrupt",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go bankrupt",
+    "go bust",
+    "go out of business"
+   ],
+   "kind": "collocation",
+   "glossEn": "lose all money and be unable to pay debts",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "b4d2ae40-2220-52a2-b1bd-932997d8ba1a",
+   "lemma": "go viral",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go viral"
+   ],
+   "kind": "collocation",
+   "glossEn": "spread very quickly on the internet",
+   "topics": [
+    "it",
+    "communication"
+   ]
+  },
+  {
+   "id": "849a07b7-de50-5b4f-af83-bb4fa385cd70",
+   "lemma": "mixed feelings",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mixed feelings",
+    "have mixed feelings about sth",
+    "mixed emotions"
+   ],
+   "kind": "collocation",
+   "glossEn": "both positive and negative emotions at once",
+   "topics": []
+  },
+  {
+   "id": "454d48e9-0dbb-5345-88e0-46bbdf4cd36f",
+   "lemma": "go into detail",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go into detail",
+    "go into details",
+    "go into great detail"
+   ],
+   "kind": "collocation",
+   "glossEn": "explain something with many particulars",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "4165dddc-42e7-5297-8b5d-8aad86d4d5f5",
+   "lemma": "come to terms with sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "come to terms with sth",
+    "come to terms"
+   ],
+   "kind": "collocation",
+   "glossEn": "gradually accept a difficult situation",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "e00150d2-55b7-50c4-a204-cb2272b440d7",
+   "lemma": "come into effect",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "come into effect",
+    "come into force",
+    "take effect"
+   ],
+   "kind": "collocation",
+   "glossEn": "start to apply, said of a law or rule",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "cffadf4d-14d9-5e5a-be7b-6ed4e96e30fd",
+   "lemma": "come under fire",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "come under fire",
+    "come under attack",
+    "come under criticism"
+   ],
+   "kind": "collocation",
+   "glossEn": "be shot at; be strongly criticized",
+   "topics": [
+    "military",
+    "communication"
+   ]
+  },
+  {
+   "id": "e8bc3ff2-ec35-5dc6-92e0-6e8036dacf06",
+   "lemma": "come to power",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "come to power",
+    "rise to power",
+    "be in power"
+   ],
+   "kind": "collocation",
+   "glossEn": "start to rule a country or organization",
+   "topics": []
+  },
+  {
+   "id": "e93c47ad-fb49-543b-b53b-e384fba83309",
+   "lemma": "bear in mind",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bear in mind",
+    "bear sth in mind",
+    "keep in mind"
+   ],
+   "kind": "collocation",
+   "glossEn": "remember and consider something",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "f01e0d18-cac9-5e0f-b09b-cd000bd9ada9",
+   "lemma": "bear the cost",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bear the cost",
+    "bear the costs",
+    "bear the cost of sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "pay for something, often unwillingly",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "e9c4bf43-37ad-5962-9e15-e4a9b877fbd5",
+   "lemma": "bear responsibility",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bear responsibility",
+    "bear responsibility for sth",
+    "bear the responsibility"
+   ],
+   "kind": "collocation",
+   "glossEn": "be the one responsible for something",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "eb506511-c537-51e7-9055-82f334359ae4",
+   "lemma": "bear fruit",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bear fruit",
+    "begin to bear fruit"
+   ],
+   "kind": "collocation",
+   "glossEn": "produce good results",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "911d3bd1-c98c-5c3e-b1bc-cea121915bd3",
+   "lemma": "bear a resemblance to sb",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bear a resemblance to sb",
+    "bear a resemblance",
+    "bear a striking resemblance to sb"
+   ],
+   "kind": "collocation",
+   "glossEn": "look similar to someone",
+   "topics": []
+  },
+  {
+   "id": "d1f33d7c-4a08-5f23-b4d7-3b41fa0adb6e",
+   "lemma": "cast a vote",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cast a vote",
+    "cast your vote",
+    "cast a ballot"
+   ],
+   "kind": "collocation",
+   "glossEn": "vote in an election",
+   "topics": []
+  },
+  {
+   "id": "eacb46da-a2c9-59a0-91a1-08609fcbfd22",
+   "lemma": "cast doubt on sth",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cast doubt on sth",
+    "cast doubt",
+    "cast doubts on sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "make people less sure that something is true",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "303c51fb-1641-5c42-b2cd-205b51d88be9",
+   "lemma": "find common ground",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "find common ground",
+    "common ground",
+    "have common ground"
+   ],
+   "kind": "collocation",
+   "glossEn": "discover things people can agree on",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "f80d66d4-84d3-59a6-ac54-83998f7f185a",
+   "lemma": "pose a threat",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pose a threat",
+    "pose a threat to sth",
+    "pose a serious threat"
+   ],
+   "kind": "collocation",
+   "glossEn": "be a possible danger",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "3058f64b-fba5-5201-9351-f35a258e8697",
+   "lemma": "pose a risk",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pose a risk",
+    "pose a risk to sth",
+    "pose a health risk"
+   ],
+   "kind": "collocation",
+   "glossEn": "be a possible danger to health or safety",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "c8cfd675-a7ac-5929-9b2b-b87092432374",
+   "lemma": "pose a question",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pose a question",
+    "pose questions",
+    "pose the question of"
+   ],
+   "kind": "collocation",
+   "glossEn": "ask a question for people to think about",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "58f0ef4a-15dd-5e4c-85ad-49be809ddaac",
+   "lemma": "pose a challenge",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pose a challenge",
+    "pose challenges",
+    "pose a challenge to sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "be a difficulty that must be dealt with",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "d35bc93c-57fd-5010-bab1-78731a5e8125",
+   "lemma": "raise concerns",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "raise concerns",
+    "raise a concern",
+    "raise concerns about sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "express worries about something",
+   "topics": [
+    "communication",
+    "work"
+   ]
+  },
+  {
+   "id": "48103a10-cf18-5ce0-96cd-4661c61a90aa",
+   "lemma": "raise the alarm",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "raise the alarm",
+    "sound the alarm",
+    "raise the alarm about sth"
+   ],
+   "kind": "collocation",
+   "glossEn": "warn people about a danger",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "a0a4da75-b60c-5672-9be9-e4b77c5ec96d",
+   "lemma": "raise the bar",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "raise the bar",
+    "raise the bar for sth",
+    "set the bar high"
+   ],
+   "kind": "collocation",
+   "glossEn": "set a higher standard",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "c8d5590e-d167-57db-873e-377907b29119",
+   "lemma": "raise an issue",
+   "pos": "phrase",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "raise an issue",
+    "raise the issue",
+    "raise issues"
+   ],
+   "kind": "collocation",
+   "glossEn": "bring a problem up for discussion",
+   "topics": [
+    "communication",
+    "work"
+   ]
+  }
+ ]
+}

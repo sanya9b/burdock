@@ -1,0 +1,571 @@
+{
+ "chunk": "A2-P10",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "007c00b5-bf6a-5095-9b2f-a7ab29d329a1",
+   "lemma": "cost an arm and a leg",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cost an arm and a leg"
+   ],
+   "kind": "idiom",
+   "glossEn": "be very expensive",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "1d7b03e5-d0ab-586c-96ec-4c6e81d35d80",
+   "lemma": "rain cats and dogs",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rain cats and dogs"
+   ],
+   "kind": "idiom",
+   "glossEn": "rain very heavily",
+   "topics": []
+  },
+  {
+   "id": "1dd0517d-1ea2-545e-bf89-f2794f870b41",
+   "lemma": "call it a day",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "call it a day"
+   ],
+   "kind": "idiom",
+   "glossEn": "stop working for today",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "d476aa99-c307-5c8c-afab-031d79eacb1c",
+   "lemma": "keep an eye on sb",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep an eye on sb",
+    "keep an eye on",
+    "keep an eye on sth"
+   ],
+   "kind": "idiom",
+   "glossEn": "watch someone or something carefully",
+   "topics": []
+  },
+  {
+   "id": "425e21ed-a00c-5cad-abb2-bd0bbf9b780c",
+   "lemma": "a couch potato",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a couch potato",
+    "couch potato"
+   ],
+   "kind": "idiom",
+   "glossEn": "lazy person who watches TV all day",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "0d387dc0-520c-53f3-a21d-5b356a779cdf",
+   "lemma": "in hot water",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in hot water"
+   ],
+   "kind": "idiom",
+   "glossEn": "in trouble",
+   "topics": []
+  },
+  {
+   "id": "21e61d46-acd3-50bf-aa02-47fb777839aa",
+   "lemma": "on the same page",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the same page"
+   ],
+   "kind": "idiom",
+   "glossEn": "in agreement about something",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  },
+  {
+   "id": "3f40bbe4-90d0-5a40-8dbb-577180d8dd3b",
+   "lemma": "see eye to eye",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "see eye to eye"
+   ],
+   "kind": "idiom",
+   "glossEn": "agree with someone",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "38a8ce7b-0651-5ca5-89ef-5977c2c80087",
+   "lemma": "an early bird",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "an early bird",
+    "early bird"
+   ],
+   "kind": "idiom",
+   "glossEn": "person who gets up early",
+   "topics": []
+  },
+  {
+   "id": "62028615-70b2-5786-93e6-bc660b58e263",
+   "lemma": "a night owl",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a night owl",
+    "night owl"
+   ],
+   "kind": "idiom",
+   "glossEn": "person who stays up late",
+   "topics": []
+  },
+  {
+   "id": "ab4823c9-efef-5fef-93b9-829b289e79cf",
+   "lemma": "have a sweet tooth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have a sweet tooth",
+    "a sweet tooth"
+   ],
+   "kind": "idiom",
+   "glossEn": "love sweet food",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "c40da298-36a5-5edc-acbf-d7bcb55768c5",
+   "lemma": "kill time",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "kill time"
+   ],
+   "kind": "idiom",
+   "glossEn": "do something while waiting",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "70e92a9b-0155-5a89-8da0-45159a1103f4",
+   "lemma": "make up one's mind",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make up one's mind",
+    "make up your mind"
+   ],
+   "kind": "idiom",
+   "glossEn": "decide",
+   "topics": []
+  },
+  {
+   "id": "c18e9a5f-3fe1-52de-8711-7742d5defcfb",
+   "lemma": "lose one's temper",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lose one's temper",
+    "lose your temper"
+   ],
+   "kind": "idiom",
+   "glossEn": "suddenly become angry",
+   "topics": []
+  },
+  {
+   "id": "8c37b6e0-b371-5175-a802-cc135864da31",
+   "lemma": "change one's mind",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "change one's mind",
+    "change your mind"
+   ],
+   "kind": "idiom",
+   "glossEn": "change a decision or opinion",
+   "topics": []
+  },
+  {
+   "id": "a561b19e-9beb-5d29-bbc7-492bb587c963",
+   "lemma": "take it easy",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take it easy"
+   ],
+   "kind": "idiom",
+   "glossEn": "relax, not work too hard",
+   "topics": []
+  },
+  {
+   "id": "5fbe1720-05f8-5402-b990-9422b84fc020",
+   "lemma": "have a blast",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have a blast"
+   ],
+   "kind": "idiom",
+   "glossEn": "have a great time",
+   "topics": []
+  },
+  {
+   "id": "612d3bdc-148e-5b65-bf05-89f0c16b82ec",
+   "lemma": "be all ears",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "be all ears",
+    "all ears"
+   ],
+   "kind": "idiom",
+   "glossEn": "listen with full attention",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "61c9211b-4f04-5602-ae76-d9ad2e0d5fff",
+   "lemma": "hit the road",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hit the road"
+   ],
+   "kind": "idiom",
+   "glossEn": "leave, start a journey",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "dde198b4-3f58-56a9-964b-481740cc0db7",
+   "lemma": "on the house",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the house"
+   ],
+   "kind": "idiom",
+   "glossEn": "free, paid by the restaurant or bar",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "860ca0ce-4ba2-5554-880c-e374a99e6dd1",
+   "lemma": "a no-brainer",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a no-brainer",
+    "no-brainer"
+   ],
+   "kind": "idiom",
+   "glossEn": "decision that is obvious and easy",
+   "topics": []
+  },
+  {
+   "id": "c1551af8-bb85-5491-aea2-6292806982ee",
+   "lemma": "a big deal",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a big deal",
+    "big deal"
+   ],
+   "kind": "idiom",
+   "glossEn": "something important",
+   "topics": []
+  },
+  {
+   "id": "69939d93-b64e-5d48-a73c-5799bf868356",
+   "lemma": "get cold feet",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get cold feet",
+    "cold feet"
+   ],
+   "kind": "idiom",
+   "glossEn": "become too nervous to do something",
+   "topics": []
+  },
+  {
+   "id": "b42901cc-f1a8-52b7-9ce5-9905b184b8f3",
+   "lemma": "out of the blue",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "out of the blue"
+   ],
+   "kind": "idiom",
+   "glossEn": "suddenly and unexpectedly",
+   "topics": []
+  },
+  {
+   "id": "c846e008-3483-5a53-b6d4-a5e73f5455ee",
+   "lemma": "a long shot",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a long shot",
+    "long shot"
+   ],
+   "kind": "idiom",
+   "glossEn": "attempt with little chance of success",
+   "topics": []
+  },
+  {
+   "id": "02d26a34-8e9d-5ab4-a802-0bab37a0508b",
+   "lemma": "hold one's horses",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hold one's horses",
+    "hold your horses"
+   ],
+   "kind": "idiom",
+   "glossEn": "wait, be patient",
+   "topics": []
+  },
+  {
+   "id": "6ae21710-06c2-52e9-aa32-19ff11328ae2",
+   "lemma": "get the hang of sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get the hang of sth",
+    "get the hang of",
+    "get the hang of it"
+   ],
+   "kind": "idiom",
+   "glossEn": "learn how to do something",
+   "topics": []
+  },
+  {
+   "id": "3d05fb12-9593-579c-846d-6f97cbb518b1",
+   "lemma": "by heart",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "by heart"
+   ],
+   "kind": "idiom",
+   "glossEn": "from memory, exactly",
+   "topics": []
+  },
+  {
+   "id": "a4535add-5c08-5180-b11a-c8c95582441e",
+   "lemma": "over the moon",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "over the moon"
+   ],
+   "kind": "idiom",
+   "glossEn": "extremely happy",
+   "topics": []
+  },
+  {
+   "id": "b29ea62b-991f-5286-9cb2-1e2dfc425f29",
+   "lemma": "time flies",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "time flies"
+   ],
+   "kind": "idiom",
+   "glossEn": "time passes very quickly",
+   "topics": []
+  },
+  {
+   "id": "c9c8e301-d499-50f8-a942-6fd9b0ca883f",
+   "lemma": "easier said than done",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "easier said than done"
+   ],
+   "kind": "idiom",
+   "glossEn": "harder to do than to talk about",
+   "topics": []
+  },
+  {
+   "id": "785299c9-f2ea-5025-b7cc-1a61e20a858a",
+   "lemma": "better late than never",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "better late than never"
+   ],
+   "kind": "idiom",
+   "glossEn": "doing it late is better than never",
+   "topics": []
+  },
+  {
+   "id": "eea9c60f-e943-5e5e-8dce-d5cbfce31790",
+   "lemma": "a small world",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a small world",
+    "it's a small world"
+   ],
+   "kind": "idiom",
+   "glossEn": "said when meeting someone unexpectedly",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "97a4f04f-6740-5528-a578-837ad79d959f",
+   "lemma": "a close call",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a close call",
+    "close call"
+   ],
+   "kind": "idiom",
+   "glossEn": "narrow escape from danger or failure",
+   "topics": []
+  },
+  {
+   "id": "3bcc8519-7d4d-5a4d-a5cc-d502deba48fd",
+   "lemma": "break a leg",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "break a leg"
+   ],
+   "kind": "idiom",
+   "glossEn": "good luck, especially before a performance",
+   "topics": []
+  },
+  {
+   "id": "c11db34d-409b-52c1-be66-5c88f74df78d",
+   "lemma": "have a crush on sb",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have a crush on sb",
+    "have a crush on",
+    "a crush"
+   ],
+   "kind": "idiom",
+   "glossEn": "be romantically attracted to someone",
+   "topics": []
+  },
+  {
+   "id": "8ea9563a-18af-5f49-9294-ced9c0427c1e",
+   "lemma": "in the same boat",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the same boat"
+   ],
+   "kind": "idiom",
+   "glossEn": "in the same difficult situation",
+   "topics": []
+  },
+  {
+   "id": "b63dbe60-a1ab-5779-ae07-2b0ce2f91eaf",
+   "lemma": "a pain in the neck",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a pain in the neck",
+    "pain in the neck"
+   ],
+   "kind": "idiom",
+   "glossEn": "annoying person or thing",
+   "topics": []
+  },
+  {
+   "id": "32e02acb-c139-57d4-9c15-2423a27f2a05",
+   "lemma": "sleep on it",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sleep on it"
+   ],
+   "kind": "idiom",
+   "glossEn": "decide after thinking overnight",
+   "topics": []
+  },
+  {
+   "id": "ce059f75-4c6b-5c0b-8ed1-82f95f4f6e4e",
+   "lemma": "feel blue",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "feel blue"
+   ],
+   "kind": "idiom",
+   "glossEn": "feel sad",
+   "topics": []
+  }
+ ]
+}

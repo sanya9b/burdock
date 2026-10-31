@@ -1,0 +1,582 @@
+{
+ "chunk": "A2-P14",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "5933cc0c-a5cc-5801-bba2-3ce0136dbdf6",
+   "lemma": "take down sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take down sth",
+    "take down"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "remove from a wall; write information",
+   "topics": []
+  },
+  {
+   "id": "ecc9e68e-6c97-566f-984e-fc4a3191be4e",
+   "lemma": "bring in sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bring in sth",
+    "bring in"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "carry inside; introduce a rule; earn money",
+   "topics": []
+  },
+  {
+   "id": "b3aabf1d-1bbc-5846-9c93-9145f9f43526",
+   "lemma": "bring along sb",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bring along sb",
+    "bring along"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "take someone or something with you",
+   "topics": []
+  },
+  {
+   "id": "e914c14f-f0dc-588d-8d68-47114ba97948",
+   "lemma": "get to",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get to"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "arrive at a place; have the chance to do something",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "941bfb69-a2b9-52f0-8301-8cea223c71cc",
+   "lemma": "go for sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go for sth",
+    "go for"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "choose something; try to achieve",
+   "topics": []
+  },
+  {
+   "id": "5587df64-4a72-54e9-8079-d909201c9a3b",
+   "lemma": "go with sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go with sth",
+    "go with"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "look good together, of clothes or food",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "e74c9f48-9018-5c60-a7bb-af52078efbba",
+   "lemma": "go without sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go without sth",
+    "go without"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "manage without something you need",
+   "topics": []
+  },
+  {
+   "id": "c43acc76-4ac9-5cb7-b8a4-6bfd99e35c70",
+   "lemma": "come around",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "come around",
+    "come round"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "visit someone's home; change your opinion",
+   "topics": []
+  },
+  {
+   "id": "62ab47a7-4fba-5280-830e-18c5aeeb753b",
+   "lemma": "drop by",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "drop by"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "visit someone briefly without arranging it",
+   "topics": []
+  },
+  {
+   "id": "d0ae61a4-6d9b-52fc-af9e-afa461b6b262",
+   "lemma": "drop off sb",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "drop off sb",
+    "drop off"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "take someone to a place by car; fall asleep",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "1ab7eca3-5d3b-5a3e-bba4-ac6bb1a97c45",
+   "lemma": "send back sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "send back sth",
+    "send back"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "return something by mail or to a shop",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "4ef1ad83-1c14-5cf7-ad4f-307f9f89df78",
+   "lemma": "send off sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "send off sth",
+    "send off"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "post a letter or parcel",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "6b2eb650-e64b-546e-8f7b-83952c13382d",
+   "lemma": "give away sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "give away sth",
+    "give away"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "give something for free; reveal a secret",
+   "topics": []
+  },
+  {
+   "id": "23952b68-2be1-5b57-bd10-8d2ab72add57",
+   "lemma": "give in",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "give in"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "stop fighting or arguing and accept defeat",
+   "topics": []
+  },
+  {
+   "id": "e1f02164-c6ff-569e-9df0-98896c119f80",
+   "lemma": "let in sb",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "let in sb",
+    "let in"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "allow someone to enter",
+   "topics": []
+  },
+  {
+   "id": "bf7967de-526e-5b65-a796-c94aaabea797",
+   "lemma": "let out sb",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "let out sb",
+    "let out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "allow someone to leave a place",
+   "topics": []
+  },
+  {
+   "id": "80ca89de-6ba5-581c-ad34-f7a90b66c43f",
+   "lemma": "lock up",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lock up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "lock all the doors of a building",
+   "topics": []
+  },
+  {
+   "id": "a66f14cd-b3ea-50aa-ad7e-0b5ecaf25f54",
+   "lemma": "lock sb out",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lock sb out",
+    "lock out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "prevent someone from entering by locking the door",
+   "topics": []
+  },
+  {
+   "id": "b27a26d4-31c0-5d50-b53c-25792b1a0156",
+   "lemma": "shut down",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shut down"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "turn off a computer; close a business",
+   "topics": [
+    "it"
+   ]
+  },
+  {
+   "id": "869e3f1a-4bff-582f-b214-561987526bfa",
+   "lemma": "start over",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "start over",
+    "start again"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "begin again from the start",
+   "topics": []
+  },
+  {
+   "id": "34ebc426-6b8c-5130-a7d3-045a9c6b8199",
+   "lemma": "start up sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "start up sth",
+    "start up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "start a computer or engine; start a business",
+   "topics": [
+    "it",
+    "work"
+   ]
+  },
+  {
+   "id": "e753bd6f-281e-511b-9064-f80ac0250d52",
+   "lemma": "join in",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "join in"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "take part in an activity with others",
+   "topics": []
+  },
+  {
+   "id": "6b48e46a-1c3b-569b-b77d-c257f268d431",
+   "lemma": "play around",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "play around",
+    "play about"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "behave in a silly way; experiment with something",
+   "topics": []
+  },
+  {
+   "id": "b5e4c440-596a-5f87-a066-6eb99b7c37f7",
+   "lemma": "mix up sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mix up sth",
+    "mix up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "confuse two things or people",
+   "topics": []
+  },
+  {
+   "id": "d87bc788-0d76-5ee6-a6aa-0fe2191ec345",
+   "lemma": "use up sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "use up sth",
+    "use up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "use all of something so none is left",
+   "topics": []
+  },
+  {
+   "id": "437e86ee-12e4-5fcf-a10c-3ec7fe69eda8",
+   "lemma": "pass by",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pass by"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "go past a place or person",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "35c05a69-0417-5905-ab2f-678867d5db5d",
+   "lemma": "stop by",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stop by"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "make a short visit on the way somewhere",
+   "topics": []
+  },
+  {
+   "id": "7022400e-4068-541f-9e73-fb694b70fde4",
+   "lemma": "come apart",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "come apart"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "break into pieces",
+   "topics": []
+  },
+  {
+   "id": "300ecd36-23dc-59cc-a8f2-abba138d4103",
+   "lemma": "leave out sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "leave out sth",
+    "leave out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "not include something or someone",
+   "topics": []
+  },
+  {
+   "id": "7c99aa6b-fc14-55fb-b2c7-fc9e229e955b",
+   "lemma": "leave behind sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "leave behind sth",
+    "leave behind"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "forget to take something with you",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "d18ea5de-ff3c-5a95-9f17-5c9e8d0bca53",
+   "lemma": "fall off",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fall off"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "drop from a surface or vehicle; decrease",
+   "topics": []
+  },
+  {
+   "id": "6b7bab98-7597-5634-b97d-e9f810e04148",
+   "lemma": "knock down sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "knock down sth",
+    "knock down"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "destroy a building; hit someone with a vehicle",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "c849f0a6-b957-5023-ba9e-bf9905eb0239",
+   "lemma": "knock out sb",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "knock out sb",
+    "knock out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "make someone unconscious; defeat in a competition",
+   "topics": []
+  },
+  {
+   "id": "a9f5f10f-6601-5f50-b59e-7f5750176269",
+   "lemma": "knock over sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "knock over sth",
+    "knock over"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "hit something so that it falls",
+   "topics": []
+  },
+  {
+   "id": "cc473151-16e4-51a7-9ce3-7942833a88e4",
+   "lemma": "blow out sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blow out sth",
+    "blow out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "put out a flame by blowing",
+   "topics": []
+  },
+  {
+   "id": "5de75573-0b60-5385-a1bb-4c97580b2c19",
+   "lemma": "burn down",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "burn down"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "be destroyed by fire, of a building",
+   "topics": []
+  },
+  {
+   "id": "1a38865c-bc89-5ba0-a9ae-97ffb60718ee",
+   "lemma": "chop up sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chop up sth",
+    "chop up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "cut food into small pieces",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "9a568016-21fa-5678-af89-03f256bda1da",
+   "lemma": "heat up sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heat up sth",
+    "heat up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "make food or a room hot",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "abb08eb6-9a13-5518-9d4b-472add69dce5",
+   "lemma": "cut out sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cut out sth",
+    "cut out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "remove by cutting; stop eating or doing something",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "861154e7-09f1-56c7-9a83-994c8c1aa32c",
+   "lemma": "cut off sth",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cut off sth",
+    "cut off"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "remove by cutting; disconnect a supply or a call",
+   "topics": []
+  }
+ ]
+}

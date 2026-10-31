@@ -1,0 +1,618 @@
+{
+ "chunk": "A1-P01",
+ "level": "A1",
+ "lexemes": [
+  {
+   "id": "5ff0dc02-2192-594a-8456-e6a04edd7969",
+   "lemma": "have breakfast",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have breakfast",
+    "eat breakfast"
+   ],
+   "kind": "collocation",
+   "glossEn": "eat the morning meal",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "d0a27ef8-c7c4-5643-9f8a-e267c2d4b36d",
+   "lemma": "have lunch",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have lunch",
+    "eat lunch"
+   ],
+   "kind": "collocation",
+   "glossEn": "eat the midday meal",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "f5644794-1862-521b-880b-33e587b8ddbb",
+   "lemma": "have dinner",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have dinner",
+    "eat dinner"
+   ],
+   "kind": "collocation",
+   "glossEn": "eat the evening meal",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "f9ae9d5a-1462-58a9-bf3d-37e984404fbb",
+   "lemma": "do homework",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "do homework",
+    "do your homework"
+   ],
+   "kind": "collocation",
+   "glossEn": "complete school tasks at home",
+   "topics": []
+  },
+  {
+   "id": "6c84fd09-70e5-5d90-a6c7-0363a5efcb27",
+   "lemma": "take a photo",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take a photo",
+    "take a picture",
+    "take photos"
+   ],
+   "kind": "collocation",
+   "glossEn": "use a camera to capture an image",
+   "topics": [
+    "travel"
+   ]
+  },
+  {
+   "id": "b170ad08-5740-5f65-bcc6-2e42a12c9749",
+   "lemma": "make a mistake",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make a mistake",
+    "make mistakes"
+   ],
+   "kind": "collocation",
+   "glossEn": "do something wrong by accident",
+   "topics": []
+  },
+  {
+   "id": "18a53059-090c-514c-ba40-45a8c207ccfd",
+   "lemma": "make friends",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make friends",
+    "make a friend"
+   ],
+   "kind": "collocation",
+   "glossEn": "start friendships with new people",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "c89ab557-b8f4-5887-afbf-7ba0d83a06ba",
+   "lemma": "take a shower",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take a shower",
+    "have a shower"
+   ],
+   "kind": "collocation",
+   "glossEn": "wash yourself under running water",
+   "topics": []
+  },
+  {
+   "id": "a23c5f29-0145-58f7-9218-598ce25789e1",
+   "lemma": "take a bath",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take a bath",
+    "have a bath"
+   ],
+   "kind": "collocation",
+   "glossEn": "wash yourself sitting in a bathtub",
+   "topics": []
+  },
+  {
+   "id": "0d47a82c-361d-568e-8fd9-2ff0f3d20203",
+   "lemma": "go shopping",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go shopping"
+   ],
+   "kind": "collocation",
+   "glossEn": "visit shops to buy things",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "c87e7028-5891-5736-b9a8-3964bb4d7008",
+   "lemma": "go home",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go home"
+   ],
+   "kind": "collocation",
+   "glossEn": "return to the place where you live",
+   "topics": []
+  },
+  {
+   "id": "3daaa434-c38e-5b3d-954e-07b02b6781d7",
+   "lemma": "go to bed",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go to bed"
+   ],
+   "kind": "collocation",
+   "glossEn": "lie down in bed to sleep",
+   "topics": []
+  },
+  {
+   "id": "f81d9f7d-1d5c-54cf-af7f-92e6590c15c2",
+   "lemma": "get up early",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get up early",
+    "get up"
+   ],
+   "kind": "collocation",
+   "glossEn": "leave your bed early in the morning",
+   "topics": []
+  },
+  {
+   "id": "710fe7ec-dcb7-5243-9ebe-2d749e8d12e4",
+   "lemma": "watch TV",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "watch TV",
+    "watch television"
+   ],
+   "kind": "collocation",
+   "glossEn": "look at television programs",
+   "topics": []
+  },
+  {
+   "id": "f7cc38f9-a865-5d69-918b-29abcc0bc27b",
+   "lemma": "play football",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "play football",
+    "play soccer"
+   ],
+   "kind": "collocation",
+   "glossEn": "take part in a game of football",
+   "topics": []
+  },
+  {
+   "id": "83105241-9cde-578e-aeb0-0d93eb0e164d",
+   "lemma": "play the guitar",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "play the guitar",
+    "play guitar"
+   ],
+   "kind": "collocation",
+   "glossEn": "make music on a guitar",
+   "topics": []
+  },
+  {
+   "id": "838a52f5-07c4-51e7-8e85-b97496e5ddc1",
+   "lemma": "ride a bike",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ride a bike",
+    "ride a bicycle"
+   ],
+   "kind": "collocation",
+   "glossEn": "travel by bicycle",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "330555bd-6b0d-5269-a1d2-71e604c05d48",
+   "lemma": "cross the street",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cross the street",
+    "cross the road"
+   ],
+   "kind": "collocation",
+   "glossEn": "walk from one side of a street to the other",
+   "topics": [
+    "city"
+   ]
+  },
+  {
+   "id": "475df2cf-2aa5-57a2-9caa-5c46f5ad2d40",
+   "lemma": "catch a bus",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "catch a bus",
+    "catch the bus"
+   ],
+   "kind": "collocation",
+   "glossEn": "get on a bus in time to travel",
+   "topics": [
+    "travel",
+    "city"
+   ]
+  },
+  {
+   "id": "8a7b3c3b-88ee-576b-b6ee-c458365cbb16",
+   "lemma": "take a taxi",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take a taxi",
+    "take a cab",
+    "get a taxi"
+   ],
+   "kind": "collocation",
+   "glossEn": "travel somewhere by taxi",
+   "topics": [
+    "travel",
+    "city"
+   ]
+  },
+  {
+   "id": "78e295a7-9b08-5fe5-b5ac-c87dda599c7c",
+   "lemma": "make coffee",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make coffee",
+    "make a coffee"
+   ],
+   "kind": "collocation",
+   "glossEn": "prepare a cup of coffee",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "a23e63ed-f6ea-5830-8753-09af0a0bd4db",
+   "lemma": "make tea",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make tea",
+    "make a cup of tea"
+   ],
+   "kind": "collocation",
+   "glossEn": "prepare a cup of tea",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "a3213770-c166-53c6-a158-1731db7ba367",
+   "lemma": "have a good time",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have a good time",
+    "have a great time"
+   ],
+   "kind": "collocation",
+   "glossEn": "enjoy yourself",
+   "topics": []
+  },
+  {
+   "id": "078e85dc-1bad-5f87-9dc5-6bb6838cbbee",
+   "lemma": "have fun",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have fun"
+   ],
+   "kind": "collocation",
+   "glossEn": "enjoy yourself doing something",
+   "topics": []
+  },
+  {
+   "id": "114e6f09-9bc0-5cb9-8eca-c2572e0924b8",
+   "lemma": "have a cold",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have a cold",
+    "have got a cold"
+   ],
+   "kind": "collocation",
+   "glossEn": "be ill with a runny nose and cough",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "2d5bdf2f-924b-57da-b1dd-6e3a5db351e8",
+   "lemma": "have a headache",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "have a headache",
+    "have got a headache"
+   ],
+   "kind": "collocation",
+   "glossEn": "feel pain in your head",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "5210b6ca-5aac-5092-85f0-e29d0429e26d",
+   "lemma": "take medicine",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take medicine",
+    "take medication",
+    "take your medicine"
+   ],
+   "kind": "collocation",
+   "glossEn": "swallow a drug to treat illness",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "4fa82441-bb53-502e-80c8-a1a5b9302dec",
+   "lemma": "brush your teeth",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brush your teeth",
+    "brush my teeth",
+    "clean your teeth"
+   ],
+   "kind": "collocation",
+   "glossEn": "clean your teeth with a toothbrush",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "ba9871c7-3907-5c0e-acf6-adb6fff7c262",
+   "lemma": "wash your hands",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wash your hands",
+    "wash my hands"
+   ],
+   "kind": "collocation",
+   "glossEn": "clean your hands with water and soap",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "2771bd6c-39b5-5712-8352-86349504359b",
+   "lemma": "do the dishes",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "do the dishes",
+    "wash the dishes",
+    "do the washing-up"
+   ],
+   "kind": "collocation",
+   "glossEn": "wash plates and cups after a meal",
+   "topics": []
+  },
+  {
+   "id": "522b171e-d073-5bec-85e4-f2ed1700b3ca",
+   "lemma": "do the shopping",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "do the shopping",
+    "do some shopping"
+   ],
+   "kind": "collocation",
+   "glossEn": "buy the food and goods a home needs",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "5ed35093-34bf-56d8-8895-e3340f0cb86f",
+   "lemma": "do the laundry",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "do the laundry",
+    "do the washing"
+   ],
+   "kind": "collocation",
+   "glossEn": "wash dirty clothes",
+   "topics": []
+  },
+  {
+   "id": "0e76e91f-5ee3-53f3-b438-8cf0cefb3cbd",
+   "lemma": "clean the house",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "clean the house",
+    "clean the flat",
+    "clean the apartment"
+   ],
+   "kind": "collocation",
+   "glossEn": "make the rooms of your home clean",
+   "topics": []
+  },
+  {
+   "id": "68555717-b7c3-5c35-9bed-6569219df564",
+   "lemma": "make the bed",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make the bed",
+    "make your bed"
+   ],
+   "kind": "collocation",
+   "glossEn": "tidy the sheets and blanket after sleeping",
+   "topics": []
+  },
+  {
+   "id": "7c7fc2a1-1d6d-5e79-96bf-e8123d9dea69",
+   "lemma": "wear glasses",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wear glasses"
+   ],
+   "kind": "collocation",
+   "glossEn": "use spectacles to see better",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "2e998ee9-ecfa-5012-bad7-2b3f828014ab",
+   "lemma": "turn on the light",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "turn on the light",
+    "switch on the light",
+    "turn the light on"
+   ],
+   "kind": "collocation",
+   "glossEn": "make a lamp start shining",
+   "topics": []
+  },
+  {
+   "id": "73ee47e7-d726-5eac-a7c8-f90dd8cc05b6",
+   "lemma": "turn off the light",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "turn off the light",
+    "switch off the light",
+    "turn the light off"
+   ],
+   "kind": "collocation",
+   "glossEn": "make a lamp stop shining",
+   "topics": []
+  },
+  {
+   "id": "0306bd89-380b-5c47-8b3c-233df7110441",
+   "lemma": "answer the phone",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "answer the phone",
+    "pick up the phone"
+   ],
+   "kind": "collocation",
+   "glossEn": "pick up a ringing phone and speak",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "38c1ea3d-eaa1-5281-971c-b1409c1afbda",
+   "lemma": "send a message",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "send a message",
+    "send a text",
+    "send sb a message"
+   ],
+   "kind": "collocation",
+   "glossEn": "write and transmit a short text to someone",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "783ffbde-c7d1-5e13-bb3d-803231a59de8",
+   "lemma": "send an email",
+   "pos": "phrase",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "send an email",
+    "send an e-mail",
+    "send sb an email"
+   ],
+   "kind": "collocation",
+   "glossEn": "write and transmit an electronic letter",
+   "topics": [
+    "communication",
+    "it"
+   ]
+  }
+ ]
+}

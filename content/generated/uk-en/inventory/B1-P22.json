@@ -1,0 +1,130 @@
+{
+ "chunk": "B1-P22",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "d44c209b-2282-53b4-ac18-9c045e36642d",
+   "lemma": "at the checkout",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at the checkout",
+    "at the till"
+   ],
+   "kind": "prepositional",
+   "glossEn": "at the place where you pay in a shop",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "af954d33-e56c-5fd5-946c-2655bb636c3b",
+   "lemma": "on a budget",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on a budget",
+    "on a tight budget"
+   ],
+   "kind": "prepositional",
+   "glossEn": "with limited money to spend",
+   "topics": [
+    "shopping",
+    "travel"
+   ]
+  },
+  {
+   "id": "6de64fea-c539-588a-9400-e05ba59983a5",
+   "lemma": "on credit",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on credit"
+   ],
+   "kind": "prepositional",
+   "glossEn": "buying now and paying later",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "6c1a9c31-9d9f-5034-ad69-b7a57a65bd6a",
+   "lemma": "on the menu",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on the menu"
+   ],
+   "kind": "prepositional",
+   "glossEn": "offered as a dish in a restaurant",
+   "topics": [
+    "food"
+   ]
+  },
+  {
+   "id": "1839e606-6c5d-5bb5-8064-a3b36a111053",
+   "lemma": "under attack",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "under attack"
+   ],
+   "kind": "prepositional",
+   "glossEn": "being attacked",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "717cd4b5-a9c5-58ac-bf46-75382fe394a3",
+   "lemma": "at war",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "at war",
+    "at war with"
+   ],
+   "kind": "prepositional",
+   "glossEn": "fighting a war against another country",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "ca54cbf3-d031-5f75-bd74-cf8e73728103",
+   "lemma": "in uniform",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in uniform"
+   ],
+   "kind": "prepositional",
+   "glossEn": "wearing military or official clothing",
+   "topics": [
+    "military"
+   ]
+  },
+  {
+   "id": "b390fe28-866d-5ef9-a41a-02280b6087c6",
+   "lemma": "on a mission",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on a mission"
+   ],
+   "kind": "prepositional",
+   "glossEn": "sent to carry out an important task",
+   "topics": [
+    "military"
+   ]
+  }
+ ]
+}

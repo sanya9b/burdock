@@ -13,14 +13,15 @@
     <Shell.BackButtonBehavior>
         <BackButtonBehavior IsVisible="False" IsEnabled="False" />
     </Shell.BackButtonBehavior>
-    <!-- S-12d (spec 03) + spec 07 §3.8: numbers first, then XP / thorns / streak, then queued celebrations on the RewardCard overlay. Level L2 confetti plays behind the content. -->
+    <!-- S-12d (spec 03) + spec 07 §3.8: numbers first, then XP / thorns / streak, the burr fed with the XP earned, then queued celebrations on the RewardCard overlay. Level L2 confetti plays behind the content. -->
     <Grid>
         <controls:ConfettiView x:Name="Confetti" Style="{StaticResource SummaryConfetti}" />
         <Grid RowDefinitions="*,Auto">
             <ScrollView Grid.Row="0">
                 <VerticalStackLayout Spacing="{StaticResource Space5}" Padding="{StaticResource Space6}" VerticalOptions="Center" MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
-                    <Image x:Name="MascotImage" Source="{Binding Mascot}" WidthRequest="{StaticResource SizeMascotLg}" HeightRequest="{StaticResource SizeMascotLg}" HorizontalOptions="Center"
-                           AutomationProperties.IsInAccessibleTree="False" />
+                    <!-- The learner's own burr at its stage before the session; the code-behind feeds it with the XP earned and lets it grow (spec 07 §3.2.7). -->
+                    <controls:MascotView x:Name="Mascot" Mood="{Binding Mood}" Opacity="0" WidthRequest="{StaticResource SizeMascotLg}" HeightRequest="{StaticResource SizeMascotLg}" HorizontalOptions="Center"
+                                         SemanticProperties.Description="{Binding MascotDescription}" />
                     <Label Text="{x:Static strings:AppResources.Summary_Title}" Style="{StaticResource TypeHeadlineLg}" HorizontalTextAlignment="Center" SemanticProperties.HeadingLevel="Level1" />
                     <Label Text="{x:Static strings:AppResources.Summary_Encouragement}" Style="{StaticResource TextSecondary}" HorizontalTextAlignment="Center" />
 

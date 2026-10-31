@@ -40,13 +40,14 @@ public sealed class SettleSessionRewardsUseCase(
     }
 }
 
-/// <summary>What Today and the profile show: thorns, XP with level progress, streak, achievements.</summary>
+/// <summary>What Today and the profile show: thorns, XP with level progress, mascot growth, streak, achievements.</summary>
 public sealed record RewardsOverview(
     int Thorns,
     int Xp,
     int Level,
     int XpEarnedInLevel,
     int XpNeededForLevel,
+    GrowthSnapshot Growth,
     int StreakLength,
     bool StreakCountedToday,
     IReadOnlySet<string> Achievements,
@@ -61,6 +62,6 @@ public sealed class GetRewardsOverviewUseCase(ILearnerContext learner, IRewardsS
         var state = await rewards.GetAsync(learnerId, cancellationToken).ConfigureAwait(false) ?? RewardsState.Empty;
         var today = learningDays.Today();
         var (earned, needed) = XpRules.LevelProgress(state.Xp);
-        return new RewardsOverview(state.Thorns, state.Xp, state.Level, earned, needed, state.Streak.LengthOn(today), state.Streak.IsCountedOn(today), state.Achievements, settings.GamificationEnabled);
+        return new RewardsOverview(state.Thorns, state.Xp, state.Level, earned, needed, GrowthRules.For(state.Xp), state.Streak.LengthOn(today), state.Streak.IsCountedOn(today), state.Achievements, settings.GamificationEnabled);
     }
 }

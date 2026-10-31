@@ -1,0 +1,623 @@
+{
+ "chunk": "C1-P04",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "bcdf21c8-5a10-5bd7-9b68-4878fb2cbcc7",
+   "lemma": "hold the fort",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hold the fort",
+    "hold down the fort"
+   ],
+   "kind": "idiom",
+   "glossEn": "take care of things while someone is away",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "d2359e5a-25e5-5718-b79b-3008283e08bf",
+   "lemma": "in the doldrums",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the doldrums",
+    "the doldrums"
+   ],
+   "kind": "idiom",
+   "glossEn": "inactive, depressed or stagnant",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "40cabda3-11b9-58f8-baef-839630463b97",
+   "lemma": "strike while the iron is hot",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "strike while the iron is hot"
+   ],
+   "kind": "idiom",
+   "glossEn": "act quickly while the chance exists",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "db6153ae-cdcb-5a38-9935-749457110cb3",
+   "lemma": "in the thick of it",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the thick of it",
+    "in the thick of sth",
+    "in the thick of things"
+   ],
+   "kind": "idiom",
+   "glossEn": "in the busiest or most intense part",
+   "topics": [
+    "work",
+    "military"
+   ]
+  },
+  {
+   "id": "26fbc54e-4acd-5008-a6a3-d0d1226dc9d3",
+   "lemma": "keep sb on their toes",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep sb on their toes",
+    "on one's toes",
+    "stay on your toes"
+   ],
+   "kind": "idiom",
+   "glossEn": "make someone stay alert and ready",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "b917908d-1f85-5100-acf9-d481ddd99b24",
+   "lemma": "upset the apple cart",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "upset the apple cart",
+    "upset the applecart"
+   ],
+   "kind": "idiom",
+   "glossEn": "spoil a plan or stable arrangement",
+   "topics": []
+  },
+  {
+   "id": "e256e9e0-229a-5afa-b976-3c6482638513",
+   "lemma": "a double whammy",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a double whammy",
+    "double whammy"
+   ],
+   "kind": "idiom",
+   "glossEn": "two bad things happening at once",
+   "topics": []
+  },
+  {
+   "id": "eb95eaa3-b993-5c0a-b9e5-177219c7351a",
+   "lemma": "a wet blanket",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a wet blanket",
+    "wet blanket",
+    "a killjoy"
+   ],
+   "kind": "idiom",
+   "glossEn": "person who spoils others' fun",
+   "topics": []
+  },
+  {
+   "id": "e389b006-e736-521b-b747-f73c2df81dce",
+   "lemma": "leave sb high and dry",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "leave sb high and dry",
+    "high and dry"
+   ],
+   "kind": "idiom",
+   "glossEn": "abandon someone without help or resources",
+   "topics": []
+  },
+  {
+   "id": "b424bb25-9ea7-56fd-8a99-9bf59f6a29e8",
+   "lemma": "leave sb in the lurch",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "leave sb in the lurch",
+    "in the lurch"
+   ],
+   "kind": "idiom",
+   "glossEn": "abandon someone in a difficult moment",
+   "topics": []
+  },
+  {
+   "id": "d4659c27-4224-571e-9a82-820bf2b9dd7a",
+   "lemma": "let the chips fall where they may",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "let the chips fall where they may"
+   ],
+   "kind": "idiom",
+   "glossEn": "accept whatever consequences come",
+   "topics": []
+  },
+  {
+   "id": "2e6e91dc-683b-560f-b4a0-e3c97ab61d1e",
+   "lemma": "lock horns",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lock horns",
+    "lock horns with sb"
+   ],
+   "kind": "idiom",
+   "glossEn": "get into a fierce argument or conflict",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "d80a2902-d134-5543-ade1-4debd653bfcf",
+   "lemma": "make hay while the sun shines",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "make hay while the sun shines",
+    "make hay"
+   ],
+   "kind": "idiom",
+   "glossEn": "use a good opportunity while it lasts",
+   "topics": []
+  },
+  {
+   "id": "7e861800-dda5-50a5-b84e-da9d2b3a4885",
+   "lemma": "muddy the waters",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "muddy the waters",
+    "muddy the water"
+   ],
+   "kind": "idiom",
+   "glossEn": "make a situation more confusing",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "a6fc486d-a3b8-5b8c-bb73-1ef5b0320c9f",
+   "lemma": "no holds barred",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "no holds barred",
+    "no-holds-barred"
+   ],
+   "kind": "idiom",
+   "glossEn": "without any rules or restrictions",
+   "topics": []
+  },
+  {
+   "id": "530087e5-afb9-5a2d-b842-2a5f0cf1b127",
+   "lemma": "not mince words",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "not mince words",
+    "mince words",
+    "not mince one's words"
+   ],
+   "kind": "idiom",
+   "glossEn": "speak bluntly and directly",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "479c30b2-09cf-5180-9d9b-863d6830da5e",
+   "lemma": "off the cuff",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "off the cuff",
+    "off-the-cuff"
+   ],
+   "kind": "idiom",
+   "glossEn": "without preparation, spontaneously",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "985da773-c2fa-5e37-821b-401fd87e6c7f",
+   "lemma": "on a knife-edge",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on a knife-edge",
+    "on a knife's edge",
+    "on a knife edge"
+   ],
+   "kind": "idiom",
+   "glossEn": "in a very uncertain, tense situation",
+   "topics": []
+  },
+  {
+   "id": "494d420a-8cef-5506-a6a6-becbb2ea99d3",
+   "lemma": "in the cards",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in the cards",
+    "on the cards",
+    "not in the cards"
+   ],
+   "kind": "idiom",
+   "glossEn": "likely to happen",
+   "topics": []
+  },
+  {
+   "id": "49f29298-f6a5-5178-83cf-1e365ba4531e",
+   "lemma": "out of left field",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "out of left field",
+    "from left field"
+   ],
+   "kind": "idiom",
+   "glossEn": "completely unexpected and strange",
+   "topics": []
+  },
+  {
+   "id": "400d5041-c8d8-565a-b4b3-2a65f6fe128e",
+   "lemma": "over a barrel",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "over a barrel",
+    "have sb over a barrel"
+   ],
+   "kind": "idiom",
+   "glossEn": "in a helpless position, forced to agree",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "ad4bcdcb-852e-591e-a639-0ce1c1ac3775",
+   "lemma": "pale in comparison",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pale in comparison",
+    "pale in comparison to sth",
+    "pale by comparison"
+   ],
+   "kind": "idiom",
+   "glossEn": "seem much less important by comparison",
+   "topics": []
+  },
+  {
+   "id": "6a62f4fd-d8d1-548b-b460-25a378f8da2a",
+   "lemma": "take sb to task",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take sb to task",
+    "take sb to task for sth"
+   ],
+   "kind": "idiom",
+   "glossEn": "criticize someone severely for a mistake",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "45faaeb3-719d-545a-a38c-e879e3234247",
+   "lemma": "pay lip service to sth",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pay lip service to sth",
+    "pay lip service to",
+    "lip service"
+   ],
+   "kind": "idiom",
+   "glossEn": "support something in words only",
+   "topics": [
+    "work",
+    "communication"
+   ]
+  },
+  {
+   "id": "600f18dc-f4ce-5a28-acdb-66cb7ac48c55",
+   "lemma": "pick up the pieces",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pick up the pieces"
+   ],
+   "kind": "idiom",
+   "glossEn": "restore normal life after a disaster",
+   "topics": []
+  },
+  {
+   "id": "3dfba205-5a40-5d60-adcf-b55600aff312",
+   "lemma": "play fast and loose",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "play fast and loose",
+    "play fast and loose with sth"
+   ],
+   "kind": "idiom",
+   "glossEn": "treat rules or facts carelessly",
+   "topics": []
+  },
+  {
+   "id": "d2e9e3ab-6305-5781-b6af-75493f94da04",
+   "lemma": "the tail wagging the dog",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "the tail wagging the dog",
+    "the tail wags the dog"
+   ],
+   "kind": "idiom",
+   "glossEn": "minor part controlling the whole",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "5c2ed3fd-c0c7-5fb9-8415-654f2ec0341b",
+   "lemma": "preach to the choir",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "preach to the choir",
+    "preach to the converted"
+   ],
+   "kind": "idiom",
+   "glossEn": "persuade people who already agree",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "932d630d-b7fe-50c1-8d48-34ad1198b748",
+   "lemma": "pull out all the stops",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pull out all the stops"
+   ],
+   "kind": "idiom",
+   "glossEn": "make every possible effort",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "557ce605-24aa-5f84-a208-9b415349d250",
+   "lemma": "push the envelope",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "push the envelope"
+   ],
+   "kind": "idiom",
+   "glossEn": "go beyond the usual limits",
+   "topics": [
+    "work",
+    "it"
+   ]
+  },
+  {
+   "id": "698bed91-2cca-518f-96fd-c67539622031",
+   "lemma": "put a brave face on sth",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "put a brave face on sth",
+    "put on a brave face",
+    "a brave face"
+   ],
+   "kind": "idiom",
+   "glossEn": "pretend to be fine when upset",
+   "topics": []
+  },
+  {
+   "id": "307a34b6-9ef8-5a9a-a2a5-a75256c40f24",
+   "lemma": "put sb through their paces",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "put sb through their paces",
+    "put sth through its paces"
+   ],
+   "kind": "idiom",
+   "glossEn": "test how well someone can perform",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "cf9e544a-dafd-5236-af90-785fe9550334",
+   "lemma": "raise eyebrows",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "raise eyebrows",
+    "raise a few eyebrows",
+    "eyebrow-raising"
+   ],
+   "kind": "idiom",
+   "glossEn": "cause surprise or disapproval",
+   "topics": []
+  },
+  {
+   "id": "82030391-4f72-5169-a905-a7df4caf7808",
+   "lemma": "haul sb over the coals",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "haul sb over the coals",
+    "rake sb over the coals",
+    "drag sb over the coals"
+   ],
+   "kind": "idiom",
+   "glossEn": "criticize someone very harshly",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "fbf7e54c-bfd5-5329-abc7-fad7c2be224c",
+   "lemma": "read sb the riot act",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "read sb the riot act",
+    "the riot act"
+   ],
+   "kind": "idiom",
+   "glossEn": "warn someone angrily to stop misbehaving",
+   "topics": []
+  },
+  {
+   "id": "ddd97d09-1ff5-50dd-9f5b-6015559bf963",
+   "lemma": "rear its ugly head",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rear its ugly head",
+    "raise its ugly head",
+    "rear its head"
+   ],
+   "kind": "idiom",
+   "glossEn": "appear again as a problem",
+   "topics": []
+  },
+  {
+   "id": "de219861-7ab1-5067-bfc7-4499e71b2c16",
+   "lemma": "ride roughshod over sb",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ride roughshod over sb",
+    "ride roughshod over",
+    "run roughshod over"
+   ],
+   "kind": "idiom",
+   "glossEn": "ignore someone's feelings or rights completely",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "21db81c4-8623-5cfb-90fa-7ae593547bc4",
+   "lemma": "rise to the occasion",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rise to the occasion",
+    "rise to the challenge"
+   ],
+   "kind": "idiom",
+   "glossEn": "perform well when a challenge demands it",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "8ed93ee4-adf8-5421-ba86-186f774ce9c1",
+   "lemma": "throw the baby out with the bathwater",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "throw the baby out with the bathwater",
+    "throw out the baby with the bathwater"
+   ],
+   "kind": "idiom",
+   "glossEn": "discard something good along with the bad",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "8a35d219-4cf1-5b17-bd2f-2698f71e79ff",
+   "lemma": "a baptism of fire",
+   "pos": "phrase",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a baptism of fire",
+    "baptism of fire",
+    "a baptism by fire"
+   ],
+   "kind": "idiom",
+   "glossEn": "difficult first experience of a new job",
+   "topics": [
+    "work",
+    "military"
+   ]
+  }
+ ]
+}

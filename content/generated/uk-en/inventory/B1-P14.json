@@ -1,0 +1,597 @@
+{
+ "chunk": "B1-P14",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "a29e4242-42ef-573e-ad05-153fb79aba40",
+   "lemma": "a rough patch",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a rough patch",
+    "go through a rough patch"
+   ],
+   "kind": "idiom",
+   "glossEn": "difficult period",
+   "topics": []
+  },
+  {
+   "id": "8fc74b00-2772-5c23-b108-94a0e3267f85",
+   "lemma": "run in the family",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "run in the family"
+   ],
+   "kind": "idiom",
+   "glossEn": "be common among family members",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "f646946a-9f4c-5485-bffd-c7ff51a33c67",
+   "lemma": "butterflies in one's stomach",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "butterflies in one's stomach",
+    "have butterflies",
+    "butterflies in my stomach"
+   ],
+   "kind": "idiom",
+   "glossEn": "nervous feeling before something important",
+   "topics": []
+  },
+  {
+   "id": "678d6d51-c2c3-50a7-97db-427e313d9d40",
+   "lemma": "save the day",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "save the day"
+   ],
+   "kind": "idiom",
+   "glossEn": "prevent a failure or disaster",
+   "topics": []
+  },
+  {
+   "id": "0554e01d-5245-5570-81b9-334d4954a242",
+   "lemma": "light at the end of the tunnel",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "light at the end of the tunnel",
+    "the light at the end of the tunnel"
+   ],
+   "kind": "idiom",
+   "glossEn": "sign that a hard time is ending",
+   "topics": []
+  },
+  {
+   "id": "318f7869-6eef-5ec5-b871-1146e6021063",
+   "lemma": "set in stone",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "set in stone",
+    "not set in stone",
+    "carved in stone"
+   ],
+   "kind": "idiom",
+   "glossEn": "fixed, impossible to change",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "26fc3b27-5185-50b3-80a3-ba2980d98289",
+   "lemma": "a hot potato",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a hot potato",
+    "hot potato"
+   ],
+   "kind": "idiom",
+   "glossEn": "controversial issue nobody wants to handle",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "508da465-d53e-563c-b48d-9dc83f96694f",
+   "lemma": "a slip of the tongue",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a slip of the tongue",
+    "slip of the tongue"
+   ],
+   "kind": "idiom",
+   "glossEn": "small mistake in speaking",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "fe0088a8-88ae-5c63-859e-ca20bef27282",
+   "lemma": "smell a rat",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "smell a rat"
+   ],
+   "kind": "idiom",
+   "glossEn": "suspect that something is wrong",
+   "topics": []
+  },
+  {
+   "id": "37531dd6-5fd3-5675-ade4-781e6f792b6a",
+   "lemma": "a white lie",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a white lie",
+    "white lie"
+   ],
+   "kind": "idiom",
+   "glossEn": "small harmless lie told to be polite",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "e00acfca-1330-5eb5-afde-fb7a3e3b2911",
+   "lemma": "the sky's the limit",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "the sky's the limit",
+    "the sky is the limit"
+   ],
+   "kind": "idiom",
+   "glossEn": "there is no limit to what is possible",
+   "topics": []
+  },
+  {
+   "id": "2d2eba50-ea08-502a-a9ee-a2edbc6bafc7",
+   "lemma": "a stone's throw",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a stone's throw",
+    "a stone's throw away",
+    "a stone's throw from"
+   ],
+   "kind": "idiom",
+   "glossEn": "very short distance",
+   "topics": [
+    "city",
+    "travel"
+   ]
+  },
+  {
+   "id": "86f71516-c8fc-5a43-ad13-a65c70595abc",
+   "lemma": "take a rain check",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take a rain check",
+    "rain check"
+   ],
+   "kind": "idiom",
+   "glossEn": "politely postpone an invitation",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "b549b907-6c1f-5f1f-9b51-d165fd2eb8d1",
+   "lemma": "take the bull by the horns",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take the bull by the horns"
+   ],
+   "kind": "idiom",
+   "glossEn": "deal with a problem directly and bravely",
+   "topics": []
+  },
+  {
+   "id": "e22b9843-f155-529a-b61e-7e7d5f261a1e",
+   "lemma": "a taste of one's own medicine",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a taste of one's own medicine",
+    "a dose of one's own medicine"
+   ],
+   "kind": "idiom",
+   "glossEn": "same bad treatment one gives to others",
+   "topics": []
+  },
+  {
+   "id": "61d676bd-0457-5a4a-992e-3b91a9aece66",
+   "lemma": "think outside the box",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "think outside the box",
+    "outside the box"
+   ],
+   "kind": "idiom",
+   "glossEn": "think creatively, in a new way",
+   "topics": [
+    "work",
+    "it"
+   ]
+  },
+  {
+   "id": "092ab34d-07da-5e88-813b-5557178467c2",
+   "lemma": "through thick and thin",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "through thick and thin"
+   ],
+   "kind": "idiom",
+   "glossEn": "in good times and bad times",
+   "topics": []
+  },
+  {
+   "id": "9fda29e6-8c58-53fd-a1b1-31a9ccc39d15",
+   "lemma": "throw sb under the bus",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "throw sb under the bus",
+    "under the bus"
+   ],
+   "kind": "idiom",
+   "glossEn": "blame or sacrifice someone to protect yourself",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "58d2632a-e3d0-5969-81f5-7d9e3a71edd7",
+   "lemma": "tie the knot",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tie the knot"
+   ],
+   "kind": "idiom",
+   "glossEn": "get married",
+   "topics": []
+  },
+  {
+   "id": "556d5556-078d-5d81-ad83-3636e78d5ecf",
+   "lemma": "twist sb's arm",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "twist sb's arm",
+    "twist my arm"
+   ],
+   "kind": "idiom",
+   "glossEn": "persuade someone to do something unwillingly",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "89f4c905-e4c4-55c9-9ed2-d026cdc45c00",
+   "lemma": "up to one's ears",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "up to one's ears",
+    "up to one's neck",
+    "up to my ears in work"
+   ],
+   "kind": "idiom",
+   "glossEn": "very busy with or deep in something",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "d2756f77-6cee-59b6-a4b1-b36e81bac922",
+   "lemma": "a walk in the park",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "a walk in the park",
+    "walk in the park"
+   ],
+   "kind": "idiom",
+   "glossEn": "something very easy",
+   "topics": []
+  },
+  {
+   "id": "bb4710c5-b445-5d50-b3b7-288bef8b6b96",
+   "lemma": "break the bank",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "break the bank",
+    "won't break the bank"
+   ],
+   "kind": "idiom",
+   "glossEn": "cost more than you can afford",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "d227043e-2226-5fc2-ad00-80370d3f5991",
+   "lemma": "come up with sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "come up with sth",
+    "come up with"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "think of an idea or solution",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "3fd81b22-3cd7-55d9-92eb-e51360208bc0",
+   "lemma": "point out sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "point out sth",
+    "point out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "draw attention to a fact",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "c8ef0b3e-9365-525d-ba9b-f20e712a1d3d",
+   "lemma": "take up sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take up sth",
+    "take up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "start a new hobby; occupy time or space",
+   "topics": []
+  },
+  {
+   "id": "2080f2c7-d4f6-5645-9660-7fdf998aa918",
+   "lemma": "bring up sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bring up sth",
+    "bring up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "raise a child; mention a topic",
+   "topics": []
+  },
+  {
+   "id": "1b325f32-9368-5a2d-ba65-bc1420073246",
+   "lemma": "go after sb",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go after sb",
+    "go after"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "chase someone; try to get something",
+   "topics": []
+  },
+  {
+   "id": "47b43ea7-5d6d-534c-acb3-014ec1bc8829",
+   "lemma": "go through sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "go through sth",
+    "go through"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "experience something difficult; examine carefully",
+   "topics": []
+  },
+  {
+   "id": "5591f748-88b4-5e8e-9977-55ba25bc5764",
+   "lemma": "get through sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get through sth",
+    "get through"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "finish or survive something; reach someone by phone",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "b91f108e-9349-5a4d-a27f-0ac53b064588",
+   "lemma": "come across sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "come across sth",
+    "come across"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "find or meet by chance; seem to others",
+   "topics": []
+  },
+  {
+   "id": "c0fc338d-6565-5d45-8bbe-8a2cc261b25d",
+   "lemma": "run into sb",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "run into sb",
+    "run into"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "meet someone unexpectedly; experience a problem",
+   "topics": []
+  },
+  {
+   "id": "c3f4df00-d5ee-5465-aa17-c6bd82267aa1",
+   "lemma": "bump into sb",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bump into sb",
+    "bump into"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "meet someone by chance",
+   "topics": []
+  },
+  {
+   "id": "713aef93-b3d1-52f0-8bb2-91b3363d4002",
+   "lemma": "pass away",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pass away"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "die, used politely",
+   "topics": []
+  },
+  {
+   "id": "e69c7788-60be-5b6d-ba29-f8e177cf7231",
+   "lemma": "take in sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "take in sth",
+    "take in"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "understand and remember; give shelter to; deceive",
+   "topics": []
+  },
+  {
+   "id": "a5329cfa-285e-5411-b351-fb114d752577",
+   "lemma": "carry out sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "carry out sth",
+    "carry out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "perform a task, test or plan",
+   "topics": [
+    "work"
+   ]
+  },
+  {
+   "id": "57b12884-2a05-5648-a808-b8ba4880efd2",
+   "lemma": "get over sth",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "get over sth",
+    "get over"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "recover from an illness or disappointment",
+   "topics": [
+    "health"
+   ]
+  },
+  {
+   "id": "e74e0ad5-dd26-59f1-943d-da0e9aa938e8",
+   "lemma": "drop out",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "drop out"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "leave school or a course before finishing",
+   "topics": []
+  },
+  {
+   "id": "09859506-a329-59fe-98bb-ff59e533ac86",
+   "lemma": "let down sb",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "let down sb",
+    "let down"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "disappoint someone who trusted you",
+   "topics": []
+  },
+  {
+   "id": "be47f527-3df7-5c1f-befd-afd3f091108c",
+   "lemma": "hold up",
+   "pos": "phrase",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hold up"
+   ],
+   "kind": "phrasal_verb",
+   "glossEn": "delay; raise something; rob using threats",
+   "topics": []
+  }
+ ]
+}

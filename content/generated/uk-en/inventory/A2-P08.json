@@ -1,0 +1,653 @@
+{
+ "chunk": "A2-P08",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "8ddae5b3-59cc-5610-ba32-1062aec1a55e",
+   "lemma": "can I try it on",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "can I try it on",
+    "could I try it on",
+    "can I try this on"
+   ],
+   "kind": "formula",
+   "glossEn": "asking to try clothes before buying",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "22dc9344-1da6-54f2-82b2-f67e49a79257",
+   "lemma": "I'm just looking",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I'm just looking",
+    "just looking",
+    "I'm just browsing"
+   ],
+   "kind": "formula",
+   "glossEn": "telling a shop assistant you need no help yet",
+   "topics": [
+    "shopping"
+   ]
+  },
+  {
+   "id": "b5dfae12-630c-5b42-bd5c-07e1e278fe10",
+   "lemma": "sounds good",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sounds good",
+    "that sounds good",
+    "sounds great"
+   ],
+   "kind": "formula",
+   "glossEn": "approving a suggestion",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "88ad39ff-4c71-5006-a95e-19fc19a60374",
+   "lemma": "that makes sense",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "that makes sense",
+    "makes sense",
+    "it makes sense"
+   ],
+   "kind": "formula",
+   "glossEn": "saying something is logical or understandable",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "be693d74-3f1c-5d8c-ac54-d45aae252b23",
+   "lemma": "my mistake",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "my mistake",
+    "my fault"
+   ],
+   "kind": "formula",
+   "glossEn": "admitting a small error",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "207a4485-eaa9-54d5-b03f-8b58d4c3c858",
+   "lemma": "sorry to bother you",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sorry to bother you",
+    "I'm sorry to bother you",
+    "sorry to trouble you"
+   ],
+   "kind": "formula",
+   "glossEn": "polite start before asking or interrupting",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "065d7225-2877-5b63-9a88-d5985591e690",
+   "lemma": "thanks for coming",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "thanks for coming",
+    "thank you for coming"
+   ],
+   "kind": "formula",
+   "glossEn": "thanking guests or attendees",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "190182e5-6152-5c67-a00e-76673ccf4974",
+   "lemma": "that's very kind of you",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "that's very kind of you",
+    "that is very kind of you",
+    "how kind of you",
+    "that's so kind of you"
+   ],
+   "kind": "formula",
+   "glossEn": "thanking someone warmly for a kind act",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "6ac176d6-3c78-5a8a-bdc1-354391bdb951",
+   "lemma": "it was nothing",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "it was nothing",
+    "it's nothing",
+    "it's no trouble"
+   ],
+   "kind": "formula",
+   "glossEn": "modest reply to thanks",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "99ab2287-dd43-5609-9515-69e4524d8787",
+   "lemma": "happy to help",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "happy to help",
+    "glad to help",
+    "I'm happy to help"
+   ],
+   "kind": "formula",
+   "glossEn": "friendly reply to thanks or offer of help",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "58dcd0d6-43a4-5df2-a5ba-ddef7438fe8d",
+   "lemma": "is everything okay",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "is everything okay",
+    "is everything OK",
+    "is everything all right"
+   ],
+   "kind": "formula",
+   "glossEn": "asking whether things are fine",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "2d008fd7-5679-55ee-8029-c81624a9e503",
+   "lemma": "what's wrong",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "what's wrong",
+    "what is wrong",
+    "what's wrong with you"
+   ],
+   "kind": "formula",
+   "glossEn": "asking what the problem is",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "f6e38f4e-136c-5230-9b77-f1863059eaa8",
+   "lemma": "cheer up",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cheer up"
+   ],
+   "kind": "formula",
+   "glossEn": "encouraging someone to feel happier",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "e994832f-0e14-5f70-a428-e0d392bd683d",
+   "lemma": "good for you",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "good for you"
+   ],
+   "kind": "formula",
+   "glossEn": "praising or congratulating someone",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "e421dd41-a79b-5fe3-abe2-f1c91ef8376b",
+   "lemma": "lucky you",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lucky you"
+   ],
+   "kind": "formula",
+   "glossEn": "saying someone is fortunate",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "bf596168-c869-5386-b029-f6467fcc00cb",
+   "lemma": "keep it up",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keep it up",
+    "keep up the good work",
+    "keep going"
+   ],
+   "kind": "formula",
+   "glossEn": "encouraging someone to continue doing well",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "c51d1ae2-82d3-5cf4-9f3d-d0d1b2f12ef6",
+   "lemma": "here we go",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "here we go"
+   ],
+   "kind": "formula",
+   "glossEn": "said when something starts",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "4d6f6df5-1e1c-5383-8e13-f907bf097a21",
+   "lemma": "nothing much",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nothing much",
+    "not much",
+    "nothing special"
+   ],
+   "kind": "formula",
+   "glossEn": "reply meaning not much is new",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "a15cfffb-d5c1-5065-b176-d95130b173df",
+   "lemma": "I'll be right back",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I'll be right back",
+    "be right back",
+    "I will be right back"
+   ],
+   "kind": "formula",
+   "glossEn": "saying you will return very soon",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "3ab3a496-8153-5787-9970-512260c58afc",
+   "lemma": "oh well",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "oh well"
+   ],
+   "kind": "formula",
+   "glossEn": "accepting something disappointing",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "614f5b48-2947-5248-be52-2c7e6f753070",
+   "lemma": "who knows",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "who knows"
+   ],
+   "kind": "formula",
+   "glossEn": "saying nobody can be sure",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "97d3c721-a69c-5fcc-a310-041edda4fa90",
+   "lemma": "we'll see",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "we'll see",
+    "we will see"
+   ],
+   "kind": "formula",
+   "glossEn": "postponing a decision; time will show",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "650c45e4-df1d-5666-b27e-851acc3886c5",
+   "lemma": "it depends",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "it depends",
+    "that depends",
+    "it all depends"
+   ],
+   "kind": "formula",
+   "glossEn": "saying the answer is not fixed",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "9400983d-8a7a-5aca-b338-8b828900d6d9",
+   "lemma": "in general",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in general"
+   ],
+   "kind": "formula",
+   "glossEn": "speaking generally; usually",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "5f522a68-096a-587e-a0af-fb08b4e6e708",
+   "lemma": "I have no idea",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I have no idea",
+    "no idea",
+    "I've no idea"
+   ],
+   "kind": "formula",
+   "glossEn": "saying you do not know at all",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "b48d1b1d-8aec-5667-afee-c8c1868b1883",
+   "lemma": "for sure",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "for sure"
+   ],
+   "kind": "formula",
+   "glossEn": "certainly; definitely",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "7d39b315-abb2-592a-9266-de4cbc1e3966",
+   "lemma": "of course not",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "of course not"
+   ],
+   "kind": "formula",
+   "glossEn": "emphatic no",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "41b4c4d7-9518-553e-ba11-75c34984ce8e",
+   "lemma": "with pleasure",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "with pleasure"
+   ],
+   "kind": "formula",
+   "glossEn": "gladly agreeing to a request",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "80b5b63d-1abc-54aa-a2a7-40223881aafc",
+   "lemma": "how about",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "how about",
+    "what about"
+   ],
+   "kind": "formula",
+   "glossEn": "making a suggestion or asking about something",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "b8c80691-becd-5613-9277-971cf3e5f94f",
+   "lemma": "in that case",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in that case"
+   ],
+   "kind": "formula",
+   "glossEn": "if that is so",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "430a9e48-2786-5717-8c3d-a69d34a17cbe",
+   "lemma": "I mean",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I mean"
+   ],
+   "kind": "formula",
+   "glossEn": "clarifying or correcting what you just said",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "e9d914bf-2037-5c94-a049-0173bcaac1ad",
+   "lemma": "as usual",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as usual",
+    "as always"
+   ],
+   "kind": "formula",
+   "glossEn": "as normally happens",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "f7b19145-d0ad-5416-9dd2-6d25d158520b",
+   "lemma": "just in case",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "just in case",
+    "in case"
+   ],
+   "kind": "formula",
+   "glossEn": "as a precaution",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "81bd0b1c-c089-554d-bb0a-cceddbfeed18",
+   "lemma": "guess what",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "guess what"
+   ],
+   "kind": "formula",
+   "glossEn": "introducing surprising news",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "93374db4-1329-5b30-ad89-beffafad454d",
+   "lemma": "and so on",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "and so on",
+    "and so forth",
+    "et cetera"
+   ],
+   "kind": "formula",
+   "glossEn": "and other similar things",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "d7de8007-b9d5-5867-a445-80e3963dfbaf",
+   "lemma": "what do you mean",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "what do you mean",
+    "what do you mean by that"
+   ],
+   "kind": "formula",
+   "glossEn": "asking someone to explain",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "60aaffeb-6349-5a9a-8a4c-f7720e337316",
+   "lemma": "how was your day",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "how was your day",
+    "how's your day been",
+    "how was your day today"
+   ],
+   "kind": "formula",
+   "glossEn": "asking about someone's day",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "9c98d058-5c4a-51df-89f3-926d149fa065",
+   "lemma": "how have you been",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "how have you been",
+    "how've you been"
+   ],
+   "kind": "formula",
+   "glossEn": "asking how someone has been since last meeting",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "b2bd05c4-b911-5a21-b9dd-86af2c802998",
+   "lemma": "what's new",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "what's new",
+    "what is new",
+    "anything new"
+   ],
+   "kind": "formula",
+   "glossEn": "asking for news informally",
+   "topics": [
+    "communication"
+   ]
+  },
+  {
+   "id": "c9c65fcc-d668-59b0-ada6-d8834dc6b898",
+   "lemma": "I'd better go",
+   "pos": "phrase",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "I'd better go",
+    "I had better go",
+    "I'd better get going"
+   ],
+   "kind": "formula",
+   "glossEn": "saying politely that you need to leave",
+   "topics": [
+    "communication"
+   ]
+  }
+ ]
+}
