@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 1,
+  "chunk": "C2-W02",
+  "reviewer": {"model": "claude-code/claude-fable-5-1", "promptVersion": "review-v1", "reviewedAt": "2026-11-01T00:00:00+00:00"},
+  "items": [
+    {
+      "id": "da6b954e-99a0-589a-a003-5cb87c037f78",
+      "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "unnatural_uk", "suggestion": "У другому прикладі вставне «безсумнівно» виділити комами: «Звіт, безсумнівно, правильний…»."}]
+    },
+    {
+      "id": "2b60f87e-ede1-5f5c-afe9-2a7b20a6cc74",
+      "scores": {"accuracy": 4, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "mismatch_en_uk", "suggestion": "Про лідерство в турнірі природніше «недосяжним», а не «неспростовним»."}]
+    },
+    {
+      "id": "674e9d45-ccc0-5d56-9edc-a47598df6152",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "07d382f4-405c-5303-808d-5d1570f6b196",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "7f04143b-6d3e-5a00-bce0-4c307e18408d",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "3963ba07-d458-53e7-acb5-e3b8eb60eaaf",
+      "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "other", "suggestion": "«Мудрість» ширше за sagacity; варто додати «проникливість» до альтернатив."}]
+    },
+    {
+      "id": "d7e97967-ad51-5a29-a6de-cd653c782d28",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "80341619-a67d-55cc-a5d8-039a8f0c9af9",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "267c6ffa-59ea-53e7-b7a7-4dcf02aebbd6",
+      "scores": {"accuracy": 4, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "other", "suggestion": "«Нейтральний» блідо; у прикладах краще «мені байдуже / не маю чіткої позиції щодо…»."}]
+    },
+    {
+      "id": "0e2f1f7d-9fb7-5fc8-8fc9-2be5b14f5f5b",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "559edf92-2bb5-5b48-82ac-7cae0addf3c4",
+      "scores": {"accuracy": 4, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 4, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "other", "suggestion": "Для світла й запаху природніше «линути / струменіти»; aspectNote спростити до «недок.»."}]
+    },
+    {
+      "id": "ca5e5742-22b5-5346-85b8-9e3fab632986",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "fd1baebf-e3d8-539c-8177-f59fe90669aa",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "70c14906-67ce-529a-a383-939eaaa64694",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "fe427148-fc92-5c3d-93ff-fb3e9d823bb3",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "fbcb2612-95f5-5c8f-977c-b736609b45aa",
+      "scores": {"accuracy": 4, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "other", "suggestion": "«Передумова» звужує сенс; у прикладах краще «витоки / попередник»: «Криза мала чіткі витоки…»."}]
+    },
+    {
+      "id": "e77b150c-dc9d-58e4-a857-af74f9c14886",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "02af8967-7587-5072-9ae5-2d6200ec73e5",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "5b4396a9-d59f-5468-b3f9-582ce26ead68",
+      "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "other", "suggestion": "«Передвістя» рідкісне; розглянути «знак / передвісник» як основний або в прикладах."}]
+    },
+    {
+      "id": "53170271-1a62-5258-bcf3-dccbb71d7cf5",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "53be9b17-ca0b-5587-a4a9-053d3fbdc9b1",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "b42915be-b402-5cdc-ad0f-9fcd62427c02",
+      "scores": {"accuracy": 4, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 3, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": "провіщати",
+      "issues": [
+        {"reasonCode": "wrong_aspect", "suggestion": "«віщувати / провістити» — не видова пара; дати «провіщати / провістити» або «віщувати (недок.)»."},
+        {"reasonCode": "unnatural_uk", "suggestion": "«Віщує драму далі в романі» кострубато: «передвіщає драму в наступних розділах»."}
+      ]
+    },
+    {
+      "id": "c0de582b-4c07-59d7-9be3-9bcc730853cd",
+      "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 4, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "other", "suggestion": "Основний переклад — описовий зворот; альтернативу «віщувати» варто подати як основну для словникової картки."}]
+    },
+    {
+      "id": "0f59b475-d0b0-504d-957f-bbce4ebc6fff",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "293e295e-52cf-5ffd-90d5-8cbd72c2e40b",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "d3f4d3ea-66ca-5a77-94b0-5535ff8d50be",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "590ba3fe-7d8d-50e7-9483-6493488672e2",
+      "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "mismatch_en_uk", "suggestion": "У другому прикладі слово передано як «щасливий випадок», а не основним «випадковий»; узгодити з usageNote."}]
+    },
+    {
+      "id": "ae1edd9a-b794-594d-8254-595c0fef8382",
+      "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "unnatural_uk", "suggestion": "«Чистий щасливий випадок привів» громіздко: «Нас привів сюди щасливий випадок»."}]
+    },
+    {
+      "id": "35da50a7-55aa-5746-a242-92f878db836e",
+      "scores": {"accuracy": 4, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "unnatural_uk", "suggestion": "«Несподівано щасливий дзвінок» штучно; краще «Випадковий дзвінок, на щастя, розв’язав…»."}]
+    },
+    {
+      "id": "09ae435d-f1b3-53c0-8693-e7e642cb889b",
+      "scores": {"accuracy": 5, "naturalness": 3, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "unnatural_uk", "suggestion": "«Чистою випадковістю ми винайняли» — калька; «За чистим збігом обставин ми винайняли…»."}]
+    },
+    {
+      "id": "cd3780ed-3aec-5d42-bc56-1c921032f64c",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "2197bfae-a209-5a70-95e9-fb4196440eee",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "c5f350ee-a9ee-5190-8e61-66aca0f21198",
+      "scores": {"accuracy": 4, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "mismatch_en_uk", "suggestion": "Про площу й вокзал природніше «осередок / вузол», а не «сполучна ланка життя села»."}]
+    },
+    {
+      "id": "64871721-1d2b-5d2a-879b-1ebf138187ca",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "b2c67247-7786-5a6a-9f6a-85f83263500d",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "15254809-f5e3-5acf-b68d-99fe1d85c6fd",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "4246fb1e-8ede-55ff-9c9c-8d4af8cb0811",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "eb633745-11c8-5827-88fd-eab48def28fa",
+      "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "unnatural_uk", "suggestion": "«Самопідтримуваним колом» важко; «замкненим колом, що саме себе підживлює»."}]
+    },
+    {
+      "id": "96139d40-7061-5c1f-9bc6-50a967099471",
+      "scores": {"accuracy": 4, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "other", "suggestion": "Переносний сенс «мати тривалі наслідки» краще показати в прикладі: «відгукнулося по всьому місту»."}]
+    },
+    {
+      "id": "a92648d7-2a26-51ca-9690-e63511a15b1e",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    }
+  ]
+}

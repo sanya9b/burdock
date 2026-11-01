@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 1,
+  "chunk": "B2-W23",
+  "reviewer": {"model": "claude-code/claude-fable-5-1", "promptVersion": "review-v1", "reviewedAt": "2026-11-01T00:00:00+00:00"},
+  "items": [
+    {
+      "id": "d4ba716c-5356-5ffc-9337-ddecda1475aa",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "e20a1934-d869-5875-8a8a-90c444ea5e2c",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "c26f8f4e-30c7-5122-ba7d-b7e6649cbdca",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "e23812fc-64ca-5733-8a63-1e507d4340f1",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "fb1c4611-305d-5145-8979-e229630c88c8",
+      "scores": {"accuracy": 4, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "unnatural_uk", "suggestion": "У контексті покупок природніше «додаткова опція» чи «аксесуар»; «доповнення» пасує радше до IT."}]
+    },
+    {
+      "id": "9c447427-ebfa-515d-ab69-564e855b3093",
+      "scores": {"accuracy": 4, "naturalness": 3, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "unnatural_uk", "suggestion": "«покупка з відкладенням» штучне; краще «відкладення товару з поетапною оплатою», і вжити переклад у UK1."}]
+    },
+    {
+      "id": "b556ea98-d085-51f1-9c8e-61102727bc5c",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "fc51043b-b48c-5d3c-bdc1-be553fe2aff4",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "17d731c8-1688-5aba-9c4f-e957c600fd65",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "1749c287-2255-51aa-a38c-724c54c05a2c",
+      "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "other", "suggestion": "«переоцінювати» двозначне (ще «переоцінювати значення»); контекст прикладів рятує, usageNote доречний."}]
+    },
+    {
+      "id": "8dd25273-0d55-5308-92f4-a6051e9325eb",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "318e5b9e-0897-574c-aaf0-6e688e4eb747",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "23588c75-0581-5857-8861-e17c17193251",
+      "scores": {"accuracy": 4, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": "знижка за кількість",
+      "issues": [{"reasonCode": "unnatural_uk", "suggestion": "«акція за кількість» не усталене; в українському ритейлі кажуть «знижка за кількість» або «3 за ціною 2»."}]
+    },
+    {
+      "id": "7dfa7ff9-e4a1-5cd4-a253-a532041fb108",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "115c0c94-e453-55dc-afa4-021561f9dcb3",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "b662633d-89a7-5b14-8461-68edcd81b440",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "d01000f1-f0f4-50d2-89aa-ee13d05d105e",
+      "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "unnatural_uk", "suggestion": "«гастрономічна крамниця» книжне; у живій мові — «гастроном» або «делікатесна крамниця»."}]
+    },
+    {
+      "id": "45592fb3-ed00-5041-b586-6da5a873a58b",
+      "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "wrong_sense", "suggestion": "fishmonger — передусім людина, крамниця — fishmonger’s; основним доречніше «торговець рибою»."}]
+    },
+    {
+      "id": "b644f406-0c16-58c4-b388-a1e7e072f7c5",
+      "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "wrong_sense", "suggestion": "confectioner — людина (кондитер), крамниця — confectioner’s; «кондитерська» як основний переклад трохи зміщує сенс."}]
+    },
+    {
+      "id": "8565c3ac-61dc-58f0-9d0e-d738cd484d34",
+      "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "wrong_sense", "suggestion": "stationer — продавець канцтоварів, крамниця — stationer’s; варто відбити це в usageNote або в altTranslations."}]
+    },
+    {
+      "id": "d6d1824e-f28c-5e60-be30-994c94b749ba",
+      "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "unnatural_uk", "suggestion": "UK1 «у крамничці біля дому на розі» надлишкове; досить «у крамничці на розі»."}]
+    },
+    {
+      "id": "102a56cb-cf56-5fd5-b281-516aa7d61c30",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "527b12d8-8820-58da-9903-d469593a9321",
+      "scores": {"accuracy": 3, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": "залишення кошика",
+      "issues": [{"reasonCode": "wrong_sense", "suggestion": "«покинутий кошик» — це abandoned cart, а не abandonment; переклад має називати дію: «залишення кошика»."}]
+    },
+    {
+      "id": "c15a2784-4b36-5282-9992-c2a7d19ee38e",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "c5ffe185-da8c-5761-a1f6-0c34961b60c1",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "e95d5f19-e28f-5ac7-acb6-1d76e912f687",
+      "scores": {"accuracy": 4, "naturalness": 3, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": "учасник партнерської програми",
+      "issues": [{"reasonCode": "unnatural_uk", "suggestion": "«партнер за комісію» штучне; українською — «учасник партнерської програми» або «партнер за реферальною програмою»."}]
+    },
+    {
+      "id": "c2341809-7e74-5394-a193-a3e4cc400583",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "81cf69ad-7416-57af-8f53-174cbf88d8f0",
+      "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "unnatural_uk", "suggestion": "UK1: «доставку за фіксованою ціною — п’ятдесят гривень» (потрібне тире або «у розмірі»)."}]
+    },
+    {
+      "id": "80a68537-5ca3-557b-8fc6-5d06c3465325",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "715654ec-2e5f-5e94-a63e-6ccd05d3c8e5",
+      "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "other", "suggestion": "«недоставлений» ширше за undeliverable («який неможливо доставити»); у прикладах контекст це компенсує."}]
+    },
+    {
+      "id": "b1a612f1-5d95-586b-82be-dab74bc7c161",
+      "scores": {"accuracy": 4, "naturalness": 3, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": "комісія за повернення товару",
+      "issues": [
+        {"reasonCode": "unnatural_uk", "suggestion": "UK1 неграматичне: «утримує плату за повернення в розмірі десяти відсотків з повернутої електроніки»."},
+        {"reasonCode": "wrong_sense", "suggestion": "«плата за повернення» плутається з вартістю зворотної доставки; точніше «комісія за повернення товару»."}
+      ]
+    },
+    {
+      "id": "97fc9a85-61d8-5733-973d-5ee68953a898",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "ad032f1e-cb97-522c-a2c5-0ac57d46005d",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "1d6a5bb3-1f4b-56c7-a1f2-756130cf5705",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "0e34cfaa-952a-51e9-a8bf-bd7a98d373f8",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "wrong_topic", "suggestion": "Кредитний рейтинг — радше фінанси, ніж покупки; shopping 0.5 натягнуто, але ближчої теми в переліку немає."}]
+    },
+    {
+      "id": "78c1f503-5394-570e-8bac-3744cf37aab4",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "8517a81a-1d55-5680-a149-744af5a0b8bd",
+      "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "unnatural_uk", "suggestion": "UK1 обірване: «плюс комісія за обробку — 20 гривень»."}]
+    },
+    {
+      "id": "4772d03f-6ccb-5208-8088-9e7d97ca095b",
+      "scores": {"accuracy": 4, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "other", "suggestion": "«кредит-нота» — бухгалтерський термін; для покупця зрозуміліше «ваучер на суму повернення»."}]
+    },
+    {
+      "id": "744188b4-c34d-5a10-aa01-b8ab6b92509f",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "wrong_topic", "suggestion": "Банківський регулярний платіж слабко пов’язаний з покупками; shopping 0.4 на межі, краще без теми."}]
+    },
+    {
+      "id": "e94f5c8b-76a9-56a0-b79e-202a3e3aafd6",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    }
+  ]
+}

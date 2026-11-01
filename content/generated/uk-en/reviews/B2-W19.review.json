@@ -1,0 +1,641 @@
+{
+ "schemaVersion": 1,
+ "chunk": "B2-W19",
+ "reviewer": {
+  "model": "claude-code/claude-fable-5-1",
+  "promptVersion": "review-v1",
+  "reviewedAt": "2026-11-01T00:00:00+00:00"
+ },
+ "items": [
+  {
+   "id": "4f76011c-31b6-5b5b-a68b-72e63c89a46b",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "fc721150-72fd-52dd-82c6-44fe4879eee0",
+   "scores": {
+    "accuracy": 4,
+    "naturalness": 4,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "unnatural_uk",
+     "suggestion": "«Черговий з безпеки» — не усталене сполучення; краще «відповідальний за безпеку» або «комендант укриття»."
+    }
+   ]
+  },
+  {
+   "id": "c9958a41-0389-567b-af38-7266909ba55c",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "1fd051e8-d2db-528a-b2c6-7036a1a8c841",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "eb614d5f-3b9b-5177-9c76-faaf27dd79b2",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 4,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "unnatural_uk",
+     "suggestion": "«Захисне екранування» надто технічно; у прикладах природніше «захист» («добрий захист у підвалі»)."
+    }
+   ]
+  },
+  {
+   "id": "d5272e26-d94d-5650-9f5c-3ca0c934fc63",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "9d39c114-b4f2-594a-9bd9-752146619288",
+   "scores": {
+    "accuracy": 4,
+    "naturalness": 4,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "unnatural_uk",
+     "suggestion": "«Зачекайте за оточенням» звучить неприродно; краще «за загородженням» або «за поліцейським кордоном»."
+    }
+   ]
+  },
+  {
+   "id": "e1ee8204-e082-5bda-bf49-885c1bcf7ac8",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "12ba6f9b-e99b-51f2-a50b-4966ffa9ca8d",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "21479d50-d0ef-5db6-9551-a1965dd7fb41",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "1e8559f9-53a8-51cc-99bb-f0520a0072d5",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "07d37a35-e7cf-51c8-ac1a-7e731a5d810d",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "b761d15a-d723-583f-adbe-a396fd0722ea",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "3acb4277-ec8c-5163-ab1e-efb882ba8d00",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "f2a3da6a-8f25-59b0-a682-3658bf366924",
+   "scores": {
+    "accuracy": 4,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "wrong_sense",
+     "suggestion": "Enlisted охоплює й сержантів; точніше «рядового й сержантського складу», «рядовий» — лише частина сенсу."
+    }
+   ]
+  },
+  {
+   "id": "b415dda1-5613-5bf8-97c6-ce1802dfa440",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "6dc9d886-1cd5-526c-99d4-1af1fcac3ee1",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "ace2ffa0-1537-57fb-9c86-9467fb630ff4",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "5158d84d-e3eb-59f3-8a42-6c435eaa9096",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "77aba97f-b385-5557-bc3a-3803b542fcb0",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "b4f6f68e-dd17-523a-8263-468fa197478f",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "39b9d7b2-d113-59ec-aabc-3ffa4ee198af",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "d475c8c2-7f67-5f16-8f7d-83d70328d54d",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "912c7baa-2107-5cf0-981e-8efec6809335",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "fcef4431-b8c3-57cf-a239-6151f797f210",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "88f769ee-063c-50e0-b996-36cba66750cf",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "463b2810-19b5-5bb4-b717-be3194d1486f",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "a5295691-5425-52a2-9b06-ca3ee0ce9d26",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "6cd63bbf-860a-5067-9d1b-8a1285713f73",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "ff33de52-f1e1-57ff-89dc-292d443649dd",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "6fa7ef49-c413-57a8-b4b1-afa7c351826e",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "e300f120-34c5-57f7-808d-921cba3de641",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "3b907b6a-7c09-57cd-aaf6-d2cbba9c3a47",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "3b3d6ebf-751d-5cbb-b2ff-f9bd1f523623",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "094142ec-b3ff-58ba-9e1f-404049c15f79",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "d939a7e8-d416-5da2-a134-b633a4cc0391",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 4,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "other",
+     "suggestion": "«мн.» у genderNote: краще «ж., зазвичай у множині», бо «перешкода» — іменник жіночого роду."
+    }
+   ]
+  },
+  {
+   "id": "ac78ae25-dcf8-502b-832c-eea6d9579455",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 4,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "other",
+     "suggestion": "«мн.» у genderNote: краще «ж., зазвичай у множині» («завада» — жіночий рід)."
+    }
+   ]
+  },
+  {
+   "id": "eb16a481-b0f7-574d-a7b1-8630307b5aca",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "95539c7d-4e19-5174-a2b6-78ff545de4f2",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "ef83cb33-cbdb-513c-83e3-a6d6c6264ec1",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  }
+ ]
+}

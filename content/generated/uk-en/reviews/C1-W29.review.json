@@ -1,0 +1,327 @@
+{
+ "schemaVersion": 1,
+ "chunk": "C1-W29",
+ "reviewer": {"model": "claude-code/claude-fable-5-1", "promptVersion": "review-v1", "reviewedAt": "2026-11-01T00:00:00+00:00"},
+ "items": [
+  {
+   "id": "254739c8-e069-5a60-8905-3e71f4a939fc",
+   "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_topic", "suggestion": "Тема communication притягнута; слово загальне, краще без тем."}]
+  },
+  {
+   "id": "9832da2d-bef5-5a26-8c2b-112fe5ad46b3",
+   "scores": {"accuracy": 5, "naturalness": 3, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": true,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "unnatural_uk", "suggestion": "В altTranslations «скрізь зуби» — помилка; правильно «крізь зуби»."}]
+  },
+  {
+   "id": "3f680366-fb3f-52ca-953d-2dee7a453f22",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "e85dae0b-956b-51e6-9ed6-fb4391184840",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "dc3dfb23-32bc-5494-a158-4b0ce02f7e57",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "5801ab35-bae0-5d3c-89e5-5a34128b3a80",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "b8f28c6f-ec95-56d4-95ac-79db92c75eb0",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "a114f0d2-949f-5591-9a9b-0694745e4f46",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "180f5ecf-b457-5cc5-b720-c53e00cbe924",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "dcdbf4ff-a1d9-5075-913f-68cecac00ddc",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "6a093f7b-84b6-5f45-bbae-abb00426563d",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "08d10cfa-e5bc-5968-a5e8-2a6ee1413c32",
+   "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "unnatural_uk", "suggestion": "Альтернатива «задній» (задня думка) сумнівна; краще «потаємний», «нещирий»."}]
+  },
+  {
+   "id": "379cec35-7039-58e9-a701-322d268f1334",
+   "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "unnatural_uk", "suggestion": "Другий приклад: «Чи це боягузтво — уникати складної розмови з другом?»"}]
+  },
+  {
+   "id": "7f0de065-86fd-5853-9527-78a181d55b3b",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "ff2583e0-e402-5f1d-82fa-f58915b19fe7",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 3},
+   "autoReject": false,
+   "needsRegeneration": true,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_topic", "suggestion": "Тема shopping не підходить: приклади про одяг і стиль, не про покупки. Прибрати тему."}]
+  },
+  {
+   "id": "675437a3-6f9f-5fbe-afbb-bbd430cafa69",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "840c8be4-925d-5640-a0c9-8d37a80a0cfd",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "ddf271d1-028f-594d-b61c-9877444bc624",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "31d142c0-157b-5e34-b2ec-7cde9f2dbc1e",
+   "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "mismatch_en_uk", "suggestion": "У другому прикладі «так опирається» не передає defiant; краще «такий непокірний»."}]
+  },
+  {
+   "id": "91eee2c4-2d28-55be-8f2c-ab1e0995d5c5",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "95f87fe7-601f-501d-aff4-0e2ce1ba40e0",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "340513bf-5059-5760-bebf-3f84b9922463",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 4, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_stress", "suggestion": "У aspectNote розрізнити наголосом: недок. нарізáти / док. нарíзати."}]
+  },
+  {
+   "id": "369adc86-2382-53c5-b5a2-b7f75038c8c6",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 3, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": true,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_aspect", "suggestion": "«зфламбувати» суперечить правопису (с- перед ф): «сфламбувати» або лишити двовидове «фламбувати»."}]
+  },
+  {
+   "id": "046658b5-d075-50b7-a1cd-f01c2cfa2715",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 4, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_aspect", "suggestion": "«заемульгувати» не засвідчене; «емульгувати» двовидове, док. форму краще прибрати."}]
+  },
+  {
+   "id": "ee549519-45f1-5205-a3f5-1fbdeeca9d1f",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 4, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_aspect", "suggestion": "«продеглазувати» не засвідчене; «деглазувати» двовидове, док. форму краще прибрати."}]
+  },
+  {
+   "id": "e8f98760-1ec0-5454-9ab5-861dc5fba41f",
+   "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 4, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_aspect", "suggestion": "«продекантувати» не засвідчене; «декантувати» двовидове. Приклади показують лише загальний сенс."}]
+  },
+  {
+   "id": "ab22d237-608f-552d-bd8a-78edcde764c6",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "78ee0cb3-354b-5064-b8aa-6a3691f9a561",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "1b527ad6-8ecd-5133-89e5-fafa11e57aeb",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "7db958f5-27ca-504d-83f1-2d32035f0f29",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "fe67f774-d237-547c-8fd0-ead0dd7d64f1",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "72d629d8-48c4-5e7a-a712-d096f0cb991b",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "45dea2a1-4e9c-5c8d-bfeb-1e7ad2547c96",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "56468865-128f-5342-bb67-ff2eb07a64e9",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "a5795dad-7e6d-594e-b6f2-7c71af5979e0",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "420cf296-3ca9-55b7-a838-1f7c005254f6",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "e4da15e9-0c99-58e1-b2c0-70372c544d05",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "528e560e-4efd-53ac-bd0a-8facc87b1a45",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "83079d4b-a75a-596e-a733-4f42beae9907",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "cb6deeb7-79d8-5626-96ce-32c8d6211dd7",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  }
+ ]
+}

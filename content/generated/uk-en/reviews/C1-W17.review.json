@@ -1,0 +1,327 @@
+{
+ "schemaVersion": 1,
+ "chunk": "C1-W17",
+ "reviewer": {"model": "claude-code/claude-fable-5-1", "promptVersion": "review-v1", "reviewedAt": "2026-11-01T00:00:00+00:00"},
+ "items": [
+  {
+   "id": "f7ee6ceb-1eab-5d2a-bada-94902ca9e898",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "f924a0f3-b1bf-5ca4-b972-d6fd09c495e2",
+   "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_sense", "suggestion": "«Фасад» ширший за frontage (протяжність уздовж вулиці); у usageNote варто підкреслити «ширина по вулиці»."}]
+  },
+  {
+   "id": "7b4c55c7-bfbb-5b21-8213-0df9342055ad",
+   "scores": {"accuracy": 4, "naturalness": 3, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": true,
+   "primaryAlternative": "м’юз",
+   "issues": [{"reasonCode": "unnatural_uk", "suggestion": "Описовий переклад із чотирьох слів громіздкий у прикладах; краще «м’юз» із поясненням у usageNote."}]
+  },
+  {
+   "id": "f772a121-62a0-5ff1-8675-96ef3d3deef6",
+   "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 4, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "other", "suggestion": "Регістр радше neutral, не informal; «занедбаний» губить відтінок сумнівної репутації — додати в usageNote."}]
+  },
+  {
+   "id": "3862240b-4d5f-5ea3-812a-0dae7986e59b",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "d4271830-fee5-587e-9a17-a579be262a0a",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_sense", "suggestion": "«Заборонена зона» в altTranslations — інший сенс (restricted area); краще прибрати."}]
+  },
+  {
+   "id": "3655b4e5-1171-5191-8d33-d0783b8b6fe8",
+   "scores": {"accuracy": 4, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_topic", "suggestion": "Тема «city» слабка; це радше «home». Будівельний термін частіше «капілярна волога (підсмоктування)»."}]
+  },
+  {
+   "id": "b26e478d-a468-5c4b-a68c-60d2149714c0",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "ff771610-71e5-5517-9ecd-f47f33c78cb4",
+   "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "unnatural_uk", "suggestion": "Уживаніше «благодійна їдальня»; «безкоштовна їдальня» прийнятне, але менш типове."}]
+  },
+  {
+   "id": "75025143-4243-515e-85c1-9ff859063802",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_topic", "suggestion": "Інвентар без тем; «work» 0.4 для subsidize слабкий — краще без тем."}]
+  },
+  {
+   "id": "eab32043-0034-542d-a964-2e95c496d98d",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_topic", "suggestion": "Інвентар без тем; «work» для volatility натягнуто — краще без тем."}]
+  },
+  {
+   "id": "9e0c77d9-c58e-54d1-b9ac-38cb687d2b8e",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_topic", "suggestion": "Інвентар без тем; «work» для inflationary натягнуто — краще без тем."}]
+  },
+  {
+   "id": "72cd0d97-67cd-5c7d-89a5-69d7188a9fb8",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_topic", "suggestion": "Інвентар без тем; «work» для macroeconomic натягнуто — краще без тем."}]
+  },
+  {
+   "id": "eaf863d6-09b4-504e-b091-249c8c316489",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_topic", "suggestion": "Інвентар без тем; «work» для taxation слабкий — краще без тем."}]
+  },
+  {
+   "id": "2e3528c6-549b-5c84-9279-c552554afb7a",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_topic", "suggestion": "Інвентар без тем; «work» для devaluation натягнуто — краще без тем."}]
+  },
+  {
+   "id": "45c0747a-2d56-5d37-936a-979c1e36b39b",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_topic", "suggestion": "Інвентар без тем; «work» для devalue натягнуто — краще без тем."}]
+  },
+  {
+   "id": "14548c15-7d68-51f0-914d-e684875e8be4",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_topic", "suggestion": "Інвентар без тем; «work» для depreciation слабкий — краще без тем."}]
+  },
+  {
+   "id": "712d0805-c2db-5fe5-8313-9edba748f40c",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_topic", "suggestion": "Інвентар без тем; «work» для depreciate натягнуто — краще без тем."}]
+  },
+  {
+   "id": "c98d1d9d-cac9-5f75-a15f-fcf869d564d1",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_topic", "suggestion": "Інвентар без тем; «work» для debtor слабкий — краще без тем."}]
+  },
+  {
+   "id": "11e6a827-617b-535c-ad11-f50dd020aa39",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "mismatch_en_uk", "suggestion": "«faced insolvency» ≈ «опинилася перед загрозою неплатоспроможності»; «на межі» трохи вільніше. Тема «work» зайва."}]
+  },
+  {
+   "id": "621495c6-b0b4-5c88-ad0b-a1844fa3d859",
+   "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "unnatural_uk", "suggestion": "«в довгій перспективі» — калька; краще «у довгостроковій перспективі». Тема «work» зайва."}]
+  },
+  {
+   "id": "c0a63186-3113-5f9f-8be9-ca642ce4c48b",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "d12fd5de-ca5b-5f2c-a9a9-e8fec4431ea7",
+   "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_sense", "suggestion": "«Неповна зайнятість» покриває години, але не роботу нижче кваліфікації; варто зазначити це в usageNote."}]
+  },
+  {
+   "id": "c2adf49f-6766-5d69-b97e-4b0f12cdc880",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "4765b7af-4a06-5550-bc90-086b0ebb35e3",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "a642a73a-59e8-5fc8-8e56-6e97893ae21a",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_topic", "suggestion": "Інвентар без тем; «work» для shortfall натягнуто — краще без тем."}]
+  },
+  {
+   "id": "9474ae0d-b53c-52c0-a66b-2c7e68fb2cd1",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_topic", "suggestion": "Інвентар без тем; «work» для oversupply натягнуто — краще без тем."}]
+  },
+  {
+   "id": "5a0f8903-7eb8-53d1-8dd7-657613c28f24",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_topic", "suggestion": "Інвентар без тем; «work» для hyperinflation натягнуто — краще без тем."}]
+  },
+  {
+   "id": "59b7fee8-8621-5367-a46d-506a1064e330",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "ffbbad70-4919-5763-8144-09295fc45e04",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_topic", "suggestion": "Інвентар без тем; «work» для disincentive натягнуто — краще без тем."}]
+  },
+  {
+   "id": "92880af8-58aa-5e12-9ef5-dab8b64ad31e",
+   "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 4, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "unnatural_uk", "suggestion": "«на хитких роботах» неприродно; краще «мають нестабільну роботу». Регістр радше neutral, тема «work» зайва."}]
+  },
+  {
+   "id": "ef3ef51e-decd-5290-a70d-4199ddf88e81",
+   "scores": {"accuracy": 5, "naturalness": 3, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": true,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "unnatural_uk", "suggestion": "Активний дієприкметник «зростаючих» — калька; «одна з частин гіг-економіки, що зростають найшвидше»."}]
+  },
+  {
+   "id": "4d8f61f2-8ad6-59ce-9743-20c37376ef53",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_topic", "suggestion": "Інвентар без тем; «work» для privatize натягнуто — краще без тем."}]
+  },
+  {
+   "id": "63c7e6f4-8594-5bf8-b9c2-8f301f91529b",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_topic", "suggestion": "Інвентар без тем; «work» для leverage натягнуто — краще без тем."}]
+  },
+  {
+   "id": "485d1b0d-0628-540a-bc0c-a7af03ef7e32",
+   "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_sense", "suggestion": "Приклад 2 (вартість кухні) — ширший сенс «розподілити витрати», не борг; краще приклад про кредит. Тема «work» зайва."}]
+  },
+  {
+   "id": "8d62d4dd-b032-559a-8a45-1f9da3425ab1",
+   "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "unnatural_uk", "suggestion": "«Графік поступового погашення» важкий; у банках кажуть «графік погашення кредиту». Тема «work» зайва."}]
+  },
+  {
+   "id": "e4cb346e-1ec6-5ae8-9e3b-ed64c0718a39",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_topic", "suggestion": "Інвентар без тем; «work» для creditworthiness натягнуто — краще без тем."}]
+  },
+  {
+   "id": "9c4a7183-350b-555b-b1cb-96ae02068e1f",
+   "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "mismatch_en_uk", "suggestion": "«company accounts» тут — «фінансова звітність компанії», а не «рахунки»."}]
+  },
+  {
+   "id": "5bd4d77c-765e-5a95-9c76-bae65771827b",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "other", "suggestion": "В altTranslations додати фаховий термін «головна книга». Тема «work» зайва за інвентарем."}]
+  },
+  {
+   "id": "276b6474-aa22-5272-8ab6-d61685159bc3",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_topic", "suggestion": "Інвентар без тем; «work» для profitability натягнуто — краще без тем."}]
+  }
+ ]
+}

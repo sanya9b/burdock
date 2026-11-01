@@ -1,0 +1,636 @@
+{
+ "schemaVersion": 1,
+ "chunk": "B1-W04",
+ "reviewer": {
+  "model": "claude-code/claude-fable-5-1",
+  "promptVersion": "review-v1",
+  "reviewedAt": "2026-11-01T00:00:00+00:00"
+ },
+ "items": [
+  {
+   "id": "17fc49e7-02bf-5be6-a3fe-a4c96ead0156",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "3e91efd3-c703-55ac-8408-252f388a1c73",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "03e2b328-d222-57ce-84ff-d8668eaa868e",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "123f586c-b9fe-54b9-b2ea-2d9a1bebdd15",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "e48ac671-e696-540b-bdae-8b7aa44b5b90",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "9a743e53-afb3-56e4-b82d-64755d042101",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "62302c2f-4eb5-5518-b47e-ee70fa5a77a1",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "ae379f47-e7ab-51d4-b196-22c944274ae6",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "081cd463-3d9a-5c15-a7ff-4dbf6493f75e",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "fbc107ac-fcb4-5170-8957-e1a094070b70",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "81a2537e-3fa2-571e-b7e5-6d12630397db",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "d3ec1985-a154-5b04-b38c-e67a89747e87",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "075a8681-3301-54a2-832d-82d83e6b1705",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "0d51c31a-a83f-5d9c-86af-d242765a80cf",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "a1dce9b8-d5c4-5d3c-8580-a66ba69e7464",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 4,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "unnatural_uk",
+     "suggestion": "«зупинковий павільйон» канцелярське; у мовленні — «павільйон на зупинці», alt «накриття на зупинці» зайве."
+    }
+   ]
+  },
+  {
+   "id": "62d610e6-2e5a-54bb-822d-3f0196a18b48",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "d4673ab0-1fa1-5eba-a563-cdb856db0177",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "7f2a002b-a314-5458-b47c-90a7067a1f4d",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "717d0b77-ffc4-5e05-92fd-aac4c42e1c35",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "1ee5dc28-ffca-5a9f-bc31-e365ee8480e0",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "e2369a22-2a5b-5a72-bd74-f0e63ba7e304",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "541d3b11-6ed4-55ca-bf26-8a485fc9bba1",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "ceede59f-a79b-5275-8f9d-50608ef28a25",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "4ef9436d-dc88-59a3-b5e3-f626b2a64f6f",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 4,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "other",
+     "suggestion": "Другий приклад штучний: «Can you drink the tap water here?» — «Воду з-під крана тут можна пити?»."
+    }
+   ]
+  },
+  {
+   "id": "69e19c9d-5d1a-5cf8-8690-944079e8e262",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "f75285ce-11d0-57c6-8ffb-42c6f64da358",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "872f5036-4ff1-58f3-b47b-74370e564951",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "90af42e1-ef0f-56e3-a14c-04fdc471bc29",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "a463a8bf-ff5d-52b8-a1fe-dae270b2cbd1",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "309f3b31-33b9-5921-bd61-ce17f58c06f5",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "c2f7097e-ada7-5c00-bcde-5d904f1d6ab6",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "cca0e273-a29c-5cd3-9406-48ced94d14d2",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "6485148f-98a5-5c88-97f9-32a68ad3c444",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "9500bd7d-9bc0-50f7-a6f7-464f35fbe526",
+   "scores": {
+    "accuracy": 4,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "wrong_sense",
+     "suggestion": "«провулок» — бічна вуличка; для вузького проходу між будинками краще дати «вузький прохід» в altTranslations першим."
+    }
+   ]
+  },
+  {
+   "id": "48cf62c4-6ac2-5d91-ad32-be3815cb3388",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "e507e560-8190-597e-bb4d-75234a58096e",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "50029790-5481-56f0-885b-3b8a923cc6cf",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 4,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "unnatural_uk",
+     "suggestion": "«набережна моря» незвично; природніше «приморська набережна» або просто «набережна»."
+    }
+   ]
+  },
+  {
+   "id": "24e44504-86a7-52d0-b89f-7e16c3502c00",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "2f9697cb-ff47-5234-83ca-51b3963f8b98",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "aeabf50a-0d60-5a95-bc76-520bf855098c",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 4
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "wrong_topic",
+     "suggestion": "Тема communication не типова для community center; залишити лише city."
+    }
+   ]
+  }
+ ]
+}

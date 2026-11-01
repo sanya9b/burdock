@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 1,
+  "chunk": "C1-W08",
+  "reviewer": {"model": "claude-code/claude-fable-5-1", "promptVersion": "review-v1", "reviewedAt": "2026-11-01T00:00:00+00:00"},
+  "items": [
+    {
+      "id": "7a570112-709f-51ab-9aec-d512fcef64e6",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "e0d768f9-0030-5355-b266-870619c70d67",
+      "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "other", "suggestion": "«Крилата фраза» ширше за catchphrase; для фрази ведучого точніше «фірмова фраза» (є в altTranslations)."}]
+    },
+    {
+      "id": "48b2c226-146d-5933-b8bc-f6c179f5e358",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "8abeb32f-e1c9-56da-b287-752c4fdd4d72",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "f032e629-4f11-5ea1-b77d-ea6aec2d43b2",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 4, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "other", "suggestion": "«autocue» — інша лексема, а не форма леми; прибрати з acceptedForms."}]
+    },
+    {
+      "id": "863f73fd-e2a1-5a6f-a4ab-463c46923839",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "2a8ea5ad-8729-5f71-9b19-df23f75d49be",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "d950b4e9-09b3-595a-8c31-24ab400fee0e",
+      "scores": {"accuracy": 4, "naturalness": 3, "levelFit": 4, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": "продавати для передруку",
+      "issues": [{"reasonCode": "unnatural_uk", "suggestion": "«Синдикувати» не закріпилося в українській; основним дати «продавати для передруку», у прикладах — «передає/продає колонку»."}]
+    },
+    {
+      "id": "277c1d4a-6811-5b30-babe-24434fb7114e",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "68eb2766-0e85-58be-8871-1ab5ee606cba",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "c7eaaa02-f807-5722-b29b-dedc526ad3bb",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "4fa383cc-c674-5d19-b919-2a56faaec9d3",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "b11d88fd-8522-50a3-ae66-d57b8fb3d183",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "3362b1bd-8c08-5806-b641-c2cd40964b9f",
+      "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "unnatural_uk", "suggestion": "Другий приклад: природніше «Якого коментатора ви більше любите слухати на тенісних матчах?»"}]
+    },
+    {
+      "id": "9963889f-baa7-5fa9-ae7f-9462c67483fe",
+      "scores": {"accuracy": 4, "naturalness": 3, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": "упереджена подача",
+      "issues": [{"reasonCode": "unnatural_uk", "suggestion": "«Упереджений ракурс» звучить штучно; основним дати «упереджена подача», у прикладах — «явну упередженість у подачі»."}]
+    },
+    {
+      "id": "d3c8d519-a1dc-556e-ae70-cf1c8d90dbc7",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "49ee37d9-9ac4-53cc-85df-25da0123f40d",
+      "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "other", "suggestion": "«Фреймінг» — фаховий термін; у першому прикладі зрозуміліше «Спосіб подачі цієї історії…»."}]
+    },
+    {
+      "id": "aa624921-d4e3-59b1-aeb2-7033b6739b14",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "dc126482-4921-5d0e-bb13-2b9af5e3cd95",
+      "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "other", "suggestion": "«Вигадувати» ширше за fabricate (без відтінку обману); usageNote це компенсує, але «сфабрикувати» варто лишити в alt."}]
+    },
+    {
+      "id": "f8c28e70-c914-533e-9c6c-ba48cfe25c7f",
+      "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "7710723e-e886-5254-8edc-cb5aac02fa90",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "2e11603d-0c15-59fe-bcbf-a063bc73d54a",
+      "scores": {"accuracy": 4, "naturalness": 3, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": "ляп",
+      "issues": [{"reasonCode": "unnatural_uk", "suggestion": "«Публічна помилка» — описова калька; основним дати «ляп», у прикладах — «ляп ведучого з назвою міста», «прикрий ляп»."}]
+    },
+    {
+      "id": "98d44595-73f4-5532-9fb3-5639c83b25c0",
+      "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "unnatural_uk", "suggestion": "«Було дорогою грубою помилкою» важке; краще «…стало грубою помилкою, яка дорого коштувала»."}]
+    },
+    {
+      "id": "b3bcf93a-8b64-50fe-948c-1fca8392f048",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "9fd0e9d1-b709-5556-8da5-6a7617166447",
+      "scores": {"accuracy": 3, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": "громадське обурення",
+      "issues": [{"reasonCode": "wrong_sense", "suggestion": "Outcry — вияв гніву, а не організований протест; основним дати «громадське обурення» («здійнялося громадське обурення»)."}]
+    },
+    {
+      "id": "95b0bf0b-1d02-543c-b19b-ca0d38f301e4",
+      "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "c07c6498-3a63-5f51-9551-11b04773c380",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "82a2605f-32b1-5b03-b6e8-21f747072101",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "48ae2676-4212-5d5a-8df6-563905a260c1",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 4, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "other", "suggestion": "«populistic» рідкісне й не є формою леми; прибрати з acceptedForms."}]
+    },
+    {
+      "id": "4d35678a-1ea1-5419-9736-823c0ad93e14",
+      "scores": {"accuracy": 4, "naturalness": 2, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": "розлогий",
+      "issues": [{"reasonCode": "unnatural_uk", "suggestion": "«Лонгрідовий» — вигаданий прикметник; основним дати «розлогий» («розлогі статті», «розлога журналістика»), «лонгрід» лишити в usageNote."}]
+    },
+    {
+      "id": "b89fd864-c00a-5d26-8dec-852d1a64f252",
+      "scores": {"accuracy": 3, "naturalness": 3, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": "прохідний матеріал",
+      "issues": [{"reasonCode": "wrong_sense", "suggestion": "«Наповнювач» — буквальний матеріал (для подушок, їжі); для контенту дати «прохідний матеріал» або розмовне «вода», переробити обидва приклади."}]
+    },
+    {
+      "id": "8354bc1b-c8c2-53fa-abcf-82e87ee2bd75",
+      "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "mismatch_en_uk", "suggestion": "«in one afternoon» ≠ «за один день»; точніше «за одне пообіддя» або «за пів дня»."}]
+    },
+    {
+      "id": "eb464628-5585-5e9f-9c6f-4a516ace443e",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "a97ce4a0-13df-58d6-8c14-0f3e1f8a4036",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "fcf90b57-b5c8-5edd-b7c8-14f541497b09",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "af5c65a2-869c-545d-ad5e-4d0b608a5815",
+      "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "other", "suggestion": "«Ремастерити» — розмовний англіцизм; register краще «informal», або основним «робити ремастер»."}]
+    },
+    {
+      "id": "4260083c-9fd0-5ec1-a300-562972d8f747",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "55585706-301f-5386-a8d9-413af4f27a95",
+      "scores": {"accuracy": 3, "naturalness": 3, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": "ритм мовлення",
+      "issues": [{"reasonCode": "wrong_sense", "suggestion": "«Каденція» в українській — музичний термін або строк повноважень; для голосу дати «ритм мовлення» («повільний ритм мовлення оповідача»)."}]
+    },
+    {
+      "id": "9e829289-99cb-579b-b23d-4435e6b84a29",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "7105167b-30ba-54e6-a018-b423b502b23b",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    }
+  ]
+}

@@ -1,0 +1,1228 @@
+{
+  "schemaVersion": 1,
+  "chunk": "C2-W28",
+  "level": "C2",
+  "provenance": {
+    "model": "claude-code/claude-fable-5-1",
+    "promptVersion": "generate-v1",
+    "generatedAt": "2026-11-01T00:00:00+00:00",
+    "status": "draft"
+  },
+  "entries": [
+    {
+      "id": "1de2cd6c-dfcf-5f39-a0b8-b12b291edb9a",
+      "lemma": "populace",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "populace"
+      ],
+      "translation": "населення",
+      "translationStressed": "насе́лення",
+      "altTranslations": [
+        "простолюд",
+        "люд"
+      ],
+      "register": "formal",
+      "genderNote": "с.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "незлічуване; книжне",
+      "ipaGa": "/ˈpɑpjələs/",
+      "ipaRp": "/ˈpɒpjʊləs/",
+      "exampleEn": "The new tram line was welcomed by the local populace.",
+      "exampleUk": "Нову трамвайну лінію місцеве населення сприйняло схвально.",
+      "exampleEn2": "How did the populace react to the higher water prices?",
+      "exampleUk2": "Як населення відреагувало на вищі ціни на воду?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "064a88cf-ad63-5603-bf21-374a1b1115ca",
+      "lemma": "amoral",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "amoral"
+      ],
+      "translation": "аморальний",
+      "translationStressed": "амора́льний",
+      "altTranslations": [
+        "позбавлений моралі"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "не плутати з immoral: amoral — байдужий до моралі, а не порушник її",
+      "ipaGa": "/eɪˈmɔrəl/",
+      "ipaRp": "/eɪˈmɒrəl/",
+      "exampleEn": "The novel's main character is amoral and cares only about profit.",
+      "exampleUk": "Головний герой роману аморальний і дбає лише про прибуток.",
+      "exampleEn2": "Can a machine be called amoral if it has no values at all?",
+      "exampleUk2": "Чи можна назвати машину аморальною, якщо в неї немає жодних цінностей?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "60e868ed-f795-5e46-970d-dc78628c4050",
+      "lemma": "rectitude",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "rectitude"
+      ],
+      "translation": "доброчесність",
+      "translationStressed": "доброче́сність",
+      "altTranslations": [
+        "чесність",
+        "порядність"
+      ],
+      "register": "formal",
+      "genderNote": "ж.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "незлічуване; книжне",
+      "ipaGa": "/ˈrɛktɪtud/",
+      "ipaRp": "/ˈrɛktɪtjuːd/",
+      "exampleEn": "The accountant was known for her rectitude and attention to detail.",
+      "exampleUk": "Бухгалтерка була відома своєю доброчесністю та увагою до деталей.",
+      "exampleEn2": "Is moral rectitude still valued in modern business?",
+      "exampleUk2": "Чи досі цінують моральну доброчесність у сучасному бізнесі?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "2a540477-d3c4-598e-b505-c85f3c910644",
+      "lemma": "scruple",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "scruple",
+        "scruples"
+      ],
+      "translation": "докори сумління",
+      "translationStressed": "до́кори сумлі́ння",
+      "altTranslations": [
+        "моральний сумнів",
+        "вагання"
+      ],
+      "register": "formal",
+      "genderNote": "мн.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "зазвичай у множині: have no scruples — не мати жодних докорів сумління",
+      "ipaGa": "/ˈskrupəl/",
+      "ipaRp": "/ˈskruːpəl/",
+      "exampleEn": "He had no scruples about copying his colleague's report.",
+      "exampleUk": "Він без жодних докорів сумління скопіював звіт колеги.",
+      "exampleEn2": "Did she feel any scruple about keeping the extra change?",
+      "exampleUk2": "Чи відчувала вона бодай якісь докори сумління, залишивши собі зайву решту?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "fc6ca9bc-c29c-57f7-8ed3-a942c097b244",
+      "lemma": "unprincipled",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "unprincipled"
+      ],
+      "translation": "безпринципний",
+      "translationStressed": "безпринци́пний",
+      "altTranslations": [
+        "нечесний"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/ʌnˈprɪnsəpəld/",
+      "ipaRp": "/ʌnˈprɪnsɪpəld/",
+      "exampleEn": "An unprincipled seller will promise anything to close the deal.",
+      "exampleUk": "Безпринципний продавець пообіцяє що завгодно, аби укласти угоду.",
+      "exampleEn2": "Why would anyone trust such an unprincipled partner?",
+      "exampleUk2": "Чому хтось узагалі довірятиме такому безпринципному партнерові?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "69e065e0-cbce-5791-a390-ea3f629b277b",
+      "lemma": "answerable",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "answerable"
+      ],
+      "translation": "відповідальний",
+      "translationStressed": "відповіда́льний",
+      "altTranslations": [
+        "підзвітний"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "answerable to sb for sth — відповідальний перед кимось за щось",
+      "ipaGa": "/ˈænsərəbəl/",
+      "ipaRp": "/ˈɑːnsərəbəl/",
+      "exampleEn": "The project manager is answerable to the board for every delay.",
+      "exampleUk": "Керівник проєкту відповідальний перед правлінням за кожну затримку.",
+      "exampleEn2": "To whom is the new director answerable?",
+      "exampleUk2": "Перед ким відповідальний новий директор?",
+      "topics": [
+        {
+          "slug": "work",
+          "confidence": 0.6
+        }
+      ],
+      "widgetSafe": true
+    },
+    {
+      "id": "faf80a34-68cc-5dfc-9a56-9f47c447dff1",
+      "lemma": "blameworthy",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "blameworthy"
+      ],
+      "translation": "гідний осуду",
+      "translationStressed": "гі́дний о́суду",
+      "altTranslations": [
+        "винний"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/ˈbleɪmˌwɜrði/",
+      "ipaRp": "/ˈbleɪmˌwɜːði/",
+      "exampleEn": "Ignoring the safety warning was clearly blameworthy.",
+      "exampleUk": "Ігнорувати попередження про безпеку було явно гідним осуду.",
+      "exampleEn2": "Is a driver blameworthy if the road sign was hidden by a tree?",
+      "exampleUk2": "Чи гідний осуду водій, якщо дорожній знак затуляло дерево?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "a6e9be77-1d23-5d91-a6ed-a9713484dcfc",
+      "lemma": "reprehensible",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "reprehensible"
+      ],
+      "translation": "ганебний",
+      "translationStressed": "гане́бний",
+      "altTranslations": [
+        "осудливий",
+        "неприпустимий"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/ˌrɛprɪˈhɛnsəbəl/",
+      "ipaRp": "/ˌrɛprɪˈhɛnsəbəl/",
+      "exampleEn": "Leaving the dog outside in the frost was reprehensible.",
+      "exampleUk": "Залишити собаку надворі на морозі було ганебно.",
+      "exampleEn2": "Why did nobody report such reprehensible behaviour earlier?",
+      "exampleUk2": "Чому ніхто не повідомив про таку ганебну поведінку раніше?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "1d3c7820-2fea-5091-a150-d084e1e41cad",
+      "lemma": "denunciation",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "denunciation"
+      ],
+      "translation": "публічний осуд",
+      "translationStressed": "публі́чний о́суд",
+      "altTranslations": [
+        "викриття",
+        "засудження"
+      ],
+      "register": "formal",
+      "genderNote": "ч.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/dɪˌnʌnsiˈeɪʃən/",
+      "ipaRp": "/dɪˌnʌnsɪˈeɪʃən/",
+      "exampleEn": "The mayor issued a strong denunciation of the illegal dumping.",
+      "exampleUk": "Мер виступив із різким публічним осудом незаконного звалища.",
+      "exampleEn2": "Did the public denunciation change the company's plans?",
+      "exampleUk2": "Чи змінив публічний осуд плани компанії?",
+      "topics": [
+        {
+          "slug": "communication",
+          "confidence": 0.6
+        }
+      ],
+      "widgetSafe": true
+    },
+    {
+      "id": "c6d66add-9ae8-53f5-8149-ea38ef70aa48",
+      "lemma": "ostracism",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "ostracism"
+      ],
+      "translation": "остракізм",
+      "translationStressed": "остракі́зм",
+      "altTranslations": [
+        "вигнання з кола",
+        "бойкот"
+      ],
+      "register": "formal",
+      "genderNote": "ч.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "незлічуване",
+      "ipaGa": "/ˈɑstrəˌsɪzəm/",
+      "ipaRp": "/ˈɒstrəsɪzəm/",
+      "exampleEn": "After the argument, he faced months of ostracism from his teammates.",
+      "exampleUk": "Після сварки він місяцями зазнавав остракізму від товаришів по команді.",
+      "exampleEn2": "How do people usually cope with social ostracism at work?",
+      "exampleUk2": "Як люди зазвичай дають раду соціальному остракізму на роботі?",
+      "topics": [
+        {
+          "slug": "communication",
+          "confidence": 0.5
+        }
+      ],
+      "widgetSafe": true
+    },
+    {
+      "id": "56983c91-4380-5d43-b6cc-fc5201911278",
+      "lemma": "defame",
+      "pos": "verb",
+      "level": "C2",
+      "acceptedForms": [
+        "defame"
+      ],
+      "translation": "ганьбити",
+      "translationStressed": "ганьби́ти",
+      "altTranslations": [
+        "зводити наклеп",
+        "паплюжити"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": "недок. / док.: ганьбити / зганьбити",
+      "usageNote": null,
+      "ipaGa": "/dɪˈfeɪm/",
+      "ipaRp": "/dɪˈfeɪm/",
+      "exampleEn": "The article defamed the baker by inventing complaints from customers.",
+      "exampleUk": "Стаття зганьбила пекаря, вигадавши скарги покупців.",
+      "exampleEn2": "Can a company sue a blogger who defames its products?",
+      "exampleUk2": "Чи може компанія подати до суду на блогера, який ганьбить її продукцію?",
+      "topics": [
+        {
+          "slug": "communication",
+          "confidence": 0.6
+        }
+      ],
+      "widgetSafe": true
+    },
+    {
+      "id": "8952c934-b41b-5ef9-be4b-f5f75d358a2c",
+      "lemma": "slanderous",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "slanderous"
+      ],
+      "translation": "наклепницький",
+      "translationStressed": "накле́пницький",
+      "altTranslations": [
+        "обмовний"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "про усні заяви; письмовий наклеп — libellous",
+      "ipaGa": "/ˈslændərəs/",
+      "ipaRp": "/ˈslɑːndərəs/",
+      "exampleEn": "The neighbour spread slanderous rumours about the new shop owner.",
+      "exampleUk": "Сусід поширював наклепницькі чутки про нового власника крамниці.",
+      "exampleEn2": "Were those remarks really slanderous or just rude?",
+      "exampleUk2": "Ті зауваження були справді наклепницькими чи просто грубими?",
+      "topics": [
+        {
+          "slug": "communication",
+          "confidence": 0.6
+        }
+      ],
+      "widgetSafe": true
+    },
+    {
+      "id": "cbdc834b-abcb-59a4-8f6c-17ed3bf0562a",
+      "lemma": "coercive",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "coercive"
+      ],
+      "translation": "примусовий",
+      "translationStressed": "примусо́вий",
+      "altTranslations": [
+        "силовий"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/koʊˈɜrsɪv/",
+      "ipaRp": "/kəʊˈɜːsɪv/",
+      "exampleEn": "The manager used coercive tactics to make staff work on weekends.",
+      "exampleUk": "Менеджер удавався до примусових методів, щоб змусити персонал працювати у вихідні.",
+      "exampleEn2": "Should coercive sales calls be banned completely?",
+      "exampleUk2": "Чи варто повністю заборонити примусові дзвінки з продажами?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "88aeff1f-43e5-5afe-a1a3-457337b6815a",
+      "lemma": "duress",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "duress"
+      ],
+      "translation": "примус",
+      "translationStressed": "при́мус",
+      "altTranslations": [
+        "тиск",
+        "погрози"
+      ],
+      "register": "formal",
+      "genderNote": "ч.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "незлічуване; under duress — під примусом",
+      "ipaGa": "/dʊˈrɛs/",
+      "ipaRp": "/djʊˈrɛs/",
+      "exampleEn": "She claims she signed the contract under duress.",
+      "exampleUk": "Вона стверджує, що підписала контракт під примусом.",
+      "exampleEn2": "Is a promise made under duress legally binding?",
+      "exampleUk2": "Чи має юридичну силу обіцянка, дана під примусом?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "03fc0fc1-a67f-5f4d-a88b-b820ad919e4f",
+      "lemma": "mandarin",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "mandarin"
+      ],
+      "translation": "високопосадовець",
+      "translationStressed": "високопосадо́вець",
+      "altTranslations": [
+        "чиновник високого рангу",
+        "мандарин"
+      ],
+      "register": "formal",
+      "genderNote": "ч.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "переважно британське; часто з відтінком іронії про впливових державних службовців",
+      "ipaGa": "/ˈmændərɪn/",
+      "ipaRp": "/ˈmændərɪn/",
+      "exampleEn": "The reform was quietly blocked by mandarins in the finance ministry.",
+      "exampleUk": "Реформу тихо заблокували високопосадовці міністерства фінансів.",
+      "exampleEn2": "Do the mandarins really have more power than elected ministers?",
+      "exampleUk2": "Чи справді високопосадовці мають більше влади, ніж обрані міністри?",
+      "topics": [
+        {
+          "slug": "work",
+          "confidence": 0.5
+        }
+      ],
+      "widgetSafe": true
+    },
+    {
+      "id": "3dd5a71b-455f-56ce-96e0-0e2290cbd821",
+      "lemma": "functionary",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "functionary"
+      ],
+      "translation": "функціонер",
+      "translationStressed": "функціоне́р",
+      "altTranslations": [
+        "чиновник",
+        "службовець"
+      ],
+      "register": "formal",
+      "genderNote": "ч.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "часто зневажливо",
+      "ipaGa": "/ˈfʌŋkʃəˌnɛri/",
+      "ipaRp": "/ˈfʌŋkʃənəri/",
+      "exampleEn": "A bored functionary stamped our forms without reading them.",
+      "exampleUk": "Знуджений функціонер проштампував наші бланки, навіть не читаючи.",
+      "exampleEn2": "Which functionary is responsible for issuing the permits?",
+      "exampleUk2": "Який функціонер відповідає за видачу дозволів?",
+      "topics": [
+        {
+          "slug": "work",
+          "confidence": 0.6
+        }
+      ],
+      "widgetSafe": true
+    },
+    {
+      "id": "b7b1dd06-bc9c-54ee-8b20-a6115c92a366",
+      "lemma": "sinecure",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "sinecure"
+      ],
+      "translation": "синекура",
+      "translationStressed": "синеку́ра",
+      "altTranslations": [
+        "тепле місце",
+        "безтурботна посада"
+      ],
+      "register": "formal",
+      "genderNote": "ж.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/ˈsaɪnɪˌkjʊr/",
+      "ipaRp": "/ˈsɪnɪkjʊə/",
+      "exampleEn": "His post on the advisory committee was little more than a sinecure.",
+      "exampleUk": "Його посада в дорадчому комітеті була не чим іншим, як синекурою.",
+      "exampleEn2": "Why do so many retired officials receive sinecures?",
+      "exampleUk2": "Чому так багато відставних чиновників отримують синекури?",
+      "topics": [
+        {
+          "slug": "work",
+          "confidence": 0.6
+        }
+      ],
+      "widgetSafe": true
+    },
+    {
+      "id": "6424e230-9b40-5b09-b210-0860ba3a04f4",
+      "lemma": "clientelism",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "clientelism"
+      ],
+      "translation": "клієнтелізм",
+      "translationStressed": "клієнтелі́зм",
+      "altTranslations": [
+        "кумівство"
+      ],
+      "register": "formal",
+      "genderNote": "ч.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "незлічуване",
+      "ipaGa": "/klaɪˈɛntəˌlɪzəm/",
+      "ipaRp": "/klaɪˈɛntəlɪzəm/",
+      "exampleEn": "Clientelism rewards loyalty with jobs and contracts rather than merit.",
+      "exampleUk": "Клієнтелізм винагороджує лояльність посадами й контрактами, а не заслугами.",
+      "exampleEn2": "How can a city council reduce clientelism in public tenders?",
+      "exampleUk2": "Як міська рада може зменшити клієнтелізм у публічних тендерах?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "d33b2fe0-65b8-54cb-b52a-0ecd0a90f838",
+      "lemma": "meritocratic",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "meritocratic"
+      ],
+      "translation": "меритократичний",
+      "translationStressed": "меритократи́чний",
+      "altTranslations": [
+        "заснований на заслугах"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/ˌmɛrətəˈkrætɪk/",
+      "ipaRp": "/ˌmɛrɪtəˈkrætɪk/",
+      "exampleEn": "The company prides itself on a meritocratic promotion system.",
+      "exampleUk": "Компанія пишається меритократичною системою підвищень.",
+      "exampleEn2": "Is any hiring process truly meritocratic?",
+      "exampleUk2": "Чи буває процес найму справді меритократичним?",
+      "topics": [
+        {
+          "slug": "work",
+          "confidence": 0.6
+        }
+      ],
+      "widgetSafe": true
+    },
+    {
+      "id": "2c67d879-2416-5a96-8cdd-55a256d2ae0c",
+      "lemma": "mayoral",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "mayoral"
+      ],
+      "translation": "мера",
+      "translationStressed": "ме́ра",
+      "altTranslations": [
+        "міського голови",
+        "пов’язаний з мером"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "прикметника немає, передається родовим відмінком: mayoral election — вибори мера, mayoral office — кабінет мера",
+      "ipaGa": "/ˈmeɪərəl/",
+      "ipaRp": "/ˈmɛərəl/",
+      "exampleEn": "The mayoral office is on the second floor of the town hall.",
+      "exampleUk": "Кабінет мера розташований на другому поверсі ратуші.",
+      "exampleEn2": "When is the next mayoral election in Lviv?",
+      "exampleUk2": "Коли наступні вибори мера у Львові?",
+      "topics": [
+        {
+          "slug": "city",
+          "confidence": 0.6
+        }
+      ],
+      "widgetSafe": true,
+      "regenerated": 1
+    },
+    {
+      "id": "37521970-606c-52cf-8262-57b0a5300169",
+      "lemma": "preamble",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "preamble"
+      ],
+      "translation": "преамбула",
+      "translationStressed": "преа́мбула",
+      "altTranslations": [
+        "вступна частина",
+        "передмова"
+      ],
+      "register": "formal",
+      "genderNote": "ж.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/ˈpriˌæmbəl/",
+      "ipaRp": "/ˈpriːæmbəl/",
+      "exampleEn": "The preamble explains why the new housing rules were adopted.",
+      "exampleUk": "Преамбула пояснює, чому ухвалили нові житлові правила.",
+      "exampleEn2": "Could you read the preamble of the contract aloud, please?",
+      "exampleUk2": "Прочитайте, будь ласка, преамбулу контракту вголос.",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "3c4da411-6f5a-5c08-ba22-9ef2061d3fb1",
+      "lemma": "stipulation",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "stipulation"
+      ],
+      "translation": "умова договору",
+      "translationStressed": "умо́ва до́говору",
+      "altTranslations": [
+        "застереження",
+        "обумовлення"
+      ],
+      "register": "formal",
+      "genderNote": "ж.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/ˌstɪpjəˈleɪʃən/",
+      "ipaRp": "/ˌstɪpjʊˈleɪʃən/",
+      "exampleEn": "The lease has a stipulation that pets are not allowed.",
+      "exampleUk": "У договорі оренди є умова, що тримати тварин заборонено.",
+      "exampleEn2": "Were there any stipulations about repairs in the agreement?",
+      "exampleUk2": "Чи були в угоді якісь умови щодо ремонту?",
+      "topics": [
+        {
+          "slug": "work",
+          "confidence": 0.5
+        }
+      ],
+      "widgetSafe": true
+    },
+    {
+      "id": "cc1f49e3-cf41-5acf-bdf5-f8c9f1292bb1",
+      "lemma": "fiat",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "fiat"
+      ],
+      "translation": "вольове рішення",
+      "translationStressed": "вольове́ рі́шення",
+      "altTranslations": [
+        "веління згори",
+        "одноосібне розпорядження"
+      ],
+      "register": "formal",
+      "genderNote": "с.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "by fiat — вольовим рішенням, за велінням згори, без обговорення",
+      "ipaGa": "/ˈfiˌɑt/",
+      "ipaRp": "/ˈfiːæt/",
+      "exampleEn": "The new dress code was introduced by fiat, without asking the staff.",
+      "exampleUk": "Новий дрес-код запровадили вольовим рішенням, не питаючи працівників.",
+      "exampleEn2": "Can a director really change the schedule by fiat?",
+      "exampleUk2": "Чи справді директор може змінити графік одним вольовим рішенням?",
+      "topics": [],
+      "widgetSafe": true,
+      "regenerated": 1
+    },
+    {
+      "id": "cb72956c-932c-514f-a5fe-d9e8c09208b9",
+      "lemma": "derogation",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "derogation"
+      ],
+      "translation": "відступ від норми",
+      "translationStressed": "ві́дступ від но́рми",
+      "altTranslations": [
+        "часткове звільнення",
+        "виняток"
+      ],
+      "register": "formal",
+      "genderNote": "ч.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "юридичне",
+      "ipaGa": "/ˌdɛrəˈɡeɪʃən/",
+      "ipaRp": "/ˌdɛrəˈɡeɪʃən/",
+      "exampleEn": "Small farms received a derogation from the new labelling rules.",
+      "exampleUk": "Малі ферми отримали відступ від нових правил маркування.",
+      "exampleEn2": "How long will the derogation for older buses remain in force?",
+      "exampleUk2": "Як довго діятиме відступ від норми для старіших автобусів?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "07d7cc82-0b2f-5e71-8bce-a2b5150a2ff7",
+      "lemma": "dossier",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "dossier"
+      ],
+      "translation": "досьє",
+      "translationStressed": "досьє́",
+      "altTranslations": [
+        "справа",
+        "добірка документів"
+      ],
+      "register": "formal",
+      "genderNote": "с.",
+      "pluralNote": "невідмінюване",
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/ˈdɔsiˌeɪ/",
+      "ipaRp": "/ˈdɒsieɪ/",
+      "exampleEn": "The agency prepared a thick dossier on the proposed bridge.",
+      "exampleUk": "Агенція підготувала товсте досьє щодо запропонованого мосту.",
+      "exampleEn2": "Have you sent the dossier to the selection committee yet?",
+      "exampleUk2": "Ви вже надіслали досьє відбірковій комісії?",
+      "topics": [
+        {
+          "slug": "work",
+          "confidence": 0.6
+        }
+      ],
+      "widgetSafe": true
+    },
+    {
+      "id": "76de8873-f143-525b-8f14-aacea1e68d24",
+      "lemma": "accredit",
+      "pos": "verb",
+      "level": "C2",
+      "acceptedForms": [
+        "accredit"
+      ],
+      "translation": "акредитувати",
+      "translationStressed": "акредитува́ти",
+      "altTranslations": [
+        "офіційно визнавати"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": "двовидове: акредитувати (недок. і док.)",
+      "usageNote": null,
+      "ipaGa": "/əˈkrɛdɪt/",
+      "ipaRp": "/əˈkrɛdɪt/",
+      "exampleEn": "The ministry accredited the new laboratory last spring.",
+      "exampleUk": "Міністерство акредитувало нову лабораторію минулої весни.",
+      "exampleEn2": "Which body accredits language schools in your country?",
+      "exampleUk2": "Який орган акредитує мовні школи у вашій країні?",
+      "topics": [
+        {
+          "slug": "work",
+          "confidence": 0.5
+        }
+      ],
+      "widgetSafe": true
+    },
+    {
+      "id": "d225d141-3fb2-5f33-92cf-7d5f5cddc1eb",
+      "lemma": "outlay",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "outlay"
+      ],
+      "translation": "витрати",
+      "translationStressed": "ви́трати",
+      "altTranslations": [
+        "видатки",
+        "вкладення"
+      ],
+      "register": "formal",
+      "genderNote": "мн.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "про початкові або великі разові витрати",
+      "ipaGa": "/ˈaʊtˌleɪ/",
+      "ipaRp": "/ˈaʊtleɪ/",
+      "exampleEn": "The initial outlay for the solar panels was about 80,000 hryvnias.",
+      "exampleUk": "Початкові витрати на сонячні панелі становили близько 80 000 гривень.",
+      "exampleEn2": "Is such a large outlay justified for a small café?",
+      "exampleUk2": "Чи виправдані такі великі витрати для маленької кав’ярні?",
+      "topics": [
+        {
+          "slug": "work",
+          "confidence": 0.5
+        }
+      ],
+      "widgetSafe": true
+    },
+    {
+      "id": "faa98a3e-e79d-50bd-a57f-39bac81e9618",
+      "lemma": "appropriation",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "appropriation"
+      ],
+      "translation": "бюджетне асигнування",
+      "translationStressed": "бюдже́тне асигнува́ння",
+      "altTranslations": [
+        "виділення коштів",
+        "привласнення"
+      ],
+      "register": "formal",
+      "genderNote": "с.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "інший сенс — привласнення чужого",
+      "ipaGa": "/əˌproʊpriˈeɪʃən/",
+      "ipaRp": "/əˌprəʊprɪˈeɪʃən/",
+      "exampleEn": "The council approved an appropriation of two million for road repairs.",
+      "exampleUk": "Рада схвалила бюджетне асигнування у два мільйони на ремонт доріг.",
+      "exampleEn2": "Which appropriation covers the new school library?",
+      "exampleUk2": "Яке бюджетне асигнування покриває нову шкільну бібліотеку?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "e7921beb-3e37-5fd8-a698-685b219dd757",
+      "lemma": "exchequer",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "exchequer"
+      ],
+      "translation": "державна скарбниця",
+      "translationStressed": "держа́вна скарбни́ця",
+      "altTranslations": [
+        "казначейство"
+      ],
+      "register": "formal",
+      "genderNote": "ж.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "переважно британське; часто з великої літери як назва відомства",
+      "ipaGa": "/ˈɛksˌtʃɛkər/",
+      "ipaRp": "/ɪksˈtʃɛkə/",
+      "exampleEn": "The tax on sugary drinks brought millions into the exchequer.",
+      "exampleUk": "Податок на солодкі напої приніс державній скарбниці мільйони.",
+      "exampleEn2": "How much does the museum cost the exchequer each year?",
+      "exampleUk2": "У скільки музей щороку обходиться державній скарбниці?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "cd82c21b-c0ca-5a63-a8f1-72b518507271",
+      "lemma": "inspectorate",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "inspectorate"
+      ],
+      "translation": "інспекція",
+      "translationStressed": "інспе́кція",
+      "altTranslations": [
+        "інспекторат"
+      ],
+      "register": "formal",
+      "genderNote": "ж.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/ɪnˈspɛktərət/",
+      "ipaRp": "/ɪnˈspɛktərət/",
+      "exampleEn": "The food inspectorate visits every restaurant at least once a year.",
+      "exampleUk": "Харчова інспекція відвідує кожен ресторан щонайменше раз на рік.",
+      "exampleEn2": "Has the school inspectorate published its report yet?",
+      "exampleUk2": "Чи вже оприлюднила шкільна інспекція свій звіт?",
+      "topics": [
+        {
+          "slug": "work",
+          "confidence": 0.5
+        }
+      ],
+      "widgetSafe": true
+    },
+    {
+      "id": "668b13cb-4f77-5731-ae04-77547d1bee79",
+      "lemma": "officialdom",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "officialdom"
+      ],
+      "translation": "чиновництво",
+      "translationStressed": "чино́вництво",
+      "altTranslations": [
+        "бюрократія"
+      ],
+      "register": "formal",
+      "genderNote": "с.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "незлічуване; часто з відтінком невдоволення",
+      "ipaGa": "/əˈfɪʃəldəm/",
+      "ipaRp": "/əˈfɪʃəldəm/",
+      "exampleEn": "Opening a small bakery meant months of battling local officialdom.",
+      "exampleUk": "Відкрити маленьку пекарню означало місяцями боротися з місцевим чиновництвом.",
+      "exampleEn2": "Why does officialdom make simple permits so complicated?",
+      "exampleUk2": "Чому чиновництво так ускладнює прості дозволи?",
+      "topics": [
+        {
+          "slug": "work",
+          "confidence": 0.5
+        }
+      ],
+      "widgetSafe": true
+    },
+    {
+      "id": "43373aad-a7ff-5f9f-813a-d95edf2093ae",
+      "lemma": "supermajority",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "supermajority",
+        "super-majority",
+        "super majority"
+      ],
+      "translation": "кваліфікована більшість",
+      "translationStressed": "кваліфіко́вана бі́льшість",
+      "altTranslations": [
+        "надбільшість"
+      ],
+      "register": "formal",
+      "genderNote": "ж.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/ˌsupərməˈdʒɔrəti/",
+      "ipaRp": "/ˌsuːpəməˈdʒɒrɪti/",
+      "exampleEn": "Changing the club's charter requires a two-thirds supermajority.",
+      "exampleUk": "Для зміни статуту клубу потрібна кваліфікована більшість у дві третини.",
+      "exampleEn2": "Did the proposal reach a supermajority at the meeting?",
+      "exampleUk2": "Чи набрала пропозиція кваліфіковану більшість на зборах?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "19dbfc5e-f5e2-5e62-8f31-2672bbe855af",
+      "lemma": "retrenchment",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "retrenchment"
+      ],
+      "translation": "скорочення видатків",
+      "translationStressed": "скоро́чення вида́тків",
+      "altTranslations": [
+        "економія",
+        "урізання витрат"
+      ],
+      "register": "formal",
+      "genderNote": "с.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/rɪˈtrɛntʃmənt/",
+      "ipaRp": "/rɪˈtrɛntʃmənt/",
+      "exampleEn": "After a weak season, the theatre announced a period of retrenchment.",
+      "exampleUk": "Після слабкого сезону театр оголосив період скорочення видатків.",
+      "exampleEn2": "Will the retrenchment affect the free evening classes?",
+      "exampleUk2": "Чи вплине скорочення видатків на безкоштовні вечірні курси?",
+      "topics": [
+        {
+          "slug": "work",
+          "confidence": 0.6
+        }
+      ],
+      "widgetSafe": true
+    },
+    {
+      "id": "c3973da0-41ff-5288-bb23-d05645141a2c",
+      "lemma": "forfeiture",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "forfeiture"
+      ],
+      "translation": "конфіскація",
+      "translationStressed": "конфіска́ція",
+      "altTranslations": [
+        "втрата права",
+        "позбавлення"
+      ],
+      "register": "formal",
+      "genderNote": "ж.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "юридичне; як покарання або наслідок порушення",
+      "ipaGa": "/ˈfɔrfətʃər/",
+      "ipaRp": "/ˈfɔːfɪtʃə/",
+      "exampleEn": "Breaking the lease early led to the forfeiture of the deposit.",
+      "exampleUk": "Дострокове розірвання оренди призвело до конфіскації застави.",
+      "exampleEn2": "Does a late payment really result in forfeiture of the discount?",
+      "exampleUk2": "Чи справді прострочений платіж призводить до втрати знижки?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "fa53ae99-6191-529a-9dc2-a245efc8e844",
+      "lemma": "expropriation",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "expropriation"
+      ],
+      "translation": "експропріація",
+      "translationStressed": "експропріа́ція",
+      "altTranslations": [
+        "примусове відчуження"
+      ],
+      "register": "formal",
+      "genderNote": "ж.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/ɛksˌproʊpriˈeɪʃən/",
+      "ipaRp": "/ɛksˌprəʊprɪˈeɪʃən/",
+      "exampleEn": "The expropriation of the old warehouse made room for a new park.",
+      "exampleUk": "Експропріація старого складу звільнила місце для нового парку.",
+      "exampleEn2": "Were the owners fairly compensated for the expropriation?",
+      "exampleUk2": "Чи отримали власники справедливу компенсацію за експропріацію?",
+      "topics": [
+        {
+          "slug": "city",
+          "confidence": 0.4
+        }
+      ],
+      "widgetSafe": true
+    },
+    {
+      "id": "fb268708-cee9-526e-8b9f-a9dc01323d39",
+      "lemma": "attestation",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "attestation"
+      ],
+      "translation": "засвідчення",
+      "translationStressed": "засві́дчення",
+      "altTranslations": [
+        "підтвердження",
+        "атестація"
+      ],
+      "register": "formal",
+      "genderNote": "с.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/ˌætɛˈsteɪʃən/",
+      "ipaRp": "/ˌætɛˈsteɪʃən/",
+      "exampleEn": "The bank asked for a written attestation of her monthly income.",
+      "exampleUk": "Банк попросив письмове засвідчення її місячного доходу.",
+      "exampleEn2": "Who can provide an attestation that the copy matches the original?",
+      "exampleUk2": "Хто може надати засвідчення, що копія відповідає оригіналу?",
+      "topics": [
+        {
+          "slug": "work",
+          "confidence": 0.4
+        }
+      ],
+      "widgetSafe": true
+    },
+    {
+      "id": "b029bf36-d5bb-5ee6-8785-bccaf680ec8f",
+      "lemma": "notarize",
+      "pos": "verb",
+      "level": "C2",
+      "acceptedForms": [
+        "notarize",
+        "notarise"
+      ],
+      "translation": "нотаріально засвідчувати",
+      "translationStressed": "нотаріа́льно засві́дчувати",
+      "altTranslations": [
+        "завіряти в нотаріуса"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": "недок. / док.: засвідчувати / засвідчити",
+      "usageNote": null,
+      "ipaGa": "/ˈnoʊtəˌraɪz/",
+      "ipaRp": "/ˈnəʊtəraɪz/",
+      "exampleEn": "You need to notarize the power of attorney before sending it abroad.",
+      "exampleUk": "Довіреність потрібно нотаріально засвідчити, перш ніж надсилати за кордон.",
+      "exampleEn2": "Where can I get this translation notarized today?",
+      "exampleUk2": "Де сьогодні можна нотаріально засвідчити цей переклад?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "9e28fdb3-ed8b-5ddf-9244-4b546fd7c639",
+      "lemma": "institutionalize",
+      "pos": "verb",
+      "level": "C2",
+      "acceptedForms": [
+        "institutionalize",
+        "institutionalise"
+      ],
+      "translation": "інституціоналізувати",
+      "translationStressed": "інституціоналізува́ти",
+      "altTranslations": [
+        "закріплювати як норму",
+        "узаконювати"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": "двовидове: інституціоналізувати (недок. і док.)",
+      "usageNote": null,
+      "ipaGa": "/ˌɪnstɪˈtuʃənəˌlaɪz/",
+      "ipaRp": "/ˌɪnstɪˈtjuːʃənəlaɪz/",
+      "exampleEn": "The company institutionalized weekly feedback sessions for all teams.",
+      "exampleUk": "Компанія інституціоналізувала щотижневі сесії зворотного зв’язку для всіх команд.",
+      "exampleEn2": "How do you institutionalize good habits in a growing organization?",
+      "exampleUk2": "Як інституціоналізувати добрі звички в організації, що зростає?",
+      "topics": [
+        {
+          "slug": "work",
+          "confidence": 0.5
+        }
+      ],
+      "widgetSafe": true
+    },
+    {
+      "id": "20be2818-c981-536e-8ea4-a2c50bf5a314",
+      "lemma": "emissary",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "emissary"
+      ],
+      "translation": "посланець",
+      "translationStressed": "посла́нець",
+      "altTranslations": [
+        "емісар",
+        "представник"
+      ],
+      "register": "formal",
+      "genderNote": "ч.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/ˈɛməˌsɛri/",
+      "ipaRp": "/ˈɛmɪsəri/",
+      "exampleEn": "The university sent an emissary to discuss the exchange programme.",
+      "exampleUk": "Університет відправив посланця, щоб обговорити програму обміну.",
+      "exampleEn2": "Has the emissary from the partner city arrived yet?",
+      "exampleUk2": "Чи вже прибув посланець із міста-партнера?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "110aaf47-d50b-527e-9475-b40ec15f6a62",
+      "lemma": "attaché",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "attaché",
+        "attache"
+      ],
+      "translation": "аташе",
+      "translationStressed": "аташе́",
+      "altTranslations": [],
+      "register": "formal",
+      "genderNote": "ч.",
+      "pluralNote": "невідмінюване",
+      "aspectNote": null,
+      "usageNote": "cultural attaché — аташе з питань культури",
+      "ipaGa": "/ˌætəˈʃeɪ/",
+      "ipaRp": "/əˈtæʃeɪ/",
+      "exampleEn": "The cultural attaché opened the photo exhibition at the embassy.",
+      "exampleUk": "Аташе з питань культури відкрив фотовиставку в посольстві.",
+      "exampleEn2": "Could the press attaché answer a few questions after the briefing?",
+      "exampleUk2": "Чи міг би прес-аташе відповісти на кілька запитань після брифінгу?",
+      "topics": [
+        {
+          "slug": "work",
+          "confidence": 0.5
+        }
+      ],
+      "widgetSafe": true
+    }
+  ]
+}

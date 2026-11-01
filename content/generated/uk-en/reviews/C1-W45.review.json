@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 1,
+  "chunk": "C1-W45",
+  "reviewer": {"model": "claude-code/claude-fable-5-1", "promptVersion": "review-v1", "reviewedAt": "2026-11-01T00:00:00+00:00"},
+  "items": [
+    {
+      "id": "ffdb7cc3-f52d-52db-9676-a94758d3f9bf",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "7c5f529f-e3df-557b-af96-74aab65ab351",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "e71f1783-87be-5f0b-8eea-7eead4d76624",
+      "scores": {"accuracy": 3, "naturalness": 3, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": "фатин",
+      "issues": [
+        {"reasonCode": "wrong_sense", "suggestion": "Глоса — тканина для спідниць і фати; українською це «фатин», «тюль» — передусім фіранки."},
+        {"reasonCode": "unnatural_uk", "suggestion": "У прикладах «кілька шарів м’якого фатину», «скільки метрів фатину на фату»."}
+      ]
+    },
+    {
+      "id": "9939e1fb-5e7e-570f-9cd9-9abaf873e6c6",
+      "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {"reasonCode": "other", "suggestion": "В англійському реченні лапки «» замінити на англійські: calling a used phone \"new\"."}
+      ]
+    },
+    {
+      "id": "8af2baad-77c0-5e60-a95a-388d4280c048",
+      "scores": {"accuracy": 4, "naturalness": 3, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": null,
+      "issues": [
+        {"reasonCode": "unnatural_uk", "suggestion": "«був класичною приманкою й підміною» не звучить; краще «класичний прийом „приманка й підміна“» або «підміна пропозиції»."}
+      ]
+    },
+    {
+      "id": "866fe4c0-9a89-5348-8768-76bf57ddb18c",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "0cdad738-9181-5b65-9bdf-43f1b0834a9f",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "68c5bd1c-187b-5e25-b637-7926a8e4683b",
+      "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {"reasonCode": "unnatural_uk", "suggestion": "Усталене написання загальної назви — «грінвошинг» (через г), не «ґрінвошинг»."}
+      ]
+    },
+    {
+      "id": "6f4ce5e4-4cab-5811-9a6a-1b40fe20b3bc",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "29760eb1-e4af-52ce-97a8-8220436b0dcd",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "d07238b7-ecdb-59b0-985b-9e478f7cd23c",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "ed8b9038-3ad4-5965-94cd-0619008883fc",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "1302a8ca-b42c-527a-9abe-3b447e6a72c0",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "0a03176e-4619-5e51-ba87-39cb4b132cc2",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "fc675de3-27e6-5431-aa43-62ba8569923b",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {"reasonCode": "mismatch_en_uk", "suggestion": "«feel smoother» точніше «гладкіші на дотик», а не «м’якші»."}
+      ]
+    },
+    {
+      "id": "c4efdfb7-d695-5d06-adb0-04eb8d9c50e5",
+      "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {"reasonCode": "unnatural_uk", "suggestion": "Нормативний термін — «торговельна марка» (як у Цивільному кодексі), а не «торгова»."}
+      ]
+    },
+    {
+      "id": "98ad9c9e-be68-5c3e-9bdd-979cf45343d8",
+      "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {"reasonCode": "other", "suggestion": "Другий приклад нелогічний: вагу тари віднімають від ваги, а не від ціни; «…відняла вагу тари при зважуванні?»."}
+      ]
+    },
+    {
+      "id": "bc689089-b2a5-5db8-8e0c-608ae886eadf",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "1d3e0c13-0843-5876-bb97-38c70fc1721c",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "5e08e398-70f0-5ab6-9497-231bc85da8af",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "e1637bca-9ad5-59f2-ab1e-a13487669940",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "51954f71-620d-5c3d-a98d-92d13278b7ae",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "556436d5-59a9-56ce-92dc-4c01e9024b01",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "39bdeaa7-76d1-5a56-b389-e58b052dbbac",
+      "scores": {"accuracy": 4, "naturalness": 3, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": null,
+      "issues": [
+        {"reasonCode": "other", "suggestion": "У usageNote граматична помилка: «reverse vending machine — таромат, що повертає заставу…»."}
+      ]
+    },
+    {
+      "id": "ac00af21-33ac-5c90-b44e-ba71c586dad5",
+      "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {"reasonCode": "unnatural_uk", "suggestion": "«Снайпінг» — вузький англіцизм; у прикладах природніше «ставка в останню мить»."}
+      ]
+    },
+    {
+      "id": "76f82a5b-306d-56a6-965b-725ea2a04115",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "64079f06-f0a6-5dbe-bdda-9561fd75a76e",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "b3d45a9a-be80-5233-a829-e2caaabb4558",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {"reasonCode": "other", "suggestion": "«ласти» в altTranslations — інший сенс; достатньо згадки в usageNote."}
+      ]
+    },
+    {
+      "id": "c46f2990-a2cb-547d-b2cc-adb977d76cec",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "6c5cc74d-9f9c-5f5a-800d-85b8e5a3bc4a",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "589992f7-097e-54d7-a002-e93e1dda5475",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "d60df003-692f-5f50-b858-0cddb3a94497",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 4, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {"reasonCode": "other", "suggestion": "«showroom» в acceptedForms — інше слово; прибрати."}
+      ]
+    },
+    {
+      "id": "4cfc83ac-6fbd-527e-862e-1df93afbde12",
+      "scores": {"accuracy": 4, "naturalness": 3, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": null,
+      "issues": [
+        {"reasonCode": "unnatural_uk", "suggestion": "«повертач» — вигадане слово; краще описово: «покупець, що постійно повертає замовлення», у прикладах — «таких покупців»."}
+      ]
+    },
+    {
+      "id": "e0acb1e5-f353-54ea-ab41-96790a1952d9",
+      "scores": {"accuracy": 4, "naturalness": 3, "levelFit": 5, "safety": 5, "grammarNotes": 4, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": "повернення одягу після носіння",
+      "issues": [
+        {"reasonCode": "unnatural_uk", "suggestion": "«Вардробінг» в українській не усталений; основним дати описовий переклад, транслітерацію — в альтернативи."},
+        {"reasonCode": "other", "suggestion": "«wardrobe» в acceptedForms — інше слово; прибрати."}
+      ]
+    },
+    {
+      "id": "75269ec5-570d-517c-a98b-e75cb195ff61",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "b01e06a6-1c1b-52b7-8db1-7c776e903ba3",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "b8415cf5-daa4-5c11-ae31-e80e7eb746a8",
+      "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {"reasonCode": "other", "suggestion": "«статутний» в altTranslations — хибний друг (statutory ≠ статутний); прибрати."}
+      ]
+    },
+    {
+      "id": "ba175dbc-03b5-55b8-8a16-8246bb6fb4de",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "ef04ea87-45bf-57a6-aea7-2939baee4723",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 4, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {"reasonCode": "other", "suggestion": "Тема партійна, хоч і нейтральна; для віджета приклад можна м’якший: «кокус студентської ради»."}
+      ]
+    },
+    {
+      "id": "c162c2a3-7cff-5c70-8e75-6b5fbd568046",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    }
+  ]
+}

@@ -1,0 +1,754 @@
+{
+ "schemaVersion": 1,
+ "chunk": "C2-W17",
+ "reviewer": {
+  "model": "claude-code/claude-fable-5-1",
+  "promptVersion": "review-v1",
+  "reviewedAt": "2026-11-01T00:00:00+00:00"
+ },
+ "items": [
+  {
+   "id": "10193488-85f2-52c9-9d0a-ba7fabddf1b2",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 4
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "wrong_topic",
+     "suggestion": "Загальна риса характеру; тему communication можна прибрати."
+    }
+   ]
+  },
+  {
+   "id": "98ce0ce3-408b-5c4c-bc25-332a2b017eaf",
+   "scores": {
+    "accuracy": 4,
+    "naturalness": 4,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 4
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "unnatural_uk",
+     "suggestion": "«бурхливі захоплені оплески» — подвоєння; краще «бурхливі оплески»."
+    }
+   ]
+  },
+  {
+   "id": "39e10317-a7e8-5f36-a995-676ffa39cc3e",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 4
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "wrong_topic",
+     "suggestion": "Тема communication необов’язкова для загального іменника емоції."
+    }
+   ]
+  },
+  {
+   "id": "5d9ab942-5969-5261-ae04-fd9fc2e067f9",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 4
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "wrong_topic",
+     "suggestion": "Тема communication 0.4 зайва; слово загальне."
+    }
+   ]
+  },
+  {
+   "id": "dfcdf963-ca60-5393-9889-84402b6512a1",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 4
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "wrong_topic",
+     "suggestion": "Тема communication зайва для риси характеру."
+    }
+   ]
+  },
+  {
+   "id": "03fb1d69-ae6f-5faf-bcc6-5fa548ec7ff4",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "8579311b-0653-590d-b3bb-3900e6679cfd",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 4
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "wrong_topic",
+     "suggestion": "Тема travel 0.3 випадкова; краще без тем. «не для слабкодухих» природніше в UK1."
+    }
+   ]
+  },
+  {
+   "id": "3572e26e-ace6-559a-a9ca-07b3afd40a90",
+   "scores": {
+    "accuracy": 4,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "wrong_sense",
+     "suggestion": "abhor — відраза й ненависть; в altTranslations поставити «відчувати огиду» першим."
+    }
+   ]
+  },
+  {
+   "id": "b020ef69-ce20-5365-b735-42b3f0f61008",
+   "scores": {
+    "accuracy": 4,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "wrong_sense",
+     "suggestion": "altTranslations «приречений» = doomed, не fatalistic; замінити на «фаталістський»."
+    }
+   ]
+  },
+  {
+   "id": "379fc5b8-f5ab-5237-941f-b07c7af5f82c",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 4
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "wrong_topic",
+     "suggestion": "Тема communication зайва для переносного gnaw."
+    }
+   ]
+  },
+  {
+   "id": "7dd2bc00-de53-5ce8-8822-650634c33252",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 4
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "wrong_topic",
+     "suggestion": "Тема communication зайва; слово про стан гніву."
+    }
+   ]
+  },
+  {
+   "id": "31c9f86b-7cbd-5c1a-9c01-af26a31d5663",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "0a4ad002-cf89-5e7b-8d85-5088cba763a1",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "5c44b464-a4d2-511a-855b-836609d37e89",
+   "scores": {
+    "accuracy": 4,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "wrong_sense",
+     "suggestion": "jaunty — радше «хвацький, жвавий»; «бадьорий» блідіше, можна поміняти місцями з alt."
+    }
+   ]
+  },
+  {
+   "id": "eacc3642-575d-5ac1-bb7b-931395f9f4f2",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "2b47a9bd-59d8-5bff-a42a-a5107bcd1e3a",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "3b713de4-7cb3-5947-858b-7416ec762bbe",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "4dee5b20-34e0-5886-873f-08f792cc63f2",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 4
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "wrong_topic",
+     "suggestion": "Тема communication необов’язкова."
+    }
+   ]
+  },
+  {
+   "id": "d149655b-82c8-50c2-8a9c-dd4bc41075eb",
+   "scores": {
+    "accuracy": 4,
+    "naturalness": 4,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 4
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "unnatural_uk",
+     "suggestion": "Переклад-зворот «у нетерпінні» не вжито в UK1; узгодити: «Діти були в нетерпінні почути…»."
+    }
+   ]
+  },
+  {
+   "id": "4d9a1f14-2473-5502-be31-acbc77aebc85",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 4
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "wrong_topic",
+     "suggestion": "Тема communication зайва для стану подиву."
+    }
+   ]
+  },
+  {
+   "id": "783a5c14-fa9e-51f2-888a-561ce4e7f3cc",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 4,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 4
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "russism",
+     "suggestion": "altTranslations «торжествувати» — калька; замінити на «радіти перемозі» або «святкувати»."
+    }
+   ]
+  },
+  {
+   "id": "98ee8eb8-b270-551d-98f5-93cfb133e843",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "52260629-5e30-5dec-a583-20b64248d941",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "6eb3bcde-1b7e-5912-9777-d84bebfef0fc",
+   "scores": {
+    "accuracy": 4,
+    "naturalness": 3,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 4
+   },
+   "autoReject": false,
+   "needsRegeneration": true,
+   "primaryAlternative": "купатися в променях (слави, уваги)",
+   "issues": [
+    {
+     "reasonCode": "unnatural_uk",
+     "suggestion": "«грілася в променях оплесків» штучно; UK1: «купалася в оплесках», UK2: «тішитися похвалою»."
+    },
+    {
+     "reasonCode": "other",
+     "suggestion": "Переклад-зворот «грітися в променях» неповний без «слави»; подати «купатися в променях слави»."
+    }
+   ]
+  },
+  {
+   "id": "a7af3c3b-be12-5b12-9781-da7954c6a4f6",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "775b5f22-c45f-5b86-81d2-a941b59d70ba",
+   "scores": {
+    "accuracy": 4,
+    "naturalness": 4,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 4
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": "веселощі",
+   "issues": [
+    {
+     "reasonCode": "unnatural_uk",
+     "suggestion": "«викликав бурхливу веселість» штучно; «викликав вибух веселощів». Основним зробити «веселощі»."
+    }
+   ]
+  },
+  {
+   "id": "3955677c-2586-5094-8a3e-78802e0e8a80",
+   "scores": {
+    "accuracy": 3,
+    "naturalness": 4,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 4
+   },
+   "autoReject": false,
+   "needsRegeneration": true,
+   "primaryAlternative": "несерйозність",
+   "issues": [
+    {
+     "reasonCode": "mismatch_en_uk",
+     "suggestion": "У EN1 levity = трохи гумору; «легковажність» має осудний відтінок. UK1: «Трохи жартів допомогло нам…»."
+    },
+    {
+     "reasonCode": "wrong_sense",
+     "suggestion": "Основний переклад краще «несерйозність» або «жартівливість»; «легковажність» лишити в alt."
+    }
+   ]
+  },
+  {
+   "id": "db63cdfd-1dc6-5b76-8bdf-82bad2dcde4d",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 4
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "wrong_topic",
+     "suggestion": "Тема communication зайва для merriment."
+    }
+   ]
+  },
+  {
+   "id": "e36c09ac-2406-504f-9a46-edb8ac50db4e",
+   "scores": {
+    "accuracy": 4,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "other",
+     "suggestion": "UK1 обходиться без «спокій»: «сповнене спокою, поки вона спала»."
+    }
+   ]
+  },
+  {
+   "id": "629130b6-7ecd-537d-850d-f1aa92864456",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 4
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "wrong_topic",
+     "suggestion": "Тема communication зайва."
+    }
+   ]
+  },
+  {
+   "id": "0ea89bf5-a7a2-5cdf-9dd5-c98dad11f90c",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "81ca27e2-e76c-57e8-b93b-37170b795e94",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "8bfa5f02-c1d6-58d5-9dda-adc871606120",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "12bee3a4-e6d3-5c19-b735-9891f2614111",
+   "scores": {
+    "accuracy": 4,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "other",
+     "suggestion": "«незламний» не вжито в жодному UK-прикладі; UK2: «Ви й досі незламні після трьох невдалих спроб?»."
+    }
+   ]
+  },
+  {
+   "id": "65d55664-4c7f-5d51-bb69-a5325b47ed2e",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "08249018-9fd4-54cd-b510-de462062ebe6",
+   "scores": {
+    "accuracy": 4,
+    "naturalness": 4,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": "відважний",
+   "issues": [
+    {
+     "reasonCode": "unnatural_uk",
+     "suggestion": "«доблесний» звучить як калька; основним дати «відважний», як і в UK1."
+    }
+   ]
+  },
+  {
+   "id": "d6c867f2-7762-5ba4-b6b8-7b73b5f268e1",
+   "scores": {
+    "accuracy": 4,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "wrong_sense",
+     "suggestion": "Приклади змішують два сенси (героїчний і галантний); UK1 «звитяжно врятували кота» перебільшено — «відважно»."
+    }
+   ]
+  },
+  {
+   "id": "ab98fac4-e12b-5751-9833-75d1a78050d5",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 4
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "wrong_topic",
+     "suggestion": "Тема communication необов’язкова."
+    }
+   ]
+  },
+  {
+   "id": "80bca168-a147-525d-9718-8c0c9912bf7c",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 4
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "wrong_topic",
+     "suggestion": "Тема communication необов’язкова."
+    }
+   ]
+  },
+  {
+   "id": "a6147514-cd52-548e-a901-00ab9dc3888a",
+   "scores": {
+    "accuracy": 4,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 4
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "wrong_sense",
+     "suggestion": "suave — радше «елегантний, чарівливий»; «обхідливий» = affable; поміняти з alt місцями."
+    }
+   ]
+  }
+ ]
+}

@@ -4,8 +4,8 @@
  "pair": "uk-en",
  "level": "A1",
  "topic": "military",
- "version": 1,
- "generatedAt": "2026-11-01T09:47:11+00:00",
+ "version": 2,
+ "generatedAt": "2026-11-01T15:14:33+00:00",
  "provenance": {
   "source": "burdock-pipeline generate-v1 + review-v1 (Claude Code, claude-fable-5-1)",
   "status": "ai_reviewed",
@@ -18,6 +18,7 @@
   ]
  },
  "entries": [
-  {"id":"d0727c77-27dc-5971-a0fa-d19fe946f5e5","lemma":"war","pos":"noun","level":"A1","topics":["military"],"translation":"війна","altTranslations":[],"acceptedForms":["war"],"ipaGa":"/wɔr/","ipaRp":"/wɔː/","exampleEn":"My grandfather often talks about the war.","exampleUk":"Мій дідусь часто говорить про війну.","frequencyBand":null}
+  {"id":"d0727c77-27dc-5971-a0fa-d19fe946f5e5","lemma":"war","pos":"noun","level":"A1","topics":["military"],"translation":"війна","altTranslations":[],"acceptedForms":["war"],"ipaGa":"/wɔr/","ipaRp":"/wɔː/","exampleEn":"My grandfather often talks about the war.","exampleUk":"Мій дідусь часто говорить про війну.","frequencyBand":null},
+  {"id":"0f8e890b-836e-5557-9985-275f42a5f92c","lemma":"wounded","pos":"adjective","level":"A1","topics":["military","health"],"translation":"поранений","altTranslations":[],"acceptedForms":["wounded"],"ipaGa":"/ˈwundɪd/","ipaRp":"/ˈwuːndɪd/","exampleEn":"The wounded soldier is in hospital now.","exampleUk":"Поранений солдат зараз у лікарні.","frequencyBand":null}
  ]
 }

@@ -4,8 +4,8 @@
  "pair": "uk-en",
  "level": "A1",
  "topic": "communication",
- "version": 2,
- "generatedAt": "2026-11-01T09:47:11+00:00",
+ "version": 3,
+ "generatedAt": "2026-11-01T15:14:33+00:00",
  "provenance": {
   "source": "burdock-pipeline generate-v1 + review-v1 (Claude Code, claude-fable-5-1)",
   "status": "ai_reviewed",
@@ -56,6 +56,7 @@
   {"id":"d9918110-7413-5ccc-ab94-330bb65e7e50","lemma":"discuss","pos":"verb","level":"A1","topics":["communication","work"],"translation":"обговорювати","altTranslations":["обговорити"],"acceptedForms":["discuss"],"ipaGa":"/dɪˈskʌs/","ipaRp":"/dɪˈskʌs/","exampleEn":"We discuss the plan every Monday.","exampleUk":"Ми обговорюємо план щопонеділка.","frequencyBand":null},
   {"id":"f37e28ac-9d26-540d-aa37-606905301fd1","lemma":"each other","pos":"pronoun","level":"A1","topics":["communication"],"translation":"одне одного","altTranslations":["один одного","одна одну"],"acceptedForms":["each other","eachother"],"ipaGa":"/ˌitʃ ˈʌðər/","ipaRp":"/ˌiːtʃ ˈʌðə/","exampleEn":"Anna and Tom help each other.","exampleUk":"Анна і Том допомагають одне одному.","frequencyBand":null},
   {"id":"9d5ec251-6f16-5da2-9ec1-4639413b7d59","lemma":"email","pos":"noun","level":"A1","topics":["it","communication"],"translation":"електронний лист","altTranslations":["електронна пошта","імейл"],"acceptedForms":["email","e-mail"],"ipaGa":"/ˈimeɪl/","ipaRp":"/ˈiːmeɪl/","exampleEn":"I got an email from my teacher.","exampleUk":"Я отримав електронного листа від учителя.","frequencyBand":null},
+  {"id":"df448ade-1b54-5e2c-b9a5-aab3dd6022fb","lemma":"emoji","pos":"noun","level":"A1","topics":["communication","it"],"translation":"емодзі","altTranslations":["смайлик"],"acceptedForms":["emoji","emojis"],"ipaGa":"/ɪˈmoʊdʒi/","ipaRp":"/ɪˈməʊdʒi/","exampleEn":"She sends a lot of emojis.","exampleUk":"Вона надсилає багато емодзі.","frequencyBand":null},
   {"id":"f0013272-051e-5e32-a639-afa2da25220d","lemma":"excited","pos":"adjective","level":"A1","topics":["communication"],"translation":"схвильований","altTranslations":["радісно збуджений","у захваті"],"acceptedForms":["excited"],"ipaGa":"/ɪkˈsaɪtɪd/","ipaRp":"/ɪkˈsaɪtɪd/","exampleEn":"The children are excited about the trip.","exampleUk":"Діти схвильовані через поїздку.","frequencyBand":null},
   {"id":"22352c0a-5b4a-5e8c-a0fa-baec74e76354","lemma":"excuse","pos":"noun","level":"A1","topics":["communication"],"translation":"виправдання","altTranslations":["відмовка","привід"],"acceptedForms":["excuse"],"ipaGa":"/ɪkˈskjus/","ipaRp":"/ɪkˈskjuːs/","exampleEn":"Excuse me, where is the bus stop?","exampleUk":"Перепрошую, де зупинка автобуса?","frequencyBand":null},
   {"id":"637819d2-4aa2-5e5e-8ae8-0375847efc9b","lemma":"excuse me","pos":"phrase","level":"A1","topics":["communication"],"translation":"перепрошую","altTranslations":["вибачте","даруйте"],"acceptedForms":["excuse me","excuse me, please"],"ipaGa":"/ɪkˈskjuz mi/","ipaRp":"/ɪkˈskjuːz miː/","exampleEn":"Excuse me, I need to get off here.","exampleUk":"Перепрошую, мені треба тут вийти.","frequencyBand":null},

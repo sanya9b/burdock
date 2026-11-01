@@ -1,0 +1,327 @@
+{
+ "schemaVersion": 1,
+ "chunk": "C1-W25",
+ "reviewer": {"model": "claude-code/claude-fable-5-1", "promptVersion": "review-v1", "reviewedAt": "2026-11-01T00:00:00+00:00"},
+ "items": [
+  {
+   "id": "701d2fa3-8c84-500e-a164-aafef18e181a",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "1d1397d2-c044-5ecb-8138-543046a7a8c9",
+   "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_sense", "suggestion": "«самовпевнений» має негативний відтінок (overconfident); в altTranslations краще «впевнений», «самодостатній»."}]
+  },
+  {
+   "id": "5b7654e9-a6bf-5132-8f0f-2cf1b81ead21",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "5179af04-3d76-593e-b392-dabbf29a8ddc",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "030bbae2-ac09-5c74-a9de-7e4a2396ee8d",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_topic", "suggestion": "Риса характеру без виразної теми; «communication» необов’язкова, можна лишити без тем."}]
+  },
+  {
+   "id": "f150901a-e143-5449-8471-6d26491f3fca",
+   "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_sense", "suggestion": "«неупереджений» ближче до unbiased; сенс «відкритий до нового» добре покритий alt-перекладами, лишити."}]
+  },
+  {
+   "id": "0c979ddd-94c8-5b2f-9680-b5f79ea39127",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "ff34b736-193d-5321-89e0-219ad0101cd4",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "b7ee41c4-022d-56b8-bf07-29401da7298c",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "7b293132-062f-553b-b4f9-325477c3bd1d",
+   "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "unnatural_uk", "suggestion": "Активний дієприкметник «тверезомислячий» небажаний; в alt краще «тверезий», «з ясною головою»."}]
+  },
+  {
+   "id": "e9912bd3-668f-5cf9-8fa1-7a2f1fcf3d62",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "da6bcf60-c42b-51dc-b6ab-af47afe8ea52",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "8450787e-f3c1-534d-8611-3ad71ccb3361",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "be5a80c4-ef51-5309-89e5-78694e118b1c",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "0e16cf52-dcbc-50f9-84b7-fb55c471b28c",
+   "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "russism", "suggestion": "В altTranslations «неустрашимий» — калька з російської; замінити на «хоробрий» або «незламний»."}]
+  },
+  {
+   "id": "e676b138-d530-5d88-adc5-d11423809b65",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "4d591b5f-e5a4-5d7c-871b-7084374ec56a",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "b71aa2be-76a6-5ea8-8601-7555a8abf175",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "91036355-cb82-5c2a-8ac5-6216650b0db6",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "5778e757-1af9-5382-b97e-deadc2ce8660",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "d602a01f-fb23-542b-b90a-c76c28fdbbda",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "8a6bfc9f-2d6c-5b76-a0a0-ce2bf5568ca9",
+   "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_sense", "suggestion": "«кмітливий» ближче до quick-witted; сенс «обізнаний, тямущий практично» є в alt — прийнятно."}, {"reasonCode": "wrong_topic", "suggestion": "Тема «it» слабка для savvy самого по собі (лише у tech-savvy); можна прибрати."}]
+  },
+  {
+   "id": "5f869e9e-c4c5-528e-9b2b-aead269736ec",
+   "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_sense", "suggestion": "«культурний» в українській часто означає «чемний»; сенс «освічений, знавець мистецтв» покривають alt."}]
+  },
+  {
+   "id": "6d6b2400-9f42-5328-8c67-c0ef54d24b08",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "8f07ff90-2c31-55aa-9479-eca2449f4295",
+   "scores": {"accuracy": 5, "naturalness": 3, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": true,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "unnatural_uk", "suggestion": "Прислівник «сповнено гідності» неприродний в обох прикладах; «прийняв нагороду спокійно й з гідністю», «відповіла на критику з гідністю»."}]
+  },
+  {
+   "id": "14368363-216a-5295-8a22-f329288727d6",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "ef863a23-8cd7-5b16-aa8a-167be23b7671",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "971a64b3-07ea-5500-9f28-c85ded069ec9",
+   "scores": {"accuracy": 4, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "unnatural_uk", "suggestion": "«Я звучав святенницьки» — калька; природніше «Чи не прозвучало це святенницьки, коли я говорив…»."}, {"reasonCode": "wrong_sense", "suggestion": "Alt «упевнений у правоті» нейтральний, не передає осуду; краще «самовдоволено-праведний» або прибрати."}]
+  },
+  {
+   "id": "7b70ec69-aa24-5277-80c9-50bdf0ca040c",
+   "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_sense", "suggestion": "«егоїстичний» ближче до selfish; відтінок самозакоханості краще передає alt «самозакоханий» — прийнятно."}]
+  },
+  {
+   "id": "3e5bf067-cdcb-597d-b77e-1524cdd4bad8",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "8df529e2-79cd-58d4-af3e-7a7260459ed6",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "cac6a245-355a-5b97-97a4-e751e13d218c",
+   "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "mismatch_en_uk", "suggestion": "У другому прикладі прикметник замінено іменником «снобізм»; краще «Хіба не снобістськи судити людей за акцентом?»."}]
+  },
+  {
+   "id": "eabea822-4cce-5032-bf46-e291ec30f167",
+   "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_sense", "suggestion": "«владний» може звучати нейтрально чи схвально; несхвальний відтінок точніше передає «деспотичний» (є в alt)."}]
+  },
+  {
+   "id": "5f6b9131-fcaf-5c58-80bb-807ae76c62f1",
+   "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_sense", "suggestion": "«нав’язливий» ближче до intrusive; «напористий»/«настирливий» точніші, вони є в alt — прийнятно."}]
+  },
+  {
+   "id": "c20fd0dd-0ecb-5314-a0c3-2b26782947d4",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "c1eb552f-47e9-5e67-95b9-351a5ffb469e",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "b2b02e73-5cd9-5aa6-b80e-238ce8494055",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "7916c978-6e48-5e8c-a713-b8dd22605258",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "578a62c7-6a7c-5721-8adf-6fc62f82a3cc",
+   "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "wrong_sense", "suggestion": "«категоричний» описує манеру, а не наявність твердих поглядів; alt «з твердими поглядами» доповнює — прийнятно."}]
+  },
+  {
+   "id": "c6f4e635-f8cf-5ca6-a5a9-cdda0c8a5f33",
+   "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "unnatural_uk", "suggestion": "«Це обмежено — відкидати…» звучить штучно; краще «Відкидати страву, не скуштувавши, — обмеженість»."}]
+  }
+ ]
+}

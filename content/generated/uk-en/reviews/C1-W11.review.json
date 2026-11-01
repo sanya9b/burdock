@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 1,
+  "chunk": "C1-W11",
+  "reviewer": {"model": "claude-code/claude-fable-5-1", "promptVersion": "review-v1", "reviewedAt": "2026-11-01T00:00:00+00:00"},
+  "items": [
+    {
+      "id": "059743c6-a2c9-5aac-afd0-8ad1a7c12c0a",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "23a99a22-d00e-5646-b966-3fb1f9db45b0",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "b9d82bde-919d-5198-8ee5-df0766a95295",
+      "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "wrong_sense", "suggestion": "«кумедний» губить відтінок сухого, дивакуватого гумору; у usageNote варто підкреслити «стримано-дотепний»."}]
+    },
+    {
+      "id": "4cfadf37-3c6b-5a8e-80fe-0ce43645c6ff",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "wrong_topic", "suggestion": "Тема shopping необов’язкова: слово загальне, в інвентарі тем немає."}]
+    },
+    {
+      "id": "f1b44439-8b4a-5bf0-bb18-d63d973063ac",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "b01e6a27-7ca1-5fdf-9e2e-cebd93a102f2",
+      "scores": {"accuracy": 4, "naturalness": 3, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": null,
+      "issues": [
+        {"reasonCode": "unnatural_uk", "suggestion": "«трюкацький» рідкісне й штучне; природніше «розрахований на дешевий ефект» або «з дешевими трюками»."},
+        {"reasonCode": "wrong_topic", "suggestion": "Тема work тут випадкова; залишити без тем."}
+      ]
+    },
+    {
+      "id": "173bd2b4-0b52-5e24-be64-cf65019ad2fc",
+      "scores": {"accuracy": 3, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": "гламурний",
+      "issues": [{"reasonCode": "wrong_sense", "suggestion": "«блискучий» в українській означає «чудовий» і губить відтінок поверхового блиску; краще «гламурний»."}]
+    },
+    {
+      "id": "1d1769c1-4bc0-5036-94cc-750ccf00d0dc",
+      "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "unnatural_uk", "suggestion": "«з сузір’ям зірок» як альтернатива кострубате; природніше «з багатьма зірками»."}]
+    },
+    {
+      "id": "7aec5e4d-2c54-5351-835b-4cd08792e6d8",
+      "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "unnatural_uk", "suggestion": "«початківиця» нестандартне; «акторка-початківка»."}]
+    },
+    {
+      "id": "b9b2a184-e3e3-5b39-8839-bc12812c36b1",
+      "scores": {"accuracy": 4, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "unnatural_uk", "suggestion": "«називають дівою» у другому прикладі звучить двозначно; краще «називають примадонною»."}]
+    },
+    {
+      "id": "e0b0f039-0d05-5146-bda3-f24985b029f3",
+      "scores": {"accuracy": 3, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": "кумир дівчат",
+      "issues": [{"reasonCode": "wrong_sense", "suggestion": "«серцеїд» — це ловелас, що розбиває серця; heartthrob — кумир, об’єкт захоплення. Краще «кумир дівчат»."}]
+    },
+    {
+      "id": "37fa9fce-852e-53de-b14d-405e75d63346",
+      "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "unnatural_uk", "suggestion": "Альтернатива «відпрацьований матеріал» грубувата й неточна; краще «згасла зірка»."}]
+    },
+    {
+      "id": "4dabe610-82b2-5528-b58c-b4938f7beff4",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "9b6075f9-983f-5a92-9477-8ab709e8df12",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "a3e1fc45-ca50-5bb0-a48f-3f549718abca",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "d08319dc-7be0-5780-b838-9e345fdd731a",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "40ee6646-3e96-5810-9de1-f3e18a71708e",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "228d3009-b0de-52bd-98ab-f36a1ae614fb",
+      "scores": {"accuracy": 4, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "wrong_sense", "suggestion": "Альтернатива «несмачний» стосується їжі; краще «кічевий» або «слащавий» → «солодкаво-банальний»."}]
+    },
+    {
+      "id": "06711bda-281f-5238-8fc3-ed91878934b4",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "1abe7555-2588-50b6-bcdb-5e5422aac2ce",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "83daf303-4e82-51e2-b67e-6290bd03868e",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "34e25ae8-c654-51a2-930d-779e7a57893a",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "e6dd5339-db07-55b9-924a-3bef2ec69934",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "wrong_topic", "suggestion": "Тема city слабка (0,4); слово загальне, в інвентарі тем немає — можна прибрати."}]
+    },
+    {
+      "id": "240f867a-6f06-5d88-adf6-cf5313f2b7d0",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "wrong_topic", "suggestion": "Тема city слабка (0,4); слово загальне — можна прибрати."}]
+    },
+    {
+      "id": "ce210b75-cf61-5e9c-9ef5-14e2c7cbbe4d",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "b1025f5f-fee6-5433-b3fe-7b9544a6a1fc",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "51cfb557-6a9a-5eb8-b1a7-08fe51a7471b",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "b81c3a4f-1459-518c-8819-f32f1a8db69b",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "63bc2c5b-5f63-5c4e-8d08-d7d1af555640",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "09f76c1d-24e7-5c5e-84af-76e5b868ee80",
+      "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "other", "suggestion": "«піарник» розмовне, а register = neutral; або позначити informal, або основним дати «фахівець з піару»."}]
+    },
+    {
+      "id": "0e22b2cf-7b6b-5cdd-bd07-68c1dde90c55",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "742f76ab-ab57-5677-bbcb-390eb7254e5d",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "04b89464-372f-5e4e-bf91-860c70435d9a",
+      "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "unnatural_uk", "suggestion": "Альтернатива «розважально-відривний» штучна; краще «що відволікає від реальності»."}]
+    },
+    {
+      "id": "07eec5e5-ee7e-58a5-8e62-38ad98dd9464",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "d51f0ab0-6e45-58d8-b8b4-7fa679ec6dfd",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "08b77517-6a21-5f84-905d-9794547b9a76",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "a7063348-dff7-5093-ac71-b52455352b52",
+      "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "unnatural_uk", "suggestion": "«наростали крещендо» кострубато; краще «Барабани дійшли до крещендо перед останнім приспівом»."}]
+    },
+    {
+      "id": "b3bc52d9-b560-5936-ad57-70e2b2a6ec3d",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "454c7832-0ce6-5eb8-bf56-bbb9044e7a55",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "dd368716-652c-5185-8726-bd789a78ced6",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    }
+  ]
+}

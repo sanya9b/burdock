@@ -1,0 +1,1418 @@
+{
+ "schemaVersion": 1,
+ "chunk": "C1-W44",
+ "level": "C1",
+ "provenance": {
+  "model": "claude-code/claude-fable-5-1",
+  "promptVersion": "generate-v1",
+  "generatedAt": "2026-11-01T00:00:00+00:00",
+  "status": "draft"
+ },
+ "entries": [
+  {
+   "id": "e7bca13c-c432-56ce-9f32-6e93ac88453b",
+   "lemma": "panic-buying",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "panic-buying",
+    "panic buying",
+    "panicbuying"
+   ],
+   "translation": "панічна скупка",
+   "translationStressed": "пані́чна ску́пка",
+   "altTranslations": [
+    "ажіотажний попит"
+   ],
+   "register": "neutral",
+   "genderNote": "ж.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "незлічуване",
+   "ipaGa": "/ˈpænɪk ˌbaɪɪŋ/",
+   "ipaRp": "/ˈpænɪk ˌbaɪɪŋ/",
+   "exampleEn": "Panic-buying emptied the shelves of flour and rice within a few hours.",
+   "exampleUk": "Панічна скупка за кілька годин спустошила полиці з борошном і рисом.",
+   "exampleEn2": "Is there any way to stop panic-buying before a big storm?",
+   "exampleUk2": "Чи можна якось зупинити панічну скупку перед великою бурею?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.9
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "2067aeab-9e7a-57c0-8fc2-d4c8e8e5027c",
+   "lemma": "deadstock",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "deadstock",
+    "dead stock",
+    "dead-stock"
+   ],
+   "translation": "нерозпродані залишки",
+   "translationStressed": "нерозпро́дані за́лишки",
+   "altTranslations": [
+    "дедсток"
+   ],
+   "register": "neutral",
+   "genderNote": "мн.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "в англійській незлічуване",
+   "ipaGa": "/ˈdɛdstɑk/",
+   "ipaRp": "/ˈdɛdstɒk/",
+   "exampleEn": "This online shop sells deadstock sneakers from the early 2000s.",
+   "exampleUk": "Ця онлайн-крамниця продає нерозпродані залишки кросівок початку 2000-х.",
+   "exampleEn2": "Have you ever bought deadstock clothes still in the original packaging?",
+   "exampleUk2": "Ви колись купували нерозпродані залишки одягу ще в оригінальному пакуванні?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.9
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "44ecc25b-bb4e-54ac-9216-6d049f6dab2d",
+   "lemma": "sellout",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "sellout",
+    "sellouts",
+    "sell-out",
+    "sell-outs",
+    "sell out"
+   ],
+   "translation": "повний розпродаж",
+   "translationStressed": "по́вний розпро́даж",
+   "altTranslations": [
+    "аншлаг"
+   ],
+   "register": "neutral",
+   "genderNote": "ч.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "про товар — повний розпродаж, про подію — аншлаг",
+   "ipaGa": "/ˈsɛlaʊt/",
+   "ipaRp": "/ˈsɛlaʊt/",
+   "exampleEn": "The new sneakers were a sellout within ten minutes of the launch.",
+   "exampleUk": "Нові кросівки повністю розпродали за десять хвилин після старту продажу.",
+   "exampleEn2": "Was last night’s concert a sellout?",
+   "exampleUk2": "Учорашній концерт пройшов з аншлагом?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.8
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "499ff986-e0a8-5a69-9855-7df94132140e",
+   "lemma": "flagship",
+   "pos": "adjective",
+   "level": "C1",
+   "acceptedForms": [
+    "flagship",
+    "flagships",
+    "flag-ship"
+   ],
+   "translation": "флагманський",
+   "translationStressed": "флагма́нський",
+   "altTranslations": [
+    "головний"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": null,
+   "ipaGa": "/ˈflæɡʃɪp/",
+   "ipaRp": "/ˈflæɡʃɪp/",
+   "exampleEn": "The brand opened its flagship store on the main street of Kyiv.",
+   "exampleUk": "Бренд відкрив свою флагманську крамницю на головній вулиці Києва.",
+   "exampleEn2": "Which flagship model would you recommend for photography?",
+   "exampleUk2": "Яку флагманську модель ви б порадили для фотографії?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.8
+    },
+    {
+     "slug": "work",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "ddc67be7-266d-5db7-b0f9-166794175e63",
+   "lemma": "bagger",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "bagger",
+    "baggers"
+   ],
+   "translation": "пакувальник",
+   "translationStressed": "пакува́льник",
+   "altTranslations": [
+    "пакувальниця"
+   ],
+   "register": "neutral",
+   "genderNote": "ч.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": null,
+   "ipaGa": "/ˈbæɡər/",
+   "ipaRp": "/ˈbæɡə/",
+   "exampleEn": "The bagger carefully put the eggs on top of the heavier items.",
+   "exampleUk": "Пакувальник обережно поклав яйця поверх важчих продуктів.",
+   "exampleEn2": "Could you ask the bagger to use paper bags instead of plastic?",
+   "exampleUk2": "Можете попросити пакувальника використати паперові пакети замість пластикових?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.8
+    },
+    {
+     "slug": "work",
+     "confidence": 0.5
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "d22b1a09-178e-5260-8ac6-87a8e53bc3c1",
+   "lemma": "exchangeable",
+   "pos": "adjective",
+   "level": "C1",
+   "acceptedForms": [
+    "exchangeable"
+   ],
+   "translation": "придатний до обміну",
+   "translationStressed": "прида́тний до обмі́ну",
+   "altTranslations": [
+    "обмінний"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": null,
+   "ipaGa": "/ɪksˈtʃeɪndʒəbəl/",
+   "ipaRp": "/ɪksˈtʃeɪndʒəbl/",
+   "exampleEn": "Sale items are exchangeable within fourteen days if you keep the receipt.",
+   "exampleUk": "Товари з розпродажу можна обміняти протягом чотирнадцяти днів, якщо зберегти чек.",
+   "exampleEn2": "Is this gift card exchangeable for cash?",
+   "exampleUk2": "Чи можна обміняти цю подарункову картку на готівку?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.9
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "f51a2b8b-d118-5aa1-b95f-6c08a6073d7b",
+   "lemma": "shrink-wrap",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "shrink-wrap",
+    "shrink wrap",
+    "shrinkwrap"
+   ],
+   "translation": "термоусадкова плівка",
+   "translationStressed": "термоуса́дкова плі́вка",
+   "altTranslations": [],
+   "register": "neutral",
+   "genderNote": "ж.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "незлічуване",
+   "ipaGa": "/ˈʃrɪŋk ræp/",
+   "ipaRp": "/ˈʃrɪŋk ræp/",
+   "exampleEn": "The books arrived in tight shrink-wrap with no sign of damage.",
+   "exampleUk": "Книжки прийшли в щільній термоусадковій плівці без жодних пошкоджень.",
+   "exampleEn2": "Do you have scissors to cut through this shrink-wrap?",
+   "exampleUk2": "У вас є ножиці, щоб розрізати цю термоусадкову плівку?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.7
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "6ce1af2c-01da-5e46-ad38-6a5f5deade96",
+   "lemma": "e-receipt",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "e-receipt",
+    "e-receipts",
+    "digital receipt",
+    "ereceipt"
+   ],
+   "translation": "електронний чек",
+   "translationStressed": "електро́нний чек",
+   "altTranslations": [
+    "електронна квитанція"
+   ],
+   "register": "neutral",
+   "genderNote": "ч.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": null,
+   "ipaGa": "/ˈi rɪˌsit/",
+   "ipaRp": "/ˈiː rɪˌsiːt/",
+   "exampleEn": "The shop sends an e-receipt to your email right after you pay.",
+   "exampleUk": "Крамниця надсилає електронний чек на вашу пошту одразу після оплати.",
+   "exampleEn2": "Would you like a paper receipt or an e-receipt?",
+   "exampleUk2": "Вам паперовий чи електронний чек?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.9
+    },
+    {
+     "slug": "it",
+     "confidence": 0.5
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "6b609ddf-c9b4-5272-b796-579ebeca4415",
+   "lemma": "itemized",
+   "pos": "adjective",
+   "level": "C1",
+   "acceptedForms": [
+    "itemized",
+    "itemised"
+   ],
+   "translation": "деталізований",
+   "translationStressed": "деталізо́ваний",
+   "altTranslations": [
+    "постатейний"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": null,
+   "ipaGa": "/ˈaɪtəˌmaɪzd/",
+   "ipaRp": "/ˈaɪtəmaɪzd/",
+   "exampleEn": "Please send me an itemized invoice so I can check every charge.",
+   "exampleUk": "Надішліть мені, будь ласка, деталізований рахунок, щоб я перевірив кожну позицію.",
+   "exampleEn2": "Did the hotel give you an itemized bill at checkout?",
+   "exampleUk2": "Готель видав вам деталізований рахунок під час виїзду?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.7
+    },
+    {
+     "slug": "work",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "75042bad-e9ce-540b-8eaa-5bd26f2542d5",
+   "lemma": "watermark",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "watermark",
+    "watermarks",
+    "water mark"
+   ],
+   "translation": "водяний знак",
+   "translationStressed": "водяни́й знак",
+   "altTranslations": [],
+   "register": "neutral",
+   "genderNote": "ч.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": null,
+   "ipaGa": "/ˈwɔtərˌmɑrk/",
+   "ipaRp": "/ˈwɔːtəmɑːk/",
+   "exampleEn": "Hold the banknote up to the light to see the watermark.",
+   "exampleUk": "Підніміть банкноту до світла, щоб побачити водяний знак.",
+   "exampleEn2": "Can you see the watermark on this five-hundred-hryvnia note?",
+   "exampleUk2": "Ви бачите водяний знак на цій банкноті у п’ятсот гривень?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.5
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "3adc3bdd-5ca3-5026-8f74-39315c1de27e",
+   "lemma": "hologram",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "hologram",
+    "holograms"
+   ],
+   "translation": "голограма",
+   "translationStressed": "гологра́ма",
+   "altTranslations": [],
+   "register": "neutral",
+   "genderNote": "ж.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": null,
+   "ipaGa": "/ˈhoʊləˌɡræm/",
+   "ipaRp": "/ˈhɒləɡræm/",
+   "exampleEn": "Each bank card has a small hologram that is hard to copy.",
+   "exampleUk": "На кожній банківській картці є маленька голограма, яку важко підробити.",
+   "exampleEn2": "Does the hologram on this ticket change colour when you tilt it?",
+   "exampleUk2": "Голограма на цьому квитку змінює колір, коли його нахилити?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.5
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "f8d77b6a-0691-5831-956a-9e1f219f96f9",
+   "lemma": "nonperishable",
+   "pos": "adjective",
+   "level": "C1",
+   "acceptedForms": [
+    "nonperishable",
+    "non-perishable",
+    "nonperishables",
+    "non-perishables"
+   ],
+   "translation": "тривалого зберігання",
+   "translationStressed": "трива́лого зберіга́ння",
+   "altTranslations": [
+    "нешвидкопсувний"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "nonperishables — продукти тривалого зберігання",
+   "ipaGa": "/ˌnɑnˈpɛrɪʃəbəl/",
+   "ipaRp": "/ˌnɒnˈpɛrɪʃəbl/",
+   "exampleEn": "Volunteers collected nonperishable food such as pasta, rice and canned beans.",
+   "exampleUk": "Волонтери зібрали продукти тривалого зберігання: макарони, рис і консервовану квасолю.",
+   "exampleEn2": "Could you keep a box of nonperishable food in the shelter?",
+   "exampleUk2": "Чи могли б ви тримати в укритті коробку продуктів тривалого зберігання?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.8
+    },
+    {
+     "slug": "shopping",
+     "confidence": 0.6
+    },
+    {
+     "slug": "military",
+     "confidence": 0.5
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "10d10eb3-666c-5456-b06f-789dc421d317",
+   "lemma": "SKU",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "SKU",
+    "SKUs",
+    "stock-keeping unit",
+    "stock keeping unit"
+   ],
+   "translation": "артикул",
+   "translationStressed": "арти́кул",
+   "altTranslations": [
+    "складська одиниця"
+   ],
+   "register": "neutral",
+   "genderNote": "ч.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "вимовляється по літерах або як «skew»",
+   "ipaGa": "/ˌɛs keɪ ˈju/",
+   "ipaRp": "/ˌɛs keɪ ˈjuː/",
+   "exampleEn": "Every colour of the jacket has its own SKU in the system.",
+   "exampleUk": "Кожен колір куртки має власний артикул у системі.",
+   "exampleEn2": "Can you check the SKU before you send the parcel?",
+   "exampleUk2": "Можете перевірити артикул, перш ніж відправляти посилку?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.8
+    },
+    {
+     "slug": "work",
+     "confidence": 0.6
+    },
+    {
+     "slug": "it",
+     "confidence": 0.4
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "a43ba76b-85e4-5f79-b394-6bff4bf8110f",
+   "lemma": "planogram",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "planogram",
+    "planograms"
+   ],
+   "translation": "планограма",
+   "translationStressed": "планогра́ма",
+   "altTranslations": [],
+   "register": "neutral",
+   "genderNote": "ж.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": null,
+   "ipaGa": "/ˈplænəˌɡræm/",
+   "ipaRp": "/ˈplænəɡræm/",
+   "exampleEn": "The new planogram puts snacks at eye level near the checkout.",
+   "exampleUk": "Нова планограма розміщує снеки на рівні очей біля каси.",
+   "exampleEn2": "Have you updated the planogram for the summer season yet?",
+   "exampleUk2": "Ви вже оновили планограму на літній сезон?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.7
+    },
+    {
+     "slug": "work",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "cd1c1e06-7772-5af2-b380-767c419afe43",
+   "lemma": "shrinkage",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "shrinkage"
+   ],
+   "translation": "втрати товару",
+   "translationStressed": "втра́ти това́ру",
+   "altTranslations": [
+    "недостача"
+   ],
+   "register": "neutral",
+   "genderNote": "мн.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "в англійській незлічуване",
+   "ipaGa": "/ˈʃrɪŋkɪdʒ/",
+   "ipaRp": "/ˈʃrɪŋkɪdʒ/",
+   "exampleEn": "The store reduced shrinkage by moving the cameras closer to the exits.",
+   "exampleUk": "Крамниця зменшила втрати товару, пересунувши камери ближче до виходів.",
+   "exampleEn2": "How much shrinkage did the shop report last quarter?",
+   "exampleUk2": "Які втрати товару крамниця показала минулого кварталу?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.7
+    },
+    {
+     "slug": "work",
+     "confidence": 0.7
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "9b7318f6-434f-5680-913d-d01d702279eb",
+   "lemma": "footfall",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "footfall",
+    "foot traffic",
+    "foot-fall"
+   ],
+   "translation": "відвідуваність",
+   "translationStressed": "відві́дуваність",
+   "altTranslations": [
+    "потік покупців"
+   ],
+   "register": "neutral",
+   "genderNote": "ж.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "незлічуване",
+   "ipaGa": "/ˈfʊtfɔl/",
+   "ipaRp": "/ˈfʊtfɔːl/",
+   "exampleEn": "Footfall in the mall doubles on the weekend before the holidays.",
+   "exampleUk": "Відвідуваність торгового центру подвоюється у вихідні перед святами.",
+   "exampleEn2": "Did the new window display increase footfall in your shop?",
+   "exampleUk2": "Нова вітрина збільшила відвідуваність вашої крамниці?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.7
+    },
+    {
+     "slug": "work",
+     "confidence": 0.7
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "850e68ba-8298-51c3-a154-919323e32e77",
+   "lemma": "endcap",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "endcap",
+    "endcaps",
+    "end cap",
+    "end caps",
+    "end-cap"
+   ],
+   "translation": "торцева викладка",
+   "translationStressed": "торце́ва ви́кладка",
+   "altTranslations": [
+    "торцевий стелаж"
+   ],
+   "register": "neutral",
+   "genderNote": "ж.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": null,
+   "ipaGa": "/ˈɛndkæp/",
+   "ipaRp": "/ˈɛndkæp/",
+   "exampleEn": "The chocolate was placed on an endcap so every shopper would notice it.",
+   "exampleUk": "Шоколад виклали на торцевій викладці, щоб його помітив кожен покупець.",
+   "exampleEn2": "Could you move the discounted tea to the endcap near the entrance?",
+   "exampleUk2": "Можете перенести чай зі знижкою на торцеву викладку біля входу?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.8
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "88c6e280-7426-5306-ac48-6149ccaa07da",
+   "lemma": "emporium",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "emporium",
+    "emporiums",
+    "emporia"
+   ],
+   "translation": "торговий дім",
+   "translationStressed": "торго́вий дім",
+   "altTranslations": [
+    "великий універмаг"
+   ],
+   "register": "formal",
+   "genderNote": "ч.",
+   "pluralNote": "emporium — emporiums або emporia",
+   "aspectNote": null,
+   "usageNote": null,
+   "ipaGa": "/ɪmˈpɔriəm/",
+   "ipaRp": "/ɪmˈpɔːriəm/",
+   "exampleEn": "The old emporium on the corner sells everything from teapots to bicycles.",
+   "exampleUk": "Старий торговий дім на розі продає все — від чайників до велосипедів.",
+   "exampleEn2": "Shall we look for a gift in that antique emporium?",
+   "exampleUk2": "Пошукаємо подарунок у тому антикварному торговому домі?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.8
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "46fcb0f9-be4a-51f8-8d48-072f34b7d320",
+   "lemma": "haberdashery",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "haberdashery",
+    "haberdasheries"
+   ],
+   "translation": "галантерея",
+   "translationStressed": "галантере́я",
+   "altTranslations": [
+    "крамниця швейного приладдя"
+   ],
+   "register": "neutral",
+   "genderNote": "ж.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "у британському вжитку — швейна галантерея, в американському — чоловічий одяг",
+   "ipaGa": "/ˈhæbərˌdæʃəri/",
+   "ipaRp": "/ˌhæbəˈdæʃəri/",
+   "exampleEn": "I found the perfect buttons for my coat at a small haberdashery.",
+   "exampleUk": "Я знайшла ідеальні ґудзики для пальта в маленькій галантереї.",
+   "exampleEn2": "Is there a haberdashery nearby where I can buy thread?",
+   "exampleUk2": "Чи є поблизу галантерея, де можна купити нитки?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.8
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "d91f841a-8977-5968-9186-57371fd50781",
+   "lemma": "retargeting",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "retargeting",
+    "re-targeting"
+   ],
+   "translation": "ретаргетинг",
+   "translationStressed": "ретарге́тинг",
+   "altTranslations": [
+    "повторне націлювання реклами"
+   ],
+   "register": "neutral",
+   "genderNote": "ч.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "незлічуване",
+   "ipaGa": "/ˌriˈtɑrɡətɪŋ/",
+   "ipaRp": "/ˌriːˈtɑːɡɪtɪŋ/",
+   "exampleEn": "Thanks to retargeting, the shoes I looked at followed me across every website.",
+   "exampleUk": "Через ретаргетинг черевики, які я переглядала, переслідували мене на кожному сайті.",
+   "exampleEn2": "How do I turn off retargeting in my browser?",
+   "exampleUk2": "Як вимкнути ретаргетинг у браузері?",
+   "topics": [
+    {
+     "slug": "it",
+     "confidence": 0.7
+    },
+    {
+     "slug": "shopping",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "8341e8d7-818a-568c-8f69-1b7ef36721f9",
+   "lemma": "last-mile",
+   "pos": "adjective",
+   "level": "C1",
+   "acceptedForms": [
+    "last-mile",
+    "last mile"
+   ],
+   "translation": "останньої милі",
+   "translationStressed": "оста́нньої ми́лі",
+   "altTranslations": [
+    "кінцевий етап доставки"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "переважно у сполученні last-mile delivery",
+   "ipaGa": "/ˌlæst ˈmaɪl/",
+   "ipaRp": "/ˌlɑːst ˈmaɪl/",
+   "exampleEn": "Last-mile delivery is often the most expensive part of shipping a parcel.",
+   "exampleUk": "Доставка останньої милі часто є найдорожчою частиною пересилання посилки.",
+   "exampleEn2": "Does your company use couriers on bikes for last-mile delivery?",
+   "exampleUk2": "Ваша компанія використовує кур’єрів на велосипедах для доставки останньої милі?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.6
+    },
+    {
+     "slug": "work",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "10dc60bd-1d45-5f92-aea0-ea24328c2f49",
+   "lemma": "waybill",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "waybill",
+    "waybills",
+    "way bill",
+    "way-bill"
+   ],
+   "translation": "накладна",
+   "translationStressed": "накладна́",
+   "altTranslations": [
+    "товарно-транспортна накладна"
+   ],
+   "register": "neutral",
+   "genderNote": "ж.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": null,
+   "ipaGa": "/ˈweɪbɪl/",
+   "ipaRp": "/ˈweɪbɪl/",
+   "exampleEn": "Check that the waybill matches the number of boxes you received.",
+   "exampleUk": "Перевірте, чи накладна збігається з кількістю коробок, які ви отримали.",
+   "exampleEn2": "Could you send me a copy of the waybill by email?",
+   "exampleUk2": "Можете надіслати мені копію накладної електронною поштою?",
+   "topics": [
+    {
+     "slug": "work",
+     "confidence": 0.7
+    },
+    {
+     "slug": "shopping",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "ed6523bb-1247-550d-bfdb-4f1f7e14c33c",
+   "lemma": "dynamic pricing",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "dynamic pricing"
+   ],
+   "translation": "динамічне ціноутворення",
+   "translationStressed": "динамі́чне ціноутво́рення",
+   "altTranslations": [
+    "гнучкі ціни"
+   ],
+   "register": "neutral",
+   "genderNote": "с.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "незлічуване",
+   "ipaGa": "/daɪˌnæmɪk ˈpraɪsɪŋ/",
+   "ipaRp": "/daɪˌnæmɪk ˈpraɪsɪŋ/",
+   "exampleEn": "Because of dynamic pricing, the same ticket cost more in the evening.",
+   "exampleUk": "Через динамічне ціноутворення той самий квиток увечері коштував дорожче.",
+   "exampleEn2": "Do taxi apps in your city use dynamic pricing during rush hour?",
+   "exampleUk2": "Таксі-застосунки у вашому місті використовують динамічне ціноутворення в годину пік?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.7
+    },
+    {
+     "slug": "work",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "7d357406-ec4e-594b-ab78-294c65b58328",
+   "lemma": "porch pirate",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "porch pirate",
+    "porch pirates",
+    "porch-pirate"
+   ],
+   "translation": "крадій посилок",
+   "translationStressed": "краді́й поси́лок",
+   "altTranslations": [
+    "викрадач посилок з ґанку"
+   ],
+   "register": "informal",
+   "genderNote": "ч.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "розмовне, переважно у США",
+   "ipaGa": "/ˈpɔrtʃ ˌpaɪrət/",
+   "ipaRp": "/ˈpɔːtʃ ˌpaɪərət/",
+   "exampleEn": "A porch pirate took the parcel minutes after the courier left it.",
+   "exampleUk": "Крадій посилок забрав пакунок за кілька хвилин після того, як кур’єр його залишив.",
+   "exampleEn2": "Have you installed a camera because of porch pirates?",
+   "exampleUk2": "Ви встановили камеру через крадіїв посилок?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "3b9619de-afa6-5511-8b1b-03b2c1788531",
+   "lemma": "APR",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "APR",
+    "APRs",
+    "annual percentage rate"
+   ],
+   "translation": "річна процентна ставка",
+   "translationStressed": "рі́чна проце́нтна ста́вка",
+   "altTranslations": [
+    "річна відсоткова ставка"
+   ],
+   "register": "neutral",
+   "genderNote": "ж.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "вимовляється по літерах",
+   "ipaGa": "/ˌeɪ pi ˈɑr/",
+   "ipaRp": "/ˌeɪ piː ˈɑː/",
+   "exampleEn": "The APR on this credit card is much higher than the bank advertised.",
+   "exampleUk": "Річна процентна ставка за цією кредитною карткою набагато вища, ніж рекламував банк.",
+   "exampleEn2": "What is the APR if I pay for the laptop in instalments?",
+   "exampleUk2": "Яка річна процентна ставка, якщо я платитиму за ноутбук частинами?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "9d2d69da-71c5-5f0c-b05a-bd2e042610c6",
+   "lemma": "pre-authorization",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "pre-authorization",
+    "pre-authorizations",
+    "preauthorization",
+    "pre-authorisation",
+    "preauthorisation",
+    "pre-auth"
+   ],
+   "translation": "попереднє блокування коштів",
+   "translationStressed": "попере́днє блокува́ння ко́штів",
+   "altTranslations": [
+    "передавторизація"
+   ],
+   "register": "neutral",
+   "genderNote": "с.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": null,
+   "ipaGa": "/ˌpriˌɔθərəˈzeɪʃən/",
+   "ipaRp": "/ˌpriːˌɔːθəraɪˈzeɪʃən/",
+   "exampleEn": "The hotel placed a pre-authorization of two thousand hryvnias on my card.",
+   "exampleUk": "Готель здійснив попереднє блокування двох тисяч гривень на моїй картці.",
+   "exampleEn2": "How long does a pre-authorization stay on the card after I return the car?",
+   "exampleUk2": "Як довго попереднє блокування коштів тримається на картці після повернення авто?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.6
+    },
+    {
+     "slug": "travel",
+     "confidence": 0.5
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "6cab22be-970c-5246-b4c5-0cfaf49862e0",
+   "lemma": "rent-to-own",
+   "pos": "adjective",
+   "level": "C1",
+   "acceptedForms": [
+    "rent-to-own",
+    "rent to own"
+   ],
+   "translation": "з правом викупу",
+   "translationStressed": "з пра́вом ви́купу",
+   "altTranslations": [
+    "оренда з викупом"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": null,
+   "ipaGa": "/ˌrɛnt tə ˈoʊn/",
+   "ipaRp": "/ˌrɛnt tə ˈəʊn/",
+   "exampleEn": "We chose a rent-to-own washing machine because we could not pay at once.",
+   "exampleUk": "Ми обрали пральну машину з правом викупу, бо не могли заплатити одразу.",
+   "exampleEn2": "Is a rent-to-own sofa really cheaper in the long run?",
+   "exampleUk2": "Чи справді диван з правом викупу дешевший у підсумку?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.7
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "43dc4d99-20be-5f28-b67f-8b9d0280b1a4",
+   "lemma": "hire purchase",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "hire purchase",
+    "hire-purchase"
+   ],
+   "translation": "купівля на виплат",
+   "translationStressed": "купі́вля на ви́плат",
+   "altTranslations": [
+    "розстрочка"
+   ],
+   "register": "neutral",
+   "genderNote": "ж.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "британський термін",
+   "ipaGa": "/ˌhaɪər ˈpɜrtʃəs/",
+   "ipaRp": "/ˌhaɪə ˈpɜːtʃəs/",
+   "exampleEn": "My parents bought their first fridge on hire purchase in the nineties.",
+   "exampleUk": "Мої батьки купили свій перший холодильник на виплат у дев’яностих.",
+   "exampleEn2": "Does the shop offer hire purchase on bicycles?",
+   "exampleUk2": "Крамниця пропонує купівлю велосипедів на виплат?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.8
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "1ab6e166-80bf-52a9-8741-b20b02cfa91c",
+   "lemma": "denomination",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "denomination",
+    "denominations"
+   ],
+   "translation": "номінал",
+   "translationStressed": "номіна́л",
+   "altTranslations": [],
+   "register": "neutral",
+   "genderNote": "ч.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": null,
+   "ipaGa": "/dɪˌnɑməˈneɪʃən/",
+   "ipaRp": "/dɪˌnɒmɪˈneɪʃən/",
+   "exampleEn": "The cash machine only gives out notes in denominations of two hundred and five hundred.",
+   "exampleUk": "Банкомат видає лише банкноти номіналом двісті та п’ятсот гривень.",
+   "exampleEn2": "Which denominations of coins are still in use in Ukraine?",
+   "exampleUk2": "Монети якого номіналу досі в обігу в Україні?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.5
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "9a9e744c-0b37-5746-b32d-7536d0142b14",
+   "lemma": "tax-exempt",
+   "pos": "adjective",
+   "level": "C1",
+   "acceptedForms": [
+    "tax-exempt",
+    "tax exempt"
+   ],
+   "translation": "звільнений від податків",
+   "translationStressed": "зві́льнений від пода́тків",
+   "altTranslations": [
+    "неоподатковуваний"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": null,
+   "ipaGa": "/ˌtæks ɪɡˈzɛmpt/",
+   "ipaRp": "/ˌtæks ɪɡˈzɛmpt/",
+   "exampleEn": "Purchases in the airport duty-free shop are tax-exempt for travellers.",
+   "exampleUk": "Покупки в магазині безмитної торгівлі в аеропорту звільнені від податків для мандрівників.",
+   "exampleEn2": "Are books tax-exempt in your country?",
+   "exampleUk2": "Чи звільнені книжки від податків у вашій країні?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.6
+    },
+    {
+     "slug": "work",
+     "confidence": 0.4
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "cfec6a04-5a30-5dee-b48d-e62888a846df",
+   "lemma": "repossession",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "repossession",
+    "repossessions",
+    "repo"
+   ],
+   "translation": "вилучення за борги",
+   "translationStressed": "вилу́чення за борги́",
+   "altTranslations": [
+    "повернення кредитору"
+   ],
+   "register": "neutral",
+   "genderNote": "с.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": null,
+   "ipaGa": "/ˌripəˈzɛʃən/",
+   "ipaRp": "/ˌriːpəˈzɛʃən/",
+   "exampleEn": "Missing three payments in a row can lead to repossession of the car.",
+   "exampleUk": "Пропуск трьох платежів поспіль може призвести до вилучення автомобіля за борги.",
+   "exampleEn2": "What happens after a repossession if the item is sold for less than the debt?",
+   "exampleUk2": "Що відбувається після вилучення за борги, якщо річ продали дешевше за суму боргу?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.5
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "c2b480cf-09a9-5574-9653-0c03598a7ae1",
+   "lemma": "monogram",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "monogram",
+    "monograms",
+    "monogrammed"
+   ],
+   "translation": "монограма",
+   "translationStressed": "моногра́ма",
+   "altTranslations": [],
+   "register": "neutral",
+   "genderNote": "ж.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": null,
+   "ipaGa": "/ˈmɑnəˌɡræm/",
+   "ipaRp": "/ˈmɒnəɡræm/",
+   "exampleEn": "The shop will sew a monogram onto the towels for an extra fee.",
+   "exampleUk": "Крамниця вишиє монограму на рушниках за додаткову плату.",
+   "exampleEn2": "Would you like a monogram on the bag as a gift for Anna?",
+   "exampleUk2": "Хочете монограму на сумці як подарунок для Анни?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "51f8917e-6c6b-5139-8c4b-d3c1a6d5b893",
+   "lemma": "placket",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "placket",
+    "plackets"
+   ],
+   "translation": "планка",
+   "translationStressed": "пла́нка",
+   "altTranslations": [
+    "планка з ґудзиками"
+   ],
+   "register": "neutral",
+   "genderNote": "ж.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "на сорочці, сукні або поло",
+   "ipaGa": "/ˈplækɪt/",
+   "ipaRp": "/ˈplækɪt/",
+   "exampleEn": "The shirt has a hidden placket, so the buttons do not show.",
+   "exampleUk": "У сорочки прихована планка, тож ґудзиків не видно.",
+   "exampleEn2": "Could you shorten the placket on this dress by two centimetres?",
+   "exampleUk2": "Можете вкоротити планку на цій сукні на два сантиметри?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "8bcab4d7-1e95-502e-94dc-967b959bd251",
+   "lemma": "gusset",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "gusset",
+    "gussets",
+    "gusseted"
+   ],
+   "translation": "ластовиця",
+   "translationStressed": "ласто́виця",
+   "altTranslations": [
+    "клин",
+    "вставка"
+   ],
+   "register": "neutral",
+   "genderNote": "ж.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": null,
+   "ipaGa": "/ˈɡʌsɪt/",
+   "ipaRp": "/ˈɡʌsɪt/",
+   "exampleEn": "The jacket has a gusset under each arm so you can move freely.",
+   "exampleUk": "У куртки є ластовиця під кожною рукою, щоб можна було вільно рухатися.",
+   "exampleEn2": "Do these tights have a cotton gusset?",
+   "exampleUk2": "У цих колготках бавовняна ластовиця?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "61d88203-de2d-5de9-a11a-98a4fa1b22e5",
+   "lemma": "rayon",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "rayon",
+    "viscose"
+   ],
+   "translation": "віскоза",
+   "translationStressed": "віско́за",
+   "altTranslations": [
+    "штучний шовк"
+   ],
+   "register": "neutral",
+   "genderNote": "ж.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "незлічуване; у Британії частіше viscose",
+   "ipaGa": "/ˈreɪɑn/",
+   "ipaRp": "/ˈreɪɒn/",
+   "exampleEn": "This summer dress is made of rayon, so it feels cool and light.",
+   "exampleUk": "Ця літня сукня зроблена з віскози, тому вона прохолодна й легка.",
+   "exampleEn2": "Can I wash rayon in the machine, or should I wash it by hand?",
+   "exampleUk2": "Віскозу можна прати в машинці чи краще руками?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.7
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "d8995b23-eed2-5faf-b6da-9f2db7d733bc",
+   "lemma": "twill",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "twill"
+   ],
+   "translation": "твіл",
+   "translationStressed": "твіл",
+   "altTranslations": [
+    "саржа"
+   ],
+   "register": "neutral",
+   "genderNote": "ч.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "незлічуване",
+   "ipaGa": "/twɪl/",
+   "ipaRp": "/twɪl/",
+   "exampleEn": "These trousers are made of cotton twill, which is strong and easy to iron.",
+   "exampleUk": "Ці штани з бавовняного твілу, який міцний і легко прасується.",
+   "exampleEn2": "Would you prefer the jacket in twill or in linen?",
+   "exampleUk2": "Вам більше подобається піджак із твілу чи з льону?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "1998d3eb-6be1-59b0-8554-2b3e0a46dd82",
+   "lemma": "herringbone",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "herringbone",
+    "herring-bone",
+    "herring bone"
+   ],
+   "translation": "ялинка",
+   "translationStressed": "яли́нка",
+   "altTranslations": [
+    "візерунок «ялинка»"
+   ],
+   "register": "neutral",
+   "genderNote": "ж.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "візерунок тканини або паркету",
+   "ipaGa": "/ˈhɛrɪŋˌboʊn/",
+   "ipaRp": "/ˈhɛrɪŋbəʊn/",
+   "exampleEn": "The grey coat has a classic herringbone pattern that never goes out of style.",
+   "exampleUk": "Сіре пальто має класичний візерунок «ялинка», який ніколи не виходить з моди.",
+   "exampleEn2": "Do you have this blazer in herringbone rather than plain wool?",
+   "exampleUk2": "У вас є цей блейзер у «ялинку», а не з гладкої вовни?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "ffd64fcb-53fd-5039-b10d-a622c2aa4421",
+   "lemma": "colorway",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "colorway",
+    "colorways",
+    "colourway",
+    "colourways"
+   ],
+   "translation": "колірне рішення",
+   "translationStressed": "колі́рне рі́шення",
+   "altTranslations": [
+    "розцвітка"
+   ],
+   "register": "neutral",
+   "genderNote": "с.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": null,
+   "ipaGa": "/ˈkʌlərˌweɪ/",
+   "ipaRp": "/ˈkʌləweɪ/",
+   "exampleEn": "The sneakers come in three colorways, and the green one sold out first.",
+   "exampleUk": "Кросівки випускають у трьох колірних рішеннях, і зелені розпродали першими.",
+   "exampleEn2": "Which colorway of the backpack do you like more?",
+   "exampleUk2": "Яке колірне рішення рюкзака вам подобається більше?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.8
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "6736dc93-5443-5192-a383-b2d054fb4901",
+   "lemma": "preshrunk",
+   "pos": "adjective",
+   "level": "C1",
+   "acceptedForms": [
+    "preshrunk",
+    "pre-shrunk"
+   ],
+   "translation": "з попередньою усадкою",
+   "translationStressed": "з попере́дньою уса́дкою",
+   "altTranslations": [
+    "попередньо декатирований"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": null,
+   "ipaGa": "/ˌpriˈʃrʌŋk/",
+   "ipaRp": "/ˌpriːˈʃrʌŋk/",
+   "exampleEn": "The label says the T-shirt is preshrunk, so it should keep its size.",
+   "exampleUk": "На етикетці сказано, що футболка з попередньою усадкою, тож вона має зберегти розмір.",
+   "exampleEn2": "Are these jeans preshrunk, or will they get shorter after washing?",
+   "exampleUk2": "Ці джинси з попередньою усадкою чи стануть коротшими після прання?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.7
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "6ff3a1d3-bac4-5f08-946b-3c981b537ae2",
+   "lemma": "hosiery",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "hosiery"
+   ],
+   "translation": "панчішні вироби",
+   "translationStressed": "панчі́шні ви́роби",
+   "altTranslations": [
+    "панчішно-шкарпеткові вироби"
+   ],
+   "register": "neutral",
+   "genderNote": "мн.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "в англійській незлічуване",
+   "ipaGa": "/ˈhoʊʒəri/",
+   "ipaRp": "/ˈhəʊziəri/",
+   "exampleEn": "You will find hosiery on the second floor next to the underwear.",
+   "exampleUk": "Панчішні вироби ви знайдете на другому поверсі поруч із білизною.",
+   "exampleEn2": "Is there a discount on hosiery this week?",
+   "exampleUk2": "Цього тижня є знижка на панчішні вироби?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.8
+    }
+   ],
+   "widgetSafe": true
+  }
+ ]
+}

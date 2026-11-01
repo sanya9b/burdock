@@ -1,0 +1,1112 @@
+{
+  "schemaVersion": 1,
+  "chunk": "C2-W01",
+  "level": "C2",
+  "provenance": {
+    "model": "claude-code/claude-fable-5-1",
+    "promptVersion": "generate-v1",
+    "generatedAt": "2026-11-01T00:00:00+00:00",
+    "status": "draft"
+  },
+  "entries": [
+    {
+      "id": "3ff28f2f-c21a-5d7b-b161-7f4cad6d6bb6",
+      "lemma": "explicate",
+      "pos": "verb",
+      "level": "C2",
+      "acceptedForms": [
+        "explicate"
+      ],
+      "translation": "докладно пояснювати",
+      "translationStressed": "докла́дно поя́снювати",
+      "altTranslations": [
+        "тлумачити",
+        "розтлумачувати"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": "недок. / док.: докладно пояснювати / докладно пояснити",
+      "usageNote": null,
+      "ipaGa": "/ˈɛksplɪkeɪt/",
+      "ipaRp": "/ˈɛksplɪkeɪt/",
+      "exampleEn": "The professor explicated the poem line by line for us.",
+      "exampleUk": "Професор докладно пояснив нам вірш рядок за рядком.",
+      "exampleEn2": "Could you explicate your argument a little further?",
+      "exampleUk2": "Чи могли б ви докладніше пояснити свій аргумент?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "c9d92830-4372-5478-802d-ae105a9c720f",
+      "lemma": "tautological",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "tautological"
+      ],
+      "translation": "тавтологічний",
+      "translationStressed": "тавтологі́чний",
+      "altTranslations": [
+        "надлишковий"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/ˌtɔtəˈlɑdʒɪkəl/",
+      "ipaRp": "/ˌtɔːtəˈlɒdʒɪkəl/",
+      "exampleEn": "The phrase free gift is slightly tautological, because every gift is free.",
+      "exampleUk": "Вислів безкоштовний подарунок дещо тавтологічний, адже кожен подарунок безкоштовний.",
+      "exampleEn2": "Isn't that definition a bit tautological?",
+      "exampleUk2": "Хіба це означення не трохи тавтологічне?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "1005069e-dd19-5d26-921b-e69d3ddd2b04",
+      "lemma": "circularity",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "circularity"
+      ],
+      "translation": "хибне коло",
+      "translationStressed": "хи́бне ко́ло",
+      "altTranslations": [
+        "логічне коло",
+        "циркулярність"
+      ],
+      "register": "formal",
+      "genderNote": "с.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "про міркування, яке спирається на те, що само має довести",
+      "ipaGa": "/ˌsɜrkjəˈlærəti/",
+      "ipaRp": "/ˌsɜːkjʊˈlærɪti/",
+      "exampleEn": "The reviewer pointed out the circularity in the author's main argument.",
+      "exampleUk": "Рецензент вказав на хибне коло в головному аргументі автора.",
+      "exampleEn2": "How do we avoid circularity when defining the term?",
+      "exampleUk2": "Як нам уникнути хибного кола, означуючи цей термін?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "bd025d30-3851-5fa6-ae29-17bd65e63d41",
+      "lemma": "fallibility",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "fallibility"
+      ],
+      "translation": "схильність помилятися",
+      "translationStressed": "схи́льність помиля́тися",
+      "altTranslations": [
+        "недосконалість"
+      ],
+      "register": "formal",
+      "genderNote": "ж.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "незлічуване",
+      "ipaGa": "/ˌfæləˈbɪləti/",
+      "ipaRp": "/ˌfælɪˈbɪlɪti/",
+      "exampleEn": "Good scientists accept the fallibility of their own methods.",
+      "exampleUk": "Добрі науковці визнають схильність власних методів помилятися.",
+      "exampleEn2": "Why is it so hard to admit our own fallibility?",
+      "exampleUk2": "Чому так важко визнати власну схильність помилятися?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "88e621cf-1139-5efc-a3f0-4bafb0fa11b4",
+      "lemma": "infallible",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "infallible"
+      ],
+      "translation": "непогрішний",
+      "translationStressed": "непогрі́шний",
+      "altTranslations": [
+        "безпомилковий",
+        "надійний"
+      ],
+      "register": "neutral",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/ɪnˈfæləbəl/",
+      "ipaRp": "/ɪnˈfæləbəl/",
+      "exampleEn": "No memory is infallible, so write the address down.",
+      "exampleUk": "Жодна пам’ять не є безпомилковою, тож запишіть адресу.",
+      "exampleEn2": "Do you really think this test is infallible?",
+      "exampleUk2": "Ви справді вважаєте цей тест безпомилковим?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "49f7b095-19fd-54f6-bd8e-34156a5fb6e1",
+      "lemma": "empiricism",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "empiricism"
+      ],
+      "translation": "емпіризм",
+      "translationStressed": "емпіри́зм",
+      "altTranslations": [],
+      "register": "formal",
+      "genderNote": "ч.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "незлічуване",
+      "ipaGa": "/ɛmˈpɪrəˌsɪzəm/",
+      "ipaRp": "/ɪmˈpɪrɪsɪzəm/",
+      "exampleEn": "Empiricism holds that all knowledge begins with experience.",
+      "exampleUk": "Емпіризм стверджує, що всяке знання починається з досвіду.",
+      "exampleEn2": "Which thinkers are usually associated with British empiricism?",
+      "exampleUk2": "Яких мислителів зазвичай пов’язують із британським емпіризмом?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "985a6940-0d08-53c0-b687-6abd846c57a6",
+      "lemma": "conflate",
+      "pos": "verb",
+      "level": "C2",
+      "acceptedForms": [
+        "conflate"
+      ],
+      "translation": "змішувати",
+      "translationStressed": "змі́шувати",
+      "altTranslations": [
+        "ототожнювати",
+        "плутати"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": "недок. / док.: змішувати / змішати",
+      "usageNote": "про два різні поняття, які помилково вважають одним",
+      "ipaGa": "/kənˈfleɪt/",
+      "ipaRp": "/kənˈfleɪt/",
+      "exampleEn": "People often conflate price with value when they shop.",
+      "exampleUk": "Люди часто змішують ціну з цінністю, коли купують.",
+      "exampleEn2": "Please do not conflate the two issues in your report.",
+      "exampleUk2": "Будь ласка, не змішуйте ці два питання у своєму звіті.",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "b7ba0c3e-704c-5d94-9efe-777a55cff898",
+      "lemma": "conflation",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "conflation"
+      ],
+      "translation": "змішування",
+      "translationStressed": "змі́шування",
+      "altTranslations": [
+        "ототожнення"
+      ],
+      "register": "formal",
+      "genderNote": "с.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/kənˈfleɪʃən/",
+      "ipaRp": "/kənˈfleɪʃən/",
+      "exampleEn": "The conflation of speed and quality led to a poor decision.",
+      "exampleUk": "Змішування швидкості з якістю призвело до поганого рішення.",
+      "exampleEn2": "Is this conflation of terms common in the field?",
+      "exampleUk2": "Чи поширене таке змішування термінів у цій галузі?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "95ebc6ee-9ec2-58df-91a1-8fcff9a181b6",
+      "lemma": "extrapolation",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "extrapolation"
+      ],
+      "translation": "екстраполяція",
+      "translationStressed": "екстраполя́ція",
+      "altTranslations": [
+        "надмірне узагальнення"
+      ],
+      "register": "formal",
+      "genderNote": "ж.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/ɪkˌstræpəˈleɪʃən/",
+      "ipaRp": "/ɪkˌstræpəˈleɪʃən/",
+      "exampleEn": "Predicting next year's sales from one month is pure extrapolation.",
+      "exampleUk": "Прогнозувати продажі наступного року за одним місяцем — чиста екстраполяція.",
+      "exampleEn2": "Isn't that an extrapolation from very little data?",
+      "exampleUk2": "Хіба це не екстраполяція з дуже малої кількості даних?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "b5a93dc2-ca79-508b-9f69-8b60a99e331a",
+      "lemma": "reductive",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "reductive"
+      ],
+      "translation": "спрощенський",
+      "translationStressed": "спро́щенський",
+      "altTranslations": [
+        "надто спрощений"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "з відтінком несхвалення",
+      "ipaGa": "/rɪˈdʌktɪv/",
+      "ipaRp": "/rɪˈdʌktɪv/",
+      "exampleEn": "Calling the whole debate a misunderstanding is rather reductive.",
+      "exampleUk": "Називати всю дискусію непорозумінням — досить спрощенський підхід.",
+      "exampleEn2": "Don't you find that explanation a little reductive?",
+      "exampleUk2": "Чи не здається вам це пояснення надто спрощеним?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "750c140c-0527-5c56-8c63-9d09b98d325f",
+      "lemma": "antithesis",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "antithesis"
+      ],
+      "translation": "повна протилежність",
+      "translationStressed": "по́вна протиле́жність",
+      "altTranslations": [
+        "антитеза"
+      ],
+      "register": "formal",
+      "genderNote": "ж.",
+      "pluralNote": "antithesis — antitheses",
+      "aspectNote": null,
+      "usageNote": "the antithesis of sth — повна протилежність чогось",
+      "ipaGa": "/ænˈtɪθəsɪs/",
+      "ipaRp": "/ænˈtɪθəsɪs/",
+      "exampleEn": "Her calm manner is the antithesis of her brother's restlessness.",
+      "exampleUk": "Її спокійна манера — повна протилежність неспокою її брата.",
+      "exampleEn2": "Isn't fast food the antithesis of slow cooking?",
+      "exampleUk2": "Хіба фастфуд не повна протилежність повільному готуванню?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "ae3adb45-7d19-5de2-9252-784cd5699385",
+      "lemma": "incontrovertible",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "incontrovertible"
+      ],
+      "translation": "незаперечний",
+      "translationStressed": "незапере́чний",
+      "altTranslations": [
+        "неспростовний"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/ˌɪnkɑntrəˈvɜrtəbəl/",
+      "ipaRp": "/ˌɪnkɒntrəˈvɜːtəbəl/",
+      "exampleEn": "The receipt was incontrovertible proof that she had paid.",
+      "exampleUk": "Чек був незаперечним доказом того, що вона заплатила.",
+      "exampleEn2": "Is there any incontrovertible evidence for that claim?",
+      "exampleUk2": "Чи є якісь незаперечні докази на користь цього твердження?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "1039c133-a9c7-584d-8487-7ee5b389b57f",
+      "lemma": "irrefutable",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "irrefutable"
+      ],
+      "translation": "неспростовний",
+      "translationStressed": "неспросто́вний",
+      "altTranslations": [
+        "незаперечний"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/ˌɪrɪˈfjutəbəl/",
+      "ipaRp": "/ˌɪrɪˈfjuːtəbəl/",
+      "exampleEn": "The data gave irrefutable support to her theory.",
+      "exampleUk": "Дані стали неспростовним підтвердженням її теорії.",
+      "exampleEn2": "Can you offer an irrefutable argument for this change?",
+      "exampleUk2": "Чи можете ви навести неспростовний аргумент на користь цієї зміни?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "b883c4d9-1f07-5450-9e0c-55d47bfe4252",
+      "lemma": "indefensible",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "indefensible"
+      ],
+      "translation": "невиправданий",
+      "translationStressed": "невипра́вданий",
+      "altTranslations": [
+        "неприпустимий"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/ˌɪndɪˈfɛnsəbəl/",
+      "ipaRp": "/ˌɪndɪˈfɛnsəbəl/",
+      "exampleEn": "Charging extra for water at the gym is simply indefensible.",
+      "exampleUk": "Брати додаткову плату за воду в спортзалі — просто невиправдано.",
+      "exampleEn2": "Why defend a rule that is clearly indefensible?",
+      "exampleUk2": "Навіщо захищати правило, яке явно неможливо виправдати?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "56755f10-994b-53a7-bfbb-3ff8b011d1a1",
+      "lemma": "tendentious",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "tendentious"
+      ],
+      "translation": "тенденційний",
+      "translationStressed": "тенденці́йний",
+      "altTranslations": [
+        "упереджений"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "з відтінком несхвалення",
+      "ipaGa": "/tɛnˈdɛnʃəs/",
+      "ipaRp": "/tɛnˈdɛnʃəs/",
+      "exampleEn": "The article was so tendentious that few readers trusted it.",
+      "exampleUk": "Стаття була настільки тенденційною, що мало хто з читачів їй повірив.",
+      "exampleEn2": "Don't you think his summary of the meeting was tendentious?",
+      "exampleUk2": "Чи не здається вам, що його підсумок зустрічі був тенденційним?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "21265ac9-9663-53b6-97ea-7b8c5392c40e",
+      "lemma": "moot",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "moot"
+      ],
+      "translation": "неактуальний",
+      "translationStressed": "неактуа́льний",
+      "altTranslations": [
+        "спірний",
+        "суто теоретичний"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "a moot point — питання, що вже не має значення, або спірне питання",
+      "ipaGa": "/mut/",
+      "ipaRp": "/muːt/",
+      "exampleEn": "Once the train left, the choice of seats became moot.",
+      "exampleUk": "Щойно потяг рушив, вибір місць став неактуальним.",
+      "exampleEn2": "Isn't that a moot point now that the deadline has passed?",
+      "exampleUk2": "Хіба це питання не стало неактуальним тепер, коли термін минув?",
+      "topics": [],
+      "widgetSafe": true,
+      "regenerated": 1
+    },
+    {
+      "id": "970467d8-6b26-5eb7-9f3d-3b58a173dd07",
+      "lemma": "presumptive",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "presumptive"
+      ],
+      "translation": "імовірний",
+      "translationStressed": "імові́рний",
+      "altTranslations": [
+        "попередній",
+        "презумптивний"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "лише перед іменником: presumptive winner, presumptive diagnosis",
+      "ipaGa": "/prɪˈzʌmptɪv/",
+      "ipaRp": "/prɪˈzʌmptɪv/",
+      "exampleEn": "She is the presumptive winner, though the final count is not in.",
+      "exampleUk": "Вона імовірна переможниця, хоча остаточний підрахунок ще не завершено.",
+      "exampleEn2": "Has the presumptive diagnosis been confirmed yet?",
+      "exampleUk2": "Чи попередній діагноз уже підтверджено?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "86707c4a-a114-5738-90f7-b2786d732719",
+      "lemma": "refutation",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "refutation"
+      ],
+      "translation": "спростування",
+      "translationStressed": "спростува́ння",
+      "altTranslations": [],
+      "register": "formal",
+      "genderNote": "с.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/ˌrɛfjʊˈteɪʃən/",
+      "ipaRp": "/ˌrɛfjʊˈteɪʃən/",
+      "exampleEn": "His refutation of the rumour was short and convincing.",
+      "exampleUk": "Його спростування чутки було коротким і переконливим.",
+      "exampleEn2": "Have you read her refutation of the earlier study?",
+      "exampleUk2": "Ви читали її спростування попереднього дослідження?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "5715ac33-7c65-5913-8547-980409a8196f",
+      "lemma": "ostensible",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "ostensible"
+      ],
+      "translation": "позірний",
+      "translationStressed": "позі́рний",
+      "altTranslations": [
+        "показний"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "лише перед іменником",
+      "ipaGa": "/ɑˈstɛnsəbəl/",
+      "ipaRp": "/ɒˈstɛnsɪbəl/",
+      "exampleEn": "The ostensible reason for the visit was business, but he wanted a holiday.",
+      "exampleUk": "Позірною метою візиту були справи, але він хотів відпочити.",
+      "exampleEn2": "What was the ostensible purpose of the meeting?",
+      "exampleUk2": "Якою була позірна мета зустрічі?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "a2bf054f-0aa6-5f5c-96a9-cee828cd74d3",
+      "lemma": "purported",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "purported"
+      ],
+      "translation": "гаданий",
+      "translationStressed": "га́даний",
+      "altTranslations": [
+        "позірний",
+        "уявний"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "лише перед іменником; часто перекладається словом «нібито»",
+      "ipaGa": "/pərˈpɔrtɪd/",
+      "ipaRp": "/pəˈpɔːtɪd/",
+      "exampleEn": "The purported benefits of the diet were never properly tested.",
+      "exampleUk": "Гадану користь дієти так і не перевірили належним чином.",
+      "exampleEn2": "Who are the purported authors of this old letter?",
+      "exampleUk2": "Хто гадані автори цього старого листа?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "f2937c83-6a00-5c58-abdb-726888927a5f",
+      "lemma": "putative",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "putative"
+      ],
+      "translation": "гаданий",
+      "translationStressed": "га́даний",
+      "altTranslations": [
+        "імовірний"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "лише перед іменником",
+      "ipaGa": "/ˈpjutətɪv/",
+      "ipaRp": "/ˈpjuːtətɪv/",
+      "exampleEn": "The putative founder of the town is still honoured every spring.",
+      "exampleUk": "Гаданого засновника міста досі вшановують щовесни.",
+      "exampleEn2": "Has the putative link between the two events been checked?",
+      "exampleUk2": "Чи перевірили гаданий зв’язок між цими двома подіями?",
+      "topics": [],
+      "widgetSafe": true,
+      "regenerated": 1
+    },
+    {
+      "id": "2da20019-1099-5c85-b646-60bfa2df3036",
+      "lemma": "supposition",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "supposition"
+      ],
+      "translation": "припущення",
+      "translationStressed": "припу́щення",
+      "altTranslations": [
+        "здогад"
+      ],
+      "register": "formal",
+      "genderNote": "с.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/ˌsʌpəˈzɪʃən/",
+      "ipaRp": "/ˌsʌpəˈzɪʃən/",
+      "exampleEn": "Your plan rests on the supposition that prices will stay low.",
+      "exampleUk": "Ваш план ґрунтується на припущенні, що ціни лишаться низькими.",
+      "exampleEn2": "Is that a fact or merely a supposition?",
+      "exampleUk2": "Це факт чи лише припущення?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "33d93c59-adbf-5353-abab-232fd243e5d9",
+      "lemma": "conjectural",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "conjectural"
+      ],
+      "translation": "гіпотетичний",
+      "translationStressed": "гіпотети́чний",
+      "altTranslations": [
+        "здогадний",
+        "умоглядний"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/kənˈdʒɛktʃərəl/",
+      "ipaRp": "/kənˈdʒɛktʃərəl/",
+      "exampleEn": "The date of the building remains conjectural, as no records survive.",
+      "exampleUk": "Дата спорудження будівлі лишається гіпотетичною, бо записів не збереглося.",
+      "exampleEn2": "Isn't this timeline largely conjectural?",
+      "exampleUk2": "Хіба ця хронологія не є значною мірою гіпотетичною?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "86d61595-5b41-5cdf-a005-bd9613d2c74b",
+      "lemma": "misapprehension",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "misapprehension"
+      ],
+      "translation": "хибне уявлення",
+      "translationStressed": "хи́бне уя́влення",
+      "altTranslations": [
+        "непорозуміння",
+        "омана"
+      ],
+      "register": "formal",
+      "genderNote": "с.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "under the misapprehension that — помилково вважаючи, що",
+      "ipaGa": "/ˌmɪsæprɪˈhɛnʃən/",
+      "ipaRp": "/ˌmɪsæprɪˈhɛnʃən/",
+      "exampleEn": "I was under the misapprehension that the shop opened at eight.",
+      "exampleUk": "У мене було хибне уявлення, що крамниця відчиняється о восьмій.",
+      "exampleEn2": "Could you clear up this misapprehension before the meeting?",
+      "exampleUk2": "Чи могли б ви розвіяти це хибне уявлення до зустрічі?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "cbd688b5-639b-510a-a784-371b95367d34",
+      "lemma": "unfathomable",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "unfathomable"
+      ],
+      "translation": "незбагненний",
+      "translationStressed": "незбаге́нний",
+      "altTranslations": [
+        "неосяжний"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/ʌnˈfæðəməbəl/",
+      "ipaRp": "/ʌnˈfæðəməbəl/",
+      "exampleEn": "For a child, the size of the universe is simply unfathomable.",
+      "exampleUk": "Для дитини розмір Всесвіту просто незбагненний.",
+      "exampleEn2": "Isn't it unfathomable that he turned down such a good offer?",
+      "exampleUk2": "Хіба не незбагненно, що він відмовився від такої гарної пропозиції?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "07d02e87-48c4-5bf7-811b-489dd28026de",
+      "lemma": "inscrutable",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "inscrutable"
+      ],
+      "translation": "непроникний",
+      "translationStressed": "непрони́кний",
+      "altTranslations": [
+        "загадковий",
+        "незбагненний"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "часто про вираз обличчя або людину, чиї думки не вгадати",
+      "ipaGa": "/ɪnˈskrutəbəl/",
+      "ipaRp": "/ɪnˈskruːtəbəl/",
+      "exampleEn": "Her face remained inscrutable throughout the whole interview.",
+      "exampleUk": "Її обличчя лишалося непроникним протягом усієї співбесіди.",
+      "exampleEn2": "Why is the new manager so inscrutable at meetings?",
+      "exampleUk2": "Чому новий керівник такий непроникний на нарадах?",
+      "topics": [],
+      "widgetSafe": true,
+      "regenerated": 1
+    },
+    {
+      "id": "1599edbe-4489-5a20-bba4-4414e2000cc0",
+      "lemma": "impenetrable",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "impenetrable"
+      ],
+      "translation": "недоступний для розуміння",
+      "translationStressed": "недосту́пний для розумі́ння",
+      "altTranslations": [
+        "непроникний",
+        "непролазний"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "про текст, стиль чи мову, надто густі й заплутані",
+      "ipaGa": "/ɪmˈpɛnətrəbəl/",
+      "ipaRp": "/ɪmˈpɛnɪtrəbəl/",
+      "exampleEn": "The manual was so impenetrable that nobody finished reading it.",
+      "exampleUk": "Інструкція була настільки недоступною для розуміння, що ніхто її не дочитав.",
+      "exampleEn2": "Why are legal contracts so often impenetrable to ordinary readers?",
+      "exampleUk2": "Чому юридичні договори так часто недоступні для розуміння звичайним читачам?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "d5ed887f-45e5-59f6-8910-994db283085c",
+      "lemma": "opaque",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "opaque"
+      ],
+      "translation": "незрозумілий",
+      "translationStressed": "незрозумі́лий",
+      "altTranslations": [
+        "непрозорий",
+        "туманний"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "у прямому значенні — непрозорий (про скло чи матеріал)",
+      "ipaGa": "/oʊˈpeɪk/",
+      "ipaRp": "/əʊˈpeɪk/",
+      "exampleEn": "The pricing rules were so opaque that customers kept complaining.",
+      "exampleUk": "Правила ціноутворення були настільки незрозумілими, що клієнти постійно скаржилися.",
+      "exampleEn2": "Why is the process for choosing a winner so opaque?",
+      "exampleUk2": "Чому процес вибору переможця такий непрозорий?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "c2240fe9-0353-5bd3-bbc6-92efd16d56cf",
+      "lemma": "opacity",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "opacity"
+      ],
+      "translation": "незрозумілість",
+      "translationStressed": "незрозумі́лість",
+      "altTranslations": [
+        "непрозорість"
+      ],
+      "register": "formal",
+      "genderNote": "ж.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "незлічуване",
+      "ipaGa": "/oʊˈpæsəti/",
+      "ipaRp": "/əʊˈpæsɪti/",
+      "exampleEn": "Readers criticised the opacity of the new tax guidelines.",
+      "exampleUk": "Читачі критикували незрозумілість нових податкових роз’яснень.",
+      "exampleEn2": "How can we reduce the opacity of our internal rules?",
+      "exampleUk2": "Як нам зменшити незрозумілість наших внутрішніх правил?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "46571338-a739-5e6b-819f-5d8b114c8780",
+      "lemma": "cognizant",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "cognizant",
+        "cognisant"
+      ],
+      "translation": "обізнаний",
+      "translationStressed": "обі́знаний",
+      "altTranslations": [
+        "свідомий"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "cognizant of sth — обізнаний із чимось, свідомий чогось",
+      "ipaGa": "/ˈkɑɡnəzənt/",
+      "ipaRp": "/ˈkɒɡnɪzənt/",
+      "exampleEn": "The team was fully cognizant of the risks before starting.",
+      "exampleUk": "Команда була цілком свідома ризиків ще до початку.",
+      "exampleEn2": "Are you cognizant of the new reporting rules?",
+      "exampleUk2": "Чи обізнані ви з новими правилами звітності?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "dfdb4fda-7d4c-5c35-8331-7b584c5763f9",
+      "lemma": "epistemic",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "epistemic"
+      ],
+      "translation": "епістемічний",
+      "translationStressed": "епістемі́чний",
+      "altTranslations": [
+        "пізнавальний"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "науковий термін: про знання та його обґрунтованість",
+      "ipaGa": "/ˌɛpəˈstɛmɪk/",
+      "ipaRp": "/ˌɛpɪˈstiːmɪk/",
+      "exampleEn": "The lecture dealt with the epistemic limits of human observation.",
+      "exampleUk": "Лекція стосувалася епістемічних меж людського спостереження.",
+      "exampleEn2": "What epistemic value does a single anecdote really have?",
+      "exampleUk2": "Яку епістемічну цінність насправді має одна історія з життя?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "f95d0f55-ff44-5047-b12f-0d40784b6f46",
+      "lemma": "omniscient",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "omniscient"
+      ],
+      "translation": "всезнаючий",
+      "translationStressed": "всезна́ючий",
+      "altTranslations": [
+        "всевідаючий"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "omniscient narrator — всезнаючий оповідач у літературі",
+      "ipaGa": "/ɑmˈnɪʃənt/",
+      "ipaRp": "/ɒmˈnɪsiənt/",
+      "exampleEn": "The novel has an omniscient narrator who knows every character's thoughts.",
+      "exampleUk": "У романі всезнаючий оповідач, якому відомі думки кожного персонажа.",
+      "exampleEn2": "Do you expect your teacher to be omniscient?",
+      "exampleUk2": "Ви очікуєте, що ваш учитель буде всезнаючим?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "4e83c797-eead-5060-9646-98ba710ce3e3",
+      "lemma": "infallibility",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "infallibility"
+      ],
+      "translation": "непогрішність",
+      "translationStressed": "непогрі́шність",
+      "altTranslations": [
+        "безпомилковість"
+      ],
+      "register": "formal",
+      "genderNote": "ж.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "незлічуване",
+      "ipaGa": "/ɪnˌfæləˈbɪləti/",
+      "ipaRp": "/ɪnˌfæləˈbɪlɪti/",
+      "exampleEn": "No expert can claim infallibility, however experienced they are.",
+      "exampleUk": "Жоден експерт не може претендувати на непогрішність, хоч яким досвідченим він є.",
+      "exampleEn2": "Why do some people believe in the infallibility of machines?",
+      "exampleUk2": "Чому дехто вірить у непогрішність машин?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "8a32b8b4-c3cb-5b70-8056-917780155c3f",
+      "lemma": "credulous",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "credulous"
+      ],
+      "translation": "легковірний",
+      "translationStressed": "легкові́рний",
+      "altTranslations": [
+        "довірливий"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "з відтінком несхвалення",
+      "ipaGa": "/ˈkrɛdʒələs/",
+      "ipaRp": "/ˈkrɛdjʊləs/",
+      "exampleEn": "Credulous buyers paid a lot for a cure that did nothing.",
+      "exampleUk": "Легковірні покупці заплатили чимало за засіб, який нічого не давав.",
+      "exampleEn2": "Aren't we a bit credulous about online reviews?",
+      "exampleUk2": "Чи не надто ми легковірні щодо відгуків в інтернеті?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "84ce555b-97d3-5ac5-aac5-30da2b4d4b06",
+      "lemma": "credulity",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "credulity"
+      ],
+      "translation": "легковірність",
+      "translationStressed": "легкові́рність",
+      "altTranslations": [
+        "довірливість"
+      ],
+      "register": "formal",
+      "genderNote": "ж.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "незлічуване; stretch sb’s credulity — бути малоймовірним",
+      "ipaGa": "/krəˈduləti/",
+      "ipaRp": "/krɪˈdjuːlɪti/",
+      "exampleEn": "The advert relied on the credulity of tired, busy shoppers.",
+      "exampleUk": "Реклама розраховувала на легковірність утомлених, заклопотаних покупців.",
+      "exampleEn2": "Does this story not stretch your credulity a little?",
+      "exampleUk2": "Чи не надто ця історія випробовує вашу довірливість?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "1bf0b509-2e3a-573f-afc9-a3850c7e591d",
+      "lemma": "incredulity",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "incredulity"
+      ],
+      "translation": "недовіра",
+      "translationStressed": "недові́ра",
+      "altTranslations": [
+        "невіра",
+        "скепсис"
+      ],
+      "register": "formal",
+      "genderNote": "ж.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "незлічуване; про реакцію, коли важко повірити почутому",
+      "ipaGa": "/ˌɪnkrəˈduləti/",
+      "ipaRp": "/ˌɪnkrɪˈdjuːlɪti/",
+      "exampleEn": "She stared at the bill in total incredulity.",
+      "exampleUk": "Вона дивилася на рахунок із цілковитою недовірою.",
+      "exampleEn2": "Why did the news meet with such incredulity?",
+      "exampleUk2": "Чому новину зустріли з такою недовірою?",
+      "topics": [
+        {
+          "slug": "communication",
+          "confidence": 0.5
+        }
+      ],
+      "widgetSafe": true
+    },
+    {
+      "id": "d581fdb6-ac6a-53e9-b5ec-f5ab954ad22d",
+      "lemma": "veracity",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "veracity"
+      ],
+      "translation": "правдивість",
+      "translationStressed": "правди́вість",
+      "altTranslations": [
+        "достовірність"
+      ],
+      "register": "formal",
+      "genderNote": "ж.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "незлічуване",
+      "ipaGa": "/vəˈræsəti/",
+      "ipaRp": "/vəˈræsɪti/",
+      "exampleEn": "The editor checked the veracity of every quotation.",
+      "exampleUk": "Редактор перевірив правдивість кожної цитати.",
+      "exampleEn2": "Can we rely on the veracity of this report?",
+      "exampleUk2": "Чи можемо ми покладатися на правдивість цього звіту?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "1c40fce3-8462-5b8a-8a27-399f1cb1edf5",
+      "lemma": "falsity",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "falsity"
+      ],
+      "translation": "хибність",
+      "translationStressed": "хи́бність",
+      "altTranslations": [
+        "неправдивість"
+      ],
+      "register": "formal",
+      "genderNote": "ж.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "незлічуване",
+      "ipaGa": "/ˈfɔlsəti/",
+      "ipaRp": "/ˈfɔːlsɪti/",
+      "exampleEn": "The experiment showed the falsity of the old assumption.",
+      "exampleUk": "Експеримент показав хибність старого припущення.",
+      "exampleEn2": "How quickly did they recognise the falsity of the claim?",
+      "exampleUk2": "Як швидко вони розпізнали хибність цього твердження?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "c04633c0-81d8-501b-b6b0-e5af0dd99e36",
+      "lemma": "falsify",
+      "pos": "verb",
+      "level": "C2",
+      "acceptedForms": [
+        "falsify"
+      ],
+      "translation": "спростовувати",
+      "translationStressed": "спросто́вувати",
+      "altTranslations": [
+        "фальсифікувати",
+        "підробляти"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": "недок. / док.: спростовувати / спростувати",
+      "usageNote": "про теорію чи гіпотезу; другий сенс — підробляти документи",
+      "ipaGa": "/ˈfɔlsəfaɪ/",
+      "ipaRp": "/ˈfɔːlsɪfaɪ/",
+      "exampleEn": "A single counterexample can falsify a general theory.",
+      "exampleUk": "Один-єдиний контрприклад може спростувати загальну теорію.",
+      "exampleEn2": "Did the new measurements falsify the earlier prediction?",
+      "exampleUk2": "Чи спростували нові вимірювання попередній прогноз?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "a603a98f-9e9b-5bb2-806f-8ac61ae60a4d",
+      "lemma": "falsifiable",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "falsifiable"
+      ],
+      "translation": "спростовний",
+      "translationStressed": "спросто́вний",
+      "altTranslations": [
+        "фальсифіковний"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "науковий термін: твердження, яке в принципі можна спростувати",
+      "ipaGa": "/ˈfɔlsəˌfaɪəbəl/",
+      "ipaRp": "/ˈfɔːlsɪfaɪəbəl/",
+      "exampleEn": "A scientific claim must be falsifiable, at least in principle.",
+      "exampleUk": "Наукове твердження має бути спростовним, принаймні в принципі.",
+      "exampleEn2": "Is your hypothesis actually falsifiable by any experiment?",
+      "exampleUk2": "Чи справді вашу гіпотезу можна спростувати будь-яким експериментом?",
+      "topics": [],
+      "widgetSafe": true
+    }
+  ]
+}

@@ -4,8 +4,8 @@
  "pair": "uk-en",
  "level": "A1",
  "topic": "health",
- "version": 2,
- "generatedAt": "2026-11-01T09:47:11+00:00",
+ "version": 3,
+ "generatedAt": "2026-11-01T15:14:33+00:00",
  "provenance": {
   "source": "burdock-pipeline generate-v1 + review-v1 (Claude Code, claude-fable-5-1)",
   "status": "ai_reviewed",
@@ -78,6 +78,7 @@
   {"id":"781a65a3-cd67-5a09-b4b2-c9a6073b0bc8","lemma":"volleyball","pos":"noun","level":"A1","topics":["health"],"translation":"волейбол","altTranslations":[],"acceptedForms":["volleyball","volley ball"],"ipaGa":"/ˈvɑlibɔl/","ipaRp":"/ˈvɒlibɔːl/","exampleEn":"Tom plays volleyball on the beach with his friends.","exampleUk":"Том грає у волейбол на пляжі з друзями.","frequencyBand":null},
   {"id":"ba9871c7-3907-5c0e-acf6-adb6fff7c262","lemma":"wash your hands","pos":"phrase","level":"A1","topics":["health"],"translation":"мити руки","altTranslations":[],"acceptedForms":["wash your hands","wash my hands","wash hands"],"ipaGa":"/ˌwɑʃ jər ˈhændz/","ipaRp":"/ˌwɒʃ jɔː ˈhændz/","exampleEn":"Wash your hands before lunch, please.","exampleUk":"Помийте руки перед обідом, будь ласка.","frequencyBand":null},
   {"id":"7c7fc2a1-1d6d-5e79-96bf-e8123d9dea69","lemma":"wear glasses","pos":"phrase","level":"A1","topics":["health"],"translation":"носити окуляри","altTranslations":[],"acceptedForms":["wear glasses","wear spectacles"],"ipaGa":"/ˌwɛr ˈɡlæsɪz/","ipaRp":"/ˌweə ˈɡlɑːsɪz/","exampleEn":"I wear glasses when I read.","exampleUk":"Я ношу окуляри, коли читаю.","frequencyBand":null},
-  {"id":"5712ecd1-6faa-53c3-ad1d-b88e31e6e82e","lemma":"well","pos":"adjective","level":"A1","topics":["health"],"translation":"здоровий","altTranslations":["у доброму самопочутті"],"acceptedForms":["well"],"ipaGa":"/wɛl/","ipaRp":"/wel/","exampleEn":"I am not well today, so I stay at home.","exampleUk":"Я сьогодні нездоровий, тому лишаюся вдома.","frequencyBand":null}
+  {"id":"5712ecd1-6faa-53c3-ad1d-b88e31e6e82e","lemma":"well","pos":"adjective","level":"A1","topics":["health"],"translation":"здоровий","altTranslations":["у доброму самопочутті"],"acceptedForms":["well"],"ipaGa":"/wɛl/","ipaRp":"/wel/","exampleEn":"I am not well today, so I stay at home.","exampleUk":"Я сьогодні нездоровий, тому лишаюся вдома.","frequencyBand":null},
+  {"id":"0f8e890b-836e-5557-9985-275f42a5f92c","lemma":"wounded","pos":"adjective","level":"A1","topics":["military","health"],"translation":"поранений","altTranslations":[],"acceptedForms":["wounded"],"ipaGa":"/ˈwundɪd/","ipaRp":"/ˈwuːndɪd/","exampleEn":"The wounded soldier is in hospital now.","exampleUk":"Поранений солдат зараз у лікарні.","frequencyBand":null}
  ]
 }

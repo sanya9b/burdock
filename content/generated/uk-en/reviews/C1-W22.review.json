@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 1,
+  "chunk": "C1-W22",
+  "reviewer": {"model": "claude-code/claude-fable-5-1", "promptVersion": "review-v1", "reviewedAt": "2026-11-01T00:00:00+00:00"},
+  "items": [
+    {
+      "id": "dae7847d-48f5-59df-95a0-c987ca2b30ec",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "wrong_topic", "suggestion": "Загальне слово про стан людини; тему communication краще прибрати."}]
+    },
+    {
+      "id": "e63f4179-0680-5cf6-a695-2aa8152eb528",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "wrong_topic", "suggestion": "Тема communication не типова для sullen; залишити без тем."}]
+    },
+    {
+      "id": "b28b2f23-d562-5016-a207-a451ba2a579a",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "wrong_topic", "suggestion": "Тема communication не типова для wary; загальне слово без тем."}]
+    },
+    {
+      "id": "0057c12e-232e-55ae-a648-7b9fd0ac0604",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "d8a4a099-4d83-5136-9d7f-6c38d12824b9",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "bb306b05-5af5-5a98-bfbf-802fba4796cd",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "3c0b7a24-85ee-5cc1-8596-e119f7ab526d",
+      "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "mismatch_en_uk", "suggestion": "У другому прикладі переклад «у такій паніці» не містить «несамовитий»; краще «таким несамовитим»."}]
+    },
+    {
+      "id": "26082c15-7ef2-5988-8078-9f4bd0c94927",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "wrong_topic", "suggestion": "Тема communication не типова для infuriated; залишити без тем."}]
+    },
+    {
+      "id": "dd4f8e09-f2d4-550c-971b-b90936800928",
+      "scores": {"accuracy": 3, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": "страшенно збентежений",
+      "issues": [{"reasonCode": "wrong_sense", "suggestion": "«Присоромлений» заслабке й пасивне (кимось); mortified — пекучий сором; обидва приклади уникають перекладу."}, {"reasonCode": "wrong_topic", "suggestion": "Тема communication не типова; залишити без тем."}]
+    },
+    {
+      "id": "391a1b8e-ce6d-5045-89fd-ccf4d27a8cdc",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "wrong_topic", "suggestion": "Тема communication не типова для somber; залишити без тем."}]
+    },
+    {
+      "id": "ac71a8c1-135b-50d5-a464-b17976d656e7",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "ed207997-4c3e-5080-91e7-b55f037e84a0",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "e47e74ef-1352-5f2c-a023-89eefbebb4af",
+      "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "other", "suggestion": "Переклад-словосполучення важкий для віджета; розгляньте «збентежений» або «наляканий» як основний."}]
+    },
+    {
+      "id": "81c3d8f9-1f10-5595-9482-b50684a6c1bd",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "c9405e01-b609-568d-8e90-0847c7b56231",
+      "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "wrong_sense", "suggestion": "«Схвильований» м’якше за agitated (неспокійний, збуджений); «розтривожений» точніше."}]
+    },
+    {
+      "id": "7e2a6f95-8793-5843-890c-145adc0887b7",
+      "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "wrong_sense", "suggestion": "«Приголомшений» не передає обурення; «вражений» або «шокований» ближче до appalled."}]
+    },
+    {
+      "id": "0d0b0a07-e7bb-5978-8b21-bbbe06924208",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "69788685-18c6-5e22-962d-6c4435636b71",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "44c0ed44-dd73-5cd7-a9a2-e08291074bf9",
+      "scores": {"accuracy": 3, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": "прикро вражений",
+      "issues": [{"reasonCode": "wrong_sense", "suggestion": "«Збентежений» — радше розгубленість; dismayed — прикра враженість, як у першому прикладі."}]
+    },
+    {
+      "id": "09ca2b42-f37e-5a53-8467-25cbc1644a53",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "5b938ae6-5498-578f-9860-8af3dbfea848",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "455e975b-21a6-50b7-8d0f-20ec90014a97",
+      "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "unnatural_uk", "suggestion": "«Я завжди стаю знервованим» громіздко; природніше «Я завжди нервуюся перед співбесідою»."}, {"reasonCode": "wrong_topic", "suggestion": "Тема work не типова для jittery; залишити без тем."}]
+    },
+    {
+      "id": "6725c911-96f5-54f0-9d4b-ab9bb0870703",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "wrong_topic", "suggestion": "Тема communication не типова для preoccupied; залишити без тем."}]
+    },
+    {
+      "id": "b4fe5e55-57f9-5a67-a344-0b4b09d0550b",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "wrong_topic", "suggestion": "Тема communication не типова для remorseful; залишити без тем."}]
+    },
+    {
+      "id": "b4ddebdb-8757-5837-930d-756e4d82a198",
+      "scores": {"accuracy": 3, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "mismatch_en_uk", "suggestion": "«Собака був травмований феєрверком» читається як фізична травма; «наляканий до нестями» або «психологічно травмований»."}, {"reasonCode": "wrong_sense", "suggestion": "Уточнити в usageNote, що йдеться про психологічну травму, або «глибоко вражений» основним."}]
+    },
+    {
+      "id": "97c3d99c-a977-5c17-abf9-77ce2a710446",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "57323e08-afe9-5699-ab25-eff70731199e",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "wrong_topic", "suggestion": "Тема work не типова для uptight; залишити без тем."}]
+    },
+    {
+      "id": "dfe0107f-1d61-5a2b-85a7-47e06c8ee48d",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "4628519b-3733-55ec-8baf-9dfc2b79e766",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "89b1ab26-0b24-5ea0-84ed-b94263303d53",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "wrong_topic", "suggestion": "Тема work не типова для self-doubt; залишити без тем."}]
+    },
+    {
+      "id": "4dd53ca9-9e65-5ba5-adaf-4fb8e4d8fd40",
+      "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "wrong_sense", "suggestion": "«Тривога» надто загальне для angst; відтінок передано лише в usageNote, розгляньте «екзистенційна тривога»."}]
+    },
+    {
+      "id": "1090b0ea-beed-5495-abf6-4654fb5ef0a6",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "0db7576e-ecb2-5dee-9947-ff09a07e1b5e",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "ccc68f72-e228-5ad6-b063-43cb566637aa",
+      "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "wrong_sense", "suggestion": "«Зневіра» наголошує на втраті надії; для gloom частіше «похмурий настрій», «смуток»."}]
+    },
+    {
+      "id": "1f4dce80-c84e-5219-b842-3fcdd9432771",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "wrong_topic", "suggestion": "Тема communication не типова для heartache; залишити без тем."}]
+    },
+    {
+      "id": "50808d5d-e993-57e3-a424-fe3aa13d0372",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "59c87846-7089-547a-a5aa-9412a16c8b6d",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "8e12ff1e-1d60-5e4b-9f48-2e6f0dbd48f1",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "38535611-fc6a-528b-be94-01c74ec81658",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "wrong_topic", "suggestion": "Тема communication не типова для seethe; залишити без тем."}]
+    },
+    {
+      "id": "c8aca146-7a18-5982-8632-7f6a3dab18c4",
+      "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [{"reasonCode": "unnatural_uk", "suggestion": "«Гризтися думками» рідкісне; природніше «картати себе» або «похмуро розмірковувати»."}]
+    }
+  ]
+}

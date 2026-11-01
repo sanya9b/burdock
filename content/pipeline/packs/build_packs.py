@@ -5,6 +5,8 @@ Output: content/generated/uk-en/packs/uk-en.<level>.<topic>.json, uk-en.<level>.
         content/generated/uk-en/packs/report.json (validation findings, needs-human list, counts)
 
 Entries whose review still says autoReject (and that were not regenerated) are excluded from packs and listed for the human queue.
+The free pool keeps the membership of the previous uk-en.free-pool.json (its audio ships inside the app, ADR 0019); only vacancies
+are filled by the length heuristic, so a new inventory stage never swaps words out of the pool.
 Ukrainian text is normalised (apostrophe → U+2019); hard rule violations exclude the entry and are reported.
 """
 from __future__ import annotations
@@ -183,6 +185,8 @@ def sha256_text(text: str) -> str:
 # grows (BootstrapContentUseCase), so the version is bumped exactly when the entries changed. The content hash ignores
 # generatedAt; legacy index rows without a contentHash fall back to the entry count.
 PREVIOUS: dict[str, dict] = {}
+PREVIOUS_FREE_POOL: set[str] = set()  # lexeme ids of the previous free-pool pack, pinned by pick_free_pool
+PREVIOUS_GENERATED_AT: dict[str, str] = {}  # pack id -> generatedAt; an unchanged pack keeps it, so a rebuild is byte-identical
 
 
 def content_hash(entries: list[dict]) -> str:
@@ -202,8 +206,10 @@ def next_version(pack_id: str, entries: list[dict], digest: str) -> int:
 def write_pack(pack_id: str, level: str, topic: str, entries: list[dict], now: str, attributions: list[str], has_llm_levels: bool) -> dict:
     digest = content_hash(entries)
     version = next_version(pack_id, entries, digest)
+    unchanged = (PREVIOUS.get(pack_id) or {}).get("contentHash") == digest
+    generated_at = PREVIOUS_GENERATED_AT.get(pack_id, now) if unchanged else now
     document = {
-        "schemaVersion": 1, "packId": pack_id, "pair": "uk-en", "level": level, "topic": topic, "version": version, "generatedAt": now,
+        "schemaVersion": 1, "packId": pack_id, "pair": "uk-en", "level": level, "topic": topic, "version": version, "generatedAt": generated_at,
         "provenance": {
             "source": "burdock-pipeline generate-v1 + review-v1 (Claude Code, claude-fable-5-1)",
             "status": "ai_reviewed", "promptVersion": "generate-v1", "reviewer": "review-v1",
@@ -215,19 +221,23 @@ def write_pack(pack_id: str, level: str, topic: str, entries: list[dict], now: s
     rows = ",\n".join("  " + json.dumps(e, ensure_ascii=False, separators=(",", ":")) for e in entries)
     text = head[:-2] + ',\n "entries": [\n' + rows + "\n ]\n}\n"
     path = PACKS / f"{pack_id}.json"
-    path.write_text(text, encoding="utf-8")
+    path.write_text(text, encoding="utf-8", newline="\n")
     return {"packId": pack_id, "file": path.name, "level": level, "topic": topic, "version": version, "lexemeCount": len(entries), "sizeBytes": len(text.encode("utf-8")), "sha256": sha256_text(text), "contentHash": digest}
 
 
 def pick_free_pool(by_level: dict[str, list[dict]]) -> list[dict]:
+    """Previous members first (still eligible ones keep their seat), then the shortest topical lemmas fill the vacancies."""
     chosen = []
+    by_length = lambda e: (len(e["lemma"]), e["lemma"])
     for level, target in FREE_POOL_PER_LEVEL.items():
         candidates = [e for e in by_level.get(level, [])
                       if e["_widgetSafe"] and e["pos"] in ("noun", "verb", "adjective") and len(e["lemma"]) <= 12 and len(e["translation"]) <= 16
                       and " " not in e["lemma"] and not e["_homograph"]]
-        with_topic = [e for e in candidates if e["topics"]]
-        without = [e for e in candidates if not e["topics"]]
-        ordered = sorted(with_topic, key=lambda e: (len(e["lemma"]), e["lemma"])) + sorted(without, key=lambda e: (len(e["lemma"]), e["lemma"]))
+        pinned = [e for e in candidates if e["id"] in PREVIOUS_FREE_POOL]
+        fresh = [e for e in candidates if e["id"] not in PREVIOUS_FREE_POOL]
+        with_topic = [e for e in fresh if e["topics"]]
+        without = [e for e in fresh if not e["topics"]]
+        ordered = sorted(pinned, key=by_length) + sorted(with_topic, key=by_length) + sorted(without, key=by_length)
         chosen.extend(ordered[:target])
     return chosen
 
@@ -255,6 +265,14 @@ def main() -> None:
             PREVIOUS.update({row["packId"]: row for row in json.loads(previous_index.read_text(encoding="utf-8")).get("packs", [])})
         except (json.JSONDecodeError, KeyError, TypeError):
             PREVIOUS.clear()
+    for old in PACKS.glob("uk-en.*.json"):
+        try:
+            document = json.loads(old.read_text(encoding="utf-8"))
+            PREVIOUS_GENERATED_AT[old.stem] = str(document["generatedAt"])
+            if old.stem == "uk-en.free-pool":
+                PREVIOUS_FREE_POOL.update(e["id"] for e in document.get("entries", []))
+        except (json.JSONDecodeError, KeyError, TypeError, UnicodeDecodeError):
+            PREVIOUS_FREE_POOL.clear()
     for old in PACKS.glob("*.json"):
         old.unlink()
 
@@ -332,7 +350,7 @@ def main() -> None:
     if free:
         index["packs"].append(write_pack("uk-en.free-pool", "A1-B1", "free-pool", free, now, attributions, False))
 
-    (PACKS / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    (PACKS / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
     report["accepted"] = len(accepted)
     report["byLevel"] = {lv: len(v) for lv, v in by_level.items()}
     report["byTopic"] = dict(Counter(t for e in accepted for t in e["topics"]))
@@ -341,7 +359,7 @@ def main() -> None:
     report["excluded"] = dict(report["excluded"])
     report["warnings"] = dict(report["warnings"])
     report["packs"] = len(index["packs"])
-    (PACKS / "report.json").write_text(json.dumps(report, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    (PACKS / "report.json").write_text(json.dumps(report, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
     print(json.dumps({k: report[k] for k in ("chunks", "entriesSeen", "accepted", "byLevel", "general", "freePool", "packs", "excluded", "warnings")}, ensure_ascii=False))
     print(f"needs human: {len(report['needsHuman'])}; excluded: {len(report['excludedIds'])}")
 

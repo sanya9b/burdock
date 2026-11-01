@@ -4,8 +4,8 @@
  "pair": "uk-en",
  "level": "A1",
  "topic": "travel",
- "version": 2,
- "generatedAt": "2026-11-01T09:47:11+00:00",
+ "version": 3,
+ "generatedAt": "2026-11-01T15:14:33+00:00",
  "provenance": {
   "source": "burdock-pipeline generate-v1 + review-v1 (Claude Code, claude-fable-5-1)",
   "status": "ai_reviewed",
@@ -68,6 +68,7 @@
   {"id":"900b3b0c-7add-5679-9b23-b9eee009d14d","lemma":"trip","pos":"noun","level":"A1","topics":["travel"],"translation":"поїздка","altTranslations":["подорож"],"acceptedForms":["trip"],"ipaGa":"/trɪp/","ipaRp":"/trɪp/","exampleEn":"We had a nice trip to Odesa.","exampleUk":"У нас була гарна поїздка до Одеси.","frequencyBand":null},
   {"id":"f9642942-23dc-57b4-8ae9-92792ef8ac69","lemma":"vacation","pos":"noun","level":"A1","topics":["travel"],"translation":"відпустка","altTranslations":["канікули"],"acceptedForms":["vacation","holiday"],"ipaGa":"/veɪˈkeɪʃən/","ipaRp":"/vəˈkeɪʃən/","exampleEn":"We are on vacation in Lviv.","exampleUk":"Ми у відпустці у Львові.","frequencyBand":null},
   {"id":"766f755e-9392-524d-8e73-313897afb8a2","lemma":"visit","pos":"noun","level":"A1","topics":["travel"],"translation":"візит","altTranslations":["відвідини"],"acceptedForms":["visit"],"ipaGa":"/ˈvɪzɪt/","ipaRp":"/ˈvɪzɪt/","exampleEn":"This is my first visit to Lviv.","exampleUk":"Це мій перший візит до Львова.","frequencyBand":null},
-  {"id":"b73896af-c3da-5484-9153-32e0f60f4ccd","lemma":"visit","pos":"verb","level":"A1","topics":["travel"],"translation":"відвідувати","altTranslations":["навідуватися","бувати в гостях"],"acceptedForms":["visit"],"ipaGa":"/ˈvɪzɪt/","ipaRp":"/ˈvɪzɪt/","exampleEn":"We visit my grandmother every Sunday.","exampleUk":"Ми відвідуємо мою бабусю щонеділі.","frequencyBand":null}
+  {"id":"b73896af-c3da-5484-9153-32e0f60f4ccd","lemma":"visit","pos":"verb","level":"A1","topics":["travel"],"translation":"відвідувати","altTranslations":["навідуватися","бувати в гостях"],"acceptedForms":["visit"],"ipaGa":"/ˈvɪzɪt/","ipaRp":"/ˈvɪzɪt/","exampleEn":"We visit my grandmother every Sunday.","exampleUk":"Ми відвідуємо мою бабусю щонеділі.","frequencyBand":null},
+  {"id":"6acad57f-797d-5f2d-ba97-cfff069415c3","lemma":"wifi","pos":"noun","level":"A1","topics":["it","travel"],"translation":"вай-фай","altTranslations":["Wi-Fi","бездротовий інтернет"],"acceptedForms":["wifi","Wi-Fi","wi fi"],"ipaGa":"/ˈwaɪfaɪ/","ipaRp":"/ˈwaɪfaɪ/","exampleEn":"The hotel has free wifi.","exampleUk":"У готелі є безкоштовний вай-фай.","frequencyBand":null}
  ]
 }

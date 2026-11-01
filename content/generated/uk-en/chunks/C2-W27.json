@@ -1,0 +1,1147 @@
+{
+  "schemaVersion": 1,
+  "chunk": "C2-W27",
+  "level": "C2",
+  "provenance": {
+    "model": "claude-code/claude-fable-5-1",
+    "promptVersion": "generate-v1",
+    "generatedAt": "2026-11-01T00:00:00+00:00",
+    "status": "draft"
+  },
+  "entries": [
+    {
+      "id": "74eeb0d4-1a0e-5490-9a7a-afbbbeaf8bf3",
+      "lemma": "constitutionalism",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "constitutionalism"
+      ],
+      "translation": "конституціоналізм",
+      "translationStressed": "конституціоналі́зм",
+      "altTranslations": [],
+      "register": "formal",
+      "genderNote": "ч.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "незлічуване",
+      "ipaGa": "/ˌkɑnstɪˈtuʃənəˌlɪzəm/",
+      "ipaRp": "/ˌkɒnstɪˈtjuːʃənəlɪzəm/",
+      "exampleEn": "The lecture traced the history of constitutionalism in Europe.",
+      "exampleUk": "Лекція простежила історію конституціоналізму в Європі.",
+      "exampleEn2": "How does constitutionalism limit the power of a government?",
+      "exampleUk2": "Як конституціоналізм обмежує владу уряду?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "813cfeb7-4885-59c0-8599-92672bafaefa",
+      "lemma": "interregnum",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "interregnum"
+      ],
+      "translation": "міжвладдя",
+      "translationStressed": "міжвла́ддя",
+      "altTranslations": [
+        "інтеррегнум",
+        "перехідний період"
+      ],
+      "register": "formal",
+      "genderNote": "с.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/ˌɪntərˈrɛɡnəm/",
+      "ipaRp": "/ˌɪntəˈrɛɡnəm/",
+      "exampleEn": "During the interregnum, the deputy director ran the company.",
+      "exampleUk": "Під час міжвладдя компанією керував заступник директора.",
+      "exampleEn2": "Who signed the documents during the interregnum?",
+      "exampleUk2": "Хто підписував документи під час міжвладдя?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "93897188-36c5-584f-b937-c38b203377ad",
+      "lemma": "electioneering",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "electioneering"
+      ],
+      "translation": "передвиборча агітація",
+      "translationStressed": "передви́борча агіта́ція",
+      "altTranslations": [
+        "агітація"
+      ],
+      "register": "neutral",
+      "genderNote": "ж.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "незлічуване; часто з несхвальним відтінком",
+      "ipaGa": "/ɪˌlɛkʃəˈnɪrɪŋ/",
+      "ipaRp": "/ɪˌlɛkʃəˈnɪərɪŋ/",
+      "exampleEn": "The student council banned electioneering in the library.",
+      "exampleUk": "Студентська рада заборонила передвиборчу агітацію в бібліотеці.",
+      "exampleEn2": "Is electioneering allowed on campus during exam week?",
+      "exampleUk2": "Чи дозволена передвиборча агітація в кампусі під час сесії?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "726f7e3a-c038-5686-b3a9-78f08b1f4e66",
+      "lemma": "tort",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "tort"
+      ],
+      "translation": "делікт",
+      "translationStressed": "делі́кт",
+      "altTranslations": [
+        "цивільне правопорушення"
+      ],
+      "register": "formal",
+      "genderNote": "ч.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "юридичний термін",
+      "ipaGa": "/tɔrt/",
+      "ipaRp": "/tɔːt/",
+      "exampleEn": "A broken fence that injures a neighbour may count as a tort.",
+      "exampleUk": "Зламаний паркан, що травмує сусіда, може вважатися деліктом.",
+      "exampleEn2": "Have you studied the law of tort this semester?",
+      "exampleUk2": "Ви вивчали деліктне право цього семестру?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "8ca6f564-f95b-5490-86c5-099999869e2a",
+      "lemma": "annul",
+      "pos": "verb",
+      "level": "C2",
+      "acceptedForms": [
+        "annul"
+      ],
+      "translation": "анулювати",
+      "translationStressed": "анулюва́ти",
+      "altTranslations": [
+        "скасовувати",
+        "визнавати недійсним"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": "двовидове: анулювати (недок. і док.)",
+      "usageNote": null,
+      "ipaGa": "/əˈnʌl/",
+      "ipaRp": "/əˈnʌl/",
+      "exampleEn": "The court annulled the contract because one signature was forged.",
+      "exampleUk": "Суд анулював договір, бо один підпис був підроблений.",
+      "exampleEn2": "Can the committee annul the results of the vote?",
+      "exampleUk2": "Чи може комітет анулювати результати голосування?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "32db0de7-4aa2-584c-88af-ea7a2c4a5d8e",
+      "lemma": "remand",
+      "pos": "verb",
+      "level": "C2",
+      "acceptedForms": [
+        "remand"
+      ],
+      "translation": "повертати під варту",
+      "translationStressed": "поверта́ти під ва́рту",
+      "altTranslations": [
+        "повертати на новий розгляд"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": "недок. / док.: повертати / повернути",
+      "usageNote": "юридичний термін",
+      "ipaGa": "/rɪˈmænd/",
+      "ipaRp": "/rɪˈmɑːnd/",
+      "exampleEn": "The judge remanded the case to a lower court for a new hearing.",
+      "exampleUk": "Суддя повернув справу до суду нижчої інстанції на новий розгляд.",
+      "exampleEn2": "Why was the defendant remanded in custody until Monday?",
+      "exampleUk2": "Чому обвинуваченого повернули під варту до понеділка?",
+      "topics": [],
+      "widgetSafe": false
+    },
+    {
+      "id": "6515603a-7f87-505f-9ea5-fd091cebf214",
+      "lemma": "affidavit",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "affidavit"
+      ],
+      "translation": "письмове свідчення під присягою",
+      "translationStressed": "письмо́ве сві́дчення під прися́гою",
+      "altTranslations": [
+        "афідевіт"
+      ],
+      "register": "formal",
+      "genderNote": "с.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "юридичний термін",
+      "ipaGa": "/ˌæfəˈdeɪvɪt/",
+      "ipaRp": "/ˌæfɪˈdeɪvɪt/",
+      "exampleEn": "The witness signed an affidavit describing what she saw.",
+      "exampleUk": "Свідок підписала письмове свідчення під присягою про те, що бачила.",
+      "exampleEn2": "Could you file the affidavit with the court by Friday?",
+      "exampleUk2": "Чи могли б ви подати письмове свідчення під присягою до суду до п’ятниці?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "8f8ba71c-0cdb-5d9d-b624-83b9123a0a73",
+      "lemma": "subpoena",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "subpoena"
+      ],
+      "translation": "судова повістка",
+      "translationStressed": "судова́ пові́стка",
+      "altTranslations": [
+        "повістка до суду"
+      ],
+      "register": "formal",
+      "genderNote": "ж.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "юридичний термін",
+      "ipaGa": "/səˈpinə/",
+      "ipaRp": "/səˈpiːnə/",
+      "exampleEn": "The accountant received a subpoena to bring the company records.",
+      "exampleUk": "Бухгалтер отримав судову повістку з вимогою надати документи компанії.",
+      "exampleEn2": "What happens if someone ignores a subpoena?",
+      "exampleUk2": "Що буде, якщо хтось проігнорує судову повістку?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "9a8fe37b-24ee-57b9-9423-5a242b876218",
+      "lemma": "writ",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "writ"
+      ],
+      "translation": "судовий наказ",
+      "translationStressed": "судови́й нака́з",
+      "altTranslations": [
+        "припис"
+      ],
+      "register": "formal",
+      "genderNote": "ч.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "юридичний термін",
+      "ipaGa": "/rɪt/",
+      "ipaRp": "/rɪt/",
+      "exampleEn": "The landlord obtained a writ to recover the unpaid rent.",
+      "exampleUk": "Орендодавець отримав судовий наказ про стягнення несплаченої оренди.",
+      "exampleEn2": "Has the writ been served on the other party yet?",
+      "exampleUk2": "Чи вручили вже судовий наказ іншій стороні?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "de984e0b-39ad-5f0b-bf05-a80028edbd40",
+      "lemma": "plea bargain",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "plea bargain",
+        "plea-bargain",
+        "plea deal"
+      ],
+      "translation": "угода зі слідством",
+      "translationStressed": "уго́да зі слі́дством",
+      "altTranslations": [
+        "угода про визнання винуватості"
+      ],
+      "register": "formal",
+      "genderNote": "ж.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "юридичний термін",
+      "ipaGa": "/ˈpli ˌbɑrɡən/",
+      "ipaRp": "/ˈpliː ˌbɑːɡɪn/",
+      "exampleEn": "The lawyer advised her client to accept the plea bargain.",
+      "exampleUk": "Адвокатка порадила клієнтові погодитися на угоду зі слідством.",
+      "exampleEn2": "Why would anyone refuse a plea bargain in such a case?",
+      "exampleUk2": "Чому хтось відмовився б від угоди зі слідством у такій справі?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "6a919860-3fdc-5839-892c-6073f0e287e0",
+      "lemma": "docket",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "docket"
+      ],
+      "translation": "реєстр судових справ",
+      "translationStressed": "реє́стр судови́х справ",
+      "altTranslations": [
+        "список справ до розгляду"
+      ],
+      "register": "formal",
+      "genderNote": "ч.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "переважно американська англійська",
+      "ipaGa": "/ˈdɑkɪt/",
+      "ipaRp": "/ˈdɒkɪt/",
+      "exampleEn": "Our case is third on the docket for Tuesday morning.",
+      "exampleUk": "Наша справа третя в реєстрі судових справ на ранок вівторка.",
+      "exampleEn2": "Could you check whether the hearing is still on the docket?",
+      "exampleUk2": "Чи могли б ви перевірити, чи слухання ще є в реєстрі справ?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "c1c8c16b-417b-59cd-a5c9-2d551a57e677",
+      "lemma": "bailiff",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "bailiff"
+      ],
+      "translation": "судовий розпорядник",
+      "translationStressed": "судови́й розпоря́дник",
+      "altTranslations": [
+        "судовий виконавець"
+      ],
+      "register": "neutral",
+      "genderNote": "ч.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "у залі суду — розпорядник; той, хто стягує борги за рішенням суду, — виконавець",
+      "ipaGa": "/ˈbeɪlɪf/",
+      "ipaRp": "/ˈbeɪlɪf/",
+      "exampleEn": "The bailiff asked everyone to stand as the judge entered.",
+      "exampleUk": "Судовий розпорядник попросив усіх встати, коли зайшов суддя.",
+      "exampleEn2": "Please hand your phone to the bailiff before the hearing.",
+      "exampleUk2": "Будь ласка, віддайте телефон судовому розпоряднику перед слуханням.",
+      "topics": [
+        {
+          "slug": "work",
+          "confidence": 0.5
+        }
+      ],
+      "widgetSafe": true,
+      "regenerated": 1
+    },
+    {
+      "id": "13d38bbe-0e9f-5ff2-948c-6b2432868016",
+      "lemma": "coroner",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "coroner"
+      ],
+      "translation": "коронер",
+      "translationStressed": "коро́нер",
+      "altTranslations": [
+        "судовий слідчий"
+      ],
+      "register": "neutral",
+      "genderNote": "ч.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "посада в англомовних країнах",
+      "ipaGa": "/ˈkɔrənər/",
+      "ipaRp": "/ˈkɒrənə/",
+      "exampleEn": "The coroner will publish the report next month.",
+      "exampleUk": "Коронер оприлюднить звіт наступного місяця.",
+      "exampleEn2": "Has the coroner finished the investigation yet?",
+      "exampleUk2": "Чи завершив коронер розслідування?",
+      "topics": [
+        {
+          "slug": "work",
+          "confidence": 0.5
+        }
+      ],
+      "widgetSafe": false
+    },
+    {
+      "id": "910f22e8-e555-5d92-9e20-ee5f79d1579e",
+      "lemma": "inquest",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "inquest"
+      ],
+      "translation": "розслідування причин смерті",
+      "translationStressed": "розслі́дування причи́н сме́рті",
+      "altTranslations": [
+        "дізнання"
+      ],
+      "register": "formal",
+      "genderNote": "с.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "юридичний термін",
+      "ipaGa": "/ˈɪnkwɛst/",
+      "ipaRp": "/ˈɪnkwɛst/",
+      "exampleEn": "The inquest lasted three days and heard twelve witnesses.",
+      "exampleUk": "Розслідування тривало три дні, заслухали дванадцять свідків.",
+      "exampleEn2": "When will the results of the inquest be announced?",
+      "exampleUk2": "Коли оголосять результати розслідування?",
+      "topics": [],
+      "widgetSafe": false
+    },
+    {
+      "id": "f2ec02f3-7cb6-5eda-8b8f-faea18c23eeb",
+      "lemma": "paralegal",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "paralegal",
+        "para-legal"
+      ],
+      "translation": "помічник юриста",
+      "translationStressed": "помічни́к юри́ста",
+      "altTranslations": [
+        "параюрист"
+      ],
+      "register": "neutral",
+      "genderNote": "ч.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/ˌpɛrəˈliɡəl/",
+      "ipaRp": "/ˌpærəˈliːɡəl/",
+      "exampleEn": "Anna worked as a paralegal before she went to law school.",
+      "exampleUk": "Анна працювала помічницею юриста, перш ніж вступити на правничий факультет.",
+      "exampleEn2": "Does the firm need another paralegal this autumn?",
+      "exampleUk2": "Чи потрібен фірмі ще один помічник юриста цієї осені?",
+      "topics": [
+        {
+          "slug": "work",
+          "confidence": 0.7
+        }
+      ],
+      "widgetSafe": true
+    },
+    {
+      "id": "f78125d4-cca1-53c2-b4db-bf261bdc6724",
+      "lemma": "jurist",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "jurist"
+      ],
+      "translation": "правник",
+      "translationStressed": "пра́вник",
+      "altTranslations": [
+        "юрист",
+        "правознавець"
+      ],
+      "register": "formal",
+      "genderNote": "ч.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/ˈdʒʊrɪst/",
+      "ipaRp": "/ˈdʒʊərɪst/",
+      "exampleEn": "A respected jurist from Lviv gave the opening lecture.",
+      "exampleUk": "Шанований правник зі Львова прочитав вступну лекцію.",
+      "exampleEn2": "Which jurist wrote the commentary on this article?",
+      "exampleUk2": "Який правник написав коментар до цієї статті?",
+      "topics": [
+        {
+          "slug": "work",
+          "confidence": 0.5
+        }
+      ],
+      "widgetSafe": true
+    },
+    {
+      "id": "b97dda83-c140-5ad3-afe7-293f39731540",
+      "lemma": "litigious",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "litigious"
+      ],
+      "translation": "схильний до судових позовів",
+      "translationStressed": "схи́льний до судови́х по́зовів",
+      "altTranslations": [
+        "сутяжницький"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "зазвичай з несхвальним відтінком",
+      "ipaGa": "/lɪˈtɪdʒəs/",
+      "ipaRp": "/lɪˈtɪdʒəs/",
+      "exampleEn": "Our litigious neighbour has sued the building management twice.",
+      "exampleUk": "Наш схильний до позовів сусід двічі судився з управителем будинку.",
+      "exampleEn2": "Why has society become so litigious in recent years?",
+      "exampleUk2": "Чому суспільство стало таким схильним до судових позовів останніми роками?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "31793abf-9ead-56fd-9d1b-696cb36034db",
+      "lemma": "vexatious",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "vexatious"
+      ],
+      "translation": "сутяжницький",
+      "translationStressed": "сутя́жницький",
+      "altTranslations": [
+        "безпідставний",
+        "докучливий"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "про позов або скаргу без належних підстав",
+      "ipaGa": "/vɛkˈseɪʃəs/",
+      "ipaRp": "/vɛkˈseɪʃəs/",
+      "exampleEn": "The court dismissed the complaint as vexatious.",
+      "exampleUk": "Суд відхилив скаргу як сутяжницьку.",
+      "exampleEn2": "How do judges decide that a claim is vexatious?",
+      "exampleUk2": "Як судді вирішують, що позов є сутяжницьким?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "f0c75e9a-c312-53fd-b1dc-e080b59a440d",
+      "lemma": "counterclaim",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "counterclaim",
+        "counter-claim"
+      ],
+      "translation": "зустрічний позов",
+      "translationStressed": "зустрі́чний по́зов",
+      "altTranslations": [
+        "зустрічна вимога"
+      ],
+      "register": "formal",
+      "genderNote": "ч.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "юридичний термін",
+      "ipaGa": "/ˈkaʊntərˌkleɪm/",
+      "ipaRp": "/ˈkaʊntəkleɪm/",
+      "exampleEn": "The supplier filed a counterclaim for the unpaid invoices.",
+      "exampleUk": "Постачальник подав зустрічний позов щодо несплачених рахунків.",
+      "exampleEn2": "Has the other side responded to our counterclaim?",
+      "exampleUk2": "Чи відповіла інша сторона на наш зустрічний позов?",
+      "topics": [
+        {
+          "slug": "work",
+          "confidence": 0.4
+        }
+      ],
+      "widgetSafe": true
+    },
+    {
+      "id": "5bf852db-cf0d-57d4-81ad-003ac7804aff",
+      "lemma": "inadmissible",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "inadmissible"
+      ],
+      "translation": "недопустимий",
+      "translationStressed": "недопусти́мий",
+      "altTranslations": [
+        "неприйнятний"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "про докази в суді: «недопустимий доказ»",
+      "ipaGa": "/ˌɪnədˈmɪsəbəl/",
+      "ipaRp": "/ˌɪnədˈmɪsəbəl/",
+      "exampleEn": "The recording was ruled inadmissible because it was made illegally.",
+      "exampleUk": "Запис визнали недопустимим доказом, бо його зробили незаконно.",
+      "exampleEn2": "Why is hearsay usually inadmissible in court?",
+      "exampleUk2": "Чому свідчення з чужих слів зазвичай недопустимі в суді?",
+      "topics": [],
+      "widgetSafe": true,
+      "regenerated": 1
+    },
+    {
+      "id": "a5f57ef6-6c8e-5ff5-bd8e-4e38f4d37f66",
+      "lemma": "evidentiary",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "evidentiary",
+        "evidential"
+      ],
+      "translation": "доказовий",
+      "translationStressed": "доказо́вий",
+      "altTranslations": [
+        "що стосується доказів"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "юридичний термін",
+      "ipaGa": "/ˌɛvɪˈdɛnʃəri/",
+      "ipaRp": "/ˌɛvɪˈdɛnʃəri/",
+      "exampleEn": "The judge scheduled an evidentiary hearing for next week.",
+      "exampleUk": "Суддя призначив слухання з розгляду доказів на наступний тиждень.",
+      "exampleEn2": "Does this photo meet the evidentiary standard of the court?",
+      "exampleUk2": "Чи відповідає це фото доказовим стандартам суду?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "96657119-ab59-516b-920e-282192df073f",
+      "lemma": "culpability",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "culpability"
+      ],
+      "translation": "винуватість",
+      "translationStressed": "винува́тість",
+      "altTranslations": [
+        "провина"
+      ],
+      "register": "formal",
+      "genderNote": "ж.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "незлічуване",
+      "ipaGa": "/ˌkʌlpəˈbɪləti/",
+      "ipaRp": "/ˌkʌlpəˈbɪlɪti/",
+      "exampleEn": "The report divided culpability for the accident between both drivers.",
+      "exampleUk": "Звіт розподілив винуватість за аварію між обома водіями.",
+      "exampleEn2": "Does the manager accept any culpability for the delay?",
+      "exampleUk2": "Чи визнає менеджер хоч якусь провину за затримку?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "44d07381-6ce2-5511-b398-50aff3f83a99",
+      "lemma": "reprieve",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "reprieve"
+      ],
+      "translation": "відстрочка покарання",
+      "translationStressed": "відстро́чка покара́ння",
+      "altTranslations": [
+        "помилування",
+        "перепочинок"
+      ],
+      "register": "formal",
+      "genderNote": "ж.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "переносно: тимчасове полегшення",
+      "ipaGa": "/rɪˈpriv/",
+      "ipaRp": "/rɪˈpriːv/",
+      "exampleEn": "The governor granted the prisoner a reprieve of thirty days.",
+      "exampleUk": "Губернатор надав в’язневі відстрочку покарання на тридцять днів.",
+      "exampleEn2": "Did the old library get a reprieve from demolition?",
+      "exampleUk2": "Чи отримала стара бібліотека відстрочку від знесення?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "9e0dcb4c-17fa-5ef3-b4a3-dfe5858fac3e",
+      "lemma": "complainant",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "complainant"
+      ],
+      "translation": "скаржник",
+      "translationStressed": "ска́ржник",
+      "altTranslations": [
+        "заявник",
+        "позивач"
+      ],
+      "register": "formal",
+      "genderNote": "ч.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "жін. скаржниця",
+      "ipaGa": "/kəmˈpleɪnənt/",
+      "ipaRp": "/kəmˈpleɪnənt/",
+      "exampleEn": "The complainant said the shop had refused to refund her money.",
+      "exampleUk": "Скаржниця сказала, що магазин відмовився повернути їй гроші.",
+      "exampleEn2": "Has the complainant provided copies of the receipts?",
+      "exampleUk2": "Чи надав скаржник копії чеків?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "4e782137-42b6-5f21-9a81-80a6d7cac953",
+      "lemma": "petitioner",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "petitioner"
+      ],
+      "translation": "заявник",
+      "translationStressed": "зая́вник",
+      "altTranslations": [
+        "позивач",
+        "прохач"
+      ],
+      "register": "formal",
+      "genderNote": "ч.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "жін. заявниця",
+      "ipaGa": "/pəˈtɪʃənər/",
+      "ipaRp": "/pəˈtɪʃənə/",
+      "exampleEn": "The petitioner asked the court to change her legal name.",
+      "exampleUk": "Заявниця попросила суд змінити її офіційне ім’я.",
+      "exampleEn2": "Will the petitioner attend the hearing in person?",
+      "exampleUk2": "Чи буде заявник присутній на слуханні особисто?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "afb6768e-341e-5ad1-b81b-b338558ab5c0",
+      "lemma": "miscarriage",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "miscarriage"
+      ],
+      "translation": "судова помилка",
+      "translationStressed": "судова́ поми́лка",
+      "altTranslations": [
+        "неправосуддя"
+      ],
+      "register": "formal",
+      "genderNote": "ж.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "у сполученні miscarriage of justice",
+      "ipaGa": "/ˈmɪsˌkɛrɪdʒ/",
+      "ipaRp": "/ˈmɪskærɪdʒ/",
+      "exampleEn": "The appeal court called the verdict a clear miscarriage of justice.",
+      "exampleUk": "Апеляційний суд назвав вирок очевидною судовою помилкою.",
+      "exampleEn2": "How can a miscarriage of justice be corrected years later?",
+      "exampleUk2": "Як можна виправити судову помилку через роки?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "dd298455-9fb0-5e1e-8ef5-75b82995561d",
+      "lemma": "actionable",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "actionable"
+      ],
+      "translation": "що дає підстави для позову",
+      "translationStressed": "що дає́ підста́ви для по́зову",
+      "altTranslations": [
+        "дієвий",
+        "придатний до виконання"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "у бізнесі також «практичний, такий, що можна втілити»",
+      "ipaGa": "/ˈækʃənəbəl/",
+      "ipaRp": "/ˈækʃənəbəl/",
+      "exampleEn": "The lawyer explained that a rude email is rarely actionable.",
+      "exampleUk": "Юрист пояснив, що грубий лист рідко дає підстави для позову.",
+      "exampleEn2": "Is a broken verbal promise actionable in this country?",
+      "exampleUk2": "Чи дає порушена усна обіцянка підстави для позову в цій країні?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "630ac482-6647-5227-8c48-2c8d84994f9e",
+      "lemma": "quash",
+      "pos": "verb",
+      "level": "C2",
+      "acceptedForms": [
+        "quash"
+      ],
+      "translation": "скасовувати",
+      "translationStressed": "скасо́вувати",
+      "altTranslations": [
+        "анулювати",
+        "припиняти"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": "недок. / док.: скасовувати / скасувати",
+      "usageNote": "про рішення, вирок або чутки",
+      "ipaGa": "/kwɑʃ/",
+      "ipaRp": "/kwɒʃ/",
+      "exampleEn": "The higher court quashed the fine after reviewing the evidence.",
+      "exampleUk": "Вищий суд скасував штраф після перегляду доказів.",
+      "exampleEn2": "Can the council quash the decision without a new vote?",
+      "exampleUk2": "Чи може рада скасувати рішення без нового голосування?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "168fd846-6b23-560c-bc15-124fdbd1acdb",
+      "lemma": "egalitarianism",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "egalitarianism"
+      ],
+      "translation": "егалітаризм",
+      "translationStressed": "егалітари́зм",
+      "altTranslations": [
+        "ідея рівності"
+      ],
+      "register": "formal",
+      "genderNote": "ч.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "незлічуване",
+      "ipaGa": "/ɪˌɡælɪˈtɛriəˌnɪzəm/",
+      "ipaRp": "/ɪˌɡælɪˈtɛəriənɪzəm/",
+      "exampleEn": "The company culture is built on egalitarianism: everyone shares one office.",
+      "exampleUk": "Культура компанії побудована на егалітаризмі: усі працюють в одному офісі.",
+      "exampleEn2": "Does egalitarianism mean equal pay for every employee?",
+      "exampleUk2": "Чи означає егалітаризм однакову платню для кожного працівника?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "f89d6147-a023-5213-a3f9-a14893536abc",
+      "lemma": "inequity",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "inequity"
+      ],
+      "translation": "несправедливість",
+      "translationStressed": "несправедли́вість",
+      "altTranslations": [
+        "нерівність"
+      ],
+      "register": "formal",
+      "genderNote": "ж.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "не плутати з inequality (нерівність)",
+      "ipaGa": "/ɪnˈɛkwəti/",
+      "ipaRp": "/ɪnˈɛkwɪti/",
+      "exampleEn": "The study highlights the inequity in access to good schools.",
+      "exampleUk": "Дослідження підкреслює несправедливість у доступі до хороших шкіл.",
+      "exampleEn2": "What can a city do to reduce inequity in healthcare?",
+      "exampleUk2": "Що може зробити місто, щоб зменшити несправедливість у медицині?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "5ffd7e33-2d96-5cdc-a8a9-f19f57328f08",
+      "lemma": "bigotry",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "bigotry"
+      ],
+      "translation": "нетерпимість",
+      "translationStressed": "нетерпи́мість",
+      "altTranslations": [
+        "фанатизм",
+        "упередженість"
+      ],
+      "register": "formal",
+      "genderNote": "ж.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "незлічуване",
+      "ipaGa": "/ˈbɪɡətri/",
+      "ipaRp": "/ˈbɪɡətri/",
+      "exampleEn": "The school has a clear policy against bigotry of any kind.",
+      "exampleUk": "Школа має чітку політику проти будь-якої нетерпимості.",
+      "exampleEn2": "How should a manager respond to bigotry in the team?",
+      "exampleUk2": "Як менеджер має реагувати на нетерпимість у команді?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "02e28de2-fc4f-5031-b0ba-b005baf42933",
+      "lemma": "bigot",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "bigot"
+      ],
+      "translation": "фанатик",
+      "translationStressed": "фана́тик",
+      "altTranslations": [
+        "нетерпима людина"
+      ],
+      "register": "formal",
+      "genderNote": "ч.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "несхвальне; про людину, нетерпиму до інших поглядів",
+      "ipaGa": "/ˈbɪɡət/",
+      "ipaRp": "/ˈbɪɡət/",
+      "exampleEn": "Nobody wants to be called a bigot, so people rarely admit their prejudices.",
+      "exampleUk": "Ніхто не хоче, щоб його називали фанатиком, тому люди рідко визнають упередження.",
+      "exampleEn2": "Why does the character in the novel turn into a bigot?",
+      "exampleUk2": "Чому персонаж роману перетворюється на фанатика?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "39c5db15-80ad-5807-8d42-2ccff8bb551d",
+      "lemma": "pluralistic",
+      "pos": "adjective",
+      "level": "C2",
+      "acceptedForms": [
+        "pluralistic",
+        "pluralist"
+      ],
+      "translation": "плюралістичний",
+      "translationStressed": "плюралісти́чний",
+      "altTranslations": [
+        "багатоманітний"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/ˌplʊrəˈlɪstɪk/",
+      "ipaRp": "/ˌplʊərəˈlɪstɪk/",
+      "exampleEn": "Lviv has long been a pluralistic city with many languages and traditions.",
+      "exampleUk": "Львів здавна є плюралістичним містом із багатьма мовами й традиціями.",
+      "exampleEn2": "What makes a society truly pluralistic?",
+      "exampleUk2": "Що робить суспільство справді плюралістичним?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "b28fb4ea-7355-5c2a-a98b-149911596e48",
+      "lemma": "desegregate",
+      "pos": "verb",
+      "level": "C2",
+      "acceptedForms": [
+        "desegregate"
+      ],
+      "translation": "скасовувати сегрегацію",
+      "translationStressed": "скасо́вувати сегрега́цію",
+      "altTranslations": [
+        "десегрегувати"
+      ],
+      "register": "formal",
+      "genderNote": null,
+      "pluralNote": null,
+      "aspectNote": "недок. / док.: скасовувати / скасувати",
+      "usageNote": null,
+      "ipaGa": "/diˈsɛɡrəˌɡeɪt/",
+      "ipaRp": "/diːˈsɛɡrɪɡeɪt/",
+      "exampleEn": "The town desegregated its schools decades ago.",
+      "exampleUk": "Містечко скасувало сегрегацію у своїх школах десятиліття тому.",
+      "exampleEn2": "When did the country begin to desegregate public transport?",
+      "exampleUk2": "Коли країна почала скасовувати сегрегацію в громадському транспорті?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "c8dfb1b5-0304-5fac-a90e-ea4795331abc",
+      "lemma": "statelessness",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "statelessness"
+      ],
+      "translation": "безгромадянство",
+      "translationStressed": "безгромадя́нство",
+      "altTranslations": [
+        "відсутність громадянства"
+      ],
+      "register": "formal",
+      "genderNote": "с.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "незлічуване",
+      "ipaGa": "/ˈsteɪtləsnəs/",
+      "ipaRp": "/ˈsteɪtləsnəs/",
+      "exampleEn": "Statelessness makes it hard to open a bank account or travel.",
+      "exampleUk": "Безгромадянство ускладнює відкриття банківського рахунку чи подорожі.",
+      "exampleEn2": "Which documents help a person escape statelessness?",
+      "exampleUk2": "Які документи допомагають людині позбутися безгромадянства?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "ddc639d6-9068-5658-8740-84bb0f0405c6",
+      "lemma": "repatriation",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "repatriation"
+      ],
+      "translation": "репатріація",
+      "translationStressed": "репатріа́ція",
+      "altTranslations": [
+        "повернення на батьківщину"
+      ],
+      "register": "formal",
+      "genderNote": "ж.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": null,
+      "ipaGa": "/riˌpeɪtriˈeɪʃən/",
+      "ipaRp": "/ˌriːpætrɪˈeɪʃən/",
+      "exampleEn": "The embassy organised the repatriation of tourists after the storm.",
+      "exampleUk": "Посольство організувало репатріацію туристів після шторму.",
+      "exampleEn2": "Who pays for the repatriation of a lost passport holder?",
+      "exampleUk2": "Хто оплачує репатріацію людини, що загубила паспорт?",
+      "topics": [
+        {
+          "slug": "travel",
+          "confidence": 0.4
+        }
+      ],
+      "widgetSafe": true
+    },
+    {
+      "id": "e4c75c40-f6c6-5e02-b1ae-b8763299bba3",
+      "lemma": "internment",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "internment"
+      ],
+      "translation": "інтернування",
+      "translationStressed": "інтернува́ння",
+      "altTranslations": [
+        "утримання без суду"
+      ],
+      "register": "formal",
+      "genderNote": "с.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "незлічуване",
+      "ipaGa": "/ɪnˈtɜrnmənt/",
+      "ipaRp": "/ɪnˈtɜːnmənt/",
+      "exampleEn": "The museum has a room about the internment of civilians in wartime.",
+      "exampleUk": "У музеї є зала про інтернування цивільних у воєнний час.",
+      "exampleEn2": "How long did the internment of the sailors last?",
+      "exampleUk2": "Скільки тривало інтернування моряків?",
+      "topics": [
+        {
+          "slug": "military",
+          "confidence": 0.6
+        }
+      ],
+      "widgetSafe": false
+    },
+    {
+      "id": "51846668-dfa5-59b4-8e59-fc759495c36f",
+      "lemma": "subjugation",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "subjugation"
+      ],
+      "translation": "підкорення",
+      "translationStressed": "підко́рення",
+      "altTranslations": [
+        "поневолення",
+        "упокорення"
+      ],
+      "register": "formal",
+      "genderNote": "с.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "незлічуване",
+      "ipaGa": "/ˌsʌbdʒəˈɡeɪʃən/",
+      "ipaRp": "/ˌsʌbdʒʊˈɡeɪʃən/",
+      "exampleEn": "The novel describes the subjugation of a small island by its neighbour.",
+      "exampleUk": "Роман описує підкорення малого острова його сусідом.",
+      "exampleEn2": "How did the people resist subjugation for so many years?",
+      "exampleUk2": "Як народ опирався підкоренню стільки років?",
+      "topics": [],
+      "widgetSafe": false
+    },
+    {
+      "id": "19cbf12e-f634-5e58-a6b0-77b4899bae1f",
+      "lemma": "emancipation",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "emancipation"
+      ],
+      "translation": "емансипація",
+      "translationStressed": "емансипа́ція",
+      "altTranslations": [
+        "визволення",
+        "звільнення"
+      ],
+      "register": "formal",
+      "genderNote": "ж.",
+      "pluralNote": null,
+      "aspectNote": null,
+      "usageNote": "незлічуване",
+      "ipaGa": "/ɪˌmænsəˈpeɪʃən/",
+      "ipaRp": "/ɪˌmænsɪˈpeɪʃən/",
+      "exampleEn": "The exhibition tells the story of women’s emancipation in the last century.",
+      "exampleUk": "Виставка розповідає історію емансипації жінок у минулому столітті.",
+      "exampleEn2": "What role did education play in the emancipation of peasants?",
+      "exampleUk2": "Яку роль відіграла освіта в емансипації селян?",
+      "topics": [],
+      "widgetSafe": true
+    },
+    {
+      "id": "1d9c3aa6-3d30-5417-b90d-185bd216a4d4",
+      "lemma": "citizenry",
+      "pos": "noun",
+      "level": "C2",
+      "acceptedForms": [
+        "citizenry"
+      ],
+      "translation": "громадяни",
+      "translationStressed": "громадя́ни",
+      "altTranslations": [
+        "громадянство",
+        "населення"
+      ],
+      "register": "formal",
+      "genderNote": "мн.",
+      "pluralNote": "збірне: усі громадяни разом",
+      "aspectNote": null,
+      "usageNote": "в англійській однина",
+      "ipaGa": "/ˈsɪtəzənri/",
+      "ipaRp": "/ˈsɪtɪzənri/",
+      "exampleEn": "An informed citizenry is essential for any local election.",
+      "exampleUk": "Поінформовані громадяни необхідні для будь-яких місцевих виборів.",
+      "exampleEn2": "How can the mayor keep the citizenry informed about roadworks?",
+      "exampleUk2": "Як мер може тримати громадян в курсі дорожніх робіт?",
+      "topics": [],
+      "widgetSafe": true
+    }
+  ]
+}

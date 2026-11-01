@@ -1,0 +1,1363 @@
+{
+ "schemaVersion": 1,
+ "chunk": "C1-W30",
+ "level": "C1",
+ "provenance": {
+  "model": "claude-code/claude-fable-5-1",
+  "promptVersion": "generate-v1",
+  "generatedAt": "2026-11-01T00:00:00+00:00",
+  "status": "draft"
+ },
+ "entries": [
+  {
+   "id": "308a48db-bf5b-550d-ba41-3dd4a61b6630",
+   "lemma": "nougat",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "nougat"
+   ],
+   "translation": "нуга",
+   "translationStressed": "нуга́",
+   "altTranslations": [],
+   "register": "neutral",
+   "genderNote": "ж.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "незлічуване",
+   "ipaGa": "/ˈnuɡət/",
+   "ipaRp": "/ˈnuːɡɑː/",
+   "exampleEn": "This chocolate bar has a layer of soft nougat inside.",
+   "exampleUk": "У цьому шоколадному батончику всередині шар м’якої нуги.",
+   "exampleEn2": "Have you ever tried making nougat at home?",
+   "exampleUk2": "Ви коли-небудь пробували приготувати нугу вдома?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.9
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "f735f580-2485-5369-9281-27b91f2f13c5",
+   "lemma": "praline",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "praline",
+    "pralines"
+   ],
+   "translation": "праліне",
+   "translationStressed": "праліне́",
+   "altTranslations": [],
+   "register": "neutral",
+   "genderNote": "с.",
+   "pluralNote": "незмінюване: одне праліне — кілька праліне",
+   "aspectNote": null,
+   "usageNote": null,
+   "ipaGa": "/ˈpreɪlin/",
+   "ipaRp": "/ˈprɑːliːn/",
+   "exampleEn": "The box contained twelve pralines with hazelnut filling.",
+   "exampleUk": "У коробці було дванадцять праліне з горіховою начинкою.",
+   "exampleEn2": "Would you like a praline with your coffee?",
+   "exampleUk2": "Хочете праліне до кави?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.9
+    },
+    {
+     "slug": "shopping",
+     "confidence": 0.4
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "124eb399-3aae-5192-a720-961795cb0245",
+   "lemma": "whey",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "whey"
+   ],
+   "translation": "сироватка",
+   "translationStressed": "сиро́ватка",
+   "altTranslations": [
+    "молочна сироватка"
+   ],
+   "register": "neutral",
+   "genderNote": "ж.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "незлічуване",
+   "ipaGa": "/weɪ/",
+   "ipaRp": "/weɪ/",
+   "exampleEn": "After making cheese, my grandmother used the whey for baking bread.",
+   "exampleUk": "Після приготування сиру бабуся використовувала сироватку для випікання хліба.",
+   "exampleEn2": "Do you add whey protein to your smoothies?",
+   "exampleUk2": "Ви додаєте сироватковий протеїн у смузі?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.85
+    },
+    {
+     "slug": "health",
+     "confidence": 0.5
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "55c16853-e3a1-57db-a899-52bdf4b653e3",
+   "lemma": "ghee",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "ghee"
+   ],
+   "translation": "топлене масло",
+   "translationStressed": "то́плене ма́сло",
+   "altTranslations": [
+    "ґі"
+   ],
+   "register": "neutral",
+   "genderNote": "с.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "незлічуване",
+   "ipaGa": "/ɡi/",
+   "ipaRp": "/ɡiː/",
+   "exampleEn": "Fry the spices in a spoonful of ghee until they smell fragrant.",
+   "exampleUk": "Обсмажте спеції в ложці топленого масла, поки вони не запахнуть.",
+   "exampleEn2": "Can I use ghee instead of regular butter in this recipe?",
+   "exampleUk2": "Можна використати топлене масло замість звичайного в цьому рецепті?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.9
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "2f2f6435-54cb-5833-86c1-b4c48da313a0",
+   "lemma": "offal",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "offal"
+   ],
+   "translation": "субпродукти",
+   "translationStressed": "субпроду́кти",
+   "altTranslations": [
+    "тельбухи"
+   ],
+   "register": "neutral",
+   "genderNote": "мн.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "незлічуване в англійській",
+   "ipaGa": "/ˈɔfəl/",
+   "ipaRp": "/ˈɒfəl/",
+   "exampleEn": "Many traditional dishes in this region are made from offal.",
+   "exampleUk": "Багато традиційних страв у цьому регіоні готують із субпродуктів.",
+   "exampleEn2": "Does this butcher sell offal, such as liver and kidneys?",
+   "exampleUk2": "Чи продає цей м’ясник субпродукти, як-от печінку й нирки?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.85
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "dc84c245-e969-5c5a-a63e-ffee856aea3d",
+   "lemma": "roe",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "roe"
+   ],
+   "translation": "ікра",
+   "translationStressed": "ікра́",
+   "altTranslations": [
+    "риб’яча ікра"
+   ],
+   "register": "neutral",
+   "genderNote": "ж.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "незлічуване",
+   "ipaGa": "/roʊ/",
+   "ipaRp": "/rəʊ/",
+   "exampleEn": "The chef served toast with salmon roe and a little sour cream.",
+   "exampleUk": "Кухар подав тост з ікрою лосося та невеликою кількістю сметани.",
+   "exampleEn2": "Have you ever tasted fresh roe at the fish market?",
+   "exampleUk2": "Ви коли-небудь куштували свіжу ікру на рибному ринку?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.9
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "0b7890fe-5bb2-551e-a2e7-20f92b40fbc0",
+   "lemma": "haddock",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "haddock"
+   ],
+   "translation": "пікша",
+   "translationStressed": "пі́кша",
+   "altTranslations": [],
+   "register": "neutral",
+   "genderNote": "ж.",
+   "pluralNote": "множина в англійській така сама: haddock",
+   "aspectNote": null,
+   "usageNote": null,
+   "ipaGa": "/ˈhædək/",
+   "ipaRp": "/ˈhædək/",
+   "exampleEn": "Smoked haddock is often cooked in milk for breakfast in Scotland.",
+   "exampleUk": "Копчену пікшу в Шотландії часто готують у молоці на сніданок.",
+   "exampleEn2": "Would you prefer cod or haddock with your chips?",
+   "exampleUk2": "Ви б хотіли тріску чи пікшу до картоплі фрі?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.9
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "48de10e8-462f-5ff4-b56b-645a6388b2dd",
+   "lemma": "crayfish",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "crayfish",
+    "crawfish"
+   ],
+   "translation": "рак",
+   "translationStressed": "рак",
+   "altTranslations": [
+    "річковий рак"
+   ],
+   "register": "neutral",
+   "genderNote": "ч.",
+   "pluralNote": "рак — раки; в англійській множина crayfish",
+   "aspectNote": null,
+   "usageNote": null,
+   "ipaGa": "/ˈkreɪfɪʃ/",
+   "ipaRp": "/ˈkreɪfɪʃ/",
+   "exampleEn": "We caught a few crayfish in the stream behind the cottage.",
+   "exampleUk": "Ми впіймали кілька раків у струмку за дачею.",
+   "exampleEn2": "How long should I boil crayfish before serving them?",
+   "exampleUk2": "Скільки варити раків перед подаванням?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.8
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "62fe546d-d320-5e88-8b28-19f89d42e541",
+   "lemma": "digestif",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "digestif",
+    "digestifs"
+   ],
+   "translation": "дижестив",
+   "translationStressed": "дижести́в",
+   "altTranslations": [],
+   "register": "formal",
+   "genderNote": "ч.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "напій після їжі; протилежне — aperitif",
+   "ipaGa": "/ˌdiʒɛˈstif/",
+   "ipaRp": "/ˌdiːʒɛˈstiːf/",
+   "exampleEn": "The menu lists a herbal digestif on the last page.",
+   "exampleUk": "У меню дижестив на травах зазначено на останній сторінці.",
+   "exampleEn2": "Is a digestif usually served before or after dessert?",
+   "exampleUk2": "Дижестив зазвичай подають до десерту чи після?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.8
+    }
+   ],
+   "widgetSafe": false
+  },
+  {
+   "id": "5eefe8fc-afad-546d-9708-55b279baffe8",
+   "lemma": "sherry",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "sherry",
+    "sherries"
+   ],
+   "translation": "херес",
+   "translationStressed": "хе́рес",
+   "altTranslations": [],
+   "register": "neutral",
+   "genderNote": "ч.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "зазвичай незлічуване",
+   "ipaGa": "/ˈʃɛri/",
+   "ipaRp": "/ˈʃɛri/",
+   "exampleEn": "The recipe calls for a spoonful of sherry in the mushroom sauce.",
+   "exampleUk": "За рецептом у грибний соус додають ложку хересу.",
+   "exampleEn2": "Can I replace the sherry with grape juice in this dish?",
+   "exampleUk2": "Можна замінити херес виноградним соком у цій страві?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.8
+    }
+   ],
+   "widgetSafe": false
+  },
+  {
+   "id": "c4c6560b-cbe4-53d3-8e02-9923891e1b91",
+   "lemma": "vermouth",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "vermouth"
+   ],
+   "translation": "вермут",
+   "translationStressed": "ве́рмут",
+   "altTranslations": [],
+   "register": "neutral",
+   "genderNote": "ч.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "зазвичай незлічуване",
+   "ipaGa": "/vərˈmuθ/",
+   "ipaRp": "/ˈvɜːməθ/",
+   "exampleEn": "Vermouth is flavored with herbs and spices such as wormwood.",
+   "exampleUk": "Вермут ароматизують травами та спеціями, зокрема полином.",
+   "exampleEn2": "Does this sauce really need a splash of vermouth?",
+   "exampleUk2": "Цьому соусу справді потрібно трохи вермуту?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.8
+    }
+   ],
+   "widgetSafe": false
+  },
+  {
+   "id": "a3b38e95-5a7f-5de2-aff8-4cdfc3743b97",
+   "lemma": "mead",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "mead"
+   ],
+   "translation": "медовуха",
+   "translationStressed": "медову́ха",
+   "altTranslations": [
+    "мед"
+   ],
+   "register": "neutral",
+   "genderNote": "ж.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "незлічуване",
+   "ipaGa": "/mid/",
+   "ipaRp": "/miːd/",
+   "exampleEn": "Mead is one of the oldest drinks in human history.",
+   "exampleUk": "Медовуха — один із найдавніших напоїв в історії людства.",
+   "exampleEn2": "Did people in medieval villages really make mead from local honey?",
+   "exampleUk2": "Чи справді в середньовічних селах робили медовуху з місцевого меду?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.75
+    }
+   ],
+   "widgetSafe": false
+  },
+  {
+   "id": "15de488e-d47f-51d6-a34b-f7564dbf9ec7",
+   "lemma": "velvety",
+   "pos": "adjective",
+   "level": "C1",
+   "acceptedForms": [
+    "velvety"
+   ],
+   "translation": "оксамитовий",
+   "translationStressed": "оксами́товий",
+   "altTranslations": [
+    "ніжний",
+    "шовковистий"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": null,
+   "ipaGa": "/ˈvɛlvəti/",
+   "ipaRp": "/ˈvɛlvəti/",
+   "exampleEn": "The pumpkin soup had a velvety texture after we blended it.",
+   "exampleUk": "Гарбузовий суп набув оксамитової текстури після того, як ми його збили.",
+   "exampleEn2": "How do you make such a velvety chocolate mousse?",
+   "exampleUk2": "Як вам вдається такий оксамитовий шоколадний мус?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.8
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "9c33e61a-6279-55c9-aa25-b9034e3c0b57",
+   "lemma": "acrid",
+   "pos": "adjective",
+   "level": "C1",
+   "acceptedForms": [
+    "acrid"
+   ],
+   "translation": "їдкий",
+   "translationStressed": "їдки́й",
+   "altTranslations": [
+    "гірко-пекучий",
+    "різкий"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "про смак і запах",
+   "ipaGa": "/ˈækrɪd/",
+   "ipaRp": "/ˈækrɪd/",
+   "exampleEn": "The burnt garlic gave the whole dish an acrid taste.",
+   "exampleUk": "Підгорілий часник надав усій страві їдкого смаку.",
+   "exampleEn2": "Why does this coffee have such an acrid aftertaste?",
+   "exampleUk2": "Чому в цієї кави такий їдкий післясмак?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.7
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "23896efa-7633-546e-bd81-c30b5cdf0cf9",
+   "lemma": "satiety",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "satiety",
+    "satiated"
+   ],
+   "translation": "ситість",
+   "translationStressed": "си́тість",
+   "altTranslations": [
+    "відчуття насичення"
+   ],
+   "register": "formal",
+   "genderNote": "ж.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "незлічуване",
+   "ipaGa": "/səˈtaɪəti/",
+   "ipaRp": "/səˈtaɪəti/",
+   "exampleEn": "Foods rich in fiber and protein increase the feeling of satiety.",
+   "exampleUk": "Продукти, багаті на клітковину й білок, посилюють відчуття ситості.",
+   "exampleEn2": "Do you notice satiety sooner when you eat slowly?",
+   "exampleUk2": "Ви відчуваєте ситість швидше, коли їсте повільно?",
+   "topics": [
+    {
+     "slug": "health",
+     "confidence": 0.8
+    },
+    {
+     "slug": "food",
+     "confidence": 0.7
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "d19848dd-794f-5720-adf4-9566c4511c78",
+   "lemma": "malnutrition",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "malnutrition",
+    "malnourished"
+   ],
+   "translation": "недоїдання",
+   "translationStressed": "недоїда́ння",
+   "altTranslations": [
+    "неповноцінне харчування"
+   ],
+   "register": "formal",
+   "genderNote": "с.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "незлічуване",
+   "ipaGa": "/ˌmælnuˈtrɪʃən/",
+   "ipaRp": "/ˌmælnjuːˈtrɪʃən/",
+   "exampleEn": "A balanced diet is the simplest way to prevent malnutrition.",
+   "exampleUk": "Збалансований раціон — найпростіший спосіб запобігти недоїданню.",
+   "exampleEn2": "Can malnutrition occur even when a person eats enough calories?",
+   "exampleUk2": "Чи може недоїдання виникати, навіть якщо людина споживає достатньо калорій?",
+   "topics": [
+    {
+     "slug": "health",
+     "confidence": 0.9
+    },
+    {
+     "slug": "food",
+     "confidence": 0.5
+    }
+   ],
+   "widgetSafe": false
+  },
+  {
+   "id": "a105e7cd-8aa2-5dcd-bdf2-f38634209599",
+   "lemma": "pescatarian",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "pescatarian",
+    "pescetarian",
+    "pescatarians"
+   ],
+   "translation": "пескетаріанець",
+   "translationStressed": "пескетаріа́нець",
+   "altTranslations": [
+    "пескетаріанка"
+   ],
+   "register": "neutral",
+   "genderNote": "ч.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "також прикметник: pescatarian diet",
+   "ipaGa": "/ˌpɛskəˈtɛriən/",
+   "ipaRp": "/ˌpɛskəˈteəriən/",
+   "exampleEn": "My sister is a pescatarian, so she eats fish but no chicken.",
+   "exampleUk": "Моя сестра пескетаріанка, тож їсть рибу, але не їсть курки.",
+   "exampleEn2": "Do you have any dishes suitable for a pescatarian?",
+   "exampleUk2": "У вас є страви, що підходять пескетаріанцю?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.85
+    },
+    {
+     "slug": "health",
+     "confidence": 0.5
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "b2ec4b00-6711-59ce-b77b-b6330a6a55c2",
+   "lemma": "sprig",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "sprig",
+    "sprigs"
+   ],
+   "translation": "гілочка",
+   "translationStressed": "гі́лочка",
+   "altTranslations": [
+    "пагінець"
+   ],
+   "register": "neutral",
+   "genderNote": "ж.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "про зелень: a sprig of parsley",
+   "ipaGa": "/sprɪɡ/",
+   "ipaRp": "/sprɪɡ/",
+   "exampleEn": "Garnish the soup with a sprig of fresh dill before serving.",
+   "exampleUk": "Прикрасьте суп гілочкою свіжого кропу перед подаванням.",
+   "exampleEn2": "Could you pick a few sprigs of rosemary from the garden?",
+   "exampleUk2": "Зірвете кілька гілочок розмарину в саду?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.85
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "2800996d-b49c-5009-9ba5-db88398319dd",
+   "lemma": "gratuity",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "gratuity",
+    "gratuities"
+   ],
+   "translation": "чайові",
+   "translationStressed": "чайові́",
+   "altTranslations": [
+    "винагорода за обслуговування"
+   ],
+   "register": "formal",
+   "genderNote": "мн.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "офіційний синонім до tip; у рахунках і правилах",
+   "ipaGa": "/ɡrəˈtuəti/",
+   "ipaRp": "/ɡrəˈtjuːəti/",
+   "exampleEn": "A gratuity of ten percent is added to the bill for large groups.",
+   "exampleUk": "Для великих компаній до рахунку додають чайові в розмірі десяти відсотків.",
+   "exampleEn2": "Is the gratuity already included in the room service price?",
+   "exampleUk2": "Чайові вже включено у вартість обслуговування в номері?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.7
+    },
+    {
+     "slug": "travel",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "fcacee6b-8492-5c5b-9832-7844d56ead34",
+   "lemma": "mouthfeel",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "mouthfeel",
+    "mouth feel",
+    "mouth-feel"
+   ],
+   "translation": "відчуття в роті",
+   "translationStressed": "відчуття́ в ро́ті",
+   "altTranslations": [
+    "текстура страви"
+   ],
+   "register": "neutral",
+   "genderNote": "с.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "незлічуване; термін кулінарів і дегустаторів",
+   "ipaGa": "/ˈmaʊθfil/",
+   "ipaRp": "/ˈmaʊθfiːl/",
+   "exampleEn": "Adding a little cream gives the sauce a richer mouthfeel.",
+   "exampleUk": "Трохи вершків надає соусу насиченішого відчуття в роті.",
+   "exampleEn2": "How would you describe the mouthfeel of this yogurt?",
+   "exampleUk2": "Як би ви описали відчуття в роті від цього йогурту?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.9
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "5ab23e38-0bc7-5e86-bebf-e22fa4d36dff",
+   "lemma": "demi-glace",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "demi-glace",
+    "demi glace",
+    "demiglace"
+   ],
+   "translation": "демігляс",
+   "translationStressed": "демігля́с",
+   "altTranslations": [
+    "соус демі-гляс"
+   ],
+   "register": "neutral",
+   "genderNote": "ч.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "незлічуване",
+   "ipaGa": "/ˌdɛmiˈɡlɑs/",
+   "ipaRp": "/ˌdɛmiˈɡlæs/",
+   "exampleEn": "A good demi-glace takes hours of slow simmering and patience.",
+   "exampleUk": "Хороший демігляс потребує годин повільного томління й терпіння.",
+   "exampleEn2": "Would you serve this steak with demi-glace or with herb butter?",
+   "exampleUk2": "Ви подали б цей стейк із деміглясом чи з маслом із травами?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.9
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "b8ee3d0f-3669-598a-99c6-36fa22642c5b",
+   "lemma": "velouté",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "velouté",
+    "veloute"
+   ],
+   "translation": "велюте",
+   "translationStressed": "велюте́",
+   "altTranslations": [
+    "соус велюте"
+   ],
+   "register": "neutral",
+   "genderNote": "с.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "незмінюване; один із базових соусів французької кухні",
+   "ipaGa": "/vəˈluteɪ/",
+   "ipaRp": "/vəˈluːteɪ/",
+   "exampleEn": "The chef poured a light chicken velouté over the vegetables.",
+   "exampleUk": "Кухар полив овочі легким курячим велюте.",
+   "exampleEn2": "How do you keep a velouté smooth without lumps?",
+   "exampleUk2": "Як зберегти велюте гладким, без грудочок?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.9
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "605e9e07-daa3-5143-82b6-d7ecc3cc1b09",
+   "lemma": "chiffonade",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "chiffonade",
+    "chiffonades"
+   ],
+   "translation": "шифонад",
+   "translationStressed": "шифона́д",
+   "altTranslations": [
+    "нарізка тонкими стрічками"
+   ],
+   "register": "neutral",
+   "genderNote": "ч.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "також дієслово: to chiffonade basil",
+   "ipaGa": "/ˌʃɪfəˈnɑd/",
+   "ipaRp": "/ˌʃɪfəˈnɑːd/",
+   "exampleEn": "Scatter a chiffonade of basil over the pasta just before serving.",
+   "exampleUk": "Посипте пасту шифонадом із базиліку перед самим подаванням.",
+   "exampleEn2": "Can you show me how to cut spinach into a chiffonade?",
+   "exampleUk2": "Покажете, як нарізати шпинат шифонадом?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.9
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "25ad45db-78df-5cc7-9792-b599fa307004",
+   "lemma": "bain-marie",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "bain-marie",
+    "bain-maries",
+    "bain marie"
+   ],
+   "translation": "водяна баня",
+   "translationStressed": "водяна́ ба́ня",
+   "altTranslations": [],
+   "register": "neutral",
+   "genderNote": "ж.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": null,
+   "ipaGa": "/ˌbæn məˈri/",
+   "ipaRp": "/ˌbæn məˈriː/",
+   "exampleEn": "Melt the chocolate gently in a bain-marie so it does not burn.",
+   "exampleUk": "Обережно розтопіть шоколад на водяній бані, щоб він не підгорів.",
+   "exampleEn2": "Do these custards need to be baked in a bain-marie?",
+   "exampleUk2": "Ці заварні креми потрібно випікати на водяній бані?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.9
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "ee099f03-0ddc-57b5-9b28-8902dd6de865",
+   "lemma": "mise en place",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "mise en place",
+    "mise-en-place"
+   ],
+   "translation": "заготовки",
+   "translationStressed": "загото́вки",
+   "altTranslations": [
+    "міз-ан-плас",
+    "підготовка інгредієнтів"
+   ],
+   "register": "neutral",
+   "genderNote": "мн.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "професійний термін кухарів: усе нарізано й розкладено до початку готування",
+   "ipaGa": "/ˌmiz ɑn ˈplɑs/",
+   "ipaRp": "/ˌmiːz ɒn ˈplæs/",
+   "exampleEn": "Good cooks finish their mise en place before the first guest arrives.",
+   "exampleUk": "Хороші кухарі закінчують заготовки до приходу першого гостя.",
+   "exampleEn2": "Is your mise en place ready, or do we still need to chop onions?",
+   "exampleUk2": "Заготовки готові чи ще треба нарізати цибулю?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.9
+    },
+    {
+     "slug": "work",
+     "confidence": 0.4
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "311b113f-f8a5-5736-92cf-3c5a9a324227",
+   "lemma": "spatchcock",
+   "pos": "verb",
+   "level": "C1",
+   "acceptedForms": [
+    "spatchcock",
+    "spatchcocks",
+    "spatchcocked",
+    "spatchcocking"
+   ],
+   "translation": "розпластовувати",
+   "translationStressed": "розпласто́вувати",
+   "altTranslations": [
+    "розрізати й розпластати"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "розпластовувати / розпластати",
+   "usageNote": "про птицю: розрізати вздовж хребта й розкласти пласко",
+   "ipaGa": "/ˈspætʃkɑk/",
+   "ipaRp": "/ˈspætʃkɒk/",
+   "exampleEn": "If you spatchcock the chicken, it will roast evenly in forty minutes.",
+   "exampleUk": "Якщо розпластати курку, вона рівномірно запечеться за сорок хвилин.",
+   "exampleEn2": "Could you spatchcock the turkey for me before I season it?",
+   "exampleUk2": "Розпластаєте мені індичку, перш ніж я її приправлю?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.85
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "46abd544-c674-5aaa-b786-b0fdbdcfd0e5",
+   "lemma": "debone",
+   "pos": "verb",
+   "level": "C1",
+   "acceptedForms": [
+    "debone",
+    "debones",
+    "deboned",
+    "deboning",
+    "de-bone"
+   ],
+   "translation": "видаляти кістки",
+   "translationStressed": "видаля́ти кістки́",
+   "altTranslations": [
+    "обвалювати",
+    "відділяти від кісток"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "видаляти кістки / видалити кістки",
+   "usageNote": null,
+   "ipaGa": "/diˈboʊn/",
+   "ipaRp": "/diːˈbəʊn/",
+   "exampleEn": "The fishmonger deboned the trout for us in two minutes.",
+   "exampleUk": "Продавець риби за дві хвилини видалив кістки з форелі для нас.",
+   "exampleEn2": "Should I debone the chicken thighs before marinating them?",
+   "exampleUk2": "Чи варто видалити кістки з курячих стегенець перед маринуванням?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.85
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "8932717a-debc-510e-b981-28a95f70aff5",
+   "lemma": "macerate",
+   "pos": "verb",
+   "level": "C1",
+   "acceptedForms": [
+    "macerate",
+    "macerates",
+    "macerated",
+    "macerating"
+   ],
+   "translation": "вимочувати",
+   "translationStressed": "вимо́чувати",
+   "altTranslations": [
+    "настоювати в цукрі"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "вимочувати / вимочити",
+   "usageNote": "про фрукти й ягоди: у соку, сиропі або цукрі",
+   "ipaGa": "/ˈmæsəreɪt/",
+   "ipaRp": "/ˈmæsəreɪt/",
+   "exampleEn": "Macerate the strawberries in sugar for an hour to draw out their juice.",
+   "exampleUk": "Вимочіть полуницю в цукрі годину, щоб вона пустила сік.",
+   "exampleEn2": "Did you macerate the berries before adding them to the cake?",
+   "exampleUk2": "Ви вимочували ягоди, перш ніж додати їх у торт?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.85
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "24a8b824-70dc-5b78-90ea-56cd0b774e73",
+   "lemma": "coulis",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "coulis"
+   ],
+   "translation": "кулі",
+   "translationStressed": "кулі́",
+   "altTranslations": [
+    "фруктовий соус"
+   ],
+   "register": "neutral",
+   "genderNote": "с.",
+   "pluralNote": "незмінюване; в англійській множина coulis",
+   "aspectNote": null,
+   "usageNote": null,
+   "ipaGa": "/kuˈli/",
+   "ipaRp": "/ˈkuːli/",
+   "exampleEn": "The cheesecake came with a bright raspberry coulis on the side.",
+   "exampleUk": "Чизкейк подали з яскравим малиновим кулі збоку.",
+   "exampleEn2": "Could you drizzle some mango coulis over the panna cotta?",
+   "exampleUk2": "Полийте панакоту трохи манговим кулі, будь ласка.",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.9
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "4b367aea-60f4-56d3-bcf6-5a19ab7ab39c",
+   "lemma": "profiterole",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "profiterole",
+    "profiteroles"
+   ],
+   "translation": "профітроль",
+   "translationStressed": "профітро́ль",
+   "altTranslations": [
+    "заварна булочка"
+   ],
+   "register": "neutral",
+   "genderNote": "ч.",
+   "pluralNote": "профітроль — профітролі",
+   "aspectNote": null,
+   "usageNote": null,
+   "ipaGa": "/prəˈfɪtəroʊl/",
+   "ipaRp": "/prəˈfɪtərəʊl/",
+   "exampleEn": "She filled each profiterole with vanilla cream and dipped it in chocolate.",
+   "exampleUk": "Вона наповнила кожен профітроль ванільним кремом і вмочила в шоколад.",
+   "exampleEn2": "How many profiteroles do we need for a tower for twenty guests?",
+   "exampleUk2": "Скільки профітролів потрібно на вежу для двадцяти гостей?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.9
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "f062f272-fe17-5a9e-bbac-e4204d9ef36e",
+   "lemma": "mille-feuille",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "mille-feuille",
+    "mille-feuilles",
+    "millefeuille",
+    "mille feuille"
+   ],
+   "translation": "мільфей",
+   "translationStressed": "мільфе́й",
+   "altTranslations": [
+    "наполеон"
+   ],
+   "register": "neutral",
+   "genderNote": "ч.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": null,
+   "ipaGa": "/ˌmilˈfɜɪ/",
+   "ipaRp": "/ˌmiːlˈfɜːj/",
+   "exampleEn": "The bakery sells a classic mille-feuille with three layers of pastry.",
+   "exampleUk": "Пекарня продає класичний мільфей із трьох шарів листкового тіста.",
+   "exampleEn2": "Shall we share a mille-feuille, or do you want your own?",
+   "exampleUk2": "Поділимо мільфей чи ви хочете свій?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.9
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "e1f1505f-83b5-53b1-ab15-abbba38c5bce",
+   "lemma": "frangipane",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "frangipane",
+    "frangipani"
+   ],
+   "translation": "франжипан",
+   "translationStressed": "франжипа́н",
+   "altTranslations": [
+    "мигдалевий крем"
+   ],
+   "register": "neutral",
+   "genderNote": "ч.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "незлічуване",
+   "ipaGa": "/ˈfrændʒɪpæn/",
+   "ipaRp": "/ˈfrændʒɪpæn/",
+   "exampleEn": "Spread the frangipane over the pastry and arrange the pear slices on top.",
+   "exampleUk": "Розподіліть франжипан по тісту й викладіть зверху скибочки груші.",
+   "exampleEn2": "Does this tart have frangipane or just plain custard inside?",
+   "exampleUk2": "У цьому тарті франжипан чи просто заварний крем?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.9
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "2b898c77-49f1-58a3-b445-9f8931f189c1",
+   "lemma": "couverture",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "couverture"
+   ],
+   "translation": "кувертюр",
+   "translationStressed": "кувертю́р",
+   "altTranslations": [
+    "шоколад для глазурування"
+   ],
+   "register": "neutral",
+   "genderNote": "ч.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "незлічуване",
+   "ipaGa": "/ˌkuvərˈtʊr/",
+   "ipaRp": "/ˌkuːvəˈtjʊə/",
+   "exampleEn": "Pastry chefs use couverture because it melts smoothly and sets with a shine.",
+   "exampleUk": "Кондитери використовують кувертюр, бо він плавно тане й застигає з блиском.",
+   "exampleEn2": "Where can I buy dark couverture in small quantities?",
+   "exampleUk2": "Де можна купити темний кувертюр невеликими порціями?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.9
+    },
+    {
+     "slug": "shopping",
+     "confidence": 0.3
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "08692a9b-7390-5267-9ca8-807e8d443445",
+   "lemma": "egg wash",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "egg wash",
+    "eggwash",
+    "egg-wash"
+   ],
+   "translation": "льєзон",
+   "translationStressed": "льєзо́н",
+   "altTranslations": [
+    "збите яйце для змащування"
+   ],
+   "register": "neutral",
+   "genderNote": "ч.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "кулінарний термін; зазвичай незлічуване",
+   "ipaGa": "/ˈɛɡ wɑʃ/",
+   "ipaRp": "/ˈɛɡ wɒʃ/",
+   "exampleEn": "Brush the rolls with egg wash so they turn golden in the oven.",
+   "exampleUk": "Змастіть булочки льєзоном, щоб вони стали золотистими в духовці.",
+   "exampleEn2": "Did you remember to apply egg wash before baking the pie?",
+   "exampleUk2": "Ви не забули змастити пиріг збитим яйцем перед випіканням?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.9
+    }
+   ],
+   "widgetSafe": true,
+   "regenerated": 1
+  },
+  {
+   "id": "d5721de9-3cff-599b-aa22-3a2b44065f16",
+   "lemma": "levain",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "levain"
+   ],
+   "translation": "закваска",
+   "translationStressed": "заква́ска",
+   "altTranslations": [
+    "левен",
+    "натуральна закваска"
+   ],
+   "register": "neutral",
+   "genderNote": "ж.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "у пекарському жаргоні; загальне слово — sourdough starter",
+   "ipaGa": "/ləˈvæn/",
+   "ipaRp": "/ləˈvæn/",
+   "exampleEn": "My levain needs feeding twice a day to stay active and bubbly.",
+   "exampleUk": "Мою закваску треба підгодовувати двічі на день, щоб вона лишалася активною й пухирчастою.",
+   "exampleEn2": "How old is the levain you use for your weekend loaves?",
+   "exampleUk2": "Скільки років заквасці, на якій ви печете хліб на вихідних?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.85
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "a61fb0c8-2a9c-5ae7-8159-ae24422212af",
+   "lemma": "gastronome",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "gastronome",
+    "gastronomes"
+   ],
+   "translation": "гастроном",
+   "translationStressed": "гастроно́м",
+   "altTranslations": [
+    "знавець кухні",
+    "гурман"
+   ],
+   "register": "formal",
+   "genderNote": "ч.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "про людину, а не про магазин",
+   "ipaGa": "/ˈɡæstrənoʊm/",
+   "ipaRp": "/ˈɡæstrənəʊm/",
+   "exampleEn": "As a true gastronome, Tom plans his trips around local markets and restaurants.",
+   "exampleUk": "Як справжній гастроном, Том планує подорожі навколо місцевих ринків і ресторанів.",
+   "exampleEn2": "Which Lviv restaurant would a gastronome recommend to a first-time visitor?",
+   "exampleUk2": "Який львівський ресторан гастроном порадив би новому гостю міста?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.85
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "da05a38c-0773-56c8-89a8-e50d3e74cae2",
+   "lemma": "epicure",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "epicure",
+    "epicures"
+   ],
+   "translation": "гурман",
+   "translationStressed": "гурма́н",
+   "altTranslations": [
+    "поціновувач вишуканої їжі"
+   ],
+   "register": "formal",
+   "genderNote": "ч.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "книжне; прикметник epicurean",
+   "ipaGa": "/ˈɛpɪkjʊr/",
+   "ipaRp": "/ˈɛpɪkjʊə/",
+   "exampleEn": "My aunt is an epicure who notices every spice in a dish.",
+   "exampleUk": "Моя тітка — гурман, яка помічає кожну спецію в страві.",
+   "exampleEn2": "Would an epicure really enjoy such a simple bowl of soup?",
+   "exampleUk2": "Чи справді гурман оцінив би таку просту тарілку супу?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.8
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "bdb4221f-788f-530f-887f-e4006f6af3ae",
+   "lemma": "gluttony",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "gluttony"
+   ],
+   "translation": "обжерливість",
+   "translationStressed": "обже́рливість",
+   "altTranslations": [
+    "ненажерливість"
+   ],
+   "register": "formal",
+   "genderNote": "ж.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "незлічуване",
+   "ipaGa": "/ˈɡlʌtəni/",
+   "ipaRp": "/ˈɡlʌtəni/",
+   "exampleEn": "The festival felt like pure gluttony, with new dishes at every stall.",
+   "exampleUk": "Фестиваль здавався суцільною обжерливістю: на кожній ятці нові страви.",
+   "exampleEn2": "Where is the line between healthy appetite and gluttony?",
+   "exampleUk2": "Де межа між здоровим апетитом і обжерливістю?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.7
+    },
+    {
+     "slug": "health",
+     "confidence": 0.4
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "59c8f809-e458-5313-9637-0240e14a0178",
+   "lemma": "oenophile",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "oenophile",
+    "oenophiles",
+    "enophile"
+   ],
+   "translation": "енофіл",
+   "translationStressed": "енофі́л",
+   "altTranslations": [
+    "знавець вин"
+   ],
+   "register": "formal",
+   "genderNote": "ч.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "книжне",
+   "ipaGa": "/ˈinəfaɪl/",
+   "ipaRp": "/ˈiːnəfaɪl/",
+   "exampleEn": "My uncle is a keen oenophile who keeps notes on every vineyard he visits.",
+   "exampleUk": "Мій дядько — завзятий енофіл, який веде нотатки про кожен виноградник, що відвідує.",
+   "exampleEn2": "Would an oenophile find this small regional museum interesting?",
+   "exampleUk2": "Чи буде енофілу цікавий цей невеликий регіональний музей?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.7
+    }
+   ],
+   "widgetSafe": false
+  },
+  {
+   "id": "23dd5b76-45e8-5fea-a782-3bf1b72b3103",
+   "lemma": "forager",
+   "pos": "noun",
+   "level": "C1",
+   "acceptedForms": [
+    "forager",
+    "foragers"
+   ],
+   "translation": "збирач дикоросів",
+   "translationStressed": "збира́ч дикоро́сів",
+   "altTranslations": [
+    "збирачка дикоросів"
+   ],
+   "register": "neutral",
+   "genderNote": "ч.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "дієслово forage — збирати гриби, ягоди, трави в дикій природі",
+   "ipaGa": "/ˈfɔrɪdʒər/",
+   "ipaRp": "/ˈfɒrɪdʒə/",
+   "exampleEn": "An experienced forager showed us which wild mushrooms are safe to eat.",
+   "exampleUk": "Досвідчений збирач дикоросів показав нам, які лісові гриби безпечно їсти.",
+   "exampleEn2": "Do foragers really find wild garlic this close to the city?",
+   "exampleUk2": "Невже збирачі дикоросів знаходять черемшу так близько до міста?",
+   "topics": [
+    {
+     "slug": "food",
+     "confidence": 0.8
+    }
+   ],
+   "widgetSafe": true
+  }
+ ]
+}

@@ -68,6 +68,7 @@ python content/pipeline/inventory/merge_proposals.py                 # → inven
 python content/pipeline/inventory/merge_phrases.py --write           # → inventory/<LEVEL>-PNN.json (чанки по 40 для generate-v1), phrases-proposals.json, lemmas.txt; без --write лише статистика
 #   новий етап слів (01.11.2026, журнал п. 21): агенти за промтами propose-c1c2-v1 (шість ділянок) і propose-topical-v1 (п'ять тем) → inventory/proposals-2026-11/<area>-NN.json; потім:
 python content/pipeline/inventory/merge_words.py --write             # → inventory/<LEVEL>-WNN.json, words-2026-11-proposals.json, lemmas.txt
+#   результат 01.11.2026: 5 240 лексем у 134 чанках; згенеровано й зарецензовано п'ятьма воркфлоу generate-chunks.js (бал 4,937), пакети 17 601 запис / 61 пакет
 #   генерація: Workflow-скрипт content/pipeline/workflows/generate-chunks.js з args {chunks: [...]} (generate → review → fix на чанк, check_chunk.py як ворота)
 python content/pipeline/inventory/build_inventory.py --extra content/generated/uk-en/inventory/c1c2-proposals.json
 #   воркфлоу burdock-content-generate (промти content/pipeline/prompts/generate-v1.md, review-v1.md) → chunks/*.json, reviews/*.review.json
