@@ -58,6 +58,7 @@ public sealed partial class MascotView : GraphicsView, IDrawable
     private double _lastTick;
     private bool _windowActive = true;
     private bool _hasDrawn;
+    private bool _holdGrowth;
 
     public MascotView()
     {
@@ -67,7 +68,11 @@ public sealed partial class MascotView : GraphicsView, IDrawable
         var tap = new TapGestureRecognizer();
         tap.Tapped += (_, _) => Poke();
         GestureRecognizers.Add(tap);
+        _animator.Burst += () => Burst?.Invoke(this, EventArgs.Empty);
     }
+
+    /// <summary>The burst of a stage-up ceremony, when the new form springs out; pages play the success haptic.</summary>
+    public event EventHandler? Burst;
 
     /// <summary>The learner touched the burr (after the reaction started); pages play the haptic.</summary>
     public event EventHandler? Poked;
@@ -154,6 +159,37 @@ public sealed partial class MascotView : GraphicsView, IDrawable
         return done.Task;
     }
 
+    /// <summary>
+    /// Stage-up ceremony (spec 02 §3.8 «Переродження»): the burr holds its old form, gathers light with closed eyes, shivers, flashes, and the
+    /// new form with its new parts bursts out, surprised then delighted. Completes when the ceremony is over. Under Reduce Motion it snaps.
+    /// </summary>
+    public Task EvolveAsync(GrowthStage stage, double progress)
+    {
+        if (ReduceMotion)
+        {
+            SetGrowth(stage, progress, animate: false);
+            return Task.CompletedTask;
+        }
+
+        _holdGrowth = true;
+        Stage = stage;
+        Progress = progress;
+        _holdGrowth = false;
+
+        var done = new TaskCompletionSource();
+        void Finished()
+        {
+            _animator.MetamorphosisFinished -= Finished;
+            done.TrySetResult();
+        }
+
+        _animator.MetamorphosisFinished += Finished;
+        _animator.StartMetamorphosis(Target());
+        SyncTicker();
+        Invalidate();
+        return done.Task;
+    }
+
     /// <summary>A touch: a happy hop with lifted brows (a stir when asleep); only the event under Reduce Motion.</summary>
     public void Poke()
     {
@@ -178,6 +214,11 @@ public sealed partial class MascotView : GraphicsView, IDrawable
 
     private void OnGrowthChanged()
     {
+        if (_holdGrowth)
+        {
+            return;
+        }
+
         _animator.SetGrowth(Target(), animate: _hasDrawn && !ReduceMotion, GrowthSettle());
         SyncTicker();
         Invalidate();

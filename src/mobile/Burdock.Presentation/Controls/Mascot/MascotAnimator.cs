@@ -22,6 +22,7 @@ public sealed partial class MascotAnimator
 
     private Spring _growth;
     private Spring _squash;
+    private Spring _pop;
 
     private double _delightStart = double.NegativeInfinity;
     private double _delightDuration;
@@ -36,6 +37,7 @@ public sealed partial class MascotAnimator
         _faceFrom = _faceTo;
         _growth = new Spring(growthSettleSeconds, MascotChoreography.GrowthDampingRatio, Math.Clamp(growth, 0, 1));
         _squash = new Spring(MascotChoreography.SquashSettle, MascotChoreography.SquashDampingRatio, 0);
+        _pop = new Spring(MascotChoreography.PopSettle, MascotChoreography.PopDampingRatio, 1);
         _pose = MascotPose.Rest(mood, growth);
         _nextBlinkAt = double.PositiveInfinity;
         _nextSaccadeAt = double.PositiveInfinity;
@@ -77,7 +79,7 @@ public sealed partial class MascotAnimator
     }
 
     /// <summary>True while something still moves that is not plain idle life; the view keeps ticking while this or <see cref="Idle"/> holds.</summary>
-    public bool IsBusy => _moodBlend < 1 || _growth.IsActive || _squash.IsActive || IsFeeding || _gesture != Gesture.None || DelightActive;
+    public bool IsBusy => _moodBlend < 1 || _growth.IsActive || _squash.IsActive || _pop.IsActive || IsFeeding || IsEvolving || _gesture != Gesture.None || DelightActive;
 
     /// <summary>True while something fast is on screen (a reaction, a blink, a saccade); the view draws these at 60 fps and quiet breathing at 20.</summary>
     public bool IsLively => IsBusy || IsBlinking || IsSaccading;
@@ -113,6 +115,12 @@ public sealed partial class MascotAnimator
     public void SetGrowth(double target, bool animate, double settleSeconds)
     {
         target = Math.Clamp(target, 0, 1);
+        if (_evolving)
+        {
+            _evolveTarget = target;
+            return;
+        }
+
         if (!animate)
         {
             _growth = new Spring(settleSeconds, MascotChoreography.GrowthDampingRatio, target);
@@ -152,6 +160,7 @@ public sealed partial class MascotAnimator
 
         _growth.Step(dt);
         _squash.Step(dt);
+        _pop.Step(dt);
 
         var frame = new Frame { ScaleX = 1, ScaleY = 1, BlinkFactor = 1 };
         if (_idle)
@@ -162,6 +171,7 @@ public sealed partial class MascotAnimator
 
         StepGesture(ref frame);
         StepFeed(dt, ref frame);
+        StepMetamorphosis(ref frame);
         if (_idle)
         {
             StepSaccades();
@@ -175,11 +185,12 @@ public sealed partial class MascotAnimator
         frame.ScaleX *= 1 - squash * MascotChoreography.SquashWidthRatio;
 
         var face = CurrentFace();
-        var eyeOpen = Math.Max(face.EyeOpen * frame.BlinkFactor, frame.EyeOverride);
+        var eyeOpen = Math.Max(face.EyeOpen * frame.BlinkFactor, frame.EyeOverride) * (1 - Math.Clamp(frame.EyeClose, 0, 1));
         var gazeWeight = Math.Clamp((eyeOpen - 0.15) / 0.3, 0, 1);
         face = face with
         {
             EyeOpen = Math.Clamp(eyeOpen, 0, 1),
+            EyeScale = face.EyeScale + frame.EyeScaleAdd,
             LookX = face.LookX + frame.GazeX * gazeWeight,
             LookY = face.LookY + frame.GazeY * gazeWeight,
             BrowLiftL = face.BrowLiftL + frame.BrowLift,
@@ -206,7 +217,11 @@ public sealed partial class MascotAnimator
             _moodFrom,
             _mood,
             blend,
-            _t);
+            _t,
+            frame.Glow,
+            frame.Flash,
+            frame.Ring,
+            _pop.Value);
     }
 
     private FaceParams CurrentFace() => _moodBlend >= 1 ? _faceTo : FaceParams.Lerp(_faceFrom, _faceTo, EaseStandard(_moodBlend));
@@ -285,5 +300,10 @@ public sealed partial class MascotAnimator
         public double GazeX;
         public double GazeY;
         public double MouthOpen;
+        public double EyeClose;
+        public double EyeScaleAdd;
+        public double Glow;
+        public double Flash;
+        public double Ring;
     }
 }

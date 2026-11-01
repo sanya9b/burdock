@@ -345,6 +345,91 @@ public sealed class MascotAnimatorTests
         spring.Value.ShouldBe(1);
     }
 
+    [Fact]
+    public void Metamorphosis_holds_the_old_form_gathers_light_bursts_pops_the_new_form_and_finishes_once()
+    {
+        var animator = new MascotAnimator(MascotMood.Party, 0.62, new Random(9));
+        var bursts = 0;
+        var finished = 0;
+        double? finishedAt = null;
+        animator.Burst += () => bursts++;
+        animator.MetamorphosisFinished += () => { finished++; finishedAt ??= animator.Time; };
+        var glowBeforeBurst = 0.0;
+        var flash = 0.0;
+        var ringSeen = false;
+        var pop = 0.0;
+        var growth = 0.0;
+        var eyesShutBeforeBurst = false;
+        var eyesWideAfterBurst = false;
+        var sparksSeen = false;
+
+        animator.StartMetamorphosis(0.76);
+        animator.IsEvolving.ShouldBeTrue();
+        animator.IsBusy.ShouldBeTrue();
+        Run(animator, 4.5, pose =>
+        {
+            var t = animator.Time;
+            if (t < 1.1)
+            {
+                pose.Growth.ShouldBe(0.62);
+                pose.Ring.ShouldBe(0);
+                glowBeforeBurst = Math.Max(glowBeforeBurst, pose.Glow);
+                sparksSeen |= animator.Sparks.Count > 0 && animator.Sparks.Any(sp => sp.Alpha > 0.5);
+            }
+
+            if (t is > 0.9 and < 1.05)
+            {
+                eyesShutBeforeBurst |= pose.Face.EyeOpen < 0.05;
+            }
+
+            if (t is > 1.2 and < 1.5)
+            {
+                eyesWideAfterBurst |= pose.Face.EyeOpen > 0.9 && pose.Face.EyeScale > 1.1 && pose.MouthOpen > 0.5;
+            }
+
+            flash = Math.Max(flash, pose.Flash);
+            ringSeen |= pose.Ring is > 0 and < 1;
+            pop = Math.Max(pop, pose.Pop);
+            growth = Math.Max(growth, pose.Growth);
+            pose.Pop.ShouldBeGreaterThanOrEqualTo(0);
+        });
+
+        glowBeforeBurst.ShouldBeGreaterThan(0.9);
+        sparksSeen.ShouldBeTrue();
+        eyesShutBeforeBurst.ShouldBeTrue();
+        flash.ShouldBeGreaterThan(0.8);
+        ringSeen.ShouldBeTrue();
+        eyesWideAfterBurst.ShouldBeTrue();
+        pop.ShouldBeGreaterThan(1.1);
+        growth.ShouldBeGreaterThan(0.76);
+        growth.ShouldBeLessThan(0.76 + 0.14 * 0.5);
+        bursts.ShouldBe(1);
+        finished.ShouldBe(1);
+        finishedAt.ShouldNotBeNull();
+        finishedAt.Value.ShouldBeInRange(2.5, 2.8);
+        animator.IsEvolving.ShouldBeFalse();
+        animator.Sparks.ShouldBeEmpty();
+        animator.Growth.ShouldBe(0.76);
+        animator.Pose.Growth.ShouldBe(0.76, 1e-3);
+        animator.Pose.Pop.ShouldBe(1, 1e-2);
+        animator.Pose.Flash.ShouldBe(0);
+        animator.IsBusy.ShouldBeFalse();
+    }
+
+    [Fact]
+    public void Growth_set_during_a_metamorphosis_only_moves_its_target()
+    {
+        var animator = new MascotAnimator(MascotMood.Party, 0.5, new Random(2));
+
+        animator.StartMetamorphosis(0.63);
+        animator.SetGrowth(0.66, animate: false, settleSeconds: 0.6);
+        Run(animator, 0.5);
+
+        animator.Pose.Growth.ShouldBe(0.5);
+        Run(animator, 3.5);
+        animator.Pose.Growth.ShouldBe(0.66, 1e-3);
+    }
+
     private static void Run(MascotAnimator animator, double seconds, Action<MascotPose>? each = null)
     {
         var steps = (int)Math.Round(seconds / Frame);

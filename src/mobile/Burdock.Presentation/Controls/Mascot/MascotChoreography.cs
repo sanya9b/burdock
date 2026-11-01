@@ -78,4 +78,24 @@ public static class MascotChoreography
     public const double FeedEyesOpenIn = 0.15;
     public const double FeedEyesCloseOut = 0.3;
     public const int MaxSeeds = 12;
+
+    // Metamorphosis, the stage-up ceremony (spec 02 §3.8 «Переродження»): gather light with closed eyes, shiver as the charge builds, flash and
+    // burst a ring while the new form pops out with a strong overshoot, a beat of surprise, then delight and a hop.
+    public const double EvolveGather = 0.6;
+    public const double EvolveCharge = 0.5;
+    public const double EvolveReveal = 1.5;
+    public const double EvolveSurpriseHold = 0.5;
+    public const double EvolveDelight = 0.9;
+    public const double EvolveFlashRise = 0.15;
+    public const double EvolveFlashFall = 0.35;
+    public const double EvolveFlashPeak = 1.0;
+    public const double EvolveRingDuration = 0.55;
+    public const double EvolveShiverHz = 9;
+    public const double EvolveShiverAmplitude = 2.5;
+    public const double EvolveDampingRatio = 0.35;
+    public const double EvolveSettle = 0.7;
+    public const double EvolveStretchImpulse = 1.4;
+    public const double PopSettle = 0.6;
+    public const double PopDampingRatio = 0.35;
+    public const int EvolveSparks = 12;
 }

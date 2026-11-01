@@ -60,18 +60,41 @@ public sealed partial class MascotView
         canvas.Scale((float)pose.ScaleX, (float)pose.ScaleY);
         canvas.Translate(-cx, -anchorY);
 
-        if (stageIndex == GrowthRules.StageCount - 1)
+        var pop = (float)Math.Max(0, pose.Pop);
+        if (pose.Glow > 0.01)
         {
-            DrawAura(canvas, cx, cy, r, u, side, frac, pose.Time);
+            DrawGlow(canvas, cx, cy, r, (float)pose.Glow);
         }
 
-        DrawLeaves(canvas, cx, cy, r, u, stageIndex, frac, pose.LeafSway);
+        if (stageIndex == GrowthRules.StageCount - 1)
+        {
+            DrawAura(canvas, cx, cy, r, u, side, frac * pop, pose.Time);
+        }
+
+        DrawLeaves(canvas, cx, cy, r, u, stageIndex, pop, pose.LeafSway);
         DrawHooks(canvas, cx, cy, r, u, hookLen, hookCount, pose);
         DrawBody(canvas, cx, cy, r, u);
-        DrawTopper(canvas, cx, cy, r, u, hookLen, stageIndex, frac, pose.LeafSway);
+        DrawTopper(canvas, cx, cy, r, u, hookLen, stageIndex, pop, pose.LeafSway);
         DrawFace(canvas, cx, cy, u, pose);
         DrawExtras(canvas, cx, cy, r, u, pose);
+        if (pose.Flash > 0.01)
+        {
+            // The white-out of the burst: the old form disappears into light and the new one is what the fading flash reveals.
+            canvas.SaveState();
+            canvas.Alpha = (float)Math.Min(1, pose.Flash);
+            canvas.FillColor = EyeColor;
+            canvas.FillCircle(cx, cy, r * 1.35f + hookLen);
+            canvas.RestoreState();
+        }
+
         canvas.RestoreState();
+
+        if (pose.Ring > 0.001 && pose.Ring < 1)
+        {
+            DrawRing(canvas, cx, cy + lift, r, u, side, (float)pose.Ring);
+        }
+
+        DrawSparks(canvas, cx, cy + lift, r);
 
         if (pose.MoodTo == MascotMood.Party || pose.MoodFrom == MascotMood.Party)
         {
@@ -91,6 +114,55 @@ public sealed partial class MascotView
         canvas.FillColor = BodyShadeColor;
         canvas.FillEllipse(cx - rx, y - ry + 2 * u, 2 * rx, 2 * ry);
         canvas.RestoreState();
+    }
+
+    /// <summary>Light gathered before the burst: a soft gold halo with a brighter lavender core, growing with the charge.</summary>
+    private void DrawGlow(ICanvas canvas, float cx, float cy, float r, float glow)
+    {
+        canvas.SaveState();
+        canvas.Alpha = 0.35f * glow;
+        canvas.FillColor = AccentColor;
+        canvas.FillCircle(cx, cy, r * (1.35f + 0.4f * glow));
+        canvas.Alpha = 0.45f * glow;
+        canvas.FillColor = BodyLightColor;
+        canvas.FillCircle(cx, cy, r * (1.1f + 0.2f * glow));
+        canvas.RestoreState();
+    }
+
+    /// <summary>The ring of light after the burst: expands from the rim to the edge of the view over its whole life, thinning and fading.</summary>
+    private void DrawRing(ICanvas canvas, float cx, float cy, float r, float u, float side, float ring)
+    {
+        var start = r * 1.05f;
+        var end = Math.Max(start + u, Math.Min(r * 3f, side * 0.5f - 2 * u));
+        var eased = 1 - (1 - ring) * (1 - ring);
+        canvas.SaveState();
+        canvas.Alpha = 1 - ring;
+        canvas.StrokeColor = AccentColor;
+        canvas.StrokeSize = Math.Max(1, 8 * u * (1 - ring));
+        canvas.DrawCircle(cx, cy, start + (end - start) * eased);
+        canvas.RestoreState();
+    }
+
+    private void DrawSparks(ICanvas canvas, float cx, float cy, float r)
+    {
+        if (ReduceMotion || !_animator.IsEvolving)
+        {
+            return;
+        }
+
+        foreach (var spark in _animator.Sparks)
+        {
+            if (spark.Alpha <= 0.01)
+            {
+                continue;
+            }
+
+            canvas.SaveState();
+            canvas.Alpha = (float)spark.Alpha;
+            canvas.FillColor = AccentColor;
+            DrawSparkle(canvas, cx + (float)spark.X * r, cy + (float)spark.Y * r, (float)spark.Size * r);
+            canvas.RestoreState();
+        }
     }
 
     private void DrawAura(ICanvas canvas, float cx, float cy, float r, float u, float side, double frac, double time)
@@ -124,7 +196,8 @@ public sealed partial class MascotView
         canvas.FillPath(path);
     }
 
-    private void DrawLeaves(ICanvas canvas, float cx, float cy, float r, float u, int stageIndex, double frac, double sway)
+    /// <summary>Leaves by stage; the pairs new to the current stage scale by <paramref name="pop"/> (they burst out at the stage-up ceremony).</summary>
+    private void DrawLeaves(ICanvas canvas, float cx, float cy, float r, float u, int stageIndex, float pop, double sway)
     {
         var count = LeafCountByStage[stageIndex];
         if (count == 0)
@@ -136,7 +209,7 @@ public sealed partial class MascotView
         var originY = cy + r * 0.6f;
         for (var pair = 0; pair < count / 2; pair++)
         {
-            var scale = 2 * pair >= previous ? SmoothStep(Math.Min(1, frac * 3)) : 1;
+            var scale = 2 * pair >= previous ? pop : 1;
             if (scale <= 0.01)
             {
                 continue;
@@ -284,7 +357,8 @@ public sealed partial class MascotView
         canvas.RestoreState();
     }
 
-    private void DrawTopper(ICanvas canvas, float cx, float cy, float r, float u, float hookLen, int stageIndex, double frac, double sway)
+    /// <summary>Bud and blooms; the crown changes at every stage from the bud on, so it scales by <paramref name="pop"/>.</summary>
+    private void DrawTopper(ICanvas canvas, float cx, float cy, float r, float u, float hookLen, int stageIndex, float pop, double sway)
     {
         if (stageIndex < (int)GrowthStage.Bud - 1)
         {
@@ -292,7 +366,7 @@ public sealed partial class MascotView
         }
 
         var topY = cy - r - hookLen * 0.5f;
-        var scaleIn = (float)SmoothStep(Math.Min(1, frac * 4));
+        var scaleIn = pop;
         if (scaleIn <= 0.01f)
         {
             return;

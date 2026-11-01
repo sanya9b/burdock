@@ -30,6 +30,7 @@ public partial class SessionSummaryPage : ContentPage, IQueryAttributable
         Celebration.Haptics = _haptics;
         Mascot.ReduceMotion = _motion.ReduceMotion;
         Mascot.Poked += (_, _) => _haptics.Light();
+        Mascot.Burst += (_, _) => _haptics.Success();
         _viewModel.DeferCelebrations = !_motion.ReduceMotion;
     }
 
@@ -116,13 +117,22 @@ public partial class SessionSummaryPage : ContentPage, IQueryAttributable
             return;
         }
 
-        // Let the pop-in settle, then the seeds fly in, the burr gulps and grows; only then may a celebration card cover it.
+        // Let the pop-in settle, then the seeds fly in and the burr gulps. A new stage plays the full ceremony (spec 02 §3.8 «Переродження»),
+        // otherwise the burr simply springs to its new size; only then may a celebration card cover it.
         var celebrate = Duration("MotionDurationCelebrate", 600);
         await Task.Delay((int)Duration("MotionDurationSlow", 320)).ConfigureAwait(true);
         await Mascot.FeedAsync(_viewModel.FeedSeeds, celebrate).ConfigureAwait(true);
         _haptics.Light();
-        Mascot.SetGrowth(after.Stage, after.Progress, animate: true);
-        await Task.Delay((int)celebrate).ConfigureAwait(true);
+        if (after.Stage != _viewModel.MascotStage)
+        {
+            await Mascot.EvolveAsync(after.Stage, after.Progress).ConfigureAwait(true);
+        }
+        else
+        {
+            Mascot.SetGrowth(after.Stage, after.Progress, animate: true);
+            await Task.Delay((int)celebrate).ConfigureAwait(true);
+        }
+
         _viewModel.BeginCelebrations();
     }
 

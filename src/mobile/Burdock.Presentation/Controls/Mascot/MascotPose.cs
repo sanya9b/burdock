@@ -21,6 +21,10 @@ namespace Burdock.Presentation.Controls.Mascot;
 /// <param name="MoodTo">Current mood.</param>
 /// <param name="MoodBlend">0..1 crossfade of the mood extras.</param>
 /// <param name="Time">Seconds since the animator started; drives loops the drawing owns (floating zees, pulsing dots).</param>
+/// <param name="Glow">0..1 light gathered around the body during the stage-up ceremony.</param>
+/// <param name="Flash">0..1 white-out of the burr at the burst of the ceremony.</param>
+/// <param name="Ring">0..1 progress of the ring of light expanding after the burst (0 = none).</param>
+/// <param name="Pop">Scale of the parts new to the current stage: 0 hidden, overshoots above 1 right after the burst, 1 at rest.</param>
 public readonly record struct MascotPose(
     double ScaleX,
     double ScaleY,
@@ -39,9 +43,13 @@ public readonly record struct MascotPose(
     MascotMood MoodFrom,
     MascotMood MoodTo,
     double MoodBlend,
-    double Time)
+    double Time,
+    double Glow,
+    double Flash,
+    double Ring,
+    double Pop)
 {
     /// <summary>The still frame of a mood (Reduce Motion, or before the first tick).</summary>
     public static MascotPose Rest(MascotMood mood, double growth)
-        => new(1, 1, 0, 0, 0, 0, 0, 0, growth, FaceParams.For(mood), FaceParams.MouthFor(mood), FaceParams.MouthFor(mood), 1, 0, mood, mood, 1, 0);
+        => new(1, 1, 0, 0, 0, 0, 0, 0, growth, FaceParams.For(mood), FaceParams.MouthFor(mood), FaceParams.MouthFor(mood), 1, 0, mood, mood, 1, 0, 0, 0, 0, 1);
 }
