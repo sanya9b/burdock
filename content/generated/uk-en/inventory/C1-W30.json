@@ -1,0 +1,642 @@
+{
+ "chunk": "C1-W30",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "308a48db-bf5b-550d-ba41-3dd4a61b6630",
+   "lemma": "nougat",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nougat"
+   ],
+   "glossEn": "chewy sweet of sugar, nuts and egg white",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "f735f580-2485-5369-9281-27b91f2f13c5",
+   "lemma": "praline",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "praline",
+    "pralines"
+   ],
+   "glossEn": "sweet of nuts cooked in caramelized sugar",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "124eb399-3aae-5192-a720-961795cb0245",
+   "lemma": "whey",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "whey"
+   ],
+   "glossEn": "watery liquid left after milk curdles",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "55c16853-e3a1-57db-a899-52bdf4b653e3",
+   "lemma": "ghee",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ghee"
+   ],
+   "glossEn": "clarified butter used in Indian cooking",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "2f2f6435-54cb-5833-86c1-b4c48da313a0",
+   "lemma": "offal",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "offal"
+   ],
+   "glossEn": "internal organs of animals eaten as food",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "dc84c245-e969-5c5a-a63e-ffee856aea3d",
+   "lemma": "roe",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "roe"
+   ],
+   "glossEn": "mass of fish eggs eaten as food",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "0b7890fe-5bb2-551e-a2e7-20f92b40fbc0",
+   "lemma": "haddock",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "haddock"
+   ],
+   "glossEn": "white sea fish like cod, often smoked",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "48de10e8-462f-5ff4-b56b-645a6388b2dd",
+   "lemma": "crayfish",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "crayfish",
+    "crawfish"
+   ],
+   "glossEn": "small freshwater lobster-like shellfish",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "62fe546d-d320-5e88-8b28-19f89d42e541",
+   "lemma": "digestif",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "digestif",
+    "digestifs"
+   ],
+   "glossEn": "strong drink taken after a meal",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "5eefe8fc-afad-546d-9708-55b279baffe8",
+   "lemma": "sherry",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sherry",
+    "sherries"
+   ],
+   "glossEn": "fortified Spanish wine, dry or sweet",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "c4c6560b-cbe4-53d3-8e02-9923891e1b91",
+   "lemma": "vermouth",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vermouth"
+   ],
+   "glossEn": "herb-flavored fortified wine used in cocktails",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "a3b38e95-5a7f-5de2-aff8-4cdfc3743b97",
+   "lemma": "mead",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mead"
+   ],
+   "glossEn": "ancient alcoholic drink made from honey",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "15de488e-d47f-51d6-a34b-f7564dbf9ec7",
+   "lemma": "velvety",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "velvety"
+   ],
+   "glossEn": "extremely smooth and soft in the mouth",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "9c33e61a-6279-55c9-aa25-b9034e3c0b57",
+   "lemma": "acrid",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "acrid"
+   ],
+   "glossEn": "unpleasantly bitter and burning in taste",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "23896efa-7633-546e-bd81-c30b5cdf0cf9",
+   "lemma": "satiety",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "satiety",
+    "satiated"
+   ],
+   "glossEn": "feeling of being comfortably full",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "d19848dd-794f-5720-adf4-9566c4511c78",
+   "lemma": "malnutrition",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "malnutrition",
+    "malnourished"
+   ],
+   "glossEn": "poor health from not eating the right food",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "a105e7cd-8aa2-5dcd-bdf2-f38634209599",
+   "lemma": "pescatarian",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pescatarian",
+    "pescetarian",
+    "pescatarians"
+   ],
+   "glossEn": "person who eats fish but no other meat",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "b2ec4b00-6711-59ce-b77b-b6330a6a55c2",
+   "lemma": "sprig",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sprig",
+    "sprigs"
+   ],
+   "glossEn": "small stem of a herb used as garnish",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "2800996d-b49c-5009-9ba5-db88398319dd",
+   "lemma": "gratuity",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gratuity",
+    "gratuities"
+   ],
+   "glossEn": "formal word for a tip left for service",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "fcacee6b-8492-5c5b-9832-7844d56ead34",
+   "lemma": "mouthfeel",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mouthfeel"
+   ],
+   "glossEn": "physical sensation of food in the mouth",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "5ab23e38-0bc7-5e86-bebf-e22fa4d36dff",
+   "lemma": "demi-glace",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "demi-glace"
+   ],
+   "glossEn": "rich sauce of reduced brown stock",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "b8ee3d0f-3669-598a-99c6-36fa22642c5b",
+   "lemma": "velouté",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "velouté",
+    "veloute"
+   ],
+   "glossEn": "smooth sauce of light stock thickened with roux",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "605e9e07-daa3-5143-82b6-d7ecc3cc1b09",
+   "lemma": "chiffonade",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chiffonade"
+   ],
+   "glossEn": "herbs or leaves cut into thin ribbons",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "25ad45db-78df-5cc7-9792-b599fa307004",
+   "lemma": "bain-marie",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bain-marie",
+    "bain-maries"
+   ],
+   "glossEn": "hot water bath for gentle cooking",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "ee099f03-0ddc-57b5-9b28-8902dd6de865",
+   "lemma": "mise en place",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mise en place"
+   ],
+   "glossEn": "ingredients prepared and arranged before cooking",
+   "topics": [
+    "food",
+    "work"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "311b113f-f8a5-5736-92cf-3c5a9a324227",
+   "lemma": "spatchcock",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spatchcock",
+    "spatchcocks",
+    "spatchcocked",
+    "spatchcocking"
+   ],
+   "glossEn": "split and flatten a bird for cooking",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "46abd544-c674-5aaa-b786-b0fdbdcfd0e5",
+   "lemma": "debone",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "debone",
+    "debones",
+    "deboned",
+    "deboning"
+   ],
+   "glossEn": "remove the bones from meat or fish",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "8932717a-debc-510e-b981-28a95f70aff5",
+   "lemma": "macerate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "macerate",
+    "macerates",
+    "macerated",
+    "macerating"
+   ],
+   "glossEn": "soften fruit by soaking in liquid or sugar",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "24a8b824-70dc-5b78-90ea-56cd0b774e73",
+   "lemma": "coulis",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "coulis"
+   ],
+   "glossEn": "thin smooth sauce of pureed fruit",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "4b367aea-60f4-56d3-bcf6-5a19ab7ab39c",
+   "lemma": "profiterole",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "profiterole",
+    "profiteroles"
+   ],
+   "glossEn": "small choux bun filled with cream",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "f062f272-fe17-5a9e-bbac-e4204d9ef36e",
+   "lemma": "mille-feuille",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mille-feuille",
+    "mille-feuilles",
+    "millefeuille"
+   ],
+   "glossEn": "layered puff pastry slice with cream",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "e1f1505f-83b5-53b1-ab15-abbba38c5bce",
+   "lemma": "frangipane",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "frangipane"
+   ],
+   "glossEn": "sweet almond cream filling for tarts",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "2b898c77-49f1-58a3-b445-9f8931f189c1",
+   "lemma": "couverture",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "couverture"
+   ],
+   "glossEn": "high-cocoa-butter chocolate for coating",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "08692a9b-7390-5267-9ca8-807e8d443445",
+   "lemma": "egg wash",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "egg wash"
+   ],
+   "glossEn": "beaten egg brushed on pastry for shine",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "d5721de9-3cff-599b-aa22-3a2b44065f16",
+   "lemma": "levain",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "levain"
+   ],
+   "glossEn": "natural sourdough starter",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "a61fb0c8-2a9c-5ae7-8159-ae24422212af",
+   "lemma": "gastronome",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gastronome",
+    "gastronomes"
+   ],
+   "glossEn": "expert and lover of fine food",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "da05a38c-0773-56c8-89a8-e50d3e74cae2",
+   "lemma": "epicure",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "epicure",
+    "epicures"
+   ],
+   "glossEn": "person with refined taste in food",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "bdb4221f-788f-530f-887f-e4006f6af3ae",
+   "lemma": "gluttony",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gluttony"
+   ],
+   "glossEn": "habit of eating far too much",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "59c8f809-e458-5313-9637-0240e14a0178",
+   "lemma": "oenophile",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "oenophile",
+    "oenophiles",
+    "enophile"
+   ],
+   "glossEn": "lover and connoisseur of wine",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "23dd5b76-45e8-5fea-a782-3bf1b72b3103",
+   "lemma": "forager",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "forager",
+    "foragers"
+   ],
+   "glossEn": "person who gathers wild food",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  }
+ ]
+}

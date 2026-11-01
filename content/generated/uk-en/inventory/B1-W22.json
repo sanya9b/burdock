@@ -1,0 +1,655 @@
+{
+ "chunk": "B1-W22",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "b1c56728-9b93-5dad-87ef-b9af6e8f57e0",
+   "lemma": "card reader",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "card reader",
+    "card readers"
+   ],
+   "glossEn": "device that reads a bank card for payment",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "2e14aada-84da-5635-a82b-998351a6f88e",
+   "lemma": "wire transfer",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wire transfer",
+    "wire transfers",
+    "bank transfer"
+   ],
+   "glossEn": "sending money electronically between banks",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "5975fcac-7c3f-5c5e-a50d-096bcea4498a",
+   "lemma": "direct debit",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "direct debit",
+    "direct debits"
+   ],
+   "glossEn": "regular payment taken automatically from an account",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "8e8ccb5c-4307-5bc0-bb1b-098c5e52b549",
+   "lemma": "cash on delivery",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cash on delivery",
+    "COD"
+   ],
+   "glossEn": "paying the courier when the goods arrive",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "deab99b9-8d21-590b-9074-8fdf77857a3f",
+   "lemma": "cashless",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cashless"
+   ],
+   "glossEn": "using cards or phones instead of cash",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "b608e290-2796-5739-99a5-023035096376",
+   "lemma": "cash-only",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cash-only",
+    "cash only"
+   ],
+   "glossEn": "accepting only cash, not cards",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "86475b1d-0d73-5a7b-9eb7-75a4a9e445e7",
+   "lemma": "minimum payment",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "minimum payment",
+    "minimum payments"
+   ],
+   "glossEn": "smallest amount you must pay on a credit card bill",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "ea71ca66-1ded-5531-92f4-50ec61296874",
+   "lemma": "sales tax",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sales tax",
+    "sales taxes"
+   ],
+   "glossEn": "tax added to the price at purchase",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "eff7cd44-7c31-55f7-8517-9b0701b2e54e",
+   "lemma": "VAT",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "VAT",
+    "value-added tax"
+   ],
+   "glossEn": "value-added tax included in prices",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "fb22028a-371f-5a87-a632-43cb34f1913f",
+   "lemma": "tax-free",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tax-free",
+    "tax free"
+   ],
+   "glossEn": "sold without tax added",
+   "topics": [
+    "shopping",
+    "travel"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "7c15c0b5-1729-5705-9b03-d28367c18219",
+   "lemma": "custom-made",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "custom-made",
+    "custom made",
+    "custom"
+   ],
+   "glossEn": "made specially for one customer",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "1b6a86f1-277f-5813-8923-eeb20a93705b",
+   "lemma": "elastic",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "elastic",
+    "elasticated"
+   ],
+   "glossEn": "stretchy band used in waistbands and cuffs",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "0b55b0ca-4371-5e81-9779-710651854f14",
+   "lemma": "windbreaker",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "windbreaker",
+    "windbreakers",
+    "windcheater"
+   ],
+   "glossEn": "light jacket that protects against wind",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "5e88faff-3071-5918-8de3-ea618f824585",
+   "lemma": "Velcro",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "Velcro",
+    "velcro",
+    "hook-and-loop"
+   ],
+   "glossEn": "fastening with two strips that stick together",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "29100fc4-c9d8-5dd1-9fe9-5d41ba4cf8f5",
+   "lemma": "puffer",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "puffer",
+    "puffers",
+    "puffer jacket"
+   ],
+   "glossEn": "padded jacket filled with down or synthetic fiber",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "6c58383d-671d-58a0-be08-22929277d78c",
+   "lemma": "lace",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lace",
+    "lacy"
+   ],
+   "glossEn": "delicate fabric with an open pattern of holes",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "d27b3480-0740-57f6-baff-8bc450786e2c",
+   "lemma": "nylon",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nylon"
+   ],
+   "glossEn": "strong synthetic fabric used in sportswear and bags",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "c75ce6bb-dfa8-53cc-8e25-dc59d2b94e11",
+   "lemma": "knitted",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "knitted",
+    "knit"
+   ],
+   "glossEn": "made by knitting yarn, as sweaters and hats",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "4395fd6b-6bc6-59c7-afba-41310616eb6b",
+   "lemma": "khaki",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "khaki",
+    "khakis"
+   ],
+   "glossEn": "dull yellow-brown color or cotton fabric",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "4884d9a7-4960-58ff-a18a-f0b1d482956e",
+   "lemma": "polka-dot",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "polka-dot",
+    "polka dot",
+    "polka dots"
+   ],
+   "glossEn": "patterned with evenly spaced round dots",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "1453c2ab-02f8-5e6c-b547-411ce57ac13f",
+   "lemma": "machine-washable",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "machine-washable",
+    "machine washable"
+   ],
+   "glossEn": "safe to wash in a washing machine",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "fb177e22-58ae-545c-abdc-fdd2eb874184",
+   "lemma": "slim-fit",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "slim-fit",
+    "slim fit"
+   ],
+   "glossEn": "cut close to the body",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "f9792595-b32d-51c6-ae4f-46f1e8afc9ad",
+   "lemma": "skinny",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "skinny"
+   ],
+   "glossEn": "very tight-fitting, as jeans",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "a531498a-863c-5dcb-9bc9-aad74070da94",
+   "lemma": "cropped",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cropped"
+   ],
+   "glossEn": "cut shorter than usual, as trousers or tops",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "900e853a-e13a-5e62-a4ec-6e196bcc1e6a",
+   "lemma": "knee-length",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "knee-length",
+    "knee length"
+   ],
+   "glossEn": "reaching down to the knees",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "7583b8bb-659d-52b1-976f-c9594d3c404e",
+   "lemma": "sleeveless",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sleeveless"
+   ],
+   "glossEn": "without sleeves",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "58775a03-3a71-591e-8e85-078c7d75cb42",
+   "lemma": "turtleneck",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "turtleneck",
+    "turtlenecks",
+    "polo neck",
+    "roll neck"
+   ],
+   "glossEn": "sweater with a high close-fitting collar",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "3818a063-998e-5e3d-9205-6cda41b654c1",
+   "lemma": "V-neck",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "V-neck",
+    "V-necks",
+    "v-neck"
+   ],
+   "glossEn": "neckline shaped like the letter V",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "e658a0eb-6a62-5736-a651-1e527c7e7c0d",
+   "lemma": "hooded",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hooded"
+   ],
+   "glossEn": "having a hood",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "3f794367-c506-516e-a681-9575148bc371",
+   "lemma": "blazer",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blazer",
+    "blazers"
+   ],
+   "glossEn": "smart jacket worn with trousers or a skirt",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "db19f41d-f310-5372-b2ba-ac8eb6ae8fd0",
+   "lemma": "tuxedo",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tuxedo",
+    "tuxedos",
+    "tux",
+    "dinner jacket"
+   ],
+   "glossEn": "man's formal suit for evening events",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "90a39784-f87f-543a-a435-92d4781fd448",
+   "lemma": "jumpsuit",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jumpsuit",
+    "jumpsuits"
+   ],
+   "glossEn": "one-piece garment combining top and trousers",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "4be4d336-dfc6-5661-9bd0-5740e6d476cc",
+   "lemma": "overalls",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overalls",
+    "dungarees"
+   ],
+   "glossEn": "loose trousers with a bib and shoulder straps",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "6e335090-9605-5c0c-9748-437d1575aa1c",
+   "lemma": "leggings",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "leggings"
+   ],
+   "glossEn": "tight stretchy trousers",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "36acacb7-5bc3-5a4b-a605-9219138ee5e1",
+   "lemma": "joggers",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "joggers",
+    "jogger pants"
+   ],
+   "glossEn": "soft casual trousers with elastic cuffs",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "eb4cbe77-ba77-5fb2-9541-b46aac6b044d",
+   "lemma": "sweatpants",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sweatpants",
+    "sweats",
+    "tracksuit bottoms"
+   ],
+   "glossEn": "loose soft trousers for sport or relaxing",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "d9b74103-cfd8-55e5-94c1-b7c1230e108b",
+   "lemma": "sportswear",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sportswear"
+   ],
+   "glossEn": "clothes for sport or casual wear",
+   "topics": [
+    "shopping",
+    "health"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "079ad310-a161-5aea-9320-93acdc00f806",
+   "lemma": "sleepwear",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sleepwear",
+    "nightwear"
+   ],
+   "glossEn": "clothes worn in bed",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "9c95fba7-7d18-54e4-a59f-141d935c33b8",
+   "lemma": "bathrobe",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bathrobe",
+    "bathrobes",
+    "dressing gown"
+   ],
+   "glossEn": "loose robe worn after bathing",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "ac8ebea6-e182-50a6-8c1d-216829e10bd0",
+   "lemma": "swimwear",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "swimwear"
+   ],
+   "glossEn": "clothes for swimming",
+   "topics": [
+    "shopping",
+    "travel"
+   ],
+   "area": "shopping"
+  }
+ ]
+}

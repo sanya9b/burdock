@@ -1,0 +1,662 @@
+{
+ "chunk": "B1-W15",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "384f10e4-d5b4-59cb-ae82-a3c263e3a7d8",
+   "lemma": "combatant",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "combatant",
+    "combatants"
+   ],
+   "glossEn": "person who takes part in fighting",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "86eaeed5-3950-5522-9a2e-64da50fd81e9",
+   "lemma": "frontline",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "frontline",
+    "frontlines",
+    "front line"
+   ],
+   "glossEn": "area where armies face each other",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "69f187e0-256b-536e-af7b-66d7dbe8b61e",
+   "lemma": "flank",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flank",
+    "flanks"
+   ],
+   "glossEn": "left or right side of an army",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "b60ec054-4613-5e31-8842-213907cdb22a",
+   "lemma": "outpost",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "outpost",
+    "outposts"
+   ],
+   "glossEn": "small guarded position far from the main force",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "a5cf1791-c920-5498-926b-c2d5e7206eb4",
+   "lemma": "fortification",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fortification",
+    "fortifications"
+   ],
+   "glossEn": "structure built to defend a position",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "9295ee9f-c87f-5bb3-b3fa-e618fd780c39",
+   "lemma": "dugout",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dugout",
+    "dugouts",
+    "dug-out"
+   ],
+   "glossEn": "covered shelter dug into the ground",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "c1ea85d5-24ef-5841-9c00-f7a7ede835af",
+   "lemma": "demining",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "demining",
+    "de-mining",
+    "mine clearance"
+   ],
+   "glossEn": "removing mines from land",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "7f1a81df-93f0-5785-a8dc-b029f0775b26",
+   "lemma": "ambush",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ambush",
+    "ambushes"
+   ],
+   "glossEn": "surprise attack from a hidden position",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "528fda7e-bfac-5b5e-ba07-99058f1be80f",
+   "lemma": "raid",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "raid",
+    "raids"
+   ],
+   "glossEn": "short sudden attack on a place",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "d9640621-5c8c-5b59-9f21-3f13dfb9dba2",
+   "lemma": "siege",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "siege",
+    "sieges"
+   ],
+   "glossEn": "surrounding a city to force surrender",
+   "topics": [
+    "military",
+    "city"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "1c41ef19-234a-5c53-a36e-e14fe5286c29",
+   "lemma": "blockade",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blockade",
+    "blockades"
+   ],
+   "glossEn": "blocking supplies from reaching a place",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "fd797cc2-23c8-56a1-80a2-277891449548",
+   "lemma": "counteroffensive",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "counteroffensive",
+    "counteroffensives",
+    "counter-offensive"
+   ],
+   "glossEn": "attack made in response to an enemy attack",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "229f7994-3a7c-5817-bd5e-4c80699107f6",
+   "lemma": "truce",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "truce",
+    "truces"
+   ],
+   "glossEn": "short agreement to stop fighting",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "6cc82b32-66b8-54a3-879f-37bd83c9586c",
+   "lemma": "machine gun",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "machine gun",
+    "machine guns",
+    "machine-gun"
+   ],
+   "glossEn": "gun that fires many bullets quickly",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "63201981-85f4-5424-bcfc-322728900365",
+   "lemma": "allied",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "allied"
+   ],
+   "glossEn": "joined together against a common enemy",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "d79cd4de-9f39-5cc5-a6f5-8ce5e73d3f58",
+   "lemma": "neutrality",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "neutrality"
+   ],
+   "glossEn": "policy of not taking sides in a war",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "106c1cc0-877e-594d-be11-791b40570622",
+   "lemma": "hostility",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hostility",
+    "hostilities"
+   ],
+   "glossEn": "acts of war; unfriendly behavior",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "50e0b8de-9e2c-5859-9954-8dfe3a4ec18c",
+   "lemma": "hostage",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hostage",
+    "hostages"
+   ],
+   "glossEn": "person held captive to force demands",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "7a66b400-4e75-51d0-bd18-a1776f94764a",
+   "lemma": "captivity",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "captivity"
+   ],
+   "glossEn": "state of being held prisoner",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "17492b5b-5639-5e98-ba33-3ec5cff8d5d4",
+   "lemma": "interrogation",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "interrogation",
+    "interrogations"
+   ],
+   "glossEn": "formal questioning of a prisoner",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "13e7e2c4-90d0-50f6-98f0-12422ca5cf8d",
+   "lemma": "sabotage",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sabotage"
+   ],
+   "glossEn": "secret damage done to enemy equipment",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "6c640919-ed33-5210-b40a-f40f3fc83191",
+   "lemma": "infiltrate",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "infiltrate",
+    "infiltrates",
+    "infiltrated",
+    "infiltrating"
+   ],
+   "glossEn": "secretly enter enemy territory or a group",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "15e94ede-bd66-5dbe-9dc2-28633dbd8306",
+   "lemma": "deferment",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deferment",
+    "deferments",
+    "deferral"
+   ],
+   "glossEn": "official delay of military service",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "85f8a0ee-2c11-5160-aa4f-15e6ae905354",
+   "lemma": "exemption",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "exemption",
+    "exemptions"
+   ],
+   "glossEn": "official freedom from the duty to serve",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "d3004d1c-e012-5468-a762-d81072623c71",
+   "lemma": "summons",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "summons",
+    "summonses"
+   ],
+   "glossEn": "official order to report for service",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "1a151da6-7196-5f30-9eee-4b8c42c0ce36",
+   "lemma": "launcher",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "launcher",
+    "launchers"
+   ],
+   "glossEn": "device that fires rockets or grenades",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "06dccbb4-952c-5a11-b793-b73f26563415",
+   "lemma": "chevron",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chevron",
+    "chevrons"
+   ],
+   "glossEn": "V-shaped patch showing rank or unit",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "be4027c8-a7c4-58b0-8302-9db214cef6fa",
+   "lemma": "dog tag",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dog tag",
+    "dog tags",
+    "dogtag"
+   ],
+   "glossEn": "metal ID tag worn by soldiers",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "a6d883ab-db9f-5d87-9fa4-0c06d35bf52c",
+   "lemma": "rucksack",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rucksack",
+    "rucksacks"
+   ],
+   "glossEn": "large military backpack",
+   "topics": [
+    "military",
+    "travel"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "c9eee8b5-b741-5b3d-b493-b305dd3189d5",
+   "lemma": "goggles",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "goggles"
+   ],
+   "glossEn": "protective glasses that cover the eyes",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "a81f511d-0110-52fd-b1ea-0d1903f2242e",
+   "lemma": "earplugs",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "earplugs",
+    "earplug",
+    "ear plugs"
+   ],
+   "glossEn": "small plugs that protect ears from noise",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "87dffa99-b0dc-5824-a8c7-e282e4bae249",
+   "lemma": "night vision",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "night vision",
+    "night-vision"
+   ],
+   "glossEn": "technology for seeing in the dark",
+   "topics": [
+    "military",
+    "it"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "a3b13f41-7bbd-5a95-85f1-5ff86edd91ef",
+   "lemma": "thermal",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "thermal"
+   ],
+   "glossEn": "detecting or keeping heat",
+   "topics": [
+    "military",
+    "it"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "77c74a14-71fb-5163-87f8-cb3d9adbad71",
+   "lemma": "cartridge",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cartridge",
+    "cartridges"
+   ],
+   "glossEn": "case holding a bullet and powder",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "629ba317-518b-5624-a611-93669792080a",
+   "lemma": "holster",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "holster",
+    "holsters"
+   ],
+   "glossEn": "case for carrying a pistol",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "ba45cb25-e8ef-59a8-85c9-2dded0bbaf6f",
+   "lemma": "bayonet",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bayonet",
+    "bayonets"
+   ],
+   "glossEn": "blade fixed to the end of a rifle",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "8fbe57dd-c4be-54ad-9251-a23513e77a95",
+   "lemma": "anti-tank",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "anti-tank",
+    "antitank"
+   ],
+   "glossEn": "designed to destroy tanks",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "06cb8e74-d028-5d45-be26-224c85682279",
+   "lemma": "anti-aircraft",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "anti-aircraft",
+    "antiaircraft"
+   ],
+   "glossEn": "designed to shoot down aircraft",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "6b65526c-c0f7-525c-937b-72e91501dcc1",
+   "lemma": "air defense",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "air defense",
+    "air defence",
+    "air defenses"
+   ],
+   "glossEn": "systems that protect against air attacks",
+   "topics": [
+    "military",
+    "city"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "b4166c20-18db-5b48-94a2-54d060821764",
+   "lemma": "intercept",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "intercept",
+    "intercepts",
+    "intercepted",
+    "intercepting"
+   ],
+   "glossEn": "stop and destroy a missile in flight",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  }
+ ]
+}

@@ -1,0 +1,264 @@
+{
+ "chunk": "A2-W05",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "19db5b31-1589-544e-af16-799928c9bf3a",
+   "lemma": "walkie-talkie",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "walkie-talkie",
+    "walkie-talkies",
+    "walkie talkie"
+   ],
+   "glossEn": "small handheld two-way radio",
+   "topics": [
+    "military",
+    "communication"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "97fb01d4-2728-51f4-8a7f-d79aba5ee762",
+   "lemma": "roadblock",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "roadblock",
+    "roadblocks"
+   ],
+   "glossEn": "barrier across a road to stop vehicles",
+   "topics": [
+    "military",
+    "city"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "d5c5fd23-0f0f-5c88-8caa-961f258ccd48",
+   "lemma": "coupon",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "coupon",
+    "coupons"
+   ],
+   "glossEn": "paper or code giving a discount",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "b6ce4bba-b9f9-5447-8f29-252fd69a41bd",
+   "lemma": "ATM",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ATM",
+    "ATMs",
+    "cash machine",
+    "cash machines"
+   ],
+   "glossEn": "machine that gives out cash from your account",
+   "topics": [
+    "shopping",
+    "city",
+    "travel"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "03b8b6d4-c7de-59fe-95a8-fcecabc9e519",
+   "lemma": "trendy",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "trendy",
+    "trendier",
+    "trendiest"
+   ],
+   "glossEn": "very fashionable right now",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "1b3b5f01-6ca1-5e9e-9851-054e5400de87",
+   "lemma": "sneaker",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sneaker",
+    "sneakers",
+    "trainer",
+    "trainers"
+   ],
+   "glossEn": "soft sports shoe for everyday wear",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "2631a9a8-12f5-5040-80ce-3b05e968d23b",
+   "lemma": "blouse",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blouse",
+    "blouses"
+   ],
+   "glossEn": "woman's shirt",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "8d627455-3fcd-5064-9fd2-d8becb2b8f1b",
+   "lemma": "hoodie",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hoodie",
+    "hoodies",
+    "hoody"
+   ],
+   "glossEn": "sweatshirt with a hood",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "7c939816-db2e-5989-8d7e-18d7d8c82986",
+   "lemma": "vacuum",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vacuum",
+    "vacuums",
+    "vacuum cleaner",
+    "vacuum cleaners"
+   ],
+   "glossEn": "machine that sucks up dust from floors",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "d246717c-9fd2-5708-9868-bfd1ac48ff89",
+   "lemma": "washer",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "washer",
+    "washers",
+    "washing machine",
+    "washing machines"
+   ],
+   "glossEn": "machine for washing clothes",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "5d3c54d9-4afe-5448-af03-fdc7d8a000ce",
+   "lemma": "dryer",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dryer",
+    "dryers",
+    "drier",
+    "driers"
+   ],
+   "glossEn": "machine for drying clothes",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "438dfab5-9c56-549d-b866-f64545f7e8dd",
+   "lemma": "florist",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "florist",
+    "florists"
+   ],
+   "glossEn": "shop or person selling flowers",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "0bee3591-5e77-5331-9a8f-6ea57643c281",
+   "lemma": "boutique",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "boutique",
+    "boutiques"
+   ],
+   "glossEn": "small store selling fashionable clothes",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "307e3907-9949-5aa5-9baf-04e3202b53ba",
+   "lemma": "secondhand",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "secondhand",
+    "second-hand"
+   ],
+   "glossEn": "already owned by someone else before",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "2d3e9bf8-54d2-50b4-b503-7049bec4ebdf",
+   "lemma": "courier",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "courier",
+    "couriers"
+   ],
+   "glossEn": "person or company that delivers parcels",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  }
+ ]
+}

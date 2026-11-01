@@ -1,0 +1,539 @@
+{
+ "chunk": "C2-W27",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "74eeb0d4-1a0e-5490-9a7a-afbbbeaf8bf3",
+   "lemma": "constitutionalism",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "constitutionalism"
+   ],
+   "glossEn": "doctrine that government power is limited by a constitution",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "813cfeb7-4885-59c0-8599-92672bafaefa",
+   "lemma": "interregnum",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "interregnum"
+   ],
+   "glossEn": "period between two reigns or governments",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "93897188-36c5-584f-b937-c38b203377ad",
+   "lemma": "electioneering",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "electioneering"
+   ],
+   "glossEn": "active campaigning for votes",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "726f7e3a-c038-5686-b3a9-78f08b1f4e66",
+   "lemma": "tort",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tort"
+   ],
+   "glossEn": "civil wrong that causes harm and leads to liability",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "8ca6f564-f95b-5490-86c5-099999869e2a",
+   "lemma": "annul",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "annul"
+   ],
+   "glossEn": "declare legally invalid",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "32db0de7-4aa2-584c-88af-ea7a2c4a5d8e",
+   "lemma": "remand",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "remand"
+   ],
+   "glossEn": "send a defendant back to custody or a lower court",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "6515603a-7f87-505f-9ea5-fd091cebf214",
+   "lemma": "affidavit",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "affidavit"
+   ],
+   "glossEn": "written statement sworn to be true",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "8f8ba71c-0cdb-5d9d-b624-83b9123a0a73",
+   "lemma": "subpoena",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subpoena"
+   ],
+   "glossEn": "order to attend court or produce documents",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "9a8fe37b-24ee-57b9-9423-5a242b876218",
+   "lemma": "writ",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "writ"
+   ],
+   "glossEn": "formal written court order",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "de984e0b-39ad-5f0b-bf05-a80028edbd40",
+   "lemma": "plea bargain",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "plea bargain",
+    "plea-bargain"
+   ],
+   "glossEn": "agreement to plead guilty for a lighter sentence",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "6a919860-3fdc-5839-892c-6073f0e287e0",
+   "lemma": "docket",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "docket"
+   ],
+   "glossEn": "list of cases to be heard by a court",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "c1c8c16b-417b-59cd-a5c9-2d551a57e677",
+   "lemma": "bailiff",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bailiff"
+   ],
+   "glossEn": "court officer who keeps order and enforces orders",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "13d38bbe-0e9f-5ff2-948c-6b2432868016",
+   "lemma": "coroner",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "coroner"
+   ],
+   "glossEn": "official who investigates sudden or suspicious deaths",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "910f22e8-e555-5d92-9e20-ee5f79d1579e",
+   "lemma": "inquest",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inquest"
+   ],
+   "glossEn": "official inquiry into the cause of a death",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "f2ec02f3-7cb6-5eda-8b8f-faea18c23eeb",
+   "lemma": "paralegal",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "paralegal"
+   ],
+   "glossEn": "assistant trained in legal work but not a lawyer",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "f78125d4-cca1-53c2-b4db-bf261bdc6724",
+   "lemma": "jurist",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jurist"
+   ],
+   "glossEn": "expert in law",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "b97dda83-c140-5ad3-afe7-293f39731540",
+   "lemma": "litigious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "litigious"
+   ],
+   "glossEn": "too ready to take disputes to court",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "31793abf-9ead-56fd-9d1b-696cb36034db",
+   "lemma": "vexatious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vexatious"
+   ],
+   "glossEn": "brought only to annoy, without proper grounds",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "f0c75e9a-c312-53fd-b1dc-e080b59a440d",
+   "lemma": "counterclaim",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "counterclaim",
+    "counter-claim"
+   ],
+   "glossEn": "claim made in response to another claim",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "5bf852db-cf0d-57d4-81ad-003ac7804aff",
+   "lemma": "inadmissible",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inadmissible"
+   ],
+   "glossEn": "not allowed to be used as evidence",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "a5f57ef6-6c8e-5ff5-bd8e-4e38f4d37f66",
+   "lemma": "evidentiary",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "evidentiary"
+   ],
+   "glossEn": "relating to evidence",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "96657119-ab59-516b-920e-282192df073f",
+   "lemma": "culpability",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "culpability"
+   ],
+   "glossEn": "responsibility for a fault or wrong",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "44d07381-6ce2-5511-b398-50aff3f83a99",
+   "lemma": "reprieve",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reprieve"
+   ],
+   "glossEn": "cancellation or delay of a punishment",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "9e0dcb4c-17fa-5ef3-b4a3-dfe5858fac3e",
+   "lemma": "complainant",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "complainant"
+   ],
+   "glossEn": "person who brings a formal complaint",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "4e782137-42b6-5f21-9a81-80a6d7cac953",
+   "lemma": "petitioner",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "petitioner"
+   ],
+   "glossEn": "person who formally asks a court for action",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "afb6768e-341e-5ad1-b81b-b338558ab5c0",
+   "lemma": "miscarriage",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "miscarriage"
+   ],
+   "glossEn": "failure of justice to be done",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "dd298455-9fb0-5e1e-8ef5-75b82995561d",
+   "lemma": "actionable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "actionable"
+   ],
+   "glossEn": "giving sufficient grounds for legal action",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "630ac482-6647-5227-8c48-2c8d84994f9e",
+   "lemma": "quash",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quash"
+   ],
+   "glossEn": "officially reject a decision as invalid",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "168fd846-6b23-560c-bc15-124fdbd1acdb",
+   "lemma": "egalitarianism",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "egalitarianism"
+   ],
+   "glossEn": "belief in equal rights for all people",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "f89d6147-a023-5213-a3f9-a14893536abc",
+   "lemma": "inequity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inequity"
+   ],
+   "glossEn": "lack of fairness or justice",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "5ffd7e33-2d96-5cdc-a8a9-f19f57328f08",
+   "lemma": "bigotry",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bigotry"
+   ],
+   "glossEn": "intolerant devotion to one's own prejudices",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "02e28de2-fc4f-5031-b0ba-b005baf42933",
+   "lemma": "bigot",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bigot"
+   ],
+   "glossEn": "person intolerant of those who differ",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "39c5db15-80ad-5807-8d42-2ccff8bb551d",
+   "lemma": "pluralistic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pluralistic",
+    "pluralist"
+   ],
+   "glossEn": "made up of many coexisting groups",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "b28fb4ea-7355-5c2a-a98b-149911596e48",
+   "lemma": "desegregate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "desegregate"
+   ],
+   "glossEn": "end the enforced separation of groups",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "c8dfb1b5-0304-5fac-a90e-ea4795331abc",
+   "lemma": "statelessness",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "statelessness"
+   ],
+   "glossEn": "condition of having no recognized citizenship",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "ddc639d6-9068-5658-8740-84bb0f0405c6",
+   "lemma": "repatriation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "repatriation"
+   ],
+   "glossEn": "return of someone to their own country",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "e4c75c40-f6c6-5e02-b1ae-b8763299bba3",
+   "lemma": "internment",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "internment"
+   ],
+   "glossEn": "confinement of people without trial, especially in wartime",
+   "topics": [
+    "military"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "51846668-dfa5-59b4-8e59-fc759495c36f",
+   "lemma": "subjugation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subjugation"
+   ],
+   "glossEn": "act of bringing people under control by force",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "19cbf12e-f634-5e58-a6b0-77b4899bae1f",
+   "lemma": "emancipation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "emancipation"
+   ],
+   "glossEn": "freeing from legal, social or political restrictions",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "1d9c3aa6-3d30-5417-b90d-185bd216a4d4",
+   "lemma": "citizenry",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "citizenry"
+   ],
+   "glossEn": "the citizens of a place collectively",
+   "topics": [],
+   "area": "society-law"
+  }
+ ]
+}

@@ -1,0 +1,680 @@
+{
+ "chunk": "B2-W25",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "2335c212-6e13-5d51-9255-9c7279edf205",
+   "lemma": "shapewear",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shapewear"
+   ],
+   "glossEn": "tight underwear that smooths the body shape",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "d7dcc114-6a79-53d8-9db5-a5d4fce0da4a",
+   "lemma": "briefs",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "briefs"
+   ],
+   "glossEn": "close-fitting underwear without legs",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "5f0e2e55-5d83-5c10-b066-cf14744b3eeb",
+   "lemma": "embroidery",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "embroidery",
+    "embroidered"
+   ],
+   "glossEn": "decoration sewn onto fabric with colored thread",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "cf939620-6148-5da0-8630-1042beb60a91",
+   "lemma": "matte",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "matte",
+    "matt"
+   ],
+   "glossEn": "with a dull, non-shiny surface",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "de7d051f-f01f-528e-9eee-0a2bd905c780",
+   "lemma": "textured",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "textured"
+   ],
+   "glossEn": "having a surface that is not smooth",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "d10acd55-7a79-52cc-a30b-a3e2b69a69d6",
+   "lemma": "disclosure",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disclosure",
+    "disclosures"
+   ],
+   "glossEn": "making facts about a product or price public",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "a55fd66a-229a-5af6-8f80-318745d496c8",
+   "lemma": "repairable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "repairable",
+    "repairability"
+   ],
+   "glossEn": "able to be fixed instead of replaced",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "a178d9c1-dfb1-5dc8-8b33-bb4261c1d0b1",
+   "lemma": "disclaimer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disclaimer",
+    "disclaimers"
+   ],
+   "glossEn": "statement limiting a seller's responsibility",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "c7a955e0-4009-5e42-ba5d-37fb151a6853",
+   "lemma": "cruelty-free",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cruelty-free",
+    "cruelty free"
+   ],
+   "glossEn": "made without testing on animals",
+   "topics": [
+    "shopping",
+    "health"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "b8eff93c-2aaa-51fc-88b4-60b656782df7",
+   "lemma": "small print",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "small print",
+    "fine print"
+   ],
+   "glossEn": "detailed conditions of a deal, easy to overlook",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "a74f97b5-3af7-50da-81b9-02673c37e9bf",
+   "lemma": "kilowatt",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "kilowatt",
+    "kilowatts",
+    "kW",
+    "kWh"
+   ],
+   "glossEn": "unit of power, one thousand watts",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "b78ac759-2166-5da3-8014-995e31e85dfe",
+   "lemma": "frost-free",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "frost-free",
+    "frost free",
+    "no-frost"
+   ],
+   "glossEn": "freezer that does not build up ice inside",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "0da7a8b8-9e0f-5782-90f3-6f0c9378a7dc",
+   "lemma": "descale",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "descale",
+    "descales",
+    "descaled",
+    "descaling",
+    "descaler"
+   ],
+   "glossEn": "remove limescale from a kettle or coffee machine",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "2cdfb188-6339-54ce-b80a-5a0948b950a0",
+   "lemma": "front-loader",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "front-loader",
+    "front-loaders",
+    "front-loading",
+    "top-loader"
+   ],
+   "glossEn": "washing machine loaded through a door at the front",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "05899f65-62c3-5526-a208-2d97b2d5f607",
+   "lemma": "suction",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "suction"
+   ],
+   "glossEn": "pulling power of a vacuum cleaner",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "bb886231-6f5c-5da5-90c7-25a8f749598c",
+   "lemma": "bagless",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bagless",
+    "bag-less"
+   ],
+   "glossEn": "vacuum cleaner that collects dust without a bag",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "516bf029-6aa6-55ef-8544-5650c2ab3b5b",
+   "lemma": "subwoofer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subwoofer",
+    "subwoofers",
+    "soundbar"
+   ],
+   "glossEn": "speaker that produces deep bass sounds",
+   "topics": [
+    "shopping",
+    "it"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "ba5d9d65-d95e-52a8-bcdd-021264179e41",
+   "lemma": "range hood",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "range hood",
+    "range hoods",
+    "cooker hood",
+    "extractor hood"
+   ],
+   "glossEn": "extractor above a stove that removes cooking fumes",
+   "topics": [
+    "shopping",
+    "food"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "b05364ab-7e19-5b2d-b228-bcec2434c302",
+   "lemma": "memory foam",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "memory foam"
+   ],
+   "glossEn": "soft material that molds to body shape in mattresses",
+   "topics": [
+    "shopping",
+    "health"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "78884dbb-f94e-5831-ba4e-b8f58e25d468",
+   "lemma": "upholstery",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "upholstery",
+    "upholstered"
+   ],
+   "glossEn": "soft padded covering of chairs and sofas",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "7b933e12-192f-5880-abe1-f76e903f8449",
+   "lemma": "sectional",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sectional",
+    "sectionals",
+    "sectional sofa",
+    "corner sofa"
+   ],
+   "glossEn": "sofa made of several pieces joined together",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "576cda80-0594-5f95-be01-d1f46c4cd305",
+   "lemma": "recliner",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "recliner",
+    "recliners"
+   ],
+   "glossEn": "armchair whose back tilts to lie back",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "cf5bd654-6acc-53ad-b5fb-4c3a78ea17eb",
+   "lemma": "extendable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "extendable",
+    "extending",
+    "extensible"
+   ],
+   "glossEn": "able to be made longer, as a dining table",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "a657ea9e-4c43-5939-8f6f-aaa11d9fb436",
+   "lemma": "noise-cancelling",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "noise-cancelling",
+    "noise-canceling",
+    "noise cancelling"
+   ],
+   "glossEn": "headphones that block outside sound electronically",
+   "topics": [
+    "shopping",
+    "it"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "00d41722-38c4-5617-9cb8-87566754497d",
+   "lemma": "protection plan",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "protection plan",
+    "protection plans",
+    "extended warranty"
+   ],
+   "glossEn": "paid cover for repairs beyond the warranty",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "5e88462e-f44b-59db-8b19-ce77cc7897f4",
+   "lemma": "prepacked",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prepacked",
+    "pre-packed",
+    "prepackaged",
+    "pre-packaged"
+   ],
+   "glossEn": "packed in a fixed amount before sale",
+   "topics": [
+    "shopping",
+    "food"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "a5e0eb1e-2d92-5216-a703-767b18eabf7a",
+   "lemma": "single-serve",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "single-serve",
+    "single serve",
+    "single-serving"
+   ],
+   "glossEn": "packaged in a portion for one person",
+   "topics": [
+    "shopping",
+    "food"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "7ed24779-58ca-577c-b3db-dc2500934f5d",
+   "lemma": "low-sodium",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "low-sodium",
+    "low sodium",
+    "low-salt"
+   ],
+   "glossEn": "containing little salt, as labeled food",
+   "topics": [
+    "shopping",
+    "food",
+    "health"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "6b962a70-5192-5028-8406-e57cc4a19a8e",
+   "lemma": "microwaveable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "microwaveable",
+    "microwavable",
+    "microwave-safe"
+   ],
+   "glossEn": "safe or designed to be heated in a microwave",
+   "topics": [
+    "shopping",
+    "food"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "fd6feb4d-2680-5583-b528-a8ba6802f468",
+   "lemma": "bagging area",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bagging area",
+    "bagging areas"
+   ],
+   "glossEn": "space at self-checkout where scanned items are placed",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "fe53d046-69e0-5d87-9039-dbed8ae84cb6",
+   "lemma": "blemish",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blemish",
+    "blemishes",
+    "blemished"
+   ],
+   "glossEn": "small mark or flaw that lowers an item's value",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "5f7695ca-f02f-51f0-b390-6f518ec8251e",
+   "lemma": "bulk bin",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bulk bin",
+    "bulk bins"
+   ],
+   "glossEn": "store container from which shoppers scoop loose goods",
+   "topics": [
+    "shopping",
+    "food"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "1c933ae1-afb8-50e0-a63e-3ab00f6f428f",
+   "lemma": "bidder",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bidder",
+    "bidders"
+   ],
+   "glossEn": "person offering a price at an auction",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "a78aba5b-7bfb-5f90-af5d-717370b8aa06",
+   "lemma": "reserve price",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reserve price",
+    "reserve prices",
+    "reserve"
+   ],
+   "glossEn": "lowest price a seller will accept at auction",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "f89d7b30-7319-586f-b68e-622121ea3f0b",
+   "lemma": "as-is",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "as-is",
+    "as is",
+    "sold as seen"
+   ],
+   "glossEn": "sold in its current condition without guarantee",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "0753f51c-cb8e-5630-a944-78551ea527fb",
+   "lemma": "pre-loved",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pre-loved",
+    "preloved"
+   ],
+   "glossEn": "secondhand, said in a positive way",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "a29b78c1-644a-5361-92af-c69eddaed00a",
+   "lemma": "counteroffer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "counteroffer",
+    "counteroffers",
+    "counter-offer"
+   ],
+   "glossEn": "different price offered in reply to an offer",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "c61b385e-75fc-5220-a6d0-e4423b64c065",
+   "lemma": "upcycle",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "upcycle",
+    "upcycles",
+    "upcycled",
+    "upcycling"
+   ],
+   "glossEn": "turn an old item into something of higher value",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "a94ec39e-5651-5d18-a936-95b6826c5603",
+   "lemma": "reconditioned",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reconditioned",
+    "recondition",
+    "reconditioning"
+   ],
+   "glossEn": "repaired and restored to good working order for resale",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "913fc308-a943-54c5-b37c-4d7a83925755",
+   "lemma": "untested",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "untested"
+   ],
+   "glossEn": "sold without checking whether it still works",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  }
+ ]
+}

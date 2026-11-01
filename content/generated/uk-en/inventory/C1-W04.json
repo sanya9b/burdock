@@ -1,0 +1,540 @@
+{
+ "chunk": "C1-W04",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "6797fd09-2031-5cae-8896-8c19948a19d0",
+   "lemma": "inadequacy",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inadequacy"
+   ],
+   "glossEn": "state of being not good enough",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "16e010d9-8697-588a-ba5b-21a5f578be98",
+   "lemma": "deficient",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deficient"
+   ],
+   "glossEn": "lacking something necessary; not good enough",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "13be1f20-291d-5d78-a056-b569419c7e29",
+   "lemma": "disproportionate",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disproportionate"
+   ],
+   "glossEn": "too large or small compared with something",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "ea8d376f-9a0f-5d1e-8baf-561c8f58b602",
+   "lemma": "proportionate",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "proportionate"
+   ],
+   "glossEn": "corresponding in size or degree",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "17bbab0b-8ae7-512b-a693-8d1bdd67870c",
+   "lemma": "commensurate",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "commensurate"
+   ],
+   "glossEn": "corresponding in size or degree; in proportion",
+   "topics": [
+    "work"
+   ],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "ba73ce9b-f66f-583a-8806-4d37b3318540",
+   "lemma": "gradation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gradation"
+   ],
+   "glossEn": "scale of successive degrees or stages",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "22cf050e-1f18-502a-aa56-69c555a7c4c7",
+   "lemma": "incremental",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incremental"
+   ],
+   "glossEn": "increasing gradually in small steps",
+   "topics": [
+    "work"
+   ],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "ae7b030e-b1ae-51c0-a423-05dda13cc000",
+   "lemma": "incrementally",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incrementally"
+   ],
+   "glossEn": "in small gradual steps",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "c397071d-fde9-559e-976e-6dad5c0d040d",
+   "lemma": "exponential",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "exponential"
+   ],
+   "glossEn": "becoming faster and faster; rapidly growing",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "09e2c4d8-2481-57f0-8d18-30fece6e4584",
+   "lemma": "threshold",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "threshold"
+   ],
+   "glossEn": "level at which something starts to happen",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "84e6f89e-1de3-586c-9d84-96f459550b62",
+   "lemma": "caliber",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "caliber",
+    "calibre"
+   ],
+   "glossEn": "quality or standard of ability",
+   "topics": [
+    "work"
+   ],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "89651dd4-2f70-553b-a16f-ce41a7abcea6",
+   "lemma": "mediocrity",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mediocrity"
+   ],
+   "glossEn": "quality of being merely average",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "d4187ff3-5a33-5071-97bb-863e500e5167",
+   "lemma": "subpar",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subpar",
+    "sub-par"
+   ],
+   "glossEn": "below the usual or expected standard",
+   "topics": [
+    "work"
+   ],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "49065074-5b6b-58c4-b9d7-1446c3be87f2",
+   "lemma": "nominal",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nominal"
+   ],
+   "glossEn": "in name only; very small in amount",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "fd7854ff-9c38-527e-b933-66a8639697c7",
+   "lemma": "transience",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "transience",
+    "transiency"
+   ],
+   "glossEn": "state of lasting only a short time",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "09114d93-74a6-5b14-9ed2-03a2747eb2fc",
+   "lemma": "fleeting",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fleeting"
+   ],
+   "glossEn": "lasting for a very short time",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "e5fecc40-e117-5c6e-a3e4-41a9ea811311",
+   "lemma": "perpetual",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "perpetual"
+   ],
+   "glossEn": "never ending or changing",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "146be93f-35c4-53ec-b775-b0957711fc5a",
+   "lemma": "transformative",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "transformative"
+   ],
+   "glossEn": "causing a major and lasting change",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "6fcf0773-e7ce-5819-a24f-20ae8ed48a6e",
+   "lemma": "abrupt",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "abrupt"
+   ],
+   "glossEn": "sudden and unexpected",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "4f650df7-88e0-5690-9f08-f63edb2a49a1",
+   "lemma": "imminent",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "imminent"
+   ],
+   "glossEn": "about to happen very soon",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "0f307bff-1e94-5b36-ae15-ef3e19a17ca2",
+   "lemma": "impending",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "impending"
+   ],
+   "glossEn": "about to happen, usually something unpleasant",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "1e463f07-41fb-5aff-b07e-290a5df72945",
+   "lemma": "foreseeable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "foreseeable"
+   ],
+   "glossEn": "able to be predicted or expected",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "cf30c7b7-7269-5f8f-961b-22eb592ed340",
+   "lemma": "unprecedented",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unprecedented"
+   ],
+   "glossEn": "never having happened before",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "6397ab09-7488-5885-a490-24fb128fbb83",
+   "lemma": "retrospective",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "retrospective"
+   ],
+   "glossEn": "looking back on or applying to the past",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "efa4697d-7b30-543e-beaa-3152cb95c9ad",
+   "lemma": "prospective",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prospective"
+   ],
+   "glossEn": "expected or likely to happen or become",
+   "topics": [
+    "work"
+   ],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "10c8cb54-a08b-5c37-a018-a855c630de93",
+   "lemma": "preceding",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "preceding"
+   ],
+   "glossEn": "coming immediately before in time or order",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "ff9db298-c816-57fb-82d7-9ebf404bb21e",
+   "lemma": "consecutive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "consecutive"
+   ],
+   "glossEn": "following continuously one after another",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "b2bc4ccb-d329-5c40-a4cd-7c00109128de",
+   "lemma": "intermittent",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "intermittent"
+   ],
+   "glossEn": "occurring at irregular intervals; not continuous",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "1dd7da7f-df7e-5d08-870c-cb2849380ee4",
+   "lemma": "sporadic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sporadic"
+   ],
+   "glossEn": "occurring at irregular, scattered intervals",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "c2644941-e1cd-5288-84f0-2d2f4a58504d",
+   "lemma": "periodic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "periodic"
+   ],
+   "glossEn": "happening at regular intervals",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "5c9b8cf2-d8be-5b24-aacb-986da3085a96",
+   "lemma": "recurrent",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "recurrent"
+   ],
+   "glossEn": "occurring repeatedly",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "f1f918b9-9613-586a-b06c-452b411d2c79",
+   "lemma": "recur",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "recur"
+   ],
+   "glossEn": "happen again or repeatedly",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "27a5edd1-657d-5c80-a040-e1ae62247b33",
+   "lemma": "recurrence",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "recurrence"
+   ],
+   "glossEn": "fact of happening again",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "73f42c69-732d-50c6-8e02-88677ebce2b8",
+   "lemma": "cyclical",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cyclical",
+    "cyclic"
+   ],
+   "glossEn": "happening in repeated cycles",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "cd5f9a67-d3f1-5e62-b420-7a00bc55ff18",
+   "lemma": "chronology",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chronology"
+   ],
+   "glossEn": "arrangement of events in time order",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "550bfc1d-7d28-5226-9e41-dfd2ca739c92",
+   "lemma": "concurrent",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "concurrent"
+   ],
+   "glossEn": "existing or happening at the same time",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "682b2589-b740-591f-ac09-a467807b8f79",
+   "lemma": "concurrently",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "concurrently"
+   ],
+   "glossEn": "at the same time",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "68159c2a-514d-50ca-8209-a2e58b5df52f",
+   "lemma": "obsolete",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "obsolete"
+   ],
+   "glossEn": "no longer used because something newer exists",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "cb845c3d-e5d3-5e66-b09c-3a742355efee",
+   "lemma": "obsolescence",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "obsolescence"
+   ],
+   "glossEn": "process of becoming outdated and unused",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "8f142a32-2032-5736-a445-a49881fe890b",
+   "lemma": "antiquated",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "antiquated"
+   ],
+   "glossEn": "old-fashioned and no longer suitable",
+   "topics": [],
+   "area": "abstract-thought"
+  }
+ ]
+}

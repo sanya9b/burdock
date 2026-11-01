@@ -1,0 +1,675 @@
+{
+ "chunk": "B2-W20",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "f2bbcbd1-4a3a-56e5-9444-47f09016271c",
+   "lemma": "waypoint",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "waypoint",
+    "waypoints"
+   ],
+   "glossEn": "stopping point on a planned route",
+   "topics": [
+    "military",
+    "travel"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "eab05f1a-7039-54c8-9bde-bb41ea0d04ad",
+   "lemma": "observation post",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "observation post",
+    "observation posts"
+   ],
+   "glossEn": "position from which troops watch an area",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "9c9a4aad-8600-5708-a6c2-cc1e15118488",
+   "lemma": "spotter",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spotter",
+    "spotters"
+   ],
+   "glossEn": "person who watches and reports targets or aircraft",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "0c9822e6-07a4-5da0-9890-90ca02aa9d24",
+   "lemma": "anti-drone",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "anti-drone",
+    "antidrone"
+   ],
+   "glossEn": "designed to detect or stop drones",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "f6e33f19-2e1d-51a6-853d-7c466d2c326a",
+   "lemma": "satellite phone",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "satellite phone",
+    "satellite phones",
+    "satphone"
+   ],
+   "glossEn": "phone that connects through satellites",
+   "topics": [
+    "military",
+    "communication"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "d6ce2400-a5b7-587a-a1b2-4291c2916959",
+   "lemma": "humanitarian corridor",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "humanitarian corridor",
+    "humanitarian corridors"
+   ],
+   "glossEn": "agreed safe route for civilians and aid",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "04fa3e6c-9e5d-5d96-a330-f416168ba6be",
+   "lemma": "safe passage",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "safe passage"
+   ],
+   "glossEn": "guaranteed right to travel through without harm",
+   "topics": [
+    "military",
+    "travel"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "600b3f40-9e07-5316-b864-cc6565fe866e",
+   "lemma": "prisoner exchange",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prisoner exchange",
+    "prisoner exchanges",
+    "prisoner swap"
+   ],
+   "glossEn": "agreed swap of captured soldiers",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "90e487dc-f284-57f5-be5a-08bed569fc1a",
+   "lemma": "abduction",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "abduction",
+    "abductions"
+   ],
+   "glossEn": "taking a person away by force",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "40922905-3b3f-5b1a-89c2-6b0dbf6282dd",
+   "lemma": "diplomacy",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "diplomacy"
+   ],
+   "glossEn": "managing relations between countries by talks",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "98f5380c-18c6-5f35-a55b-811a67791c8c",
+   "lemma": "peacekeeper",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "peacekeeper",
+    "peacekeepers"
+   ],
+   "glossEn": "soldier sent to keep peace between sides",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "9cb0a26e-e33c-58d5-be68-cae0d461a3fe",
+   "lemma": "collaborator",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "collaborator",
+    "collaborators"
+   ],
+   "glossEn": "person who helps an occupying force",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "bf9e5a44-7c85-5b03-bb5b-d40b9aee5692",
+   "lemma": "looting",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "looting"
+   ],
+   "glossEn": "stealing from homes or shops during chaos",
+   "topics": [
+    "military",
+    "city"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "91291ae1-d264-52b4-b60d-e33101beb640",
+   "lemma": "ransom",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ransom",
+    "ransoms"
+   ],
+   "glossEn": "money demanded for releasing a captive",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "0aaad331-eabf-5050-8e80-0e73e792b045",
+   "lemma": "nonprofit",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nonprofit",
+    "nonprofits",
+    "non-profit"
+   ],
+   "glossEn": "organization that works for a cause, not profit",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "8327b700-36a8-5480-bad5-b78ed24baa29",
+   "lemma": "airlift",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "airlift",
+    "airlifts"
+   ],
+   "glossEn": "moving people or supplies by aircraft",
+   "topics": [
+    "military",
+    "travel"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "56e028ba-a12a-560a-b9c3-8c89d89731af",
+   "lemma": "airdrop",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "airdrop",
+    "airdrops",
+    "air drop"
+   ],
+   "glossEn": "supplies dropped from an aircraft by parachute",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "be92c6cb-05db-5960-981a-8d0e67a5ea67",
+   "lemma": "stabilization point",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stabilization point",
+    "stabilization points"
+   ],
+   "glossEn": "medical post where the wounded are stabilized",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "7b714aa8-d78a-547f-a8c0-9dc822c3512f",
+   "lemma": "anesthesia",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "anesthesia",
+    "anaesthesia"
+   ],
+   "glossEn": "medicine that removes pain during surgery",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "817607c1-76ce-5a73-b946-0fd8e600a924",
+   "lemma": "ventilator",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ventilator",
+    "ventilators"
+   ],
+   "glossEn": "machine that breathes for a patient",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "80d98a82-ea4e-531d-8f60-2a3666fd4423",
+   "lemma": "sterilize",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sterilize",
+    "sterilizes",
+    "sterilized",
+    "sterilise"
+   ],
+   "glossEn": "make instruments free of germs",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "f5522886-3616-5dc8-8150-af70ae3ba3ed",
+   "lemma": "immobilize",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "immobilize",
+    "immobilizes",
+    "immobilized",
+    "immobilise"
+   ],
+   "glossEn": "keep an injured limb from moving",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "08624c6b-7582-5e45-a948-a5b372512c98",
+   "lemma": "dislocation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dislocation",
+    "dislocations"
+   ],
+   "glossEn": "injury where a bone slips out of its joint",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "9cf00ead-fc1f-5a05-b523-a1a684569404",
+   "lemma": "amputate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "amputate",
+    "amputates",
+    "amputated",
+    "amputating"
+   ],
+   "glossEn": "remove a limb by surgery",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "752dd018-7424-5018-8b71-296fa9218fc2",
+   "lemma": "numbness",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "numbness"
+   ],
+   "glossEn": "loss of feeling in part of the body",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "a4fd1261-348e-5db2-882d-795499f9971e",
+   "lemma": "tetanus",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tetanus"
+   ],
+   "glossEn": "serious infection entering through dirty wounds",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "fe7cf654-69ae-55f7-9eb1-1c3ec985f370",
+   "lemma": "antidote",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "antidote",
+    "antidotes"
+   ],
+   "glossEn": "medicine that works against a poison",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "8e7915a9-cfaf-5af1-99ae-033926a4d990",
+   "lemma": "inhalation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inhalation"
+   ],
+   "glossEn": "breathing in, especially smoke or gas",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "cc8ef0dc-341a-5a87-9008-45d38aaed78c",
+   "lemma": "suffocate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "suffocate",
+    "suffocates",
+    "suffocated",
+    "suffocating"
+   ],
+   "glossEn": "die or struggle from lack of air",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "f1a5ac43-04b7-5421-a15b-c287808c554f",
+   "lemma": "shears",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shears"
+   ],
+   "glossEn": "strong scissors for cutting clothing off the injured",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "2e6b3747-3f1e-5a40-ab89-7c893011f6a5",
+   "lemma": "psychiatric",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "psychiatric"
+   ],
+   "glossEn": "relating to the treatment of mental illness",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "a9f50832-d235-5df8-ac48-bab2cf265daa",
+   "lemma": "psychiatrist",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "psychiatrist",
+    "psychiatrists"
+   ],
+   "glossEn": "doctor who treats mental illness",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "3f189d70-6915-5598-8c0c-8131cbbd9b73",
+   "lemma": "antidepressant",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "antidepressant",
+    "antidepressants"
+   ],
+   "glossEn": "medicine that treats depression",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "0c57dd2d-51d3-59d0-93dc-af538c49fd64",
+   "lemma": "reinforced",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reinforced"
+   ],
+   "glossEn": "made stronger, for example with steel",
+   "topics": [
+    "military",
+    "city"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "fd0729bf-8608-5c8a-a8c5-d36745641957",
+   "lemma": "airman",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "airman",
+    "airmen"
+   ],
+   "glossEn": "member of an air force",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "7d2bffa2-f1d3-552f-ac28-2b6a26398549",
+   "lemma": "commander-in-chief",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "commander-in-chief",
+    "commanders-in-chief"
+   ],
+   "glossEn": "top commander of all armed forces",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "a0d78177-fdd4-55d7-81e2-9171b4b132ff",
+   "lemma": "territorial defense",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "territorial defense",
+    "territorial defence"
+   ],
+   "glossEn": "local volunteer force that defends its region",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "3951c310-fd58-5dd2-bb90-2e3a7ea0f645",
+   "lemma": "service record",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "service record",
+    "service records"
+   ],
+   "glossEn": "official history of a person's military service",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "ba6f9e8d-91d0-564a-8d5f-7ac3b03007dc",
+   "lemma": "power of attorney",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "power of attorney"
+   ],
+   "glossEn": "document letting someone act on your behalf",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "2cdcdaee-c7af-5472-b13a-bb086bcd082e",
+   "lemma": "legal aid",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "legal aid"
+   ],
+   "glossEn": "free legal help for people who cannot pay",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  }
+ ]
+}

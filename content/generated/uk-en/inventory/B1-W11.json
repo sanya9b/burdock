@@ -1,0 +1,691 @@
+{
+ "chunk": "B1-W11",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "e50e404f-c711-5a95-918e-ff4d887d47ab",
+   "lemma": "plugin",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "plugin",
+    "plugins",
+    "plug-in",
+    "plug-ins"
+   ],
+   "glossEn": "small add-on that gives a program new abilities",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "841b17de-9cb3-582e-86ab-450b42e222b5",
+   "lemma": "widget",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "widget",
+    "widgets"
+   ],
+   "glossEn": "small live element on a home screen or page",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "6690cc40-27a0-58d1-8dc9-e3501c8f1320",
+   "lemma": "layout",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "layout",
+    "layouts"
+   ],
+   "glossEn": "arrangement of elements on a screen or page",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "fda77aee-b3f4-59a0-ab6b-e0c86cf90056",
+   "lemma": "HTML",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "HTML",
+    "html"
+   ],
+   "glossEn": "markup language that structures web pages",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "81859e48-7ef7-58ad-a53a-16693fcd3b9d",
+   "lemma": "CSS",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "CSS",
+    "css"
+   ],
+   "glossEn": "language that styles the look of web pages",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "7ac2a15e-b35c-5d39-a5ef-270efee32720",
+   "lemma": "unzip",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unzip",
+    "unzips",
+    "unzipped",
+    "unzipping"
+   ],
+   "glossEn": "open a compressed archive into separate files",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "9e33d592-7447-58cf-84f7-8360d7f23cfc",
+   "lemma": "SSD",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "SSD",
+    "SSDs"
+   ],
+   "glossEn": "fast storage drive with no moving parts",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "0205e8f5-c835-5e30-a2c2-bacf82b051e6",
+   "lemma": "CPU",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "CPU",
+    "CPUs",
+    "cpu"
+   ],
+   "glossEn": "main processor that runs a computer's instructions",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "77e3513b-defd-5702-be75-e533194c9417",
+   "lemma": "ethernet",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ethernet",
+    "Ethernet"
+   ],
+   "glossEn": "wired connection for a local network",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "092701a8-1004-5949-b6b2-89c1633775ad",
+   "lemma": "playback",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "playback"
+   ],
+   "glossEn": "playing of recorded audio or video",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "f77a6660-1006-57ee-a7b4-c3ad96cdfbce",
+   "lemma": "preview",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "preview",
+    "previews"
+   ],
+   "glossEn": "view of content before you open or publish it",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "77d4927a-2542-59b8-b3e0-b640c4db0b94",
+   "lemma": "clipboard",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "clipboard",
+    "clipboards"
+   ],
+   "glossEn": "temporary memory that holds copied text or files",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "7316b271-4c76-568b-acef-48ff16b3dd85",
+   "lemma": "autosave",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "autosave",
+    "autosaves",
+    "auto-save"
+   ],
+   "glossEn": "feature that saves your work automatically",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "84b8dcd2-aeee-5583-ae00-ade01a28e32a",
+   "lemma": "overwrite",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overwrite",
+    "overwrites",
+    "overwrote",
+    "overwritten"
+   ],
+   "glossEn": "replace saved data with new data",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "e7b22f07-f1d0-50bb-9188-408be7a28ef3",
+   "lemma": "directory",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "directory",
+    "directories"
+   ],
+   "glossEn": "folder in a file system, especially on servers",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "16fbed4e-c67e-56ae-a9ae-a5b42faf3d03",
+   "lemma": "administrator",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "administrator",
+    "administrators",
+    "admin",
+    "admins"
+   ],
+   "glossEn": "user with full rights to manage a system",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "a783a2ec-e079-55b6-b5e4-b7477d81acc8",
+   "lemma": "sensor",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sensor",
+    "sensors"
+   ],
+   "glossEn": "part that detects light, motion or other signals",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "01c6c27f-b1e9-5ba2-bcc1-950f25121bab",
+   "lemma": "touchpad",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "touchpad",
+    "touchpads",
+    "trackpad",
+    "trackpads"
+   ],
+   "glossEn": "flat surface on a laptop that replaces a mouse",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "bf2a1b28-5ea0-5586-89f6-2aa47f48dc5d",
+   "lemma": "stylus",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stylus",
+    "styluses",
+    "styli"
+   ],
+   "glossEn": "pen for writing or drawing on a touchscreen",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "76cab17e-be03-50c7-8771-216279463098",
+   "lemma": "carrier",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "carrier",
+    "carriers"
+   ],
+   "glossEn": "company that provides mobile phone service",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "3e066e42-77e9-59f4-a814-31752fa762a9",
+   "lemma": "demo",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "demo",
+    "demos"
+   ],
+   "glossEn": "short live showing of how software works",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "e4a79a59-d2da-5ccf-8828-146ea437e18b",
+   "lemma": "code review",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "code review",
+    "code reviews"
+   ],
+   "glossEn": "checking of a colleague's code before merging",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "3ef96cb7-c526-5b81-a0e7-16db6a12878b",
+   "lemma": "freelancer",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "freelancer",
+    "freelancers"
+   ],
+   "glossEn": "self-employed person who works for several clients",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "1e67e41b-5dc8-5405-adaa-d75ef3fd8ac8",
+   "lemma": "documentation",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "documentation",
+    "docs"
+   ],
+   "glossEn": "written explanation of how software works and is used",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "366c2fed-05eb-5ebb-b1f5-fecef6243239",
+   "lemma": "wiki",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wiki",
+    "wikis"
+   ],
+   "glossEn": "website that many people can edit together",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "b029182d-6951-5c19-9aa5-180142b87a44",
+   "lemma": "keyword",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keyword",
+    "keywords",
+    "key word"
+   ],
+   "glossEn": "important word used for searching or indexing",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "fd7e7be3-4056-5188-83a0-2747449248d7",
+   "lemma": "hyperlink",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hyperlink",
+    "hyperlinks"
+   ],
+   "glossEn": "clickable connection from one web page to another",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "a9feaee0-02df-529e-9742-ef9b3d7f78b0",
+   "lemma": "domain",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "domain",
+    "domains",
+    "domain name"
+   ],
+   "glossEn": "registered name of a website such as burdock.org",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "05ff1d3b-431e-5b12-8a28-734e8afde9b9",
+   "lemma": "banner",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "banner",
+    "banners"
+   ],
+   "glossEn": "wide advertisement image across a web page",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "fc3b4ba0-43cf-5865-bdae-2e6da3438ba6",
+   "lemma": "trending",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "trending"
+   ],
+   "glossEn": "being discussed by many people online right now",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "f8c18bc7-208c-5574-b038-047d4fa17094",
+   "lemma": "streamer",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "streamer",
+    "streamers"
+   ],
+   "glossEn": "person who broadcasts live video to an audience online",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "9a3f5714-ee21-57e8-ade2-6e925ddfd85d",
+   "lemma": "unfollow",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unfollow",
+    "unfollows",
+    "unfollowed",
+    "unfollowing"
+   ],
+   "glossEn": "stop receiving someone's posts",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "a6b8a49f-bf46-5f9b-8245-cb0abb48ea7c",
+   "lemma": "repost",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "repost",
+    "reposts",
+    "reposted",
+    "reposting"
+   ],
+   "glossEn": "share someone else's post again on your page",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "1f0e4240-c3fc-5b8a-9c23-3ffefc896494",
+   "lemma": "archive",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "archive",
+    "archives",
+    "archived",
+    "archiving"
+   ],
+   "glossEn": "move old messages or files out of view for keeping",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "efad8f4d-dd8d-556c-9578-9465b2434342",
+   "lemma": "scam",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scam",
+    "scams"
+   ],
+   "glossEn": "dishonest trick to get money or data online",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "07cefd7e-6c29-5deb-b3f8-de5c0c6746da",
+   "lemma": "scammer",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scammer",
+    "scammers"
+   ],
+   "glossEn": "person who cheats others, often online",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "2d24146a-91ae-5898-aa12-8582a8d6ee54",
+   "lemma": "verification",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "verification",
+    "verifications"
+   ],
+   "glossEn": "step that confirms who you are, often by code",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "647cff80-f889-5463-8359-c7e898ec421f",
+   "lemma": "verify",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "verify",
+    "verifies",
+    "verified",
+    "verifying"
+   ],
+   "glossEn": "confirm that an account, email or identity is real",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "1f77f0f6-731a-5143-9235-3675077ac616",
+   "lemma": "captcha",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "captcha",
+    "captchas",
+    "CAPTCHA"
+   ],
+   "glossEn": "test on a website that proves you are human",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "0fd170c4-f1bf-5da3-8d89-7ac7dd93f898",
+   "lemma": "VPN",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "VPN",
+    "VPNs",
+    "vpn"
+   ],
+   "glossEn": "service that hides and protects your internet connection",
+   "topics": [
+    "it",
+    "travel"
+   ],
+   "area": "it"
+  }
+ ]
+}

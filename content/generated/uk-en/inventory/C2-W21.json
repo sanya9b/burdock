@@ -1,0 +1,534 @@
+{
+ "chunk": "C2-W21",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "5e8502d4-b9d7-576d-b835-0e6c9adb188e",
+   "lemma": "balk",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "balk",
+    "baulk"
+   ],
+   "glossEn": "hesitate or be unwilling to accept something",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "5da2391e-7903-5da0-bc8e-e80cf0a0c126",
+   "lemma": "devil-may-care",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "devil-may-care",
+    "devil may care"
+   ],
+   "glossEn": "cheerfully reckless and carefree",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "7c3b54e1-a515-5a14-ba4f-c14c65886a47",
+   "lemma": "starry-eyed",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "starry-eyed",
+    "starry eyed"
+   ],
+   "glossEn": "naively enthusiastic or idealistic",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "f6ae3528-3621-500d-b30d-936ef995107e",
+   "lemma": "plain-spoken",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "plain-spoken",
+    "plainspoken"
+   ],
+   "glossEn": "frank and direct in speech",
+   "topics": [
+    "communication"
+   ],
+   "area": "emotions-character"
+  },
+  {
+   "id": "e54f5307-e87f-5889-b8fa-d5b5c65e6f37",
+   "lemma": "gumption",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gumption"
+   ],
+   "glossEn": "shrewd, spirited initiative and resourcefulness",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "2e77b5cf-b1a3-5ca7-b620-ad48e1ecba82",
+   "lemma": "mettle",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mettle"
+   ],
+   "glossEn": "ability to cope bravely with difficulties",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "069e65c0-57a8-5350-8234-2fedbfac4fcb",
+   "lemma": "fortitude",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fortitude"
+   ],
+   "glossEn": "courage in pain or adversity",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "518c22db-5fd9-5262-9fe4-7fbc70f6f7cb",
+   "lemma": "probity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "probity"
+   ],
+   "glossEn": "complete honesty and decency",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "df4ca9c7-8a6b-5c75-b409-41ab89adae53",
+   "lemma": "gravitas",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gravitas"
+   ],
+   "glossEn": "dignity and seriousness of manner",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "b3997442-c244-5409-b6d5-b28f2911fb6e",
+   "lemma": "boorish",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "boorish"
+   ],
+   "glossEn": "rough, rude and insensitive",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "91080410-3055-5903-a986-4ab6a4d4d01c",
+   "lemma": "obtuse",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "obtuse"
+   ],
+   "glossEn": "annoyingly slow to understand",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "1dfef508-4cc6-5a87-9088-fb732f386097",
+   "lemma": "truculent",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "truculent"
+   ],
+   "glossEn": "eager to argue or fight, aggressively defiant",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "93015025-7d8f-53f4-971e-963c843dd87e",
+   "lemma": "malevolent",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "malevolent"
+   ],
+   "glossEn": "wishing evil or harm to others",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "752229f5-0db0-5894-860c-21d7251f9eeb",
+   "lemma": "duplicity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "duplicity"
+   ],
+   "glossEn": "deceitfulness, double-dealing",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "eed7f93f-9e71-5499-a9aa-eaa11e8e39aa",
+   "lemma": "acrimonious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "acrimonious"
+   ],
+   "glossEn": "angry and bitter, typically of a dispute",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "8c73ef04-f867-539d-9844-4d334abb2413",
+   "lemma": "obdurate",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "obdurate"
+   ],
+   "glossEn": "stubbornly refusing to change one's opinion",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "a935f2cd-fa91-5e21-9d4a-4ad7e3e4752a",
+   "lemma": "hidebound",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hidebound"
+   ],
+   "glossEn": "unwilling to change because of tradition",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "a11b1e37-f516-558a-a27e-7b15d8f219b6",
+   "lemma": "foolhardy",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "foolhardy"
+   ],
+   "glossEn": "recklessly bold or rash",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "32925a22-71e1-502e-90bf-e6ad24ad0744",
+   "lemma": "extrinsic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "extrinsic"
+   ],
+   "glossEn": "coming from outside rather than from within",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "2447a6db-1eb5-5e76-94c2-e517b06a768b",
+   "lemma": "stochastic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stochastic"
+   ],
+   "glossEn": "involving randomness or probability",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "e798e472-3919-5eeb-8895-852a537475c0",
+   "lemma": "asymptotic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "asymptotic"
+   ],
+   "glossEn": "approaching a limit without ever reaching it",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "1c626bed-f460-5f02-b79c-ff2bf455163b",
+   "lemma": "residual",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "residual"
+   ],
+   "glossEn": "remaining after the main part is gone",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "85d1813b-a9de-5813-b05a-4c6caea3fe3d",
+   "lemma": "incommensurable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incommensurable"
+   ],
+   "glossEn": "having no common standard for comparison",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "817a50c9-612b-5d3f-829d-06efc92c88b3",
+   "lemma": "paradigmatic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "paradigmatic"
+   ],
+   "glossEn": "serving as a typical example or model",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "40ae64ba-f47c-5427-be54-e357ee5988ec",
+   "lemma": "normative",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "normative"
+   ],
+   "glossEn": "setting a standard of what should be done",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "945550bb-408f-57d2-8bfd-8fa8caf1fe50",
+   "lemma": "reductionist",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reductionist"
+   ],
+   "glossEn": "explaining complex things only by simple parts",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "0026afcd-10de-5034-9d8a-ee87c4fff072",
+   "lemma": "emergent",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "emergent"
+   ],
+   "glossEn": "arising from complex interaction of parts",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "a012c608-7fd9-5c45-ad94-217458985e8a",
+   "lemma": "orthogonal",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "orthogonal"
+   ],
+   "glossEn": "independent; not affecting each other",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "7cbf33c6-3ea8-51e5-9831-c69105881750",
+   "lemma": "nontrivial",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nontrivial",
+    "non-trivial"
+   ],
+   "glossEn": "not simple; requiring real effort or thought",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "ed64c902-3706-50bb-9882-97fe10030232",
+   "lemma": "probabilistic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "probabilistic"
+   ],
+   "glossEn": "based on probability rather than certainty",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "05d67809-591a-5296-9f4f-0447d1464d13",
+   "lemma": "continuum",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "continuum"
+   ],
+   "glossEn": "continuous range with no clear divisions",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "4c119f11-e8d4-5d60-88e0-52248b07357f",
+   "lemma": "nonlinear",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nonlinear",
+    "non-linear"
+   ],
+   "glossEn": "not changing in direct proportion",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "b4cc76bd-dba2-5685-8a4a-8b82c48190d8",
+   "lemma": "inversely",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inversely"
+   ],
+   "glossEn": "in the opposite way; one rising as another falls",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "9eb8e4a8-09eb-5653-bf29-05b070ce449f",
+   "lemma": "dogma",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dogma"
+   ],
+   "glossEn": "belief accepted as true without question",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "94b7f9f6-653d-54e4-b8df-cea71006c24e",
+   "lemma": "invariant",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "invariant"
+   ],
+   "glossEn": "never changing under given conditions",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "3daaff6c-b2cc-55bc-b903-eacd0a0f93ac",
+   "lemma": "nomenclature",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nomenclature"
+   ],
+   "glossEn": "system of names used in a science",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "612f66ee-17b2-5f70-b2bc-be33bfb7930e",
+   "lemma": "polarity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "polarity"
+   ],
+   "glossEn": "having two opposite poles or charges",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "5025ffd2-6f0f-5e73-a1b9-80af4bd033a1",
+   "lemma": "centrifugal",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "centrifugal"
+   ],
+   "glossEn": "moving outward from the center of rotation",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "bcd1e25d-2d6b-5f62-a9c3-3b61e572730d",
+   "lemma": "fulcrum",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fulcrum"
+   ],
+   "glossEn": "point on which a lever turns",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "8663b764-671d-57ff-847c-4e50ff50acd1",
+   "lemma": "thermodynamics",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "thermodynamics"
+   ],
+   "glossEn": "science of heat, energy and work",
+   "topics": [],
+   "area": "science-nature"
+  }
+ ]
+}

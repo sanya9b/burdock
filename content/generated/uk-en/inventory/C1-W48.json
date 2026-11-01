@@ -1,0 +1,557 @@
+{
+ "chunk": "C1-W48",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "dfb6fd1d-5e3a-5a62-89cb-c583d6f1222b",
+   "lemma": "trustee",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "trustee"
+   ],
+   "glossEn": "person legally responsible for managing assets for others",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "5d222c91-3249-5b8d-a60c-def64a09a36f",
+   "lemma": "public works",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "public works"
+   ],
+   "glossEn": "construction projects paid for by the state",
+   "topics": [
+    "city"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "000901a0-f676-5a1f-8798-a98393bc3925",
+   "lemma": "civil servant",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "civil servant"
+   ],
+   "glossEn": "person employed by a government department",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "659bb4c7-0a7c-5d86-8002-2fd0d4296896",
+   "lemma": "policymaker",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "policymaker",
+    "policy-maker",
+    "policy maker"
+   ],
+   "glossEn": "person who decides official policy",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "c8ad1220-c917-56b1-92b7-e7ad6159ae63",
+   "lemma": "envoy",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "envoy"
+   ],
+   "glossEn": "representative sent on a diplomatic mission",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "76c43140-41d9-5ce5-9551-0102572adcaa",
+   "lemma": "consul",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "consul"
+   ],
+   "glossEn": "official representing a state in a foreign city",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "ffd8d3ff-ce77-5cff-b67c-3100b859eb37",
+   "lemma": "bilateral",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bilateral"
+   ],
+   "glossEn": "involving two countries or parties",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "10edf4f8-f4b4-5318-9f56-a025c8f4c944",
+   "lemma": "multilateral",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "multilateral"
+   ],
+   "glossEn": "involving three or more countries",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "5e12327a-95c2-571e-bd87-413b39db5ea5",
+   "lemma": "unilateral",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unilateral"
+   ],
+   "glossEn": "done by one side without agreement of others",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "e89c352b-2d31-588d-8b5e-d116e440335d",
+   "lemma": "pact",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pact"
+   ],
+   "glossEn": "formal agreement between countries or parties",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "60c8424c-2e71-5646-b7fc-c7f0390e0393",
+   "lemma": "accord",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "accord"
+   ],
+   "glossEn": "official agreement or treaty",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "da64de0f-b2ab-59b9-a670-159fc9f1cd96",
+   "lemma": "memorandum",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "memorandum",
+    "memo"
+   ],
+   "glossEn": "written record of an agreement or communication",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "b8c22590-c363-5cee-b5b1-8cf5635aafc6",
+   "lemma": "accession",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "accession"
+   ],
+   "glossEn": "formal joining of an international organization",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "504d3f99-ce7c-5f8b-a56e-b4652d7f543e",
+   "lemma": "signatory",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "signatory"
+   ],
+   "glossEn": "party that has signed an agreement",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "f88bef1e-04a6-5ca3-a10c-e1f3573040f6",
+   "lemma": "hostilities",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hostilities"
+   ],
+   "glossEn": "acts of warfare",
+   "topics": [
+    "military"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "cfee7a04-91e8-5be8-9226-dfec25e5af36",
+   "lemma": "bloc",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bloc"
+   ],
+   "glossEn": "group of countries acting together",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "b1667db0-f9ea-570a-b3b3-7dc7a8bfc1f1",
+   "lemma": "confederation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "confederation"
+   ],
+   "glossEn": "union of states with a weak central authority",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "42c8c25b-3820-50c0-a85d-a23d0336aadd",
+   "lemma": "partition",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "partition"
+   ],
+   "glossEn": "division of a country into separate states",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "e30e240a-5445-52f3-81b2-d05a9a8d22c5",
+   "lemma": "decolonization",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "decolonization",
+    "decolonisation"
+   ],
+   "glossEn": "process of colonies gaining independence",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "e29054e7-7ce0-5497-bad4-49e1e5ccacc9",
+   "lemma": "peacekeeping",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "peacekeeping",
+    "peace-keeping"
+   ],
+   "glossEn": "maintaining peace by international forces",
+   "topics": [
+    "military"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "aa8b70a4-dd32-5d6c-aa6e-ded7fe79a663",
+   "lemma": "stalemate",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stalemate"
+   ],
+   "glossEn": "situation where neither side can make progress",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "b2fe1ac4-d9b4-5c40-ad5a-6049fbf0ca0d",
+   "lemma": "deadlock",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deadlock"
+   ],
+   "glossEn": "situation where no agreement can be reached",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "25dac41f-8f71-5d47-81d2-f0da197e4884",
+   "lemma": "standoff",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "standoff",
+    "stand-off"
+   ],
+   "glossEn": "deadlock between opposing sides",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "a772549d-8974-57f8-97b5-76282d3bbd3d",
+   "lemma": "de-escalate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "de-escalate",
+    "deescalate"
+   ],
+   "glossEn": "reduce the intensity of a conflict",
+   "topics": [
+    "military"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "10292da7-a4ae-51b0-82c4-2dff635cb0a2",
+   "lemma": "provocation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "provocation"
+   ],
+   "glossEn": "action intended to cause anger or conflict",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "51ef801d-cf9c-5436-9414-4f2f25a405d6",
+   "lemma": "nongovernmental",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nongovernmental",
+    "non-governmental"
+   ],
+   "glossEn": "not run by a government",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "d8a3948f-f897-5d4d-bb40-70303e9a98d3",
+   "lemma": "transnational",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "transnational",
+    "trans-national"
+   ],
+   "glossEn": "operating across national boundaries",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "36e7b7fb-6665-50e0-bc27-bcfa4c5ccc93",
+   "lemma": "intergovernmental",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "intergovernmental",
+    "inter-governmental"
+   ],
+   "glossEn": "conducted between governments",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "5ac17de9-b904-5dfb-a40e-d90713f0d88b",
+   "lemma": "geopolitics",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "geopolitics"
+   ],
+   "glossEn": "politics shaped by geography and power between states",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "0e47c34b-0054-502f-ab90-00d1c1b861fd",
+   "lemma": "geopolitical",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "geopolitical"
+   ],
+   "glossEn": "relating to politics influenced by geography",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "c588f8ee-b968-5f96-afdd-72dbb53d07bb",
+   "lemma": "covert",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "covert"
+   ],
+   "glossEn": "secret or hidden",
+   "topics": [
+    "military"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "6280467b-2ae4-597d-a3e1-4bd03bf595dd",
+   "lemma": "treason",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "treason"
+   ],
+   "glossEn": "crime of betraying one's country",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "b7d1da78-0a32-559c-9d26-def427a9f220",
+   "lemma": "genocide",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "genocide"
+   ],
+   "glossEn": "deliberate killing of a national or ethnic group",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "49538d0f-fa1f-5268-b87e-01b22c5aeff0",
+   "lemma": "self-determination",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "self-determination",
+    "self determination"
+   ],
+   "glossEn": "right of a people to choose its own government",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "2dd5a6d3-2b59-5ddd-bcfe-04f265afdcad",
+   "lemma": "mediator",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mediator"
+   ],
+   "glossEn": "neutral person who helps parties reach agreement",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "bb129066-87fd-5767-ad42-e2fbe5fc7f45",
+   "lemma": "extort",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "extort"
+   ],
+   "glossEn": "obtain something by force or threats",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "9862192f-ed65-5c57-9ee5-c03b630fa053",
+   "lemma": "perpetrator",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "perpetrator"
+   ],
+   "glossEn": "person who carries out a crime",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "85abbe97-015d-5f87-9d9f-b16fd12e3b7e",
+   "lemma": "perpetrate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "perpetrate"
+   ],
+   "glossEn": "carry out a harmful or illegal act",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "61b64c38-2f0a-5843-a769-782be6d15efc",
+   "lemma": "culprit",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "culprit"
+   ],
+   "glossEn": "person responsible for a crime or fault",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "bd90c839-b77c-5d03-9b44-782f7457a1c2",
+   "lemma": "fugitive",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fugitive"
+   ],
+   "glossEn": "person fleeing from the law",
+   "topics": [],
+   "area": "society-law"
+  }
+ ]
+}

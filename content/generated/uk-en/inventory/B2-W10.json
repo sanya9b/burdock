@@ -1,0 +1,674 @@
+{
+ "chunk": "B2-W10",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "0c7c360f-df49-5738-8980-756b119667ba",
+   "lemma": "ceviche",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ceviche"
+   ],
+   "glossEn": "raw fish cured in citrus juice",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "c286b1ed-6821-54f6-bee6-8afec726890c",
+   "lemma": "tempura",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tempura"
+   ],
+   "glossEn": "seafood or vegetables fried in light batter",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "19d3b8d1-0785-56ed-81b0-a74977adfe8a",
+   "lemma": "edamame",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "edamame"
+   ],
+   "glossEn": "young green soybeans served in the pod",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "bca38273-96b4-5dff-961d-11a562baafbb",
+   "lemma": "biryani",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "biryani",
+    "biryanis"
+   ],
+   "glossEn": "spiced layered rice dish with meat",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "78b9e29a-0d22-5922-b653-25aeb5eddd06",
+   "lemma": "chai",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chai"
+   ],
+   "glossEn": "spiced sweet milky tea",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "56923a28-58b7-54d7-96bc-c14e95d43d59",
+   "lemma": "line cook",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "line cook",
+    "line cooks"
+   ],
+   "glossEn": "cook working one station in a restaurant kitchen",
+   "topics": [
+    "food",
+    "work"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "8f27c759-4bbc-56e3-b33c-298617e61c8c",
+   "lemma": "sous-chef",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sous-chef",
+    "sous-chefs",
+    "sous chef"
+   ],
+   "glossEn": "second-in-command chef in a kitchen",
+   "topics": [
+    "food",
+    "work"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "43e9ed40-05ed-5c6f-a4d8-a4c4c1686033",
+   "lemma": "prep",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prep"
+   ],
+   "glossEn": "preparing ingredients before cooking service",
+   "topics": [
+    "food",
+    "work"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "a80c73dc-76d9-51a3-8d79-898e576c3949",
+   "lemma": "plating",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "plating"
+   ],
+   "glossEn": "arranging food attractively on the plate",
+   "topics": [
+    "food",
+    "work"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "f0321ea0-30db-53b3-83f7-6c382dedd090",
+   "lemma": "tasting menu",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tasting menu",
+    "tasting menus"
+   ],
+   "glossEn": "fixed series of small chef-chosen courses",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "f32eb0f0-a1ef-5218-941e-dd3243308d07",
+   "lemma": "à la carte",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "à la carte",
+    "a la carte"
+   ],
+   "glossEn": "ordered as separate individually priced dishes",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "af212f17-c57c-563b-b517-345f4797c1c7",
+   "lemma": "corkage",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "corkage"
+   ],
+   "glossEn": "fee for opening wine you brought yourself",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "aad743d2-fe45-53e4-a8f2-44504ea16eea",
+   "lemma": "no-show",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "no-show",
+    "no-shows"
+   ],
+   "glossEn": "guest who booked but never arrived",
+   "topics": [
+    "food",
+    "work",
+    "travel"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "253acc97-e0ab-586d-9888-53a63aa4eea9",
+   "lemma": "busser",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "busser",
+    "bussers",
+    "busboy"
+   ],
+   "glossEn": "worker who clears and resets restaurant tables",
+   "topics": [
+    "food",
+    "work"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "f7fba949-06af-55cd-a170-67ea855e09f8",
+   "lemma": "slow cooker",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "slow cooker",
+    "slow cookers",
+    "crockpot"
+   ],
+   "glossEn": "electric pot that cooks food gently for hours",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "f24d90b6-a933-5f7c-afa2-bd618d743a88",
+   "lemma": "gastropub",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gastropub",
+    "gastropubs"
+   ],
+   "glossEn": "pub serving high-quality restaurant food",
+   "topics": [
+    "food",
+    "city"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "d2af5bd1-a8a4-5521-b47e-e2a51dc395a5",
+   "lemma": "pairing",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pairing",
+    "pairings"
+   ],
+   "glossEn": "matching a drink to a dish",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "aaa876a8-cdf5-531e-9a2b-2b713f11f345",
+   "lemma": "palate cleanser",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "palate cleanser",
+    "palate cleansers"
+   ],
+   "glossEn": "small item eaten between courses to refresh taste",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "41eb0e5d-a4f5-522d-875c-a4138ab0c539",
+   "lemma": "amuse-bouche",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "amuse-bouche",
+    "amuse-bouches"
+   ],
+   "glossEn": "tiny free appetizer chosen by the chef",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "045c7387-f017-5e29-9b7a-43559be74b11",
+   "lemma": "fine dining",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fine dining"
+   ],
+   "glossEn": "formal high-end restaurant style",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "ad119de8-224f-5c46-8a7f-6e5c961b08a8",
+   "lemma": "nutrition label",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nutrition label",
+    "nutrition labels",
+    "nutrition facts"
+   ],
+   "glossEn": "package panel listing calories and nutrients",
+   "topics": [
+    "food",
+    "shopping",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "7a4e655e-d2b0-5862-8a58-bbcb2657d01e",
+   "lemma": "serving size",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "serving size",
+    "serving sizes"
+   ],
+   "glossEn": "standard portion stated on a food label",
+   "topics": [
+    "food",
+    "health",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "03b23352-264d-5636-8ff7-3fdae8422473",
+   "lemma": "emulsifier",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "emulsifier",
+    "emulsifiers"
+   ],
+   "glossEn": "additive that keeps oil and water mixed",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "7bbb55e5-c7f6-57cd-9b51-218b6f905085",
+   "lemma": "thickener",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "thickener",
+    "thickeners"
+   ],
+   "glossEn": "ingredient that makes a liquid thicker",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "aed542aa-91be-599b-aac8-1159514752be",
+   "lemma": "sell-by",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sell-by",
+    "sell-by date"
+   ],
+   "glossEn": "of a date: by which a shop should sell food",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "353e0152-cb12-5250-8142-aaa1528b42bd",
+   "lemma": "traceability",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "traceability"
+   ],
+   "glossEn": "ability to track food back to its source",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "0ffa809b-2105-540b-ae45-787ec11ebc44",
+   "lemma": "locally sourced",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "locally sourced",
+    "locally-sourced"
+   ],
+   "glossEn": "bought from producers nearby",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "40389496-f12f-5931-952a-bc253e3fcf0d",
+   "lemma": "celiac",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "celiac",
+    "coeliac"
+   ],
+   "glossEn": "unable to tolerate gluten because of disease",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "46bdf886-00b8-57d8-9d13-467f21f62383",
+   "lemma": "keto",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keto",
+    "ketogenic"
+   ],
+   "glossEn": "very low in carbohydrates and high in fat",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "e54f6c50-6f3e-507d-af42-abdd5e25a1dd",
+   "lemma": "intermittent fasting",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "intermittent fasting"
+   ],
+   "glossEn": "eating pattern with regular windows without food",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "ae3ff819-49ca-5a00-bf22-5b287ca10ec2",
+   "lemma": "hydration",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hydration"
+   ],
+   "glossEn": "keeping enough water in the body",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "12300c52-a6e9-59ac-8fd4-d9fb94e4f52a",
+   "lemma": "electrolyte",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "electrolyte",
+    "electrolytes"
+   ],
+   "glossEn": "mineral salt lost through sweat",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "a4c02d0d-fc6f-5f07-abf0-a468bfe7d3d1",
+   "lemma": "prebiotic",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prebiotic",
+    "prebiotics"
+   ],
+   "glossEn": "fiber that feeds good gut bacteria",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "d598e626-9d6a-5034-8d25-411b4082ec92",
+   "lemma": "plant-based",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "plant-based",
+    "plant based"
+   ],
+   "glossEn": "made mainly from plants, not animals",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "191b617c-fc57-5e16-9b96-da5018d828e0",
+   "lemma": "saturated",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "saturated"
+   ],
+   "glossEn": "of fat: solid, mostly from animal sources",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "c19c9b28-882a-5398-911f-ff1d47756fec",
+   "lemma": "trans fat",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "trans fat",
+    "trans fats"
+   ],
+   "glossEn": "harmful processed fat found in fried foods",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "bdca085e-49f2-55f5-8f70-40a76cf3dfb4",
+   "lemma": "salmonella",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "salmonella"
+   ],
+   "glossEn": "bacteria that cause food poisoning",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "6d6892cd-d811-516f-90df-21de0c2d82eb",
+   "lemma": "cross-contamination",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cross-contamination",
+    "cross contamination"
+   ],
+   "glossEn": "spreading germs from raw to ready food",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "39973e81-4b51-59ff-985f-0ac33a38dbaf",
+   "lemma": "brew",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brew",
+    "brews",
+    "brewed",
+    "brewing"
+   ],
+   "glossEn": "make coffee, tea, or beer by steeping",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "0ad390b4-5d01-5ca9-b311-cc5446055a7d",
+   "lemma": "barista",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "barista",
+    "baristas"
+   ],
+   "glossEn": "person trained to make espresso drinks",
+   "topics": [
+    "food",
+    "work"
+   ],
+   "area": "food"
+  }
+ ]
+}

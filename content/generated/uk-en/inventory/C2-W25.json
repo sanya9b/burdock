@@ -1,0 +1,585 @@
+{
+ "chunk": "C2-W25",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "89983a99-68eb-5a1b-aad8-eb1829c32134",
+   "lemma": "cloudburst",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cloudburst"
+   ],
+   "glossEn": "sudden violent rainstorm",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "31add699-be58-55ae-b1b3-219878c54766",
+   "lemma": "sultry",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sultry"
+   ],
+   "glossEn": "hot, humid and oppressive",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "29f0ea45-4aa8-5fff-8dbf-ed02a33030a1",
+   "lemma": "biting",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "biting"
+   ],
+   "glossEn": "painfully cold, as wind",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "190348fa-083d-5aff-8e3d-a752c4cac727",
+   "lemma": "snowpack",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "snowpack"
+   ],
+   "glossEn": "layer of packed snow that melts in spring",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "21d1494a-c9a0-5f8c-bb64-f72f4d461852",
+   "lemma": "whiteout",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "whiteout",
+    "white-out"
+   ],
+   "glossEn": "snowstorm so heavy that nothing can be seen",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "8c0868f8-02ec-5b26-8928-06bdb343cabf",
+   "lemma": "zenith",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "zenith"
+   ],
+   "glossEn": "point in the sky directly overhead; peak",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "f7fee4c2-f50f-5876-acd8-0c1cd7ba1541",
+   "lemma": "celestial",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "celestial"
+   ],
+   "glossEn": "relating to the sky or outer space",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "1cc4e4ac-a7b5-557a-b4e7-dd949fc85dcb",
+   "lemma": "waxing",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "waxing"
+   ],
+   "glossEn": "growing larger, as the moon before full",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "17e492aa-f198-5c6d-93c8-a6266a6265f5",
+   "lemma": "waning",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "waning"
+   ],
+   "glossEn": "growing smaller, as the moon after full",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "1ce5048c-637e-55af-8d47-ebc5bf4769cf",
+   "lemma": "cosmos",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cosmos"
+   ],
+   "glossEn": "the universe seen as an ordered whole",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "fe860b28-27a3-5631-8e27-288eccdb9d37",
+   "lemma": "interstellar",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "interstellar"
+   ],
+   "glossEn": "between the stars",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "fb4ea56a-710d-5337-bd43-7b08208cbcb5",
+   "lemma": "exoplanet",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "exoplanet"
+   ],
+   "glossEn": "planet orbiting a star other than the Sun",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "8054c88c-0475-5e0d-bd92-1b9816942e68",
+   "lemma": "terrestrial",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "terrestrial"
+   ],
+   "glossEn": "relating to the Earth or to land",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "5c201647-2db6-5627-ac6e-cd41f4eae1b0",
+   "lemma": "meteorite",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "meteorite"
+   ],
+   "glossEn": "piece of rock from space that reaches Earth",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "acdf5dac-9111-523d-97d6-d5c4556db5fe",
+   "lemma": "aurora",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aurora",
+    "northern lights"
+   ],
+   "glossEn": "colored lights in the polar night sky",
+   "topics": [
+    "travel"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "e4e3a2ec-ca46-54ec-9c59-7cecd265837f",
+   "lemma": "stratosphere",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stratosphere"
+   ],
+   "glossEn": "layer of the atmosphere above the weather",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "a5ab59ae-cd51-52dd-94d0-8dbc54289974",
+   "lemma": "contagion",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "contagion"
+   ],
+   "glossEn": "spread of disease by close contact",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "5d4f6fd0-a995-5c0f-bc7d-c1dd38b967ac",
+   "lemma": "latent",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "latent"
+   ],
+   "glossEn": "present but not yet active or visible",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "38a54907-5695-5c25-a92b-41d4509a42a1",
+   "lemma": "radiology",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "radiology"
+   ],
+   "glossEn": "medical use of X-rays and scans",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "94d64cb1-a6f6-515a-b0f5-2c460db003b5",
+   "lemma": "pathology",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pathology"
+   ],
+   "glossEn": "study of the causes and effects of disease",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "d295d708-3f55-5b26-a3ac-5eb2064df6a7",
+   "lemma": "contraindication",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "contraindication",
+    "contra-indication"
+   ],
+   "glossEn": "reason a treatment should not be used",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "c47999f5-a68d-5cdb-b9a7-4f8b818b79af",
+   "lemma": "anaphylaxis",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "anaphylaxis"
+   ],
+   "glossEn": "severe life-threatening allergic reaction",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "ecb02d94-b497-59e0-adfa-8b4c995225ac",
+   "lemma": "arrhythmia",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "arrhythmia"
+   ],
+   "glossEn": "irregular heartbeat",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "e9111542-b20e-52ef-aee3-6f6db9e2d797",
+   "lemma": "stent",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stent"
+   ],
+   "glossEn": "tiny tube inserted to keep a vessel open",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "00103326-9f76-5baa-986c-499be3165994",
+   "lemma": "hemoglobin",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hemoglobin",
+    "haemoglobin"
+   ],
+   "glossEn": "protein in red blood cells that carries oxygen",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "58a51ae6-223e-51ed-893c-727abf880d4c",
+   "lemma": "platelet",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "platelet"
+   ],
+   "glossEn": "blood cell fragment that helps clotting",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "8252f6d4-3c24-550f-886e-9e8d226cb048",
+   "lemma": "plasma",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "plasma"
+   ],
+   "glossEn": "liquid part of blood",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "517d8dc9-8f98-5b3e-940b-ae07ed6e38d1",
+   "lemma": "metastasize",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "metastasize",
+    "metastasise"
+   ],
+   "glossEn": "spread to other parts of the body, as cancer",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "66635719-a29c-5165-9279-1b009a42df61",
+   "lemma": "comatose",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "comatose"
+   ],
+   "glossEn": "in a deep unconscious state",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "b419a8e0-c01f-5a11-bddf-bcf2bebc54ad",
+   "lemma": "convulsion",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "convulsion"
+   ],
+   "glossEn": "sudden violent uncontrolled shaking of the body",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "0cd698c2-f258-5861-bcd6-35e58f4016e6",
+   "lemma": "analgesic",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "analgesic"
+   ],
+   "glossEn": "medicine that relieves pain",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "c4d6d62f-8e9b-5649-b528-ad906658b3f1",
+   "lemma": "inpatient",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inpatient",
+    "in-patient"
+   ],
+   "glossEn": "patient who stays in hospital for treatment",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "d713f8fc-1fb2-5901-a49c-9e06d411d9b5",
+   "lemma": "suture",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "suture"
+   ],
+   "glossEn": "stitch that closes a wound",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "b40fb8e5-64aa-5f80-904e-0bed65d7322d",
+   "lemma": "scalpel",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scalpel"
+   ],
+   "glossEn": "small sharp knife used in surgery",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "515369ea-ca1b-5045-a394-ebf01d4d76b8",
+   "lemma": "non-invasive",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "non-invasive",
+    "noninvasive"
+   ],
+   "glossEn": "not requiring cutting into the body",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "ef5fe1a9-c345-5184-af66-a2019534a0e8",
+   "lemma": "apnea",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "apnea",
+    "apnoea",
+    "sleep apnea"
+   ],
+   "glossEn": "temporary stopping of breathing, especially in sleep",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "77d6f31d-f7e2-5844-8488-5f3648ce8d67",
+   "lemma": "circadian",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "circadian"
+   ],
+   "glossEn": "following a roughly 24-hour body cycle",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "f86b10a7-68c0-5618-a4b2-a974bd485aa9",
+   "lemma": "melatonin",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "melatonin"
+   ],
+   "glossEn": "hormone that regulates sleep",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "4fb89d26-d799-52b4-8ebf-4e174c0407e9",
+   "lemma": "cortisol",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cortisol"
+   ],
+   "glossEn": "hormone released in response to stress",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "b0bc9f2f-0adb-58e0-b5dd-6b0543ca3879",
+   "lemma": "serotonin",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "serotonin"
+   ],
+   "glossEn": "brain chemical linked to mood and sleep",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  }
+ ]
+}

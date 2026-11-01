@@ -1,0 +1,685 @@
+{
+ "chunk": "B1-W12",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "32d604a7-3f9a-57c1-93b0-250f0f07f2f4",
+   "lemma": "joystick",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "joystick",
+    "joysticks"
+   ],
+   "glossEn": "stick you move to control a game or drone",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "180785a4-2285-5ac2-8095-da66a0816c80",
+   "lemma": "multiplayer",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "multiplayer",
+    "multi-player"
+   ],
+   "glossEn": "played by several people at the same time online",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "1959bd67-2a0b-5934-8e6a-9ff2104d7f33",
+   "lemma": "e-reader",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "e-reader",
+    "e-readers",
+    "ereader",
+    "ereaders"
+   ],
+   "glossEn": "device made for reading electronic books",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "fbf8d888-a326-5e4f-a25b-cf78eecb93f6",
+   "lemma": "smart speaker",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "smart speaker",
+    "smart speakers"
+   ],
+   "glossEn": "speaker that answers voice commands",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "70f2f163-7541-55f9-9e44-fde3a63dd271",
+   "lemma": "voice assistant",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "voice assistant",
+    "voice assistants"
+   ],
+   "glossEn": "software that answers spoken questions and commands",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "c99f5b4f-63f2-5575-9e87-57df230ea58f",
+   "lemma": "projector",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "projector",
+    "projectors"
+   ],
+   "glossEn": "device that shows a screen image on a wall",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "84384c06-2c61-52db-b636-5bb58514cbe5",
+   "lemma": "spacebar",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spacebar",
+    "spacebars",
+    "space bar"
+   ],
+   "glossEn": "long key that types a space",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "243ccc96-cc3f-585a-b5e9-941e9a132892",
+   "lemma": "wired",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wired"
+   ],
+   "glossEn": "connected with a cable rather than wirelessly",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "ddea8deb-46d8-5b45-ac5d-d3b9fc1c6254",
+   "lemma": "rechargeable",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rechargeable"
+   ],
+   "glossEn": "able to be filled with power again",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "a0107d76-bf0c-50b0-beb6-f99066f74856",
+   "lemma": "dropdown",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dropdown",
+    "dropdowns",
+    "drop-down",
+    "drop-downs"
+   ],
+   "glossEn": "list of options that opens below a field",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "fc7ebd2d-af28-5180-90d5-689d0fa18574",
+   "lemma": "checkbox",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "checkbox",
+    "checkboxes",
+    "check box"
+   ],
+   "glossEn": "small square you tick to choose an option",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "dd98a045-9b55-57aa-8f1f-82726353df3e",
+   "lemma": "slider",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "slider",
+    "sliders"
+   ],
+   "glossEn": "control you drag to change a value",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "9c31d460-ce2d-5359-9d03-5e1e6044264a",
+   "lemma": "template",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "template",
+    "templates"
+   ],
+   "glossEn": "ready-made layout you fill with your content",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "b37d6592-80fe-5fb1-bb4f-adb365025508",
+   "lemma": "autocomplete",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "autocomplete",
+    "auto-complete"
+   ],
+   "glossEn": "feature that suggests the rest of what you type",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "9f17c277-df0a-59ab-a700-3e651d961e2e",
+   "lemma": "autocorrect",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "autocorrect",
+    "auto-correct"
+   ],
+   "glossEn": "feature that fixes typing mistakes automatically",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "e37118f3-2785-5e31-93a9-dbecac7f161d",
+   "lemma": "spellcheck",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spellcheck",
+    "spell check",
+    "spell-check",
+    "spellchecker"
+   ],
+   "glossEn": "tool that marks misspelled words",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "9d89f22c-8c61-5685-b46a-c5b7d2c94b15",
+   "lemma": "resize",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "resize",
+    "resizes",
+    "resized",
+    "resizing"
+   ],
+   "glossEn": "change the size of an image or window",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "d5d08071-a28a-551e-90b1-06b1e8c110bb",
+   "lemma": "italic",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "italic",
+    "italics"
+   ],
+   "glossEn": "printed in letters that lean to the right",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "d81e085f-e3ac-5a98-bc7c-8a1f34a56228",
+   "lemma": "default",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "default",
+    "defaults"
+   ],
+   "glossEn": "setting used unless the user changes it",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "728f819e-27ab-5acb-bc05-72122e5c4094",
+   "lemma": "customize",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "customize",
+    "customizes",
+    "customized",
+    "customizing"
+   ],
+   "glossEn": "change settings to suit your own needs",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "95a59a31-f45c-5cbe-8075-76ed3c53c919",
+   "lemma": "beta",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "beta",
+    "betas"
+   ],
+   "glossEn": "early test version released before the final one",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "d207c53a-8b92-5c35-91b4-acf09c5a7dc0",
+   "lemma": "bug report",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bug report",
+    "bug reports"
+   ],
+   "glossEn": "written description of a software problem",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "0078c5a9-b29c-50f6-b27a-ca1f39b31819",
+   "lemma": "IP address",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "IP address",
+    "IP addresses",
+    "IP"
+   ],
+   "glossEn": "number that identifies a device on a network",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "a5ef8655-af7a-5619-bc9b-758ea9c799cd",
+   "lemma": "pointer",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pointer",
+    "pointers"
+   ],
+   "glossEn": "arrow on screen moved by the mouse",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "fd610e8f-9f13-5e85-ba21-131b2703336d",
+   "lemma": "tester",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tester",
+    "testers"
+   ],
+   "glossEn": "person who checks software for problems",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "900d607f-23e7-5dd5-90d3-2ed4335a93e0",
+   "lemma": "lock screen",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lock screen",
+    "lock screens",
+    "lockscreen"
+   ],
+   "glossEn": "screen a phone shows before you unlock it",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "28862107-bdce-5e42-8956-4a544c72594a",
+   "lemma": "dark mode",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dark mode",
+    "dark theme",
+    "night mode"
+   ],
+   "glossEn": "display theme with light text on dark background",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "2fdd970b-be98-5624-a8a1-b4c22f5288cb",
+   "lemma": "fast charging",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fast charging",
+    "fast charge",
+    "quick charging"
+   ],
+   "glossEn": "charging a battery at high power to save time",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "cfe13021-35e3-5c1e-a84a-f155c5684b01",
+   "lemma": "wireless charging",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wireless charging",
+    "wireless charger"
+   ],
+   "glossEn": "charging a device by laying it on a pad",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "c91fb8e9-468d-5f5d-820c-e1426e40e4e7",
+   "lemma": "battery life",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "battery life"
+   ],
+   "glossEn": "how long a device runs on one charge",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "a7c417eb-4a8d-5bc6-8ac8-b403f7cb14f5",
+   "lemma": "battery health",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "battery health"
+   ],
+   "glossEn": "how much capacity an aging battery still keeps",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "f1261ec3-8ece-5dec-9ca9-06d2f8cf2c03",
+   "lemma": "push notification",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "push notification",
+    "push notifications"
+   ],
+   "glossEn": "message an app sends to the phone screen",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "d101bd9f-5729-55fd-81aa-b0232d7fa5c4",
+   "lemma": "screen protector",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "screen protector",
+    "screen protectors"
+   ],
+   "glossEn": "thin film that shields a phone screen from scratches",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "034883f6-89a6-5c14-8a47-c874aa8793d5",
+   "lemma": "HDMI",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "HDMI",
+    "HDMI cable",
+    "HDMI port"
+   ],
+   "glossEn": "cable and port for digital video and sound",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "b1525a86-2350-5eb4-9133-05bdd98b2276",
+   "lemma": "USB-C",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "USB-C",
+    "USB C",
+    "Type-C"
+   ],
+   "glossEn": "small reversible connector for charging and data transfer",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "06316ae4-6183-53f6-9e9c-cd44610bcae8",
+   "lemma": "smart home",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "smart home",
+    "smart homes"
+   ],
+   "glossEn": "home with connected devices controlled from a phone",
+   "topics": [
+    "it",
+    "city"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "9471e507-4fda-5032-8eb3-12c28daeed8b",
+   "lemma": "smart TV",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "smart TV",
+    "smart TVs"
+   ],
+   "glossEn": "television that connects to the internet and runs apps",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "67feb78f-d8d5-586b-99db-7a7995ac6d99",
+   "lemma": "fitness tracker",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fitness tracker",
+    "fitness trackers",
+    "activity tracker"
+   ],
+   "glossEn": "wearable band that counts steps and heart rate",
+   "topics": [
+    "it",
+    "health"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "93d9aadf-9c73-5574-92bf-ab025198c817",
+   "lemma": "3D printing",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "3D printing",
+    "3D printer",
+    "3D print"
+   ],
+   "glossEn": "making solid objects layer by layer from digital models",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "7802cbf6-202d-54b4-9b16-5232ac0ad5be",
+   "lemma": "JPEG",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "JPEG",
+    "JPEGs",
+    "JPG",
+    "jpeg"
+   ],
+   "glossEn": "common compressed format for photo files",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  }
+ ]
+}

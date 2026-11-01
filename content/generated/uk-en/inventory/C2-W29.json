@@ -1,0 +1,554 @@
+{
+ "chunk": "C2-W29",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "78547ffc-9355-53aa-b7f8-69e3f02853ec",
+   "lemma": "plenipotentiary",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "plenipotentiary"
+   ],
+   "glossEn": "diplomat with full power to act for a government",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "461bdce3-233a-5124-987d-6edcbe3b4308",
+   "lemma": "multilateralism",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "multilateralism"
+   ],
+   "glossEn": "policy of cooperation among several countries",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "9a8520f4-d08d-5468-9e1f-038fa58dfd79",
+   "lemma": "communiqué",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "communiqué",
+    "communique"
+   ],
+   "glossEn": "official announcement, especially to the press",
+   "topics": [
+    "communication"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "7192785f-5386-5087-8bb8-1b1e3747daa1",
+   "lemma": "accede",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "accede"
+   ],
+   "glossEn": "formally agree to or join a treaty",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "08cbe46d-235b-5d6a-b54f-dae79d6386f5",
+   "lemma": "abrogate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "abrogate"
+   ],
+   "glossEn": "formally repeal or cancel an agreement",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "69e936cc-4f62-55aa-8f78-b60aaddf17fc",
+   "lemma": "renege",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "renege"
+   ],
+   "glossEn": "go back on a promise or agreement",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "62ab4965-80e3-50fb-928e-e01c9d9a9c65",
+   "lemma": "détente",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "détente",
+    "detente"
+   ],
+   "glossEn": "easing of hostility between countries",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "ad9dba0c-ab1a-5de7-8d03-ca81cdc26ae1",
+   "lemma": "rapprochement",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rapprochement"
+   ],
+   "glossEn": "renewal of friendly relations between states",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "0b64a61d-b869-5c70-a40e-43f3657c612c",
+   "lemma": "conciliatory",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "conciliatory"
+   ],
+   "glossEn": "intended to reduce anger and restore goodwill",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "149c522e-ea21-5872-864d-c8d14734a3b2",
+   "lemma": "appeasement",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "appeasement"
+   ],
+   "glossEn": "giving concessions to an aggressor to avoid conflict",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "5ebaf308-5a44-5500-ac3b-5b289340de20",
+   "lemma": "nonaligned",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nonaligned",
+    "non-aligned"
+   ],
+   "glossEn": "not allied with any major power bloc",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "3276de62-c132-5360-8250-6beb0c11fd53",
+   "lemma": "demarcation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "demarcation"
+   ],
+   "glossEn": "fixing of a boundary or limit",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "8b504a9a-c63a-5479-87bf-986aed34d199",
+   "lemma": "enclave",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "enclave"
+   ],
+   "glossEn": "territory entirely surrounded by another state",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "f8a36100-0ff6-592d-9ee4-8d29c5fae897",
+   "lemma": "cede",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cede"
+   ],
+   "glossEn": "give up territory or rights, usually by treaty",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "022abc40-d7b9-5d17-9d28-c7bd1dd50a7a",
+   "lemma": "expansionism",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "expansionism"
+   ],
+   "glossEn": "policy of extending a state's territory or influence",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "20d682b9-4200-5ae7-9c8e-badaf745b0a8",
+   "lemma": "isolationism",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "isolationism"
+   ],
+   "glossEn": "policy of staying out of other countries' affairs",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "c6a47718-d060-5cb9-abcd-cbfa994323ef",
+   "lemma": "interventionism",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "interventionism"
+   ],
+   "glossEn": "policy of interfering in other countries' affairs",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "67352aa3-dd59-5ab3-93fc-009dceadf0e3",
+   "lemma": "brinkmanship",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brinkmanship",
+    "brinksmanship"
+   ],
+   "glossEn": "pushing a dangerous situation to the limit for advantage",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "eb19e96f-65b0-512c-adbb-c87b03ce84b0",
+   "lemma": "saber-rattling",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "saber-rattling",
+    "sabre-rattling",
+    "saber rattling",
+    "sabre rattling"
+   ],
+   "glossEn": "display of military power as a threat",
+   "topics": [
+    "military"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "1f1d6cef-8a3d-53da-bee1-a32425fb90be",
+   "lemma": "hegemonic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hegemonic"
+   ],
+   "glossEn": "exercising dominance over others",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "52f12630-0bb6-5653-8715-96cf9f654313",
+   "lemma": "protectorate",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "protectorate"
+   ],
+   "glossEn": "state controlled and protected by a stronger one",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "99e4616b-e29e-5398-aa40-b2bfcb665917",
+   "lemma": "supranational",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "supranational",
+    "supra-national"
+   ],
+   "glossEn": "having authority above national governments",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "b16afe1b-116e-5552-b548-423eb8ffc172",
+   "lemma": "nonproliferation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nonproliferation",
+    "non-proliferation"
+   ],
+   "glossEn": "prevention of the spread of nuclear weapons",
+   "topics": [
+    "military"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "ebd10f68-4a90-50de-8ae2-a09550ef3b85",
+   "lemma": "clandestine",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "clandestine"
+   ],
+   "glossEn": "kept secret, especially because illicit",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "dafbfae4-f496-52c7-9b6e-a58c70cfbfda",
+   "lemma": "subversion",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subversion"
+   ],
+   "glossEn": "secret efforts to undermine a government",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "556a2918-4f29-5d05-ae1a-c176079e1728",
+   "lemma": "mutiny",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mutiny"
+   ],
+   "glossEn": "open rebellion against commanding officers",
+   "topics": [
+    "military"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "db65d8bc-514b-526f-99fb-8ae36f275023",
+   "lemma": "warlord",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "warlord"
+   ],
+   "glossEn": "military leader controlling a region by force",
+   "topics": [
+    "military"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "5594a11a-e93c-5d6a-bbd3-73316a86c543",
+   "lemma": "trusteeship",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "trusteeship"
+   ],
+   "glossEn": "administration of a territory on behalf of others",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "110732c9-66d6-5adf-b6a2-88fe0ddb4d25",
+   "lemma": "racketeering",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "racketeering"
+   ],
+   "glossEn": "running illegal businesses for profit",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "a6b25bd4-8bee-52d8-a3f7-34c298a63d6f",
+   "lemma": "vigilante",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vigilante"
+   ],
+   "glossEn": "person who punishes crime without legal authority",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "86ba7b2b-ccda-5a2a-a9d3-eb1ef10b4c24",
+   "lemma": "larceny",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "larceny"
+   ],
+   "glossEn": "theft of personal property",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "8f0271e8-1eae-55ea-90df-72735bb7bdfa",
+   "lemma": "premeditated",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "premeditated",
+    "pre-meditated"
+   ],
+   "glossEn": "planned in advance",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "254430c6-59e1-5837-baf3-6148730cd3f0",
+   "lemma": "entrapment",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "entrapment"
+   ],
+   "glossEn": "tricking someone into committing a crime",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "e8fb5ce9-510f-570d-b0ef-6a91df6d16aa",
+   "lemma": "malice",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "malice"
+   ],
+   "glossEn": "desire to harm someone",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "38cd4bf9-9078-5eaa-9027-33ba747d3932",
+   "lemma": "pillage",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pillage"
+   ],
+   "glossEn": "rob a place violently, especially in war",
+   "topics": [
+    "military"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "b52b71b0-e3e7-5f07-b831-376201581331",
+   "lemma": "lawlessness",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lawlessness"
+   ],
+   "glossEn": "state in which laws are ignored",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "3e5f280d-99e9-5e13-9b54-5f52bf50bae1",
+   "lemma": "clampdown",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "clampdown",
+    "clamp-down"
+   ],
+   "glossEn": "sudden strict enforcement against an activity",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "f2e94776-e5ad-5d28-8b42-976862523322",
+   "lemma": "quell",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quell"
+   ],
+   "glossEn": "put an end to a disturbance by force",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "a0f99239-c35b-5506-a25f-c4334b52f1a4",
+   "lemma": "constabulary",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "constabulary"
+   ],
+   "glossEn": "police force of a district",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "fae46005-03f1-53e8-bdf1-737caf4c39a9",
+   "lemma": "wiretap",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wiretap",
+    "wire-tap"
+   ],
+   "glossEn": "secretly listen to someone's phone calls",
+   "topics": [
+    "it"
+   ],
+   "area": "society-law"
+  }
+ ]
+}

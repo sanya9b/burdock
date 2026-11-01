@@ -1,0 +1,533 @@
+{
+ "chunk": "C1-W24",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "02a1b3e5-7341-5b9a-9472-5e548e3fa768",
+   "lemma": "fervent",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fervent"
+   ],
+   "glossEn": "intensely passionate and sincere",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "9c9eba8a-b783-5aee-b769-e940d1349cd1",
+   "lemma": "ardent",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ardent"
+   ],
+   "glossEn": "enthusiastic and passionate",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "fffe1ea4-d9a7-525a-a213-f30dbd92983c",
+   "lemma": "avid",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "avid"
+   ],
+   "glossEn": "keenly interested and enthusiastic",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "41e8cef6-0534-5563-b6fe-9b9f293ac628",
+   "lemma": "gusto",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gusto"
+   ],
+   "glossEn": "enjoyment and energy in doing something",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "21f019d9-f269-5e5d-8faa-d6ff10fb3c15",
+   "lemma": "exuberant",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "exuberant"
+   ],
+   "glossEn": "full of energy, excitement and cheerfulness",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "458c4f05-1344-5379-8311-cb3f59c99535",
+   "lemma": "vivacious",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vivacious"
+   ],
+   "glossEn": "attractively lively and animated",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "f5d99b7d-9869-57c8-8f2b-670f2d73b0fa",
+   "lemma": "impassioned",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "impassioned"
+   ],
+   "glossEn": "filled with or showing great emotion",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "c433b6ab-ab0d-5442-8823-645b488f141c",
+   "lemma": "stoic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stoic",
+    "stoical"
+   ],
+   "glossEn": "enduring pain or hardship without complaint",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "ce71770a-530f-538a-81b0-64e555669f6a",
+   "lemma": "squeamish",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "squeamish"
+   ],
+   "glossEn": "easily made to feel sick or disgusted",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "645353e4-f887-53ce-937f-22102f1e4447",
+   "lemma": "spooked",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spooked"
+   ],
+   "glossEn": "frightened and nervous",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "5d93446e-ce03-572f-809c-12b3ee008f71",
+   "lemma": "revulsion",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "revulsion"
+   ],
+   "glossEn": "sense of disgust and loathing",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "af87a054-34a1-5d02-9e4e-74b0568c2510",
+   "lemma": "loathe",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "loathe"
+   ],
+   "glossEn": "feel intense dislike or disgust for",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "0cee04af-2771-518f-b409-576958674ec8",
+   "lemma": "detest",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "detest"
+   ],
+   "glossEn": "dislike intensely",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "fc220815-df35-5ab3-8983-5ba1d7f3cc14",
+   "lemma": "distaste",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "distaste"
+   ],
+   "glossEn": "mild dislike or disapproval",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "3cdc6793-9e3b-5ca1-96be-6f2128071a20",
+   "lemma": "disdain",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disdain"
+   ],
+   "glossEn": "feeling that someone or something is unworthy of respect",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "de7dce87-6465-50fa-beaa-e2074c0a0321",
+   "lemma": "scorn",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scorn"
+   ],
+   "glossEn": "open contempt or disrespect",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "72383501-2460-5864-96c3-845730891a15",
+   "lemma": "bemused",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bemused"
+   ],
+   "glossEn": "puzzled, confused or bewildered",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "263aee6a-b923-50e5-ba47-46a742e19c6b",
+   "lemma": "heartbreak",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heartbreak"
+   ],
+   "glossEn": "overwhelming distress, usually from love or loss",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "87495ded-0c90-50ab-a604-e5af7e79cebb",
+   "lemma": "guilt-ridden",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "guilt-ridden",
+    "guilt ridden"
+   ],
+   "glossEn": "tormented by feelings of guilt",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "94718eb0-bbaa-5266-9d1a-e9049b0aae6a",
+   "lemma": "gratification",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gratification"
+   ],
+   "glossEn": "pleasure from satisfying a desire or need",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "701632c8-5a51-585e-9606-e3353f449588",
+   "lemma": "apathy",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "apathy"
+   ],
+   "glossEn": "lack of interest, enthusiasm or concern",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "1f1dcbfa-27f6-5f3e-b465-c5502bcb49e6",
+   "lemma": "disenchanted",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disenchanted"
+   ],
+   "glossEn": "disappointed and no longer admiring something",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "1f4cf0e3-e24d-55e3-abed-9748d20ef206",
+   "lemma": "industrious",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "industrious"
+   ],
+   "glossEn": "hard-working and productive",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "22af0006-b875-5136-b1e4-7d1b799104a6",
+   "lemma": "resolute",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "resolute"
+   ],
+   "glossEn": "admirably purposeful, determined and unwavering",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "694230a2-8f7d-5616-a4c3-8439d3404f4b",
+   "lemma": "unwavering",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unwavering"
+   ],
+   "glossEn": "steady and firm, never weakening",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "2c6986ec-1cc7-58bc-94da-b435e82c1259",
+   "lemma": "dogged",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dogged"
+   ],
+   "glossEn": "showing stubborn persistence",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "f4cc5d45-9419-5cb3-8d76-89cc86eb69d3",
+   "lemma": "genial",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "genial"
+   ],
+   "glossEn": "friendly, cheerful and warm",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "0f984667-9276-5d68-8944-1c9e9d1521d8",
+   "lemma": "convivial",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "convivial"
+   ],
+   "glossEn": "friendly, lively and enjoyable in company",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "b37dec30-9596-5b61-9748-afbe67e68f2e",
+   "lemma": "personable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "personable"
+   ],
+   "glossEn": "having a pleasant appearance and manner",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "26b2fbcc-b138-5b62-867f-faa8f02504b5",
+   "lemma": "altruistic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "altruistic"
+   ],
+   "glossEn": "selflessly concerned for the well-being of others",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "0da33d28-281a-54e8-93bb-73f73b2c928e",
+   "lemma": "empathetic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "empathetic"
+   ],
+   "glossEn": "able to understand and share others' feelings",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "c7807cd8-95c1-576e-9c83-4c686dfca084",
+   "lemma": "heartfelt",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heartfelt"
+   ],
+   "glossEn": "deeply and sincerely felt",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "e957e90c-2d92-5928-a21f-029da7036862",
+   "lemma": "upfront",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "upfront",
+    "up-front"
+   ],
+   "glossEn": "honest and frank, hiding nothing",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "81793e59-6cb0-5999-baab-ab8ac7afdd0e",
+   "lemma": "principled",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "principled"
+   ],
+   "glossEn": "acting according to strong moral principles",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "5fc71391-de92-58e9-94c8-f6b74d395951",
+   "lemma": "down-to-earth",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "down-to-earth",
+    "down to earth"
+   ],
+   "glossEn": "practical, realistic and unpretentious",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "6018e5eb-3230-5c19-b295-40f50c69528e",
+   "lemma": "grounded",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "grounded"
+   ],
+   "glossEn": "sensible, realistic and emotionally stable",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "a402f070-3e83-5cc0-a43d-fcfe8e1cd196",
+   "lemma": "broad-minded",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "broad-minded",
+    "broadminded"
+   ],
+   "glossEn": "tolerant of other people's views and behavior",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "1f298a3a-c1b4-5abe-ae86-dcaf9d815093",
+   "lemma": "quick-witted",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quick-witted",
+    "quickwitted"
+   ],
+   "glossEn": "able to think and respond quickly",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "5f4ce162-ccca-5a8c-8c4a-152f4848eb0c",
+   "lemma": "well-read",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "well-read",
+    "well read"
+   ],
+   "glossEn": "knowledgeable through wide reading",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "a46df198-da41-5241-86e5-c855d047d29e",
+   "lemma": "inquisitive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inquisitive"
+   ],
+   "glossEn": "curious and eager for knowledge",
+   "topics": [],
+   "area": "emotions-character"
+  }
+ ]
+}

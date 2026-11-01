@@ -1,0 +1,647 @@
+{
+ "chunk": "B1-W07",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "f2848ff1-1960-55fe-9bc7-c951b0538529",
+   "lemma": "crouton",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "crouton",
+    "croutons"
+   ],
+   "glossEn": "small cube of toasted bread in salads",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "6f682994-831c-51b7-b5c3-f550803e8343",
+   "lemma": "crust",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "crust",
+    "crusts"
+   ],
+   "glossEn": "hard outer layer of bread or pie",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "103a1efa-19dd-51fc-a15c-c81228606690",
+   "lemma": "crumb",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "crumb",
+    "crumbs"
+   ],
+   "glossEn": "tiny piece that falls off bread or cake",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "9c1032d5-b08c-5c13-901d-2b41fbb27515",
+   "lemma": "topping",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "topping",
+    "toppings"
+   ],
+   "glossEn": "food put on top of a dish or pizza",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "5562129a-c0c6-5f3e-8a39-bede726f30d2",
+   "lemma": "icing",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "icing",
+    "frosting"
+   ],
+   "glossEn": "sweet coating spread over a cake",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "19f0082f-fd64-5e4f-aa2a-1c05f354953f",
+   "lemma": "thyme",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "thyme"
+   ],
+   "glossEn": "small-leaved herb used with meat and soups",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "cfc9a6bb-3be0-5e79-9163-d6bd8b5accef",
+   "lemma": "rosemary",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rosemary"
+   ],
+   "glossEn": "needle-leaved fragrant herb",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "c91b20a0-6f4f-5349-a779-5b6e56490893",
+   "lemma": "oregano",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "oregano"
+   ],
+   "glossEn": "herb used on pizza and in Italian sauces",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "645ff46f-5c1d-52c8-bc7e-8209a3dc91eb",
+   "lemma": "cilantro",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cilantro",
+    "coriander"
+   ],
+   "glossEn": "fresh herb with strong citrusy leaves",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "c4c46265-e001-595f-8271-346f40dde266",
+   "lemma": "cumin",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cumin"
+   ],
+   "glossEn": "warm earthy spice used in curries",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "a93e8d96-ae8f-51f7-b018-f13098c91f9d",
+   "lemma": "paprika",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "paprika"
+   ],
+   "glossEn": "red powder made from dried sweet peppers",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "f125d221-8f90-555f-967e-2feaf7d2220b",
+   "lemma": "nutmeg",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nutmeg"
+   ],
+   "glossEn": "warm sweet spice grated from a hard seed",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "5b26d27e-a5d7-51f3-bac2-ecf18452fcd5",
+   "lemma": "clove",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "clove",
+    "cloves"
+   ],
+   "glossEn": "dried flower bud spice or garlic segment",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "675b9f8f-72a7-5380-8eda-0a682bf59120",
+   "lemma": "fennel",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fennel"
+   ],
+   "glossEn": "crisp bulb vegetable tasting of anise",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "d9ccd40a-56b7-5b71-8b00-d989d01c6b9b",
+   "lemma": "sesame",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sesame"
+   ],
+   "glossEn": "tiny oily seed sprinkled on buns",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "7ce62dbd-a1d3-53f9-b437-6a04df1dd243",
+   "lemma": "asparagus",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "asparagus"
+   ],
+   "glossEn": "green spear-shaped spring vegetable",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "8a5075a5-dc22-5d7e-a9a2-7c49eaf4d16d",
+   "lemma": "kale",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "kale"
+   ],
+   "glossEn": "curly dark green leaf vegetable",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "cbd58467-5bb5-55fa-a2b5-5aa3f3459b94",
+   "lemma": "radish",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "radish",
+    "radishes"
+   ],
+   "glossEn": "small crisp red root with a peppery taste",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "a19d8a92-e1b1-50f4-a9c6-7ee8c068a7fe",
+   "lemma": "celery",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "celery"
+   ],
+   "glossEn": "crisp pale green stalks eaten raw or cooked",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "d4710eb2-883b-5880-a8a5-74c93708e03f",
+   "lemma": "zucchini",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "zucchini",
+    "courgette",
+    "zucchinis",
+    "courgettes"
+   ],
+   "glossEn": "long green summer squash",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "81f660e2-6b77-5b6f-8aa8-dfbd3f5d79de",
+   "lemma": "eggplant",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "eggplant",
+    "aubergine",
+    "eggplants",
+    "aubergines"
+   ],
+   "glossEn": "large purple vegetable with spongy flesh",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "62a452ca-4391-5126-9722-cecb11093386",
+   "lemma": "lentil",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lentil",
+    "lentils"
+   ],
+   "glossEn": "small flat seed cooked in soups",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "6b4e3d05-ed19-59a0-b4e0-cc372ed09915",
+   "lemma": "chickpea",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chickpea",
+    "chickpeas",
+    "garbanzo"
+   ],
+   "glossEn": "round pale legume used in hummus",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "01cb075a-fa19-5bba-9dab-e243271d2048",
+   "lemma": "apricot",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "apricot",
+    "apricots"
+   ],
+   "glossEn": "small soft orange fruit with a stone",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "837218f0-4b11-5c8d-932d-fc7346d86423",
+   "lemma": "fig",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fig",
+    "figs"
+   ],
+   "glossEn": "soft sweet fruit with many tiny seeds",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "883f6610-e3ec-58e7-8faa-f40146154429",
+   "lemma": "kiwi",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "kiwi",
+    "kiwis",
+    "kiwifruit"
+   ],
+   "glossEn": "fuzzy brown fruit with green flesh",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "27b006e7-f51b-5250-87f1-2eae016c4ca8",
+   "lemma": "pomegranate",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pomegranate",
+    "pomegranates"
+   ],
+   "glossEn": "red fruit full of juicy seeds",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "87b0df5b-6b05-5a1b-ac22-c610c19eadc4",
+   "lemma": "blueberry",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blueberry",
+    "blueberries"
+   ],
+   "glossEn": "small round dark blue berry",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "1d36a944-386b-5b7d-81bb-6e0876d3377c",
+   "lemma": "cranberry",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cranberry",
+    "cranberries"
+   ],
+   "glossEn": "small sour red berry used in sauce and juice",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "a21dbb00-a17c-5bf6-9255-6c9bc76976a1",
+   "lemma": "blackberry",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blackberry",
+    "blackberries"
+   ],
+   "glossEn": "dark purple berry growing on thorny bushes",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "be43e428-9928-589d-afb1-d0a44f126952",
+   "lemma": "grapefruit",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "grapefruit",
+    "grapefruits"
+   ],
+   "glossEn": "large bitter citrus fruit",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "377da328-5f70-54d6-a11c-65a08772c48d",
+   "lemma": "tangerine",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tangerine",
+    "tangerines",
+    "mandarin"
+   ],
+   "glossEn": "small sweet easy-to-peel orange",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "1253ff12-5b49-5fa0-a2eb-079431e4061d",
+   "lemma": "cashew",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cashew",
+    "cashews"
+   ],
+   "glossEn": "curved creamy-tasting nut",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "7b417734-012c-5449-b999-dda574eb358c",
+   "lemma": "pistachio",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pistachio",
+    "pistachios"
+   ],
+   "glossEn": "green nut in a split pale shell",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "3a9920b1-632b-5158-a7f6-2ff7ef960b84",
+   "lemma": "veal",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "veal"
+   ],
+   "glossEn": "meat from a young calf",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "968faf72-eeab-57a5-9e83-cbdc826a42ab",
+   "lemma": "poultry",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "poultry"
+   ],
+   "glossEn": "meat from chickens, ducks and turkeys",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "12a2a5c9-c35c-5232-bba4-cd4726b968bd",
+   "lemma": "salami",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "salami",
+    "salamis"
+   ],
+   "glossEn": "spiced dry sausage eaten in thin slices",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "ecee89a1-bd3d-5067-80d9-4ea304a7d014",
+   "lemma": "ribs",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ribs",
+    "rib"
+   ],
+   "glossEn": "meat on the rib bones, often barbecued",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "d7e25fba-8e2a-5003-943a-0ef07cf28373",
+   "lemma": "cutlet",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cutlet",
+    "cutlets"
+   ],
+   "glossEn": "thin slice of meat fried in crumbs",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "0d284efd-711a-56ad-96a0-2cc88b2c8948",
+   "lemma": "patty",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "patty",
+    "patties"
+   ],
+   "glossEn": "flat round piece of minced meat for a burger",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  }
+ ]
+}

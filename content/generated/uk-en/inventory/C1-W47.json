@@ -1,0 +1,565 @@
+{
+ "chunk": "C1-W47",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "8ae6b686-5d7a-5bbb-bfe4-41e64aee4145",
+   "lemma": "reparation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reparation"
+   ],
+   "glossEn": "compensation for wrong or damage done",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "4dd3ae02-671f-50e1-9409-de6f4f0f2e27",
+   "lemma": "claimant",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "claimant"
+   ],
+   "glossEn": "person making a legal claim",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "5ab0e991-20f9-5f02-9da1-b4b9195e7783",
+   "lemma": "wrongful",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wrongful"
+   ],
+   "glossEn": "unfair or unlawful",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "2a914116-9771-5fc8-84e1-e1a7eb60497a",
+   "lemma": "extradition",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "extradition"
+   ],
+   "glossEn": "handing over a suspect to another country",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "49c8c70d-fd0a-509b-8503-4e9e8d0b7552",
+   "lemma": "civil liberties",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "civil liberties",
+    "civil liberty"
+   ],
+   "glossEn": "basic freedoms protected from government interference",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "f4506acf-1cd5-52f6-b752-4ceca1a023ee",
+   "lemma": "discriminatory",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "discriminatory"
+   ],
+   "glossEn": "treating people unfairly because of their group",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "7f1a518d-2193-5bf7-a069-493ed7ff2710",
+   "lemma": "segregate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "segregate"
+   ],
+   "glossEn": "separate groups of people from each other",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "93e1350a-8316-5dc5-8694-34457e96fd2f",
+   "lemma": "assimilate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "assimilate"
+   ],
+   "glossEn": "absorb people into a wider society or culture",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "bb75b9d6-75fb-52f9-8e2b-f233d67a419e",
+   "lemma": "naturalize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "naturalize",
+    "naturalise"
+   ],
+   "glossEn": "grant citizenship to a foreign-born person",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "ff515850-c65b-5496-b017-b66c04a0dbae",
+   "lemma": "deportation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deportation"
+   ],
+   "glossEn": "expulsion of a foreigner from a country",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "9c986407-1526-5a04-b1da-4b657443a1cb",
+   "lemma": "persecution",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "persecution"
+   ],
+   "glossEn": "hostile mistreatment because of beliefs or identity",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "fae7cf01-6d3c-562e-a06c-e5c1d139b589",
+   "lemma": "persecute",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "persecute"
+   ],
+   "glossEn": "mistreat someone because of beliefs or identity",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "388a8ffe-cec7-5b39-8c56-cf925c7eaeed",
+   "lemma": "oppressive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "oppressive"
+   ],
+   "glossEn": "unjustly harsh and controlling",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "d3eb5533-c3c7-59cc-ab7e-bd51af2593d4",
+   "lemma": "inhumane",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inhumane"
+   ],
+   "glossEn": "cruel and without compassion",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "b1fe4637-1273-5aca-beb3-fbccb9c84260",
+   "lemma": "activism",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "activism"
+   ],
+   "glossEn": "campaigning to bring about social or political change",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "39b7f002-4991-5b53-a603-1a2da554cecb",
+   "lemma": "nonviolent",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nonviolent",
+    "non-violent"
+   ],
+   "glossEn": "using peaceful means, not force",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "61f8b98f-0d00-55fc-abf0-d7ba78484eba",
+   "lemma": "pacifism",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pacifism"
+   ],
+   "glossEn": "belief that war and violence are never justified",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "b49690ea-c2ed-57d1-adc9-c409b519930d",
+   "lemma": "pacifist",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pacifist"
+   ],
+   "glossEn": "person who opposes war and violence",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "f3a582bb-32c8-51c3-b21f-8bd26a35063a",
+   "lemma": "societal",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "societal"
+   ],
+   "glossEn": "relating to society as a whole",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "7f887a4c-f292-5134-a6a0-2bda2943e420",
+   "lemma": "denounce",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "denounce"
+   ],
+   "glossEn": "publicly declare something to be wrong",
+   "topics": [
+    "communication"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "9b54e6f0-9de7-5cce-8875-609f7750de31",
+   "lemma": "deplorable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deplorable"
+   ],
+   "glossEn": "deserving strong condemnation",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "7f86258b-ca26-5410-a491-d7f0d3a75973",
+   "lemma": "stigmatize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stigmatize",
+    "stigmatise"
+   ],
+   "glossEn": "treat someone as shameful",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "be117953-97d6-526f-bf05-b793fcf5a861",
+   "lemma": "bureaucrat",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bureaucrat"
+   ],
+   "glossEn": "official who follows rules rigidly",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "23328fb6-a090-5840-8058-25e34d96ff5a",
+   "lemma": "bureaucratic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bureaucratic"
+   ],
+   "glossEn": "involving complicated official rules and procedures",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "a34a3fd4-dc04-59fa-b178-013107ca454f",
+   "lemma": "councillor",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "councillor",
+    "councilor"
+   ],
+   "glossEn": "elected member of a local council",
+   "topics": [
+    "city"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "e3aa2814-c63c-5a42-9d11-58c37b8bcb7c",
+   "lemma": "decentralization",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "decentralization",
+    "decentralisation"
+   ],
+   "glossEn": "transfer of power away from the center",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "44477c38-e5dc-50b7-9523-ad3addc98eb9",
+   "lemma": "centralize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "centralize",
+    "centralise"
+   ],
+   "glossEn": "concentrate power in one central authority",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "b5e5d117-1868-5878-ad26-a8eb2da3ee66",
+   "lemma": "think tank",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "think tank",
+    "think-tank",
+    "thinktank"
+   ],
+   "glossEn": "research body that advises on policy",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "337b91f6-48f6-5b24-b57f-b3826bced127",
+   "lemma": "lobbyist",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lobbyist"
+   ],
+   "glossEn": "person paid to influence legislators",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "97569b6b-cede-535f-93a6-2e8787241b30",
+   "lemma": "subcommittee",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subcommittee",
+    "sub-committee"
+   ],
+   "glossEn": "smaller committee formed from a main committee",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "7771b1ae-7dc9-58e6-bb61-6a9550f5974c",
+   "lemma": "bylaw",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bylaw",
+    "by-law",
+    "byelaw"
+   ],
+   "glossEn": "rule made by a local authority or organization",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "c87caf65-ac33-597f-8390-144689fed875",
+   "lemma": "noncompliance",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "noncompliance",
+    "non-compliance"
+   ],
+   "glossEn": "failure to act in accordance with rules",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "b5206fd8-6c55-59cc-b04e-044db184f211",
+   "lemma": "regulator",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "regulator"
+   ],
+   "glossEn": "official body that supervises an industry",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "d1519489-0302-54ec-aa1a-2cd17f74ddf2",
+   "lemma": "regulatory",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "regulatory"
+   ],
+   "glossEn": "relating to official rules and their enforcement",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "58008ccf-4137-591e-bcec-db4f58054332",
+   "lemma": "deregulate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deregulate"
+   ],
+   "glossEn": "remove official rules from an industry",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "2122fdd2-d86b-5c74-95c8-3ca39f830468",
+   "lemma": "directive",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "directive"
+   ],
+   "glossEn": "official instruction, especially from the EU",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "42f75052-a9a5-5972-bb62-c4558ab606ae",
+   "lemma": "procedural",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "procedural"
+   ],
+   "glossEn": "relating to established official procedures",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "3ed74e90-e01d-5099-b03a-3a93651ba17f",
+   "lemma": "formality",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "formality"
+   ],
+   "glossEn": "required step with little real importance",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "97723a5d-cd75-5d99-b4cc-95a5bd149031",
+   "lemma": "registry",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "registry"
+   ],
+   "glossEn": "official place where records are kept",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "ca05e9a8-c0cf-55dd-a4f6-ba3160454746",
+   "lemma": "commissioner",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "commissioner"
+   ],
+   "glossEn": "official in charge of a government department or body",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  }
+ ]
+}

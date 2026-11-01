@@ -1,0 +1,611 @@
+{
+ "chunk": "C1-W09",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "a3433ea9-7ce8-5fed-b616-ed7dd600b1c7",
+   "lemma": "inarticulate",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inarticulate"
+   ],
+   "glossEn": "unable to express ideas clearly in words",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "a213b571-e80d-53cc-9647-d1a2870763d6",
+   "lemma": "long-winded",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "long-winded",
+    "longwinded"
+   ],
+   "glossEn": "tediously long in speaking or writing",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "9d35dfd7-1854-576b-a493-2fa8172c7834",
+   "lemma": "rambling",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rambling"
+   ],
+   "glossEn": "lengthy, confused and off the point",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "21ff1c70-9905-54f1-9e3e-b2407667a231",
+   "lemma": "tangent",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tangent"
+   ],
+   "glossEn": "sudden digression from the main subject",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "a965f744-41e8-5d4f-b9c0-b3c9df86d580",
+   "lemma": "parallelism",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "parallelism"
+   ],
+   "glossEn": "use of matching grammatical structures for effect",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "1daeda8c-16c6-5d7b-b517-bcd60ec8920d",
+   "lemma": "pun",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pun"
+   ],
+   "glossEn": "joke exploiting different meanings of a word",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "3f68328c-ab77-5176-ba79-27bda695ce17",
+   "lemma": "wordplay",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wordplay",
+    "word play"
+   ],
+   "glossEn": "witty use of words and their meanings",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "315cd34a-a05c-57c6-afe4-02ec56322d51",
+   "lemma": "insinuation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "insinuation"
+   ],
+   "glossEn": "indirect, unpleasant hint or suggestion",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "e937594f-077b-55e2-91fd-006fffddda77",
+   "lemma": "obfuscation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "obfuscation"
+   ],
+   "glossEn": "making something deliberately unclear or confusing",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "24f70587-6a22-52f0-8bbb-fff9cace470c",
+   "lemma": "maxim",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "maxim"
+   ],
+   "glossEn": "short statement of a general truth or rule",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "5b019517-acf7-55a2-9e9e-b8f7f0814023",
+   "lemma": "adage",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "adage"
+   ],
+   "glossEn": "traditional saying expressing a common truth",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "bff792dc-0619-5c23-a1d9-a4d9b4ac7912",
+   "lemma": "idiomatic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "idiomatic"
+   ],
+   "glossEn": "natural to a native speaker; using idioms",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "8a57901e-143d-517b-8c19-848f686ce222",
+   "lemma": "colloquialism",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "colloquialism"
+   ],
+   "glossEn": "informal word or phrase used in conversation",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "19b90082-049a-55cb-ab3e-0840d02b988b",
+   "lemma": "vernacular",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vernacular"
+   ],
+   "glossEn": "everyday language of ordinary people in a region",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "e05436e0-bcf7-5aff-a54e-0c148016590d",
+   "lemma": "multilingual",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "multilingual",
+    "multi-lingual"
+   ],
+   "glossEn": "speaking or written in several languages",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "afc841e6-76e3-511c-b4a9-a923bd01c6fc",
+   "lemma": "polyglot",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "polyglot"
+   ],
+   "glossEn": "person who knows several languages",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "f662133f-f42e-5386-8ae9-adc163eda2cc",
+   "lemma": "monolingual",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "monolingual"
+   ],
+   "glossEn": "speaking or using only one language",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "0e810f71-7725-59f2-888b-09cea3686147",
+   "lemma": "intonation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "intonation"
+   ],
+   "glossEn": "rise and fall of the voice in speech",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "d8d3af54-e976-5ce5-ba45-bd4ed082d710",
+   "lemma": "inflection",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inflection",
+    "inflexion"
+   ],
+   "glossEn": "change in pitch or tone of the voice",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "3e26bef4-130b-570a-8278-e7d6a130e3ca",
+   "lemma": "enunciate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "enunciate"
+   ],
+   "glossEn": "pronounce words clearly and distinctly",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "9f9c0cd1-046f-5bdf-97d1-944051f5f931",
+   "lemma": "diction",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "diction"
+   ],
+   "glossEn": "choice of words and clarity of pronunciation",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "0df988e3-2d54-52bf-9d2d-74d1270e3f67",
+   "lemma": "mispronounce",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mispronounce"
+   ],
+   "glossEn": "pronounce a word incorrectly",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "ac394fa9-23cf-56db-9d72-e273d6493435",
+   "lemma": "lisp",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lisp"
+   ],
+   "glossEn": "speech defect pronouncing s and z like th",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "6eae8a49-4bc0-52ad-901f-db337046b474",
+   "lemma": "stutter",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stutter"
+   ],
+   "glossEn": "speak with involuntary repetition of sounds",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "234fcbf9-a440-5d52-a260-cd0feda535e1",
+   "lemma": "slur",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "slur"
+   ],
+   "glossEn": "speak unclearly, running sounds together",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "cd718339-be33-5bd4-b53b-e5a3ecb3057d",
+   "lemma": "drawl",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "drawl"
+   ],
+   "glossEn": "slow speech with prolonged vowel sounds",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "340de319-3249-5b2c-90ba-df7ce6941de1",
+   "lemma": "phonetic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "phonetic"
+   ],
+   "glossEn": "relating to speech sounds and their spelling",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "0911b4ef-3bcc-58c6-88da-6c99951ebabf",
+   "lemma": "syntax",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "syntax"
+   ],
+   "glossEn": "arrangement of words into sentences",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "d300ec3b-d115-5cca-b4f0-aea56b1126a3",
+   "lemma": "etymology",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "etymology"
+   ],
+   "glossEn": "origin and history of a word",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "f6d5a958-3e78-5736-9f60-2ba4cb46555f",
+   "lemma": "cognate",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cognate"
+   ],
+   "glossEn": "word sharing its origin with a word in another language",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "28dc071f-51fc-576c-bc9e-dcc319dd11ce",
+   "lemma": "loanword",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "loanword",
+    "loan word"
+   ],
+   "glossEn": "word borrowed from another language",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "e3668a84-2cc4-52ec-8e6b-b1b11a65c287",
+   "lemma": "neologism",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "neologism"
+   ],
+   "glossEn": "newly coined word or expression",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "e68c6746-814e-5afb-8e08-13dad3e61881",
+   "lemma": "acronym",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "acronym"
+   ],
+   "glossEn": "word formed from initial letters, like NATO",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "8d625920-4af7-57d6-a986-8450f1240889",
+   "lemma": "contraction",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "contraction"
+   ],
+   "glossEn": "shortened form such as don't or it's",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "9bdb12b9-0687-5e7a-969b-1c1f0285eba6",
+   "lemma": "homonym",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "homonym"
+   ],
+   "glossEn": "word spelled or sounding like another with different meaning",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "9729ad2d-8396-5cc5-8379-8e8e6c9dbd4d",
+   "lemma": "homophone",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "homophone"
+   ],
+   "glossEn": "word sounding the same as another but spelled differently",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "10ce2625-e9b8-597b-8aec-1645d9cb5113",
+   "lemma": "conjugate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "conjugate"
+   ],
+   "glossEn": "give the forms of a verb",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "b4903002-d9f1-57ce-b4a3-a2c271487628",
+   "lemma": "gerund",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gerund"
+   ],
+   "glossEn": "verb form ending in -ing used as a noun",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "2733d922-9e10-569a-a957-69c3b0c449b8",
+   "lemma": "modifier",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "modifier"
+   ],
+   "glossEn": "word that qualifies the meaning of another",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "1934637b-6643-5c72-b9eb-bff1ee8d5e2a",
+   "lemma": "ellipsis",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ellipsis"
+   ],
+   "glossEn": "omission of words; three dots marking it",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  }
+ ]
+}

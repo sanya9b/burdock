@@ -1,0 +1,529 @@
+{
+ "chunk": "C2-W18",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "4bc2eb84-2ade-5d0e-9083-47c654ed2364",
+   "lemma": "debonair",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "debonair"
+   ],
+   "glossEn": "confident, stylish and charming",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "75946676-c5a8-55d3-a08d-84dcda64fa49",
+   "lemma": "genteel",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "genteel"
+   ],
+   "glossEn": "polite, refined and respectable, sometimes affectedly",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "0dbc2754-e233-5233-b110-93008d278f7b",
+   "lemma": "well-bred",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "well-bred",
+    "well bred"
+   ],
+   "glossEn": "having good manners from a good upbringing",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "0b241165-7bbf-596e-a8b5-9ce629bc3c3f",
+   "lemma": "decorous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "decorous"
+   ],
+   "glossEn": "in keeping with good taste and propriety",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "0e472cca-c6a1-5c77-9277-592f5e8c2df2",
+   "lemma": "demure",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "demure"
+   ],
+   "glossEn": "reserved, modest and shy",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "7aba4673-8c6e-5ac3-a021-527c0a1a0839",
+   "lemma": "unobtrusive",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unobtrusive"
+   ],
+   "glossEn": "not conspicuous or attracting attention",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "56dd2a3c-1fe7-5d23-8cb1-f1f1759e53e0",
+   "lemma": "self-possessed",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "self-possessed",
+    "self possessed"
+   ],
+   "glossEn": "calm, confident and in control of oneself",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "3430e42f-525c-57f9-a9aa-a13ad447ff22",
+   "lemma": "munificent",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "munificent"
+   ],
+   "glossEn": "extremely generous",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "d25d81d2-f67f-5975-aebd-74b91737daf0",
+   "lemma": "forbearing",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "forbearing"
+   ],
+   "glossEn": "patient and restrained, slow to anger",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "a158a47f-5fd1-56ab-b5d2-e9b17f1dac89",
+   "lemma": "incorruptible",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incorruptible"
+   ],
+   "glossEn": "incapable of being bribed or morally corrupted",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "3e5fc978-71a9-53f6-acc7-e4684dda95fa",
+   "lemma": "unimpeachable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unimpeachable"
+   ],
+   "glossEn": "beyond doubt or criticism, entirely trustworthy",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "790d4867-d214-5610-a082-b80a3fc0a74c",
+   "lemma": "irreproachable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "irreproachable"
+   ],
+   "glossEn": "beyond criticism, faultless",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "7b7ce78c-0318-5957-bd9f-85c7c25f621a",
+   "lemma": "redoubtable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "redoubtable"
+   ],
+   "glossEn": "formidable and worthy of respect",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "5a7d77e3-a5ca-5615-ac95-9fbc38b943f2",
+   "lemma": "venerable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "venerable"
+   ],
+   "glossEn": "greatly respected because of age, wisdom or character",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "52336099-bd52-50d5-8925-c365071f251f",
+   "lemma": "avuncular",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "avuncular"
+   ],
+   "glossEn": "kind and friendly toward a younger person",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "d83f2c9a-c527-521d-9e3c-623786d623a7",
+   "lemma": "solicitous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "solicitous"
+   ],
+   "glossEn": "showing attentive care and concern",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "278ffef2-d304-5b8f-9e69-f34549637ee6",
+   "lemma": "ingenuous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ingenuous"
+   ],
+   "glossEn": "innocent, unsuspecting and sincere",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "2da87121-1301-5fde-90bc-b17067e6ff22",
+   "lemma": "guileless",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "guileless"
+   ],
+   "glossEn": "innocent and without deception",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "482f8305-d00d-54ee-8f04-45562dcb8fff",
+   "lemma": "artless",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "artless"
+   ],
+   "glossEn": "without cunning, natural and simple",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "0e0a65da-3065-5c5a-95fa-6f340f05deae",
+   "lemma": "unaffected",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unaffected"
+   ],
+   "glossEn": "genuine and natural, not pretentious",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "8ac93e8c-4462-5204-b5eb-96292146db27",
+   "lemma": "winsome",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "winsome"
+   ],
+   "glossEn": "attractive in a fresh, innocent way",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "f59c04fd-dbd3-5870-83fd-5c8931cda08a",
+   "lemma": "congenial",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "congenial"
+   ],
+   "glossEn": "pleasant and agreeable because of similar tastes",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "a19628a7-2489-556f-a00d-2fa658fda387",
+   "lemma": "companionable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "companionable"
+   ],
+   "glossEn": "friendly, sociable and pleasant to be with",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "d6ea4043-ab6f-536b-9add-9c05d3b75cc4",
+   "lemma": "bonhomie",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bonhomie"
+   ],
+   "glossEn": "cheerful friendliness and geniality",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "7372f17c-41f8-55b8-82a5-b01e7510a11e",
+   "lemma": "acumen",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "acumen"
+   ],
+   "glossEn": "ability to make good judgments quickly",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "bac46d48-4671-559b-ae33-1876061e9e38",
+   "lemma": "sangfroid",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sangfroid",
+    "sang-froid"
+   ],
+   "glossEn": "composure under strain",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "6220e440-9659-5458-8ad6-7bd8d09ffcfc",
+   "lemma": "verve",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "verve"
+   ],
+   "glossEn": "vigor, spirit and enthusiasm",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "38aa740d-4792-546d-97b6-d7c01af3abaa",
+   "lemma": "impetuous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "impetuous"
+   ],
+   "glossEn": "acting quickly and rashly without thought",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "159278bd-fe34-5b0a-823a-95c58e61c970",
+   "lemma": "indolent",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "indolent"
+   ],
+   "glossEn": "lazy, avoiding activity or exertion",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "947414d1-305d-5140-9982-48f488aa88cc",
+   "lemma": "slothful",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "slothful"
+   ],
+   "glossEn": "lazy and inactive",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "c3045f08-cc68-550d-aebd-b04a7a65b8e3",
+   "lemma": "languid",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "languid"
+   ],
+   "glossEn": "relaxed and disinclined to exert oneself",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "5072ab09-f7bf-5e9e-bce6-1a17c912c4bd",
+   "lemma": "infantile",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "infantile"
+   ],
+   "glossEn": "childish and immature",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "a3c6dd5f-af59-5d8e-aa6c-6b0ef323158d",
+   "lemma": "puerile",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "puerile"
+   ],
+   "glossEn": "childishly silly and trivial",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "1c4ef358-b4e2-5a1b-8b7c-965d40dd046d",
+   "lemma": "histrionic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "histrionic"
+   ],
+   "glossEn": "overly theatrical and dramatic",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "a60526d7-d041-5137-bd7b-56b808887a8f",
+   "lemma": "meddlesome",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "meddlesome"
+   ],
+   "glossEn": "fond of interfering in others' affairs",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "6b4010b0-87cc-5046-a8ab-0900d9585683",
+   "lemma": "reclusive",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reclusive"
+   ],
+   "glossEn": "avoiding the company of other people",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "45f23315-c3c3-58a2-a4bc-b9ac7390fe91",
+   "lemma": "busybody",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "busybody"
+   ],
+   "glossEn": "person who pries into others' affairs",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "bf24b1f6-3815-513a-8b1b-a8e720d812b6",
+   "lemma": "braggart",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "braggart"
+   ],
+   "glossEn": "person who boasts about achievements or possessions",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "1fded5f1-79ed-5152-9c80-1964ea0100bc",
+   "lemma": "sycophant",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sycophant"
+   ],
+   "glossEn": "person who flatters the powerful for advantage",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "ff4d4399-87d7-5c6a-9c31-4626e1c3796a",
+   "lemma": "egomaniac",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "egomaniac"
+   ],
+   "glossEn": "person obsessively preoccupied with themselves",
+   "topics": [],
+   "area": "emotions-character"
+  }
+ ]
+}

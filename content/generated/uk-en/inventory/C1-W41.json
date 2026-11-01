@@ -1,0 +1,540 @@
+{
+ "chunk": "C1-W41",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "24bf1e97-8deb-51e8-9ede-cc1eefa57394",
+   "lemma": "meteorologist",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "meteorologist"
+   ],
+   "glossEn": "scientist who studies and forecasts weather",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "0f4bb580-ab1c-50e5-9e88-10f30781bb34",
+   "lemma": "snowdrift",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "snowdrift"
+   ],
+   "glossEn": "deep bank of snow piled up by wind",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "49074d7f-1986-5b09-978b-1b336397b523",
+   "lemma": "flurry",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flurry"
+   ],
+   "glossEn": "brief light fall of snow",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "a98220e9-ae77-578d-97f2-64fd811de0b8",
+   "lemma": "peninsula",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "peninsula"
+   ],
+   "glossEn": "land almost surrounded by water",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "42d225f6-0412-55bb-89a0-c0a4a8ec4289",
+   "lemma": "slush",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "slush"
+   ],
+   "glossEn": "partly melted wet snow",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "85df946e-c2be-53ff-851e-088fa03d0deb",
+   "lemma": "inlet",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inlet"
+   ],
+   "glossEn": "narrow strip of water reaching into land",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "ce7c2530-f505-5f67-a721-36aa2be25a91",
+   "lemma": "cove",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cove"
+   ],
+   "glossEn": "small sheltered bay",
+   "topics": [
+    "travel"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "d3754926-246d-5f60-9d1d-6b7cd08369da",
+   "lemma": "gulf",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gulf"
+   ],
+   "glossEn": "large deep bay of the sea",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "049b7f08-1ef1-5e5a-bcfe-8b189a0f19ff",
+   "lemma": "lagoon",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lagoon"
+   ],
+   "glossEn": "shallow water cut off from the sea by sand",
+   "topics": [
+    "travel"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "4ffe928a-4aea-5109-9f53-4ef9294083ca",
+   "lemma": "delta",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "delta"
+   ],
+   "glossEn": "fan of land where a river splits into the sea",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "047f41ad-b2f3-5957-9873-fece0519eaf6",
+   "lemma": "twilight",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "twilight"
+   ],
+   "glossEn": "soft light just after sunset or before sunrise",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "59e67fa2-c063-5ade-8c3b-7b5744527647",
+   "lemma": "rapids",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rapids"
+   ],
+   "glossEn": "fast rocky stretch of a river",
+   "topics": [
+    "travel"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "a940aced-59f7-5ba6-be29-58076bda47fe",
+   "lemma": "lunar",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lunar"
+   ],
+   "glossEn": "relating to the moon",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "eec89dda-70ea-5f6c-8fac-51f2a4abf442",
+   "lemma": "geyser",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "geyser"
+   ],
+   "glossEn": "hot spring that shoots water into the air",
+   "topics": [
+    "travel"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "c7677663-2be0-5538-9a43-c03a01c3b084",
+   "lemma": "oasis",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "oasis"
+   ],
+   "glossEn": "fertile place with water in a desert",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "26b7e1cc-3b4e-5255-9210-e43af8a72998",
+   "lemma": "dune",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dune",
+    "sand dune"
+   ],
+   "glossEn": "hill of sand formed by the wind",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "c591e275-8b50-5988-9b30-63e8cc1e804f",
+   "lemma": "boulder",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "boulder"
+   ],
+   "glossEn": "very large rounded rock",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "e5b37c31-520f-54f7-bdd5-ee7ec6778c3f",
+   "lemma": "bedrock",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bedrock"
+   ],
+   "glossEn": "solid rock under the soil",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "74082645-1f0e-5342-9014-7e9b93a4f2a5",
+   "lemma": "mantle",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mantle"
+   ],
+   "glossEn": "hot layer of the Earth beneath the crust",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "09cf0e69-306e-5abd-b77a-92cebb056b1f",
+   "lemma": "magma",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "magma"
+   ],
+   "glossEn": "molten rock beneath the Earth's surface",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "0680fff5-cdad-5d48-9a3c-089b2d57cc28",
+   "lemma": "crescent",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "crescent"
+   ],
+   "glossEn": "curved shape of the moon when partly lit",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "449a69a6-0186-5965-aee5-e8ca1da98ca6",
+   "lemma": "fault line",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fault line",
+    "faultline"
+   ],
+   "glossEn": "crack in the Earth's crust where quakes occur",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "a74e7f6f-adef-5cca-92fd-c5f60a3d89e2",
+   "lemma": "constellation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "constellation"
+   ],
+   "glossEn": "group of stars forming a recognized pattern",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "0c229d59-2183-5c25-a427-2c10b91b6c3a",
+   "lemma": "observatory",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "observatory"
+   ],
+   "glossEn": "building with telescopes for studying the sky",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "5151459a-31c7-536d-9d91-c668e6694ac1",
+   "lemma": "mudslide",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mudslide"
+   ],
+   "glossEn": "flow of wet earth down a hillside",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "bacfa8da-b4fc-593c-b95d-f3b2c5bc7ac6",
+   "lemma": "sinkhole",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sinkhole"
+   ],
+   "glossEn": "hole that suddenly opens in the ground",
+   "topics": [
+    "city"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "506f74cd-afce-5ff8-a5c1-488b3220ddfa",
+   "lemma": "light-year",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "light-year",
+    "light year"
+   ],
+   "glossEn": "distance light travels in one year",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "d95758c8-d766-5c12-a187-b15031cb45e0",
+   "lemma": "longitude",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "longitude"
+   ],
+   "glossEn": "distance east or west of the prime meridian",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "cd91acad-c81c-5470-a44f-5a48e8cb728a",
+   "lemma": "polar",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "polar"
+   ],
+   "glossEn": "relating to the North or South Pole",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "4ab89e27-62b0-5d4e-8952-c8d594dfc672",
+   "lemma": "equatorial",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "equatorial"
+   ],
+   "glossEn": "near or relating to the equator",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "ff52d891-4f35-5445-9a44-49ec0262bb92",
+   "lemma": "prevailing wind",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prevailing wind"
+   ],
+   "glossEn": "wind that blows most often in a place",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "51100859-6c0a-553b-888c-b82a15973af2",
+   "lemma": "jet stream",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jet stream",
+    "jetstream"
+   ],
+   "glossEn": "fast high-altitude wind affecting weather",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "5c5c32f6-de09-5fcb-912c-9964080f23c9",
+   "lemma": "cold front",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cold front"
+   ],
+   "glossEn": "edge of a cold air mass bringing weather change",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "c2e48b8b-0452-5b9c-9d32-5de71182fcb6",
+   "lemma": "planetary",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "planetary"
+   ],
+   "glossEn": "relating to planets or the whole Earth",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "809c23ad-a330-557d-8ca4-41a748c56aff",
+   "lemma": "cyclone",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cyclone"
+   ],
+   "glossEn": "violent rotating storm",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "aac11d9a-979a-5588-8a33-f678a533ed28",
+   "lemma": "typhoon",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "typhoon"
+   ],
+   "glossEn": "tropical storm in the western Pacific",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "5e322453-d43e-56b4-9daf-ed42d606317a",
+   "lemma": "gale",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gale"
+   ],
+   "glossEn": "very strong wind",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "7a0facc9-260a-5423-83af-5f4abb37ad88",
+   "lemma": "gust",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gust"
+   ],
+   "glossEn": "sudden strong rush of wind",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "6786e17f-28dd-5c22-a300-4549fd049263",
+   "lemma": "blustery",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blustery"
+   ],
+   "glossEn": "with strong gusty winds",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "a3654f2d-a795-54b8-a7f7-170d713a4687",
+   "lemma": "downpour",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "downpour"
+   ],
+   "glossEn": "sudden heavy fall of rain",
+   "topics": [],
+   "area": "science-nature"
+  }
+ ]
+}

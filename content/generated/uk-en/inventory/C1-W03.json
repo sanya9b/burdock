@@ -1,0 +1,536 @@
+{
+ "chunk": "C1-W03",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "b1a285bb-9b8d-5565-ba5f-9dca020aa3bb",
+   "lemma": "underlying",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "underlying"
+   ],
+   "glossEn": "being the real but hidden cause",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "78c80411-f629-5758-a63c-2d3ae99f2229",
+   "lemma": "determinant",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "determinant"
+   ],
+   "glossEn": "factor that decisively affects an outcome",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "c733e67e-644a-5296-ac07-a19cd84e0245",
+   "lemma": "contributory",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "contributory"
+   ],
+   "glossEn": "helping to cause something",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "5b5eb08e-82e1-557d-9881-82640da9b59e",
+   "lemma": "conducive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "conducive"
+   ],
+   "glossEn": "making a certain outcome likely",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "df857e7a-7c96-5f0a-9ecb-ce196e8eac67",
+   "lemma": "instrumental",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "instrumental"
+   ],
+   "glossEn": "important in making something happen",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "fbbc074e-6275-5b86-8f6d-0d32f0a27cd2",
+   "lemma": "consequential",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "consequential"
+   ],
+   "glossEn": "important; having significant consequences",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "57be97be-3fcc-5f71-9513-851305eaee29",
+   "lemma": "inconsequential",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inconsequential"
+   ],
+   "glossEn": "not important; having no significant effect",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "23b8851a-6541-54f1-9c93-115290e136b8",
+   "lemma": "contingent",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "contingent"
+   ],
+   "glossEn": "depending on something else happening",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "bf460bce-1fc3-58ed-b8f6-e81c9b0fdeb1",
+   "lemma": "precondition",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "precondition",
+    "pre-condition"
+   ],
+   "glossEn": "condition that must be met beforehand",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "3ce4a4c0-c911-5264-ad39-f520157df1bf",
+   "lemma": "inevitability",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inevitability"
+   ],
+   "glossEn": "quality of being certain to happen",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "ac99a397-5bac-57f8-a01a-5d78f5b82244",
+   "lemma": "irreversible",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "irreversible"
+   ],
+   "glossEn": "impossible to undo or change back",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "a3f50998-0845-5b4a-9ef6-ad1f2b132803",
+   "lemma": "reversible",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reversible"
+   ],
+   "glossEn": "able to be undone or changed back",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "f9b61829-93a8-5836-afe2-4da27b83d184",
+   "lemma": "cumulative",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cumulative"
+   ],
+   "glossEn": "increasing by successive additions",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "b3595323-d579-515d-856f-9e455e5f4fc9",
+   "lemma": "aggravate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aggravate"
+   ],
+   "glossEn": "make a bad situation more serious",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "2f42a11a-596d-5224-92b3-ff9127534eb3",
+   "lemma": "mitigation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mitigation"
+   ],
+   "glossEn": "action to reduce the severity of something",
+   "topics": [
+    "work"
+   ],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "bad6815e-ec9c-5fe1-aa75-03ef81abca99",
+   "lemma": "offset",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "offset"
+   ],
+   "glossEn": "balance one effect against an opposite one",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "447b9828-379c-5aff-9435-79f38fc2b93f",
+   "lemma": "counteract",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "counteract"
+   ],
+   "glossEn": "act against something to reduce its effect",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "9e1befb1-2fc7-5b0b-a73a-9d753f65720f",
+   "lemma": "counterbalance",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "counterbalance",
+    "counter-balance"
+   ],
+   "glossEn": "balance the effect of something with an opposite",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "afc4ae94-d6d9-59ec-a939-5580a45e7a4e",
+   "lemma": "nullify",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nullify"
+   ],
+   "glossEn": "cancel out the effect of something",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "014409bc-7040-5aa2-9090-7357871b765c",
+   "lemma": "negate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "negate"
+   ],
+   "glossEn": "make something ineffective; deny its truth",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "58d53208-2537-5436-b7c5-3812303ac3db",
+   "lemma": "inflame",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inflame"
+   ],
+   "glossEn": "make a situation or feeling more intense",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "a09a7ee7-6148-5b95-8c51-1f0b8d58afac",
+   "lemma": "magnitude",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "magnitude"
+   ],
+   "glossEn": "great size, extent or importance of something",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "b0158340-562d-570d-80e6-5c5199d46b8c",
+   "lemma": "breadth",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "breadth"
+   ],
+   "glossEn": "wide range or extent of something",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "535141a5-b80a-5d8e-9035-793660ac41d2",
+   "lemma": "wholly",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wholly"
+   ],
+   "glossEn": "entirely; fully",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "4f92d3ff-c51f-5e55-91af-88c5c46ca337",
+   "lemma": "marginal",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "marginal"
+   ],
+   "glossEn": "small and not important",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "addeafa5-dce5-59c0-b2fc-85778a959b0f",
+   "lemma": "minuscule",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "minuscule",
+    "miniscule"
+   ],
+   "glossEn": "extremely small",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "5ff73bed-f313-5963-bb98-9df91b5bf6a9",
+   "lemma": "scant",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scant"
+   ],
+   "glossEn": "barely enough; very little",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "0533f3a1-9773-519f-90d1-8aab63cfa4cc",
+   "lemma": "meager",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "meager",
+    "meagre"
+   ],
+   "glossEn": "small in quantity and poor in quality",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "b97ab85e-febd-52e6-a46d-18c6e2f059b6",
+   "lemma": "sizable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sizable",
+    "sizeable"
+   ],
+   "glossEn": "fairly large",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "1630c82b-702b-5648-ab16-ef604746ed50",
+   "lemma": "appreciable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "appreciable"
+   ],
+   "glossEn": "large enough to be noticed",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "d677ba8f-01c1-5e6d-815d-187780d79f76",
+   "lemma": "pronounced",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pronounced"
+   ],
+   "glossEn": "very noticeable or marked",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "466bb314-49fa-552f-a6bd-8fbc35a2e3c3",
+   "lemma": "intensify",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "intensify"
+   ],
+   "glossEn": "become or make more intense",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "566e3429-0c1a-523d-8a7e-0bed7a705793",
+   "lemma": "heighten",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heighten"
+   ],
+   "glossEn": "make a feeling or effect stronger",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "9f2696c2-396f-54e4-a56c-f38bf8a4aee2",
+   "lemma": "escalation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "escalation"
+   ],
+   "glossEn": "rapid increase in intensity or extent",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "554d9307-0362-5cca-b420-4db54494270e",
+   "lemma": "diminish",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "diminish"
+   ],
+   "glossEn": "make or become smaller or less",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "925b9754-1651-5339-9e7b-b2a218b78847",
+   "lemma": "taper",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "taper"
+   ],
+   "glossEn": "gradually lessen or become narrower",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "31533bdf-c8da-5d27-b1bd-d2ab7c1a18fb",
+   "lemma": "dampen",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dampen"
+   ],
+   "glossEn": "make a feeling or effect less strong",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "371d2286-e2ce-512e-983f-5389a4792954",
+   "lemma": "optimal",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "optimal"
+   ],
+   "glossEn": "best or most favorable",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "c122e04c-4228-5d17-a8b8-29829d6afce1",
+   "lemma": "optimum",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "optimum"
+   ],
+   "glossEn": "most favorable level or condition",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "e31f9491-0b59-5315-be65-83cd3442b1d8",
+   "lemma": "suboptimal",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "suboptimal",
+    "sub-optimal"
+   ],
+   "glossEn": "less than the best possible",
+   "topics": [
+    "work"
+   ],
+   "area": "abstract-thought"
+  }
+ ]
+}

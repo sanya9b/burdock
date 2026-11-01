@@ -1,0 +1,537 @@
+{
+ "chunk": "C1-W02",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "96606166-a232-5aa4-ab4c-96785433badd",
+   "lemma": "misread",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "misread"
+   ],
+   "glossEn": "judge a situation or person wrongly",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "7a711900-8d2f-5380-81d7-a7d3d2501439",
+   "lemma": "decipher",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "decipher"
+   ],
+   "glossEn": "succeed in understanding something hard to interpret",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "7ec36235-717b-5430-aca4-ed5bc7204693",
+   "lemma": "enigmatic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "enigmatic"
+   ],
+   "glossEn": "mysterious and difficult to understand",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "59c84349-b7fb-508b-bbf3-bb02a1341524",
+   "lemma": "enigma",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "enigma"
+   ],
+   "glossEn": "person or thing that is mysterious",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "b6dab04b-7bfe-5e47-9b18-2475e0f9b00d",
+   "lemma": "conundrum",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "conundrum"
+   ],
+   "glossEn": "confusing and difficult problem or question",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "0491c30b-0448-5fde-a019-c00b8e6942b8",
+   "lemma": "quandary",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quandary"
+   ],
+   "glossEn": "state of uncertainty about what to do",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "5c0e7fa9-795f-516d-82d0-4c0c62c3d480",
+   "lemma": "skeptic",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "skeptic",
+    "sceptic"
+   ],
+   "glossEn": "person who doubts accepted claims",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "dfdec17b-2613-5d1f-9de2-7c3375d2d450",
+   "lemma": "cynic",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cynic"
+   ],
+   "glossEn": "person who believes others act from self-interest",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "8a26a8fa-9485-5483-8b73-e886d6028645",
+   "lemma": "cynicism",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cynicism"
+   ],
+   "glossEn": "belief that people act only from self-interest",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "65190551-2ee2-5ddf-9658-060a213cca3c",
+   "lemma": "far-fetched",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "far-fetched",
+    "farfetched"
+   ],
+   "glossEn": "unlikely and difficult to believe",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "1f0efc58-db5c-50ad-9007-bac69d5aa371",
+   "lemma": "unfounded",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unfounded"
+   ],
+   "glossEn": "having no basis in fact",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "78047f6c-55ce-5c5a-a9ba-b85430481398",
+   "lemma": "baseless",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "baseless"
+   ],
+   "glossEn": "without foundation in fact",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "4abf2b75-5e5f-57c2-9bd6-372cfad4838a",
+   "lemma": "well-founded",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "well-founded",
+    "well founded"
+   ],
+   "glossEn": "based on good evidence or reasons",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "c3b1c06f-2b6e-52b3-a8a0-9c37168c7a38",
+   "lemma": "unsubstantiated",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unsubstantiated"
+   ],
+   "glossEn": "not supported by evidence",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "efeb411b-152b-56ac-96c0-d8bd5e90398e",
+   "lemma": "definitive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "definitive"
+   ],
+   "glossEn": "final and not able to be changed",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "e60ef33d-3b74-5d82-8a32-0dba3cebd023",
+   "lemma": "provisional",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "provisional"
+   ],
+   "glossEn": "arranged for the present, possibly changed later",
+   "topics": [
+    "work"
+   ],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "cfc0f455-29e0-505f-85ed-00564845ba44",
+   "lemma": "tentatively",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tentatively"
+   ],
+   "glossEn": "in a hesitant or provisional way",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "c4a4f776-15d9-585b-9542-2505e5139554",
+   "lemma": "hypothetical",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hypothetical"
+   ],
+   "glossEn": "imagined or supposed rather than real",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "fba56607-54e7-5d59-ba67-1aa028c37c56",
+   "lemma": "hypothetically",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hypothetically"
+   ],
+   "glossEn": "as a supposed possibility rather than a fact",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "392ae836-c52b-50d5-9bda-6f36e59d368e",
+   "lemma": "causal",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "causal"
+   ],
+   "glossEn": "relating to or acting as a cause",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "595f5ffb-2f1b-52b2-9d2a-ab6b6b64b151",
+   "lemma": "causality",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "causality"
+   ],
+   "glossEn": "principle that every effect has a cause",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "9ba53263-2009-552d-9ad2-1ccfe7e332da",
+   "lemma": "correlate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "correlate"
+   ],
+   "glossEn": "have a mutual relationship with something",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "df15f837-8e6c-52f9-85e1-d4dcc119433d",
+   "lemma": "attributable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "attributable"
+   ],
+   "glossEn": "regarded as caused by something",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "b3974723-b50b-5912-bdb9-0afb0f231543",
+   "lemma": "entail",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "entail"
+   ],
+   "glossEn": "involve something as a necessary consequence",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "d3e84d0d-f40b-57df-94a8-c1bd8750f969",
+   "lemma": "necessitate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "necessitate"
+   ],
+   "glossEn": "make something necessary as a result",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "153c68c5-d56c-50db-a0fd-c8849aff41c4",
+   "lemma": "impediment",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "impediment"
+   ],
+   "glossEn": "something that hinders progress",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "28e60377-be79-58da-aaea-de55a06c90f6",
+   "lemma": "hindrance",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hindrance"
+   ],
+   "glossEn": "thing that makes progress difficult",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "6cf74ac4-0e2c-5b1a-9b57-71425cf460cb",
+   "lemma": "inhibit",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inhibit"
+   ],
+   "glossEn": "hold back or restrain an action or process",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "d9f6107b-ccca-5f6c-a263-e94fb0b44718",
+   "lemma": "constraint",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "constraint"
+   ],
+   "glossEn": "limitation or restriction on action",
+   "topics": [
+    "work"
+   ],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "9e8cdf3f-b57a-5dc5-87b8-761260112ceb",
+   "lemma": "catalyze",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "catalyze",
+    "catalyse"
+   ],
+   "glossEn": "cause or speed up a change",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "aa51403b-45ae-5e9e-9f2e-25f936dc8bba",
+   "lemma": "ensue",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ensue"
+   ],
+   "glossEn": "happen afterwards as a result",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "1d01f11b-60ee-51c2-b852-003dd817889d",
+   "lemma": "ensuing",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ensuing"
+   ],
+   "glossEn": "happening afterwards as a result",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "111ba6f4-be77-5b49-b13e-99cba2945397",
+   "lemma": "repercussion",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "repercussion"
+   ],
+   "glossEn": "unintended consequence of an action, often bad",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "328e796c-a499-5c38-b6c8-d1fd8dda48e3",
+   "lemma": "ramification",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ramification"
+   ],
+   "glossEn": "complex consequence of an action or decision",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "d9a7a0a9-b06f-5b93-919e-4d19a013a3d7",
+   "lemma": "aftermath",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aftermath"
+   ],
+   "glossEn": "period and consequences following a bad event",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "f8541db2-b562-503d-ab3d-19e676b926a4",
+   "lemma": "fallout",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fallout",
+    "fall-out"
+   ],
+   "glossEn": "bad consequences of an event or decision",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "22975762-bd05-5787-b228-4f59279f1ea2",
+   "lemma": "knock-on",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "knock-on"
+   ],
+   "glossEn": "caused indirectly by something else happening",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "5c9a9969-e9c0-5120-b01f-f8036f7d6673",
+   "lemma": "spillover",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spillover",
+    "spill-over"
+   ],
+   "glossEn": "effect that spreads into another area",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "c628b257-e25a-5ac2-a531-8051c7f1e78c",
+   "lemma": "byproduct",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "byproduct",
+    "by-product"
+   ],
+   "glossEn": "secondary result of a process or action",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "357e6302-ff23-5d72-9939-6746d5c767fe",
+   "lemma": "offshoot",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "offshoot"
+   ],
+   "glossEn": "thing that developed from something larger",
+   "topics": [],
+   "area": "abstract-thought"
+  }
+ ]
+}

@@ -1,0 +1,549 @@
+{
+ "chunk": "C2-W05",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "981d9ef1-400d-50c9-8fbd-021c56a1e282",
+   "lemma": "kudos",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "kudos"
+   ],
+   "glossEn": "praise and recognition for an achievement",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "c143062b-4d33-5d10-b2e4-0741a503a288",
+   "lemma": "hyperbolic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hyperbolic"
+   ],
+   "glossEn": "deliberately exaggerated",
+   "topics": [
+    "communication"
+   ],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "1c5c586d-312f-5b62-8ad6-92c03d6bdd0a",
+   "lemma": "understatement",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "understatement"
+   ],
+   "glossEn": "presenting something as less significant than it is",
+   "topics": [
+    "communication"
+   ],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "a096f3b1-bc1e-5f72-b89e-3eacdd847a0e",
+   "lemma": "flagrant",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flagrant"
+   ],
+   "glossEn": "obviously and openly wrong",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "891ba8b4-0dcd-5612-bf26-2bee75e09dcd",
+   "lemma": "glaring",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "glaring"
+   ],
+   "glossEn": "highly obvious or conspicuous, especially a fault",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "610aeeb7-0411-5d17-ac11-620e11193e9f",
+   "lemma": "touchstone",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "touchstone"
+   ],
+   "glossEn": "standard by which something is judged",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "69015aec-72c4-5721-8661-54a700978a43",
+   "lemma": "denotation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "denotation"
+   ],
+   "glossEn": "literal dictionary meaning of a word",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "2e04e616-b9f8-563a-8083-237ab053b7a8",
+   "lemma": "pithy",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pithy"
+   ],
+   "glossEn": "brief, forceful and full of meaning",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "426e0621-5fe9-5a34-83e9-497d61598101",
+   "lemma": "florid",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "florid"
+   ],
+   "glossEn": "excessively elaborate or flowery in style",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "9ce58c6b-5691-5d86-9838-182bcd317c7a",
+   "lemma": "flowery",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flowery"
+   ],
+   "glossEn": "using too many elaborate, ornate words",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "16a6de43-2c25-5c89-99a3-c70a146b46b1",
+   "lemma": "turgid",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "turgid"
+   ],
+   "glossEn": "pompous, swollen and tedious in style",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "fb5d7ba4-1323-58e1-b46f-94ce82a128cd",
+   "lemma": "bombastic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bombastic"
+   ],
+   "glossEn": "high-sounding but with little real meaning",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "9769ff9e-f629-5c95-80f6-396141260b55",
+   "lemma": "grandiloquent",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "grandiloquent"
+   ],
+   "glossEn": "pompous and extravagant in language",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "9087563f-31a7-56e8-ae25-518db28fabce",
+   "lemma": "moralistic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "moralistic"
+   ],
+   "glossEn": "preaching narrow moral judgments",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "50a3ad39-6c8f-5180-b036-94d6e55491b7",
+   "lemma": "allegorical",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "allegorical"
+   ],
+   "glossEn": "containing a hidden moral or political meaning",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "1afa1280-a4f9-5a33-bf48-0123df0da8ae",
+   "lemma": "tragicomedy",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tragicomedy",
+    "tragi-comedy"
+   ],
+   "glossEn": "play or story mixing tragedy and comedy",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "5d6af27a-f829-5094-bec1-78f678b4a180",
+   "lemma": "whimsy",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "whimsy"
+   ],
+   "glossEn": "playful, fanciful quality or humor",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "7804cff4-08fa-525d-894e-09cd03e9cfe4",
+   "lemma": "picaresque",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "picaresque"
+   ],
+   "glossEn": "about the episodic adventures of a roguish hero",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "97c6dec6-cd37-5cba-825e-5d07000adc8f",
+   "lemma": "surrealism",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "surrealism"
+   ],
+   "glossEn": "art movement exploring dreams and the unconscious",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "6b80359b-8cc7-53f0-9b12-63a8e57880f9",
+   "lemma": "naturalism",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "naturalism"
+   ],
+   "glossEn": "literary style depicting life with scientific detachment",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "bc92792e-9388-5d2d-b02e-20aa1527df4b",
+   "lemma": "romanticism",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "romanticism"
+   ],
+   "glossEn": "movement prizing emotion, nature and individualism",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "9c90ecb8-2d11-5c74-9afe-49523736e089",
+   "lemma": "modernism",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "modernism"
+   ],
+   "glossEn": "early twentieth-century movement breaking with tradition",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "5aeb65c8-0999-5338-b8ed-75714912ec83",
+   "lemma": "postmodern",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "postmodern",
+    "post-modern"
+   ],
+   "glossEn": "reacting against modernism with irony and pastiche",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "c1333a83-a0cc-554d-9697-e0de73e9383b",
+   "lemma": "limerick",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "limerick"
+   ],
+   "glossEn": "humorous five-line poem with a bouncing rhythm",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "b579e0e2-f2af-58bc-bfd0-39a3a61e58ff",
+   "lemma": "quatrain",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quatrain"
+   ],
+   "glossEn": "stanza of four lines",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "b0a3da16-0434-5a0a-b8a2-831ce9e32a7c",
+   "lemma": "iambic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "iambic"
+   ],
+   "glossEn": "in a meter of unstressed-stressed syllable pairs",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "4d61aa7c-3a36-58d5-a54e-b9727db0769b",
+   "lemma": "assonance",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "assonance"
+   ],
+   "glossEn": "repetition of vowel sounds in nearby words",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "c4be85d1-ce6d-5358-bb07-d1d63fe71f40",
+   "lemma": "onomatopoeia",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "onomatopoeia"
+   ],
+   "glossEn": "word that imitates the sound it names",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "b4f35d82-ba09-5041-86c3-fb99cb09034d",
+   "lemma": "vignette",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vignette"
+   ],
+   "glossEn": "brief evocative description or scene",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "be820b5c-d773-56b7-9ac6-0c29890cfe4d",
+   "lemma": "foil",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "foil"
+   ],
+   "glossEn": "character who contrasts with and highlights another",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "996ae471-2e8c-5942-b179-df64367a1680",
+   "lemma": "saccharine",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "saccharine"
+   ],
+   "glossEn": "excessively sweet or sentimental",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "c8439efd-6024-54b2-abdb-45d86a41ebd8",
+   "lemma": "afterword",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "afterword"
+   ],
+   "glossEn": "concluding section after the main text",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "f0cd91c4-f8ac-5bd7-88f0-1d7b7914159c",
+   "lemma": "endnote",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "endnote",
+    "end note"
+   ],
+   "glossEn": "note placed at the end of a chapter or book",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "e6e2a9e1-e554-500a-911e-394eba213afc",
+   "lemma": "marginalia",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "marginalia"
+   ],
+   "glossEn": "notes written in the margins of a book",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "0d15cd93-526d-5771-9db6-841c02b35c6f",
+   "lemma": "unabridged",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unabridged"
+   ],
+   "glossEn": "complete, not shortened",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "99b238ef-cfc8-5c8e-9882-cc7603ed613c",
+   "lemma": "treatise",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "treatise"
+   ],
+   "glossEn": "formal, systematic written work on a subject",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "d2eb2248-27e1-5589-9d4c-fae3ceb3a2d4",
+   "lemma": "tract",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tract"
+   ],
+   "glossEn": "pamphlet making a religious or political argument",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "c2d6fcaa-f0c9-5790-af40-d9a7b1c88315",
+   "lemma": "gazette",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gazette"
+   ],
+   "glossEn": "official journal or newspaper",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "f467d348-8da7-5171-970c-4f6bd43d5946",
+   "lemma": "folio",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "folio"
+   ],
+   "glossEn": "large-format book or a leaf of a manuscript",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "0b04c590-affa-5ca2-b572-d322a5f1e82d",
+   "lemma": "nemesis",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nemesis"
+   ],
+   "glossEn": "long-standing rival or agent of one's downfall",
+   "topics": [],
+   "area": "arts-media"
+  }
+ ]
+}

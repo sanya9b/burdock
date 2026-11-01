@@ -1,0 +1,694 @@
+{
+ "chunk": "B1-W04",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "17fc49e7-02bf-5be6-a3fe-a4c96ead0156",
+   "lemma": "pedestrian zone",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pedestrian zone",
+    "pedestrian zones",
+    "pedestrian area",
+    "car-free zone"
+   ],
+   "glossEn": "street area closed to cars for walkers",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "3e91efd3-c703-55ac-8408-252f388a1c73",
+   "lemma": "bike rack",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bike rack",
+    "bike racks",
+    "bicycle rack",
+    "bike stand"
+   ],
+   "glossEn": "metal stand for locking bicycles",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "03e2b328-d222-57ce-84ff-d8668eaa868e",
+   "lemma": "e-bike",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "e-bike",
+    "e-bikes",
+    "electric bike",
+    "ebike"
+   ],
+   "glossEn": "bicycle with an electric motor that helps pedaling",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "123f586c-b9fe-54b9-b2ea-2d9a1bebdd15",
+   "lemma": "e-scooter",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "e-scooter",
+    "e-scooters",
+    "electric scooter"
+   ],
+   "glossEn": "electric scooter you stand on to ride",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "e48ac671-e696-540b-bdae-8b7aa44b5b90",
+   "lemma": "car sharing",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "car sharing",
+    "car-sharing",
+    "carsharing"
+   ],
+   "glossEn": "service renting cars by the hour via an app",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "9a743e53-afb3-56e4-b82d-64755d042101",
+   "lemma": "U-turn",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "U-turn",
+    "U-turns",
+    "u-turn"
+   ],
+   "glossEn": "turn in the road to go back the same way",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "62302c2f-4eb5-5518-b47e-ee70fa5a77a1",
+   "lemma": "junction",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "junction",
+    "junctions"
+   ],
+   "glossEn": "place where roads or railway lines meet",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "ae379f47-e7ab-51d4-b196-22c944274ae6",
+   "lemma": "speeding",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "speeding"
+   ],
+   "glossEn": "driving faster than the legal limit",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "081cd463-3d9a-5c15-a7ff-4dbf6493f75e",
+   "lemma": "tow truck",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tow truck",
+    "tow trucks",
+    "breakdown truck"
+   ],
+   "glossEn": "truck that pulls away broken or illegally parked cars",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "fbc107ac-fcb4-5170-8957-e1a094070b70",
+   "lemma": "turn signal",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "turn signal",
+    "turn signals",
+    "indicator",
+    "blinker"
+   ],
+   "glossEn": "flashing light showing which way a car will turn",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "81a2537e-3fa2-571e-b7e5-6d12630397db",
+   "lemma": "headlight",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "headlight",
+    "headlights",
+    "headlamp"
+   ],
+   "glossEn": "bright light at the front of a vehicle",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "d3ec1985-a154-5b04-b38c-e67a89747e87",
+   "lemma": "license plate",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "license plate",
+    "license plates",
+    "number plate",
+    "licence plate"
+   ],
+   "glossEn": "metal plate with a car's registration number",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "075a8681-3301-54a2-832d-82d83e6b1705",
+   "lemma": "road sign",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "road sign",
+    "road signs",
+    "traffic sign"
+   ],
+   "glossEn": "sign beside a road giving rules or directions",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "0d51c31a-a83f-5d9c-86af-d242765a80cf",
+   "lemma": "stop sign",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stop sign",
+    "stop signs"
+   ],
+   "glossEn": "red sign requiring drivers to stop completely",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "a1dce9b8-d5c4-5d3c-8580-a66ba69e7464",
+   "lemma": "bus shelter",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bus shelter",
+    "bus shelters"
+   ],
+   "glossEn": "covered waiting place at a bus stop",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "62d610e6-2e5a-54bb-822d-3f0196a18b48",
+   "lemma": "uphill",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "uphill"
+   ],
+   "glossEn": "toward the top of a slope",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "d4673ab0-1fa1-5eba-a563-cdb856db0177",
+   "lemma": "downhill",
+   "pos": "adverb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "downhill"
+   ],
+   "glossEn": "toward the bottom of a slope",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "7f2a002b-a314-5458-b47c-90a7067a1f4d",
+   "lemma": "wiper",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wiper",
+    "wipers",
+    "windshield wiper",
+    "windscreen wiper"
+   ],
+   "glossEn": "blade that clears rain from a windshield",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "717d0b77-ffc4-5e05-92fd-aac4c42e1c35",
+   "lemma": "flat tire",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flat tire",
+    "flat tires",
+    "flat tyre"
+   ],
+   "glossEn": "tire that has lost its air",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "1ee5dc28-ffca-5a9f-bc31-e365ee8480e0",
+   "lemma": "bike lock",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bike lock",
+    "bike locks",
+    "bicycle lock"
+   ],
+   "glossEn": "lock used to secure a bicycle to a rack",
+   "topics": [
+    "city",
+    "shopping"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "e2369a22-2a5b-5a72-bd74-f0e63ba7e304",
+   "lemma": "moped",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "moped",
+    "mopeds"
+   ],
+   "glossEn": "light motorcycle with a small engine",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "541d3b11-6ed4-55ca-bf26-8a485fc9bba1",
+   "lemma": "power cut",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "power cut",
+    "power cuts",
+    "power outage",
+    "power failure"
+   ],
+   "glossEn": "temporary loss of electricity supply",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "ceede59f-a79b-5275-8f9d-50608ef28a25",
+   "lemma": "power line",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "power line",
+    "power lines"
+   ],
+   "glossEn": "overhead cable carrying electricity",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "4ef9436d-dc88-59a3-b5e3-f626b2a64f6f",
+   "lemma": "drinking water",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "drinking water"
+   ],
+   "glossEn": "water that is safe to drink",
+   "topics": [
+    "city",
+    "health"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "69e19c9d-5d1a-5cf8-8690-944079e8e262",
+   "lemma": "waste sorting",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "waste sorting",
+    "sorting waste",
+    "waste separation"
+   ],
+   "glossEn": "separating garbage into recyclable types",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "f75285ce-11d0-57c6-8ffb-42c6f64da358",
+   "lemma": "street cleaning",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "street cleaning",
+    "street sweeping",
+    "road cleaning"
+   ],
+   "glossEn": "municipal washing and sweeping of city streets",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "872f5036-4ff1-58f3-b47b-74370e564951",
+   "lemma": "recycling point",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "recycling point",
+    "recycling points",
+    "recycling center",
+    "recycling station"
+   ],
+   "glossEn": "place where you drop off recyclable waste",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "90af42e1-ef0f-56e3-a14c-04fdc471bc29",
+   "lemma": "food waste",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "food waste"
+   ],
+   "glossEn": "leftover food thrown away",
+   "topics": [
+    "city",
+    "food"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "a463a8bf-ff5d-52b8-a1fe-dae270b2cbd1",
+   "lemma": "black ice",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "black ice"
+   ],
+   "glossEn": "thin invisible ice on a road or sidewalk",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "309f3b31-33b9-5921-bd61-ce17f58c06f5",
+   "lemma": "water shortage",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "water shortage",
+    "water shortages"
+   ],
+   "glossEn": "period when not enough water is available",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "c2f7097e-ada7-5c00-bcde-5d904f1d6ab6",
+   "lemma": "security camera",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "security camera",
+    "security cameras",
+    "surveillance camera"
+   ],
+   "glossEn": "camera that records a place for safety",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "cca0e273-a29c-5cd3-9406-48ced94d14d2",
+   "lemma": "street vendor",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "street vendor",
+    "street vendors",
+    "street seller"
+   ],
+   "glossEn": "person selling goods or food on the street",
+   "topics": [
+    "city",
+    "shopping"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "6485148f-98a5-5c88-97f9-32a68ad3c444",
+   "lemma": "street performer",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "street performer",
+    "street performers",
+    "street musician"
+   ],
+   "glossEn": "artist who performs in public places for money",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "9500bd7d-9bc0-50f7-a6f7-464f35fbe526",
+   "lemma": "alleyway",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "alleyway",
+    "alleyways"
+   ],
+   "glossEn": "narrow passage between or behind buildings",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "48cf62c4-6ac2-5d91-ad32-be3815cb3388",
+   "lemma": "ferry terminal",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ferry terminal",
+    "ferry terminals",
+    "ferry port"
+   ],
+   "glossEn": "building where passengers board ferries",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "e507e560-8190-597e-bb4d-75234a58096e",
+   "lemma": "riverside",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "riverside",
+    "riversides"
+   ],
+   "glossEn": "land along the banks of a river",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "50029790-5481-56f0-885b-3b8a923cc6cf",
+   "lemma": "seafront",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "seafront",
+    "seafronts",
+    "beachfront"
+   ],
+   "glossEn": "part of a town facing the sea",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "24e44504-86a7-52d0-b89f-7e16c3502c00",
+   "lemma": "opera house",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "opera house",
+    "opera houses"
+   ],
+   "glossEn": "theater building for opera performances",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "2f9697cb-ff47-5234-83ca-51b3963f8b98",
+   "lemma": "concert hall",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "concert hall",
+    "concert halls"
+   ],
+   "glossEn": "large building for musical performances",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "aeabf50a-0d60-5a95-bc76-520bf855098c",
+   "lemma": "community center",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "community center",
+    "community centers",
+    "community centre"
+   ],
+   "glossEn": "public building for local activities and meetings",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  }
+ ]
+}

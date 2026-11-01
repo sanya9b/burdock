@@ -1,0 +1,540 @@
+{
+ "chunk": "C2-W09",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "b203f42d-8758-57fa-b2da-1fd86d0701e6",
+   "lemma": "junket",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "junket"
+   ],
+   "glossEn": "promotional trip where journalists interview film stars",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "3f19fdef-fb01-5f37-9dd8-c0173b9f7880",
+   "lemma": "soiree",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "soiree",
+    "soirée"
+   ],
+   "glossEn": "evening party or gathering, often with music",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "78be2808-26e5-5a9f-8171-3a37aef3e042",
+   "lemma": "meteoric",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "meteoric"
+   ],
+   "glossEn": "rising to fame very rapidly",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "f80a8263-ea26-5389-b804-e6d2bd144efb",
+   "lemma": "scene-stealing",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scene-stealing",
+    "scene stealing"
+   ],
+   "glossEn": "drawing attention away from the lead performers",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "ecbe9f84-fde9-5396-b57f-0a49bd4431c9",
+   "lemma": "syncopation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "syncopation"
+   ],
+   "glossEn": "rhythm stressing normally unstressed beats",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "cd395d6b-1a53-5e40-af54-f8c46e0e8819",
+   "lemma": "diminuendo",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "diminuendo"
+   ],
+   "glossEn": "gradual decrease in loudness",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "339a34b9-55db-5223-9eea-daf1e92dbe15",
+   "lemma": "staccato",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "staccato"
+   ],
+   "glossEn": "with each note short and detached",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "dbe12ebc-389e-5aef-9926-6928d75575fe",
+   "lemma": "legato",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "legato"
+   ],
+   "glossEn": "smooth and connected, without breaks between notes",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "bc69f2e4-aba9-53fd-b69b-8b55676bc8dd",
+   "lemma": "libretto",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "libretto"
+   ],
+   "glossEn": "text of an opera or musical",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "d6de9897-1d86-50fe-8fe7-18143769dd60",
+   "lemma": "accompanist",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "accompanist"
+   ],
+   "glossEn": "musician who plays the accompaniment for a soloist",
+   "topics": [
+    "work"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "0b7bfedd-b59a-595c-92ac-e3a2ecf81d01",
+   "lemma": "overdub",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overdub"
+   ],
+   "glossEn": "add a new recording on top of an existing one",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "0cd69b42-dcea-5864-a41d-a410549c51af",
+   "lemma": "setlist",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "setlist",
+    "set list"
+   ],
+   "glossEn": "list of songs played at a concert",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "4fe38137-c3c7-55bc-a779-844433fd4bf7",
+   "lemma": "soundcheck",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "soundcheck",
+    "sound check"
+   ],
+   "glossEn": "pre-concert test of instruments and sound levels",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "2cec600f-8184-5701-b146-3af75520e153",
+   "lemma": "roadie",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "roadie"
+   ],
+   "glossEn": "crew member handling a band's equipment on tour",
+   "topics": [
+    "work"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "3ca26ab0-d332-5455-abff-3e170f3f2137",
+   "lemma": "sonorous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sonorous"
+   ],
+   "glossEn": "deep, full and rich in sound",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "da1e236e-49da-516e-a423-09dbac48582c",
+   "lemma": "mellifluous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mellifluous"
+   ],
+   "glossEn": "sweet-sounding and smoothly flowing",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "8d7f0b97-bf8a-5719-a63e-87e0141ba56b",
+   "lemma": "dulcet",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dulcet"
+   ],
+   "glossEn": "sweet and soothing, of sounds",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "8afa06f9-dbd2-54c4-b589-e0d96cca74e0",
+   "lemma": "atonal",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "atonal"
+   ],
+   "glossEn": "music not written in any key",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "0146d597-ca34-52c0-8340-a6a77e6c0766",
+   "lemma": "cacophony",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cacophony"
+   ],
+   "glossEn": "harsh, discordant mixture of sounds",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "76133655-8b60-5e44-b55b-9624304dcce1",
+   "lemma": "sight-read",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sight-read",
+    "sightread"
+   ],
+   "glossEn": "play or sing music at first sight",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "38096914-fe43-5c77-943e-383488d536a9",
+   "lemma": "dirge",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dirge"
+   ],
+   "glossEn": "mournful song for a funeral",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "52dda87c-5082-59f7-9288-b8163c2408c1",
+   "lemma": "requiem",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "requiem"
+   ],
+   "glossEn": "musical composition for the dead",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "56e16424-b735-5cba-adf6-87b897e6e38a",
+   "lemma": "nocturne",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nocturne"
+   ],
+   "glossEn": "dreamy piece of music evoking the night",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "69c1e0a2-0a94-5a13-bd1b-01d5dff6764a",
+   "lemma": "sonata",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sonata"
+   ],
+   "glossEn": "composition for one or two instruments in movements",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "03b034a5-dedb-57f0-9394-20e23b5b821a",
+   "lemma": "counterpoint",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "counterpoint"
+   ],
+   "glossEn": "combining independent melodies into a harmonious whole",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "b7bcf4cd-f0b9-5142-a2b8-124979cda135",
+   "lemma": "polyphony",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "polyphony"
+   ],
+   "glossEn": "music with several independent melodic lines",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "c03216c4-d771-512e-aebe-bfec07cd0624",
+   "lemma": "fugue",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fugue"
+   ],
+   "glossEn": "composition where a theme is imitated by successive voices",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "9f46d322-378c-5056-b75b-82bc21c6168e",
+   "lemma": "opus",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "opus"
+   ],
+   "glossEn": "numbered musical work; an artistic creation",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "493d3d0a-6c02-5ab5-a80e-8fe65bc9accf",
+   "lemma": "troubadour",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "troubadour"
+   ],
+   "glossEn": "medieval traveling poet-singer",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "c899ef80-0807-56d2-859d-602f15e88053",
+   "lemma": "impasto",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "impasto"
+   ],
+   "glossEn": "thickly applied paint standing out from the surface",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "4bd413b3-8042-5fac-afd4-e63522cbc6c8",
+   "lemma": "gouache",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gouache"
+   ],
+   "glossEn": "opaque watercolor paint",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "12dcf65c-92f0-5951-af48-b0ba29b1296c",
+   "lemma": "woodcut",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "woodcut"
+   ],
+   "glossEn": "print made from a carved wooden block",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "f611756d-5015-5e00-bda4-451d2e59a58d",
+   "lemma": "lithograph",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lithograph"
+   ],
+   "glossEn": "print made from a drawing on stone or metal",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "26e99b15-ea3e-588e-8be8-3e5442d2a649",
+   "lemma": "printmaking",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "printmaking",
+    "print-making"
+   ],
+   "glossEn": "art of producing pictures by printing",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "8ccbe489-4866-5afd-85c7-86c5c7a8de32",
+   "lemma": "frieze",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "frieze"
+   ],
+   "glossEn": "decorated horizontal band along a wall",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "780a388b-0c13-5dfb-a53c-fac445ca29ed",
+   "lemma": "earthenware",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "earthenware"
+   ],
+   "glossEn": "pottery made of baked clay",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "f9c23cf4-4719-54b1-a749-1abe3e7695e5",
+   "lemma": "terracotta",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "terracotta",
+    "terra cotta",
+    "terra-cotta"
+   ],
+   "glossEn": "brownish-red unglazed fired clay",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "2058df6c-4e02-5318-b8aa-ba2a7682f057",
+   "lemma": "filigree",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "filigree"
+   ],
+   "glossEn": "delicate ornamental work of fine wire",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "b978778b-4e1d-5b8b-a3c1-9686a81245cb",
+   "lemma": "gilt",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gilt"
+   ],
+   "glossEn": "covered thinly with gold",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "99a565cf-43a0-52d8-9832-2c537a9c8048",
+   "lemma": "burnished",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "burnished"
+   ],
+   "glossEn": "polished by rubbing until shiny",
+   "topics": [],
+   "area": "arts-media"
+  }
+ ]
+}

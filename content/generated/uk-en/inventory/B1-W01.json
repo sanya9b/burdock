@@ -1,0 +1,674 @@
+{
+ "chunk": "B1-W01",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "bb645150-4f1b-5c37-b164-52db702f5bd5",
+   "lemma": "tenant",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tenant",
+    "tenants"
+   ],
+   "glossEn": "person who rents a home from a landlord",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "ceda226b-92ca-5658-ac3b-532d5b27667b",
+   "lemma": "utilities",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "utilities",
+    "utility"
+   ],
+   "glossEn": "services such as water, gas and electricity",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "fe27c589-c211-57ad-8515-c956d6c0266d",
+   "lemma": "condominium",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "condominium",
+    "condominiums",
+    "condo",
+    "condos"
+   ],
+   "glossEn": "apartment owned by the person living in it",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "6bbcc383-c481-5a20-8c10-4f8d3ce95359",
+   "lemma": "penthouse",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "penthouse",
+    "penthouses"
+   ],
+   "glossEn": "luxury apartment on the top floor",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "3f4fc085-f62e-59a3-aa3f-aa4db38b73e6",
+   "lemma": "bungalow",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bungalow",
+    "bungalows"
+   ],
+   "glossEn": "house with only one floor",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "674f62c7-7cf9-57ed-863b-02ef9669f847",
+   "lemma": "townhouse",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "townhouse",
+    "townhouses",
+    "terraced house",
+    "row house"
+   ],
+   "glossEn": "narrow house joined to others in a row",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "cb70fdf2-1a9d-511b-a2ee-03bf478a4697",
+   "lemma": "housing",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "housing"
+   ],
+   "glossEn": "homes available for people to live in",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "f53ed0a4-734e-58a0-aa96-fe63d2559dff",
+   "lemma": "slum",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "slum",
+    "slums"
+   ],
+   "glossEn": "poor crowded city area with bad housing",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "d270fa72-31df-5359-9655-cbbe1afc9e79",
+   "lemma": "depot",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "depot",
+    "depots"
+   ],
+   "glossEn": "place where buses or trains are kept",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "c8a2ea0c-a894-5a00-89d9-fd9a577a2ae2",
+   "lemma": "shuttle",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shuttle",
+    "shuttles",
+    "shuttle bus"
+   ],
+   "glossEn": "vehicle making short regular trips between two places",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "f5e245f4-0638-5c7a-a1e0-c4f17696b2f9",
+   "lemma": "minibus",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "minibus",
+    "minibuses"
+   ],
+   "glossEn": "small bus for about ten passengers",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "8fea8151-603a-59ca-8a8e-86abfc9be28c",
+   "lemma": "bike-sharing",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bike-sharing",
+    "bike sharing",
+    "bike share",
+    "bikeshare"
+   ],
+   "glossEn": "public system for renting bikes for short trips",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "89f6a901-78fe-5fd7-80a3-739ab2b24714",
+   "lemma": "speed camera",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "speed camera",
+    "speed cameras"
+   ],
+   "glossEn": "camera that records cars driving too fast",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "8868c303-31d9-59ef-8010-9aff3292ce39",
+   "lemma": "ring road",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ring road",
+    "ring roads",
+    "beltway",
+    "orbital"
+   ],
+   "glossEn": "road going around the outside of a city",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "a1fa3f02-d145-57aa-9e38-829cd096be42",
+   "lemma": "expressway",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "expressway",
+    "expressways"
+   ],
+   "glossEn": "wide fast road with limited access points",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "73487c0e-8e7d-59f9-b73c-f83dc56f20a9",
+   "lemma": "on-ramp",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on-ramp",
+    "on-ramps",
+    "slip road",
+    "entrance ramp"
+   ],
+   "glossEn": "short road for joining a highway",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "aacfced3-7928-535a-91c1-e47789c5d8f8",
+   "lemma": "median",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "median",
+    "medians",
+    "central reservation",
+    "median strip"
+   ],
+   "glossEn": "strip dividing opposite lanes of a road",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "f246743f-bd62-571b-86be-ef631ed45e75",
+   "lemma": "asphalt",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "asphalt",
+    "tarmac"
+   ],
+   "glossEn": "black material used to surface roads",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "faae4e5b-ec8a-5024-baa6-3c177be4a26f",
+   "lemma": "cobblestone",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cobblestone",
+    "cobblestones",
+    "cobble",
+    "cobbles"
+   ],
+   "glossEn": "rounded stone used to pave old streets",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "b7bb01d9-c4ce-5efe-97d8-c7fea2cb3291",
+   "lemma": "paved",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "paved"
+   ],
+   "glossEn": "covered with a hard flat surface",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "dca2ea81-f6b5-591c-bbe0-e7877915e881",
+   "lemma": "gravel",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gravel"
+   ],
+   "glossEn": "small stones used on paths and roads",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "7f6e27b7-de1e-5db5-bfed-e58f779c9fbf",
+   "lemma": "roadwork",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "roadwork",
+    "roadworks",
+    "road work"
+   ],
+   "glossEn": "repairs being done on a road",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "f5909e28-6a77-5d22-b27e-3d5ba2b3542a",
+   "lemma": "resurface",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "resurface",
+    "resurfaces",
+    "resurfaced",
+    "resurfacing"
+   ],
+   "glossEn": "put a new surface on a road",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "4267eaf2-8525-5f3a-a870-2ae27ad5e849",
+   "lemma": "barricade",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "barricade",
+    "barricades"
+   ],
+   "glossEn": "barrier blocking a street",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "6a59a1da-f286-5c99-a126-e5d5547aa2b4",
+   "lemma": "traffic cone",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "traffic cone",
+    "traffic cones",
+    "cone"
+   ],
+   "glossEn": "orange cone marking roadwork or danger",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "3683f122-3d0a-559e-97cb-9fed4e157b82",
+   "lemma": "shortcut",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shortcut",
+    "shortcuts",
+    "short cut"
+   ],
+   "glossEn": "quicker way to get somewhere",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "e2332758-88a6-5d5e-a69a-31c1799e1892",
+   "lemma": "side street",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "side street",
+    "side streets"
+   ],
+   "glossEn": "small street leading off a main one",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "d4e11e6f-31d1-567e-9fd2-f5a3a29d95d4",
+   "lemma": "backstreet",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "backstreet",
+    "backstreets",
+    "back street"
+   ],
+   "glossEn": "small quiet street away from main roads",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "a9832670-9f22-574b-bbdc-8da162c3e597",
+   "lemma": "plaza",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "plaza",
+    "plazas"
+   ],
+   "glossEn": "open public square, often with shops",
+   "topics": [
+    "city",
+    "shopping"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "4c580e11-5521-5448-8bfa-e0f553249126",
+   "lemma": "walkway",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "walkway",
+    "walkways"
+   ],
+   "glossEn": "passage or path for people on foot",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "6e9f3310-09f9-53cb-ae63-54ff218df1a6",
+   "lemma": "footpath",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "footpath",
+    "footpaths"
+   ],
+   "glossEn": "path for walking, especially in a park",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "4ba385ab-fffd-5bd7-b3e5-6944d958926c",
+   "lemma": "stairwell",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stairwell",
+    "stairwells"
+   ],
+   "glossEn": "vertical shaft in a building containing stairs",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "0f050585-44c5-5222-8643-fa8c912cd626",
+   "lemma": "passageway",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "passageway",
+    "passageways",
+    "passage"
+   ],
+   "glossEn": "narrow way between buildings or rooms",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "aab89507-47a1-5718-af27-1a96929c69ec",
+   "lemma": "drainage",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "drainage"
+   ],
+   "glossEn": "system for removing water from an area",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "978311b7-0ac3-5fec-bb4d-38490bfc7dd0",
+   "lemma": "water main",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "water main",
+    "water mains",
+    "mains"
+   ],
+   "glossEn": "large underground pipe supplying water",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "82f2978a-84c1-5bb4-96d6-9145f7295eae",
+   "lemma": "pipeline",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pipeline",
+    "pipelines"
+   ],
+   "glossEn": "long pipe carrying gas or water over distance",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "a6050603-c23b-59c3-8da8-fe1d6f8bb36c",
+   "lemma": "grid",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "grid",
+    "grids",
+    "power grid",
+    "national grid"
+   ],
+   "glossEn": "network supplying electricity to an area",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "a39c4604-b8ce-549c-9412-e0d7debfedbe",
+   "lemma": "boiler",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "boiler",
+    "boilers"
+   ],
+   "glossEn": "device that heats water for a building",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "20cee605-e8ee-55af-b045-ed891cad532c",
+   "lemma": "radiator",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "radiator",
+    "radiators"
+   ],
+   "glossEn": "metal device that heats a room",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "2f4d00f6-6066-5b06-9a40-23e2e1ef1e8f",
+   "lemma": "ventilation",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ventilation"
+   ],
+   "glossEn": "system bringing fresh air into a building",
+   "topics": [
+    "city",
+    "health"
+   ],
+   "area": "city"
+  }
+ ]
+}

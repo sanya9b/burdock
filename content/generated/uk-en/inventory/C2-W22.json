@@ -1,0 +1,546 @@
+{
+ "chunk": "C2-W22",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "42dae361-97e9-571a-a81b-f6148fae8c74",
+   "lemma": "optics",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "optics"
+   ],
+   "glossEn": "science of light and vision",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "40a927fa-6a3a-51fe-915e-3915ad54893f",
+   "lemma": "convection",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "convection"
+   ],
+   "glossEn": "heat transfer by movement of fluid or air",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "f190fdc7-9f46-5250-a2dc-4de2cf3a4ca1",
+   "lemma": "osmosis",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "osmosis"
+   ],
+   "glossEn": "passage of liquid through a membrane",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "6c36bf3e-0bcd-5952-b05e-992b3f7df3c5",
+   "lemma": "coagulate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "coagulate"
+   ],
+   "glossEn": "change from liquid to thick or solid, as blood",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "24fce1c5-85fa-52b7-a855-3b113f65af4d",
+   "lemma": "luminescent",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "luminescent"
+   ],
+   "glossEn": "giving off light without heat",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "8b8c1c7b-4329-54b9-a8af-b29a3ca7e14f",
+   "lemma": "amorphous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "amorphous"
+   ],
+   "glossEn": "without a clear shape or crystal structure",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "afcb7abe-47ba-5fb1-858e-e45654c66347",
+   "lemma": "pliable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pliable"
+   ],
+   "glossEn": "easily bent without breaking",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "c46479db-345b-5dda-a9ad-33a41a0cabb5",
+   "lemma": "sonic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sonic"
+   ],
+   "glossEn": "relating to sound or its speed",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "50aa2933-16ec-5bcc-825f-6b50dcde4e1c",
+   "lemma": "half-life",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "half-life",
+    "half life"
+   ],
+   "glossEn": "time for half a radioactive substance to decay",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "5131859f-923b-5a1c-b1bf-8bf96446c6ba",
+   "lemma": "emulsion",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "emulsion"
+   ],
+   "glossEn": "mixture of two liquids that normally separate",
+   "topics": [
+    "food"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "a0330de3-f8b9-5a5e-a1b2-c3bbd9f153a5",
+   "lemma": "sublimate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sublimate"
+   ],
+   "glossEn": "change directly from solid to gas",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "72508d8f-f6ec-5e50-8436-8d77e621b6eb",
+   "lemma": "electrode",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "electrode"
+   ],
+   "glossEn": "conductor through which electricity enters or leaves",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "d45cf49e-ccc1-5ecc-a3e7-57eca7a3ca7a",
+   "lemma": "electrolysis",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "electrolysis"
+   ],
+   "glossEn": "splitting a substance by passing electricity",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "348052ff-b25a-58de-92a2-4766374c88df",
+   "lemma": "ion",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ion"
+   ],
+   "glossEn": "atom with an electric charge",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "5e1569d6-5c94-5bea-ab7d-8280ed613194",
+   "lemma": "polymer",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "polymer"
+   ],
+   "glossEn": "substance made of long repeating molecular chains",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "810f6f7e-d565-5e99-918b-20761a0a1d83",
+   "lemma": "reactant",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reactant"
+   ],
+   "glossEn": "substance that takes part in a chemical reaction",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "8d611734-ae3a-59f8-8ca8-d1d2a8e64257",
+   "lemma": "solubility",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "solubility"
+   ],
+   "glossEn": "degree to which something dissolves",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "410029dc-59dc-5172-9a06-1ce16b608b51",
+   "lemma": "irradiate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "irradiate"
+   ],
+   "glossEn": "expose to radiation",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "3c0b1577-7b26-5588-9214-b8994275e66a",
+   "lemma": "spacetime",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spacetime",
+    "space-time"
+   ],
+   "glossEn": "space and time viewed as one four-dimensional whole",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "a805831a-bd72-5fee-9f85-4603ca3a0119",
+   "lemma": "antimatter",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "antimatter"
+   ],
+   "glossEn": "matter made of particles with opposite charges",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "1d961d7f-dab2-53b9-b21c-592d3a90e778",
+   "lemma": "photon",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "photon"
+   ],
+   "glossEn": "particle of light",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "ace92e2a-df53-5755-b4a8-3aa53e6e8c73",
+   "lemma": "nanoscale",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nanoscale",
+    "nano-scale"
+   ],
+   "glossEn": "on the scale of billionths of a meter",
+   "topics": [
+    "it"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "1300f78f-fee1-544e-aefc-4122d533aa27",
+   "lemma": "superconductor",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "superconductor"
+   ],
+   "glossEn": "material conducting electricity with no resistance",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "26e111c5-816f-587e-aefc-b309e05e5026",
+   "lemma": "conductivity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "conductivity"
+   ],
+   "glossEn": "ability to transmit heat or electricity",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "94ba2ec2-0dfc-5b1e-ab11-0ffbdc438459",
+   "lemma": "centripetal",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "centripetal"
+   ],
+   "glossEn": "moving toward the center of rotation",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "6b886a3e-42ed-5ab0-bdda-f21b5080ea22",
+   "lemma": "pathogenic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pathogenic"
+   ],
+   "glossEn": "able to cause disease",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "b4f5c511-e017-5ee2-9a2a-c510cb8929d1",
+   "lemma": "antigen",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "antigen"
+   ],
+   "glossEn": "substance that triggers an immune response",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "eebd8b66-004e-59c8-82e2-f62b6d06aedf",
+   "lemma": "crossbreed",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "crossbreed",
+    "cross-breed"
+   ],
+   "glossEn": "breed animals or plants of different kinds together",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "9739f34c-10dd-591d-b785-98f07b3da90e",
+   "lemma": "subspecies",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subspecies",
+    "sub-species"
+   ],
+   "glossEn": "distinct group within a species",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "96bc4a3a-3c07-53cb-850c-a1bd972e75b5",
+   "lemma": "genus",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "genus"
+   ],
+   "glossEn": "group of closely related species",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "3e0dd2f0-4b72-528d-89fa-43296a03acab",
+   "lemma": "taxonomy",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "taxonomy"
+   ],
+   "glossEn": "scientific classification of living things",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "12c2dcc6-a074-560c-9757-758b552d108c",
+   "lemma": "mollusk",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mollusk",
+    "mollusc"
+   ],
+   "glossEn": "soft-bodied animal, often with a shell",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "2175c807-a7ad-56cb-bdef-ad05e15e51cd",
+   "lemma": "crustacean",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "crustacean"
+   ],
+   "glossEn": "hard-shelled water animal such as a crab",
+   "topics": [
+    "food"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "bdd81d7a-1ea7-5f76-85fc-03ceed195b32",
+   "lemma": "arthropod",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "arthropod"
+   ],
+   "glossEn": "animal with jointed legs, like insects and spiders",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "ef3a3841-0830-5995-9078-16aef56be354",
+   "lemma": "pupa",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pupa"
+   ],
+   "glossEn": "insect stage between larva and adult",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "a71c86ca-0ef3-59e2-9e5d-dcb46d580960",
+   "lemma": "gestation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gestation"
+   ],
+   "glossEn": "period of carrying young before birth",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "0878c09c-09c0-5e74-9d6c-9a548aa99520",
+   "lemma": "carapace",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "carapace"
+   ],
+   "glossEn": "hard upper shell of a turtle or crab",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "cc4e8583-df61-5c21-9b93-678981ea1cc5",
+   "lemma": "lichen",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lichen"
+   ],
+   "glossEn": "crusty growth of fungus and algae on rocks",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "5b37e90f-1567-5d81-af61-fdc87b630ab7",
+   "lemma": "mimicry",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mimicry"
+   ],
+   "glossEn": "resemblance of one species to another for protection",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "edfacee4-9933-5d52-b7b2-bdb5d3930248",
+   "lemma": "keystone species",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keystone species"
+   ],
+   "glossEn": "species on which a whole ecosystem depends",
+   "topics": [],
+   "area": "science-nature"
+  }
+ ]
+}

@@ -1,0 +1,665 @@
+{
+ "chunk": "B2-W09",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "6c22975a-1144-5372-a4f7-e96c9c31eab7",
+   "lemma": "cholesterol",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cholesterol"
+   ],
+   "glossEn": "fatty substance in blood raised by some foods",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "e6648fa0-5be0-54d5-8523-afc7dbf89660",
+   "lemma": "sodium",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sodium"
+   ],
+   "glossEn": "element in salt, counted on nutrition labels",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "504e82d5-02b7-5370-89ad-56314de01b7f",
+   "lemma": "allergen",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "allergen",
+    "allergens"
+   ],
+   "glossEn": "food substance that causes an allergic reaction",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "696d7fe4-4e3e-5530-a86c-dedfbefb8f8c",
+   "lemma": "sweetener",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sweetener",
+    "sweeteners"
+   ],
+   "glossEn": "substance used instead of sugar",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "3ef08559-ae1b-5066-8297-3f0bd34a90a4",
+   "lemma": "fasting",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fasting",
+    "fast"
+   ],
+   "glossEn": "going without food for a period",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "11401983-042d-5c05-8248-93fee4858733",
+   "lemma": "heartburn",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heartburn"
+   ],
+   "glossEn": "burning feeling in the chest after eating",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "17899d4b-600e-5955-b201-1e73d267d60e",
+   "lemma": "metabolism",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "metabolism"
+   ],
+   "glossEn": "how the body turns food into energy",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "94afb13b-8e60-598f-98d5-cd52d4c6eb18",
+   "lemma": "hydrate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hydrate",
+    "hydrates",
+    "hydrated",
+    "hydrating"
+   ],
+   "glossEn": "drink enough water",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "4df4a01d-40fe-59f1-84a1-e5884eb279b2",
+   "lemma": "banquet",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "banquet",
+    "banquets"
+   ],
+   "glossEn": "large formal meal for many guests",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "e2a49f8a-e5cf-50f4-97ab-61b0210e482c",
+   "lemma": "potluck",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "potluck",
+    "potlucks"
+   ],
+   "glossEn": "meal where every guest brings a dish",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "ddd31853-cc03-5f01-89b9-d5e054eb17d4",
+   "lemma": "caterer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "caterer",
+    "caterers"
+   ],
+   "glossEn": "business that supplies food for events",
+   "topics": [
+    "food",
+    "work"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "463fa54b-56fc-54d9-ae91-76cf73dddac9",
+   "lemma": "bistro",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bistro",
+    "bistros"
+   ],
+   "glossEn": "small informal restaurant",
+   "topics": [
+    "food",
+    "city"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "48992e45-4fce-598f-ae9e-64f0771af504",
+   "lemma": "eatery",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "eatery",
+    "eateries"
+   ],
+   "glossEn": "informal word for a restaurant or café",
+   "topics": [
+    "food",
+    "city"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "4583b764-2062-5e1e-888e-d4e7758e43fa",
+   "lemma": "orchard",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "orchard",
+    "orchards"
+   ],
+   "glossEn": "area of land planted with fruit trees",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "9d5a4249-40c5-5220-ad62-4fac8b033cc8",
+   "lemma": "laminate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "laminate",
+    "laminates",
+    "laminated",
+    "laminating"
+   ],
+   "glossEn": "fold butter into dough in thin layers",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "5568e96a-9c01-5755-97c8-80d20effd063",
+   "lemma": "ganache",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ganache",
+    "ganaches"
+   ],
+   "glossEn": "glossy mix of melted chocolate and cream",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "b6371710-156b-5339-b0c3-0955a880a8a7",
+   "lemma": "zest",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "zest"
+   ],
+   "glossEn": "grated outer peel of citrus fruit",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "872ed52c-fc96-583e-a375-610ebe2ca2a3",
+   "lemma": "choux",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "choux",
+    "choux pastry"
+   ],
+   "glossEn": "light pastry used for éclairs and profiteroles",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "15e14297-3f42-574a-8d4f-41b60d09454a",
+   "lemma": "éclair",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "éclair",
+    "éclairs",
+    "eclair",
+    "eclairs"
+   ],
+   "glossEn": "long cream-filled pastry topped with icing",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "0a1f5b06-fbb5-5c53-a6cf-d8b81faa2e98",
+   "lemma": "macaron",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "macaron",
+    "macarons"
+   ],
+   "glossEn": "almond meringue sandwich cookie",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "43c63df7-2c59-52f2-8334-3f2a56d62082",
+   "lemma": "brioche",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brioche",
+    "brioches"
+   ],
+   "glossEn": "rich soft French bread with butter and eggs",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "97ed217e-214d-53d2-af5c-c335f13bca37",
+   "lemma": "focaccia",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "focaccia",
+    "focaccias"
+   ],
+   "glossEn": "flat Italian bread baked with olive oil",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "f55b9bf0-9b99-5da3-bb45-1df5ad667c89",
+   "lemma": "shortening",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shortening"
+   ],
+   "glossEn": "solid fat used to make pastry crumbly",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "9a2d4fff-15dd-5245-81c6-9c0b4e7a8c29",
+   "lemma": "patisserie",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "patisserie",
+    "pâtisserie",
+    "patisseries"
+   ],
+   "glossEn": "shop selling fine French pastries",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "97c669cf-2449-53c7-9b83-8155c3e0d6b5",
+   "lemma": "piping bag",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "piping bag",
+    "piping bags",
+    "pastry bag"
+   ],
+   "glossEn": "cone-shaped bag for squeezing out icing",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "80c3f075-a858-5c37-a178-680b7f86d9c8",
+   "lemma": "fondant",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fondant",
+    "fondants"
+   ],
+   "glossEn": "smooth sugar paste for covering cakes",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "617da32c-d6b1-57ac-98d4-480860964597",
+   "lemma": "buttercream",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "buttercream",
+    "butter cream"
+   ],
+   "glossEn": "icing made of beaten butter and sugar",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "2947f94c-b0dc-5756-8f2c-4c7e5685970d",
+   "lemma": "canning",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "canning"
+   ],
+   "glossEn": "preserving food in sealed jars or tins",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "45d0a94a-79c0-54dd-b4be-a4e21593a143",
+   "lemma": "vacuum-seal",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vacuum-seal",
+    "vacuum-seals",
+    "vacuum-sealed",
+    "vacuum-sealing"
+   ],
+   "glossEn": "pack food with the air removed",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "a5a81c25-77ed-599c-81f9-773935a4139a",
+   "lemma": "confit",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "confit",
+    "confits"
+   ],
+   "glossEn": "meat slowly cooked and stored in its fat",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "10373ddd-acf1-53d5-9a46-2b64cfb6cf03",
+   "lemma": "sun-dried",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sun-dried",
+    "sundried"
+   ],
+   "glossEn": "preserved by drying in the sun",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "4c618dc3-2be7-56fc-a3d1-6b237b26e10f",
+   "lemma": "freeze-dried",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "freeze-dried",
+    "freeze dried"
+   ],
+   "glossEn": "preserved by freezing and removing the water",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "cbe1e128-9e8a-5f75-97d7-45c79734868d",
+   "lemma": "fermented",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fermented"
+   ],
+   "glossEn": "transformed by bacteria or yeast",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "b76f2c3e-6d1c-5e97-a326-f28e6d8a35a8",
+   "lemma": "probiotic",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "probiotic",
+    "probiotics"
+   ],
+   "glossEn": "live bacteria good for digestion",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "cea964fa-66a3-5979-90e6-435736910824",
+   "lemma": "gyro",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gyro",
+    "gyros"
+   ],
+   "glossEn": "Greek pita wrap with spit-roasted meat",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "9237ae52-16f3-5ee3-a5f9-ec9eec969fec",
+   "lemma": "tzatziki",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tzatziki"
+   ],
+   "glossEn": "Greek yogurt dip with cucumber and garlic",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "9d219b0c-4900-5217-a0a0-06320dae5e4f",
+   "lemma": "baklava",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "baklava"
+   ],
+   "glossEn": "layered pastry with nuts and syrup",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "d1acd446-c282-5430-a37e-cbeba0125ec9",
+   "lemma": "calzone",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "calzone",
+    "calzones"
+   ],
+   "glossEn": "folded pizza baked with the filling inside",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "bca4c079-ce01-582b-be99-3ed5aae8b143",
+   "lemma": "gelato",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gelato",
+    "gelatos"
+   ],
+   "glossEn": "dense Italian-style ice cream",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "e4597b17-c2d3-58d5-afac-6f788f4c32d9",
+   "lemma": "polenta",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "polenta"
+   ],
+   "glossEn": "boiled cornmeal porridge, often set and grilled",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  }
+ ]
+}

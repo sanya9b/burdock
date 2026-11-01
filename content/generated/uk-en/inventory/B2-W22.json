@@ -1,0 +1,681 @@
+{
+ "chunk": "B2-W22",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "449d2f95-757b-585c-965f-bf991732fb55",
+   "lemma": "cooktop",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cooktop",
+    "cooktops",
+    "hob",
+    "hobs"
+   ],
+   "glossEn": "flat cooking surface with burners or heating zones",
+   "topics": [
+    "shopping",
+    "food"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "07b0b623-2cd1-5993-b796-ac359952f43b",
+   "lemma": "hypermarket",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hypermarket",
+    "hypermarkets"
+   ],
+   "glossEn": "very large store combining supermarket and department store",
+   "topics": [
+    "shopping",
+    "city"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "73b92794-8398-508e-a181-02d8430dd6f1",
+   "lemma": "superstore",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "superstore",
+    "superstores"
+   ],
+   "glossEn": "very large store selling a wide range of goods",
+   "topics": [
+    "shopping",
+    "city"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "07d287fa-87e4-571e-bdee-82f4f1bc1da4",
+   "lemma": "window-shopping",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "window-shopping",
+    "window shopping"
+   ],
+   "glossEn": "looking at goods in store windows without buying",
+   "topics": [
+    "shopping",
+    "city"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "92fd669f-87f4-5a90-a91b-441c0646db2f",
+   "lemma": "overspend",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overspend",
+    "overspends",
+    "overspent",
+    "overspending"
+   ],
+   "glossEn": "spend more money than planned",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "31ec21c0-a142-54ba-b582-7aab5e8b2242",
+   "lemma": "storewide",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "storewide",
+    "store-wide"
+   ],
+   "glossEn": "applying to everything in the store",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "6d26f805-0842-5df1-a6dc-03506e771ab2",
+   "lemma": "salesclerk",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "salesclerk",
+    "salesclerks",
+    "sales clerk"
+   ],
+   "glossEn": "employee who sells goods in a store",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "1e469100-081d-56d3-a162-a68f8c9bef08",
+   "lemma": "dealership",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dealership",
+    "dealerships"
+   ],
+   "glossEn": "business licensed to sell a maker's cars or goods",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "3d54e1ea-2ace-57ef-ae21-66e837113bc0",
+   "lemma": "importer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "importer",
+    "importers"
+   ],
+   "glossEn": "company that brings goods in from abroad to sell",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "f602806f-61c8-5ae5-adc7-1730f128a491",
+   "lemma": "broker",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "broker",
+    "brokers"
+   ],
+   "glossEn": "person who arranges deals between buyers and sellers",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "571a4b80-cddd-5af6-9938-8a44708cf6c0",
+   "lemma": "reseller",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reseller",
+    "resellers"
+   ],
+   "glossEn": "person or company that buys goods to sell again",
+   "topics": [
+    "shopping",
+    "it"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "cd693420-0f75-5d75-9ded-17db40edaa51",
+   "lemma": "negotiable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "negotiable"
+   ],
+   "glossEn": "able to be changed by discussion, of a price",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "321cac51-3e78-5f20-be72-3d643998ce4b",
+   "lemma": "gift-wrap",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gift-wrap",
+    "gift-wraps",
+    "gift-wrapped",
+    "gift wrap"
+   ],
+   "glossEn": "wrap a purchase in decorative paper as a present",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "54179a2f-62d6-5179-a160-f76defa552ee",
+   "lemma": "raffle",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "raffle",
+    "raffles"
+   ],
+   "glossEn": "lottery with numbered tickets for prizes",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "635e3c4d-632f-5e6a-95a5-9cddcf4c3f8a",
+   "lemma": "freebie",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "freebie",
+    "freebies"
+   ],
+   "glossEn": "something given away free by a seller",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "a1f2a14a-2535-5dcd-9862-5902ae803972",
+   "lemma": "perk",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "perk",
+    "perks"
+   ],
+   "glossEn": "extra benefit given to loyal customers",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "d348f54b-a3b4-50ed-8192-d2922dbf9795",
+   "lemma": "tier",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tier",
+    "tiers"
+   ],
+   "glossEn": "level in a loyalty or pricing system",
+   "topics": [
+    "shopping",
+    "it"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "5fce0d0e-b434-5109-9b1a-e6b5ca72ed2e",
+   "lemma": "collectible",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "collectible",
+    "collectibles",
+    "collectable",
+    "collectables"
+   ],
+   "glossEn": "item valued by collectors, like coins or figures",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "c89dac90-482f-5a82-ac56-09825d509866",
+   "lemma": "preowned",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "preowned",
+    "pre-owned"
+   ],
+   "glossEn": "secondhand, in seller's polite language",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "30d85a80-3a5d-5503-9166-1e3eee816c53",
+   "lemma": "thrift",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "thrift"
+   ],
+   "glossEn": "careful use of money; buying secondhand cheaply",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "e45fd73f-15b9-584c-aea2-3d0c5e2a85be",
+   "lemma": "resale",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "resale",
+    "resales"
+   ],
+   "glossEn": "selling of something you bought earlier",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "d524d074-d459-5e70-99a6-c6fc1393595c",
+   "lemma": "resell",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "resell",
+    "resells",
+    "resold",
+    "reselling"
+   ],
+   "glossEn": "sell something you have bought",
+   "topics": [
+    "shopping",
+    "it"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "70d1714e-3a79-5eb1-bfb9-bba929a411d1",
+   "lemma": "spree",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spree",
+    "sprees"
+   ],
+   "glossEn": "short period of buying many things at once",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "362db73f-a8ad-5d92-83a6-58bcfa8ff694",
+   "lemma": "best-selling",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "best-selling",
+    "bestselling"
+   ],
+   "glossEn": "selling in larger numbers than other products",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "503b751f-1ed4-5371-be06-193d789ac68c",
+   "lemma": "showroom",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "showroom",
+    "showrooms"
+   ],
+   "glossEn": "large room where goods like cars are displayed",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "888f2d17-97be-5b4b-8b10-15f5a4e3dfb5",
+   "lemma": "stockroom",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stockroom",
+    "stockrooms",
+    "storeroom",
+    "storerooms"
+   ],
+   "glossEn": "room in a store where extra goods are kept",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "f744c8c3-3620-5085-8256-f6c6a107134e",
+   "lemma": "conveyor",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "conveyor",
+    "conveyors",
+    "conveyor belt",
+    "conveyor belts"
+   ],
+   "glossEn": "moving belt that carries goods to the cashier",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "9f857e3b-3378-51e8-9727-11470413238c",
+   "lemma": "tote",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tote",
+    "totes",
+    "tote bag",
+    "tote bags"
+   ],
+   "glossEn": "large open bag with handles for shopping",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "ef5c9381-bc03-5c71-a473-f1e2264b796f",
+   "lemma": "returnable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "returnable"
+   ],
+   "glossEn": "allowed to be taken back to the store",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "3e16427d-d3a5-5902-a786-1db1ceae303d",
+   "lemma": "nonrefundable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nonrefundable",
+    "non-refundable"
+   ],
+   "glossEn": "not able to be paid back once bought",
+   "topics": [
+    "shopping",
+    "travel"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "5b81b120-4dc1-5fc7-84ba-88e3f965b245",
+   "lemma": "unopened",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unopened"
+   ],
+   "glossEn": "still in its original closed packaging",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "484ca1dd-3234-59e6-a368-ca21bc28dd64",
+   "lemma": "bubble wrap",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bubble wrap",
+    "bubble-wrap"
+   ],
+   "glossEn": "plastic sheet with air bubbles protecting parcels",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "39b71da6-c388-5fe4-92b7-8681bd6cbff5",
+   "lemma": "padding",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "padding"
+   ],
+   "glossEn": "soft material protecting goods in a package",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "6ab1d1ef-78bc-5962-8807-5c0665dee7f8",
+   "lemma": "crate",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "crate",
+    "crates"
+   ],
+   "glossEn": "large wooden or plastic box for transporting goods",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "f98629a6-f1c5-5ce8-aa99-190af612cf0c",
+   "lemma": "subtotal",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subtotal",
+    "subtotals"
+   ],
+   "glossEn": "total of items before tax and shipping",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "ddf2a513-f088-5fc3-8308-7442cd163420",
+   "lemma": "insure",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "insure",
+    "insures",
+    "insured",
+    "insuring"
+   ],
+   "glossEn": "pay so that loss or damage will be compensated",
+   "topics": [
+    "shopping",
+    "travel"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "ab4fe3ed-277c-5183-bdc9-54d9ba13ceb2",
+   "lemma": "coverage",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "coverage",
+    "cover"
+   ],
+   "glossEn": "what a warranty or insurance pays for",
+   "topics": [
+    "shopping",
+    "health"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "cf1cdcb7-9085-5a28-a7f6-214e232d6697",
+   "lemma": "spec",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spec",
+    "specs"
+   ],
+   "glossEn": "short word for a product's technical specification",
+   "topics": [
+    "shopping",
+    "it"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "0e4206e3-6c9c-5bc1-808e-096c5312d21c",
+   "lemma": "bundle",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bundle",
+    "bundles"
+   ],
+   "glossEn": "set of products sold together at one price",
+   "topics": [
+    "shopping",
+    "it"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "c620c15f-a951-5bd6-958f-c26f41412409",
+   "lemma": "combo",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "combo",
+    "combos"
+   ],
+   "glossEn": "combination of items offered together cheaper",
+   "topics": [
+    "shopping",
+    "food"
+   ],
+   "area": "shopping"
+  }
+ ]
+}

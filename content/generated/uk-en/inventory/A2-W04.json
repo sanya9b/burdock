@@ -1,0 +1,680 @@
+{
+ "chunk": "A2-W04",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "689affdc-7dde-5717-a8bb-2b1c3fa520a8",
+   "lemma": "font",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "font",
+    "fonts"
+   ],
+   "glossEn": "style and shape of printed or screen letters",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "c5b53a8a-19f7-5fd4-8fdc-676964d511ce",
+   "lemma": "toolbar",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "toolbar",
+    "toolbars"
+   ],
+   "glossEn": "row of buttons at the top of a program",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "ec6a4c02-4e38-5182-96e7-f72185054bc8",
+   "lemma": "uninstall",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "uninstall",
+    "uninstalls",
+    "uninstalled",
+    "uninstalling"
+   ],
+   "glossEn": "remove a program from a device",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "6edaccc2-eea3-5019-85b1-fb670abc7f3b",
+   "lemma": "reset",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reset",
+    "resets",
+    "resetting"
+   ],
+   "glossEn": "return a device or password to its starting state",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "9f0b2008-271e-5658-8846-5739e2230802",
+   "lemma": "hacker",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hacker",
+    "hackers"
+   ],
+   "glossEn": "person who breaks into computer systems",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "051f974e-4b14-5ab3-941d-7f1e14830416",
+   "lemma": "hack",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hack",
+    "hacks",
+    "hacked",
+    "hacking"
+   ],
+   "glossEn": "get into a system or account without permission",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "fd0efa4b-b43e-5eba-9734-d8b2596a17e6",
+   "lemma": "mute",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mute",
+    "mutes",
+    "muted",
+    "muting"
+   ],
+   "glossEn": "turn off the sound of a device or call",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "2b1a19b5-bb7b-5a9d-a235-b0d14f775ba1",
+   "lemma": "smartwatch",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "smartwatch",
+    "smartwatches",
+    "smart watch"
+   ],
+   "glossEn": "watch that runs apps and tracks activity",
+   "topics": [
+    "it",
+    "health"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "c90611f2-d78f-5fb1-910f-71b7010b120a",
+   "lemma": "power bank",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "power bank",
+    "power banks",
+    "powerbank"
+   ],
+   "glossEn": "portable battery for charging a phone",
+   "topics": [
+    "it",
+    "travel"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "15aec1f9-fa2d-50be-9308-aa36a8dd139c",
+   "lemma": "SIM card",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "SIM card",
+    "SIM cards",
+    "SIM",
+    "sim card"
+   ],
+   "glossEn": "small chip that links a phone to a network",
+   "topics": [
+    "it",
+    "travel"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "b4016ffc-0f3a-51ca-b545-69eaa81a38ec",
+   "lemma": "airplane mode",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "airplane mode",
+    "flight mode",
+    "aeroplane mode"
+   ],
+   "glossEn": "phone setting that turns off all wireless signals",
+   "topics": [
+    "it",
+    "travel"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "44269772-886c-5c40-8bcb-c795220ba40d",
+   "lemma": "ringtone",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ringtone",
+    "ringtones"
+   ],
+   "glossEn": "sound a phone makes for an incoming call",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "00f2ed60-327f-5b6d-9853-8b19de47b573",
+   "lemma": "gadget",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gadget",
+    "gadgets"
+   ],
+   "glossEn": "small clever electronic device",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "1fec1498-06c5-564b-a20d-f5c8cb37c2d2",
+   "lemma": "drone",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "drone",
+    "drones"
+   ],
+   "glossEn": "small flying machine controlled remotely",
+   "topics": [
+    "it",
+    "military"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "5639277a-e2b5-5021-a1b6-91b803a26760",
+   "lemma": "gamer",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gamer",
+    "gamers"
+   ],
+   "glossEn": "person who plays video games a lot",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "3d279a92-4f17-550a-a087-ae31d21fe1b3",
+   "lemma": "ebook",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ebook",
+    "ebooks",
+    "e-book",
+    "e-books"
+   ],
+   "glossEn": "book you read on a screen",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "41922d47-617f-5c84-a376-3dedb53d46b3",
+   "lemma": "flash drive",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flash drive",
+    "flash drives",
+    "USB stick",
+    "thumb drive"
+   ],
+   "glossEn": "small USB stick for carrying files",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "db99ac74-752b-531d-b896-cf1b62581e4d",
+   "lemma": "memory card",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "memory card",
+    "memory cards",
+    "SD card",
+    "microSD card"
+   ],
+   "glossEn": "small card that adds storage to a phone or camera",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "e001af61-40c6-5715-be7b-229ca9dd91b4",
+   "lemma": "processor",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "processor",
+    "processors"
+   ],
+   "glossEn": "chip that does the computer's calculations",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "8bde27d1-98d7-5ecc-85a4-93cba9b7eb78",
+   "lemma": "troops",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "troops",
+    "troop"
+   ],
+   "glossEn": "soldiers as a group",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "45509a3c-d0e7-5fb0-b4e5-0a7a52104c13",
+   "lemma": "colonel",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "colonel",
+    "colonels"
+   ],
+   "glossEn": "senior officer rank below general",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "1b1bf14d-8bfa-55fb-be8b-f723da54110d",
+   "lemma": "sandbag",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sandbag",
+    "sandbags"
+   ],
+   "glossEn": "bag of sand used as protection",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "8eddac7d-6c5c-5802-b1b4-ec23f0b8c3e1",
+   "lemma": "supplies",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "supplies",
+    "supply"
+   ],
+   "glossEn": "food, water and equipment for troops",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "d5c354e7-e2fa-5ffc-b4ee-2bc0a162094b",
+   "lemma": "flashlight",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flashlight",
+    "flashlights",
+    "torch"
+   ],
+   "glossEn": "small electric light held in the hand",
+   "topics": [
+    "military",
+    "city"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "398db0d0-d300-5791-9165-022ca0bd839c",
+   "lemma": "generator",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "generator",
+    "generators"
+   ],
+   "glossEn": "machine that makes electricity during blackouts",
+   "topics": [
+    "military",
+    "city"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "94746bdb-00bb-5dd2-abb9-45f500f02419",
+   "lemma": "binoculars",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "binoculars"
+   ],
+   "glossEn": "device with two lenses to see far away",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "29bcd48a-cb26-58d6-8b0b-6ced4e921bbe",
+   "lemma": "compass",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "compass",
+    "compasses"
+   ],
+   "glossEn": "instrument that shows north",
+   "topics": [
+    "military",
+    "travel"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "78819d47-bf37-58c3-aaed-33a9577c84c9",
+   "lemma": "rifle",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rifle",
+    "rifles"
+   ],
+   "glossEn": "long gun fired from the shoulder",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "078923ba-f1ae-54e7-aeca-b145e207181b",
+   "lemma": "pistol",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pistol",
+    "pistols"
+   ],
+   "glossEn": "small gun held in one hand",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "76b67a6c-f03c-5e07-a5a2-5b9c26e0a169",
+   "lemma": "armor",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "armor",
+    "armour"
+   ],
+   "glossEn": "protective covering for a body or vehicle",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "4035146c-8f6c-5813-b030-9c39b034fa25",
+   "lemma": "bulletproof",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bulletproof",
+    "bullet-proof"
+   ],
+   "glossEn": "able to stop bullets",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "d81b5eb1-412d-5df6-a239-ad9a20622fd1",
+   "lemma": "vest",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vest",
+    "vests"
+   ],
+   "glossEn": "sleeveless protective garment worn on the chest",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "bc425801-19da-59d4-821c-ef8cfe116f19",
+   "lemma": "stretcher",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stretcher",
+    "stretchers"
+   ],
+   "glossEn": "frame for carrying a wounded person",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "e4809fcc-38e0-5375-8c2d-d29b3ed27b64",
+   "lemma": "humanitarian",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "humanitarian"
+   ],
+   "glossEn": "concerned with helping people in need",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "ddd0a581-11f1-5d53-8eb3-e56c7e0f82eb",
+   "lemma": "mobilization",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mobilization",
+    "mobilisation"
+   ],
+   "glossEn": "calling people up to serve in the army",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "6cc10a73-6997-527c-a73d-71804ddfd147",
+   "lemma": "salute",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "salute",
+    "salutes",
+    "saluted",
+    "saluting"
+   ],
+   "glossEn": "raise your hand to greet an officer",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "348173a6-a728-5ac5-bf9e-b3dd2b2d3bb7",
+   "lemma": "boot camp",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "boot camp",
+    "boot camps",
+    "bootcamp"
+   ],
+   "glossEn": "basic training course for new soldiers",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "67ce7714-e6d0-5f00-9211-92b1640743b6",
+   "lemma": "barracks",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "barracks"
+   ],
+   "glossEn": "building where soldiers live",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "2f04fe09-a1d2-5fb3-a09a-0bd0b833219c",
+   "lemma": "sleeping bag",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sleeping bag",
+    "sleeping bags"
+   ],
+   "glossEn": "warm bag for sleeping outdoors",
+   "topics": [
+    "military",
+    "travel"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "09a79750-4e65-5659-aca6-870ae9b0fa54",
+   "lemma": "canister",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "canister",
+    "canisters"
+   ],
+   "glossEn": "metal container for fuel or water",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  }
+ ]
+}

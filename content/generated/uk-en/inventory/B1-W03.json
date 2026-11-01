@@ -1,0 +1,688 @@
+{
+ "chunk": "B1-W03",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "2bcac078-ee35-534d-9ca6-b461389ff675",
+   "lemma": "flooding",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flooding",
+    "flood",
+    "floods"
+   ],
+   "glossEn": "covering of streets with water after heavy rain",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "2733c407-767a-5936-8532-aad7a1404ffc",
+   "lemma": "pier",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pier",
+    "piers"
+   ],
+   "glossEn": "structure built out over water for boats or walking",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "c9ccb771-8e53-5cfa-9333-995ac9b70041",
+   "lemma": "marina",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "marina",
+    "marinas"
+   ],
+   "glossEn": "small harbor for yachts and boats",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "e611a9d5-bea3-5a27-9b0b-63dd1af4701b",
+   "lemma": "warehouse",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "warehouse",
+    "warehouses"
+   ],
+   "glossEn": "large building for storing goods",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "3bb5fe50-9530-5928-acde-88a6cc2840c9",
+   "lemma": "freight",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "freight"
+   ],
+   "glossEn": "goods transported by truck, train or ship",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "202dce5e-b5e2-5884-a941-2c2bcac3bce3",
+   "lemma": "cargo",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cargo",
+    "cargoes",
+    "cargos"
+   ],
+   "glossEn": "goods carried by a ship, plane or truck",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "deb352f2-2b30-54d1-a5e5-a9d5b97ee73b",
+   "lemma": "congested",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "congested"
+   ],
+   "glossEn": "blocked with too much traffic",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "b80064b7-4c26-5119-81e3-49d44825d091",
+   "lemma": "pedestrianized",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pedestrianized",
+    "pedestrianised",
+    "car-free"
+   ],
+   "glossEn": "closed to cars so people can walk freely",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "25094e3d-ad99-5b77-83fd-08a662395f51",
+   "lemma": "housewarming",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "housewarming",
+    "housewarmings",
+    "house-warming"
+   ],
+   "glossEn": "party to celebrate moving into a new home",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "254ddc8b-f6d2-5303-92d8-7351744dc20d",
+   "lemma": "staircase",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "staircase",
+    "staircases"
+   ],
+   "glossEn": "set of stairs with its railing inside a building",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "462bca45-fc9a-5ee2-bd17-83dd589392a0",
+   "lemma": "floor plan",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "floor plan",
+    "floor plans",
+    "floorplan"
+   ],
+   "glossEn": "drawing showing rooms of an apartment from above",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "6b756315-e8b7-581e-84be-871e04dd5372",
+   "lemma": "light switch",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "light switch",
+    "light switches"
+   ],
+   "glossEn": "switch on a wall that turns lights on",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "b192d203-d9ed-5430-9db5-2f749cb36f18",
+   "lemma": "extension cord",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "extension cord",
+    "extension cords",
+    "extension lead"
+   ],
+   "glossEn": "long cable with sockets to reach an outlet",
+   "topics": [
+    "city",
+    "shopping"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "b97c71a1-5e0d-512d-b24c-e60a36935470",
+   "lemma": "padlock",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "padlock",
+    "padlocks"
+   ],
+   "glossEn": "portable lock with a hook for gates and bikes",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "e51890ba-4750-501b-b226-0d0b270df122",
+   "lemma": "spare key",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spare key",
+    "spare keys"
+   ],
+   "glossEn": "extra copy of a key kept for emergencies",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "f5c798df-5747-58b9-8f3a-d9a0d2595d48",
+   "lemma": "locksmith",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "locksmith",
+    "locksmiths"
+   ],
+   "glossEn": "person who fits, repairs and opens locks",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "1ebc231b-276e-52c8-b823-8fb0e45a0848",
+   "lemma": "water heater",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "water heater",
+    "water heaters"
+   ],
+   "glossEn": "device that heats water for a home",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "51336752-d3e6-5d53-a1d7-8d4b45c6df32",
+   "lemma": "plunger",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "plunger",
+    "plungers"
+   ],
+   "glossEn": "rubber cup on a stick for unblocking drains",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "2cc40bf0-bcbf-587d-8580-cb150dd96fd9",
+   "lemma": "flush",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flush",
+    "flushes",
+    "flushed",
+    "flushing"
+   ],
+   "glossEn": "clean a toilet by releasing water through it",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "4c46d6fa-782e-5a86-b55b-24524ac6b632",
+   "lemma": "utility bill",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "utility bill",
+    "utility bills"
+   ],
+   "glossEn": "bill for electricity, gas, water or heating",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "07152e98-52a3-5ad2-bd49-5abc1472ab38",
+   "lemma": "trash can",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "trash can",
+    "trash cans",
+    "rubbish bin",
+    "garbage can"
+   ],
+   "glossEn": "container for household garbage",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "5a9dce2b-5d42-592c-a2a8-49cd2c4d7767",
+   "lemma": "garbage bag",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "garbage bag",
+    "garbage bags",
+    "trash bag",
+    "bin bag"
+   ],
+   "glossEn": "plastic bag for household waste",
+   "topics": [
+    "city",
+    "shopping"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "39e4f5d4-05df-54f7-bab7-47d0a5e9948b",
+   "lemma": "smoke detector",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "smoke detector",
+    "smoke detectors",
+    "smoke alarm"
+   ],
+   "glossEn": "ceiling device that sounds an alarm when sensing smoke",
+   "topics": [
+    "city",
+    "health"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "2f8e7743-0104-5a19-8f7f-7635970f620f",
+   "lemma": "fire alarm",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fire alarm",
+    "fire alarms"
+   ],
+   "glossEn": "loud warning system that signals a fire in a building",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "a6f3a81b-8a39-55a2-80e5-3044589a8bcf",
+   "lemma": "fire extinguisher",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fire extinguisher",
+    "fire extinguishers"
+   ],
+   "glossEn": "portable cylinder for putting out small fires",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "5724923f-2f63-5134-95fd-cbc0b59acee7",
+   "lemma": "apartment block",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "apartment block",
+    "apartment blocks",
+    "block of flats",
+    "tower block"
+   ],
+   "glossEn": "large building divided into many apartments",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "0035aa37-b52f-59c9-a084-0cf63161ec96",
+   "lemma": "moving van",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "moving van",
+    "moving vans",
+    "removal van"
+   ],
+   "glossEn": "truck used to transport furniture to a new home",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "91b23bc7-53ea-5f21-b375-45ca20ea7efe",
+   "lemma": "storage unit",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "storage unit",
+    "storage units",
+    "self-storage"
+   ],
+   "glossEn": "rented locked room for keeping belongings",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "f2559e28-d92c-52a4-af9c-8f659dd2ad9e",
+   "lemma": "roomy",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "roomy",
+    "roomier",
+    "roomiest"
+   ],
+   "glossEn": "having plenty of space inside",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "2ed4ff48-8069-5792-825b-8311510d3191",
+   "lemma": "driveway",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "driveway",
+    "driveways"
+   ],
+   "glossEn": "short private road from the street to a house",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "0c840e4b-23ce-5621-94f3-c76c9a2be50a",
+   "lemma": "metro",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "metro",
+    "metros"
+   ],
+   "glossEn": "underground railway system in a city",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "c10260da-6480-54c4-8772-7d487fc10386",
+   "lemma": "streetcar",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "streetcar",
+    "streetcars",
+    "trolley"
+   ],
+   "glossEn": "passenger vehicle running on rails along streets",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "3ea5e3b1-e080-5412-9e23-4d14b98156f5",
+   "lemma": "cable car",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cable car",
+    "cable cars"
+   ],
+   "glossEn": "car pulled by a cable up a hill",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "c1cc5d65-7f17-5b85-98b5-a7c7fc10c445",
+   "lemma": "double-decker",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "double-decker",
+    "double-deckers",
+    "double decker"
+   ],
+   "glossEn": "bus with two floors for passengers",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "80f84a9f-7773-5589-af26-fbcc86908d87",
+   "lemma": "night bus",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "night bus",
+    "night buses"
+   ],
+   "glossEn": "bus that runs after regular services stop",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "ac935975-2a6c-579c-9264-3352f56bc1c0",
+   "lemma": "transit pass",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "transit pass",
+    "transit passes",
+    "travel card",
+    "monthly pass"
+   ],
+   "glossEn": "card allowing unlimited public transport rides",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "4813489b-a27e-5b6a-86ee-02415eaa7f4f",
+   "lemma": "season ticket",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "season ticket",
+    "season tickets"
+   ],
+   "glossEn": "ticket valid for many trips over a period",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "cfaea420-f614-538f-b75d-e0057fc24ed5",
+   "lemma": "day pass",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "day pass",
+    "day passes",
+    "day ticket"
+   ],
+   "glossEn": "ticket valid for unlimited rides for one day",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "d3141d44-5f09-5d1e-982c-e5fada8cd1de",
+   "lemma": "tram stop",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tram stop",
+    "tram stops"
+   ],
+   "glossEn": "place where trams stop for passengers",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "6afc3af0-9f4b-5967-a6db-cea101882be4",
+   "lemma": "stroller",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stroller",
+    "strollers",
+    "pushchair",
+    "buggy"
+   ],
+   "glossEn": "small chair on wheels for pushing a baby",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  }
+ ]
+}

@@ -1,0 +1,568 @@
+{
+ "chunk": "C2-W14",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "e08e8a30-790d-50ee-830d-6850ffd75b4c",
+   "lemma": "ironworks",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ironworks",
+    "iron works"
+   ],
+   "glossEn": "factory where iron is smelted or made into goods",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "c3e71348-e67c-577d-a769-48f5f63e01f1",
+   "lemma": "workpiece",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "workpiece",
+    "work piece"
+   ],
+   "glossEn": "piece of material being shaped by a tool",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "7cf4c625-981e-5c69-96d1-40a9636ba6b6",
+   "lemma": "shear",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shear"
+   ],
+   "glossEn": "break or cut under sideways force",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "113c0493-0aec-5ff4-b736-ed2fe645f55a",
+   "lemma": "payload",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "payload"
+   ],
+   "glossEn": "load carried by a vehicle or rocket",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "51346922-789f-59b5-9df6-053df6833bc1",
+   "lemma": "overengineer",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overengineer",
+    "over-engineer"
+   ],
+   "glossEn": "design something with more complexity than needed",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "e961b6b8-4cc5-5322-9bcc-2c3d091194a1",
+   "lemma": "reverse-engineer",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reverse-engineer",
+    "reverse engineer"
+   ],
+   "glossEn": "analyze a product to discover how it was made",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "ccbb58ac-05a1-5353-b756-467f36ce0088",
+   "lemma": "scrappage",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scrappage"
+   ],
+   "glossEn": "scrapping of old vehicles or machines",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "d23db81f-5517-5391-87d9-bf1975526cf4",
+   "lemma": "superannuated",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "superannuated"
+   ],
+   "glossEn": "too old to be useful; outdated",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "fa1309f1-eb70-5458-96ea-5248ff010d06",
+   "lemma": "turnkey",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "turnkey",
+    "turn-key"
+   ],
+   "glossEn": "ready for immediate use once installed",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "26c2d3bc-711a-518a-81f1-6ded872b22a8",
+   "lemma": "bespoke",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bespoke"
+   ],
+   "glossEn": "made to order for a particular customer",
+   "topics": [
+    "shopping"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "0f559e9e-77d4-51f3-8a6b-aaf50fbda62c",
+   "lemma": "artisanal",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "artisanal"
+   ],
+   "glossEn": "made by hand in a traditional way",
+   "topics": [
+    "food"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "957d5201-640a-5d67-a09f-93480f5326ae",
+   "lemma": "cottage industry",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cottage industry"
+   ],
+   "glossEn": "small-scale business run from home",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "f2180ed3-ae2d-5ac3-82db-4e31af4977df",
+   "lemma": "offcut",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "offcut",
+    "off-cut"
+   ],
+   "glossEn": "piece left over after cutting a larger piece",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "0125c8e5-5f5f-50ee-a42b-428eb4e6ffe5",
+   "lemma": "brownout",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brownout",
+    "brown-out"
+   ],
+   "glossEn": "partial reduction in electrical power supply",
+   "topics": [
+    "city"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "bff6c79d-725c-51e2-813e-86f1583d266e",
+   "lemma": "baseload",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "baseload",
+    "base load"
+   ],
+   "glossEn": "minimum constant demand on an electrical grid",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "0f41d041-2085-5134-9eca-801360e1db3c",
+   "lemma": "conduit",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "conduit"
+   ],
+   "glossEn": "tube or channel for carrying wires or water",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "fe386175-bba9-5b8a-a7f7-9a8913fa35b5",
+   "lemma": "girder",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "girder"
+   ],
+   "glossEn": "large metal beam supporting a structure",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "cfc92418-f4bf-549a-a724-2533ad438fd5",
+   "lemma": "rolling stock",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rolling stock"
+   ],
+   "glossEn": "locomotives and carriages used on a railway",
+   "topics": [
+    "travel"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "e9dc3f0f-8edf-5c14-97c8-4b2b2a6b221c",
+   "lemma": "fission",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fission"
+   ],
+   "glossEn": "splitting of atomic nuclei that releases energy",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "b50881f5-9fc9-5e24-b344-ff782949d8d5",
+   "lemma": "feedstock",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "feedstock"
+   ],
+   "glossEn": "raw material supplied to a machine or process",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "68ada84e-6edc-5d89-8362-9d41206c0a8f",
+   "lemma": "interconnector",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "interconnector"
+   ],
+   "glossEn": "cable or pipeline linking two countries' energy grids",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "54275c06-9540-5a03-b2bf-f2fe88afd7eb",
+   "lemma": "cogeneration",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cogeneration",
+    "co-generation"
+   ],
+   "glossEn": "producing electricity and useful heat together",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "05c462e5-7225-52ac-97f1-6143d5ddf78b",
+   "lemma": "microgrid",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "microgrid",
+    "micro-grid"
+   ],
+   "glossEn": "small local electricity network that can run independently",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "4277e053-7fa7-5356-aa87-3ea21eebf376",
+   "lemma": "load shedding",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "load shedding",
+    "load-shedding"
+   ],
+   "glossEn": "deliberately cutting power to parts of a grid",
+   "topics": [
+    "city"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "7a365c66-d178-5860-a62f-6e12115cbe19",
+   "lemma": "subsidence",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subsidence"
+   ],
+   "glossEn": "gradual sinking of land or buildings",
+   "topics": [
+    "city"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "eba82a76-2857-53e6-9ee1-661e8b37c565",
+   "lemma": "culvert",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "culvert"
+   ],
+   "glossEn": "tunnel carrying a stream under a road or railway",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "9a9e9394-4f43-5c75-8202-79f95906aa73",
+   "lemma": "gantry",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gantry"
+   ],
+   "glossEn": "overhead frame supporting equipment, cranes or signs",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "15677336-1858-54e8-ad79-aae25cd46b2e",
+   "lemma": "pylon",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pylon"
+   ],
+   "glossEn": "tall steel tower carrying electricity cables",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "50297013-f2a5-5732-a511-9f845a4dd843",
+   "lemma": "right-of-way",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "right-of-way",
+    "right of way"
+   ],
+   "glossEn": "legal right to pass through land; public path",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "983b2dce-92da-5dc4-a8e5-c1345c997bc5",
+   "lemma": "eminent domain",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "eminent domain"
+   ],
+   "glossEn": "government power to take private land for public use",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "1aee1c6d-1c84-589f-8877-76fae808651c",
+   "lemma": "megacity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "megacity",
+    "mega-city"
+   ],
+   "glossEn": "city with more than ten million inhabitants",
+   "topics": [
+    "city"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "efe7105c-2da7-59ec-b35a-d30ec419a302",
+   "lemma": "waterworks",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "waterworks",
+    "water works"
+   ],
+   "glossEn": "plant that purifies and supplies water",
+   "topics": [
+    "city"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "e0986fe0-c4c4-5b10-b204-48ed3a5538c0",
+   "lemma": "dredge",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dredge"
+   ],
+   "glossEn": "clear mud from the bed of a river or harbor",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "6ee3563c-a321-5bfb-bfd6-ede7d5ce181d",
+   "lemma": "cantilever",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cantilever"
+   ],
+   "glossEn": "beam fixed at one end only",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "978f7385-fb49-59de-bda8-e8a43582ef79",
+   "lemma": "truss",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "truss"
+   ],
+   "glossEn": "framework of beams supporting a roof or bridge",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "4c6448b0-2a6a-5993-8504-221f920b92f0",
+   "lemma": "hydrant",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hydrant"
+   ],
+   "glossEn": "street water outlet for fighting fires",
+   "topics": [
+    "city"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "53ad4b55-fb71-5837-bc19-823c63cfbc30",
+   "lemma": "pipework",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pipework"
+   ],
+   "glossEn": "system of pipes in a building or plant",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "5b97f6d5-869d-5f28-89b0-7910f9d5d110",
+   "lemma": "containerization",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "containerization",
+    "containerisation"
+   ],
+   "glossEn": "shipping goods in standard containers",
+   "topics": [
+    "travel"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "605185b8-67ae-5f07-b513-c97af762d1ca",
+   "lemma": "stevedore",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stevedore"
+   ],
+   "glossEn": "person who loads and unloads ships",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "03a4e4e2-71ef-5e4c-967d-50a3bfc743e6",
+   "lemma": "overcapacity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overcapacity",
+    "over-capacity"
+   ],
+   "glossEn": "more production capacity than demand requires",
+   "topics": [],
+   "area": "economy-technology"
+  }
+ ]
+}

@@ -1,0 +1,700 @@
+{
+ "chunk": "B1-W05",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "5dfdd059-39fa-582a-91d6-8d5ebf5d4505",
+   "lemma": "ice rink",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ice rink",
+    "ice rinks",
+    "skating rink",
+    "rink"
+   ],
+   "glossEn": "flat area of ice for skating",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "f59123b5-ef47-5aef-b770-463c09f8bff6",
+   "lemma": "dog park",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dog park",
+    "dog parks",
+    "dog run"
+   ],
+   "glossEn": "fenced park area where dogs can run free",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "00b20d77-c4d3-57a8-8602-989ee43a25d5",
+   "lemma": "carousel",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "carousel",
+    "carousels",
+    "merry-go-round"
+   ],
+   "glossEn": "rotating fairground ride with model horses",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "9d06c81c-faa2-56fc-b91a-3b233075f898",
+   "lemma": "ferris wheel",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ferris wheel",
+    "ferris wheels",
+    "Ferris wheel",
+    "big wheel"
+   ],
+   "glossEn": "giant upright wheel with passenger cabins",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "beea394e-9ecb-5b8c-9762-9d927f1ad560",
+   "lemma": "skate park",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "skate park",
+    "skate parks",
+    "skatepark"
+   ],
+   "glossEn": "outdoor area with ramps for skateboards and scooters",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "a9db8c29-a459-5299-a331-34b0c4245d93",
+   "lemma": "picnic area",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "picnic area",
+    "picnic areas",
+    "picnic spot"
+   ],
+   "glossEn": "park spot with tables for eating outdoors",
+   "topics": [
+    "city",
+    "food"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "ccaa9778-86a2-5559-ab35-225d0b2bd558",
+   "lemma": "funfair",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "funfair",
+    "funfairs",
+    "fairground"
+   ],
+   "glossEn": "traveling outdoor fair with rides and games",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "5bf4f3ea-c4ec-5ca7-ae29-bd60409a13fa",
+   "lemma": "old town",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "old town",
+    "old city",
+    "historic center"
+   ],
+   "glossEn": "historic central part of a city",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "654896bd-6a1d-575c-950b-b5a652ac7156",
+   "lemma": "business district",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "business district",
+    "business districts",
+    "financial district",
+    "central business district"
+   ],
+   "glossEn": "central area where offices and banks are concentrated",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "3760a09e-c011-50c3-b327-27f6248d25a0",
+   "lemma": "ghost town",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ghost town",
+    "ghost towns"
+   ],
+   "glossEn": "town abandoned by all its residents",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "bf4eff4d-ab42-5e87-9097-a43f97518972",
+   "lemma": "street party",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "street party",
+    "street parties",
+    "block party"
+   ],
+   "glossEn": "outdoor party held by residents of a street",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "ee832170-639c-5cd5-9b84-1e3c4f5ffd96",
+   "lemma": "farmers' market",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "farmers' market",
+    "farmers' markets",
+    "farmers market"
+   ],
+   "glossEn": "outdoor market where farmers sell fresh produce",
+   "topics": [
+    "city",
+    "food",
+    "shopping"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "a0018a51-00aa-5542-b9dd-0050d567172a",
+   "lemma": "sauté",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sauté",
+    "saute",
+    "sautéed",
+    "sauteed"
+   ],
+   "glossEn": "fry quickly in a little hot fat",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "8ba4bc6b-a791-532a-8eff-9202ba4a2bbf",
+   "lemma": "dice",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dice",
+    "dices",
+    "diced",
+    "dicing"
+   ],
+   "glossEn": "cut food into small cubes",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "eda9a701-c8f7-5628-b5e6-3d4fba7a25d3",
+   "lemma": "mince",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mince",
+    "minces",
+    "minced",
+    "mincing"
+   ],
+   "glossEn": "cut meat or garlic into very small pieces",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "16fa507e-91f2-50ca-aeee-9f73661870da",
+   "lemma": "shred",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shred",
+    "shreds",
+    "shredded",
+    "shredding"
+   ],
+   "glossEn": "cut or tear into long thin strips",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "380e9c68-22f8-52a7-946c-afab058cad33",
+   "lemma": "grate",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "grate",
+    "grates",
+    "grated",
+    "grating"
+   ],
+   "glossEn": "rub cheese or vegetables into small pieces",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "8dc79c06-9243-587e-9670-ede7400b6c42",
+   "lemma": "sprinkle",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sprinkle",
+    "sprinkles",
+    "sprinkled",
+    "sprinkling"
+   ],
+   "glossEn": "scatter small amounts of salt or sugar over",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "9bed69e4-f6dd-51e8-a4e5-1a444eb5334d",
+   "lemma": "puree",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "puree",
+    "purée",
+    "pureed",
+    "puréed"
+   ],
+   "glossEn": "blend cooked food into a smooth thick paste",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "547fe50a-f96c-59fd-83ef-6afef00b0060",
+   "lemma": "rinse",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rinse",
+    "rinses",
+    "rinsed",
+    "rinsing"
+   ],
+   "glossEn": "wash quickly with clean water",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "516ce9c3-9ed3-5303-b127-0734f09e1619",
+   "lemma": "reheat",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reheat",
+    "reheats",
+    "reheated",
+    "reheating"
+   ],
+   "glossEn": "make cooked food hot again",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "61938bac-62f5-5ff2-879d-b7f3a5f9aff3",
+   "lemma": "preheat",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "preheat",
+    "preheats",
+    "preheated",
+    "preheating"
+   ],
+   "glossEn": "heat an oven before putting food in",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "d548bca4-66f3-5f27-ac64-28a056fe7bec",
+   "lemma": "overcook",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overcook",
+    "overcooks",
+    "overcooked",
+    "overcooking"
+   ],
+   "glossEn": "cook food for too long",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "07020458-154d-57e1-aa93-d35f6490327e",
+   "lemma": "crumble",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "crumble",
+    "crumbles",
+    "crumbled",
+    "crumbling"
+   ],
+   "glossEn": "break into small pieces with your fingers",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "57536076-bba0-55f8-b280-0364c9476b4e",
+   "lemma": "sift",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sift",
+    "sifts",
+    "sifted",
+    "sifting"
+   ],
+   "glossEn": "pass flour through a fine mesh",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "61682281-e900-5503-82c3-df2286036041",
+   "lemma": "chill",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chill",
+    "chills",
+    "chilled",
+    "chilling"
+   ],
+   "glossEn": "make food or drink cold in the fridge",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "5ec9f7b0-fed3-5579-b786-15d2e10d3dde",
+   "lemma": "grind",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "grind",
+    "grinds",
+    "ground",
+    "grinding"
+   ],
+   "glossEn": "crush coffee or spices into powder",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "fd821676-3371-5983-b6f7-a15d880e8ad5",
+   "lemma": "skillet",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "skillet",
+    "skillets",
+    "frying pan"
+   ],
+   "glossEn": "shallow frying pan with a handle",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "19f266f8-9e94-5b43-90cd-be8e18659541",
+   "lemma": "wok",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wok",
+    "woks"
+   ],
+   "glossEn": "deep round-bottomed pan for stir-frying",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "c9aa6141-1bf2-51fa-96ba-3c6d1427f37c",
+   "lemma": "grater",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "grater",
+    "graters"
+   ],
+   "glossEn": "tool with sharp holes for grating cheese",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "669681b3-f3f1-5896-82f7-565b9d3bc16b",
+   "lemma": "peeler",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "peeler",
+    "peelers"
+   ],
+   "glossEn": "tool for removing skin from vegetables",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "2b5a268c-f59e-5155-93a4-e5169a32d81b",
+   "lemma": "ladle",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ladle",
+    "ladles"
+   ],
+   "glossEn": "deep long-handled spoon for serving soup",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "7aadcee5-3d40-5d86-81f6-de419e84ed9d",
+   "lemma": "spatula",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spatula",
+    "spatulas"
+   ],
+   "glossEn": "flat tool for turning or scraping food",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "91ed86cc-b1d0-5f67-b30f-164a496e3b4c",
+   "lemma": "tongs",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tongs"
+   ],
+   "glossEn": "hinged tool for gripping and lifting food",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "ce6bc5cf-9de2-555e-8a5c-9434b48846fc",
+   "lemma": "colander",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "colander",
+    "colanders"
+   ],
+   "glossEn": "bowl with holes for draining pasta",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "849bea70-85da-5c18-9be7-b22545bd710d",
+   "lemma": "sieve",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sieve",
+    "sieves",
+    "strainer"
+   ],
+   "glossEn": "mesh tool for straining liquids or flour",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "c1428834-a8b9-5980-89c5-515068b583e2",
+   "lemma": "casserole",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "casserole",
+    "casseroles"
+   ],
+   "glossEn": "dish baked slowly in a covered pot",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "7ad1bc4e-0488-5256-9155-65f7ff90b6ba",
+   "lemma": "mixer",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mixer",
+    "mixers"
+   ],
+   "glossEn": "electric machine for beating dough or cream",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "5daa63cd-83be-554b-8738-f5e613753783",
+   "lemma": "grinder",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "grinder",
+    "grinders"
+   ],
+   "glossEn": "machine for grinding coffee or meat",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "70571507-19fb-5d16-82db-a227a2cb97dc",
+   "lemma": "juicer",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "juicer",
+    "juicers"
+   ],
+   "glossEn": "machine that squeezes juice from fruit",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  }
+ ]
+}

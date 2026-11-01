@@ -1,0 +1,663 @@
+{
+ "chunk": "C1-W31",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "0a21b0ca-ad4b-50ae-9310-3c0df40c988f",
+   "lemma": "terroir",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "terroir",
+    "terroirs"
+   ],
+   "glossEn": "soil and climate that shape a food's taste",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "0de283e1-1e3d-51cd-90ea-252ef406effb",
+   "lemma": "vintner",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vintner",
+    "vintners"
+   ],
+   "glossEn": "wine maker or wine merchant",
+   "topics": [
+    "food",
+    "work"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "35ddd618-36ac-50e2-a331-582cd6c90dc8",
+   "lemma": "lees",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lees"
+   ],
+   "glossEn": "sediment of spent yeast left in wine",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "445a0e3e-5c83-5250-a5fb-b629e4bd13fe",
+   "lemma": "effervescence",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "effervescence"
+   ],
+   "glossEn": "bubbling of gas in a drink",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "3e02221e-29a2-5467-8053-b511a8884f97",
+   "lemma": "extraction",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "extraction",
+    "extractions"
+   ],
+   "glossEn": "drawing flavor from coffee grounds with water",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "0216a432-1381-5ef2-8b9e-bc750d50e02b",
+   "lemma": "cacao",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cacao"
+   ],
+   "glossEn": "raw beans that chocolate is made from",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "ff109374-0fef-5f5b-bad5-a901a2f37dc2",
+   "lemma": "caramelization",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "caramelization",
+    "caramelisation"
+   ],
+   "glossEn": "browning of sugar under heat",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "d9641801-bd31-5642-9341-c495d12bd582",
+   "lemma": "smoke point",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "smoke point",
+    "smoke points"
+   ],
+   "glossEn": "temperature at which an oil starts smoking",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "058cb2a3-b2b0-5ab7-be13-b697595c7bbd",
+   "lemma": "homogenize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "homogenize",
+    "homogenise",
+    "homogenized",
+    "homogenised"
+   ],
+   "glossEn": "treat milk so the cream does not separate",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "597960ef-b68b-5708-ad1d-d06990d9a4a7",
+   "lemma": "adulterate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "adulterate",
+    "adulterates",
+    "adulterated",
+    "adulterating"
+   ],
+   "glossEn": "make food impure by adding cheaper substances",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "ff21e09d-ebd4-5294-bf56-05afbc6affaf",
+   "lemma": "nitrite",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nitrite",
+    "nitrites"
+   ],
+   "glossEn": "curing salt that preserves processed meat",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "96ce02d2-1e90-57e4-80ab-ea79077d83c0",
+   "lemma": "sulfite",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sulfite",
+    "sulfites",
+    "sulphite",
+    "sulphites"
+   ],
+   "glossEn": "preservative found in wine and dried fruit",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "cb94549b-e688-5cd1-9a4a-f90e50160dd1",
+   "lemma": "glutamate",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "glutamate",
+    "glutamates",
+    "MSG"
+   ],
+   "glossEn": "flavor enhancer that gives umami taste",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "54519c4f-9e63-5377-adbd-d2e64ea9be17",
+   "lemma": "carrageenan",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "carrageenan"
+   ],
+   "glossEn": "seaweed thickener used in dairy products",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "9667dd82-6526-5840-85b8-3f1d5a75f21c",
+   "lemma": "agar",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "agar",
+    "agar-agar"
+   ],
+   "glossEn": "plant-based jelly setting agent from seaweed",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "0db6a3bb-969a-543a-a0b4-486f68f4ff29",
+   "lemma": "hydrogenated",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hydrogenated"
+   ],
+   "glossEn": "of oil: hardened by adding hydrogen",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "73467614-6e7f-53fe-be0a-a1db73da0a52",
+   "lemma": "ketosis",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ketosis"
+   ],
+   "glossEn": "body state of burning fat instead of carbs",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "6f0de541-cff2-5bf5-a0e6-7896542d8adc",
+   "lemma": "glycemic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "glycemic",
+    "glycaemic"
+   ],
+   "glossEn": "relating to a food's effect on blood sugar",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "5c14eb77-041a-549f-9a88-a07453b64e82",
+   "lemma": "undernourished",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "undernourished"
+   ],
+   "glossEn": "weak from too little nutritious food",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "8c840756-64ea-562a-a835-8ec5d765e86c",
+   "lemma": "abattoir",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "abattoir",
+    "abattoirs",
+    "slaughterhouse"
+   ],
+   "glossEn": "place where animals are slaughtered for meat",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "1a0d3168-604d-5ae6-a581-9bf6da95c577",
+   "lemma": "sweetbreads",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sweetbreads",
+    "sweetbread"
+   ],
+   "glossEn": "thymus or pancreas eaten as a delicacy",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "6bae3a51-75bc-50e6-b9b7-6b54dbad2257",
+   "lemma": "terrine",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "terrine",
+    "terrines"
+   ],
+   "glossEn": "coarse pâté cooked in a loaf mold",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "d3ebab43-f664-51f7-9295-6e458b21bbd5",
+   "lemma": "dry-aged",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dry-aged",
+    "dry aged"
+   ],
+   "glossEn": "of beef: matured uncovered to deepen flavor",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "5871a334-591e-5e76-beda-f304c61974da",
+   "lemma": "marbling",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "marbling"
+   ],
+   "glossEn": "streaks of fat within a cut of meat",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "8eb84fc0-9ead-596f-9a9c-64b8a5ea5082",
+   "lemma": "tartare",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tartare",
+    "tartar"
+   ],
+   "glossEn": "dish of finely chopped raw meat or fish",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "4b0e81ae-5c41-54a2-aee8-50ba8e0b3184",
+   "lemma": "harissa",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "harissa"
+   ],
+   "glossEn": "North African hot chili paste",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "8a6b9386-cf29-5a6f-80e1-b53bd2bf92a7",
+   "lemma": "dashi",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dashi"
+   ],
+   "glossEn": "Japanese stock of seaweed and dried fish",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "846a4033-4744-5869-aa2b-06e4c7111cfb",
+   "lemma": "yuzu",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "yuzu"
+   ],
+   "glossEn": "fragrant sour East Asian citrus fruit",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "c06aab9d-4ba0-50f6-bb8e-8119c78b5e84",
+   "lemma": "tempeh",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tempeh"
+   ],
+   "glossEn": "firm fermented soybean cake",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "e852b5ad-3262-5b42-81d2-767437ded88a",
+   "lemma": "cornichon",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cornichon",
+    "cornichons"
+   ],
+   "glossEn": "tiny tart pickled gherkin",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "aed0eb5d-fffd-585b-8c53-9231714bcac9",
+   "lemma": "load balancer",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "load balancer",
+    "load balancers",
+    "load-balancer"
+   ],
+   "glossEn": "service that spreads traffic across several servers",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "a79b49f9-bb1b-578a-a5d5-9f87db591e41",
+   "lemma": "breakpoint",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "breakpoint",
+    "breakpoints",
+    "break point"
+   ],
+   "glossEn": "marked line where a debugger pauses the program",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "02360707-f719-56ed-8a16-6b8b018858f3",
+   "lemma": "stack trace",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stack trace",
+    "stack traces",
+    "stacktrace"
+   ],
+   "glossEn": "list of function calls active when an error happened",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "e49b1c11-fac2-5ed5-8689-92fc425b4286",
+   "lemma": "fallback",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fallback",
+    "fallbacks",
+    "fall-back"
+   ],
+   "glossEn": "backup option used when the main one fails",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "9e6613ae-89fe-55f5-88cb-17514e7c7bfa",
+   "lemma": "failover",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "failover",
+    "failovers",
+    "fail-over"
+   ],
+   "glossEn": "automatic switch to a backup system after a failure",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "cb1d2de1-d4f5-5edf-9cf5-4224c6bf7a30",
+   "lemma": "schema",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "schema",
+    "schemas",
+    "schemata"
+   ],
+   "glossEn": "formal description of how data is structured",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "78224d3f-aa9f-5c6c-8edd-82f4e77db175",
+   "lemma": "localization",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "localization",
+    "localizations",
+    "localisation",
+    "l10n"
+   ],
+   "glossEn": "adapting software to a language and region",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "6d31336d-a5ae-5942-adaa-bbbf680c845d",
+   "lemma": "bitrate",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bitrate",
+    "bitrates",
+    "bit rate"
+   ],
+   "glossEn": "amount of data per second in audio or video",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "a1183aa2-b1b0-5943-9d9f-8f957975d03f",
+   "lemma": "codec",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "codec",
+    "codecs"
+   ],
+   "glossEn": "software that compresses and decompresses audio or video",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "9f65d154-081c-5c27-9f48-be20b9836f66",
+   "lemma": "bloatware",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bloatware"
+   ],
+   "glossEn": "unwanted preinstalled software that wastes resources",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  }
+ ]
+}

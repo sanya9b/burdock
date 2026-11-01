@@ -1,0 +1,666 @@
+{
+ "chunk": "B2-W16",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "0999990e-8dce-508a-b46b-fe38a9d0270e",
+   "lemma": "training data",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "training data",
+    "training set"
+   ],
+   "glossEn": "examples used to teach a machine learning model",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "7619f00f-1e41-5a05-8645-e002aa62606b",
+   "lemma": "large language model",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "large language model",
+    "large language models",
+    "LLM",
+    "LLMs"
+   ],
+   "glossEn": "AI model trained on huge text to generate language",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "06c3475d-dbdf-50ad-822a-9d2614daf8fe",
+   "lemma": "generative",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "generative",
+    "generative AI"
+   ],
+   "glossEn": "able to create new text, images, or code",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "eb0858ed-4568-534a-8314-6b576403b436",
+   "lemma": "deep learning",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deep learning"
+   ],
+   "glossEn": "machine learning using many-layered neural networks",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "5c2c1dbd-bbac-5ad9-b6d5-55de6ece8c26",
+   "lemma": "fine-tune",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fine-tune",
+    "fine-tunes",
+    "fine-tuned",
+    "fine-tuning"
+   ],
+   "glossEn": "further train a model on specific data",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "f694b42b-1c49-5c28-acb3-5010bf45ee38",
+   "lemma": "IoT",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "IoT",
+    "Internet of Things"
+   ],
+   "glossEn": "everyday objects connected to the internet with sensors",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "d77000e6-0ab3-5a23-b783-055650112abb",
+   "lemma": "passkey",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "passkey",
+    "passkeys"
+   ],
+   "glossEn": "password-free login using your device and fingerprint",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "629c3e1e-0acb-555d-8b3b-c4febf9fc486",
+   "lemma": "one-time password",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "one-time password",
+    "one-time passwords",
+    "OTP",
+    "one-time code"
+   ],
+   "glossEn": "temporary code valid for a single login",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "e2addb9d-6fd8-568d-be30-522407a915aa",
+   "lemma": "authenticator",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "authenticator",
+    "authenticators",
+    "authenticator app"
+   ],
+   "glossEn": "app that generates login codes for two-factor security",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "b065df27-00d4-5d60-840e-1b23ce7ca854",
+   "lemma": "adware",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "adware"
+   ],
+   "glossEn": "unwanted software that floods a device with ads",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "ecc6c93b-e0f3-5556-a605-79e505edcc9e",
+   "lemma": "end-to-end encryption",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "end-to-end encryption",
+    "E2EE",
+    "end-to-end encrypted"
+   ],
+   "glossEn": "encryption only the sender and receiver can unlock",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "938540bb-fb0c-5deb-ac4a-69111ada751d",
+   "lemma": "digital signature",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "digital signature",
+    "digital signatures"
+   ],
+   "glossEn": "cryptographic proof that a file is genuine and unchanged",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "44a836e7-56cc-5166-91cf-b589452ee436",
+   "lemma": "identity theft",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "identity theft"
+   ],
+   "glossEn": "stealing personal details to pretend to be someone",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "8c7d33f9-ef5d-57a1-ac0f-0de6c5ff66ed",
+   "lemma": "DDoS",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "DDoS",
+    "DDoS attack",
+    "DoS"
+   ],
+   "glossEn": "attack flooding a site with traffic until it fails",
+   "topics": [
+    "it",
+    "military"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "28eb32ba-4503-59a2-a39d-5036319c3d14",
+   "lemma": "GDPR",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "GDPR"
+   ],
+   "glossEn": "European law protecting personal data of users",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "5d6c51b9-7df7-5686-9890-2505315e0016",
+   "lemma": "state of emergency",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "state of emergency"
+   ],
+   "glossEn": "special legal regime during a crisis",
+   "topics": [
+    "military",
+    "city"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "ba2846d6-25f0-54ea-b7d6-360cd759e81e",
+   "lemma": "enlistment office",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "enlistment office",
+    "enlistment offices",
+    "recruitment office"
+   ],
+   "glossEn": "office that registers people for military service",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "45a7472c-794d-575c-bbf7-a6e7eebbaecd",
+   "lemma": "medical board",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "medical board",
+    "medical boards"
+   ],
+   "glossEn": "doctors who decide fitness for service",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "2a2e2276-ff9f-51a3-9443-08727a5568d7",
+   "lemma": "critical infrastructure",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "critical infrastructure"
+   ],
+   "glossEn": "power, water and transport systems vital for life",
+   "topics": [
+    "military",
+    "city"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "e8478bd8-dcba-5a0b-b836-51aabf9e576a",
+   "lemma": "reparations",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reparations",
+    "reparation"
+   ],
+   "glossEn": "payments made for damage caused by war",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "818cd363-5478-515d-8c96-31ac3d5d8742",
+   "lemma": "reconstruction",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reconstruction"
+   ],
+   "glossEn": "rebuilding what war destroyed",
+   "topics": [
+    "military",
+    "city"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "86c4bfa5-3e0b-5cc5-8394-b03733c3a963",
+   "lemma": "detonation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "detonation",
+    "detonations"
+   ],
+   "glossEn": "act of exploding a bomb",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "52625283-3c52-56e1-b932-c065736d423d",
+   "lemma": "detonator",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "detonator",
+    "detonators"
+   ],
+   "glossEn": "device that sets off an explosive",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "c1420e24-2dc1-58d6-b56a-145d78e14c7a",
+   "lemma": "fuse",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fuse",
+    "fuses",
+    "fuze"
+   ],
+   "glossEn": "part that triggers a shell or bomb",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "ff1955e0-2d0f-5e59-a711-2f5badcc3754",
+   "lemma": "defuse",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "defuse",
+    "defuses",
+    "defused",
+    "defusing"
+   ],
+   "glossEn": "make a bomb safe so it cannot explode",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "80e68091-1bdb-5571-9929-6818234fdf33",
+   "lemma": "disarm",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disarm",
+    "disarms",
+    "disarmed",
+    "disarming"
+   ],
+   "glossEn": "take weapons away or make a bomb safe",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "156ea3d6-1258-5ccc-ab75-4a02f4392f77",
+   "lemma": "disarmament",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disarmament"
+   ],
+   "glossEn": "reducing or giving up weapons",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "a03c731f-f1ed-5aa7-9ab4-2cca4492d02d",
+   "lemma": "neutralize",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "neutralize",
+    "neutralizes",
+    "neutralized",
+    "neutralise"
+   ],
+   "glossEn": "make a threat or weapon harmless",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "d8f337e7-b952-5428-b89d-8078a3765e7f",
+   "lemma": "warhead",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "warhead",
+    "warheads"
+   ],
+   "glossEn": "explosive front part of a missile",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "7caef980-8dee-5e53-92a9-3e8950a42774",
+   "lemma": "ballistic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ballistic"
+   ],
+   "glossEn": "flying in a high arc like a thrown object",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "0ae42e7e-c7cb-50c3-b469-23fb63627eeb",
+   "lemma": "cruise missile",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cruise missile",
+    "cruise missiles"
+   ],
+   "glossEn": "low-flying guided missile with wings",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "c74ffc76-0017-5809-ab87-184ccf04f49f",
+   "lemma": "guided",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "guided"
+   ],
+   "glossEn": "steered toward a target by a system",
+   "topics": [
+    "military",
+    "it"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "0377ba6f-baab-535c-9887-76779c1d12d4",
+   "lemma": "downed",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "downed"
+   ],
+   "glossEn": "shot down out of the sky",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "4f57b544-11bd-569e-9d26-a5c4c34a71df",
+   "lemma": "wreckage",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wreckage"
+   ],
+   "glossEn": "broken remains of a destroyed vehicle",
+   "topics": [
+    "military",
+    "city"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "7344fe63-4277-5230-b189-10422f5e9e01",
+   "lemma": "gas mask",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gas mask",
+    "gas masks"
+   ],
+   "glossEn": "mask protecting the face from poisonous gas",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "516f368c-19df-5dd4-afbf-d7a7ab33e10c",
+   "lemma": "respirator",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "respirator",
+    "respirators"
+   ],
+   "glossEn": "mask that filters the air you breathe",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "2da9699d-79f9-5e52-9d96-8078805c0a79",
+   "lemma": "decontamination",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "decontamination"
+   ],
+   "glossEn": "removing harmful substances from people or places",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "5301edcb-1266-5d92-8a4e-c6cfe72c7c0e",
+   "lemma": "dosimeter",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dosimeter",
+    "dosimeters"
+   ],
+   "glossEn": "device that measures radiation dose",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "9cdd3f54-a0c7-565b-844a-b1d36a09cd59",
+   "lemma": "iodine",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "iodine"
+   ],
+   "glossEn": "chemical taken to protect against radiation",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "9bfa2466-ff69-5098-8c55-72c77d2c255f",
+   "lemma": "assembly point",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "assembly point",
+    "assembly points"
+   ],
+   "glossEn": "place where people gather during an evacuation",
+   "topics": [
+    "military",
+    "city"
+   ],
+   "area": "military"
+  }
+ ]
+}

@@ -1,0 +1,530 @@
+{
+ "chunk": "C2-W04",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "46a04ba4-0556-5aca-8472-8aa399f87400",
+   "lemma": "primordial",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "primordial"
+   ],
+   "glossEn": "existing from the very beginning of time",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "2c27cb2d-a21c-59f2-a1cb-07bcf516eb33",
+   "lemma": "nascent",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nascent"
+   ],
+   "glossEn": "just beginning to exist or develop",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "9c8bf6f5-ee84-58ab-b675-ce1e5627cc3b",
+   "lemma": "incipient",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incipient"
+   ],
+   "glossEn": "beginning to happen or develop",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "3e576d95-b08e-5aff-ad64-5be65b114821",
+   "lemma": "embryonic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "embryonic"
+   ],
+   "glossEn": "at an early stage of development",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "2af6f05b-c2e7-53f5-a3e7-593ed0023424",
+   "lemma": "fledgling",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fledgling",
+    "fledgeling"
+   ],
+   "glossEn": "new and inexperienced; just starting out",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "0fb9aa2a-94a4-5d04-8362-9868e27f4670",
+   "lemma": "burgeoning",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "burgeoning"
+   ],
+   "glossEn": "growing or developing rapidly",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "d20067a2-3c5d-52c5-907b-36b8ec6719d9",
+   "lemma": "burgeon",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "burgeon"
+   ],
+   "glossEn": "grow or increase rapidly; flourish",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "b61aba0b-cf8a-5ab0-a5c9-5aab9aadeed7",
+   "lemma": "proliferation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "proliferation"
+   ],
+   "glossEn": "rapid increase in number or amount",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "82a6fb89-9435-5f90-9e5f-a2588e2c544c",
+   "lemma": "metamorphosis",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "metamorphosis"
+   ],
+   "glossEn": "complete change of form or character",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "b580835d-5201-5e8e-9146-413e7c29c431",
+   "lemma": "flux",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flux"
+   ],
+   "glossEn": "state of continuous change",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "558267b2-7cc2-54e2-aa2a-9d915aeced5e",
+   "lemma": "vicissitude",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vicissitude"
+   ],
+   "glossEn": "unwelcome change of circumstances or fortune",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "f4e4f70c-b768-557d-bcb2-2efeaa569767",
+   "lemma": "watershed",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "watershed"
+   ],
+   "glossEn": "event marking a turning point",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "54df5044-8e6d-5d8f-b9f5-39b30165f105",
+   "lemma": "renaissance",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "renaissance"
+   ],
+   "glossEn": "revival of interest or activity in something",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "b0acc3a2-e7c8-5254-bbcb-00f1c4ea056a",
+   "lemma": "epoch",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "epoch"
+   ],
+   "glossEn": "period of history marked by notable events",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "aac47428-1ffb-5e02-968b-01476b41a8e2",
+   "lemma": "epochal",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "epochal"
+   ],
+   "glossEn": "highly significant; marking a new era",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "46bf3b45-a5aa-5c47-8b3f-d448f8575c1f",
+   "lemma": "hiatus",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hiatus"
+   ],
+   "glossEn": "pause or gap in a sequence or process",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "cccf246e-735b-55f9-9036-1c8c36463969",
+   "lemma": "lull",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lull"
+   ],
+   "glossEn": "temporary period of quiet or calm",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "cf8bb651-206a-5cd1-95b9-b56b6912a90d",
+   "lemma": "respite",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "respite"
+   ],
+   "glossEn": "short period of rest from something difficult",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "fb82f0ed-1db8-5db0-80f4-cd7cc23d778d",
+   "lemma": "protracted",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "protracted"
+   ],
+   "glossEn": "lasting longer than expected or usual",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "af51c8eb-5215-513c-88b5-76a2feeb05ca",
+   "lemma": "interminable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "interminable"
+   ],
+   "glossEn": "seeming endless, in a tiresome way",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "b4a0bc6b-3c49-54c5-8aee-fc4f77577f2d",
+   "lemma": "perennial",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "perennial"
+   ],
+   "glossEn": "lasting or recurring over many years",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "5822a843-0f65-5f8b-9bd4-fd3bb3fc66f9",
+   "lemma": "ossify",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ossify"
+   ],
+   "glossEn": "become rigid and unable to change",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "243e5beb-c74e-5079-9cfa-e0d316a6cc4a",
+   "lemma": "laudatory",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "laudatory"
+   ],
+   "glossEn": "expressing praise",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "463b7f58-4f82-5c4f-a479-4fec0d7c9920",
+   "lemma": "apposite",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "apposite"
+   ],
+   "glossEn": "very appropriate for the situation",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "1861f526-b689-5fb6-a6c9-2e0388e928c4",
+   "lemma": "apt",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "apt"
+   ],
+   "glossEn": "appropriate or suitable in the circumstances",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "49275cee-6268-531f-ba82-feec1d04ce52",
+   "lemma": "discriminating",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "discriminating"
+   ],
+   "glossEn": "having refined taste and good judgment",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "85ea76c1-f3ed-50a7-ac74-651191a264bd",
+   "lemma": "scrupulous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scrupulous"
+   ],
+   "glossEn": "extremely careful and thorough; morally strict",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "48ad4d05-a70e-556b-a263-f3b239cd7ecd",
+   "lemma": "unscrupulous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unscrupulous"
+   ],
+   "glossEn": "having no moral principles; dishonest",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "b2bf0ce2-920e-570f-b0c0-02e9cabaed41",
+   "lemma": "exacting",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "exacting"
+   ],
+   "glossEn": "demanding great care, effort or precision",
+   "topics": [
+    "work"
+   ],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "10a4f1c3-4213-5b75-802d-868387df6271",
+   "lemma": "desultory",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "desultory"
+   ],
+   "glossEn": "lacking plan, purpose or enthusiasm",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "849b57fb-0da8-52c2-a215-22460097347f",
+   "lemma": "haphazard",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "haphazard"
+   ],
+   "glossEn": "lacking any order or plan",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "113bfa68-3336-56db-88f1-9dbf107532b4",
+   "lemma": "whimsical",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "whimsical"
+   ],
+   "glossEn": "playfully odd or unpredictable",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "cdcf4a11-9a87-5af9-b10f-d47d107b66a7",
+   "lemma": "injudicious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "injudicious"
+   ],
+   "glossEn": "showing poor judgment; unwise",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "33a5ca2d-87df-5494-9dcd-faf66f1a8f2c",
+   "lemma": "circumspection",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "circumspection"
+   ],
+   "glossEn": "caution and care in judgment",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "4c957c5a-ba73-51a1-b27c-0ae7d4990784",
+   "lemma": "jaundiced",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jaundiced"
+   ],
+   "glossEn": "bitter and cynical in outlook",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "a9ce7c0c-f1ec-5a10-860d-a735b704b9a2",
+   "lemma": "disparaging",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disparaging"
+   ],
+   "glossEn": "expressing a low opinion; belittling",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "bb2093f7-7aad-54d5-b9d3-693a83d66975",
+   "lemma": "derision",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "derision"
+   ],
+   "glossEn": "contemptuous ridicule or mockery",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "0314258d-7dfa-53b9-86f9-7643190b712d",
+   "lemma": "derisory",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "derisory"
+   ],
+   "glossEn": "ridiculously small or inadequate",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "154ebd7a-6257-516f-88fb-829e005807d1",
+   "lemma": "eulogize",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "eulogize",
+    "eulogise"
+   ],
+   "glossEn": "praise highly in speech or writing",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "e3603e45-d98d-5fb8-a485-1ed3ea7ca6bd",
+   "lemma": "plaudit",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "plaudit"
+   ],
+   "glossEn": "expression of praise or approval",
+   "topics": [],
+   "area": "abstract-thought"
+  }
+ ]
+}

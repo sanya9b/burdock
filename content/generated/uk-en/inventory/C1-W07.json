@@ -1,0 +1,574 @@
+{
+ "chunk": "C1-W07",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "c4002912-7b81-5312-8f72-7b71ef729b0a",
+   "lemma": "prolific",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prolific"
+   ],
+   "glossEn": "producing many works",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "44735ae0-4d0c-5722-b023-43e63c158859",
+   "lemma": "page-turner",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "page-turner",
+    "page turner"
+   ],
+   "glossEn": "book so exciting you cannot stop reading",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "547ef008-7b25-51cd-b8e9-7b6dd8435557",
+   "lemma": "engrossing",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "engrossing"
+   ],
+   "glossEn": "absorbing all of one's attention",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "871e72ae-2466-58d2-843a-e45f94b053e8",
+   "lemma": "enthralling",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "enthralling"
+   ],
+   "glossEn": "fascinating and holding attention completely",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "70723d9d-e2c4-56b4-92e1-625743461599",
+   "lemma": "captivating",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "captivating"
+   ],
+   "glossEn": "charming and holding attention",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "db0323d5-03e3-59fe-ba91-4412c6752124",
+   "lemma": "harrowing",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "harrowing"
+   ],
+   "glossEn": "extremely distressing to read or watch",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "e2dc6f91-747f-508c-8c89-16e263be8067",
+   "lemma": "bittersweet",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bittersweet",
+    "bitter-sweet"
+   ],
+   "glossEn": "pleasant but tinged with sadness",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "af7ff766-cae9-52f5-8950-197da9ea2bac",
+   "lemma": "heavy-handed",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heavy-handed",
+    "heavy handed"
+   ],
+   "glossEn": "clumsy and lacking subtlety",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "c2a7fbc3-d0b7-50b2-8acb-7bbfab198ad3",
+   "lemma": "pacing",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pacing"
+   ],
+   "glossEn": "speed at which a story unfolds",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "3ea9e119-c752-5652-a7cd-bd467f7295c1",
+   "lemma": "exposition",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "exposition"
+   ],
+   "glossEn": "part of a story giving background information",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "5d03b684-cba8-5ee3-a10f-5c1f3886abcb",
+   "lemma": "backstory",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "backstory",
+    "back-story",
+    "back story"
+   ],
+   "glossEn": "history of a character before the main story",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "81a385ec-31b7-550b-a056-3e5f2e390416",
+   "lemma": "monologue",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "monologue",
+    "monolog"
+   ],
+   "glossEn": "long speech by one character or person",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "00277b48-c948-5813-9cb5-668b5bce45d6",
+   "lemma": "preface",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "preface"
+   ],
+   "glossEn": "introduction at the beginning of a book",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "66128968-5469-5e9c-851b-16e4c1637972",
+   "lemma": "foreword",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "foreword"
+   ],
+   "glossEn": "short introduction written by someone other than author",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "5f275e11-989e-54ec-8c35-6d64bbb0d42a",
+   "lemma": "annotation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "annotation"
+   ],
+   "glossEn": "note added to a text as explanation",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "752bb527-27e3-5eaa-a41d-fd36122a3576",
+   "lemma": "abridged",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "abridged"
+   ],
+   "glossEn": "shortened by cutting parts of the text",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "6719631e-7c7a-513b-9b32-b32b829498e1",
+   "lemma": "synopsis",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "synopsis"
+   ],
+   "glossEn": "brief summary of a book, film or play",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "575340f7-3af2-55e5-a593-6c0ecacd66dc",
+   "lemma": "pamphlet",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pamphlet"
+   ],
+   "glossEn": "small unbound booklet on a single subject",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "97954f4d-4b14-5e07-a211-57bc9bef9ff6",
+   "lemma": "manifesto",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "manifesto"
+   ],
+   "glossEn": "public declaration of aims and principles",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "4e0774f8-b68c-5262-8a37-dfa116bfe8ff",
+   "lemma": "periodical",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "periodical"
+   ],
+   "glossEn": "magazine or journal published at regular intervals",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "e8d08275-b18c-5eb8-bfe4-bba9f9b7bb26",
+   "lemma": "quarterly",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quarterly"
+   ],
+   "glossEn": "publication issued four times a year",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "3c17abb0-0e98-50f0-8895-5bfb659e62aa",
+   "lemma": "broadsheet",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "broadsheet"
+   ],
+   "glossEn": "large-format serious newspaper",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "8cca440e-3513-58cf-a85f-a4e6b542af1b",
+   "lemma": "circulation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "circulation"
+   ],
+   "glossEn": "number of copies a newspaper sells",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "db2aac14-02c6-59ab-9a1b-65d2f659468e",
+   "lemma": "readership",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "readership"
+   ],
+   "glossEn": "the readers of a publication collectively",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "bb1a782e-5cde-58b7-9261-88b9e3f78eaa",
+   "lemma": "hardback",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hardback"
+   ],
+   "glossEn": "book with a stiff cover",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "f4a656af-606d-5270-b4ef-4c223ae108a4",
+   "lemma": "serialize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "serialize",
+    "serialise"
+   ],
+   "glossEn": "publish or broadcast in installments",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "bfe423ed-eee8-56d2-9662-cb1f94e8f2bb",
+   "lemma": "pagination",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pagination"
+   ],
+   "glossEn": "numbering of the pages of a document",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "f347c094-c77e-5ffe-b0b7-86d9c205b7d4",
+   "lemma": "self-publish",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "self-publish",
+    "self publish"
+   ],
+   "glossEn": "publish your own book without a publisher",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "848426c1-396b-5f97-a3f0-774872fab343",
+   "lemma": "newsroom",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "newsroom"
+   ],
+   "glossEn": "office where journalists prepare the news",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "1e7d4e1c-f4f8-5150-a8ab-e8ed7abfc9b7",
+   "lemma": "subheading",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subheading",
+    "sub-heading"
+   ],
+   "glossEn": "smaller heading below a main headline",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "779405af-2372-5916-8336-a3aad553ba85",
+   "lemma": "slander",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "slander"
+   ],
+   "glossEn": "spoken false statement damaging someone's reputation",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "b603a9a4-955c-577f-b55a-a91739182dad",
+   "lemma": "defamatory",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "defamatory"
+   ],
+   "glossEn": "damaging someone's good reputation",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "177047b1-b546-5ad4-ae31-2fb52ddbf698",
+   "lemma": "attribution",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "attribution"
+   ],
+   "glossEn": "crediting a quote or work to its source",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "d029c68c-374c-5d97-a8d9-75cc577994b6",
+   "lemma": "aggregator",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aggregator"
+   ],
+   "glossEn": "website collecting content from many sources",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "10b96787-d2a6-5adf-84b8-618311755e0b",
+   "lemma": "censor",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "censor"
+   ],
+   "glossEn": "suppress parts of media considered unacceptable",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "f18de058-3b36-5a28-ab8a-6cced4f1976c",
+   "lemma": "gatekeeper",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gatekeeper"
+   ],
+   "glossEn": "person controlling access, for example to publication",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "d4cacd64-0076-5d0e-8767-a1442782fd0c",
+   "lemma": "investigative",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "investigative"
+   ],
+   "glossEn": "involving deep research to uncover hidden facts",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "07367127-d6df-5c1f-9197-5fddc31feb39",
+   "lemma": "sensationalize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sensationalize",
+    "sensationalise"
+   ],
+   "glossEn": "present news in an exaggerated, shocking way",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "44c3f5d7-5966-53b6-9706-b70557b0601a",
+   "lemma": "hype",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hype"
+   ],
+   "glossEn": "intense, exaggerated publicity",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "2a3f8733-d2d7-5946-a513-dbb2d354b2e0",
+   "lemma": "scaremongering",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scaremongering",
+    "scare-mongering"
+   ],
+   "glossEn": "spreading frightening rumors to alarm people",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  }
+ ]
+}

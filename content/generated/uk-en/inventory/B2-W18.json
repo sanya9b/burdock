@@ -1,0 +1,672 @@
+{
+ "chunk": "B2-W18",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "2cef4061-deb1-5af7-84aa-5a135e4b3881",
+   "lemma": "morphine",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "morphine"
+   ],
+   "glossEn": "strong drug used against severe pain",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "d52c6f8e-89e9-5ddc-b2ef-f97eeb38fcc3",
+   "lemma": "IV",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "IV",
+    "IVs",
+    "intravenous"
+   ],
+   "glossEn": "drip that puts fluids into a vein",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "49478425-e9e5-5e74-8b56-4647e4bf5325",
+   "lemma": "casevac",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "casevac",
+    "casevacs",
+    "CASEVAC"
+   ],
+   "glossEn": "evacuation of casualties from the battlefield",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "ea053a55-3dd5-5753-9e0c-abed8181784c",
+   "lemma": "loader",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "loader",
+    "loaders"
+   ],
+   "glossEn": "crew member who loads shells into a gun",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "4cc110a0-a616-5291-aedf-b5c761a14308",
+   "lemma": "radio operator",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "radio operator",
+    "radio operators"
+   ],
+   "glossEn": "soldier responsible for radio communication",
+   "topics": [
+    "military",
+    "communication"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "597c5ee4-1761-5be5-a1dc-3ffd267935aa",
+   "lemma": "drone operator",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "drone operator",
+    "drone operators"
+   ],
+   "glossEn": "soldier who flies military drones",
+   "topics": [
+    "military",
+    "it"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "a21fb146-304a-5131-a4d5-94e12bcb1d49",
+   "lemma": "deserter",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deserter",
+    "deserters"
+   ],
+   "glossEn": "soldier who leaves service without permission",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "88ca839b-42fc-52f6-8ab1-78edc3db9380",
+   "lemma": "desertion",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "desertion",
+    "desertions"
+   ],
+   "glossEn": "leaving military service without permission",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "2e440d16-4749-5a30-8e3d-bf5ed7b009fc",
+   "lemma": "mercenary",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mercenary",
+    "mercenaries"
+   ],
+   "glossEn": "soldier who fights for pay for a foreign side",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "582b1fd7-39d8-5d6f-aa71-5275ad2c8152",
+   "lemma": "warrant officer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "warrant officer",
+    "warrant officers"
+   ],
+   "glossEn": "rank between sergeant and lieutenant",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "11a1d97e-3610-59ba-800b-0478ad664fdb",
+   "lemma": "noncombatant",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "noncombatant",
+    "noncombatants",
+    "non-combatant"
+   ],
+   "glossEn": "person not taking part in fighting",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "33fc4145-d079-517d-a036-d0affd291c47",
+   "lemma": "stronghold",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stronghold",
+    "strongholds"
+   ],
+   "glossEn": "heavily defended place",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "ddf5a69e-652e-5dfa-af7b-e464cc5e7a09",
+   "lemma": "fortify",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fortify",
+    "fortifies",
+    "fortified",
+    "fortifying"
+   ],
+   "glossEn": "strengthen a place against attack",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "96aeae89-cd24-5ae3-8c0e-d1c0d61acb77",
+   "lemma": "booby trap",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "booby trap",
+    "booby traps",
+    "booby-trap"
+   ],
+   "glossEn": "hidden explosive set off by touching an object",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "01ce9c29-21bf-5076-b4d8-5ea168677e93",
+   "lemma": "tripwire",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tripwire",
+    "tripwires",
+    "trip wire"
+   ],
+   "glossEn": "hidden wire that sets off a trap",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "f42707b5-12f6-5e82-88ee-1f83249907d6",
+   "lemma": "concealment",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "concealment"
+   ],
+   "glossEn": "hiding from enemy observation",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "327c4212-18b4-5521-bb9d-a74e113dcca4",
+   "lemma": "decoy",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "decoy",
+    "decoys"
+   ],
+   "glossEn": "fake target used to mislead the enemy",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "599d9a5d-3fb4-565e-9ede-b711806b1ed1",
+   "lemma": "defensive",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "defensive"
+   ],
+   "glossEn": "intended to protect against attack",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "647e46ca-743d-57f8-a27d-a8599b44d517",
+   "lemma": "negotiations",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "negotiations",
+    "negotiation"
+   ],
+   "glossEn": "formal talks to reach an agreement",
+   "topics": [
+    "military",
+    "communication"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "ce556553-66cf-56aa-9322-a40a038b60fd",
+   "lemma": "disobey",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disobey",
+    "disobeys",
+    "disobeyed",
+    "disobeying"
+   ],
+   "glossEn": "refuse to follow an order",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "bcba31ec-68aa-5bd4-9dad-e1a2b2ca2749",
+   "lemma": "overrun",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overrun",
+    "overruns",
+    "overran",
+    "overrunning"
+   ],
+   "glossEn": "defeat and take over a position by force",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "4da02e81-1089-5b01-930a-ed5ffa081f8c",
+   "lemma": "encircle",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "encircle",
+    "encircles",
+    "encircled",
+    "encircling"
+   ],
+   "glossEn": "surround enemy forces completely",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "268fac12-b18e-5064-a950-8ea0c2d0f62e",
+   "lemma": "encirclement",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "encirclement",
+    "encirclements"
+   ],
+   "glossEn": "situation of being surrounded by the enemy",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "6ed6ddb8-c617-5e76-b54a-239acbd30577",
+   "lemma": "regroup",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "regroup",
+    "regroups",
+    "regrouped",
+    "regrouping"
+   ],
+   "glossEn": "gather forces again after a setback",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "32c09263-e84b-58f5-9211-2de93dff0064",
+   "lemma": "repel",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "repel",
+    "repels",
+    "repelled",
+    "repelling"
+   ],
+   "glossEn": "drive back an attack",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "b63f8ce1-efad-5ef5-8cd0-1fff0e00a346",
+   "lemma": "firefight",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "firefight",
+    "firefights"
+   ],
+   "glossEn": "exchange of gunfire between groups",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "a7e5db3f-74bc-5e4b-92cb-22ffb0a1cf2a",
+   "lemma": "crossfire",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "crossfire",
+    "cross-fire"
+   ],
+   "glossEn": "gunfire coming from two or more directions",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "7d6df6db-2c77-5b90-a65b-8ea5e334bcc5",
+   "lemma": "bombardment",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bombardment",
+    "bombardments"
+   ],
+   "glossEn": "continuous attack with shells or bombs",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "5687464c-7101-576a-8a22-d13d44641f34",
+   "lemma": "barrage",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "barrage",
+    "barrages"
+   ],
+   "glossEn": "heavy continuous artillery fire",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "d866aac2-ffe5-5014-ab09-63c1bde62404",
+   "lemma": "salvo",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "salvo",
+    "salvos",
+    "salvoes"
+   ],
+   "glossEn": "several guns or missiles fired at once",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "b3457562-54ef-5413-a790-a7e08d67dec9",
+   "lemma": "suppression",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "suppression"
+   ],
+   "glossEn": "fire that stops the enemy from acting",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "f0579f4e-ba5e-574b-aa3b-5e7273ec98ab",
+   "lemma": "outflank",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "outflank",
+    "outflanks",
+    "outflanked",
+    "outflanking"
+   ],
+   "glossEn": "move around the side of the enemy",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "09526957-385e-502c-8ed4-163061db6982",
+   "lemma": "maneuver",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "maneuver",
+    "maneuvers",
+    "manoeuvre"
+   ],
+   "glossEn": "planned movement of troops",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "1be2e6e6-e993-5adb-b0e2-a39733a6680f",
+   "lemma": "tactic",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tactic",
+    "tactics"
+   ],
+   "glossEn": "method used to win a fight",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "bc57af2e-4c26-5d0a-ad4f-079b98238fa8",
+   "lemma": "tactical",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tactical"
+   ],
+   "glossEn": "relating to small-scale battlefield actions",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "b2020653-5616-5645-b500-3c241013e9f7",
+   "lemma": "fallout shelter",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fallout shelter",
+    "fallout shelters"
+   ],
+   "glossEn": "shelter that protects from radioactive dust",
+   "topics": [
+    "military",
+    "city"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "abd5922a-0ea8-52b8-ae8e-bda7bad5134a",
+   "lemma": "propane",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "propane"
+   ],
+   "glossEn": "gas in cylinders used for cooking and heating",
+   "topics": [
+    "military",
+    "city"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "8084f88c-680a-5ed3-b526-9f6d0d4160d7",
+   "lemma": "purification",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "purification"
+   ],
+   "glossEn": "making water clean enough to drink",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "bcd0e815-6800-5df5-ad30-edd84071bcc2",
+   "lemma": "filtration",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "filtration"
+   ],
+   "glossEn": "passing water through a filter to clean it",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "506077ab-222d-5297-93fc-d783d888b9ca",
+   "lemma": "chlorine",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chlorine"
+   ],
+   "glossEn": "chemical used to disinfect drinking water",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  }
+ ]
+}

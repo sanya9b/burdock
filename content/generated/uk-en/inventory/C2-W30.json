@@ -1,0 +1,152 @@
+{
+ "chunk": "C2-W30",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "8e9387a0-7ff0-5e5a-a429-0f85ed2755c5",
+   "lemma": "penitentiary",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "penitentiary"
+   ],
+   "glossEn": "prison for serious offenders",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "2d46cbde-f5cf-5a18-87d8-c46b43d9aeb8",
+   "lemma": "custodial",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "custodial"
+   ],
+   "glossEn": "involving imprisonment",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "1d3e4810-ceea-51d1-ad62-7e458f601843",
+   "lemma": "recidivism",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "recidivism"
+   ],
+   "glossEn": "tendency of offenders to commit crimes again",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "4ea2222a-96cb-5604-9ff3-b20963e35c85",
+   "lemma": "dereliction",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dereliction"
+   ],
+   "glossEn": "shameful failure to fulfill a duty",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "03a32318-212a-5a58-b91e-99c06629f01d",
+   "lemma": "infraction",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "infraction"
+   ],
+   "glossEn": "minor violation of a rule or law",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "f2ed83e9-ffc5-5bdb-96aa-55ebb3979264",
+   "lemma": "contravene",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "contravene"
+   ],
+   "glossEn": "act against a law or rule",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "35a1b6ef-cd91-51db-8867-bd9114ac0892",
+   "lemma": "contravention",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "contravention"
+   ],
+   "glossEn": "action that breaks a law or rule",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "bcbec6d8-86bd-58c2-8aa9-9862f86282fb",
+   "lemma": "transgression",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "transgression"
+   ],
+   "glossEn": "act that breaks a law or moral rule",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "f7d5ca90-8829-5f2e-86ab-b2b1e8ee0a56",
+   "lemma": "proscribe",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "proscribe"
+   ],
+   "glossEn": "forbid by law",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "3754237f-c87c-5290-8b98-21fc2ed9daf5",
+   "lemma": "penal",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "penal"
+   ],
+   "glossEn": "relating to punishment under the law",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "acd22174-1234-57d9-93af-a49b17893d94",
+   "lemma": "extrajudicial",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "extrajudicial",
+    "extra-judicial"
+   ],
+   "glossEn": "done outside the authority of a court",
+   "topics": [],
+   "area": "society-law"
+  }
+ ]
+}

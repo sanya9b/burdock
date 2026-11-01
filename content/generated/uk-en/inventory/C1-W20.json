@@ -1,0 +1,567 @@
+{
+ "chunk": "C1-W20",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "5a8d7845-3e3d-5da9-9d4d-b04fa5f7f397",
+   "lemma": "aerodynamic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aerodynamic"
+   ],
+   "glossEn": "shaped to reduce air resistance",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "53925333-b429-59fe-b689-010e52b962d0",
+   "lemma": "modular",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "modular"
+   ],
+   "glossEn": "built from standardized interchangeable units",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "37888994-f2ba-565a-8abd-0b45375e853a",
+   "lemma": "interchangeable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "interchangeable"
+   ],
+   "glossEn": "able to be used in place of each other",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "e25fa417-fa5d-5518-9a56-96a3eb00c653",
+   "lemma": "standardize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "standardize",
+    "standardise"
+   ],
+   "glossEn": "make everything conform to one standard",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "735bb9c6-3821-580f-a821-f23dc8ed93d2",
+   "lemma": "standardization",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "standardization",
+    "standardisation"
+   ],
+   "glossEn": "process of making things conform to one standard",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "782a441b-bac7-5420-b710-23a41b1f2ff4",
+   "lemma": "quality control",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quality control"
+   ],
+   "glossEn": "checking products to ensure they meet standards",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "15a791da-bb1b-5c6e-a5da-b3c516f6ae2d",
+   "lemma": "ergonomic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ergonomic"
+   ],
+   "glossEn": "designed for comfort and efficiency of use",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "ea818475-80fe-5cdd-afb5-4685f46832c6",
+   "lemma": "workmanship",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "workmanship"
+   ],
+   "glossEn": "skill with which something is made",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "01e51bbd-c111-52e2-8ffa-1f5cd2207f33",
+   "lemma": "shop floor",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shop floor",
+    "shop-floor"
+   ],
+   "glossEn": "area of a factory where goods are made",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "9e4d89be-4947-51a9-862b-8d0c59a14b5d",
+   "lemma": "consumables",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "consumables"
+   ],
+   "glossEn": "goods that are used up and replaced regularly",
+   "topics": [
+    "shopping"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "8860c4e7-f40c-53f2-89d5-fabff0efadc3",
+   "lemma": "power grid",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "power grid"
+   ],
+   "glossEn": "network delivering electricity across a region",
+   "topics": [
+    "city"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "f85ad9b8-32dd-5ab4-9513-eac77fe10706",
+   "lemma": "renewables",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "renewables"
+   ],
+   "glossEn": "energy sources like wind and solar that never run out",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "1c700425-c54f-5de6-802b-c4ff74e5a833",
+   "lemma": "decarbonize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "decarbonize",
+    "decarbonise"
+   ],
+   "glossEn": "cut carbon dioxide emissions from an economy",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "4f06eb61-90e9-53d0-9109-70be7712ceaf",
+   "lemma": "decarbonization",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "decarbonization",
+    "decarbonisation"
+   ],
+   "glossEn": "reduction of carbon emissions in energy and industry",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "0c9bb9cb-2bbb-5db2-adda-059336393147",
+   "lemma": "electrification",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "electrification"
+   ],
+   "glossEn": "conversion of a system to run on electricity",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "9fd7b716-8ed7-5b49-8630-e04a0a992a59",
+   "lemma": "electrify",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "electrify"
+   ],
+   "glossEn": "convert to electric power; thrill an audience",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "7db1cd16-6578-5380-86ed-393e1cb8fc9c",
+   "lemma": "megawatt",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "megawatt"
+   ],
+   "glossEn": "unit of power equal to one million watts",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "8782d8ba-aee5-524d-a315-50fabba591d1",
+   "lemma": "kilowatt-hour",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "kilowatt-hour",
+    "kilowatt hour"
+   ],
+   "glossEn": "unit of energy used for electricity billing",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "f64afc3f-4dd3-59f6-a4e3-55d25a2dbe9f",
+   "lemma": "photovoltaic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "photovoltaic"
+   ],
+   "glossEn": "producing electricity directly from sunlight",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "7c72c092-abd7-5462-83d4-1ee9f8175170",
+   "lemma": "geothermal",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "geothermal"
+   ],
+   "glossEn": "relating to heat from inside the earth",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "919ffde6-2515-50d5-936a-d64f0fbf2be5",
+   "lemma": "hydroelectric",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hydroelectric",
+    "hydro-electric"
+   ],
+   "glossEn": "producing electricity from flowing water",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "cad214e4-a0ff-5d9d-bee7-44e2d568a185",
+   "lemma": "wind farm",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wind farm",
+    "windfarm"
+   ],
+   "glossEn": "group of wind turbines generating electricity",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "1ffd731a-ef49-55f9-b22a-798274bf340a",
+   "lemma": "reactor",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reactor"
+   ],
+   "glossEn": "device where a controlled nuclear reaction produces energy",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "77196632-aef4-5336-a2cf-a3f8c51599a3",
+   "lemma": "petroleum",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "petroleum"
+   ],
+   "glossEn": "crude oil and the products made from it",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "76acf99b-e5fc-5528-94d2-bc63e5f87948",
+   "lemma": "petrochemical",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "petrochemical"
+   ],
+   "glossEn": "made from petroleum or natural gas",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "373e5384-43cf-596f-9532-2e47135b4543",
+   "lemma": "liquefy",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "liquefy",
+    "liquify"
+   ],
+   "glossEn": "make or become liquid",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "7d216c21-3409-58f4-b52f-5d33ac1aa5ae",
+   "lemma": "tanker",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tanker"
+   ],
+   "glossEn": "ship or truck carrying oil or gas in bulk",
+   "topics": [
+    "travel"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "fa71be05-01cf-5ff6-8a71-625606706553",
+   "lemma": "energy-efficient",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "energy-efficient",
+    "energy efficient"
+   ],
+   "glossEn": "using little energy to do its job",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "28528bdf-d960-5340-9bdf-b743b0cdf521",
+   "lemma": "net zero",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "net zero",
+    "net-zero"
+   ],
+   "glossEn": "balance between emissions produced and emissions removed",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "92bafbb0-1cef-5786-83d1-9619ebdc00c1",
+   "lemma": "carbon-neutral",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "carbon-neutral",
+    "carbon neutral"
+   ],
+   "glossEn": "adding no net carbon dioxide to the atmosphere",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "6b03ddd8-f154-5dde-8b2c-b8b3e33433fc",
+   "lemma": "transformer",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "transformer"
+   ],
+   "glossEn": "device that changes the voltage of electricity",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "60de7748-947e-58ce-8fec-2ecae00b01a3",
+   "lemma": "voltage",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "voltage"
+   ],
+   "glossEn": "force of an electric current measured in volts",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "cdb3c72e-e65e-55c6-ae6c-f8a5aec9a277",
+   "lemma": "smart meter",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "smart meter",
+    "smart-meter"
+   ],
+   "glossEn": "digital meter sending usage data to the supplier",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "6dc3519c-5c25-5727-bf0e-40f3303c86fa",
+   "lemma": "weatherproof",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "weatherproof",
+    "weather-proof"
+   ],
+   "glossEn": "able to withstand wind, rain and cold",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "e3969ea2-9107-5d79-a330-0ff9b5aaef45",
+   "lemma": "reinforced concrete",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reinforced concrete"
+   ],
+   "glossEn": "concrete strengthened with embedded steel bars",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "c7136bb7-2341-5567-a878-bdc81084f237",
+   "lemma": "excavate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "excavate"
+   ],
+   "glossEn": "dig out earth to build or find something",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "e6ee471f-8ce0-5aa6-955c-ac5ec61fee70",
+   "lemma": "refurbishment",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "refurbishment"
+   ],
+   "glossEn": "renovation of a building or equipment",
+   "topics": [
+    "city"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "31ad0adc-7001-5a83-aef5-5c0f01fc0c65",
+   "lemma": "haulage",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "haulage"
+   ],
+   "glossEn": "commercial transport of goods by road",
+   "topics": [
+    "travel"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "0e2b9de9-3131-5049-a6c3-76c291ff557d",
+   "lemma": "mass transit",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mass transit"
+   ],
+   "glossEn": "public transport system in a city",
+   "topics": [
+    "city"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "dd21efbc-e748-5656-9f6a-3c099fb325b2",
+   "lemma": "fiber-optic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fiber-optic",
+    "fibre-optic",
+    "fiber optic",
+    "fibre optic"
+   ],
+   "glossEn": "transmitting data as light through glass fibers",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  }
+ ]
+}

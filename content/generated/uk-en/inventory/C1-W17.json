@@ -1,0 +1,578 @@
+{
+ "chunk": "C1-W17",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "f7ee6ceb-1eab-5d2a-bada-94902ca9e898",
+   "lemma": "encampment",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "encampment",
+    "encampments",
+    "tent city"
+   ],
+   "glossEn": "group of tents where homeless people live",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "f924a0f3-b1bf-5ca4-b972-d6fd09c495e2",
+   "lemma": "frontage",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "frontage",
+    "frontages",
+    "street frontage"
+   ],
+   "glossEn": "front of a building facing the street",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "7b4c55c7-bfbb-5b21-8213-0df9342055ad",
+   "lemma": "mews",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mews",
+    "mews house"
+   ],
+   "glossEn": "small street of converted stables behind houses",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "f772a121-62a0-5ff1-8675-96ef3d3deef6",
+   "lemma": "seedy",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "seedy",
+    "seedier",
+    "seediest"
+   ],
+   "glossEn": "run-down and linked with crime or vice",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "3862240b-4d5f-5ea3-812a-0dae7986e59b",
+   "lemma": "crime-ridden",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "crime-ridden"
+   ],
+   "glossEn": "suffering from a great deal of crime",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "d4271830-fee5-587e-9a17-a579be262a0a",
+   "lemma": "no-go area",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "no-go area",
+    "no-go areas",
+    "no-go zone"
+   ],
+   "glossEn": "district considered too dangerous to enter",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "3655b4e5-1171-5191-8d33-d0783b8b6fe8",
+   "lemma": "rising damp",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rising damp"
+   ],
+   "glossEn": "moisture rising from the ground into walls",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "b26e478d-a468-5c4b-a68c-60d2149714c0",
+   "lemma": "brutalist",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brutalist",
+    "brutalism"
+   ],
+   "glossEn": "in the raw concrete architectural style of the 1950s-70s",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "ff771610-71e5-5517-9ecd-f47f33c78cb4",
+   "lemma": "soup kitchen",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "soup kitchen",
+    "soup kitchens"
+   ],
+   "glossEn": "place giving free meals to people in need",
+   "topics": [
+    "city",
+    "food"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "75025143-4243-515e-85c1-9ff859063802",
+   "lemma": "subsidize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subsidize",
+    "subsidise"
+   ],
+   "glossEn": "pay part of the cost to keep prices low",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "eab32043-0034-542d-a964-2e95c496d98d",
+   "lemma": "volatility",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "volatility"
+   ],
+   "glossEn": "tendency of prices to change sharply and unpredictably",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "9e0c77d9-c58e-54d1-b9ac-38cb687d2b8e",
+   "lemma": "inflationary",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inflationary"
+   ],
+   "glossEn": "causing or tending to cause price rises",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "72cd0d97-67cd-5c7d-89a5-69d7188a9fb8",
+   "lemma": "macroeconomic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "macroeconomic",
+    "macro-economic"
+   ],
+   "glossEn": "relating to the economy as a whole",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "eaf863d6-09b4-504e-b091-249c8c316489",
+   "lemma": "taxation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "taxation"
+   ],
+   "glossEn": "system of imposing and collecting taxes",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "2e3528c6-549b-5c84-9279-c552554afb7a",
+   "lemma": "devaluation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "devaluation"
+   ],
+   "glossEn": "official reduction in a currency's value",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "45c0747a-2d56-5d37-936a-979c1e36b39b",
+   "lemma": "devalue",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "devalue"
+   ],
+   "glossEn": "reduce the value of a currency",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "14548c15-7d68-51f0-914d-e684875e8be4",
+   "lemma": "depreciation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "depreciation"
+   ],
+   "glossEn": "decline in value of an asset or currency over time",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "712d0805-c2db-5fe5-8313-9edba748f40c",
+   "lemma": "depreciate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "depreciate"
+   ],
+   "glossEn": "fall in value over time",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "c98d1d9d-cac9-5f75-a15f-fcf869d564d1",
+   "lemma": "debtor",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "debtor"
+   ],
+   "glossEn": "person or institution that owes money",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "11e6a827-617b-535c-ad11-f50dd020aa39",
+   "lemma": "insolvency",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "insolvency"
+   ],
+   "glossEn": "state of being unable to pay debts",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "621495c6-b0b4-5c88-ad0b-a1844fa3d859",
+   "lemma": "protectionist",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "protectionist"
+   ],
+   "glossEn": "favoring limits on imports to protect domestic producers",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "c0a63186-3113-5f9f-8be9-ca642ce4c48b",
+   "lemma": "disposable income",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disposable income"
+   ],
+   "glossEn": "money left after taxes for spending or saving",
+   "topics": [
+    "shopping"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "d12fd5de-ca5b-5f2c-a9a9-e8fec4431ea7",
+   "lemma": "underemployment",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "underemployment",
+    "under-employment"
+   ],
+   "glossEn": "having work below one's skill level or desired hours",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "c2adf49f-6766-5d69-b97e-4b0f12cdc880",
+   "lemma": "purchasing power",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "purchasing power"
+   ],
+   "glossEn": "amount of goods a sum of money can buy",
+   "topics": [
+    "shopping"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "4765b7af-4a06-5550-bc90-086b0ebb35e3",
+   "lemma": "affluence",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "affluence"
+   ],
+   "glossEn": "state of having plenty of money and possessions",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "a642a73a-59e8-5fc8-8e56-6e97893ae21a",
+   "lemma": "shortfall",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shortfall"
+   ],
+   "glossEn": "amount by which something falls short of what is needed",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "9474ae0d-b53c-52c0-a66b-2c7e68fb2cd1",
+   "lemma": "oversupply",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "oversupply",
+    "over-supply"
+   ],
+   "glossEn": "supply greater than demand",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "5a0f8903-7eb8-53d1-8dd7-657613c28f24",
+   "lemma": "hyperinflation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hyperinflation",
+    "hyper-inflation"
+   ],
+   "glossEn": "extremely rapid, out-of-control price rises",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "59b7fee8-8621-5367-a46d-506a1064e330",
+   "lemma": "incentivize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incentivize",
+    "incentivise"
+   ],
+   "glossEn": "motivate people with rewards or benefits",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "ffbbad70-4919-5763-8144-09295fc45e04",
+   "lemma": "disincentive",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disincentive"
+   ],
+   "glossEn": "factor that discourages a particular action",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "92880af8-58aa-5e12-9ef5-dab8b64ad31e",
+   "lemma": "precarious",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "precarious"
+   ],
+   "glossEn": "not securely held; likely to fail or collapse",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "ef3ef51e-decd-5290-a70d-4199ddf88e81",
+   "lemma": "gig economy",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gig economy"
+   ],
+   "glossEn": "labor market of short-term freelance jobs",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "4d8f61f2-8ad6-59ce-9743-20c37376ef53",
+   "lemma": "privatize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "privatize",
+    "privatise"
+   ],
+   "glossEn": "transfer a state-owned business to private ownership",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "63c7e6f4-8594-5bf8-b9c2-8f301f91529b",
+   "lemma": "leverage",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "leverage"
+   ],
+   "glossEn": "use of borrowed money to increase potential returns",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "485d1b0d-0628-540a-bc0c-a7af03ef7e32",
+   "lemma": "amortize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "amortize",
+    "amortise"
+   ],
+   "glossEn": "pay off a debt gradually in regular installments",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "8d62d4dd-b032-559a-8a45-1f9da3425ab1",
+   "lemma": "amortization",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "amortization",
+    "amortisation"
+   ],
+   "glossEn": "gradual repayment of a loan over time",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "e4cb346e-1ec6-5ae8-9e3b-ed64c0718a39",
+   "lemma": "creditworthiness",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "creditworthiness",
+    "credit-worthiness"
+   ],
+   "glossEn": "how likely a borrower is to repay a loan",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "9c4a7183-350b-555b-b1cb-96ae02068e1f",
+   "lemma": "auditor",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "auditor"
+   ],
+   "glossEn": "person who officially examines financial accounts",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "5bd4d77c-765e-5a95-9c76-bae65771827b",
+   "lemma": "ledger",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ledger"
+   ],
+   "glossEn": "book or file recording financial transactions",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "276b6474-aa22-5272-8ab6-d61685159bc3",
+   "lemma": "profitability",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "profitability"
+   ],
+   "glossEn": "degree to which a business makes profit",
+   "topics": [],
+   "area": "economy-technology"
+  }
+ ]
+}

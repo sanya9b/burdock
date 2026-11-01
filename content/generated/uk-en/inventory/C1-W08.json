@@ -1,0 +1,600 @@
+{
+ "chunk": "C1-W08",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "7a570112-709f-51ab-9aec-d512fcef64e6",
+   "lemma": "buzzword",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "buzzword",
+    "buzz word"
+   ],
+   "glossEn": "fashionable word that sounds impressive",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "e0d768f9-0030-5355-b266-870619c70d67",
+   "lemma": "catchphrase",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "catchphrase",
+    "catch phrase"
+   ],
+   "glossEn": "well-known phrase associated with a person or show",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "48b2c226-146d-5933-b8bc-f6c179f5e358",
+   "lemma": "tagline",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tagline",
+    "tag line"
+   ],
+   "glossEn": "memorable slogan for a product or film",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "8abeb32f-e1c9-56da-b287-752c4fdd4d72",
+   "lemma": "jingle",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jingle"
+   ],
+   "glossEn": "short catchy tune used in advertising",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "f032e629-4f11-5ea1-b77d-ea6aec2d43b2",
+   "lemma": "teleprompter",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "teleprompter"
+   ],
+   "glossEn": "screen showing a presenter their script",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "863f73fd-e2a1-5a6f-a4ab-463c46923839",
+   "lemma": "livestream",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "livestream",
+    "live-stream",
+    "live stream"
+   ],
+   "glossEn": "broadcast live over the internet",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "2a8ea5ad-8729-5f71-9b19-df23f75d49be",
+   "lemma": "monetize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "monetize",
+    "monetise"
+   ],
+   "glossEn": "earn money from content or an audience",
+   "topics": [
+    "it"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "d950b4e9-09b3-595a-8c31-24ab400fee0e",
+   "lemma": "syndicate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "syndicate"
+   ],
+   "glossEn": "sell content for publication in many outlets",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "277c1d4a-6811-5b30-babe-24434fb7114e",
+   "lemma": "rerun",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rerun",
+    "re-run"
+   ],
+   "glossEn": "repeat broadcast of a program",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "68eb2766-0e85-58be-8871-1ab5ee606cba",
+   "lemma": "newscast",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "newscast"
+   ],
+   "glossEn": "broadcast of news on radio or television",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "c7eaaa02-f807-5722-b29b-dedc526ad3bb",
+   "lemma": "viewership",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "viewership"
+   ],
+   "glossEn": "the audience of a television program",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "4fa383cc-c674-5d19-b919-2a56faaec9d3",
+   "lemma": "airtime",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "airtime",
+    "air time"
+   ],
+   "glossEn": "time given to something on radio or television",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "b11d88fd-8522-50a3-ae66-d57b8fb3d183",
+   "lemma": "primetime",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "primetime",
+    "prime time",
+    "prime-time"
+   ],
+   "glossEn": "evening hours with the largest television audience",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "3362b1bd-8c08-5806-b641-c2cd40964b9f",
+   "lemma": "commentator",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "commentator"
+   ],
+   "glossEn": "person who discusses news or sports publicly",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "9963889f-baa7-5fa9-ae7f-9462c67483fe",
+   "lemma": "slant",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "slant"
+   ],
+   "glossEn": "biased way of presenting information",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "d3c8d519-a1dc-556e-ae70-cf1c8d90dbc7",
+   "lemma": "sidebar",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sidebar",
+    "side bar"
+   ],
+   "glossEn": "short extra article beside a main story",
+   "topics": [
+    "communication",
+    "it"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "49ee37d9-9ac4-53cc-85df-25da0123f40d",
+   "lemma": "framing",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "framing"
+   ],
+   "glossEn": "way an issue is presented to shape perception",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "aa624921-d4e3-59b1-aeb2-7033b6739b14",
+   "lemma": "unverified",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unverified"
+   ],
+   "glossEn": "not yet checked or proved true",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "dc126482-4921-5d0e-bb13-2b9af5e3cd95",
+   "lemma": "fabricate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fabricate"
+   ],
+   "glossEn": "invent false information",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "f8c28e70-c914-533e-9c6c-ba48cfe25c7f",
+   "lemma": "fabrication",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fabrication"
+   ],
+   "glossEn": "invented lie or false story",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "7710723e-e886-5254-8edc-cb5aac02fa90",
+   "lemma": "smear",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "smear"
+   ],
+   "glossEn": "damage a reputation with false accusations",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "2e11603d-0c15-59fe-bcbf-a063bc73d54a",
+   "lemma": "gaffe",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gaffe"
+   ],
+   "glossEn": "embarrassing public blunder or remark",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "98d44595-73f4-5532-9fb3-5639c83b25c0",
+   "lemma": "blunder",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blunder"
+   ],
+   "glossEn": "careless, stupid mistake",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "b3bcf93a-8b64-50fe-948c-1fca8392f048",
+   "lemma": "backlash",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "backlash"
+   ],
+   "glossEn": "strong negative reaction to an event or decision",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "9fd0e9d1-b709-5556-8da5-6a7617166447",
+   "lemma": "outcry",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "outcry"
+   ],
+   "glossEn": "strong public expression of anger",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "95b0bf0b-1d02-543c-b19b-ca0d38f301e4",
+   "lemma": "uproar",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "uproar"
+   ],
+   "glossEn": "loud public outrage or disturbance",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "c07c6498-3a63-5f51-9551-11b04773c380",
+   "lemma": "provocative",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "provocative"
+   ],
+   "glossEn": "intended to cause anger, debate or interest",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "82a2605f-32b1-5b03-b6e8-21f747072101",
+   "lemma": "incendiary",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incendiary"
+   ],
+   "glossEn": "designed to provoke strong anger or conflict",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "48ae2676-4212-5d5a-8df6-563905a260c1",
+   "lemma": "populist",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "populist"
+   ],
+   "glossEn": "appealing to ordinary people against elites",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "4d35678a-1ea1-5419-9736-823c0ad93e14",
+   "lemma": "long-form",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "long-form",
+    "longform"
+   ],
+   "glossEn": "of journalism, lengthy and in-depth",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "b89fd864-c00a-5d26-8dec-852d1a64f252",
+   "lemma": "filler",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "filler"
+   ],
+   "glossEn": "low-value content used to fill space or time",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "8354bc1b-c8c2-53fa-abcf-82e87ee2bd75",
+   "lemma": "copywriter",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "copywriter"
+   ],
+   "glossEn": "person who writes advertising text",
+   "topics": [
+    "communication",
+    "work"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "eb464628-5585-5e9f-9c6f-4a516ace443e",
+   "lemma": "magnate",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "magnate"
+   ],
+   "glossEn": "wealthy, powerful owner of a large business",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "a97ce4a0-13df-58d6-8c14-0f3e1f8a4036",
+   "lemma": "on-demand",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on-demand",
+    "on demand"
+   ],
+   "glossEn": "available whenever the user wants it",
+   "topics": [
+    "it"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "fcf90b57-b5c8-5edd-b7c8-14f541497b09",
+   "lemma": "binge-watch",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "binge-watch",
+    "binge watch"
+   ],
+   "glossEn": "watch many episodes in one sitting",
+   "topics": [
+    "it"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "af5c65a2-869c-545d-ad5e-4d0b608a5815",
+   "lemma": "remaster",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "remaster",
+    "re-master"
+   ],
+   "glossEn": "improve the quality of an old recording",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "4260083c-9fd0-5ec1-a300-562972d8f747",
+   "lemma": "bootleg",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bootleg"
+   ],
+   "glossEn": "illegally made or distributed, as a recording",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "55585706-301f-5386-a8d9-413af4f27a95",
+   "lemma": "cadence",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cadence"
+   ],
+   "glossEn": "rhythmic rise and fall of the voice",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "9e829289-99cb-579b-b23d-4435e6b84a29",
+   "lemma": "rhetorical",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rhetorical"
+   ],
+   "glossEn": "asked for effect, not expecting an answer",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "7105167b-30ba-54e6-a018-b423b502b23b",
+   "lemma": "oratory",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "oratory"
+   ],
+   "glossEn": "art of skilled, formal public speaking",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  }
+ ]
+}

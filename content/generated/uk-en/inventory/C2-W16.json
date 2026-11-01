@@ -1,0 +1,529 @@
+{
+ "chunk": "C2-W16",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "930389fa-2f85-52dd-b8e6-0cd23ecefb66",
+   "lemma": "churlish",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "churlish"
+   ],
+   "glossEn": "rude in a mean-spirited, surly way",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "09903f31-e221-504f-b5b6-8770d1d16c3e",
+   "lemma": "dour",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dour"
+   ],
+   "glossEn": "severe, stern and gloomy in manner",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "6d8996bb-0b85-5131-b772-fcb71e743254",
+   "lemma": "apoplectic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "apoplectic"
+   ],
+   "glossEn": "overcome with extreme anger",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "e881ec0b-62f9-5314-bec9-a17c422327c5",
+   "lemma": "incensed",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incensed"
+   ],
+   "glossEn": "very angry, enraged",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "0f24d302-7021-552a-a7c5-70e37c05fb90",
+   "lemma": "aggrieved",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aggrieved"
+   ],
+   "glossEn": "feeling resentment at unfair treatment",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "710c0f9c-a126-54d5-9f72-b7d177178000",
+   "lemma": "embittered",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "embittered"
+   ],
+   "glossEn": "made bitter by long-held resentment or disappointment",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "9feaaec2-2bad-5f8b-89d0-fd5bb110b8c9",
+   "lemma": "rancor",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rancor",
+    "rancour"
+   ],
+   "glossEn": "bitter, long-lasting resentment",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "c2124eb2-1ad9-5276-b4ee-d83ebb5a7b3a",
+   "lemma": "wrath",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wrath"
+   ],
+   "glossEn": "extreme anger, often with a wish to punish",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "0ef62396-6e24-5b77-bd7a-cc618b94dd0c",
+   "lemma": "ire",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ire"
+   ],
+   "glossEn": "anger, especially in formal or literary use",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "82b0bb1b-97ac-5fdb-97a1-a7e15fa6cd59",
+   "lemma": "pique",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pique"
+   ],
+   "glossEn": "resentment from wounded pride or vanity",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "ba3b2836-ba8c-57ca-b1fb-10f8f576c54e",
+   "lemma": "umbrage",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "umbrage"
+   ],
+   "glossEn": "offense or annoyance taken at a remark",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "33f80f4f-7e69-5dac-8388-464fa18e918b",
+   "lemma": "chagrin",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chagrin"
+   ],
+   "glossEn": "distress at being humiliated or disappointed",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "a4956c18-ffbc-5e77-8902-7bf2a17dd1c8",
+   "lemma": "malaise",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "malaise"
+   ],
+   "glossEn": "general feeling of unease or discomfort",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "9341addb-8c14-520e-b3ed-41b3bc2c5304",
+   "lemma": "ennui",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ennui"
+   ],
+   "glossEn": "listless boredom from a lack of excitement",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "0ca34c75-7fe0-5e53-ba3f-c03e37144a08",
+   "lemma": "foreboding",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "foreboding"
+   ],
+   "glossEn": "feeling that something bad will happen",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "8b0e7b59-0fb2-502a-a8c4-f0b4ddb6e9bf",
+   "lemma": "woe",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "woe"
+   ],
+   "glossEn": "great sorrow or distress",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "254eaaa2-af9a-5b8a-b2c8-c31bd0161dda",
+   "lemma": "languish",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "languish"
+   ],
+   "glossEn": "grow weak or be neglected in an unpleasant situation",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "8fdba160-52fb-5a9a-a0a3-2f3ba8942308",
+   "lemma": "bristle",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bristle"
+   ],
+   "glossEn": "react angrily or defensively to something",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "aada95c2-ed3c-57c5-a1a3-4504aa9e2c5c",
+   "lemma": "rankle",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rankle"
+   ],
+   "glossEn": "cause continuing annoyance or resentment",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "2bdf923a-830e-5723-a3c1-c2524714a55f",
+   "lemma": "chafe",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chafe"
+   ],
+   "glossEn": "feel irritated or impatient at restrictions",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "0738019b-39be-5fca-a277-b5725b51a176",
+   "lemma": "smolder",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "smolder",
+    "smoulder"
+   ],
+   "glossEn": "burn inwardly with suppressed anger or desire",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "2a8f87fa-99ab-5f8d-9fc1-6a2e635d6588",
+   "lemma": "fester",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fester"
+   ],
+   "glossEn": "of resentment: grow worse through neglect",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "598f5334-6f36-5702-a25b-b81363937baf",
+   "lemma": "overwrought",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overwrought"
+   ],
+   "glossEn": "in a state of nervous excitement or anxiety",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "6d43e608-98c5-5177-9a2f-5a92998c0785",
+   "lemma": "fraught",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fraught"
+   ],
+   "glossEn": "filled with or causing anxiety and stress",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "443f93fb-efc0-5d06-af8e-b039d3e08d0c",
+   "lemma": "harried",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "harried"
+   ],
+   "glossEn": "feeling strained from constant demands",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "a8e01219-8e09-59c0-93b7-35edf0846b59",
+   "lemma": "beleaguered",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "beleaguered"
+   ],
+   "glossEn": "under constant pressure, criticism or difficulty",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "3d71bf14-257c-5375-ae78-6ab46e9f3ec7",
+   "lemma": "woebegone",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "woebegone"
+   ],
+   "glossEn": "looking sad and miserable",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "839fc7e8-56e1-5d20-b4b5-5d0528459864",
+   "lemma": "hangdog",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hangdog"
+   ],
+   "glossEn": "having a dejected, guilty appearance",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "4929b6b6-0329-5536-ad83-c1ce003baf61",
+   "lemma": "disquiet",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disquiet"
+   ],
+   "glossEn": "feeling of anxiety or worry",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "f23a85a4-b52c-548e-bfe3-a383f457b707",
+   "lemma": "perturbed",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "perturbed"
+   ],
+   "glossEn": "anxious, unsettled or disturbed",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "75593b52-ab57-50b2-821b-d86b87d14772",
+   "lemma": "besotted",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "besotted"
+   ],
+   "glossEn": "infatuated to the point of foolishness",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "14174b39-5544-5e50-8857-70b459eb44ee",
+   "lemma": "abashed",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "abashed"
+   ],
+   "glossEn": "embarrassed, disconcerted or ashamed",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "26b37244-7428-5931-9293-da259b355909",
+   "lemma": "contrite",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "contrite"
+   ],
+   "glossEn": "feeling deep remorse and wanting to make amends",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "ee723995-9eb7-51d5-9392-be84157e5fca",
+   "lemma": "penitent",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "penitent"
+   ],
+   "glossEn": "feeling sorrow and regret for wrongdoing",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "b8379981-ddd2-5362-86e7-0ed7c9205736",
+   "lemma": "covet",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "covet"
+   ],
+   "glossEn": "yearn to possess something belonging to another",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "baa6b446-ce12-52ac-96fe-1a7128e6f551",
+   "lemma": "hanker",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hanker"
+   ],
+   "glossEn": "feel a persistent longing for something",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "d437e1ee-2c2b-55bb-a9f4-5c3ac0594590",
+   "lemma": "beholden",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "beholden"
+   ],
+   "glossEn": "owing thanks or a duty to someone",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "327606a9-2212-5389-beac-2d583960d63d",
+   "lemma": "fervor",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fervor",
+    "fervour"
+   ],
+   "glossEn": "intense and passionate feeling",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "e3f24562-6496-5b58-974a-3e36e506c116",
+   "lemma": "ebullient",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ebullient"
+   ],
+   "glossEn": "cheerful and full of energy",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "8450cb8e-2a05-5a2c-ae13-8e0f918b5ec8",
+   "lemma": "effervescent",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "effervescent"
+   ],
+   "glossEn": "vivacious, enthusiastic and lively",
+   "topics": [],
+   "area": "emotions-character"
+  }
+ ]
+}

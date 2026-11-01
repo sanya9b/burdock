@@ -1,0 +1,685 @@
+{
+ "chunk": "B1-W17",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "3914d088-7096-5e71-8955-e8be54bb7064",
+   "lemma": "hideout",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hideout",
+    "hideouts"
+   ],
+   "glossEn": "secret place where people hide",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "1e710932-d83f-5c39-8dd8-14c655c90600",
+   "lemma": "resettlement",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "resettlement"
+   ],
+   "glossEn": "helping displaced people settle in a new place",
+   "topics": [
+    "military",
+    "city"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "52bac7c4-bdc9-5f30-9895-b9b8d27801c3",
+   "lemma": "fundraising",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fundraising",
+    "fund-raising",
+    "fundraiser"
+   ],
+   "glossEn": "collecting money for a cause",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "9c3fb9a3-654e-5a66-95f8-8acabacdfaac",
+   "lemma": "donor",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "donor",
+    "donors"
+   ],
+   "glossEn": "person or group that gives money or goods",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "f065ca96-abf0-592d-8825-578b23755f78",
+   "lemma": "coordinator",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "coordinator",
+    "coordinators"
+   ],
+   "glossEn": "person who organizes volunteers' work",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "be7e3b41-1782-5e58-ae2e-46db6e272f05",
+   "lemma": "dispatcher",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dispatcher",
+    "dispatchers"
+   ],
+   "glossEn": "person who sends help where it is needed",
+   "topics": [
+    "military",
+    "communication"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "a70b3ed1-75e6-54ba-834b-80d65efcc78f",
+   "lemma": "hotline",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hotline",
+    "hotlines"
+   ],
+   "glossEn": "phone number for urgent help",
+   "topics": [
+    "military",
+    "communication"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "8b5f64b2-4d8a-5f16-ae6c-a7de8e8f3b52",
+   "lemma": "lantern",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lantern",
+    "lanterns"
+   ],
+   "glossEn": "portable lamp used when the power is out",
+   "topics": [
+    "military",
+    "city"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "54859741-1a7f-58d7-8c32-c794ce03d0f1",
+   "lemma": "firewood",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "firewood"
+   ],
+   "glossEn": "wood cut and stored for burning in a stove",
+   "topics": [
+    "military",
+    "city"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "d982ab21-f7ea-55c3-80a3-9e5fc277c8ff",
+   "lemma": "diesel",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "diesel"
+   ],
+   "glossEn": "heavy fuel for generators and trucks",
+   "topics": [
+    "military",
+    "city",
+    "travel"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "f44d8075-2f32-56db-9e6c-a01ebb0529d0",
+   "lemma": "gasoline",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gasoline",
+    "petrol",
+    "gas"
+   ],
+   "glossEn": "fuel for cars and small generators",
+   "topics": [
+    "military",
+    "travel",
+    "city"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "a05d58f2-1ee8-5ec9-b2cf-98e5498be55b",
+   "lemma": "headlamp",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "headlamp",
+    "headlamps",
+    "head lamp"
+   ],
+   "glossEn": "small light worn on the head",
+   "topics": [
+    "military",
+    "travel"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "5e281920-f30a-5c3a-9d5c-89ad3057efbb",
+   "lemma": "bleach",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bleach"
+   ],
+   "glossEn": "chemical that disinfects water and surfaces",
+   "topics": [
+    "military",
+    "health",
+    "city"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "c925f342-4628-515c-bd3e-b77f812b4e6f",
+   "lemma": "sanitizer",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sanitizer",
+    "sanitizers",
+    "sanitiser"
+   ],
+   "glossEn": "gel that kills germs on the hands",
+   "topics": [
+    "military",
+    "health",
+    "shopping"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "76146468-6d05-51de-9573-84dbcd2ec938",
+   "lemma": "crutch",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "crutch",
+    "crutches"
+   ],
+   "glossEn": "support under the arm for walking with an injured leg",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "8f12f8b4-cdec-51c8-b24c-e733be8f5c5e",
+   "lemma": "poisoning",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "poisoning",
+    "poisonings"
+   ],
+   "glossEn": "illness caused by swallowing or breathing a poison",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "8a994aa9-4218-5fa3-ad9d-690f8c080899",
+   "lemma": "drip",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "drip",
+    "drips"
+   ],
+   "glossEn": "device that feeds fluid slowly into a vein",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "6877effb-2c29-5b27-aa52-ad7b0ebd4e1d",
+   "lemma": "stethoscope",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stethoscope",
+    "stethoscopes"
+   ],
+   "glossEn": "instrument for listening to the heart and lungs",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "7fa679de-2ecc-5ad5-b68c-6887e97a12d4",
+   "lemma": "tweezers",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tweezers"
+   ],
+   "glossEn": "small tool for pulling out splinters",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "6e44097b-1cda-5d1b-881d-95ed6306a2f6",
+   "lemma": "safety pin",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "safety pin",
+    "safety pins"
+   ],
+   "glossEn": "pin with a guard used to fix a bandage",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "f9ad95a3-3d45-5e85-90d7-c9e62821f9d6",
+   "lemma": "blood type",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blood type",
+    "blood types",
+    "blood group"
+   ],
+   "glossEn": "group of a person's blood, such as O negative",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "ddf40757-b1bf-5969-8af3-8120dc863ded",
+   "lemma": "emergency blanket",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "emergency blanket",
+    "emergency blankets",
+    "thermal blanket",
+    "space blanket"
+   ],
+   "glossEn": "thin foil sheet that keeps an injured person warm",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "5afef92c-d5fb-528f-a6ab-f41d02502300",
+   "lemma": "duct tape",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "duct tape"
+   ],
+   "glossEn": "strong sticky tape for quick repairs",
+   "topics": [
+    "military",
+    "city"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "bd0410b3-d1b3-5e28-bbf3-b25633546f81",
+   "lemma": "cadet",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cadet",
+    "cadets"
+   ],
+   "glossEn": "student training to become an officer",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "d5c13067-1fbe-5ed2-b897-50b6c88827b2",
+   "lemma": "serviceman",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "serviceman",
+    "servicemen"
+   ],
+   "glossEn": "man who serves in the armed forces",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "fec581f6-0bf5-539c-9b04-a413e0ae3ce4",
+   "lemma": "beret",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "beret",
+    "berets"
+   ],
+   "glossEn": "soft flat cap worn by some troops",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "6840e1eb-3269-5495-8a93-4923d78dcc7a",
+   "lemma": "guard duty",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "guard duty"
+   ],
+   "glossEn": "shift spent guarding a post",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "b1456cf9-0e77-577c-8c84-d0e7bfe8d93f",
+   "lemma": "basic training",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "basic training"
+   ],
+   "glossEn": "first training course for new recruits",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "26d067a9-241d-5c79-a0f8-2ba6d73cad7f",
+   "lemma": "spare part",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spare part",
+    "spare parts"
+   ],
+   "glossEn": "replacement piece for repairing a machine",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "03623dfc-8cc0-5011-8608-2ba950813bae",
+   "lemma": "wrench",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wrench",
+    "wrenches",
+    "spanner"
+   ],
+   "glossEn": "tool for turning nuts and bolts",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "d846162c-e24b-55e1-9dbd-a013abe0ae4f",
+   "lemma": "toolkit",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "toolkit",
+    "toolkits",
+    "tool kit"
+   ],
+   "glossEn": "set of tools kept together in one case",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "f9d80410-927b-5217-8e7c-2e3523dc00cd",
+   "lemma": "strap",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "strap",
+    "straps"
+   ],
+   "glossEn": "band that holds equipment in place",
+   "topics": [
+    "military",
+    "travel"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "c936595c-54a9-5a61-8f73-8758e2677eda",
+   "lemma": "buckle",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "buckle",
+    "buckles"
+   ],
+   "glossEn": "clasp that fastens a belt or strap",
+   "topics": [
+    "military",
+    "shopping"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "b9abc54c-b4d4-5b35-ac20-c6d865463e01",
+   "lemma": "pouch",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pouch",
+    "pouches"
+   ],
+   "glossEn": "small bag attached to a belt or vest",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "b7b17493-4a3c-54dc-854a-202d3bd2b4f6",
+   "lemma": "antenna",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "antenna",
+    "antennas"
+   ],
+   "glossEn": "rod that sends and receives radio signals",
+   "topics": [
+    "military",
+    "communication"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "8f28c0a7-cd47-5a43-bb7c-f5a3ff8caf86",
+   "lemma": "propeller",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "propeller",
+    "propellers"
+   ],
+   "glossEn": "spinning blades that drive a drone or plane",
+   "topics": [
+    "military",
+    "travel"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "c5ecb500-12b6-5c8f-8b90-3080191f9fd0",
+   "lemma": "Morse code",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "Morse code",
+    "Morse"
+   ],
+   "glossEn": "signal code made of short and long beeps",
+   "topics": [
+    "military",
+    "communication"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "7659cd52-85bc-5b1c-af29-f5bea5038cbe",
+   "lemma": "host family",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "host family",
+    "host families"
+   ],
+   "glossEn": "family that takes in a displaced person",
+   "topics": [
+    "military",
+    "travel"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "8c746e89-b49e-552d-9196-590eb2bd565e",
+   "lemma": "aid worker",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aid worker",
+    "aid workers"
+   ],
+   "glossEn": "person who delivers humanitarian help",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "f08638a9-7bcd-50bf-b1d8-f59daec3299f",
+   "lemma": "occupied",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "occupied"
+   ],
+   "glossEn": "controlled by foreign armed forces",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  }
+ ]
+}

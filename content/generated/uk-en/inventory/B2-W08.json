@@ -1,0 +1,648 @@
+{
+ "chunk": "B2-W08",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "3dd5eeb4-acc4-5369-bb12-75e380585edc",
+   "lemma": "fondue",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fondue",
+    "fondues"
+   ],
+   "glossEn": "dish of melted cheese or chocolate for dipping",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "a79bf9cf-37f6-5131-b5ab-c5f904e88d2b",
+   "lemma": "shawarma",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shawarma",
+    "shawarmas",
+    "shaurma"
+   ],
+   "glossEn": "sliced spit-roasted meat wrapped in flatbread",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "67bc65ea-b0c9-5fb0-9e7e-b25748a808f8",
+   "lemma": "quesadilla",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quesadilla",
+    "quesadillas"
+   ],
+   "glossEn": "folded tortilla filled with melted cheese",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "a676a7ce-3ae0-5b0d-a595-35dffb28b9a9",
+   "lemma": "tapas",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tapas",
+    "tapa"
+   ],
+   "glossEn": "small Spanish dishes shared with drinks",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "68e11060-8015-5b8f-8b13-e9e870531b6a",
+   "lemma": "entrée",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "entrée",
+    "entree",
+    "entrées",
+    "entrees"
+   ],
+   "glossEn": "main dish of a restaurant meal",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "abc4aa73-d339-51cb-aa91-34a6140e655a",
+   "lemma": "borscht",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "borscht",
+    "borsch",
+    "borshch"
+   ],
+   "glossEn": "Ukrainian beet soup served with sour cream",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "d64e246e-6a1a-554c-bde5-60e42f112805",
+   "lemma": "brie",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brie",
+    "Brie"
+   ],
+   "glossEn": "soft creamy French cheese with a white rind",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "03924cc1-a366-5483-9584-2bd9df1758f9",
+   "lemma": "ricotta",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ricotta"
+   ],
+   "glossEn": "soft mild Italian whey cheese",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "f9d5c946-deeb-5568-8fd2-423424a8bfa9",
+   "lemma": "buttermilk",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "buttermilk"
+   ],
+   "glossEn": "slightly sour milk used in baking",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "4159f91e-e877-5db5-a5ba-e326ee597f2c",
+   "lemma": "kefir",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "kefir"
+   ],
+   "glossEn": "fermented drinkable sour milk",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "7746585e-6292-5e63-9739-fecab422c260",
+   "lemma": "lard",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lard"
+   ],
+   "glossEn": "soft white pig fat used in cooking",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "03676fc9-1697-580c-a84e-5b0d2fb0a367",
+   "lemma": "scallop",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scallop",
+    "scallops"
+   ],
+   "glossEn": "sweet white shellfish in a fan-shaped shell",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "92e0f4c6-71d8-5515-9d10-c332d28f8e41",
+   "lemma": "anchovy",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "anchovy",
+    "anchovies"
+   ],
+   "glossEn": "tiny salty fish, often canned",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "cec1686c-e627-5121-918c-856bb1045bb9",
+   "lemma": "herring",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "herring",
+    "herrings"
+   ],
+   "glossEn": "oily silver fish, often salted or pickled",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "866624a3-0096-54d4-96ef-869876ae0f21",
+   "lemma": "mackerel",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mackerel"
+   ],
+   "glossEn": "oily striped sea fish",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "2b6fe368-8320-5408-bb56-bd9dad0c4558",
+   "lemma": "trout",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "trout"
+   ],
+   "glossEn": "freshwater fish related to salmon",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "806eeb84-6319-54c3-9b2e-9c657e6f762b",
+   "lemma": "caviar",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "caviar"
+   ],
+   "glossEn": "salted fish eggs eaten as a delicacy",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "a9bf4a70-9519-5ba5-86d9-44c47674ef17",
+   "lemma": "eel",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "eel",
+    "eels"
+   ],
+   "glossEn": "long snake-like fish, often smoked",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "612aa05c-10cc-5d65-83c7-64944a489b26",
+   "lemma": "mocha",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mocha",
+    "mochas"
+   ],
+   "glossEn": "coffee drink mixed with chocolate",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "981fdfaa-6818-5633-9592-f8dff77fff76",
+   "lemma": "decaf",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "decaf",
+    "decaffeinated"
+   ],
+   "glossEn": "coffee with the caffeine removed",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "1f494504-8b25-5c26-8343-37181419dd8d",
+   "lemma": "stout",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stout",
+    "stouts"
+   ],
+   "glossEn": "strong dark beer",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "bae90b54-58bc-58d3-94e0-afe3f6a3dedd",
+   "lemma": "liqueur",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "liqueur",
+    "liqueurs"
+   ],
+   "glossEn": "sweet strong flavored alcoholic drink",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "a1c85fdd-f55e-5ad1-bb83-456764dfe406",
+   "lemma": "brandy",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brandy",
+    "brandies"
+   ],
+   "glossEn": "strong spirit distilled from wine",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "76ff295f-e9e4-53cd-90ed-87c9523b1c19",
+   "lemma": "mocktail",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mocktail",
+    "mocktails"
+   ],
+   "glossEn": "cocktail made without alcohol",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "858a911f-97ee-5043-bb1c-b2b318017826",
+   "lemma": "carbonated",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "carbonated"
+   ],
+   "glossEn": "containing dissolved gas that makes bubbles",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "cd6b2fae-95cf-5e5b-bf50-826a699c0020",
+   "lemma": "kombucha",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "kombucha"
+   ],
+   "glossEn": "fizzy fermented sweet tea drink",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "6a911498-a0ad-5ba5-baea-65fb41882862",
+   "lemma": "tonic",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tonic",
+    "tonics"
+   ],
+   "glossEn": "bitter fizzy water mixed with gin",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "31eebe06-1e6a-5d7c-819d-6f26341fdc27",
+   "lemma": "nonalcoholic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nonalcoholic",
+    "non-alcoholic",
+    "alcohol-free"
+   ],
+   "glossEn": "containing no alcohol",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "170e5321-94d1-561c-b4b1-e0b399dfaa4c",
+   "lemma": "gooey",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gooey",
+    "gooier",
+    "gooiest"
+   ],
+   "glossEn": "soft, sticky and partly melted",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "a37d80e6-addc-52a6-8c32-8f9d50fb4565",
+   "lemma": "crumbly",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "crumbly",
+    "crumblier",
+    "crumbliest"
+   ],
+   "glossEn": "breaking easily into small pieces",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "f6f57bb6-9bc0-53d8-a9f2-67e2c942b884",
+   "lemma": "lumpy",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lumpy",
+    "lumpier",
+    "lumpiest"
+   ],
+   "glossEn": "containing solid pieces instead of being smooth",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "65240af3-9b99-5d18-8438-d3e278aa9f6f",
+   "lemma": "runny",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "runny",
+    "runnier",
+    "runniest"
+   ],
+   "glossEn": "more liquid than usual, like a soft egg yolk",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "6d238238-5898-5189-9f02-35efec854346",
+   "lemma": "zesty",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "zesty",
+    "zestier",
+    "zestiest"
+   ],
+   "glossEn": "having a lively fresh citrus flavor",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "ccde6c61-d877-5850-b178-f1a39bfba421",
+   "lemma": "aromatic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aromatic"
+   ],
+   "glossEn": "having a strong pleasant smell, like spices",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "ee43b4c0-2c4d-5642-b915-5caa4b96bf31",
+   "lemma": "fragrant",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fragrant"
+   ],
+   "glossEn": "smelling sweet and pleasant",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "0a8c016d-8c0e-5dee-b791-6298915222da",
+   "lemma": "umami",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "umami"
+   ],
+   "glossEn": "rich savory fifth taste found in broth",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "8190506c-d02e-5886-8d94-288d7fd36642",
+   "lemma": "moldy",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "moldy",
+    "mouldy"
+   ],
+   "glossEn": "covered with fuzzy fungus from being too old",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "ce0cad5f-fdf0-5998-b57a-972cbeae05d8",
+   "lemma": "overripe",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overripe"
+   ],
+   "glossEn": "too ripe, soft and starting to spoil",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "dacca144-4be7-5e9c-8ebe-5ecf2c118b3b",
+   "lemma": "breaded",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "breaded"
+   ],
+   "glossEn": "coated in breadcrumbs before frying",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "64411957-115e-50dc-9029-952eb4a629f8",
+   "lemma": "unsweetened",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unsweetened"
+   ],
+   "glossEn": "with no sugar added",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  }
+ ]
+}

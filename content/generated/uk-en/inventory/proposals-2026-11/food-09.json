@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "area": "food",
+  "provenance": {"model": "claude-fable-5-1", "promptVersion": "propose-topical-v1", "generatedAt": "2026-11-01T00:00:00Z"},
+  "lexemes": [
+    {"lemma": "nitrite", "pos": "noun", "level": "C1", "confidence": 0.7, "glossEn": "curing salt that preserves processed meat", "acceptedForms": ["nitrite", "nitrites"], "topics": ["food", "health"]},
+    {"lemma": "sulfite", "pos": "noun", "level": "C1", "confidence": 0.7, "glossEn": "preservative found in wine and dried fruit", "acceptedForms": ["sulfite", "sulfites", "sulphite", "sulphites"], "topics": ["food", "health"]},
+    {"lemma": "glutamate", "pos": "noun", "level": "C1", "confidence": 0.7, "glossEn": "flavor enhancer that gives umami taste", "acceptedForms": ["glutamate", "glutamates", "MSG"], "topics": ["food", "health"]},
+    {"lemma": "carrageenan", "pos": "noun", "level": "C1", "confidence": 0.65, "glossEn": "seaweed thickener used in dairy products", "acceptedForms": ["carrageenan"], "topics": ["food", "shopping"]},
+    {"lemma": "agar", "pos": "noun", "level": "C1", "confidence": 0.7, "glossEn": "plant-based jelly setting agent from seaweed", "acceptedForms": ["agar", "agar-agar"], "topics": ["food"]},
+    {"lemma": "hydrogenated", "pos": "adjective", "level": "C1", "confidence": 0.7, "glossEn": "of oil: hardened by adding hydrogen", "acceptedForms": ["hydrogenated"], "topics": ["food", "health"]},
+    {"lemma": "ketosis", "pos": "noun", "level": "C1", "confidence": 0.7, "glossEn": "body state of burning fat instead of carbs", "acceptedForms": ["ketosis"], "topics": ["food", "health"]},
+    {"lemma": "glycemic", "pos": "adjective", "level": "C1", "confidence": 0.7, "glossEn": "relating to a food's effect on blood sugar", "acceptedForms": ["glycemic", "glycaemic"], "topics": ["food", "health"]},
+    {"lemma": "undernourished", "pos": "adjective", "level": "C1", "confidence": 0.75, "glossEn": "weak from too little nutritious food", "acceptedForms": ["undernourished"], "topics": ["food", "health"]},
+    {"lemma": "abattoir", "pos": "noun", "level": "C1", "confidence": 0.7, "glossEn": "place where animals are slaughtered for meat", "acceptedForms": ["abattoir", "abattoirs", "slaughterhouse"], "topics": ["food"]},
+    {"lemma": "sweetbreads", "pos": "noun", "level": "C1", "confidence": 0.65, "glossEn": "thymus or pancreas eaten as a delicacy", "acceptedForms": ["sweetbreads", "sweetbread"], "topics": ["food"]},
+    {"lemma": "terrine", "pos": "noun", "level": "C1", "confidence": 0.7, "glossEn": "coarse pâté cooked in a loaf mold", "acceptedForms": ["terrine", "terrines"], "topics": ["food"]},
+    {"lemma": "dry-aged", "pos": "adjective", "level": "C1", "confidence": 0.7, "glossEn": "of beef: matured uncovered to deepen flavor", "acceptedForms": ["dry-aged", "dry aged"], "topics": ["food"]},
+    {"lemma": "marbling", "pos": "noun", "level": "C1", "confidence": 0.7, "glossEn": "streaks of fat within a cut of meat", "acceptedForms": ["marbling"], "topics": ["food"]},
+    {"lemma": "tartare", "pos": "noun", "level": "C1", "confidence": 0.7, "glossEn": "dish of finely chopped raw meat or fish", "acceptedForms": ["tartare", "tartar"], "topics": ["food"]},
+    {"lemma": "harissa", "pos": "noun", "level": "C1", "confidence": 0.7, "glossEn": "North African hot chili paste", "acceptedForms": ["harissa"], "topics": ["food"]},
+    {"lemma": "dashi", "pos": "noun", "level": "C1", "confidence": 0.65, "glossEn": "Japanese stock of seaweed and dried fish", "acceptedForms": ["dashi"], "topics": ["food"]},
+    {"lemma": "yuzu", "pos": "noun", "level": "C1", "confidence": 0.65, "glossEn": "fragrant sour East Asian citrus fruit", "acceptedForms": ["yuzu"], "topics": ["food"]},
+    {"lemma": "tempeh", "pos": "noun", "level": "C1", "confidence": 0.7, "glossEn": "firm fermented soybean cake", "acceptedForms": ["tempeh"], "topics": ["food", "health"]},
+    {"lemma": "cornichon", "pos": "noun", "level": "C1", "confidence": 0.7, "glossEn": "tiny tart pickled gherkin", "acceptedForms": ["cornichon", "cornichons"], "topics": ["food"]}
+  ]
+}

@@ -1,0 +1,662 @@
+{
+ "chunk": "B2-W11",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "04c89f6b-f95a-539f-ba56-1cb7317e1f6a",
+   "lemma": "infusion",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "infusion",
+    "infusions"
+   ],
+   "glossEn": "drink made by steeping herbs or fruit",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "df824651-a154-578f-a80a-2c966c2eb09e",
+   "lemma": "flat white",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flat white",
+    "flat whites"
+   ],
+   "glossEn": "espresso with thin velvety steamed milk",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "9f43bdf2-c9f0-5d97-a26a-47221b6771ce",
+   "lemma": "pour-over",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pour-over",
+    "pour-overs",
+    "pour over"
+   ],
+   "glossEn": "coffee brewed by hand-pouring water through grounds",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "f7357671-40b1-573c-b727-4f01375fd0ed",
+   "lemma": "French press",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "French press",
+    "French presses",
+    "cafetière"
+   ],
+   "glossEn": "coffee pot with a plunger filter",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "546355a5-163c-5866-ad56-0a96447de2f0",
+   "lemma": "single-origin",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "single-origin",
+    "single origin"
+   ],
+   "glossEn": "from one farm, region, or country",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "6efd4d6b-4952-5970-8d92-336c919d0d4e",
+   "lemma": "froth",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "froth"
+   ],
+   "glossEn": "mass of small bubbles on a drink",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "a0c409d6-9764-5a26-8ca1-af8485e05135",
+   "lemma": "decaffeinated",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "decaffeinated"
+   ],
+   "glossEn": "with the caffeine removed",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "5df358ee-dda2-5b14-9f7f-bb6b58a82e33",
+   "lemma": "oat milk",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "oat milk"
+   ],
+   "glossEn": "plant drink made from oats",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "59e66a50-0a39-5674-81f8-ded87ca1f9d0",
+   "lemma": "craft beer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "craft beer",
+    "craft beers"
+   ],
+   "glossEn": "beer made by small independent breweries",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "e84698b9-1617-5f34-9c3d-be3fa9b8ae3a",
+   "lemma": "decanter",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "decanter",
+    "decanters"
+   ],
+   "glossEn": "glass vessel for serving wine",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "8a6401ed-88bc-5d18-b460-aa59bf240ee6",
+   "lemma": "gamey",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gamey",
+    "gamy"
+   ],
+   "glossEn": "strong-flavored like wild meat",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "7f69d26f-c5ee-5e30-a86a-dd8a2ddb73dd",
+   "lemma": "al dente",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "al dente"
+   ],
+   "glossEn": "cooked so it is still firm to the bite",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "b06da140-0f88-502a-a54a-2f98f0074259",
+   "lemma": "gritty",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gritty"
+   ],
+   "glossEn": "containing tiny hard particles",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "57dfb8c8-a0e2-5458-9d9b-58f815a2c74b",
+   "lemma": "starchy",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "starchy"
+   ],
+   "glossEn": "containing much starch, like potatoes",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "f6232d82-6f5e-5417-808b-5df58c0972ef",
+   "lemma": "silky",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "silky"
+   ],
+   "glossEn": "very smooth in texture",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "b77026e0-2503-5a99-8327-a81b34ff1a94",
+   "lemma": "decadent",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "decadent"
+   ],
+   "glossEn": "luxuriously rich and indulgent",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "fe6f210d-beb4-5c89-b825-24cfb49ef8d7",
+   "lemma": "peppery",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "peppery"
+   ],
+   "glossEn": "with a hot taste of pepper",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "a985942b-2d4c-5865-be95-d1e3df2cc12c",
+   "lemma": "nutty",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nutty"
+   ],
+   "glossEn": "tasting of nuts",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "ba80795c-bcf1-5cdd-8cb5-62e0a8a6f888",
+   "lemma": "unpalatable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unpalatable"
+   ],
+   "glossEn": "unpleasant to taste",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "a6c65c73-1078-551e-b0b0-537c7285220f",
+   "lemma": "overeat",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overeat",
+    "overeats",
+    "overate",
+    "overeaten"
+   ],
+   "glossEn": "eat more than you need",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "88e10c87-53d1-5b2a-8bbc-7e7418b219ee",
+   "lemma": "peckish",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "peckish"
+   ],
+   "glossEn": "slightly hungry",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "d4a97b8d-ac1f-5e25-a7d3-a3eca3c8a441",
+   "lemma": "queasy",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "queasy"
+   ],
+   "glossEn": "feeling slightly sick in the stomach",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "282603d9-5048-5127-9236-058b4d76878b",
+   "lemma": "shank",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shank",
+    "shanks"
+   ],
+   "glossEn": "lower leg cut of meat, cooked slowly",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "e00637a7-d586-5776-bda8-b1f01837cb74",
+   "lemma": "roux",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "roux"
+   ],
+   "glossEn": "cooked flour and fat base for sauces",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "42929485-c9a1-5d16-81ec-382533ad8c82",
+   "lemma": "béchamel",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "béchamel",
+    "bechamel"
+   ],
+   "glossEn": "white sauce of milk, butter, and flour",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "5143be24-0a8a-577b-a2db-ef3c19566308",
+   "lemma": "aioli",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aioli"
+   ],
+   "glossEn": "garlic mayonnaise",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "4f1db8f7-f610-5ef9-b166-d5f2ea53ffd6",
+   "lemma": "zester",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "zester",
+    "zesters"
+   ],
+   "glossEn": "tool for grating citrus peel",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "83ec6d57-6f19-5a0f-971e-1c8b356fae29",
+   "lemma": "air fryer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "air fryer",
+    "air fryers",
+    "airfryer"
+   ],
+   "glossEn": "countertop oven that crisps food with hot air",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "f041f867-e035-536d-874e-3cda54976650",
+   "lemma": "food processor",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "food processor",
+    "food processors"
+   ],
+   "glossEn": "electric machine that chops and blends food",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "43c0011b-aaa7-5008-a038-743f99f1faef",
+   "lemma": "boolean",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "boolean",
+    "booleans",
+    "Boolean",
+    "bool"
+   ],
+   "glossEn": "value that is only true or false",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "69ec1e03-2fca-5563-b9df-955673641f9e",
+   "lemma": "compiler",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "compiler",
+    "compilers"
+   ],
+   "glossEn": "program that translates source code into machine code",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "1a67874c-7d7d-5fbc-9dc4-5769b843544d",
+   "lemma": "runtime",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "runtime",
+    "runtimes",
+    "run time"
+   ],
+   "glossEn": "time while a program is running; its environment",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "5f46ae40-e58e-5f27-aabe-458bf54f9737",
+   "lemma": "dependency",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dependency",
+    "dependencies"
+   ],
+   "glossEn": "other code a project needs in order to work",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "1edcd923-d0c2-55b2-a04f-b22731f51b97",
+   "lemma": "parameter",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "parameter",
+    "parameters",
+    "param",
+    "params"
+   ],
+   "glossEn": "named input a function expects",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "7b83d256-d22c-59d3-acaf-5e51bfc4777f",
+   "lemma": "unit test",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unit test",
+    "unit tests"
+   ],
+   "glossEn": "automated test that checks one small piece of code",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "edbbf8e3-6f37-5c58-ba26-72f86e562baf",
+   "lemma": "refactor",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "refactor",
+    "refactors",
+    "refactored",
+    "refactoring"
+   ],
+   "glossEn": "improve code structure without changing what it does",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "c347ea51-f7e5-5b4f-8981-8ea16fa1b80e",
+   "lemma": "kanban",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "kanban",
+    "Kanban"
+   ],
+   "glossEn": "board method that shows work moving through stages",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "6e0ea074-ee38-57cc-ac55-8a5e895802e5",
+   "lemma": "specification",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "specification",
+    "specifications",
+    "spec",
+    "specs"
+   ],
+   "glossEn": "detailed description of what software must do",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "ebf6f6a6-dc22-51c5-ab02-9fc2dcf00710",
+   "lemma": "wireframe",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wireframe",
+    "wireframes"
+   ],
+   "glossEn": "simple line sketch of a screen's layout",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "7a5976c7-35c7-55ac-ba2c-42c4303401ba",
+   "lemma": "mockup",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mockup",
+    "mockups",
+    "mock-up",
+    "mock-ups"
+   ],
+   "glossEn": "detailed visual draft of a screen before coding",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  }
+ ]
+}

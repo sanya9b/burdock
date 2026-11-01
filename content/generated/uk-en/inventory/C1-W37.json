@@ -1,0 +1,534 @@
+{
+ "chunk": "C1-W37",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "87128376-9421-5228-941d-1ea3baf28d79",
+   "lemma": "triangulate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "triangulate"
+   ],
+   "glossEn": "confirm findings using several independent methods",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "664a621b-43fd-5250-8375-83ba56929b40",
+   "lemma": "retract",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "retract"
+   ],
+   "glossEn": "formally withdraw a statement or published paper",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "054dade5-e2b1-5a66-9261-47c6037d5a80",
+   "lemma": "approximation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "approximation"
+   ],
+   "glossEn": "value close to but not exactly correct",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "d16a80bb-435a-5ee0-860b-fea3b7b80a0b",
+   "lemma": "simulate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "simulate"
+   ],
+   "glossEn": "imitate a real process with a model",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "eba3e808-3ff3-51a2-b3d8-cc30dfad4e04",
+   "lemma": "randomize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "randomize",
+    "randomise"
+   ],
+   "glossEn": "assign by chance to remove bias",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "b63338a1-e041-5e1c-bb08-b750406c12d7",
+   "lemma": "double-blind",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "double-blind",
+    "double blind"
+   ],
+   "glossEn": "neither subjects nor researchers know the assignment",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "d4ec319e-4aa2-5d70-967d-85f6c6835fd9",
+   "lemma": "confound",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "confound"
+   ],
+   "glossEn": "mix up causes so that results mislead",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "d0298bf7-679f-505f-b6ad-f95d9b4aafe8",
+   "lemma": "statistically",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "statistically"
+   ],
+   "glossEn": "according to statistics",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "80faad01-73b1-5ac7-9644-28fa21703456",
+   "lemma": "cross-sectional",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cross-sectional",
+    "cross sectional"
+   ],
+   "glossEn": "comparing different groups at one point in time",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "343543f8-7063-5d53-8397-1087c3b32cbb",
+   "lemma": "pioneering",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pioneering"
+   ],
+   "glossEn": "first to explore or develop something new",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "27c59662-e97f-52b7-b7e4-09d63880d816",
+   "lemma": "rudimentary",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rudimentary"
+   ],
+   "glossEn": "basic and undeveloped",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "9d7731e9-bdfd-53c6-89e8-9109455f1c0d",
+   "lemma": "quantifiable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quantifiable"
+   ],
+   "glossEn": "able to be measured or counted",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "5cadb2f4-1748-54f6-b42f-5f0ace3b6578",
+   "lemma": "synthesize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "synthesize",
+    "synthesise"
+   ],
+   "glossEn": "make a substance by combining simpler ones",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "cb26f5be-f159-5795-8267-a2bad63791e4",
+   "lemma": "impurity",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "impurity"
+   ],
+   "glossEn": "unwanted substance mixed into a pure one",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "c1032f31-2b68-58a1-87b7-6792a6deea61",
+   "lemma": "tarnish",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tarnish"
+   ],
+   "glossEn": "lose shine through exposure to air",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "4218d65d-5868-5b24-8eab-0ef3d5eb647b",
+   "lemma": "oxidize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "oxidize",
+    "oxidise"
+   ],
+   "glossEn": "combine with oxygen, as in rusting",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "28e13433-2bf9-5e11-9e10-75c4908def97",
+   "lemma": "hydrocarbon",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hydrocarbon"
+   ],
+   "glossEn": "compound of hydrogen and carbon, as in fuels",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "6c8c8b7d-4d08-5ead-85c1-f51b6aa945bf",
+   "lemma": "dilute",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dilute"
+   ],
+   "glossEn": "make a liquid weaker by adding water",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "6d1c0787-833b-5081-be7f-794534501c56",
+   "lemma": "ore",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ore"
+   ],
+   "glossEn": "rock from which metal can be extracted",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "5ac06c1a-fdd3-5721-9a7e-9c7e3b5abb4e",
+   "lemma": "electromagnetic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "electromagnetic"
+   ],
+   "glossEn": "relating to combined electric and magnetic fields",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "30542ace-4415-5e3e-b6b8-a1e50f371bc8",
+   "lemma": "isotope",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "isotope"
+   ],
+   "glossEn": "form of an element with different neutron count",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "8ab388ff-ffed-50cd-b18a-63fc71b59fa2",
+   "lemma": "quantum",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quantum"
+   ],
+   "glossEn": "relating to physics of the smallest particles",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "3a4be8e3-6849-515c-afe1-e39e1145bff9",
+   "lemma": "fusion",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fusion"
+   ],
+   "glossEn": "joining of atomic nuclei, releasing energy",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "d5060462-2553-5dde-9bf7-bd66aab5bdd0",
+   "lemma": "acidic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "acidic"
+   ],
+   "glossEn": "containing acid; having a pH below seven",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "32580ae0-5d28-53d6-91d2-c14a63396ad7",
+   "lemma": "flammable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flammable",
+    "inflammable"
+   ],
+   "glossEn": "easily set on fire",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "b5e5dc1a-274f-5e27-bfab-efea5ab4d6a4",
+   "lemma": "ignite",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ignite"
+   ],
+   "glossEn": "catch fire or set on fire",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "28614dee-545c-53b6-9151-2d1057210c51",
+   "lemma": "aerosol",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aerosol"
+   ],
+   "glossEn": "fine particles or droplets suspended in gas",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "5a4752df-d499-5f12-873e-66ad91d7a1ff",
+   "lemma": "alkaline",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "alkaline"
+   ],
+   "glossEn": "having a pH above seven; opposite of acidic",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "5c741ab1-3558-5d83-b272-c6d38b250502",
+   "lemma": "insulator",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "insulator"
+   ],
+   "glossEn": "material that blocks heat or electricity",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "4cb39f76-c4f9-5123-aa1e-d3e969948f08",
+   "lemma": "soluble",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "soluble"
+   ],
+   "glossEn": "able to dissolve in a liquid",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "2a8523cb-50c3-57a4-aae7-816dc143ed75",
+   "lemma": "magnetism",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "magnetism"
+   ],
+   "glossEn": "force by which magnets attract or repel",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "9fb86b00-099b-59fc-b66c-50d217129f6e",
+   "lemma": "gravitational",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gravitational"
+   ],
+   "glossEn": "relating to the pull of gravity",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "98dac601-714a-50d1-a2b6-4136c6e3b102",
+   "lemma": "decelerate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "decelerate"
+   ],
+   "glossEn": "slow down",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "2f11684d-ae4e-5688-bac2-1d78749088b9",
+   "lemma": "lever",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lever"
+   ],
+   "glossEn": "rigid bar that lifts loads around a pivot",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "6b4fe825-545f-5084-9bd4-dd8291032316",
+   "lemma": "pulley",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pulley"
+   ],
+   "glossEn": "wheel with a rope for lifting loads",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "0ceb11db-ab7c-5a6c-b926-2471e04e21ab",
+   "lemma": "pivot",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pivot"
+   ],
+   "glossEn": "central point on which something turns",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "ce97e862-7890-589b-99f3-a49f977b5fc4",
+   "lemma": "equilibrium",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "equilibrium"
+   ],
+   "glossEn": "state in which opposing forces are balanced",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "103e27d6-5fa4-5b14-bf99-0c9d657cb74d",
+   "lemma": "diffuse",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "diffuse"
+   ],
+   "glossEn": "spread out slowly over a wide area",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "4477dbc0-c061-5a2d-8827-5dd11b101281",
+   "lemma": "pendulum",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pendulum"
+   ],
+   "glossEn": "weight hung so that it swings freely",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "2c6704d3-cdcb-5a89-a8c0-edc2fcb8b919",
+   "lemma": "elasticity",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "elasticity"
+   ],
+   "glossEn": "ability to return to shape after stretching",
+   "topics": [],
+   "area": "science-nature"
+  }
+ ]
+}

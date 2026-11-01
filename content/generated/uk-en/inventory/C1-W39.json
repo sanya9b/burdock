@@ -1,0 +1,555 @@
+{
+ "chunk": "C1-W39",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "68cd42f0-3f8b-5b56-be8c-a2b7e8ab04de",
+   "lemma": "foliage",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "foliage"
+   ],
+   "glossEn": "leaves of a plant or tree",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "8a3b68b6-9fb3-5072-bade-6f24573384e0",
+   "lemma": "sap",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sap"
+   ],
+   "glossEn": "liquid that carries food inside a plant",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "930eafcc-328c-53d7-abbf-93278294d406",
+   "lemma": "puberty",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "puberty"
+   ],
+   "glossEn": "age when a child's body becomes adult",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "8d6e9b74-225a-579e-8876-63f22715af09",
+   "lemma": "spore",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spore"
+   ],
+   "glossEn": "tiny cell by which fungi and ferns reproduce",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "af32b334-1583-5fa5-85c3-5603858de018",
+   "lemma": "membrane",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "membrane"
+   ],
+   "glossEn": "thin layer of tissue covering or lining a part",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "e4f8d656-8078-5c64-9842-4789e469fb48",
+   "lemma": "algae",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "algae",
+    "alga"
+   ],
+   "glossEn": "simple plant-like organisms living in water",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "9fd8ae35-486a-54aa-a0f4-3084e5532033",
+   "lemma": "plankton",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "plankton"
+   ],
+   "glossEn": "tiny organisms drifting in seas and lakes",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "4449a33b-64b2-50ed-9b7e-b6c6582105b4",
+   "lemma": "scavenger",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scavenger"
+   ],
+   "glossEn": "animal that feeds on dead or discarded matter",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "99181840-6291-5831-9e10-ee822d2a964c",
+   "lemma": "carnivore",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "carnivore"
+   ],
+   "glossEn": "animal that eats meat",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "f4236ae1-842c-577a-ae94-aa5bc368b825",
+   "lemma": "omnivore",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "omnivore"
+   ],
+   "glossEn": "animal that eats both plants and meat",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "1d039d9f-609b-5cd7-a515-7902f397f5f5",
+   "lemma": "saliva",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "saliva"
+   ],
+   "glossEn": "liquid produced in the mouth",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "79588ca0-894d-5ecb-baf2-74eb778c092c",
+   "lemma": "evolutionary",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "evolutionary"
+   ],
+   "glossEn": "relating to gradual development of species",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "8be94c5d-60b5-5a38-8b85-b1eced25cbd7",
+   "lemma": "invasive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "invasive"
+   ],
+   "glossEn": "spreading harmfully where not native",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "2ac09228-a156-5416-bde9-674c7e3bf8f5",
+   "lemma": "feral",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "feral"
+   ],
+   "glossEn": "living wild after being domesticated",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "89deedee-d300-5a5d-a644-bbff81366ba6",
+   "lemma": "domesticate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "domesticate"
+   ],
+   "glossEn": "tame an animal or plant for human use",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "dc2efd0f-145b-563d-a878-1feb05db22b5",
+   "lemma": "graze",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "graze"
+   ],
+   "glossEn": "feed on growing grass, as cattle do",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "678aab02-1ea3-5f24-bfa8-10139f55acf8",
+   "lemma": "mucus",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mucus"
+   ],
+   "glossEn": "slimy fluid lining the nose and throat",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "d7a1e0ee-9a81-54d5-a8c1-137f7f5a2758",
+   "lemma": "hive",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hive",
+    "beehive"
+   ],
+   "glossEn": "structure where bees live and make honey",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "656f9850-ea8e-5869-a4c5-0c2cc428c502",
+   "lemma": "burrow",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "burrow"
+   ],
+   "glossEn": "hole dug by an animal as a home",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "f1c88227-f165-505a-9eae-2adc80f5832e",
+   "lemma": "reflex",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reflex"
+   ],
+   "glossEn": "automatic response of the body to a stimulus",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "3b9d150e-3d96-5bab-b31f-b074392131b4",
+   "lemma": "marrow",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "marrow",
+    "bone marrow"
+   ],
+   "glossEn": "soft tissue inside bones that makes blood cells",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "27af0207-65bc-5545-aea4-6c53b86455c6",
+   "lemma": "sensory",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sensory"
+   ],
+   "glossEn": "relating to the physical senses",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "fd108487-2888-5268-81b7-b0332246f612",
+   "lemma": "chlorophyll",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chlorophyll"
+   ],
+   "glossEn": "green pigment plants use to capture light",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "3d2866e6-4917-5ee4-b0cc-9cd2139be126",
+   "lemma": "auditory",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "auditory"
+   ],
+   "glossEn": "relating to hearing",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "9b65258a-4b39-537d-be6d-36d3f4e380d6",
+   "lemma": "cartilage",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cartilage"
+   ],
+   "glossEn": "firm flexible tissue in joints, nose and ears",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "04c9dc8a-fd78-5845-9aef-23d8d4801353",
+   "lemma": "ligament",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ligament"
+   ],
+   "glossEn": "tough tissue connecting bones at a joint",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "71779e72-d193-516e-a23a-878f53617a36",
+   "lemma": "tendon",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tendon"
+   ],
+   "glossEn": "cord of tissue joining muscle to bone",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "564f83f8-16cd-5810-b95a-2386e03c3f7c",
+   "lemma": "mangrove",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mangrove"
+   ],
+   "glossEn": "tropical tree growing in coastal salt water",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "7839281f-3e87-50ec-b4db-3e06e3b96b7e",
+   "lemma": "savanna",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "savanna",
+    "savannah"
+   ],
+   "glossEn": "tropical grassland with scattered trees",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "f2b0f27f-19f6-50cd-94ca-4aa35553f0c0",
+   "lemma": "resilience",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "resilience"
+   ],
+   "glossEn": "ability to recover quickly from damage or shock",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "cd6b41ab-81e2-5ed0-b37b-fac1ba6e1315",
+   "lemma": "grassland",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "grassland"
+   ],
+   "glossEn": "large open area covered with grass",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "16147cef-de4e-55e7-bfbb-30920e8e0654",
+   "lemma": "poaching",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "poaching"
+   ],
+   "glossEn": "illegal hunting of protected animals",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "6b9e5cd9-551c-5116-911a-cc64b20fbcb4",
+   "lemma": "overfishing",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overfishing",
+    "over-fishing"
+   ],
+   "glossEn": "catching fish faster than they can breed",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "1553af6c-78ed-5c74-9d2d-4d873a40c595",
+   "lemma": "irrigation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "irrigation"
+   ],
+   "glossEn": "supplying water to land for crops",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "69616676-08ae-5d44-9694-98d9ec13423e",
+   "lemma": "aquifer",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aquifer"
+   ],
+   "glossEn": "underground layer of rock holding water",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "1cf3a307-a5cb-5928-a7b3-0f4b4e55ccef",
+   "lemma": "runoff",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "runoff",
+    "run-off"
+   ],
+   "glossEn": "rainwater flowing off land into rivers",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "91492934-2d6a-5dd2-814a-2e47bbc04069",
+   "lemma": "arable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "arable"
+   ],
+   "glossEn": "suitable for growing crops",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "5258a91e-5e7e-5c55-ab79-1fbbf388986a",
+   "lemma": "topsoil",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "topsoil",
+    "top soil"
+   ],
+   "glossEn": "fertile upper layer of soil",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "b50317eb-61d1-5caa-a35b-91e4c5806ab3",
+   "lemma": "haze",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "haze"
+   ],
+   "glossEn": "thin mist of dust or smoke in the air",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "50249c33-86ff-53f8-b648-cac23a689ddd",
+   "lemma": "soot",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "soot"
+   ],
+   "glossEn": "black powder left by burning",
+   "topics": [],
+   "area": "science-nature"
+  }
+ ]
+}

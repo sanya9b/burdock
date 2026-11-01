@@ -1,0 +1,612 @@
+{
+ "chunk": "B1-W23",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "d731b71b-f904-593a-a9d3-202360d15698",
+   "lemma": "parka",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "parka",
+    "parkas"
+   ],
+   "glossEn": "long warm hooded jacket",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "6d1c778e-496c-5aa1-abab-bd202e87a794",
+   "lemma": "mitten",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mitten",
+    "mittens"
+   ],
+   "glossEn": "glove with one section for all four fingers",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "ad34f069-78bc-5867-a154-d5d786c1e1d9",
+   "lemma": "beanie",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "beanie",
+    "beanies"
+   ],
+   "glossEn": "soft close-fitting knitted hat",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "f40d1b5c-f598-5dec-a93f-f9c69e952f47",
+   "lemma": "headband",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "headband",
+    "headbands"
+   ],
+   "glossEn": "band worn around the head to hold hair",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "b8fff2a6-204a-5be0-84c6-b4d2b47e5344",
+   "lemma": "slipper",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "slipper",
+    "slippers"
+   ],
+   "glossEn": "soft comfortable shoe worn indoors",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "83ee6a2e-7053-5f98-aed7-09a98f9941a6",
+   "lemma": "flip-flop",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flip-flop",
+    "flip-flops",
+    "flip flops"
+   ],
+   "glossEn": "flat sandal held by a strap between the toes",
+   "topics": [
+    "shopping",
+    "travel"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "0949ba4c-daab-5295-baf6-4f565b8a59ef",
+   "lemma": "sole",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sole",
+    "soles"
+   ],
+   "glossEn": "bottom part of a shoe",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "ea365e48-72b9-5274-afdd-d9e46f85fd1f",
+   "lemma": "lace-up",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lace-up",
+    "lace-ups",
+    "lace up"
+   ],
+   "glossEn": "fastened with laces, as shoes or boots",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "24e9d0e6-a3d3-5541-89b5-a7c2a01f8984",
+   "lemma": "slip-on",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "slip-on",
+    "slip-ons",
+    "slip on"
+   ],
+   "glossEn": "put on without laces or fastenings, as shoes",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "a7b09546-7985-587b-ac77-630e622ec2a7",
+   "lemma": "boxers",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "boxers",
+    "boxer shorts"
+   ],
+   "glossEn": "loose men's underwear shorts",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "f59e1c04-ffc3-548a-a3a3-d8e30c71a04e",
+   "lemma": "tank top",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tank top",
+    "tank tops",
+    "vest top"
+   ],
+   "glossEn": "sleeveless top with wide shoulder straps",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "2d8be786-c53f-5474-a063-88aea695ca4a",
+   "lemma": "metallic",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "metallic"
+   ],
+   "glossEn": "shiny like metal, as fabric or a finish",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "adb58657-1eb7-5243-9e10-45dd49ad2c8c",
+   "lemma": "hidden fee",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hidden fee",
+    "hidden fees",
+    "hidden charge"
+   ],
+   "glossEn": "extra charge not shown clearly before buying",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "27baab7a-406d-509b-af12-f9976aefb0e3",
+   "lemma": "fair-trade",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fair-trade",
+    "fair trade",
+    "Fairtrade"
+   ],
+   "glossEn": "bought at a fair price from producers in poorer countries",
+   "topics": [
+    "shopping",
+    "food"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "3023e1ec-820a-5def-92bf-a3bb26419c25",
+   "lemma": "best-before",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "best-before",
+    "best before",
+    "best by"
+   ],
+   "glossEn": "date until which food keeps its best quality",
+   "topics": [
+    "shopping",
+    "food"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "60e35be5-03db-5ba3-afe8-64ab1b2f037a",
+   "lemma": "use-by",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "use-by",
+    "use by"
+   ],
+   "glossEn": "date after which food is unsafe to eat",
+   "topics": [
+    "shopping",
+    "food"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "966eecf0-c046-5618-9dc1-f0b5950edf2f",
+   "lemma": "energy rating",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "energy rating",
+    "energy ratings",
+    "energy label"
+   ],
+   "glossEn": "label grade showing how much power an appliance uses",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "9f3110b0-bcfa-5e87-b8e7-f9fff967e422",
+   "lemma": "pressure cooker",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pressure cooker",
+    "pressure cookers"
+   ],
+   "glossEn": "sealed pot that cooks food quickly under steam pressure",
+   "topics": [
+    "shopping",
+    "food"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "c60bff2a-0a82-52ee-848e-e4d38e8fafa0",
+   "lemma": "multicooker",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "multicooker",
+    "multicookers",
+    "multi-cooker"
+   ],
+   "glossEn": "electric pot that cooks in several modes",
+   "topics": [
+    "shopping",
+    "food"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "fe26fd0a-0505-5eaa-9dac-6f61411c8220",
+   "lemma": "smart plug",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "smart plug",
+    "smart plugs"
+   ],
+   "glossEn": "plug controlled remotely from a phone app",
+   "topics": [
+    "shopping",
+    "it"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "d5d2c367-7272-5944-9a43-bf6f30ec7d72",
+   "lemma": "unit price",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unit price",
+    "unit prices",
+    "unit pricing"
+   ],
+   "glossEn": "price per kilo, liter or single item for comparison",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "e73b3e7f-1134-58d4-90fe-813613412d04",
+   "lemma": "own-brand",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "own-brand",
+    "own brand",
+    "store-brand",
+    "store brand"
+   ],
+   "glossEn": "sold under the supermarket's own name",
+   "topics": [
+    "shopping",
+    "food"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "79a79479-4b7d-5f98-a1a5-9b9968d8a34b",
+   "lemma": "family pack",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "family pack",
+    "family packs",
+    "family-size"
+   ],
+   "glossEn": "large economy package meant for several people",
+   "topics": [
+    "shopping",
+    "food"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "d196a0ca-f9a9-55d0-be9a-067763fbcac5",
+   "lemma": "express lane",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "express lane",
+    "express lanes",
+    "express checkout"
+   ],
+   "glossEn": "fast checkout for customers with few items",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "1ca19af5-e807-5856-b18a-55936bfcfe1a",
+   "lemma": "refillable",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "refillable",
+    "refill",
+    "refills"
+   ],
+   "glossEn": "able to be filled again instead of thrown away",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "5d8099b0-ae03-5736-bba5-9c9379a7aa0e",
+   "lemma": "zero-waste",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "zero-waste",
+    "zero waste",
+    "plastic-free"
+   ],
+   "glossEn": "selling goods without packaging to avoid waste",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "9384330f-c340-5c6d-b90f-50d98e2c19b2",
+   "lemma": "starting bid",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "starting bid",
+    "starting bids",
+    "opening bid"
+   ],
+   "glossEn": "first price an auction opens at",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "fe5a99e5-2c3f-5b0e-a747-4d0189438f8a",
+   "lemma": "like-new",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "like-new",
+    "like new",
+    "mint condition"
+   ],
+   "glossEn": "used but in almost perfect condition",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "b08a4148-64a1-52ca-835e-f4da1dffd4e8",
+   "lemma": "gently used",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gently used",
+    "lightly used"
+   ],
+   "glossEn": "used lightly, with little sign of wear",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "db021ecf-9304-5fce-8e48-8c9704b86d00",
+   "lemma": "asking price",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "asking price",
+    "asking prices"
+   ],
+   "glossEn": "price the seller requests for an item",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "1532b306-38c1-5063-bb32-080c7fba381c",
+   "lemma": "bargain hunter",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bargain hunter",
+    "bargain hunters",
+    "bargain-hunting"
+   ],
+   "glossEn": "shopper who always looks for the lowest prices",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "da70db07-3077-5a74-8818-a82440e837b5",
+   "lemma": "mid-range",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mid-range",
+    "midrange",
+    "mid range"
+   ],
+   "glossEn": "neither cheap nor expensive, of average price",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "3f77a026-d19f-5296-9471-0975914ec54d",
+   "lemma": "shopaholic",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shopaholic",
+    "shopaholics"
+   ],
+   "glossEn": "person who cannot stop shopping",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "70fd12c9-5f9f-5681-8f62-4c9f5e887ba0",
+   "lemma": "must-have",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "must-have",
+    "must-haves",
+    "must have"
+   ],
+   "glossEn": "item that everyone wants to own",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "cec5b8a8-e592-5ad9-839d-bb8f5e55c48d",
+   "lemma": "big spender",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "big spender",
+    "big spenders"
+   ],
+   "glossEn": "person who spends a lot of money freely",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "60d36e54-7ef9-5a6f-82e1-7d6745008df4",
+   "lemma": "high-end",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "high-end",
+    "high end",
+    "low-end"
+   ],
+   "glossEn": "expensive and of top quality",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  }
+ ]
+}

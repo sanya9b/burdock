@@ -1,0 +1,682 @@
+{
+ "chunk": "B2-W23",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "d4ba716c-5356-5ffc-9337-ddecda1475aa",
+   "lemma": "assortment",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "assortment",
+    "assortments"
+   ],
+   "glossEn": "mixed collection of different products",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "e20a1934-d869-5875-8a8a-90c444ea5e2c",
+   "lemma": "lineup",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lineup",
+    "lineups",
+    "line-up",
+    "line-ups"
+   ],
+   "glossEn": "set of products a brand currently offers",
+   "topics": [
+    "shopping",
+    "it"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "c26f8f4e-30c7-5122-ba7d-b7e6649cbdca",
+   "lemma": "discontinue",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "discontinue",
+    "discontinues",
+    "discontinued",
+    "discontinuing"
+   ],
+   "glossEn": "stop making or selling a product",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "e23812fc-64ca-5733-8a63-1e507d4340f1",
+   "lemma": "outdated",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "outdated"
+   ],
+   "glossEn": "no longer modern or current, of a model",
+   "topics": [
+    "shopping",
+    "it"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "fb1c4611-305d-5145-8979-e229630c88c8",
+   "lemma": "add-on",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "add-on",
+    "add-ons",
+    "addon",
+    "addons"
+   ],
+   "glossEn": "extra item or feature bought in addition",
+   "topics": [
+    "shopping",
+    "it"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "9c447427-ebfa-515d-ab69-564e855b3093",
+   "lemma": "layaway",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "layaway",
+    "lay-away",
+    "layby"
+   ],
+   "glossEn": "reserving goods and paying for them in parts",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "b556ea98-d085-51f1-9c8e-61102727bc5c",
+   "lemma": "merchandising",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "merchandising"
+   ],
+   "glossEn": "arranging and promoting goods in a store to sell more",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "fc51043b-b48c-5d3c-bdc1-be553fe2aff4",
+   "lemma": "stocktaking",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stocktaking",
+    "stock-taking",
+    "stocktake"
+   ],
+   "glossEn": "counting all the goods a store has in stock",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "17d731c8-1688-5aba-9c4f-e957c600fd65",
+   "lemma": "replenishment",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "replenishment",
+    "replenishments"
+   ],
+   "glossEn": "refilling shelves or stock with new goods",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "1749c287-2255-51aa-a38c-724c54c05a2c",
+   "lemma": "reprice",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reprice",
+    "reprices",
+    "repriced",
+    "repricing"
+   ],
+   "glossEn": "change the price of goods",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "8dd25273-0d55-5308-92f4-a6051e9325eb",
+   "lemma": "closeout",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "closeout",
+    "closeouts",
+    "close-out"
+   ],
+   "glossEn": "sale of remaining stock at greatly reduced prices",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "318e5b9e-0897-574c-aaf0-6e688e4eb747",
+   "lemma": "price-match",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "price-match",
+    "price-matches",
+    "price-matched",
+    "price-matching"
+   ],
+   "glossEn": "offer the same lower price a competitor charges",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "23588c75-0581-5857-8861-e17c17193251",
+   "lemma": "multibuy",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "multibuy",
+    "multibuys",
+    "multi-buy"
+   ],
+   "glossEn": "discount offer for buying several of the same item",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "7dfa7ff9-e4a1-5cd4-a253-a532041fb108",
+   "lemma": "BOGO",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "BOGO",
+    "BOGOF",
+    "bogo"
+   ],
+   "glossEn": "buy one, get one free offer",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "115c0c94-e453-55dc-afa4-021561f9dcb3",
+   "lemma": "cash-and-carry",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cash-and-carry",
+    "cash and carry"
+   ],
+   "glossEn": "wholesale store where buyers pay and take goods away",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "b662633d-89a7-5b14-8461-68edcd81b440",
+   "lemma": "big-box",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "big-box",
+    "big box"
+   ],
+   "glossEn": "describing a very large chain store in a plain building",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "d01000f1-f0f4-50d2-89aa-ee13d05d105e",
+   "lemma": "delicatessen",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "delicatessen",
+    "delicatessens"
+   ],
+   "glossEn": "shop selling fine foods, cold meats and cheeses",
+   "topics": [
+    "shopping",
+    "food"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "45592fb3-ed00-5041-b586-6da5a873a58b",
+   "lemma": "fishmonger",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fishmonger",
+    "fishmongers",
+    "fishmonger's"
+   ],
+   "glossEn": "shop or person selling fresh fish",
+   "topics": [
+    "shopping",
+    "food"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "b644f406-0c16-58c4-b388-a1e7e072f7c5",
+   "lemma": "confectioner",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "confectioner",
+    "confectioners",
+    "confectioner's"
+   ],
+   "glossEn": "shop or person selling sweets and chocolate",
+   "topics": [
+    "shopping",
+    "food"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "8565c3ac-61dc-58f0-9d0e-d738cd484d34",
+   "lemma": "stationer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stationer",
+    "stationers",
+    "stationer's"
+   ],
+   "glossEn": "shop selling paper, pens and office supplies",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "d6d1824e-f28c-5e60-be30-994c94b749ba",
+   "lemma": "bodega",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bodega",
+    "bodegas"
+   ],
+   "glossEn": "small neighborhood grocery store in US cities",
+   "topics": [
+    "shopping",
+    "city"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "102a56cb-cf56-5fd5-b281-516aa7d61c30",
+   "lemma": "fulfillment",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fulfillment",
+    "fulfilment"
+   ],
+   "glossEn": "processing, packing and shipping of customer orders",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "527b12d8-8820-58da-9903-d469593a9321",
+   "lemma": "abandonment",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "abandonment"
+   ],
+   "glossEn": "leaving an online cart without completing the purchase",
+   "topics": [
+    "shopping",
+    "it"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "c15a2784-4b36-5282-9992-c2a7d19ee38e",
+   "lemma": "open-box",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "open-box",
+    "open box"
+   ],
+   "glossEn": "returned with opened packaging and sold at a discount",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "c5ffe185-da8c-5761-a1f6-0c34961b60c1",
+   "lemma": "variant",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "variant",
+    "variants"
+   ],
+   "glossEn": "version of a product in another size or color",
+   "topics": [
+    "shopping",
+    "it"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "e95d5f19-e28f-5ac7-acb6-1d76e912f687",
+   "lemma": "affiliate",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "affiliate",
+    "affiliates"
+   ],
+   "glossEn": "partner who earns commission for referring buyers",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "c2341809-7e74-5394-a193-a3e4cc400583",
+   "lemma": "two-factor",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "two-factor",
+    "2FA"
+   ],
+   "glossEn": "using two steps to confirm identity when paying",
+   "topics": [
+    "shopping",
+    "it"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "81cf69ad-7416-57af-8f53-174cbf88d8f0",
+   "lemma": "flat-rate",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flat-rate",
+    "flat rate"
+   ],
+   "glossEn": "charged at one fixed price regardless of size",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "80a68537-5ca3-557b-8fc6-5d06c3465325",
+   "lemma": "expedited",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "expedited"
+   ],
+   "glossEn": "faster than standard, as shipping",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "715654ec-2e5f-5e94-a63e-6ccd05d3c8e5",
+   "lemma": "undeliverable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "undeliverable"
+   ],
+   "glossEn": "unable to be delivered to the given address",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "b1a612f1-5d95-586b-82be-dab74bc7c161",
+   "lemma": "restocking fee",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "restocking fee",
+    "restocking fees"
+   ],
+   "glossEn": "charge deducted when a returned item is accepted",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "97fc9a85-61d8-5733-973d-5ee68953a898",
+   "lemma": "relist",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "relist",
+    "relists",
+    "relisted",
+    "relisting",
+    "re-list"
+   ],
+   "glossEn": "put an item up for sale again online",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "ad032f1e-cb97-522c-a2c5-0ac57d46005d",
+   "lemma": "presale",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "presale",
+    "presales",
+    "pre-sale"
+   ],
+   "glossEn": "sale of a product before its official release",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "1d6a5bb3-1f4b-56c7-a1f2-756130cf5705",
+   "lemma": "BNPL",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "BNPL",
+    "buy now, pay later"
+   ],
+   "glossEn": "buy now, pay later payment option",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "0e34cfaa-952a-51e9-a8bf-bd7a98d373f8",
+   "lemma": "credit score",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "credit score",
+    "credit scores",
+    "credit rating"
+   ],
+   "glossEn": "number showing how reliable a borrower is",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "78c1f503-5394-570e-8bac-3744cf37aab4",
+   "lemma": "authorization",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "authorization",
+    "authorizations",
+    "authorisation"
+   ],
+   "glossEn": "approval of a card payment by the bank",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "8517a81a-1d55-5680-a149-744af5a0b8bd",
+   "lemma": "processing fee",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "processing fee",
+    "processing fees",
+    "handling fee"
+   ],
+   "glossEn": "charge added for handling a payment or order",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "4772d03f-6ccb-5208-8088-9e7d97ca095b",
+   "lemma": "credit note",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "credit note",
+    "credit notes"
+   ],
+   "glossEn": "voucher for the value of returned goods",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "744188b4-c34d-5a10-aa01-b8ab6b92509f",
+   "lemma": "standing order",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "standing order",
+    "standing orders"
+   ],
+   "glossEn": "fixed regular payment set up with a bank",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "e94f5c8b-76a9-56a0-b79e-202a3e3aafd6",
+   "lemma": "tailored",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tailored"
+   ],
+   "glossEn": "cut and sewn to fit a particular person well",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  }
+ ]
+}

@@ -1,0 +1,694 @@
+{
+ "chunk": "B2-W14",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "848deddb-6bf2-5633-ba88-ba9b0a78f17d",
+   "lemma": "screen reader",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "screen reader",
+    "screen readers"
+   ],
+   "glossEn": "software that reads screen content aloud for blind users",
+   "topics": [
+    "it",
+    "health"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "dba79899-fd37-51a5-a4a0-4087b4fc9c64",
+   "lemma": "alt text",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "alt text",
+    "alt texts",
+    "alternative text"
+   ],
+   "glossEn": "written description of an image for screen readers",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "4110be94-ca8e-5eb4-a461-e3b5d031408a",
+   "lemma": "robocall",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "robocall",
+    "robocalls"
+   ],
+   "glossEn": "automated phone call playing a recorded message",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "cc9e5def-b236-50d7-aa1d-a2e1f5052708",
+   "lemma": "read receipt",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "read receipt",
+    "read receipts"
+   ],
+   "glossEn": "notice showing your message has been read",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "53a3d0df-7079-5298-9dd5-73cf01180087",
+   "lemma": "breakout room",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "breakout room",
+    "breakout rooms"
+   ],
+   "glossEn": "small separate group within an online meeting",
+   "topics": [
+    "it",
+    "work",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "ab4ee380-f457-513b-85ef-5bb1d1e8445f",
+   "lemma": "virtual background",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "virtual background",
+    "virtual backgrounds"
+   ],
+   "glossEn": "image replacing your real room in video calls",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "19a3c7fe-8b39-5baa-9b3f-fa5f610fcd76",
+   "lemma": "teleconference",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "teleconference",
+    "teleconferences",
+    "teleconferencing"
+   ],
+   "glossEn": "meeting held by phone or video across locations",
+   "topics": [
+    "it",
+    "work",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "7c22ca2d-5715-58bf-907d-b76f0dbfc15a",
+   "lemma": "remote-first",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "remote-first",
+    "remote first"
+   ],
+   "glossEn": "organized around working from anywhere by default",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "bb2e1a7d-a371-5876-a985-667e65f2099e",
+   "lemma": "outbox",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "outbox",
+    "outboxes"
+   ],
+   "glossEn": "folder for emails waiting to be sent",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "4ae3d535-c8e6-5e51-a162-4eb932513fb0",
+   "lemma": "upvote",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "upvote",
+    "upvotes",
+    "upvoted",
+    "upvoting"
+   ],
+   "glossEn": "click to show you like a post or comment",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "50f2bf54-e69c-5ecf-b513-d886af685372",
+   "lemma": "SEO",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "SEO",
+    "search engine optimization"
+   ],
+   "glossEn": "making a website rank higher in search results",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "3ee87365-e87e-5c9e-b29d-9f5c33d9ce22",
+   "lemma": "DLC",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "DLC",
+    "DLCs",
+    "downloadable content"
+   ],
+   "glossEn": "extra downloadable content sold for a video game",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "37e966b4-40a9-5842-9388-01ae5d8f9893",
+   "lemma": "merge conflict",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "merge conflict",
+    "merge conflicts"
+   ],
+   "glossEn": "clash when two code changes edit the same lines",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "c03f6778-d4e5-512f-a914-f9087b679c02",
+   "lemma": "lint",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lint",
+    "lints",
+    "linted",
+    "linting"
+   ],
+   "glossEn": "check code automatically for style and errors",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "37a53749-13c8-5386-815c-84d0d81091db",
+   "lemma": "linter",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "linter",
+    "linters"
+   ],
+   "glossEn": "tool that flags style problems and bugs in code",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "b66e841a-e414-5fa3-96b9-9f531aa7cb83",
+   "lemma": "postmortem",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "postmortem",
+    "postmortems",
+    "post-mortem"
+   ],
+   "glossEn": "written review of what caused an outage",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "977ebf9f-ed56-56ac-9f24-90d56175e5f9",
+   "lemma": "on-call",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on-call",
+    "on call"
+   ],
+   "glossEn": "available to respond to system alerts outside hours",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "0cb24508-5c96-5a81-aa6f-8bea945f3049",
+   "lemma": "maintainer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "maintainer",
+    "maintainers"
+   ],
+   "glossEn": "person responsible for keeping a project updated",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "3f552499-9433-5aed-b5d5-4c0cfe24707a",
+   "lemma": "debugger",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "debugger",
+    "debuggers"
+   ],
+   "glossEn": "tool for pausing a program and inspecting values",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "da6d980d-0ac4-570a-ba40-49a87412741b",
+   "lemma": "microservice",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "microservice",
+    "microservices"
+   ],
+   "glossEn": "small independent service that does one job",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "fa65814f-4096-53f3-92c2-c7c528c6dda8",
+   "lemma": "monolith",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "monolith",
+    "monoliths",
+    "monolithic"
+   ],
+   "glossEn": "application built as one large single program",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "10360341-8bb9-5220-b5a9-b146195983ed",
+   "lemma": "initialize",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "initialize",
+    "initializes",
+    "initialized",
+    "initializing"
+   ],
+   "glossEn": "give a variable or system its starting value",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "8ccd8e22-26c4-5b86-8059-48b1e7024df8",
+   "lemma": "null",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "null",
+    "NULL",
+    "nil"
+   ],
+   "glossEn": "special value meaning no value at all",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "c7eeef5b-1192-557f-b9ed-e7932b1f2568",
+   "lemma": "indentation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "indentation",
+    "indent",
+    "indents"
+   ],
+   "glossEn": "spaces at the start of code lines showing structure",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "0efb8112-56dd-5e5c-b519-16944f2cd10a",
+   "lemma": "whitespace",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "whitespace",
+    "white space"
+   ],
+   "glossEn": "spaces, tabs, and blank lines in text or code",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "06e6ecb7-3fac-5c35-96e7-6d39bacacd64",
+   "lemma": "executable",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "executable",
+    "executables",
+    "exe"
+   ],
+   "glossEn": "file that runs as a program when opened",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "dc985b16-6b8c-51c5-8810-0696129c5147",
+   "lemma": "diff",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "diff",
+    "diffs"
+   ],
+   "glossEn": "list of lines changed between two file versions",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "86b68e5f-d8d4-5f56-9ac7-3f0d515ec8d4",
+   "lemma": "blocker",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blocker",
+    "blockers"
+   ],
+   "glossEn": "problem that stops work until it is solved",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "ac46e607-7032-5ede-89dd-ea7b442430fa",
+   "lemma": "root cause",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "root cause",
+    "root causes"
+   ],
+   "glossEn": "underlying reason a problem happened",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "73fa5467-996c-53f8-bff0-5e6758502574",
+   "lemma": "health check",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "health check",
+    "health checks",
+    "healthcheck"
+   ],
+   "glossEn": "automatic request confirming a service is still working",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "6fc3d512-7bd1-509b-8302-b7386edb00a5",
+   "lemma": "continuous integration",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "continuous integration",
+    "CI",
+    "CI/CD"
+   ],
+   "glossEn": "building and testing code automatically on every change",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "3ee46036-40d5-5e0d-ac1b-6b16464f50fd",
+   "lemma": "A/B testing",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "A/B testing",
+    "A/B test",
+    "AB testing",
+    "split testing"
+   ],
+   "glossEn": "comparing two versions to see which performs better",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "d2c0df34-ab2d-56f9-b54f-32766d3980cb",
+   "lemma": "MVP",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "MVP",
+    "MVPs",
+    "minimum viable product"
+   ],
+   "glossEn": "simplest product version released to test an idea",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "106e9b50-3d8b-5c83-a66c-7f25021ce75f",
+   "lemma": "pain point",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pain point",
+    "pain points"
+   ],
+   "glossEn": "specific problem that frustrates users",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "cc24571f-cb4f-55d1-a45b-bccee45f5fa2",
+   "lemma": "modal",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "modal",
+    "modals",
+    "modal window",
+    "modal dialog"
+   ],
+   "glossEn": "pop-up window that blocks the page until closed",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "9e15fdcd-40ed-58e0-a4c6-785f51c57ca8",
+   "lemma": "overlay",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overlay",
+    "overlays"
+   ],
+   "glossEn": "layer shown on top of other screen content",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "9ad4110e-17e2-5183-b5a6-1f687367e126",
+   "lemma": "hamburger menu",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hamburger menu",
+    "hamburger menus",
+    "hamburger icon"
+   ],
+   "glossEn": "three-line icon that opens a hidden menu",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "43d88105-25ff-59db-936c-3551abb6256a",
+   "lemma": "call to action",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "call to action",
+    "calls to action",
+    "CTA"
+   ],
+   "glossEn": "button or line telling users what to do next",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "7d406b29-8922-5386-a9be-448608b0b606",
+   "lemma": "native app",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "native app",
+    "native apps",
+    "native"
+   ],
+   "glossEn": "app built specifically for one operating system",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "bfab24c2-5202-5f32-9735-e99e3bc40e60",
+   "lemma": "package manager",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "package manager",
+    "package managers"
+   ],
+   "glossEn": "tool that installs and updates code libraries",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  }
+ ]
+}

@@ -66,6 +66,9 @@ python content/pipeline/inventory/build_inventory.py                 # CEFR-J v1
 python content/pipeline/inventory/merge_proposals.py                 # → inventory/c1c2-proposals.json
 #   сталі фрази (31.10.2026): агенти за промтом propose-phrases-v1 → inventory/phrases/<kind>-NN.json; потім:
 python content/pipeline/inventory/merge_phrases.py --write           # → inventory/<LEVEL>-PNN.json (чанки по 40 для generate-v1), phrases-proposals.json, lemmas.txt; без --write лише статистика
+#   новий етап слів (01.11.2026, журнал п. 21): агенти за промтами propose-c1c2-v1 (шість ділянок) і propose-topical-v1 (п'ять тем) → inventory/proposals-2026-11/<area>-NN.json; потім:
+python content/pipeline/inventory/merge_words.py --write             # → inventory/<LEVEL>-WNN.json, words-2026-11-proposals.json, lemmas.txt
+#   генерація: Workflow-скрипт content/pipeline/workflows/generate-chunks.js з args {chunks: [...]} (generate → review → fix на чанк, check_chunk.py як ворота)
 python content/pipeline/inventory/build_inventory.py --extra content/generated/uk-en/inventory/c1c2-proposals.json
 #   воркфлоу burdock-content-generate (промти content/pipeline/prompts/generate-v1.md, review-v1.md) → chunks/*.json, reviews/*.review.json
 python content/pipeline/packs/build_packs.py                         # lint + pack build → content/generated/uk-en/packs/*.json, index.json, report.json

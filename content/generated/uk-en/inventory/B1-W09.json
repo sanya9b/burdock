@@ -1,0 +1,680 @@
+{
+ "chunk": "B1-W09",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "14caa461-ebe9-5b29-82a1-97796e7c5c90",
+   "lemma": "burrito",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "burrito",
+    "burritos"
+   ],
+   "glossEn": "large tortilla wrapped around a filling",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "01e2ae7d-b612-5ed6-b275-ea532bdb094e",
+   "lemma": "taco",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "taco",
+    "tacos"
+   ],
+   "glossEn": "folded tortilla with a savory filling",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "dc49c675-6842-56a6-a8d1-4c6892001fc4",
+   "lemma": "nachos",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nachos"
+   ],
+   "glossEn": "tortilla chips topped with melted cheese",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "8198b8fa-6cfd-52f7-a463-03638f19072b",
+   "lemma": "kebab",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "kebab",
+    "kebabs",
+    "kabob",
+    "kabobs"
+   ],
+   "glossEn": "grilled meat on a skewer or in flatbread",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "47be9823-6a3b-58b5-b66e-54b037d28e70",
+   "lemma": "ramen",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ramen"
+   ],
+   "glossEn": "Japanese noodle soup with rich broth",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "3adfa24d-2419-529c-b000-7da0c8b6bd77",
+   "lemma": "flatbread",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flatbread",
+    "flatbreads"
+   ],
+   "glossEn": "thin bread baked without much rising",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "b5a77cb0-a7db-5c1e-a050-19981dea8a92",
+   "lemma": "hot dog",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hot dog",
+    "hot dogs",
+    "hotdog",
+    "hotdogs"
+   ],
+   "glossEn": "sausage served in a long soft bun",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "e5fe2e9e-3dbc-55b6-95cf-ed311a3a3591",
+   "lemma": "cheeseburger",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cheeseburger",
+    "cheeseburgers"
+   ],
+   "glossEn": "hamburger topped with a slice of cheese",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "f34eddb0-8f9f-5ecf-8e8f-c07bb92893f3",
+   "lemma": "wedge",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wedge",
+    "wedges"
+   ],
+   "glossEn": "thick triangular piece of cheese, cake, or lemon",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "447cd29c-5925-5551-a272-2d29624d5fb4",
+   "lemma": "diner",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "diner",
+    "diners"
+   ],
+   "glossEn": "casual American restaurant serving simple meals",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "549e0c22-056d-5cee-9ccb-7083e2a53bc0",
+   "lemma": "pizzeria",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pizzeria",
+    "pizzerias"
+   ],
+   "glossEn": "restaurant that makes and sells pizza",
+   "topics": [
+    "food",
+    "city"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "9d90af02-1242-5bc9-9ff6-bbc84f75be2d",
+   "lemma": "steakhouse",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "steakhouse",
+    "steakhouses"
+   ],
+   "glossEn": "restaurant specializing in grilled steaks",
+   "topics": [
+    "food",
+    "city"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "33782fba-158e-528e-b253-30d9a788d134",
+   "lemma": "food truck",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "food truck",
+    "food trucks"
+   ],
+   "glossEn": "vehicle equipped to cook and sell food",
+   "topics": [
+    "food",
+    "city"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "817786ee-10f2-59c0-9cf5-10c2166e4518",
+   "lemma": "food court",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "food court",
+    "food courts"
+   ],
+   "glossEn": "shared seating area with several food counters",
+   "topics": [
+    "food",
+    "shopping",
+    "city"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "f5b4d617-8b80-5a9a-a3fc-88d582810c1d",
+   "lemma": "street food",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "street food"
+   ],
+   "glossEn": "ready-to-eat food sold by street vendors",
+   "topics": [
+    "food",
+    "travel",
+    "city"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "40d71682-7c2a-5573-be18-4420cf763386",
+   "lemma": "starter",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "starter",
+    "starters"
+   ],
+   "glossEn": "small first course of a meal",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "60678ca3-a508-5d4e-88d9-45dfde81709c",
+   "lemma": "refill",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "refill",
+    "refills"
+   ],
+   "glossEn": "another serving of a drink, often free",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "07c30ef6-e7ef-50af-8bdc-ea71d7b02433",
+   "lemma": "vegan",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vegan",
+    "vegans"
+   ],
+   "glossEn": "containing no animal products at all",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "828d8c19-9d3a-566b-ba4c-6f30c5e916ab",
+   "lemma": "gluten-free",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gluten-free",
+    "gluten free"
+   ],
+   "glossEn": "made without wheat gluten",
+   "topics": [
+    "food",
+    "health",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "000606d4-d73a-52b1-9366-d856b8aa18f8",
+   "lemma": "dairy-free",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dairy-free",
+    "dairy free"
+   ],
+   "glossEn": "made without milk products",
+   "topics": [
+    "food",
+    "health",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "d2b1d78e-0d2f-56b7-af9c-8967b0146fa1",
+   "lemma": "halal",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "halal"
+   ],
+   "glossEn": "permitted under Islamic dietary law",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "ae34fc9e-c2cf-598e-bb9c-e29d0b44fcea",
+   "lemma": "kosher",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "kosher"
+   ],
+   "glossEn": "prepared according to Jewish dietary law",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "62ec7425-79b1-5acd-a50a-1d4a4cf229e4",
+   "lemma": "serving",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "serving",
+    "servings"
+   ],
+   "glossEn": "amount of food for one person",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "e2a2f317-e1d9-57eb-8823-2b4f48532a43",
+   "lemma": "sip",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sip",
+    "sips",
+    "sipped",
+    "sipping"
+   ],
+   "glossEn": "drink in small amounts",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "b4d0719b-173b-5d6e-9a17-fc994c7fb8f5",
+   "lemma": "pinch",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pinch",
+    "pinches"
+   ],
+   "glossEn": "tiny amount held between finger and thumb",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "e774c7ec-0820-5bfb-9d7c-3ee2fa7b826d",
+   "lemma": "cutting board",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cutting board",
+    "cutting boards",
+    "chopping board"
+   ],
+   "glossEn": "flat board for chopping food on",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "65eb3f0e-0ed1-5ba6-abd1-9055f8729be7",
+   "lemma": "oven mitt",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "oven mitt",
+    "oven mitts",
+    "oven glove"
+   ],
+   "glossEn": "padded glove for holding hot dishes",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "6d48f5a6-d4cb-5215-972f-4bac4df1052f",
+   "lemma": "rind",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rind",
+    "rinds"
+   ],
+   "glossEn": "tough outer skin of cheese or fruit",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "cf02fde5-3d7c-589c-a0a8-a921093f11a1",
+   "lemma": "ready meal",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ready meal",
+    "ready meals"
+   ],
+   "glossEn": "prepared meal that only needs heating",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "5fb35199-d4a6-595a-b3cf-bbabf38aac4a",
+   "lemma": "comfort food",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "comfort food",
+    "comfort foods"
+   ],
+   "glossEn": "simple familiar food that feels soothing",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "1afc8a45-dd1c-5633-b71c-3e5cd3571f0f",
+   "lemma": "free-range",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "free-range",
+    "free range"
+   ],
+   "glossEn": "from animals allowed to roam outdoors",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "9848121c-c252-5ece-9ae6-c9742504c895",
+   "lemma": "home-cooked",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "home-cooked",
+    "home cooked",
+    "homecooked"
+   ],
+   "glossEn": "prepared at home, not bought ready",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "efac6996-3f15-5920-9fad-6d53bbaaba9f",
+   "lemma": "sugar-free",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sugar-free",
+    "sugar free"
+   ],
+   "glossEn": "containing no added sugar",
+   "topics": [
+    "food",
+    "health",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "ac985dba-52a5-5a58-9e0d-74c1f509d7c1",
+   "lemma": "low-fat",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "low-fat",
+    "low fat"
+   ],
+   "glossEn": "containing little fat",
+   "topics": [
+    "food",
+    "health",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "5025b9eb-3ea7-52b7-b09f-07a2716f699d",
+   "lemma": "lactose",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lactose"
+   ],
+   "glossEn": "natural sugar found in milk",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "7abbd927-4529-5982-a187-692fbf64e2bc",
+   "lemma": "allergy",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "allergy",
+    "allergies"
+   ],
+   "glossEn": "harmful body reaction to a food",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "8f3ad314-8e95-59ae-813e-9ad5dc34ea87",
+   "lemma": "carbohydrate",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "carbohydrate",
+    "carbohydrates",
+    "carb",
+    "carbs"
+   ],
+   "glossEn": "energy nutrient in bread, rice, sugar",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "370851a3-7248-5c6f-8fad-77260faf76bd",
+   "lemma": "nauseous",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nauseous"
+   ],
+   "glossEn": "feeling you might vomit",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "760156f7-fa0d-5ef2-9d12-870f1c354976",
+   "lemma": "food poisoning",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "food poisoning"
+   ],
+   "glossEn": "illness from eating contaminated food",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "8ddd088a-9465-5275-8b61-dfca05ab930e",
+   "lemma": "expiry",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "expiry",
+    "expiry date"
+   ],
+   "glossEn": "date after which food should not be eaten",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  }
+ ]
+}

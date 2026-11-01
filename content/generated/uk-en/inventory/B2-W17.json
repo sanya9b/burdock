@@ -1,0 +1,671 @@
+{
+ "chunk": "B2-W17",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "be37a491-5d6f-5130-829d-37501cfb4768",
+   "lemma": "roll call",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "roll call",
+    "roll calls",
+    "roll-call"
+   ],
+   "glossEn": "reading names aloud to check who is present",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "2a3e8955-d426-5411-a801-172b960bcea6",
+   "lemma": "briefing",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "briefing",
+    "briefings"
+   ],
+   "glossEn": "meeting that gives instructions before a mission",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "40409156-9a3d-568b-b781-e96ddf22b23b",
+   "lemma": "debriefing",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "debriefing",
+    "debriefings",
+    "debrief"
+   ],
+   "glossEn": "meeting to report what happened after a mission",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "2c253325-cddf-5fd2-a2db-88a85165beb9",
+   "lemma": "dispatch",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dispatch",
+    "dispatches",
+    "dispatched",
+    "dispatching"
+   ],
+   "glossEn": "send troops or help quickly to a place",
+   "topics": [
+    "military",
+    "communication"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "4ecf4e93-b1d7-5e5c-95e6-ca7bc627963c",
+   "lemma": "insubordination",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "insubordination"
+   ],
+   "glossEn": "refusing to obey a superior",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "02e8298f-921e-5ab0-a2ed-1be95ba75dbe",
+   "lemma": "court-martial",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "court-martial",
+    "courts-martial",
+    "court martial"
+   ],
+   "glossEn": "military court that tries soldiers",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "06d825d6-9f07-5aec-bbe3-599fe7af09d3",
+   "lemma": "prisoner of war",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prisoner of war",
+    "prisoners of war",
+    "POW",
+    "POWs"
+   ],
+   "glossEn": "soldier captured and held by the enemy",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "e0351c3e-2105-5908-a730-01e7b32b9ecf",
+   "lemma": "white flag",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "white flag",
+    "white flags"
+   ],
+   "glossEn": "sign of surrender or a wish to talk",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "7b7844bb-7b9f-5524-a711-d3b0143044f1",
+   "lemma": "heroism",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heroism"
+   ],
+   "glossEn": "very brave behavior",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "bdfb5df8-76c4-5783-9cc0-f66d1b977dad",
+   "lemma": "sacrifice",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sacrifice",
+    "sacrifices"
+   ],
+   "glossEn": "giving up something valuable, even life, for others",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "e5adbb15-b380-5b27-9a21-857e0b2d5d0e",
+   "lemma": "missing in action",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "missing in action",
+    "MIA"
+   ],
+   "glossEn": "lost during combat with fate unknown",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "47ce8a7e-1a4f-503c-98fc-438914b424ea",
+   "lemma": "espionage",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "espionage"
+   ],
+   "glossEn": "secretly gathering an enemy's information",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "00f606d5-f795-5b9c-b4c3-211dc37da79b",
+   "lemma": "howitzer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "howitzer",
+    "howitzers"
+   ],
+   "glossEn": "large artillery gun that fires shells high",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "9a647001-327e-5e2f-9653-688ce12e8658",
+   "lemma": "armored personnel carrier",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "armored personnel carrier",
+    "armored personnel carriers",
+    "APC",
+    "APCs"
+   ],
+   "glossEn": "armored vehicle that transports soldiers",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "4a30c301-0606-5bcb-ac95-c66bff3b2edf",
+   "lemma": "infantry fighting vehicle",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "infantry fighting vehicle",
+    "infantry fighting vehicles",
+    "IFV",
+    "IFVs"
+   ],
+   "glossEn": "armed armored vehicle that carries infantry",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "287b054d-71d4-5cb5-b801-4dfa578e7580",
+   "lemma": "amphibious",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "amphibious"
+   ],
+   "glossEn": "able to operate on land and in water",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "e8f67d39-e7ce-5bcd-90d7-e1a2a4cd5f68",
+   "lemma": "maritime",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "maritime"
+   ],
+   "glossEn": "connected with the sea and ships",
+   "topics": [
+    "military",
+    "travel"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "a19d6048-312f-5530-8967-bcad0e06fb4e",
+   "lemma": "cruiser",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cruiser",
+    "cruisers"
+   ],
+   "glossEn": "large fast warship",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "1990d140-7850-545d-a425-8eeb44227772",
+   "lemma": "corvette",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "corvette",
+    "corvettes"
+   ],
+   "glossEn": "small fast warship for coastal defense",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "363957b9-0a8c-5bc5-98a8-38a785005c2b",
+   "lemma": "aircraft carrier",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aircraft carrier",
+    "aircraft carriers"
+   ],
+   "glossEn": "warship with a deck for aircraft",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "e6441e5d-c9f1-549f-8604-d2368f15c8e5",
+   "lemma": "electronic warfare",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "electronic warfare",
+    "EW"
+   ],
+   "glossEn": "using radio signals to block enemy systems",
+   "topics": [
+    "military",
+    "it"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "d294acd3-5c30-5338-9c00-408efbbb45ca",
+   "lemma": "cyberwarfare",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cyberwarfare",
+    "cyber warfare"
+   ],
+   "glossEn": "conflict fought through computer networks",
+   "topics": [
+    "military",
+    "it"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "57e12e68-18cc-536f-8582-e14405b91cde",
+   "lemma": "spoofing",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spoofing"
+   ],
+   "glossEn": "sending false GPS or radio signals",
+   "topics": [
+    "military",
+    "it"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "41e3a093-eb1a-56a1-9190-8d77ca987979",
+   "lemma": "classified",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "classified"
+   ],
+   "glossEn": "officially secret",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "44ac2c20-1211-55c1-801d-cbbd0a752726",
+   "lemma": "declassify",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "declassify",
+    "declassifies",
+    "declassified",
+    "declassifying"
+   ],
+   "glossEn": "officially make secret information public",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "30db8e37-adbe-5322-a528-adcab63a537d",
+   "lemma": "confidential",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "confidential"
+   ],
+   "glossEn": "meant to be kept secret",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "67f2c417-554d-5919-8bdf-b87f358726c0",
+   "lemma": "propaganda",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "propaganda"
+   ],
+   "glossEn": "biased information spread to influence people",
+   "topics": [
+    "military",
+    "communication"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "9f5d3011-d114-5798-b918-fd889b6858e9",
+   "lemma": "chaplain",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chaplain",
+    "chaplains"
+   ],
+   "glossEn": "priest who serves with the troops",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "392e8f7e-2ef7-52df-84c6-1abf27b40592",
+   "lemma": "reintegration",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reintegration"
+   ],
+   "glossEn": "helping veterans return to civilian life",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "c2aa933f-f426-5899-9df9-8fb9b633d379",
+   "lemma": "retraining",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "retraining"
+   ],
+   "glossEn": "learning a new profession after service",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "b619502f-edd2-521a-a7c6-918bf8ac3fda",
+   "lemma": "trench foot",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "trench foot"
+   ],
+   "glossEn": "foot injury from long cold wet conditions",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "7e2c7c26-f801-5272-95a1-84ad98bf2554",
+   "lemma": "PTSD",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "PTSD",
+    "post-traumatic stress disorder"
+   ],
+   "glossEn": "lasting stress disorder after traumatic events",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "18e9012c-2ae1-5ac1-9c05-bdd8dafcd972",
+   "lemma": "flashback",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flashback",
+    "flashbacks"
+   ],
+   "glossEn": "sudden vivid memory of a traumatic event",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "2d891ae8-0caa-5179-99f4-0964c6c49f75",
+   "lemma": "resuscitation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "resuscitation"
+   ],
+   "glossEn": "reviving a person whose heart has stopped",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "87ba0d10-2a78-5540-94ce-1115e5d4b0b6",
+   "lemma": "CPR",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "CPR"
+   ],
+   "glossEn": "chest compressions to restart breathing and heartbeat",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "cc9f1df7-320d-5145-a847-9fd8d6108add",
+   "lemma": "airway",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "airway",
+    "airways"
+   ],
+   "glossEn": "passage through which air reaches the lungs",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "d7d759a8-b098-5403-ba10-6b0c854855a2",
+   "lemma": "hemorrhage",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hemorrhage",
+    "hemorrhages",
+    "haemorrhage"
+   ],
+   "glossEn": "heavy uncontrolled bleeding",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "9642165d-9dc2-56b8-a377-572f5cf0de2a",
+   "lemma": "hemostatic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hemostatic",
+    "haemostatic"
+   ],
+   "glossEn": "stopping bleeding",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "82c9a844-6827-55f3-8e2f-01897b59a6b5",
+   "lemma": "chest seal",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chest seal",
+    "chest seals"
+   ],
+   "glossEn": "sticky dressing for a chest wound",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "b3cb1c4b-7407-5675-a711-dc590c49436e",
+   "lemma": "antibiotic",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "antibiotic",
+    "antibiotics"
+   ],
+   "glossEn": "medicine that kills bacteria in wounds",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  }
+ ]
+}

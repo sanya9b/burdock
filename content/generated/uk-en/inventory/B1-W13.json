@@ -1,0 +1,700 @@
+{
+ "chunk": "B1-W13",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "66c13dfc-eadb-5b26-9387-106ed50cccf4",
+   "lemma": "GIF",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "GIF",
+    "GIFs",
+    "gif"
+   ],
+   "glossEn": "short looping animated image shared in chats",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "369c5b1e-0cfb-5fb6-a56a-54df7a3994ef",
+   "lemma": "screen recording",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "screen recording",
+    "screen recordings",
+    "screen record"
+   ],
+   "glossEn": "video capture of everything happening on a screen",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "20d71d82-9825-5f25-a74b-a7c54915c090",
+   "lemma": "factory reset",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "factory reset",
+    "factory resets",
+    "factory settings"
+   ],
+   "glossEn": "wiping a device back to its original settings",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "ea284cc0-5245-50d4-a7ce-44f2cefacb1d",
+   "lemma": "reinstall",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reinstall",
+    "reinstalls",
+    "reinstalled",
+    "reinstalling"
+   ],
+   "glossEn": "remove a program and install it again",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "a39ac596-0a10-5d44-978e-09275c471e6e",
+   "lemma": "force quit",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "force quit",
+    "force-quit",
+    "force quits",
+    "force quitting"
+   ],
+   "glossEn": "close a frozen app without saving",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "e5840b6d-4e8d-5320-88c2-8b0748df3a11",
+   "lemma": "task manager",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "task manager",
+    "activity monitor"
+   ],
+   "glossEn": "tool that lists running programs and lets you close them",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "a8036d5d-cee9-58cd-afc6-9004498f76b5",
+   "lemma": "disk space",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disk space",
+    "storage space",
+    "free space"
+   ],
+   "glossEn": "amount of storage free on a drive",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "1b921912-a0ed-582d-bf5e-a4d341763f0c",
+   "lemma": "cloud storage",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cloud storage"
+   ],
+   "glossEn": "keeping files on remote servers reachable online",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "ad8aa02c-3c24-5837-b350-40248f13c534",
+   "lemma": "recycle bin",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "recycle bin",
+    "recycle bins",
+    "trash"
+   ],
+   "glossEn": "folder holding deleted files until emptied",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "b5fc21a2-1957-5824-9c35-ab0d7f6eba80",
+   "lemma": "file extension",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "file extension",
+    "file extensions",
+    "file type"
+   ],
+   "glossEn": "letters after the dot in a file name",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "6479a7ae-d817-5ac1-9094-c4c0958d154f",
+   "lemma": "auto-update",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "auto-update",
+    "auto-updates",
+    "auto update",
+    "automatic update"
+   ],
+   "glossEn": "software updating itself without the user asking",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "ba8f480b-0ae3-52af-91d4-77ccf6b98efa",
+   "lemma": "progress bar",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "progress bar",
+    "progress bars"
+   ],
+   "glossEn": "bar that shows how much of a task is done",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "2b865554-ca59-5bd4-80ae-e4621db984db",
+   "lemma": "long press",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "long press",
+    "long-press",
+    "long presses"
+   ],
+   "glossEn": "holding a finger on the screen to open options",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "2bba0929-be3e-58d2-a0ad-9eb65ed82656",
+   "lemma": "read-only",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "read-only",
+    "read only"
+   ],
+   "glossEn": "can be viewed but not changed",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "acf35fe7-3363-5603-a09e-0d4ca371b33f",
+   "lemma": "admin",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "admin",
+    "admins"
+   ],
+   "glossEn": "person who manages a system, site, or group",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "0cc6fe6d-bfa6-5dfa-ba27-d569b6145490",
+   "lemma": "voicemail",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "voicemail",
+    "voicemails",
+    "voice mail"
+   ],
+   "glossEn": "recorded phone message left when nobody answers",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "d5cfa2e3-e04c-5546-b0ad-343bf465d82a",
+   "lemma": "caller ID",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "caller ID",
+    "caller id"
+   ],
+   "glossEn": "phone feature that shows who is calling",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "3ba947b3-7f37-5b8c-b328-52536a7731a5",
+   "lemma": "data plan",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "data plan",
+    "data plans"
+   ],
+   "glossEn": "mobile contract that includes an internet allowance",
+   "topics": [
+    "it",
+    "travel"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "b2f45bf3-0795-58a1-87b3-3ef2c9bd53e2",
+   "lemma": "mobile data",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mobile data",
+    "cellular data"
+   ],
+   "glossEn": "internet access through the cellular network",
+   "topics": [
+    "it",
+    "travel"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "59f21026-9127-5a06-bd48-c2ee440430c2",
+   "lemma": "5G",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "5G"
+   ],
+   "glossEn": "fifth-generation mobile network with very fast internet",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "82fbd5c5-2169-5ee0-8f2c-d205baa64fcf",
+   "lemma": "LAN",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "LAN",
+    "LANs",
+    "local area network"
+   ],
+   "glossEn": "local network linking computers in one building",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "bcd3aa8f-0e1d-54c5-af71-b710fd3d74a7",
+   "lemma": "ISP",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ISP",
+    "ISPs",
+    "internet service provider",
+    "internet provider"
+   ],
+   "glossEn": "company that provides internet access",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "2cf0ae95-6ec2-55e2-ac93-2238dcdbcf66",
+   "lemma": "HTTP",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "HTTP",
+    "http"
+   ],
+   "glossEn": "protocol browsers use to fetch web pages",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "189eacc4-c207-5120-8b00-9f48c951c4df",
+   "lemma": "HTTPS",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "HTTPS",
+    "https"
+   ],
+   "glossEn": "encrypted, secure version of HTTP for websites",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "7b5ca1eb-8527-5870-a843-23bd5ce3fb96",
+   "lemma": "direct message",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "direct message",
+    "direct messages",
+    "DM",
+    "DMs"
+   ],
+   "glossEn": "private message sent inside a social network",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "7ef823a8-7689-5866-8ef2-db130f166b36",
+   "lemma": "group chat",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "group chat",
+    "group chats"
+   ],
+   "glossEn": "chat conversation shared by several people",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "252184a8-b64f-59a1-930c-9b167be7e401",
+   "lemma": "video call",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "video call",
+    "video calls",
+    "video chat"
+   ],
+   "glossEn": "call where people see each other on screen",
+   "topics": [
+    "it",
+    "communication",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "6c206f4c-37cf-514c-896d-060c91ec1a85",
+   "lemma": "screen sharing",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "screen sharing",
+    "screen share",
+    "share screen"
+   ],
+   "glossEn": "showing your screen to others during a call",
+   "topics": [
+    "it",
+    "work",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "6e221c46-30e6-5262-bbe4-5d70467fe91a",
+   "lemma": "unmute",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unmute",
+    "unmutes",
+    "unmuted",
+    "unmuting"
+   ],
+   "glossEn": "turn your microphone or sound back on",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "e51aa712-2802-5eaf-bbd5-fa24bab09ce6",
+   "lemma": "cc",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cc",
+    "CC",
+    "cc'd",
+    "carbon copy"
+   ],
+   "glossEn": "send someone a copy of an email",
+   "topics": [
+    "it",
+    "communication",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "1b6b9eb9-c255-5608-8f1e-7aa7ce5c91a5",
+   "lemma": "out-of-office",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "out-of-office",
+    "out of office",
+    "OOO"
+   ],
+   "glossEn": "automatic reply saying you are away from work",
+   "topics": [
+    "it",
+    "work",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "1b8e2e0e-1a30-534e-b509-c8700742f995",
+   "lemma": "content creator",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "content creator",
+    "content creators",
+    "creator"
+   ],
+   "glossEn": "person who makes videos or posts for online audiences",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "924bc91d-2aa9-54b3-b03c-0de6235a29e8",
+   "lemma": "subscriber",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subscriber",
+    "subscribers"
+   ],
+   "glossEn": "person who follows a channel or pays for a service",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "c8216d99-e807-526b-9afd-ddcfb78c7470",
+   "lemma": "google",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "google",
+    "googles",
+    "googled",
+    "googling"
+   ],
+   "glossEn": "search for something with an internet search engine",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "e6cd30f8-f065-5c2c-b553-f9e4e29a52d9",
+   "lemma": "digital wallet",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "digital wallet",
+    "digital wallets",
+    "e-wallet",
+    "mobile wallet"
+   ],
+   "glossEn": "phone app that stores cards and pays in shops",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "d8fa1896-3304-5369-8786-1fdf5f7a7195",
+   "lemma": "mobile banking",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mobile banking",
+    "online banking"
+   ],
+   "glossEn": "managing a bank account through a phone app",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "93277c8b-d50f-5f58-8e57-e29be9a7f5d5",
+   "lemma": "artificial intelligence",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "artificial intelligence",
+    "AI"
+   ],
+   "glossEn": "computer systems that do tasks needing human-like thinking",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "1b0e4440-e779-51fa-933f-58ac112962a3",
+   "lemma": "real-time",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "real-time",
+    "realtime",
+    "real time"
+   ],
+   "glossEn": "happening instantly as the data arrives",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "03b8f946-c3de-5fd0-8b89-c5c632d8e8d3",
+   "lemma": "whiteboard",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "whiteboard",
+    "whiteboards"
+   ],
+   "glossEn": "board for sketching ideas in meetings, physical or digital",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "3a11926b-056a-5032-b517-90f2752c10bc",
+   "lemma": "coworking",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "coworking",
+    "co-working",
+    "coworking space"
+   ],
+   "glossEn": "shared office space rented by freelancers and small teams",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  }
+ ]
+}

@@ -1,0 +1,670 @@
+{
+ "chunk": "C1-W16",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "377eb617-281d-5779-922e-9152e319126f",
+   "lemma": "upzoning",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "upzoning",
+    "upzone",
+    "up-zoning"
+   ],
+   "glossEn": "changing rules to allow taller or denser buildings",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "af14159f-1b91-5001-9efc-496f6a577def",
+   "lemma": "densify",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "densify",
+    "densifies",
+    "densified",
+    "densifying"
+   ],
+   "glossEn": "increase the number of homes in an area",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "7d0ffe19-9b5b-5b91-873e-384a147d1f3e",
+   "lemma": "inclusionary zoning",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inclusionary zoning"
+   ],
+   "glossEn": "rule requiring new developments to include affordable homes",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "95503cb6-6e86-5071-b6c6-5ccc704d01ba",
+   "lemma": "NIMBY",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "NIMBY",
+    "nimby",
+    "NIMBYs",
+    "nimbyism"
+   ],
+   "glossEn": "resident who opposes new building near their home",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "66898f6b-4409-5f51-b400-5791154f7419",
+   "lemma": "superblock",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "superblock",
+    "superblocks"
+   ],
+   "glossEn": "group of blocks closed to through traffic",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "ea26b389-4f58-5866-9d18-203ab0d19996",
+   "lemma": "transit-oriented",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "transit-oriented",
+    "transit oriented"
+   ],
+   "glossEn": "designed around public transport stations",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "93b58838-1ca8-5574-bcca-0b3f89bf605b",
+   "lemma": "car-dependent",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "car-dependent",
+    "car dependent",
+    "car-centric"
+   ],
+   "glossEn": "requiring a car for most daily trips",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "131da0eb-b38a-5867-9ebc-b79187070372",
+   "lemma": "livability",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "livability",
+    "liveability"
+   ],
+   "glossEn": "how pleasant a city is to live in",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "2f6cd93b-4c7f-5d01-b30b-404b13b39106",
+   "lemma": "commuter town",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "commuter town",
+    "commuter towns",
+    "dormitory town",
+    "bedroom community"
+   ],
+   "glossEn": "town whose residents travel to a nearby city for work",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "edf81e4b-71ba-5f46-a025-5426e09933db",
+   "lemma": "commuter belt",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "commuter belt",
+    "commuter belts"
+   ],
+   "glossEn": "area around a city where its workers live",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "5fdce754-2d8e-5981-905c-68764de34634",
+   "lemma": "exurban",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "exurban"
+   ],
+   "glossEn": "located in prosperous areas beyond the suburbs",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "4eff5489-548f-55ff-b4db-ec459e99ccc6",
+   "lemma": "peri-urban",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "peri-urban",
+    "periurban"
+   ],
+   "glossEn": "on the edge where city meets countryside",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "b8ba20f5-4ce3-5a9c-98b4-e291c66df2f9",
+   "lemma": "built-up area",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "built-up area",
+    "built-up areas"
+   ],
+   "glossEn": "area densely covered with buildings",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "63880ab0-5811-5eb3-afbc-b27e55002f75",
+   "lemma": "urban fringe",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "urban fringe",
+    "urban fringes",
+    "rural-urban fringe"
+   ],
+   "glossEn": "outer edge of a city's developed land",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "437a794d-7378-589b-89e9-bce395c524a4",
+   "lemma": "leasehold",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "leasehold",
+    "leaseholds",
+    "leaseholder"
+   ],
+   "glossEn": "ownership of a home for a fixed number of years",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "48c49aa2-1464-549a-81c8-f1f80b516f1b",
+   "lemma": "freehold",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "freehold",
+    "freeholds",
+    "freeholder"
+   ],
+   "glossEn": "outright permanent ownership of a property and its land",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "5ff4264d-42d4-5b29-abf1-20b741c78752",
+   "lemma": "subtenant",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subtenant",
+    "subtenants",
+    "sub-tenant"
+   ],
+   "glossEn": "person renting from a tenant rather than the owner",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "a2f347ec-ce73-5ceb-bcda-c3dddc45c6f5",
+   "lemma": "rent-stabilized",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rent-stabilized",
+    "rent-stabilised",
+    "rent-controlled"
+   ],
+   "glossEn": "having rent increases limited by law",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "d89d5f8d-4504-5e34-bf84-087c5b39eb54",
+   "lemma": "housing voucher",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "housing voucher",
+    "housing vouchers"
+   ],
+   "glossEn": "government payment covering part of a tenant's rent",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "d9cf9efa-ff4d-5e14-b301-ee14ea145dd7",
+   "lemma": "slumlord",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "slumlord",
+    "slumlords"
+   ],
+   "glossEn": "landlord who neglects poor-quality rented housing",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "62c9d406-fca1-5bd0-a275-d80825198dc6",
+   "lemma": "absentee landlord",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "absentee landlord",
+    "absentee landlords"
+   ],
+   "glossEn": "property owner who lives far from the rented building",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "a9d0950c-335a-5161-b7e1-26037c722b6e",
+   "lemma": "eviction notice",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "eviction notice",
+    "eviction notices"
+   ],
+   "glossEn": "formal letter ordering a tenant to leave",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "35ac210b-5303-5f44-acdc-1e6dec4f4c97",
+   "lemma": "conveyancing",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "conveyancing",
+    "conveyancer"
+   ],
+   "glossEn": "legal work of transferring property ownership to a buyer",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "cb3d1c7c-92b9-5c0a-a0de-e73bb11c14e1",
+   "lemma": "negative equity",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "negative equity"
+   ],
+   "glossEn": "owing more on a mortgage than the home is worth",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "b3412780-8122-52dc-b534-e1274df9e1e3",
+   "lemma": "title deed",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "title deed",
+    "title deeds"
+   ],
+   "glossEn": "legal document proving who owns a property",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "34b4e8e2-f295-5166-9532-86006037f351",
+   "lemma": "party wall",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "party wall",
+    "party walls"
+   ],
+   "glossEn": "wall shared by two neighboring properties",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "548183fb-fe43-528d-98bc-7b9ab79ce9fe",
+   "lemma": "vacancy rate",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vacancy rate",
+    "vacancy rates"
+   ],
+   "glossEn": "share of homes or offices standing empty",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "d95b478a-9f1d-5939-a30d-e270719f8ae3",
+   "lemma": "boarded-up",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "boarded-up",
+    "boarded up"
+   ],
+   "glossEn": "having windows and doors covered with wooden boards",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "800baa16-f0a3-5e36-899e-4fbbde0b4a75",
+   "lemma": "headway",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "headway",
+    "headways"
+   ],
+   "glossEn": "time interval between buses or trains on a route",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "27e48bf5-a6fc-5a75-992e-898a560c06c2",
+   "lemma": "last mile",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "last mile",
+    "last-mile",
+    "first mile"
+   ],
+   "glossEn": "final short leg of a journey from transit to door",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "3efaf90a-9320-5035-91b7-884ce6f4a62a",
+   "lemma": "micromobility",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "micromobility",
+    "micro-mobility"
+   ],
+   "glossEn": "small light vehicles such as e-scooters and bikes",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "d9ecd239-e28f-5ce3-bf52-0d0d4a26ecfb",
+   "lemma": "carriageway",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "carriageway",
+    "carriageways",
+    "roadway",
+    "dual carriageway"
+   ],
+   "glossEn": "part of a road used by vehicles",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "f5e543c1-276e-5a10-a022-20d6f9556ece",
+   "lemma": "tactile paving",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tactile paving",
+    "tactile tiles"
+   ],
+   "glossEn": "textured ground surface guiding blind pedestrians",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "77f38c61-e2d3-5251-8fc5-83b584880e49",
+   "lemma": "curb cut",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "curb cut",
+    "curb cuts",
+    "dropped curb",
+    "dropped kerb"
+   ],
+   "glossEn": "sloped section of curb for wheelchairs and strollers",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "e4d8276d-978c-5825-8302-b82bdf668a51",
+   "lemma": "chicane",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chicane",
+    "chicanes"
+   ],
+   "glossEn": "sharp double bend built to slow traffic",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "f351cc75-ca41-550e-9dd4-7001c39f62b1",
+   "lemma": "bus gate",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bus gate",
+    "bus gates"
+   ],
+   "glossEn": "short road section open only to buses",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "3286fa3d-05f1-5e7c-975c-3622c9b67659",
+   "lemma": "panhandler",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "panhandler",
+    "panhandlers",
+    "panhandling"
+   ],
+   "glossEn": "person who asks strangers for money in the street",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "a7f665d9-1788-554a-a399-5d4442f4f464",
+   "lemma": "feeder bus",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "feeder bus",
+    "feeder buses",
+    "feeder service"
+   ],
+   "glossEn": "local bus that brings passengers to a rail station",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "bd06a7fd-3cca-5266-91e9-b10302f933f4",
+   "lemma": "community policing",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "community policing"
+   ],
+   "glossEn": "policing based on cooperation with local residents",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "272463e3-ae8d-5b50-9c7b-d08aa02b7643",
+   "lemma": "rough sleeper",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rough sleeper",
+    "rough sleepers",
+    "rough sleeping"
+   ],
+   "glossEn": "homeless person who sleeps outdoors",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  }
+ ]
+}

@@ -1,0 +1,533 @@
+{
+ "chunk": "C1-W05",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "92138e75-703a-53a7-bb80-31a1f94edfc1",
+   "lemma": "stagnant",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stagnant"
+   ],
+   "glossEn": "showing no activity, growth or development",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "76bc129d-1cde-55e7-a2e8-9e62359a8800",
+   "lemma": "revert",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "revert"
+   ],
+   "glossEn": "return to a previous state or practice",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "38a12deb-0fb8-5297-892c-6bebad155ca9",
+   "lemma": "reversion",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reversion"
+   ],
+   "glossEn": "return to a previous state",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "2f6b5737-192b-56d7-9187-4d252bac070e",
+   "lemma": "resurgence",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "resurgence"
+   ],
+   "glossEn": "increase or revival after a period of decline",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "8798c039-cb0e-5e9c-9880-e5a55e545073",
+   "lemma": "resurgent",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "resurgent"
+   ],
+   "glossEn": "becoming stronger or more popular again",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "b5a0c5ef-c5ff-58c8-ae31-02d4fded05dd",
+   "lemma": "regress",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "regress"
+   ],
+   "glossEn": "return to a less developed state",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "e64f524c-ee35-5c18-bf7f-cb1f633edc56",
+   "lemma": "regression",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "regression"
+   ],
+   "glossEn": "return to a less advanced state",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "f937612f-5afb-5f21-abc8-d7afb859c303",
+   "lemma": "trajectory",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "trajectory"
+   ],
+   "glossEn": "path or course of development over time",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "2b599438-d4f0-5328-a25c-af3e0929c6b3",
+   "lemma": "overhaul",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overhaul"
+   ],
+   "glossEn": "thorough examination and major change of something",
+   "topics": [
+    "work"
+   ],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "0d9df1b2-4ab5-54ee-b4cd-b3a438b0a3c2",
+   "lemma": "critique",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "critique"
+   ],
+   "glossEn": "detailed analysis and assessment of something",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "5853cfc3-b743-5114-9549-2f66ad6d7260",
+   "lemma": "commendable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "commendable"
+   ],
+   "glossEn": "deserving praise",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "7adfb937-6e83-57fe-ac26-391dff620ce9",
+   "lemma": "commend",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "commend"
+   ],
+   "glossEn": "praise formally or officially",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "d53f0b62-fafa-5bb0-938b-5196d26b6846",
+   "lemma": "praiseworthy",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "praiseworthy"
+   ],
+   "glossEn": "deserving approval and admiration",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "c9f2768e-f58e-5995-ac53-dd97d5ddc042",
+   "lemma": "noteworthy",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "noteworthy"
+   ],
+   "glossEn": "interesting or important enough to be noticed",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "7d4fd008-16ef-5908-8e3e-19ebab5d7d80",
+   "lemma": "irrelevance",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "irrelevance"
+   ],
+   "glossEn": "lack of connection with the matter in hand",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "45a6d4c3-4d95-513b-9a38-f70f252de02c",
+   "lemma": "extraneous",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "extraneous"
+   ],
+   "glossEn": "not directly connected; irrelevant",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "80c50591-d53b-513a-a150-542e76a3b903",
+   "lemma": "triviality",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "triviality"
+   ],
+   "glossEn": "something of little value or importance",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "37a9c300-8914-5c05-aa58-cdae8bde510a",
+   "lemma": "trivialize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "trivialize",
+    "trivialise"
+   ],
+   "glossEn": "make something seem less important than it is",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "ddb75251-352a-5c87-a595-6d75691c9115",
+   "lemma": "overrate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overrate"
+   ],
+   "glossEn": "have too high an opinion of something",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "63f4c4ea-899f-5e18-89a8-8122b9189643",
+   "lemma": "underrate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "underrate"
+   ],
+   "glossEn": "have too low an opinion of something",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "8477a461-a5d9-5d18-a84a-1f7d692dadd2",
+   "lemma": "misjudge",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "misjudge"
+   ],
+   "glossEn": "form a wrong opinion or estimate",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "d2a794e3-745a-5bcc-af7d-51da01262212",
+   "lemma": "misjudgment",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "misjudgment",
+    "misjudgement"
+   ],
+   "glossEn": "wrong opinion or estimate",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "cd42942c-0a19-5c95-9664-b5dd37c007aa",
+   "lemma": "discerning",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "discerning"
+   ],
+   "glossEn": "having good judgment about quality",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "dd0208ab-0a7d-5a0a-8752-bb9cf8b146d3",
+   "lemma": "prudence",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prudence"
+   ],
+   "glossEn": "quality of being careful and sensible",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "50439fee-0481-558e-be21-00eff8c6f014",
+   "lemma": "imprudent",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "imprudent"
+   ],
+   "glossEn": "not careful or sensible; unwise",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "fc80f17c-a81b-5193-b2ba-5db9c987b352",
+   "lemma": "painstaking",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "painstaking"
+   ],
+   "glossEn": "done with great care and thoroughness",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "92cd4f02-e1a5-54b4-bd8c-c104a51f82d7",
+   "lemma": "thoroughness",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "thoroughness"
+   ],
+   "glossEn": "quality of being careful and complete",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "5e497cd1-3fd8-55b4-a1e9-be80fb852337",
+   "lemma": "cursory",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cursory"
+   ],
+   "glossEn": "hasty and not thorough",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "4c9e7643-48b6-5784-9213-6b7d37cf79e4",
+   "lemma": "superficiality",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "superficiality"
+   ],
+   "glossEn": "lack of depth or thoroughness",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "55f03fad-0b67-5d25-99d5-481531f28fff",
+   "lemma": "flawed",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flawed"
+   ],
+   "glossEn": "having a weakness or mistake",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "b451d328-0401-522a-bf14-0559b3079790",
+   "lemma": "fallible",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fallible"
+   ],
+   "glossEn": "capable of making mistakes",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "ba0a0b3d-7130-5fa7-ba72-06700c487e36",
+   "lemma": "problematic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "problematic"
+   ],
+   "glossEn": "presenting a problem or difficulty",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "a39e49b8-4246-54af-a4fe-879361cd895e",
+   "lemma": "contentious",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "contentious"
+   ],
+   "glossEn": "causing or likely to cause disagreement",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "22d40322-8913-5cfb-a324-b62ce7dd4e6f",
+   "lemma": "debatable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "debatable"
+   ],
+   "glossEn": "open to discussion or argument",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "9d207ac1-62dd-56e3-bc78-e9d8b89d7eb6",
+   "lemma": "polarizing",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "polarizing",
+    "polarising"
+   ],
+   "glossEn": "dividing people into sharply opposing groups",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "95763998-0254-59df-b367-5a184d2cac2f",
+   "lemma": "polarize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "polarize",
+    "polarise"
+   ],
+   "glossEn": "divide into two sharply contrasting groups",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "5270dd62-0db8-50fe-a787-4560b9464247",
+   "lemma": "impartiality",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "impartiality"
+   ],
+   "glossEn": "equal treatment of all sides",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "29831c85-086d-5740-a181-555b3175ce52",
+   "lemma": "one-sided",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "one-sided"
+   ],
+   "glossEn": "showing only one point of view; unfair",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "bf609568-eeee-5394-93c8-23cfeece781d",
+   "lemma": "even-handed",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "even-handed",
+    "evenhanded"
+   ],
+   "glossEn": "fair and impartial in treatment",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "e3969e61-8ec6-5b33-8f40-2ce08e98b7f6",
+   "lemma": "dispassionate",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dispassionate"
+   ],
+   "glossEn": "not influenced by strong emotion; rational",
+   "topics": [],
+   "area": "abstract-thought"
+  }
+ ]
+}

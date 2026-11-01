@@ -1,0 +1,687 @@
+{
+ "chunk": "A2-W03",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "b44381e3-775c-5904-9e46-c2f2e116595f",
+   "lemma": "router",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "router",
+    "routers"
+   ],
+   "glossEn": "box that shares the internet over Wi-Fi",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "1a3e5347-b840-5f46-8b37-019c2b96c47c",
+   "lemma": "bluetooth",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bluetooth",
+    "Bluetooth"
+   ],
+   "glossEn": "short-range wireless connection between devices",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "aed24760-d76b-515e-8d12-0aa6d501f3f5",
+   "lemma": "hotspot",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hotspot",
+    "hotspots",
+    "hot spot"
+   ],
+   "glossEn": "place or phone that shares an internet connection",
+   "topics": [
+    "it",
+    "travel"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "d5a2bb9a-409e-5ed2-af8c-56930860bcd3",
+   "lemma": "gigabyte",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gigabyte",
+    "gigabytes",
+    "GB"
+   ],
+   "glossEn": "unit of digital storage, about a billion bytes",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "d28a98c3-4026-538b-b91f-b5c9ba62f7d5",
+   "lemma": "megabyte",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "megabyte",
+    "megabytes",
+    "MB"
+   ],
+   "glossEn": "unit of digital storage, about a million bytes",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "913e1d23-2e89-5164-83a6-e617e2739584",
+   "lemma": "byte",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "byte",
+    "bytes"
+   ],
+   "glossEn": "basic unit of digital information",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "2e941886-8af5-57bc-bafb-4ba4a74ad56b",
+   "lemma": "pixel",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pixel",
+    "pixels"
+   ],
+   "glossEn": "smallest dot of a digital image or screen",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "4907503d-f170-5345-ab34-fe258ce07947",
+   "lemma": "brightness",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brightness"
+   ],
+   "glossEn": "how much light a screen gives",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "313d02d2-3a66-5573-8baf-49da67a7a4e8",
+   "lemma": "screenshot",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "screenshot",
+    "screenshots",
+    "screen shot"
+   ],
+   "glossEn": "picture of what is on your screen",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "5760b3e1-585e-57c9-acd5-39a318e065bf",
+   "lemma": "wallpaper",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wallpaper",
+    "wallpapers"
+   ],
+   "glossEn": "background picture on a device screen",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "7b5108d4-58b8-5a16-9c3b-1132ab9cf1f4",
+   "lemma": "fingerprint",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fingerprint",
+    "fingerprints"
+   ],
+   "glossEn": "finger pattern used to unlock a device",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "5e2081a6-d1f6-5349-ae64-ca015e3d911c",
+   "lemma": "passcode",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "passcode",
+    "passcodes"
+   ],
+   "glossEn": "short number code that unlocks a phone",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "72f8cdc2-e126-5cdc-afe2-18f656f6aa5f",
+   "lemma": "sync",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sync",
+    "syncs",
+    "synced",
+    "syncing"
+   ],
+   "glossEn": "make data the same on all devices",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "81725053-3fa1-5220-a673-f8a85ac54b0a",
+   "lemma": "inbox",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inbox",
+    "inboxes"
+   ],
+   "glossEn": "folder where new messages arrive",
+   "topics": [
+    "it",
+    "communication",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "95ab40a9-eb2a-557d-8b23-dc8ea5f0ecc4",
+   "lemma": "spam",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spam"
+   ],
+   "glossEn": "unwanted messages sent to many people",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "7555adf2-3ce0-56c9-b859-10163734771e",
+   "lemma": "subscribe",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subscribe",
+    "subscribes",
+    "subscribed",
+    "subscribing"
+   ],
+   "glossEn": "sign up to receive a channel or service",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "b7133217-7d05-540a-ba41-4b4a28d1eb57",
+   "lemma": "unsubscribe",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unsubscribe",
+    "unsubscribes",
+    "unsubscribed",
+    "unsubscribing"
+   ],
+   "glossEn": "stop receiving messages or a service",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "a47689b4-e194-564f-bde6-621074ee4830",
+   "lemma": "hashtag",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hashtag",
+    "hashtags"
+   ],
+   "glossEn": "word after the # sign that groups posts",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "2e098ce8-4594-5242-b8e2-be9e78e7e4a9",
+   "lemma": "meme",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "meme",
+    "memes"
+   ],
+   "glossEn": "funny picture or video shared widely online",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "4d6c8172-0d17-5928-acf8-037d3485645d",
+   "lemma": "selfie",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "selfie",
+    "selfies"
+   ],
+   "glossEn": "photo you take of yourself with a phone",
+   "topics": [
+    "it",
+    "travel"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "50262e54-3afd-5bad-899e-066dd39a0663",
+   "lemma": "playlist",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "playlist",
+    "playlists"
+   ],
+   "glossEn": "list of songs or videos to play in order",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "7f680b13-c709-5dae-aa1d-1085a35916ac",
+   "lemma": "podcast",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "podcast",
+    "podcasts"
+   ],
+   "glossEn": "audio show you download or stream",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "4896cfd0-989e-5494-b3b2-7aba765925fd",
+   "lemma": "forum",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "forum",
+    "forums"
+   ],
+   "glossEn": "website where people discuss topics in threads",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "165e6e54-dff7-5963-b210-950f5c387dca",
+   "lemma": "avatar",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "avatar",
+    "avatars"
+   ],
+   "glossEn": "picture or figure that represents you online",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "3c3b5977-8dc7-5fd1-bcb6-ced3cd64f27a",
+   "lemma": "wireless",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wireless"
+   ],
+   "glossEn": "working without cables",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "93efd53e-939e-5bed-b981-887304fe93fd",
+   "lemma": "portable",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "portable"
+   ],
+   "glossEn": "easy to carry and use anywhere",
+   "topics": [
+    "it",
+    "travel"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "50d5e534-58ba-52da-bf54-5b575f9367bf",
+   "lemma": "adapter",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "adapter",
+    "adapters",
+    "adaptor",
+    "adaptors"
+   ],
+   "glossEn": "small part that connects plugs of different types",
+   "topics": [
+    "it",
+    "travel"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "715ccb77-26b2-5988-9725-d89f1b03cfde",
+   "lemma": "roaming",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "roaming"
+   ],
+   "glossEn": "using your phone on a network abroad",
+   "topics": [
+    "it",
+    "travel"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "c6c14568-4702-5fe5-8993-c037a5e156eb",
+   "lemma": "QR code",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "QR code",
+    "QR codes",
+    "QR-code"
+   ],
+   "glossEn": "square code you scan with a phone camera",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "d519c3ef-b0d3-5698-b6f6-32292124ffbb",
+   "lemma": "scanner",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scanner",
+    "scanners"
+   ],
+   "glossEn": "machine that copies paper into a digital file",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "5b70b80a-a075-5f55-ab97-4f88c0abb0b5",
+   "lemma": "PDF",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "PDF",
+    "PDFs",
+    "pdf"
+   ],
+   "glossEn": "file format that keeps a document's exact look",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "b835ec78-50b2-5fd5-aa83-bff1dda3ed5e",
+   "lemma": "USB",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "USB",
+    "usb"
+   ],
+   "glossEn": "standard plug for connecting and charging devices",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "d3896f97-be41-5509-856f-17f367ede729",
+   "lemma": "URL",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "URL",
+    "URLs",
+    "url"
+   ],
+   "glossEn": "full address of a web page",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "571da84a-8887-5de8-94f8-0a8ad2b0997a",
+   "lemma": "webpage",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "webpage",
+    "webpages",
+    "web page",
+    "web pages"
+   ],
+   "glossEn": "single page of a website",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "a2ff8509-f3d8-5424-82ea-534825202c93",
+   "lemma": "tab",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tab",
+    "tabs"
+   ],
+   "glossEn": "separate open page inside a browser window",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "04696a0d-cd8c-5f0f-a48c-c25dfd4c3b2a",
+   "lemma": "pop-up",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pop-up",
+    "pop-ups",
+    "popup",
+    "popups"
+   ],
+   "glossEn": "small window that suddenly appears on a page",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "80d3ec90-162a-5e3d-a8de-b939be05fd48",
+   "lemma": "double-click",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "double-click",
+    "double-clicks",
+    "double-clicked",
+    "double-clicking"
+   ],
+   "glossEn": "press a mouse button twice quickly",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "8c95868a-40af-5cf9-be35-5d03d016e966",
+   "lemma": "right-click",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "right-click",
+    "right-clicks",
+    "right-clicked",
+    "right-clicking"
+   ],
+   "glossEn": "press the right mouse button for more options",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "5f25a484-0699-5577-ae55-537c62e33fcb",
+   "lemma": "paste",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "paste",
+    "pastes",
+    "pasted",
+    "pasting"
+   ],
+   "glossEn": "insert copied text or files",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "5501c893-bf0b-5f5f-ae31-6136a6362ef9",
+   "lemma": "rename",
+   "pos": "verb",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rename",
+    "renames",
+    "renamed",
+    "renaming"
+   ],
+   "glossEn": "give a file or folder a new name",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  }
+ ]
+}

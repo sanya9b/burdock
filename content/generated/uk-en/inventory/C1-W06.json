@@ -1,0 +1,538 @@
+{
+ "chunk": "C1-W06",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "02075ccf-f023-560d-82bc-ae57d95bfbad",
+   "lemma": "subjectivity",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subjectivity"
+   ],
+   "glossEn": "judgment based on personal feelings or opinions",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "103990e6-7bad-51bc-b1f7-3da9ea638d7d",
+   "lemma": "evaluative",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "evaluative"
+   ],
+   "glossEn": "expressing a judgment of value or quality",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "5aca03d3-8b68-5b54-b693-d4936c89a82e",
+   "lemma": "yardstick",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "yardstick"
+   ],
+   "glossEn": "standard used for comparison or judgment",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "6d3afc46-85d2-5b46-a268-0ecd3f4a5573",
+   "lemma": "hallmark",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hallmark"
+   ],
+   "glossEn": "distinctive feature typical of something",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "5db887f5-3c1a-59fa-9168-7d154f544503",
+   "lemma": "overarching",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overarching",
+    "over-arching"
+   ],
+   "glossEn": "including or covering everything; most important",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "b3bc9641-51bd-5bd1-afaf-85c4a076bdb4",
+   "lemma": "simile",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "simile"
+   ],
+   "glossEn": "comparison of two things using like or as",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "0803e5e8-388d-53c7-9037-4b0f733066fe",
+   "lemma": "symbolism",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "symbolism"
+   ],
+   "glossEn": "use of symbols to represent deeper ideas",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "8a9a82a9-c7b9-54c9-9379-5e503fa89228",
+   "lemma": "allusion",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "allusion"
+   ],
+   "glossEn": "indirect reference to something well known",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "93878b64-ff43-56f7-ab3c-118aaf2d5109",
+   "lemma": "connotation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "connotation"
+   ],
+   "glossEn": "feeling or idea a word suggests beyond its meaning",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "503d6727-d161-5c1d-a95c-45201be34541",
+   "lemma": "subtext",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subtext"
+   ],
+   "glossEn": "unstated underlying meaning of a text or speech",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "dea318eb-7919-51b4-bd29-75341df75fde",
+   "lemma": "anticlimax",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "anticlimax",
+    "anti-climax"
+   ],
+   "glossEn": "disappointing ending after a buildup of excitement",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "6ffac944-941d-5a53-9a85-feb0975456dc",
+   "lemma": "excerpt",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "excerpt"
+   ],
+   "glossEn": "short passage taken from a longer text",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "7acc9059-e766-5432-8815-cdb08a972914",
+   "lemma": "manuscript",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "manuscript"
+   ],
+   "glossEn": "author's text before it is published",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "dd9f95f8-aa48-58a9-807c-db5c607000b0",
+   "lemma": "novella",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "novella"
+   ],
+   "glossEn": "short novel",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "4a563a85-e59f-598c-a135-7cc24197fd10",
+   "lemma": "lyrical",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lyrical"
+   ],
+   "glossEn": "expressing emotion in a beautiful, poetic way",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "7b2bfa5a-3e85-5c24-baaf-6875b2755f2b",
+   "lemma": "cohesive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cohesive"
+   ],
+   "glossEn": "well connected and forming a unified whole",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "931980fd-33ee-5a40-a292-3fd94f6e0e28",
+   "lemma": "satirize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "satirize",
+    "satirise"
+   ],
+   "glossEn": "ridicule through humor, irony or exaggeration",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "a49ba43e-ed22-5ee1-a7a6-443c18d0b51d",
+   "lemma": "farce",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "farce"
+   ],
+   "glossEn": "comedy built on absurd, improbable situations",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "83ab1505-e56e-574a-9909-ad215f151051",
+   "lemma": "farcical",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "farcical"
+   ],
+   "glossEn": "absurd and ridiculous, like a farce",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "5501c530-4b9d-52b2-af46-8e903c7b34e0",
+   "lemma": "melodrama",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "melodrama"
+   ],
+   "glossEn": "drama with exaggerated emotions and simple morality",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "5f1229d4-f2a6-5120-b574-a58c9a5c1569",
+   "lemma": "melodramatic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "melodramatic"
+   ],
+   "glossEn": "exaggeratedly emotional or dramatic",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "dd3a4644-631f-5a53-b551-c1246eb7f1c2",
+   "lemma": "gothic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gothic"
+   ],
+   "glossEn": "dark, mysterious and gloomy, as in horror fiction",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "1fb072c7-7635-556f-b3ba-d9a1ec3ff7d4",
+   "lemma": "surreal",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "surreal"
+   ],
+   "glossEn": "strange and dreamlike, beyond reality",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "95f3cb57-72e1-5262-b51b-dfbf311c5cee",
+   "lemma": "realism",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "realism"
+   ],
+   "glossEn": "art or writing showing life as it really is",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "f3678972-1df0-5d01-94b3-5671f979bf9c",
+   "lemma": "dystopia",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dystopia"
+   ],
+   "glossEn": "imagined society where life is frightening and unjust",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "8b3360d2-f09e-5dff-97a7-569183e273aa",
+   "lemma": "dystopian",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dystopian"
+   ],
+   "glossEn": "relating to an imagined oppressive, miserable society",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "a81a83c6-9b83-5fed-adef-05c707f71ae4",
+   "lemma": "utopian",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "utopian"
+   ],
+   "glossEn": "idealistic but impractical in its perfection",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "64e24864-2b01-5349-8997-8d1cccb6a8fb",
+   "lemma": "parable",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "parable"
+   ],
+   "glossEn": "short story teaching a moral or spiritual lesson",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "51c554e2-f94d-5f57-9c68-9a0f94a63f6e",
+   "lemma": "mythology",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mythology"
+   ],
+   "glossEn": "body of myths belonging to a culture",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "8205c827-95bd-50e8-8971-9c584f7021bf",
+   "lemma": "folklore",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "folklore"
+   ],
+   "glossEn": "traditional stories and customs of a community",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "34335298-abff-5d5d-83ba-94e4074921b9",
+   "lemma": "epic",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "epic"
+   ],
+   "glossEn": "long narrative poem or story of heroic deeds",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "bb25a06e-5e88-5686-a299-2c435ea0b406",
+   "lemma": "ode",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ode"
+   ],
+   "glossEn": "lyric poem addressed to a person or thing",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "4b9021fd-f91f-5d79-8361-1e93cb014151",
+   "lemma": "haiku",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "haiku"
+   ],
+   "glossEn": "Japanese three-line poem of seventeen syllables",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "4652c62d-9cb8-504a-81b5-79395a905f76",
+   "lemma": "couplet",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "couplet"
+   ],
+   "glossEn": "two consecutive lines of verse, usually rhyming",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "2565d852-54b5-5587-9a11-0b08c6442cc9",
+   "lemma": "alliteration",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "alliteration"
+   ],
+   "glossEn": "repetition of the same initial consonant sound",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "42a32689-e0bf-543e-b200-382a335f4572",
+   "lemma": "oxymoron",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "oxymoron"
+   ],
+   "glossEn": "figure of speech combining contradictory words",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "da5ed66d-2de7-51c3-bff1-6e72bdd264f2",
+   "lemma": "anecdote",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "anecdote"
+   ],
+   "glossEn": "short amusing story about a real event",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "df0ac5ab-f500-5092-99f2-341c086f5446",
+   "lemma": "epiphany",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "epiphany"
+   ],
+   "glossEn": "sudden moment of insight or realization",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "a95633d1-1d2e-5ded-afe3-8ed5a62fd077",
+   "lemma": "antihero",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "antihero",
+    "anti-hero"
+   ],
+   "glossEn": "protagonist lacking conventional heroic qualities",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "e5fe180b-55f3-53f0-a0ca-c78b6c621b4a",
+   "lemma": "canonical",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "canonical"
+   ],
+   "glossEn": "accepted as an authoritative, classic work",
+   "topics": [],
+   "area": "arts-media"
+  }
+ ]
+}

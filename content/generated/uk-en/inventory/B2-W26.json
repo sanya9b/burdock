@@ -1,0 +1,138 @@
+{
+ "chunk": "B2-W26",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "90b9742f-ca44-5ac1-a54b-c1916d15d296",
+   "lemma": "budget-conscious",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "budget-conscious",
+    "budget conscious",
+    "cost-conscious"
+   ],
+   "glossEn": "careful to spend little money",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "92683758-016f-5a62-96ba-16266ed58108",
+   "lemma": "brand-loyal",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brand-loyal",
+    "brand loyal",
+    "brand loyalty"
+   ],
+   "glossEn": "always buying the same brand",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "471bccbc-ac26-5157-82b6-29d20f59dbe3",
+   "lemma": "retail therapy",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "retail therapy"
+   ],
+   "glossEn": "shopping done to feel better",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "74530802-7287-53ec-85ee-359cccc771a9",
+   "lemma": "status symbol",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "status symbol",
+    "status symbols"
+   ],
+   "glossEn": "expensive item bought to show wealth or success",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "7ef0b0fe-d50f-5feb-b3a0-f87df519e2aa",
+   "lemma": "cheapskate",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cheapskate",
+    "cheapskates",
+    "tightwad"
+   ],
+   "glossEn": "person who hates spending money",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "02a64ffe-fb67-514d-a35c-112a4b2b5ede",
+   "lemma": "FOMO",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "FOMO",
+    "fomo"
+   ],
+   "glossEn": "fear of missing out, used to push quick purchases",
+   "topics": [
+    "shopping",
+    "communication"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "87b19310-4923-5281-b556-6e21427001ca",
+   "lemma": "big-ticket",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "big-ticket",
+    "big ticket"
+   ],
+   "glossEn": "costing a lot, as a car or appliance",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "ee7fd4ae-17e3-52c1-907a-d4e1d3a998e1",
+   "lemma": "mass-market",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mass-market",
+    "mass market"
+   ],
+   "glossEn": "made cheaply for very many buyers",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  }
+ ]
+}

@@ -1,0 +1,685 @@
+{
+ "chunk": "B2-W12",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "b4765e06-7f44-5a4e-b7c1-84e031bd920c",
+   "lemma": "full-stack",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "full-stack",
+    "full stack",
+    "fullstack"
+   ],
+   "glossEn": "working on both frontend and backend",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "d4943a29-91a1-5b86-9d89-0b39d35a1aae",
+   "lemma": "endpoint",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "endpoint",
+    "endpoints",
+    "end point"
+   ],
+   "glossEn": "specific address where an API receives requests",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "3fc8340f-8c6a-514c-9a21-267ddacdb397",
+   "lemma": "cluster",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cluster",
+    "clusters"
+   ],
+   "glossEn": "group of servers working together as one system",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "be972c08-e870-52bb-8b59-ae20f4f83554",
+   "lemma": "virtual machine",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "virtual machine",
+    "virtual machines",
+    "VM",
+    "VMs"
+   ],
+   "glossEn": "software computer running inside a real one",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "675fa275-c3fe-569d-b5ce-16690f22ca15",
+   "lemma": "node",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "node",
+    "nodes"
+   ],
+   "glossEn": "single machine or point in a network",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "fca072f5-d561-5a92-8bcf-b77670c63a83",
+   "lemma": "protocol",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "protocol",
+    "protocols"
+   ],
+   "glossEn": "agreed set of rules for exchanging data",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "328b0d3c-7319-5f48-9076-97f57fc10330",
+   "lemma": "uptime",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "uptime"
+   ],
+   "glossEn": "share of time a service is working and available",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "4c6757fa-186b-5821-a76c-63629d165609",
+   "lemma": "monitoring",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "monitoring"
+   ],
+   "glossEn": "constant watching of a system's health and numbers",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "dadb4d2d-4d46-576e-85fb-99a876363ee1",
+   "lemma": "timeout",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "timeout",
+    "timeouts",
+    "time-out"
+   ],
+   "glossEn": "error when a response takes too long to arrive",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "d56d3c30-bc13-59de-9afc-a7aba02a5efd",
+   "lemma": "migrate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "migrate",
+    "migrates",
+    "migrated",
+    "migrating"
+   ],
+   "glossEn": "move data or software to a new system",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "9634eb1b-f273-5884-9135-311758b5f05c",
+   "lemma": "transaction",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "transaction",
+    "transactions"
+   ],
+   "glossEn": "group of database changes that succeed or fail together",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "f2c739b6-0e40-5ad2-8a52-e4e3c9ca604d",
+   "lemma": "responsive",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "responsive"
+   ],
+   "glossEn": "adapting its layout to any screen size",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "abff1d4f-d0af-54d6-a67d-8fffbef073ef",
+   "lemma": "encoding",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "encoding",
+    "encodings"
+   ],
+   "glossEn": "way text or media is stored as computer data",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "56ce459a-8cd3-57b3-884c-696ae6f45ee4",
+   "lemma": "GPU",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "GPU",
+    "GPUs",
+    "gpu"
+   ],
+   "glossEn": "processor built for graphics and parallel calculations",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "f7a0af81-d828-548d-bb4b-407b15265825",
+   "lemma": "motherboard",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "motherboard",
+    "motherboards"
+   ],
+   "glossEn": "main circuit board that connects all computer parts",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "cf399a49-7023-58b0-a397-2da7ffea83a0",
+   "lemma": "graphics card",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "graphics card",
+    "graphics cards",
+    "video card"
+   ],
+   "glossEn": "component that draws images for the screen",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "adb87223-5e3a-5fa9-b943-8c9390bb5cad",
+   "lemma": "docking station",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "docking station",
+    "docking stations",
+    "dock",
+    "docks"
+   ],
+   "glossEn": "base that connects a laptop to many devices at once",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "4b1aa890-7da6-5887-b360-16a6abe1de91",
+   "lemma": "buffer",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "buffer",
+    "buffers",
+    "buffered",
+    "buffering"
+   ],
+   "glossEn": "load data ahead so a video plays without stopping",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "2737ac65-53f4-5b5f-b835-5519c71e8e92",
+   "lemma": "end user",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "end user",
+    "end users",
+    "end-user",
+    "end-users"
+   ],
+   "glossEn": "person who finally uses a product, not its maker",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "2adda7c2-28f3-5e12-b3a9-e74d2c39982e",
+   "lemma": "token",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "token",
+    "tokens"
+   ],
+   "glossEn": "temporary digital key that keeps a user logged in",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "19449bcb-9181-5b66-ad02-eddad56802de",
+   "lemma": "autoplay",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "autoplay",
+    "auto-play"
+   ],
+   "glossEn": "feature that starts the next video by itself",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "5bb75584-5aa2-5fd1-a179-fee1ed4316f4",
+   "lemma": "lightweight",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lightweight",
+    "light-weight"
+   ],
+   "glossEn": "using few resources and running quickly",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "3961c4b6-1e30-5282-aab1-3f0b37c15647",
+   "lemma": "freeware",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "freeware"
+   ],
+   "glossEn": "software you may use without paying",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "dbb44b52-5f93-5a38-be93-fd932fe0fa25",
+   "lemma": "emulator",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "emulator",
+    "emulators"
+   ],
+   "glossEn": "program that imitates another device or system",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "f2b365b9-7f55-5818-9884-97ca9e880e53",
+   "lemma": "JSON",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "JSON",
+    "json"
+   ],
+   "glossEn": "simple text format for exchanging structured data",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "6838958f-b5ce-512e-8680-c90a32dad936",
+   "lemma": "CSV",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "CSV",
+    "CSVs",
+    "csv"
+   ],
+   "glossEn": "plain text table format with comma-separated values",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "aadf49c3-d29d-5ca2-92ed-8fa91a895a15",
+   "lemma": "edge case",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "edge case",
+    "edge cases"
+   ],
+   "glossEn": "rare unusual situation that code must still handle",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "883af6cc-21ab-5fe5-85a7-4af8f072e031",
+   "lemma": "compatibility",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "compatibility"
+   ],
+   "glossEn": "ability of systems or versions to work together",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "4ede0837-86e5-5aee-a4c3-f88448caa48f",
+   "lemma": "snippet",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "snippet",
+    "snippets"
+   ],
+   "glossEn": "short piece of code shown or reused",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "e7753f2e-54b9-5243-8499-4bd5f92c9af2",
+   "lemma": "flowchart",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flowchart",
+    "flowcharts",
+    "flow chart"
+   ],
+   "glossEn": "diagram of steps and decisions in a process",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "e171765f-248f-5176-b197-55e30a810b18",
+   "lemma": "in-app purchase",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "in-app purchase",
+    "in-app purchases"
+   ],
+   "glossEn": "something bought inside an app after installing it",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "0c897ec6-fd52-5fa3-ab37-0ceecb003cf7",
+   "lemma": "onboarding",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "onboarding",
+    "on-boarding"
+   ],
+   "glossEn": "first screens that guide a new user into an app",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "85afb0ca-690c-5a87-89c0-bd8a24c540a9",
+   "lemma": "user story",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "user story",
+    "user stories"
+   ],
+   "glossEn": "short description of a feature from the user's view",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "f4730785-13fc-582f-93fc-787a98a092ce",
+   "lemma": "pair programming",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pair programming",
+    "pairing"
+   ],
+   "glossEn": "two developers writing code together at one screen",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "10869f09-f9af-59b8-b13e-ec1cdefc18f5",
+   "lemma": "product owner",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "product owner",
+    "product owners",
+    "PO"
+   ],
+   "glossEn": "person who decides what the team builds next",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "1ae5c98e-115d-50e5-a2a2-37a8cf156888",
+   "lemma": "DevOps",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "DevOps",
+    "devops"
+   ],
+   "glossEn": "practice joining development and operations with automation",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "011bc322-6aa1-59bc-a966-540f0aadbfb1",
+   "lemma": "sysadmin",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sysadmin",
+    "sysadmins",
+    "system administrator"
+   ],
+   "glossEn": "person who keeps servers and networks running",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "6bad66ff-3a89-5598-8d08-3973448686d5",
+   "lemma": "changelog",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "changelog",
+    "changelogs",
+    "change log"
+   ],
+   "glossEn": "list of what changed in each software version",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "d5fcf7a7-dbaf-56ae-9087-d39a0012a82c",
+   "lemma": "README",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "README",
+    "readme",
+    "READMEs"
+   ],
+   "glossEn": "first file that explains a project and how to start",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "59a38ffa-1f73-58d3-a031-f5c168eca412",
+   "lemma": "knowledge base",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "knowledge base",
+    "knowledge bases"
+   ],
+   "glossEn": "organized collection of help articles and answers",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  }
+ ]
+}

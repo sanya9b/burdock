@@ -1,0 +1,670 @@
+{
+ "chunk": "B1-W21",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "87b027fe-14f1-5f22-a389-3d5ba69f5e9c",
+   "lemma": "sealed",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sealed"
+   ],
+   "glossEn": "closed so that it has not been opened",
+   "topics": [
+    "shopping",
+    "food"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "81c9c9a5-6cc7-5b65-9f13-066a7bb6bb82",
+   "lemma": "shelving",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shelving"
+   ],
+   "glossEn": "set of shelves for displaying or storing goods",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "73ec2ad2-e8a7-5aad-a775-a994d6249916",
+   "lemma": "multipack",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "multipack",
+    "multipacks",
+    "multi-pack"
+   ],
+   "glossEn": "package containing several items sold together",
+   "topics": [
+    "shopping",
+    "food"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "46b2fd9d-4ad8-5cab-93fe-39d0ac25b1a6",
+   "lemma": "bazaar",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bazaar",
+    "bazaars"
+   ],
+   "glossEn": "market with many small stalls selling goods",
+   "topics": [
+    "shopping",
+    "travel"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "678e851f-ce87-567b-b6cd-de44925f4bc8",
+   "lemma": "deli",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deli",
+    "delis"
+   ],
+   "glossEn": "shop or counter selling cold meats, cheese and salads",
+   "topics": [
+    "shopping",
+    "food"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "5bf0d826-3caa-5d82-b5af-7f5a440fa1e9",
+   "lemma": "greengrocer",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "greengrocer",
+    "greengrocers",
+    "greengrocer's"
+   ],
+   "glossEn": "shop or person selling fruit and vegetables",
+   "topics": [
+    "shopping",
+    "food"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "80ba831f-26ef-5b0f-9bac-89ce1129264e",
+   "lemma": "dollar store",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dollar store",
+    "dollar stores",
+    "pound shop"
+   ],
+   "glossEn": "store where most items cost about one dollar",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "b3439224-25b1-5712-9e3d-118bcea84658",
+   "lemma": "discount store",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "discount store",
+    "discount stores",
+    "discounter"
+   ],
+   "glossEn": "store selling goods at lower prices than usual",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "1bf56061-c681-51f3-8f9d-7d392bd11907",
+   "lemma": "charity shop",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "charity shop",
+    "charity shops"
+   ],
+   "glossEn": "shop selling donated secondhand goods to raise money",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "1d899ee5-6fd2-5ac1-8101-53cb7c3e726d",
+   "lemma": "subscription box",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subscription box",
+    "subscription boxes"
+   ],
+   "glossEn": "box of products delivered regularly by subscription",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "82d79abe-ee63-5c9e-850f-57c20144377a",
+   "lemma": "flash sale",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flash sale",
+    "flash sales"
+   ],
+   "glossEn": "very short sale with big discounts",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "9d20e9c6-02d8-5a86-984e-71c3dae4efc0",
+   "lemma": "e-wallet",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "e-wallet",
+    "e-wallets",
+    "digital wallet"
+   ],
+   "glossEn": "app that stores money and cards for paying",
+   "topics": [
+    "shopping",
+    "it"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "ecd8a30c-5989-5c8b-8241-c66d9078915b",
+   "lemma": "one-click",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "one-click",
+    "1-click"
+   ],
+   "glossEn": "completed with a single click, as a purchase",
+   "topics": [
+    "shopping",
+    "it"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "b1a04569-03d6-5f3d-9e4d-c14a391c67d6",
+   "lemma": "guest checkout",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "guest checkout"
+   ],
+   "glossEn": "buying online without creating an account",
+   "topics": [
+    "shopping",
+    "it"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "957f077a-064f-507f-9684-646ccef4ad31",
+   "lemma": "same-day",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "same-day",
+    "same day"
+   ],
+   "glossEn": "delivered on the day of ordering",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "fe7975f7-334f-5b52-aabf-baab0e543986",
+   "lemma": "next-day",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "next-day",
+    "next day"
+   ],
+   "glossEn": "delivered on the day after ordering",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "f5e61fee-8cbb-5445-8b20-4475e5aca9a1",
+   "lemma": "click-and-collect",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "click-and-collect",
+    "click and collect"
+   ],
+   "glossEn": "ordering online and picking up in store",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "5b2a1653-ee1d-5b9d-87d1-9ac00bfb62f6",
+   "lemma": "drop-off",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "drop-off",
+    "drop-offs",
+    "drop off"
+   ],
+   "glossEn": "place or act of leaving a parcel for return",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "dcdde4dc-de57-5a82-a227-0a2b8cf22780",
+   "lemma": "redelivery",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "redelivery",
+    "redeliveries",
+    "re-delivery"
+   ],
+   "glossEn": "second attempt to deliver a parcel",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "f4cd3863-518f-5df8-9239-d0f8a56fcb3b",
+   "lemma": "sold-out",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sold-out",
+    "sold out"
+   ],
+   "glossEn": "with no items left to buy",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "59c5c040-3081-5433-8758-87636f387954",
+   "lemma": "waitlist",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "waitlist",
+    "waitlists",
+    "waiting list"
+   ],
+   "glossEn": "list of customers waiting for an unavailable item",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "52be70a1-8933-5844-8c22-ddb6021d4cd2",
+   "lemma": "notify",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "notify",
+    "notifies",
+    "notified",
+    "notifying"
+   ],
+   "glossEn": "inform a customer, for example when stock returns",
+   "topics": [
+    "shopping",
+    "communication"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "4b91d687-412a-5854-91ae-0b793762fa72",
+   "lemma": "limited edition",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "limited edition",
+    "limited editions",
+    "limited-edition"
+   ],
+   "glossEn": "product made in a small fixed number",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "ff70b8b0-86ad-5104-abe9-442b53d1277f",
+   "lemma": "early access",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "early access"
+   ],
+   "glossEn": "chance to buy before the general public",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "06abf6f2-a184-5260-9f3c-94605b8b87ed",
+   "lemma": "members-only",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "members-only",
+    "members only"
+   ],
+   "glossEn": "available only to members of a club or program",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "a83e1773-65dc-5ee7-8f84-23b5c1d69b27",
+   "lemma": "VIP",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "VIP",
+    "VIPs"
+   ],
+   "glossEn": "very important customer who gets special treatment",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "377814cc-13bc-53ef-83c7-9fd781b70a86",
+   "lemma": "auto-renew",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "auto-renew",
+    "auto-renews",
+    "auto-renewed",
+    "auto-renewing"
+   ],
+   "glossEn": "extend a subscription automatically when it ends",
+   "topics": [
+    "shopping",
+    "it"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "dab6e65f-2112-5599-9196-8e5d2cd84d96",
+   "lemma": "renewal",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "renewal",
+    "renewals"
+   ],
+   "glossEn": "extending a subscription or membership",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "59f00476-9673-5309-85a9-f13ef08eab61",
+   "lemma": "recurring",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "recurring"
+   ],
+   "glossEn": "happening repeatedly, as a regular payment",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "9d9ac204-8363-5e37-9165-5ea73cd7bf61",
+   "lemma": "billing",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "billing"
+   ],
+   "glossEn": "process of charging customers for goods or services",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "ea58a560-f0dd-5b97-b6f1-87a0733446e5",
+   "lemma": "reorder",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reorder",
+    "reorders",
+    "reordered",
+    "reordering",
+    "re-order"
+   ],
+   "glossEn": "order the same item again",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "ce50fd02-b5a9-587c-b19a-684ce36749a8",
+   "lemma": "live chat",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "live chat"
+   ],
+   "glossEn": "real-time text support on a website",
+   "topics": [
+    "shopping",
+    "it"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "f674f408-f02f-5097-9fd4-bf83a569d550",
+   "lemma": "helpdesk",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "helpdesk",
+    "helpdesks",
+    "help desk"
+   ],
+   "glossEn": "service answering customer questions and problems",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "c571f878-9eae-51a0-84c3-361983215758",
+   "lemma": "exact change",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "exact change"
+   ],
+   "glossEn": "the precise amount in coins and notes, no change needed",
+   "topics": [
+    "shopping",
+    "travel"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "78648257-7398-55d2-862e-6a37442f7673",
+   "lemma": "interest-free",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "interest-free",
+    "interest free"
+   ],
+   "glossEn": "with no interest charged on credit",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "868501c4-a587-52ab-8945-4cf5edc9ea22",
+   "lemma": "late fee",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "late fee",
+    "late fees"
+   ],
+   "glossEn": "charge for paying after the due date",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "875bf0d6-e1e4-5c1d-9508-3d1fd3b9135a",
+   "lemma": "credit limit",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "credit limit",
+    "credit limits"
+   ],
+   "glossEn": "maximum amount you can borrow on a card",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "36d893cb-3b50-5864-8b98-69747215b3c6",
+   "lemma": "repayment",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "repayment",
+    "repayments"
+   ],
+   "glossEn": "paying back borrowed money in parts",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "09c2f808-a978-5711-ac80-17604cb35bab",
+   "lemma": "store card",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "store card",
+    "store cards"
+   ],
+   "glossEn": "credit card usable only in one retailer",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "eae70644-578a-53d0-843d-2ad65fef8015",
+   "lemma": "top-up",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "top-up",
+    "top-ups",
+    "top up"
+   ],
+   "glossEn": "adding money to a prepaid card or account",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  }
+ ]
+}

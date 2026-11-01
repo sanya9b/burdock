@@ -1,0 +1,548 @@
+{
+ "chunk": "C2-W13",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "f068c319-6693-5d67-8fca-a0d36b4c413a",
+   "lemma": "windfall tax",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "windfall tax"
+   ],
+   "glossEn": "one-off tax on unexpectedly high profits",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "650e1845-005b-5c80-8ea7-8e61ac9c7590",
+   "lemma": "fire sale",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fire sale",
+    "fire-sale"
+   ],
+   "glossEn": "sale of goods at very low prices, often in distress",
+   "topics": [
+    "shopping"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "094e2f7c-d963-537e-8a04-49cd9c1146a2",
+   "lemma": "bellwether",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bellwether"
+   ],
+   "glossEn": "company or indicator that signals a wider trend",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "222723e6-028d-5d00-8003-dbdcf78c71fa",
+   "lemma": "price war",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "price war"
+   ],
+   "glossEn": "competitors repeatedly cutting prices to win customers",
+   "topics": [
+    "shopping"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "ae2fac3f-3bee-59f6-9bcd-29a87714ec67",
+   "lemma": "predatory pricing",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "predatory pricing"
+   ],
+   "glossEn": "setting prices very low to drive out competitors",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "5d7f8455-8d23-53b6-bef4-e9eee39dfb7b",
+   "lemma": "barrier to entry",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "barrier to entry",
+    "barriers to entry"
+   ],
+   "glossEn": "obstacle that makes it hard to enter a market",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "58d25768-f63e-51ca-93e2-39122da2d131",
+   "lemma": "market saturation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "market saturation"
+   ],
+   "glossEn": "point where demand for a product is fully met",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "5acf848b-933e-59e6-897f-aeafd925f697",
+   "lemma": "first mover",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "first mover",
+    "first-mover"
+   ],
+   "glossEn": "company that is first to enter a market",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "fc33acd3-e0d6-5711-a0d9-64ec28474e5d",
+   "lemma": "upstart",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "upstart"
+   ],
+   "glossEn": "new company that rapidly challenges established ones",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "5408fdab-5914-5bb5-ada3-b91071e218e0",
+   "lemma": "boardroom",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "boardroom",
+    "board room"
+   ],
+   "glossEn": "room where directors meet; a company's top management",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "13e8075b-1f25-55b7-be23-f80d50609662",
+   "lemma": "nonexecutive",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nonexecutive",
+    "non-executive"
+   ],
+   "glossEn": "on a board but not managing day-to-day operations",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "76eef0cd-b220-5db6-a4eb-c6ff8f27a4fe",
+   "lemma": "cronyism",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cronyism"
+   ],
+   "glossEn": "favoring friends in appointments and contracts",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "5340571c-4f69-56e9-ad75-ab23ed4cf039",
+   "lemma": "bid rigging",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bid rigging",
+    "bid-rigging"
+   ],
+   "glossEn": "secretly fixing the outcome of a tender",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "d10247e7-915d-598c-810e-f08e76bb0278",
+   "lemma": "cost overrun",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cost overrun"
+   ],
+   "glossEn": "amount by which costs exceed the budget",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "0859307f-438d-53f6-bade-29feeda02d05",
+   "lemma": "mothball",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mothball"
+   ],
+   "glossEn": "stop using a factory or plan, keeping it for later",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "9150da9a-3a1b-5868-8047-a74f55899276",
+   "lemma": "pneumatic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pneumatic"
+   ],
+   "glossEn": "operated by compressed air",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "f0bad97d-5603-57f3-8d0b-453c5a33c9a5",
+   "lemma": "foundry",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "foundry"
+   ],
+   "glossEn": "factory where metal is melted and cast",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "4805409a-b798-511a-a112-75479ea1109a",
+   "lemma": "smelt",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "smelt"
+   ],
+   "glossEn": "extract metal from ore by heating",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "600eb1e9-f79e-56e3-9a60-296e41e660c3",
+   "lemma": "machinist",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "machinist"
+   ],
+   "glossEn": "skilled worker who operates machine tools",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "44ffdc31-70fd-56db-a31e-fa50eac7c394",
+   "lemma": "lathe",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lathe"
+   ],
+   "glossEn": "machine that spins material against a cutting tool",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "36abf107-f10c-5810-b674-1f0ee0cd45d2",
+   "lemma": "piston",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "piston"
+   ],
+   "glossEn": "part moving up and down inside an engine cylinder",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "43ce5a00-f7f5-5ea1-914b-e96af7ee6c76",
+   "lemma": "torque",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "torque"
+   ],
+   "glossEn": "twisting force that causes rotation",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "0bbf3d0a-4f80-5a20-a2f9-87947367749d",
+   "lemma": "tensile",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tensile"
+   ],
+   "glossEn": "relating to tension; able to be stretched",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "b919138e-5956-58e1-be7f-88def9e6eee8",
+   "lemma": "metallurgy",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "metallurgy"
+   ],
+   "glossEn": "science of metals and their properties",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "a50391b9-ca83-539a-af97-09c4adf27023",
+   "lemma": "effluent",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "effluent"
+   ],
+   "glossEn": "liquid waste discharged into a river or sea",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "9e25ac56-caf9-5909-b90a-7334e1c1b069",
+   "lemma": "extrusion",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "extrusion"
+   ],
+   "glossEn": "forcing material through a shaped opening to form it",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "b2d344b1-d49a-5004-87c5-e29146ad3437",
+   "lemma": "rivet",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rivet"
+   ],
+   "glossEn": "metal pin hammered flat to fasten plates",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "f3d5118b-2bf4-54d4-aff1-49d13ecf04e9",
+   "lemma": "tooling",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tooling"
+   ],
+   "glossEn": "set of tools and dies used in manufacturing",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "f0c84407-c8c9-5078-94ae-a9376fcef975",
+   "lemma": "jig",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jig"
+   ],
+   "glossEn": "device holding a workpiece and guiding a tool",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "0952b03d-0641-56f7-8a2f-cfb2c8fdcdb8",
+   "lemma": "galvanize",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "galvanize",
+    "galvanise"
+   ],
+   "glossEn": "coat iron with zinc; shock people into action",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "0da9c4bd-4aec-57d9-a5cf-4c0ef56656ee",
+   "lemma": "corrosive",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "corrosive"
+   ],
+   "glossEn": "tending to destroy metal or tissue by chemical action",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "3d7f6068-a409-5510-b53b-78bf231b457f",
+   "lemma": "abrasive",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "abrasive"
+   ],
+   "glossEn": "rough enough to wear away a surface; harsh",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "f1fd8751-276d-54c8-8e73-2060b1663b86",
+   "lemma": "abrasion",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "abrasion"
+   ],
+   "glossEn": "wearing away by rubbing or scraping",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "996c9338-d9bf-54ee-81e9-5a391272c9ef",
+   "lemma": "ductile",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ductile"
+   ],
+   "glossEn": "able to be drawn into wire without breaking",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "8531747a-ceb2-548d-8566-87dc9f05fe75",
+   "lemma": "viscosity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "viscosity"
+   ],
+   "glossEn": "thickness and resistance to flow of a liquid",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "6a10f720-10a2-513a-8867-d3cadaacaa05",
+   "lemma": "actuator",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "actuator"
+   ],
+   "glossEn": "device that moves a mechanism in response to a signal",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "29e34a5e-03cc-5317-9cbc-b7aa7304d8e6",
+   "lemma": "gearbox",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gearbox",
+    "gear box"
+   ],
+   "glossEn": "set of gears transmitting power in a vehicle",
+   "topics": [
+    "travel"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "3ad85c49-0432-52d0-b71c-01f507f88f01",
+   "lemma": "flywheel",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flywheel"
+   ],
+   "glossEn": "heavy wheel that smooths an engine's speed",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "e4f62e1e-5388-5761-ac60-cf3dd34fb5e3",
+   "lemma": "gasket",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gasket"
+   ],
+   "glossEn": "seal between two surfaces that prevents leaks",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "4d8fe35e-7e79-5cb5-a3bf-b92a3b10bf9f",
+   "lemma": "solder",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "solder"
+   ],
+   "glossEn": "join metal parts with melted alloy",
+   "topics": [],
+   "area": "economy-technology"
+  }
+ ]
+}

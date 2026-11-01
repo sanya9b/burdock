@@ -1,0 +1,682 @@
+{
+ "chunk": "C1-W15",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "8eb3137b-d538-5719-803f-14ceb3d900d7",
+   "lemma": "portico",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "portico",
+    "porticos",
+    "porticoes"
+   ],
+   "glossEn": "porch with columns at a building entrance",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "120fcbe1-a454-5965-960e-76519c1a58f3",
+   "lemma": "colonnade",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "colonnade",
+    "colonnades"
+   ],
+   "glossEn": "row of columns supporting a roof",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "533b44f5-d026-5800-aca9-cdb8f84a74e5",
+   "lemma": "cornice",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cornice",
+    "cornices"
+   ],
+   "glossEn": "decorative molding along the top of a wall",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "e842fff6-a969-5b2e-9ea4-75d435e4dc6b",
+   "lemma": "turret",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "turret",
+    "turrets"
+   ],
+   "glossEn": "small tower on the corner of a building",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "c739fce9-4f71-50d3-b159-74f1bc38b845",
+   "lemma": "belfry",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "belfry",
+    "belfries",
+    "bell tower"
+   ],
+   "glossEn": "tower or room where bells hang",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "337e3fd2-934d-544e-b823-4e1c8d643bef",
+   "lemma": "minaret",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "minaret",
+    "minarets"
+   ],
+   "glossEn": "tall thin tower of a mosque",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "eb98e9b8-bf88-5f33-ab98-082cefc740db",
+   "lemma": "citadel",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "citadel",
+    "citadels"
+   ],
+   "glossEn": "fortress protecting a city, usually on high ground",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "237e86d1-a224-560f-beb1-7ef952b039e1",
+   "lemma": "rampart",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rampart",
+    "ramparts",
+    "city wall"
+   ],
+   "glossEn": "defensive wall around an old city",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "19934a19-d077-552c-8b2c-2a0bf2501d1f",
+   "lemma": "stoop",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stoop",
+    "stoops"
+   ],
+   "glossEn": "small staircase leading up to a house entrance",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "0adcad12-f928-5596-b692-27176a8c0adf",
+   "lemma": "veranda",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "veranda",
+    "verandas",
+    "verandah",
+    "verandahs"
+   ],
+   "glossEn": "roofed open gallery along the outside of a house",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "acd4c483-0834-5db3-bd69-d04d87993a73",
+   "lemma": "brownstone",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brownstone",
+    "brownstones"
+   ],
+   "glossEn": "townhouse faced with reddish-brown stone",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "eeb59bd9-6f44-589c-871a-f490824aa27e",
+   "lemma": "brownfield",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brownfield",
+    "brownfields",
+    "brownfield site"
+   ],
+   "glossEn": "former industrial land available for redevelopment",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "49c23c1a-ba29-565e-bec8-c851a2a6e60e",
+   "lemma": "greenfield",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "greenfield",
+    "greenfields",
+    "greenfield site"
+   ],
+   "glossEn": "undeveloped land outside a city used for building",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "2357e74a-8591-54b1-ba6c-396bd7d4e847",
+   "lemma": "greenbelt",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "greenbelt",
+    "greenbelts",
+    "green belt"
+   ],
+   "glossEn": "protected open land around a city",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "ad76f2ed-d359-5550-86c7-52a6b7c89a5e",
+   "lemma": "rezoning",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rezoning",
+    "rezone"
+   ],
+   "glossEn": "changing the permitted use of an area of land",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "50104b65-c915-5779-9cea-61d7fa16001b",
+   "lemma": "easement",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "easement",
+    "easements"
+   ],
+   "glossEn": "legal right to use someone's land for access",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "31e96ff5-e0d5-5659-ad38-889fc46464b4",
+   "lemma": "encroachment",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "encroachment",
+    "encroachments",
+    "encroach"
+   ],
+   "glossEn": "gradual building onto land without permission",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "91db3848-f184-5550-9125-36f081ccb73e",
+   "lemma": "shantytown",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shantytown",
+    "shantytowns",
+    "shanty town",
+    "favela"
+   ],
+   "glossEn": "settlement of poorly built shacks on a city edge",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "6e4707f4-ba01-59da-9cfa-013715280f4b",
+   "lemma": "displacement",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "displacement",
+    "displace",
+    "displaced"
+   ],
+   "glossEn": "forcing residents out of an area by rising costs",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "11d95dcc-6ed5-5390-9684-f6394da23faf",
+   "lemma": "densification",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "densification",
+    "densify"
+   ],
+   "glossEn": "building more homes in an existing urban area",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "9c52f6bd-09fe-50d9-99f4-27f9890d4882",
+   "lemma": "mixed-use",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mixed-use",
+    "mixed use"
+   ],
+   "glossEn": "combining homes, shops and offices in one development",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "7d2c4d0c-0eec-5f24-b988-16bdf2c48c97",
+   "lemma": "streetscape",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "streetscape",
+    "streetscapes"
+   ],
+   "glossEn": "visual appearance of a street and its buildings",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "7163fb71-4029-5a73-bcd8-b466b2f55a56",
+   "lemma": "subterranean",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subterranean"
+   ],
+   "glossEn": "existing or built under the ground",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "37fd1c18-6f12-5645-b135-f9a7b5d04f3b",
+   "lemma": "intermodal",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "intermodal"
+   ],
+   "glossEn": "involving transfer between types of transport",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "af0143ff-9802-55fb-8428-ca3057136757",
+   "lemma": "expropriate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "expropriate",
+    "expropriates",
+    "expropriated",
+    "expropriation"
+   ],
+   "glossEn": "take private property officially for public use",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "96bef053-38ac-5eac-ae41-d642fb8ced49",
+   "lemma": "traffic calming",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "traffic calming"
+   ],
+   "glossEn": "measures that slow cars in residential streets",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "f281f5a9-e613-5355-a7ec-be6e02fbd901",
+   "lemma": "piazza",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "piazza",
+    "piazzas"
+   ],
+   "glossEn": "public square, especially in an Italian-style city",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "a109e14d-30e0-56dd-885c-169d4d1f68b2",
+   "lemma": "wharf",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wharf",
+    "wharves",
+    "wharfs"
+   ],
+   "glossEn": "structure where ships tie up to load cargo",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "7aaba6fd-966c-50aa-8f18-371eb8fd83bc",
+   "lemma": "jetty",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jetty",
+    "jetties"
+   ],
+   "glossEn": "small landing stage built out into the water",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "99e7862f-0877-51de-b84a-32abae49b533",
+   "lemma": "levee",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "levee",
+    "levees",
+    "dyke",
+    "dike"
+   ],
+   "glossEn": "embankment built to prevent river flooding",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "939892c3-dffe-5943-94b5-5c678d468bc4",
+   "lemma": "floodplain",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "floodplain",
+    "floodplains",
+    "flood plain"
+   ],
+   "glossEn": "flat land beside a river that floods",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "fdf938c9-6ab1-55c9-a556-06a78a95c0ae",
+   "lemma": "heat island",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heat island",
+    "heat islands",
+    "urban heat island"
+   ],
+   "glossEn": "city area hotter than its surroundings",
+   "topics": [
+    "city",
+    "health"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "136fb340-88a3-5a6f-82f8-760730f485c9",
+   "lemma": "microclimate",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "microclimate",
+    "microclimates"
+   ],
+   "glossEn": "climate of a small area differing from its surroundings",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "97616c82-f6e0-53e7-92d9-27eca7f1473d",
+   "lemma": "particulate",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "particulate",
+    "particulates",
+    "particulate matter"
+   ],
+   "glossEn": "tiny solid particles polluting the air",
+   "topics": [
+    "city",
+    "health"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "2e3b792a-3a0b-542e-8e88-5beb1e547332",
+   "lemma": "annex",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "annex",
+    "annexes",
+    "annexed",
+    "annexation"
+   ],
+   "glossEn": "add nearby land officially to a city",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "7be1fc55-c4f1-5822-a602-a1495f6964c9",
+   "lemma": "urbanist",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "urbanist",
+    "urbanists"
+   ],
+   "glossEn": "specialist in how cities work and should develop",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "9cf4f1ac-751c-5f80-9dcb-b8f0c7d84308",
+   "lemma": "infill",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "infill",
+    "infill development"
+   ],
+   "glossEn": "building on empty lots within an existing area",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "1466ea0e-1854-5f6d-8708-7edf6d4e6334",
+   "lemma": "revitalization",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "revitalization",
+    "revitalisation",
+    "revitalize"
+   ],
+   "glossEn": "bringing new life to a declining urban area",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "3d157cf8-c826-5916-bfa2-6b413b72d37e",
+   "lemma": "adaptive reuse",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "adaptive reuse"
+   ],
+   "glossEn": "converting an old building to a new purpose",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "c972b286-71aa-574f-b336-5fb922b4a3e6",
+   "lemma": "placemaking",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "placemaking",
+    "place-making"
+   ],
+   "glossEn": "designing public spaces that people enjoy using",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  }
+ ]
+}

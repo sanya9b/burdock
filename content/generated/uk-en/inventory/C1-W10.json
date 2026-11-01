@@ -1,0 +1,569 @@
+{
+ "chunk": "C1-W10",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "7196ca2c-76d4-5a56-a6bd-42d1280909f8",
+   "lemma": "parenthesis",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "parenthesis"
+   ],
+   "glossEn": "round bracket or an inserted aside",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "81caa8dd-d7fe-5d4e-b01d-3527c3e39c4e",
+   "lemma": "italics",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "italics"
+   ],
+   "glossEn": "sloping typeface used for emphasis",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "9dbe11fa-95e0-5fd7-af21-e53c443b5c8c",
+   "lemma": "capitalize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "capitalize",
+    "capitalise"
+   ],
+   "glossEn": "write with a capital first letter",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "79a641d7-042f-5ed3-b119-40961fc2d97c",
+   "lemma": "punctuate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "punctuate"
+   ],
+   "glossEn": "insert punctuation marks into text",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "4a8c90e3-7dac-5b5f-8650-08a2214c4ae4",
+   "lemma": "misspell",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "misspell"
+   ],
+   "glossEn": "spell a word wrongly",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "e4e4942d-b89f-57f9-8faf-e3c4172fa3b3",
+   "lemma": "typo",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "typo"
+   ],
+   "glossEn": "small typing or printing mistake",
+   "topics": [
+    "communication",
+    "it"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "ddf58bd6-4d84-5846-af58-06f8f02a2e6e",
+   "lemma": "redact",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "redact"
+   ],
+   "glossEn": "black out sensitive parts of a document",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "1b84325d-ab5f-5bb0-87a9-c41a841c9a36",
+   "lemma": "localize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "localize",
+    "localise"
+   ],
+   "glossEn": "adapt content to a particular language and region",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "d25fcc77-5295-59a5-8217-32faef64672d",
+   "lemma": "corpus",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "corpus"
+   ],
+   "glossEn": "large collection of texts for language study",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "9bfcad60-5e2d-5157-9682-cdfea684c134",
+   "lemma": "linguist",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "linguist"
+   ],
+   "glossEn": "specialist in the study of language",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "f2bb9cc7-825c-5358-beb7-bed7602ffb12",
+   "lemma": "linguistics",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "linguistics"
+   ],
+   "glossEn": "scientific study of language",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "46bbc221-2b7a-521e-b84a-e421808c603e",
+   "lemma": "utterance",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "utterance"
+   ],
+   "glossEn": "something said; a spoken word or statement",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "24972a9b-4ed9-5641-a6d7-ca88ca410be5",
+   "lemma": "witticism",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "witticism"
+   ],
+   "glossEn": "witty remark",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "bf8ce197-2b64-5653-9b24-491d8101c76f",
+   "lemma": "cinematographer",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cinematographer"
+   ],
+   "glossEn": "person in charge of a film's camera work",
+   "topics": [
+    "work"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "72ac5ae3-c439-5de4-9301-afe838b19893",
+   "lemma": "close-up",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "close-up",
+    "closeup"
+   ],
+   "glossEn": "shot taken very near the subject",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "2d6d0c6a-df09-568c-9817-1848d87f641c",
+   "lemma": "narration",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "narration"
+   ],
+   "glossEn": "spoken commentary telling a story over images",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "0ec2ddac-9e4e-57f5-8081-081ae5cec057",
+   "lemma": "stunt",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stunt"
+   ],
+   "glossEn": "dangerous feat performed for a film or show",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "e603a175-c248-5420-a961-50d8359311d4",
+   "lemma": "casting",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "casting"
+   ],
+   "glossEn": "choosing actors for roles",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "f482ee20-9fc9-5027-b423-f76869715ff7",
+   "lemma": "cue",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cue"
+   ],
+   "glossEn": "signal for an actor to speak or act",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "a58b646f-25ef-52da-a0f3-212f3451c2ea",
+   "lemma": "prop",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prop"
+   ],
+   "glossEn": "object used on stage or in a film",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "25532b02-2dec-5526-ae2b-ff1528fffe62",
+   "lemma": "backdrop",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "backdrop",
+    "back-drop"
+   ],
+   "glossEn": "painted cloth at the back of a stage",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "547b9dc5-6d74-51da-aeca-b2f013ff90cb",
+   "lemma": "matinee",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "matinee",
+    "matinée"
+   ],
+   "glossEn": "afternoon performance or screening",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "b7001bd5-5514-5ada-ae07-1bbe90da0763",
+   "lemma": "staging",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "staging"
+   ],
+   "glossEn": "way a play is presented on stage",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "4374ccb9-aafc-597e-bada-a27c52e05400",
+   "lemma": "pantomime",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pantomime"
+   ],
+   "glossEn": "comic musical play, or acting without words",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "0fc15227-b2c9-5665-9d8a-00be966a80f8",
+   "lemma": "mime",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mime"
+   ],
+   "glossEn": "acting using gestures and no words",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "447fe461-8e76-5994-a409-19bd036f7813",
+   "lemma": "puppetry",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "puppetry"
+   ],
+   "glossEn": "art of performing with puppets",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "c8637793-043c-5a74-808f-8e07c3e19d25",
+   "lemma": "recital",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "recital"
+   ],
+   "glossEn": "performance of music or poetry by a soloist",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "e9e05864-2aa9-5121-88ea-6850dbce98be",
+   "lemma": "remake",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "remake",
+    "re-make"
+   ],
+   "glossEn": "new version of an old film",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "eaaa5608-4054-5085-9969-1817933e0c25",
+   "lemma": "spin-off",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spin-off",
+    "spinoff"
+   ],
+   "glossEn": "new show derived from an existing one",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "1790f9cf-482f-5d1f-af1f-d9e33d9700c6",
+   "lemma": "miniseries",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "miniseries",
+    "mini-series"
+   ],
+   "glossEn": "television drama told in a few episodes",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "a17e23e6-0087-5e21-aace-5f49a169ad6e",
+   "lemma": "biopic",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "biopic"
+   ],
+   "glossEn": "film about a real person's life",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "a35e1cfc-d3e0-5d94-8a9d-1910ac135bd6",
+   "lemma": "whodunit",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "whodunit",
+    "whodunnit"
+   ],
+   "glossEn": "detective story about who committed the crime",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "1770d2ae-49ce-5784-99ec-8bba0516f751",
+   "lemma": "gore",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gore"
+   ],
+   "glossEn": "graphic blood and violence in films",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "b2bd8a22-d658-5200-8e35-1308bbad57a7",
+   "lemma": "gory",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gory"
+   ],
+   "glossEn": "showing much blood and violence",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "978c5eaf-f926-5b44-8faa-3aabfd40936a",
+   "lemma": "suspenseful",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "suspenseful"
+   ],
+   "glossEn": "full of tension about what happens next",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "6218faff-7ac3-55a8-b485-0aa6fc6feca4",
+   "lemma": "nail-biting",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nail-biting",
+    "nailbiting"
+   ],
+   "glossEn": "extremely tense and exciting",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "4de4824f-815e-5cf0-b651-7162c6ac86d4",
+   "lemma": "flop",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flop"
+   ],
+   "glossEn": "film, show or product that fails completely",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "c3c0c475-d226-5997-a9d7-784aef4789ab",
+   "lemma": "cult",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cult"
+   ],
+   "glossEn": "something with a small but devoted following",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "453f1f32-d0e3-51bf-944c-5dde0f101fbc",
+   "lemma": "comical",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "comical"
+   ],
+   "glossEn": "amusing, often in an absurd way",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "53b4cbbe-875b-5cd8-bd35-bf1cd5d889cd",
+   "lemma": "offbeat",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "offbeat",
+    "off-beat"
+   ],
+   "glossEn": "unconventional and slightly strange",
+   "topics": [],
+   "area": "arts-media"
+  }
+ ]
+}

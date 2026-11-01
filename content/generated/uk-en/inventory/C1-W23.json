@@ -1,0 +1,531 @@
+{
+ "chunk": "C1-W23",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "025d8e2f-de0f-52f9-844c-96c70bf77ded",
+   "lemma": "mope",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mope"
+   ],
+   "glossEn": "be listless and dejected, feeling sorry for oneself",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "c877b43a-2d31-5112-9ca0-29c8bf75bb78",
+   "lemma": "wallow",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wallow"
+   ],
+   "glossEn": "indulge in self-pity or another negative emotion",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "c7c2a72f-372a-5864-a0f9-56a74f3269d2",
+   "lemma": "edgy",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "edgy"
+   ],
+   "glossEn": "tense, nervous and easily irritated",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "ef4da0f5-36de-522d-85ba-76beb1db4f83",
+   "lemma": "touchy",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "touchy"
+   ],
+   "glossEn": "easily offended or upset",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "e370cfcb-fe73-56b8-b7cf-a5e275ecc935",
+   "lemma": "grouchy",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "grouchy"
+   ],
+   "glossEn": "irritable and bad-tempered",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "cc7b80de-1831-5820-94e5-5bc1a5181c6a",
+   "lemma": "cranky",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cranky"
+   ],
+   "glossEn": "bad-tempered and irritable",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "f3e51c9a-4456-59d8-bf1a-293bb5e0fb00",
+   "lemma": "paranoid",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "paranoid"
+   ],
+   "glossEn": "unreasonably suspicious and distrustful of others",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "ad545db9-d623-5a21-8757-976bcd781e3c",
+   "lemma": "neurotic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "neurotic"
+   ],
+   "glossEn": "excessively anxious, obsessive or sensitive",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "3cb3d22b-d0de-546d-ae45-ad6da6a4a5fe",
+   "lemma": "hysterical",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hysterical"
+   ],
+   "glossEn": "in an uncontrollable state of extreme emotion",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "87707f83-6d16-58c2-9c15-cd167059a4a1",
+   "lemma": "panicky",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "panicky"
+   ],
+   "glossEn": "feeling or showing sudden uncontrollable fear",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "9dbb4fe2-96b7-5a78-a79c-90eebae175d3",
+   "lemma": "heart-wrenching",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heart-wrenching",
+    "heartwrenching"
+   ],
+   "glossEn": "causing great sadness or distress",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "2f64e6ae-4b98-5f89-881d-736064972e01",
+   "lemma": "grief-stricken",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "grief-stricken",
+    "grief stricken"
+   ],
+   "glossEn": "overwhelmed with sorrow after a loss",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "b3466eee-4313-5cbd-8028-ad6fa1297a8a",
+   "lemma": "downhearted",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "downhearted"
+   ],
+   "glossEn": "discouraged and in low spirits",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "ef90e0b0-9c7e-5ecb-ac47-b8ad9e033803",
+   "lemma": "jaded",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jaded"
+   ],
+   "glossEn": "tired and bored after too much of something",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "3a537896-0b32-5708-b555-2375d276bc62",
+   "lemma": "exhilarated",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "exhilarated"
+   ],
+   "glossEn": "very happy, animated and full of energy",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "ba9fcb05-cb4c-526c-9ee1-c36049f85027",
+   "lemma": "jubilant",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jubilant"
+   ],
+   "glossEn": "feeling or expressing great triumphant joy",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "615a0c84-74d0-587e-8a9f-d09513a0da5c",
+   "lemma": "euphoric",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "euphoric"
+   ],
+   "glossEn": "intensely excited and happy",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "8193e7a8-fbbd-591c-90b9-a1e3d1fe6254",
+   "lemma": "giddy",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "giddy"
+   ],
+   "glossEn": "excited to the point of being light-headed",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "b9a8b70c-39ef-510d-a3ae-2ace21998c48",
+   "lemma": "gleeful",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gleeful"
+   ],
+   "glossEn": "full of exuberant joy, sometimes gloating",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "f2caa816-a59d-5508-a8e9-e89f44c04bce",
+   "lemma": "blissful",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blissful"
+   ],
+   "glossEn": "perfectly happy and peaceful",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "369a6d6f-af41-52eb-bf3b-bee07639fca6",
+   "lemma": "buoyant",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "buoyant"
+   ],
+   "glossEn": "cheerful and optimistic",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "fdbeb8c9-daee-5959-b24b-137e027e170b",
+   "lemma": "contented",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "contented"
+   ],
+   "glossEn": "peacefully happy and satisfied",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "ce68519e-3096-5aef-b6bf-87fb733d3f26",
+   "lemma": "upbeat",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "upbeat"
+   ],
+   "glossEn": "cheerful and optimistic",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "4ee5e9de-7ce8-54fa-8e4d-3309c31bdf4d",
+   "lemma": "hearten",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hearten"
+   ],
+   "glossEn": "give courage or confidence to someone",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "0c645ad7-e01f-58ed-8e7f-7ac45b808c1e",
+   "lemma": "placid",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "placid"
+   ],
+   "glossEn": "not easily upset or excited, calm",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "1989db87-4314-5534-9bd5-4c4e14a7d0bc",
+   "lemma": "mellow",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mellow"
+   ],
+   "glossEn": "relaxed, gentle and good-humored",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "a82e5405-5815-530c-ab5a-4c29459beb23",
+   "lemma": "nonchalant",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nonchalant"
+   ],
+   "glossEn": "calmly casual and unconcerned",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "9855dd33-32fe-529d-8750-92b302f9a126",
+   "lemma": "unfazed",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unfazed"
+   ],
+   "glossEn": "not worried or disturbed by something",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "118cc6da-8413-5f23-b998-30b884af4b09",
+   "lemma": "composed",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "composed"
+   ],
+   "glossEn": "calm and in control of one's feelings",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "a06a90c5-b71b-52dc-b549-f531cb565ccc",
+   "lemma": "poised",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "poised"
+   ],
+   "glossEn": "composed, dignified and self-assured",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "2951416a-51c7-554f-9705-f07aad90ff9c",
+   "lemma": "level-headed",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "level-headed",
+    "levelheaded"
+   ],
+   "glossEn": "calm and sensible under pressure",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "a9dd98fc-b1aa-5094-8229-5a6779dd28c0",
+   "lemma": "even-tempered",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "even-tempered",
+    "even tempered"
+   ],
+   "glossEn": "not easily angered or upset",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "a284ddb3-6cde-5ec8-aaaf-1c128d6bd79d",
+   "lemma": "laid-back",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "laid-back",
+    "laid back"
+   ],
+   "glossEn": "relaxed and easygoing in manner",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "a7c4661a-6af0-59fc-9010-c0d8c1cdf119",
+   "lemma": "dumbfounded",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dumbfounded"
+   ],
+   "glossEn": "greatly astonished and left speechless",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "0463abff-f2e5-53b4-aade-e3c1e547ed76",
+   "lemma": "flabbergasted",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flabbergasted"
+   ],
+   "glossEn": "extremely surprised and shocked",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "68d1521c-0641-59cf-94db-259de76adad4",
+   "lemma": "astounded",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "astounded"
+   ],
+   "glossEn": "shocked with great surprise",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "5ca1e06c-ec6e-5856-a8c3-d441aa28c4cf",
+   "lemma": "aghast",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aghast"
+   ],
+   "glossEn": "filled with horror or shock",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "80de259f-a622-5ebe-97bc-afe916013b0c",
+   "lemma": "yearning",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "yearning"
+   ],
+   "glossEn": "intense longing for something or someone",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "cef3df79-56e0-5c6e-8679-4cecd2b8bced",
+   "lemma": "smitten",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "smitten"
+   ],
+   "glossEn": "strongly attracted to someone, in love",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "c48d740d-36e1-5583-b5ba-172a485e3dbc",
+   "lemma": "zeal",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "zeal"
+   ],
+   "glossEn": "great energy and enthusiasm for a cause",
+   "topics": [],
+   "area": "emotions-character"
+  }
+ ]
+}

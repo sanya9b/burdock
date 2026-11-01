@@ -1,0 +1,676 @@
+{
+ "chunk": "B1-W14",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "19ca5946-ce38-59a7-94fb-d3c44cafd464",
+   "lemma": "digital nomad",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "digital nomad",
+    "digital nomads"
+   ],
+   "glossEn": "person who works online while traveling the world",
+   "topics": [
+    "it",
+    "work",
+    "travel"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "13af534b-e872-5c59-9e39-cf3b64ac92bb",
+   "lemma": "hackathon",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hackathon",
+    "hackathons"
+   ],
+   "glossEn": "event where teams build software in a day or two",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "c7ef4a33-3011-5eb6-8c49-0971bd9b7f3b",
+   "lemma": "bootcamp",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bootcamp",
+    "bootcamps",
+    "boot camp",
+    "coding bootcamp"
+   ],
+   "glossEn": "short intensive course that teaches programming",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "4ae5b459-a617-5194-906c-155103841169",
+   "lemma": "software engineer",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "software engineer",
+    "software engineers",
+    "software developer"
+   ],
+   "glossEn": "professional who designs and builds software",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "3b9b26d1-66bc-5422-9793-6ac41f36c4a6",
+   "lemma": "product manager",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "product manager",
+    "product managers",
+    "PM"
+   ],
+   "glossEn": "person who decides what a product should do next",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "7ea5c1fb-6705-5d76-ab02-848dbddbabbd",
+   "lemma": "data scientist",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "data scientist",
+    "data scientists"
+   ],
+   "glossEn": "specialist who analyzes data and builds predictive models",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "7a8789c8-3350-5497-9f7e-c34fbeddb3f7",
+   "lemma": "help desk",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "help desk",
+    "help desks",
+    "helpdesk"
+   ],
+   "glossEn": "service that answers technical questions from users",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "66025f9f-d994-5a9e-8399-bb3424c5a3a9",
+   "lemma": "tech support",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tech support",
+    "technical support"
+   ],
+   "glossEn": "help with computer or software problems",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "7808dc83-3d35-5d62-adf5-7f996abc6c6e",
+   "lemma": "keypad",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keypad",
+    "keypads",
+    "numeric keypad"
+   ],
+   "glossEn": "set of number keys on a phone or device",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "ae6a1de3-25eb-5b26-9f2a-72723ac140af",
+   "lemma": "security question",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "security question",
+    "security questions"
+   ],
+   "glossEn": "personal question used to recover an account",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "5f8c30a5-dc31-586b-b7da-66cf6e1f4d1a",
+   "lemma": "verification code",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "verification code",
+    "verification codes",
+    "confirmation code"
+   ],
+   "glossEn": "one-time code sent to confirm it is you",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "41e38db9-52e3-5d62-b87a-c25c9aa68d5a",
+   "lemma": "esports",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "esports",
+    "e-sports",
+    "eSports"
+   ],
+   "glossEn": "competitive video gaming watched by audiences",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "0cee084a-eff3-583d-8bfb-4e9f203c1883",
+   "lemma": "gameplay",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gameplay"
+   ],
+   "glossEn": "how a video game plays and feels in action",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "0f3cb836-78d2-5063-8abc-3e92ec3abe9c",
+   "lemma": "contributor",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "contributor",
+    "contributors"
+   ],
+   "glossEn": "person who adds code or content to a project",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "19a273b1-45d4-5e67-9eda-85e5a9e1b896",
+   "lemma": "installer",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "installer",
+    "installers"
+   ],
+   "glossEn": "program that sets up software on a device",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "dff84269-30e9-50e0-8499-9760c6e23d2f",
+   "lemma": "uppercase",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "uppercase",
+    "upper case",
+    "upper-case"
+   ],
+   "glossEn": "capital letters, often required in passwords",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "efa531e3-c612-514d-952d-0fb934095ae4",
+   "lemma": "lowercase",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lowercase",
+    "lower case",
+    "lower-case"
+   ],
+   "glossEn": "small letters, as opposed to capitals",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "a7620c6d-efb7-553c-86bc-9fa64cf02e1f",
+   "lemma": "data type",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "data type",
+    "data types",
+    "type"
+   ],
+   "glossEn": "kind of value a variable holds, like number or text",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "9a35749d-8ae6-5e23-99d8-65c3f0c4f554",
+   "lemma": "test case",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "test case",
+    "test cases"
+   ],
+   "glossEn": "single check that software behaves as expected",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "b57941a1-9d53-5ee6-b4a1-4d98a6986425",
+   "lemma": "QA",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "QA",
+    "quality assurance"
+   ],
+   "glossEn": "quality assurance: testing software before release",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "d9d22f7e-764a-560f-9026-068066a82359",
+   "lemma": "IDE",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "IDE",
+    "IDEs",
+    "integrated development environment"
+   ],
+   "glossEn": "program for writing, running, and debugging code",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "c9bab5d2-9388-533b-a178-bd97d0031c82",
+   "lemma": "XML",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "XML",
+    "xml"
+   ],
+   "glossEn": "text format that structures data with tags",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "7e75ddd7-1e15-57b0-b99b-16d51d33ed0b",
+   "lemma": "header",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "header",
+    "headers"
+   ],
+   "glossEn": "top section of a page, email, or web request",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "1d11ba8b-a066-52b6-bca8-4d2a45140d89",
+   "lemma": "landing page",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "landing page",
+    "landing pages"
+   ],
+   "glossEn": "web page visitors reach from an ad or link",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "d93b8537-99df-54d1-be4e-3d9d3ecaddf8",
+   "lemma": "web app",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "web app",
+    "web apps",
+    "web application"
+   ],
+   "glossEn": "application that runs inside a browser",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "8bedad3c-f6ad-5902-81e0-8e22947d7771",
+   "lemma": "broken link",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "broken link",
+    "broken links",
+    "dead link"
+   ],
+   "glossEn": "web link that no longer opens a page",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "8f7332a8-1a98-50b8-ba39-e10b9d1ee439",
+   "lemma": "redirect",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "redirect",
+    "redirects",
+    "redirected",
+    "redirecting"
+   ],
+   "glossEn": "send a visitor automatically to another web address",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "aedd1e05-9168-5c85-9754-eb0c936e9e1a",
+   "lemma": "UX",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "UX",
+    "user experience"
+   ],
+   "glossEn": "user experience: how a product feels to use",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "05da9deb-51a6-5183-bbb0-1c42c8dac340",
+   "lemma": "UI",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "UI",
+    "user interface"
+   ],
+   "glossEn": "user interface: screens and controls people interact with",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "9183fb4f-4411-53e2-9833-eb4a39b6983a",
+   "lemma": "bug fix",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bug fix",
+    "bug fixes",
+    "bugfix"
+   ],
+   "glossEn": "change that corrects a software error",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "9868c2de-ac14-5a18-95b9-bbad7a87b078",
+   "lemma": "regiment",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "regiment",
+    "regiments"
+   ],
+   "glossEn": "large permanent army unit",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "00c43d4e-2def-5674-a6b5-a43263efbfd9",
+   "lemma": "corps",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "corps"
+   ],
+   "glossEn": "military formation of two or more divisions",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "476296dc-684c-59ac-a7a1-ecc34bff9b2e",
+   "lemma": "reservist",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reservist",
+    "reservists"
+   ],
+   "glossEn": "member of the military reserve",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "53d924f6-add0-565a-b97a-465a0587c3a5",
+   "lemma": "conscript",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "conscript",
+    "conscripts"
+   ],
+   "glossEn": "person required by law to serve",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "c6bd0d92-2642-5c45-af12-d89c95de6608",
+   "lemma": "admiral",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "admiral",
+    "admirals"
+   ],
+   "glossEn": "highest officer rank in the navy",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "f5d0b867-9851-5c79-af89-d5c88d462a06",
+   "lemma": "marshal",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "marshal",
+    "marshals"
+   ],
+   "glossEn": "highest military rank in some armies",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "d8078e33-dc6d-5c4f-91ff-de1e460d22af",
+   "lemma": "sniper",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sniper",
+    "snipers"
+   ],
+   "glossEn": "soldier who shoots accurately from a hidden place",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "e721a88b-cccd-58cd-a103-ac6686b1021c",
+   "lemma": "gunner",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gunner",
+    "gunners"
+   ],
+   "glossEn": "soldier who operates a large gun",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "aab490ad-2d6e-5809-9280-9d0157465a42",
+   "lemma": "scout",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scout",
+    "scouts"
+   ],
+   "glossEn": "soldier sent ahead to gather information",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "7053b5b5-6a8b-58cb-bf1e-96f55a3ee2c5",
+   "lemma": "combat",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "combat"
+   ],
+   "glossEn": "fighting between armed forces",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  }
+ ]
+}

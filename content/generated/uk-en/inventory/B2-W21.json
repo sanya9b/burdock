@@ -1,0 +1,663 @@
+{
+ "chunk": "B2-W21",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "dc51756a-5dca-5a9d-bd90-320f669fdbca",
+   "lemma": "exempt",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "exempt"
+   ],
+   "glossEn": "officially freed from a duty such as service",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "c0eb1055-1f31-5543-9ef0-cc6263055b62",
+   "lemma": "hearing aid",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hearing aid",
+    "hearing aids"
+   ],
+   "glossEn": "small device that makes sounds louder",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "ecd7b033-15ce-5d77-a58c-338f498a6582",
+   "lemma": "physiotherapist",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "physiotherapist",
+    "physiotherapists",
+    "physical therapist"
+   ],
+   "glossEn": "specialist who restores movement after injury",
+   "topics": [
+    "military",
+    "health",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "9bdd077c-df51-56fb-8161-76c10927fdfc",
+   "lemma": "traumatize",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "traumatize",
+    "traumatizes",
+    "traumatized",
+    "traumatise"
+   ],
+   "glossEn": "cause lasting emotional shock",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "cfdf302d-f69d-5fa6-bd5a-a564546c4f18",
+   "lemma": "dead zone",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dead zone",
+    "dead zones"
+   ],
+   "glossEn": "area with no phone or radio signal",
+   "topics": [
+    "military",
+    "communication"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "9e7dc508-9e9b-58b3-8e76-9a6bee302849",
+   "lemma": "mayday",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mayday",
+    "maydays"
+   ],
+   "glossEn": "radio call meaning a vessel or aircraft needs help",
+   "topics": [
+    "military",
+    "communication",
+    "travel"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "da6479c9-a3dc-5695-aaa6-a29a66fcfef3",
+   "lemma": "training ground",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "training ground",
+    "training grounds"
+   ],
+   "glossEn": "area where troops practice",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "81d68072-34a7-589d-b160-b5b46bfa68d5",
+   "lemma": "lifesaving",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lifesaving",
+    "life-saving"
+   ],
+   "glossEn": "able to save a person's life",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "a5fcdf58-ddef-5da2-a473-64ff0e1167e3",
+   "lemma": "life-threatening",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "life-threatening"
+   ],
+   "glossEn": "serious enough to cause death",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "fdb5f740-f517-5b78-abc3-3e506cb54f20",
+   "lemma": "off-duty",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "off-duty",
+    "off duty"
+   ],
+   "glossEn": "not working one's shift at the moment",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "48ede665-a4a8-56ff-96c1-44f9b52f9aee",
+   "lemma": "active-duty",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "active-duty",
+    "active duty"
+   ],
+   "glossEn": "currently serving full time in the forces",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "e8c1c8fb-0a63-5a50-bdde-6108c24bd4cb",
+   "lemma": "peacetime",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "peacetime"
+   ],
+   "glossEn": "period when a country is not at war",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "40937742-2a5f-5592-bbff-e41690f4dd3b",
+   "lemma": "postwar",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "postwar",
+    "post-war"
+   ],
+   "glossEn": "happening after a war ends",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "9758bbe2-5577-5d7e-9a4a-a129adff7ce6",
+   "lemma": "aerial",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aerial"
+   ],
+   "glossEn": "happening in or from the air",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "e47425d2-f7b6-5680-92c2-2858de48b2d0",
+   "lemma": "airborne",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "airborne"
+   ],
+   "glossEn": "carried or dropped by aircraft",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "d071c8b4-c2d2-582c-a2fc-f5b71bccc2b1",
+   "lemma": "blackout curtain",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blackout curtain",
+    "blackout curtains"
+   ],
+   "glossEn": "thick curtain that lets no light out",
+   "topics": [
+    "military",
+    "city",
+    "shopping"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "a0b24fd6-5ef2-5a64-b7e9-225d4e09d543",
+   "lemma": "fortified",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fortified"
+   ],
+   "glossEn": "strengthened with walls or defenses",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "d0f893e3-4d2c-536f-abb8-e9407115eefc",
+   "lemma": "stranded",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stranded"
+   ],
+   "glossEn": "left somewhere without a way to leave",
+   "topics": [
+    "military",
+    "travel"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "b08dca21-1696-5e30-b203-661892d748ec",
+   "lemma": "hearing loss",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hearing loss"
+   ],
+   "glossEn": "reduced ability to hear, for example after blasts",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "d67593df-b8f0-522a-b7ed-4578bb71e2be",
+   "lemma": "internal bleeding",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "internal bleeding"
+   ],
+   "glossEn": "bleeding inside the body that cannot be seen",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "325edc35-0e14-50d1-a576-cd5bb0eb928b",
+   "lemma": "wholesaler",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wholesaler",
+    "wholesalers"
+   ],
+   "glossEn": "business selling goods in bulk to retailers",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "70644865-ba57-5ee1-964e-9f5d1dcc5503",
+   "lemma": "wrapper",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wrapper",
+    "wrappers"
+   ],
+   "glossEn": "paper or plastic covering a product",
+   "topics": [
+    "shopping",
+    "food"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "861e2488-daa6-5fdd-98a6-7a184fa5617a",
+   "lemma": "recipient",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "recipient",
+    "recipients"
+   ],
+   "glossEn": "person who receives a parcel",
+   "topics": [
+    "shopping",
+    "communication"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "4952c6a7-2cb3-5ea6-8a97-604f67b2acca",
+   "lemma": "prepaid",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prepaid",
+    "pre-paid"
+   ],
+   "glossEn": "paid for in advance",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "bc4476a7-10fb-55ec-8c46-f97bd86485d2",
+   "lemma": "trademark",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "trademark",
+    "trademarks"
+   ],
+   "glossEn": "legally registered name or symbol of a brand",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "ec8c33f5-6de1-547d-8317-72378993973c",
+   "lemma": "overdraft",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overdraft",
+    "overdrafts"
+   ],
+   "glossEn": "spending more money than your account holds",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "be45dc19-04cf-58b7-bc16-df764d265c19",
+   "lemma": "financing",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "financing",
+    "finance"
+   ],
+   "glossEn": "arrangement to pay for a purchase over time",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "edd5f86d-8d48-5d0c-becd-1645a437a927",
+   "lemma": "unboxing",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unboxing",
+    "unboxings"
+   ],
+   "glossEn": "opening a new product on video for viewers",
+   "topics": [
+    "shopping",
+    "communication"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "b501c7ca-f97f-57b0-af59-d95bc29a5a04",
+   "lemma": "inseam",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inseam",
+    "inseams",
+    "inside leg"
+   ],
+   "glossEn": "inner leg length measurement of pants",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "74204ed4-75a3-53f3-8804-65a4c8cd9126",
+   "lemma": "hem",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hem",
+    "hems"
+   ],
+   "glossEn": "folded and sewn edge of a garment",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "b876bcb4-4950-5d07-b45f-e731b14f62f4",
+   "lemma": "velvet",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "velvet"
+   ],
+   "glossEn": "soft thick fabric with a short pile",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "e5db2e13-d36c-53d7-b0a3-9b15484c8745",
+   "lemma": "cashmere",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cashmere"
+   ],
+   "glossEn": "very soft expensive wool from goats",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "d28266de-4c99-5ac0-b7b0-7b619d920abb",
+   "lemma": "breathable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "breathable"
+   ],
+   "glossEn": "letting air and sweat pass through, of fabric",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "1cd774f7-f5e8-5e68-adcc-d3b2057f0ff4",
+   "lemma": "alteration",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "alteration",
+    "alterations"
+   ],
+   "glossEn": "change made to clothes so they fit",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "94a588fb-7a0e-5dc5-8b86-a4465d5ae7e4",
+   "lemma": "lingerie",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lingerie"
+   ],
+   "glossEn": "women's underwear and nightwear",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "2adce9af-355c-59f2-9a97-5365449b31f2",
+   "lemma": "mannequin",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mannequin",
+    "mannequins",
+    "dummy",
+    "dummies"
+   ],
+   "glossEn": "model of a human body used to display clothes",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "d0654678-ad7d-5eb6-82db-71649490b780",
+   "lemma": "wattage",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wattage"
+   ],
+   "glossEn": "electrical power of an appliance in watts",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "39bef57a-2dc4-5238-954a-6462d5312c0b",
+   "lemma": "trade-in",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "trade-in",
+    "trade-ins"
+   ],
+   "glossEn": "old item given as part payment for a new one",
+   "topics": [
+    "shopping",
+    "it"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "a7c1ee8c-891e-58bb-84c8-e74e277b21bc",
+   "lemma": "humidifier",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "humidifier",
+    "humidifiers"
+   ],
+   "glossEn": "appliance that adds moisture to room air",
+   "topics": [
+    "shopping",
+    "health"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "4af7d1be-4964-59c4-aed3-f6af418ac678",
+   "lemma": "purifier",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "purifier",
+    "purifiers"
+   ],
+   "glossEn": "appliance that cleans air or water",
+   "topics": [
+    "shopping",
+    "health"
+   ],
+   "area": "shopping"
+  }
+ ]
+}

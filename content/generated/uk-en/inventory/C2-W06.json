@@ -1,0 +1,591 @@
+{
+ "chunk": "C2-W06",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "1edef93f-79f7-5264-9d6c-07095c64e2e3",
+   "lemma": "ghostwrite",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ghostwrite",
+    "ghost-write"
+   ],
+   "glossEn": "write something credited to another person",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "d00fbc8a-8a25-5dea-b89b-20d477c06d60",
+   "lemma": "bibliophile",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bibliophile"
+   ],
+   "glossEn": "person who loves and collects books",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "7e11a4af-ddcd-5d1b-a960-4bd93203fbbd",
+   "lemma": "anthologize",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "anthologize",
+    "anthologise"
+   ],
+   "glossEn": "include a piece in an anthology",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "6249b536-8e2e-5d11-b17c-e734d844aaa0",
+   "lemma": "epigraph",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "epigraph"
+   ],
+   "glossEn": "quotation at the start of a book or chapter",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "6110a367-185f-5cb3-b440-523c889dd1b4",
+   "lemma": "typeset",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "typeset"
+   ],
+   "glossEn": "arrange text and type for printing",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "ab7384c6-8288-5c75-ae65-83cbb018f193",
+   "lemma": "imprint",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "imprint"
+   ],
+   "glossEn": "publisher's brand name under which books appear",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "6f6d2095-62eb-58a6-b930-d88c3cc8a205",
+   "lemma": "stringer",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stringer"
+   ],
+   "glossEn": "freelance journalist paid per story",
+   "topics": [
+    "communication",
+    "work"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "0a57e051-3da2-5b62-a51a-2d566e6af2a6",
+   "lemma": "masthead",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "masthead"
+   ],
+   "glossEn": "newspaper's title block listing staff and publisher",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "f274336c-3249-5d7f-a16c-2bbacfcac02e",
+   "lemma": "dateline",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dateline"
+   ],
+   "glossEn": "line giving date and place of a news report",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "6d9a83a8-0f6a-5cf0-8af1-e5d802a1f8a4",
+   "lemma": "editorialize",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "editorialize",
+    "editorialise"
+   ],
+   "glossEn": "express opinions instead of just reporting facts",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "fc7d2f69-5b69-58a2-8077-c6dd07890d23",
+   "lemma": "mudslinging",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mudslinging",
+    "mud-slinging"
+   ],
+   "glossEn": "making malicious accusations to damage an opponent",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "f581419f-3450-59ed-b69b-01d33605ff7d",
+   "lemma": "rabble-rousing",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rabble-rousing",
+    "rabble rousing"
+   ],
+   "glossEn": "stirring up crowd emotions for political ends",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "0d5c6407-6456-5b1a-890e-8dd38d1271f0",
+   "lemma": "demagoguery",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "demagoguery",
+    "demagogy"
+   ],
+   "glossEn": "manipulating people's prejudices to gain power",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "b73c87e3-9b4a-51c3-9c84-16d5ff0ab7cb",
+   "lemma": "soapbox",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "soapbox",
+    "soap box"
+   ],
+   "glossEn": "platform for airing strong opinions in public",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "ad572171-95dc-5c4c-9efd-b5f2af21c354",
+   "lemma": "listicle",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "listicle"
+   ],
+   "glossEn": "article structured as a numbered list",
+   "topics": [
+    "communication",
+    "it"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "582b1638-00ea-5f2c-ac68-59fd4e4b5300",
+   "lemma": "fluff",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fluff"
+   ],
+   "glossEn": "light, trivial content with little substance",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "f8e36c24-bd3a-5544-ba6e-bab6b529fef1",
+   "lemma": "copyedit",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "copyedit",
+    "copy-edit",
+    "copy edit"
+   ],
+   "glossEn": "correct text for grammar, style and consistency",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "394f861d-8a96-5db2-be33-ee8e327c0409",
+   "lemma": "copyeditor",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "copyeditor",
+    "copy editor",
+    "copy-editor"
+   ],
+   "glossEn": "editor who corrects grammar, style and consistency",
+   "topics": [
+    "communication",
+    "work"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "b5819ac2-23c5-519d-8e12-29305367c11e",
+   "lemma": "subeditor",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subeditor",
+    "sub-editor"
+   ],
+   "glossEn": "journalist who edits and headlines others' copy",
+   "topics": [
+    "communication",
+    "work"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "57db1e90-e06d-5ce4-bd16-af1116f19dd2",
+   "lemma": "stakeout",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stakeout",
+    "stake-out"
+   ],
+   "glossEn": "secret surveillance of a place by reporters or police",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "30214581-87eb-5a58-a109-ff9be51fd241",
+   "lemma": "infotainment",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "infotainment"
+   ],
+   "glossEn": "broadcast material mixing information and entertainment",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "4d3709d9-d6ab-5b61-a911-9c43cc8a934a",
+   "lemma": "syndication",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "syndication"
+   ],
+   "glossEn": "selling content for simultaneous publication elsewhere",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "e56be065-b437-51e1-a403-32966168da3b",
+   "lemma": "galley",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "galley"
+   ],
+   "glossEn": "printer's proof of a book before publication",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "6c984750-0dd3-52bd-930a-25199a1c80d0",
+   "lemma": "middlebrow",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "middlebrow",
+    "middle-brow"
+   ],
+   "glossEn": "of culture, moderately intellectual and conventional",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "0b908d1f-6974-52e6-bb2c-b76b934f8c36",
+   "lemma": "wordsmith",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wordsmith"
+   ],
+   "glossEn": "skilled user of words",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "b9af8046-5f46-55d3-a22e-787a2d35cffa",
+   "lemma": "lurid",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lurid"
+   ],
+   "glossEn": "shocking and sensational in a vulgar way",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "a7cce4fa-feab-553b-9063-11c18845fff5",
+   "lemma": "salacious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "salacious"
+   ],
+   "glossEn": "treating sexual matters in an indecent, titillating way",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "ea5ca3b7-0ab7-5f5e-b6a8-de9981bc3d24",
+   "lemma": "prurient",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prurient"
+   ],
+   "glossEn": "having an unhealthy interest in sexual matters",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "18544997-e894-5449-8152-362305a2077d",
+   "lemma": "titillate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "titillate"
+   ],
+   "glossEn": "excite pleasantly, especially with mildly erotic content",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "b0209915-8293-5b7d-8ced-3a063f333485",
+   "lemma": "voyeuristic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "voyeuristic"
+   ],
+   "glossEn": "taking pleasure in watching others' private lives",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "ded3eb28-4f02-5b43-a59b-c19f40b0502a",
+   "lemma": "fearmongering",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fearmongering",
+    "fear-mongering"
+   ],
+   "glossEn": "deliberately spreading fear to influence people",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "3d2e516b-1f9b-5930-a149-aec79f48bb23",
+   "lemma": "scurrilous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scurrilous"
+   ],
+   "glossEn": "making scandalous, insulting claims that damage reputation",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "4c47f903-b963-5ebd-9b74-0c4248717991",
+   "lemma": "libelous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "libelous",
+    "libellous"
+   ],
+   "glossEn": "containing a false published statement damaging reputation",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "19db8e5a-d4c1-56c0-a8f7-5c476e65ee34",
+   "lemma": "uncorroborated",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "uncorroborated"
+   ],
+   "glossEn": "not confirmed by other evidence",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "38beb9dd-dd12-5ff2-8468-fabcfedd8d00",
+   "lemma": "virality",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "virality"
+   ],
+   "glossEn": "tendency of content to spread rapidly online",
+   "topics": [
+    "it"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "05f3ce3d-5e5f-533a-9ca0-b4d2879077d9",
+   "lemma": "narrowcasting",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "narrowcasting"
+   ],
+   "glossEn": "broadcasting to a small, specific audience",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "4e66fb6f-a964-5d52-ae42-1e3381622787",
+   "lemma": "simulcast",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "simulcast"
+   ],
+   "glossEn": "program broadcast on several channels simultaneously",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "e85e3c19-c17b-53d5-a8e8-eda243599a0f",
+   "lemma": "send-up",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "send-up",
+    "sendup"
+   ],
+   "glossEn": "humorous imitation that mocks someone or something",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "263f1a7f-f380-5db5-bc3f-6c80d31414cd",
+   "lemma": "skit",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "skit"
+   ],
+   "glossEn": "short comic sketch or performance",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "d5fa2258-4260-5a81-818d-f40b14b08227",
+   "lemma": "heckler",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heckler"
+   ],
+   "glossEn": "audience member who interrupts a performer with jeers",
+   "topics": [],
+   "area": "arts-media"
+  }
+ ]
+}

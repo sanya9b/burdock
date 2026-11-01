@@ -1,0 +1,694 @@
+{
+ "chunk": "B2-W05",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "d8537979-1659-5ef6-a26b-caa4c5dbf47f",
+   "lemma": "utility company",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "utility company",
+    "utility companies",
+    "utility provider",
+    "utilities company"
+   ],
+   "glossEn": "company supplying electricity, gas or water",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "354b3f56-e07c-5135-907e-003747b1bde9",
+   "lemma": "hazardous waste",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hazardous waste"
+   ],
+   "glossEn": "waste such as batteries that needs special disposal",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "30e9a65e-7920-5a19-8755-190fe0d90323",
+   "lemma": "bulky waste",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bulky waste",
+    "bulky items",
+    "bulk waste"
+   ],
+   "glossEn": "large items like furniture collected separately",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "7cbcdca8-f673-5917-9990-fa654dac45f2",
+   "lemma": "e-waste",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "e-waste",
+    "electronic waste",
+    "ewaste"
+   ],
+   "glossEn": "discarded electronic devices",
+   "topics": [
+    "city",
+    "it"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "42938aa6-dffb-5ce4-b47e-a791515aaceb",
+   "lemma": "illegal dumping",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "illegal dumping",
+    "fly-tipping",
+    "fly tipping"
+   ],
+   "glossEn": "leaving waste where it is not allowed",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "d3c3aaa8-44e5-5df4-8fb8-d69f5194bf96",
+   "lemma": "excavator",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "excavator",
+    "excavators",
+    "digger"
+   ],
+   "glossEn": "machine with a bucket arm for digging",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "baae9011-d6d4-5a0f-8c37-831fec408083",
+   "lemma": "bulldozer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bulldozer",
+    "bulldozers"
+   ],
+   "glossEn": "tractor with a wide blade for pushing earth",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "2a65518d-f542-51cc-b077-b531911df232",
+   "lemma": "jackhammer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jackhammer",
+    "jackhammers",
+    "pneumatic drill"
+   ],
+   "glossEn": "handheld machine for breaking up road surfaces",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "2e263308-2dd1-50d0-ac57-c0a0794b7598",
+   "lemma": "cherry picker",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cherry picker",
+    "cherry pickers",
+    "aerial lift",
+    "boom lift"
+   ],
+   "glossEn": "truck with a lifting platform for high work",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "cc55ede8-5ceb-58eb-b08c-cb296056c132",
+   "lemma": "fare evasion",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fare evasion",
+    "fare-dodging",
+    "fare dodging"
+   ],
+   "glossEn": "riding public transport without paying",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "78fd1e0e-eb8e-57a1-984d-04eb8442c491",
+   "lemma": "fare dodger",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fare dodger",
+    "fare dodgers",
+    "fare evader"
+   ],
+   "glossEn": "passenger who travels without a ticket",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "0fd45707-99d5-5efd-8724-c7a994ffab33",
+   "lemma": "penalty fare",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "penalty fare",
+    "penalty fares"
+   ],
+   "glossEn": "fine charged to a passenger without a valid ticket",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "4c4aeb0e-f036-5da4-8138-eb572acbd4bd",
+   "lemma": "ticket barrier",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ticket barrier",
+    "ticket barriers",
+    "fare gate",
+    "ticket gate"
+   ],
+   "glossEn": "gate that opens when you scan a valid ticket",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "182291b1-209b-5c91-97ac-72559882299c",
+   "lemma": "priority seat",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "priority seat",
+    "priority seats"
+   ],
+   "glossEn": "seat reserved for elderly, disabled or pregnant passengers",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "0c338054-7dd3-5cdf-84ae-59b3f43651b8",
+   "lemma": "step-free",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "step-free",
+    "step free"
+   ],
+   "glossEn": "reachable without stairs, by ramp or elevator",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "36abac5a-a853-5d74-9bfa-60c17573268c",
+   "lemma": "low-floor",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "low-floor",
+    "low floor"
+   ],
+   "glossEn": "having a floor near the ground for easy boarding",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "bffa900c-7c7c-5fc0-a58f-0838bcc1d7db",
+   "lemma": "articulated bus",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "articulated bus",
+    "articulated buses",
+    "bendy bus"
+   ],
+   "glossEn": "long bus made of two sections joined by a pivot",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "569cf18f-c364-5837-8c0e-aab5858f5b46",
+   "lemma": "rapid transit",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rapid transit",
+    "mass transit",
+    "bus rapid transit"
+   ],
+   "glossEn": "high-capacity urban rail with frequent service",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "5eb101a8-f014-5431-ba0e-9b2351e35fda",
+   "lemma": "replacement bus",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "replacement bus",
+    "replacement buses",
+    "rail replacement bus"
+   ],
+   "glossEn": "bus provided when trains or trams are not running",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "90a311d1-41b1-5377-83e9-8221b8da1072",
+   "lemma": "scooter sharing",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scooter sharing",
+    "scooter-sharing",
+    "e-scooter sharing"
+   ],
+   "glossEn": "renting electric scooters by the minute via an app",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "70aedf9d-78eb-581c-98fc-2157010497d0",
+   "lemma": "rideshare",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rideshare",
+    "rideshares",
+    "ridesharing",
+    "ride-share"
+   ],
+   "glossEn": "paid ride from a private driver ordered through an app",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "f0bf3a0c-809c-52bd-8dec-045f1b57481f",
+   "lemma": "surge pricing",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "surge pricing",
+    "surge prices"
+   ],
+   "glossEn": "higher ride fares when demand is high",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "9bca423d-43ad-5db3-b11b-fc79b828f139",
+   "lemma": "double-park",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "double-park",
+    "double-parks",
+    "double-parked",
+    "double-parking"
+   ],
+   "glossEn": "park beside a car already parked at the curb",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "1964ceec-8e22-5fa8-9b1e-3a70ac61da1c",
+   "lemma": "parking permit",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "parking permit",
+    "parking permits",
+    "residents' permit"
+   ],
+   "glossEn": "document allowing you to park in a zone",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "82e6f7b6-8482-580c-9f1c-8d485c285304",
+   "lemma": "tow-away zone",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tow-away zone",
+    "tow-away zones",
+    "tow zone"
+   ],
+   "glossEn": "area where parked cars are removed by truck",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "e7da3b85-6ae5-5e0c-9740-ebdccc74f340",
+   "lemma": "hit-and-run",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hit-and-run",
+    "hit-and-runs",
+    "hit and run"
+   ],
+   "glossEn": "accident where the driver leaves without stopping",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "64e432e8-97d5-52bb-bdf6-25af6d0b634e",
+   "lemma": "roadside assistance",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "roadside assistance",
+    "breakdown service",
+    "breakdown cover"
+   ],
+   "glossEn": "help service for drivers whose car breaks down",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "8dfa15aa-e595-5d5a-baac-d9b39e758de4",
+   "lemma": "speed trap",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "speed trap",
+    "speed traps"
+   ],
+   "glossEn": "spot where police secretly check vehicle speeds",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "dd0d3f16-c8ad-511f-a562-5134709a999c",
+   "lemma": "road rage",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "road rage"
+   ],
+   "glossEn": "violent anger of a driver toward other drivers",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "755507c8-32f8-5d8c-b848-02c928276906",
+   "lemma": "parkway",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "parkway",
+    "parkways"
+   ],
+   "glossEn": "wide road with trees and grass along it",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "bcbedff9-5544-5eeb-9aab-9356b198f1fe",
+   "lemma": "greenway",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "greenway",
+    "greenways"
+   ],
+   "glossEn": "long park path for walking and cycling",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "1a25baf6-be2d-56f1-ad3c-b3b2f07132a5",
+   "lemma": "pocket park",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pocket park",
+    "pocket parks",
+    "parklet"
+   ],
+   "glossEn": "very small park on a city lot",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "02e1de2d-01a0-5290-8c4d-1d10bf80a0ff",
+   "lemma": "green roof",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "green roof",
+    "green roofs",
+    "living roof"
+   ],
+   "glossEn": "roof covered with plants and soil",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "3afbe410-9d61-5157-a8eb-d92c7c503657",
+   "lemma": "walkable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "walkable"
+   ],
+   "glossEn": "easy and pleasant to get around on foot",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "cf3b58e3-a71f-5559-8789-ccf96936eafa",
+   "lemma": "livable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "livable",
+    "liveable"
+   ],
+   "glossEn": "pleasant and comfortable to live in",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "87498138-ee8f-51f9-ad07-141be1f68948",
+   "lemma": "up-and-coming",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "up-and-coming"
+   ],
+   "glossEn": "becoming more popular and fashionable",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "926710ad-2374-591e-8548-1e9fa2bf627c",
+   "lemma": "leafy",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "leafy",
+    "leafier",
+    "leafiest"
+   ],
+   "glossEn": "having many trees along streets",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "cb59e4e5-cbae-5d35-adcc-509c1ae35dae",
+   "lemma": "listed building",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "listed building",
+    "listed buildings",
+    "landmarked building"
+   ],
+   "glossEn": "building legally protected for its historic value",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "d08cc317-387a-531f-b38e-337dd5dbf918",
+   "lemma": "conservation area",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "conservation area",
+    "conservation areas",
+    "historic district"
+   ],
+   "glossEn": "district protected for its historic character",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "bca2d367-70ef-5bd1-ace2-23de67eefd61",
+   "lemma": "urban renewal",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "urban renewal",
+    "urban regeneration"
+   ],
+   "glossEn": "rebuilding of run-down city areas",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  }
+ ]
+}

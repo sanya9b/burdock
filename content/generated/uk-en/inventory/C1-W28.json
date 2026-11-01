@@ -1,0 +1,547 @@
+{
+ "chunk": "C1-W28",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "00143f60-afbe-5af8-af30-819eb07891c9",
+   "lemma": "disown",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disown"
+   ],
+   "glossEn": "refuse any connection with a family member",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "f1449ec4-dc78-5cdb-b335-82dc5127f397",
+   "lemma": "loner",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "loner"
+   ],
+   "glossEn": "person who prefers to be alone",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "39981538-ec76-5f8d-8659-eddd4273463c",
+   "lemma": "pushover",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pushover"
+   ],
+   "glossEn": "person easily persuaded, influenced or defeated",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "463dde3f-d528-58d8-b36c-8bdacc2d5c54",
+   "lemma": "doormat",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "doormat"
+   ],
+   "glossEn": "person who lets others treat them badly",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "3210078e-e7fa-5b9d-b120-4e73a5af76c1",
+   "lemma": "killjoy",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "killjoy"
+   ],
+   "glossEn": "person who spoils others' enjoyment",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "9328172d-c01c-5f7b-8531-1ad720b90809",
+   "lemma": "wince",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wince"
+   ],
+   "glossEn": "grimace involuntarily from pain or distress",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "7c3578c0-103a-5c89-beb1-a2961f0cf6cd",
+   "lemma": "cringe",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cringe"
+   ],
+   "glossEn": "shrink back in fear or feel embarrassed",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "01ef0e23-a65f-5033-9b56-70ff60aa1ed1",
+   "lemma": "flinch",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flinch"
+   ],
+   "glossEn": "make a quick nervous movement from fear",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "6fd00dff-b383-5310-a571-71228ba6ddef",
+   "lemma": "grimace",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "grimace"
+   ],
+   "glossEn": "twist the face in pain or disgust",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "cf9b7417-7400-5ce6-a926-1e6d574715ec",
+   "lemma": "scowl",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scowl"
+   ],
+   "glossEn": "frown in an angry, bad-tempered way",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "a6cfbe3a-8e20-5e38-893c-8cfdb679c6b1",
+   "lemma": "smirk",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "smirk"
+   ],
+   "glossEn": "smile in a smug or silly way",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "d9462064-9061-5fd4-9778-e274a291cc54",
+   "lemma": "pout",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pout"
+   ],
+   "glossEn": "push out the lips in sulky annoyance",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "8787f458-ae43-55a4-80f5-58ff0f52a46a",
+   "lemma": "slouch",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "slouch"
+   ],
+   "glossEn": "stand, sit or move in a lazy, drooping way",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "a5410671-9b2c-55a2-aacd-922a6754fb4b",
+   "lemma": "strut",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "strut"
+   ],
+   "glossEn": "walk stiffly and arrogantly",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "d77b217c-9270-5203-bbde-9b7b8f544e46",
+   "lemma": "swagger",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "swagger"
+   ],
+   "glossEn": "walk or behave in a very confident, arrogant way",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "96d15912-80d4-5d8d-97e9-467cbc535253",
+   "lemma": "squirm",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "squirm"
+   ],
+   "glossEn": "wriggle from discomfort or embarrassment",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "e68608e3-b99f-5718-a478-b71709728d8f",
+   "lemma": "cower",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cower"
+   ],
+   "glossEn": "crouch down in fear",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "2f64d948-7431-5a72-885d-47e126ddafce",
+   "lemma": "recoil",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "recoil"
+   ],
+   "glossEn": "suddenly draw back in fear or disgust",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "e5f98b56-9285-5ab5-902b-d0ed96079187",
+   "lemma": "dither",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dither"
+   ],
+   "glossEn": "be indecisive",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "b825e079-4a5e-5f0e-aad8-898b2d83496f",
+   "lemma": "scoff",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scoff"
+   ],
+   "glossEn": "speak scornfully about something",
+   "topics": [
+    "communication"
+   ],
+   "area": "emotions-character"
+  },
+  {
+   "id": "c082dd05-f880-5c4a-bc62-0dd63be151d8",
+   "lemma": "jeer",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jeer"
+   ],
+   "glossEn": "make rude, mocking remarks",
+   "topics": [
+    "communication"
+   ],
+   "area": "emotions-character"
+  },
+  {
+   "id": "706b5632-d161-52ae-a9d3-598d834cc901",
+   "lemma": "tirade",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tirade"
+   ],
+   "glossEn": "long, angry speech of criticism",
+   "topics": [
+    "communication"
+   ],
+   "area": "emotions-character"
+  },
+  {
+   "id": "8a6fb8f0-120b-5326-8b45-33ef29eaa486",
+   "lemma": "aura",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aura"
+   ],
+   "glossEn": "distinctive atmosphere that seems to surround someone",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "39d82cc9-a5c5-5987-9fa6-928f4be58a89",
+   "lemma": "stature",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stature"
+   ],
+   "glossEn": "importance and reputation, or natural height",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "9251a350-d750-5d55-871b-61bb99c43a8b",
+   "lemma": "haggard",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "haggard"
+   ],
+   "glossEn": "looking exhausted and unwell",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "89b057e4-8167-589f-82fd-25a4ddcd0f87",
+   "lemma": "disheveled",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disheveled",
+    "dishevelled"
+   ],
+   "glossEn": "untidy and disordered in appearance",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "5641864a-bde8-5f31-89f0-9b7fa5c5e031",
+   "lemma": "unkempt",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unkempt"
+   ],
+   "glossEn": "untidy, not cared for",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "335c0c3b-40a6-5cb7-b857-345c45caa71d",
+   "lemma": "lanky",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lanky"
+   ],
+   "glossEn": "ungracefully thin and tall",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "576c0200-e050-5554-9560-34ec4ad6ffde",
+   "lemma": "burly",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "burly"
+   ],
+   "glossEn": "large and strong, heavily built",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "cbd29dd6-0bd0-54c9-b2ab-9c788514f5ea",
+   "lemma": "nimble",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nimble"
+   ],
+   "glossEn": "quick and light in movement or thought",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "d8de2a80-3005-59e9-a437-1834e3b989ed",
+   "lemma": "poker-faced",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "poker-faced",
+    "poker faced"
+   ],
+   "glossEn": "showing no emotion in the face",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "a7fb5204-9b08-5910-84c1-eaae6df3b3c4",
+   "lemma": "tight-lipped",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tight-lipped",
+    "tight lipped"
+   ],
+   "glossEn": "unwilling to speak about something",
+   "topics": [
+    "communication"
+   ],
+   "area": "emotions-character"
+  },
+  {
+   "id": "a4f6dee2-c847-5ee9-b11d-2430db772977",
+   "lemma": "thick-skinned",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "thick-skinned",
+    "thick skinned"
+   ],
+   "glossEn": "not easily offended by criticism",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "b8b80a95-db04-5440-9b61-c3298eff4b23",
+   "lemma": "thin-skinned",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "thin-skinned",
+    "thin skinned"
+   ],
+   "glossEn": "easily offended by criticism",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "6e47817f-17e7-59a2-869d-c03c88160bad",
+   "lemma": "hard-nosed",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hard-nosed",
+    "hard nosed"
+   ],
+   "glossEn": "realistic, tough and uncompromising",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "358d0043-d23d-5f70-9bac-3ce1edb4eccc",
+   "lemma": "soft-spoken",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "soft-spoken",
+    "soft spoken"
+   ],
+   "glossEn": "having a gentle, quiet voice",
+   "topics": [
+    "communication"
+   ],
+   "area": "emotions-character"
+  },
+  {
+   "id": "b9a25420-be32-5265-9523-68f5a9f3c9d9",
+   "lemma": "mild-mannered",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mild-mannered",
+    "mild mannered"
+   ],
+   "glossEn": "gentle and not aggressive in manner",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "71760411-11aa-52d8-bd87-492a1eb1de25",
+   "lemma": "happy-go-lucky",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "happy-go-lucky",
+    "happy go lucky"
+   ],
+   "glossEn": "cheerfully unconcerned about the future",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "c56d79c7-34f0-5ede-8e4e-6d7cfc6ccf93",
+   "lemma": "larger-than-life",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "larger-than-life",
+    "larger than life"
+   ],
+   "glossEn": "very flamboyant and attracting attention",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "1c08cf5a-c758-5d28-b3b7-81354e5651f0",
+   "lemma": "tight-fisted",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tight-fisted",
+    "tightfisted"
+   ],
+   "glossEn": "unwilling to spend money, stingy",
+   "topics": [],
+   "area": "emotions-character"
+  }
+ ]
+}

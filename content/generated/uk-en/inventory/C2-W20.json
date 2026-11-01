@@ -1,0 +1,544 @@
+{
+ "chunk": "C2-W20",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "d71f6ad1-f794-5e0e-9181-8adfbef71ce9",
+   "lemma": "acquiesce",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "acquiesce"
+   ],
+   "glossEn": "accept reluctantly without protest",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "7ca04515-f11a-5408-bf81-ea688cacd6a0",
+   "lemma": "beguile",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "beguile"
+   ],
+   "glossEn": "charm or enchant, sometimes deceptively",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "dacfa07e-d4ad-5f76-9a83-928a091f88a8",
+   "lemma": "dupe",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dupe"
+   ],
+   "glossEn": "deceive or trick someone",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "86587307-d831-50c3-b7f1-eafb5606e7af",
+   "lemma": "hoodwink",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hoodwink"
+   ],
+   "glossEn": "deceive or trick",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "0631be07-ebd5-5437-bd80-80548881e593",
+   "lemma": "fawn",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fawn"
+   ],
+   "glossEn": "flatter and show exaggerated affection to gain favor",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "ca376fc7-b4ce-534a-ac0e-053457071b02",
+   "lemma": "coddle",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "coddle"
+   ],
+   "glossEn": "treat in an indulgent, overprotective way",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "90fad633-eeb0-521d-825b-8dec8014b52e",
+   "lemma": "forsake",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "forsake"
+   ],
+   "glossEn": "abandon or leave someone",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "dc2987ad-03ee-512e-b0e8-e6d77c0fbed4",
+   "lemma": "chastise",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chastise"
+   ],
+   "glossEn": "rebuke or reprimand severely",
+   "topics": [
+    "communication"
+   ],
+   "area": "emotions-character"
+  },
+  {
+   "id": "a22074cf-86d1-5bd1-b376-01ea684a1803",
+   "lemma": "snipe",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "snipe"
+   ],
+   "glossEn": "make a sly critical attack",
+   "topics": [
+    "communication"
+   ],
+   "area": "emotions-character"
+  },
+  {
+   "id": "686878f7-a8dd-5a19-993c-997b1533c27d",
+   "lemma": "chaperone",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chaperone",
+    "chaperon"
+   ],
+   "glossEn": "adult who accompanies young people for propriety",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "57169222-c62d-5cff-b47f-ca6a7c9528dc",
+   "lemma": "suitor",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "suitor"
+   ],
+   "glossEn": "person who seeks a romantic relationship with someone",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "769a9672-6836-5402-88dc-fd268871da6f",
+   "lemma": "codependent",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "codependent",
+    "co-dependent"
+   ],
+   "glossEn": "excessively emotionally reliant on a partner",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "73f4ab8f-025d-564d-80a3-d8b1d6751113",
+   "lemma": "grandstand",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "grandstand"
+   ],
+   "glossEn": "behave showily to impress onlookers",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "621040d1-47d3-5731-ae1c-9115942fce09",
+   "lemma": "pander",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pander"
+   ],
+   "glossEn": "gratify someone's unworthy desires or weaknesses",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "a65a92dc-02f9-5c4b-bf05-121450ac2ea2",
+   "lemma": "kowtow",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "kowtow"
+   ],
+   "glossEn": "act in an excessively subservient manner",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "233a2895-adba-5964-a95e-544c07c58e21",
+   "lemma": "toady",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "toady"
+   ],
+   "glossEn": "person who flatters others to gain favor",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "3e2b82fa-5b27-519a-ba31-ea284df1eb45",
+   "lemma": "conciliate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "conciliate"
+   ],
+   "glossEn": "stop someone being angry, placate",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "708f2274-1825-5875-8d4e-c1a61324cb1e",
+   "lemma": "intercede",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "intercede"
+   ],
+   "glossEn": "intervene on behalf of another",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "24473316-e98f-5c9a-bbc4-e7d076e1b1f9",
+   "lemma": "absolve",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "absolve"
+   ],
+   "glossEn": "declare free from guilt or blame",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "6b0fcec2-a101-5307-941a-3f281187aaf9",
+   "lemma": "unrepentant",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unrepentant"
+   ],
+   "glossEn": "showing no regret for one's wrongdoing",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "34a1b678-e945-5713-b75c-c1f9d33db367",
+   "lemma": "furtively",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "furtively"
+   ],
+   "glossEn": "secretly and quietly, as if guilty",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "9b496ffb-b097-5ff0-88f2-67dca5a94d9b",
+   "lemma": "surreptitiously",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "surreptitiously"
+   ],
+   "glossEn": "in a secretive, stealthy way",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "1b39635f-30b3-5f4b-9e13-2263f9ca7fe6",
+   "lemma": "pointedly",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pointedly"
+   ],
+   "glossEn": "in a way that clearly expresses criticism or meaning",
+   "topics": [
+    "communication"
+   ],
+   "area": "emotions-character"
+  },
+  {
+   "id": "a2ee3b54-a591-5464-bd38-2002db37ae92",
+   "lemma": "unabashedly",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unabashedly"
+   ],
+   "glossEn": "without embarrassment or shame",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "bb896305-f1ef-56ef-9ad0-6c9c17ee9d18",
+   "lemma": "abjectly",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "abjectly"
+   ],
+   "glossEn": "in a hopeless, humiliated or submissive way",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "35290850-f35d-5f5a-adcf-7691bc966b30",
+   "lemma": "unreservedly",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unreservedly"
+   ],
+   "glossEn": "completely and without any doubts",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "76f9ef9d-67d2-5e09-994f-6d5f668e73a7",
+   "lemma": "dapper",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dapper"
+   ],
+   "glossEn": "neat and trim in dress and appearance",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "a925a54b-0a37-5662-9164-66899efe1b47",
+   "lemma": "sprightly",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sprightly"
+   ],
+   "glossEn": "lively and energetic, especially when old",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "db8f53aa-49d1-58a3-98fe-67b52e496301",
+   "lemma": "ashen",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ashen"
+   ],
+   "glossEn": "very pale from shock, fear or illness",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "c2124ee2-0e0b-58d5-ba0a-5d7c9e3f88f2",
+   "lemma": "bedraggled",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bedraggled"
+   ],
+   "glossEn": "dirty, wet and untidy",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "612aeea0-625f-5309-ab11-311e1f86fc72",
+   "lemma": "gait",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gait"
+   ],
+   "glossEn": "person's manner of walking",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "67c38584-e93a-5aac-964f-cb8b6114cb61",
+   "lemma": "prattle",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prattle"
+   ],
+   "glossEn": "talk at length in a foolish, childish way",
+   "topics": [
+    "communication"
+   ],
+   "area": "emotions-character"
+  },
+  {
+   "id": "4a658382-0a01-59c1-8dfb-668542bc72bd",
+   "lemma": "quaver",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quaver"
+   ],
+   "glossEn": "of a voice: tremble with emotion",
+   "topics": [
+    "communication"
+   ],
+   "area": "emotions-character"
+  },
+  {
+   "id": "05e92aaa-610e-5696-80ce-e65384bb0336",
+   "lemma": "pontificate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pontificate"
+   ],
+   "glossEn": "express opinions in a pompous, dogmatic way",
+   "topics": [
+    "communication"
+   ],
+   "area": "emotions-character"
+  },
+  {
+   "id": "2b59cd36-c87e-5682-8c47-ed91dfee9c09",
+   "lemma": "harangue",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "harangue"
+   ],
+   "glossEn": "lecture someone at length in an aggressive manner",
+   "topics": [
+    "communication"
+   ],
+   "area": "emotions-character"
+  },
+  {
+   "id": "166ec7a7-1d74-56c5-bb9b-dc4dca7f7632",
+   "lemma": "bawl",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bawl"
+   ],
+   "glossEn": "cry or shout noisily",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "77168ed7-c889-5092-b672-79c06606c7d2",
+   "lemma": "snivel",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "snivel"
+   ],
+   "glossEn": "cry and sniffle in a self-pitying way",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "81f1487b-7edf-557c-bffd-a40ec991968c",
+   "lemma": "gawk",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gawk"
+   ],
+   "glossEn": "stare openly and stupidly",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "9c86a049-194f-5300-8073-b15ff6650ace",
+   "lemma": "bluster",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bluster"
+   ],
+   "glossEn": "talk loudly and aggressively with little effect",
+   "topics": [
+    "communication"
+   ],
+   "area": "emotions-character"
+  },
+  {
+   "id": "88caffcd-b9cf-53f7-bac2-45bb40c72b0d",
+   "lemma": "preen",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "preen"
+   ],
+   "glossEn": "congratulate oneself, fuss over one's appearance",
+   "topics": [],
+   "area": "emotions-character"
+  }
+ ]
+}

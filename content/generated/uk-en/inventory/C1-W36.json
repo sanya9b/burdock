@@ -1,0 +1,614 @@
+{
+ "chunk": "C1-W36",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "dd1ac1ee-ddfa-5f92-93cf-1533fe468803",
+   "lemma": "unresponsive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unresponsive"
+   ],
+   "glossEn": "not reacting to voice or touch",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "f786afc6-c365-5b91-80dc-abfe54b0a0a9",
+   "lemma": "intubate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "intubate",
+    "intubates",
+    "intubated",
+    "intubating"
+   ],
+   "glossEn": "insert a breathing tube into the windpipe",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "9aa7ddd5-2576-5321-b3f4-ef062800a33a",
+   "lemma": "stump",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stump",
+    "stumps"
+   ],
+   "glossEn": "remaining part of a limb after amputation",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "b514a27d-a70f-5d6a-85bb-2566243b0798",
+   "lemma": "nerve agent",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nerve agent",
+    "nerve agents"
+   ],
+   "glossEn": "chemical weapon that attacks the nervous system",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "b9d9f160-a839-566c-ad59-d1f16723f7c3",
+   "lemma": "asphyxiation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "asphyxiation"
+   ],
+   "glossEn": "death or harm from lack of oxygen",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "263b2809-7425-5d19-82ee-0a2fbb82f521",
+   "lemma": "pulse oximeter",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pulse oximeter",
+    "pulse oximeters",
+    "oximeter"
+   ],
+   "glossEn": "finger clip that measures oxygen in the blood",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "c570875d-0b25-5370-9188-890c43e1b57a",
+   "lemma": "razor wire",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "razor wire"
+   ],
+   "glossEn": "coiled wire with sharp blades used as a barrier",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "9f4aa661-feb0-5912-b35c-e91ecae2a793",
+   "lemma": "entrenching tool",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "entrenching tool",
+    "entrenching tools",
+    "e-tool"
+   ],
+   "glossEn": "small folding shovel carried by soldiers",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "17564d0f-1d3e-5e5b-a118-86f934da5549",
+   "lemma": "general staff",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "general staff"
+   ],
+   "glossEn": "senior officers who plan military operations",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "f88f185a-432e-5799-891f-309db66ece42",
+   "lemma": "vetting",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vetting"
+   ],
+   "glossEn": "careful background check before granting access",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "d6f2df2c-9d24-5892-b6c7-b2fc15b032ec",
+   "lemma": "AWOL",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "AWOL"
+   ],
+   "glossEn": "absent from duty without permission",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "d8097c67-a744-517d-8dd3-2822fc97c862",
+   "lemma": "extricate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "extricate",
+    "extricates",
+    "extricated",
+    "extricating"
+   ],
+   "glossEn": "free someone trapped in wreckage or rubble",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "855d7cb0-0154-5325-a3d8-301c756efc50",
+   "lemma": "off-limits",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "off-limits",
+    "off limits"
+   ],
+   "glossEn": "forbidden to enter",
+   "topics": [
+    "military",
+    "city"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "f94033db-5623-5cf2-8890-ba7420bde18b",
+   "lemma": "sitrep",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sitrep",
+    "sitreps",
+    "situation report"
+   ],
+   "glossEn": "short report on the current situation",
+   "topics": [
+    "military",
+    "communication"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "094d46e3-1dd4-52ad-84d4-50002a76a547",
+   "lemma": "marksmanship",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "marksmanship"
+   ],
+   "glossEn": "skill in shooting accurately",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "d2e8cc96-d5b4-55e3-b350-383ff6a63ebd",
+   "lemma": "safety catch",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "safety catch",
+    "safety catches"
+   ],
+   "glossEn": "switch that stops a weapon from firing by accident",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "44e6dd20-e77e-509f-b2c0-0df829758184",
+   "lemma": "blast radius",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blast radius"
+   ],
+   "glossEn": "distance from an explosion within which it causes harm",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "b3bd84a7-a5e2-5fc0-b45a-6341eae57ec1",
+   "lemma": "golden hour",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "golden hour"
+   ],
+   "glossEn": "first hour after injury when treatment saves most lives",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "60cf2d69-e26a-5945-b266-1c29bde11030",
+   "lemma": "impassable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "impassable"
+   ],
+   "glossEn": "impossible to travel along or across",
+   "topics": [
+    "military",
+    "travel"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "19d2b189-68d1-5fe5-9730-d6c2e32cf198",
+   "lemma": "nonlethal",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nonlethal",
+    "non-lethal"
+   ],
+   "glossEn": "designed not to kill",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "2bc3d7c8-6947-5d44-8084-deb4e150566a",
+   "lemma": "able-bodied",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "able-bodied"
+   ],
+   "glossEn": "physically fit and able to serve",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "edd6fbe9-067d-5b54-a276-013ca79303a3",
+   "lemma": "redeploy",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "redeploy",
+    "redeploys",
+    "redeployed",
+    "redeploying"
+   ],
+   "glossEn": "move troops to a new position or task",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "44cb3d0c-c63d-5f60-ba48-2cd6f17497be",
+   "lemma": "exclusion zone",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "exclusion zone",
+    "exclusion zones"
+   ],
+   "glossEn": "area that people are forbidden to enter",
+   "topics": [
+    "military",
+    "city"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "c90786fb-4f7f-5df9-8dcf-cef31413f333",
+   "lemma": "intrinsic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "intrinsic"
+   ],
+   "glossEn": "belonging naturally to something; essential",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "4101cc0e-96ce-59c6-9cdf-b3bca4136c3b",
+   "lemma": "inherent",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inherent"
+   ],
+   "glossEn": "existing as a permanent basic part of something",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "2f0ceeac-6769-5df0-b06d-7ce381eb7946",
+   "lemma": "exhaustive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "exhaustive"
+   ],
+   "glossEn": "covering every possibility; very thorough",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "692b1e2a-4b3e-5208-bd70-af4e95f593a1",
+   "lemma": "interpolate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "interpolate"
+   ],
+   "glossEn": "estimate a value between known data points",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "1684e379-78f4-5888-9186-eb7e663843cc",
+   "lemma": "anomalous",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "anomalous"
+   ],
+   "glossEn": "different from what is normal or expected",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "cf2b7d09-3942-55b2-b284-a855d8fde0de",
+   "lemma": "baseline",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "baseline",
+    "base line"
+   ],
+   "glossEn": "starting measurement used for later comparison",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "02b96ac2-0bc4-5b1b-afc4-0d4ba4247fb9",
+   "lemma": "skew",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "skew"
+   ],
+   "glossEn": "distort data away from the true picture",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "cd51025b-6b98-5c3d-a480-8b2d607efa98",
+   "lemma": "empirically",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "empirically"
+   ],
+   "glossEn": "by observation and experiment rather than theory",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "ef9d9b99-a6b8-5e99-805b-a1af0700b2d4",
+   "lemma": "theorem",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "theorem"
+   ],
+   "glossEn": "statement that can be proved by reasoning",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "b8c2ea6f-7323-5649-8dd0-90e004ba6f3d",
+   "lemma": "apparatus",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "apparatus"
+   ],
+   "glossEn": "equipment used for a scientific task",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "e86e2213-beb6-5d94-b345-7dd7004d5152",
+   "lemma": "variance",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "variance"
+   ],
+   "glossEn": "how widely values are spread around the average",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "9497431e-901c-5d92-97a2-227365d1be7f",
+   "lemma": "deviation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deviation"
+   ],
+   "glossEn": "difference from the normal or expected value",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "75aec054-adb2-5b1c-9ca4-5eac4dbdb802",
+   "lemma": "trade-off",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "trade-off",
+    "tradeoff",
+    "trade off"
+   ],
+   "glossEn": "balance where gaining one thing costs another",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "bc8b531d-cfbc-5b1c-8971-0038a1f6d3f1",
+   "lemma": "aggregate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aggregate"
+   ],
+   "glossEn": "combine many separate items into a total",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "6de3d5c9-aad1-52f8-a810-961847e8c70b",
+   "lemma": "coefficient",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "coefficient"
+   ],
+   "glossEn": "number that multiplies a variable in a formula",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "9ce2b3e1-76f2-50f7-98bf-76aba220c130",
+   "lemma": "percentile",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "percentile"
+   ],
+   "glossEn": "value below which a given percentage falls",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "7931b164-17d3-5d5b-addd-31c17c100802",
+   "lemma": "cross-check",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cross-check",
+    "crosscheck",
+    "cross check"
+   ],
+   "glossEn": "verify by comparing with a second source",
+   "topics": [],
+   "area": "science-nature"
+  }
+ ]
+}

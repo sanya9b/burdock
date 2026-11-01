@@ -1,0 +1,645 @@
+{
+ "chunk": "B1-W06",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "003e1dc7-526c-55c2-a19f-1ec259975f6a",
+   "lemma": "corkscrew",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "corkscrew",
+    "corkscrews"
+   ],
+   "glossEn": "tool for pulling corks from bottles",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "8260bd72-f9f5-5572-b058-b01ddc91bb01",
+   "lemma": "skewer",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "skewer",
+    "skewers"
+   ],
+   "glossEn": "thin stick for holding meat while grilling",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "86e5e34f-3bcb-5cec-a968-d3f44ca3492e",
+   "lemma": "lunchbox",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lunchbox",
+    "lunchboxes",
+    "lunch box"
+   ],
+   "glossEn": "container for carrying a packed meal",
+   "topics": [
+    "food",
+    "work"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "fb40e18b-47a3-54b5-a2fb-fa12c9b7eee7",
+   "lemma": "thermos",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "thermos",
+    "thermoses",
+    "flask"
+   ],
+   "glossEn": "insulated flask keeping drinks hot or cold",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "b6283029-c8bb-5fb6-9eb2-5b1892b42f00",
+   "lemma": "platter",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "platter",
+    "platters"
+   ],
+   "glossEn": "large plate for serving shared food",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "29d04101-efeb-59ff-8f6a-3cf8e38dce85",
+   "lemma": "chopsticks",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chopsticks",
+    "chopstick"
+   ],
+   "glossEn": "pair of thin sticks for eating Asian food",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "6c257fb1-35d7-521e-910b-c2eb0156ced7",
+   "lemma": "cutlery",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cutlery",
+    "silverware",
+    "flatware"
+   ],
+   "glossEn": "knives, forks and spoons for eating",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "84769410-3158-5f2f-8c0d-3c78e88e5888",
+   "lemma": "cookware",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cookware"
+   ],
+   "glossEn": "pots and pans used for cooking",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "1a87dcf4-8107-5cf5-a306-e91e619e1f8a",
+   "lemma": "sourdough",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sourdough"
+   ],
+   "glossEn": "bread made with a fermented starter",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "16769d79-5e1c-5249-8b58-ecbf131b145d",
+   "lemma": "baguette",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "baguette",
+    "baguettes"
+   ],
+   "glossEn": "long thin French loaf",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "2b94dc04-be27-5c53-8efd-266788cc899c",
+   "lemma": "rye",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rye"
+   ],
+   "glossEn": "dark grain used for bread",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "13300174-2bcc-5a41-a671-29e6b76bdd8f",
+   "lemma": "granola",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "granola"
+   ],
+   "glossEn": "baked oats and nuts eaten for breakfast",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "cc77ea52-6fe1-54a3-beb4-7b9180854574",
+   "lemma": "muesli",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "muesli"
+   ],
+   "glossEn": "uncooked mix of oats, nuts and dried fruit",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "49a213b0-300b-534b-954b-b66cce7bb9d2",
+   "lemma": "quinoa",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quinoa"
+   ],
+   "glossEn": "small protein-rich grain-like seed",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "8b6c6c61-d798-57a4-a8e5-3ccc26a45c9f",
+   "lemma": "couscous",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "couscous"
+   ],
+   "glossEn": "tiny grains of steamed wheat",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "fc9bda76-3c82-5903-b24d-7d91b8c83d3f",
+   "lemma": "buckwheat",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "buckwheat"
+   ],
+   "glossEn": "dark triangular grain cooked as a side",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "eee4e02c-f2c6-5134-8ceb-14f288dac242",
+   "lemma": "tofu",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tofu"
+   ],
+   "glossEn": "soft white food made from soybeans",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "170317e8-2f19-5fda-a74e-b7ad9cdf328e",
+   "lemma": "hummus",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hummus",
+    "houmous"
+   ],
+   "glossEn": "thick dip of mashed chickpeas",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "cc2434fc-62b0-5f1e-b9e7-d008c8356e45",
+   "lemma": "falafel",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "falafel",
+    "falafels"
+   ],
+   "glossEn": "fried balls of spiced ground chickpeas",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "6ec34d85-149f-5f34-af7a-f17c4da14c92",
+   "lemma": "pita",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pita",
+    "pitta",
+    "pitas"
+   ],
+   "glossEn": "flat round bread with a pocket",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "19555602-f03c-574b-8e5b-9f98d5122904",
+   "lemma": "tortilla",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tortilla",
+    "tortillas"
+   ],
+   "glossEn": "thin round Mexican flatbread",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "babb898c-9e7f-5e36-a104-d8e32fd9b10d",
+   "lemma": "guacamole",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "guacamole"
+   ],
+   "glossEn": "dip of mashed avocado",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "d8485059-f935-5845-84c3-4242d573518d",
+   "lemma": "pesto",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pesto"
+   ],
+   "glossEn": "green sauce of basil, nuts and cheese",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "2476f352-4627-5f26-9bdb-2451ece79fac",
+   "lemma": "soy",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "soy",
+    "soya"
+   ],
+   "glossEn": "bean used for sauce, milk and tofu",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "d5e96e81-889a-5213-a787-cecac6381d1e",
+   "lemma": "sauerkraut",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sauerkraut"
+   ],
+   "glossEn": "finely cut fermented cabbage",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "c36e0f53-0391-527f-b0c9-bcebe013bef3",
+   "lemma": "marmalade",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "marmalade"
+   ],
+   "glossEn": "jam made from oranges or other citrus",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "cdca9c54-09b0-56ff-8425-24f73ac65e6e",
+   "lemma": "mousse",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mousse",
+    "mousses"
+   ],
+   "glossEn": "light airy dessert of whipped cream",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "2596f5c8-fa5b-532e-8c2f-bd84f508b11b",
+   "lemma": "sorbet",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sorbet",
+    "sorbets"
+   ],
+   "glossEn": "frozen dessert of fruit juice and sugar",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "d3fa2f91-bf29-5e62-8853-bc83403f72b2",
+   "lemma": "custard",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "custard"
+   ],
+   "glossEn": "sweet sauce of milk, eggs and sugar",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "dfc9147a-2b9d-56b2-893f-44c49854a3a3",
+   "lemma": "meringue",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "meringue",
+    "meringues"
+   ],
+   "glossEn": "crisp sweet baked from egg whites",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "f06fec0b-1eac-5e8f-ad36-a1e8ef13fff5",
+   "lemma": "tart",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tart",
+    "tarts"
+   ],
+   "glossEn": "open pastry case with a sweet filling",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "c7af1381-ce61-55ca-9653-70c5ac2edc7b",
+   "lemma": "brownie",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brownie",
+    "brownies"
+   ],
+   "glossEn": "dense square of chocolate cake",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "71ca6972-4d0e-5c66-9abb-7bc79c3dc311",
+   "lemma": "fudge",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fudge"
+   ],
+   "glossEn": "soft rich sweet of sugar, butter and milk",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "2c0b8ae2-ea7b-5a17-b7e2-093ac531b4cf",
+   "lemma": "caramel",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "caramel",
+    "caramels"
+   ],
+   "glossEn": "burnt sugar used as a sweet flavor",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "e16e46bb-2f70-5e72-b911-40a802d30423",
+   "lemma": "toffee",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "toffee",
+    "toffees"
+   ],
+   "glossEn": "hard chewy sweet of boiled sugar and butter",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "7d75da36-f361-5424-8ffb-fad13062bd64",
+   "lemma": "cheesecake",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cheesecake",
+    "cheesecakes"
+   ],
+   "glossEn": "rich cake made with soft cheese",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "6917bbec-d314-5598-b4f9-61006f774672",
+   "lemma": "scone",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scone",
+    "scones"
+   ],
+   "glossEn": "small plain cake eaten with jam and cream",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "9e6a19d5-604f-50c2-96d6-4c1164ef3836",
+   "lemma": "crepe",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "crepe",
+    "crêpe",
+    "crepes"
+   ],
+   "glossEn": "very thin French pancake",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "a66d35f2-a7d9-59e8-9ddc-4b5d2d4fafe1",
+   "lemma": "batter",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "batter",
+    "batters"
+   ],
+   "glossEn": "liquid mix of flour, eggs and milk",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "dafb0248-a868-5667-bf8b-4769d5be85ad",
+   "lemma": "breadcrumbs",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "breadcrumbs",
+    "breadcrumb"
+   ],
+   "glossEn": "tiny dried bread pieces for coating food",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  }
+ ]
+}

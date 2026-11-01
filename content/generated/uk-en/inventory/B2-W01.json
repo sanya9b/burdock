@@ -1,0 +1,684 @@
+{
+ "chunk": "B2-W01",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "f5a4904f-1390-5407-84f2-dc59de640f14",
+   "lemma": "councilor",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "councilor",
+    "councilors",
+    "councillor",
+    "councillors"
+   ],
+   "glossEn": "elected member of a city council",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "983c0031-ceba-5538-82f1-45797ee42142",
+   "lemma": "civic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "civic"
+   ],
+   "glossEn": "relating to a city and its citizens",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "f6e417ab-f963-52b9-8a87-084ef4197e05",
+   "lemma": "precinct",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "precinct",
+    "precincts"
+   ],
+   "glossEn": "district served by one police station",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "122e6feb-40f8-5e28-bd0f-73017878248b",
+   "lemma": "sprawl",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sprawl",
+    "urban sprawl"
+   ],
+   "glossEn": "spread of a city over surrounding land",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "dd1a0613-1dce-543b-bc38-f9977f3daefb",
+   "lemma": "density",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "density",
+    "densities",
+    "population density"
+   ],
+   "glossEn": "number of people living per unit of area",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "f5fa6d04-de08-5e35-a11f-8f91de4ce858",
+   "lemma": "suburban",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "suburban"
+   ],
+   "glossEn": "relating to the suburbs of a city",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "22135e42-c385-5518-9347-acafc8a46138",
+   "lemma": "uptown",
+   "pos": "adverb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "uptown"
+   ],
+   "glossEn": "toward the residential part away from the center",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "4a1e9e9e-a6e1-508c-b7e9-de53d2e1880d",
+   "lemma": "inner-city",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inner-city",
+    "inner city"
+   ],
+   "glossEn": "in the central, often poorer, part of a city",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "e0ef9cec-da6a-5228-9398-7b9b1194d65a",
+   "lemma": "regeneration",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "regeneration",
+    "urban regeneration",
+    "urban renewal"
+   ],
+   "glossEn": "renewal of a run-down city area",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "c186484c-5433-5848-bce9-1556993c911e",
+   "lemma": "demolition",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "demolition",
+    "demolitions"
+   ],
+   "glossEn": "deliberate destruction of a building",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "b10c5d11-c6a9-5627-bbd8-f5cd5c345fda",
+   "lemma": "excavation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "excavation",
+    "excavations"
+   ],
+   "glossEn": "digging a large hole for building foundations",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "a3c5f736-ab24-5431-ae06-9394522b4183",
+   "lemma": "surveyor",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "surveyor",
+    "surveyors"
+   ],
+   "glossEn": "person who measures land or inspects buildings",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "7a6249fb-c568-5ba4-a9e1-ccd2a318333a",
+   "lemma": "building code",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "building code",
+    "building codes",
+    "building regulations"
+   ],
+   "glossEn": "set of rules for safe construction",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "a11ad6e7-8df9-5cfe-848c-8648ee7a9ab0",
+   "lemma": "violation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "violation",
+    "violations"
+   ],
+   "glossEn": "breaking of a parking or building rule",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "a88f5992-139a-5de8-a271-0e850390e0e9",
+   "lemma": "ordinance",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ordinance",
+    "ordinances",
+    "bylaw",
+    "by-law"
+   ],
+   "glossEn": "law made by a city government",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "c3434e8a-2000-5897-925e-7ff5d37999cb",
+   "lemma": "subsidized",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subsidized",
+    "subsidised"
+   ],
+   "glossEn": "partly paid for by the government",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "36d7aee1-4ba7-584b-a4a8-3af0814a4fcf",
+   "lemma": "public housing",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "public housing",
+    "social housing",
+    "council housing"
+   ],
+   "glossEn": "government-owned homes rented out cheaply",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "704ef5e9-5914-559c-9536-727075b9f432",
+   "lemma": "homelessness",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "homelessness"
+   ],
+   "glossEn": "state of having nowhere to live",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "b773377e-739f-54cb-b916-0e6cf49f5049",
+   "lemma": "squatter",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "squatter",
+    "squatters"
+   ],
+   "glossEn": "person living in an empty building without permission",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "7baadd59-53c3-5848-bf63-9253bb7c9041",
+   "lemma": "occupancy",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "occupancy"
+   ],
+   "glossEn": "number of people allowed or living in a building",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "f812c296-5b32-57b8-864c-f5df0c561e23",
+   "lemma": "wheelchair-accessible",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wheelchair-accessible",
+    "wheelchair accessible",
+    "step-free"
+   ],
+   "glossEn": "usable by someone in a wheelchair",
+   "topics": [
+    "city",
+    "health"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "77b56ecf-723d-5f0d-b6c3-6ea959a87b95",
+   "lemma": "walkability",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "walkability",
+    "walkable"
+   ],
+   "glossEn": "how easy it is to walk to daily destinations",
+   "topics": [
+    "city",
+    "health"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "963b66dc-8347-5416-bee2-67b3d583c030",
+   "lemma": "ridership",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ridership"
+   ],
+   "glossEn": "number of passengers using a transport service",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "985b89e7-9b33-5359-b379-4f29e18b5fa9",
+   "lemma": "ride-hailing",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ride-hailing",
+    "ride hailing",
+    "ridesharing",
+    "ride-sharing"
+   ],
+   "glossEn": "ordering a car and driver through an app",
+   "topics": [
+    "city",
+    "it"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "ceb97e81-f750-598c-84cf-5c04f4a477ce",
+   "lemma": "contactless",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "contactless"
+   ],
+   "glossEn": "paid by tapping a card without inserting it",
+   "topics": [
+    "city",
+    "shopping"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "44d73daa-4e19-535d-8da7-9ba93e34d9ae",
+   "lemma": "clamp",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "clamp",
+    "clamps",
+    "clamped",
+    "boot"
+   ],
+   "glossEn": "lock a wheel so an illegally parked car cannot move",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "21723109-5876-5fd7-9e26-074225e96806",
+   "lemma": "impound",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "impound",
+    "impounds",
+    "impounded",
+    "impounding"
+   ],
+   "glossEn": "take a vehicle away legally until a fine is paid",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "1f55f73b-2d48-5b3b-9c3e-0002a8ae8425",
+   "lemma": "tailgate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tailgate",
+    "tailgates",
+    "tailgated",
+    "tailgating"
+   ],
+   "glossEn": "drive dangerously close behind another vehicle",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "c459f318-6215-555f-8e57-e03196a9e818",
+   "lemma": "swerve",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "swerve",
+    "swerves",
+    "swerved",
+    "swerving"
+   ],
+   "glossEn": "turn a vehicle suddenly to avoid something",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "5ad3b44f-3bf9-5aa1-8a69-8d649eb94d24",
+   "lemma": "skid",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "skid",
+    "skids",
+    "skidded",
+    "skidding"
+   ],
+   "glossEn": "slide out of control on a slippery road",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "bdf9939d-7c7c-5d96-b56b-d0a083cf80e3",
+   "lemma": "collision",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "collision",
+    "collisions"
+   ],
+   "glossEn": "crash between two vehicles",
+   "topics": [
+    "city",
+    "health"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "b9b19f45-07fb-5673-a46a-68e1f27425ba",
+   "lemma": "pile-up",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pile-up",
+    "pile-ups",
+    "pileup"
+   ],
+   "glossEn": "road crash involving many vehicles",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "4856f77e-4979-52f7-8cec-06c423deb2c6",
+   "lemma": "fatality",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fatality",
+    "fatalities"
+   ],
+   "glossEn": "death caused by a road accident",
+   "topics": [
+    "city",
+    "health"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "4acbc88f-beb0-5f7b-897a-94fe9159b70b",
+   "lemma": "guardrail",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "guardrail",
+    "guardrails",
+    "crash barrier",
+    "railing"
+   ],
+   "glossEn": "metal barrier along the edge of a road",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "4db8d04f-6c50-5b90-bc3c-7438bc947c62",
+   "lemma": "causeway",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "causeway",
+    "causeways"
+   ],
+   "glossEn": "raised road across water or wet land",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "1185f185-2198-5469-ab65-611723f8ddd4",
+   "lemma": "interchange",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "interchange",
+    "interchanges"
+   ],
+   "glossEn": "junction where highways connect by ramps",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "84967829-0023-5e5e-9300-d8d4ee6be7e0",
+   "lemma": "tramline",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tramline",
+    "tramlines",
+    "tram line",
+    "streetcar line"
+   ],
+   "glossEn": "rails on a street that trams run along",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "96d4f3ba-2ef9-5192-8a5f-07bb96943f86",
+   "lemma": "level crossing",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "level crossing",
+    "level crossings",
+    "railroad crossing",
+    "grade crossing"
+   ],
+   "glossEn": "place where a road crosses a railway line",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "32b97468-8a37-5d36-953e-4f8fd858a16f",
+   "lemma": "funicular",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "funicular",
+    "funiculars",
+    "cable car"
+   ],
+   "glossEn": "cable railway climbing a steep hill",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "0f8c143d-9d40-5460-bfd9-80c3e876369d",
+   "lemma": "monorail",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "monorail",
+    "monorails"
+   ],
+   "glossEn": "railway with trains running on a single rail",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  }
+ ]
+}

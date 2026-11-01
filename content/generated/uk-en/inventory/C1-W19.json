@@ -1,0 +1,559 @@
+{
+ "chunk": "C1-W19",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "34329fcd-b27e-5bdd-933c-bf7afc971405",
+   "lemma": "mass-produce",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mass-produce",
+    "mass produce"
+   ],
+   "glossEn": "make goods in large quantities by machine",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "e624857f-9dc6-5846-b9c2-84f38d083b08",
+   "lemma": "intermediary",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "intermediary"
+   ],
+   "glossEn": "person or firm acting between buyer and seller",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "daa1681b-4658-5936-ae3f-120feddcaa19",
+   "lemma": "markdown",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "markdown",
+    "mark-down"
+   ],
+   "glossEn": "reduction in a product's selling price",
+   "topics": [
+    "shopping"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "a82dbb5c-beab-5c7c-a781-71dd910da100",
+   "lemma": "cost-effective",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cost-effective",
+    "cost effective"
+   ],
+   "glossEn": "giving good value for the money spent",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "f2295f28-8449-5f5a-99e4-7cece1b3f15b",
+   "lemma": "cost-cutting",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cost-cutting",
+    "cost cutting"
+   ],
+   "glossEn": "reducing a company's expenses",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "ec73450d-1c86-5575-8fd8-023ad5a74975",
+   "lemma": "incubator",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incubator"
+   ],
+   "glossEn": "organization that helps new companies develop",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "0ba4b32a-b0ac-52d5-a481-8b5ba4581573",
+   "lemma": "deliverable",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deliverable"
+   ],
+   "glossEn": "product or result that must be provided under a contract",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "561fe2bb-c6ab-5177-bee3-7e583c2b62e5",
+   "lemma": "subcontract",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subcontract",
+    "sub-contract"
+   ],
+   "glossEn": "hire another company to do part of one's contract",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "067999f5-6ca7-572c-b75c-4b448e43cdb9",
+   "lemma": "subcontractor",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subcontractor",
+    "sub-contractor"
+   ],
+   "glossEn": "firm hired to do part of another's contract",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "b2b84c14-117c-50d7-bda1-a3974cdbf4a3",
+   "lemma": "turnaround",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "turnaround",
+    "turn-around"
+   ],
+   "glossEn": "sudden improvement in a struggling business's fortunes",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "7abb3619-1744-533b-b5fa-80f550459968",
+   "lemma": "economies of scale",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "economies of scale",
+    "economy of scale"
+   ],
+   "glossEn": "cost savings from producing in larger quantities",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "47060a01-7831-50fe-aa60-8eb0f9c9a562",
+   "lemma": "headcount",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "headcount",
+    "head count"
+   ],
+   "glossEn": "number of people employed by an organization",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "dae99184-cbba-5c1c-b605-1554f3053e9c",
+   "lemma": "assembly line",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "assembly line"
+   ],
+   "glossEn": "sequence of workers and machines building a product",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "97595e08-6ac5-5f1c-bdaa-a461c49bf36d",
+   "lemma": "robotics",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "robotics"
+   ],
+   "glossEn": "science and technology of robots",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "5b2e977b-d958-5357-a149-2fde9fafdc7d",
+   "lemma": "calibrate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "calibrate"
+   ],
+   "glossEn": "adjust an instrument so it measures accurately",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "207a44b4-9f24-52f1-bf85-f7e53ae95def",
+   "lemma": "calibration",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "calibration"
+   ],
+   "glossEn": "adjustment of an instrument for accuracy",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "c373d801-69b3-523b-8458-8fa58266fe51",
+   "lemma": "blueprint",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blueprint"
+   ],
+   "glossEn": "detailed plan or technical design",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "349e96d6-0fde-5469-90b9-d5a6ab26d10e",
+   "lemma": "schematic",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "schematic"
+   ],
+   "glossEn": "diagram showing how a system's parts connect",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "27961d31-3932-5054-9bd6-c7c4fc554732",
+   "lemma": "durability",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "durability"
+   ],
+   "glossEn": "ability to withstand wear and last a long time",
+   "topics": [
+    "shopping"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "73bda42f-5995-5a34-8ffe-897d64ecd7ba",
+   "lemma": "load-bearing",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "load-bearing",
+    "load bearing"
+   ],
+   "glossEn": "supporting the weight of a structure",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "9218d201-85a9-5a95-be81-785783e79829",
+   "lemma": "corrosion",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "corrosion"
+   ],
+   "glossEn": "gradual destruction of metal by chemical action",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "b2e6c192-916c-5833-9837-3a5eab33a814",
+   "lemma": "corrode",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "corrode"
+   ],
+   "glossEn": "destroy metal slowly by chemical action",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "f566e408-4ce6-5c6a-a192-e03a1cdd0102",
+   "lemma": "alloy",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "alloy"
+   ],
+   "glossEn": "metal made by combining two or more metals",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "9bd4787e-2937-5d8d-adce-52df494f1bbf",
+   "lemma": "forge",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "forge"
+   ],
+   "glossEn": "shape metal by heating and hammering",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "1dd78e53-dbc2-5a1c-815e-6712e8971011",
+   "lemma": "weld",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "weld"
+   ],
+   "glossEn": "join metal pieces by heating them together",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "8b53f394-5c5c-5598-882c-1294c3e2fb00",
+   "lemma": "conveyor belt",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "conveyor belt",
+    "conveyor-belt"
+   ],
+   "glossEn": "moving band that carries goods through a factory",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "cab22d09-7961-5954-b403-b1159594b80a",
+   "lemma": "hydraulic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hydraulic"
+   ],
+   "glossEn": "operated by liquid under pressure",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "3f5c2ba9-7a60-582a-b177-7635196c8b81",
+   "lemma": "industrialization",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "industrialization",
+    "industrialisation"
+   ],
+   "glossEn": "development of industry on a large scale",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "cffa6e1c-ee0b-5b32-a128-52becd67c1e3",
+   "lemma": "heavy industry",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heavy industry"
+   ],
+   "glossEn": "production of large goods like steel and machinery",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "684e486c-3c17-514f-9e15-4e19e24869b1",
+   "lemma": "malfunction",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "malfunction"
+   ],
+   "glossEn": "failure of a machine to work correctly",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "a53a4583-1545-5616-8a72-7456a32788ca",
+   "lemma": "decommission",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "decommission"
+   ],
+   "glossEn": "take a plant, ship or weapon out of service",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "d0fb73d3-fb69-5c89-9481-0fbfc75a5f27",
+   "lemma": "lifespan",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lifespan",
+    "life span"
+   ],
+   "glossEn": "length of time something lasts or works",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "07fb14aa-6544-5a3a-af69-90d9392ca96d",
+   "lemma": "precision",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "precision"
+   ],
+   "glossEn": "quality of being exact and accurate",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "e171bc8a-5fcf-55bf-92b5-0d497a1e6b73",
+   "lemma": "valve",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "valve"
+   ],
+   "glossEn": "device controlling the flow of liquid or gas",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "0a2c8734-e1e2-587c-8d96-04e83a047188",
+   "lemma": "turbine",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "turbine"
+   ],
+   "glossEn": "machine with blades turned by water, steam or gas",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "12d111ec-c406-556c-bedb-702aaf6cebce",
+   "lemma": "lubricant",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lubricant"
+   ],
+   "glossEn": "substance that reduces friction between surfaces",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "9ce437be-6af7-5270-8dce-22f717e87471",
+   "lemma": "lubricate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lubricate"
+   ],
+   "glossEn": "apply oil or grease to reduce friction",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "075cbf8a-084f-53b9-a467-f73b4223cacc",
+   "lemma": "insulate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "insulate"
+   ],
+   "glossEn": "protect from heat loss or electrical contact",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "bcd03409-0178-5d23-8971-8a943fdab5b6",
+   "lemma": "combustion",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "combustion"
+   ],
+   "glossEn": "process of burning, especially in an engine",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "1430f203-3170-57d3-9bfb-a265db46a0ce",
+   "lemma": "propulsion",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "propulsion"
+   ],
+   "glossEn": "force that drives a vehicle forward",
+   "topics": [],
+   "area": "economy-technology"
+  }
+ ]
+}

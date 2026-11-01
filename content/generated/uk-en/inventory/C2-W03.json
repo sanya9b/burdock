@@ -1,0 +1,530 @@
+{
+ "chunk": "C2-W03",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "034dbda4-b8ad-5959-87d8-66b220f13a4f",
+   "lemma": "copious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "copious"
+   ],
+   "glossEn": "abundant in supply or quantity",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "bdf901c7-3189-570c-a4e8-beeb857b474e",
+   "lemma": "profuse",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "profuse"
+   ],
+   "glossEn": "produced or given in large amounts",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "168ee612-6d01-5266-9795-5b49ec7c39cb",
+   "lemma": "profusion",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "profusion"
+   ],
+   "glossEn": "abundance or large quantity of something",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "5608a3a4-0bec-588a-a6af-222d76c564f1",
+   "lemma": "paucity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "paucity"
+   ],
+   "glossEn": "presence of something in too small amounts",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "bd7d9eff-0ff3-55e3-b02d-d49e6e371878",
+   "lemma": "dearth",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dearth"
+   ],
+   "glossEn": "scarcity or lack of something",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "fe76d39b-b2a7-5a51-a22d-00a906818ecd",
+   "lemma": "plethora",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "plethora"
+   ],
+   "glossEn": "very large amount, often more than needed",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "6f735e63-0d3e-5ff5-8ef1-78b902631af8",
+   "lemma": "surfeit",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "surfeit"
+   ],
+   "glossEn": "excessive amount of something",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "b7bdfb09-a035-503b-9211-f5700652c25f",
+   "lemma": "glut",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "glut"
+   ],
+   "glossEn": "excessive supply of something",
+   "topics": [
+    "work"
+   ],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "f8b4a2aa-39f2-5b6b-95b6-21c5c0722565",
+   "lemma": "inordinate",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inordinate"
+   ],
+   "glossEn": "unusually or excessively large",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "dba84ded-f69a-5772-ba5f-97c36f1b6868",
+   "lemma": "inordinately",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inordinately"
+   ],
+   "glossEn": "to an excessive degree",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "0e377fa2-257e-5ccd-b265-ddb51c8f8943",
+   "lemma": "abatement",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "abatement"
+   ],
+   "glossEn": "reduction or lessening of something",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "aca90ca4-5eaf-54f3-a551-55144c7629a2",
+   "lemma": "modicum",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "modicum"
+   ],
+   "glossEn": "small amount of something desirable",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "822059f7-917f-5201-9714-811ec4f6a528",
+   "lemma": "iota",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "iota"
+   ],
+   "glossEn": "extremely small amount",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "2862ab5f-1f47-5d8e-8f2f-097459c29c09",
+   "lemma": "smattering",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "smattering"
+   ],
+   "glossEn": "slight or superficial amount, especially of knowledge",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "038b7136-c110-54ee-82e0-1ba5c424f019",
+   "lemma": "trifling",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "trifling"
+   ],
+   "glossEn": "unimportant or trivial",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "b38e13e8-d1a6-516c-a138-229f40c53a99",
+   "lemma": "sweeping",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sweeping"
+   ],
+   "glossEn": "wide in range or effect; too general",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "6a270dd3-972e-5fb7-bdef-e91b776141a5",
+   "lemma": "unmitigated",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unmitigated"
+   ],
+   "glossEn": "absolute; not lessened in any way",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "0240876d-87dd-5129-8fd9-a365879a19bb",
+   "lemma": "consummate",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "consummate"
+   ],
+   "glossEn": "showing great skill; complete and perfect",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "4f047e8e-33ef-5d78-b3da-99ade3ade363",
+   "lemma": "quintessence",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quintessence"
+   ],
+   "glossEn": "most perfect or typical example of something",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "96910765-f495-5e46-a994-df7548f54db7",
+   "lemma": "paragon",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "paragon"
+   ],
+   "glossEn": "perfect example of a quality",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "8403becd-e7f4-5630-8bc5-e2fccfed53c3",
+   "lemma": "epitome",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "epitome"
+   ],
+   "glossEn": "perfect example of a particular quality",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "45d69e40-16f5-5cd0-a13b-a04ca913548c",
+   "lemma": "preeminent",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "preeminent",
+    "pre-eminent"
+   ],
+   "glossEn": "surpassing all others; most distinguished",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "1cba3cc7-7d9e-58e8-b819-f82c72f926f6",
+   "lemma": "preeminence",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "preeminence",
+    "pre-eminence"
+   ],
+   "glossEn": "fact of surpassing all others",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "97b1662e-be37-5910-a8da-d1591acce881",
+   "lemma": "unparalleled",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unparalleled"
+   ],
+   "glossEn": "having no equal; better than any other",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "034904c8-ab4e-5342-a6d3-d5f3a7ed6dd4",
+   "lemma": "unsurpassed",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unsurpassed"
+   ],
+   "glossEn": "better than any other of its kind",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "8613ec09-4b42-5ad2-9bf2-67c3ed4df46f",
+   "lemma": "peerless",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "peerless"
+   ],
+   "glossEn": "unequaled; better than all others",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "8ba0aad2-70bd-5f05-8cfe-64708e14b412",
+   "lemma": "middling",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "middling"
+   ],
+   "glossEn": "moderate or average in quality",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "0dfefefb-78b5-5517-af57-d3c10a6286a3",
+   "lemma": "passable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "passable"
+   ],
+   "glossEn": "just good enough; acceptable",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "0a8d06a2-ce54-56a5-986f-0c0b5f87748b",
+   "lemma": "shoddy",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shoddy"
+   ],
+   "glossEn": "badly made or done; of poor quality",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "4ef5d37a-dc64-578b-b0b6-aa9a8c4f6c54",
+   "lemma": "slipshod",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "slipshod"
+   ],
+   "glossEn": "careless and lacking attention to detail",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "d38ea8d5-79b1-5a12-90b3-a1887d5e1c68",
+   "lemma": "subtlety",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subtlety"
+   ],
+   "glossEn": "fine or delicate distinction or detail",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "5447d873-71de-527b-b8e8-4af64f469307",
+   "lemma": "modulate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "modulate"
+   ],
+   "glossEn": "adjust or vary the degree of something",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "bf409931-c436-5b2a-b749-52f7a7eda283",
+   "lemma": "evanescent",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "evanescent"
+   ],
+   "glossEn": "quickly fading from sight or memory",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "5c5e39b6-906a-529c-966c-06afd84b7a76",
+   "lemma": "heretofore",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heretofore"
+   ],
+   "glossEn": "before now; previously",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "273e3156-0947-5877-811d-d17d6ca2b217",
+   "lemma": "bygone",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bygone"
+   ],
+   "glossEn": "belonging to an earlier time",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "256ac94d-289a-592b-b422-828a48963f07",
+   "lemma": "yesteryear",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "yesteryear"
+   ],
+   "glossEn": "the recent past, remembered with nostalgia",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "b8b462e2-9791-5f5a-8927-3e3684bbdc26",
+   "lemma": "anachronism",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "anachronism"
+   ],
+   "glossEn": "thing belonging to a different period",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "2b6b2a34-f0ce-5c93-8ba3-f3e28d1fdeec",
+   "lemma": "anachronistic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "anachronistic"
+   ],
+   "glossEn": "belonging to a period other than the present",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "0d586ef7-c308-5452-bd72-921f48b4d9b9",
+   "lemma": "contemporaneous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "contemporaneous"
+   ],
+   "glossEn": "existing or occurring in the same period",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "8713a457-b38b-52ea-8fe3-60fbd643472e",
+   "lemma": "antediluvian",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "antediluvian"
+   ],
+   "glossEn": "ridiculously old-fashioned",
+   "topics": [],
+   "area": "abstract-thought"
+  }
+ ]
+}

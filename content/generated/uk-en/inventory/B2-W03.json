@@ -1,0 +1,675 @@
+{
+ "chunk": "B2-W03",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "b5e202a3-d1c2-50a3-beea-3bc3f4ed152a",
+   "lemma": "incinerator",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incinerator",
+    "incinerators"
+   ],
+   "glossEn": "facility that burns waste",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "7501b7d1-acee-58fa-848c-ee069e275317",
+   "lemma": "contamination",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "contamination"
+   ],
+   "glossEn": "pollution of water or soil with harmful substances",
+   "topics": [
+    "city",
+    "health"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "c8b9f9ce-694c-52b7-83c8-7a966bc4ea76",
+   "lemma": "smog",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "smog"
+   ],
+   "glossEn": "polluted fog hanging over a city",
+   "topics": [
+    "city",
+    "health"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "86306697-fbe2-5060-9c73-79705b88e218",
+   "lemma": "air quality",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "air quality"
+   ],
+   "glossEn": "how clean or polluted the air is",
+   "topics": [
+    "city",
+    "health"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "20e34bce-d94a-5f44-b28f-ae286e20bea6",
+   "lemma": "noise pollution",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "noise pollution"
+   ],
+   "glossEn": "harmful or annoying levels of noise in a city",
+   "topics": [
+    "city",
+    "health"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "d050e6b2-c916-521e-9d1a-37309472b48f",
+   "lemma": "greenery",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "greenery"
+   ],
+   "glossEn": "green plants and trees in an area",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "b66ac02f-8a96-550b-8173-ab2bbddd9834",
+   "lemma": "tree-lined",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tree-lined",
+    "tree lined"
+   ],
+   "glossEn": "having trees planted along both sides",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "c3a13c5a-cb36-53b3-b62e-6c6d81bd918f",
+   "lemma": "shrub",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shrub",
+    "shrubs",
+    "shrubbery"
+   ],
+   "glossEn": "small bush planted in parks and gardens",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "0bc25830-2826-5ba8-a97c-e0529062592c",
+   "lemma": "planter",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "planter",
+    "planters",
+    "planter box"
+   ],
+   "glossEn": "large container for plants on a street",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "54812df9-9b7e-5def-81b3-2c9fc819abc9",
+   "lemma": "landscaping",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "landscaping"
+   ],
+   "glossEn": "designing and planting outdoor areas",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "598a8e3a-199b-5b6d-8fc9-223e0bcb4640",
+   "lemma": "sustainability",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sustainability",
+    "sustainable"
+   ],
+   "glossEn": "meeting needs without harming the future environment",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "78eff59d-6b2c-5017-b7a3-22f6280de198",
+   "lemma": "congestion charge",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "congestion charge",
+    "congestion pricing",
+    "congestion fee"
+   ],
+   "glossEn": "fee for driving into a city center",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "3bfddf54-6191-5b28-9912-df4e9d2abec6",
+   "lemma": "low-emission",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "low-emission",
+    "low emission",
+    "zero-emission"
+   ],
+   "glossEn": "producing little pollution",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "5f6ee880-5d3c-51a2-b300-7dcb1c19baa9",
+   "lemma": "charging station",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "charging station",
+    "charging stations",
+    "charging point",
+    "charger"
+   ],
+   "glossEn": "place to charge an electric car",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "6ce59bbd-dc08-50b2-9d18-5bac6d719553",
+   "lemma": "park-and-ride",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "park-and-ride",
+    "park and ride"
+   ],
+   "glossEn": "parking lot outside a city linked by public transport",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "0d35725e-89a4-5ed0-ad58-0da88d353980",
+   "lemma": "curbside",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "curbside",
+    "kerbside"
+   ],
+   "glossEn": "at the edge of the sidewalk beside the road",
+   "topics": [
+    "city",
+    "shopping"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "207b120d-bdb4-58a4-8ed2-502ac0523ed3",
+   "lemma": "loading zone",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "loading zone",
+    "loading zones",
+    "loading bay"
+   ],
+   "glossEn": "street area reserved for delivery vehicles",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "2f0cefe8-1c7a-598f-b430-3c4d68f663fa",
+   "lemma": "detached",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "detached",
+    "semi-detached"
+   ],
+   "glossEn": "house not joined to any other building",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "8daf8d1a-88b3-5929-b075-75546766b303",
+   "lemma": "wayfinding",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wayfinding",
+    "way-finding"
+   ],
+   "glossEn": "signs and maps that help people find their way",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "13e774c7-0fbc-5531-9b9f-c696d771900a",
+   "lemma": "orient",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "orient",
+    "orients",
+    "oriented",
+    "orientate"
+   ],
+   "glossEn": "find your position in relation to your surroundings",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "bf39a1d6-d65d-5588-95d5-30cc8094db14",
+   "lemma": "outlying",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "outlying"
+   ],
+   "glossEn": "far from the center of a city",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "76e28812-5571-57a7-8603-9da3674373b2",
+   "lemma": "duplex",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "duplex",
+    "duplexes",
+    "semi-detached house"
+   ],
+   "glossEn": "building divided into two separate homes",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "58b09a9f-186b-530e-a28f-d6eb0ce16e73",
+   "lemma": "cityscape",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cityscape",
+    "cityscapes"
+   ],
+   "glossEn": "view of a city's buildings and streets",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "4e8f4e67-fc6f-51c6-8425-c79a014b9298",
+   "lemma": "dweller",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dweller",
+    "dwellers",
+    "city dweller"
+   ],
+   "glossEn": "person who lives in a particular kind of place",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "25146eb0-b4d8-5f96-b309-4576df9ae01f",
+   "lemma": "populous",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "populous"
+   ],
+   "glossEn": "having a large population",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "9468cb4b-1d69-5f44-85b8-7ace6da59fb2",
+   "lemma": "deprived",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deprived"
+   ],
+   "glossEn": "poor area lacking services and opportunities",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "9550fa21-3003-5891-a82d-82f841d292da",
+   "lemma": "upscale",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "upscale",
+    "upmarket"
+   ],
+   "glossEn": "expensive and designed for wealthy people",
+   "topics": [
+    "city",
+    "shopping"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "f65d9f78-ee41-533f-93b1-e245afd80a14",
+   "lemma": "guarantor",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "guarantor",
+    "guarantors",
+    "co-signer"
+   ],
+   "glossEn": "person who promises to pay a tenant's rent",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "0a754778-17c8-53bb-97ac-4cf955d6db23",
+   "lemma": "notice period",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "notice period",
+    "notice periods"
+   ],
+   "glossEn": "time a tenant must give before moving out",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "7bfa4378-0612-5b3b-85a1-deb3d2142920",
+   "lemma": "rent control",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rent control",
+    "rent controls",
+    "rent cap"
+   ],
+   "glossEn": "legal limit on how much rent can rise",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "35141c8c-0912-5a5b-af36-0b23a1940f43",
+   "lemma": "rent hike",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rent hike",
+    "rent hikes",
+    "rent increase"
+   ],
+   "glossEn": "sudden large increase in rent",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "f0bbcec9-7fc1-5f5a-b7a9-b0985cd349ae",
+   "lemma": "housing association",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "housing association",
+    "housing associations"
+   ],
+   "glossEn": "nonprofit body that owns and rents affordable homes",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "4d07f284-306a-5ac0-a167-dae8823f9e5d",
+   "lemma": "homeowners' association",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "homeowners' association",
+    "homeowners' associations",
+    "HOA",
+    "residents' association"
+   ],
+   "glossEn": "organization of owners managing a shared residential area",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "511c62e1-b456-53c1-a9f1-6523405c0975",
+   "lemma": "social housing",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "social housing",
+    "council housing"
+   ],
+   "glossEn": "low-rent homes provided by the state or nonprofits",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "ef558265-c3db-5eed-9b88-81258b445b8f",
+   "lemma": "housing benefit",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "housing benefit",
+    "housing benefits",
+    "housing allowance",
+    "rent subsidy"
+   ],
+   "glossEn": "state payment helping low-income people pay rent",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "d88b8542-c9fc-507e-ae29-25fc74607f43",
+   "lemma": "service charge",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "service charge",
+    "service charges",
+    "maintenance fee"
+   ],
+   "glossEn": "fee paid by residents for shared building upkeep",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "82d4f304-9895-589e-a1ea-937b80df269c",
+   "lemma": "property tax",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "property tax",
+    "property taxes",
+    "council tax"
+   ],
+   "glossEn": "yearly tax paid on land or buildings you own",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "ba73595c-4c4d-599e-9fb2-0a65cce6557f",
+   "lemma": "walk-up",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "walk-up",
+    "walk-ups",
+    "walkup"
+   ],
+   "glossEn": "apartment building with stairs but no elevator",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "183fe37e-623d-5387-a159-81863d86dadc",
+   "lemma": "new build",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "new build",
+    "new builds",
+    "new-build"
+   ],
+   "glossEn": "recently constructed house or apartment",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "e01c8c07-2d92-52fa-9a7d-3375cc4b9c04",
+   "lemma": "open house",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "open house",
+    "open houses",
+    "open day"
+   ],
+   "glossEn": "set time when a home for sale can be viewed",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  }
+ ]
+}

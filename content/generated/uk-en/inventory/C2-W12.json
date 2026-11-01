@@ -1,0 +1,550 @@
+{
+ "chunk": "C2-W12",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "8851d47c-8f95-51f1-b1a9-06becb70ffec",
+   "lemma": "overleveraged",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overleveraged",
+    "over-leveraged"
+   ],
+   "glossEn": "carrying too much debt relative to assets",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "dfe76960-8e2a-5740-84e0-7b67c0a2e475",
+   "lemma": "securitize",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "securitize",
+    "securitise"
+   ],
+   "glossEn": "convert loans into tradable securities",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "83121b7a-491a-5566-a03f-523e579fa4e5",
+   "lemma": "securitization",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "securitization",
+    "securitisation"
+   ],
+   "glossEn": "pooling loans into tradable financial instruments",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "42c10a94-1dbb-53c9-9952-ef268eb42b6b",
+   "lemma": "collateralize",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "collateralize",
+    "collateralise"
+   ],
+   "glossEn": "pledge assets as security for a loan",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "eb740b4b-48c9-5e8f-9d9f-e0a285ec0fb7",
+   "lemma": "buyback",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "buyback",
+    "buy-back"
+   ],
+   "glossEn": "company's repurchase of its own shares",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "dd226d88-9e20-59be-9113-6887f04fe7a4",
+   "lemma": "shareholding",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shareholding"
+   ],
+   "glossEn": "number of shares held in a company",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "88c78cd2-5f13-5972-a023-be0d9867b7d7",
+   "lemma": "flotation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flotation",
+    "floatation"
+   ],
+   "glossEn": "first offering of a company's shares to the public",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "3cd88f19-104f-5d20-a1b0-9626d226e918",
+   "lemma": "bankroll",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bankroll"
+   ],
+   "glossEn": "provide the money for a project or person",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "ae10d2ec-c95d-5825-bfdc-e154722ecfb2",
+   "lemma": "hawkish",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hawkish"
+   ],
+   "glossEn": "favoring higher interest rates to fight inflation",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "13f3bccb-2875-5075-9228-c532cd80386d",
+   "lemma": "dovish",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dovish"
+   ],
+   "glossEn": "favoring lower interest rates to support growth",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "3ef6eaa6-246a-567d-8399-647d8df3e16c",
+   "lemma": "quantitative easing",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quantitative easing"
+   ],
+   "glossEn": "central bank buying assets to inject money",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "7e942359-8215-5d6e-b146-033d313a7d36",
+   "lemma": "delinquent",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "delinquent"
+   ],
+   "glossEn": "overdue in payment of a debt",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "b4f0728f-5cfa-5be7-8c14-e9ffedb05efb",
+   "lemma": "delinquency",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "delinquency"
+   ],
+   "glossEn": "failure to pay a debt on time",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "8ea56497-4c6c-5390-9b95-454df1f3ea8c",
+   "lemma": "nonperforming",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nonperforming",
+    "non-performing"
+   ],
+   "glossEn": "describing a loan whose borrower has stopped paying",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "2be8ce0c-d761-5a4b-828b-a3025f7251f1",
+   "lemma": "bondholder",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bondholder"
+   ],
+   "glossEn": "person or institution that owns bonds",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "f8f672a0-8f5c-5b9e-90af-ca15899d419a",
+   "lemma": "arbitrage",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "arbitrage"
+   ],
+   "glossEn": "profiting from price differences between markets",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "cc874565-055a-570b-9b6d-9d1d75d6faef",
+   "lemma": "margin call",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "margin call"
+   ],
+   "glossEn": "demand to deposit more money to cover trading losses",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "e57dd87a-355f-5c54-be13-d847ae93a254",
+   "lemma": "short selling",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "short selling",
+    "short-selling"
+   ],
+   "glossEn": "selling borrowed shares hoping to buy back cheaper",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "18c5454b-e677-5fb7-ac55-246a61542d29",
+   "lemma": "capital flight",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "capital flight"
+   ],
+   "glossEn": "rapid movement of money out of a country",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "a89ff322-c975-512a-b9d1-6926c79744f5",
+   "lemma": "sovereign debt",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sovereign debt"
+   ],
+   "glossEn": "money owed by a national government",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "97631960-2105-5a29-a5ff-5e909ed6763d",
+   "lemma": "junk bond",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "junk bond"
+   ],
+   "glossEn": "high-yield bond with a high risk of default",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "2a143555-3c0e-529a-bdd2-b1cb75f404db",
+   "lemma": "tranche",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tranche"
+   ],
+   "glossEn": "portion of a loan or payment released in stages",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "075dc938-f8d1-510d-ba7d-a906c837c6fb",
+   "lemma": "usurious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "usurious"
+   ],
+   "glossEn": "charging unfairly high interest",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "c1b4fe8e-9c55-5aed-90df-4a2f7707a85a",
+   "lemma": "slush fund",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "slush fund"
+   ],
+   "glossEn": "secret money reserve used for illicit purposes",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "819d54bf-4b19-55b4-a61e-64c1dc9b5751",
+   "lemma": "pyramid scheme",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pyramid scheme"
+   ],
+   "glossEn": "fraud paying earlier investors with newcomers' money",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "d5978b9d-b8db-5fed-aeac-91d71672121e",
+   "lemma": "nest egg",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nest egg",
+    "nest-egg"
+   ],
+   "glossEn": "sum of money saved for the future",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "906737c0-c826-5a3e-9005-0217df01d8c1",
+   "lemma": "divestiture",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "divestiture"
+   ],
+   "glossEn": "sale or disposal of a business unit",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "a9072fc4-728d-54a6-8b85-e5ef9c90ab31",
+   "lemma": "franchisee",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "franchisee"
+   ],
+   "glossEn": "person or company granted a franchise",
+   "topics": [
+    "shopping"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "80aa8ce5-41a2-5a2d-8b47-9d39f60e8a41",
+   "lemma": "franchisor",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "franchisor",
+    "franchiser"
+   ],
+   "glossEn": "company that grants franchises to others",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "4df34e35-08d9-51f6-b62f-398711a81811",
+   "lemma": "commoditize",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "commoditize",
+    "commoditise"
+   ],
+   "glossEn": "turn a distinctive product into an interchangeable commodity",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "c2a41a5c-301d-577c-8923-d6a5b7777835",
+   "lemma": "just-in-time",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "just-in-time",
+    "just in time"
+   ],
+   "glossEn": "delivering materials exactly when needed in production",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "45a349b9-66ca-57f7-9559-208dbddf23f7",
+   "lemma": "duopoly",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "duopoly"
+   ],
+   "glossEn": "market controlled by two companies",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "82bd5a0a-dcc1-534a-bff3-78c13dcb233d",
+   "lemma": "overstock",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overstock",
+    "over-stock"
+   ],
+   "glossEn": "hold more goods than can be sold",
+   "topics": [
+    "shopping"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "517f5996-2e67-5671-8b2f-84965e282559",
+   "lemma": "churn",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "churn"
+   ],
+   "glossEn": "rate at which customers stop using a service",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "ec6117c4-407d-5fc3-9d5d-4b1fbca390e6",
+   "lemma": "headhunt",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "headhunt",
+    "head-hunt"
+   ],
+   "glossEn": "recruit a senior employee from another company",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "6d219660-814b-56c4-84f3-77ee7c0150e4",
+   "lemma": "hostile takeover",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hostile takeover"
+   ],
+   "glossEn": "acquisition opposed by the target company's management",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "0d5eeb0f-d304-5332-80d8-e850c6a34f7f",
+   "lemma": "asset-stripping",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "asset-stripping",
+    "asset stripping"
+   ],
+   "glossEn": "buying a company to sell off its assets for profit",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "00ef4925-e97a-53ed-894e-e1504cdec246",
+   "lemma": "leveraged buyout",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "leveraged buyout",
+    "leveraged buy-out"
+   ],
+   "glossEn": "acquisition financed mostly with borrowed money",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "67ad7b66-96cc-5070-89dc-9cdad7e33302",
+   "lemma": "vertical integration",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vertical integration"
+   ],
+   "glossEn": "company controlling several stages of its supply chain",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "3f5cd6c9-3ee2-5937-a740-0a9972a25898",
+   "lemma": "shell company",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shell company"
+   ],
+   "glossEn": "company existing only on paper to hide ownership",
+   "topics": [],
+   "area": "economy-technology"
+  }
+ ]
+}

@@ -1,0 +1,694 @@
+{
+ "chunk": "B2-W02",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "7a4466fa-7c63-5f46-ad2a-43c25562460c",
+   "lemma": "commuter rail",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "commuter rail",
+    "commuter train",
+    "suburban rail"
+   ],
+   "glossEn": "train service linking suburbs with the city center",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "74a088d2-2aff-55a8-90dd-ab27d45e8cf4",
+   "lemma": "light rail",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "light rail",
+    "light railway"
+   ],
+   "glossEn": "modern tram system running on its own tracks",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "d945bb4a-d44d-5305-8742-23910e114f51",
+   "lemma": "elevated",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "elevated"
+   ],
+   "glossEn": "raised above street level on supports",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "395b1b8b-07a1-5c27-b157-f36371a03980",
+   "lemma": "foyer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "foyer",
+    "foyers"
+   ],
+   "glossEn": "entrance hall of a theater or hotel",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "a7e8e7f8-1630-5199-a065-7f5d3dcae41b",
+   "lemma": "atrium",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "atrium",
+    "atriums",
+    "atria"
+   ],
+   "glossEn": "tall central hall open to the upper floors",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "2b5ba1a8-d175-5bb2-9284-cdd17edf57e6",
+   "lemma": "awning",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "awning",
+    "awnings"
+   ],
+   "glossEn": "cloth cover above a shop window or door",
+   "topics": [
+    "city",
+    "shopping"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "0602cb69-9b8a-543c-a107-fe855974974c",
+   "lemma": "storefront",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "storefront",
+    "storefronts",
+    "shopfront",
+    "shop front"
+   ],
+   "glossEn": "front of a shop facing the street",
+   "topics": [
+    "city",
+    "shopping"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "20332065-dcff-5f6a-a592-c305c9a701ad",
+   "lemma": "shutter",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shutter",
+    "shutters"
+   ],
+   "glossEn": "metal or wooden cover pulled over a window or shop",
+   "topics": [
+    "city",
+    "shopping"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "c20d6409-102a-5b36-b981-b08d2f3c5456",
+   "lemma": "ledge",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ledge",
+    "ledges",
+    "window ledge"
+   ],
+   "glossEn": "narrow shelf sticking out from a wall",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "990f06dc-5130-5e9d-ad79-b4f163687415",
+   "lemma": "spire",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spire",
+    "spires",
+    "steeple",
+    "steeples"
+   ],
+   "glossEn": "tall pointed top of a church tower",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "0b46b015-46ec-5c8d-878c-73202c14486d",
+   "lemma": "clock tower",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "clock tower",
+    "clock towers",
+    "clocktower"
+   ],
+   "glossEn": "tall tower with a large clock near the top",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "19cc81c2-fd14-5808-bc38-b1564a79f2f9",
+   "lemma": "plaque",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "plaque",
+    "plaques"
+   ],
+   "glossEn": "flat metal plate on a wall giving information",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "7ec737b6-f999-5b7b-a74a-4e497e7058f4",
+   "lemma": "pavilion",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pavilion",
+    "pavilions"
+   ],
+   "glossEn": "light decorative building in a park",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "4bb878fe-da90-5f85-90fd-e69bb7a784ed",
+   "lemma": "gazebo",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gazebo",
+    "gazebos"
+   ],
+   "glossEn": "small open roofed structure in a garden",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "df90bac7-2d8b-5970-a267-8fc614843d36",
+   "lemma": "prefabricated",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prefabricated",
+    "prefab"
+   ],
+   "glossEn": "built from parts made in a factory",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "90f21d06-f7a1-5ff7-ad70-8efd2666992b",
+   "lemma": "amphitheater",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "amphitheater",
+    "amphitheaters",
+    "amphitheatre",
+    "amphitheatres"
+   ],
+   "glossEn": "open-air venue with rising rows of seats",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "53c9f7d7-fa90-5302-a13b-e1b8b62b83f6",
+   "lemma": "convention center",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "convention center",
+    "convention centre",
+    "exhibition center",
+    "exhibition centre"
+   ],
+   "glossEn": "large building for conferences and exhibitions",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "07716574-2078-5df8-ae99-9448125cae89",
+   "lemma": "condemned",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "condemned"
+   ],
+   "glossEn": "officially declared unsafe to live in",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "f81ef039-b65b-5023-87f2-2a7f7eae8526",
+   "lemma": "vacate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vacate",
+    "vacates",
+    "vacated",
+    "vacating"
+   ],
+   "glossEn": "leave a property so that it is empty",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "13a408f4-4545-5e62-ac2f-c907e64c628f",
+   "lemma": "tenancy",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tenancy",
+    "tenancies",
+    "tenancy agreement"
+   ],
+   "glossEn": "period during which someone rents a property",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "ab6ac421-6700-5923-bd4a-ee9331143a83",
+   "lemma": "co-op",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "co-op",
+    "co-ops",
+    "housing cooperative",
+    "housing co-op"
+   ],
+   "glossEn": "apartment building owned jointly by its residents",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "47f8b711-bb20-519a-a859-66bfae70eaac",
+   "lemma": "homeowner",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "homeowner",
+    "homeowners",
+    "home owner"
+   ],
+   "glossEn": "person who owns the home they live in",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "9a514d70-82b1-5f2e-b7fd-4cec2b32bfe3",
+   "lemma": "foreclosure",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "foreclosure",
+    "foreclosures",
+    "repossession"
+   ],
+   "glossEn": "bank taking a home when the mortgage is unpaid",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "be976ca2-273d-5af3-ae7e-70709f37c4d8",
+   "lemma": "down payment",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "down payment",
+    "down payments",
+    "downpayment"
+   ],
+   "glossEn": "first large payment when buying a home",
+   "topics": [
+    "city",
+    "shopping"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "695cf477-c0f3-5188-a499-1d458a59b440",
+   "lemma": "renovation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "renovation",
+    "renovations",
+    "refurbishment"
+   ],
+   "glossEn": "work done to repair and improve a building",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "1f282440-517a-5167-8c0b-8db7e76bcc45",
+   "lemma": "retrofit",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "retrofit",
+    "retrofits",
+    "retrofitted",
+    "retrofitting"
+   ],
+   "glossEn": "add new equipment to an older building",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "926b5f63-795e-5f1a-a781-4b52faf1b919",
+   "lemma": "infestation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "infestation",
+    "infestations"
+   ],
+   "glossEn": "large number of pests in a building",
+   "topics": [
+    "city",
+    "health"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "68570629-76a0-5dd3-8575-d28a9f7c1985",
+   "lemma": "pest control",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pest control"
+   ],
+   "glossEn": "service removing rats and insects from buildings",
+   "topics": [
+    "city",
+    "health"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "0e981e81-6ec2-5966-ae47-66c63f4ff1c7",
+   "lemma": "exterminator",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "exterminator",
+    "exterminators"
+   ],
+   "glossEn": "person whose job is killing pests in buildings",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "c49c3e1d-7b42-5572-a729-40f681c65348",
+   "lemma": "fixture",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fixture",
+    "fixtures",
+    "fittings"
+   ],
+   "glossEn": "item fixed in a home, such as a sink",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "a3231ed5-f549-5c8b-bea5-c2442eb4f3fb",
+   "lemma": "appliance",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "appliance",
+    "appliances",
+    "household appliance"
+   ],
+   "glossEn": "electrical machine used in the home",
+   "topics": [
+    "city",
+    "shopping"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "5884dae3-1ebe-502a-bd4f-0c899cbd6e4e",
+   "lemma": "circuit breaker",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "circuit breaker",
+    "circuit breakers",
+    "fuse box",
+    "breaker"
+   ],
+   "glossEn": "switch that cuts power when there is a fault",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "748189cc-1bde-5360-8da2-bbf702c45a20",
+   "lemma": "wiring",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wiring"
+   ],
+   "glossEn": "system of electrical wires in a building",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "b248ebd7-ba43-5905-b957-86e906c12997",
+   "lemma": "substation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "substation",
+    "substations"
+   ],
+   "glossEn": "facility where electricity voltage is changed",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "d5e626c7-d3dd-5c6f-b906-f34fed78d32b",
+   "lemma": "meter reading",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "meter reading",
+    "meter readings"
+   ],
+   "glossEn": "recording how much gas or electricity was used",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "dff29c00-8764-54e3-917d-1caec11aeb5a",
+   "lemma": "wastewater",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wastewater",
+    "waste water"
+   ],
+   "glossEn": "used water from homes and factories",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "f3a76b42-7281-542c-ae55-d7b38c19ed27",
+   "lemma": "stormwater",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stormwater",
+    "storm water",
+    "runoff"
+   ],
+   "glossEn": "rainwater that runs off streets into drains",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "734ef5ed-d49b-586d-a160-6d9eec09273e",
+   "lemma": "treatment plant",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "treatment plant",
+    "treatment plants",
+    "sewage works",
+    "water treatment plant"
+   ],
+   "glossEn": "facility that cleans water or sewage",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "23679242-1dbd-52ad-9714-ff852e975d37",
+   "lemma": "reservoir",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reservoir",
+    "reservoirs"
+   ],
+   "glossEn": "artificial lake storing a city's water supply",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "79215129-f208-5b43-8a1c-6f3865eade32",
+   "lemma": "aqueduct",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aqueduct",
+    "aqueducts"
+   ],
+   "glossEn": "structure carrying water to a city over distance",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  }
+ ]
+}

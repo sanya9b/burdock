@@ -1,0 +1,534 @@
+{
+ "chunk": "C1-W01",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "4baa6717-62d8-5b09-892e-b1a3ac0d805f",
+   "lemma": "induction",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "induction"
+   ],
+   "glossEn": "reasoning from particular cases to a general rule",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "b4a0c3fc-39ef-53de-b714-985d29d0f562",
+   "lemma": "presupposition",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "presupposition"
+   ],
+   "glossEn": "thing assumed beforehand as the basis of reasoning",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "3e9d628f-2811-5aed-9790-3f6766dbb65b",
+   "lemma": "speculative",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "speculative"
+   ],
+   "glossEn": "based on guessing rather than on facts",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "184c154e-2e1c-5bfe-9692-c621f7421766",
+   "lemma": "fallacious",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fallacious"
+   ],
+   "glossEn": "based on a mistaken belief or faulty logic",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "71bc66c5-68d8-5e96-bf63-dc281a0f69a3",
+   "lemma": "tenable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tenable"
+   ],
+   "glossEn": "able to be defended against criticism",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "c2705b7f-b9a7-5bf7-b715-ef64fef3a28b",
+   "lemma": "untenable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "untenable"
+   ],
+   "glossEn": "impossible to defend or maintain",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "89c20fec-5a63-5661-9122-df1e9ce04108",
+   "lemma": "incoherent",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incoherent"
+   ],
+   "glossEn": "not logical or clearly connected",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "7103d132-f279-5c47-a098-2b9521426735",
+   "lemma": "implausible",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "implausible"
+   ],
+   "glossEn": "not seeming reasonable or likely to be true",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "45e9884f-b822-58dc-a6b7-e4f967bb6f3e",
+   "lemma": "underlie",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "underlie"
+   ],
+   "glossEn": "be the hidden cause or basis of something",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "48a59bae-f805-57e5-8144-4fd3332efe64",
+   "lemma": "invalidate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "invalidate"
+   ],
+   "glossEn": "make an argument or claim no longer valid",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "f30e69eb-de66-559d-87a4-d12e5fff7974",
+   "lemma": "nuanced",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nuanced"
+   ],
+   "glossEn": "showing subtle distinctions rather than simple judgments",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "d8cfd507-c1cc-5b03-a1b3-d985617d6e91",
+   "lemma": "dichotomy",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dichotomy"
+   ],
+   "glossEn": "division into two sharply opposed parts",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "c51dd8c5-9308-546f-af15-889112cf6b4a",
+   "lemma": "paradoxical",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "paradoxical"
+   ],
+   "glossEn": "seeming self-contradictory yet possibly true",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "ebeb28fe-1b93-508c-8d01-26cdfb92d119",
+   "lemma": "analogous",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "analogous"
+   ],
+   "glossEn": "comparable in certain respects; similar in function",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "f900402b-c3b5-5519-93d8-851acf41f171",
+   "lemma": "justifiable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "justifiable"
+   ],
+   "glossEn": "able to be shown as right or reasonable",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "51553c41-92f9-523d-8469-ffe31a8fcf3b",
+   "lemma": "unwarranted",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unwarranted"
+   ],
+   "glossEn": "not justified by the facts or circumstances",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "8203c877-a0c3-5c27-82b2-fc87ca3ce4d5",
+   "lemma": "inconclusive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inconclusive"
+   ],
+   "glossEn": "not leading to a definite result or conclusion",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "d0769f0f-4963-5c03-b3cd-8a7a9c830066",
+   "lemma": "overstate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overstate"
+   ],
+   "glossEn": "describe something as bigger or more important",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "9c50d21d-beb2-54cb-88a6-609940aafa5a",
+   "lemma": "understate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "understate"
+   ],
+   "glossEn": "describe something as smaller or less important",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "410145d1-10ed-563a-81e2-d685801a2a03",
+   "lemma": "overgeneralize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overgeneralize",
+    "overgeneralise",
+    "over-generalize"
+   ],
+   "glossEn": "draw a general conclusion from too few cases",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "d2451ff7-a9d0-5f4e-ad32-238cefe67d96",
+   "lemma": "oversimplify",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "oversimplify",
+    "over-simplify"
+   ],
+   "glossEn": "explain something so simply that it becomes misleading",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "f5879c05-7d98-5e68-95b4-97989c8ce671",
+   "lemma": "simplistic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "simplistic"
+   ],
+   "glossEn": "treating a complex matter as simpler than it is",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "7704f5fc-3463-57fd-b68b-bd05768c8879",
+   "lemma": "verifiable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "verifiable"
+   ],
+   "glossEn": "able to be checked and proven true",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "4c60f08a-51e4-5556-bc70-6e5aa8bf5f77",
+   "lemma": "unverifiable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unverifiable"
+   ],
+   "glossEn": "impossible to check or prove true",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "6fead171-d20c-50e5-84fa-a750ce0fd72a",
+   "lemma": "unambiguous",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unambiguous"
+   ],
+   "glossEn": "having only one clear meaning",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "0f019a5e-fc93-54fb-ba99-31601baff6a4",
+   "lemma": "vagueness",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vagueness"
+   ],
+   "glossEn": "lack of clear or precise meaning",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "428517c4-4abe-5d55-b4f9-4b35c01b35ca",
+   "lemma": "conviction",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "conviction"
+   ],
+   "glossEn": "firmly held belief or opinion",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "3810f8d3-e5e0-5d30-96e2-375404e164b4",
+   "lemma": "incredulous",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incredulous"
+   ],
+   "glossEn": "unwilling or unable to believe something",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "cff90c6f-ebdd-55b2-8432-e68bf0f47ba3",
+   "lemma": "naivety",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "naivety",
+    "naiveté",
+    "naïveté",
+    "naïvety"
+   ],
+   "glossEn": "lack of experience, wisdom or judgment",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "19b6b3d8-2435-5848-b6f9-faddcf02ecb4",
+   "lemma": "preconception",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "preconception"
+   ],
+   "glossEn": "opinion formed before having enough information",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "f204ee33-8bb4-5e77-9827-24d84b715f12",
+   "lemma": "presumption",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "presumption"
+   ],
+   "glossEn": "idea taken to be true without proof",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "7d3c87bd-ec6c-5274-a63f-1ca12223c7b4",
+   "lemma": "intuition",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "intuition"
+   ],
+   "glossEn": "ability to understand something without conscious reasoning",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "4760fcf8-944d-5d75-8d2d-8b9a954880de",
+   "lemma": "counterintuitive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "counterintuitive",
+    "counter-intuitive"
+   ],
+   "glossEn": "contrary to what one would naturally expect",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "760169f7-1fe2-5103-9e58-631b79876a07",
+   "lemma": "hindsight",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hindsight"
+   ],
+   "glossEn": "understanding of an event after it has happened",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "1084675c-cc59-5e29-af62-992768e0b3b5",
+   "lemma": "foresight",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "foresight"
+   ],
+   "glossEn": "ability to predict and prepare for future needs",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "52dc03f3-8493-57e2-ae2d-04797550890f",
+   "lemma": "insightful",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "insightful"
+   ],
+   "glossEn": "showing deep and accurate understanding",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "dcd5c775-a47e-5a67-bb91-1649a24b5f5e",
+   "lemma": "perceptive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "perceptive"
+   ],
+   "glossEn": "quick to notice and understand things",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "9ccd04de-b004-5f52-8edc-f8feeb7b869b",
+   "lemma": "discernible",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "discernible",
+    "discernable"
+   ],
+   "glossEn": "able to be seen or recognized",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "d8882cde-d039-5a34-8999-6e77f6d573a8",
+   "lemma": "comprehensible",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "comprehensible"
+   ],
+   "glossEn": "able to be understood",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "1495ff06-30d9-504c-b047-9588be57838b",
+   "lemma": "incomprehensible",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incomprehensible"
+   ],
+   "glossEn": "impossible to understand",
+   "topics": [],
+   "area": "abstract-thought"
+  }
+ ]
+}

@@ -1,0 +1,654 @@
+{
+ "chunk": "B2-W24",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "6f6a62e7-5ee5-5583-afdd-782cd08eb5d1",
+   "lemma": "made-to-measure",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "made-to-measure",
+    "made to measure"
+   ],
+   "glossEn": "made to the customer's own measurements",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "48d6f0eb-2078-5412-9206-c8f228e4b45a",
+   "lemma": "lining",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lining",
+    "linings"
+   ],
+   "glossEn": "inner layer of fabric inside a garment or bag",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "c31f35ba-76bd-5d06-9d16-623d29186a36",
+   "lemma": "lined",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lined",
+    "fully lined"
+   ],
+   "glossEn": "having an inner layer of fabric",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "81378219-645e-532e-988d-8f0cc4f1d2c2",
+   "lemma": "seam",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "seam",
+    "seams"
+   ],
+   "glossEn": "line where two pieces of fabric are sewn together",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "f52545cf-2e9b-5abe-8695-36cd0c7577e1",
+   "lemma": "hemline",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hemline",
+    "hemlines"
+   ],
+   "glossEn": "lower edge of a skirt, dress or coat",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "d284c389-c35c-56de-8c55-ac38dc1d5013",
+   "lemma": "lapel",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lapel",
+    "lapels"
+   ],
+   "glossEn": "folded flap on the front of a jacket",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "9ab820d0-0dbb-5cd1-9f7d-49f3f5f49a86",
+   "lemma": "pleated",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pleated",
+    "pleat",
+    "pleats"
+   ],
+   "glossEn": "with folds pressed into the fabric",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "8b4f05d7-9adc-5241-b907-8b815fce1ae5",
+   "lemma": "waistband",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "waistband",
+    "waistbands"
+   ],
+   "glossEn": "band of fabric around the waist of trousers",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "f968a80c-5e36-54d8-ba58-e754bc255487",
+   "lemma": "drawstring",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "drawstring",
+    "drawstrings"
+   ],
+   "glossEn": "cord pulled to tighten a waist or hood",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "724f8885-0b0d-5d78-8b58-328527b00737",
+   "lemma": "buttonhole",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "buttonhole",
+    "buttonholes"
+   ],
+   "glossEn": "slit in fabric for a button to pass through",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "fb56b637-25ab-52ea-858c-0ea678794e2f",
+   "lemma": "stitching",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stitching"
+   ],
+   "glossEn": "row of stitches sewn on a garment or shoe",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "2ea9202a-5294-5a0a-8d0a-1f80a8d726b8",
+   "lemma": "quilted",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quilted"
+   ],
+   "glossEn": "made of padded fabric sewn in a pattern",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "9a3f5d39-7fb3-5870-b1fe-c948ab7f105c",
+   "lemma": "flannel",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flannel",
+    "flannels"
+   ],
+   "glossEn": "soft warm cotton or wool fabric",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "8b22c129-65da-57ed-9484-cc52921bf67f",
+   "lemma": "corduroy",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "corduroy",
+    "corduroys",
+    "cord"
+   ],
+   "glossEn": "thick cotton fabric with raised ridges",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "5dc115e0-42f3-533b-bdd5-50350df46a4c",
+   "lemma": "satin",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "satin"
+   ],
+   "glossEn": "smooth shiny fabric used for evening wear",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "9d6a1540-46bd-50b2-84ed-f8d547ef60b1",
+   "lemma": "mesh",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mesh"
+   ],
+   "glossEn": "fabric with many small holes, as in sportswear",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "da35d9c0-d187-5e40-8c42-5a02a1de1917",
+   "lemma": "spandex",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spandex",
+    "elastane",
+    "Lycra"
+   ],
+   "glossEn": "very stretchy synthetic fiber, also called elastane",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "fd07f220-e967-5521-bec4-a86ac7fc6b4a",
+   "lemma": "woven",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "woven"
+   ],
+   "glossEn": "made by weaving threads together, not knitted",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "b91cb101-f95c-5de1-8f64-6e540911b75c",
+   "lemma": "ribbed",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ribbed",
+    "rib"
+   ],
+   "glossEn": "with raised vertical lines, as knitted cuffs",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "d6e29a6f-01a9-5e33-b6f2-f0833e6cc78c",
+   "lemma": "suede",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "suede"
+   ],
+   "glossEn": "soft leather with a velvety surface",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "c00d2221-4530-5134-a467-b180d278a12c",
+   "lemma": "faux",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "faux",
+    "faux leather",
+    "faux fur"
+   ],
+   "glossEn": "artificial, imitating leather or fur",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "bcec0b72-bdb9-56f7-b11a-7fe29cff0e72",
+   "lemma": "canvas",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "canvas"
+   ],
+   "glossEn": "strong heavy fabric used for bags and shoes",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "b4b8c979-7ab8-5e44-8210-920670862f32",
+   "lemma": "chino",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chino",
+    "chinos"
+   ],
+   "glossEn": "casual cotton trousers; also the twill fabric",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "64244a66-509d-595b-a8e0-cd1d877c8ccd",
+   "lemma": "pilling",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pilling",
+    "pills",
+    "bobbling"
+   ],
+   "glossEn": "small balls of fiber forming on worn fabric",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "4096ec4d-7000-532b-8e1d-7af24c9289ca",
+   "lemma": "wrinkle-free",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wrinkle-free",
+    "wrinkle free",
+    "non-iron",
+    "crease-resistant"
+   ],
+   "glossEn": "not creasing easily, needing no ironing",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "46345f71-579a-536b-870c-216d9a2f4c2f",
+   "lemma": "hand-wash",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hand-wash",
+    "hand wash",
+    "hand-washed",
+    "hand-washing"
+   ],
+   "glossEn": "wash by hand, not in a machine",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "bc5ab09e-d748-5c39-a12e-1f4e1f2bcd72",
+   "lemma": "tumble-dry",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tumble-dry",
+    "tumble dry",
+    "tumble-dried",
+    "tumble-drying"
+   ],
+   "glossEn": "dry in a rotating drum dryer",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "182d0fd6-912f-5c28-a129-723288645692",
+   "lemma": "flared",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flared",
+    "flare",
+    "flares"
+   ],
+   "glossEn": "widening toward the bottom, as trouser legs",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "7a9b5e2f-400c-5a77-9115-7934ecc91f1d",
+   "lemma": "wide-leg",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wide-leg",
+    "wide leg",
+    "wide-legged"
+   ],
+   "glossEn": "with trouser legs loose all the way down",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "ac692063-cc6c-5f7c-87e5-ef7e13757c61",
+   "lemma": "midi",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "midi",
+    "maxi"
+   ],
+   "glossEn": "reaching to mid-calf, as a skirt or dress",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "4ac2ff27-dd9e-5f1c-b628-96f67c42d5b4",
+   "lemma": "strapless",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "strapless"
+   ],
+   "glossEn": "without shoulder straps, as a dress or top",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "31f52bd5-9deb-59c5-b39a-064b648d68a0",
+   "lemma": "activewear",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "activewear",
+    "active wear"
+   ],
+   "glossEn": "clothes designed for exercise",
+   "topics": [
+    "shopping",
+    "health"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "b40bd4bf-bc13-5e46-8fea-c6440fb15ec3",
+   "lemma": "outerwear",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "outerwear"
+   ],
+   "glossEn": "coats and jackets worn over other clothes",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "296a4249-3255-5f74-a2a5-c244b6c39f81",
+   "lemma": "nightgown",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nightgown",
+    "nightgowns",
+    "nightie",
+    "nightdress"
+   ],
+   "glossEn": "loose dress worn in bed",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "77b4cd14-5bd2-539c-b367-ed5fddc9d329",
+   "lemma": "shawl",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shawl",
+    "shawls"
+   ],
+   "glossEn": "large piece of fabric worn over the shoulders",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "097a6140-a0e2-5041-a629-4c92f5c64e33",
+   "lemma": "pantyhose",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pantyhose",
+    "nylons"
+   ],
+   "glossEn": "sheer tights worn by women",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "3f019516-4b06-5c16-80fb-3e0dd27f61b3",
+   "lemma": "loafer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "loafer",
+    "loafers"
+   ],
+   "glossEn": "flat leather shoe without laces",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "4b321a92-9c8c-5fe4-9926-bc98ed2df1cd",
+   "lemma": "insole",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "insole",
+    "insoles"
+   ],
+   "glossEn": "removable inner layer inside a shoe",
+   "topics": [
+    "shopping",
+    "health"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "d48867f6-85a6-51db-b78b-76c1a12f9ae8",
+   "lemma": "wide-fit",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wide-fit",
+    "wide fit",
+    "wide width"
+   ],
+   "glossEn": "made wider than standard, as shoes",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "8489cd7f-e99c-504d-82e5-af756e22f454",
+   "lemma": "padded",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "padded"
+   ],
+   "glossEn": "with soft material added for comfort or shape",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  }
+ ]
+}

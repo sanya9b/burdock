@@ -1,0 +1,644 @@
+{
+ "chunk": "B2-W07",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "3c10f608-690f-503f-8072-568c8288ab9a",
+   "lemma": "truffle",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "truffle",
+    "truffles"
+   ],
+   "glossEn": "rare underground fungus or round chocolate",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "8818a6fc-9b07-51eb-a16c-25380f1dc2ab",
+   "lemma": "fritter",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fritter",
+    "fritters"
+   ],
+   "glossEn": "piece of fruit or vegetable fried in batter",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "828d6a03-0db1-5b87-9c2e-c2611d2b5ee8",
+   "lemma": "bouillon",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bouillon"
+   ],
+   "glossEn": "clear seasoned broth, often from a cube",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "20e5e820-f15f-5b9f-a799-96bca7f0f8b0",
+   "lemma": "vinaigrette",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vinaigrette",
+    "vinaigrettes"
+   ],
+   "glossEn": "salad dressing of oil and vinegar",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "4b03ea68-9c93-572c-8254-ad554fd4a6ba",
+   "lemma": "saffron",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "saffron"
+   ],
+   "glossEn": "expensive orange spice from crocus flowers",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "e6bb7810-3add-51cd-875a-15459acaf80f",
+   "lemma": "cardamom",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cardamom"
+   ],
+   "glossEn": "fragrant green-pod spice used in chai",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "52900984-5f69-5509-94b8-31688adb1eed",
+   "lemma": "horseradish",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "horseradish"
+   ],
+   "glossEn": "hot white root grated into sauce",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "90075eab-053a-5fbe-88f2-fc129f79ea47",
+   "lemma": "wasabi",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wasabi"
+   ],
+   "glossEn": "hot green Japanese paste eaten with sushi",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "fe895959-cad4-5ac5-a6ee-7ba0473339ba",
+   "lemma": "caper",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "caper",
+    "capers"
+   ],
+   "glossEn": "small pickled flower bud used in sauces",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "c8def70c-356a-52ef-91b7-1de4fcf31162",
+   "lemma": "chive",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chive",
+    "chives"
+   ],
+   "glossEn": "thin grass-like herb with mild onion taste",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "695bbdb0-1919-531b-80a8-1d1afc9505f1",
+   "lemma": "scallion",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scallion",
+    "scallions",
+    "spring onion",
+    "green onion"
+   ],
+   "glossEn": "young onion with a long green stem",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "da179043-d229-5714-9875-c4b0e5bea7f4",
+   "lemma": "shallot",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shallot",
+    "shallots"
+   ],
+   "glossEn": "small mild onion used in fine sauces",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "00c1d38f-d7a2-5b1e-8c1d-fd6cbbc07ab7",
+   "lemma": "artichoke",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "artichoke",
+    "artichokes"
+   ],
+   "glossEn": "green vegetable with edible leaf bases",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "370867a2-ad7e-5c06-8104-65eefea8a4a0",
+   "lemma": "arugula",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "arugula",
+    "rocket"
+   ],
+   "glossEn": "peppery salad leaf",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "03eea5f4-eef0-5f7e-80a0-24b0f7aea0a5",
+   "lemma": "turnip",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "turnip",
+    "turnips"
+   ],
+   "glossEn": "round white root vegetable",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "08ed0cce-21bd-57ad-a15f-bcec8c520fbd",
+   "lemma": "parsnip",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "parsnip",
+    "parsnips"
+   ],
+   "glossEn": "pale sweet root like a white carrot",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "69623074-c4fc-5cbf-ad9b-94d875b6c0e5",
+   "lemma": "yam",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "yam",
+    "yams"
+   ],
+   "glossEn": "starchy tropical root like a sweet potato",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "a4185ce7-06a7-5d45-a89e-dc166eb6c669",
+   "lemma": "jalapeño",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jalapeño",
+    "jalapeno",
+    "jalapeños",
+    "jalapenos"
+   ],
+   "glossEn": "medium-hot green Mexican chili",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "6e8b36e5-101f-5ab3-a5cf-b094bc210770",
+   "lemma": "currant",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "currant",
+    "currants"
+   ],
+   "glossEn": "small sour black or red berry on a bush",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "c08aae95-9518-5a73-8cb2-4c67165d6ad9",
+   "lemma": "clementine",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "clementine",
+    "clementines"
+   ],
+   "glossEn": "small seedless sweet orange",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "b88ef1dd-490b-593a-8830-27b179fc3e2c",
+   "lemma": "persimmon",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "persimmon",
+    "persimmons"
+   ],
+   "glossEn": "sweet orange fruit eaten when very soft",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "dc1a5a7a-1c89-5679-8584-4accf764a108",
+   "lemma": "lychee",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lychee",
+    "lychees",
+    "litchi"
+   ],
+   "glossEn": "small fruit with rough red skin and white flesh",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "9140d10a-3da9-5c73-b19d-d1c0698dd9b6",
+   "lemma": "rhubarb",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rhubarb"
+   ],
+   "glossEn": "sour pink stalks cooked with sugar in pies",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "f6e3dd99-3e73-5f2c-a57a-ab36b4f1710f",
+   "lemma": "chestnut",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chestnut",
+    "chestnuts"
+   ],
+   "glossEn": "sweet brown nut roasted in winter",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "4ef306fa-468f-5d96-8c42-b5d5e94b5599",
+   "lemma": "pecan",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pecan",
+    "pecans"
+   ],
+   "glossEn": "sweet oily nut used in American pies",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "6f0fe5de-dc52-5355-84c0-9c1a1fc4142b",
+   "lemma": "sprout",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sprout",
+    "sprouts"
+   ],
+   "glossEn": "young shoot of a bean or seed eaten raw",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "342aa799-53bc-56cd-a3fe-117499d4daed",
+   "lemma": "venison",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "venison"
+   ],
+   "glossEn": "meat from a deer",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "1eb29484-fee5-558a-81eb-67149744ff15",
+   "lemma": "prosciutto",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prosciutto"
+   ],
+   "glossEn": "thin-sliced Italian dry-cured ham",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "fdd1178b-6a14-55fc-b222-f5f8b8b56ec7",
+   "lemma": "brisket",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brisket",
+    "briskets"
+   ],
+   "glossEn": "beef from the chest, cooked slowly",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "92d1ae17-47cc-50aa-8422-74d96e3aa470",
+   "lemma": "sirloin",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sirloin",
+    "sirloins"
+   ],
+   "glossEn": "tender beef cut from the lower back",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "1817a591-60d4-5331-a20c-056c6f8e4331",
+   "lemma": "tenderloin",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tenderloin",
+    "tenderloins"
+   ],
+   "glossEn": "most tender strip of beef or pork",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "2c97a217-d458-516f-997f-b5466f709b91",
+   "lemma": "drumstick",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "drumstick",
+    "drumsticks"
+   ],
+   "glossEn": "lower leg of a cooked chicken",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "fb06e530-dccb-580a-9c42-3b8fee5cfa5e",
+   "lemma": "jerky",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jerky"
+   ],
+   "glossEn": "strips of dried salted meat",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "6e847d8c-bebc-50d3-837e-33ff438b194d",
+   "lemma": "pâté",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pâté",
+    "pate",
+    "pâtés"
+   ],
+   "glossEn": "smooth spread of finely ground meat or liver",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "1359d27a-5772-597a-911d-d2fac45cbebd",
+   "lemma": "goulash",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "goulash"
+   ],
+   "glossEn": "Hungarian meat stew with paprika",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "7d876bdc-5c0c-588e-b90a-abb99874f390",
+   "lemma": "chowder",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chowder",
+    "chowders"
+   ],
+   "glossEn": "thick creamy soup with fish or corn",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "fd58635c-1384-5c11-ab8e-b839da25ffe9",
+   "lemma": "gnocchi",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gnocchi"
+   ],
+   "glossEn": "small soft Italian potato dumplings",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "a8521baa-a136-51dc-821f-4b89f62e2fc5",
+   "lemma": "paella",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "paella",
+    "paellas"
+   ],
+   "glossEn": "Spanish rice dish with seafood or meat",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "95465d70-e49f-57a0-b128-20ce30d73335",
+   "lemma": "pilaf",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pilaf",
+    "pilau",
+    "plov"
+   ],
+   "glossEn": "rice cooked in broth with meat or spices",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "c0e0b3f6-fe43-5e02-b272-951304a243a3",
+   "lemma": "quiche",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quiche",
+    "quiches"
+   ],
+   "glossEn": "open savory tart filled with eggs and cream",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  }
+ ]
+}

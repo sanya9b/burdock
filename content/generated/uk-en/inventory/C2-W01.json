@@ -1,0 +1,527 @@
+{
+ "chunk": "C2-W01",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "3ff28f2f-c21a-5d7b-b161-7f4cad6d6bb6",
+   "lemma": "explicate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "explicate"
+   ],
+   "glossEn": "analyze and explain an idea in detail",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "c9d92830-4372-5478-802d-ae105a9c720f",
+   "lemma": "tautological",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tautological"
+   ],
+   "glossEn": "repeating an idea in different words needlessly",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "1005069e-dd19-5d26-921b-e69d3ddd2b04",
+   "lemma": "circularity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "circularity"
+   ],
+   "glossEn": "flaw of assuming what one is trying to prove",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "bd025d30-3851-5fa6-ae29-17bd65e63d41",
+   "lemma": "fallibility",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fallibility"
+   ],
+   "glossEn": "tendency to make mistakes or be wrong",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "88e621cf-1139-5efc-a3f0-4bafb0fa11b4",
+   "lemma": "infallible",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "infallible"
+   ],
+   "glossEn": "incapable of making mistakes or being wrong",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "49f7b095-19fd-54f6-bd8e-34156a5fb6e1",
+   "lemma": "empiricism",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "empiricism"
+   ],
+   "glossEn": "view that knowledge comes from experience and observation",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "985a6940-0d08-53c0-b687-6abd846c57a6",
+   "lemma": "conflate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "conflate"
+   ],
+   "glossEn": "wrongly treat two distinct things as one",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "b7ba0c3e-704c-5d94-9efe-777a55cff898",
+   "lemma": "conflation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "conflation"
+   ],
+   "glossEn": "merging of two distinct ideas into one",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "95ebc6ee-9ec2-58df-91a1-8fcff9a181b6",
+   "lemma": "extrapolation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "extrapolation"
+   ],
+   "glossEn": "conclusion extended beyond the available evidence",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "b5a93dc2-ca79-508b-9f69-8b60a99e331a",
+   "lemma": "reductive",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reductive"
+   ],
+   "glossEn": "oversimplifying something complex in a crude way",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "750c140c-0527-5c56-8c63-9d09b98d325f",
+   "lemma": "antithesis",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "antithesis"
+   ],
+   "glossEn": "exact opposite of something",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "ae3adb45-7d19-5de2-9252-784cd5699385",
+   "lemma": "incontrovertible",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incontrovertible"
+   ],
+   "glossEn": "impossible to deny or dispute",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "1039c133-a9c7-584d-8487-7ee5b389b57f",
+   "lemma": "irrefutable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "irrefutable"
+   ],
+   "glossEn": "impossible to prove wrong",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "b883c4d9-1f07-5450-9e0c-55d47bfe4252",
+   "lemma": "indefensible",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "indefensible"
+   ],
+   "glossEn": "impossible to justify or defend",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "56755f10-994b-53a7-bfbb-3ff8b011d1a1",
+   "lemma": "tendentious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tendentious"
+   ],
+   "glossEn": "promoting a biased point of view",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "21265ac9-9663-53b6-97ea-7b8c5392c40e",
+   "lemma": "moot",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "moot"
+   ],
+   "glossEn": "open to debate or no longer relevant",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "970467d8-6b26-5eb7-9f3d-3b58a173dd07",
+   "lemma": "presumptive",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "presumptive"
+   ],
+   "glossEn": "assumed to be the case until proven otherwise",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "86707c4a-a114-5738-90f7-b2786d732719",
+   "lemma": "refutation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "refutation"
+   ],
+   "glossEn": "act of proving a statement false",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "5715ac33-7c65-5913-8547-980409a8196f",
+   "lemma": "ostensible",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ostensible"
+   ],
+   "glossEn": "stated or appearing to be true, but not",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "a2bf054f-0aa6-5f5c-96a9-cee828cd74d3",
+   "lemma": "purported",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "purported"
+   ],
+   "glossEn": "claimed to be, without proof",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "f2937c83-6a00-5c58-abdb-726888927a5f",
+   "lemma": "putative",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "putative"
+   ],
+   "glossEn": "generally supposed to be, though uncertain",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "2da20019-1099-5c85-b646-60bfa2df3036",
+   "lemma": "supposition",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "supposition"
+   ],
+   "glossEn": "belief held without proof",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "33d93c59-adbf-5353-abab-232fd243e5d9",
+   "lemma": "conjectural",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "conjectural"
+   ],
+   "glossEn": "based on guesswork rather than evidence",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "86d61595-5b41-5cdf-a005-bd9613d2c74b",
+   "lemma": "misapprehension",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "misapprehension"
+   ],
+   "glossEn": "mistaken belief about something",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "cbd688b5-639b-510a-a784-371b95367d34",
+   "lemma": "unfathomable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unfathomable"
+   ],
+   "glossEn": "impossible to understand",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "07d02e87-48c4-5bf7-811b-489dd28026de",
+   "lemma": "inscrutable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inscrutable"
+   ],
+   "glossEn": "impossible to understand or interpret",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "1599edbe-4489-5a20-bba4-4414e2000cc0",
+   "lemma": "impenetrable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "impenetrable"
+   ],
+   "glossEn": "impossible to understand; too dense",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "d5ed887f-45e5-59f6-8910-994db283085c",
+   "lemma": "opaque",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "opaque"
+   ],
+   "glossEn": "hard to understand; not transparent",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "c2240fe9-0353-5bd3-bbc6-92efd16d56cf",
+   "lemma": "opacity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "opacity"
+   ],
+   "glossEn": "quality of being hard to understand",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "46571338-a739-5e6b-819f-5d8b114c8780",
+   "lemma": "cognizant",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cognizant",
+    "cognisant"
+   ],
+   "glossEn": "having knowledge or awareness of something",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "dfdb4fda-7d4c-5c35-8331-7b584c5763f9",
+   "lemma": "epistemic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "epistemic"
+   ],
+   "glossEn": "relating to knowledge or its validity",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "f95d0f55-ff44-5047-b12f-0d40784b6f46",
+   "lemma": "omniscient",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "omniscient"
+   ],
+   "glossEn": "knowing everything",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "4e83c797-eead-5060-9646-98ba710ce3e3",
+   "lemma": "infallibility",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "infallibility"
+   ],
+   "glossEn": "inability to be wrong",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "8a32b8b4-c3cb-5b70-8056-917780155c3f",
+   "lemma": "credulous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "credulous"
+   ],
+   "glossEn": "too ready to believe things",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "84ce555b-97d3-5ac5-aac5-30da2b4d4b06",
+   "lemma": "credulity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "credulity"
+   ],
+   "glossEn": "tendency to believe too readily",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "1bf0b509-2e3a-573f-afc9-a3850c7e591d",
+   "lemma": "incredulity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incredulity"
+   ],
+   "glossEn": "state of being unwilling to believe",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "d581fdb6-ac6a-53e9-b5ec-f5ab954ad22d",
+   "lemma": "veracity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "veracity"
+   ],
+   "glossEn": "accuracy or truthfulness",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "1c40fce3-8462-5b8a-8a27-399f1cb1edf5",
+   "lemma": "falsity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "falsity"
+   ],
+   "glossEn": "state of being untrue",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "c04633c0-81d8-501b-b6b0-e5af0dd99e36",
+   "lemma": "falsify",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "falsify"
+   ],
+   "glossEn": "prove a theory false; alter dishonestly",
+   "topics": [],
+   "area": "abstract-thought"
+  },
+  {
+   "id": "a603a98f-9e9b-5bb2-806f-8ac61ae60a4d",
+   "lemma": "falsifiable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "falsifiable"
+   ],
+   "glossEn": "able in principle to be proven false",
+   "topics": [],
+   "area": "abstract-thought"
+  }
+ ]
+}

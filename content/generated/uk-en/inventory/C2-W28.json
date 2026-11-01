@@ -1,0 +1,556 @@
+{
+ "chunk": "C2-W28",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "1de2cd6c-dfcf-5f39-a0b8-b12b291edb9a",
+   "lemma": "populace",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "populace"
+   ],
+   "glossEn": "the general population of a place",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "064a88cf-ad63-5603-bf21-374a1b1115ca",
+   "lemma": "amoral",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "amoral"
+   ],
+   "glossEn": "lacking any sense of right and wrong",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "60e868ed-f795-5e46-970d-dc78628c4050",
+   "lemma": "rectitude",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rectitude"
+   ],
+   "glossEn": "morally correct behavior or thinking",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "2a540477-d3c4-598e-b505-c85f3c910644",
+   "lemma": "scruple",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scruple"
+   ],
+   "glossEn": "moral doubt that prevents a wrong action",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "fc6ca9bc-c29c-57f7-8ed3-a942c097b244",
+   "lemma": "unprincipled",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unprincipled"
+   ],
+   "glossEn": "without moral principles",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "69e065e0-cbce-5791-a390-ea3f629b277b",
+   "lemma": "answerable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "answerable"
+   ],
+   "glossEn": "required to explain one's actions to someone",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "faf80a34-68cc-5dfc-9a56-9f47c447dff1",
+   "lemma": "blameworthy",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blameworthy"
+   ],
+   "glossEn": "deserving blame",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "a6e9be77-1d23-5d91-a6ed-a9713484dcfc",
+   "lemma": "reprehensible",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reprehensible"
+   ],
+   "glossEn": "deserving strong condemnation",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "1d3c7820-2fea-5091-a150-d084e1e41cad",
+   "lemma": "denunciation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "denunciation"
+   ],
+   "glossEn": "public condemnation of someone or something",
+   "topics": [
+    "communication"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "c6d66add-9ae8-53f5-8149-ea38ef70aa48",
+   "lemma": "ostracism",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ostracism"
+   ],
+   "glossEn": "exclusion from a society or group",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "56983c91-4380-5d43-b6cc-fc5201911278",
+   "lemma": "defame",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "defame"
+   ],
+   "glossEn": "damage someone's reputation with false statements",
+   "topics": [
+    "communication"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "8952c934-b41b-5ef9-be4b-f5f75d358a2c",
+   "lemma": "slanderous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "slanderous"
+   ],
+   "glossEn": "containing spoken false damaging statements",
+   "topics": [
+    "communication"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "cbdc834b-abcb-59a4-8f6c-17ed3bf0562a",
+   "lemma": "coercive",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "coercive"
+   ],
+   "glossEn": "using force or threats to make people obey",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "88aeff1f-43e5-5afe-a1a3-457337b6815a",
+   "lemma": "duress",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "duress"
+   ],
+   "glossEn": "threats or force used to make someone act",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "03fc0fc1-a67f-5f4d-a88b-b820ad919e4f",
+   "lemma": "mandarin",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mandarin"
+   ],
+   "glossEn": "powerful senior civil servant",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "3dd5a71b-455f-56ce-96e0-0e2290cbd821",
+   "lemma": "functionary",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "functionary"
+   ],
+   "glossEn": "official who performs routine duties",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "b7b1dd06-bc9c-54ee-8b20-a6115c92a366",
+   "lemma": "sinecure",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sinecure"
+   ],
+   "glossEn": "paid position requiring little or no work",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "6424e230-9b40-5b09-b210-0860ba3a04f4",
+   "lemma": "clientelism",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "clientelism"
+   ],
+   "glossEn": "exchange of favors for political support",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "d33b2fe0-65b8-54cb-b52a-0ecd0a90f838",
+   "lemma": "meritocratic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "meritocratic"
+   ],
+   "glossEn": "rewarding people according to ability",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "2c67d879-2416-5a96-8cdd-55a256d2ae0c",
+   "lemma": "mayoral",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mayoral"
+   ],
+   "glossEn": "relating to a mayor",
+   "topics": [
+    "city"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "37521970-606c-52cf-8262-57b0a5300169",
+   "lemma": "preamble",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "preamble"
+   ],
+   "glossEn": "introductory statement of a document or law",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "3c4da411-6f5a-5c08-ba22-9ef2061d3fb1",
+   "lemma": "stipulation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stipulation"
+   ],
+   "glossEn": "condition specified in an agreement",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "cc1f49e3-cf41-5acf-bdf5-f8c9f1292bb1",
+   "lemma": "fiat",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fiat"
+   ],
+   "glossEn": "order issued by authority without consultation",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "cb72956c-932c-514f-a5fe-d9e8c09208b9",
+   "lemma": "derogation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "derogation"
+   ],
+   "glossEn": "partial exemption from a law or rule",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "07d7cc82-0b2f-5e71-8bce-a2b5150a2ff7",
+   "lemma": "dossier",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dossier"
+   ],
+   "glossEn": "collection of documents about a person or subject",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "76de8873-f143-525b-8f14-aacea1e68d24",
+   "lemma": "accredit",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "accredit"
+   ],
+   "glossEn": "officially recognize as meeting standards",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "d225d141-3fb2-5f33-92cf-7d5f5cddc1eb",
+   "lemma": "outlay",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "outlay"
+   ],
+   "glossEn": "amount of money spent on something",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "faa98a3e-e79d-50bd-a57f-39bac81e9618",
+   "lemma": "appropriation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "appropriation"
+   ],
+   "glossEn": "money set aside by a legislature for a purpose",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "e7921beb-3e37-5fd8-a698-685b219dd757",
+   "lemma": "exchequer",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "exchequer"
+   ],
+   "glossEn": "government department responsible for public funds",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "cd82c21b-c0ca-5a63-a8f1-72b518507271",
+   "lemma": "inspectorate",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inspectorate"
+   ],
+   "glossEn": "body of officials who inspect",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "668b13cb-4f77-5731-ae04-77547d1bee79",
+   "lemma": "officialdom",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "officialdom"
+   ],
+   "glossEn": "officials as a group, especially when obstructive",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "43373aad-a7ff-5f9f-813a-d95edf2093ae",
+   "lemma": "supermajority",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "supermajority",
+    "super-majority"
+   ],
+   "glossEn": "majority larger than a simple majority",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "19dbfc5e-f5e2-5e62-8f31-2672bbe855af",
+   "lemma": "retrenchment",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "retrenchment"
+   ],
+   "glossEn": "reduction of costs or spending in response to difficulty",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "c3973da0-41ff-5288-bb23-d05645141a2c",
+   "lemma": "forfeiture",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "forfeiture"
+   ],
+   "glossEn": "loss of property or rights as a penalty",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "fa53ae99-6191-529a-9dc2-a245efc8e844",
+   "lemma": "expropriation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "expropriation"
+   ],
+   "glossEn": "state taking of private property",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "fb268708-cee9-526e-8b9f-a9dc01323d39",
+   "lemma": "attestation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "attestation"
+   ],
+   "glossEn": "formal evidence or proof that something is true",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "b029bf36-d5bb-5ee6-8785-bccaf680ec8f",
+   "lemma": "notarize",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "notarize",
+    "notarise"
+   ],
+   "glossEn": "certify a document officially as a notary",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "9e28fdb3-ed8b-5ddf-9244-4b546fd7c639",
+   "lemma": "institutionalize",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "institutionalize",
+    "institutionalise"
+   ],
+   "glossEn": "establish as a norm within an organization",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "20be2818-c981-536e-8ea4-a2c50bf5a314",
+   "lemma": "emissary",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "emissary"
+   ],
+   "glossEn": "person sent on a special mission as a representative",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "110aaf47-d50b-527e-9475-b40ec15f6a62",
+   "lemma": "attaché",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "attaché",
+    "attache"
+   ],
+   "glossEn": "specialist attached to an embassy",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  }
+ ]
+}

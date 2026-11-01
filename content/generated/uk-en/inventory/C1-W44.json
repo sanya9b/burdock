@@ -1,0 +1,670 @@
+{
+ "chunk": "C1-W44",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "e7bca13c-c432-56ce-9f32-6e93ac88453b",
+   "lemma": "panic-buying",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "panic-buying",
+    "panic buying"
+   ],
+   "glossEn": "buying large amounts out of fear of shortages",
+   "topics": [
+    "shopping",
+    "military"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "2067aeab-9e7a-57c0-8fc2-d4c8e8e5027c",
+   "lemma": "deadstock",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deadstock",
+    "dead stock"
+   ],
+   "glossEn": "unsold goods never worn or used, now resold",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "44ecc25b-bb4e-54ac-9216-6d049f6dab2d",
+   "lemma": "sellout",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sellout",
+    "sellouts",
+    "sell-out",
+    "sell-outs"
+   ],
+   "glossEn": "product or event for which every unit was sold",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "499ff986-e0a8-5a69-9855-7df94132140e",
+   "lemma": "flagship",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flagship",
+    "flagships"
+   ],
+   "glossEn": "most important, of a brand's store or product",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "ddc67be7-266d-5db7-b0f9-166794175e63",
+   "lemma": "bagger",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bagger",
+    "baggers"
+   ],
+   "glossEn": "store worker who packs groceries into bags",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "d22b1a09-178e-5260-8ac6-87a8e53bc3c1",
+   "lemma": "exchangeable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "exchangeable"
+   ],
+   "glossEn": "allowed to be swapped for another item",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "f51a2b8b-d118-5aa1-b95f-6c08a6073d7b",
+   "lemma": "shrink-wrap",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shrink-wrap",
+    "shrink wrap",
+    "shrinkwrap"
+   ],
+   "glossEn": "thin plastic film shrunk tightly around a product",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "6ce1af2c-01da-5e46-ad38-6a5f5deade96",
+   "lemma": "e-receipt",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "e-receipt",
+    "e-receipts",
+    "digital receipt"
+   ],
+   "glossEn": "proof of purchase sent by email instead of paper",
+   "topics": [
+    "shopping",
+    "it"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "6b609ddf-c9b4-5272-b796-579ebeca4415",
+   "lemma": "itemized",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "itemized",
+    "itemised"
+   ],
+   "glossEn": "listing every item and its price separately",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "75042bad-e9ce-540b-8eaa-5bd26f2542d5",
+   "lemma": "watermark",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "watermark",
+    "watermarks"
+   ],
+   "glossEn": "faint design in banknotes that proves they are real",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "3adc3bdd-5ca3-5026-8f74-39315c1de27e",
+   "lemma": "hologram",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hologram",
+    "holograms"
+   ],
+   "glossEn": "shiny 3D image on cards or goods against forgery",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "f8d77b6a-0691-5831-956a-9e1f219f96f9",
+   "lemma": "nonperishable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nonperishable",
+    "non-perishable",
+    "nonperishables"
+   ],
+   "glossEn": "able to be stored a long time without going bad",
+   "topics": [
+    "shopping",
+    "food",
+    "military"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "10d10eb3-666c-5456-b06f-789dc421d317",
+   "lemma": "SKU",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "SKU",
+    "SKUs",
+    "stock-keeping unit"
+   ],
+   "glossEn": "unique code identifying one product in stock",
+   "topics": [
+    "shopping",
+    "it",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "a43ba76b-85e4-5f79-b394-6bff4bf8110f",
+   "lemma": "planogram",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "planogram",
+    "planograms"
+   ],
+   "glossEn": "diagram showing where products go on store shelves",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "cd1c1e06-7772-5af2-b380-767c419afe43",
+   "lemma": "shrinkage",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shrinkage"
+   ],
+   "glossEn": "loss of store stock through theft, damage or error",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "9b7318f6-434f-5680-913d-d01d702279eb",
+   "lemma": "footfall",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "footfall",
+    "foot traffic"
+   ],
+   "glossEn": "number of people entering a store",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "850e68ba-8298-51c3-a154-919323e32e77",
+   "lemma": "endcap",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "endcap",
+    "endcaps",
+    "end cap",
+    "end caps"
+   ],
+   "glossEn": "product display at the end of a store aisle",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "88c6e280-7426-5306-ac48-6149ccaa07da",
+   "lemma": "emporium",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "emporium",
+    "emporiums",
+    "emporia"
+   ],
+   "glossEn": "large store selling many kinds of goods",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "46fcb0f9-be4a-51f8-8d48-072f34b7d320",
+   "lemma": "haberdashery",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "haberdashery",
+    "haberdasheries"
+   ],
+   "glossEn": "shop selling sewing items such as buttons and thread",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "d91f841a-8977-5968-9186-57371fd50781",
+   "lemma": "retargeting",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "retargeting",
+    "re-targeting"
+   ],
+   "glossEn": "showing ads to people who viewed a product earlier",
+   "topics": [
+    "shopping",
+    "it"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "8341e8d7-818a-568c-8f69-1b7ef36721f9",
+   "lemma": "last-mile",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "last-mile",
+    "last mile"
+   ],
+   "glossEn": "relating to the final delivery stage to the customer",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "10dc60bd-1d45-5f92-aea0-ea24328c2f49",
+   "lemma": "waybill",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "waybill",
+    "waybills"
+   ],
+   "glossEn": "document listing the goods in a shipment",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "ed6523bb-1247-550d-bfdb-4f1f7e14c33c",
+   "lemma": "dynamic pricing",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dynamic pricing"
+   ],
+   "glossEn": "prices that change with demand or time",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "7d357406-ec4e-594b-ab78-294c65b58328",
+   "lemma": "porch pirate",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "porch pirate",
+    "porch pirates"
+   ],
+   "glossEn": "thief who steals delivered parcels from doorsteps",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "3b9619de-afa6-5511-8b1b-03b2c1788531",
+   "lemma": "APR",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "APR",
+    "APRs"
+   ],
+   "glossEn": "annual percentage rate of interest on credit",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "9d2d69da-71c5-5f0c-b05a-bd2e042610c6",
+   "lemma": "pre-authorization",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pre-authorization",
+    "pre-authorizations",
+    "preauthorization",
+    "pre-authorisation"
+   ],
+   "glossEn": "temporary hold of funds on a card before payment",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "6cab22be-970c-5246-b4c5-0cfaf49862e0",
+   "lemma": "rent-to-own",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rent-to-own",
+    "rent to own"
+   ],
+   "glossEn": "rented with payments counting toward ownership",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "43dc4d99-20be-5f28-b67f-8b9d0280b1a4",
+   "lemma": "hire purchase",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hire purchase",
+    "hire-purchase"
+   ],
+   "glossEn": "buying in installments while using the item",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "1ab6e166-80bf-52a9-8741-b20b02cfa91c",
+   "lemma": "denomination",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "denomination",
+    "denominations"
+   ],
+   "glossEn": "face value of a banknote or coin",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "9a9e744c-0b37-5746-b32d-7536d0142b14",
+   "lemma": "tax-exempt",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tax-exempt",
+    "tax exempt"
+   ],
+   "glossEn": "legally free from paying tax",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "cfec6a04-5a30-5dee-b48d-e62888a846df",
+   "lemma": "repossession",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "repossession",
+    "repossessions"
+   ],
+   "glossEn": "taking back goods when payments are not made",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "c2b480cf-09a9-5574-9653-0c03598a7ae1",
+   "lemma": "monogram",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "monogram",
+    "monograms",
+    "monogrammed"
+   ],
+   "glossEn": "design of a person's initials sewn on an item",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "51f8917e-6c6b-5139-8c4b-d3c1a6d5b893",
+   "lemma": "placket",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "placket",
+    "plackets"
+   ],
+   "glossEn": "fabric strip holding the buttons on a shirt front",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "8bcab4d7-1e95-502e-94dc-967b959bd251",
+   "lemma": "gusset",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gusset",
+    "gussets",
+    "gusseted"
+   ],
+   "glossEn": "extra piece of fabric sewn in to add room",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "61d88203-de2d-5de9-a11a-98a4fa1b22e5",
+   "lemma": "rayon",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rayon",
+    "viscose"
+   ],
+   "glossEn": "soft fabric made from wood pulp fiber",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "d8995b23-eed2-5faf-b6da-9f2db7d733bc",
+   "lemma": "twill",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "twill"
+   ],
+   "glossEn": "fabric woven with diagonal ridges, as in jeans",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "1998d3eb-6be1-59b0-8554-2b3e0a46dd82",
+   "lemma": "herringbone",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "herringbone"
+   ],
+   "glossEn": "zigzag woven pattern used in suits and coats",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "ffd64fcb-53fd-5039-b10d-a622c2aa4421",
+   "lemma": "colorway",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "colorway",
+    "colorways",
+    "colourway"
+   ],
+   "glossEn": "one of the color combinations a product comes in",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "6736dc93-5443-5192-a383-b2d054fb4901",
+   "lemma": "preshrunk",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "preshrunk",
+    "pre-shrunk"
+   ],
+   "glossEn": "already shrunk before sale so it keeps its size",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "6ff3a1d3-bac4-5f08-946b-3c981b537ae2",
+   "lemma": "hosiery",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hosiery"
+   ],
+   "glossEn": "socks, tights and stockings as a store category",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  }
+ ]
+}

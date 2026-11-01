@@ -1,0 +1,543 @@
+{
+ "chunk": "C2-W24",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "ceb64756-afac-5cdb-a087-55aeed2cab00",
+   "lemma": "drought-resistant",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "drought-resistant",
+    "drought resistant"
+   ],
+   "glossEn": "able to survive long periods without rain",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "bc06e13d-3eb8-5136-85c8-0cdb71a7dd18",
+   "lemma": "moor",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "moor",
+    "moorland"
+   ],
+   "glossEn": "open uncultivated upland covered with heather",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "2785e27e-1ccd-5b33-b76c-281b95a03bb1",
+   "lemma": "taiga",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "taiga"
+   ],
+   "glossEn": "vast northern forest of conifers",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "8cf0126d-0f55-52c8-9ceb-b7251d14b5b2",
+   "lemma": "boreal",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "boreal"
+   ],
+   "glossEn": "relating to the cold forest regions of the north",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "fc87a66f-eeb9-537a-a23c-b6b7f7d53096",
+   "lemma": "upland",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "upland",
+    "uplands"
+   ],
+   "glossEn": "high or hilly area of land",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "0d47d3cc-9bbc-54c5-a24c-aef20b3d7590",
+   "lemma": "biosphere",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "biosphere"
+   ],
+   "glossEn": "all parts of Earth where life exists",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "5f974ae8-f2d6-585c-8853-d9b90a821719",
+   "lemma": "shrivel",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shrivel"
+   ],
+   "glossEn": "shrink and wrinkle from heat or dryness",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "f7b2eaf4-f9dd-5a18-bc53-1ac32b97b851",
+   "lemma": "clear-cut",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "clear-cut",
+    "clearcut",
+    "clear cut"
+   ],
+   "glossEn": "cut down every tree in an area",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "4e36c1f2-7261-5521-acc9-e25bd0656fca",
+   "lemma": "understory",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "understory",
+    "understorey"
+   ],
+   "glossEn": "layer of plants growing beneath forest trees",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "78069e25-8d9e-59c5-9a5f-4569bbef8205",
+   "lemma": "copse",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "copse"
+   ],
+   "glossEn": "small group of trees",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "379067ce-70c2-53e0-ad44-b75202d99e8b",
+   "lemma": "hedgerow",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hedgerow"
+   ],
+   "glossEn": "line of bushes dividing fields",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "45b075a3-efec-59ea-b017-19d58de3ad4a",
+   "lemma": "humus",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "humus"
+   ],
+   "glossEn": "dark rich soil from decayed plants",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "992438df-8298-5c37-8f1c-bd52c64d3cd0",
+   "lemma": "loam",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "loam"
+   ],
+   "glossEn": "fertile soil of sand, clay and decayed matter",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "a374def1-3f5d-59bf-811e-295771b34811",
+   "lemma": "incineration",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incineration"
+   ],
+   "glossEn": "burning waste to ashes",
+   "topics": [
+    "city"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "d2608cd0-aa04-5bc6-aed8-e9a1c1707bd6",
+   "lemma": "plume",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "plume"
+   ],
+   "glossEn": "long spreading cloud of smoke or pollution",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "42c0af94-6fb0-52e4-80f6-73d7025bca72",
+   "lemma": "seepage",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "seepage"
+   ],
+   "glossEn": "slow leaking of liquid through small openings",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "c396a256-9a46-5ddc-8e51-df85be6f0eeb",
+   "lemma": "cull",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cull"
+   ],
+   "glossEn": "kill some animals to reduce their numbers",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "4c3f199c-3395-5596-ac99-2312edb229a5",
+   "lemma": "overgrazing",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overgrazing",
+    "over-grazing"
+   ],
+   "glossEn": "damage to land from too many grazing animals",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "e55b6feb-165b-5e5b-86cc-834d269a416c",
+   "lemma": "escarpment",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "escarpment"
+   ],
+   "glossEn": "long steep slope at the edge of a plateau",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "eff0eb08-3cf0-5810-b89e-594ab04201f6",
+   "lemma": "bluff",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bluff"
+   ],
+   "glossEn": "steep cliff or bank beside water",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "02fee780-712a-58bf-97f0-0dd0e571797b",
+   "lemma": "headland",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "headland"
+   ],
+   "glossEn": "high point of land jutting into the sea",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "a1812f7b-78d7-5954-9347-fa5ddf85f9db",
+   "lemma": "isthmus",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "isthmus"
+   ],
+   "glossEn": "narrow strip of land joining two larger areas",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "21e53b90-8376-50cb-b013-13b9503e1581",
+   "lemma": "atoll",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "atoll"
+   ],
+   "glossEn": "ring-shaped coral island around a lagoon",
+   "topics": [
+    "travel"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "ac25c451-d289-5f89-8ac0-dc6e892958a5",
+   "lemma": "mesa",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mesa"
+   ],
+   "glossEn": "flat-topped hill with steep sides",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "a33478b2-e659-5b2b-8075-06d2c5735804",
+   "lemma": "outcrop",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "outcrop"
+   ],
+   "glossEn": "rock that sticks out of the ground",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "67bda4bb-5c02-52e4-b297-6c2e5dee19e9",
+   "lemma": "caldera",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "caldera"
+   ],
+   "glossEn": "huge crater left by a collapsed volcano",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "15c956b9-9ebd-59ae-b615-c5d625bbf3d8",
+   "lemma": "seismograph",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "seismograph",
+    "seismometer"
+   ],
+   "glossEn": "instrument that records earthquakes",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "80cfebc6-2de6-534f-afaf-5a227e7c83e7",
+   "lemma": "subduction",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subduction"
+   ],
+   "glossEn": "sliding of one tectonic plate beneath another",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "50d7770d-2af5-574f-9c05-0efd4aae2b2f",
+   "lemma": "meridian",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "meridian"
+   ],
+   "glossEn": "imaginary line from pole to pole",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "50c2b610-ce50-59eb-b780-8bd30d3a33af",
+   "lemma": "rain shadow",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rain shadow"
+   ],
+   "glossEn": "dry area sheltered from rain by mountains",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "e143a77c-adc4-5086-b311-823d0871942b",
+   "lemma": "windward",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "windward"
+   ],
+   "glossEn": "facing the direction the wind comes from",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "1a526f89-2931-5a31-957e-9185a4b91c8f",
+   "lemma": "leeward",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "leeward"
+   ],
+   "glossEn": "sheltered from the wind",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "5fcbf817-a005-5936-a48b-f2e3a5cab869",
+   "lemma": "trade wind",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "trade wind"
+   ],
+   "glossEn": "steady tropical wind blowing toward the equator",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "5ba2fc9f-8aad-54ee-b449-aa030b0fdd60",
+   "lemma": "thunderclap",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "thunderclap"
+   ],
+   "glossEn": "single loud crash of thunder",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "1e10a3bf-42ad-5b15-95cb-36ca035e208d",
+   "lemma": "steppe",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "steppe"
+   ],
+   "glossEn": "vast dry grassy plain without trees",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "1b03439a-1df9-54f0-ba4a-ea96bccc8950",
+   "lemma": "waterspout",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "waterspout"
+   ],
+   "glossEn": "tornado-like column of water over the sea",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "f1854d8c-b2c6-5c16-a33f-0454ff8fadd2",
+   "lemma": "tempest",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tempest"
+   ],
+   "glossEn": "violent windy storm",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "e4555d71-daf8-5b96-b0af-669268a60557",
+   "lemma": "gully",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gully",
+    "gulley"
+   ],
+   "glossEn": "narrow channel cut by running water",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "bcd4b071-4cbe-5474-8e78-3603850be460",
+   "lemma": "hoarfrost",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hoarfrost",
+    "hoar frost"
+   ],
+   "glossEn": "white feathery frost on cold surfaces",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "d21516c2-23fb-51bb-b748-dbb1b9b3e61c",
+   "lemma": "fjord",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fjord",
+    "fiord"
+   ],
+   "glossEn": "long narrow sea inlet between steep cliffs",
+   "topics": [
+    "travel"
+   ],
+   "area": "science-nature"
+  }
+ ]
+}

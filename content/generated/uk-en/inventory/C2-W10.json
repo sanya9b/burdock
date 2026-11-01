@@ -1,0 +1,545 @@
+{
+ "chunk": "C2-W10",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "608e07cb-19a5-553e-baca-9f4461afec8a",
+   "lemma": "iridescent",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "iridescent"
+   ],
+   "glossEn": "showing shimmering, changing rainbow colors",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "f47cbff4-9a21-59ce-8e94-ecd65796d9a7",
+   "lemma": "lustrous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lustrous"
+   ],
+   "glossEn": "having a soft glowing shine",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "9d5526c5-0aad-5251-b43e-ac8435860531",
+   "lemma": "draftsmanship",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "draftsmanship",
+    "draughtsmanship"
+   ],
+   "glossEn": "skill in drawing",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "bd0c23d2-ed53-507f-bfee-c4576ac44d61",
+   "lemma": "vernissage",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vernissage"
+   ],
+   "glossEn": "private preview of an art exhibition",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "648d0710-bffa-5379-ac09-ea09b7e0f8b0",
+   "lemma": "kerning",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "kerning"
+   ],
+   "glossEn": "adjusting the spacing between letters",
+   "topics": [
+    "it"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "60257399-0121-5386-a5f9-4d596a390bf9",
+   "lemma": "lithography",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lithography"
+   ],
+   "glossEn": "printing from a flat stone or metal plate",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "9a6cdc8b-b7a9-5903-8eef-4ffe54addc1a",
+   "lemma": "facsimile",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "facsimile"
+   ],
+   "glossEn": "exact copy of a document or artwork",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "9b059758-d150-57b6-b1f6-4c64b2bd3495",
+   "lemma": "biennale",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "biennale",
+    "biennial"
+   ],
+   "glossEn": "large international art exhibition held every two years",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "b17754bb-482f-55dd-bce9-8413fa5c37ef",
+   "lemma": "docent",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "docent"
+   ],
+   "glossEn": "volunteer guide in a museum or gallery",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "753792fa-d8d8-55cd-8e9c-cc32aa9c1e91",
+   "lemma": "curatorial",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "curatorial"
+   ],
+   "glossEn": "relating to the selection and care of exhibits",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "979daf0c-efbc-51e2-bec6-655d26196540",
+   "lemma": "archival",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "archival"
+   ],
+   "glossEn": "relating to or preserved in archives",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "b3c18a49-4c35-5ccc-a98f-8900a50cd721",
+   "lemma": "bequest",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bequest"
+   ],
+   "glossEn": "money or property left in a will",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "35dcec50-8172-5db3-9acf-cd7d64ea0429",
+   "lemma": "bequeath",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bequeath"
+   ],
+   "glossEn": "leave property to someone in a will",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "19782437-d2c0-5a89-8ba5-aad62ddbf4ba",
+   "lemma": "emblematic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "emblematic"
+   ],
+   "glossEn": "serving as a symbol of something",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "460bf40d-e791-5fc6-8bd4-540ecb6b744b",
+   "lemma": "opulent",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "opulent"
+   ],
+   "glossEn": "luxurious and richly decorated",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "03caebb4-31cf-53a4-891b-60c195bf75d3",
+   "lemma": "sumptuous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sumptuous"
+   ],
+   "glossEn": "splendid, luxurious and expensive-looking",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "2746f3e0-5f12-53a1-b111-2071dbc24df8",
+   "lemma": "gestalt",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gestalt"
+   ],
+   "glossEn": "whole perceived as more than its parts",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "a9ac360a-821b-54df-98fd-2ac6e45aa570",
+   "lemma": "atelier",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "atelier"
+   ],
+   "glossEn": "artist's or designer's workshop",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "7883ecf9-916d-5111-b523-8cbfb833ae94",
+   "lemma": "virtuosity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "virtuosity"
+   ],
+   "glossEn": "outstanding technical skill in art or music",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "d098a1d3-db26-5f21-a7e8-a93195e2d2d8",
+   "lemma": "matriculate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "matriculate"
+   ],
+   "glossEn": "formally enroll at a university",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "330f9df9-3bbd-5a42-a086-1fb5b96aaf62",
+   "lemma": "matriculation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "matriculation"
+   ],
+   "glossEn": "formal admission to a university",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "8981af02-d7cd-5eb4-bbed-911e8abd63e5",
+   "lemma": "convocation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "convocation"
+   ],
+   "glossEn": "formal university assembly, especially for graduation",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "c115bb65-e4a6-57b0-97d8-ad84c799759d",
+   "lemma": "valedictory",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "valedictory"
+   ],
+   "glossEn": "relating to a farewell, especially a graduation speech",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "c28f617c-27c7-5cac-8559-8bcaf0f0470f",
+   "lemma": "colloquium",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "colloquium"
+   ],
+   "glossEn": "academic seminar for discussing a topic",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "dcddb291-db54-5d1f-89a0-8353d31e3afe",
+   "lemma": "plenary",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "plenary"
+   ],
+   "glossEn": "attended by all participants of a conference",
+   "topics": [
+    "work"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "052cc0f2-dbd7-588f-86d0-185c4f1fcb79",
+   "lemma": "practicum",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "practicum"
+   ],
+   "glossEn": "supervised practical course applying theory",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "0e253e89-1a08-5ead-a65f-e8c6da22f87f",
+   "lemma": "invigilate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "invigilate"
+   ],
+   "glossEn": "supervise students during an examination",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "4c774578-61f7-5314-acf2-529e10d42259",
+   "lemma": "invigilator",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "invigilator"
+   ],
+   "glossEn": "person who supervises an examination",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "02daeca1-d2f9-54eb-bd23-f8f75dd6ea93",
+   "lemma": "provost",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "provost"
+   ],
+   "glossEn": "senior academic administrator of a university",
+   "topics": [
+    "work"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "245dc179-2556-5da5-b84e-c1a2b2677f73",
+   "lemma": "rector",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rector"
+   ],
+   "glossEn": "head of a university or college",
+   "topics": [
+    "work"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "c5049a87-c300-571f-a0b9-a4e96967fcf5",
+   "lemma": "registrar",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "registrar"
+   ],
+   "glossEn": "official keeping a university's student records",
+   "topics": [
+    "work"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "de08b54f-b6f8-58c1-b06a-9586d6c9d9a9",
+   "lemma": "bursar",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bursar"
+   ],
+   "glossEn": "official managing a school's or college's finances",
+   "topics": [
+    "work"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "0065d65c-c406-5d97-8eeb-8bf8e7e343aa",
+   "lemma": "conservatory",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "conservatory",
+    "conservatoire"
+   ],
+   "glossEn": "college for music or drama students",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "cbd088db-57bc-5a1d-8ce6-f75c96d90d06",
+   "lemma": "seminary",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "seminary"
+   ],
+   "glossEn": "college training priests or ministers",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "fc47c032-56d2-5f09-b26e-754066d319dc",
+   "lemma": "polytechnic",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "polytechnic"
+   ],
+   "glossEn": "college teaching technical and applied subjects",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "36488d89-590f-5943-815b-01d46df89a3e",
+   "lemma": "exegesis",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "exegesis"
+   ],
+   "glossEn": "critical interpretation of a text, especially scripture",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "7fd7f6bc-c5b8-52a7-b5d8-a0ea851f1695",
+   "lemma": "professorship",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "professorship"
+   ],
+   "glossEn": "position of professor at a university",
+   "topics": [
+    "work"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "bc8afef1-06c8-51a7-975e-ad7f86332d26",
+   "lemma": "traineeship",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "traineeship"
+   ],
+   "glossEn": "period of formal job training",
+   "topics": [
+    "work"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "79074735-1fd9-52c7-8285-0c4c8076ba57",
+   "lemma": "punctilious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "punctilious"
+   ],
+   "glossEn": "showing great attention to correct detail and conduct",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "a3353fad-123f-5711-aee6-271d50a5ce8d",
+   "lemma": "edify",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "edify"
+   ],
+   "glossEn": "instruct or improve someone morally or intellectually",
+   "topics": [],
+   "area": "arts-media"
+  }
+ ]
+}

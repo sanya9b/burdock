@@ -1,0 +1,684 @@
+{
+ "chunk": "B1-W02",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "b6815d81-6c93-5198-9399-ae5ffa3d1d5c",
+   "lemma": "gutter",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gutter",
+    "gutters"
+   ],
+   "glossEn": "channel along a roof or road edge for rainwater",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "1884a127-08cd-5ef9-bc8a-ad0f349e3391",
+   "lemma": "drainpipe",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "drainpipe",
+    "drainpipes",
+    "downspout",
+    "downpipe"
+   ],
+   "glossEn": "pipe carrying rainwater down from a roof",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "c2f18303-78b1-531a-8630-341a759c4900",
+   "lemma": "clogged",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "clogged",
+    "clogged up"
+   ],
+   "glossEn": "blocked so that water cannot flow",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "1552b436-9557-5c61-8174-57089a3ff78f",
+   "lemma": "overflow",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overflow",
+    "overflows",
+    "overflowed",
+    "overflowing"
+   ],
+   "glossEn": "flow over the edge of a drain or container",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "eeceb9e1-2449-52a7-8b3b-1196331c361f",
+   "lemma": "garbage truck",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "garbage truck",
+    "garbage trucks",
+    "dustcart",
+    "bin lorry"
+   ],
+   "glossEn": "vehicle that collects household waste",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "c858b7fe-3cac-5783-bb93-087a3429763c",
+   "lemma": "recyclable",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "recyclable"
+   ],
+   "glossEn": "able to be processed and used again",
+   "topics": [
+    "city",
+    "shopping"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "eee4bd48-08a2-5fee-a3e3-7e0141404814",
+   "lemma": "compost",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "compost"
+   ],
+   "glossEn": "decayed organic waste used to feed soil",
+   "topics": [
+    "city",
+    "food"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "2cd1222a-bd41-59ec-94e8-d8c0372837f5",
+   "lemma": "littering",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "littering"
+   ],
+   "glossEn": "dropping trash in public places",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "0a18e4e6-5143-50de-a07c-bec78f36a1aa",
+   "lemma": "vandalism",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vandalism"
+   ],
+   "glossEn": "deliberate damage to public property",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "f5662520-5bdf-52a0-81bd-dcef2c2b561d",
+   "lemma": "vandalize",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vandalize",
+    "vandalizes",
+    "vandalized",
+    "vandalise"
+   ],
+   "glossEn": "deliberately damage public property",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "620c6f58-90ab-51b8-877e-d8b7768d1d8c",
+   "lemma": "street sweeper",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "street sweeper",
+    "street sweepers",
+    "road sweeper"
+   ],
+   "glossEn": "vehicle or worker that cleans streets",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "f4e22617-532f-50c1-a5b0-bf5f0f6bcc70",
+   "lemma": "snowplow",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "snowplow",
+    "snowplows",
+    "snowplough",
+    "snow plow"
+   ],
+   "glossEn": "vehicle that pushes snow off roads",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "a6f514b2-4114-5847-ac19-4fedcaeaa014",
+   "lemma": "occupant",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "occupant",
+    "occupants"
+   ],
+   "glossEn": "person living in a particular home",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "10edaaf3-f50d-599c-9365-cf0a544dd1bf",
+   "lemma": "eviction",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "eviction",
+    "evictions"
+   ],
+   "glossEn": "forcing a tenant to leave a property",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "69344009-add5-539f-ac60-9517f8ad7512",
+   "lemma": "relocate",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "relocate",
+    "relocates",
+    "relocated",
+    "relocating"
+   ],
+   "glossEn": "move to a new home or area",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "61b72649-3832-528d-8a05-8eaca506d5b1",
+   "lemma": "realtor",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "realtor",
+    "realtors",
+    "estate agent",
+    "real estate agent"
+   ],
+   "glossEn": "agent who sells or rents property",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "a7a5a488-986f-5fb4-b08c-364f0442a4c2",
+   "lemma": "listing",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "listing",
+    "listings"
+   ],
+   "glossEn": "advertisement of a property for rent or sale",
+   "topics": [
+    "city",
+    "it"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "5da32121-62a1-5673-bf0e-eba6ad76c6e5",
+   "lemma": "viewing",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "viewing",
+    "viewings"
+   ],
+   "glossEn": "visit to look at a property before renting",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "11f42d10-8a88-5e50-8434-1e84d8ba4df4",
+   "lemma": "furnished",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "furnished",
+    "fully furnished"
+   ],
+   "glossEn": "rented with furniture included",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "d0fee920-e69c-52cb-aa36-54cd17ce467d",
+   "lemma": "unfurnished",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unfurnished"
+   ],
+   "glossEn": "rented without any furniture",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "c35b8a8c-e609-5820-bcf9-74fe6bd09203",
+   "lemma": "developer",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "developer",
+    "developers",
+    "property developer"
+   ],
+   "glossEn": "company that builds new housing on land",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "675ae9c6-c4f7-5fc6-81c5-e99f5d56ab9e",
+   "lemma": "redevelopment",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "redevelopment",
+    "redevelopments"
+   ],
+   "glossEn": "rebuilding of an old city area",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "cb242254-0aea-5eb8-b434-c95431b2ffe1",
+   "lemma": "overcrowded",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overcrowded"
+   ],
+   "glossEn": "containing far too many people",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "7638b004-4113-549d-9cb0-0a4a3ecb26cc",
+   "lemma": "rooftop",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rooftop",
+    "rooftops"
+   ],
+   "glossEn": "flat top of a building used as a space",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "d126682a-3089-5e8e-9c38-c65e10faaf2e",
+   "lemma": "loft",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "loft",
+    "lofts"
+   ],
+   "glossEn": "open apartment converted from industrial space",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "5fda6f23-b7ff-54de-943e-cee3780f1802",
+   "lemma": "patio",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "patio",
+    "patios"
+   ],
+   "glossEn": "paved outdoor area next to a house",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "73f266bd-4050-5efa-8bae-095c546d64b5",
+   "lemma": "dome",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dome",
+    "domes"
+   ],
+   "glossEn": "rounded roof on a building",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "ff42c9d0-9340-5a37-9591-c629118e52b8",
+   "lemma": "lighthouse",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lighthouse",
+    "lighthouses"
+   ],
+   "glossEn": "tower with a light that guides ships",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "3e6b18f3-61b7-5ade-abe8-f3c3e58f91d0",
+   "lemma": "fortress",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fortress",
+    "fortresses",
+    "fort",
+    "forts"
+   ],
+   "glossEn": "large strong building that protected a town",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "b3ef32e5-dee8-5676-883c-d442d8b42646",
+   "lemma": "chapel",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chapel",
+    "chapels"
+   ],
+   "glossEn": "small church or room for prayer",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "5b883194-90b8-5ccd-9160-47de20da1ccd",
+   "lemma": "fire truck",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fire truck",
+    "fire trucks",
+    "fire engine",
+    "fire engines"
+   ],
+   "glossEn": "vehicle carrying firefighters and their equipment",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "b3b7a187-e527-5bbf-84d4-92f7bb841351",
+   "lemma": "fire hydrant",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fire hydrant",
+    "fire hydrants",
+    "hydrant",
+    "hydrants"
+   ],
+   "glossEn": "street water outlet used by firefighters",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "89246c2e-45df-5798-afcd-b3f179fc0ce0",
+   "lemma": "emissions",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "emissions",
+    "emission"
+   ],
+   "glossEn": "gases released by vehicles and factories",
+   "topics": [
+    "city",
+    "health"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "de594186-d70e-5620-b0f8-b4e64b7d289d",
+   "lemma": "fumes",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fumes"
+   ],
+   "glossEn": "unpleasant gases from traffic or factories",
+   "topics": [
+    "city",
+    "health"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "f175dd72-dc2c-51c8-9161-96744d0c752b",
+   "lemma": "soundproof",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "soundproof",
+    "soundproofed"
+   ],
+   "glossEn": "built so that sound cannot pass through",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "22a8ec76-7968-54be-be18-a157a07b1892",
+   "lemma": "green space",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "green space",
+    "green spaces",
+    "greenspace"
+   ],
+   "glossEn": "park or grass area in a city",
+   "topics": [
+    "city",
+    "health"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "b486cc92-6731-5a01-9c1e-33d59fda8e0e",
+   "lemma": "botanical garden",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "botanical garden",
+    "botanical gardens",
+    "botanic garden"
+   ],
+   "glossEn": "garden where many plant species are displayed",
+   "topics": [
+    "city",
+    "travel"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "bebb9745-76ec-5a98-a639-9f53b3b19fd2",
+   "lemma": "community garden",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "community garden",
+    "community gardens",
+    "allotment"
+   ],
+   "glossEn": "shared plot where residents grow plants",
+   "topics": [
+    "city",
+    "food"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "3a7b5b81-6b2a-55fb-ada1-2196a95a159c",
+   "lemma": "flowerbed",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flowerbed",
+    "flowerbeds",
+    "flower bed"
+   ],
+   "glossEn": "area of ground where flowers are planted",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "97b40ec0-fc6b-5bc4-9084-e4f03e6919c6",
+   "lemma": "heatwave",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heatwave",
+    "heatwaves",
+    "heat wave"
+   ],
+   "glossEn": "period of unusually hot weather in a city",
+   "topics": [
+    "city",
+    "health"
+   ],
+   "area": "city"
+  }
+ ]
+}

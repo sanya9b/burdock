@@ -1,0 +1,664 @@
+{
+ "chunk": "C1-W32",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "bf0e7d1b-be8f-5c50-960b-d8b1e9f5db80",
+   "lemma": "jailbreak",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jailbreak",
+    "jailbreaks",
+    "jailbroke",
+    "jailbroken"
+   ],
+   "glossEn": "remove a phone maker's restrictions on the system",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "d3c7132a-d85c-52c0-b214-d7d651d839f3",
+   "lemma": "virtualization",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "virtualization",
+    "virtualisation"
+   ],
+   "glossEn": "running several software computers on one physical machine",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "c5ea7aac-ebad-5370-8470-d6ff2fdc5798",
+   "lemma": "kernel",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "kernel",
+    "kernels"
+   ],
+   "glossEn": "core of an operating system controlling hardware",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "f198a369-b869-5bff-aa69-8b0b46c143f4",
+   "lemma": "concurrency",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "concurrency"
+   ],
+   "glossEn": "handling several tasks during the same period",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "8a063bb0-d140-57c3-a69f-4191a94f13f8",
+   "lemma": "synchronous",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "synchronous",
+    "synchronously"
+   ],
+   "glossEn": "happening in order, each step waiting for the last",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "fc97b851-5548-5e92-a721-739e3fa370f2",
+   "lemma": "recursion",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "recursion",
+    "recursions"
+   ],
+   "glossEn": "technique where a function calls itself",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "7ea53c3a-5443-51b2-b6c4-3c785cfe894a",
+   "lemma": "reproducible",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reproducible"
+   ],
+   "glossEn": "giving the same result every time it is repeated",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "fa94ca92-d7f7-5af1-a8c7-69b543a68374",
+   "lemma": "deterministic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deterministic"
+   ],
+   "glossEn": "always producing the same output from the same input",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "1edfb10f-e364-5315-ad5e-697f8c9a4c8b",
+   "lemma": "idempotent",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "idempotent"
+   ],
+   "glossEn": "giving the same result however many times it runs",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "f4a399f2-a612-54b4-b982-e2641cc0ed39",
+   "lemma": "pseudocode",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pseudocode",
+    "pseudo-code"
+   ],
+   "glossEn": "plain-language outline of an algorithm, not real code",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "1b0bfe08-9e82-5fc8-a343-6d059a7cf36f",
+   "lemma": "profiler",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "profiler",
+    "profilers"
+   ],
+   "glossEn": "tool that measures where a program spends time",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "3c0529a8-49fa-586b-8486-2dc2abb2c6d8",
+   "lemma": "crawler",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "crawler",
+    "crawlers",
+    "web crawler"
+   ],
+   "glossEn": "program that visits web pages automatically to index them",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "d17acedb-ad69-5d68-a403-9046167f1210",
+   "lemma": "embedded",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "embedded"
+   ],
+   "glossEn": "built into a device to control it",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "25c5a812-0f7e-5428-986f-0cfa09a2feea",
+   "lemma": "quantum computing",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quantum computing",
+    "quantum computer",
+    "quantum computers"
+   ],
+   "glossEn": "computing based on quantum physics for certain hard problems",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "2a5dbd72-3ee8-5e95-9a26-7cc10acac714",
+   "lemma": "hallucination",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hallucination",
+    "hallucinations"
+   ],
+   "glossEn": "false information an AI states as if true",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "e24fb483-c196-525d-9565-5e45611d8cee",
+   "lemma": "backdoor",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "backdoor",
+    "backdoors",
+    "back door"
+   ],
+   "glossEn": "hidden way into a system that bypasses security",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "83dee82e-17cc-5e8d-8dc9-e9c893112f65",
+   "lemma": "botnet",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "botnet",
+    "botnets"
+   ],
+   "glossEn": "network of hacked devices controlled by a criminal",
+   "topics": [
+    "it",
+    "military"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "22cfca0c-d1cc-5209-9c4b-5fca76b7beb0",
+   "lemma": "keylogger",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "keylogger",
+    "keyloggers",
+    "key logger"
+   ],
+   "glossEn": "hidden program that records everything you type",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "d4224536-6aaf-5c71-b237-eb0b44bd6f79",
+   "lemma": "monorepo",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "monorepo",
+    "monorepos"
+   ],
+   "glossEn": "single repository holding many projects of one organization",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "5daf43cd-749c-54dd-ab4a-701add60a06c",
+   "lemma": "feature flag",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "feature flag",
+    "feature flags",
+    "feature toggle"
+   ],
+   "glossEn": "switch that turns a feature on without redeploying",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "b3c237aa-b1a7-5c80-a428-eafa3dba2f42",
+   "lemma": "canary release",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "canary release",
+    "canary releases",
+    "canary",
+    "canary deployment"
+   ],
+   "glossEn": "rolling out a change to a few users first",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "3f3613f7-5408-5f4f-bab0-01f692884847",
+   "lemma": "observability",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "observability"
+   ],
+   "glossEn": "ability to understand system health from logs and metrics",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "8a82e013-9fcd-5351-95ef-38213916b0db",
+   "lemma": "serverless",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "serverless"
+   ],
+   "glossEn": "cloud model where code runs without managing servers",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "a197fccc-f94a-5f27-98ff-c21b14431b4c",
+   "lemma": "namespace",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "namespace",
+    "namespaces"
+   ],
+   "glossEn": "named scope that keeps identifiers from clashing",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "c5f1c59e-6044-53a7-9934-5fd45e61c062",
+   "lemma": "garbage collection",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "garbage collection",
+    "garbage collector",
+    "GC"
+   ],
+   "glossEn": "automatic freeing of memory no longer used",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "2c24872a-4caf-50ee-bb4d-298e0e1e6d1c",
+   "lemma": "enum",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "enum",
+    "enums",
+    "enumeration"
+   ],
+   "glossEn": "type whose value is one of a fixed list",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "8458e981-de4f-55e2-a204-f28cc07db6aa",
+   "lemma": "polymorphism",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "polymorphism"
+   ],
+   "glossEn": "letting different object types respond to one call",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "e31373f5-7664-5fdd-86fd-55edfe0026c5",
+   "lemma": "camel case",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "camel case",
+    "camelCase",
+    "camel-case"
+   ],
+   "glossEn": "naming style like userName with inner capital letters",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "ba515d9d-2c83-51cd-8f6b-9e1868ca064e",
+   "lemma": "rebase",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rebase",
+    "rebases",
+    "rebased",
+    "rebasing"
+   ],
+   "glossEn": "move your commits onto a newer base branch",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "4beac10b-ff3b-5a35-b43c-19dd3db67b53",
+   "lemma": "burndown chart",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "burndown chart",
+    "burndown charts",
+    "burndown"
+   ],
+   "glossEn": "chart tracking remaining work across a sprint",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "82837926-ae54-5ed5-869d-d22141bb3809",
+   "lemma": "SLA",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "SLA",
+    "SLAs",
+    "service level agreement"
+   ],
+   "glossEn": "contract promising a level of service, like uptime",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "6daf4751-5b9d-5d02-bdc2-2e12ac2c33da",
+   "lemma": "runbook",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "runbook",
+    "runbooks"
+   ],
+   "glossEn": "step-by-step guide for handling an operational situation",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "71eca8c7-9683-53b8-8e33-a26de61c3f97",
+   "lemma": "cron job",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cron job",
+    "cron jobs",
+    "cron"
+   ],
+   "glossEn": "task scheduled to run automatically at set times",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "032f5e16-6864-581c-bfbc-56ef3cb8c7ef",
+   "lemma": "race condition",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "race condition",
+    "race conditions",
+    "race"
+   ],
+   "glossEn": "bug caused by operations finishing in unexpected order",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "614934cc-b8d5-5985-b3a5-537f8f888362",
+   "lemma": "regular expression",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "regular expression",
+    "regular expressions",
+    "regex",
+    "regexp"
+   ],
+   "glossEn": "pattern used to search and match text",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "61fdaaef-cef5-5f83-a024-2558120e4ea7",
+   "lemma": "lazy loading",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lazy loading",
+    "lazy load",
+    "lazy-loading"
+   ],
+   "glossEn": "loading content only when it is actually needed",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "c0f760ba-0f76-532b-bf1a-ac4fd6cee16c",
+   "lemma": "dependency injection",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dependency injection",
+    "DI"
+   ],
+   "glossEn": "supplying objects their dependencies from outside",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "6c098840-fd34-5149-a1a7-f76d72a9d66a",
+   "lemma": "middleware",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "middleware"
+   ],
+   "glossEn": "software layer that sits between other components",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "ff8c239d-d932-5ad8-855b-c2db51e1d9b1",
+   "lemma": "webhook",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "webhook",
+    "webhooks"
+   ],
+   "glossEn": "automatic HTTP call one service sends when something happens",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "08386241-6a55-5630-be48-a965f211294b",
+   "lemma": "breaking change",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "breaking change",
+    "breaking changes"
+   ],
+   "glossEn": "update that stops existing code or integrations working",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  }
+ ]
+}

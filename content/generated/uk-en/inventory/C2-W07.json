@@ -1,0 +1,603 @@
+{
+ "chunk": "C2-W07",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "37fbc78e-b10b-5749-97f7-c40b5c99f4a3",
+   "lemma": "lede",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lede"
+   ],
+   "glossEn": "opening sentence of a news story",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "cebdc9bf-f5f5-5933-8053-babc33a79ec8",
+   "lemma": "sensationalist",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sensationalist"
+   ],
+   "glossEn": "deliberately shocking to attract attention",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "4f82b612-56a0-5c67-89bf-85fc348e4d75",
+   "lemma": "gossipmonger",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gossipmonger",
+    "gossip-monger"
+   ],
+   "glossEn": "person who spreads gossip habitually",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "f3ed49de-5567-52f5-bcb7-b0d7de7075e6",
+   "lemma": "pulp",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pulp"
+   ],
+   "glossEn": "cheap, sensational fiction or magazines",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "292f60ff-2040-56e6-aac5-4e37f06ce967",
+   "lemma": "schlock",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "schlock"
+   ],
+   "glossEn": "cheap, poor-quality entertainment or goods",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "26217de3-6926-502f-9da0-f2e036913013",
+   "lemma": "circumlocution",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "circumlocution"
+   ],
+   "glossEn": "using many words where fewer would do",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "095c49fc-f99d-5220-a59e-4301c0bc9d3f",
+   "lemma": "dysphemism",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dysphemism"
+   ],
+   "glossEn": "harsh or offensive term replacing a neutral one",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "74a7d63a-8ad8-5463-bff6-0da511c1e06b",
+   "lemma": "litotes",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "litotes"
+   ],
+   "glossEn": "understatement using a negated opposite, like not bad",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "31c5ee7b-564b-5bcb-9e5b-c702d1fd36a0",
+   "lemma": "metonymy",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "metonymy"
+   ],
+   "glossEn": "naming something by an associated thing, like the Crown",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "3654792b-eab9-5127-a6bf-e5e0cbdbfe52",
+   "lemma": "synecdoche",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "synecdoche"
+   ],
+   "glossEn": "part standing for the whole, like hired hands",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "e8ea60bf-440d-5578-83c0-13cec7a1e8a9",
+   "lemma": "anaphora",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "anaphora"
+   ],
+   "glossEn": "repeating a word at the start of successive clauses",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "41a364ee-5674-56a3-88ce-cfd32a57fa2d",
+   "lemma": "chiasmus",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chiasmus"
+   ],
+   "glossEn": "reversing word order in two parallel phrases",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "00d3e825-3f6a-5000-877b-5a2497aefa21",
+   "lemma": "gobbledygook",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gobbledygook",
+    "gobbledegook"
+   ],
+   "glossEn": "pompous, meaningless jargon that is hard to understand",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "e7b014c8-9d93-5495-91f3-4bf842545ed2",
+   "lemma": "pidgin",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pidgin"
+   ],
+   "glossEn": "simplified contact language mixing two languages",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "97191037-3a58-5008-af3c-5895449ef4d1",
+   "lemma": "creole",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "creole"
+   ],
+   "glossEn": "stable native language developed from a pidgin",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "3a6969ee-5b39-5981-ad42-c8841a5197d2",
+   "lemma": "elocution",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "elocution"
+   ],
+   "glossEn": "skill of clear, expressive speaking",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "bc0230b0-3004-5a35-ab55-1d1edf8a09af",
+   "lemma": "twang",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "twang"
+   ],
+   "glossEn": "nasal quality in a regional accent",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "11132136-3671-5740-8cfb-6dc4383ed585",
+   "lemma": "lilt",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lilt"
+   ],
+   "glossEn": "pleasant rising and falling rhythm in speech",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "7ec077f3-592f-5dd4-ba75-e67eaed4c1b3",
+   "lemma": "phonology",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "phonology"
+   ],
+   "glossEn": "study of the sound system of a language",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "45b2cd3e-6441-5c1e-b49e-95495ce544bc",
+   "lemma": "morphology",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "morphology"
+   ],
+   "glossEn": "study of how words are formed",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "b3bc76a4-e49f-5087-9d85-02c9abab94f4",
+   "lemma": "pragmatics",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pragmatics"
+   ],
+   "glossEn": "study of language meaning in context",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "6c3c25b9-18e9-5074-a806-e3bcc673ff3a",
+   "lemma": "lexicography",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lexicography"
+   ],
+   "glossEn": "writing and compiling of dictionaries",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "017d2b9c-bd1f-51ff-94b2-bfe7ee80ac6e",
+   "lemma": "portmanteau",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "portmanteau"
+   ],
+   "glossEn": "word blending two others, like brunch",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "b7d10462-ffcc-5779-8bf9-b8aeb09161fc",
+   "lemma": "initialism",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "initialism"
+   ],
+   "glossEn": "abbreviation pronounced letter by letter, like FBI",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "11b8933e-ddd6-5adc-9498-3ef7f3ef2921",
+   "lemma": "declension",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "declension"
+   ],
+   "glossEn": "set of case forms of a noun or adjective",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "6695db8a-fd86-5aae-8168-3117150ef4dd",
+   "lemma": "intensifier",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "intensifier"
+   ],
+   "glossEn": "word that strengthens meaning, like very",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "fa57ebb2-524e-53fb-b6a9-c80a2829c9ac",
+   "lemma": "qualifier",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "qualifier"
+   ],
+   "glossEn": "word that limits or modifies another's meaning",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "71aa9aff-6ac8-5d5b-9045-adce71cfe03b",
+   "lemma": "boldface",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "boldface",
+    "bold face"
+   ],
+   "glossEn": "thick, dark typeface used for emphasis",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "b2536aff-0bdc-5f3c-87e7-ab0ab3ec2caf",
+   "lemma": "transliterate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "transliterate"
+   ],
+   "glossEn": "write words using the letters of another alphabet",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "9d013e38-0273-5fe7-a0d7-de57bcc91d6f",
+   "lemma": "concordance",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "concordance"
+   ],
+   "glossEn": "alphabetical index of words with their contexts",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "e6ab40f4-738f-5cf6-a2b6-bb064d016f1e",
+   "lemma": "pedant",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pedant"
+   ],
+   "glossEn": "person obsessed with minor rules and details",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "f5b7add3-cd7f-5ab2-a882-3c9be3e75222",
+   "lemma": "prescriptive",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prescriptive"
+   ],
+   "glossEn": "laying down rules for correct language use",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "1c7b32d8-46ca-5be7-ade7-147498ee28a8",
+   "lemma": "purist",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "purist"
+   ],
+   "glossEn": "person insisting on traditional correctness",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "a8b6571e-1489-5ff1-8e3e-06c41dcd913d",
+   "lemma": "grammarian",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "grammarian"
+   ],
+   "glossEn": "expert in or writer on grammar",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "64874347-5a72-59bc-ab2a-3f06274fbec8",
+   "lemma": "sociolinguistics",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sociolinguistics"
+   ],
+   "glossEn": "study of language in relation to society",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "7e264169-aa67-5717-9708-280053366df2",
+   "lemma": "philology",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "philology"
+   ],
+   "glossEn": "historical study of languages and texts",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "53f98eca-7582-57d9-9a57-6464869f2dd1",
+   "lemma": "semiotics",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "semiotics"
+   ],
+   "glossEn": "study of signs and symbols",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "5c307819-72fc-520a-b9b9-563fd613e336",
+   "lemma": "idiolect",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "idiolect"
+   ],
+   "glossEn": "individual's personal variety of language",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "9ee9a334-a06b-566d-bc64-8d4262435fd7",
+   "lemma": "malapropism",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "malapropism"
+   ],
+   "glossEn": "comic misuse of a similar-sounding word",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "0d37a4c7-75bc-5758-bcba-1647dab54b70",
+   "lemma": "spoonerism",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spoonerism"
+   ],
+   "glossEn": "swapping initial sounds of words, like well-boiled icicle",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  }
+ ]
+}

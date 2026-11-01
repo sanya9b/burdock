@@ -1,0 +1,555 @@
+{
+ "chunk": "C2-W26",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "eb53ef93-deaf-5cf0-8789-41d579e34fdb",
+   "lemma": "neurotransmitter",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "neurotransmitter"
+   ],
+   "glossEn": "chemical that carries signals between nerve cells",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "343c8c7e-971c-51a6-952c-86c5310e171a",
+   "lemma": "receptor",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "receptor"
+   ],
+   "glossEn": "cell structure that responds to a specific signal",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "144bce80-585f-5eaa-a312-94eb4bd03bbb",
+   "lemma": "gallbladder",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gallbladder",
+    "gall bladder"
+   ],
+   "glossEn": "small organ storing bile beneath the liver",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "144f1271-4a00-5e38-9c77-c0e68e9367c7",
+   "lemma": "colonoscopy",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "colonoscopy"
+   ],
+   "glossEn": "examination of the large intestine with a camera",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "41a50f01-a404-5dd7-84df-39d5b639907c",
+   "lemma": "postpartum",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "postpartum",
+    "post-partum",
+    "postnatal"
+   ],
+   "glossEn": "following childbirth",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "466825f7-9cc3-5179-8d76-9bdc15b605d2",
+   "lemma": "obstetrician",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "obstetrician"
+   ],
+   "glossEn": "doctor specializing in pregnancy and birth",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "eefa1f53-1bb9-5d2b-8cf7-f83d3eda19c5",
+   "lemma": "geriatric",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "geriatric"
+   ],
+   "glossEn": "relating to medical care of old people",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "12a9844c-8b55-57e4-ae43-2a616e3a0597",
+   "lemma": "glaucoma",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "glaucoma"
+   ],
+   "glossEn": "eye disease from pressure that damages sight",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "9c13a68c-c170-5314-aae9-3fb268c2d41b",
+   "lemma": "tinnitus",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tinnitus"
+   ],
+   "glossEn": "constant ringing or buzzing in the ears",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "a20bf12d-985a-5eb7-8823-4e085b54df80",
+   "lemma": "immunocompromised",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "immunocompromised",
+    "immuno-compromised"
+   ],
+   "glossEn": "having a weakened immune system",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "09c2a155-edd2-5dc2-b595-27626940fb39",
+   "lemma": "neurologist",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "neurologist"
+   ],
+   "glossEn": "doctor specializing in the brain and nerves",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "db22ca3c-8b49-5d91-a6b9-fca6718fa79b",
+   "lemma": "gerrymander",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gerrymander"
+   ],
+   "glossEn": "redraw electoral boundaries to favor one party",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "a0634f27-bebf-52f5-8d90-fbb8c9eff6a5",
+   "lemma": "plurality",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "plurality"
+   ],
+   "glossEn": "largest share of votes without a majority",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "fb742912-3390-5906-b38e-999c604f7796",
+   "lemma": "incumbency",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incumbency"
+   ],
+   "glossEn": "the period or fact of holding an office",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "1a8b535f-8e67-5daa-aca1-01348e108873",
+   "lemma": "filibuster",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "filibuster"
+   ],
+   "glossEn": "prolonged speech used to delay a legislative vote",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "46533d28-000b-5862-9cf4-4da9067f5842",
+   "lemma": "bicameral",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bicameral"
+   ],
+   "glossEn": "having two legislative chambers",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "07e4b379-d1c5-58b4-b971-7dc5c2e27835",
+   "lemma": "unicameral",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unicameral"
+   ],
+   "glossEn": "having a single legislative chamber",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "1f21eac4-27c6-5795-aad5-49671b6ec21e",
+   "lemma": "prorogue",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prorogue"
+   ],
+   "glossEn": "suspend a parliamentary session without dissolving it",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "d4a5ba2a-cea0-57b7-a92c-ae888234f656",
+   "lemma": "backbencher",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "backbencher",
+    "back-bencher"
+   ],
+   "glossEn": "legislator without a government or opposition post",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "27f07e04-6c0c-5eef-9ea4-2f1d000d9b26",
+   "lemma": "technocracy",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "technocracy"
+   ],
+   "glossEn": "government by technical experts",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "04cf9af4-687e-5bd2-a473-358f228dd111",
+   "lemma": "plutocracy",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "plutocracy"
+   ],
+   "glossEn": "government by the wealthy",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "08378a62-236c-58ac-841a-d2074efb7115",
+   "lemma": "despotic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "despotic"
+   ],
+   "glossEn": "ruling with absolute and oppressive power",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "ae93ecfd-ca67-5329-b9e2-b0eb97aa8816",
+   "lemma": "junta",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "junta"
+   ],
+   "glossEn": "military group that rules after seizing power",
+   "topics": [
+    "military"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "8730881d-a0bc-5682-9ac4-89a83a2d8331",
+   "lemma": "plebiscite",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "plebiscite"
+   ],
+   "glossEn": "direct vote of all electors on a major question",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "550a9434-9ec6-5ae7-bbe7-13e137f68e3a",
+   "lemma": "statecraft",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "statecraft"
+   ],
+   "glossEn": "skillful management of state affairs",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "c3cf0e00-648b-5ca2-b776-b98b0deff039",
+   "lemma": "inaugural",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inaugural"
+   ],
+   "glossEn": "marking the beginning of a term of office",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "b1cb47a5-48f6-5b76-a8e8-c7f36853e3ac",
+   "lemma": "subsidiarity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subsidiarity"
+   ],
+   "glossEn": "principle of deciding matters at the lowest effective level",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "8f3f3c64-7ad1-5971-b34d-16f8c5204fdb",
+   "lemma": "usurper",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "usurper"
+   ],
+   "glossEn": "person who seizes power illegally",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "b525c381-feb0-57a2-8986-8972e143735e",
+   "lemma": "abdication",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "abdication"
+   ],
+   "glossEn": "formal giving up of a throne or responsibility",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "0f8e0ac2-a627-560b-b560-8c4f82483af3",
+   "lemma": "regent",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "regent"
+   ],
+   "glossEn": "person ruling in place of a monarch",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "cb75e607-3932-5572-8b4a-0bcb92bc083a",
+   "lemma": "enfranchise",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "enfranchise"
+   ],
+   "glossEn": "give someone the right to vote",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "340cdb16-eb45-5ccb-b753-58d97664c3d7",
+   "lemma": "apportion",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "apportion"
+   ],
+   "glossEn": "divide and allocate shares, seats or funds",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "d16580ee-a083-579a-b2c3-a281cafab050",
+   "lemma": "apportionment",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "apportionment"
+   ],
+   "glossEn": "allocation of legislative seats among districts",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "ba0acbd2-7b53-5f3b-8854-86168a1af243",
+   "lemma": "redistricting",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "redistricting"
+   ],
+   "glossEn": "redrawing the boundaries of electoral districts",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "877bed46-b816-5276-bf0a-d7e527e809e7",
+   "lemma": "potentate",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "potentate"
+   ],
+   "glossEn": "ruler with great and often absolute power",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "eda71e6c-a532-5db1-86d0-9095f64501e8",
+   "lemma": "gubernatorial",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gubernatorial"
+   ],
+   "glossEn": "relating to a governor or the governorship",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "6f72c1eb-6527-5691-ae4e-98f48dbfe5df",
+   "lemma": "senatorial",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "senatorial"
+   ],
+   "glossEn": "relating to a senator or the senate",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "3ad36bf4-d048-5f5b-9c86-4f1b2ca994c0",
+   "lemma": "kleptocracy",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "kleptocracy"
+   ],
+   "glossEn": "government whose officials enrich themselves by theft",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "57a56e85-8fcc-5896-87ba-46ec8574dec6",
+   "lemma": "theocracy",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "theocracy"
+   ],
+   "glossEn": "government by religious leaders in the name of God",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "be58b2b5-f987-59a8-ae3c-63a8edf4d9e4",
+   "lemma": "absolutism",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "absolutism"
+   ],
+   "glossEn": "system where one ruler holds unlimited power",
+   "topics": [],
+   "area": "society-law"
+  }
+ ]
+}

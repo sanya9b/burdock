@@ -1,0 +1,675 @@
+{
+ "chunk": "B1-W10",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "06a790e7-a5bc-5a03-b248-e42783ececdd",
+   "lemma": "flavoring",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flavoring",
+    "flavouring",
+    "flavorings",
+    "flavourings"
+   ],
+   "glossEn": "substance added to give taste",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "e7542482-a8a7-57c4-83f6-dd178f14f30b",
+   "lemma": "dairy",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dairy"
+   ],
+   "glossEn": "milk and foods made from it",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "44419087-b1b5-52fa-a509-fe90fd7e70f3",
+   "lemma": "food bank",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "food bank",
+    "food banks"
+   ],
+   "glossEn": "charity giving free food to people in need",
+   "topics": [
+    "food",
+    "city"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "0191e875-1d10-5b6d-aeb6-edc8fc217e5c",
+   "lemma": "latte",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "latte",
+    "lattes"
+   ],
+   "glossEn": "espresso with lots of steamed milk",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "2602f601-6eef-5a52-912c-10076b48a2bd",
+   "lemma": "caffeine",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "caffeine"
+   ],
+   "glossEn": "stimulant found in coffee and tea",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "0a729edb-20e1-57cc-9dfb-d59d45f9baa6",
+   "lemma": "teabag",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "teabag",
+    "teabags",
+    "tea bag",
+    "tea bags"
+   ],
+   "glossEn": "small porous bag of tea leaves",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "5305970a-7f7d-500a-b4bb-be1c39bc69d0",
+   "lemma": "herbal tea",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "herbal tea",
+    "herbal teas"
+   ],
+   "glossEn": "hot drink brewed from herbs, not tea leaves",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "a0cc147d-3875-5e63-aafe-55e005eaabfd",
+   "lemma": "matcha",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "matcha"
+   ],
+   "glossEn": "powdered Japanese green tea",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "e57677fa-4540-5417-a415-24cdc7f7bf2d",
+   "lemma": "fizzy",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fizzy"
+   ],
+   "glossEn": "full of bubbles of gas",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "51387ee1-a2ea-5c96-8f0d-9644cc7bf9a0",
+   "lemma": "hot chocolate",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hot chocolate"
+   ],
+   "glossEn": "sweet hot drink made with cocoa",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "e7a5bdfc-4ad9-531e-8e91-c990a14bbd4b",
+   "lemma": "lager",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lager",
+    "lagers"
+   ],
+   "glossEn": "light-colored beer served cold",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "45ab7b0a-71b6-5ad8-9f46-c7ef10d11c22",
+   "lemma": "bottle opener",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bottle opener",
+    "bottle openers"
+   ],
+   "glossEn": "tool for removing caps from bottles",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "5af2048c-9d8c-5337-a32b-75a14b6438d0",
+   "lemma": "hangover",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hangover",
+    "hangovers"
+   ],
+   "glossEn": "sick feeling the day after drinking",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "eec23fb4-0678-53c3-8c26-65c824ac70f6",
+   "lemma": "sugary",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sugary"
+   ],
+   "glossEn": "containing a lot of sugar",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "ce38ac93-d94f-5731-8a01-a94f54d9442f",
+   "lemma": "smoky",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "smoky",
+    "smokey"
+   ],
+   "glossEn": "tasting or smelling of smoke",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "3f2b7332-2494-5afe-a8d8-21431ef0b423",
+   "lemma": "fruity",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fruity"
+   ],
+   "glossEn": "tasting or smelling of fruit",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "5db2e037-ee5d-5e29-afde-2f13320da04b",
+   "lemma": "moist",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "moist"
+   ],
+   "glossEn": "slightly wet, not dry, as good cake",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "0b5ae281-24d7-5e5f-8134-79def0c9f5dc",
+   "lemma": "crispy",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "crispy",
+    "crispier",
+    "crispiest"
+   ],
+   "glossEn": "pleasantly hard and crunchy on the outside",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "49e8f1ff-9938-5e67-9c93-38108785bfe6",
+   "lemma": "edible",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "edible"
+   ],
+   "glossEn": "safe and fit to eat",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "2afebcb9-29a7-5e77-99d0-0cdd39870e71",
+   "lemma": "mouth-watering",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mouth-watering",
+    "mouthwatering"
+   ],
+   "glossEn": "looking or smelling delicious",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "dd8d0142-6885-5cfd-8aee-e94510fb4b31",
+   "lemma": "loop",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "loop",
+    "loops"
+   ],
+   "glossEn": "piece of code that repeats until a condition changes",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "ac5387a4-62c0-503c-9cf8-2c52432c198d",
+   "lemma": "array",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "array",
+    "arrays"
+   ],
+   "glossEn": "ordered list of values stored under one name",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "3edc9755-89fa-5fc8-a82c-f4a979062bc6",
+   "lemma": "integer",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "integer",
+    "integers",
+    "int"
+   ],
+   "glossEn": "whole number without a fractional part",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "fcc023f9-3564-5488-ac68-d253d603ae66",
+   "lemma": "module",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "module",
+    "modules"
+   ],
+   "glossEn": "separate part of a program with one job",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "9053b14e-b944-57bb-9fdd-e6949a064a0c",
+   "lemma": "command line",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "command line",
+    "command lines",
+    "command-line",
+    "CLI"
+   ],
+   "glossEn": "text interface for controlling a computer with commands",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "4b34f183-32f6-5a06-b50f-c8867e7395fb",
+   "lemma": "pull request",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pull request",
+    "pull requests",
+    "PR",
+    "PRs"
+   ],
+   "glossEn": "proposal to merge code changes after review",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "56c6727f-3263-564e-91b4-befe80d83cd5",
+   "lemma": "version control",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "version control"
+   ],
+   "glossEn": "system that tracks every change in code over time",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "90643a13-3907-52dd-a37f-d45d48b6056a",
+   "lemma": "standup",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "standup",
+    "standups",
+    "stand-up",
+    "stand-ups"
+   ],
+   "glossEn": "short daily team meeting about progress and blockers",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "f5fd9905-8d55-57fa-b097-60b854f54dec",
+   "lemma": "scrum",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scrum",
+    "Scrum"
+   ],
+   "glossEn": "team method of building software in short sprints",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "931907a5-8e43-55ea-abf5-9a5a19c9d2ea",
+   "lemma": "agile",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "agile",
+    "Agile"
+   ],
+   "glossEn": "working in small steps with frequent feedback",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "c14f556f-f756-58d7-833a-47984e330858",
+   "lemma": "roadmap",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "roadmap",
+    "roadmaps",
+    "road map"
+   ],
+   "glossEn": "plan of what a product will deliver and when",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "b27a740e-babf-52d6-adcd-cfe7390fd864",
+   "lemma": "frontend",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "frontend",
+    "frontends",
+    "front-end",
+    "front end"
+   ],
+   "glossEn": "part of an application users see in the browser",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "1eb06e1b-002a-56bf-8da1-1a7fa02a2310",
+   "lemma": "backend",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "backend",
+    "backends",
+    "back-end",
+    "back end"
+   ],
+   "glossEn": "server side of an application users do not see",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "0516bac0-ade1-5fd4-baf8-f5caad19174f",
+   "lemma": "API",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "API",
+    "APIs",
+    "api"
+   ],
+   "glossEn": "set of rules letting programs talk to each other",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "f68d9020-2fe8-5613-afc2-b51d423e7113",
+   "lemma": "hosting",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hosting"
+   ],
+   "glossEn": "service that keeps a website running on a server",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "a2c4322f-e37b-5425-abbc-bf6a0958a9f6",
+   "lemma": "ping",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ping",
+    "pings",
+    "pinged",
+    "pinging"
+   ],
+   "glossEn": "send a quick signal to test a connection",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "2dc1caf4-1332-53f6-9518-51b5ae31aa1f",
+   "lemma": "dashboard",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dashboard",
+    "dashboards"
+   ],
+   "glossEn": "screen that shows key numbers at a glance",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "d22919c0-e712-5b26-a7ff-6979386c85b9",
+   "lemma": "retry",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "retry",
+    "retries",
+    "retried",
+    "retrying"
+   ],
+   "glossEn": "try an action again after it failed",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "1b95ae59-1098-5ae6-98cf-cbbfb479ca79",
+   "lemma": "SQL",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "SQL",
+    "sql"
+   ],
+   "glossEn": "language used to ask databases for data",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "e1e5d40f-3bb4-5374-bd89-bf3568918f7a",
+   "lemma": "bot",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bot",
+    "bots"
+   ],
+   "glossEn": "program that performs tasks automatically online",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  }
+ ]
+}

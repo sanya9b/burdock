@@ -1,0 +1,543 @@
+{
+ "chunk": "C1-W27",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "3c00481e-269e-5caf-97ee-f18d165372d2",
+   "lemma": "shun",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shun"
+   ],
+   "glossEn": "persistently avoid, ignore or reject",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "7fa45d5b-03c3-5e0b-99a0-31365be4cec1",
+   "lemma": "rebuff",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rebuff"
+   ],
+   "glossEn": "reject in an abrupt or ungracious manner",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "3c403985-584b-5117-bc0d-52499a6cec51",
+   "lemma": "pester",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pester"
+   ],
+   "glossEn": "trouble with frequent requests or interruptions",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "b4f68f30-9079-5d49-a7b9-d094f0517b33",
+   "lemma": "badger",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "badger"
+   ],
+   "glossEn": "repeatedly ask or pester someone to do something",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "121d550d-f39b-5bed-99c5-9a16796d5bb0",
+   "lemma": "grovel",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "grovel"
+   ],
+   "glossEn": "act humbly to obtain forgiveness or favor",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "e070a0f5-07f6-569c-8940-875d3d0c35e4",
+   "lemma": "relent",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "relent"
+   ],
+   "glossEn": "abandon a harsh intention, become less severe",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "c9518870-7fcb-5e8e-978b-3308a3624fa3",
+   "lemma": "revere",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "revere"
+   ],
+   "glossEn": "feel deep respect or admiration for",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "51ddf057-ac95-5090-85b5-2dc218902f23",
+   "lemma": "esteem",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "esteem"
+   ],
+   "glossEn": "respect and admiration",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "f714ae2a-8d51-538a-8eab-c5efaf59af77",
+   "lemma": "intimacy",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "intimacy"
+   ],
+   "glossEn": "close familiarity or friendship",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "9ca4fe0e-823e-513d-8be4-0ec931e58e4c",
+   "lemma": "allegiance",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "allegiance"
+   ],
+   "glossEn": "loyalty or commitment to a person or group",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "ab325289-cc78-5002-b72c-af3a07aca032",
+   "lemma": "kin",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "kin"
+   ],
+   "glossEn": "one's family and relations",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "46080b2b-ac45-54f6-8672-468dd6519be2",
+   "lemma": "mingle",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mingle"
+   ],
+   "glossEn": "move among and chat with people at a gathering",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "63b274fa-ff33-549f-bef8-511ef2e0eee6",
+   "lemma": "double-cross",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "double-cross",
+    "double cross"
+   ],
+   "glossEn": "betray someone one is supposedly helping",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "6d397926-c53e-5303-b726-2d865543c760",
+   "lemma": "etiquette",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "etiquette"
+   ],
+   "glossEn": "customary code of polite behavior",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "5a1daaaf-2af8-54bc-8e4c-c02dc95b10c1",
+   "lemma": "civility",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "civility"
+   ],
+   "glossEn": "formal politeness and courtesy",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "31ad3d19-f9c6-5a3d-9ab7-fb10aea13ffb",
+   "lemma": "discretion",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "discretion"
+   ],
+   "glossEn": "care in not causing offense or revealing secrets",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "25bbd6af-f202-5ffe-a2fa-0acf693ac9e4",
+   "lemma": "shortcoming",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shortcoming"
+   ],
+   "glossEn": "fault or failure to meet a standard",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "446f82f9-8f69-5ee2-9cfb-652440eaad94",
+   "lemma": "outburst",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "outburst"
+   ],
+   "glossEn": "sudden release of strong emotion",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "f9a53a6e-eafa-57ef-bb92-f54a5ae9b482",
+   "lemma": "meltdown",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "meltdown"
+   ],
+   "glossEn": "sudden loss of emotional control",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "010773c5-ab95-53c0-8276-9eb76bcd1227",
+   "lemma": "maverick",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "maverick"
+   ],
+   "glossEn": "independent-minded person who ignores conventions",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "874aeac9-323b-5b60-b34c-21773fe2d4cc",
+   "lemma": "protégé",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "protégé",
+    "protege"
+   ],
+   "glossEn": "person guided and supported by an older mentor",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "19c990f4-7726-5259-b033-6b656a502c7e",
+   "lemma": "amicable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "amicable"
+   ],
+   "glossEn": "friendly and without serious disagreement",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "0d438123-1213-5a13-8b6a-a4aed5820b37",
+   "lemma": "platonic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "platonic"
+   ],
+   "glossEn": "intimate and affectionate but not sexual",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "aec8ccc4-28ca-5832-8364-64289dab3961",
+   "lemma": "smother",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "smother"
+   ],
+   "glossEn": "overwhelm with excessive affection or care",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "99e9a41b-1d35-54aa-a36e-a5bebf653a2d",
+   "lemma": "enchanting",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "enchanting"
+   ],
+   "glossEn": "delightfully charming or attractive",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "d9b6c4fb-cd6e-5d6b-ba0f-1c19a8b7556d",
+   "lemma": "endearing",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "endearing"
+   ],
+   "glossEn": "inspiring affection",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "e8467b30-192f-54e0-8fc2-4748cdad0cfe",
+   "lemma": "falling-out",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "falling-out",
+    "falling out"
+   ],
+   "glossEn": "quarrel that ends a friendship",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "8b41eb6b-d746-5772-8468-e48ca668e7b0",
+   "lemma": "flattery",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flattery"
+   ],
+   "glossEn": "excessive and insincere praise",
+   "topics": [
+    "communication"
+   ],
+   "area": "emotions-character"
+  },
+  {
+   "id": "e5012cbe-ed7b-5d94-bff2-1bf2799a3b72",
+   "lemma": "put-down",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "put-down",
+    "putdown"
+   ],
+   "glossEn": "remark intended to humiliate or criticize",
+   "topics": [
+    "communication"
+   ],
+   "area": "emotions-character"
+  },
+  {
+   "id": "bb611c6c-9907-53d2-81d2-ba4318a37b44",
+   "lemma": "badmouth",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "badmouth",
+    "bad-mouth"
+   ],
+   "glossEn": "criticize someone behind their back",
+   "topics": [
+    "communication"
+   ],
+   "area": "emotions-character"
+  },
+  {
+   "id": "f153272d-0277-5338-81a8-224f6e000da5",
+   "lemma": "eavesdrop",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "eavesdrop"
+   ],
+   "glossEn": "secretly listen to a private conversation",
+   "topics": [
+    "communication"
+   ],
+   "area": "emotions-character"
+  },
+  {
+   "id": "4b71fd81-1eaa-5599-a167-cd6e6a0037b4",
+   "lemma": "quip",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quip"
+   ],
+   "glossEn": "witty remark",
+   "topics": [
+    "communication"
+   ],
+   "area": "emotions-character"
+  },
+  {
+   "id": "cf13f391-1c02-5184-a601-306b61bbf55f",
+   "lemma": "retort",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "retort"
+   ],
+   "glossEn": "reply sharply or wittily",
+   "topics": [
+    "communication"
+   ],
+   "area": "emotions-character"
+  },
+  {
+   "id": "b24a303f-0efa-5bb5-b69a-f797f888a32f",
+   "lemma": "irk",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "irk"
+   ],
+   "glossEn": "irritate or annoy",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "a75db0b5-1f57-596e-b9d5-36f6eb4875e4",
+   "lemma": "rile",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rile"
+   ],
+   "glossEn": "make annoyed or irritated",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "93d17c77-5715-5364-95b2-a9b9079c47a4",
+   "lemma": "befriend",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "befriend"
+   ],
+   "glossEn": "make friends with someone",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "9c31d9d6-2910-5a8e-aef0-eab910c18a4c",
+   "lemma": "rekindle",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rekindle"
+   ],
+   "glossEn": "revive a lost feeling or relationship",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "5164161c-5831-5e8e-a1ea-17f4aa671be0",
+   "lemma": "uplift",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "uplift"
+   ],
+   "glossEn": "raise someone's spirits or morale",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "a7cc80d6-c485-5cc8-8716-b3278fb17b92",
+   "lemma": "pry",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pry"
+   ],
+   "glossEn": "inquire too closely into private matters",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "57ee2bcf-6eaf-59d4-a504-0e4908e96da0",
+   "lemma": "snoop",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "snoop"
+   ],
+   "glossEn": "secretly investigate someone's private affairs",
+   "topics": [],
+   "area": "emotions-character"
+  }
+ ]
+}

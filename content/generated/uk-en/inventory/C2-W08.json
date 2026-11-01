@@ -1,0 +1,557 @@
+{
+ "chunk": "C2-W08",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "3fa83c9e-87ec-52a5-8b29-5ef4a14c0211",
+   "lemma": "archaism",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "archaism"
+   ],
+   "glossEn": "old-fashioned word or expression no longer used",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "6c87d9de-ccea-5ea9-a215-e551246336ad",
+   "lemma": "pleonasm",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pleonasm"
+   ],
+   "glossEn": "redundant words, like free gift",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "1e383612-05de-52ea-b9da-73eae0c3c747",
+   "lemma": "prolix",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prolix"
+   ],
+   "glossEn": "using too many words; tediously lengthy",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "5037203b-d2c4-5cf6-be10-66bf2d033c41",
+   "lemma": "verbosity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "verbosity"
+   ],
+   "glossEn": "use of more words than necessary",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "17191f86-cd40-5ac1-8bd6-f5b505a34e53",
+   "lemma": "dolly",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dolly"
+   ],
+   "glossEn": "wheeled platform moving a camera smoothly",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "c620e1e2-cdb0-53ef-af10-ec729f908eef",
+   "lemma": "sleeper",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sleeper"
+   ],
+   "glossEn": "film or book that becomes unexpectedly successful",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "6f4e27ae-8252-5a69-9dfa-68a05d8e85b5",
+   "lemma": "aperture",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aperture"
+   ],
+   "glossEn": "adjustable opening controlling light entering a lens",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "c74e8e1a-e063-5324-83b5-39504cbf901e",
+   "lemma": "foley",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "foley"
+   ],
+   "glossEn": "everyday sound effects added to film in post-production",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "b83b35ff-5a2d-5499-af7c-eb2d6d61b74f",
+   "lemma": "stuntman",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stuntman",
+    "stunt man"
+   ],
+   "glossEn": "performer who does dangerous stunts for actors",
+   "topics": [
+    "work"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "5669af8f-c7c9-54f5-bcb1-920a5c3c9ca5",
+   "lemma": "callback",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "callback",
+    "call-back"
+   ],
+   "glossEn": "second audition after a successful first one",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "8ac73463-95db-54b8-8536-48e6e31b55de",
+   "lemma": "curtain call",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "curtain call",
+    "curtain-call"
+   ],
+   "glossEn": "performers' return to the stage for applause",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "90420248-a03b-560a-801c-148f720306bb",
+   "lemma": "prompter",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prompter"
+   ],
+   "glossEn": "person who whispers forgotten lines to actors",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "a4d8c391-6f2b-5150-b795-ef282281e919",
+   "lemma": "showstopper",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "showstopper",
+    "show-stopper"
+   ],
+   "glossEn": "performance so good that applause interrupts the show",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "fc3562e0-aa2a-5146-baba-30fb92f79cd0",
+   "lemma": "upstage",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "upstage"
+   ],
+   "glossEn": "divert attention from someone onto yourself",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "b562a39d-5f14-5c38-84a5-6ad2704d25c7",
+   "lemma": "downstage",
+   "pos": "adverb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "downstage"
+   ],
+   "glossEn": "at or toward the front of the stage",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "726f3c09-d767-5e11-8df0-d1f0665a0add",
+   "lemma": "proscenium",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "proscenium"
+   ],
+   "glossEn": "arch framing the stage opening in a theater",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "ccaed24f-1df5-5ea3-b466-9ef484fc4c9b",
+   "lemma": "fringe",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fringe"
+   ],
+   "glossEn": "experimental, unofficial part of a festival or art",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "bfa72880-47cd-5e6a-8d2a-8039e1e3d771",
+   "lemma": "repertory",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "repertory"
+   ],
+   "glossEn": "theater company performing a rotating set of plays",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "08b42178-bf89-59a2-b656-e0ea49941a30",
+   "lemma": "dramatist",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dramatist"
+   ],
+   "glossEn": "writer of plays",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "18d17ba9-8cd3-5c97-bee9-b54fa46397d5",
+   "lemma": "dramaturgy",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dramaturgy"
+   ],
+   "glossEn": "theory and practice of dramatic composition",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "36bd246a-2240-5232-a503-b17809c57d43",
+   "lemma": "marionette",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "marionette"
+   ],
+   "glossEn": "puppet worked by strings",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "6e3fdead-b150-59f1-ae37-7e98a1e18d44",
+   "lemma": "ventriloquist",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ventriloquist"
+   ],
+   "glossEn": "performer who speaks without moving the lips",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "1f599a06-7f4e-523f-a098-63785525264b",
+   "lemma": "cabaret",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cabaret"
+   ],
+   "glossEn": "entertainment of songs and comedy in a club",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "523f5d46-8d6c-5e18-8f84-6897686df4b8",
+   "lemma": "vaudeville",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vaudeville"
+   ],
+   "glossEn": "variety entertainment with songs and comic acts",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "ed1c08da-7c3e-51cb-83e3-46addb30b1ea",
+   "lemma": "burlesque",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "burlesque"
+   ],
+   "glossEn": "comic parody or bawdy variety show",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "099c4387-6e25-53d8-84a5-468cf9163671",
+   "lemma": "revue",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "revue"
+   ],
+   "glossEn": "light theatrical show of sketches and songs",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "c16c9a54-d4d4-569f-add8-d7df4ce3fa07",
+   "lemma": "noir",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "noir"
+   ],
+   "glossEn": "dark and cynical in style, as in crime films",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "41d11f7a-c4d8-5463-81e9-a1dadf581efa",
+   "lemma": "dud",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dud"
+   ],
+   "glossEn": "thing that fails to work or succeed",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "9490f94b-408c-5823-9139-41894e4921d2",
+   "lemma": "showrunner",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "showrunner",
+    "show-runner"
+   ],
+   "glossEn": "person with overall creative control of a series",
+   "topics": [
+    "work"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "b2557160-ffe2-5b27-a2b5-c0300fb58b93",
+   "lemma": "cinephile",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cinephile"
+   ],
+   "glossEn": "passionate lover of cinema",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "356aff12-1939-5ae0-8eb0-ce4a5d8c9340",
+   "lemma": "theatergoer",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "theatergoer",
+    "theatregoer",
+    "theater-goer"
+   ],
+   "glossEn": "person who regularly attends plays",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "ff01acee-2af2-5e87-84d0-5eaf6ad36c66",
+   "lemma": "stagehand",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stagehand",
+    "stage hand"
+   ],
+   "glossEn": "worker who moves scenery and props backstage",
+   "topics": [
+    "work"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "ed0f95fe-26c6-5be6-8203-9e8034457047",
+   "lemma": "read-through",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "read-through",
+    "readthrough"
+   ],
+   "glossEn": "first reading of a script by the whole cast",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "b48e8e47-ed58-50fc-a1ec-e99b8987767a",
+   "lemma": "miscast",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "miscast"
+   ],
+   "glossEn": "give an actor an unsuitable role",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "71ad6599-75ed-54b6-aafd-661f0441821b",
+   "lemma": "headshot",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "headshot",
+    "head shot"
+   ],
+   "glossEn": "actor's publicity photograph of the face",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "1df5586b-692a-5e48-8b97-76a7919b1b60",
+   "lemma": "showreel",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "showreel",
+    "show reel"
+   ],
+   "glossEn": "short video showcasing a performer's work",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "0797c2c0-e594-58af-b396-d074d70ff047",
+   "lemma": "playhouse",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "playhouse"
+   ],
+   "glossEn": "theater building for plays",
+   "topics": [
+    "city"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "2ad23e9a-80ff-5587-b7cd-1589f56871d2",
+   "lemma": "crowd-pleaser",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "crowd-pleaser",
+    "crowd pleaser"
+   ],
+   "glossEn": "something popular with a wide audience",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "96fcdf0e-306e-50ef-8fe8-c86f1554a4d9",
+   "lemma": "greenroom",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "greenroom",
+    "green room"
+   ],
+   "glossEn": "room where performers wait before going on",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "d7afdec2-c8dd-5523-bb6f-1f31b05282eb",
+   "lemma": "impresario",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "impresario"
+   ],
+   "glossEn": "organizer and financer of concerts, plays or operas",
+   "topics": [
+    "work"
+   ],
+   "area": "arts-media"
+  }
+ ]
+}

@@ -1,0 +1,662 @@
+{
+ "chunk": "C1-W45",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "ffdb7cc3-f52d-52db-9676-a94758d3f9bf",
+   "lemma": "brogue",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brogue",
+    "brogues"
+   ],
+   "glossEn": "sturdy leather shoe with decorative holes",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "7c5f529f-e3df-557b-af96-74aab65ab351",
+   "lemma": "espadrille",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "espadrille",
+    "espadrilles"
+   ],
+   "glossEn": "canvas shoe with a rope sole",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "e71f1783-87be-5f0b-8eea-7eead4d76624",
+   "lemma": "tulle",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tulle"
+   ],
+   "glossEn": "fine net fabric used in skirts and veils",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "9939e1fb-5e7e-570f-9cd9-9abaf873e6c6",
+   "lemma": "misrepresentation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "misrepresentation",
+    "misrepresentations"
+   ],
+   "glossEn": "false description of a product that misleads the buyer",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "8af2baad-77c0-5e60-a95a-388d4280c048",
+   "lemma": "bait-and-switch",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bait-and-switch",
+    "bait and switch"
+   ],
+   "glossEn": "advertising a cheap item to sell a dearer one",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "866fe4c0-9a89-5348-8768-76bf57ddb18c",
+   "lemma": "class action",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "class action",
+    "class actions",
+    "class-action"
+   ],
+   "glossEn": "lawsuit brought by many customers together",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "0cdad738-9181-5b65-9bdf-43f1b0834a9f",
+   "lemma": "mis-selling",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mis-selling",
+    "misselling",
+    "mis-sell",
+    "mis-sold"
+   ],
+   "glossEn": "selling a product by giving misleading or unsuitable advice",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "68c5bd1c-187b-5e25-b637-7926a8e4683b",
+   "lemma": "greenwashing",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "greenwashing",
+    "greenwash"
+   ],
+   "glossEn": "falsely presenting products as environmentally friendly",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "6f4ce5e4-4cab-5811-9a6a-1b40fe20b3bc",
+   "lemma": "compressor",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "compressor",
+    "compressors"
+   ],
+   "glossEn": "pump that cools a fridge or air conditioner",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "29760eb1-e4af-52ce-97a8-8220436b0dcd",
+   "lemma": "pyrolytic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pyrolytic",
+    "pyrolytic cleaning"
+   ],
+   "glossEn": "oven that cleans itself by burning residue to ash",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "d07238b7-ecdb-59b0-985b-9e478f7cd23c",
+   "lemma": "condenser",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "condenser",
+    "condensers",
+    "condenser dryer"
+   ],
+   "glossEn": "dryer that collects water instead of venting steam",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "ed8b9038-3ad4-5965-94cd-0619008883fc",
+   "lemma": "HEPA",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "HEPA",
+    "HEPA filter"
+   ],
+   "glossEn": "filter grade that traps very fine dust",
+   "topics": [
+    "shopping",
+    "health"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "1302a8ca-b42c-527a-9abe-3b447e6a72c0",
+   "lemma": "convector",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "convector",
+    "convectors",
+    "convector heater"
+   ],
+   "glossEn": "heater that warms a room by circulating air",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "0a03176e-4619-5e51-ba87-39cb4b132cc2",
+   "lemma": "lumen",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lumen",
+    "lumens"
+   ],
+   "glossEn": "unit of brightness given for bulbs",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "fc675de3-27e6-5431-aa43-62ba8569923b",
+   "lemma": "thread count",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "thread count",
+    "thread counts"
+   ],
+   "glossEn": "number of threads per square inch of bedding",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "c4efdfb7-d695-5d06-adb0-04eb8d9c50e5",
+   "lemma": "private label",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "private label",
+    "private labels",
+    "private-label"
+   ],
+   "glossEn": "retailer's own brand made by another manufacturer",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "98ad9c9e-be68-5c3e-9bdd-979cf45343d8",
+   "lemma": "tare",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tare",
+    "tare weight"
+   ],
+   "glossEn": "weight of the container deducted when weighing goods",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "bc689089-b2a5-5db8-8e0c-608ae886eadf",
+   "lemma": "ultra-processed",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ultra-processed",
+    "ultra processed",
+    "UPF"
+   ],
+   "glossEn": "industrially made food with many additives",
+   "topics": [
+    "shopping",
+    "food",
+    "health"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "1d3e0c13-0843-5876-bb97-38c70fc1721c",
+   "lemma": "UHT",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "UHT",
+    "long-life"
+   ],
+   "glossEn": "heat-treated milk that keeps for months unopened",
+   "topics": [
+    "shopping",
+    "food"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "5e08e398-70f0-5ab6-9497-231bc85da8af",
+   "lemma": "shelf-stable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shelf-stable",
+    "shelf stable"
+   ],
+   "glossEn": "keeping safely at room temperature without refrigeration",
+   "topics": [
+    "shopping",
+    "food"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "e1637bca-9ad5-59f2-ab1e-a13487669940",
+   "lemma": "FIFO",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "FIFO",
+    "first in, first out"
+   ],
+   "glossEn": "first in, first out rule for rotating stock",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "51954f71-620d-5c3d-a98d-92d13278b7ae",
+   "lemma": "wonky",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wonky",
+    "imperfect",
+    "ugly"
+   ],
+   "glossEn": "oddly shaped produce sold at a lower price",
+   "topics": [
+    "shopping",
+    "food"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "556436d5-59a9-56ce-92dc-4c01e9024b01",
+   "lemma": "air-freighted",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "air-freighted",
+    "air freighted",
+    "air-freight"
+   ],
+   "glossEn": "transported by plane, as out-of-season produce",
+   "topics": [
+    "shopping",
+    "food"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "39bdeaa7-76d1-5a56-b389-e58b052dbbac",
+   "lemma": "reverse vending",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reverse vending",
+    "reverse vending machine",
+    "bottle return"
+   ],
+   "glossEn": "machine that pays deposits back for returned bottles",
+   "topics": [
+    "shopping",
+    "city"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "ac00af21-33ac-5c90-b44e-ba71c586dad5",
+   "lemma": "sniping",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sniping",
+    "snipe",
+    "sniper"
+   ],
+   "glossEn": "bidding in the last seconds of an online auction",
+   "topics": [
+    "shopping",
+    "it"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "76f82a5b-306d-56a6-965b-725ea2a04115",
+   "lemma": "hammer price",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hammer price",
+    "hammer prices"
+   ],
+   "glossEn": "final price at which an auction lot sells",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "64079f06-f0a6-5dbe-bdda-9561fd75a76e",
+   "lemma": "gray market",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gray market",
+    "grey market",
+    "gray-market"
+   ],
+   "glossEn": "legal trade in goods outside official distribution channels",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "b3d45a9a-be80-5233-a829-e2caaabb4558",
+   "lemma": "flipper",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flipper",
+    "flippers",
+    "flipping"
+   ],
+   "glossEn": "person who buys items to resell quickly at profit",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "c46f2990-a2cb-547d-b2cc-adb977d76cec",
+   "lemma": "scalping",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scalping",
+    "scalp",
+    "scalped"
+   ],
+   "glossEn": "buying scarce items to resell at inflated prices",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "6c5cc74d-9f9c-5f5a-800d-85b8e5a3bc4a",
+   "lemma": "consignor",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "consignor",
+    "consignors",
+    "consignee"
+   ],
+   "glossEn": "owner who leaves goods with a shop to sell",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "589992f7-097e-54d7-a002-e93e1dda5475",
+   "lemma": "price-sensitive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "price-sensitive",
+    "price sensitive",
+    "price sensitivity"
+   ],
+   "glossEn": "strongly influenced by price when deciding to buy",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "d60df003-692f-5f50-b858-0cddb3a94497",
+   "lemma": "showrooming",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "showrooming",
+    "webrooming"
+   ],
+   "glossEn": "checking goods in a store, then buying cheaper online",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "4cfc83ac-6fbd-527e-862e-1df93afbde12",
+   "lemma": "serial returner",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "serial returner",
+    "serial returners"
+   ],
+   "glossEn": "shopper who regularly sends back most online orders",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "e0acb1e5-f353-54ea-ab41-96790a1952d9",
+   "lemma": "wardrobing",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wardrobing"
+   ],
+   "glossEn": "wearing an item once and returning it for refund",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "75269ec5-570d-517c-a98b-e75cb195ff61",
+   "lemma": "overconsumption",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overconsumption",
+    "over-consumption"
+   ],
+   "glossEn": "buying and using far more than is needed",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "b01e06a6-1c1b-52b7-8db1-7c776e903ba3",
+   "lemma": "shrinkflation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shrinkflation"
+   ],
+   "glossEn": "making a product smaller while keeping its price",
+   "topics": [
+    "shopping",
+    "food"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "b8415cf5-daa4-5c11-ae31-e80e7eb746a8",
+   "lemma": "statutory",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "statutory"
+   ],
+   "glossEn": "required or set by a written law",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "ba175dbc-03b5-55b8-8a16-8246bb6fb4de",
+   "lemma": "ratification",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ratification"
+   ],
+   "glossEn": "formal approval of a treaty or amendment",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "ef04ea87-45bf-57a6-aea7-2939baee4723",
+   "lemma": "caucus",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "caucus"
+   ],
+   "glossEn": "meeting of party members to decide policy or candidates",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "c162c2a3-7cff-5c70-8e75-6b5fbd568046",
+   "lemma": "nonpartisan",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nonpartisan",
+    "non-partisan"
+   ],
+   "glossEn": "not tied to any political party",
+   "topics": [],
+   "area": "society-law"
+  }
+ ]
+}

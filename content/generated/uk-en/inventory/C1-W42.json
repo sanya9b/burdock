@@ -1,0 +1,600 @@
+{
+ "chunk": "C1-W42",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "02c899f7-4c93-505d-9670-0586c3356f34",
+   "lemma": "whirlpool",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "whirlpool"
+   ],
+   "glossEn": "powerful circular current that pulls things down",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "05a12082-d4a1-5055-a47a-49a4c47813ca",
+   "lemma": "sleet",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sleet"
+   ],
+   "glossEn": "rain mixed with snow or ice",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "ddfe454f-3ad6-5142-a52f-c2b6a415dcc7",
+   "lemma": "cavern",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cavern"
+   ],
+   "glossEn": "large deep cave",
+   "topics": [
+    "travel"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "672603a8-7c6d-5407-bd23-d2170d616440",
+   "lemma": "dew",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dew"
+   ],
+   "glossEn": "drops of water forming on cool surfaces overnight",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "2df15305-6a5a-5e1b-b219-8d9f455b8386",
+   "lemma": "overcast",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overcast"
+   ],
+   "glossEn": "covered with clouds; dull",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "9b47b341-3c20-5d1d-b29d-6339e2b2e578",
+   "lemma": "muggy",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "muggy"
+   ],
+   "glossEn": "unpleasantly warm and humid",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "eb16cb1b-6a03-5389-8ed7-e275f567bef5",
+   "lemma": "balmy",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "balmy"
+   ],
+   "glossEn": "pleasantly warm and mild",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "e44f1a26-9fcb-52c7-b93c-4db09c0cbe1c",
+   "lemma": "frigid",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "frigid"
+   ],
+   "glossEn": "extremely cold",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "f84a7498-a255-5f47-be0c-6f156a0c4118",
+   "lemma": "cardiac",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cardiac"
+   ],
+   "glossEn": "relating to the heart",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "2980ebaf-4840-5294-8ca5-4055e894e304",
+   "lemma": "anti-inflammatory",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "anti-inflammatory",
+    "antiinflammatory"
+   ],
+   "glossEn": "reducing swelling and pain in the body",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "f925ac1e-e73d-5b2f-8c72-07dd68ddf2b9",
+   "lemma": "epilepsy",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "epilepsy"
+   ],
+   "glossEn": "brain disorder causing repeated seizures",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "024b2688-48f9-5fed-814b-4b8c3bec4397",
+   "lemma": "incubation period",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incubation period"
+   ],
+   "glossEn": "time between catching an illness and first symptoms",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "9a079f2d-204c-53c6-91f7-b7bfdb8f6bad",
+   "lemma": "onset",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "onset"
+   ],
+   "glossEn": "beginning of something, especially an illness",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "bef51da9-202c-59c9-8e44-1694c7723f5f",
+   "lemma": "opioid",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "opioid"
+   ],
+   "glossEn": "strong addictive painkilling drug",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "f6c34666-cbb5-56f6-ab4f-11de7541e446",
+   "lemma": "flare-up",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flare-up",
+    "flare up"
+   ],
+   "glossEn": "sudden return of symptoms of a condition",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "962ac426-7242-5c31-aa0d-f952347f58a2",
+   "lemma": "screening",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "screening"
+   ],
+   "glossEn": "testing many people for early signs of disease",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "68b798be-269d-5872-a144-ba0230153fde",
+   "lemma": "biopsy",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "biopsy"
+   ],
+   "glossEn": "removal of tissue to test for disease",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "943a2255-7e87-57c5-b9a6-22da843dd1f0",
+   "lemma": "ultrasound",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ultrasound"
+   ],
+   "glossEn": "scan that images the body using sound waves",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "48d32842-105b-5ebd-9389-b4e5886bdca3",
+   "lemma": "swab",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "swab"
+   ],
+   "glossEn": "soft pad used to take a sample for testing",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "6997b0ce-3f8b-57f4-aab0-04d9bd09dc1d",
+   "lemma": "antiviral",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "antiviral",
+    "anti-viral"
+   ],
+   "glossEn": "acting against viruses",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "3b4add46-e2a3-55fe-91c3-d1c4ea67df70",
+   "lemma": "antiseptic",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "antiseptic"
+   ],
+   "glossEn": "substance that stops germs growing on skin",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "bceac9f3-9657-5d46-a3aa-750b40347d88",
+   "lemma": "disinfectant",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disinfectant"
+   ],
+   "glossEn": "chemical that kills germs on surfaces",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "17f43c95-a5e9-54a6-9717-87335714db27",
+   "lemma": "sanitize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sanitize",
+    "sanitise"
+   ],
+   "glossEn": "make clean and free of germs",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "32d4e959-52ed-522e-ba76-53b0455759b0",
+   "lemma": "epidemiologist",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "epidemiologist"
+   ],
+   "glossEn": "scientist who studies how diseases spread",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "d9a15ec8-f502-547b-acd4-e0a85548cc93",
+   "lemma": "booster",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "booster",
+    "booster shot"
+   ],
+   "glossEn": "extra dose of vaccine to renew protection",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "53db8dae-46ca-52dd-ac43-042a843892b2",
+   "lemma": "herd immunity",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "herd immunity"
+   ],
+   "glossEn": "protection of a group when most are immune",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "21515022-9da3-54e3-8b78-3bc4b276caa5",
+   "lemma": "clinical trial",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "clinical trial"
+   ],
+   "glossEn": "controlled test of a treatment on people",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "cbdc4ee0-5af1-5b3b-8099-5dd028473bea",
+   "lemma": "defibrillator",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "defibrillator"
+   ],
+   "glossEn": "device that restarts the heart with electric shock",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "4f31509f-868a-5840-9cee-b3a471843942",
+   "lemma": "intolerance",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "intolerance"
+   ],
+   "glossEn": "inability to digest a food without discomfort",
+   "topics": [
+    "health",
+    "food"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "a1a26b8b-f109-5cca-94f3-55ff2c67323e",
+   "lemma": "antihistamine",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "antihistamine"
+   ],
+   "glossEn": "medicine that relieves allergy symptoms",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "0b789124-7add-5f0b-9db5-9f029bcdcbd1",
+   "lemma": "inhaler",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inhaler"
+   ],
+   "glossEn": "device for breathing medicine into the lungs",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "e66a6048-5a5b-56cb-afbe-4da94d39dc19",
+   "lemma": "bronchitis",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bronchitis"
+   ],
+   "glossEn": "inflammation of the airways causing a cough",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "7d793fc9-59fb-5fb9-8454-bffe9b520459",
+   "lemma": "physiotherapy",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "physiotherapy",
+    "physical therapy"
+   ],
+   "glossEn": "treatment of injury with exercise and massage",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "64e8a4a8-ca3c-5e4d-87c8-7861972fea38",
+   "lemma": "dizziness",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dizziness"
+   ],
+   "glossEn": "feeling that you or the room is spinning",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "744b50b7-2af5-5601-88ab-4763bfca4d8f",
+   "lemma": "cardiovascular",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cardiovascular"
+   ],
+   "glossEn": "relating to the heart and blood vessels",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "e41e93b5-edaa-5086-9293-db09e84702a0",
+   "lemma": "hypertension",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hypertension"
+   ],
+   "glossEn": "abnormally high blood pressure",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "769bfa86-0de1-564a-a940-ed871b6ccebf",
+   "lemma": "clot",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "clot",
+    "blood clot"
+   ],
+   "glossEn": "thick lump formed when blood hardens",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "9dafadd6-37b3-5f59-968a-3926c7f9afbf",
+   "lemma": "cardiac arrest",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cardiac arrest"
+   ],
+   "glossEn": "sudden stopping of the heart",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "bf8e2f5f-cb00-5a55-a607-4f062c27c841",
+   "lemma": "pacemaker",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pacemaker"
+   ],
+   "glossEn": "device implanted to keep the heart beating regularly",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "03a86300-6993-5210-b881-6f49468ea0b3",
+   "lemma": "dialysis",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dialysis"
+   ],
+   "glossEn": "machine cleaning of blood when kidneys fail",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  }
+ ]
+}

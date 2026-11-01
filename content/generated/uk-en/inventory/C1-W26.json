@@ -1,0 +1,539 @@
+{
+ "chunk": "C1-W26",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "da0e5afc-158d-57d9-a917-d5343b333e28",
+   "lemma": "bigoted",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bigoted"
+   ],
+   "glossEn": "intolerantly prejudiced against others",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "ea5f8302-0024-5e55-817c-5b39a82cde94",
+   "lemma": "judgmental",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "judgmental",
+    "judgemental"
+   ],
+   "glossEn": "excessively critical of other people",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "b69187c6-f677-53fb-a483-d1fc645d8703",
+   "lemma": "distrustful",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "distrustful"
+   ],
+   "glossEn": "unwilling to trust others",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "97370311-e626-5aff-9ad1-b816199d63ca",
+   "lemma": "sly",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sly"
+   ],
+   "glossEn": "cunning and deceitful in a secretive way",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "270c09fd-99a2-5f4d-97e6-8eced11aa32c",
+   "lemma": "deceitful",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deceitful"
+   ],
+   "glossEn": "dishonest, deliberately misleading others",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "f17ac6de-c950-5550-803d-a96b91edd736",
+   "lemma": "two-faced",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "two-faced",
+    "two faced"
+   ],
+   "glossEn": "insincere, saying different things to different people",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "e988d824-54e7-5a11-a941-dd61ef530f91",
+   "lemma": "hypocritical",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hypocritical"
+   ],
+   "glossEn": "claiming moral standards one does not keep",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "239321cc-894f-55ec-b4a9-db84409d5db6",
+   "lemma": "insincere",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "insincere"
+   ],
+   "glossEn": "not expressing genuine feelings",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "dc90c529-c185-563b-9ae3-77f5bd89745e",
+   "lemma": "spineless",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spineless"
+   ],
+   "glossEn": "lacking courage and determination",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "14b5bb16-7951-56f8-9766-c37bdaecb8a3",
+   "lemma": "gutless",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gutless"
+   ],
+   "glossEn": "lacking courage",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "5b2ddea5-73c4-5eb7-af4a-585d7fdd6b2f",
+   "lemma": "submissive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "submissive"
+   ],
+   "glossEn": "ready to accept the authority of others",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "35486d9d-3186-5510-9a2b-8fa2fc211978",
+   "lemma": "subservient",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subservient"
+   ],
+   "glossEn": "excessively willing to obey others",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "74a1c025-fa21-5158-a5dd-e4240d0bdd44",
+   "lemma": "vengeful",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vengeful"
+   ],
+   "glossEn": "seeking to harm someone in return for injury",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "90672c7d-cc3b-581e-91c9-b60d4f2f7d8b",
+   "lemma": "heartless",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heartless"
+   ],
+   "glossEn": "completely without compassion",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "144328bd-d626-5b23-86f8-bd741544a7e7",
+   "lemma": "cold-hearted",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cold-hearted",
+    "coldhearted"
+   ],
+   "glossEn": "lacking affection or warmth",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "5add6f2a-8224-5884-a7d1-2ddea02cfd6b",
+   "lemma": "tactless",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tactless"
+   ],
+   "glossEn": "thoughtlessly causing offense",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "265dd3f9-cb5d-595b-93ac-5958433f25b5",
+   "lemma": "brash",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brash"
+   ],
+   "glossEn": "self-assertive in a rude, noisy way",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "66e976b0-95c9-5747-a195-8d955b41ae5f",
+   "lemma": "insufferable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "insufferable"
+   ],
+   "glossEn": "too unpleasant or arrogant to bear",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "d2b231f2-5c33-56ed-a83a-584a9dc45411",
+   "lemma": "fickle",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fickle"
+   ],
+   "glossEn": "changing loyalties or feelings frequently",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "a8e1a6ee-26ef-5160-bd3a-932be2825c1b",
+   "lemma": "flaky",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flaky"
+   ],
+   "glossEn": "unreliable and erratic",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "483f9b58-f4ef-5345-aa4a-e165b2abfbfc",
+   "lemma": "erratic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "erratic"
+   ],
+   "glossEn": "unpredictable in behavior or mood",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "4ea6eed0-343a-54d2-8ec7-9a2ba36daa5c",
+   "lemma": "temperamental",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "temperamental"
+   ],
+   "glossEn": "liable to unreasonable mood changes",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "383e287a-367d-5fe5-afe8-f0d7ae461f02",
+   "lemma": "hot-headed",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hot-headed",
+    "hotheaded"
+   ],
+   "glossEn": "quick to anger, impetuous",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "6871670a-da90-5d24-a71c-430a48463942",
+   "lemma": "short-tempered",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "short-tempered",
+    "short tempered"
+   ],
+   "glossEn": "easily angered",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "f9ac6351-8fd4-535e-8c0e-f07d51eb23cd",
+   "lemma": "aimless",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aimless"
+   ],
+   "glossEn": "without purpose or direction",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "2eb7847d-b8dd-5825-b48a-c8cf40d8cb55",
+   "lemma": "self-indulgent",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "self-indulgent",
+    "self indulgent"
+   ],
+   "glossEn": "excessively indulging one's own desires",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "f100048d-1ad7-55df-9683-d2ddd46d392a",
+   "lemma": "frivolous",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "frivolous"
+   ],
+   "glossEn": "not serious or sensible, carefree and silly",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "29b67802-1037-5d64-892e-aac4c981b2d6",
+   "lemma": "fussy",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fussy"
+   ],
+   "glossEn": "hard to please, overly concerned with details",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "2856d328-b728-58c1-b280-cfd6832f7f94",
+   "lemma": "scatterbrained",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scatterbrained",
+    "scatter-brained"
+   ],
+   "glossEn": "disorganized and forgetful",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "5f070932-cf78-5e49-a2ed-231035ad367e",
+   "lemma": "absent-minded",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "absent-minded",
+    "absentminded"
+   ],
+   "glossEn": "forgetful, with wandering attention",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "0543aa7d-68cb-5c48-b4d2-654760f60c50",
+   "lemma": "intrusive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "intrusive"
+   ],
+   "glossEn": "unwelcome and disturbing others' privacy",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "201486ac-200d-54c6-9d4e-6a0ad529d068",
+   "lemma": "belligerent",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "belligerent"
+   ],
+   "glossEn": "hostile and aggressive",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "0b26bfa8-2d0e-5fb8-8fe3-0ba9c50dc42f",
+   "lemma": "combative",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "combative"
+   ],
+   "glossEn": "ready and eager to fight or argue",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "c1526c96-0185-59a0-b385-d83be1a0473f",
+   "lemma": "snide",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "snide"
+   ],
+   "glossEn": "derogatory or mocking in an indirect way",
+   "topics": [
+    "communication"
+   ],
+   "area": "emotions-character"
+  },
+  {
+   "id": "64681d58-44b3-5e36-bdb2-9b96d513e4e6",
+   "lemma": "contemptuous",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "contemptuous"
+   ],
+   "glossEn": "showing contempt and scorn",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "82317106-138c-5c98-a3fb-b3e0421255dc",
+   "lemma": "mischievous",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mischievous"
+   ],
+   "glossEn": "causing playful trouble",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "35b8fda7-1a6d-531f-a604-11d6939993c7",
+   "lemma": "know-it-all",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "know-it-all",
+    "know it all"
+   ],
+   "glossEn": "person who behaves as if knowing everything",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "0a6b7b83-5fe4-57c7-a84b-97df5118184f",
+   "lemma": "pacify",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pacify"
+   ],
+   "glossEn": "quell the anger or agitation of",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "0689b8c7-8bbb-578a-a76f-25115c68c4da",
+   "lemma": "ridicule",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ridicule"
+   ],
+   "glossEn": "subject to mockery and contempt",
+   "topics": [
+    "communication"
+   ],
+   "area": "emotions-character"
+  },
+  {
+   "id": "e5175007-5bc6-5cb1-be74-5d5c4731c042",
+   "lemma": "demean",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "demean"
+   ],
+   "glossEn": "cause a severe loss of dignity and respect",
+   "topics": [],
+   "area": "emotions-character"
+  }
+ ]
+}

@@ -1,0 +1,684 @@
+{
+ "chunk": "B2-W04",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "1ffa43f0-11b0-5031-978e-b8f5c3379990",
+   "lemma": "first-time buyer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "first-time buyer",
+    "first-time buyers"
+   ],
+   "glossEn": "person buying their first home",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "05cc4bc5-4597-50c4-90c7-4b205796658c",
+   "lemma": "house hunting",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "house hunting",
+    "house-hunting",
+    "flat hunting",
+    "apartment hunting"
+   ],
+   "glossEn": "searching for a home to buy or rent",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "e6a41900-d4c5-5a1f-af8b-390e78098d0f",
+   "lemma": "housing shortage",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "housing shortage",
+    "housing shortages",
+    "housing crisis"
+   ],
+   "glossEn": "lack of enough homes for people in a city",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "d37bb294-ba56-561d-99db-9fb0ac6b2df0",
+   "lemma": "low-rise",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "low-rise",
+    "low rise"
+   ],
+   "glossEn": "having only a few floors",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "d7c9883b-2225-53b6-8d46-f47ed5f85130",
+   "lemma": "gated community",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gated community",
+    "gated communities"
+   ],
+   "glossEn": "fenced residential area with a controlled entrance",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "d2a58ef9-b71f-5618-a628-0af99c06fed2",
+   "lemma": "property manager",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "property manager",
+    "property managers",
+    "building manager"
+   ],
+   "glossEn": "person hired to run a building for its owner",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "435d8a8b-eff8-5367-ad59-b7a72b2c5663",
+   "lemma": "loft conversion",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "loft conversion",
+    "loft conversions",
+    "attic conversion"
+   ],
+   "glossEn": "attic rebuilt into a living room or bedroom",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "3f9403d4-07f0-5160-8087-907abbb789e9",
+   "lemma": "semi-detached",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "semi-detached",
+    "semidetached"
+   ],
+   "glossEn": "joined to one other house on one side",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "5e985143-aa13-53cd-87c5-6915dc3eaeda",
+   "lemma": "row house",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "row house",
+    "row houses",
+    "terraced house",
+    "terrace house"
+   ],
+   "glossEn": "house in a line of identical joined houses",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "c37b11eb-0b5c-5613-a37b-a4bfc8f00e24",
+   "lemma": "co-living",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "co-living",
+    "coliving"
+   ],
+   "glossEn": "renting a private room with shared living spaces",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "9ca65665-fd18-5525-ae6f-c1de955227ae",
+   "lemma": "communal",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "communal"
+   ],
+   "glossEn": "shared by all residents of a building",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "8de3c603-7b0a-54af-9399-29cbb6409a8e",
+   "lemma": "common area",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "common area",
+    "common areas",
+    "communal area"
+   ],
+   "glossEn": "part of a building shared by all residents",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "46109ca5-ec73-5bec-b37d-421a6957723c",
+   "lemma": "garbage chute",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "garbage chute",
+    "garbage chutes",
+    "trash chute",
+    "rubbish chute"
+   ],
+   "glossEn": "vertical pipe for dropping trash from upper floors",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "47071879-bffb-5093-9070-db8c1ed5b3dd",
+   "lemma": "skylight",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "skylight",
+    "skylights",
+    "roof window"
+   ],
+   "glossEn": "window set into a roof",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "85989dc9-ab1c-5a60-a778-a0506b6cac34",
+   "lemma": "drywall",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "drywall",
+    "plasterboard"
+   ],
+   "glossEn": "plaster board panels used for interior walls",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "a7446634-a2e6-5c8d-bb2f-c9c56ce0353c",
+   "lemma": "asbestos",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "asbestos"
+   ],
+   "glossEn": "harmful fireproof mineral found in old buildings",
+   "topics": [
+    "city",
+    "health"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "e06dffd7-5452-5695-af30-ebd40eca2d7a",
+   "lemma": "double-glazed",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "double-glazed",
+    "double glazed",
+    "double-glazing",
+    "double glazing"
+   ],
+   "glossEn": "fitted with windows of two glass layers",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "4c5d29b1-69d8-59a4-ba6b-d0aef465d841",
+   "lemma": "drafty",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "drafty",
+    "draughty",
+    "draftier"
+   ],
+   "glossEn": "letting in cold air through gaps",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "2b4f39f6-4f8b-5de0-ad9c-c64ab9b6232e",
+   "lemma": "ventilate",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ventilate",
+    "ventilates",
+    "ventilated",
+    "ventilating"
+   ],
+   "glossEn": "let fresh air into a room or building",
+   "topics": [
+    "city",
+    "health"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "35efcff1-7909-5a61-bb3d-3d2029102cda",
+   "lemma": "structural",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "structural",
+    "structurally"
+   ],
+   "glossEn": "relating to the parts that hold a building up",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "d3c431df-49ba-53c0-bde5-67728d755da9",
+   "lemma": "roofer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "roofer",
+    "roofers"
+   ],
+   "glossEn": "worker who builds and repairs roofs",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "e5a29f43-4e73-582f-96a4-9d935112e54a",
+   "lemma": "bricklayer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bricklayer",
+    "bricklayers"
+   ],
+   "glossEn": "worker who builds walls with bricks",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "eda75593-fdfb-5c8b-899e-1f10d237d2e1",
+   "lemma": "tradesman",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tradesman",
+    "tradesmen",
+    "tradesperson",
+    "tradespeople"
+   ],
+   "glossEn": "skilled manual worker such as a plumber",
+   "topics": [
+    "city",
+    "work"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "09f2aa75-56cf-5562-89cc-0f9cb2cef08a",
+   "lemma": "fuse box",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fuse box",
+    "fuse boxes",
+    "breaker box",
+    "consumer unit"
+   ],
+   "glossEn": "box of switches controlling a home's electric circuits",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "a879d3da-3946-50c8-956c-a2cbf38c0648",
+   "lemma": "unclog",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unclog",
+    "unclogs",
+    "unclogged",
+    "unblock"
+   ],
+   "glossEn": "remove a blockage from a pipe or drain",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "da0c7076-2885-5535-beab-1a7ba9b6bd9a",
+   "lemma": "water meter",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "water meter",
+    "water meters"
+   ],
+   "glossEn": "device measuring how much water a home uses",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "8af55023-d079-5f70-8103-4e0668ed94ec",
+   "lemma": "manhole",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "manhole",
+    "manholes",
+    "manhole cover"
+   ],
+   "glossEn": "covered opening in a street for access to sewers",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "39e42cb7-3bb9-516a-a3c5-33b343df4584",
+   "lemma": "district heating",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "district heating"
+   ],
+   "glossEn": "heat supplied to buildings from a central plant",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "30025ae4-501d-5326-8baa-1c0d94e44b60",
+   "lemma": "heat pump",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heat pump",
+    "heat pumps"
+   ],
+   "glossEn": "device heating a home using outside air or ground",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "87f07069-2d65-5b30-bc09-e4e075033d3d",
+   "lemma": "heating season",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heating season",
+    "heating seasons"
+   ],
+   "glossEn": "months when buildings receive central heating",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "85dfda26-392a-5ed1-a2c1-a0006598d419",
+   "lemma": "septic tank",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "septic tank",
+    "septic tanks"
+   ],
+   "glossEn": "underground tank treating sewage where there is no sewer",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "2309a9eb-135e-52e7-8346-1729f1fd9dd4",
+   "lemma": "pumping station",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pumping station",
+    "pumping stations"
+   ],
+   "glossEn": "facility that pumps water or sewage through pipes",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "b1a7c842-abb1-5aff-99a0-e202c8657e75",
+   "lemma": "water tower",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "water tower",
+    "water towers"
+   ],
+   "glossEn": "tall tank storing water to supply an area",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "4b43933d-29b9-55e3-ad93-b87dbc99b407",
+   "lemma": "storm drain",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "storm drain",
+    "storm drains",
+    "storm sewer"
+   ],
+   "glossEn": "street drain that carries away rainwater",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "62e5522a-83bb-5346-b0f9-7b150d557f36",
+   "lemma": "rolling blackout",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rolling blackout",
+    "rolling blackouts",
+    "scheduled outage",
+    "blackout schedule"
+   ],
+   "glossEn": "planned power cut rotating between districts",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "e3d487bd-e861-5a54-9d5c-7b5e65a60744",
+   "lemma": "power surge",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "power surge",
+    "power surges"
+   ],
+   "glossEn": "sudden brief rise in electrical voltage",
+   "topics": [
+    "city",
+    "it"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "fd38e3ae-9f44-5e43-8325-2b5fda4a957b",
+   "lemma": "short circuit",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "short circuit",
+    "short circuits",
+    "short-circuit"
+   ],
+   "glossEn": "electrical fault where current takes a wrong path",
+   "topics": [
+    "city",
+    "it"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "16faef53-8d9f-5cec-b182-82d06da48937",
+   "lemma": "power plant",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "power plant",
+    "power plants",
+    "power station"
+   ],
+   "glossEn": "facility that generates electricity",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "eaede155-529d-59e5-9490-13c0344db347",
+   "lemma": "boil-water notice",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "boil-water notice",
+    "boil-water notices",
+    "boil water advisory"
+   ],
+   "glossEn": "official warning to boil tap water before drinking",
+   "topics": [
+    "city",
+    "health"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "626ed45c-f2dd-5d9c-9326-693d38cf48f2",
+   "lemma": "warming center",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "warming center",
+    "warming centers",
+    "warming centre"
+   ],
+   "glossEn": "heated public place open during cold emergencies",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  }
+ ]
+}

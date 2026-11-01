@@ -1,0 +1,698 @@
+{
+ "chunk": "B2-W13",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "cd9cfccb-15b5-563f-a45f-e34db11f5ef9",
+   "lemma": "power supply",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "power supply",
+    "power supplies",
+    "PSU"
+   ],
+   "glossEn": "unit that gives a computer the electricity it needs",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "f127c608-99b3-54c1-ac4f-c2e64d7b49aa",
+   "lemma": "supercomputer",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "supercomputer",
+    "supercomputers"
+   ],
+   "glossEn": "extremely powerful computer for huge calculations",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "ea7fdaa6-9915-5631-8857-45d52ac38c55",
+   "lemma": "visualization",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "visualization",
+    "visualizations",
+    "visualisation"
+   ],
+   "glossEn": "chart or picture that shows data clearly",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "83075c71-7910-560d-b84f-90b035e98281",
+   "lemma": "personalized",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "personalized",
+    "personalised"
+   ],
+   "glossEn": "adjusted to one user's interests and behavior",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "76321546-eba9-5b36-ba00-d5516aabade7",
+   "lemma": "tracker",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tracker",
+    "trackers"
+   ],
+   "glossEn": "software that records a user's online activity",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "2bdd28c0-82d9-5268-9529-350552115c9c",
+   "lemma": "ad blocker",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ad blocker",
+    "ad blockers",
+    "adblocker",
+    "ad-blocker"
+   ],
+   "glossEn": "browser tool that hides advertisements",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "3716db6e-21a7-5f6f-bae9-6e78b829fc5e",
+   "lemma": "spyware",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spyware"
+   ],
+   "glossEn": "hidden software that secretly watches what you do",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "ee905c71-84b0-589a-9c03-0cdd243916a3",
+   "lemma": "trojan",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "trojan",
+    "trojans",
+    "Trojan",
+    "Trojan horse"
+   ],
+   "glossEn": "harmful program disguised as something useful",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "8cb2cf32-395b-5005-8125-99e6adf3f36a",
+   "lemma": "two-factor authentication",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "two-factor authentication",
+    "2FA",
+    "two-step verification",
+    "MFA"
+   ],
+   "glossEn": "login that needs a password plus a second proof",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "f7da5e5f-4cbf-5dc6-9a57-9bc903abab06",
+   "lemma": "attacker",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "attacker",
+    "attackers"
+   ],
+   "glossEn": "person or program trying to break into a system",
+   "topics": [
+    "it",
+    "military"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "0bf8aa10-cbbb-55bb-a1f6-52734c2fa303",
+   "lemma": "incognito",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incognito"
+   ],
+   "glossEn": "browsing without the browser saving your history",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "ac8b5754-f467-5b6f-8c46-0b16b04fd4c0",
+   "lemma": "hotkey",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hotkey",
+    "hotkeys",
+    "hot key"
+   ],
+   "glossEn": "key combination that triggers an action instantly",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "8877d9db-9946-55ec-af8d-42a6743feca6",
+   "lemma": "toggle",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "toggle",
+    "toggles",
+    "toggled",
+    "toggling"
+   ],
+   "glossEn": "switch a setting between on and off",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "e7dfdba5-b848-5510-aca2-de8a574355f7",
+   "lemma": "tooltip",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tooltip",
+    "tooltips",
+    "tool tip"
+   ],
+   "glossEn": "small hint that appears when you point at an element",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "f54f51fa-d7da-5273-bca2-6963253acd16",
+   "lemma": "placeholder",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "placeholder",
+    "placeholders"
+   ],
+   "glossEn": "gray example text shown in an empty field",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "415bc5b7-cfad-5402-95ed-31cee39bcd74",
+   "lemma": "autofill",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "autofill",
+    "auto-fill"
+   ],
+   "glossEn": "feature that completes forms with saved details",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "bb2de892-47c1-5b29-9b8d-0bc60c08b33a",
+   "lemma": "configuration",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "configuration",
+    "configurations",
+    "config",
+    "configs"
+   ],
+   "glossEn": "set of settings that defines how a system works",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "7e2a8af6-8829-5d26-b587-5813afe71ffe",
+   "lemma": "downgrade",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "downgrade",
+    "downgrades",
+    "downgraded",
+    "downgrading"
+   ],
+   "glossEn": "go back to an older or simpler version",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "11407178-89ac-5948-8f90-80d57a61f427",
+   "lemma": "cross-platform",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cross-platform",
+    "cross platform",
+    "multiplatform"
+   ],
+   "glossEn": "working on several operating systems",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "1ac8ce2a-42ba-5e08-9bb4-d9c893ce6463",
+   "lemma": "codebase",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "codebase",
+    "codebases",
+    "code base"
+   ],
+   "glossEn": "whole body of source code of one project",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "565a19d0-7a7d-5b47-b763-40c8ae7a6548",
+   "lemma": "repeater",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "repeater",
+    "repeaters",
+    "range extender",
+    "Wi-Fi extender"
+   ],
+   "glossEn": "device that rebroadcasts a wireless signal to extend range",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "3e33c0a0-6a8b-5bca-b43c-372dd6faa570",
+   "lemma": "refresh rate",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "refresh rate",
+    "refresh rates"
+   ],
+   "glossEn": "how many times a second a screen redraws",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "abb124a6-3b9f-57ab-b194-ca2c926b70f6",
+   "lemma": "frame rate",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "frame rate",
+    "frame rates",
+    "framerate",
+    "FPS"
+   ],
+   "glossEn": "number of video frames shown per second",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "1184c45d-dc61-51cd-8604-f1fe19ed502b",
+   "lemma": "aspect ratio",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aspect ratio",
+    "aspect ratios"
+   ],
+   "glossEn": "proportion of a screen or image width to height",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "9e929cf9-2e74-513b-8a51-7a6126311b70",
+   "lemma": "dead pixel",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dead pixel",
+    "dead pixels",
+    "stuck pixel"
+   ],
+   "glossEn": "screen dot that stays dark or one color",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "7dfa600f-33dc-5b73-844e-7666781f801f",
+   "lemma": "foldable",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "foldable",
+    "foldables"
+   ],
+   "glossEn": "having a flexible screen that folds in half",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "9d50096b-5c9a-5d05-8a8e-d92ac12fce5b",
+   "lemma": "eSIM",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "eSIM",
+    "eSIMs",
+    "e-SIM"
+   ],
+   "glossEn": "built-in digital SIM activated without a physical card",
+   "topics": [
+    "it",
+    "travel"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "161f52bf-fe4e-57fa-aa37-604865223efe",
+   "lemma": "set-top box",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "set-top box",
+    "set-top boxes",
+    "set top box",
+    "TV box"
+   ],
+   "glossEn": "device that brings TV channels or streaming to a television",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "223e468e-d209-5635-aef2-db9f4a4b89c1",
+   "lemma": "noise cancellation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "noise cancellation",
+    "noise canceling",
+    "noise-canceling",
+    "ANC"
+   ],
+   "glossEn": "headphone technology that blocks outside sound",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "1d849539-edaa-510e-946b-7f3e60ded3f7",
+   "lemma": "screen mirroring",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "screen mirroring",
+    "mirroring",
+    "casting"
+   ],
+   "glossEn": "showing a phone screen live on a TV",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "a81d149b-9eb0-502a-a3dc-14bca24270db",
+   "lemma": "flash memory",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flash memory",
+    "flash storage",
+    "flash"
+   ],
+   "glossEn": "chip storage that keeps data without power",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "cbad5814-89cf-5716-84d5-d12c125337cb",
+   "lemma": "terabyte",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "terabyte",
+    "terabytes",
+    "TB"
+   ],
+   "glossEn": "unit of data equal to a thousand gigabytes",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "0940878c-6acc-50dd-b84b-c23f9f666c81",
+   "lemma": "circuit board",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "circuit board",
+    "circuit boards",
+    "PCB"
+   ],
+   "glossEn": "flat board holding chips and wiring of a device",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "2e1fd400-6642-59c1-bbe3-cbbe34f01b99",
+   "lemma": "workstation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "workstation",
+    "workstations"
+   ],
+   "glossEn": "powerful desktop computer for demanding professional work",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "4328738c-d131-596f-bfd9-e5096f9bf0ee",
+   "lemma": "dual-band",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dual-band",
+    "dual band",
+    "tri-band"
+   ],
+   "glossEn": "working on both the 2.4 and 5 GHz Wi-Fi bands",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "34d51c85-7257-51a7-98c7-4b4972110648",
+   "lemma": "battery drain",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "battery drain"
+   ],
+   "glossEn": "unusually fast loss of battery charge",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "90683424-aff2-5434-8eb6-7ecc1572ab53",
+   "lemma": "access point",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "access point",
+    "access points",
+    "AP"
+   ],
+   "glossEn": "device that broadcasts a wireless network",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "653ae443-f421-56d8-82ab-de738bccaf2f",
+   "lemma": "data cap",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "data cap",
+    "data caps",
+    "data limit"
+   ],
+   "glossEn": "monthly limit on how much internet data you may use",
+   "topics": [
+    "it",
+    "travel"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "bbf39c91-0df3-534f-99b1-50ce35d73af5",
+   "lemma": "packet loss",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "packet loss"
+   ],
+   "glossEn": "data pieces that never arrive, causing lag",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "62587580-e061-5b6f-b9d5-8e8ad5f7b93c",
+   "lemma": "fiber optic",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fiber optic",
+    "fiber-optic",
+    "fibre optic"
+   ],
+   "glossEn": "carrying data as light through thin glass strands",
+   "topics": [
+    "it",
+    "city"
+   ],
+   "area": "it"
+  }
+ ]
+}

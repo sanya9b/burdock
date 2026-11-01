@@ -1,0 +1,530 @@
+{
+ "chunk": "C1-W22",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "dae7847d-48f5-59df-95a0-c987ca2b30ec",
+   "lemma": "perplexed",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "perplexed"
+   ],
+   "glossEn": "completely baffled and puzzled",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "e63f4179-0680-5cf6-a695-2aa8152eb528",
+   "lemma": "sullen",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sullen"
+   ],
+   "glossEn": "bad-tempered, gloomy and silently resentful",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "b28b2f23-d562-5016-a207-a451ba2a579a",
+   "lemma": "wary",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wary"
+   ],
+   "glossEn": "cautious and watchful about possible danger",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "0057c12e-232e-55ae-a648-7b9fd0ac0604",
+   "lemma": "dejected",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dejected"
+   ],
+   "glossEn": "sad and depressed after a disappointment",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "d8a4a099-4d83-5136-9d7f-6c38d12824b9",
+   "lemma": "disheartened",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disheartened"
+   ],
+   "glossEn": "having lost determination or confidence",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "bb306b05-5af5-5a98-bfbf-802fba4796cd",
+   "lemma": "downcast",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "downcast"
+   ],
+   "glossEn": "sad and discouraged, looking downward",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "3c0b7a24-85ee-5cc1-8596-e119f7ab526d",
+   "lemma": "frantic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "frantic"
+   ],
+   "glossEn": "wild with fear, worry or hurry",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "26082c15-7ef2-5988-8078-9f4bd0c94927",
+   "lemma": "infuriated",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "infuriated"
+   ],
+   "glossEn": "made extremely angry",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "dd4f8e09-f2d4-550c-971b-b90936800928",
+   "lemma": "mortified",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mortified"
+   ],
+   "glossEn": "extremely embarrassed or ashamed",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "391a1b8e-ce6d-5045-89fd-ccf4d27a8cdc",
+   "lemma": "somber",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "somber",
+    "sombre"
+   ],
+   "glossEn": "dark, serious and sad in mood",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "ac71a8c1-135b-50d5-a464-b17976d656e7",
+   "lemma": "subdued",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subdued"
+   ],
+   "glossEn": "quiet and reflective, lacking usual energy",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "ed207997-4c3e-5080-91e7-b55f037e84a0",
+   "lemma": "tearful",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tearful"
+   ],
+   "glossEn": "crying or about to cry",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "e47e74ef-1352-5f2c-a023-89eefbebb4af",
+   "lemma": "unnerved",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unnerved"
+   ],
+   "glossEn": "made to lose courage or composure",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "81c3d8f9-1f10-5595-9482-b50684a6c1bd",
+   "lemma": "unsettled",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unsettled"
+   ],
+   "glossEn": "anxious and uneasy, unable to relax",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "c9405e01-b609-568d-8e90-0847c7b56231",
+   "lemma": "agitated",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "agitated"
+   ],
+   "glossEn": "troubled and nervous, unable to settle",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "7e2a6f95-8793-5843-890c-145adc0887b7",
+   "lemma": "appalled",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "appalled"
+   ],
+   "glossEn": "greatly shocked and dismayed",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "0d0b0a07-e7bb-5978-8b21-bbbe06924208",
+   "lemma": "demoralized",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "demoralized",
+    "demoralised"
+   ],
+   "glossEn": "having lost confidence, hope or spirit",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "69788685-18c6-5e22-962d-6c4435636b71",
+   "lemma": "disillusioned",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disillusioned"
+   ],
+   "glossEn": "disappointed after discovering something is less good than believed",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "44c0ed44-dd73-5cd7-a9a2-e08291074bf9",
+   "lemma": "dismayed",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dismayed"
+   ],
+   "glossEn": "upset and discouraged by something unexpected",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "09ca2b42-f37e-5a53-8467-25cbc1644a53",
+   "lemma": "glum",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "glum"
+   ],
+   "glossEn": "looking or feeling gloomy and dejected",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "5b938ae6-5498-578f-9860-8af3dbfea848",
+   "lemma": "inconsolable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inconsolable"
+   ],
+   "glossEn": "too sad to be comforted",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "455e975b-21a6-50b7-8d0f-20ec90014a97",
+   "lemma": "jittery",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jittery"
+   ],
+   "glossEn": "nervous, unable to relax or keep still",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "6725c911-96f5-54f0-9d4b-ab9bb0870703",
+   "lemma": "preoccupied",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "preoccupied"
+   ],
+   "glossEn": "absorbed in worrying thoughts, not paying attention",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "b4fe5e55-57f9-5a67-a344-0b4b09d0550b",
+   "lemma": "remorseful",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "remorseful"
+   ],
+   "glossEn": "filled with regret for a wrong done",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "b4ddebdb-8757-5837-930d-756e4d82a198",
+   "lemma": "traumatized",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "traumatized",
+    "traumatised"
+   ],
+   "glossEn": "deeply shocked and upset by a terrible experience",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "97c3d99c-a977-5c17-abf9-77ce2a710446",
+   "lemma": "torment",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "torment"
+   ],
+   "glossEn": "cause someone severe mental or physical suffering",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "57323e08-afe9-5699-ab25-eff70731199e",
+   "lemma": "uptight",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "uptight"
+   ],
+   "glossEn": "anxious, tense and unable to relax",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "dfe0107f-1d61-5a2b-85a7-47e06c8ee48d",
+   "lemma": "vexed",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vexed"
+   ],
+   "glossEn": "annoyed, frustrated or worried",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "4628519b-3733-55ec-8baf-9dfc2b79e766",
+   "lemma": "wretched",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wretched"
+   ],
+   "glossEn": "in a very unhappy or unfortunate state",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "89b1ab26-0b24-5ea0-84ed-b94263303d53",
+   "lemma": "self-doubt",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "self-doubt",
+    "self doubt"
+   ],
+   "glossEn": "lack of confidence in oneself and one's abilities",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "4dd53ca9-9e65-5ba5-adaf-4fb8e4d8fd40",
+   "lemma": "angst",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "angst"
+   ],
+   "glossEn": "deep anxiety about life or the future",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "1090b0ea-beed-5495-abf6-4654fb5ef0a6",
+   "lemma": "fury",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fury"
+   ],
+   "glossEn": "wild, violent anger",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "0db7576e-ecb2-5dee-9947-ff09a07e1b5e",
+   "lemma": "indignation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "indignation"
+   ],
+   "glossEn": "anger at unfair or unjust treatment",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "ccc68f72-e228-5ad6-b063-43cb566637aa",
+   "lemma": "gloom",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gloom"
+   ],
+   "glossEn": "feeling of deep sadness and lost hope",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "1f4dce80-c84e-5219-b842-3fcdd9432771",
+   "lemma": "heartache",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heartache"
+   ],
+   "glossEn": "emotional anguish, especially from love or loss",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "50808d5d-e993-57e3-a424-fe3aa13d0372",
+   "lemma": "bereavement",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bereavement"
+   ],
+   "glossEn": "state of having lost a loved one through death",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "59c87846-7089-547a-a5aa-9412a16c8b6d",
+   "lemma": "turmoil",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "turmoil"
+   ],
+   "glossEn": "state of great emotional disturbance or confusion",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "8e12ff1e-1d60-5e4b-9f48-2e6f0dbd48f1",
+   "lemma": "fret",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fret"
+   ],
+   "glossEn": "worry constantly, often about small things",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "38535611-fc6a-528b-be94-01c74ec81658",
+   "lemma": "seethe",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "seethe"
+   ],
+   "glossEn": "be filled with intense but unexpressed anger",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "c8aca146-7a18-5982-8632-7f6a3dab18c4",
+   "lemma": "brood",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brood"
+   ],
+   "glossEn": "think deeply and unhappily about something",
+   "topics": [],
+   "area": "emotions-character"
+  }
+ ]
+}

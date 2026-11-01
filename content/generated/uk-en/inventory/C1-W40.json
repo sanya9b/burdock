@@ -1,0 +1,539 @@
+{
+ "chunk": "C1-W40",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "a89f524c-f295-5335-a5b7-15179cffa872",
+   "lemma": "acid rain",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "acid rain"
+   ],
+   "glossEn": "rain made acidic by air pollution",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "106150a9-c14b-5a89-9d65-72fd99f29e00",
+   "lemma": "single-use",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "single-use",
+    "single use"
+   ],
+   "glossEn": "designed to be used once and thrown away",
+   "topics": [
+    "shopping"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "6ee03dc7-fbbc-5fc5-bc5b-93a225d49a36",
+   "lemma": "microplastic",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "microplastic",
+    "micro-plastic"
+   ],
+   "glossEn": "tiny plastic particle polluting water and soil",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "efdb4de7-8f9e-5358-81cc-0d85256f8abd",
+   "lemma": "conservationist",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "conservationist"
+   ],
+   "glossEn": "person who works to protect nature",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "13a12654-b8bb-5860-9ee9-eb12f178ad0b",
+   "lemma": "overpopulation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overpopulation",
+    "over-population"
+   ],
+   "glossEn": "too many people or animals for the resources",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "e89c1695-86db-548e-a1eb-f3c90867c68f",
+   "lemma": "reintroduce",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reintroduce",
+    "re-introduce"
+   ],
+   "glossEn": "release a species back into its former habitat",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "78299193-2076-54e9-b7b0-1bbd3888eeaa",
+   "lemma": "pollinator",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pollinator"
+   ],
+   "glossEn": "insect or animal that carries pollen between flowers",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "88679714-d6f2-57de-b11d-f054262a0af3",
+   "lemma": "unspoiled",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unspoiled",
+    "unspoilt"
+   ],
+   "glossEn": "not damaged by people or development",
+   "topics": [
+    "travel"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "f6b7fe3e-8006-5173-8ff7-c42b3bb06fcd",
+   "lemma": "encroach",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "encroach"
+   ],
+   "glossEn": "gradually move into land that belongs to others",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "cd1ec8fb-85c3-55e9-b3a7-4b162921e074",
+   "lemma": "biofuel",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "biofuel",
+    "bio-fuel"
+   ],
+   "glossEn": "fuel made from plants or organic waste",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "ce25dc93-09c7-5d6a-8d21-1ad0d2638986",
+   "lemma": "silt",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "silt"
+   ],
+   "glossEn": "fine sand or mud carried by water",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "502afa29-c93a-5e96-ae54-428e9b9152fa",
+   "lemma": "shoreline",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shoreline"
+   ],
+   "glossEn": "line where land meets the sea or a lake",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "210c41d7-ce4e-5e36-b670-4aa37d80efa1",
+   "lemma": "tidal",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tidal"
+   ],
+   "glossEn": "relating to the rise and fall of the sea",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "5828f53d-8dc4-509a-ad38-dbcf21ce09b5",
+   "lemma": "storm surge",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "storm surge"
+   ],
+   "glossEn": "rise of sea level pushed ashore by a storm",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "24207c18-86c8-58e1-9ad0-8fb86ab60011",
+   "lemma": "submerge",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "submerge"
+   ],
+   "glossEn": "go or put completely under water",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "33793c0e-0b1a-53cd-8e5a-4c5ecb38d5f2",
+   "lemma": "ice sheet",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ice sheet"
+   ],
+   "glossEn": "huge layer of ice covering land",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "cf05d2d4-7671-5301-8d39-8e1b53313ebe",
+   "lemma": "meltwater",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "meltwater",
+    "melt water"
+   ],
+   "glossEn": "water from melting snow or ice",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "15c21ade-61bd-5411-9c30-77288e8f45cb",
+   "lemma": "methane",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "methane"
+   ],
+   "glossEn": "greenhouse gas from livestock, landfill and gas",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "41223b7c-8f71-5922-8cbf-16435146871c",
+   "lemma": "tipping point",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tipping point"
+   ],
+   "glossEn": "point after which change cannot be stopped",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "69225564-ddf8-5499-b04b-b6c4b89472d2",
+   "lemma": "feedback loop",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "feedback loop"
+   ],
+   "glossEn": "process whose effects strengthen or weaken itself",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "ea0d5274-22ac-5149-a831-532f164eda24",
+   "lemma": "mass extinction",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mass extinction"
+   ],
+   "glossEn": "disappearance of many species in a short time",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "9f54c71e-631b-5a8d-ad85-dd2c710e90c7",
+   "lemma": "sanctuary",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sanctuary"
+   ],
+   "glossEn": "protected place where wildlife is safe",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "29444bcd-c03c-52ee-afc3-26b40ad9b10f",
+   "lemma": "bleaching",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bleaching"
+   ],
+   "glossEn": "loss of color in coral stressed by warm water",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "3d3278ea-1810-58bd-9570-73d1c8e424f6",
+   "lemma": "carbon capture",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "carbon capture"
+   ],
+   "glossEn": "trapping carbon dioxide before it enters the air",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "8f832777-9802-560e-b586-11ce8e53499c",
+   "lemma": "scorching",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scorching"
+   ],
+   "glossEn": "extremely hot",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "8968d7df-0167-50f2-ac8f-d2a95d4db8a2",
+   "lemma": "sweltering",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sweltering"
+   ],
+   "glossEn": "uncomfortably hot and humid",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "c9e37a7e-197e-59ed-8112-89c9e1fde760",
+   "lemma": "fracking",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fracking"
+   ],
+   "glossEn": "extracting gas by cracking rock with pressurized liquid",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "d23d7a47-892b-51b4-bdcb-b2b4e11f90ae",
+   "lemma": "infertile",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "infertile"
+   ],
+   "glossEn": "unable to grow crops or produce offspring",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "7f9ea3d2-5da1-50ce-9bb6-f48b052e3c9d",
+   "lemma": "waterlogged",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "waterlogged",
+    "water-logged"
+   ],
+   "glossEn": "soaked with so much water nothing can grow",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "b069f9d9-276b-5ee5-a11d-a5622cf93a15",
+   "lemma": "herbicide",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "herbicide"
+   ],
+   "glossEn": "chemical used to kill unwanted plants",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "0f07c730-ae1a-568c-9c1b-e21ac8d453c3",
+   "lemma": "bog",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bog"
+   ],
+   "glossEn": "soft wet spongy ground",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "62ea75e0-c077-5041-a61d-77381b718a76",
+   "lemma": "peat",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "peat"
+   ],
+   "glossEn": "dark soil of partly decayed plants from bogs",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "c5f89c32-1b53-57da-8838-1d04cd25fad4",
+   "lemma": "topography",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "topography"
+   ],
+   "glossEn": "shape and features of an area of land",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "168d157a-87af-50cb-8ee8-eaf60bbdddf4",
+   "lemma": "brisk",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brisk"
+   ],
+   "glossEn": "cold, fresh and energizing, as weather",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "2b7ab8e1-64d3-5138-9fcd-d35525b4d455",
+   "lemma": "elevation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "elevation"
+   ],
+   "glossEn": "height above sea level",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "d3e28e96-20b9-5c7f-98bc-be16d9f3fd91",
+   "lemma": "subzero",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subzero",
+    "sub-zero"
+   ],
+   "glossEn": "below zero degrees; freezing",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "e5694bb3-cc1c-5fee-b3c8-2d97255260dc",
+   "lemma": "gradient",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gradient"
+   ],
+   "glossEn": "degree of slope of a road or hill",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "f7053bfb-8177-5670-a88d-de4ddf038e19",
+   "lemma": "incline",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incline"
+   ],
+   "glossEn": "slope or sloping surface",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "30ce6c0a-aa19-5f6b-b46c-443fd4aa87fd",
+   "lemma": "stifling",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stifling"
+   ],
+   "glossEn": "so hot and airless it is hard to breathe",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "dd721129-3ec1-58bf-a66b-d3cd5dd4c19a",
+   "lemma": "crest",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "crest"
+   ],
+   "glossEn": "top of a hill or wave",
+   "topics": [],
+   "area": "science-nature"
+  }
+ ]
+}

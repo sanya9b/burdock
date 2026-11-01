@@ -1,0 +1,539 @@
+{
+ "chunk": "C2-W19",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "5a6b1b5b-baac-534d-b067-11784a109e22",
+   "lemma": "wallflower",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wallflower"
+   ],
+   "glossEn": "shy person who stays on the sidelines",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "59d72744-c7ee-537a-893e-bbdfb004c834",
+   "lemma": "misanthrope",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "misanthrope"
+   ],
+   "glossEn": "person who dislikes and avoids humankind",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "1c93c223-781d-5b70-b285-b233c8d87cf0",
+   "lemma": "hedonist",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hedonist"
+   ],
+   "glossEn": "person who pursues pleasure as the main goal",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "ebd737bc-c8ea-5ab8-b9fe-253a1f669eea",
+   "lemma": "ascetic",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ascetic"
+   ],
+   "glossEn": "person who practices severe self-discipline and abstention",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "bcbdef70-bf53-55e2-88b9-79633a105dc4",
+   "lemma": "impish",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "impish"
+   ],
+   "glossEn": "mischievous in a playful way",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "8553910a-5246-59a3-95e7-9c0339ec3d7a",
+   "lemma": "impudent",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "impudent"
+   ],
+   "glossEn": "not showing due respect, cheeky",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "b99bef08-99cd-5a0e-b344-2872da1d8ae0",
+   "lemma": "impertinent",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "impertinent"
+   ],
+   "glossEn": "not showing proper respect, rude",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "804221b1-16d2-5124-bbb1-9156d2d5c8ab",
+   "lemma": "insolent",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "insolent"
+   ],
+   "glossEn": "showing rude and arrogant lack of respect",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "e96a9a6f-7371-5172-815a-10c0004f01e8",
+   "lemma": "pugnacious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pugnacious"
+   ],
+   "glossEn": "eager or quick to argue or fight",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "7188a5d3-afd7-55d9-82e4-f6b84cccd776",
+   "lemma": "derisive",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "derisive"
+   ],
+   "glossEn": "expressing contempt or ridicule",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "855a95a4-652d-5670-b224-4ab5b156b46a",
+   "lemma": "servile",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "servile"
+   ],
+   "glossEn": "excessively willing to serve or please others",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "99f423a7-973e-5186-a68d-d0cff01de861",
+   "lemma": "unctuous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unctuous"
+   ],
+   "glossEn": "excessively flattering or ingratiating, oily",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "5ffe0f84-344e-5110-a95a-2cceeb637822",
+   "lemma": "smarmy",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "smarmy"
+   ],
+   "glossEn": "ingratiating and insincere in an unpleasant way",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "ce590906-e1ac-514d-b39f-856324296a97",
+   "lemma": "imperious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "imperious"
+   ],
+   "glossEn": "arrogantly domineering, expecting obedience",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "962adf1c-17f3-5a05-895c-6db94752629e",
+   "lemma": "officious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "officious"
+   ],
+   "glossEn": "asserting authority in an annoyingly domineering way",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "27b95ca4-1c68-5028-ac86-5db52256dccd",
+   "lemma": "vainglorious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vainglorious"
+   ],
+   "glossEn": "excessively proud of oneself and one's achievements",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "c256e415-29ce-5b8a-8bc3-8b9f9472ce5b",
+   "lemma": "self-aggrandizing",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "self-aggrandizing",
+    "self-aggrandising"
+   ],
+   "glossEn": "promoting one's own importance or power",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "0bc93661-ca00-53e6-ace8-89e6b8c99095",
+   "lemma": "overweening",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overweening"
+   ],
+   "glossEn": "showing excessive confidence or pride",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "f772095f-ee39-5bea-b9e2-8fed65e588bb",
+   "lemma": "cocksure",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cocksure"
+   ],
+   "glossEn": "presumptuously or arrogantly confident",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "c6667030-614a-5aa1-ab9b-6da886fd5b05",
+   "lemma": "machismo",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "machismo"
+   ],
+   "glossEn": "strong or aggressive masculine pride",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "ff07fd79-a000-5e8c-aac5-a0f275382435",
+   "lemma": "temerity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "temerity"
+   ],
+   "glossEn": "excessive confidence or boldness, audacity",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "4f5f25ac-e8a6-5098-8bac-3a5c7ce8c507",
+   "lemma": "effrontery",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "effrontery"
+   ],
+   "glossEn": "insolent or impertinent boldness",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "bd14f8c6-8721-55ca-a6ad-a3dab862cbfc",
+   "lemma": "mollify",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mollify"
+   ],
+   "glossEn": "appease someone's anger or anxiety",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "1b7ae190-43a9-58a3-8498-f5d0adbe8dbb",
+   "lemma": "spurn",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "spurn"
+   ],
+   "glossEn": "reject with disdain or contempt",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "bcb26a01-a1e0-5db3-9afe-e431beff60d5",
+   "lemma": "cajole",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cajole"
+   ],
+   "glossEn": "persuade by flattery or gentle coaxing",
+   "topics": [
+    "communication"
+   ],
+   "area": "emotions-character"
+  },
+  {
+   "id": "e90bef7e-b8e4-5abf-a8a2-a682c0837ebe",
+   "lemma": "atone",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "atone"
+   ],
+   "glossEn": "make amends for a wrong",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "757f5bbd-28ec-59e9-b37c-7bf547312adf",
+   "lemma": "wrangle",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wrangle"
+   ],
+   "glossEn": "have a long, complicated dispute",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "7aed6f6f-670e-556d-a254-d263ca044092",
+   "lemma": "antipathy",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "antipathy"
+   ],
+   "glossEn": "deep-seated feeling of dislike",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "3b8dcbd4-d5a1-59ca-ada2-11ad095682d8",
+   "lemma": "enmity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "enmity"
+   ],
+   "glossEn": "state of active hostility",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "55d85c80-d323-5cdc-bec1-7378c745eff6",
+   "lemma": "hobnob",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hobnob"
+   ],
+   "glossEn": "mix socially, especially with the famous or rich",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "8594ea73-b8d1-56ec-a902-856844c8868f",
+   "lemma": "propriety",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "propriety"
+   ],
+   "glossEn": "conformity to accepted standards of behavior",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "68fbf3fa-071e-53cf-8854-47fc7b44e5c9",
+   "lemma": "glower",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "glower"
+   ],
+   "glossEn": "have an angry or sullen look",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "4f628331-1a78-58a8-80d5-fa619d95d12e",
+   "lemma": "snicker",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "snicker",
+    "snigger"
+   ],
+   "glossEn": "give a half-suppressed scornful laugh",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "db8a709f-8f66-53c5-b45b-53638c4d9cf5",
+   "lemma": "jest",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jest"
+   ],
+   "glossEn": "thing said for amusement, not seriously",
+   "topics": [
+    "communication"
+   ],
+   "area": "emotions-character"
+  },
+  {
+   "id": "b674e3c0-5019-5258-b9d5-154a63028616",
+   "lemma": "wisecrack",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wisecrack"
+   ],
+   "glossEn": "clever, sarcastic remark",
+   "topics": [
+    "communication"
+   ],
+   "area": "emotions-character"
+  },
+  {
+   "id": "42bcb5bb-c5f8-5347-b834-0ad47369ff23",
+   "lemma": "tattle",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tattle"
+   ],
+   "glossEn": "report another's wrongdoing, tell tales",
+   "topics": [
+    "communication"
+   ],
+   "area": "emotions-character"
+  },
+  {
+   "id": "a271ab78-1c7d-578b-a0ad-49370fa52289",
+   "lemma": "affront",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "affront"
+   ],
+   "glossEn": "action or remark causing offense",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "4f70d8ab-9c28-5774-80bb-e0c0347ce215",
+   "lemma": "jibe",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jibe",
+    "gibe"
+   ],
+   "glossEn": "insulting or mocking remark",
+   "topics": [
+    "communication"
+   ],
+   "area": "emotions-character"
+  },
+  {
+   "id": "e5a1824b-e858-55d2-8c6b-71b8fe6fa6a2",
+   "lemma": "adulation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "adulation"
+   ],
+   "glossEn": "excessive admiration or praise",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "2fa8457c-9e7c-5c16-aa97-bd30d0cf710f",
+   "lemma": "alluring",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "alluring"
+   ],
+   "glossEn": "powerfully and mysteriously attractive",
+   "topics": [],
+   "area": "emotions-character"
+  }
+ ]
+}

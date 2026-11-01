@@ -1,0 +1,539 @@
+{
+ "chunk": "C2-W11",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "e24d0e94-d80a-5d68-ab09-908b25f73d3f",
+   "lemma": "intelligentsia",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "intelligentsia"
+   ],
+   "glossEn": "intellectuals regarded as a social class",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "f7e4a872-944a-5e04-80c5-86487dad7720",
+   "lemma": "literati",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "literati"
+   ],
+   "glossEn": "well-educated people interested in literature",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "a61f27dc-55de-5ac1-92e4-53fced31aa7f",
+   "lemma": "recessionary",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "recessionary"
+   ],
+   "glossEn": "characteristic of or causing an economic recession",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "5a9eb857-e1f8-5aef-816b-85f0328d9f57",
+   "lemma": "interventionist",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "interventionist"
+   ],
+   "glossEn": "favoring government involvement in the economy",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "9dc51aa1-5899-5255-9baa-961d044a3515",
+   "lemma": "destitution",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "destitution"
+   ],
+   "glossEn": "extreme poverty; lack of basic necessities",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "6581fcee-4b26-546a-8e6a-cf87d3906ce0",
+   "lemma": "impoverish",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "impoverish"
+   ],
+   "glossEn": "make a person or region poor",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "b6ba931b-b461-5da3-944d-d053bf59965e",
+   "lemma": "remunerate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "remunerate"
+   ],
+   "glossEn": "pay someone for work or services",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "aa1821ed-8794-551d-b423-a09df10120fb",
+   "lemma": "inducement",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inducement"
+   ],
+   "glossEn": "something offered to persuade someone to act",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "496bc381-468e-5799-9d69-26bb5eed979d",
+   "lemma": "precarity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "precarity"
+   ],
+   "glossEn": "state of insecure, unstable work or income",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "227a75c2-8c56-5863-8579-90dfc27ba5d0",
+   "lemma": "forbearance",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "forbearance"
+   ],
+   "glossEn": "lender's agreement to delay demanding payment",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "2cfe1184-187a-56d9-8cb1-ffe1da0b692b",
+   "lemma": "undersupply",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "undersupply",
+    "under-supply"
+   ],
+   "glossEn": "supply that falls short of demand",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "c3790a99-8b03-573c-9e6a-9d274f4b42f1",
+   "lemma": "mercantile",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mercantile"
+   ],
+   "glossEn": "relating to trade and commerce",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "05caa558-25e0-501e-aa92-063e944828dd",
+   "lemma": "oligopoly",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "oligopoly"
+   ],
+   "glossEn": "market dominated by a few large sellers",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "6ed17523-f756-56f7-ae58-0acd04cee4c6",
+   "lemma": "monopolistic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "monopolistic"
+   ],
+   "glossEn": "relating to or tending toward monopoly",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "756b34cf-a1a4-5851-b840-4abb932b7d5e",
+   "lemma": "collude",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "collude"
+   ],
+   "glossEn": "cooperate secretly for an unfair purpose",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "e0eb8b41-8bef-5e1e-8f51-7f6842cf0cac",
+   "lemma": "deindustrialization",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deindustrialization",
+    "deindustrialisation",
+    "de-industrialization",
+    "de-industrialisation"
+   ],
+   "glossEn": "decline of manufacturing industry in a region",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "0aa15bc8-a63b-576b-a782-eb2a726baf27",
+   "lemma": "balance of payments",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "balance of payments"
+   ],
+   "glossEn": "record of all a country's international transactions",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "42330832-056a-5406-82bc-389b87848763",
+   "lemma": "current account",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "current account"
+   ],
+   "glossEn": "country's balance of trade, income and transfers",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "d6361a53-8d7b-520d-a9fe-22b8f0479b6d",
+   "lemma": "autarky",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "autarky",
+    "autarchy"
+   ],
+   "glossEn": "economic self-sufficiency of a nation",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "59290417-0e5c-5cae-a63f-f222eef98d44",
+   "lemma": "surtax",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "surtax"
+   ],
+   "glossEn": "additional tax on top of an existing tax",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "f2cb3564-40e2-5b4e-bb68-18d9be45d2ad",
+   "lemma": "excise",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "excise"
+   ],
+   "glossEn": "tax on specific goods made or sold domestically",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "38918e00-fe10-564a-b3d3-6b96711965e4",
+   "lemma": "remit",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "remit"
+   ],
+   "glossEn": "send money as a payment",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "501473bf-3a92-581f-a86b-d4c41f4e291e",
+   "lemma": "solvency",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "solvency"
+   ],
+   "glossEn": "ability to pay debts when due",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "6c1b2c95-635a-5df5-9b21-35d2e872f38f",
+   "lemma": "disequilibrium",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disequilibrium"
+   ],
+   "glossEn": "loss of balance between supply and demand",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "6edaf24a-8bc6-5d04-9859-376f5606325a",
+   "lemma": "inelastic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inelastic"
+   ],
+   "glossEn": "changing little in quantity when prices change",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "f9e093a4-b045-53a2-aa72-23a7f8d5446b",
+   "lemma": "overheat",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overheat"
+   ],
+   "glossEn": "grow too fast, creating inflationary pressure",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "afff778c-e089-50e0-a853-ffeb8ccb17a5",
+   "lemma": "profiteer",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "profiteer"
+   ],
+   "glossEn": "person who makes excessive profit from shortages",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "1c30d42a-3567-5b05-821e-27810275d79f",
+   "lemma": "subvention",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subvention"
+   ],
+   "glossEn": "grant of money, especially from a government",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "cae5b074-c3b0-559f-a143-086f77a3efe0",
+   "lemma": "redistributive",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "redistributive"
+   ],
+   "glossEn": "transferring wealth from richer to poorer groups",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "d7fb6f09-2a9a-5f25-b2d2-25e8fb22b2e4",
+   "lemma": "means-tested",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "means-tested",
+    "means tested"
+   ],
+   "glossEn": "given only to those whose income is below a limit",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "4a0c8ea4-a353-5342-9af2-1cd2f9f21482",
+   "lemma": "annuity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "annuity"
+   ],
+   "glossEn": "fixed sum paid to someone every year",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "e55f73d3-ef97-5448-9517-1f72b17a2217",
+   "lemma": "actuarial",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "actuarial"
+   ],
+   "glossEn": "relating to statistical calculation of insurance risk",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "8100a993-b68d-573d-9aaa-b10116a42405",
+   "lemma": "actuary",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "actuary"
+   ],
+   "glossEn": "expert who calculates insurance risks and premiums",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "8dc72101-cd68-5e39-9ab5-cdee5f967282",
+   "lemma": "accrual",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "accrual"
+   ],
+   "glossEn": "accumulation of interest or expenses over time",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "40cf8c77-2feb-5269-a02e-9b57503634d0",
+   "lemma": "escrow",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "escrow"
+   ],
+   "glossEn": "money held by a third party until conditions are met",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "a601f601-3735-5a5c-8690-e309776dfaed",
+   "lemma": "lien",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lien"
+   ],
+   "glossEn": "legal right to keep property until a debt is paid",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "17862151-dae9-5ba9-8b7a-a4f9af07787e",
+   "lemma": "indemnity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "indemnity"
+   ],
+   "glossEn": "protection or compensation against loss or damage",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "3c78118d-8aee-572a-b7e6-64d680189eec",
+   "lemma": "deductible",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deductible"
+   ],
+   "glossEn": "amount the insured pays before insurance covers the rest",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "d8fa9592-88ff-58bc-a5fe-c6f1e3857b15",
+   "lemma": "receivership",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "receivership"
+   ],
+   "glossEn": "state of a business run by a court-appointed manager",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "6da1f92d-b4d2-5c3f-92d1-4e84b9225136",
+   "lemma": "deleverage",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deleverage",
+    "de-leverage"
+   ],
+   "glossEn": "reduce debt relative to assets",
+   "topics": [],
+   "area": "economy-technology"
+  }
+ ]
+}

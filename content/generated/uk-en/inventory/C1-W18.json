@@ -1,0 +1,551 @@
+{
+ "chunk": "C1-W18",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "ca797c63-e245-5091-ad1b-b5edb35f36df",
+   "lemma": "speculator",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "speculator"
+   ],
+   "glossEn": "person who buys assets hoping prices will rise",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "0aeb8851-5a9f-5301-a557-af15d36931d5",
+   "lemma": "hedge fund",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hedge fund"
+   ],
+   "glossEn": "private investment fund using high-risk strategies",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "9f9559fd-856b-5658-bfd6-7dbf8862d002",
+   "lemma": "slump",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "slump"
+   ],
+   "glossEn": "sudden severe fall in prices or sales",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "cec01b21-61bf-575b-a2c9-e0d61066964e",
+   "lemma": "rebound",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rebound"
+   ],
+   "glossEn": "recover quickly after a fall",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "a4a9b992-d42f-5f61-a9da-a4a0cb73a545",
+   "lemma": "diversification",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "diversification"
+   ],
+   "glossEn": "spreading of investments or products to reduce risk",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "ede35f49-9fe1-5655-9431-adef5a16ee66",
+   "lemma": "treasury",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "treasury"
+   ],
+   "glossEn": "government department that manages public finances",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "7a240877-1064-53b9-bed7-3c5d748226f6",
+   "lemma": "redemption",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "redemption"
+   ],
+   "glossEn": "repayment of a bond or return of an investment",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "05a9cf22-e0af-5d79-a1eb-4e5e6aa55554",
+   "lemma": "compound interest",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "compound interest"
+   ],
+   "glossEn": "interest calculated on both principal and accumulated interest",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "86098f35-76ba-5d84-ad81-2d33d9d6c62f",
+   "lemma": "repossess",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "repossess"
+   ],
+   "glossEn": "take back goods when payments are not made",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "36a56f92-8300-5e32-b704-fcafdbc74d8c",
+   "lemma": "refinance",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "refinance"
+   ],
+   "glossEn": "replace a loan with a new one on different terms",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "7c62f043-cc26-5eec-9d34-773d6c8a6cf7",
+   "lemma": "liquidation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "liquidation"
+   ],
+   "glossEn": "process of closing a company and selling its assets",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "0549b40d-5969-5a39-9e08-15dc377e2fa2",
+   "lemma": "underwrite",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "underwrite"
+   ],
+   "glossEn": "guarantee to buy unsold shares or cover insurance losses",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "3bdbff88-10d7-5782-8657-fc2930ba075c",
+   "lemma": "valuation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "valuation"
+   ],
+   "glossEn": "estimate of how much a company or asset is worth",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "32ef422a-4c03-535e-8eb6-655a00b91fba",
+   "lemma": "venture capital",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "venture capital"
+   ],
+   "glossEn": "money invested in new, high-risk companies",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "17dfd590-df22-5775-a0d9-f8963dee7af6",
+   "lemma": "angel investor",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "angel investor"
+   ],
+   "glossEn": "wealthy individual who funds early-stage startups",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "29a5c7d4-1db9-5063-a442-497bebaa97ae",
+   "lemma": "brokerage",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brokerage"
+   ],
+   "glossEn": "firm that buys and sells investments for clients",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "4ef67737-6ebc-5eee-8621-b130c8d19d73",
+   "lemma": "payout",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "payout",
+    "pay-out"
+   ],
+   "glossEn": "sum of money paid out to someone",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "1d9945af-69f3-58bb-8bbe-c0ed5dc11e65",
+   "lemma": "write-off",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "write-off",
+    "writeoff"
+   ],
+   "glossEn": "debt or asset recorded as having no value",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "7094a9ae-00cc-5991-a4cf-62b669149c9c",
+   "lemma": "overvalued",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overvalued",
+    "over-valued"
+   ],
+   "glossEn": "priced higher than its true worth",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "b3bae8ab-9b00-5c9d-bde5-fe484680303b",
+   "lemma": "undervalued",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "undervalued",
+    "under-valued"
+   ],
+   "glossEn": "priced lower than its true worth",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "761b9f3a-60b4-52d9-86b9-5b37b2e43afb",
+   "lemma": "reimbursement",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reimbursement"
+   ],
+   "glossEn": "repayment of money someone has spent",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "2c0c12a9-1fe0-5dcd-80c5-8523b5bcae70",
+   "lemma": "embezzlement",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "embezzlement"
+   ],
+   "glossEn": "theft of money entrusted to one's care",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "f36f6a4f-7a2f-5fe4-a96e-f3bee5c38330",
+   "lemma": "money laundering",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "money laundering",
+    "money-laundering"
+   ],
+   "glossEn": "disguising illegally obtained money as legitimate income",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "3a33cf34-47d3-52db-8ada-874850a8db8d",
+   "lemma": "procurement",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "procurement"
+   ],
+   "glossEn": "process of obtaining goods and services for an organization",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "a3fc32bb-3c5d-519c-86e4-78a4ef81f891",
+   "lemma": "procure",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "procure"
+   ],
+   "glossEn": "obtain something, especially with care or effort",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "adab30f0-b1ca-5c00-8038-fded518eddea",
+   "lemma": "scalability",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scalability"
+   ],
+   "glossEn": "capacity to handle growth efficiently",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "db116ed8-736d-54b2-9c95-be5dd042c241",
+   "lemma": "consolidation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "consolidation"
+   ],
+   "glossEn": "merging of companies or operations into one",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "3888a5ad-e306-50fd-8ca9-5ba03a86693d",
+   "lemma": "buyout",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "buyout",
+    "buy-out"
+   ],
+   "glossEn": "purchase of a controlling share in a company",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "ba9bd3ab-47a5-51db-a82c-a1a9ffa39be0",
+   "lemma": "logistical",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "logistical"
+   ],
+   "glossEn": "relating to the organization of a complex operation",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "24832d06-614e-5825-af97-420b017825d5",
+   "lemma": "lead time",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lead time",
+    "lead-time"
+   ],
+   "glossEn": "time between placing an order and delivery",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "b08d1b64-47c3-57f6-bb5a-30f9923fe695",
+   "lemma": "throughput",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "throughput"
+   ],
+   "glossEn": "amount processed by a system in a given time",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "20f0ee87-0831-5335-84df-f542eabf23d2",
+   "lemma": "outperform",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "outperform"
+   ],
+   "glossEn": "perform better than a rival or benchmark",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "95feb341-19fb-573a-83f1-85818eee0031",
+   "lemma": "underperform",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "underperform",
+    "under-perform"
+   ],
+   "glossEn": "perform worse than expected or than rivals",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "e41a9e2f-7052-5d02-9661-131d0b8f32eb",
+   "lemma": "outbid",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "outbid"
+   ],
+   "glossEn": "offer a higher price than another bidder",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "d331c670-fdd2-51b2-b2dc-98bac2f6d5ec",
+   "lemma": "viability",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "viability"
+   ],
+   "glossEn": "ability to work successfully or survive",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "6461fe81-5070-5d7c-b657-23e3bcfb984f",
+   "lemma": "best practice",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "best practice"
+   ],
+   "glossEn": "method widely accepted as the most effective",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "e108f644-baf6-5264-8ecf-9aa69f55c39b",
+   "lemma": "entrepreneurial",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "entrepreneurial"
+   ],
+   "glossEn": "showing initiative and willingness to take business risks",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "68923bdc-eb7d-5f37-a158-b6c6e299819f",
+   "lemma": "entrepreneurship",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "entrepreneurship"
+   ],
+   "glossEn": "activity of setting up businesses and taking risks",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "aa43391f-a5f5-5abd-8089-2925d6758a8b",
+   "lemma": "monopolize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "monopolize",
+    "monopolise"
+   ],
+   "glossEn": "gain exclusive control of a market",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "c2bfdf7c-2d85-58d7-82c5-950d464b06bc",
+   "lemma": "differentiation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "differentiation"
+   ],
+   "glossEn": "making a product distinct from competitors' products",
+   "topics": [],
+   "area": "economy-technology"
+  }
+ ]
+}

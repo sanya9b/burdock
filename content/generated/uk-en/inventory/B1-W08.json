@@ -1,0 +1,663 @@
+{
+ "chunk": "B1-W08",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "4da7c4ad-2d47-58c1-9fe3-b64be46f7579",
+   "lemma": "lobster",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lobster",
+    "lobsters"
+   ],
+   "glossEn": "large sea creature with claws, a luxury seafood",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "be93356b-3c6e-55fc-ba33-978d36e24456",
+   "lemma": "squid",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "squid",
+    "squids",
+    "calamari"
+   ],
+   "glossEn": "sea animal with tentacles, fried as calamari",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "56ccfbce-f69a-5a72-977b-da629da83582",
+   "lemma": "mussel",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mussel",
+    "mussels"
+   ],
+   "glossEn": "small shellfish with a dark blue shell",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "05fa3526-4fb6-5032-93eb-f7a3b255d558",
+   "lemma": "oyster",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "oyster",
+    "oysters"
+   ],
+   "glossEn": "flat shellfish often eaten raw",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "396bd7ae-0c7d-575e-af02-696af611424c",
+   "lemma": "mozzarella",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mozzarella"
+   ],
+   "glossEn": "soft white Italian cheese used on pizza",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "3f40d55c-5a0d-5c9e-a995-c066fdb47738",
+   "lemma": "parmesan",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "parmesan",
+    "Parmesan"
+   ],
+   "glossEn": "hard salty Italian cheese grated over pasta",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "d372a3fc-dc71-59ae-bc5b-69c364c10360",
+   "lemma": "feta",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "feta"
+   ],
+   "glossEn": "crumbly salty white Greek cheese",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "546939fe-e27d-5174-abfb-552ee775cd85",
+   "lemma": "espresso",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "espresso",
+    "espressos"
+   ],
+   "glossEn": "strong coffee made under pressure",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "2777694b-ceb0-5713-8cf6-b3cf3fd91fd5",
+   "lemma": "cappuccino",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cappuccino",
+    "cappuccinos"
+   ],
+   "glossEn": "espresso topped with frothy milk",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "072c2da2-e31b-5ae8-ad1b-61ae287e0e0c",
+   "lemma": "cider",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cider",
+    "ciders"
+   ],
+   "glossEn": "drink made from apple juice",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "ec5d915d-ad7e-5f00-8b6b-a2ff8313b4f9",
+   "lemma": "chewy",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chewy",
+    "chewier",
+    "chewiest"
+   ],
+   "glossEn": "needing a lot of chewing",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "c2fc2ed7-6cc7-5f81-893b-dc2800861c3c",
+   "lemma": "stale",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stale",
+    "staler",
+    "stalest"
+   ],
+   "glossEn": "no longer fresh, dry and hard",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "8d337e85-6d58-536d-b995-5adc1e2c3b6c",
+   "lemma": "greasy",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "greasy",
+    "greasier",
+    "greasiest"
+   ],
+   "glossEn": "covered with or containing too much fat",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "4ea689b7-b0dc-5c1b-87dc-dc89e4b552a7",
+   "lemma": "mushy",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mushy",
+    "mushier",
+    "mushiest"
+   ],
+   "glossEn": "soft and wet like mashed food",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "e63c1fa1-89bc-5d38-83bf-89a27368d5c7",
+   "lemma": "fluffy",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fluffy",
+    "fluffier",
+    "fluffiest"
+   ],
+   "glossEn": "light, soft and full of air",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "5bc1b62d-6a4d-57c7-8dae-7ec0f33e4d83",
+   "lemma": "smoked",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "smoked"
+   ],
+   "glossEn": "preserved and flavored with wood smoke",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "d01614c9-4bb7-5f6c-9695-5aa3d66fbf32",
+   "lemma": "pickled",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pickled"
+   ],
+   "glossEn": "preserved in vinegar or salty water",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "1b8b8eed-8936-59a9-8ba8-e4d1351a66d3",
+   "lemma": "calorie",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "calorie",
+    "calories"
+   ],
+   "glossEn": "unit of energy that food provides",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "fe72fa95-2d43-51bf-b60e-326373cfa3ec",
+   "lemma": "protein",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "protein",
+    "proteins"
+   ],
+   "glossEn": "nutrient in meat, eggs and beans for growth",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "98c07005-590b-5364-b414-66258d0f7b39",
+   "lemma": "gluten",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gluten"
+   ],
+   "glossEn": "protein in wheat that some people avoid",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "1005602f-bf6d-5c3f-a586-3fc84d472ac7",
+   "lemma": "processed",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "processed"
+   ],
+   "glossEn": "changed in a factory with added substances",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "3df6ec87-d2fb-540d-a239-4eb117165e0a",
+   "lemma": "expire",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "expire",
+    "expires",
+    "expired",
+    "expiring"
+   ],
+   "glossEn": "pass the date when food is safe to eat",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "6f99ec01-85ce-513c-819d-b9d129bd13f6",
+   "lemma": "brunch",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brunch",
+    "brunches"
+   ],
+   "glossEn": "late morning meal combining breakfast and lunch",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "e73682d1-371e-5e9a-8022-f471df0c8719",
+   "lemma": "cuisine",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cuisine",
+    "cuisines"
+   ],
+   "glossEn": "style of cooking of a country or region",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "dd5e90bf-7dac-54ad-bef3-cacb0a115e36",
+   "lemma": "texture",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "texture",
+    "textures"
+   ],
+   "glossEn": "how food feels in the mouth",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "1787fa6e-47f5-5af0-bed7-44b514a9f68e",
+   "lemma": "yeast",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "yeast",
+    "yeasts"
+   ],
+   "glossEn": "living agent that makes dough rise",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "29a4834a-55bd-581e-95d1-b444e4115681",
+   "lemma": "frosting",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "frosting",
+    "frostings"
+   ],
+   "glossEn": "sweet creamy coating spread on cakes",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "e3ed9a32-1c9b-545c-b9ac-470e19fbf1a7",
+   "lemma": "cupcake",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cupcake",
+    "cupcakes"
+   ],
+   "glossEn": "small cake baked in a paper cup",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "f5d56b2b-8eec-59db-a483-c1183c076fda",
+   "lemma": "rolling pin",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rolling pin",
+    "rolling pins"
+   ],
+   "glossEn": "cylinder used to flatten dough",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "cbcc6547-5e8b-5e25-91dd-c7273d5893de",
+   "lemma": "baking soda",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "baking soda",
+    "bicarbonate of soda",
+    "bicarb"
+   ],
+   "glossEn": "white powder that makes batter rise",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "ac7e6bb5-313c-5e26-88a5-9db9af75d204",
+   "lemma": "baking powder",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "baking powder"
+   ],
+   "glossEn": "leavening powder mixed into cake batter",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "130e8693-6663-5f77-a967-f39291f5f079",
+   "lemma": "margarine",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "margarine"
+   ],
+   "glossEn": "butter substitute made from vegetable oils",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "8286e446-db30-5d99-9451-edd4a03ebaf9",
+   "lemma": "refrigerate",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "refrigerate",
+    "refrigerates",
+    "refrigerated",
+    "refrigerating"
+   ],
+   "glossEn": "keep food cold in a fridge",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "4417e02d-a838-5349-b4b7-d252ed62f94a",
+   "lemma": "defrost",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "defrost",
+    "defrosts",
+    "defrosted",
+    "defrosting"
+   ],
+   "glossEn": "let frozen food thaw before cooking",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "7f963d4b-015c-59b4-a58a-599127c0b2a1",
+   "lemma": "airtight",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "airtight",
+    "air-tight"
+   ],
+   "glossEn": "sealed so no air gets in",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "2ef8eb67-1dc5-580b-957b-3cb9480f38e4",
+   "lemma": "dressing",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dressing",
+    "dressings"
+   ],
+   "glossEn": "sauce poured over salad",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "5141ba77-ea43-5087-adc2-1fd4c8c494e8",
+   "lemma": "marinade",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "marinade",
+    "marinades"
+   ],
+   "glossEn": "seasoned liquid food soaks in before cooking",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "bdeca0fb-d184-514f-b165-82e90ff888e5",
+   "lemma": "coleslaw",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "coleslaw",
+    "slaw"
+   ],
+   "glossEn": "salad of shredded raw cabbage and carrot",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "14853ad7-2f1d-58e7-a31b-c89aeb3b3a1a",
+   "lemma": "lasagna",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lasagna",
+    "lasagne",
+    "lasagnas"
+   ],
+   "glossEn": "baked pasta layered with sauce and cheese",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "5263c6e5-576d-52a9-bc9e-68a2071a1198",
+   "lemma": "risotto",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "risotto",
+    "risottos"
+   ],
+   "glossEn": "Italian rice dish cooked slowly in broth",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "area": "food"
+  }
+ ]
+}

@@ -1,0 +1,659 @@
+{
+ "chunk": "A2-W02",
+ "level": "A2",
+ "lexemes": [
+  {
+   "id": "2afd21bf-6e9c-57ae-aa63-23ea09b95380",
+   "lemma": "porridge",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "porridge"
+   ],
+   "glossEn": "hot soft cereal cooked in milk or water",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "63ae7ef2-3e48-5298-8ba1-b86a1bc64f45",
+   "lemma": "oatmeal",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "oatmeal"
+   ],
+   "glossEn": "crushed oats cooked as hot breakfast",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "2738ecf7-bde8-53a8-84c3-6edd516cb03e",
+   "lemma": "muffin",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "muffin",
+    "muffins"
+   ],
+   "glossEn": "small round cake baked in a cup",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "baa99478-fe9d-5463-a5ab-109c9bbe1337",
+   "lemma": "waffle",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "waffle",
+    "waffles"
+   ],
+   "glossEn": "crisp batter cake with a grid pattern",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "dceacc55-9c78-5e25-9c4e-63a9cec8a2ae",
+   "lemma": "bagel",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bagel",
+    "bagels"
+   ],
+   "glossEn": "dense ring-shaped bread roll",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "c9f8ecb6-efd8-572b-9f02-6b0ade6442b9",
+   "lemma": "croissant",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "croissant",
+    "croissants"
+   ],
+   "glossEn": "crescent-shaped flaky buttery pastry",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "28b3ee8f-d5ea-5038-a17a-c65754dfc7b0",
+   "lemma": "doughnut",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "doughnut",
+    "donut",
+    "doughnuts",
+    "donuts"
+   ],
+   "glossEn": "sweet fried ring of dough",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "d51152ec-5895-5780-a16e-ef694a418244",
+   "lemma": "pretzel",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pretzel",
+    "pretzels"
+   ],
+   "glossEn": "salty knot-shaped baked snack",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "e381a024-0b8f-5f7e-b6b8-56f9876093e1",
+   "lemma": "cracker",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cracker",
+    "crackers"
+   ],
+   "glossEn": "thin dry crisp biscuit",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "e9476f7d-3a1c-53f2-9e1b-146a7dcf2043",
+   "lemma": "syrup",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "syrup",
+    "syrups"
+   ],
+   "glossEn": "thick sweet liquid poured on food",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "e9764cd3-8e78-5f0c-b9b8-3ad6c27cc8f4",
+   "lemma": "almond",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "almond",
+    "almonds"
+   ],
+   "glossEn": "oval pale nut with a brown skin",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "06d0311a-1de2-54d2-9179-89283458c357",
+   "lemma": "raisin",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "raisin",
+    "raisins"
+   ],
+   "glossEn": "dried sweet grape",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "56b4f861-473d-557e-9b54-a593f70366d5",
+   "lemma": "dough",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dough"
+   ],
+   "glossEn": "soft mix of flour and water before baking",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "3a0758b3-486a-5659-9aa6-5f5705758c3a",
+   "lemma": "pastry",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pastry",
+    "pastries"
+   ],
+   "glossEn": "dough for pies or a small sweet baked item",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "5f294e81-860c-5d33-be8b-f99b6676e844",
+   "lemma": "cinnamon",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cinnamon"
+   ],
+   "glossEn": "sweet brown spice from tree bark",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "731b8e56-223c-5306-bc81-bff24274b512",
+   "lemma": "vanilla",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vanilla"
+   ],
+   "glossEn": "sweet flavoring from a tropical pod",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "2e7b2eef-b780-531a-a73c-210739c186c0",
+   "lemma": "ketchup",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ketchup",
+    "catsup"
+   ],
+   "glossEn": "thick sweet tomato sauce",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "5c9b1ed3-34a0-5455-bb08-70730ca9d2fa",
+   "lemma": "mayonnaise",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mayonnaise",
+    "mayo"
+   ],
+   "glossEn": "thick creamy sauce of egg and oil",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "9f921c65-e5c4-5f8c-90e5-d27471cd6b75",
+   "lemma": "leftovers",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "leftovers",
+    "leftover"
+   ],
+   "glossEn": "food remaining after a meal",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "e9dad70c-9ba1-564e-9ae1-707cec38ca77",
+   "lemma": "teapot",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "teapot",
+    "teapots"
+   ],
+   "glossEn": "pot with a spout for brewing tea",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "8f831a22-9215-52fd-92ee-8eaebaa71fcb",
+   "lemma": "pitcher",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pitcher",
+    "pitchers",
+    "jug"
+   ],
+   "glossEn": "large container for pouring drinks",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "bd2aeab4-f155-5a4a-8d1f-f0872acf27ce",
+   "lemma": "blender",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "blender",
+    "blenders"
+   ],
+   "glossEn": "electric machine for mixing food to liquid",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "dc20d386-1a10-56f7-9722-1bb1fa92e47d",
+   "lemma": "toaster",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "toaster",
+    "toasters"
+   ],
+   "glossEn": "machine that browns slices of bread",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "88f891aa-9ff9-5716-863f-58745a49aea9",
+   "lemma": "appetizer",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "appetizer",
+    "appetizers",
+    "starter"
+   ],
+   "glossEn": "small dish eaten before the main course",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "517f1a14-6108-559c-962c-8c5470243686",
+   "lemma": "buffet",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "buffet",
+    "buffets"
+   ],
+   "glossEn": "meal where guests serve themselves from a table",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "01384545-1c26-5cb9-a4c3-69b275b9a585",
+   "lemma": "takeout",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "takeout",
+    "takeaway",
+    "take-out"
+   ],
+   "glossEn": "food bought to eat somewhere else",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "b8072f26-860a-5991-8d71-db739cd9225e",
+   "lemma": "grocery",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "grocery",
+    "groceries"
+   ],
+   "glossEn": "food shop or the food bought there",
+   "topics": [
+    "food",
+    "shopping"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "ff30fbfe-2222-5911-a34e-910bf5e1625e",
+   "lemma": "meatball",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "meatball",
+    "meatballs"
+   ],
+   "glossEn": "small ball of minced meat",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "e68e9717-defc-5259-812e-31675ee049f2",
+   "lemma": "dumpling",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dumpling",
+    "dumplings"
+   ],
+   "glossEn": "small ball of dough, often with a filling",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "44b59242-b11d-5e49-ba02-3ec06e639b84",
+   "lemma": "sushi",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sushi"
+   ],
+   "glossEn": "Japanese dish of rice with raw fish",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "38d75571-5299-572f-9fd8-064266478849",
+   "lemma": "avocado",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "avocado",
+    "avocados"
+   ],
+   "glossEn": "pear-shaped fruit with soft green flesh",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "f023d600-221d-5a5c-9196-e0107081c4ff",
+   "lemma": "lime",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lime",
+    "limes"
+   ],
+   "glossEn": "small sour green citrus fruit",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "36d955ff-1d2b-5dcd-9f10-756e33085e0c",
+   "lemma": "smoothie",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "smoothie",
+    "smoothies"
+   ],
+   "glossEn": "thick drink of blended fruit",
+   "topics": [
+    "food",
+    "health"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "9177888a-33ee-5933-9994-74aab3b990ce",
+   "lemma": "milkshake",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "milkshake",
+    "milkshakes"
+   ],
+   "glossEn": "cold drink of milk blended with ice cream",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "301d970b-738a-54b3-978d-6fdb810bc284",
+   "lemma": "crunchy",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "crunchy",
+    "crunchier",
+    "crunchiest"
+   ],
+   "glossEn": "making a loud noise when chewed",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "3a263547-4ac9-5195-b49f-811a4b15beae",
+   "lemma": "creamy",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "creamy",
+    "creamier",
+    "creamiest"
+   ],
+   "glossEn": "smooth and thick like cream",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "8beaaaf1-4998-5ee3-a936-5b2fdb18bd4f",
+   "lemma": "homemade",
+   "pos": "adjective",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "homemade",
+    "home-made"
+   ],
+   "glossEn": "made at home, not bought",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "9f9bf073-97ff-5835-9bc1-914a5ceff37e",
+   "lemma": "touchscreen",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "touchscreen",
+    "touchscreens",
+    "touch screen"
+   ],
+   "glossEn": "screen you control by touching it",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "0743f751-e793-586b-a150-1bf52ffa1767",
+   "lemma": "earbuds",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "earbuds",
+    "earbud",
+    "ear buds"
+   ],
+   "glossEn": "tiny headphones that sit inside the ears",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "4abd085d-7c1b-5ad1-9e92-2fea78739266",
+   "lemma": "headset",
+   "pos": "noun",
+   "level": "A2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "headset",
+    "headsets"
+   ],
+   "glossEn": "headphones with a microphone for calls",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  }
+ ]
+}

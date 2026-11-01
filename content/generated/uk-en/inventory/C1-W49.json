@@ -1,0 +1,376 @@
+{
+ "chunk": "C1-W49",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "f0e4677d-463c-5c07-ad2a-e369af09cb00",
+   "lemma": "apprehend",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "apprehend"
+   ],
+   "glossEn": "arrest someone for a crime",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "5023da8c-d217-503a-90c2-b8e94ed7a029",
+   "lemma": "interrogate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "interrogate"
+   ],
+   "glossEn": "question someone closely and formally",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "634ede6b-9cdf-5238-966a-7d36cf1784dd",
+   "lemma": "homicide",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "homicide"
+   ],
+   "glossEn": "killing of one person by another",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "95395f7c-b6c7-59dd-be68-60affed660d6",
+   "lemma": "manslaughter",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "manslaughter"
+   ],
+   "glossEn": "unlawful killing without intent",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "0db54902-cc56-5ade-ac57-b602f0dddd9e",
+   "lemma": "conspire",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "conspire"
+   ],
+   "glossEn": "secretly plan with others to do something unlawful",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "7eb10c85-ded0-5766-82f1-2530d8675706",
+   "lemma": "complicit",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "complicit"
+   ],
+   "glossEn": "involved with others in wrongdoing",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "40e2eca8-c70d-56a7-82b8-e79fe1338224",
+   "lemma": "informant",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "informant"
+   ],
+   "glossEn": "person who gives information to the police",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "b4adecf6-6fcb-52fe-838c-c23f931e29b9",
+   "lemma": "forensic",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "forensic"
+   ],
+   "glossEn": "using science to investigate crime",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "79ec0f77-7ae5-52a6-8d60-f5eb327beda3",
+   "lemma": "alibi",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "alibi"
+   ],
+   "glossEn": "proof of being elsewhere when a crime happened",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "f699890d-20bb-5949-b5c8-3ec18683ff10",
+   "lemma": "incarcerate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incarcerate"
+   ],
+   "glossEn": "put someone in prison",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "a2cf6cb0-b5e8-579d-ac5e-2d02e7c79d48",
+   "lemma": "incarceration",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incarceration"
+   ],
+   "glossEn": "state of being confined in prison",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "a8dc238b-5a21-528c-9991-d648c3bf30a4",
+   "lemma": "felony",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "felony"
+   ],
+   "glossEn": "serious crime",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "b1b65b60-0b46-5d63-9f8a-823ccae88e63",
+   "lemma": "misdemeanor",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "misdemeanor",
+    "misdemeanour"
+   ],
+   "glossEn": "minor offense",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "b88cdfc2-180a-53b0-bcfd-7ab2d690da4a",
+   "lemma": "unlawful",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unlawful"
+   ],
+   "glossEn": "not permitted by law",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "84a01d14-a4d5-5ad1-9d3f-f4f09dbbb307",
+   "lemma": "illicit",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "illicit"
+   ],
+   "glossEn": "forbidden by law or rules",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "50b370ab-3ad0-56d1-9188-116a08a37647",
+   "lemma": "decriminalize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "decriminalize",
+    "decriminalise"
+   ],
+   "glossEn": "stop treating something as a crime",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "67dd4d0c-fea1-5bf6-96ef-75aa84405916",
+   "lemma": "criminalize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "criminalize",
+    "criminalise"
+   ],
+   "glossEn": "make an activity illegal",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "058e3870-4455-5733-8264-8d70174232e6",
+   "lemma": "detention",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "detention"
+   ],
+   "glossEn": "holding someone in official custody",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "ce73976a-ccf3-594f-a13f-d0d03c4c6ecc",
+   "lemma": "detainee",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "detainee"
+   ],
+   "glossEn": "person held in custody",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "c770a9a3-9587-5d6e-adc0-fd95370fcbc0",
+   "lemma": "arson",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "arson"
+   ],
+   "glossEn": "crime of deliberately setting fire to property",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "25af7cf0-569f-52ed-9ca7-baa79104a64c",
+   "lemma": "crackdown",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "crackdown",
+    "crack-down"
+   ],
+   "glossEn": "severe official action against an activity",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "1c465e2a-69d5-57b4-a637-a7c95112749c",
+   "lemma": "repressive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "repressive"
+   ],
+   "glossEn": "restricting freedom by force",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "b61cfbe1-ad79-500d-afe5-d9e12434b4df",
+   "lemma": "subdue",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subdue"
+   ],
+   "glossEn": "bring under control by force",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "27ebe2f7-486a-58c3-acdf-43d4c58efbfb",
+   "lemma": "disperse",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disperse"
+   ],
+   "glossEn": "cause a crowd to scatter",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "2a0ab202-c5af-5183-839f-e894d0b6d582",
+   "lemma": "policing",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "policing"
+   ],
+   "glossEn": "work of maintaining order by the police",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "d6a1a1dc-ae3a-52e7-ab72-8d069147b6be",
+   "lemma": "inmate",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inmate"
+   ],
+   "glossEn": "person confined in a prison",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "85b71f8d-48d7-5e95-8985-62ef716dd1b0",
+   "lemma": "misconduct",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "misconduct"
+   ],
+   "glossEn": "unacceptable or improper behavior by an official",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "c588f380-32e3-5e0a-ab60-18fc42cfe210",
+   "lemma": "trespass",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "trespass"
+   ],
+   "glossEn": "enter someone's land without permission",
+   "topics": [],
+   "area": "society-law"
+  }
+ ]
+}

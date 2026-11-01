@@ -1,0 +1,546 @@
+{
+ "chunk": "C1-W46",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "bb48d9b7-af6f-5413-ae4c-d13dceb43d5a",
+   "lemma": "abstention",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "abstention"
+   ],
+   "glossEn": "formal decision not to cast a vote",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "813a83ed-be5b-533b-8b42-3ccd817e64a7",
+   "lemma": "proclamation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "proclamation"
+   ],
+   "glossEn": "official public announcement by an authority",
+   "topics": [
+    "communication"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "36dbbfcb-2fe9-5018-bc6b-77e3d2dde653",
+   "lemma": "abdicate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "abdicate"
+   ],
+   "glossEn": "give up a throne or a responsibility",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "87d5f22f-723e-5494-a17f-90cbd0dd1064",
+   "lemma": "federalism",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "federalism"
+   ],
+   "glossEn": "system dividing power between central and regional governments",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "368839e5-6a2e-5dd7-ac05-3428693a221f",
+   "lemma": "devolution",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "devolution"
+   ],
+   "glossEn": "transfer of power from central to regional government",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "44eb0a44-0fa8-562c-ba40-b0e95ccab095",
+   "lemma": "devolve",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "devolve"
+   ],
+   "glossEn": "transfer power to a lower level of government",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "934a9113-268d-52bd-aabb-17c85fafe0e1",
+   "lemma": "constituent",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "constituent"
+   ],
+   "glossEn": "voter represented by an elected official",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "007b1f11-4248-5f00-9771-7e3e63bc5077",
+   "lemma": "dissolution",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dissolution"
+   ],
+   "glossEn": "formal ending of a parliament or assembly",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "acbf3be9-e5da-531d-8c17-27aaa128a72c",
+   "lemma": "autocrat",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "autocrat"
+   ],
+   "glossEn": "ruler who holds absolute power",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "6c5d2154-a3a5-59db-8063-7ce4a0e55517",
+   "lemma": "secession",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "secession"
+   ],
+   "glossEn": "formal withdrawal of a region from a state",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "84aa3f2f-5ae7-5f81-9bac-5dc75d96ecb2",
+   "lemma": "electoral",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "electoral"
+   ],
+   "glossEn": "relating to elections or voters",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "f61391f7-4197-502c-acea-7c25f2027d82",
+   "lemma": "canvass",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "canvass"
+   ],
+   "glossEn": "visit voters to seek support or opinions",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "6df66755-855d-5d85-afe2-caa5ce269196",
+   "lemma": "appointee",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "appointee"
+   ],
+   "glossEn": "person appointed to a position or office",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "15be380b-59b1-5042-a116-65f4aa1defef",
+   "lemma": "inaugurate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inaugurate"
+   ],
+   "glossEn": "formally admit someone to public office",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "cd6e4d3d-f7c7-50f9-aa7a-515301b56c94",
+   "lemma": "inauguration",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "inauguration"
+   ],
+   "glossEn": "ceremony of formally admitting someone to office",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "e74fc6db-ef4e-50a4-a76c-a3c664671b65",
+   "lemma": "impeachment",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "impeachment"
+   ],
+   "glossEn": "formal charge of misconduct against an official",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "74851a1a-c552-5703-b82f-98ce4cfc3da0",
+   "lemma": "indict",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "indict"
+   ],
+   "glossEn": "formally charge someone with a serious crime",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "3132c01e-61aa-5ce4-a466-fb810e7ce849",
+   "lemma": "litigant",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "litigant"
+   ],
+   "glossEn": "person involved in a lawsuit",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "992079e0-7c2c-511c-a87b-7d5cfa179d26",
+   "lemma": "litigate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "litigate"
+   ],
+   "glossEn": "take a dispute to a court of law",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "02a192ad-84f5-5eb4-8a87-5ac3fd470957",
+   "lemma": "acquittal",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "acquittal"
+   ],
+   "glossEn": "formal declaration that someone is not guilty",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "ef747815-3ea8-55cc-922a-4371ef7f4cb2",
+   "lemma": "appellate",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "appellate"
+   ],
+   "glossEn": "relating to appeals in court",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "a6219537-2a6e-55fa-b31b-791e91ea9926",
+   "lemma": "appellant",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "appellant"
+   ],
+   "glossEn": "person who appeals a court decision",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "d5486584-afbe-5264-9a14-140981267ead",
+   "lemma": "waiver",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "waiver"
+   ],
+   "glossEn": "formal giving up of a right or claim",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "1a2102bf-79ba-5d98-a34f-bbf9ef6a10d7",
+   "lemma": "arbitrator",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "arbitrator"
+   ],
+   "glossEn": "impartial person chosen to settle a dispute",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "656b3cc4-0f5d-5ce5-9b1e-d0299b88d4af",
+   "lemma": "arbitrate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "arbitrate"
+   ],
+   "glossEn": "act as an impartial judge in a dispute",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "ab68bd23-af3c-501a-9b3d-f0df0d6f9280",
+   "lemma": "damages",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "damages"
+   ],
+   "glossEn": "money awarded by a court as compensation",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "3c58e33c-efc4-5203-b48a-03a46455d825",
+   "lemma": "negligent",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "negligent"
+   ],
+   "glossEn": "failing to take proper care",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "dcd8bec1-11a7-56a7-bdd4-82d407ff676b",
+   "lemma": "enforceable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "enforceable"
+   ],
+   "glossEn": "able to be made effective by law",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "ce30797b-82ad-5942-9634-d5308db5db22",
+   "lemma": "binding",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "binding"
+   ],
+   "glossEn": "imposing a legal obligation that must be obeyed",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "e95d30bd-bfaf-54f1-8221-7a0a91429710",
+   "lemma": "plea",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "plea"
+   ],
+   "glossEn": "formal statement of guilty or not guilty",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "fb1a52cc-7b0e-5927-85cc-5743fac3bf45",
+   "lemma": "magistrate",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "magistrate"
+   ],
+   "glossEn": "official who judges minor cases in a lower court",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "036ed1ad-84ac-55b0-a950-2e19b0af23b8",
+   "lemma": "notary",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "notary"
+   ],
+   "glossEn": "official authorized to certify documents",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "981b62be-c53c-523e-9f24-a39989520dc5",
+   "lemma": "counsel",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "counsel"
+   ],
+   "glossEn": "lawyer or lawyers conducting a case",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "8f4312f7-fb67-5891-ba2c-71e2b224157e",
+   "lemma": "barrister",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "barrister"
+   ],
+   "glossEn": "lawyer who argues cases in higher courts",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "0b19208b-a60f-5640-bc83-f10d7f6219c2",
+   "lemma": "solicitor",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "solicitor"
+   ],
+   "glossEn": "lawyer who advises clients and prepares legal documents",
+   "topics": [
+    "work"
+   ],
+   "area": "society-law"
+  },
+  {
+   "id": "e2e90f63-51d7-57b2-8093-e7b7416d39f1",
+   "lemma": "judicial",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "judicial"
+   ],
+   "glossEn": "relating to judges or courts of law",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "846798a9-c154-5aed-8bee-44dbbdf0ae8b",
+   "lemma": "common law",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "common law",
+    "common-law"
+   ],
+   "glossEn": "law based on court precedents rather than statutes",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "7523cd6c-2646-596b-b8f5-51f30dfeb78e",
+   "lemma": "cross-examine",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cross-examine",
+    "cross examine",
+    "crossexamine"
+   ],
+   "glossEn": "question an opposing witness in court",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "cd265a88-040d-5a35-bf51-561006b57438",
+   "lemma": "admissible",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "admissible"
+   ],
+   "glossEn": "acceptable as evidence in court",
+   "topics": [],
+   "area": "society-law"
+  },
+  {
+   "id": "1ed449c1-854a-526f-bbcb-4eb97a845de7",
+   "lemma": "leniency",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "leniency",
+    "lenience"
+   ],
+   "glossEn": "mildness in punishing or judging",
+   "topics": [],
+   "area": "society-law"
+  }
+ ]
+}

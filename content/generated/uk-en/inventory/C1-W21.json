@@ -1,0 +1,587 @@
+{
+ "chunk": "C1-W21",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "78c6537e-212d-5bf0-a693-ac0b60417419",
+   "lemma": "desalination",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "desalination"
+   ],
+   "glossEn": "removing salt from seawater to make it drinkable",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "b2f3f121-2a0d-54fd-9089-262baca203bc",
+   "lemma": "disruptive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disruptive"
+   ],
+   "glossEn": "radically changing an industry through innovation",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "9a9678ef-ccc2-5d77-94d5-8e333a1d384e",
+   "lemma": "disruptor",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disruptor",
+    "disrupter"
+   ],
+   "glossEn": "company or technology that transforms an industry",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "36b2ba57-760b-55d4-9df8-fa2ee3660f2b",
+   "lemma": "commercialize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "commercialize",
+    "commercialise"
+   ],
+   "glossEn": "bring a product to market to make profit",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "8ab9a2d1-c99f-5674-9ce1-b81529a87056",
+   "lemma": "commercialization",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "commercialization",
+    "commercialisation"
+   ],
+   "glossEn": "turning an invention into a marketable product",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "5d34233e-b9f1-5192-b5cb-0f65fe060839",
+   "lemma": "intellectual property",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "intellectual property"
+   ],
+   "glossEn": "creations of the mind protected by law",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "dbf52150-6476-5125-b577-7214d905650d",
+   "lemma": "trade secret",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "trade secret"
+   ],
+   "glossEn": "confidential business information giving a competitive edge",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "f606d816-5a0f-5eeb-83db-2eae03327186",
+   "lemma": "cutting-edge",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cutting-edge",
+    "cutting edge"
+   ],
+   "glossEn": "most advanced and innovative",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "a4ca410a-4200-56b4-9180-7142d262d127",
+   "lemma": "state-of-the-art",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "state-of-the-art",
+    "state of the art"
+   ],
+   "glossEn": "using the newest ideas and technology",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "583aacab-9649-5c93-a65f-64f5215119ca",
+   "lemma": "backward-compatible",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "backward-compatible",
+    "backward compatible",
+    "backwards-compatible",
+    "backwards compatible"
+   ],
+   "glossEn": "able to work with older versions",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "00d5cd99-4538-5600-8a7c-9a94b3f97575",
+   "lemma": "interoperable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "interoperable"
+   ],
+   "glossEn": "able to exchange and use information with other systems",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "b3bc5ead-4f57-5df7-a3d9-c47020820b49",
+   "lemma": "digitize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "digitize",
+    "digitise"
+   ],
+   "glossEn": "convert information into digital form",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "f9ebebf7-017e-5575-8c71-d46682686b34",
+   "lemma": "digitization",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "digitization",
+    "digitisation"
+   ],
+   "glossEn": "conversion of information into digital form",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "eabb984b-4c74-5383-8220-55aaed89b666",
+   "lemma": "digitalization",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "digitalization",
+    "digitalisation"
+   ],
+   "glossEn": "transformation of business through digital technology",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "76a19822-d37d-5260-81eb-02ccde02a206",
+   "lemma": "autonomous",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "autonomous"
+   ],
+   "glossEn": "operating without human control; self-governing",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "c5edef19-3621-560c-85e6-50a77297f0ec",
+   "lemma": "self-driving",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "self-driving",
+    "self driving"
+   ],
+   "glossEn": "able to drive without a human driver",
+   "topics": [
+    "travel"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "02375c24-c293-55fe-bea9-447629028305",
+   "lemma": "unmanned",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unmanned"
+   ],
+   "glossEn": "operated without a crew on board",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "773e7c9d-9ced-57b8-83f1-0c8aa69d5a50",
+   "lemma": "nanotechnology",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nanotechnology"
+   ],
+   "glossEn": "technology working at the scale of atoms and molecules",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "55df00fd-fa3b-5ce8-946b-601d838dd264",
+   "lemma": "augmented reality",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "augmented reality"
+   ],
+   "glossEn": "digital images overlaid on the real world",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "0be78c3d-7767-5548-86ea-0afbc37f3710",
+   "lemma": "wearable",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wearable"
+   ],
+   "glossEn": "electronic device worn on the body",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "cbc1d819-2b2f-5098-82f8-4f0e494bdb20",
+   "lemma": "rollout",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rollout",
+    "roll-out"
+   ],
+   "glossEn": "introduction of a new product or service",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "0611f206-2a6b-5a81-bfc0-49be9ad99bf2",
+   "lemma": "iterate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "iterate"
+   ],
+   "glossEn": "repeat a process to improve a result",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "0e0cc0aa-1155-516b-9afc-8c0e82f83546",
+   "lemma": "proof of concept",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "proof of concept",
+    "proof-of-concept"
+   ],
+   "glossEn": "demonstration that an idea can work",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "4f5fe034-5e78-59da-bd6d-da811f6d2b47",
+   "lemma": "accelerator",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "accelerator"
+   ],
+   "glossEn": "program that helps startups grow quickly",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "2b5ce637-f934-5b17-a47b-6b7df1627320",
+   "lemma": "crowdsourcing",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "crowdsourcing",
+    "crowd-sourcing"
+   ],
+   "glossEn": "obtaining input from a large online group",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "909459b5-101b-583c-b9a1-8bcea4a8b16a",
+   "lemma": "crowdsource",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "crowdsource",
+    "crowd-source"
+   ],
+   "glossEn": "get ideas or work from many people online",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "cd0ad004-6aed-5215-8bf3-b4699b68cb91",
+   "lemma": "fintech",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fintech",
+    "FinTech"
+   ],
+   "glossEn": "technology that improves financial services",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "25b36455-6177-54b2-a3e7-83c32c93fef5",
+   "lemma": "data-driven",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "data-driven",
+    "data driven"
+   ],
+   "glossEn": "guided by analysis of data",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "70937771-b965-555a-a60b-403f8028a625",
+   "lemma": "big data",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "big data"
+   ],
+   "glossEn": "extremely large data sets analyzed by computer",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "e940e281-ae8d-5504-ac0b-f4f4a127806e",
+   "lemma": "neural network",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "neural network"
+   ],
+   "glossEn": "computer system modeled on the brain",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "e12094e5-3032-57b4-9871-46bc4050bc45",
+   "lemma": "optimization",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "optimization",
+    "optimisation"
+   ],
+   "glossEn": "making something as effective as possible",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "c124851f-8866-5bc3-8316-7a10203b1f17",
+   "lemma": "simulation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "simulation"
+   ],
+   "glossEn": "imitation of a real process by computer",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "e2cb6ba3-c5ab-596d-86e2-9547beef1420",
+   "lemma": "emulate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "emulate"
+   ],
+   "glossEn": "imitate, often in order to equal or surpass",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "94180501-236b-502a-a048-c4d9f957707f",
+   "lemma": "groundbreaking",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "groundbreaking",
+    "ground-breaking"
+   ],
+   "glossEn": "introducing new ideas or methods",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "68e4cef9-13ba-5876-ad00-8e4a5a2348fb",
+   "lemma": "convergence",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "convergence"
+   ],
+   "glossEn": "coming together of different technologies or trends",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "85002ac6-4e1d-5749-801b-58d409b0cec0",
+   "lemma": "upskill",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "upskill",
+    "up-skill"
+   ],
+   "glossEn": "teach workers new skills",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "c4c5387a-8d5b-547f-a27a-b8ec703e114e",
+   "lemma": "disgruntled",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disgruntled"
+   ],
+   "glossEn": "angry and dissatisfied, often after unfair treatment",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "54bb9664-4dc6-53bb-ad3e-c85b0ac43260",
+   "lemma": "forlorn",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "forlorn"
+   ],
+   "glossEn": "pitifully sad, lonely and abandoned",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "997ca05a-905d-5896-b14a-a4d638b213d2",
+   "lemma": "irritable",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "irritable"
+   ],
+   "glossEn": "easily annoyed or made angry",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "86a7525e-a1cb-5368-818e-7895c42a3472",
+   "lemma": "melancholy",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "melancholy"
+   ],
+   "glossEn": "deep, thoughtful sadness that lasts a long time",
+   "topics": [],
+   "area": "emotions-character"
+  }
+ ]
+}

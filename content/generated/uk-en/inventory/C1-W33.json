@@ -1,0 +1,668 @@
+{
+ "chunk": "C1-W33",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "a7e82f14-1212-53bb-bd1c-90365e55fdab",
+   "lemma": "environment variable",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "environment variable",
+    "environment variables",
+    "env var"
+   ],
+   "glossEn": "named setting read by programs from the operating system",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "63a1c096-8dd7-5f94-8b20-b5e0bb35770a",
+   "lemma": "internationalization",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "internationalization",
+    "i18n",
+    "internationalisation"
+   ],
+   "glossEn": "designing software so it can support many languages",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "e89da64c-b33b-5b5e-83d9-4d33fe8c8ea9",
+   "lemma": "locale",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "locale",
+    "locales"
+   ],
+   "glossEn": "language and regional format settings of a user",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "9e54895e-82fe-5734-9838-6a532e601f9c",
+   "lemma": "single sign-on",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "single sign-on",
+    "SSO",
+    "single sign on"
+   ],
+   "glossEn": "one login that opens many separate services",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "5442ac65-feea-53b2-b0fb-10fd242cca4d",
+   "lemma": "rootkit",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rootkit",
+    "rootkits"
+   ],
+   "glossEn": "hidden malware that gains deep control of a system",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "3ac5251b-c180-5920-b08d-c03d28b41022",
+   "lemma": "honeypot",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "honeypot",
+    "honeypots"
+   ],
+   "glossEn": "decoy system set up to lure attackers",
+   "topics": [
+    "it",
+    "military"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "f7e3dadc-9785-5559-9b80-d1f74350cb4c",
+   "lemma": "penetration test",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "penetration test",
+    "penetration tests",
+    "pentest",
+    "pen test"
+   ],
+   "glossEn": "authorized simulated attack to find security holes",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "4e8fc8df-ef3f-5754-9b4c-309488a930c9",
+   "lemma": "bug bounty",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bug bounty",
+    "bug bounties"
+   ],
+   "glossEn": "reward paid to people who report security flaws",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "701e0ccb-7941-5b73-8fa0-67abec05c383",
+   "lemma": "least privilege",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "least privilege",
+    "principle of least privilege"
+   ],
+   "glossEn": "giving each account only the access it needs",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "071725a9-a192-50ab-9e1c-0ea9bac8b256",
+   "lemma": "audit log",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "audit log",
+    "audit logs",
+    "audit trail"
+   ],
+   "glossEn": "record of who did what in a system",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "e2290669-714a-5866-8904-a1ed3f899aa5",
+   "lemma": "allowlist",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "allowlist",
+    "allowlists",
+    "whitelist",
+    "allow list"
+   ],
+   "glossEn": "list of approved senders, sites, or programs",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "47d572f0-ae28-5b4f-9cb8-ebd4c381c1eb",
+   "lemma": "zero trust",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "zero trust",
+    "zero-trust"
+   ],
+   "glossEn": "security model that verifies every request, trusting nothing",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "dfaea411-a466-5fb3-9374-ec151b4c563e",
+   "lemma": "public key",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "public key",
+    "public keys"
+   ],
+   "glossEn": "shareable encryption key paired with a private one",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "2e44a375-9560-5af0-b95b-40b03d2e6242",
+   "lemma": "checksum",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "checksum",
+    "checksums"
+   ],
+   "glossEn": "short value used to verify a file is unchanged",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "c77143ab-3aa2-5257-be7a-f61ccacb4c71",
+   "lemma": "man-in-the-middle",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "man-in-the-middle",
+    "MITM",
+    "man-in-the-middle attack"
+   ],
+   "glossEn": "attack secretly intercepting traffic between two parties",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "807c43cf-2b81-5a2c-90a3-296230d5626b",
+   "lemma": "SQL injection",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "SQL injection",
+    "SQL injections",
+    "SQLi"
+   ],
+   "glossEn": "attack inserting database commands through user input",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "db274407-b51a-5f96-9a38-16d4ebdb6409",
+   "lemma": "incident response",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incident response",
+    "IR"
+   ],
+   "glossEn": "organized handling of a security breach or outage",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "c13e2a87-9f56-58d8-bd9b-bb476e28625b",
+   "lemma": "embedding",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "embedding",
+    "embeddings"
+   ],
+   "glossEn": "list of numbers representing the meaning of text",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "92486095-5187-56c5-b62e-7c16321981e5",
+   "lemma": "overfitting",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overfitting",
+    "overfit"
+   ],
+   "glossEn": "model memorizing training data and failing on new data",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "d352e6ce-d058-554d-93d6-d25feee4547c",
+   "lemma": "data warehouse",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "data warehouse",
+    "data warehouses"
+   ],
+   "glossEn": "central database built for reporting and analysis",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "54bf7230-9553-546b-be7c-d0f058708b31",
+   "lemma": "data lake",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "data lake",
+    "data lakes"
+   ],
+   "glossEn": "storage holding raw data of any format at scale",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "3a2aa40e-5de7-5856-8382-7e1484b4e09e",
+   "lemma": "classifier",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "classifier",
+    "classifiers"
+   ],
+   "glossEn": "model that sorts inputs into categories",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "cdbf5cf4-6188-5009-b7e3-0f7a040ea1aa",
+   "lemma": "hyperparameter",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hyperparameter",
+    "hyperparameters"
+   ],
+   "glossEn": "setting chosen before training that shapes a model",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "72fce574-85ac-59a3-bc6d-b5d4ac947827",
+   "lemma": "ground truth",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ground truth"
+   ],
+   "glossEn": "verified correct answers used to judge a model",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "4a67f3a1-c7b3-5d33-94f7-67a1f7315d81",
+   "lemma": "computer vision",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "computer vision"
+   ],
+   "glossEn": "AI field that lets machines understand images",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "8ba6aa20-6a93-5e1e-8915-4672e34d863a",
+   "lemma": "natural language processing",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "natural language processing",
+    "NLP"
+   ],
+   "glossEn": "AI field dealing with human language in text",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "bc819b87-29e9-59ea-8ee9-9d48e2033b45",
+   "lemma": "prompt injection",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prompt injection",
+    "prompt injections"
+   ],
+   "glossEn": "attack hiding instructions in text an AI reads",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "0d12e1cc-cd2d-537d-add5-dfc9c43ee2c6",
+   "lemma": "context window",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "context window",
+    "context windows",
+    "context length"
+   ],
+   "glossEn": "amount of text an AI model can consider at once",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "768b2324-8497-536f-afb9-8017910c4930",
+   "lemma": "multimodal",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "multimodal",
+    "multi-modal"
+   ],
+   "glossEn": "handling text, images, and audio in one model",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "b592bccb-3615-5c6c-a011-a06ba7b3114b",
+   "lemma": "data governance",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "data governance"
+   ],
+   "glossEn": "rules for how an organization manages and protects data",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "ddd12fc1-dac8-553c-b309-a102506530fa",
+   "lemma": "autoscaling",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "autoscaling",
+    "auto-scaling",
+    "autoscale"
+   ],
+   "glossEn": "adding or removing servers automatically with demand",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "0caed018-ae3f-5d1d-b39a-ef6681b3470e",
+   "lemma": "disaster recovery",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disaster recovery",
+    "DR"
+   ],
+   "glossEn": "plan for restoring systems after a major failure",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "b9380e31-6eca-5960-95eb-bef1db187329",
+   "lemma": "CDN",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "CDN",
+    "CDNs",
+    "content delivery network"
+   ],
+   "glossEn": "network of servers delivering content from nearby locations",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "dfd34d00-f2f8-5b48-a1ae-335cb0e189dc",
+   "lemma": "multi-tenant",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "multi-tenant",
+    "multitenant",
+    "multi-tenancy"
+   ],
+   "glossEn": "serving many customers from one shared system",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "01069224-1187-50b0-9b26-e84bd0673938",
+   "lemma": "on-premises",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "on-premises",
+    "on-premise",
+    "on-prem"
+   ],
+   "glossEn": "running on servers in your own building, not cloud",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "71216bc1-1b46-5c36-97be-8524b62377d8",
+   "lemma": "hypervisor",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hypervisor",
+    "hypervisors"
+   ],
+   "glossEn": "software that runs several virtual machines on one computer",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "b95112ae-ac4c-507f-9fda-f721f52babd7",
+   "lemma": "rate limit",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rate limit",
+    "rate limits",
+    "rate limiting"
+   ],
+   "glossEn": "cap on how many requests a client may send",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "8a5eec07-c8e7-57eb-be95-0f343342e352",
+   "lemma": "SSH",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "SSH",
+    "ssh"
+   ],
+   "glossEn": "encrypted protocol for logging into remote servers",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "f95a8365-d21c-5857-84ef-03ba602556b2",
+   "lemma": "BIOS",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "BIOS",
+    "UEFI"
+   ],
+   "glossEn": "firmware that starts a computer before the operating system",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "37a2639a-2fab-57f8-9ce4-f3e6685ebcf6",
+   "lemma": "bootloader",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bootloader",
+    "bootloaders",
+    "boot loader"
+   ],
+   "glossEn": "small program that loads the operating system at startup",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  }
+ ]
+}

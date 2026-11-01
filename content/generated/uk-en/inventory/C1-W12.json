@@ -1,0 +1,535 @@
+{
+ "chunk": "C1-W12",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "734b51fc-2d39-5528-b5fd-c695f1e90a66",
+   "lemma": "soprano",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "soprano"
+   ],
+   "glossEn": "highest female or boy's singing voice",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "78e882e2-516c-524f-abc9-701fdea3e45f",
+   "lemma": "aria",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aria"
+   ],
+   "glossEn": "solo song in an opera",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "2263f674-9bbf-533d-8334-4813405486e3",
+   "lemma": "overture",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overture"
+   ],
+   "glossEn": "orchestral introduction to an opera or musical",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "1e35dbad-a013-5bd3-b538-3c957f93e621",
+   "lemma": "prelude",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prelude"
+   ],
+   "glossEn": "short introductory piece of music",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "ffa97eae-84ec-5095-8b88-d889d60e6fa4",
+   "lemma": "interlude",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "interlude"
+   ],
+   "glossEn": "short piece or pause between parts of a performance",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "bbc52ae2-d24c-5bc1-b236-594af613a32b",
+   "lemma": "finale",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "finale"
+   ],
+   "glossEn": "last part of a show or piece of music",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "f47194c0-6940-5c4d-b524-7a5dd95889c9",
+   "lemma": "encore",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "encore"
+   ],
+   "glossEn": "extra performance demanded by an applauding audience",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "205eb5c0-3528-5869-a842-b64c30a741d9",
+   "lemma": "medley",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "medley"
+   ],
+   "glossEn": "piece combining several tunes played together",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "169305e0-e8b3-5719-9e0d-81501a92431a",
+   "lemma": "riff",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "riff"
+   ],
+   "glossEn": "short repeated phrase in popular music",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "03c3e25e-d603-5941-bbc8-3e82431d4c84",
+   "lemma": "quartet",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quartet"
+   ],
+   "glossEn": "group of four musicians, or music for them",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "4ce4cd84-accc-5ac0-9520-5101587221c2",
+   "lemma": "soloist",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "soloist"
+   ],
+   "glossEn": "musician who performs a solo",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "806bebbf-3fed-5792-b2fd-d84465f80331",
+   "lemma": "accompaniment",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "accompaniment"
+   ],
+   "glossEn": "musical part supporting a singer or soloist",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "d543d56f-e2ec-5aa4-bfbf-299da5b65cf9",
+   "lemma": "reverb",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reverb"
+   ],
+   "glossEn": "echo-like effect added to recorded sound",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "48dad32d-15c5-5e72-8ac3-a2f29d49a013",
+   "lemma": "busker",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "busker"
+   ],
+   "glossEn": "street musician performing for donations",
+   "topics": [
+    "city"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "be7d1851-698c-52ba-a28c-c2f9b5a2e0cc",
+   "lemma": "headliner",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "headliner"
+   ],
+   "glossEn": "main performer at a concert or festival",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "b619e18c-4472-54d5-acee-68dc2cb9c1f5",
+   "lemma": "resonate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "resonate"
+   ],
+   "glossEn": "produce a deep, full, reverberating sound",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "ad157e3a-7866-5a3d-982b-8ba589f1a91e",
+   "lemma": "melodious",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "melodious"
+   ],
+   "glossEn": "pleasant-sounding and tuneful",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "2d6f13ed-4823-5bc7-8167-b462716c235f",
+   "lemma": "tuneful",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tuneful"
+   ],
+   "glossEn": "having a pleasing melody",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "fa74b09c-1526-5330-b162-cbfa30ea39bd",
+   "lemma": "earworm",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "earworm",
+    "ear worm"
+   ],
+   "glossEn": "catchy tune that keeps repeating in your head",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "9ef8c55f-0263-534d-800d-d74448bee07a",
+   "lemma": "dissonant",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dissonant"
+   ],
+   "glossEn": "clashing sounds lacking harmony",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "22249625-c8c7-5a3e-b2a0-640100622f2e",
+   "lemma": "discordant",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "discordant"
+   ],
+   "glossEn": "harsh and unpleasant because sounds do not match",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "49b703b2-0b6e-511d-b250-54f54a4be545",
+   "lemma": "off-key",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "off-key",
+    "off key"
+   ],
+   "glossEn": "sung or played at the wrong pitch",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "3115faad-e240-52ea-abff-ee1bc5191f17",
+   "lemma": "tone-deaf",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tone-deaf",
+    "tone deaf"
+   ],
+   "glossEn": "unable to distinguish differences in musical pitch",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "229e53e1-2600-5b22-96b7-67d26e959f3c",
+   "lemma": "improvisation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "improvisation"
+   ],
+   "glossEn": "performing music or lines invented on the spot",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "4be8e614-e059-59ea-ab56-f14bc709639c",
+   "lemma": "lullaby",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lullaby"
+   ],
+   "glossEn": "quiet song to send a child to sleep",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "abd3c102-9415-5cec-b191-8bfe4f01e4b2",
+   "lemma": "anthem",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "anthem"
+   ],
+   "glossEn": "rousing song of a country or group",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "c95b9ff3-fddf-5a01-b163-ab8a693055ec",
+   "lemma": "hymn",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hymn"
+   ],
+   "glossEn": "religious song of praise",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "22adffa9-748f-5589-ab3d-158c086f5a8b",
+   "lemma": "chant",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "chant"
+   ],
+   "glossEn": "words or tune repeated rhythmically by a crowd",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "66e11186-0b55-5b05-a4dc-b9abc12673a0",
+   "lemma": "serenade",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "serenade"
+   ],
+   "glossEn": "song performed for a loved one, often outdoors",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "7d6df520-e437-5ce4-871b-51373cf7eceb",
+   "lemma": "concerto",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "concerto"
+   ],
+   "glossEn": "piece for a solo instrument and orchestra",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "81490ac6-ed24-5316-a778-99c222205bb5",
+   "lemma": "orchestration",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "orchestration"
+   ],
+   "glossEn": "arrangement of music for an orchestra",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "d5f7123e-76ca-56c4-b2d7-a2b23390d923",
+   "lemma": "lyricist",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lyricist"
+   ],
+   "glossEn": "person who writes the words of songs",
+   "topics": [
+    "work"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "90b7db03-0374-51f2-a703-b0274b1cbedd",
+   "lemma": "palette",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "palette"
+   ],
+   "glossEn": "range of colors an artist uses",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "8345dddf-3101-589e-9e46-476ea6304014",
+   "lemma": "hue",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hue"
+   ],
+   "glossEn": "particular shade of a color",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "769c8ca2-77da-57cf-bbfd-fc6a4e59bde1",
+   "lemma": "tint",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tint"
+   ],
+   "glossEn": "slight shade of a color",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "7f172dc6-251c-55fd-aa9a-13a5b38936bb",
+   "lemma": "pigment",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pigment"
+   ],
+   "glossEn": "substance giving color to paint",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "f64e55ea-2f96-5fd7-aea9-1edc5db732e8",
+   "lemma": "brushstroke",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brushstroke",
+    "brush stroke"
+   ],
+   "glossEn": "mark made by a single movement of a brush",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "bbbf1a61-7a9b-5906-9f60-548a0f6e6d1f",
+   "lemma": "watercolor",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "watercolor",
+    "watercolour"
+   ],
+   "glossEn": "paint diluted with water, or a picture in it",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "6a0bc8d2-50f7-5c4b-87dd-3ae2dce6e3e7",
+   "lemma": "acrylic",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "acrylic"
+   ],
+   "glossEn": "fast-drying synthetic paint",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "acb3ec48-1f26-5213-b4a5-57ddbf10c227",
+   "lemma": "pastel",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pastel"
+   ],
+   "glossEn": "soft colored crayon; pale delicate shade",
+   "topics": [],
+   "area": "arts-media"
+  }
+ ]
+}

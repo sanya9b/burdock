@@ -1,0 +1,677 @@
+{
+ "chunk": "B1-W18",
+ "level": "B1",
+ "lexemes": [
+  {
+   "id": "0abc4386-aa3e-57d2-aa9d-7d07271ea842",
+   "lemma": "unarmed",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unarmed"
+   ],
+   "glossEn": "carrying no weapon",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "685c62e4-1920-5453-84c6-503620dbfdc2",
+   "lemma": "physical therapy",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "physical therapy",
+    "physiotherapy"
+   ],
+   "glossEn": "exercises that restore movement after an injury",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "9be09cf7-e9bf-5883-bd31-f9c3164c17a5",
+   "lemma": "support group",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "support group",
+    "support groups"
+   ],
+   "glossEn": "people who meet to help each other cope",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "f7ea7db9-07c2-51f2-99b3-73f71e701604",
+   "lemma": "metal detector",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "metal detector",
+    "metal detectors"
+   ],
+   "glossEn": "device that senses metal, used to find mines",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "efed2629-44ad-5e08-a6ea-9c42848a2075",
+   "lemma": "bomb shelter",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bomb shelter",
+    "bomb shelters"
+   ],
+   "glossEn": "protected room for hiding during attacks",
+   "topics": [
+    "military",
+    "city"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "1cdace8a-8c5a-530c-b5c2-b0e32668d068",
+   "lemma": "civil defense",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "civil defense",
+    "civil defence"
+   ],
+   "glossEn": "organized protection of civilians in emergencies",
+   "topics": [
+    "military",
+    "city"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "b3d8b970-3936-573d-ad5e-edb76c9e68f6",
+   "lemma": "barbed wire",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "barbed wire"
+   ],
+   "glossEn": "wire with sharp points used as a barrier",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "086c994e-3853-526c-9b74-3be905653680",
+   "lemma": "jack",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jack",
+    "jacks"
+   ],
+   "glossEn": "tool for lifting a vehicle to change a wheel",
+   "topics": [
+    "military",
+    "travel"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "f024183e-bfcd-53c8-b21c-cf49783b778e",
+   "lemma": "rescuer",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rescuer",
+    "rescuers"
+   ],
+   "glossEn": "person who saves people from danger",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "7e3e11f7-4d88-50f9-acbf-24642d4a5c5d",
+   "lemma": "reload",
+   "pos": "verb",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reload",
+    "reloads",
+    "reloaded",
+    "reloading"
+   ],
+   "glossEn": "put new ammunition into a weapon",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "a80ed9e8-ff1d-5ef3-bada-f0d96a753f19",
+   "lemma": "hand warmer",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hand warmer",
+    "hand warmers",
+    "handwarmer"
+   ],
+   "glossEn": "small packet that gives off heat in the cold",
+   "topics": [
+    "military",
+    "shopping"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "c5284210-fa0e-5135-b3c6-7122c94bfcee",
+   "lemma": "expired",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "expired"
+   ],
+   "glossEn": "past its use-by date",
+   "topics": [
+    "military",
+    "health",
+    "shopping"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "3ad4bcf5-9d9b-59d6-ae28-4caa253997cb",
+   "lemma": "helpline",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "helpline",
+    "helplines"
+   ],
+   "glossEn": "phone number that gives advice and support",
+   "topics": [
+    "military",
+    "health",
+    "communication"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "ec26658b-c114-59d6-871a-9b783dc4907c",
+   "lemma": "SOS",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "SOS"
+   ],
+   "glossEn": "international signal calling for urgent help",
+   "topics": [
+    "military",
+    "communication"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "c9721fa5-778a-5b7d-bec1-4d511b254f0c",
+   "lemma": "military police",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "military police"
+   ],
+   "glossEn": "troops who keep order among soldiers",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "d2be4303-0984-5635-9ed2-fa4023eedce1",
+   "lemma": "border guard",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "border guard",
+    "border guards"
+   ],
+   "glossEn": "officer who protects the state border",
+   "topics": [
+    "military",
+    "travel"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "2595d5bf-67e3-5237-9930-439e02906b39",
+   "lemma": "coast guard",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "coast guard",
+    "coastguard"
+   ],
+   "glossEn": "service that guards the coast and rescues at sea",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "dbf7da70-8e0d-549f-89d5-88a9e79eb4a4",
+   "lemma": "special forces",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "special forces"
+   ],
+   "glossEn": "units trained for difficult secret missions",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "91eb2c84-ba49-52a3-bee8-bed45271c752",
+   "lemma": "shooting range",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shooting range",
+    "shooting ranges",
+    "firing range"
+   ],
+   "glossEn": "place for practicing with firearms",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "255f0898-3aa2-571d-bcac-34951fa3590e",
+   "lemma": "task force",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "task force",
+    "task forces"
+   ],
+   "glossEn": "group formed for one specific task",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "08dc0116-6a5a-560e-902f-5e3407dba5b1",
+   "lemma": "command post",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "command post",
+    "command posts"
+   ],
+   "glossEn": "place from which a commander directs a unit",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "1548e794-10ec-564d-ac68-4540352d80cd",
+   "lemma": "ice pack",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ice pack",
+    "ice packs",
+    "cold pack"
+   ],
+   "glossEn": "cold pack placed on a swelling",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "78f59614-801f-5c7c-98e8-3ca2ea107812",
+   "lemma": "comrade",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "comrade",
+    "comrades"
+   ],
+   "glossEn": "fellow soldier or close companion",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "ec57205a-8096-5452-9049-f1036c38734f",
+   "lemma": "technician",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "technician",
+    "technicians"
+   ],
+   "glossEn": "skilled worker who repairs equipment",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "d56b0132-373a-5e05-8d3b-c2e41cd10c56",
+   "lemma": "hose",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hose",
+    "hoses"
+   ],
+   "glossEn": "flexible tube for water or fuel",
+   "topics": [
+    "military",
+    "city"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "4fd469b6-d18e-52b1-86da-4a791890d512",
+   "lemma": "shovel",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shovel",
+    "shovels"
+   ],
+   "glossEn": "tool for digging trenches and clearing rubble",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "a11cf605-dd8d-56f3-be56-15917e07cc78",
+   "lemma": "swelling",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "swelling",
+    "swellings"
+   ],
+   "glossEn": "enlarged area of the body after an injury",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "6f5e8121-01ba-50dc-a5f2-f1f1fa33903b",
+   "lemma": "social worker",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "social worker",
+    "social workers"
+   ],
+   "glossEn": "professional who helps families in need",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "377124c9-15a5-51f7-b1d1-314807199203",
+   "lemma": "checklist",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "checklist",
+    "checklists"
+   ],
+   "glossEn": "list of items to check one by one",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "cf979109-507a-5356-a47c-55d33191ce01",
+   "lemma": "trapped",
+   "pos": "adjective",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "trapped"
+   ],
+   "glossEn": "unable to get out of a place",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "f4fc1608-7a89-5421-9615-1ecb0a7a3e0e",
+   "lemma": "life jacket",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "life jacket",
+    "life jackets",
+    "life vest"
+   ],
+   "glossEn": "vest that keeps a person afloat",
+   "topics": [
+    "military",
+    "travel"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "8b617853-9729-53a0-9cc4-a514bc7327e9",
+   "lemma": "safe room",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "safe room",
+    "safe rooms"
+   ],
+   "glossEn": "reinforced room where people hide during shelling",
+   "topics": [
+    "military",
+    "city"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "44601d06-7f66-5edc-af69-06dd1976caa4",
+   "lemma": "tarp",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tarp",
+    "tarps",
+    "tarpaulin"
+   ],
+   "glossEn": "waterproof sheet covering goods or broken windows",
+   "topics": [
+    "military",
+    "city"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "86899791-f446-5a47-a56f-4428aa60df24",
+   "lemma": "plywood",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "plywood"
+   ],
+   "glossEn": "board of glued wood layers for boarding up windows",
+   "topics": [
+    "military",
+    "city"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "2c4abe58-8ffd-534a-868f-d1c533ebcc09",
+   "lemma": "jerrycan",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "jerrycan",
+    "jerrycans",
+    "jerry can"
+   ],
+   "glossEn": "flat metal or plastic fuel container",
+   "topics": [
+    "military",
+    "travel"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "8b0bfa32-560a-556f-af34-9424e93b1ddc",
+   "lemma": "pickaxe",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pickaxe",
+    "pickaxes",
+    "pickax"
+   ],
+   "glossEn": "tool with a pointed head for breaking hard ground",
+   "topics": [
+    "military",
+    "city"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "c72bdbb3-c141-56b6-8872-da1128cefdf2",
+   "lemma": "flask",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flask",
+    "flasks"
+   ],
+   "glossEn": "bottle for water or hot drinks on the move",
+   "topics": [
+    "military",
+    "travel"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "8e925f38-7076-50f9-9618-37ce3d551c6b",
+   "lemma": "cot",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cot",
+    "cots"
+   ],
+   "glossEn": "light folding bed",
+   "topics": [
+    "military",
+    "travel"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "c6debf70-a379-502a-892e-6c3ffc601f97",
+   "lemma": "bunk",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bunk",
+    "bunks"
+   ],
+   "glossEn": "narrow bed fixed in a barracks or ship",
+   "topics": [
+    "military",
+    "travel"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "7e808bd8-4dc5-5299-ab0a-09fca9ec5701",
+   "lemma": "burner",
+   "pos": "noun",
+   "level": "B1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "burner",
+    "burners"
+   ],
+   "glossEn": "small gas stove for cooking in the field",
+   "topics": [
+    "military",
+    "food"
+   ],
+   "area": "military"
+  }
+ ]
+}

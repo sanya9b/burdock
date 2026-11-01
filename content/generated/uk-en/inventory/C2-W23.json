@@ -1,0 +1,569 @@
+{
+ "chunk": "C2-W23",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "3dfac5a2-b41b-5f5d-a50c-9ce100b2a37c",
+   "lemma": "lair",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lair"
+   ],
+   "glossEn": "hidden resting place of a wild animal",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "80ac7c70-c0cc-566d-ae43-db4d3889baa0",
+   "lemma": "torpor",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "torpor"
+   ],
+   "glossEn": "state of lowered activity and body temperature",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "78544b24-ed2d-59b6-8a03-68f7ab0c5a86",
+   "lemma": "diurnal",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "diurnal"
+   ],
+   "glossEn": "active during the day",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "4f878260-8c40-563c-8856-256da082acac",
+   "lemma": "oxygenate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "oxygenate"
+   ],
+   "glossEn": "supply or enrich with oxygen",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "28b39f7c-c9aa-5582-82c9-902f4760f96c",
+   "lemma": "vascular",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vascular"
+   ],
+   "glossEn": "relating to vessels that carry blood or sap",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "a42896b1-c9f6-5236-91a5-e07d5dc56f96",
+   "lemma": "capillary",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "capillary"
+   ],
+   "glossEn": "smallest blood vessel in the body",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "3896bff8-c376-5d3f-aacb-b8c00d096c77",
+   "lemma": "pulmonary",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pulmonary"
+   ],
+   "glossEn": "relating to the lungs",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "0bcb34be-8fc3-5c1a-856d-705b770dfaf2",
+   "lemma": "renal",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "renal"
+   ],
+   "glossEn": "relating to the kidneys",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "6d096c98-0e29-524b-85e4-3bccb6e513d2",
+   "lemma": "synapse",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "synapse"
+   ],
+   "glossEn": "junction where nerve cells pass signals",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "31128d9a-c7f7-5375-85bf-58fae1885764",
+   "lemma": "plumage",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "plumage"
+   ],
+   "glossEn": "feathers covering a bird",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "fc17ccb7-add8-5110-9f71-43691fc4a262",
+   "lemma": "olfactory",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "olfactory"
+   ],
+   "glossEn": "relating to the sense of smell",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "46620e05-5266-58e1-8775-b9cd9b0751ec",
+   "lemma": "cornea",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cornea"
+   ],
+   "glossEn": "transparent front layer of the eye",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "6c681573-9ec3-58a8-a832-24cb04e640e2",
+   "lemma": "ovary",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ovary"
+   ],
+   "glossEn": "organ that produces eggs in females",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "514c8ab7-bc6f-527b-ac7b-1cc873446a8a",
+   "lemma": "cranial",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cranial"
+   ],
+   "glossEn": "relating to the skull",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "865073a4-a14b-5a03-9a13-673d760fca35",
+   "lemma": "femur",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "femur"
+   ],
+   "glossEn": "thigh bone, the longest bone in the body",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "f078e72d-71ee-5d33-8cc4-bfc3257b9b46",
+   "lemma": "intestinal",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "intestinal"
+   ],
+   "glossEn": "relating to the intestines",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "dfc65776-749d-5320-b1f0-4036916942aa",
+   "lemma": "follicle",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "follicle"
+   ],
+   "glossEn": "tiny sac in the skin from which hair grows",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "0ab2e434-3c97-57d9-8100-b1fc6a04db29",
+   "lemma": "epidermis",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "epidermis"
+   ],
+   "glossEn": "outer layer of the skin",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "7625a1eb-c23b-575d-b436-4838f1f807a1",
+   "lemma": "pigmentation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pigmentation"
+   ],
+   "glossEn": "natural coloring of skin, hair or tissue",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "db2d3461-1af3-51dd-838f-e34f223f19ba",
+   "lemma": "melanin",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "melanin"
+   ],
+   "glossEn": "dark pigment that colors skin and hair",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "34f944ce-9c47-5fb0-b5a0-a0bde9424850",
+   "lemma": "fetal",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fetal",
+    "foetal"
+   ],
+   "glossEn": "relating to an unborn baby",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "d8a1aa45-a8d7-51f0-83fd-a1aefde63473",
+   "lemma": "placenta",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "placenta"
+   ],
+   "glossEn": "organ that feeds a baby in the womb",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "288be51e-d8b2-5edd-b2a1-454f765a4191",
+   "lemma": "umbilical",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "umbilical"
+   ],
+   "glossEn": "relating to the cord joining baby and mother",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "9caa9afd-e5a3-5536-b6fb-e7f26cab238b",
+   "lemma": "afforestation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "afforestation"
+   ],
+   "glossEn": "planting forests where there were none",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "3d508396-c87c-5b38-b795-ed0aabf0829c",
+   "lemma": "fragmentation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fragmentation"
+   ],
+   "glossEn": "breaking of habitat into isolated pieces",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "23cd5aa5-f519-5253-aca2-33b49f3291ac",
+   "lemma": "bycatch",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bycatch",
+    "by-catch"
+   ],
+   "glossEn": "sea animals caught unintentionally while fishing",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "82c7a5fd-760b-58ea-8ebe-c607dd34bdc9",
+   "lemma": "aquaculture",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aquaculture"
+   ],
+   "glossEn": "farming of fish and other water organisms",
+   "topics": [
+    "food"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "ec7d6d28-1e17-5af1-9b9c-1fd3dd42d94a",
+   "lemma": "monoculture",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "monoculture"
+   ],
+   "glossEn": "growing a single crop over a large area",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "c1d1079d-034f-574a-9e4c-6bbae86aab98",
+   "lemma": "leach",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "leach"
+   ],
+   "glossEn": "drain away from soil by water",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "40bd1c70-1435-5443-bf69-11f9a022d6c5",
+   "lemma": "eutrophication",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "eutrophication"
+   ],
+   "glossEn": "excess nutrients in water causing algae overgrowth",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "e4a7be5a-c690-5adc-9164-e3e7d61efb88",
+   "lemma": "algal bloom",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "algal bloom"
+   ],
+   "glossEn": "rapid harmful growth of algae in water",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "3ee9d32e-e486-5a6a-b801-8159e3fa9c13",
+   "lemma": "remediation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "remediation"
+   ],
+   "glossEn": "cleaning up of polluted land or water",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "35be9264-f8a0-5178-a2bf-238d91e24e47",
+   "lemma": "carrying capacity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "carrying capacity"
+   ],
+   "glossEn": "largest population an environment can support",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "ab8a5f58-cdf5-5ffa-b654-86c2c57a1239",
+   "lemma": "oil slick",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "oil slick"
+   ],
+   "glossEn": "film of spilled oil floating on water",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "206d8c9b-72ba-5618-a2ed-b34c96911640",
+   "lemma": "impervious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "impervious"
+   ],
+   "glossEn": "not allowing water to pass through",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "613b0189-1c97-5d06-8671-ea460d260aa7",
+   "lemma": "dike",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dike",
+    "dyke"
+   ],
+   "glossEn": "wall built to hold back the sea",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "0f757344-5a6e-51a0-bf83-1275faa41aaa",
+   "lemma": "deposition",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deposition"
+   ],
+   "glossEn": "laying down of material carried by water or wind",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "4ee083d8-da10-5dd3-a1bd-47c952fd214a",
+   "lemma": "nitrous oxide",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "nitrous oxide"
+   ],
+   "glossEn": "powerful greenhouse gas from farming and fuel",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "4e03838a-c179-59c3-8a09-ee8d37f9308e",
+   "lemma": "die-off",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "die-off",
+    "dieoff"
+   ],
+   "glossEn": "sudden death of many organisms of one kind",
+   "topics": [],
+   "area": "science-nature"
+  },
+  {
+   "id": "bf91d318-a369-5883-9335-902e154f3419",
+   "lemma": "semi-arid",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "semi-arid",
+    "semiarid"
+   ],
+   "glossEn": "with little rain but not fully desert",
+   "topics": [],
+   "area": "science-nature"
+  }
+ ]
+}

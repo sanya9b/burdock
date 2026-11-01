@@ -1,0 +1,607 @@
+{
+ "chunk": "C1-W29",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "254739c8-e069-5a60-8905-3e71f4a939fc",
+   "lemma": "half-hearted",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "half-hearted",
+    "halfhearted"
+   ],
+   "glossEn": "without enthusiasm or energy",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "9832da2d-bef5-5a26-8c2b-112fe5ad46b3",
+   "lemma": "grudgingly",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "grudgingly"
+   ],
+   "glossEn": "reluctantly or resentfully",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "3f680366-fb3f-52ca-953d-2dee7a453f22",
+   "lemma": "gingerly",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gingerly"
+   ],
+   "glossEn": "in a careful, cautious manner",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "e85dae0b-956b-51e6-9ed6-fb4391184840",
+   "lemma": "profusely",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "profusely"
+   ],
+   "glossEn": "to a great degree, abundantly",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "dc3dfb23-32bc-5494-a158-4b0ce02f7e57",
+   "lemma": "gruff",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gruff"
+   ],
+   "glossEn": "rough and low in voice, abrupt in manner",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "5801ab35-bae0-5d3c-89e5-5a34128b3a80",
+   "lemma": "withdrawn",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "withdrawn"
+   ],
+   "glossEn": "unusually quiet and uncommunicative",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "b8f28c6f-ec95-56d4-95ac-79db92c75eb0",
+   "lemma": "introspective",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "introspective"
+   ],
+   "glossEn": "examining one's own thoughts and feelings",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "a114f0d2-949f-5591-9a9b-0694745e4f46",
+   "lemma": "pensive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pensive"
+   ],
+   "glossEn": "engaged in deep, serious thought",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "180f5ecf-b457-5cc5-b720-c53e00cbe924",
+   "lemma": "uninhibited",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "uninhibited"
+   ],
+   "glossEn": "expressing oneself freely without restraint",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "dcdbf4ff-a1d9-5075-913f-68cecac00ddc",
+   "lemma": "cocky",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cocky"
+   ],
+   "glossEn": "conceited in a bold, cheeky way",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "6a093f7b-84b6-5f45-bbae-abb00426563d",
+   "lemma": "bravado",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bravado"
+   ],
+   "glossEn": "bold manner intended to impress or intimidate",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "08d10cfa-e5bc-5968-a5e8-2a6ee1413c32",
+   "lemma": "ulterior",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ulterior"
+   ],
+   "glossEn": "of a motive: hidden and not openly admitted",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "379cec35-7039-58e9-a701-322d268f1334",
+   "lemma": "cowardice",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cowardice"
+   ],
+   "glossEn": "lack of courage",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "7f0de065-86fd-5853-9527-78a181d55b3b",
+   "lemma": "bashful",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bashful"
+   ],
+   "glossEn": "shy and easily embarrassed",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "ff2583e0-e402-5f1d-82fa-f58915b19fe7",
+   "lemma": "flamboyant",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flamboyant"
+   ],
+   "glossEn": "attracting attention through confidence, color and style",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "675437a3-6f9f-5fbe-afbb-bbd430cafa69",
+   "lemma": "boisterous",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "boisterous"
+   ],
+   "glossEn": "noisy, energetic and cheerful",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "840c8be4-925d-5640-a0c9-8d37a80a0cfd",
+   "lemma": "unruly",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "unruly"
+   ],
+   "glossEn": "disorderly and difficult to control",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "ddf271d1-028f-594d-b61c-9877444bc624",
+   "lemma": "brazen",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brazen"
+   ],
+   "glossEn": "bold and without shame",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "31d142c0-157b-5e34-b2ec-7cde9f2dbc1e",
+   "lemma": "defiant",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "defiant"
+   ],
+   "glossEn": "openly resisting authority or opposition",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "91eee2c4-2d28-55be-8f2c-ab1e0995d5c5",
+   "lemma": "aftertaste",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "aftertaste",
+    "aftertastes"
+   ],
+   "glossEn": "flavor that stays in the mouth after swallowing",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "95f87fe7-601f-501d-aff4-0e2ce1ba40e0",
+   "lemma": "sommelier",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sommelier",
+    "sommeliers"
+   ],
+   "glossEn": "restaurant wine expert who advises guests",
+   "topics": [
+    "food",
+    "work"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "340513bf-5059-5760-bebf-3f84b9922463",
+   "lemma": "julienne",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "julienne",
+    "juliennes",
+    "julienned",
+    "julienning"
+   ],
+   "glossEn": "cut vegetables into thin matchstick strips",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "369adc86-2382-53c5-b5a2-b7f75038c8c6",
+   "lemma": "flambé",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flambé",
+    "flambe",
+    "flambéed",
+    "flambeed"
+   ],
+   "glossEn": "pour spirit over food and set it alight",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "046658b5-d075-50b7-a1cd-f01c2cfa2715",
+   "lemma": "emulsify",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "emulsify",
+    "emulsifies",
+    "emulsified",
+    "emulsifying"
+   ],
+   "glossEn": "blend oil and water into a smooth sauce",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "ee549519-45f1-5205-a3f5-1fbdeeca9d1f",
+   "lemma": "deglaze",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deglaze",
+    "deglazes",
+    "deglazed",
+    "deglazing"
+   ],
+   "glossEn": "add liquid to a hot pan to lift browned bits",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "e8f98760-1ec0-5454-9ab5-861dc5fba41f",
+   "lemma": "decant",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "decant",
+    "decants",
+    "decanted",
+    "decanting"
+   ],
+   "glossEn": "pour wine into another vessel to let it breathe",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "ab22d237-608f-552d-bd8a-78edcde764c6",
+   "lemma": "shuck",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "shuck",
+    "shucks",
+    "shucked",
+    "shucking"
+   ],
+   "glossEn": "remove the shell of oysters or husk of corn",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "78ee0cb3-354b-5064-b8aa-6a3691f9a561",
+   "lemma": "mandoline",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "mandoline",
+    "mandolines",
+    "mandolin"
+   ],
+   "glossEn": "flat slicer with an adjustable blade",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "1b527ad6-8ecd-5133-89e5-fafa11e57aeb",
+   "lemma": "ramekin",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ramekin",
+    "ramekins"
+   ],
+   "glossEn": "small ceramic dish for baking a single portion",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "7db958f5-27ca-504d-83f1-2d32035f0f29",
+   "lemma": "tureen",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tureen",
+    "tureens"
+   ],
+   "glossEn": "deep covered dish for serving soup",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "fe67f774-d237-547c-8fd0-ead0dd7d64f1",
+   "lemma": "cheesecloth",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cheesecloth",
+    "muslin"
+   ],
+   "glossEn": "loose cotton cloth for straining curds",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "72d629d8-48c4-5e7a-a712-d096f0cb991b",
+   "lemma": "consommé",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "consommé",
+    "consomme",
+    "consommés"
+   ],
+   "glossEn": "perfectly clear strong meat broth",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "45dea2a1-4e9c-5c8d-bfeb-1e7ad2547c96",
+   "lemma": "bisque",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bisque",
+    "bisques"
+   ],
+   "glossEn": "smooth creamy shellfish soup",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "56468865-128f-5342-bb67-ff2eb07a64e9",
+   "lemma": "gazpacho",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gazpacho"
+   ],
+   "glossEn": "cold Spanish soup of raw tomatoes",
+   "topics": [
+    "food",
+    "travel"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "a5795dad-7e6d-594e-b6f2-7c71af5979e0",
+   "lemma": "frittata",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "frittata",
+    "frittatas"
+   ],
+   "glossEn": "thick Italian omelet finished in the oven",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "420cf296-3ca9-55b7-a838-1f7c005254f6",
+   "lemma": "soufflé",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "soufflé",
+    "souffle",
+    "soufflés"
+   ],
+   "glossEn": "light baked dish puffed up with egg whites",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "e4da15e9-0c99-58e1-b2c0-70372c544d05",
+   "lemma": "bruschetta",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bruschetta",
+    "bruschette"
+   ],
+   "glossEn": "grilled bread topped with tomato and garlic",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "528e560e-4efd-53ac-bd0a-8facc87b1a45",
+   "lemma": "canapé",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "canapé",
+    "canape",
+    "canapés",
+    "canapes"
+   ],
+   "glossEn": "tiny decorated bite served at receptions",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "83079d4b-a75a-596e-a733-4f42beae9907",
+   "lemma": "charcuterie",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "charcuterie"
+   ],
+   "glossEn": "cured meats served sliced on a board",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "cb6deeb7-79d8-5626-96ce-32c8d6211dd7",
+   "lemma": "antipasto",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "antipasto",
+    "antipasti"
+   ],
+   "glossEn": "Italian first course of cold meats and olives",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  }
+ ]
+}

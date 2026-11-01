@@ -1,0 +1,564 @@
+{
+ "chunk": "C2-W15",
+ "level": "C2",
+ "lexemes": [
+  {
+   "id": "6e9350e9-3b2a-58ba-aeb2-e6df5b21931a",
+   "lemma": "telemetry",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "telemetry"
+   ],
+   "glossEn": "automatic remote measurement and data transmission",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "e5a54272-9c65-5506-b243-6c86931b3c4d",
+   "lemma": "patentable",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "patentable"
+   ],
+   "glossEn": "able to be protected by a patent",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "a0bc2c50-c170-53fe-a4ea-70198c17edad",
+   "lemma": "tokenize",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tokenize",
+    "tokenise"
+   ],
+   "glossEn": "represent an asset or data as a digital token",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "893a7da4-866a-5080-ac25-1d96b57067c2",
+   "lemma": "frictionless",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "frictionless"
+   ],
+   "glossEn": "happening smoothly without obstacles or effort",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "8cb5b0c0-450f-57a9-b032-350c9090cddc",
+   "lemma": "technophobe",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "technophobe"
+   ],
+   "glossEn": "person who fears or dislikes new technology",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "f60475fe-59cf-5959-86a4-ba9a1cd9e38a",
+   "lemma": "technocrat",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "technocrat"
+   ],
+   "glossEn": "expert, especially a scientist, with political power",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "91641ff5-faae-51be-8194-cb608b210362",
+   "lemma": "technocratic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "technocratic"
+   ],
+   "glossEn": "governed or decided by technical experts",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "72d36df8-8138-5838-8f32-b65f4cb5141e",
+   "lemma": "luddite",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "luddite",
+    "Luddite"
+   ],
+   "glossEn": "person opposed to new technology",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "97b231ee-8237-595d-9101-661bb7d030c8",
+   "lemma": "obsolescent",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "obsolescent"
+   ],
+   "glossEn": "becoming obsolete; going out of use",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "4ea2dda2-ff6e-58fc-ae64-2bd1fb8c46e0",
+   "lemma": "bleeding-edge",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bleeding-edge",
+    "bleeding edge"
+   ],
+   "glossEn": "so new that it is untested and risky",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "97c847db-4f6e-5941-bd59-848a123f6b3b",
+   "lemma": "leapfrog",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "leapfrog",
+    "leap-frog"
+   ],
+   "glossEn": "skip a stage of development and jump ahead",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "f2084a7a-5fd5-5ffd-939f-4673be39cb6b",
+   "lemma": "incubate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "incubate"
+   ],
+   "glossEn": "develop an idea or business in its early stages",
+   "topics": [
+    "work"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "73634894-fa64-5507-9b6e-c3846a1e5148",
+   "lemma": "extensible",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "extensible"
+   ],
+   "glossEn": "designed to allow new features to be added",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "05620ec5-2fb2-58fb-bc8d-6c460a600d85",
+   "lemma": "deprecate",
+   "pos": "verb",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "deprecate"
+   ],
+   "glossEn": "mark a software feature as outdated and discouraged",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "157e60b1-5924-5a96-8b27-5bbf0920629d",
+   "lemma": "phase-out",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "phase-out",
+    "phaseout"
+   ],
+   "glossEn": "gradual withdrawal of a product or practice",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "e2b87174-7140-5cba-a21c-fe916fbee0bb",
+   "lemma": "singularity",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "singularity"
+   ],
+   "glossEn": "hypothetical point when AI surpasses human intelligence",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "e7c28bad-0ff5-5646-aed6-58cdafe18d07",
+   "lemma": "sentient",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sentient"
+   ],
+   "glossEn": "able to perceive and feel things",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "54c35622-0552-576e-9b1b-507a368639fd",
+   "lemma": "algorithmic",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "algorithmic"
+   ],
+   "glossEn": "relating to or determined by algorithms",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "bfac58a2-296d-5c6c-aa0e-7dea054360c5",
+   "lemma": "disintermediation",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disintermediation"
+   ],
+   "glossEn": "removing middlemen from a supply chain",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "d13e3ac1-364e-58f3-a4da-f4c5aa9619e7",
+   "lemma": "network effect",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "network effect"
+   ],
+   "glossEn": "value rising as more people use a product",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "9dcf40fe-6994-5a76-9c84-972685a17ac5",
+   "lemma": "lock-in",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lock-in",
+    "lock in"
+   ],
+   "glossEn": "being unable to switch to another supplier easily",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "d5dda431-5516-5ce2-9512-7ee57a4bb228",
+   "lemma": "winner-take-all",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "winner-take-all",
+    "winner-takes-all"
+   ],
+   "glossEn": "where the leader captures nearly the whole market",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "c1d57abd-bb45-5428-a72a-a75269aff4be",
+   "lemma": "freemium",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "freemium"
+   ],
+   "glossEn": "free basic service with paid premium features",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "7dfad4bd-00b2-5e1d-a705-6274156bd578",
+   "lemma": "microtransaction",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "microtransaction",
+    "micro-transaction"
+   ],
+   "glossEn": "very small payment made within an app or game",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "e03ee3fa-4a69-56eb-b8bc-6899b53b65c3",
+   "lemma": "additive manufacturing",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "additive manufacturing"
+   ],
+   "glossEn": "building objects layer by layer, e.g. 3D printing",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "97e40241-a0b9-501a-ad54-8bd6ae9c08b8",
+   "lemma": "bioengineering",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bioengineering",
+    "bio-engineering"
+   ],
+   "glossEn": "application of engineering to biology and medicine",
+   "topics": [
+    "health"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "22013fbb-f2b2-5c51-a256-91303fb4f08d",
+   "lemma": "geoengineering",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "geoengineering",
+    "geo-engineering"
+   ],
+   "glossEn": "deliberate large-scale intervention in the climate",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "b233df20-e1d7-57e5-bb28-e11f045b3c61",
+   "lemma": "automaton",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "automaton"
+   ],
+   "glossEn": "machine that moves by itself; mechanical person",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "cca37087-b5a9-5282-a8f1-6bf5214c5aab",
+   "lemma": "cybernetics",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cybernetics"
+   ],
+   "glossEn": "science of control and communication in machines and organisms",
+   "topics": [
+    "it"
+   ],
+   "area": "economy-technology"
+  },
+  {
+   "id": "7fbcb7b7-abed-56e7-b208-b67f429e01c9",
+   "lemma": "prior art",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prior art"
+   ],
+   "glossEn": "existing knowledge showing an invention is not new",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "d8b757c0-fa7b-577c-815f-61861a94726a",
+   "lemma": "brainchild",
+   "pos": "noun",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "brainchild"
+   ],
+   "glossEn": "idea or invention of a particular person",
+   "topics": [],
+   "area": "economy-technology"
+  },
+  {
+   "id": "f42ce060-6421-5b78-a2be-d305f3220630",
+   "lemma": "disconsolate",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "disconsolate"
+   ],
+   "glossEn": "unable to be comforted, very unhappy",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "6a26da8d-d9aa-5f9b-bd24-ef08a9e47cde",
+   "lemma": "doleful",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "doleful"
+   ],
+   "glossEn": "expressing sorrow, mournful",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "5d433a56-704d-59c6-9701-49dfbe2364a2",
+   "lemma": "lugubrious",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lugubrious"
+   ],
+   "glossEn": "looking or sounding sad and dismal",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "f0260b9a-b60f-5f69-a760-ea36ad0d8141",
+   "lemma": "plaintive",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "plaintive"
+   ],
+   "glossEn": "sounding sad and mournful",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "0f77d31d-7801-5299-936c-0911619fe888",
+   "lemma": "querulous",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "querulous"
+   ],
+   "glossEn": "complaining in a whining, petulant way",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "88a14ffa-5d88-597c-9a49-1dfcb8d67ef2",
+   "lemma": "curmudgeonly",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "curmudgeonly"
+   ],
+   "glossEn": "bad-tempered, surly and set in one's ways",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "6e8e5cc2-652e-54c4-823c-18872375192e",
+   "lemma": "peevish",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "peevish"
+   ],
+   "glossEn": "easily irritated by unimportant things",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "98717e17-7ff5-5bfd-8146-8f2044756d33",
+   "lemma": "testy",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "testy"
+   ],
+   "glossEn": "easily irritated, impatient and short-tempered",
+   "topics": [],
+   "area": "emotions-character"
+  },
+  {
+   "id": "337d81a2-119f-5994-9658-8c3629ac6d57",
+   "lemma": "tetchy",
+   "pos": "adjective",
+   "level": "C2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tetchy"
+   ],
+   "glossEn": "irritable and oversensitive",
+   "topics": [],
+   "area": "emotions-character"
+  }
+ ]
+}

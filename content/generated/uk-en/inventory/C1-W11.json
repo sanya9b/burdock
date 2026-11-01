@@ -1,0 +1,553 @@
+{
+ "chunk": "C1-W11",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "059743c6-a2c9-5aac-afd0-8ad1a7c12c0a",
+   "lemma": "zany",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "zany"
+   ],
+   "glossEn": "amusingly unconventional and crazy",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "23a99a22-d00e-5646-b966-3fb1f9db45b0",
+   "lemma": "absurdist",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "absurdist"
+   ],
+   "glossEn": "portraying life as meaningless and irrational",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "b9d82bde-919d-5198-8ee5-df0766a95295",
+   "lemma": "droll",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "droll"
+   ],
+   "glossEn": "amusing in a dry, odd way",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "4cfadf37-3c6b-5a8e-80fe-0ce43645c6ff",
+   "lemma": "flashy",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "flashy"
+   ],
+   "glossEn": "showy and attention-seeking",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "f1b44439-8b4a-5bf0-bb18-d63d973063ac",
+   "lemma": "showy",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "showy"
+   ],
+   "glossEn": "striking but lacking taste or depth",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "b01e6a27-7ca1-5fdf-9e2e-cebd93a102f2",
+   "lemma": "gimmicky",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gimmicky"
+   ],
+   "glossEn": "relying on tricks to attract attention",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "173bd2b4-0b52-5e24-be64-cf65019ad2fc",
+   "lemma": "glitzy",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "glitzy"
+   ],
+   "glossEn": "glamorous in a superficial, showy way",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "1d1769c1-4bc0-5036-94cc-750ccf00d0dc",
+   "lemma": "star-studded",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "star-studded",
+    "star studded"
+   ],
+   "glossEn": "featuring many famous performers",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "7aec5e4d-2c54-5351-835b-4cd08792e6d8",
+   "lemma": "starlet",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "starlet"
+   ],
+   "glossEn": "young actress hoping to become famous",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "b9b2a184-e3e3-5b39-8839-bc12812c36b1",
+   "lemma": "diva",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "diva"
+   ],
+   "glossEn": "celebrated female singer; demanding star",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "e0b0f039-0d05-5146-bda3-f24985b029f3",
+   "lemma": "heartthrob",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heartthrob",
+    "heart-throb"
+   ],
+   "glossEn": "man many people find very attractive",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "37fa9fce-852e-53de-b14d-405e75d63346",
+   "lemma": "has-been",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "has-been",
+    "hasbeen"
+   ],
+   "glossEn": "person no longer famous or successful",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "4dabe610-82b2-5528-b58c-b4938f7beff4",
+   "lemma": "fanfare",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fanfare"
+   ],
+   "glossEn": "showy publicity; short loud trumpet piece",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "9b6075f9-983f-5a92-9477-8ab709e8df12",
+   "lemma": "rave",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "rave"
+   ],
+   "glossEn": "extremely enthusiastic review",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "a3e1fc45-ca50-5bb0-a48f-3f549718abca",
+   "lemma": "lukewarm",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "lukewarm"
+   ],
+   "glossEn": "showing little enthusiasm",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "d08319dc-7be0-5780-b838-9e345fdd731a",
+   "lemma": "prize-winning",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "prize-winning",
+    "prizewinning"
+   ],
+   "glossEn": "having won an award",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "40ee6646-3e96-5810-9de1-f3e18a71708e",
+   "lemma": "longlist",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "longlist",
+    "long list"
+   ],
+   "glossEn": "preliminary list of candidates for a prize",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "228d3009-b0de-52bd-98ab-f36a1ae614fb",
+   "lemma": "cheesy",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cheesy"
+   ],
+   "glossEn": "cheap, tacky and overly sentimental",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "06711bda-281f-5238-8fc3-ed91878934b4",
+   "lemma": "screenwriter",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "screenwriter"
+   ],
+   "glossEn": "person who writes film or television scripts",
+   "topics": [
+    "work"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "1abe7555-2588-50b6-bcdb-5e5422aac2ce",
+   "lemma": "scriptwriter",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scriptwriter"
+   ],
+   "glossEn": "writer of scripts for broadcast or film",
+   "topics": [
+    "work"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "83daf303-4e82-51e2-b67e-6290bd03868e",
+   "lemma": "filmmaker",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "filmmaker",
+    "film-maker",
+    "film maker"
+   ],
+   "glossEn": "person who directs or produces films",
+   "topics": [
+    "work"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "34e25ae8-c654-51a2-930d-779e7a57893a",
+   "lemma": "moviegoer",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "moviegoer",
+    "movie-goer"
+   ],
+   "glossEn": "person who goes to the cinema",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "e6dd5339-db07-55b9-924a-3bef2ec69934",
+   "lemma": "onlooker",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "onlooker"
+   ],
+   "glossEn": "person who watches something without taking part",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "240f867a-6f06-5d88-adf6-cf5313f2b7d0",
+   "lemma": "bystander",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bystander"
+   ],
+   "glossEn": "person present but not involved in an event",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "ce210b75-cf61-5e9c-9ef5-14e2c7cbbe4d",
+   "lemma": "backstage",
+   "pos": "adverb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "backstage",
+    "back-stage"
+   ],
+   "glossEn": "behind the stage, out of audience view",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "b1025f5f-fee6-5433-b3fe-7b9544a6a1fc",
+   "lemma": "ad-lib",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ad-lib",
+    "ad lib",
+    "adlib"
+   ],
+   "glossEn": "speak or perform without preparation",
+   "topics": [
+    "communication"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "51cfb557-6a9a-5eb8-b1a7-08fe51a7471b",
+   "lemma": "improv",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "improv"
+   ],
+   "glossEn": "unscripted comedy or theater",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "b81c3a4f-1459-518c-8819-f32f1a8db69b",
+   "lemma": "limelight",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "limelight"
+   ],
+   "glossEn": "center of public attention",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "63bc2c5b-5f63-5c4e-8d08-d7d1af555640",
+   "lemma": "stardom",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stardom"
+   ],
+   "glossEn": "state of being a famous performer",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "09f76c1d-24e7-5c5e-84af-76e5b868ee80",
+   "lemma": "publicist",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "publicist"
+   ],
+   "glossEn": "person who manages publicity for a celebrity",
+   "topics": [
+    "communication",
+    "work"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "0e22b2cf-7b6b-5cdd-bd07-68c1dde90c55",
+   "lemma": "promoter",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "promoter"
+   ],
+   "glossEn": "organizer and financer of concerts or events",
+   "topics": [
+    "work"
+   ],
+   "area": "arts-media"
+  },
+  {
+   "id": "742f76ab-ab57-5677-bbcb-390eb7254e5d",
+   "lemma": "escapism",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "escapism"
+   ],
+   "glossEn": "entertainment that distracts from unpleasant reality",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "04b89464-372f-5e4e-bf91-860c70435d9a",
+   "lemma": "escapist",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "escapist"
+   ],
+   "glossEn": "offering distraction from real life",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "07eec5e5-ee7e-58a5-8e62-38ad98dd9464",
+   "lemma": "harmonize",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "harmonize",
+    "harmonise"
+   ],
+   "glossEn": "sing or play notes that blend with a melody",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "d51f0ab0-6e45-58d8-b8b4-7fa679ec6dfd",
+   "lemma": "timbre",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "timbre"
+   ],
+   "glossEn": "distinctive quality of a voice or instrument's sound",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "08b77517-6a21-5f84-905d-9794547b9a76",
+   "lemma": "tempo",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tempo"
+   ],
+   "glossEn": "speed at which music is played",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "a7063348-dff7-5093-ac71-b52455352b52",
+   "lemma": "crescendo",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "crescendo"
+   ],
+   "glossEn": "gradual increase in loudness",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "b3bc52d9-b560-5936-ad57-70e2b2a6ec3d",
+   "lemma": "vibrato",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vibrato"
+   ],
+   "glossEn": "rapid slight pitch variation giving a richer tone",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "454c7832-0ce6-5eb8-bf56-bbb9044e7a55",
+   "lemma": "falsetto",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "falsetto"
+   ],
+   "glossEn": "artificially high male singing voice",
+   "topics": [],
+   "area": "arts-media"
+  },
+  {
+   "id": "dd368716-652c-5185-8726-bd789a78ced6",
+   "lemma": "baritone",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "baritone"
+   ],
+   "glossEn": "male voice between tenor and bass",
+   "topics": [],
+   "area": "arts-media"
+  }
+ ]
+}

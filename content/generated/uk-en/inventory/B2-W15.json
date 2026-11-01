@@ -1,0 +1,675 @@
+{
+ "chunk": "B2-W15",
+ "level": "B2",
+ "lexemes": [
+  {
+   "id": "9757f3a9-d0f7-56d0-943a-f48fe26b21a1",
+   "lemma": "design pattern",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "design pattern",
+    "design patterns",
+    "pattern"
+   ],
+   "glossEn": "reusable solution to a common programming problem",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "34518cfa-8abd-54a7-92cd-ca6a4c3e70a4",
+   "lemma": "code coverage",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "code coverage",
+    "test coverage",
+    "coverage"
+   ],
+   "glossEn": "share of code that automated tests actually run",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "f9e58ff7-8027-5f16-98db-19f278220c30",
+   "lemma": "test suite",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "test suite",
+    "test suites"
+   ],
+   "glossEn": "collection of tests run together",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "3d15775f-58fe-5be9-beb7-146822a85995",
+   "lemma": "integration test",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "integration test",
+    "integration tests",
+    "integration testing"
+   ],
+   "glossEn": "test checking that several components work together",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "66d98271-865b-5a6f-be36-1e4f01ca3e2f",
+   "lemma": "load test",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "load test",
+    "load tests",
+    "load testing"
+   ],
+   "glossEn": "test of how a system copes with heavy traffic",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "bd484a46-d65b-5152-86a9-e6a750ebe102",
+   "lemma": "tech lead",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "tech lead",
+    "tech leads",
+    "technical lead"
+   ],
+   "glossEn": "senior engineer who guides technical decisions of a team",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "46fc1e85-dc11-5c4e-8d1d-7d9dbb664a56",
+   "lemma": "CTO",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "CTO",
+    "CTOs",
+    "chief technology officer"
+   ],
+   "glossEn": "executive in charge of technology at a company",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "07b5118c-5b8a-5c74-aad6-47531f57d8d6",
+   "lemma": "scrum master",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scrum master",
+    "scrum masters"
+   ],
+   "glossEn": "person who runs scrum meetings and removes blockers",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "47191d22-48fe-5179-9494-01cb67f5c570",
+   "lemma": "SDK",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "SDK",
+    "SDKs",
+    "software development kit"
+   ],
+   "glossEn": "set of tools for building apps on a platform",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "2b8a88c4-317c-570c-b956-640c44cac1f9",
+   "lemma": "Unicode",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "Unicode",
+    "unicode"
+   ],
+   "glossEn": "standard that gives every character a number",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "2b299d85-fadb-567e-ab73-445222fb41d1",
+   "lemma": "wildcard",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wildcard",
+    "wildcards",
+    "wild card"
+   ],
+   "glossEn": "symbol like * that stands for any characters",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "41844cf0-4e1c-5739-8682-0634a157ca72",
+   "lemma": "radio button",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "radio button",
+    "radio buttons"
+   ],
+   "glossEn": "round control for choosing one option of several",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "46b5cacb-5d2b-507f-9c63-ea10d633dfa5",
+   "lemma": "infinite loop",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "infinite loop",
+    "infinite loops",
+    "endless loop"
+   ],
+   "glossEn": "code that repeats forever and never stops",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "4be07f76-99e8-5bcd-9faf-f4334d98c19c",
+   "lemma": "error handling",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "error handling",
+    "exception handling"
+   ],
+   "glossEn": "code that deals with failures gracefully",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "f1901a42-ab6f-5095-91da-921521ede144",
+   "lemma": "primary key",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "primary key",
+    "primary keys"
+   ],
+   "glossEn": "column that uniquely identifies each database row",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "a89d5204-5ddc-5005-82b5-4a42cbfd15c9",
+   "lemma": "plain text",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "plain text",
+    "plaintext",
+    "plain-text"
+   ],
+   "glossEn": "text without formatting, or data not encrypted",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "74c4d040-4e51-58cb-a4dc-b82d0561e017",
+   "lemma": "timestamp",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "timestamp",
+    "timestamps",
+    "time stamp"
+   ],
+   "glossEn": "recorded date and time of an event",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "dd50af54-39d2-5bed-a8a4-ac6ebccacea7",
+   "lemma": "snapshot",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "snapshot",
+    "snapshots"
+   ],
+   "glossEn": "saved copy of a system state at one moment",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "ce50e0f6-635d-569c-a293-1560e3a02246",
+   "lemma": "opt-in",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "opt-in",
+    "opt in",
+    "opt-ins"
+   ],
+   "glossEn": "actively agreeing to receive something, like emails",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "d06added-4ef7-52af-b808-fd4b031b33fe",
+   "lemma": "issue tracker",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "issue tracker",
+    "issue trackers",
+    "bug tracker"
+   ],
+   "glossEn": "tool for recording bugs and tasks",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "e422cc1f-ff9e-541c-bde3-d8dc07a1dcf8",
+   "lemma": "validation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "validation",
+    "validations",
+    "input validation"
+   ],
+   "glossEn": "checking that entered data is correct and complete",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "5e666868-6885-50c4-b598-f29d683de6dc",
+   "lemma": "splash screen",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "splash screen",
+    "splash screens"
+   ],
+   "glossEn": "first screen shown while an app loads",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "cf5b8413-a7dc-54ab-b042-1fc90111605f",
+   "lemma": "DNS",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "DNS",
+    "domain name system"
+   ],
+   "glossEn": "system that turns domain names into IP addresses",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "3758c7c6-1f77-571a-85a2-b9c9962e6227",
+   "lemma": "hostname",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hostname",
+    "hostnames",
+    "host name"
+   ],
+   "glossEn": "name that identifies a computer on a network",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "ccfe17d0-e1a9-5a2b-99ad-68397c45e0b8",
+   "lemma": "localhost",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "localhost"
+   ],
+   "glossEn": "address meaning this computer itself",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "52579619-48de-5063-b441-f4f6c8e7f5f4",
+   "lemma": "subdomain",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "subdomain",
+    "subdomains"
+   ],
+   "glossEn": "named part before a main domain, like blog.site.com",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "3a713ea3-1a12-5050-8375-e3ec7d32b997",
+   "lemma": "FTP",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "FTP",
+    "SFTP",
+    "ftp"
+   ],
+   "glossEn": "old protocol for moving files to a server",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "5d909c4b-575e-5148-82ad-6953a3291e45",
+   "lemma": "status code",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "status code",
+    "status codes",
+    "HTTP status"
+   ],
+   "glossEn": "number a server returns, like 404 or 500",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "14311e30-99dd-5385-880f-b3290c186ff2",
+   "lemma": "API key",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "API key",
+    "API keys"
+   ],
+   "glossEn": "secret string that lets an app call a service",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "fd7b49db-870e-5063-908e-d6ba6493718b",
+   "lemma": "SaaS",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "SaaS",
+    "software as a service"
+   ],
+   "glossEn": "software sold as an online subscription, not installed",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "f04e7e5a-1a13-5549-9c60-14411e8acb5c",
+   "lemma": "free-to-play",
+   "pos": "adjective",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "free-to-play",
+    "free to play",
+    "F2P"
+   ],
+   "glossEn": "free to download, earning money from optional purchases",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "7921c3d4-d3e0-5398-a875-3ea092cd2b49",
+   "lemma": "respawn",
+   "pos": "verb",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "respawn",
+    "respawns",
+    "respawned",
+    "respawning"
+   ],
+   "glossEn": "reappear in a game after being defeated",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "1f1db520-f61e-5d67-8d02-793c94aad449",
+   "lemma": "NPC",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "NPC",
+    "NPCs",
+    "non-player character"
+   ],
+   "glossEn": "game character controlled by the computer",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "25afa298-dab8-5998-970c-d62d56ed8fc6",
+   "lemma": "game engine",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "game engine",
+    "game engines"
+   ],
+   "glossEn": "software framework used to build video games",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "6b425f52-1e05-5bd2-9d08-a8dd5bf54f04",
+   "lemma": "leaderboard",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "leaderboard",
+    "leaderboards"
+   ],
+   "glossEn": "ranked list of top players or scores",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "042349bc-6d8e-55fd-8ec0-db12ff925a41",
+   "lemma": "OCR",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "OCR",
+    "optical character recognition"
+   ],
+   "glossEn": "turning scanned or photographed text into editable text",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "7e27557d-f89d-57b3-a9d5-dd2f20a5830f",
+   "lemma": "machine translation",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "machine translation",
+    "MT"
+   ],
+   "glossEn": "translation done automatically by software",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "2effb84a-6695-519f-aaa1-7edb720edaf6",
+   "lemma": "speech recognition",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "speech recognition",
+    "voice recognition"
+   ],
+   "glossEn": "technology that turns spoken words into text",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "4af5a8cc-33e9-5ee7-8f4c-7aafc3071228",
+   "lemma": "text-to-speech",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "text-to-speech",
+    "text to speech",
+    "TTS"
+   ],
+   "glossEn": "technology that reads written text aloud",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "0c7f9973-71d6-5c17-8a7f-7865a10c2c04",
+   "lemma": "facial recognition",
+   "pos": "noun",
+   "level": "B2",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "facial recognition",
+    "face recognition"
+   ],
+   "glossEn": "identifying a person from an image of their face",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  }
+ ]
+}

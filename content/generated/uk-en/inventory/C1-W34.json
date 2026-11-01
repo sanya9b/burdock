@@ -1,0 +1,661 @@
+{
+ "chunk": "C1-W34",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "d16cb179-59ad-5cd6-a15a-e235f201bbbc",
+   "lemma": "microcontroller",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "microcontroller",
+    "microcontrollers"
+   ],
+   "glossEn": "tiny computer chip that controls a device",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "5af3128e-d744-5904-a024-da030331362b",
+   "lemma": "over-the-air",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "over-the-air",
+    "OTA",
+    "over the air"
+   ],
+   "glossEn": "delivered wirelessly, as a firmware update",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "3a22628a-8ce8-57c7-88f7-b40808a0450e",
+   "lemma": "bezel",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bezel",
+    "bezels"
+   ],
+   "glossEn": "frame around the edge of a screen",
+   "topics": [
+    "it",
+    "shopping"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "b9e600ed-0d11-57f4-9d82-0b5ef117243a",
+   "lemma": "heat sink",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "heat sink",
+    "heat sinks",
+    "heatsink"
+   ],
+   "glossEn": "metal part that draws heat away from a chip",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "4489929d-8e2e-5911-905a-aef8a4fe62a6",
+   "lemma": "overclock",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "overclock",
+    "overclocks",
+    "overclocked",
+    "overclocking"
+   ],
+   "glossEn": "run a processor faster than its rated speed",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "78433d4a-2e77-5e56-bc71-2020a0af93e7",
+   "lemma": "design system",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "design system",
+    "design systems"
+   ],
+   "glossEn": "shared library of UI components, styles, and rules",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "46bf535e-bce7-545b-a310-ad410b58b4be",
+   "lemma": "low-code",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "low-code",
+    "low code",
+    "no-code"
+   ],
+   "glossEn": "letting people build apps with little hand-written code",
+   "topics": [
+    "it",
+    "work"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "63fdf984-a8e7-5f18-8ac2-58bf485ce81d",
+   "lemma": "armament",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "armament",
+    "armaments"
+   ],
+   "glossEn": "weapons and military equipment",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "677075de-73d1-5a6e-869f-07e6d08ff820",
+   "lemma": "arsenal",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "arsenal",
+    "arsenals"
+   ],
+   "glossEn": "store or collection of weapons",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "508f8a48-d908-531c-a1c5-deed301d32a9",
+   "lemma": "doctrine",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "doctrine",
+    "doctrines"
+   ],
+   "glossEn": "official principles guiding how forces fight",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "75aa28a0-5b5c-55ca-8fcb-cdbb9ff03b52",
+   "lemma": "de-escalation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "de-escalation",
+    "deescalation"
+   ],
+   "glossEn": "reducing the intensity of a conflict",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "fd1c5c18-6178-5b7c-b109-859146fbae24",
+   "lemma": "annexation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "annexation",
+    "annexations"
+   ],
+   "glossEn": "illegal taking of territory by another state",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "c13dbff2-385a-5368-ae56-45c8952f589f",
+   "lemma": "occupier",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "occupier",
+    "occupiers"
+   ],
+   "glossEn": "foreign force controlling a territory",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "79fd45a6-ebc6-5da7-8b91-394a8791e002",
+   "lemma": "insurgency",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "insurgency",
+    "insurgencies"
+   ],
+   "glossEn": "armed uprising against a government or occupier",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "88c0fb85-7e3f-5b6d-8716-e937d130efac",
+   "lemma": "insurgent",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "insurgent",
+    "insurgents"
+   ],
+   "glossEn": "fighter in an armed uprising",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "2c936ccf-4e70-5592-9721-c539cc7780da",
+   "lemma": "counterinsurgency",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "counterinsurgency",
+    "counter-insurgency"
+   ],
+   "glossEn": "operations against an armed uprising",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "b3f6eeb1-cfd5-5c06-a0c9-66b6928e0ec0",
+   "lemma": "paramilitary",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "paramilitary"
+   ],
+   "glossEn": "organized like an army but not official",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "4e29115f-6201-536d-89ad-b9c0a6ad46ad",
+   "lemma": "militia",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "militia",
+    "militias"
+   ],
+   "glossEn": "armed group of civilians, not regular army",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "0382b5ce-8450-57ab-8ba3-51376defb1ab",
+   "lemma": "conscientious objector",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "conscientious objector",
+    "conscientious objectors"
+   ],
+   "glossEn": "person refusing military service on moral grounds",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "6477b7a2-b193-5512-9a46-f183b00f82f0",
+   "lemma": "reprisal",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "reprisal",
+    "reprisals"
+   ],
+   "glossEn": "harmful act done in return for an attack",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "3f14632d-44b3-5dbd-9673-cf5d27a751fc",
+   "lemma": "retaliation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "retaliation"
+   ],
+   "glossEn": "attack made in response to an attack",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "1ba8d302-7163-546b-b4d2-1210823a7ea1",
+   "lemma": "retaliate",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "retaliate",
+    "retaliates",
+    "retaliated",
+    "retaliating"
+   ],
+   "glossEn": "attack back after being attacked",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "be635ed7-d0a4-558a-9df1-1a2e8124162c",
+   "lemma": "preemptive",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "preemptive",
+    "pre-emptive"
+   ],
+   "glossEn": "done to prevent an expected attack",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "0e94e4f9-0825-5842-b924-48354419ef68",
+   "lemma": "sortie",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sortie",
+    "sorties"
+   ],
+   "glossEn": "single combat flight or short attack mission",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "106f76c3-76ee-519f-8e27-eab081628f2e",
+   "lemma": "bridgehead",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bridgehead",
+    "bridgeheads"
+   ],
+   "glossEn": "position held on the enemy side of a river",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "12894550-e40a-51c1-a828-cee72b6ec0cc",
+   "lemma": "bastion",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "bastion",
+    "bastions"
+   ],
+   "glossEn": "strongly defended part of a fortification",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "16b66055-472a-5c04-90c9-f0ba55f32a2f",
+   "lemma": "parapet",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "parapet",
+    "parapets"
+   ],
+   "glossEn": "low protective wall at the edge of a trench",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "7523f40d-e02e-5156-ab0c-2b4046649856",
+   "lemma": "berm",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "berm",
+    "berms"
+   ],
+   "glossEn": "raised bank of earth used as a barrier",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "9999df82-3a80-544e-813b-c88099df3dc6",
+   "lemma": "quartermaster",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "quartermaster",
+    "quartermasters"
+   ],
+   "glossEn": "officer responsible for supplies and equipment",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "8dfddeb6-f8cd-5ded-ac94-f6c29b9c77c7",
+   "lemma": "armorer",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "armorer",
+    "armorers",
+    "armourer"
+   ],
+   "glossEn": "specialist who maintains and repairs weapons",
+   "topics": [
+    "military",
+    "work"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "f5173b54-bc05-5383-b757-93ddb0ef2b04",
+   "lemma": "laceration",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "laceration",
+    "lacerations"
+   ],
+   "glossEn": "deep irregular cut in the skin",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "674b7103-f251-5612-9b5c-02b9aef02038",
+   "lemma": "contusion",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "contusion",
+    "contusions"
+   ],
+   "glossEn": "bruise from a blow or blast",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "4e92c086-487f-5cb9-a4ae-7b23d77fedbb",
+   "lemma": "pneumothorax",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pneumothorax"
+   ],
+   "glossEn": "collapsed lung from air in the chest",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "b02cd2ec-4910-57ef-8baa-2340756304e3",
+   "lemma": "hemostasis",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "hemostasis",
+    "haemostasis"
+   ],
+   "glossEn": "stopping of bleeding",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "3dc008d3-df38-5e79-bdab-7f3aadae684c",
+   "lemma": "analgesia",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "analgesia"
+   ],
+   "glossEn": "relief of pain with medicine",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "1cf7f529-8bb8-5a4d-815c-bba98ab47ed0",
+   "lemma": "sepsis",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sepsis"
+   ],
+   "glossEn": "life-threatening reaction to infection",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "c3f55b82-3e3b-5507-9f38-39c82d12e8eb",
+   "lemma": "debridement",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "debridement"
+   ],
+   "glossEn": "removing dead tissue from a wound",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "aa46bdc7-d0f9-5ac9-b5ff-e80486aa1868",
+   "lemma": "demilitarized",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "demilitarized",
+    "demilitarised"
+   ],
+   "glossEn": "with all military forces removed by agreement",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "8d753528-fed5-5fcf-a42e-1997e44224fb",
+   "lemma": "draftee",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "draftee",
+    "draftees"
+   ],
+   "glossEn": "person called up for compulsory service",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "322bdf76-6203-5ec4-86fe-3e87a0f23e2c",
+   "lemma": "noncommissioned",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "noncommissioned",
+    "non-commissioned",
+    "NCO"
+   ],
+   "glossEn": "of sergeant rank, promoted from the ranks",
+   "topics": [
+    "military"
+   ],
+   "area": "military"
+  }
+ ]
+}

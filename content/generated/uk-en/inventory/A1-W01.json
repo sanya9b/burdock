@@ -1,0 +1,383 @@
+{
+ "chunk": "A1-W01",
+ "level": "A1",
+ "lexemes": [
+  {
+   "id": "e086551a-bd6a-5da2-b6be-e012a10e2f00",
+   "lemma": "trolleybus",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "trolleybus",
+    "trolleybuses",
+    "trolley"
+   ],
+   "glossEn": "electric bus powered by overhead wires",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "96dbf5a5-49ca-5a1b-8a6a-bef3cccd6fa1",
+   "lemma": "stairs",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "stairs",
+    "staircase",
+    "stairway"
+   ],
+   "glossEn": "set of steps between floors",
+   "topics": [
+    "city"
+   ],
+   "area": "city"
+  },
+  {
+   "id": "794f69ef-53a0-532e-b1c5-2d5832c82336",
+   "lemma": "noodle",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "noodle",
+    "noodles"
+   ],
+   "glossEn": "long thin strip of pasta or dough",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "0c296fb2-68ce-5c33-80f6-ae8d100c80db",
+   "lemma": "fries",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "fries",
+    "french fries",
+    "chips"
+   ],
+   "glossEn": "thin fried potato sticks",
+   "topics": [
+    "food"
+   ],
+   "area": "food"
+  },
+  {
+   "id": "ab1959d6-cc92-5db0-ba06-bf9e339b3d4a",
+   "lemma": "username",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "username",
+    "usernames",
+    "user name"
+   ],
+   "glossEn": "name you use to log in to an account",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "6c3b314f-4364-5c41-b76e-43c3b8c2e5aa",
+   "lemma": "login",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "login",
+    "logins",
+    "log-in"
+   ],
+   "glossEn": "act of entering an account with name and password",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "d79bf774-f782-5f14-b137-bdd16d487d03",
+   "lemma": "logout",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "logout",
+    "logouts",
+    "log-out"
+   ],
+   "glossEn": "act of leaving your account in an app",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "6acad57f-797d-5f2d-ba97-cfff069415c3",
+   "lemma": "wifi",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wifi",
+    "Wi-Fi",
+    "WiFi",
+    "wi-fi"
+   ],
+   "glossEn": "wireless internet connection",
+   "topics": [
+    "it",
+    "travel"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "77ec76ac-c9e1-573e-b660-69b55f4c7569",
+   "lemma": "app",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "app",
+    "apps"
+   ],
+   "glossEn": "program for a phone or tablet",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "9f3c69b3-75bd-547d-b47f-545accb81390",
+   "lemma": "charger",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "charger",
+    "chargers"
+   ],
+   "glossEn": "device that fills a battery with power",
+   "topics": [
+    "it",
+    "travel"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "abf60b16-9670-5c8c-a807-09e1872ff4fc",
+   "lemma": "offline",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "offline",
+    "off-line"
+   ],
+   "glossEn": "not connected to the internet",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "4ed1f74a-a481-549e-a131-08d597b719ad",
+   "lemma": "scroll",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scroll",
+    "scrolls",
+    "scrolled",
+    "scrolling"
+   ],
+   "glossEn": "move content up or down on a screen",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "eed8b773-d04a-557a-a03c-d4387cdd69fd",
+   "lemma": "swipe",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "swipe",
+    "swipes",
+    "swiped",
+    "swiping"
+   ],
+   "glossEn": "slide a finger across a touchscreen",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "df448ade-1b54-5e2c-b9a5-aab3dd6022fb",
+   "lemma": "emoji",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "emoji",
+    "emojis"
+   ],
+   "glossEn": "small picture showing a feeling in messages",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "cc36fc9e-3390-5d74-8533-7bda89af499b",
+   "lemma": "headphones",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "headphones",
+    "headphone"
+   ],
+   "glossEn": "device worn on the ears to listen privately",
+   "topics": [
+    "it",
+    "travel"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "3f425d03-19ed-5057-96a3-1db30667b1aa",
+   "lemma": "homepage",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "homepage",
+    "homepages",
+    "home page"
+   ],
+   "glossEn": "first page of a website",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "5977f7e0-d3a2-5fca-8d3c-1cb7022c052f",
+   "lemma": "notification",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "notification",
+    "notifications"
+   ],
+   "glossEn": "short message a device shows about something new",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "9898790b-c5b8-5637-b9a2-91c78457438b",
+   "lemma": "restart",
+   "pos": "verb",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "restart",
+    "restarts",
+    "restarted",
+    "restarting"
+   ],
+   "glossEn": "turn a device off and on again",
+   "topics": [
+    "it"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "1dae4a6d-5a3c-56c9-a953-b6fe9faa79a7",
+   "lemma": "smartphone",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "smartphone",
+    "smartphones",
+    "smart phone"
+   ],
+   "glossEn": "mobile phone that runs apps",
+   "topics": [
+    "it",
+    "communication"
+   ],
+   "area": "it"
+  },
+  {
+   "id": "0f8e890b-836e-5557-9985-275f42a5f92c",
+   "lemma": "wounded",
+   "pos": "adjective",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "wounded"
+   ],
+   "glossEn": "hurt by a weapon",
+   "topics": [
+    "military",
+    "health"
+   ],
+   "area": "military"
+  },
+  {
+   "id": "95b31413-b50f-5f85-961b-070c907b6f45",
+   "lemma": "cashier",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cashier",
+    "cashiers"
+   ],
+   "glossEn": "person who takes payments at a store checkout",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "af7ec4f5-7195-554b-9c20-9cde78148cb3",
+   "lemma": "cart",
+   "pos": "noun",
+   "level": "A1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cart",
+    "carts",
+    "trolley",
+    "trolleys"
+   ],
+   "glossEn": "wheeled basket for carrying goods in a store",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  }
+ ]
+}

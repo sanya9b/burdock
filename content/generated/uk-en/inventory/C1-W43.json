@@ -1,0 +1,657 @@
+{
+ "chunk": "C1-W43",
+ "level": "C1",
+ "lexemes": [
+  {
+   "id": "12834ef5-9b86-57b3-b0b8-dba66d0c4ad5",
+   "lemma": "insulin",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "insulin"
+   ],
+   "glossEn": "hormone that controls blood sugar",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "f5dcab2c-ce3c-5cee-a0b9-a8ba243f1c31",
+   "lemma": "glucose",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "glucose"
+   ],
+   "glossEn": "simple sugar that gives the body energy",
+   "topics": [
+    "health",
+    "food"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "30faacb6-b967-5f6a-ad00-094804460f47",
+   "lemma": "vertigo",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "vertigo"
+   ],
+   "glossEn": "spinning dizziness, often from heights",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "ff6e2cee-f00f-569e-b3f9-ad48c1300783",
+   "lemma": "antioxidant",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "antioxidant"
+   ],
+   "glossEn": "substance that protects cells from damage",
+   "topics": [
+    "health",
+    "food"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "a5adcc6b-6501-5283-944e-38adcb6a6946",
+   "lemma": "microbiome",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "microbiome"
+   ],
+   "glossEn": "community of microbes living in the body",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "36fa7678-30f8-5b33-8fc0-117fb0867899",
+   "lemma": "ulcer",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "ulcer"
+   ],
+   "glossEn": "open sore on the skin or inside the body",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "3d3c9ad6-fc69-5348-a4e0-9bd6be47627b",
+   "lemma": "constipation",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "constipation"
+   ],
+   "glossEn": "difficulty in emptying the bowels",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "7274ad38-c213-5d90-84a4-cd2e09819985",
+   "lemma": "thyroid",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "thyroid"
+   ],
+   "glossEn": "neck gland that controls metabolism",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "4699d483-54e7-5485-9da7-0a3fc63d372b",
+   "lemma": "anemia",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "anemia",
+    "anaemia"
+   ],
+   "glossEn": "lack of red blood cells causing tiredness",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "dbe1db0c-616b-5e7c-b115-6c67940841ed",
+   "lemma": "adrenaline",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "adrenaline",
+    "epinephrine"
+   ],
+   "glossEn": "hormone released in fear or excitement",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "acfb85f7-8a20-5f10-8bea-16faf35150e1",
+   "lemma": "autoimmune",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "autoimmune",
+    "auto-immune"
+   ],
+   "glossEn": "caused by the body attacking its own tissues",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "ff2b779b-db08-51ac-9c59-a81902a615bf",
+   "lemma": "arthritis",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "arthritis"
+   ],
+   "glossEn": "painful swelling and stiffness of the joints",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "c6235ccf-073c-5a7c-8fe9-81f3ef67aa07",
+   "lemma": "osteoporosis",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "osteoporosis"
+   ],
+   "glossEn": "condition in which bones become weak and brittle",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "65496619-416e-57df-b209-92dde03ffd36",
+   "lemma": "dementia",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dementia"
+   ],
+   "glossEn": "loss of memory and thinking ability with age",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "e2e66069-1175-5ca0-bc14-429b663b7f2f",
+   "lemma": "seizure",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "seizure"
+   ],
+   "glossEn": "sudden attack of uncontrolled electrical brain activity",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "2fbaafcf-96ef-5b5b-a928-85a5dfeaf5f1",
+   "lemma": "dopamine",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dopamine"
+   ],
+   "glossEn": "brain chemical linked to pleasure and motivation",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "a71abefd-af38-5ef5-8df5-f0a4bc75d6b1",
+   "lemma": "sedative",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sedative"
+   ],
+   "glossEn": "drug that calms or makes someone sleep",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "ca5c3b4a-aed5-5485-b480-5ad0bd49ac55",
+   "lemma": "pancreas",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pancreas"
+   ],
+   "glossEn": "organ that produces insulin and digestive juices",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "33bc70e4-5af0-561b-bfbb-e9100b68ba8a",
+   "lemma": "midwife",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "midwife"
+   ],
+   "glossEn": "person trained to help women give birth",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "e2e64e49-48c7-57fa-aa82-29b50391ef0f",
+   "lemma": "cataract",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cataract"
+   ],
+   "glossEn": "clouding of the eye lens that blurs sight",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "21ef3a44-6573-597d-a296-6ef32cc2c818",
+   "lemma": "intensive care",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "intensive care"
+   ],
+   "glossEn": "hospital unit for critically ill patients",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "b729eb56-2fad-5026-b11e-455fd9de79c2",
+   "lemma": "surgical",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "surgical"
+   ],
+   "glossEn": "relating to operations on the body",
+   "topics": [
+    "health"
+   ],
+   "area": "science-nature"
+  },
+  {
+   "id": "56d1c8ec-b965-556e-8e45-a496ca12f77e",
+   "lemma": "void",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "void",
+    "voids",
+    "voided",
+    "voiding"
+   ],
+   "glossEn": "make a warranty or transaction no longer valid",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "62f6d7e3-2c8f-5d0a-affe-cb1aea0878c8",
+   "lemma": "backorder",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "backorder",
+    "backorders",
+    "back order",
+    "back orders"
+   ],
+   "glossEn": "order for goods that are temporarily out of stock",
+   "topics": [
+    "shopping",
+    "it"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "c5d862ee-9bdf-5066-a1fa-cd05676afea8",
+   "lemma": "testimonial",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "testimonial",
+    "testimonials"
+   ],
+   "glossEn": "customer's written praise used in advertising",
+   "topics": [
+    "shopping",
+    "communication"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "b2b874c2-0f6c-5596-afb2-939b74b37920",
+   "lemma": "upsell",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "upsell",
+    "upsells",
+    "upsold",
+    "upselling"
+   ],
+   "glossEn": "persuade a customer to buy a more expensive version",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "b6bc1104-a4b1-5ba5-88c6-aae5b2640188",
+   "lemma": "cross-sell",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "cross-sell",
+    "cross-sells",
+    "cross-sold",
+    "cross-selling"
+   ],
+   "glossEn": "sell a related product to an existing customer",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "fcf87095-3d57-5c71-8128-1fbfab41d7df",
+   "lemma": "dehumidifier",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dehumidifier",
+    "dehumidifiers"
+   ],
+   "glossEn": "appliance that removes moisture from room air",
+   "topics": [
+    "shopping",
+    "health"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "b01bdeaa-5c47-588b-ae4e-722f31541448",
+   "lemma": "pawn",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "pawn",
+    "pawns",
+    "pawned",
+    "pawning"
+   ],
+   "glossEn": "leave an item as security for a loan",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "f64e8169-e54b-5fdf-a570-bf92360615a8",
+   "lemma": "dropshipping",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "dropshipping",
+    "drop shipping",
+    "drop-shipping"
+   ],
+   "glossEn": "selling online goods shipped directly by the supplier",
+   "topics": [
+    "shopping",
+    "it"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "54db56a8-7640-5b97-bb9d-331d6e99d342",
+   "lemma": "undercharge",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "undercharge",
+    "undercharges",
+    "undercharged",
+    "undercharging"
+   ],
+   "glossEn": "charge less than the correct price by mistake",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "2a41d337-1bd7-5dfd-b6bb-87473a4da1ad",
+   "lemma": "extortionate",
+   "pos": "adjective",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "extortionate"
+   ],
+   "glossEn": "so expensive it feels like robbery",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "3335cd4e-5da7-5eff-8fa5-7d61c54a357e",
+   "lemma": "MSRP",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "MSRP",
+    "RRP",
+    "list price"
+   ],
+   "glossEn": "price the manufacturer suggests retailers charge",
+   "topics": [
+    "shopping",
+    "work"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "acc625c6-95b6-5305-afcf-00668c1a691a",
+   "lemma": "gouge",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "gouge",
+    "gouges",
+    "gouged",
+    "gouging"
+   ],
+   "glossEn": "raise prices unfairly when demand is high",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "502ab7d4-ea39-584b-8d1d-24c95401a0d3",
+   "lemma": "sweepstakes",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "sweepstakes",
+    "sweepstake"
+   ],
+   "glossEn": "prize contest entered by buying or signing up",
+   "topics": [
+    "shopping",
+    "communication"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "b4ac3205-b255-5c14-90f7-dde428bddf6e",
+   "lemma": "memorabilia",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "memorabilia"
+   ],
+   "glossEn": "objects collected because they recall famous people or events",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "95d5d7b8-0c6a-5d33-b01f-f10da31cd555",
+   "lemma": "barter",
+   "pos": "verb",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "barter",
+    "barters",
+    "bartered",
+    "bartering"
+   ],
+   "glossEn": "exchange goods for other goods without money",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "fb21c8c7-a765-5513-b8b9-7e2662d851c5",
+   "lemma": "scalper",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "scalper",
+    "scalpers",
+    "tout",
+    "touts"
+   ],
+   "glossEn": "person who resells tickets or hot items at inflated prices",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "2d3d7c13-a51d-5bde-bc56-13e7f6abfd6d",
+   "lemma": "doorbuster",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "doorbuster",
+    "doorbusters",
+    "door-buster"
+   ],
+   "glossEn": "very cheap limited offer that draws crowds at opening",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  },
+  {
+   "id": "07d14353-b707-503f-b040-f15a9acd2f0f",
+   "lemma": "frenzy",
+   "pos": "noun",
+   "level": "C1",
+   "levelSource": "llm_estimate",
+   "acceptedForms": [
+    "frenzy",
+    "frenzies"
+   ],
+   "glossEn": "wild rush of excited buying",
+   "topics": [
+    "shopping"
+   ],
+   "area": "shopping"
+  }
+ ]
+}
