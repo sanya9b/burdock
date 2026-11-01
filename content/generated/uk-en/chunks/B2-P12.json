@@ -1,0 +1,1394 @@
+{
+ "schemaVersion": 1,
+ "chunk": "B2-P12",
+ "level": "B2",
+ "provenance": {
+  "model": "claude-code/claude-fable-5-1",
+  "promptVersion": "generate-v1",
+  "generatedAt": "2026-11-01T00:00:00+00:00",
+  "status": "draft"
+ },
+ "entries": [
+  {
+   "id": "6f92a34c-9970-59dc-b70b-9f0e54b1be85",
+   "lemma": "throw caution to the wind",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "idiom",
+   "acceptedForms": [
+    "throw caution to the wind",
+    "throw caution to the winds",
+    "threw caution to the wind"
+   ],
+   "translation": "відкинути обережність",
+   "translationStressed": "відки́нути обере́жність",
+   "altTranslations": [
+    "піти ва-банк",
+    "ризикнути"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "відкидати / відкинути",
+   "usageNote": null,
+   "ipaGa": "/ˌθroʊ ˈkɔʃən tə ðə ˈwɪnd/",
+   "ipaRp": "/ˌθrəʊ ˈkɔːʃən tə ðə ˈwɪnd/",
+   "exampleEn": "She threw caution to the wind and booked a one-way ticket to Lisbon.",
+   "exampleUk": "Вона відкинула обережність і купила квиток в один бік до Лісабона.",
+   "exampleEn2": "Why not throw caution to the wind and try the new recipe tonight?",
+   "exampleUk2": "Чому б не відкинути обережність і не спробувати новий рецепт сьогодні ввечері?",
+   "topics": [],
+   "widgetSafe": true
+  },
+  {
+   "id": "b5feebd6-bdaf-5d4d-922e-e0158b4bae16",
+   "lemma": "tighten one's belt",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "idiom",
+   "acceptedForms": [
+    "tighten one's belt",
+    "tighten your belt",
+    "belt-tightening",
+    "tighten our belts",
+    "tighten their belts"
+   ],
+   "translation": "затягнути паски",
+   "translationStressed": "затягну́ти паски́",
+   "altTranslations": [
+    "економити",
+    "урізати витрати"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "затягувати / затягнути",
+   "usageNote": "про економію грошей, не про одяг",
+   "ipaGa": "/ˌtaɪtən wʌnz ˈbɛlt/",
+   "ipaRp": "/ˌtaɪtən wʌnz ˈbelt/",
+   "exampleEn": "After the rent went up, we had to tighten our belts for a few months.",
+   "exampleUk": "Коли оренда подорожчала, нам довелося на кілька місяців затягнути паски.",
+   "exampleEn2": "Are you ready to tighten your belt until the new job starts?",
+   "exampleUk2": "Ви готові затягнути паски, поки не почнеться нова робота?",
+   "topics": [
+    {
+     "slug": "shopping",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "02e37cdd-e1c6-577b-aa49-366d5a2392d7",
+   "lemma": "a sitting duck",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "idiom",
+   "acceptedForms": [
+    "a sitting duck",
+    "sitting duck",
+    "sitting ducks"
+   ],
+   "translation": "легка мішень",
+   "translationStressed": "легка́ міше́нь",
+   "altTranslations": [
+    "беззахисна ціль"
+   ],
+   "register": "neutral",
+   "genderNote": "ж.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "про того, кого легко атакувати чи критикувати",
+   "ipaGa": "/ə ˌsɪtɪŋ ˈdʌk/",
+   "ipaRp": "/ə ˌsɪtɪŋ ˈdʌk/",
+   "exampleEn": "Standing alone on the stage without notes, he felt like a sitting duck.",
+   "exampleUk": "Стоячи сам на сцені без нотаток, він почувався легкою мішенню.",
+   "exampleEn2": "Do not leave your bike unlocked outside; it is a sitting duck for thieves.",
+   "exampleUk2": "Не лишайте велосипед незамкненим на вулиці: це легка мішень для злодіїв.",
+   "topics": [
+    {
+     "slug": "military",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": false
+  },
+  {
+   "id": "fe137218-f439-599d-9d80-d373569d32bb",
+   "lemma": "a tough nut to crack",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "idiom",
+   "acceptedForms": [
+    "a tough nut to crack",
+    "a hard nut to crack",
+    "tough nut to crack",
+    "hard nut to crack"
+   ],
+   "translation": "міцний горішок",
+   "translationStressed": "міцни́й горі́шок",
+   "altTranslations": [
+    "важка задача",
+    "непроста людина"
+   ],
+   "register": "neutral",
+   "genderNote": "ч.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "і про проблему, і про людину",
+   "ipaGa": "/ə ˌtʌf ˌnʌt tə ˈkræk/",
+   "ipaRp": "/ə ˌtʌf ˌnʌt tə ˈkræk/",
+   "exampleEn": "The new client is a tough nut to crack, but Anna is patient.",
+   "exampleUk": "Новий клієнт — міцний горішок, але Олена терпляча.",
+   "exampleEn2": "Why is this crossword such a tough nut to crack today?",
+   "exampleUk2": "Чому цей кросворд сьогодні такий міцний горішок?",
+   "topics": [
+    {
+     "slug": "work",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "333d1e0d-eef8-5912-ae85-810306239052",
+   "lemma": "turn a blind eye",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "idiom",
+   "acceptedForms": [
+    "turn a blind eye",
+    "turn a blind eye to sth",
+    "turn a blind eye to",
+    "turned a blind eye"
+   ],
+   "translation": "заплющувати очі",
+   "translationStressed": "заплю́щувати о́чі",
+   "altTranslations": [
+    "дивитися крізь пальці",
+    "навмисне не помічати"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "заплющувати / заплющити",
+   "usageNote": "turn a blind eye to sth — заплющувати очі на щось",
+   "ipaGa": "/ˌtɜrn ə ˌblaɪnd ˈaɪ/",
+   "ipaRp": "/ˌtɜːn ə ˌblaɪnd ˈaɪ/",
+   "exampleEn": "The manager turned a blind eye to the late arrivals all winter.",
+   "exampleUk": "Менеджер усю зиму заплющував очі на запізнення.",
+   "exampleEn2": "Should we turn a blind eye to the mess in the shared kitchen?",
+   "exampleUk2": "Чи варто заплющувати очі на безлад у спільній кухні?",
+   "topics": [
+    {
+     "slug": "work",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "6eb7fa7e-29d0-5edb-9d32-0bada0f0c25a",
+   "lemma": "turn the tables",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "idiom",
+   "acceptedForms": [
+    "turn the tables",
+    "turn the tables on sb",
+    "turn the tables on",
+    "turned the tables"
+   ],
+   "translation": "переломити ситуацію",
+   "translationStressed": "переломи́ти ситуа́цію",
+   "altTranslations": [
+    "обернути все на свою користь",
+    "взяти гору"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "переламувати / переломити",
+   "usageNote": "turn the tables on sb — обернути ситуацію проти того, хто мав перевагу",
+   "ipaGa": "/ˌtɜrn ðə ˈteɪbəlz/",
+   "ipaRp": "/ˌtɜːn ðə ˈteɪbəlz/",
+   "exampleEn": "Our team turned the tables in the second half and won the match.",
+   "exampleUk": "У другому таймі наша команда переломила хід матчу й виграла.",
+   "exampleEn2": "How did Sam turn the tables on his rival in the final round?",
+   "exampleUk2": "Як Сем узяв гору над суперником у фінальному раунді?",
+   "topics": [],
+   "widgetSafe": true,
+   "regenerated": 1
+  },
+  {
+   "id": "c73bacc1-7f8b-5010-9b0d-f1acb0d90be1",
+   "lemma": "turn over a new leaf",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "idiom",
+   "acceptedForms": [
+    "turn over a new leaf",
+    "turned over a new leaf"
+   ],
+   "translation": "почати з чистого аркуша",
+   "translationStressed": "поча́ти з чи́стого а́ркуша",
+   "altTranslations": [
+    "виправитися",
+    "почати нове життя"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "починати / почати",
+   "usageNote": null,
+   "ipaGa": "/ˌtɜrn ˌoʊvər ə ˌnu ˈlif/",
+   "ipaRp": "/ˌtɜːn ˌəʊvər ə ˌnjuː ˈliːf/",
+   "exampleEn": "In January Tom turned over a new leaf and started running every morning.",
+   "exampleUk": "У січні Том почав з чистого аркуша і став бігати щоранку.",
+   "exampleEn2": "Is it too late to turn over a new leaf and eat healthier?",
+   "exampleUk2": "Чи не запізно почати з чистого аркуша і харчуватися здоровіше?",
+   "topics": [
+    {
+     "slug": "health",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "58ce2d02-4424-5b0d-a483-a1f80cba048c",
+   "lemma": "under one's nose",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "idiom",
+   "acceptedForms": [
+    "under one's nose",
+    "right under your nose",
+    "under your nose",
+    "under my nose"
+   ],
+   "translation": "під самим носом",
+   "translationStressed": "під са́мим но́сом",
+   "altTranslations": [
+    "перед очима",
+    "з-під носа"
+   ],
+   "register": "informal",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "розмовне; часто з right: right under your nose",
+   "ipaGa": "/ˌʌndər wʌnz ˈnoʊz/",
+   "ipaRp": "/ˌʌndə wʌnz ˈnəʊz/",
+   "exampleEn": "The keys were right under my nose the whole time, on the kitchen table.",
+   "exampleUk": "Ключі весь час були в мене під самим носом, на кухонному столі.",
+   "exampleEn2": "How did the cat steal the fish from right under your nose?",
+   "exampleUk2": "Як кіт поцупив рибу просто у вас з-під носа?",
+   "topics": [],
+   "widgetSafe": true
+  },
+  {
+   "id": "582b4618-bba9-5121-b340-1e9518ea4c42",
+   "lemma": "up the ante",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "idiom",
+   "acceptedForms": [
+    "up the ante",
+    "raise the ante",
+    "upped the ante"
+   ],
+   "translation": "підвищувати ставки",
+   "translationStressed": "підви́щувати ста́вки",
+   "altTranslations": [
+    "посилювати вимоги",
+    "загострювати боротьбу"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "підвищувати / підвищити",
+   "usageNote": "up тут дієслово: upped the ante",
+   "ipaGa": "/ˌʌp ði ˈænti/",
+   "ipaRp": "/ˌʌp ði ˈænti/",
+   "exampleEn": "The competitor upped the ante by offering free delivery on every order.",
+   "exampleUk": "Конкурент підвищив ставки, запропонувавши безкоштовну доставку на кожне замовлення.",
+   "exampleEn2": "Should we up the ante and add a second prize to the contest?",
+   "exampleUk2": "Може, підвищимо ставки і додамо до конкурсу другий приз?",
+   "topics": [
+    {
+     "slug": "work",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "99c28f39-2fc2-5664-bb58-183fade2c5c7",
+   "lemma": "walk on eggshells",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "idiom",
+   "acceptedForms": [
+    "walk on eggshells",
+    "tread on eggshells",
+    "walking on eggshells"
+   ],
+   "translation": "ходити навшпиньки",
+   "translationStressed": "ходи́ти навшпи́ньки",
+   "altTranslations": [
+    "обережно добирати слова",
+    "боятися зачепити"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "лише недок.",
+   "usageNote": "переносно: про надмірну обережність у спілкуванні з кимось",
+   "ipaGa": "/ˌwɔk ɑn ˈɛɡˌʃɛlz/",
+   "ipaRp": "/ˌwɔːk ɒn ˈeɡʃelz/",
+   "exampleEn": "Since the argument, everyone at home has been walking on eggshells around Dad.",
+   "exampleUk": "Після сварки всі вдома ходять навшпиньки навколо тата.",
+   "exampleEn2": "Do you feel you have to walk on eggshells with your new boss?",
+   "exampleUk2": "Вам здається, що з новим керівником доводиться ходити навшпиньки?",
+   "topics": [
+    {
+     "slug": "communication",
+     "confidence": 0.7
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "0149a76a-8b9c-54ff-ac23-b6da99c320b9",
+   "lemma": "wear one's heart on one's sleeve",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "idiom",
+   "acceptedForms": [
+    "wear one's heart on one's sleeve",
+    "wear your heart on your sleeve",
+    "wear his heart on his sleeve",
+    "wear her heart on her sleeve"
+   ],
+   "translation": "не приховувати почуттів",
+   "translationStressed": "не прихо́вувати почутті́в",
+   "altTranslations": [
+    "бути відкритим",
+    "мати душу навстіж"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "лише недок.",
+   "usageNote": null,
+   "ipaGa": "/ˌwɛr wʌnz ˌhɑrt ɑn wʌnz ˈsliv/",
+   "ipaRp": "/ˌweə wʌnz ˌhɑːt ɒn wʌnz ˈsliːv/",
+   "exampleEn": "Anna wears her heart on her sleeve, so you always know how she feels.",
+   "exampleUk": "Олена не приховує почуттів, тож ви завжди знаєте, що вона відчуває.",
+   "exampleEn2": "Is it wise to wear your heart on your sleeve at a job interview?",
+   "exampleUk2": "Чи розумно не приховувати почуттів на співбесіді?",
+   "topics": [
+    {
+     "slug": "communication",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "becd8b55-5502-57cd-9f9e-7941fff31307",
+   "lemma": "weather the storm",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "idiom",
+   "acceptedForms": [
+    "weather the storm",
+    "ride out the storm",
+    "weathered the storm"
+   ],
+   "translation": "пережити важкі часи",
+   "translationStressed": "пережи́ти важкі́ часи́",
+   "altTranslations": [
+    "вистояти",
+    "витримати кризу"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "переживати / пережити",
+   "usageNote": "weather тут дієслово «витримати»",
+   "ipaGa": "/ˌwɛðər ðə ˈstɔrm/",
+   "ipaRp": "/ˌweðə ðə ˈstɔːm/",
+   "exampleEn": "The small bakery weathered the storm and is now opening a second shop.",
+   "exampleUk": "Маленька пекарня пережила важкі часи і тепер відкриває другу крамницю.",
+   "exampleEn2": "How did your company weather the storm last year without cutting jobs?",
+   "exampleUk2": "Як ваша компанія пережила важкі часи торік без скорочень?",
+   "topics": [
+    {
+     "slug": "work",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "c489055e-aec3-551d-9580-7568b2e8be97",
+   "lemma": "win hands down",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "idiom",
+   "acceptedForms": [
+    "win hands down",
+    "hands down",
+    "won hands down"
+   ],
+   "translation": "легко перемогти",
+   "translationStressed": "ле́гко перемогти́",
+   "altTranslations": [
+    "виграти без зусиль",
+    "беззаперечно перемогти"
+   ],
+   "register": "informal",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "перемагати / перемогти",
+   "usageNote": "розмовне; hands down окремо — «беззаперечно»: hands down the best",
+   "ipaGa": "/ˌwɪn ˌhændz ˈdaʊn/",
+   "ipaRp": "/ˌwɪn ˌhændz ˈdaʊn/",
+   "exampleEn": "Our school team won hands down in the quiz on Saturday.",
+   "exampleUk": "Наша шкільна команда в суботу легко перемогла у вікторині.",
+   "exampleEn2": "Which of the two cafés would win hands down for breakfast?",
+   "exampleUk2": "Яка з двох кав’ярень легко переможе, якщо йдеться про сніданок?",
+   "topics": [],
+   "widgetSafe": true
+  },
+  {
+   "id": "e6f91695-87f6-5428-b305-3d32331b5f45",
+   "lemma": "the writing on the wall",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "idiom",
+   "acceptedForms": [
+    "the writing on the wall",
+    "the writing is on the wall",
+    "the handwriting on the wall",
+    "writing on the wall"
+   ],
+   "translation": "зловісний знак",
+   "translationStressed": "злові́сний знак",
+   "altTranslations": [
+    "недобрий знак",
+    "провісник кінця"
+   ],
+   "register": "neutral",
+   "genderNote": "ч.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "часто: see the writing on the wall — бачити, до чого йде",
+   "ipaGa": "/ðə ˌraɪtɪŋ ɑn ðə ˈwɔl/",
+   "ipaRp": "/ðə ˌraɪtɪŋ ɒn ðə ˈwɔːl/",
+   "exampleEn": "When sales fell for the third month, the staff saw the writing on the wall.",
+   "exampleUk": "Коли продажі впали третій місяць поспіль, працівники побачили зловісний знак.",
+   "exampleEn2": "Did nobody see the writing on the wall before the shop closed?",
+   "exampleUk2": "Невже ніхто не бачив зловісного знаку до того, як крамницю закрили?",
+   "topics": [
+    {
+     "slug": "work",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "b326ddee-2082-5276-8111-7dccc5190d21",
+   "lemma": "a zero-sum game",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "idiom",
+   "acceptedForms": [
+    "a zero-sum game",
+    "zero-sum game",
+    "zero-sum",
+    "zero sum game"
+   ],
+   "translation": "гра з нульовою сумою",
+   "translationStressed": "гра з нульово́ю су́мою",
+   "altTranslations": [],
+   "register": "neutral",
+   "genderNote": "ж.",
+   "pluralNote": null,
+   "aspectNote": null,
+   "usageNote": "часто із запереченням: it is not a zero-sum game",
+   "ipaGa": "/ə ˌzɪroʊ ˌsʌm ˈɡeɪm/",
+   "ipaRp": "/ə ˌzɪərəʊ ˌsʌm ˈɡeɪm/",
+   "exampleEn": "Sharing the office budget is not a zero-sum game; both teams can gain.",
+   "exampleUk": "Розподіл бюджету офісу — не гра з нульовою сумою: виграти можуть обидві команди.",
+   "exampleEn2": "Why do you treat every negotiation as a zero-sum game?",
+   "exampleUk2": "Чому ви ставитеся до кожних переговорів як до гри з нульовою сумою?",
+   "topics": [
+    {
+     "slug": "work",
+     "confidence": 0.7
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "9166f05c-4ca9-549e-89e7-0453ad9dc3aa",
+   "lemma": "put forward sth",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "phrasal_verb",
+   "acceptedForms": [
+    "put forward sth",
+    "put forward",
+    "put sth forward"
+   ],
+   "translation": "висувати",
+   "translationStressed": "висува́ти",
+   "altTranslations": [
+    "пропонувати",
+    "подавати на розгляд"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "висувати / висунути",
+   "usageNote": "можна розривати: put the plan forward",
+   "ipaGa": "/ˌpʊt ˈfɔrwərd/",
+   "ipaRp": "/ˌpʊt ˈfɔːwəd/",
+   "exampleEn": "At the meeting Sam put forward a plan to shorten the weekly report.",
+   "exampleUk": "На нараді Сем висунув план, як скоротити щотижневий звіт.",
+   "exampleEn2": "Could you put your ideas forward before Friday?",
+   "exampleUk2": "Чи могли б ви висунути свої ідеї до п’ятниці?",
+   "topics": [
+    {
+     "slug": "work",
+     "confidence": 0.7
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "09fc36ce-0ad0-5fc5-bcdd-82403691ed06",
+   "lemma": "make for sth",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "phrasal_verb",
+   "acceptedForms": [
+    "make for sth",
+    "make for",
+    "made for"
+   ],
+   "translation": "прямувати до",
+   "translationStressed": "прямува́ти до",
+   "altTranslations": [
+    "сприяти",
+    "створювати умови для"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "прямувати / попрямувати",
+   "usageNote": "друге значення «сприяти»: good light makes for better photos",
+   "ipaGa": "/ˈmeɪk fər/",
+   "ipaRp": "/ˈmeɪk fə/",
+   "exampleEn": "When the rain started, we made for the nearest café.",
+   "exampleUk": "Коли почався дощ, ми попрямували до найближчої кав’ярні.",
+   "exampleEn2": "Does a quiet room really make for better sleep?",
+   "exampleUk2": "Чи справді тиха кімната сприяє кращому сну?",
+   "topics": [],
+   "widgetSafe": true
+  },
+  {
+   "id": "6f441d5e-f56d-5bd2-bfb1-28c2ac78be50",
+   "lemma": "make of sth",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "phrasal_verb",
+   "acceptedForms": [
+    "make of sth",
+    "make of",
+    "what do you make of"
+   ],
+   "translation": "думати про",
+   "translationStressed": "ду́мати про",
+   "altTranslations": [
+    "розуміти",
+    "сприймати"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "лише недок.",
+   "usageNote": "зазвичай у питаннях і з what: What do you make of it? — Що ви про це думаєте?",
+   "ipaGa": "/ˈmeɪk əv/",
+   "ipaRp": "/ˈmeɪk əv/",
+   "exampleEn": "I do not know what to make of his short reply.",
+   "exampleUk": "Не знаю, що й думати про його коротку відповідь.",
+   "exampleEn2": "What do you make of the new timetable?",
+   "exampleUk2": "Що ви думаєте про новий розклад?",
+   "topics": [
+    {
+     "slug": "communication",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "49b1c64b-baaf-5968-b523-095ccf4f83f4",
+   "lemma": "put in for sth",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "phrasal_verb",
+   "acceptedForms": [
+    "put in for sth",
+    "put in for"
+   ],
+   "translation": "подавати заяву на",
+   "translationStressed": "подава́ти зая́ву на",
+   "altTranslations": [
+    "претендувати на",
+    "проситися на"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "подавати / подати",
+   "usageNote": "про відпустку, переведення, посаду",
+   "ipaGa": "/ˌpʊt ˈɪn fər/",
+   "ipaRp": "/ˌpʊt ˈɪn fə/",
+   "exampleEn": "Anna has put in for a transfer to the Lviv office.",
+   "exampleUk": "Олена подала заяву на переведення до львівського офісу.",
+   "exampleEn2": "Have you put in for your holiday in August yet?",
+   "exampleUk2": "Ви вже подали заяву на відпустку в серпні?",
+   "topics": [
+    {
+     "slug": "work",
+     "confidence": 0.8
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "171ba00d-f909-5a97-a016-5045c0c79c34",
+   "lemma": "take to sth",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "phrasal_verb",
+   "acceptedForms": [
+    "take to sth",
+    "take to",
+    "take to sb",
+    "took to"
+   ],
+   "translation": "швидко полюбити",
+   "translationStressed": "шви́дко полюби́ти",
+   "altTranslations": [
+    "уподобати",
+    "призвичаїтися до"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "любити / полюбити",
+   "usageNote": "take to doing sth — узяти собі за звичку",
+   "ipaGa": "/ˈteɪk tə/",
+   "ipaRp": "/ˈteɪk tə/",
+   "exampleEn": "The children took to their new teacher at once.",
+   "exampleUk": "Діти одразу полюбили нову вчительку.",
+   "exampleEn2": "Has your dog taken to the new food?",
+   "exampleUk2": "Ваш пес уподобав новий корм?",
+   "topics": [],
+   "widgetSafe": true
+  },
+  {
+   "id": "b99cf2b0-061f-5f84-9e20-50abe9ec2cd9",
+   "lemma": "bring about sth",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "phrasal_verb",
+   "acceptedForms": [
+    "bring about sth",
+    "bring about",
+    "brought about"
+   ],
+   "translation": "спричиняти",
+   "translationStressed": "спричиня́ти",
+   "altTranslations": [
+    "призводити до",
+    "викликати"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "спричиняти / спричинити",
+   "usageNote": "можна розривати: bring it about",
+   "ipaGa": "/ˌbrɪŋ əˈbaʊt/",
+   "ipaRp": "/ˌbrɪŋ əˈbaʊt/",
+   "exampleEn": "The new bike lanes brought about a big change in how people travel.",
+   "exampleUk": "Нові велодоріжки спричинили великі зміни в тому, як люди пересуваються.",
+   "exampleEn2": "What brought about the sudden drop in prices?",
+   "exampleUk2": "Що спричинило раптове падіння цін?",
+   "topics": [],
+   "widgetSafe": true
+  },
+  {
+   "id": "68f65301-cb1b-5134-a78b-962dc6e706aa",
+   "lemma": "bring forward sth",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "phrasal_verb",
+   "acceptedForms": [
+    "bring forward sth",
+    "bring forward",
+    "bring sth forward",
+    "brought forward"
+   ],
+   "translation": "переносити на раніше",
+   "translationStressed": "перено́сити на рані́ше",
+   "altTranslations": [
+    "пришвидшувати",
+    "зсувати на раніший час"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "переносити / перенести",
+   "usageNote": "можна розривати: bring the meeting forward",
+   "ipaGa": "/ˌbrɪŋ ˈfɔrwərd/",
+   "ipaRp": "/ˌbrɪŋ ˈfɔːwəd/",
+   "exampleEn": "We brought the meeting forward to Tuesday because of the holiday.",
+   "exampleUk": "Через свято ми перенесли нараду на раніше, на вівторок.",
+   "exampleEn2": "Can you bring forward the delivery by a day?",
+   "exampleUk2": "Чи можете ви перенести доставку на день раніше?",
+   "topics": [
+    {
+     "slug": "work",
+     "confidence": 0.7
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "1dd82de7-7c0e-57e5-a4ee-3a805a416967",
+   "lemma": "bring round sb",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "phrasal_verb",
+   "acceptedForms": [
+    "bring round sb",
+    "bring round",
+    "bring around",
+    "bring around sb",
+    "bring sb round",
+    "brought round"
+   ],
+   "translation": "переконувати",
+   "translationStressed": "переко́нувати",
+   "altTranslations": [
+    "схиляти на свій бік",
+    "приводити до тями"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "переконувати / переконати",
+   "usageNote": "зазвичай розривається: bring her round; друге значення — «привести до тями»",
+   "ipaGa": "/ˌbrɪŋ ˈraʊnd/",
+   "ipaRp": "/ˌbrɪŋ ˈraʊnd/",
+   "exampleEn": "It took an hour, but Tom brought his parents round to the idea.",
+   "exampleUk": "Це забрало годину, але Том переконав батьків підтримати ідею.",
+   "exampleEn2": "How did you bring your sister round to moving to Dnipro?",
+   "exampleUk2": "Як ви переконали сестру переїхати до Дніпра?",
+   "topics": [
+    {
+     "slug": "communication",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "3fd752f0-5849-5024-9905-efed92653ad2",
+   "lemma": "break through",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "phrasal_verb",
+   "acceptedForms": [
+    "break through",
+    "broke through",
+    "breakthrough"
+   ],
+   "translation": "прориватися",
+   "translationStressed": "прорива́тися",
+   "altTranslations": [
+    "пробиватися",
+    "робити прорив"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "прориватися / прорватися",
+   "usageNote": "іменник пишеться разом: a breakthrough — прорив",
+   "ipaGa": "/ˌbreɪk ˈθru/",
+   "ipaRp": "/ˌbreɪk ˈθruː/",
+   "exampleEn": "The sun finally broke through the clouds after three grey days.",
+   "exampleUk": "Сонце нарешті прорвалося крізь хмари після трьох сірих днів.",
+   "exampleEn2": "Did the scientists break through in their search for a cheaper battery?",
+   "exampleUk2": "Чи вдалося науковцям зробити прорив у пошуку дешевшої батареї?",
+   "topics": [
+    {
+     "slug": "military",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "be2a0fb5-06e0-5cf9-a575-5d397d427a1d",
+   "lemma": "break away",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "phrasal_verb",
+   "acceptedForms": [
+    "break away",
+    "broke away",
+    "break away from"
+   ],
+   "translation": "відриватися",
+   "translationStressed": "відрива́тися",
+   "altTranslations": [
+    "відокремлюватися",
+    "вириватися"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "відриватися / відірватися",
+   "usageNote": "break away from sb/sth",
+   "ipaGa": "/ˌbreɪk əˈweɪ/",
+   "ipaRp": "/ˌbreɪk əˈweɪ/",
+   "exampleEn": "Two riders broke away from the group on the last hill.",
+   "exampleUk": "Двоє велогонщиків відірвалися від групи на останньому пагорбі.",
+   "exampleEn2": "Why did the small studio break away from the big company?",
+   "exampleUk2": "Чому маленька студія відокремилася від великої компанії?",
+   "topics": [],
+   "widgetSafe": true
+  },
+  {
+   "id": "b309f174-54ef-5817-8161-d3c8b81d11b1",
+   "lemma": "get carried away",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "phrasal_verb",
+   "acceptedForms": [
+    "get carried away",
+    "be carried away",
+    "got carried away"
+   ],
+   "translation": "захоплюватися надміру",
+   "translationStressed": "захо́плюватися на́дміру",
+   "altTranslations": [
+    "втрачати міру",
+    "заноситися"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "захоплюватися / захопитися",
+   "usageNote": "get carried away with sth",
+   "ipaGa": "/ˌɡɛt ˌkærid əˈweɪ/",
+   "ipaRp": "/ˌɡet ˌkærid əˈweɪ/",
+   "exampleEn": "I got carried away at the market and bought far too many apples.",
+   "exampleUk": "Я надміру захопився на ринку й купив забагато яблук.",
+   "exampleEn2": "Try not to get carried away with the decorations this year.",
+   "exampleUk2": "Постарайтеся цього року не захопитися надміру прикрасами.",
+   "topics": [],
+   "widgetSafe": true
+  },
+  {
+   "id": "0ba42070-6f1f-5368-bf3e-f5e06a70b83a",
+   "lemma": "come out with sth",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "phrasal_verb",
+   "acceptedForms": [
+    "come out with sth",
+    "come out with",
+    "came out with"
+   ],
+   "translation": "видавати",
+   "translationStressed": "видава́ти",
+   "altTranslations": [
+    "бовкнути",
+    "несподівано заявити"
+   ],
+   "register": "informal",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "видавати / видати",
+   "usageNote": "розмовне; про несподівану репліку",
+   "ipaGa": "/ˌkʌm ˈaʊt wɪð/",
+   "ipaRp": "/ˌkʌm ˈaʊt wɪð/",
+   "exampleEn": "At dinner my little nephew came out with a question nobody expected.",
+   "exampleUk": "За вечерею мій малий небіж видав запитання, якого ніхто не чекав.",
+   "exampleEn2": "What did Sam come out with this time?",
+   "exampleUk2": "Що Сем видав цього разу?",
+   "topics": [
+    {
+     "slug": "communication",
+     "confidence": 0.7
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "46edfc1b-9246-5cae-84e2-7109dc5a0e67",
+   "lemma": "come up against sth",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "phrasal_verb",
+   "acceptedForms": [
+    "come up against sth",
+    "come up against",
+    "came up against"
+   ],
+   "translation": "стикатися з",
+   "translationStressed": "стика́тися з",
+   "altTranslations": [
+    "наражатися на",
+    "натрапляти на"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "стикатися / зіткнутися",
+   "usageNote": null,
+   "ipaGa": "/ˌkʌm ˌʌp əˈɡɛnst/",
+   "ipaRp": "/ˌkʌm ˌʌp əˈɡenst/",
+   "exampleEn": "The project came up against a serious problem with the old software.",
+   "exampleUk": "Проєкт зіткнувся із серйозною проблемою зі старою програмою.",
+   "exampleEn2": "What difficulties did you come up against in your first month?",
+   "exampleUk2": "З якими труднощами ви зіткнулися в перший місяць?",
+   "topics": [
+    {
+     "slug": "work",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "2b55b411-5cee-5003-82a7-94b459a376ec",
+   "lemma": "go about sth",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "phrasal_verb",
+   "acceptedForms": [
+    "go about sth",
+    "go about",
+    "went about"
+   ],
+   "translation": "братися за",
+   "translationStressed": "бра́тися за",
+   "altTranslations": [
+    "підходити до",
+    "займатися"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "братися / взятися",
+   "usageNote": "How do I go about it? — З чого мені почати?",
+   "ipaGa": "/ˌɡoʊ əˈbaʊt/",
+   "ipaRp": "/ˌɡəʊ əˈbaʊt/",
+   "exampleEn": "Anna goes about every task calmly, one step at a time.",
+   "exampleUk": "Олена береться за кожне завдання спокійно, крок за кроком.",
+   "exampleEn2": "How should we go about finding a new flat?",
+   "exampleUk2": "Як нам узятися за пошук нової квартири?",
+   "topics": [
+    {
+     "slug": "work",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "36cf10d6-fd44-5c2c-8eeb-564ac9b16a5b",
+   "lemma": "go back on sth",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "phrasal_verb",
+   "acceptedForms": [
+    "go back on sth",
+    "go back on",
+    "went back on",
+    "go back on one's word"
+   ],
+   "translation": "порушувати слово",
+   "translationStressed": "пору́шувати сло́во",
+   "altTranslations": [
+    "відмовлятися від обіцянки",
+    "не дотримувати"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "порушувати / порушити",
+   "usageNote": "go back on a promise / one's word",
+   "ipaGa": "/ˌɡoʊ ˈbæk ɑn/",
+   "ipaRp": "/ˌɡəʊ ˈbæk ɒn/",
+   "exampleEn": "He never goes back on a promise, even a small one.",
+   "exampleUk": "Він ніколи не порушує слова, навіть у дрібницях.",
+   "exampleEn2": "Did the landlord go back on his word about the repairs?",
+   "exampleUk2": "Хіба орендодавець порушив слово щодо ремонту?",
+   "topics": [
+    {
+     "slug": "communication",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "a50385d7-c1eb-5dde-a59f-2e90f0e4db23",
+   "lemma": "go in for sth",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "phrasal_verb",
+   "acceptedForms": [
+    "go in for sth",
+    "go in for",
+    "goes in for"
+   ],
+   "translation": "захоплюватися",
+   "translationStressed": "захо́плюватися",
+   "altTranslations": [
+    "полюбляти",
+    "брати участь у"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "лише недок.",
+   "usageNote": "друге значення — «брати участь у змаганні»: go in for a competition",
+   "ipaGa": "/ˌɡoʊ ˈɪn fər/",
+   "ipaRp": "/ˌɡəʊ ˈɪn fə/",
+   "exampleEn": "My brother goes in for long walks rather than team sports.",
+   "exampleUk": "Мій брат захоплюється довгими прогулянками, а не командними видами спорту.",
+   "exampleEn2": "Are you going to go in for the photo contest this spring?",
+   "exampleUk2": "Ви збираєтеся взяти участь у фотоконкурсі цієї весни?",
+   "topics": [],
+   "widgetSafe": true
+  },
+  {
+   "id": "7b1af455-1c5d-5151-b963-27f7c1b98e37",
+   "lemma": "go through with sth",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "phrasal_verb",
+   "acceptedForms": [
+    "go through with sth",
+    "go through with",
+    "went through with"
+   ],
+   "translation": "доводити до кінця",
+   "translationStressed": "дово́дити до кінця́",
+   "altTranslations": [
+    "таки зробити",
+    "не відступати від плану"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "доводити / довести",
+   "usageNote": "про важке рішення, яке виконують попри сумніви",
+   "ipaGa": "/ˌɡoʊ ˈθru wɪð/",
+   "ipaRp": "/ˌɡəʊ ˈθruː wɪð/",
+   "exampleEn": "Despite his doubts, Tom went through with the move to Odesa.",
+   "exampleUk": "Попри сумніви, Том довів переїзд до Одеси до кінця.",
+   "exampleEn2": "Are you really going to go through with the house sale?",
+   "exampleUk2": "Ви справді доведете продаж будинку до кінця?",
+   "topics": [],
+   "widgetSafe": true
+  },
+  {
+   "id": "bbbb2a1f-64ae-55d7-a79a-f2ffa5a89ca8",
+   "lemma": "go under",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "phrasal_verb",
+   "acceptedForms": [
+    "go under",
+    "went under",
+    "gone under"
+   ],
+   "translation": "збанкрутувати",
+   "translationStressed": "збанкрутува́ти",
+   "altTranslations": [
+    "розоритися",
+    "піти на дно"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "банкрутувати / збанкрутувати",
+   "usageNote": "про бізнес; буквально — «піти під воду» (човен)",
+   "ipaGa": "/ˌɡoʊ ˈʌndər/",
+   "ipaRp": "/ˌɡəʊ ˈʌndə/",
+   "exampleEn": "Many small cafés go under in their first year.",
+   "exampleUk": "Багато маленьких кав’ярень банкрутують у перший рік.",
+   "exampleEn2": "Will the old cinema go under without more visitors?",
+   "exampleUk2": "Чи збанкрутує старий кінотеатр без нових відвідувачів?",
+   "topics": [
+    {
+     "slug": "work",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "b46ee164-b816-597b-bd1e-c7eeda0e9230",
+   "lemma": "grow apart",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "phrasal_verb",
+   "acceptedForms": [
+    "grow apart",
+    "grew apart",
+    "grown apart"
+   ],
+   "translation": "віддалятися одне від одного",
+   "translationStressed": "віддаля́тися одне́ від о́дного",
+   "altTranslations": [
+    "ставати чужими",
+    "розходитися"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "віддалятися / віддалитися",
+   "usageNote": "про друзів, пари, родичів",
+   "ipaGa": "/ˌɡroʊ əˈpɑrt/",
+   "ipaRp": "/ˌɡrəʊ əˈpɑːt/",
+   "exampleEn": "Since the move, the two sisters have slowly grown apart.",
+   "exampleUk": "Після переїзду дві сестри потроху віддалилися одна від одної.",
+   "exampleEn2": "Why do old school friends so often grow apart?",
+   "exampleUk2": "Чому давні шкільні друзі так часто віддаляються одне від одного?",
+   "topics": [
+    {
+     "slug": "communication",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "dd1cff40-9259-53c7-a07e-9fc4c59374d2",
+   "lemma": "hand down sth",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "phrasal_verb",
+   "acceptedForms": [
+    "hand down sth",
+    "hand down",
+    "pass down",
+    "hand sth down",
+    "handed down"
+   ],
+   "translation": "передавати у спадок",
+   "translationStressed": "передава́ти у спа́док",
+   "altTranslations": [
+    "передавати наступним поколінням",
+    "оголошувати вирок"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "передавати / передати",
+   "usageNote": "можна розривати: hand it down; про суд — hand down a verdict",
+   "ipaGa": "/ˌhænd ˈdaʊn/",
+   "ipaRp": "/ˌhænd ˈdaʊn/",
+   "exampleEn": "This recipe was handed down from my grandmother to my mother.",
+   "exampleUk": "Цей рецепт перейшов у спадок від бабусі до моєї мами.",
+   "exampleEn2": "Will you hand the watch down to your son one day?",
+   "exampleUk2": "Ви колись передасте годинник у спадок синові?",
+   "topics": [],
+   "widgetSafe": true
+  },
+  {
+   "id": "447bf2bb-b92c-5ef1-b573-1140cfcb9afb",
+   "lemma": "hear out sb",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "phrasal_verb",
+   "acceptedForms": [
+    "hear out sb",
+    "hear out",
+    "hear sb out",
+    "hear me out"
+   ],
+   "translation": "вислуховувати до кінця",
+   "translationStressed": "вислухо́вувати до кінця́",
+   "altTranslations": [
+    "дослухати"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "вислуховувати / вислухати",
+   "usageNote": "зазвичай розривається: hear me out",
+   "ipaGa": "/ˌhɪr ˈaʊt/",
+   "ipaRp": "/ˌhɪər ˈaʊt/",
+   "exampleEn": "Please hear me out before you say no.",
+   "exampleUk": "Будь ласка, вислухайте мене до кінця, перш ніж відмовляти.",
+   "exampleEn2": "Did the manager hear the team out at the meeting?",
+   "exampleUk2": "Чи вислухав менеджер команду до кінця на нараді?",
+   "topics": [
+    {
+     "slug": "communication",
+     "confidence": 0.8
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "10a55c22-268b-5663-97ed-d2c5e804ba27",
+   "lemma": "hold off",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "phrasal_verb",
+   "acceptedForms": [
+    "hold off",
+    "hold off on",
+    "held off"
+   ],
+   "translation": "відкладати",
+   "translationStressed": "відклада́ти",
+   "altTranslations": [
+    "зволікати з",
+    "стримувати"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "відкладати / відкласти",
+   "usageNote": "hold off on sth; друге значення — «стримувати натиск»",
+   "ipaGa": "/ˌhoʊld ˈɔf/",
+   "ipaRp": "/ˌhəʊld ˈɒf/",
+   "exampleEn": "Let us hold off on buying a new sofa until the sale starts.",
+   "exampleUk": "Відкладімо купівлю нового дивана, поки не почнеться розпродаж.",
+   "exampleEn2": "Could you hold off sending the email until I check it?",
+   "exampleUk2": "Чи могли б ви відкласти надсилання листа, поки я його не перевірю?",
+   "topics": [
+    {
+     "slug": "military",
+     "confidence": 0.5
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "63352c73-e3dc-5d84-b209-2389a36d4778",
+   "lemma": "hold out",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "phrasal_verb",
+   "acceptedForms": [
+    "hold out",
+    "held out"
+   ],
+   "translation": "триматися",
+   "translationStressed": "трима́тися",
+   "altTranslations": [
+    "не здаватися",
+    "вистачати"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "триматися / протриматися",
+   "usageNote": "про запаси — «вистачати»: the water held out",
+   "ipaGa": "/ˌhoʊld ˈaʊt/",
+   "ipaRp": "/ˌhəʊld ˈaʊt/",
+   "exampleEn": "The volunteers held out at the shelter until help arrived in the morning.",
+   "exampleUk": "Волонтери протрималися в укритті, поки вранці не прибула допомога.",
+   "exampleEn2": "Will the battery hold out until we reach the hotel?",
+   "exampleUk2": "Чи вистачить батареї, поки ми не дістанемося готелю?",
+   "topics": [
+    {
+     "slug": "military",
+     "confidence": 0.6
+    }
+   ],
+   "widgetSafe": true
+  },
+  {
+   "id": "2ceacfe8-bc34-5565-9d6e-c5c6d4d23203",
+   "lemma": "keep sb from sth",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "phrasal_verb",
+   "acceptedForms": [
+    "keep sb from sth",
+    "keep from",
+    "keep sb from doing sth",
+    "kept from"
+   ],
+   "translation": "не давати",
+   "translationStressed": "не дава́ти",
+   "altTranslations": [
+    "утримувати від",
+    "заважати"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "давати / дати",
+   "usageNote": "keep sb from doing sth — не давати комусь щось робити",
+   "ipaGa": "/ˈkip frəm/",
+   "ipaRp": "/ˈkiːp frəm/",
+   "exampleEn": "The loud music kept the neighbours from sleeping all night.",
+   "exampleUk": "Гучна музика всю ніч не давала сусідам спати.",
+   "exampleEn2": "What keeps you from starting the course this month?",
+   "exampleUk2": "Що не дає вам почати курс цього місяця?",
+   "topics": [],
+   "widgetSafe": true
+  },
+  {
+   "id": "b19e82fe-20a6-5068-a2f7-6091efab335d",
+   "lemma": "let up",
+   "pos": "phrase",
+   "level": "B2",
+   "kind": "phrasal_verb",
+   "acceptedForms": [
+    "let up",
+    "lets up"
+   ],
+   "translation": "вщухати",
+   "translationStressed": "вщуха́ти",
+   "altTranslations": [
+    "слабшати",
+    "припинятися"
+   ],
+   "register": "neutral",
+   "genderNote": null,
+   "pluralNote": null,
+   "aspectNote": "вщухати / вщухнути",
+   "usageNote": "про дощ, вітер, тиск, біль",
+   "ipaGa": "/ˌlɛt ˈʌp/",
+   "ipaRp": "/ˌlet ˈʌp/",
+   "exampleEn": "The rain finally let up around noon, so we went outside.",
+   "exampleUk": "Дощ нарешті вщух близько полудня, тож ми вийшли надвір.",
+   "exampleEn2": "Will the pressure at work ever let up?",
+   "exampleUk2": "Чи вщухне коли-небудь тиск на роботі?",
+   "topics": [],
+   "widgetSafe": true
+  }
+ ]
+}

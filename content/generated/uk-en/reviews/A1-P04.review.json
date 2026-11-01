@@ -1,0 +1,654 @@
+{
+  "schemaVersion": 1,
+  "chunk": "A1-P04",
+  "reviewer": {
+    "model": "claude-code/claude-fable-5-1",
+    "promptVersion": "review-v1",
+    "reviewedAt": "2026-11-01T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "e141930f-496c-50d4-ac5b-ce9739deab83",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "cabfa21c-916c-5ba9-ba0e-dbb57fba4c09",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "cead61d7-dd9d-532b-9b93-f882ee8bf769",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "320dc09f-4024-5a22-b79f-21fb787caa51",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "34c317f1-6d13-5d17-90de-f12a85d51e9b",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "e535d413-f3c8-5152-a7d9-897e45f3fb8a",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "21f39fa6-62bb-5716-9069-8ee681e29502",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "c1125c10-c9b6-5d0d-b231-b88af696977a",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "bdc467ca-77e5-5950-9a99-2fa60325bb74",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "6ed959f3-5117-5265-8eef-d8846549e8cf",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 4,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {
+          "reasonCode": "unnatural_uk",
+          "suggestion": "«Ви закінчили тест. Молодець!» — неузгодження: краще «Ти закінчив тест. Молодець!»"
+        },
+        {
+          "reasonCode": "other",
+          "suggestion": "«well-done» у acceptedForms — це прожарка стейка, прибрати."
+        }
+      ]
+    },
+    {
+      "id": "ef14cb22-f467-588c-9461-331040911a92",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "7e694e60-4c87-5e8d-847d-f1ca9551df4e",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {
+          "reasonCode": "other",
+          "suggestion": "altTranslations «так, дякую» не передає прохання; краще «так, із задоволенням»."
+        }
+      ]
+    },
+    {
+      "id": "f36f5179-50ad-50c6-b02a-d0a4bded4a60",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 4,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {
+          "reasonCode": "unnatural_uk",
+          "suggestion": "«А як ви?» звучить уривчасто; природніше «А ви?» або «А у вас?»"
+        }
+      ]
+    },
+    {
+      "id": "f3745598-f4dc-5178-974d-291e58e3d01b",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "814db456-cb15-5efe-ac67-fb7dbd948f81",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "f6fd43ff-b087-579e-bfe0-e44e633ab8a8",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "326db278-e3d7-5eb1-892a-8c39d551b3a6",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "cda1d93e-df5d-516d-a778-dcf93bdab8ef",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {
+          "reasonCode": "other",
+          "suggestion": "«god bless you» в acceptedForms зайве для A1 і має релігійний відтінок; прибрати."
+        }
+      ]
+    },
+    {
+      "id": "9259a41d-1ee7-5856-9fb1-553cbb1b132c",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "59768c61-8749-5bbf-8a8b-22772b8bfcc4",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "613aa436-2ce5-58a5-b0cc-56c3828079c9",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "8e54c5bb-877b-533a-b11a-4585739d3b07",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "f5f678be-c9fd-579c-a039-b6f2d2e98ebd",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "7399474b-2a12-5091-8b01-3d90a1fa0466",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {
+          "reasonCode": "other",
+          "suggestion": "Самостійне «enjoy» в acceptedForms надто широке; залишити «enjoy your meal», «bon appétit»."
+        }
+      ]
+    },
+    {
+      "id": "7a96b3a3-308e-5751-aca6-b73d165fd506",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "b102a5a6-cd4e-5f80-b265-d46d52fa8bdc",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "2c4aa0d7-d104-52a7-bd63-57e11e88d6f5",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "d8d15cad-6b02-5105-916d-cefc02ae3940",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "bb133703-2455-5159-bd53-6d48eaed6f1a",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "2ff85d8b-0b8c-5125-a0dd-51b221e8b105",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "af21d20c-6004-5283-8974-f16da1c8ca64",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "64a08aa6-445a-5cd5-95b8-d9472347994b",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "6dbe72a6-90aa-5345-91fc-092493be47bc",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "25aa2366-af26-5671-b49c-3854b0a7487f",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "0609ad54-b12c-50d2-b600-41f476e3b4b1",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 4,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {
+          "reasonCode": "unnatural_uk",
+          "suggestion": "Повтор «Ще ні, ще десять хвилин»; краще «Ще ні, десять хвилин — і готово»."
+        }
+      ]
+    },
+    {
+      "id": "b75472d2-487e-533e-9a0c-c8d7419f0fcc",
+      "scores": {
+        "accuracy": 4,
+        "naturalness": 3,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": null,
+      "issues": [
+        {
+          "reasonCode": "mismatch_en_uk",
+          "suggestion": "«Як ви думаєте, яка нова кав’ярня?» неприродно; краще «Що ви думаєте про нову кав’ярню?»"
+        },
+        {
+          "reasonCode": "unnatural_uk",
+          "suggestion": "Самостійне «Як ви думаєте?» уривчасте; у прикладі 1 краще «Що скажете?» або «Як вам?»"
+        }
+      ]
+    },
+    {
+      "id": "f61d4c12-7532-5347-8648-249696dc1929",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "04a32f14-a8a1-5dea-9721-b6877c960460",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "1377eacb-d372-5ed6-90af-73e525728452",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "d88f343a-fb48-582f-bcfc-887b7b1878c6",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    }
+  ]
+}

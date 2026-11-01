@@ -1,0 +1,347 @@
+{
+  "schemaVersion": 1,
+  "chunk": "B1-P12",
+  "reviewer": {
+    "model": "claude-code/claude-fable-5-1",
+    "promptVersion": "review-v1",
+    "reviewedAt": "2026-11-01T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "017c1e93-82a9-5f02-aa84-97896233004d",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "5056e6ab-9573-525b-a4ac-8b11c41c9136",
+      "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {"reasonCode": "mismatch_en_uk", "suggestion": "У першому прикладі «I could read» — одноразова дія: «але я прочитав між рядків», а не «вмію читати»."}
+      ]
+    },
+    {
+      "id": "d42e4d2f-0605-5589-ba1c-5da4de971049",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "dfa2a7bb-0b79-52bf-b333-c922fa16d10d",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "8c8cf6ff-f67f-5eb9-9040-20ea9363d960",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 4, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "0b36ada5-b1b7-505f-b2ae-246144afa6dc",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "d89ed46f-eb47-54ec-9e8c-794c9c803a59",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "73c41192-089b-555b-9d87-eb519f83d2e2",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "be06a2fa-4d39-5af9-9995-6cbd03d9c5a8",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "ea4f0303-cf38-5ab9-89cd-1c5bafa5add1",
+      "scores": {"accuracy": 5, "naturalness": 3, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": null,
+      "issues": [
+        {"reasonCode": "unnatural_uk", "suggestion": "Тавтологія «Пошук… перетворився на марні пошуки»; краще «Пошук місця для паркування в центрі виявився марним»."}
+      ]
+    },
+    {
+      "id": "627c2b63-a182-5979-9bfa-f431cdb0a718",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "b944261a-40f5-5cb1-9781-d40fc91f8bef",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {"reasonCode": "wrong_topic", "suggestion": "Тема «shopping» натягнута; досить «communication»."}
+      ]
+    },
+    {
+      "id": "9c88e871-b96e-58b7-8275-a457c99e11b8",
+      "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {"reasonCode": "unnatural_uk", "suggestion": "«Найкраще з обох світів» — усталена калька; в alt додати «і вовки ситі, і вівці цілі» або «переваги обох варіантів»."}
+      ]
+    },
+    {
+      "id": "16fe9724-655c-5c7e-943c-701a4b50762c",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 4, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {"reasonCode": "wrong_aspect", "suggestion": "Доконана пара є: «вилізти зі шкури»; виправити aspectNote."}
+      ]
+    },
+    {
+      "id": "a07c2bd1-d475-5fbb-be06-f87ab71f1304",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "d97154cd-2e7d-5075-998e-dad07656cda2",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "c7bf4d40-d353-58df-81ce-980aafb54cbc",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "cf41ab4a-42df-50f7-9ca9-2130976b87ee",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "72998056-87ce-512f-8807-758233a88e5a",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "7cbc4d78-22bd-537f-a441-5590571b9c81",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "698a8478-bf67-5368-ac39-eeb5468ac9be",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "82aee682-2d0e-59fa-a4f8-e8d140d043a5",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "2630e018-f77e-5d45-a1ca-7a20f80264b5",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "1b86d4e1-0cb6-5907-b26c-47d2fb82272c",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "803f639c-8fc4-53c5-a193-1c8eba10861c",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "f7f4ec3c-54da-5cfd-971a-d4f2ac59c4ca",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "479e0fa4-4c4f-5a1b-94cf-71e1e932bf31",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "4bd8ae58-a0f7-5af1-81db-d0077765d892",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {"reasonCode": "wrong_topic", "suggestion": "Тема «travel» випадкова для ідіоми про незручність у чужому середовищі; краще без тем."}
+      ]
+    },
+    {
+      "id": "00c363cf-0296-597f-be33-c909d06ff331",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "eccfe26e-5f44-5840-98d5-c0575b4a2ff7",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "ef2b73e6-a06e-5f0d-9394-c7aa058c021a",
+      "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {"reasonCode": "other", "suggestion": "Переклад нейтральний, а фраза розмовна; в alt додати «кайфувати від» або «тішитися з»."}
+      ]
+    },
+    {
+      "id": "f941f193-3cbe-5a3f-b1d1-03adfbe17094",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "5fcf039d-7465-5695-a25f-36cb65ecaa92",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "f2222c5d-aaf0-5026-82b5-b3ce96e4f321",
+      "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {"reasonCode": "wrong_sense", "suggestion": "«Повірити на слово» ширше за glossEn; точніше «повірити, попри сумніви» — хоча б в alt."}
+      ]
+    },
+    {
+      "id": "fcd42d53-7fbc-5465-b01c-d02947da41d5",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "f5bcad81-786b-5c74-972c-6aabaf5b3f1b",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "6897749c-ff1c-54ee-a7a4-b88fa33e2430",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "f20b1e01-88f7-551b-b227-485835a451af",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "ee3234f3-b4f9-5448-889f-b1707110ba62",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "0bfef02c-d196-5483-b6a6-c9ecaaf65138",
+      "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    }
+  ]
+}

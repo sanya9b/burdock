@@ -1,0 +1,641 @@
+{
+ "schemaVersion": 1,
+ "chunk": "B1-P21",
+ "reviewer": {
+  "model": "claude-code/claude-fable-5-1",
+  "promptVersion": "review-v1",
+  "reviewedAt": "2026-11-01T00:00:00+00:00"
+ },
+ "items": [
+  {
+   "id": "14e3f4ee-b08a-5623-91cd-86f85d8d407b",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "53f27ce6-2916-5ed6-9a69-e07531c018ab",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 4,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "unnatural_uk",
+     "suggestion": "«Ви виглядаєте стурбовано» → «Ви маєте стурбований вигляд» або «Ви чимось стурбовані»."
+    }
+   ]
+  },
+  {
+   "id": "cd785d4b-7dc5-5d25-a711-a94c6267c24d",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 4
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "wrong_topic",
+     "suggestion": "Тема communication нетипова для «in one’s spare time»; краще без тем."
+    }
+   ]
+  },
+  {
+   "id": "5dad9155-8dde-5718-8db5-a56a0d058d93",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "685707d0-335b-532f-8225-17ac33151747",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "cd7a0b33-d0ed-5131-b1ee-88c3ed42363f",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "bbe604b0-fa4b-544b-8443-8360100017d4",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "d45da8da-22ec-573f-9fa9-12ee52acb832",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "1322e34f-2333-5032-bbff-503e3f235312",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "95bc6af8-ec37-5902-b296-393af9521679",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 4,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "other",
+     "suggestion": "«on time» в acceptedForms — інша фраза (вчасно), не варіант написання «on schedule»; прибрати."
+    }
+   ]
+  },
+  {
+   "id": "cd12a589-4a84-55ae-97f8-069b2f3d4cb0",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "d46d8e14-f13f-56b0-aca6-24df2d297a7d",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 4,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "unnatural_uk",
+     "suggestion": "«раніше за графік» звучить важкувато; природніше «з випередженням графіка» або «достроково»."
+    }
+   ]
+  },
+  {
+   "id": "c99a3d10-6cee-52f0-8619-2493e441bbb6",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "e8262093-c6dc-526e-bb17-b743faca0bd6",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "1de9a366-9cd4-554e-b297-a73a6b284182",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "01ff530d-7472-5d21-a228-804a0b334c26",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "26053278-00e3-5e10-95d4-d1c1127c5040",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "55f13453-75a7-5577-9a3e-590503b7a9f8",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "debe357e-5f17-5ccc-a18a-f969da86d439",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "d1c7b27e-38af-56d2-ab3b-98f1e3d333ef",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "bc20890a-1e2b-5686-ba09-6c6eb69daffb",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "d2ac0b59-4bb9-5fe1-a678-20815da846d2",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "335a7963-fb84-50ff-b450-62baf875339b",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "17e0e64a-38f1-5be1-9f90-ba0378511279",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "3cc3b2eb-0336-5efa-9812-0f2f5ed1dfd8",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "caa6a296-2163-569a-bdd3-482f17c3ba65",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "1027f4a5-94b2-57fd-984f-cbb658bb08d9",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "0c0a484f-0775-50e7-8fa8-5959d9725703",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "2b10d8db-9216-512c-b21a-ce9d59c32537",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 4,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "unnatural_uk",
+     "suggestion": "«у пішій доступності» канцелярське; природніше «за кілька хвилин пішки» / «можна дійти пішки»."
+    }
+   ]
+  },
+  {
+   "id": "3af13b7e-13b6-54d8-bc37-0cb3318adbe8",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "ae65436c-ac1d-5471-93c2-f1f9596b3b3c",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "6c0edd87-fb96-55a9-954d-793ba139dbdf",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "286726c7-0f7a-5e04-90d8-e2b14b82e1f9",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "cf71d12c-9adb-54b6-a744-51a9a0aa724a",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "0658c2af-d8db-527a-bc37-b9562edf84a5",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 4,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "unnatural_uk",
+     "suggestion": "altTranslation «повітрям» незвичне; краще «авіапоштою» (про посилки) або «повітряним шляхом»."
+    }
+   ]
+  },
+  {
+   "id": "e28e91ee-71ee-5089-bca3-585a291d9790",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "b5569865-9797-5843-baae-44ef88283148",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "abb72b4f-f221-5c03-a278-a37fd7c5416a",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "86ef62cd-6ede-533c-a85d-9306410f66bc",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "36e69728-e500-5353-be6f-671e32a8f3d7",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  }
+ ]
+}

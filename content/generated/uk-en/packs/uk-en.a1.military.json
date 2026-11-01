@@ -5,7 +5,7 @@
  "level": "A1",
  "topic": "military",
  "version": 1,
- "generatedAt": "2026-09-30T23:43:18+00:00",
+ "generatedAt": "2026-11-01T09:47:11+00:00",
  "provenance": {
   "source": "burdock-pipeline generate-v1 + review-v1 (Claude Code, claude-fable-5-1)",
   "status": "ai_reviewed",
@@ -13,7 +13,8 @@
   "reviewer": "review-v1",
   "attributions": [
    "cefrj-1.6",
-   "claude-outputs"
+   "claude-outputs",
+   "llm-level-estimate"
   ]
  },
  "entries": [

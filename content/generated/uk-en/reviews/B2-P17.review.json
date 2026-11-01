@@ -1,0 +1,446 @@
+{
+ "schemaVersion": 1,
+ "chunk": "B2-P17",
+ "reviewer": {
+  "model": "claude-code/claude-fable-5-1",
+  "promptVersion": "review-v1",
+  "reviewedAt": "2026-11-01T00:00:00+00:00"
+ },
+ "items": [
+  {
+   "id": "5000d9c1-6cb1-54bd-9ff1-076a2f014302",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "7778e803-195f-5669-94e2-cf53224d7979",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 4,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "unnatural_uk",
+     "suggestion": "«Ми в процесі переїзду» канцелярське; природніше «Ми саме переїжджаємо до нового офісу»."
+    }
+   ]
+  },
+  {
+   "id": "7f6d785e-ca36-523b-b17d-56745e0411d7",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 3,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": true,
+   "primaryAlternative": "намагаючись",
+   "issues": [
+    {
+     "reasonCode": "unnatural_uk",
+     "suggestion": "«у спробі краще спати» — калька; природніше «намагаючись краще спати» або «щоб краще спати»."
+    }
+   ]
+  },
+  {
+   "id": "cbb20026-9887-5f93-8c5c-927390953eee",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "9cf0ddf2-3c63-5d36-80b0-c84ea54367f5",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "479f71ad-eec5-5bf8-b2e1-a351e77f5a80",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "ac388963-93d4-52fa-9d80-62f2a11a3a5f",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "aa949355-cb7f-5061-8b51-dfca222e6cb6",
+   "scores": {
+    "accuracy": 4,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "other",
+     "suggestion": "Переклад дієсловом «зростає» не збігається з формою фрази; краще «на підйомі» або «дедалі зростає»."
+    }
+   ]
+  },
+  {
+   "id": "753f70c8-fe46-5bff-9e1b-6b8642e4c96b",
+   "scores": {
+    "accuracy": 4,
+    "naturalness": 3,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": true,
+   "primaryAlternative": "зменшується",
+   "issues": [
+    {
+     "reasonCode": "unnatural_uk",
+     "suggestion": "«Продажі занепадають», «інтерес занепадає» неприродно; «продажі падають», «інтерес згасає», переклад «у занепаді / зменшується»."
+    }
+   ]
+  },
+  {
+   "id": "71773139-287a-5e7c-8f58-fc50ec856aff",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "c2348486-cd2a-5133-8c95-6d9c32024504",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 4,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "unnatural_uk",
+     "suggestion": "«Виглядайте кав’ярню» розмовне; краще «Шукайте очима маленьку кав’ярню ліворуч»."
+    }
+   ]
+  },
+  {
+   "id": "0f53f9ef-7189-5b00-a248-154572b1dbfc",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "e3ba09f4-2e9d-5c6d-92ab-879c0e307c8c",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "bb5251fe-31e7-53c4-9632-ded70e59383a",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "a92a1499-2885-5639-9851-663f92a1f946",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "1fb85470-499e-5a95-9eb6-87874d381066",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "803085a9-85b6-511c-97bc-e72a0920c5ca",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 4,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "unnatural_uk",
+     "suggestion": "«місце автобуса» → «де зараз автобус» або «розташування автобуса»."
+    }
+   ]
+  },
+  {
+   "id": "658600a3-bd9b-5ca3-85b9-d8626510697a",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "1555e45d-54f7-5660-9c24-b744096ef143",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "8e30ad68-51b4-508c-a3b0-3a1aa7fbf5ff",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "b990da70-3ade-520d-9a87-40f5c05f7a56",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 4,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "unsafe",
+     "suggestion": "Воєнний контекст у межах категорії «Військова справа»; widgetSafe=false виставлено чесно, змін не потрібно."
+    }
+   ]
+  },
+  {
+   "id": "c63c5591-c159-5c42-b03a-4a55d683336c",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "1d1b17e3-17cc-5202-9d70-1f0e1ec51294",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 4,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "unsafe",
+     "suggestion": "Воєнний контекст у межах категорії «Військова справа»; widgetSafe=false виставлено чесно."
+    }
+   ]
+  },
+  {
+   "id": "2744a8bb-c65f-5099-9825-fa842ce04bde",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 4,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "unsafe",
+     "suggestion": "Воєнний контекст у межах категорії «Військова справа»; widgetSafe=false виставлено чесно."
+    }
+   ]
+  },
+  {
+   "id": "e2cde00f-dc33-5b69-a6a3-4065ff31c804",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "39393f18-fea4-564a-97e2-f966cf9d984d",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  }
+ ]
+}

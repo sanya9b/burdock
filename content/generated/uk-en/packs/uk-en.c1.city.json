@@ -4,8 +4,8 @@
  "pair": "uk-en",
  "level": "C1",
  "topic": "city",
- "version": 1,
- "generatedAt": "2026-09-30T23:43:18+00:00",
+ "version": 2,
+ "generatedAt": "2026-11-01T09:47:11+00:00",
  "provenance": {
   "source": "burdock-pipeline generate-v1 + review-v1 (Claude Code, claude-fable-5-1)",
   "status": "ai_reviewed",
@@ -34,6 +34,7 @@
   {"id":"a3933037-280d-5346-8128-6ab37a5a24b7","lemma":"graffiti","pos":"noun","level":"C1","topics":["city"],"translation":"графіті","altTranslations":["настінні написи"],"acceptedForms":["graffiti","grafitti"],"ipaGa":"/ɡrəˈfiti/","ipaRp":"/ɡrəˈfiːti/","exampleEn":"The underpass near the station is covered in colourful graffiti.","exampleUk":"Підземний перехід біля вокзалу вкритий барвистими графіті.","frequencyBand":null},
   {"id":"a738914b-d5b1-5f18-8310-6305d685d5d0","lemma":"high-rise","pos":"noun","level":"C1","topics":["city"],"translation":"висотка","altTranslations":["багатоповерхівка","висотний будинок"],"acceptedForms":["high-rise","high rise","highrise"],"ipaGa":"/ˈhaɪˌraɪz/","ipaRp":"/ˈhaɪraɪz/","exampleEn":"A new high-rise is going up next to the metro station.","exampleUk":"Поруч зі станцією метро зводять нову висотку.","frequencyBand":null},
   {"id":"5ef7c636-3ee6-5cc2-b72b-da65b7cc390e","lemma":"hub","pos":"noun","level":"C1","topics":["city","travel"],"translation":"вузол","altTranslations":["хаб","центр"],"acceptedForms":["hub"],"ipaGa":"/hʌb/","ipaRp":"/hʌb/","exampleEn":"The central station is the main transport hub of the city.","exampleUk":"Центральний вокзал — головний транспортний вузол міста.","frequencyBand":null},
+  {"id":"582abe76-80ee-5a4b-9406-a4976954601a","lemma":"in the vicinity of","pos":"phrase","level":"C1","topics":["city"],"translation":"поблизу","altTranslations":["неподалік від","приблизно"],"acceptedForms":["in the vicinity of","in the vicinity"],"ipaGa":"/ɪn ðə vəˈsɪnəti əv/","ipaRp":"/ɪn ðə vɪˈsɪnɪti əv/","exampleEn":"There are several good cafés in the vicinity of the station.","exampleUk":"Поблизу вокзалу є кілька хороших кав’ярень.","frequencyBand":null},
   {"id":"05417e30-908a-580e-a410-d237ee46cdc4","lemma":"infrastructure","pos":"noun","level":"C1","topics":["city"],"translation":"інфраструктура","altTranslations":[],"acceptedForms":["infrastructure"],"ipaGa":"/ˈɪnfrəˌstrʌktʃər/","ipaRp":"/ˈɪnfrəstrʌktʃə/","exampleEn":"The city is investing heavily in transport infrastructure such as bridges and tram lines.","exampleUk":"Місто активно інвестує в транспортну інфраструктуру, як-от мости й трамвайні лінії.","frequencyBand":null},
   {"id":"810c5aa4-0526-5532-b64c-847b210961ee","lemma":"landmark","pos":"noun","level":"C1","topics":["city","travel"],"translation":"орієнтир","altTranslations":["визначна пам’ятка","віха"],"acceptedForms":["landmark"],"ipaGa":"/ˈlændmɑrk/","ipaRp":"/ˈlændmɑːk/","exampleEn":"The old water tower is a useful landmark when you are lost downtown.","exampleUk":"Стара водонапірна вежа — зручний орієнтир, коли ви загубилися в центрі.","frequencyBand":null},
   {"id":"1f453709-65f6-536f-8e33-eef298bae0f2","lemma":"metropolitan","pos":"adjective","level":"C1","topics":["city"],"translation":"великоміський","altTranslations":["міський (про мегаполіс)"],"acceptedForms":["metropolitan"],"ipaGa":"/ˌmɛtrəˈpɑlɪtən/","ipaRp":"/ˌmɛtrəˈpɒlɪtən/","exampleEn":"The metropolitan area is home to nearly four million people.","exampleUk":"У великоміській агломерації живе майже чотири мільйони людей.","frequencyBand":null},

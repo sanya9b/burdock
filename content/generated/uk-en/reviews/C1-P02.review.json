@@ -1,0 +1,344 @@
+{
+ "schemaVersion": 1,
+ "chunk": "C1-P02",
+ "reviewer": {"model": "claude-code/claude-fable-5-1", "promptVersion": "review-v1", "reviewedAt": "2026-11-01T00:00:00+00:00"},
+ "items": [
+  {
+   "id": "e771af71-69b9-5d64-bc39-df724f7fce2b",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "ca2838ee-7150-563b-ba1e-711a5f3161f1",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "fe759b58-4313-5420-87fd-2861e7bf5441",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "19d16b17-c102-52aa-9874-f0385357e6a4",
+   "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {"reasonCode": "mismatch_en_uk", "suggestion": "У другому прикладі «зіпсувало» слабше за wreak havoc; краще «геть зруйнувало ваші плани»."},
+    {"reasonCode": "wrong_topic", "suggestion": "Фраза загальновживана (негода, збої); тему military варто прибрати або знизити впевненість."}
+   ]
+  },
+  {
+   "id": "60098ee2-b190-5d36-8e7e-ebbd3b86b602",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "3b7ff66c-bb5f-522e-9392-bf61b19b2500",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "8a2ae719-819a-5db2-94c5-ef27526e5f56",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "f936c151-0c76-5ead-9b0f-57c6fe2920c7",
+   "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {"reasonCode": "unnatural_uk", "suggestion": "«Плекати сумніви» звучить книжно; природніше «таїти сумніви» або «мати приховані сумніви»."}
+   ]
+  },
+  {
+   "id": "03e5b691-9e0f-5b37-9013-6931756389fb",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "cab2939d-aea8-50b9-90af-55549cf52bdf",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 4, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {"reasonCode": "unsafe", "suggestion": "«Пошкоджена будівля після тривоги» натякає на обстріл; для віджета замініть на «після бурі»."}
+   ]
+  },
+  {
+   "id": "889f802d-1884-5658-83ee-2abb09ddf894",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "29debaa0-3a47-5128-9941-c6e96a3432b1",
+   "scores": {"accuracy": 4, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {"reasonCode": "wrong_sense", "suggestion": "«Мати владу» губить відтінок «застосовувати»; точніше «користуватися владою» (є в alt)."}
+   ]
+  },
+  {
+   "id": "e37f7e63-e373-5b57-87dc-a390a709b63c",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "00333e90-c037-5360-941e-56f9cfcf38df",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "8215eadc-dcc4-5a98-8616-5171e0731303",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "259fabd5-5f66-5a9a-8cdf-f57b3f277526",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {"reasonCode": "unnatural_uk", "suggestion": "Альтернатива «гуртувати альянс» штучна; краще «створювати альянс»."}
+   ]
+  },
+  {
+   "id": "e06711e2-76a9-505a-8686-5d2fd5287bb4",
+   "scores": {"accuracy": 4, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {"reasonCode": "unnatural_uk", "suggestion": "«Бути посередником в угоді» громіздке; стисліше «виступити посередником угоди» або «улагодити угоду»."}
+   ]
+  },
+  {
+   "id": "aca30bd8-db86-5f31-a7d8-e2cab2a29119",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "b6db6000-dd5e-5de4-b889-3420bc79c1f6",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "1339c827-c27b-562b-b089-cce1974f5f14",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "942dd6ed-a00d-5d7c-9b7c-bd69dd049e49",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "b4b029b9-2cab-50d7-8c8d-a3d33fe666f3",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "59c2a934-1f5c-5bdb-9adb-858c05f28fe7",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 4},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {"reasonCode": "wrong_topic", "suggestion": "Фраза побутова (черга, холодна вода); тема military не типова, краще без тем."}
+   ]
+  },
+  {
+   "id": "78aa7f68-059b-53c6-9ab1-04c3e3bd1af4",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "7b734227-7b48-5cb8-ae14-a59857823d1a",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "f9e9dcc0-d0cf-5f15-9d59-c776650b544a",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "55301216-7e7d-52aa-9e61-c245116b1697",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "b4d77bd5-858c-5c8e-b267-46e6aaeeb028",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "cb7fdf60-6be8-514f-9f4d-9451649731a6",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "e7af7d7f-08e6-549e-a176-495d978a157a",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "908e6510-b69f-59f0-94e6-016e2ee380d6",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "2a766a09-1b26-5b63-aee7-68101490634d",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "b62d8689-b01c-5b89-abac-4a182dca83cb",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "8da5517e-d927-59dc-bdc5-f0eb9393be25",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "08e7c8ca-44b8-5a05-92a4-9ac7798d6708",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "79e98395-0197-53c5-a9a1-08aeeb759ae0",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "0842c0e7-11c0-5989-a6c0-203e222cc88d",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "00ba1f49-6a21-53d3-8bfc-f22c77c886b6",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "b4487aaf-c7e9-531e-bfab-3088c9c044d4",
+   "scores": {"accuracy": 5, "naturalness": 3, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": true,
+   "primaryAlternative": null,
+   "issues": [
+    {"reasonCode": "wrong_stress", "suggestion": "У translationStressed бракує наголосу в «наперед»: «напере́д ви́рішена спра́ва»."}
+   ]
+  },
+  {
+   "id": "c0b44dd1-908b-515c-b858-8d621aa1ada9",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  }
+ ]
+}

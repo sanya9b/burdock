@@ -1,6 +1,6 @@
 {
- "chunks": 249,
- "entriesSeen": 9806,
+ "chunks": 316,
+ "entriesSeen": 12375,
  "excluded": {
   "review_auto_reject": 8,
   "identity_mismatch": 3,
@@ -240,27 +240,27 @@
  "unparseableChunks": [],
  "incompleteChunks": [],
  "unparseableReviews": [],
- "accepted": 9792,
+ "accepted": 12361,
  "byLevel": {
-  "A1": 1162,
-  "A2": 1410,
-  "B1": 2443,
-  "B2": 2768,
-  "C1": 1236,
+  "A1": 1326,
+  "A2": 2076,
+  "B1": 3291,
+  "B2": 3434,
+  "C1": 1461,
   "C2": 773
  },
  "byTopic": {
-  "communication": 1097,
-  "city": 321,
-  "travel": 449,
-  "food": 390,
-  "health": 496,
-  "shopping": 285,
-  "work": 884,
-  "it": 356,
-  "military": 129
+  "communication": 1691,
+  "city": 399,
+  "travel": 552,
+  "food": 456,
+  "health": 630,
+  "shopping": 390,
+  "work": 1375,
+  "it": 416,
+  "military": 176
  },
- "general": 5581,
+ "general": 6612,
  "freePool": 600,
  "packs": 61
 }

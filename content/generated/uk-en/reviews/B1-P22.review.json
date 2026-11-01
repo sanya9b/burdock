@@ -1,0 +1,71 @@
+{
+ "schemaVersion": 1,
+ "chunk": "B1-P22",
+ "reviewer": {"model": "claude-code/claude-fable-5-1", "promptVersion": "review-v1", "reviewedAt": "2026-11-01T00:00:00+00:00"},
+ "items": [
+  {
+   "id": "d44c209b-2282-53b4-ac18-9c045e36642d",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "af954d33-e56c-5fd5-946c-2655bb636c3b",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "6de64fea-c539-588a-9400-e05ba59983a5",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "6c1a9c31-9d9f-5034-ad69-b7a57a65bd6a",
+   "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "other", "suggestion": "Другий приклад логічно дивний («борщ чи лише суп»); краще: «Is borscht on the menu today?»"}]
+  },
+  {
+   "id": "1839e606-6c5d-5bb5-8064-a3b36a111053",
+   "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 4, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "unnatural_uk", "suggestion": "«під атакою» прийнятне, але природніше «зазнає нападу» / «під обстрілом»; widgetSafe=false виставлено чесно."}]
+  },
+  {
+   "id": "717cd4b5-a9c5-58ac-bf46-75382fe394a3",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 4, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "ca54cbf3-d031-5f75-bd74-cf8e73728103",
+   "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "other", "suggestion": "«у формі» двозначне (також «in shape»); варто додати до usageNote, що мова про однострій."}]
+  },
+  {
+   "id": "b390fe28-866d-5ef9-a41a-02280b6087c6",
+   "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5},
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [{"reasonCode": "unnatural_uk", "suggestion": "Другий приклад: «Волонтери мали завдання доставити воду в село?» замість «були на завданні, щоб…»."}]
+  }
+ ]
+}

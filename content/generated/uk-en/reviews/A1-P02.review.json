@@ -1,0 +1,640 @@
+{
+  "schemaVersion": 1,
+  "chunk": "A1-P02",
+  "reviewer": {
+    "model": "claude-code/claude-fable-5-1",
+    "promptVersion": "review-v1",
+    "reviewedAt": "2026-11-01T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "bd253e8e-8627-5d5f-8586-6ff38d4c70df",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "e02d0a07-af5d-5ffb-a74b-c4d1026ff93d",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "8395f395-a8e2-5b5c-82c4-faed04c4db8d",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "82797624-f592-5087-a3c2-ca42d0a8cb85",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "f2517e5d-3b6d-5fd9-9531-d870c75bad30",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "4bf893c5-6769-583f-89c4-1d49c1ae041c",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "eda7d7eb-2506-5cee-b73e-4777e986742b",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "8c5e04b2-7761-5280-bed7-157027f78983",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "958a218b-fc98-5fb4-8162-6f4193b26a55",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "ff929328-646f-5c04-ad05-189c6b8830ab",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "8c68c47b-e0e7-5f67-8c1d-24133988708d",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {
+          "reasonCode": "mismatch_en_uk",
+          "suggestion": "У прикладі 1 «a party» — однина: «влаштовуємо вечірку вдома»."
+        }
+      ]
+    },
+    {
+      "id": "88eb6768-3d80-5fd7-a4f9-a580ac781539",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "fb231045-aa31-5fee-850b-5797c6b5311c",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "e00f6705-d146-53eb-bd89-0983365a971a",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "264c08bf-695e-5eca-86f0-550dedf4c5dd",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "07a1dd66-ed35-5f7f-9398-827373d9c714",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 4,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {
+          "reasonCode": "unnatural_uk",
+          "suggestion": "«містечко» вже означає мале місто; краще «містечко» або «невелике місто»."
+        }
+      ]
+    },
+    {
+      "id": "798756b2-4c81-5e45-803b-fed3b3ff175f",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "1181fc75-aa43-5e41-9893-131dbdfe4cf2",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 3,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": null,
+      "issues": [
+        {
+          "reasonCode": "unnatural_uk",
+          "suggestion": "У прикладі 2 замість «Удачі на іспиті!» — «Щасти на іспиті!» або «Хай щастить на іспиті!»."
+        },
+        {
+          "reasonCode": "other",
+          "suggestion": "Для A1 головний ужиток — побажання Good luck!; варто дати його в прикладі 1, не лише в usageNote."
+        }
+      ]
+    },
+    {
+      "id": "396f3e74-c6be-51c2-b968-30bff735eaba",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "6c4c7087-acba-58bb-a611-21681791b5d3",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "82d5b934-2335-5da8-b8da-801497d355c1",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "d5d6f098-f676-5bb4-9eda-def18d513f61",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "1140b8cc-e409-5888-a5e7-2f2bcbdf6e3d",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "a03f821d-b8b1-57c9-adac-e84cf2b2fc6f",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 4,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {
+          "reasonCode": "other",
+          "suggestion": "«паркування» — процес, а не місце; в altTranslations краще «паркінг»."
+        }
+      ]
+    },
+    {
+      "id": "d463f6b7-ee34-5a77-8b8d-1f6725aed0c0",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "f5c7f568-3c76-51d8-83a7-7d58419a0e4a",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "ef45bc53-f32f-5cd3-9c81-99afa6d98fd3",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "6e92467e-1fcc-54da-a1d5-6795b33bdc4d",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "d16cefe9-29c9-55d7-95a0-04c20ff38a88",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "568c878f-af30-5360-be9f-15b1b3594e02",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "7bf1c250-4cf5-55bc-9eb7-902194936c75",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {
+          "reasonCode": "other",
+          "suggestion": "«присідати» в alt і прикладі 2 розмовне; нейтральніше «сісти»: «Хочете сісти?»."
+        }
+      ]
+    },
+    {
+      "id": "b6772a72-8a86-529c-bd96-992407f49a63",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "d47ecdce-4a36-53fc-aa1a-a565bd3da03c",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "8fd39368-506b-57fc-9ef8-5de531a273ab",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "78923436-e2b6-543e-93f5-53bcb8b072e9",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "1b5a3300-bd45-556c-aae8-46aaf3867cde",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "0778ffc4-051e-50d9-9f62-33447a211e84",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "4d290fac-b7af-5567-bb24-f6efc22fad53",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "69f1fd0b-1401-57b1-a803-9aff5e9bfc10",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "3197ad58-44c5-52bc-a3e6-68be40fb304f",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    }
+  ]
+}

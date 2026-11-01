@@ -179,9 +179,31 @@ def sha256_text(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
 
+# Index of the previous build (read before the packs are deleted): the app re-imports a bundled pack only when its version
+# grows (BootstrapContentUseCase), so the version is bumped exactly when the entries changed. The content hash ignores
+# generatedAt; legacy index rows without a contentHash fall back to the entry count.
+PREVIOUS: dict[str, dict] = {}
+
+
+def content_hash(entries: list[dict]) -> str:
+    return sha256_text(json.dumps(entries, ensure_ascii=False, sort_keys=True, separators=(",", ":")))
+
+
+def next_version(pack_id: str, entries: list[dict], digest: str) -> int:
+    previous = PREVIOUS.get(pack_id)
+    if previous is None:
+        return 1
+    version = int(previous.get("version", 1))
+    if previous.get("contentHash"):
+        return version + (1 if previous["contentHash"] != digest else 0)
+    return version + (1 if previous.get("lexemeCount") != len(entries) else 0)
+
+
 def write_pack(pack_id: str, level: str, topic: str, entries: list[dict], now: str, attributions: list[str], has_llm_levels: bool) -> dict:
+    digest = content_hash(entries)
+    version = next_version(pack_id, entries, digest)
     document = {
-        "schemaVersion": 1, "packId": pack_id, "pair": "uk-en", "level": level, "topic": topic, "version": 1, "generatedAt": now,
+        "schemaVersion": 1, "packId": pack_id, "pair": "uk-en", "level": level, "topic": topic, "version": version, "generatedAt": now,
         "provenance": {
             "source": "burdock-pipeline generate-v1 + review-v1 (Claude Code, claude-fable-5-1)",
             "status": "ai_reviewed", "promptVersion": "generate-v1", "reviewer": "review-v1",
@@ -194,7 +216,7 @@ def write_pack(pack_id: str, level: str, topic: str, entries: list[dict], now: s
     text = head[:-2] + ',\n "entries": [\n' + rows + "\n ]\n}\n"
     path = PACKS / f"{pack_id}.json"
     path.write_text(text, encoding="utf-8")
-    return {"packId": pack_id, "file": path.name, "level": level, "topic": topic, "version": 1, "lexemeCount": len(entries), "sizeBytes": len(text.encode("utf-8")), "sha256": sha256_text(text)}
+    return {"packId": pack_id, "file": path.name, "level": level, "topic": topic, "version": version, "lexemeCount": len(entries), "sizeBytes": len(text.encode("utf-8")), "sha256": sha256_text(text), "contentHash": digest}
 
 
 def pick_free_pool(by_level: dict[str, list[dict]]) -> list[dict]:
@@ -227,6 +249,12 @@ def main() -> None:
             reviews[item["id"]] = item
 
     PACKS.mkdir(parents=True, exist_ok=True)
+    previous_index = PACKS / "index.json"
+    if previous_index.exists():
+        try:
+            PREVIOUS.update({row["packId"]: row for row in json.loads(previous_index.read_text(encoding="utf-8")).get("packs", [])})
+        except (json.JSONDecodeError, KeyError, TypeError):
+            PREVIOUS.clear()
     for old in PACKS.glob("*.json"):
         old.unlink()
 

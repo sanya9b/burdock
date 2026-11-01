@@ -1,0 +1,641 @@
+{
+  "schemaVersion": 1,
+  "chunk": "B1-P01",
+  "reviewer": {
+    "model": "claude-code/claude-fable-5-1",
+    "promptVersion": "review-v1",
+    "reviewedAt": "2026-11-01T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "e7c7f645-5126-568b-be10-5bbed4b73d18",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "6d1fb622-e3e9-580f-9376-df308080c7c4",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "ff488316-e8e9-525d-ac0a-ceffae9c9cb2",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 4,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {
+          "reasonCode": "unnatural_uk",
+          "suggestion": "У другому прикладі «питання чорно-біле» — калька; краще «питання справді однозначне»."
+        }
+      ]
+    },
+    {
+      "id": "59d8c520-e207-5609-9bc0-854f485c309a",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "39762105-b6a8-546b-bbd7-cc47fb864fc1",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "03067cf4-bfce-5bf0-a1d8-d079c745805d",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "a72c049a-f94d-5f60-9f61-2865b656e1f4",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 4,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {
+          "reasonCode": "unnatural_uk",
+          "suggestion": "«Застрибали вгору-вниз» звучить штучно; краще «застрибали від радості» або «підстрибували»."
+        }
+      ]
+    },
+    {
+      "id": "c2788242-c26c-5fd1-93d9-76090573c25f",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 4,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {
+          "reasonCode": "other",
+          "suggestion": "Переклад описовий; варто дати коротший варіант «туди-сюди (у двері)» як основний або в alt."
+        }
+      ]
+    },
+    {
+      "id": "db34b4db-52aa-5336-a0e6-2c37e574cda5",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "88989b08-91aa-582a-bff2-ce59ec632e5b",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "c5928cfe-b29c-5985-a7ea-efbc4cebcda2",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "674b5dfb-73d2-511b-a676-9b142b8f9d91",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "08ae6448-a29d-55d8-87a7-cc94f591b98f",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "12e0f2e8-0c7f-5edb-bba1-338459f6996f",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "a75040ad-3bc5-5c76-9248-41756e0b0a01",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "2424fc04-c1a8-56d9-ba34-1e21b4470db0",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "fc13c96a-a64d-57fd-ad24-38db5e1dadf1",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "5730bc76-1f4e-5ed4-aa38-4a9ea6764505",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "f9b97223-31cc-50c1-a853-f91f7f746a34",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "1dd446c7-ad1f-534c-9b4e-9a6453eff7f5",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "0da4f9ed-4052-5fb8-9d45-262c28bbada7",
+      "scores": {
+        "accuracy": 4,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {
+          "reasonCode": "wrong_sense",
+          "suggestion": "«Піжмурки» за СУМ — гра із зав’язаними очима (blind man’s buff); прибрати з altTranslations або замінити на «схованки»."
+        }
+      ]
+    },
+    {
+      "id": "e9ac9453-4129-5ea1-af23-f1ad19014389",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "c799a51d-9502-5f91-8532-8b8ec9dfa6f9",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 4,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {
+          "reasonCode": "other",
+          "suggestion": "usageNote «незлічуване» стосується англійської фрази; уточнити: «в англійській незлічуване»."
+        }
+      ]
+    },
+    {
+      "id": "b674189c-a763-5f1b-b33e-b44bd2db5ac1",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "102f54b0-952d-5a59-a06e-134f019396ba",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "897bfe55-1c56-53a7-94f1-b24898d98d62",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "3fa65535-63bf-51d1-bc50-787d340ec87d",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "204d7aff-8048-510b-b5ac-e957069f9302",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "fea76904-161f-5202-8d61-df57554d2d9f",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "07aafc5d-693a-5b46-ae95-374391abdb63",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "3e58832d-7024-52e6-baee-7f23f7929f94",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "eacb4f43-e2c3-51e3-92bf-65cd57c6f9bb",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "e7b4cab9-e472-57c8-b7c7-22306aef25e4",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 4,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {
+          "reasonCode": "mismatch_en_uk",
+          "suggestion": "Перший укр. приклад «ручкою на папері» не містить перекладу «ручка й папір»; краще «ручкою й папером»."
+        }
+      ]
+    },
+    {
+      "id": "92d826be-2504-5e89-970b-23f3082e54c7",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "2da8fb74-14ff-58e5-9b9c-33088f6718d0",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "eb5bc294-2a2b-545f-a165-5c57a02417e4",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "4a86dac3-0e49-5f14-bc90-6b82d0965033",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "8950cf9a-fe67-5706-8325-c2032b259d74",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "12af2d21-f8aa-55d5-8a85-d0c75083f709",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "642557b5-3c44-592c-ba0b-8f292c13d813",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    }
+  ]
+}

@@ -1,0 +1,646 @@
+{
+  "schemaVersion": 1,
+  "chunk": "B1-P13",
+  "reviewer": {
+    "model": "claude-code/claude-fable-5-1",
+    "promptVersion": "review-v1",
+    "reviewedAt": "2026-11-01T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "108db02d-5c43-59de-9fc9-1fa969dcdd9a",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "04731c4d-03f3-5036-9eec-b6dc4c913310",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "6579f26d-d743-5bc1-a1fd-1858e1f7bce0",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "2b4ad060-cb0b-52a6-bf69-68676960bfd2",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "c75bf20c-1a0a-55d0-a80c-df996b5a904e",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "8a2866cd-e41b-5666-9c18-3ac1244f4285",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "5c096afe-3c1e-5328-9213-8153e2f5ac17",
+      "scores": {
+        "accuracy": 3,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": "діяти передчасно",
+      "issues": [
+        {
+          "reasonCode": "wrong_sense",
+          "suggestion": "«поспішати з висновками» — це jump to conclusions; за glossEn «act too soon» краще «діяти передчасно»."
+        }
+      ]
+    },
+    {
+      "id": "c6977641-a0c2-5b48-b1b6-5eb291ebc320",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "d42b8f6e-d2ac-5886-ad21-0ce8c02cb0c2",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "87c7bc15-9ce1-5372-9987-6ebca90db724",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "1a38ac6c-3cea-5fdd-a093-d30bc9c2631a",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "3da942ee-13e0-50aa-97be-c2ce8ce19bb0",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "0fd713ad-1931-5c6a-9727-784912763607",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "e173e6fc-ab49-51c3-b128-a579159595d2",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 4,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {
+          "reasonCode": "wrong_aspect",
+          "suggestion": "Недоконана пара до «перепробувати» — «перепробовувати», а не «пробувати»."
+        }
+      ]
+    },
+    {
+      "id": "744b55ca-b0ca-5b46-a3c0-42fa144e6df5",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 4
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {
+          "reasonCode": "wrong_topic",
+          "suggestion": "Тема communication не типова для «відпочити, розслабитися»; краще без тем, як в інвентарі."
+        }
+      ]
+    },
+    {
+      "id": "aeb849cc-7cca-576f-a61c-02a954a2be1f",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "add0a1ae-6f66-5f07-8996-b64eab4979f4",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "a6502dbb-775b-557d-8667-9e12f915f477",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "7b3c4624-fb78-5f0b-9838-465422a602fa",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "a7a6a316-e8d9-5706-ab6d-c6608cc23473",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "78ee87d5-7f8c-533d-a084-e7e9b19c3301",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 3,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": null,
+      "issues": [
+        {
+          "reasonCode": "too_long",
+          "suggestion": "exampleEn2 має 17 слів (ліміт 16); скоротити, напр. «Isn’t finding a cheap flat downtown like a needle in a haystack?»"
+        }
+      ]
+    },
+    {
+      "id": "87d8af21-91e9-59b9-a2c0-fc64c61b4fc9",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "e0e607b5-833b-5d47-8f95-8b37686ddd02",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "e7a2f9df-aa1a-5eea-a01d-f39502cbb2cf",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "2a0aa56d-ff39-5529-aa58-163957a0716d",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "ed11ef2a-e623-5f65-a294-98e017868a66",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "fe5ed6d8-66b4-5762-83ff-286745a9487f",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "7254ca79-1ca5-56e2-934e-f9fdea1bdd60",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "530ac321-78ef-5431-b3a6-f564fb9d4558",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "7f6e87f8-4895-5cf6-bc67-e384900de5e1",
+      "scores": {
+        "accuracy": 4,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {
+          "reasonCode": "wrong_sense",
+          "suggestion": "«побиватися за минулим» ширше за сенс; точніший відповідник — «сльозами горю не зарадиш» або «шкодувати за непоправним»."
+        }
+      ]
+    },
+    {
+      "id": "cfe4e69a-fbf4-5b0c-a5fb-3663e17d09b2",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "287900c9-6008-5bf0-9b3a-476197e665a3",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "7827ac11-47b2-5f87-ba81-11377da17b5f",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "327da5b6-4b3b-54fe-bba2-5e472351ad86",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "8a7764c5-972d-5017-91df-8ec88bb3be1f",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "95c603f5-9f5e-5f47-8584-8fc3639b1aac",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "ad778ffc-32d9-5b34-8ab9-2ac154b214a3",
+      "scores": {
+        "accuracy": 4,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": "поставити в незручне становище",
+      "issues": [
+        {
+          "reasonCode": "wrong_sense",
+          "suggestion": "«заскочити зненацька» — радше catch off guard; за glossEn точніше «поставити в незручне становище»."
+        }
+      ]
+    },
+    {
+      "id": "c9e815eb-f656-5bef-b6c6-4d1f03af8148",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "0ff2c031-29b7-58de-b0fc-84e6cf1b49d0",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "f0cfe336-e1dc-5470-8354-9d95f88b946b",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 3,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": "порушувати спокій",
+      "issues": [
+        {
+          "reasonCode": "unnatural_uk",
+          "suggestion": "«розхитувати човен» — калька; природніше «порушувати спокій» або «каламутити воду»."
+        }
+      ]
+    }
+  ]
+}

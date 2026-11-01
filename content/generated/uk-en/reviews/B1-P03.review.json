@@ -1,0 +1,662 @@
+{
+ "schemaVersion": 1,
+ "chunk": "B1-P03",
+ "reviewer": {
+  "model": "claude-code/claude-fable-5-1",
+  "promptVersion": "review-v1",
+  "reviewedAt": "2026-11-01T00:00:00+00:00"
+ },
+ "items": [
+  {
+   "id": "d075fc5d-9dd1-5c03-adbe-f6c6acd9bbf9",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "161477c1-cde6-59de-ac7f-7c7e7ccf9211",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "aa7ff004-83b3-5c06-bb04-740c1b392a1c",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 4,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 4
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "unnatural_uk",
+     "suggestion": "«Ви щось досліджували, перш ніж купити ноутбук?» природніше за «проводили якесь дослідження»."
+    },
+    {
+     "reasonCode": "wrong_topic",
+     "suggestion": "Тема it нетипова для «do research»; залишити лише work."
+    }
+   ]
+  },
+  {
+   "id": "65c27e59-96a8-5e0e-9a9a-a03d44432acb",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "173bf451-226b-5abf-b772-1fe34a4cb405",
+   "scores": {
+    "accuracy": 3,
+    "naturalness": 4,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 4
+   },
+   "autoReject": false,
+   "needsRegeneration": true,
+   "primaryAlternative": "завдавати шкоди",
+   "issues": [
+    {
+     "reasonCode": "wrong_sense",
+     "suggestion": "«Збитки» — фінансові втрати; для glossEn «harm or break» краще «завдавати шкоди» або «пошкоджувати»."
+    },
+    {
+     "reasonCode": "unnatural_uk",
+     "suggestion": "«Буря завдала чималої шкоди старому даху» замість «чималих збитків»."
+    },
+    {
+     "reasonCode": "wrong_topic",
+     "suggestion": "Тема city випадкова; залишити без тем."
+    }
+   ]
+  },
+  {
+   "id": "030891be-963c-5590-ab2e-226ff3e85fa3",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "ef076e9e-7b98-5d6c-9dcc-bd8587820e16",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "7a6c83ca-5fea-55ec-b8f7-b9d9a1108ada",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "c657f7bc-11dc-5519-98fe-bfe658934045",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "534c46ff-022d-5e7f-8a09-49698968b2a9",
+   "scores": {
+    "accuracy": 3,
+    "naturalness": 3,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": true,
+   "primaryAlternative": "ризикнути",
+   "issues": [
+    {
+     "reasonCode": "wrong_sense",
+     "suggestion": "«Спробувати навмання» = «наосліп»; glossEn «try although it may fail» точніше передає «ризикнути»."
+    },
+    {
+     "reasonCode": "unnatural_uk",
+     "suggestion": "У другому прикладі сенс фрази зник: «Чому б не ризикнути й не надіслати їм резюме?»."
+    }
+   ]
+  },
+  {
+   "id": "7ab2883a-7dcd-512a-b688-979abacd15db",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "9d988f72-25e5-5c64-8f59-97da2e240128",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "21b27eef-4f1e-555a-bbea-767d6c318ea4",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 4,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "wrong_aspect",
+     "suggestion": "Основний переклад доконаного виду «скористатися», тоді як решта чанка подає недоконаний: «користатися з нагоди»."
+    }
+   ]
+  },
+  {
+   "id": "0ec8176c-5408-5853-bf70-3a5cd2223bd9",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "38d16ff5-5fa4-5da8-8e6e-b61b27e8d580",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "c866d781-1697-58b8-94e6-be9faa3c0876",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 4
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "wrong_topic",
+     "suggestion": "Тема communication (0.4) не типова для «take an interest»; краще без тем."
+    }
+   ]
+  },
+  {
+   "id": "c1943548-088d-5931-8e9a-6890a7c18b30",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "90b2a9ff-27a8-5131-8e50-841e9b428e1c",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "f6052a27-127c-5719-8701-4b1b0661cac3",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "fad737d5-7d14-5742-b22b-a8629470cf9a",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "0729801a-9d9b-52eb-8634-f32e2332b71c",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "6a46f806-2ae9-5c85-87c9-336bbced1fd3",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "09c98333-8761-5877-8c58-15ed9aa765a6",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "dff0a349-9684-52c7-ac39-538c2e83203c",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "063f976c-959d-55c6-836c-2a1261dd245a",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "9cb7fe54-89b5-5d57-ae42-9f50dd9741c8",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "51de65e1-0db1-59b9-97b2-44dca538bd5a",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "6b836bf6-eda7-51f0-b984-ae8a9884db8e",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "2d499882-a094-5ec7-8ffe-df385bbab2c1",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "7b39b20f-29bd-50ac-8fb6-3cd748de38ce",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "9228da59-e1e8-5729-9f55-15beb5303911",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 4
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "wrong_topic",
+     "suggestion": "Тема work (0.4) випадкова для «give permission»; краще без тем."
+    }
+   ]
+  },
+  {
+   "id": "2c258fd2-8e31-5b98-b8d0-1ee8b91f6f52",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "25cc275a-70a4-534e-95ec-a5d877b8beb4",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "8e27993e-d46a-5890-b2f6-0a483d3bdaaa",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "4ab37768-a469-5d8d-b2ba-828accdd2330",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "3bcf7f4f-0ae2-547b-9fd8-234671f5428b",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "4427a271-d632-5fb0-8189-f66c8ae58248",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "5a734508-1e05-5859-b821-e97b60a893ff",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "fa3fc9e3-a2b9-583b-b7fe-cee03822febe",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 5,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": []
+  },
+  {
+   "id": "405d846a-9589-59b4-a580-9546a2f7021a",
+   "scores": {
+    "accuracy": 5,
+    "naturalness": 5,
+    "levelFit": 5,
+    "safety": 5,
+    "grammarNotes": 4,
+    "topics": 5
+   },
+   "autoReject": false,
+   "needsRegeneration": false,
+   "primaryAlternative": null,
+   "issues": [
+    {
+     "reasonCode": "other",
+     "suggestion": "«yield» в acceptedForms — окреме слово, а не форма фрази; прибрати або залишити лише в usageNote."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,641 @@
+{
+  "schemaVersion": 1,
+  "chunk": "B2-P16",
+  "reviewer": {
+    "model": "claude-code/claude-fable-5-1",
+    "promptVersion": "review-v1",
+    "reviewedAt": "2026-11-01T00:00:00+00:00"
+  },
+  "items": [
+    {
+      "id": "47ef306e-be8b-5cdb-b6cd-8ab4e16231fc",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "ad6442bf-16a8-59d5-baf4-3e50c3ffb95b",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "3eb0b9a7-651a-5ba2-9b0c-e0733dbc3e1d",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "c3dde000-f0e5-5e86-a515-8ba47c5043cf",
+      "scores": {
+        "accuracy": 4,
+        "naturalness": 3,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": "попри",
+      "issues": [
+        {
+          "reasonCode": "unnatural_uk",
+          "suggestion": "«перед лицем» — калька; за glossEn (despite) основний переклад «попри», у прикладі 1 — «попри серйозні труднощі»."
+        }
+      ]
+    },
+    {
+      "id": "e76ddc12-dd10-500b-9127-f5f5c448f79a",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "5c749dfd-a8ee-5b27-90df-c0ce22f7d63b",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "c3c0e1c6-3a29-5f8e-b676-04bb08ce825e",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "e8ff6463-9771-5b79-8c17-904af635cacf",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "3fd2f5e0-8759-566a-9372-6fcb9738cc65",
+      "scores": {
+        "accuracy": 4,
+        "naturalness": 4,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": "на підставі",
+      "issues": [
+        {
+          "reasonCode": "unnatural_uk",
+          "suggestion": "«з причини відсутності» канцелярське; природніше «на підставі», у прикладі 1 — «через відсутність документів»."
+        }
+      ]
+    },
+    {
+      "id": "3cca52a9-04c8-5939-9b9c-70938c8b87ed",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 4,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {
+          "reasonCode": "russism",
+          "suggestion": "«на грані» в altTranslations — росіянізм; лишити «на межі», «за крок від»."
+        }
+      ]
+    },
+    {
+      "id": "c1523b5f-46d1-5220-bf76-5497a7f430ee",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "fad5e37d-89ec-5f8d-810b-7c8fbe0b2d4a",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "da815a2a-28b0-5203-8407-d4b289e8beaf",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "99e87acd-b665-5021-86b8-2ff6f6f6dfa8",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "808e3854-ace3-52ec-a642-30f623368c1b",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "c2705c81-b628-5185-8281-69393b1a20c1",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "d6a219a2-a6c5-57e1-84c4-c48bd7838998",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "2fd573d1-e01b-5fe5-a62e-30a69618b2d4",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "77db43dc-590e-5c03-9b66-c62065e4b382",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "b0a7e6af-f683-5892-b9e3-7b81e7d9f33b",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "e257cf50-6634-5b70-96bc-8b30fcb55997",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 4,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {
+          "reasonCode": "unnatural_uk",
+          "suggestion": "Приклад 1: «Чи нова машина — не по суті» незграбно; краще «Нова машина чи ні — не в тому суть; вона потрібна нам сьогодні»."
+        }
+      ]
+    },
+    {
+      "id": "62e3edfd-9414-5101-990b-7c6bb490e993",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "ae1da9fa-c5b3-5b8a-bfed-c50fedef4467",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "ee125b61-a99c-59ff-a1ee-3bcc41a1eeee",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "cb8f1f08-a94c-5275-bc90-9838b104a1e4",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "f1153744-e43c-5d03-8d89-46dd6ed1a1e5",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "66c5fc60-6056-58a4-a09b-ea2191343a98",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "91c1039e-5919-5fcf-a066-07bc1ccd95cb",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "9c39320d-3607-5aaa-bbae-3e0ce2cafe7f",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "e3388bb7-4c87-5349-8339-19f65e6b119f",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "d6397871-4ac8-5ece-990f-09b3702f42e6",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "3964efbe-00c2-583f-884b-bd91eb72920f",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "80c4923a-4d1c-5144-8ba6-a611f6bc6238",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "2fed42e2-e2a3-58df-b7a2-a95c158ecd16",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "aeadc6b0-3740-578d-a968-7377ee6dcac8",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "7d692224-7087-5211-af9a-c8dbe68f1b10",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 4,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": [
+        {
+          "reasonCode": "unnatural_uk",
+          "suggestion": "Приклад 2: «лишили не в курсі» неприродно; краще «Чому команду дизайнерів тримали не в курсі?»"
+        }
+      ]
+    },
+    {
+      "id": "46a263e2-d39c-516a-90fa-0b4d86b00588",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "1ae90fe7-28fb-54a8-b9c8-6feafef6684b",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    },
+    {
+      "id": "c87058b5-b27e-5d99-9c66-cbb831b0fe28",
+      "scores": {
+        "accuracy": 4,
+        "naturalness": 3,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": true,
+      "primaryAlternative": "користується попитом",
+      "issues": [
+        {
+          "reasonCode": "russism",
+          "suggestion": "«затребуваний» — калька з «востребованный»; основний переклад «користується попитом» або «запитаний», у прикладах — «дуже потрібні» / «мають попит»."
+        }
+      ]
+    },
+    {
+      "id": "8d391a87-6401-5ed7-bc2f-654e34710139",
+      "scores": {
+        "accuracy": 5,
+        "naturalness": 5,
+        "levelFit": 5,
+        "safety": 5,
+        "grammarNotes": 5,
+        "topics": 5
+      },
+      "autoReject": false,
+      "needsRegeneration": false,
+      "primaryAlternative": null,
+      "issues": []
+    }
+  ]
+}

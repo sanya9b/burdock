@@ -1,0 +1,11 @@
+{
+ "schemaVersion": 1,
+ "chunk": "A1-P05",
+ "reviewer": {"model": "claude-code/claude-fable-5-1", "promptVersion": "review-v1", "reviewedAt": "2026-11-01T00:00:00+00:00"},
+ "items": [
+{"id": "cf8950b4-b935-53d4-8904-f112d4fed59a", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+{"id": "ba9d5e86-6afb-522c-be96-d9c41a897af3", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []},
+{"id": "4bb3f3bc-056f-5530-ada8-58e61771fab1", "scores": {"accuracy": 5, "naturalness": 4, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": [{"reasonCode": "other", "suggestion": "У другому прикладі кома зшиває два речення; краще «I don't think so. The bank is closed on Sunday.»"}]},
+{"id": "0fab897e-9e3d-5224-878f-0429bbdbc4bd", "scores": {"accuracy": 5, "naturalness": 5, "levelFit": 5, "safety": 5, "grammarNotes": 5, "topics": 5}, "autoReject": false, "needsRegeneration": false, "primaryAlternative": null, "issues": []}
+ ]
+}
