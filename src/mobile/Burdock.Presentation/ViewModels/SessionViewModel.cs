@@ -80,7 +80,7 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
     [ObservableProperty]
     private int _masteryStreak;
 
-    /// <summary>«Знаю це слово» is offered on graded exercises before the answer (journal item 19).</summary>
+    /// <summary>«Знаю це слово» is offered on graded exercises before the answer (journal item 20).</summary>
     [ObservableProperty]
     private bool _canKnow;
 

@@ -24,6 +24,7 @@ public sealed class PlanWidgetTimelineUseCaseTests
     private readonly InMemoryContentRepository _content = new();
     private readonly InMemoryCardRepository _cards = new();
     private readonly InMemoryExposureStore _exposures = new();
+    private readonly InMemoryRewardsStore _rewards = new();
     private readonly InMemoryProgressOutbox _outbox = new();
     private readonly InMemorySyncState _state = new();
     private readonly FakeLearnerContext _learner = new(Learner, LearnerSettings.Moderate(LanguagePair.UkrainianToEnglish, CefrLevel.A1, []) with { NewWordsPerDay = 5 });
@@ -159,7 +160,7 @@ public sealed class PlanWidgetTimelineUseCaseTests
     {
         var days = new LearningDayResolver(_clock);
         var plan = new GetDailyPlanUseCase(_learner, _content, _cards, _scheduler, _clock, days, new InMemoryDailyPlanCache());
-        return new PlanWidgetTimelineUseCase(_bridge, _learner, plan, _content, _cards, _exposures, _outbox, _state, _ids, _clock, days, NullLogger<PlanWidgetTimelineUseCase>.Instance);
+        return new PlanWidgetTimelineUseCase(_bridge, _learner, plan, _content, _cards, _exposures, _rewards, _outbox, _state, _ids, _clock, days, NullLogger<PlanWidgetTimelineUseCase>.Instance);
     }
 
     private sealed class RandomIds : IIdGenerator

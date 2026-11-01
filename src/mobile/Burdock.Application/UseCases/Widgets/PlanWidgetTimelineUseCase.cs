@@ -5,6 +5,7 @@ using Burdock.Application.UseCases.Planning;
 using Burdock.Application.UseCases.Sync;
 using Burdock.Domain.Exposure;
 using Burdock.Domain.Learning;
+using Burdock.Domain.Rewards;
 using Burdock.Domain.SharedKernel;
 using Burdock.Domain.Time;
 using Burdock.Domain.Widgets;
@@ -27,6 +28,7 @@ public sealed partial class PlanWidgetTimelineUseCase(
     IContentRepository content,
     ILearnerCardRepository cards,
     IExposureStore exposures,
+    IRewardsStore rewards,
     IProgressOutbox outbox,
     ISyncState state,
     IIdGenerator ids,
@@ -63,7 +65,10 @@ public sealed partial class PlanWidgetTimelineUseCase(
             LogFallbackCandidates(reason, candidates.Length);
         }
 
-        var timeline = WordTimelinePlanner.Plan(new TimelineRequest(now, clock.LocalTimeZone, settings, candidates));
+        // The widget wears the theme chosen in the shop (spec 07 §3.2.3); the planner default is the bloom theme.
+        var economy = await rewards.GetAsync(learnerId, cancellationToken).ConfigureAwait(false);
+        var themeId = Catalog.WidgetThemeId(economy?.Inventory.Theme ?? Catalog.DefaultThemeKey);
+        var timeline = WordTimelinePlanner.Plan(new TimelineRequest(now, clock.LocalTimeZone, settings, candidates, ThemeId: themeId));
 
         var unchanged = previous is not null
             && previous.PlannedUntil - now >= ReplanWhenRemainingBelow

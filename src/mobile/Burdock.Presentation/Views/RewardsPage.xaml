@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:Burdock.Presentation.ViewModels"
+             xmlns:controls="clr-namespace:Burdock.Presentation.Controls"
+             xmlns:views="clr-namespace:Burdock.Presentation.Views"
+             xmlns:icons="clr-namespace:Burdock.Presentation.Resources.Icons"
+             xmlns:strings="clr-namespace:Burdock.Presentation.Resources.Strings"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="Burdock.Presentation.Views.RewardsPage"
+             x:DataType="vm:RewardsViewModel"
+             Shell.NavBarIsVisible="False"
+             Shell.TabBarIsVisible="False"
+             Title="{x:Static strings:AppResources.Rewards_Title}">
+    <ContentPage.Resources>
+        <toolkit:IsEqualConverter x:Key="IsEqualConverter" />
+        <toolkit:InvertedBoolConverter x:Key="InvertedBoolConverter" />
+        <toolkit:IsStringNotNullOrEmptyConverter x:Key="IsNotNullOrEmptyConverter" />
+    </ContentPage.Resources>
+    <!-- S-16 «Нагороди» (spec 03; spec 07 §3.2.3): balance, a live preview of the burr wearing the selected item, the catalogue by sections, the freeze bank.
+         One mascot per screen: the preview. Prices are fixed, nothing is timed or random (Q34). -->
+    <Grid RowDefinitions="Auto,*">
+        <controls:TopBar Grid.Row="0" Title="{x:Static strings:AppResources.Rewards_Title}" LeadingIcon="{x:Static icons:Icon.ChevronLeft}"
+                         LeadingDescription="{x:Static strings:AppResources.Common_Back_Button}" Margin="{StaticResource PageInsetTop}">
+            <controls:TopBar.Trailing>
+                <Border Style="{StaticResource CurrencyPill}" SemanticProperties.Description="{Binding ThornsText}">
+                    <HorizontalStackLayout Spacing="{StaticResource Space2}">
+                        <Image Source="brand_mark.png" WidthRequest="{StaticResource SizeIconMd}" HeightRequest="{StaticResource SizeIconMd}" AutomationProperties.IsInAccessibleTree="False" />
+                        <Label Text="{Binding ThornsText}" Style="{StaticResource CurrencyPillText}" />
+                    </HorizontalStackLayout>
+                </Border>
+            </controls:TopBar.Trailing>
+        </controls:TopBar>
+
+        <ActivityIndicator Grid.Row="1" IsRunning="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Loading}}"
+                           IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Loading}}" VerticalOptions="Center" />
+
+        <!-- Without gamification the shop and the thorns are off (spec 03 §3.7) -->
+        <views:EmptyStateView Grid.Row="1" Title="{x:Static strings:AppResources.Shop_Off_Title}" Body="{x:Static strings:AppResources.Shop_Off_Body}" Mascot="mascot_sleep.png"
+                              IsVisible="{Binding ShowShop, Converter={StaticResource InvertedBoolConverter}}" VerticalOptions="Center" />
+
+        <ScrollView Grid.Row="1" IsVisible="{Binding ShowShop}">
+            <VerticalStackLayout Spacing="{StaticResource Space6}" Padding="{StaticResource PageInsetScroll}" MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
+
+                <!-- Preview: the burr tries the selected item on; the one action below buys, wears, takes off or chooses -->
+                <Border Style="{StaticResource CardTonal}">
+                    <VerticalStackLayout Spacing="{StaticResource Space3}">
+                        <controls:MascotView x:Name="Mascot" Mood="Joy" Outfit="{Binding PreviewOutfit}" AvatarFrame="{Binding PreviewFrame}" WidthRequest="{StaticResource SizeMascotLg}" HeightRequest="{StaticResource SizeMascotLg}" HorizontalOptions="Center"
+                                             SemanticProperties.Description="{Binding PreviewName}" />
+                        <Label Text="{Binding PreviewName}" Style="{StaticResource TypeHeadlineMd}" HorizontalTextAlignment="Center" SemanticProperties.HeadingLevel="Level2"
+                               TextColor="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
+                        <Label Text="{Binding PreviewStatus}" Style="{StaticResource TypeBodySm}" HorizontalTextAlignment="Center" LineBreakMode="WordWrap"
+                               TextColor="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
+                        <controls:PushButton Text="{Binding ActionText}" Command="{Binding ActCommand}" IsEnabled="{Binding CanAct}" IsLoading="{Binding IsBusy}"
+                                             IsVisible="{Binding ActionText, Converter={StaticResource IsNotNullOrEmptyConverter}}">
+                            <controls:PushButton.Triggers>
+                                <DataTrigger TargetType="controls:PushButton" Binding="{Binding ActionIsPurchase}" Value="False">
+                                    <Setter Property="Style" Value="{StaticResource PushTonal}" />
+                                </DataTrigger>
+                            </controls:PushButton.Triggers>
+                        </controls:PushButton>
+                    </VerticalStackLayout>
+                </Border>
+
+                <!-- Sections: outfits, widget themes, frames -->
+                <VerticalStackLayout Spacing="{StaticResource Space6}" BindableLayout.ItemsSource="{Binding Sections}">
+                    <BindableLayout.ItemTemplate>
+                        <DataTemplate x:DataType="vm:ShopSection">
+                            <VerticalStackLayout Spacing="{StaticResource Space3}">
+                                <Label Text="{Binding Title}" Style="{StaticResource SectionTitle}" SemanticProperties.HeadingLevel="Level2" />
+                                <FlexLayout Wrap="Wrap" Direction="Row" JustifyContent="Start" AlignItems="Stretch" BindableLayout.ItemsSource="{Binding Tiles}">
+                                    <BindableLayout.ItemTemplate>
+                                        <DataTemplate x:DataType="vm:ShopTile">
+                                            <Border Style="{StaticResource CatalogTile}" Margin="{StaticResource Space1}" FlexLayout.Basis="48%" FlexLayout.Grow="0"
+                                                    SemanticProperties.Description="{Binding Accessibility}">
+                                                <Border.Triggers>
+                                                    <DataTrigger TargetType="Border" Binding="{Binding IsSelected}" Value="True">
+                                                        <Setter Property="Style" Value="{StaticResource CatalogTileSelected}" />
+                                                    </DataTrigger>
+                                                    <DataTrigger TargetType="Border" Binding="{Binding Locked}" Value="True">
+                                                        <Setter Property="Opacity" Value="{StaticResource OpacityMuted}" />
+                                                    </DataTrigger>
+                                                </Border.Triggers>
+                                                <Border.GestureRecognizers>
+                                                    <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type vm:RewardsViewModel}}, Path=SelectCommand}" CommandParameter="{Binding .}" />
+                                                </Border.GestureRecognizers>
+                                                <VerticalStackLayout Spacing="{StaticResource Space2}">
+                                                    <Grid ColumnDefinitions="*,Auto">
+                                                        <Label Grid.Column="0" Text="{Binding Glyph}" Style="{StaticResource IconGlyph}" HorizontalOptions="Start"
+                                                               TextColor="{AppThemeBinding Light={StaticResource ColorBrandPrimaryLight}, Dark={StaticResource ColorBrandPrimaryDark}}" />
+                                                        <Label Grid.Column="1" Text="{x:Static icons:Icon.Check}" Style="{StaticResource IconGlyphSm}" IsVisible="{Binding Owned}"
+                                                               TextColor="{AppThemeBinding Light={StaticResource ColorFeedbackSuccessLight}, Dark={StaticResource ColorFeedbackSuccessDark}}" />
+                                                        <Label Grid.Column="1" Text="{x:Static icons:Icon.Lock}" Style="{StaticResource IconGlyphSm}" IsVisible="{Binding Locked}"
+                                                               TextColor="{AppThemeBinding Light={StaticResource ColorTextTertiaryLight}, Dark={StaticResource ColorTextTertiaryDark}}" />
+                                                    </Grid>
+                                                    <Label Text="{Binding Name}" Style="{StaticResource TypeTitleMd}" LineBreakMode="TailTruncation" MaxLines="1" />
+                                                    <HorizontalStackLayout Spacing="{StaticResource Space2}">
+                                                        <Label Text="{Binding PriceText}" Style="{StaticResource TextTertiary}" IsVisible="{Binding ShowPrice}" />
+                                                        <Label Text="{Binding StatusText}" Style="{StaticResource TextTertiary}" LineBreakMode="TailTruncation" MaxLines="1"
+                                                               IsVisible="{Binding StatusText, Converter={StaticResource IsNotNullOrEmptyConverter}}" />
+                                                    </HorizontalStackLayout>
+                                                </VerticalStackLayout>
+                                            </Border>
+                                        </DataTemplate>
+                                    </BindableLayout.ItemTemplate>
+                                </FlexLayout>
+                            </VerticalStackLayout>
+                        </DataTemplate>
+                    </BindableLayout.ItemTemplate>
+                </VerticalStackLayout>
+
+                <!-- Streak freeze: a bank of up to two, one free a week, one more for thorns once a week (FR-07-3) -->
+                <VerticalStackLayout Spacing="{StaticResource Space3}">
+                    <Label Text="{x:Static strings:AppResources.Shop_Section_Freeze}" Style="{StaticResource SectionTitle}" SemanticProperties.HeadingLevel="Level2" />
+                    <Border Style="{StaticResource CardElevated}">
+                        <VerticalStackLayout Spacing="{StaticResource Space3}">
+                            <Grid ColumnDefinitions="Auto,*" ColumnSpacing="{StaticResource Space3}">
+                                <Border Grid.Column="0" Style="{StaticResource IconWell}" VerticalOptions="Start">
+                                    <Label Text="{x:Static icons:Icon.Snowflake}" Style="{StaticResource IconGlyph}"
+                                           TextColor="{AppThemeBinding Light={StaticResource ColorStreakFrozenLight}, Dark={StaticResource ColorStreakFrozenDark}}" />
+                                </Border>
+                                <VerticalStackLayout Grid.Column="1" Spacing="{StaticResource Space1}" VerticalOptions="Center">
+                                    <Label Text="{Binding FreezeBankedText}" Style="{StaticResource TypeTitleMd}" />
+                                    <Label Text="{x:Static strings:AppResources.Shop_Freeze_Body}" Style="{StaticResource TextTertiary}" LineBreakMode="WordWrap" />
+                                </VerticalStackLayout>
+                            </Grid>
+                            <controls:PushButton Style="{StaticResource PushTonal}" Text="{Binding FreezeActionText}" Icon="{x:Static icons:Icon.Snowflake}" Command="{Binding BuyFreezeCommand}" IsEnabled="{Binding CanBuyFreeze}" />
+                            <Label Text="{Binding FreezeHint}" Style="{StaticResource TextTertiary}" HorizontalTextAlignment="Center"
+                                   IsVisible="{Binding FreezeHint, Converter={StaticResource IsNotNullOrEmptyConverter}}" />
+                        </VerticalStackLayout>
+                    </Border>
+                </VerticalStackLayout>
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

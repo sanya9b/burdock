@@ -39,6 +39,25 @@ public sealed class RewardsStateRow
     public bool TodayLearningDayBonus { get; set; }
 
     public Guid? LastSessionId { get; set; }
+
+    /// <summary>Comma-separated catalogue keys the learner owns (spec 07 §3.2.3); the default theme is implicit.</summary>
+    public string OwnedItems { get; set; } = string.Empty;
+
+    public string? EquippedOutfit { get; set; }
+
+    public string? EquippedFrame { get; set; }
+
+    public string? EquippedTheme { get; set; }
+
+    public int FreezesBanked { get; set; }
+
+    /// <summary>Monday-based week number of the last automatic freeze grant, -1 when none.</summary>
+    public int FreezeGrantWeek { get; set; } = -1;
+
+    /// <summary>Day number of the last freeze bought in the shop, 0 when none.</summary>
+    public int FreezePurchaseDay { get; set; }
+
+    public int LearningDays { get; set; }
 }
 
 [Table("ledger_events")]
@@ -113,7 +132,15 @@ public sealed class SqliteRewardsStore(BurdockDatabase database) : IRewardsStore
         var today = row.TodayDay > 0
             ? new DailyEarn(new LearningDay(DateOnly.FromDayNumber(row.TodayDay)), row.TodayRepeatableThorns, row.TodaySessions, row.TodayWordsLearned, row.TodayLearningDayBonus)
             : null;
-        return new RewardsState(row.Thorns, row.Xp, new StreakState(row.StreakLength, row.StreakLongest, lastDay), achievements, row.SessionsCompleted, today, row.LastSessionId);
+        var streak = new StreakState(row.StreakLength, row.StreakLongest, lastDay)
+        {
+            FreezesBanked = row.FreezesBanked,
+            LastFreezeGrantWeek = row.FreezeGrantWeek >= 0 ? row.FreezeGrantWeek : null,
+            LastFreezePurchaseDay = row.FreezePurchaseDay > 0 ? new LearningDay(DateOnly.FromDayNumber(row.FreezePurchaseDay)) : null,
+        };
+        var owned = new HashSet<string>(row.OwnedItems.Split(',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries), StringComparer.Ordinal) { Catalog.DefaultThemeKey };
+        var inventory = new Inventory(owned, row.EquippedOutfit, row.EquippedFrame, string.IsNullOrEmpty(row.EquippedTheme) ? Catalog.DefaultThemeKey : row.EquippedTheme);
+        return new RewardsState(row.Thorns, row.Xp, streak, achievements, row.SessionsCompleted, today, row.LastSessionId) { Inventory = inventory, LearningDays = row.LearningDays };
     }
 
     private static RewardsStateRow ToRow(LearnerId learnerId, RewardsState state) => new()
@@ -132,5 +159,13 @@ public sealed class SqliteRewardsStore(BurdockDatabase database) : IRewardsStore
         TodayWordsLearned = state.Today?.WordsLearned ?? 0,
         TodayLearningDayBonus = state.Today?.LearningDayBonusGiven ?? false,
         LastSessionId = state.LastSessionId,
+        OwnedItems = string.Join(",", state.Inventory.Owned.Order(StringComparer.Ordinal)),
+        EquippedOutfit = state.Inventory.Outfit,
+        EquippedFrame = state.Inventory.Frame,
+        EquippedTheme = state.Inventory.Theme,
+        FreezesBanked = state.Streak.FreezesBanked,
+        FreezeGrantWeek = state.Streak.LastFreezeGrantWeek ?? -1,
+        FreezePurchaseDay = state.Streak.LastFreezePurchaseDay?.Date.DayNumber ?? 0,
+        LearningDays = state.LearningDays,
     };
 }

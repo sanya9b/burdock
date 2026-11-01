@@ -51,6 +51,7 @@ public sealed partial class MascotView
         var lift = (float)Math.Max(pose.OffsetY * r, -headroom);
         var hopFraction = Math.Clamp(-lift / Math.Max(1e-3f, r * (float)MascotChoreography.HopHeight), 0, 1);
 
+        DrawFrame(canvas, dirtyRect, side, u);
         DrawGroundShadow(canvas, cx, anchorY + hookLen * 0.9f + 2 * u, r, u, pose.ScaleX, hopFraction);
 
         canvas.SaveState();
@@ -72,11 +73,13 @@ public sealed partial class MascotView
         }
 
         DrawLeaves(canvas, cx, cy, r, u, stageIndex, pop, pose.LeafSway);
+        DrawOutfitBehind(canvas, cx, cy, r, u);
         DrawHooks(canvas, cx, cy, r, u, hookLen, hookCount, pose);
         DrawBody(canvas, cx, cy, r, u);
         DrawTopper(canvas, cx, cy, r, u, hookLen, stageIndex, pop, pose.LeafSway);
         DrawFace(canvas, cx, cy, u, pose);
         DrawExtras(canvas, cx, cy, r, u, pose);
+        DrawOutfit(canvas, cx, cy, r, u);
         if (pose.Flash > 0.01)
         {
             // The white-out of the burst: the old form disappears into light and the new one is what the fading flash reveals.

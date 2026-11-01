@@ -40,7 +40,10 @@
                                     <Label Text="{Binding StreakText}" Style="{StaticResource StreakBadgeText}" />
                                 </HorizontalStackLayout>
                             </Border>
-                            <Border Style="{StaticResource CurrencyPill}">
+                            <Border Style="{StaticResource CurrencyPill}" SemanticProperties.Hint="{x:Static strings:AppResources.Me_Rewards_Row}">
+                                <Border.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding OpenRewardsCommand}" />
+                                </Border.GestureRecognizers>
                                 <HorizontalStackLayout Spacing="{StaticResource Space1}">
                                     <Image Source="brand_mark.png" WidthRequest="{StaticResource SizeIconSm}" HeightRequest="{StaticResource SizeIconSm}" AutomationProperties.IsInAccessibleTree="False" />
                                     <Label Text="{Binding ThornsText}" Style="{StaticResource CurrencyPillText}" />

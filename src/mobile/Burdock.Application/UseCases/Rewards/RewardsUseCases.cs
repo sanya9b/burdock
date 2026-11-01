@@ -51,7 +51,9 @@ public sealed record RewardsOverview(
     int StreakLength,
     bool StreakCountedToday,
     IReadOnlySet<string> Achievements,
-    bool GamificationEnabled);
+    bool GamificationEnabled,
+    Inventory Inventory,
+    int FreezesBanked);
 
 public sealed class GetRewardsOverviewUseCase(ILearnerContext learner, IRewardsStore rewards, LearningDayResolver learningDays)
 {
@@ -62,6 +64,6 @@ public sealed class GetRewardsOverviewUseCase(ILearnerContext learner, IRewardsS
         var state = await rewards.GetAsync(learnerId, cancellationToken).ConfigureAwait(false) ?? RewardsState.Empty;
         var today = learningDays.Today();
         var (earned, needed) = XpRules.LevelProgress(state.Xp);
-        return new RewardsOverview(state.Thorns, state.Xp, state.Level, earned, needed, GrowthRules.For(state.Xp), state.Streak.LengthOn(today), state.Streak.IsCountedOn(today), state.Achievements, settings.GamificationEnabled);
+        return new RewardsOverview(state.Thorns, state.Xp, state.Level, earned, needed, GrowthRules.For(state.Xp), state.Streak.LengthOn(today), state.Streak.IsCountedOn(today), state.Achievements, settings.GamificationEnabled, state.Inventory, state.Streak.FreezesBanked);
     }
 }

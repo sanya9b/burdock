@@ -23,6 +23,7 @@ public partial class AppShell : Shell
         Routing.RegisterRoute("session", typeof(SessionPage));
         Routing.RegisterRoute("summary", typeof(SessionSummaryPage));
         Routing.RegisterRoute("settings", typeof(SettingsPage));
+        Routing.RegisterRoute("rewards", typeof(RewardsPage));
     }
 
     // First sync once the main UI is on screen: account, progress, settings, content (spec 09 section 3.3); later passes come from resume and sessions.

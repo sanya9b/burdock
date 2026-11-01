@@ -37,6 +37,9 @@ public static class ApplicationServiceCollectionExtensions
         services.AddTransient<BuildPlacementQuizUseCase>();
         services.AddTransient<SettleSessionRewardsUseCase>();
         services.AddTransient<GetRewardsOverviewUseCase>();
+        services.AddTransient<GetShopUseCase>();
+        services.AddTransient<PurchaseItemUseCase>();
+        services.AddTransient<EquipItemUseCase>();
         services.AddTransient<SyncProgressUseCase>();
         services.AddTransient<SyncSettingsUseCase>();
         services.AddTransient<RefreshContentUseCase>();

@@ -147,7 +147,7 @@ public sealed partial class WordsViewModel : ObservableObject
         await RefreshAsync(cancellationToken).ConfigureAwait(true);
     }
 
-    /// <summary>Swipe action «Знаю» (S-14, journal item 19): the card becomes known and the row shows it without reloading the list.</summary>
+    /// <summary>Swipe action «Знаю» (S-14, journal item 20): the card becomes known and the row shows it without reloading the list.</summary>
     [RelayCommand]
     private async Task KnowAsync(WordRow? row)
     {

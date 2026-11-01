@@ -115,6 +115,9 @@ public sealed partial class TodayViewModel : ObservableObject
         LearningDayText = string.Format(Ukrainian, LearningDayFormat, day.Date.ToString("d MMMM", Ukrainian));
     }
 
+    [RelayCommand]
+    private Task OpenRewardsAsync(CancellationToken cancellationToken) => _navigation.GoToAsync(Routes.Me.Rewards, null, cancellationToken);
+
     [RelayCommand(AllowConcurrentExecutions = false)]
     public async Task LoadAsync(CancellationToken cancellationToken)
     {

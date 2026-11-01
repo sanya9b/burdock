@@ -414,4 +414,71 @@
   <data name="Mascot_A11y_Hint" xml:space="preserve"><value>Торкнись, щоб привітатися</value><comment>Підказка читача екрана для маскота: дотик викликає радісний жест</comment></data>
   <data name="Celebration_Growth_Eyebrow" xml:space="preserve"><value>Реп’яшок підріс</value></data>
   <data name="Celebration_Growth_Body" xml:space="preserve"><value>Кожна сесія підживлює його. Так тримати!</value></data>
+  <data name="Catalog_theme_bloom" xml:space="preserve"><value>Цвіт</value></data>
+  <data name="Catalog_theme_meadow" xml:space="preserve"><value>Луг</value></data>
+  <data name="Catalog_theme_night" xml:space="preserve"><value>Ніч</value></data>
+  <data name="Catalog_theme_sun" xml:space="preserve"><value>Сонце</value></data>
+  <data name="Catalog_outfit_scarf" xml:space="preserve"><value>Шарфик</value></data>
+  <data name="Catalog_outfit_glasses" xml:space="preserve"><value>Окуляри</value></data>
+  <data name="Catalog_outfit_strawhat" xml:space="preserve"><value>Бриль</value></data>
+  <data name="Catalog_outfit_backpack" xml:space="preserve"><value>Рюкзачок</value></data>
+  <data name="Catalog_outfit_raincoat" xml:space="preserve"><value>Дощовик</value></data>
+  <data name="Catalog_outfit_wreath" xml:space="preserve"><value>Віночок</value></data>
+  <data name="Catalog_outfit_sweater" xml:space="preserve"><value>Светр із оленями</value></data>
+  <data name="Catalog_outfit_bandana" xml:space="preserve"><value>Бандана</value></data>
+  <data name="Catalog_outfit_vyshyvanka" xml:space="preserve"><value>Вишиванка</value></data>
+  <data name="Catalog_outfit_spacehelmet" xml:space="preserve"><value>Космічний шолом</value></data>
+  <data name="Catalog_outfit_crown" xml:space="preserve"><value>Корона</value></data>
+  <data name="Catalog_frame_leaf" xml:space="preserve"><value>Листочок</value></data>
+  <data name="Catalog_frame_lime" xml:space="preserve"><value>Лаймова</value></data>
+  <data name="Catalog_frame_violet" xml:space="preserve"><value>Фіолетова</value></data>
+  <data name="Catalog_frame_coral" xml:space="preserve"><value>Коралова</value></data>
+  <data name="Catalog_frame_sunny" xml:space="preserve"><value>Сонячна</value></data>
+  <data name="Catalog_frame_sky" xml:space="preserve"><value>Небесна</value></data>
+  <data name="Catalog_frame_gold" xml:space="preserve"><value>Золота</value></data>
+  <data name="Catalog_freeze_freeze" xml:space="preserve"><value>Заморозка на день</value></data>
+  <data name="Rewards_Title" xml:space="preserve"><value>Нагороди</value></data>
+  <data name="Me_Rewards_Row" xml:space="preserve"><value>Нагороди</value></data>
+  <data name="Me_Rewards_Row_Hint" xml:space="preserve"><value>Крамниця колючок, вбрання Реп’яшка, заморозка серії</value></data>
+  <data name="Shop_Section_Outfits" xml:space="preserve"><value>Вбрання Реп’яшка</value></data>
+  <data name="Shop_Section_Themes" xml:space="preserve"><value>Теми віджета</value></data>
+  <data name="Shop_Section_Frames" xml:space="preserve"><value>Рамки</value></data>
+  <data name="Shop_Section_Freeze" xml:space="preserve"><value>Заморозка серії</value></data>
+  <data name="Shop_Preview_Hint" xml:space="preserve"><value>Торкнись плитки, щоб приміряти</value></data>
+  <data name="Shop_Gift" xml:space="preserve"><value>Подарунок</value></data>
+  <data name="Shop_Owned" xml:space="preserve"><value>Є</value></data>
+  <data name="Shop_Worn" xml:space="preserve"><value>Вдягнуто</value></data>
+  <data name="Shop_Chosen" xml:space="preserve"><value>Обрано</value></data>
+  <data name="Shop_Buy_Button" xml:space="preserve"><value>Купити за {0}</value></data>
+  <data name="Shop_Wear_Button" xml:space="preserve"><value>Вдягнути</value></data>
+  <data name="Shop_TakeOff_Button" xml:space="preserve"><value>Зняти</value></data>
+  <data name="Shop_Choose_Button" xml:space="preserve"><value>Обрати тему</value></data>
+  <data name="Shop_Default_Button" xml:space="preserve"><value>Повернути «Цвіт»</value></data>
+  <data name="Shop_Missing" xml:space="preserve"><value>Не вистачає {0}</value></data>
+  <data name="Shop_Earn_Hint" xml:space="preserve"><value>Колючки заробляються в сесіях</value></data>
+  <data name="Shop_Unlock_Level" xml:space="preserve"><value>Відкриється на рівні {0}</value></data>
+  <data name="Shop_Unlock_Streak" xml:space="preserve"><value>Відкриється за серію {0}</value></data>
+  <data name="Shop_Unlock_Words" xml:space="preserve"><value>Відкриється за {0} у «Вивчено»</value></data>
+  <data name="Shop_Unlock_Days" xml:space="preserve"><value>Відкриється за {0} навчальних днів</value></data>
+  <data name="Shop_Unlock_Sessions" xml:space="preserve"><value>Відкриється після першої сесії</value></data>
+  <data name="Shop_Freeze_Banked" xml:space="preserve"><value>У запасі {0} з {1}</value></data>
+  <data name="Shop_Freeze_Body" xml:space="preserve"><value>Покриває пропущений день, і серія триває. Одна безкоштовна щотижня, ще одну можна купити.</value></data>
+  <data name="Shop_Freeze_Cooldown" xml:space="preserve"><value>Наступну можна купити за тиждень після попередньої</value></data>
+  <data name="Shop_Freeze_Full" xml:space="preserve"><value>Запас повний</value></data>
+  <data name="Shop_Purchased_Toast" xml:space="preserve"><value>Куплено: {0}</value></data>
+  <data name="Shop_Worn_Toast" xml:space="preserve"><value>Реп’яшок вдягнув: {0}</value></data>
+  <data name="Shop_TakenOff_Toast" xml:space="preserve"><value>Знято</value></data>
+  <data name="Shop_Theme_Toast" xml:space="preserve"><value>Тема віджета: {0}</value></data>
+  <data name="Shop_Freeze_Toast" xml:space="preserve"><value>Заморозку додано в запас</value></data>
+  <data name="Shop_Tile_A11y" xml:space="preserve"><value>{0}, {1}</value></data>
+  <data name="Shop_Off_Title" xml:space="preserve"><value>Крамниця вимкнена</value></data>
+  <data name="Shop_Off_Body" xml:space="preserve"><value>Разом із гейміфікацією вимкнені колючки й крамниця. Увімкни їх у налаштуваннях, щоб вдягати Реп’яшка.</value></data>
+  <data name="Shop_Words_One" xml:space="preserve"><value>{0} слово</value></data>
+  <data name="Shop_Words_Few" xml:space="preserve"><value>{0} слова</value></data>
+  <data name="Shop_Words_Many" xml:space="preserve"><value>{0} слів</value></data>
+  <data name="Shop_Lock_Level" xml:space="preserve"><value>Рівень {0}</value><comment>Коротка умова на плитці крамниці</comment></data>
+  <data name="Shop_Lock_Streak" xml:space="preserve"><value>Серія {0}</value></data>
+  <data name="Shop_Lock_Words" xml:space="preserve"><value>{0} у «Вивчено»</value></data>
+  <data name="Shop_Lock_Days" xml:space="preserve"><value>{0} навч. днів</value></data>
+  <data name="Shop_Lock_Sessions" xml:space="preserve"><value>Після 1-ї сесії</value></data>
 </root>

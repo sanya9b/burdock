@@ -72,7 +72,7 @@
                         IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Ready}}">
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="vm:WordRow">
-                    <!-- Swipe left for «Знаю» (S-14 context actions, journal item 19): the row keeps its tap-to-open behaviour. -->
+                    <!-- Swipe left for «Знаю» (S-14 context actions, journal item 20): the row keeps its tap-to-open behaviour. -->
                     <SwipeView Threshold="{StaticResource SizeSwipeThreshold}">
                         <SwipeView.RightItems>
                             <SwipeItems Mode="Execute">

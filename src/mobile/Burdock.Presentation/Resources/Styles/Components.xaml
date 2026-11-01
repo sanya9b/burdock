@@ -443,6 +443,22 @@
         <Setter Property="Padding" Value="{StaticResource Space6}" />
         <Setter Property="MaximumWidthRequest" Value="{StaticResource SizeContentMaxWidth}" />
     </Style>
+    <!-- CatalogTile (S-16 shop): a quiet elevated tile; the selected one gets a brand-coloured strong edge, owned ones a check, locked ones a lock. -->
+    <Style x:Key="CatalogTile" TargetType="Border">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorSurfaceElevatedLight}, Dark={StaticResource ColorSurfaceElevatedDark}}" />
+        <Setter Property="Stroke" Value="{AppThemeBinding Light={StaticResource ColorBorderDefaultLight}, Dark={StaticResource ColorBorderDefaultDark}}" />
+        <Setter Property="StrokeThickness" Value="{StaticResource BorderWidthHairline}" />
+        <Setter Property="StrokeShape">
+            <RoundRectangle CornerRadius="{StaticResource CornerRadiusLg}" />
+        </Setter>
+        <Setter Property="Padding" Value="{StaticResource Space3}" />
+        <Setter Property="MinimumHeightRequest" Value="{StaticResource SizeTouchTargetMin}" />
+    </Style>
+    <Style x:Key="CatalogTileSelected" TargetType="Border" BasedOn="{StaticResource CatalogTile}">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorBrandPrimaryContainerLight}, Dark={StaticResource ColorBrandPrimaryContainerDark}}" />
+        <Setter Property="Stroke" Value="{AppThemeBinding Light={StaticResource ColorBrandPrimaryLight}, Dark={StaticResource ColorBrandPrimaryDark}}" />
+        <Setter Property="StrokeThickness" Value="{StaticResource BorderWidthStrong}" />
+    </Style>
     <Style x:Key="AchievementTile" TargetType="Border">
         <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorSurfaceElevatedLight}, Dark={StaticResource ColorSurfaceElevatedDark}}" />
         <Setter Property="Stroke" Value="{AppThemeBinding Light=Transparent, Dark={StaticResource ColorBorderDefaultDark}}" />
@@ -487,6 +503,14 @@
         <Setter Property="BloomColor" Value="{StaticResource Violet300}" />
         <Setter Property="BloomEdgeColor" Value="{StaticResource Coral300}" />
         <Setter Property="AccentColor" Value="{StaticResource Sunny400}" />
+        <Setter Property="OutfitWarmColor" Value="{StaticResource Coral400}" />
+        <Setter Property="OutfitWarmEdgeColor" Value="{StaticResource Coral600}" />
+        <Setter Property="OutfitCoolColor" Value="{StaticResource Sky400}" />
+        <Setter Property="OutfitCoolEdgeColor" Value="{StaticResource Sky600}" />
+        <Setter Property="OutfitSunColor" Value="{StaticResource Sunny300}" />
+        <Setter Property="OutfitSunEdgeColor" Value="{StaticResource Sunny600}" />
+        <Setter Property="OutfitLightColor" Value="{StaticResource Neutral0}" />
+        <Setter Property="OutfitInkColor" Value="{StaticResource Neutral950}" />
         <Setter Property="GrowthDuration" Value="{StaticResource MotionDurationCelebrate}" />
         <Setter Property="BackgroundColor" Value="Transparent" />
     </Style>

@@ -6,13 +6,18 @@ public enum Currency
 {
     Thorns,
     Xp,
+    None,
 }
 
+/// <summary>Ledger event kinds (spec 07 §3.7.1 subset). New kinds are appended: the SQLite store keeps the integer value.</summary>
 public enum LedgerEventType
 {
     Earn,
     StreakMilestone,
     AchievementUnlock,
+    Spend,
+    FreezeGrant,
+    FreezeConsume,
 }
 
 /// <summary>Append-only economy event (spec 07 §3.7.1 subset: no signatures or suspicion flags until the server reconciles).</summary>
@@ -44,6 +49,12 @@ public sealed record RewardsState(
 {
     public static RewardsState Empty { get; } = new(0, 0, StreakState.Empty, new HashSet<string>(StringComparer.Ordinal), 0, null, null);
 
+    /// <summary>Owned and worn cosmetics (spec 07 §3.2.3).</summary>
+    public Inventory Inventory { get; init; } = Inventory.Empty;
+
+    /// <summary>Distinct learning days ever counted (unlock condition of the «Луг» theme; the login calendar later).</summary>
+    public int LearningDays { get; init; }
+
     public int Level => XpRules.LevelFor(Xp);
 }
 
@@ -72,7 +83,9 @@ public sealed record SessionSettlement(
     int StreakBefore,
     int StreakAfter,
     int? StreakMilestone,
-    IReadOnlyList<AchievementDefinition> NewAchievements)
+    IReadOnlyList<AchievementDefinition> NewAchievements,
+    int FreezesConsumed = 0,
+    bool FreezeGranted = false)
 {
     public bool LeveledUp => LevelAfter > LevelBefore;
 
@@ -155,6 +168,9 @@ public static class RewardsEngine
 
         // Thorns: session, first session of the learning day, learned words; all under the daily cap.
         var streak = state.Streak;
+        var learningDays = state.LearningDays;
+        var freezesConsumed = 0;
+        var freezeGranted = false;
         if (report.LearningDayCounted)
         {
             if (today.Sessions < SessionsCappedPerDay)
@@ -169,7 +185,26 @@ public static class RewardsEngine
                 today = today with { LearningDayBonusGiven = true };
             }
 
-            streak = StreakRules.Count(streak, day);
+            // The weekly free freeze is banked before counting, so the first learning day of a week can already cover the gap before it.
+            if (StreakRules.GrantWeeklyFreeze(streak, day) is { } granted)
+            {
+                streak = granted;
+                freezeGranted = true;
+                events.Add(new LedgerEvent(newId(), LedgerEventType.FreezeGrant, 0, Currency.None, "streak.freeze.weekly", report.SessionId, now, day));
+            }
+
+            if (!streak.IsCountedOn(day))
+            {
+                learningDays++;
+            }
+
+            var counted = StreakRules.CountWithFreezes(streak, day);
+            streak = counted.State;
+            freezesConsumed = counted.FreezesConsumed;
+            for (var i = 0; i < freezesConsumed; i++)
+            {
+                events.Add(new LedgerEvent(newId(), LedgerEventType.FreezeConsume, 0, Currency.None, "streak.freeze.applied", report.SessionId, now, day));
+            }
         }
 
         var rewardableWords = Math.Max(0, Math.Min(report.WordsLearned, WordsLearnedCappedPerDay - today.WordsLearned));
@@ -201,7 +236,7 @@ public static class RewardsEngine
             Earn(Currency.Xp, XpRules.Achievement, $"xp.achievement:{achievement.Id}", LedgerEventType.AchievementUnlock);
         }
 
-        var next = new RewardsState(state.Thorns + thorns, state.Xp + xp, streak, unlocked, sessions, today, report.SessionId);
-        return new SessionSettlement(next, events, xp, thorns, levelBefore, next.Level, streakBefore, streakAfter, milestone, fresh);
+        var next = new RewardsState(state.Thorns + thorns, state.Xp + xp, streak, unlocked, sessions, today, report.SessionId) { Inventory = state.Inventory, LearningDays = learningDays };
+        return new SessionSettlement(next, events, xp, thorns, levelBefore, next.Level, streakBefore, streakAfter, milestone, fresh, freezesConsumed, freezeGranted);
     }
 }

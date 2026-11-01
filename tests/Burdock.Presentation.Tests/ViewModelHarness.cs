@@ -160,6 +160,7 @@ public sealed class ViewModelHarness
         services.AddTransient<SessionViewModel>();
         services.AddTransient<SessionSummaryViewModel>();
         services.AddTransient<SettingsViewModel>();
+        services.AddTransient<RewardsViewModel>();
         return services.BuildServiceProvider();
     }
 }

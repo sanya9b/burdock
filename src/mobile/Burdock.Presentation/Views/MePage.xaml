@@ -17,7 +17,7 @@
             <!-- Growth hero: one mascot per screen (spec 02 §3.10). The burr grows with XP and never shrinks; without gamification it is the grown-up illustration. -->
             <Border Style="{StaticResource CardTonal}">
                 <VerticalStackLayout Spacing="{StaticResource Space2}">
-                    <controls:MascotView x:Name="Mascot" Stage="{Binding GrowthStage}" Progress="{Binding GrowthProgress}" Mood="Proud"
+                    <controls:MascotView x:Name="Mascot" Stage="{Binding GrowthStage}" Progress="{Binding GrowthProgress}" Mood="Proud" Outfit="{Binding Outfit}" AvatarFrame="{Binding Frame}"
                                          WidthRequest="{StaticResource SizeMascotLg}" HeightRequest="{StaticResource SizeMascotLg}" HorizontalOptions="Center"
                                          SemanticProperties.Description="{Binding GrowthDescription}" SemanticProperties.Hint="{x:Static strings:AppResources.Mascot_A11y_Hint}" />
                     <Label Text="{Binding StageName}" Style="{StaticResource TypeHeadlineMd}" HorizontalTextAlignment="Center" IsVisible="{Binding ShowRewards}" SemanticProperties.HeadingLevel="Level2"
@@ -36,7 +36,10 @@
                     </Grid>
                     <ProgressBar Progress="{Binding XpProgress}" Style="{StaticResource XpBar}" />
                     <HorizontalStackLayout Spacing="{StaticResource Space2}">
-                        <Border Style="{StaticResource CurrencyPill}">
+                        <Border Style="{StaticResource CurrencyPill}" SemanticProperties.Hint="{x:Static strings:AppResources.Me_Rewards_Row}">
+                            <Border.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding OpenRewardsCommand}" />
+                            </Border.GestureRecognizers>
                             <HorizontalStackLayout Spacing="{StaticResource Space2}">
                                 <Image Source="brand_mark.png" WidthRequest="{StaticResource SizeIconMd}" HeightRequest="{StaticResource SizeIconMd}" AutomationProperties.IsInAccessibleTree="False" />
                                 <Label Text="{Binding ThornsText}" Style="{StaticResource CurrencyPillText}" />
@@ -125,6 +128,26 @@
                     </BindableLayout.ItemTemplate>
                 </VerticalStackLayout>
             </VerticalStackLayout>
+
+            <!-- Rewards: the shop (S-16); hidden without gamification like the pills above -->
+            <Border Style="{StaticResource CardElevated}" Padding="{StaticResource Space2}" IsVisible="{Binding ShowRewards}">
+                <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="{StaticResource Space3}" Padding="{StaticResource ChipInset}" MinimumHeightRequest="{StaticResource SizePushButtonHeight}"
+                      SemanticProperties.Description="{x:Static strings:AppResources.Me_Rewards_Row}">
+                    <Grid.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding OpenRewardsCommand}" />
+                    </Grid.GestureRecognizers>
+                    <Border Grid.Column="0" Style="{StaticResource IconWell}">
+                        <Label Text="{x:Static icons:Icon.Gift}" Style="{StaticResource IconGlyph}"
+                               TextColor="{AppThemeBinding Light={StaticResource ColorRewardCurrencyLight}, Dark={StaticResource ColorRewardCurrencyDark}}" />
+                    </Border>
+                    <VerticalStackLayout Grid.Column="1" Spacing="{StaticResource Space1}" VerticalOptions="Center">
+                        <Label Text="{x:Static strings:AppResources.Me_Rewards_Row}" Style="{StaticResource TypeTitleMd}" />
+                        <Label Text="{x:Static strings:AppResources.Me_Rewards_Row_Hint}" Style="{StaticResource TextTertiary}" LineBreakMode="WordWrap" />
+                    </VerticalStackLayout>
+                    <Label Grid.Column="2" Text="{x:Static icons:Icon.ChevronRight}" Style="{StaticResource IconGlyph}" VerticalOptions="Center"
+                           TextColor="{AppThemeBinding Light={StaticResource ColorTextTertiaryLight}, Dark={StaticResource ColorTextTertiaryDark}}" />
+                </Grid>
+            </Border>
 
             <Border Style="{StaticResource CardElevated}" Padding="{StaticResource Space2}">
                 <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="{StaticResource Space3}" Padding="{StaticResource ChipInset}" MinimumHeightRequest="{StaticResource SizePushButtonHeight}"

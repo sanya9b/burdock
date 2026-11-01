@@ -68,7 +68,7 @@ public sealed class RewardsTests
         result.StreakAfter.ShouldBe(1);
         result.NewAchievements.Select(a => a.Id).ShouldBe([AchievementIds.FirstStep]);
         result.State.SessionsCompleted.ShouldBe(1);
-        result.Events.Count.ShouldBe(8);
+        result.Events.Count.ShouldBe(9); // + the weekly freeze grant (FR-07-3)
 
         var again = RewardsEngine.Settle(result.State, report, new ProgressCounters(1, 3, 10), Day1, Now, NewId);
         again.IsEmpty.ShouldBeTrue();

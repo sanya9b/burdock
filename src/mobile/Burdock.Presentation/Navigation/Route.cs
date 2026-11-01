@@ -33,6 +33,7 @@ public static class Routes
     {
         public static readonly Route Root = new("//me");
         public static readonly Route Settings = new("//me/settings");
+        public static readonly Route Rewards = new("//me/rewards");
         public static readonly Route Widgets = new("//me/widgets");
     }
 

@@ -3,6 +3,7 @@ using System.Globalization;
 using System.Text;
 using Burdock.Application.UseCases.Rewards;
 using Burdock.Domain.Rewards;
+using Burdock.Presentation.Controls;
 using Burdock.Presentation.Localization;
 using Burdock.Presentation.Navigation;
 using Burdock.Presentation.Resources.Strings;
@@ -54,6 +55,12 @@ public sealed partial class MeViewModel : ObservableObject
     private string _growthDescription = AppResources.Growth_A11y_Plain;
 
     [ObservableProperty]
+    private MascotOutfit _outfit;
+
+    [ObservableProperty]
+    private MascotFrame _frame;
+
+    [ObservableProperty]
     private string _levelText = string.Empty;
 
     [ObservableProperty]
@@ -97,6 +104,9 @@ public sealed partial class MeViewModel : ObservableObject
             StageName = RewardsText.StageName(growth.Stage);
             GrowthCaption = RewardsText.GrowthCaption(growth);
             GrowthDescription = overview.GamificationEnabled ? RewardsText.GrowthDescription(growth.Stage) : AppResources.Growth_A11y_Plain;
+            // Cosmetics from the shop (spec 07 §3.2.3) stay on without gamification too: they are the learner's, not a reward display.
+            Outfit = MascotCosmetics.OutfitFor(overview.Inventory.Outfit);
+            Frame = MascotCosmetics.FrameFor(overview.Inventory.Frame);
 
             LevelText = RewardsText.Level(overview.Level);
             XpProgress = overview.XpNeededForLevel == 0 ? 1 : (double)overview.XpEarnedInLevel / overview.XpNeededForLevel;
@@ -142,6 +152,9 @@ public sealed partial class MeViewModel : ObservableObject
 
     [RelayCommand]
     private Task OpenSettingsAsync(CancellationToken cancellationToken) => _navigation.GoToAsync(Routes.Me.Settings, null, cancellationToken);
+
+    [RelayCommand]
+    private Task OpenRewardsAsync(CancellationToken cancellationToken) => _navigation.GoToAsync(Routes.Me.Rewards, null, cancellationToken);
 
     [LoggerMessage(Level = LogLevel.Error, Message = "Profile failed to load")]
     private partial void LogFailed(Exception exception);
