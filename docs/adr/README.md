@@ -64,3 +64,7 @@ ADR фіксує одне значуще рішення: контекст, ва�
 | [0016](0016-cosmetic-rewards-client-granted.md) | Косметичні нагороди, нарахування клієнтом зі звіркою сервером у v1 | Accepted | 2026-09-27 |
 | [0017](0017-playful-relief-ui-language.md) | Ігрова мова інтерфейсу: рельєфні кнопки, картки без контуру, власний хедер | Accepted | 2026-09-28 |
 | [0018](0018-typography-unbounded-rubik-brand-mark.md) | Типографіка Unbounded + Rubik, брендовий знак і анімований екран завантаження | Accepted | 2026-09-28 |
+| [0019](0019-pronunciation-audio-prerendered-in-packs.md) | Озвучення слів: аудіо пре-рендериться в пакетах, системний TTS лише запасний | Accepted | 2026-09-28 |
+| [0020](0020-server-pronunciation-rendering-for-new-words.md) | Серверний модуль Pronunciation: вимова для нових слів рендериться на сервері | Proposed | 2026-10-01 |
+| [0021](0021-shared-contracts-instead-of-kiota-client.md) | Спільні рукописні DTO замість Kiota-клієнта; OpenAPI-знімок як зовнішній контракт | Proposed | 2026-10-12 |
+| [0022](0022-rewarded-video-extra-words-free.md) | Rewarded-відео у Free: «+5 слів сьогодні», лише неперсоналізовано, без ATT | Proposed | 2026-11-01 |

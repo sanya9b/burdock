@@ -148,6 +148,7 @@
 | `cosmetic_applied` | Застосування косметики | `kind` ∈ {widget_theme, mascot_outfit, avatar_frame} |
 | `paywall_view` | Показ paywall (11) | `placement` ∈ {onboarding_end, locked_setting, trial_ended, profile}, `eligible_for_trial` bool |
 | `paywall_dismiss` | Закриття без покупки | `placement`, `dwell_bucket` ∈ {<3s,3-10s,10-30s,30s+} |
+| `ad_offer_shown` / `ad_offer_tapped` / `ad_completed` / `ad_reward_granted` / `ad_unavailable` | Картка «+5 слів за відео» (11 додаток Б, ADR 0022): показ, натискання, завершений перегляд, нарахований бонус, відео недоступне | `surface` ∈ {today_goal_done, learn_free_limit} |
 | `trial_started` | Підтверджений сервером `Trial` | `product` ∈ {monthly, yearly}, `placement` |
 | `purchase_completed` | Підтверджений сервером `Active` без тріалу або апгрейд | `product`, `kind` ∈ {new, upgrade, resubscribe} |
 | `subscription_expired` | Перехід у `Expired` помічено клієнтом | `from` ∈ {trial, active} |
