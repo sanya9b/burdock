@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "illustration-plan": {
+      "source": "syi0808/svg-skills",
+      "sourceType": "github",
+      "skillPath": "illustration-plan/SKILL.md",
+      "computedHash": "e5251150258dfe2441f2ad9d5b03da360905cb2c669510dd3b0b2df629035c45"
+    },
+    "vector-illustration": {
+      "source": "syi0808/svg-skills",
+      "sourceType": "github",
+      "skillPath": "vector-illustration/SKILL.md",
+      "computedHash": "f8378b63308d9507696ce09de1e1f81855bac2a5d888cce6894043c5e9cc1f33"
+    }
+  }
+}

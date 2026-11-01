@@ -248,6 +248,14 @@ def emit_colors_xaml(t: Tokens) -> str:
             lines.append(
                 f'    <SolidColorBrush x:Key="Brush{key}" Color="{{AppThemeBinding Light={{StaticResource Color{key}Light}}, Dark={{StaticResource Color{key}Dark}}}}" />'
             )
+    lines += ["", "    <!-- Widget themes (color.theme.widget.*): ColorTheme{Theme}Widget{Name}Light / Dark, for in-app previews such as the shop swatches. -->"]
+    for theme, modes in t.widget_themes().items():
+        # A theme overrides color.semantic.{mode}.widget.*: the base theme («Цвіт») has no overrides, so every theme gets the full key set.
+        merged = {mode: {**sem.get("widget", {}), **modes[mode]} for mode, sem in (("light", light), ("dark", dark))}
+        for name in merged["light"]:
+            key = f"ColorTheme{pascal(theme)}Widget{pascal(name)}"
+            lines.append(f'    <Color x:Key="{key}Light">{to_argb(merged["light"][name])}</Color>')
+            lines.append(f'    <Color x:Key="{key}Dark">{to_argb(merged["dark"][name])}</Color>')
     lines += ["", "</ResourceDictionary>", ""]
     return "\n".join(lines)
 

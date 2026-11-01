@@ -38,7 +38,19 @@ public sealed partial class ShopTile(ShopItemView view) : ObservableObject
 
     public bool ShowPrice => !Owned;
 
-    public string Glyph { get; } = GlyphFor(view.Item);
+    public bool IsOutfit => Category == CatalogCategory.Outfit;
+
+    public bool IsFrame => Category == CatalogCategory.Frame;
+
+    public bool IsTheme => Category == CatalogCategory.WidgetTheme;
+
+    /// <summary>What the tile's little burr wears: the outfit or the frame of this item.</summary>
+    public MascotOutfit ThumbOutfit { get; } = MascotCosmetics.OutfitFor(view.Item.Key);
+
+    public MascotFrame ThumbFrame { get; } = MascotCosmetics.FrameFor(view.Item.Key);
+
+    /// <summary>Generated theme name for the swatch (bloom → Tsvit, meadow → Luh, night → Nich, sun → Sontse).</summary>
+    public string ThumbTheme { get; } = view.Item.Slug switch { "meadow" => "Luh", "night" => "Nich", "sun" => "Sontse", _ => "Tsvit" };
 
     /// <summary>Status under the name: worn / owned / short unlock condition; empty when the item is available or merely unaffordable (the preview explains).</summary>
     public string StatusText { get; } = StatusFor(view.Status);
@@ -53,19 +65,6 @@ public sealed partial class ShopTile(ShopItemView view) : ObservableObject
         _ => string.Empty,
     };
 
-    private static string GlyphFor(CatalogItem item) => item.Category switch
-    {
-        CatalogCategory.WidgetTheme => item.Slug switch
-        {
-            "meadow" => Icon.Leaf,
-            "night" => Icon.Moon,
-            "sun" => Icon.Sun,
-            _ => Icon.Sparkles,
-        },
-        CatalogCategory.Frame => Icon.CircleDot,
-        CatalogCategory.Freeze => Icon.Snowflake,
-        _ => Icon.Tag,
-    };
 }
 
 public sealed record ShopSection(string Title, CatalogCategory Category, IReadOnlyList<ShopTile> Tiles);

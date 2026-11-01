@@ -71,7 +71,8 @@
                                 <FlexLayout Wrap="Wrap" Direction="Row" JustifyContent="Start" AlignItems="Stretch" BindableLayout.ItemsSource="{Binding Tiles}">
                                     <BindableLayout.ItemTemplate>
                                         <DataTemplate x:DataType="vm:ShopTile">
-                                            <Border Style="{StaticResource CatalogTile}" Margin="{StaticResource Space1}" FlexLayout.Basis="48%" FlexLayout.Grow="0"
+                                            <!-- Padding lives on the inner stack: a Border inside a FlexLayout arranges its content at the origin until a later re-measure -->
+                                            <Border Style="{StaticResource CatalogTile}" Padding="0" Margin="{StaticResource Space1}" FlexLayout.Basis="48%" FlexLayout.Grow="0"
                                                     SemanticProperties.Description="{Binding Accessibility}">
                                                 <Border.Triggers>
                                                     <DataTrigger TargetType="Border" Binding="{Binding IsSelected}" Value="True">
@@ -84,10 +85,14 @@
                                                 <Border.GestureRecognizers>
                                                     <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type vm:RewardsViewModel}}, Path=SelectCommand}" CommandParameter="{Binding .}" />
                                                 </Border.GestureRecognizers>
-                                                <VerticalStackLayout Spacing="{StaticResource Space2}">
+                                                <VerticalStackLayout Spacing="{StaticResource Space2}" Padding="{StaticResource Space3}">
                                                     <Grid ColumnDefinitions="*,Auto">
-                                                        <Label Grid.Column="0" Text="{Binding Glyph}" Style="{StaticResource IconGlyph}" HorizontalOptions="Start"
-                                                               TextColor="{AppThemeBinding Light={StaticResource ColorBrandPrimaryLight}, Dark={StaticResource ColorBrandPrimaryDark}}" />
+                                                        <!-- Thumbnail: a still little burr wearing the item (outfits, frames) or the theme swatch -->
+                                                        <controls:MascotView Grid.Column="0" WidthRequest="{StaticResource SizeMascotSm}" HeightRequest="{StaticResource SizeMascotSm}" HorizontalOptions="Start"
+                                                                             ReduceMotion="True" InputTransparent="True" Mood="Joy" Outfit="{Binding ThumbOutfit}" AvatarFrame="{Binding ThumbFrame}"
+                                                                             IsVisible="{Binding IsTheme, Converter={StaticResource InvertedBoolConverter}}" AutomationProperties.IsInAccessibleTree="False" />
+                                                        <controls:ThemeSwatchView Grid.Column="0" WidthRequest="{StaticResource SizeMascotSm}" HeightRequest="{StaticResource SizeMascotSm}" HorizontalOptions="Start"
+                                                                                  Theme="{Binding ThumbTheme}" IsVisible="{Binding IsTheme}" AutomationProperties.IsInAccessibleTree="False" />
                                                         <Label Grid.Column="1" Text="{x:Static icons:Icon.Check}" Style="{StaticResource IconGlyphSm}" IsVisible="{Binding Owned}"
                                                                TextColor="{AppThemeBinding Light={StaticResource ColorFeedbackSuccessLight}, Dark={StaticResource ColorFeedbackSuccessDark}}" />
                                                         <Label Grid.Column="1" Text="{x:Static icons:Icon.Lock}" Style="{StaticResource IconGlyphSm}" IsVisible="{Binding Locked}"
