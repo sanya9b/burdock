@@ -19,7 +19,7 @@
                 <VerticalStackLayout Spacing="{StaticResource Space2}">
                     <controls:MascotView x:Name="Mascot" Stage="{Binding GrowthStage}" Progress="{Binding GrowthProgress}" Mood="Proud"
                                          WidthRequest="{StaticResource SizeMascotLg}" HeightRequest="{StaticResource SizeMascotLg}" HorizontalOptions="Center"
-                                         SemanticProperties.Description="{Binding GrowthDescription}" />
+                                         SemanticProperties.Description="{Binding GrowthDescription}" SemanticProperties.Hint="{x:Static strings:AppResources.Mascot_A11y_Hint}" />
                     <Label Text="{Binding StageName}" Style="{StaticResource TypeHeadlineMd}" HorizontalTextAlignment="Center" IsVisible="{Binding ShowRewards}" SemanticProperties.HeadingLevel="Level2"
                            TextColor="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
                     <Label Text="{Binding GrowthCaption}" Style="{StaticResource TypeBodySm}" HorizontalTextAlignment="Center" IsVisible="{Binding ShowRewards}"

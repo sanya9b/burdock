@@ -29,6 +29,7 @@ public partial class SessionSummaryPage : ContentPage, IQueryAttributable
         Celebration.ReduceMotion = _motion.ReduceMotion;
         Celebration.Haptics = _haptics;
         Mascot.ReduceMotion = _motion.ReduceMotion;
+        Mascot.Poked += (_, _) => _haptics.Light();
         _viewModel.DeferCelebrations = !_motion.ReduceMotion;
     }
 
@@ -39,6 +40,7 @@ public partial class SessionSummaryPage : ContentPage, IQueryAttributable
         base.OnAppearing();
         _viewModel.PropertyChanged += OnViewModelPropertyChanged;
         _cts = new CancellationTokenSource();
+        Mascot.Idle = true;
         PlayArrival();
         if (_viewModel.MascotReady)
         {
@@ -50,6 +52,7 @@ public partial class SessionSummaryPage : ContentPage, IQueryAttributable
 
     protected override void OnDisappearing()
     {
+        Mascot.Idle = false;
         _viewModel.PropertyChanged -= OnViewModelPropertyChanged;
         _cts?.Cancel();
         _cts?.Dispose();

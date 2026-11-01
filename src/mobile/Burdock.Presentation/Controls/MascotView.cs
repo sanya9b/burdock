@@ -1,12 +1,15 @@
+using System.Diagnostics;
 using Burdock.Domain.Rewards;
+using Burdock.Presentation.Controls.Mascot;
 
 namespace Burdock.Presentation.Controls;
 
 /// <summary>
-/// Procedural Реп’яшок (spec 02 §3.10 geometry and growth stages, spec 07 §3.2.7): body, hooks, face by <see cref="Mood"/>, leaves, bud and bloom by
-/// <see cref="Stage"/>. Growth is a continuous scalar, so the burr grows a little after every session and not only on a level-up.
-/// Animations: growth spring when the stage or progress changes, <see cref="FeedAsync"/> (XP seeds fly in, the burr gulps), idle breathing with
-/// blinks. Everything is static under <see cref="ReduceMotion"/>. Colours come from the style (primitive ramps, as for every illustration).
+/// Procedural Реп’яшок (spec 02 §3.10 geometry and growth stages, spec 07 §3.2.7): body, hooks, face by <see cref="Mood"/>, leaves, bud and bloom
+/// by <see cref="Stage"/>. Growth is a continuous scalar, so the burr grows a little after every session and not only on a level-up.
+/// All motion comes from one <see cref="MascotAnimator"/> driven by a single frame timer (spec 02 §3.8 «Життя Реп’яшка»): breathing, blinks,
+/// gaze, gestures while <see cref="Idle"/>; mood crossfades, <see cref="FeedAsync"/>, the growth spring and the <see cref="Poke"/> reaction
+/// whenever they happen. Everything is a still frame under <see cref="ReduceMotion"/>. Colours come from the style (primitive ramps).
 /// </summary>
 public sealed partial class MascotView : GraphicsView, IDrawable
 {
@@ -17,10 +20,10 @@ public sealed partial class MascotView : GraphicsView, IDrawable
         BindableProperty.Create(nameof(Progress), typeof(double), typeof(MascotView), 0.5, propertyChanged: (b, _, _) => ((MascotView)b).OnGrowthChanged());
 
     public static readonly BindableProperty MoodProperty =
-        BindableProperty.Create(nameof(Mood), typeof(MascotMood), typeof(MascotView), MascotMood.Proud, propertyChanged: (b, _, _) => ((MascotView)b).Invalidate());
+        BindableProperty.Create(nameof(Mood), typeof(MascotMood), typeof(MascotView), MascotMood.Proud, propertyChanged: (b, _, _) => ((MascotView)b).OnMoodChanged());
 
     public static readonly BindableProperty IdleProperty =
-        BindableProperty.Create(nameof(Idle), typeof(bool), typeof(MascotView), false, propertyChanged: (b, _, _) => ((MascotView)b).SyncIdle());
+        BindableProperty.Create(nameof(Idle), typeof(bool), typeof(MascotView), false, propertyChanged: (b, _, _) => ((MascotView)b).OnIdleChanged());
 
     public static readonly BindableProperty ReduceMotionProperty =
         BindableProperty.Create(nameof(ReduceMotion), typeof(bool), typeof(MascotView), false, propertyChanged: (b, _, _) => ((MascotView)b).OnReduceMotionChanged());
@@ -42,31 +45,32 @@ public sealed partial class MascotView : GraphicsView, IDrawable
     public static readonly BindableProperty BloomEdgeColorProperty = Colour(nameof(BloomEdgeColor), Colors.LightCoral);
     public static readonly BindableProperty AccentColorProperty = Colour(nameof(AccentColor), Colors.Gold);
 
-    private const string GrowAnimation = "mascot-grow";
-    private const string FeedAnimation = "mascot-feed";
-    private const string GulpAnimation = "mascot-gulp";
-    private const string IdleAnimation = "mascot-idle";
-    private const string BlinkAnimation = "mascot-blink";
-    private const int MaxSeeds = 12;
+    // Quiet idle (breathing, sway, hook wave) moves well under a pixel per frame, so 20 fps is invisible; blinks, glances, gestures, feeding,
+    // growth and mood changes switch to 60 fps for their duration. The profile screen may stay open for a while, so the quiet rate is the budget.
+    private static readonly TimeSpan QuietFrameInterval = TimeSpan.FromMilliseconds(50);
+    private static readonly TimeSpan BusyFrameInterval = TimeSpan.FromMilliseconds(16);
 
-    private readonly List<Seed> _seeds = [];
-    private readonly Random _random = new();
-    private double _shown = GrowthRules.Adult.Scalar;
-    private double _feedProgress = 1;
-    private double _squashX = 1;
-    private double _squashY = 1;
-    private double _breath = 1;
-    private double _eyeOpen = 1;
+    // A field initialiser, so the property-changed handlers the implicit style fires from the base constructor already find it.
+    private readonly MascotAnimator _animator = new(MascotMood.Proud, GrowthRules.Adult.Scalar, new Random());
+    private readonly Stopwatch _clock = new();
+    private IDispatcherTimer? _timer;
+    private Window? _window;
+    private double _lastTick;
+    private bool _windowActive = true;
     private bool _hasDrawn;
-    private bool _idleRunning;
-    private int _idleCycles;
 
     public MascotView()
     {
         Drawable = this;
-        Loaded += (_, _) => SyncIdle();
-        Unloaded += (_, _) => StopIdle();
+        Loaded += OnLoaded;
+        Unloaded += OnUnloaded;
+        var tap = new TapGestureRecognizer();
+        tap.Tapped += (_, _) => Poke();
+        GestureRecognizers.Add(tap);
     }
+
+    /// <summary>The learner touched the burr (after the reaction started); pages play the haptic.</summary>
+    public event EventHandler? Poked;
 
     public GrowthStage Stage { get => (GrowthStage)GetValue(StageProperty); set => SetValue(StageProperty, value); }
 
@@ -75,12 +79,12 @@ public sealed partial class MascotView : GraphicsView, IDrawable
 
     public MascotMood Mood { get => (MascotMood)GetValue(MoodProperty); set => SetValue(MoodProperty, value); }
 
-    /// <summary>Breathing and blinking while on screen; ignored under Reduce Motion.</summary>
+    /// <summary>Autonomous life while on screen (breathing, blinks, gaze, gestures); ignored under Reduce Motion.</summary>
     public bool Idle { get => (bool)GetValue(IdleProperty); set => SetValue(IdleProperty, value); }
 
     public bool ReduceMotion { get => (bool)GetValue(ReduceMotionProperty); set => SetValue(ReduceMotionProperty, value); }
 
-    /// <summary>Growth spring length in ms (motion.duration.celebrate).</summary>
+    /// <summary>Growth spring settle time in ms (motion.duration.celebrate).</summary>
     public int GrowthDuration { get => (int)GetValue(GrowthDurationProperty); set => SetValue(GrowthDurationProperty, value); }
 
     public Color BodyColor { get => (Color)GetValue(BodyColorProperty); set => SetValue(BodyColorProperty, value); }
@@ -114,25 +118,21 @@ public sealed partial class MascotView : GraphicsView, IDrawable
     public void SetGrowth(GrowthStage stage, double progress, bool animate)
     {
         var wasDrawn = _hasDrawn;
-        if (!animate)
-        {
-            _hasDrawn = false;
-        }
-
+        _hasDrawn = animate && wasDrawn;
         Stage = stage;
         Progress = progress;
         _hasDrawn = wasDrawn;
         if (!animate)
         {
-            this.AbortAnimation(GrowAnimation);
-            _shown = Target();
+            _animator.SetGrowth(Target(), animate: false, GrowthSettle());
             Invalidate();
         }
     }
 
     /// <summary>
-    /// Feeding (spec 02 §3.9 «Підживлення»): <paramref name="seeds"/> lime seeds fly in from the edges and the burr gulps once. Completes when the
-    /// gulp ends, so the caller can then raise <see cref="Stage"/>/<see cref="Progress"/> and let the growth spring play. No-op under Reduce Motion.
+    /// Feeding (spec 02 §3.8 «Підживлення»): <paramref name="seeds"/> lime seeds arc in from the edges over <paramref name="durationMs"/>, the burr
+    /// watches them, takes a «nom» per seed and a gulp on the last. Completes after the gulp, so the caller can then raise <see cref="Stage"/> /
+    /// <see cref="Progress"/> and let the growth spring play. No-op under Reduce Motion.
     /// </summary>
     public Task FeedAsync(int seeds, uint durationMs)
     {
@@ -141,128 +141,170 @@ public sealed partial class MascotView : GraphicsView, IDrawable
             return Task.CompletedTask;
         }
 
-        this.AbortAnimation(FeedAnimation);
-        this.AbortAnimation(GulpAnimation);
-        _seeds.Clear();
-        var count = Math.Min(seeds, MaxSeeds);
-        for (var i = 0; i < count; i++)
+        var done = new TaskCompletionSource();
+        void Finished()
         {
-            _seeds.Add(new Seed(
-                Angle: -150 + _random.NextDouble() * 120 + (i % 2 == 0 ? 0 : 180),
-                Delay: i / (double)count * 0.45,
-                Size: 0.028 + _random.NextDouble() * 0.014));
+            _animator.FeedFinished -= Finished;
+            done.TrySetResult();
         }
 
-        var done = new TaskCompletionSource();
-        new Animation(v => { _feedProgress = v; Invalidate(); }, 0, 1)
-            .Commit(this, FeedAnimation, 16, durationMs, Easing.Linear, (_, _) =>
-            {
-                _seeds.Clear();
-                _feedProgress = 1;
-                var gulp = new Animation(v =>
-                {
-                    var s = Math.Sin(Math.PI * v) * 0.08;
-                    _squashX = 1 + s;
-                    _squashY = 1 - s;
-                    Invalidate();
-                }, 0, 1);
-                gulp.Commit(this, GulpAnimation, 16, 260, Easing.SinInOut, (_, _) =>
-                {
-                    _squashX = _squashY = 1;
-                    Invalidate();
-                    done.TrySetResult();
-                });
-            });
+        _animator.FeedFinished += Finished;
+        _animator.StartFeed(seeds, durationMs / 1000.0);
+        SyncTicker();
         return done.Task;
     }
+
+    /// <summary>A touch: a happy hop with lifted brows (a stir when asleep); only the event under Reduce Motion.</summary>
+    public void Poke()
+    {
+        if (!ReduceMotion)
+        {
+            _animator.Poke();
+            SyncTicker();
+        }
+
+        Poked?.Invoke(this, EventArgs.Empty);
+    }
+
+    /// <summary>The frame the drawing uses right now (still under Reduce Motion).</summary>
+    internal MascotPose CurrentPose => ReduceMotion ? MascotPose.Rest(Mood, Target()) : _animator.Pose;
 
     private static BindableProperty Colour(string name, Color fallback)
         => BindableProperty.Create(name, typeof(Color), typeof(MascotView), fallback, propertyChanged: (b, _, _) => ((MascotView)b).Invalidate());
 
     private double Target() => new GrowthSnapshot(Stage, 0, 0, Math.Clamp(Progress, 0, 1), null, 0).Scalar;
 
+    private double GrowthSettle() => Math.Max(50, GrowthDuration) / 1000.0;
+
     private void OnGrowthChanged()
     {
-        var target = Target();
-        if (!_hasDrawn || ReduceMotion || Math.Abs(target - _shown) < 1e-6)
-        {
-            _shown = target;
-            Invalidate();
-            return;
-        }
+        _animator.SetGrowth(Target(), animate: _hasDrawn && !ReduceMotion, GrowthSettle());
+        SyncTicker();
+        Invalidate();
+    }
 
-        this.AbortAnimation(GrowAnimation);
-        new Animation(v => { _shown = v; Invalidate(); }, _shown, target).Commit(this, GrowAnimation, 16, (uint)Math.Max(1, GrowthDuration), Easing.SpringOut);
+    private void OnMoodChanged()
+    {
+        _animator.SetMood(Mood, animate: _hasDrawn && !ReduceMotion);
+        SyncTicker();
+        Invalidate();
+    }
+
+    private void OnIdleChanged()
+    {
+        _animator.Idle = Idle && !ReduceMotion;
+        SyncTicker();
     }
 
     private void OnReduceMotionChanged()
     {
+        _animator.Idle = Idle && !ReduceMotion;
         if (ReduceMotion)
         {
-            StopIdle();
-            this.AbortAnimation(GrowAnimation);
-            _shown = Target();
-            Invalidate();
-            return;
+            _animator.SetMood(Mood, animate: false);
+            _animator.SetGrowth(Target(), animate: false, GrowthSettle());
         }
 
-        SyncIdle();
-    }
-
-    private void SyncIdle()
-    {
-        if (Idle && !ReduceMotion && IsLoaded)
-        {
-            StartIdle();
-        }
-        else
-        {
-            StopIdle();
-        }
-    }
-
-    private void StartIdle()
-    {
-        if (_idleRunning)
-        {
-            return;
-        }
-
-        _idleRunning = true;
-        _idleCycles = 0;
-        var breath = new Animation(v =>
-        {
-            _breath = 1 + 0.015 * (0.5 - 0.5 * Math.Cos(2 * Math.PI * v));
-            if (_idleCycles % 2 == 1 && v >= 0.3 && v < 0.34 && !this.AnimationIsRunning(BlinkAnimation))
-            {
-                Blink();
-            }
-
-            Invalidate();
-        }, 0, 1);
-        breath.Commit(this, IdleAnimation, 33, 2600, Easing.Linear, (_, _) => _idleCycles++, () => _idleRunning);
-    }
-
-    private void StopIdle()
-    {
-        if (!_idleRunning)
-        {
-            return;
-        }
-
-        _idleRunning = false;
-        this.AbortAnimation(IdleAnimation);
-        this.AbortAnimation(BlinkAnimation);
-        _breath = 1;
-        _eyeOpen = 1;
+        SyncTicker();
         Invalidate();
     }
 
-    private void Blink()
+    private void OnLoaded(object? sender, EventArgs e)
     {
-        var blink = new Animation(v => { _eyeOpen = 1 - 0.9 * Math.Sin(Math.PI * v); Invalidate(); }, 0, 1);
-        blink.Commit(this, BlinkAnimation, 16, 160, Easing.Linear, (_, _) => _eyeOpen = 1);
+        // Remember the window: by Unloaded the element may already be detached from it.
+        _window = Window;
+        if (_window is not null)
+        {
+            _window.Activated += OnWindowActivated;
+            _window.Deactivated += OnWindowDeactivated;
+        }
+
+        _windowActive = true;
+        SyncTicker();
     }
 
-    private sealed record Seed(double Angle, double Delay, double Size);
+    private void OnUnloaded(object? sender, EventArgs e)
+    {
+        if (_window is not null)
+        {
+            _window.Activated -= OnWindowActivated;
+            _window.Deactivated -= OnWindowDeactivated;
+            _window = null;
+        }
+
+        StopTicker();
+    }
+
+    private void OnWindowActivated(object? sender, EventArgs e)
+    {
+        _windowActive = true;
+        SyncTicker();
+    }
+
+    private void OnWindowDeactivated(object? sender, EventArgs e)
+    {
+        _windowActive = false;
+        StopTicker();
+    }
+
+    private void SyncTicker()
+    {
+        var wanted = IsLoaded && _windowActive && !ReduceMotion && (Idle || _animator.IsBusy);
+        if (wanted)
+        {
+            StartTicker();
+        }
+        else
+        {
+            StopTicker();
+        }
+    }
+
+    private void StartTicker()
+    {
+        if (_timer is not null)
+        {
+            return;
+        }
+
+        _clock.Restart();
+        _lastTick = 0;
+        _timer = Dispatcher.CreateTimer();
+        _timer.Interval = _animator.IsLively ? BusyFrameInterval : QuietFrameInterval;
+        _timer.IsRepeating = true;
+        _timer.Tick += OnTick;
+        _timer.Start();
+    }
+
+    private void StopTicker()
+    {
+        if (_timer is null)
+        {
+            return;
+        }
+
+        _timer.Stop();
+        _timer.Tick -= OnTick;
+        _timer = null;
+        _clock.Stop();
+    }
+
+    private void OnTick(object? sender, EventArgs e)
+    {
+        var now = _clock.Elapsed.TotalSeconds;
+        _animator.Advance(now - _lastTick);
+        _lastTick = now;
+        Invalidate();
+        if (!Idle && !_animator.IsBusy)
+        {
+            StopTicker();
+            return;
+        }
+
+        var interval = _animator.IsLively ? BusyFrameInterval : QuietFrameInterval;
+        if (_timer is not null && _timer.Interval != interval)
+        {
+            _timer.Interval = interval;
+        }
+    }
 }

@@ -9,13 +9,15 @@ public partial class MePage : ContentPage
     private readonly MeViewModel _viewModel;
     private CancellationTokenSource? _loadCts;
 
-    public MePage(MeViewModel viewModel, IMotionPreferences motion)
+    public MePage(MeViewModel viewModel, IMotionPreferences motion, IHaptics haptics)
     {
         ArgumentNullException.ThrowIfNull(motion);
+        ArgumentNullException.ThrowIfNull(haptics);
         _viewModel = viewModel ?? throw new ArgumentNullException(nameof(viewModel));
         InitializeComponent();
         BindingContext = _viewModel;
         Mascot.ReduceMotion = motion.ReduceMotion;
+        Mascot.Poked += (_, _) => haptics.Light();
     }
 
     protected override void OnAppearing()

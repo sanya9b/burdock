@@ -408,6 +408,7 @@
   <data name="Growth_Final" xml:space="preserve"><value>Найвища стадія росту</value></data>
   <data name="Growth_A11y" xml:space="preserve"><value>Реп’яшок на стадії «{0}»</value><comment>Опис маскота для читача екрана</comment></data>
   <data name="Growth_A11y_Plain" xml:space="preserve"><value>Реп’яшок</value><comment>Опис маскота для читача екрана в режимі без гейміфікації</comment></data>
+  <data name="Mascot_A11y_Hint" xml:space="preserve"><value>Торкнись, щоб привітатися</value><comment>Підказка читача екрана для маскота: дотик викликає радісний жест</comment></data>
   <data name="Celebration_Growth_Eyebrow" xml:space="preserve"><value>Реп’яшок підріс</value></data>
   <data name="Celebration_Growth_Body" xml:space="preserve"><value>Кожна сесія підживлює його. Так тримати!</value></data>
 </root>

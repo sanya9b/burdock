@@ -1,8 +1,12 @@
 using Burdock.Domain.Rewards;
+using Burdock.Presentation.Controls.Mascot;
 
 namespace Burdock.Presentation.Controls;
 
-/// <summary>Drawing half of <see cref="MascotView"/>: the geometry follows spec 02 §3.10 (body radius = 84 units of the SVG guide).</summary>
+/// <summary>
+/// Drawing half of <see cref="MascotView"/>: the geometry follows spec 02 §3.10 (body radius = 84 units of the SVG guide) and every frame is a pure
+/// function of the <see cref="MascotPose"/> it is handed, so the drawing never animates on its own.
+/// </summary>
 public sealed partial class MascotView
 {
     /// <summary>20 hook slots at 18°; this order spreads the hooks evenly at every count, so a seed with four nubs is not lopsided.</summary>
@@ -12,6 +16,9 @@ public sealed partial class MascotView
     private static readonly double[] HookLengthJitter = BuildJitter(11, 20, 0.12);
     private static readonly int[] LeafCountByStage = [0, 2, 4, 6, 6, 6, 6, 6];
     private static readonly PartyBit[] PartyBits = BuildPartyBits();
+
+    /// <summary>Eye openness below which the lid is drawn as an arc instead of a shrinking white (spec 02 §3.10 arcs of joy, pride and sleep).</summary>
+    private const double ArcThreshold = 0.15;
 
     public void Draw(ICanvas canvas, RectF dirtyRect)
     {
@@ -25,7 +32,8 @@ public sealed partial class MascotView
         _hasDrawn = true;
         canvas.Antialias = true;
 
-        var g = Math.Clamp(_shown, 0, 1);
+        var pose = CurrentPose;
+        var g = Math.Clamp(pose.Growth, 0, 1);
         var stageF = g * GrowthRules.StageCount;
         var stageIndex = Math.Min((int)Math.Floor(stageF), GrowthRules.StageCount - 1);
         var frac = stageF >= GrowthRules.StageCount ? 1 : stageF - stageIndex;
@@ -33,48 +41,72 @@ public sealed partial class MascotView
         var u = r / 84f;
         var cx = dirtyRect.Center.X;
         var cy = dirtyRect.Center.Y + side * 0.04f;
-        var hookLen = (float)(r * (0.20 + 0.08 * g));
+        var hookLen = (float)(r * (0.20 + 0.08 * g) * (1 + pose.HookBristle));
         var hookCount = 4 + 16 * g;
+        var anchorY = cy + r;
+
+        // A hop never pushes the crown out of the view: clamp the lift to the headroom above bud, bloom and hooks.
+        var crown = cy - r - hookLen - r * 0.6f - 2 * u;
+        var headroom = Math.Max(0, crown - dirtyRect.Top - 2 * u);
+        var lift = (float)Math.Max(pose.OffsetY * r, -headroom);
+        var hopFraction = Math.Clamp(-lift / Math.Max(1e-3f, r * (float)MascotChoreography.HopHeight), 0, 1);
+
+        DrawGroundShadow(canvas, cx, anchorY + hookLen * 0.9f + 2 * u, r, u, pose.ScaleX, hopFraction);
 
         canvas.SaveState();
-        var anchorY = cy + r;
+        canvas.Translate(0, lift);
         canvas.Translate(cx, anchorY);
-        canvas.Scale((float)(_squashX * _breath), (float)(_squashY * _breath));
+        canvas.Rotate((float)pose.Tilt);
+        canvas.Scale((float)pose.ScaleX, (float)pose.ScaleY);
         canvas.Translate(-cx, -anchorY);
 
         if (stageIndex == GrowthRules.StageCount - 1)
         {
-            DrawAura(canvas, cx, cy, r, u, frac);
+            DrawAura(canvas, cx, cy, r, u, side, frac, pose.Time);
         }
 
-        DrawLeaves(canvas, cx, cy, r, u, stageIndex, frac);
-        if (Mood == MascotMood.Party)
-        {
-            DrawPartyBits(canvas, dirtyRect, side);
-        }
-
-        DrawHooks(canvas, cx, cy, r, u, hookLen, hookCount);
+        DrawLeaves(canvas, cx, cy, r, u, stageIndex, frac, pose.LeafSway);
+        DrawHooks(canvas, cx, cy, r, u, hookLen, hookCount, pose);
         DrawBody(canvas, cx, cy, r, u);
-        DrawTopper(canvas, cx, cy, r, u, hookLen, stageIndex, frac);
-        DrawFace(canvas, cx, cy, u);
-        DrawMoodExtras(canvas, cx, cy, r, u);
+        DrawTopper(canvas, cx, cy, r, u, hookLen, stageIndex, frac, pose.LeafSway);
+        DrawFace(canvas, cx, cy, u, pose);
+        DrawExtras(canvas, cx, cy, r, u, pose);
         canvas.RestoreState();
+
+        if (pose.MoodTo == MascotMood.Party || pose.MoodFrom == MascotMood.Party)
+        {
+            var alpha = pose.MoodTo == MascotMood.Party ? pose.MoodBlend : 1 - pose.MoodBlend;
+            DrawPartyBits(canvas, dirtyRect, side, u, (float)alpha, pose.Time);
+        }
 
         DrawSeeds(canvas, cx, cy, r, side);
     }
 
-    private void DrawAura(ICanvas canvas, float cx, float cy, float r, float u, double frac)
+    private void DrawGroundShadow(ICanvas canvas, float cx, float y, float r, float u, double scaleX, double hop)
     {
+        var rx = (float)(r * 0.72 * scaleX * (1 - 0.3 * hop));
+        var ry = r * 0.10f;
         canvas.SaveState();
-        canvas.Alpha = (float)(0.18 * (0.4 + 0.6 * frac));
+        canvas.Alpha = (float)(0.14 * (1 - 0.45 * hop));
+        canvas.FillColor = BodyShadeColor;
+        canvas.FillEllipse(cx - rx, y - ry + 2 * u, 2 * rx, 2 * ry);
+        canvas.RestoreState();
+    }
+
+    private void DrawAura(ICanvas canvas, float cx, float cy, float r, float u, float side, double frac, double time)
+    {
+        var radius = Math.Min(r * 1.7f, side * 0.5f - u);
+        canvas.SaveState();
+        canvas.Alpha = (float)(0.18 * (0.4 + 0.6 * frac) * (1 + 0.15 * Math.Sin(2 * Math.PI * time / MascotChoreography.BreathPeriod)));
         canvas.FillColor = AccentColor;
-        canvas.FillCircle(cx, cy, r * 1.7f);
+        canvas.FillCircle(cx, cy, radius);
         canvas.RestoreState();
 
         canvas.FillColor = AccentColor;
-        DrawSparkle(canvas, cx - r * 1.55f, cy - r * 0.95f, 10 * u);
-        DrawSparkle(canvas, cx + r * 1.6f, cy - r * 0.45f, 8 * u);
-        DrawSparkle(canvas, cx + r * 1.15f, cy - r * 1.5f, 7 * u);
+        var twinkle = 0.85f + 0.15f * (float)Math.Sin(2 * Math.PI * time / 1.7);
+        DrawSparkle(canvas, cx - r * 1.55f, cy - r * 0.95f, 10 * u * twinkle);
+        DrawSparkle(canvas, cx + r * 1.6f, cy - r * 0.45f, 8 * u * (2 - twinkle));
+        DrawSparkle(canvas, cx + r * 1.15f, cy - r * 1.5f, 7 * u * twinkle);
     }
 
     private static void DrawSparkle(ICanvas canvas, float x, float y, float s)
@@ -92,7 +124,7 @@ public sealed partial class MascotView
         canvas.FillPath(path);
     }
 
-    private void DrawLeaves(ICanvas canvas, float cx, float cy, float r, float u, int stageIndex, double frac)
+    private void DrawLeaves(ICanvas canvas, float cx, float cy, float r, float u, int stageIndex, double frac, double sway)
     {
         var count = LeafCountByStage[stageIndex];
         if (count == 0)
@@ -113,11 +145,12 @@ public sealed partial class MascotView
             var len = (float)(r * (1.0 + 0.1 * pair) * scale);
             var width = len * 0.38f;
             var angle = 50 + 22 * pair;
+            var lean = (float)(sway * (pair % 2 == 0 ? 1 : -0.7));
             foreach (var sign in (ReadOnlySpan<int>)[-1, 1])
             {
                 canvas.SaveState();
                 canvas.Translate(cx, originY);
-                canvas.Rotate(sign * angle);
+                canvas.Rotate(sign * angle + lean);
                 var leaf = new PathF();
                 leaf.MoveTo(0, 0);
                 leaf.QuadTo(width, len * 0.5f, 0, len);
@@ -134,61 +167,79 @@ public sealed partial class MascotView
         }
     }
 
-    private void DrawPartyBits(ICanvas canvas, RectF rect, float side)
+    private void DrawPartyBits(ICanvas canvas, RectF rect, float side, float u, float alpha, double time)
     {
+        if (alpha <= 0.01f)
+        {
+            return;
+        }
+
+        var i = 0;
         foreach (var bit in PartyBits)
         {
+            var drift = (float)(3 * u * Math.Sin(time * 1.3 + i++));
             canvas.SaveState();
-            canvas.Translate(rect.X + (float)bit.X * rect.Width, rect.Y + (float)bit.Y * side);
-            canvas.Rotate((float)bit.Rotation);
+            canvas.Alpha = alpha;
+            canvas.Translate(rect.X + (float)bit.X * rect.Width, rect.Y + (float)bit.Y * side + drift);
+            canvas.Rotate((float)(bit.Rotation + 20 * Math.Sin(time * 0.9 + i)));
             canvas.FillColor = bit.Colour switch { 0 => AccentColor, 1 => BloomEdgeColor, _ => HookColor };
             canvas.FillRoundedRectangle(-side * 0.018f, -side * 0.01f, side * 0.036f, side * 0.02f, side * 0.005f);
             canvas.RestoreState();
         }
     }
 
-    private void DrawHooks(ICanvas canvas, float cx, float cy, float r, float u, float hookLen, double hookCount)
+    private void DrawHooks(ICanvas canvas, float cx, float cy, float r, float u, float hookLen, double hookCount, in MascotPose pose)
     {
         var full = (int)Math.Floor(hookCount);
         var partial = hookCount - full;
         var visible = Math.Min(HookOrder.Length, full + (partial > 0.02 ? 1 : 0));
-        var raised = Mood == MascotMood.Cheer ? RaisedSlot(visible) : -1;
+        var raise = pose.Face.HookRaise;
+        var raised = raise > 0.01 ? RaisedSlot(visible) : -1;
+        var droop = (pose.MoodTo == MascotMood.Sad ? pose.MoodBlend : 0) + (pose.MoodFrom == MascotMood.Sad ? 1 - pose.MoodBlend : 0);
         var baseR = r - 4 * u;
         for (var i = 0; i < visible; i++)
         {
             var slot = HookOrder[i];
             var scale = i < full ? 1.0 : partial;
             var angle = -90 + slot * 18 + HookJitter[slot];
-            if (Mood == MascotMood.Sad)
+            var wave = 2.5 * Math.Sin(pose.HookWavePhase + slot * 18 * 2 * Math.PI / 180);
+            if (droop > 0)
             {
                 var c = Math.Cos(angle * Math.PI / 180);
                 if (Math.Abs(c) > 0.6)
                 {
-                    angle += 6 * Math.Sign(c);
+                    angle += 6 * Math.Sign(c) * droop;
                 }
             }
 
             var len = (float)(hookLen * (1 + HookLengthJitter[slot]) * scale);
             var w = (float)(13 * u * (0.6 + 0.4 * scale));
+            var direction = angle + wave;
             if (slot == raised)
             {
-                len = r * 0.42f;
-                w = 15 * u;
+                len = (float)(len + (r * 0.42f - len) * raise);
+                w = (float)(w + (15 * u - w) * raise);
+                direction += pose.HookWaveAngle * raise;
             }
 
             var rad = angle * Math.PI / 180;
             var x0 = cx + (float)(Math.Cos(rad) * baseR);
             var y0 = cy + (float)(Math.Sin(rad) * baseR);
-            canvas.SaveState();
-            canvas.Translate(x0, y0);
-            canvas.Rotate((float)angle + 90);
-            canvas.FillColor = HookColor;
-            canvas.FillRoundedRectangle(-w / 2, -len, w, len + 6 * u, w / 2);
-            canvas.RestoreState();
+            var dirRad = direction * Math.PI / 180;
+            var dx = (float)Math.Cos(dirRad);
+            var dy = (float)Math.Sin(dirRad);
+
+            // The capsule of the guide (rounded rect from 6 u inside the rim to the tip) as one round-capped stroke: a single call per hook.
+            var inner = w / 2 - 6 * u;
+            var outer = Math.Max(inner, len - w / 2);
+            canvas.StrokeColor = HookColor;
+            canvas.StrokeSize = w;
+            canvas.StrokeLineCap = LineCap.Round;
+            canvas.DrawLine(x0 + dx * inner, y0 + dy * inner, x0 + dx * outer, y0 + dy * outer);
 
             var tipR = w * 0.36f;
             canvas.FillColor = HookTipColor;
-            canvas.FillCircle(x0 + (float)(Math.Cos(rad) * (len - tipR)), y0 + (float)(Math.Sin(rad) * (len - tipR)), tipR);
+            canvas.FillCircle(x0 + dx * (len - tipR), y0 + dy * (len - tipR), tipR);
         }
     }
 
@@ -219,8 +270,12 @@ public sealed partial class MascotView
         paint.AddOffset(0f, BodyLightColor);
         paint.AddOffset(0.55f, BodyColor);
         paint.AddOffset(1f, BodyShadeColor);
+        // The gradient stays inside its own state: on Android a later FillColor does not drop the shader, and every fill after the body
+        // (eye whites, pupils, blush, the party hat) would silently take the body gradient and vanish into it.
+        canvas.SaveState();
         canvas.SetFillPaint(paint, rect);
         canvas.FillEllipse(rect);
+        canvas.RestoreState();
 
         canvas.SaveState();
         canvas.Alpha = 0.55f;
@@ -229,7 +284,7 @@ public sealed partial class MascotView
         canvas.RestoreState();
     }
 
-    private void DrawTopper(ICanvas canvas, float cx, float cy, float r, float u, float hookLen, int stageIndex, double frac)
+    private void DrawTopper(ICanvas canvas, float cx, float cy, float r, float u, float hookLen, int stageIndex, double frac, double sway)
     {
         if (stageIndex < (int)GrowthStage.Bud - 1)
         {
@@ -243,6 +298,10 @@ public sealed partial class MascotView
             return;
         }
 
+        canvas.SaveState();
+        canvas.Translate(cx, topY);
+        canvas.Rotate((float)(sway * 0.5));
+        canvas.Translate(-cx, -topY);
         if (stageIndex == (int)GrowthStage.Bud - 1)
         {
             var h = r * 0.55f * scaleIn;
@@ -259,6 +318,7 @@ public sealed partial class MascotView
             canvas.StrokeLineCap = LineCap.Round;
             canvas.DrawLine(cx - w * 0.3f, topY, cx - w * 0.95f, topY - h * 0.35f);
             canvas.DrawLine(cx + w * 0.3f, topY, cx + w * 0.95f, topY - h * 0.35f);
+            canvas.RestoreState();
             return;
         }
 
@@ -288,108 +348,98 @@ public sealed partial class MascotView
             canvas.FillColor = BloomEdgeColor;
             canvas.FillCircle(cx, topY, 5 * u * scaleIn);
         }
+
+        canvas.RestoreState();
     }
 
-    private void DrawFace(ICanvas canvas, float cx, float cy, float u)
+    private void DrawFace(ICanvas canvas, float cx, float cy, float u, in MascotPose pose)
     {
+        var face = pose.Face;
         var eyeL = cx - 24 * u;
         var eyeR = cx + 24 * u;
         var eyeY = cy - 8 * u;
-        switch (Mood)
+        Eye(canvas, eyeL, eyeY, u, face);
+        Eye(canvas, eyeR, eyeY, u, face);
+        Brow(canvas, eyeL, eyeY, u, (float)face.BrowTiltL, (float)face.BrowLiftL);
+        Brow(canvas, eyeR, eyeY, u, (float)face.BrowTiltR, (float)face.BrowLiftR);
+        if (face.Blush > 0.01)
         {
-            case MascotMood.Joy:
-                EyeArc(canvas, eyeL, eyeY, u, up: true);
-                EyeArc(canvas, eyeR, eyeY, u, up: true);
-                Brow(canvas, eyeL, eyeY, u, 0, 4);
-                Brow(canvas, eyeR, eyeY, u, 0, 4);
-                Blush(canvas, cx, cy, u);
-                Mouth(canvas, cx, cy, u, MouthKind.Smile);
-                break;
-            case MascotMood.Cheer:
-                Eye(canvas, eyeL, eyeY, u, 2, -2, 1);
-                Eye(canvas, eyeR, eyeY, u, 2, -2, 1);
-                Brow(canvas, eyeL, eyeY, u, -2, 6);
-                Brow(canvas, eyeR, eyeY, u, 2, 8);
-                Mouth(canvas, cx, cy, u, MouthKind.Smile);
-                break;
-            case MascotMood.Surprise:
-                Eye(canvas, eyeL, eyeY, u, 0, 0, 1.15f);
-                Eye(canvas, eyeR, eyeY, u, 0, 0, 1.15f);
-                Brow(canvas, eyeL, eyeY, u, 0, 12);
-                Brow(canvas, eyeR, eyeY, u, 0, 12);
-                Mouth(canvas, cx, cy, u, MouthKind.O);
-                break;
-            case MascotMood.Sad:
-                Eye(canvas, eyeL, eyeY, u, -4, 3, 1);
-                Eye(canvas, eyeR, eyeY, u, -4, 3, 1);
-                Brow(canvas, eyeL, eyeY, u, -5, 0);
-                Brow(canvas, eyeR, eyeY, u, 5, 0);
-                Mouth(canvas, cx, cy, u, MouthKind.Flat);
-                break;
-            case MascotMood.Sleep:
-                EyeArc(canvas, eyeL, eyeY, u, up: false);
-                EyeArc(canvas, eyeR, eyeY, u, up: false);
-                Mouth(canvas, cx, cy, u, MouthKind.Dot);
-                break;
-            case MascotMood.Party:
-                EyeArc(canvas, eyeL, eyeY, u, up: true);
-                EyeArc(canvas, eyeR, eyeY, u, up: true);
-                Brow(canvas, eyeL, eyeY, u, 0, 6);
-                Brow(canvas, eyeR, eyeY, u, 0, 6);
-                Blush(canvas, cx, cy, u);
-                Mouth(canvas, cx, cy, u, MouthKind.Grin);
-                break;
-            case MascotMood.Think:
-                Eye(canvas, eyeL, eyeY, u, 5, -6, 1);
-                Eye(canvas, eyeR, eyeY, u, 5, -6, 1);
-                Brow(canvas, eyeL, eyeY, u, 0, 2);
-                Brow(canvas, eyeR, eyeY, u, 3, 10);
-                Mouth(canvas, cx, cy, u, MouthKind.Dot);
-                break;
-            default:
-                EyeArc(canvas, eyeL, eyeY, u, up: false);
-                EyeArc(canvas, eyeR, eyeY, u, up: false);
-                Brow(canvas, eyeL, eyeY, u, 0, 6);
-                Brow(canvas, eyeR, eyeY, u, 0, 6);
-                Blush(canvas, cx, cy, u);
-                Mouth(canvas, cx, cy, u, MouthKind.Smile);
-                break;
+            Blush(canvas, cx, cy, u, (float)face.Blush);
+        }
+
+        var baseAlpha = (float)(1 - pose.MouthOpen);
+        if (pose.MouthBlend < 1)
+        {
+            Mouth(canvas, cx, cy, u, pose.MouthFrom, baseAlpha * (float)(1 - pose.MouthBlend));
+            Mouth(canvas, cx, cy, u, pose.MouthTo, baseAlpha * (float)pose.MouthBlend);
+        }
+        else
+        {
+            Mouth(canvas, cx, cy, u, pose.MouthTo, baseAlpha);
+        }
+
+        if (pose.MouthOpen > 0.01)
+        {
+            OpenMouth(canvas, cx, cy, u, (float)pose.MouthOpen);
         }
     }
 
-    private void Eye(ICanvas canvas, float x, float y, float u, float lookX, float lookY, float scale)
+    /// <summary>
+    /// One eye from the continuous channels: an open white with the pupil clipped inside it (so a glance can go far without leaking), a dark lid
+    /// line that settles over the top as it closes, and below <see cref="ArcThreshold"/> the lid alone, bending into the arc of the mood.
+    /// </summary>
+    private void Eye(ICanvas canvas, float x, float y, float u, in FaceParams face)
     {
+        var scale = (float)face.EyeScale;
         var rx = 18 * u * scale;
         var ryFull = 23 * u * scale;
-        var open = (float)_eyeOpen;
-        var ry = ryFull * open;
-        canvas.FillColor = EyeColor;
-        canvas.FillEllipse(x - rx, y - ry, 2 * rx, 2 * ry);
-        if (open < 0.15f)
+        var open = face.EyeOpen;
+        if (open <= ArcThreshold)
         {
+            var k = 1 - open / ArcThreshold;
+            var d = (float)(face.ArcShape * k);
+            var path = new PathF();
+            path.MoveTo(x - 18 * u, y - 4 * u * d);
+            path.QuadTo(x, y + 18 * u * d, x + 18 * u, y - 4 * u * d);
+            canvas.StrokeColor = PupilColor;
+            canvas.StrokeSize = 7 * u;
+            canvas.StrokeLineCap = LineCap.Round;
+            canvas.DrawPath(path);
             return;
         }
 
+        var ry = (float)(ryFull * open);
+        var white = new PathF();
+        white.AppendEllipse(x - rx, y - ry, 2 * rx, 2 * ry);
+        canvas.FillColor = EyeColor;
+        canvas.FillPath(white);
+
+        canvas.SaveState();
+        canvas.ClipPath(white);
         var pr = ryFull * 0.6f;
-        var px = x + lookX * u;
-        var py = y + lookY * u;
+        var px = x + (float)face.LookX * u;
+        var py = y + (float)face.LookY * u;
         canvas.FillColor = PupilColor;
-        canvas.FillEllipse(px - pr, py - pr * open, 2 * pr, 2 * pr * open);
+        canvas.FillCircle(px, py, pr);
         var hr = pr * 0.28f;
         canvas.FillColor = EyeColor;
-        canvas.FillEllipse(px - pr * 0.35f - hr, py - pr * 0.4f * open - hr * open, 2 * hr, 2 * hr * open);
-    }
+        canvas.FillCircle(px - pr * 0.35f, py - pr * 0.4f, hr);
+        canvas.RestoreState();
 
-    private void EyeArc(ICanvas canvas, float x, float y, float u, bool up)
-    {
-        var d = up ? -1 : 1;
-        var path = new PathF();
-        path.MoveTo(x - 18 * u, y + 4 * u * d);
-        path.QuadTo(x, y - 18 * u * d, x + 18 * u, y + 4 * u * d);
-        canvas.StrokeColor = PupilColor;
-        canvas.StrokeSize = 7 * u;
-        canvas.StrokeLineCap = LineCap.Round;
-        canvas.DrawPath(path);
+        var lid = (float)Math.Clamp((0.4 - open) / 0.25, 0, 1);
+        if (lid > 0.01f)
+        {
+            canvas.SaveState();
+            canvas.Alpha = lid;
+            var path = new PathF();
+            path.MoveTo(x - rx, y);
+            path.QuadTo(x, y - 2 * ry, x + rx, y);
+            canvas.StrokeColor = PupilColor;
+            canvas.StrokeSize = 7 * u;
+            canvas.StrokeLineCap = LineCap.Round;
+            canvas.DrawPath(path);
+            canvas.RestoreState();
+        }
     }
 
     private void Brow(ICanvas canvas, float x, float y, float u, float tilt, float lift)
@@ -404,9 +454,16 @@ public sealed partial class MascotView
         canvas.DrawPath(path);
     }
 
-    private void Mouth(ICanvas canvas, float cx, float cy, float u, MouthKind kind)
+    private void Mouth(ICanvas canvas, float cx, float cy, float u, MouthKind kind, float alpha)
     {
+        if (alpha <= 0.01f)
+        {
+            return;
+        }
+
         var y = cy + 34 * u;
+        canvas.SaveState();
+        canvas.Alpha = alpha;
         canvas.StrokeColor = PupilColor;
         canvas.StrokeSize = 5 * u;
         canvas.StrokeLineCap = LineCap.Round;
@@ -444,37 +501,83 @@ public sealed partial class MascotView
                 canvas.FillCircle(cx, y + 2 * u, 3.5f * u);
                 break;
         }
+
+        canvas.RestoreState();
     }
 
-    private void Blush(ICanvas canvas, float cx, float cy, float u)
+    /// <summary>The «nom» of feeding: a rounded mouth that scales with the anticipation and shows a hint of tongue.</summary>
+    private void OpenMouth(ICanvas canvas, float cx, float cy, float u, float open)
+    {
+        var y = cy + 38 * u;
+        var w = 7 * u * (0.4f + 0.6f * open);
+        var h = 9 * u * (0.3f + 0.7f * open);
+        canvas.SaveState();
+        canvas.Alpha = Math.Min(1, open * 1.5f);
+        canvas.FillColor = PupilColor;
+        canvas.FillEllipse(cx - w, y - h, 2 * w, 2 * h);
+        canvas.FillColor = BloomEdgeColor;
+        canvas.FillEllipse(cx - w * 0.6f, y + h * 0.15f, w * 1.2f, h * 0.7f);
+        canvas.RestoreState();
+    }
+
+    private void Blush(ICanvas canvas, float cx, float cy, float u, float alpha)
     {
         canvas.SaveState();
-        canvas.Alpha = 0.9f;
+        canvas.Alpha = 0.9f * alpha;
         canvas.FillColor = BlushColor;
         canvas.FillEllipse(cx - 46 * u - 12 * u, cy + 16 * u - 7 * u, 24 * u, 14 * u);
         canvas.FillEllipse(cx + 46 * u - 12 * u, cy + 16 * u - 7 * u, 24 * u, 14 * u);
         canvas.RestoreState();
     }
 
-    private void DrawMoodExtras(ICanvas canvas, float cx, float cy, float r, float u)
+    private void DrawExtras(ICanvas canvas, float cx, float cy, float r, float u, in MascotPose pose)
     {
-        switch (Mood)
+        if (pose.MoodBlend < 1)
+        {
+            MoodExtras(canvas, cx, cy, r, u, pose.MoodFrom, (float)(1 - pose.MoodBlend), pose.Time);
+        }
+
+        MoodExtras(canvas, cx, cy, r, u, pose.MoodTo, (float)pose.MoodBlend, pose.Time);
+    }
+
+    private void MoodExtras(ICanvas canvas, float cx, float cy, float r, float u, MascotMood mood, float alpha, double time)
+    {
+        if (alpha <= 0.01f)
+        {
+            return;
+        }
+
+        switch (mood)
         {
             case MascotMood.Sleep:
-                Zee(canvas, cx + 72 * u, cy - 104 * u, 18 * u);
-                Zee(canvas, cx + 98 * u, cy - 126 * u, 12 * u);
+                // Two zees drift up and fade on a 2.4 s loop, offset by a third of the loop.
+                for (var i = 0; i < 2; i++)
+                {
+                    var phase = (time / 2.4 + i * 0.34) % 1;
+                    canvas.SaveState();
+                    canvas.Alpha = alpha * (float)Math.Sin(Math.PI * phase);
+                    var rise = (float)(14 * u * phase);
+                    Zee(canvas, cx + 72 * u + i * 26 * u, cy - 104 * u - i * 22 * u - rise, (18 - 6 * i) * u);
+                    canvas.RestoreState();
+                }
+
                 break;
             case MascotMood.Think:
+                canvas.SaveState();
+                canvas.Alpha = alpha;
                 canvas.FillColor = BodyShadeColor;
                 for (var i = 0; i < 3; i++)
                 {
-                    canvas.FillCircle(cx + 86 * u + i * 14 * u, cy - 92 * u - i * 12 * u, (4 + i) * u);
+                    var pulse = (float)(1 + 0.25 * Math.Sin(2 * Math.PI * time / 1.2 - i * 0.9));
+                    canvas.FillCircle(cx + 86 * u + i * 14 * u, cy - 92 * u - i * 12 * u, (4 + i) * u * pulse);
                 }
 
+                canvas.RestoreState();
                 break;
             case MascotMood.Party:
                 // The hat sits tilted on the upper right so a bud or bloom on top stays visible.
                 canvas.SaveState();
+                canvas.Alpha = alpha;
                 canvas.Translate(cx + r * 0.47f, cy - r * 0.88f);
                 canvas.Rotate(28);
                 var hat = new PathF();
@@ -507,34 +610,58 @@ public sealed partial class MascotView
         canvas.DrawPath(path);
     }
 
+    /// <summary>Seeds of a feed fly along quadratic arcs, spinning, with a short fading trail; they accelerate into the body.</summary>
     private void DrawSeeds(ICanvas canvas, float cx, float cy, float r, float side)
     {
-        if (_feedProgress >= 1 || _seeds.Count == 0)
+        if (ReduceMotion || !_animator.IsFeeding)
         {
             return;
         }
 
-        foreach (var seed in _seeds)
+        foreach (var seed in _animator.Seeds)
         {
-            var t = Math.Clamp((_feedProgress - seed.Delay) / 0.55, 0, 1);
-            if (t <= 0)
+            var t = seed.Progress;
+            if (t <= 0 || seed.Arrived)
             {
                 continue;
             }
 
-            var ease = t * t;
-            var distance = side * 0.5 + (r * 0.9 - side * 0.5) * ease;
             var rad = seed.Angle * Math.PI / 180;
-            var x = cx + (float)(Math.Cos(rad) * distance);
-            var y = cy + (float)(Math.Sin(rad) * distance);
+            var dirX = Math.Cos(rad);
+            var dirY = Math.Sin(rad);
+            var startD = side * 0.5;
+            var endD = r * 0.9;
+            var sx = cx + dirX * startD;
+            var sy = cy + dirY * startD;
+            var ex = cx + dirX * endD;
+            var ey = cy + dirY * endD;
+            var bulge = seed.Curve * (startD - endD);
+            var ctrlX = (sx + ex) / 2 - dirY * bulge;
+            var ctrlY = (sy + ey) / 2 + dirX * bulge;
             var size = (float)(seed.Size * side);
-            canvas.SaveState();
-            canvas.Alpha = (float)(t < 0.85 ? 1 : (1 - t) / 0.15);
-            canvas.FillColor = HookColor;
-            canvas.FillCircle(x, y, size);
-            canvas.FillColor = HookTipColor;
-            canvas.FillCircle(x, y, size * 0.4f);
-            canvas.RestoreState();
+            foreach (var (lag, ghost) in (ReadOnlySpan<(double, float)>)[(0.10, 0.18f), (0.05, 0.35f), (0.0, 1f)])
+            {
+                var p = t - lag;
+                if (p <= 0)
+                {
+                    continue;
+                }
+
+                var e = p * p;
+                var mx = (1 - e) * (1 - e) * sx + 2 * (1 - e) * e * ctrlX + e * e * ex;
+                var my = (1 - e) * (1 - e) * sy + 2 * (1 - e) * e * ctrlY + e * e * ey;
+                var fade = t < 0.1 ? t / 0.1 : t > 0.9 ? (1 - t) / 0.1 : 1;
+                canvas.SaveState();
+                canvas.Alpha = (float)fade * ghost;
+                canvas.Translate((float)mx, (float)my);
+                canvas.Rotate((float)(seed.Spin * p));
+                var s = size * (lag > 0 ? 0.7f : 1f);
+                canvas.FillColor = HookColor;
+                canvas.FillEllipse(-s * 1.5f, -s, s * 3f, s * 2f);
+                canvas.FillColor = HookTipColor;
+                canvas.FillCircle(s * 0.9f, 0, s * 0.5f);
+                canvas.RestoreState();
+            }
         }
     }
 
@@ -562,15 +689,6 @@ public sealed partial class MascotView
         }
 
         return bits;
-    }
-
-    private enum MouthKind
-    {
-        Smile,
-        Grin,
-        O,
-        Flat,
-        Dot,
     }
 
     private sealed record PartyBit(double X, double Y, double Rotation, int Colour);
