@@ -61,6 +61,9 @@ public sealed class MasteryDrill
         return new MasteryStep(after, mastered, !correct && before > 0);
     }
 
+    /// <summary>«Знаю»: the learner vouches for the word, so the drill treats it as complete and never asks it again.</summary>
+    public void Dismiss(LexemeId word) => _streaks[word] = Target;
+
     /// <summary>The next word to ask again, or null when nothing is waiting; words mastered since they were queued are skipped.</summary>
     public LexemeId? Dequeue()
     {

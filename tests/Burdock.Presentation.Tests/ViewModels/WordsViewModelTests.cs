@@ -1,3 +1,5 @@
+using Burdock.Domain.Learning;
+using Burdock.Domain.SharedKernel;
 using Burdock.Presentation.Navigation;
 using Burdock.Presentation.ViewModels;
 using ViewState = Burdock.Presentation.ViewModels.ViewState;
@@ -23,6 +25,24 @@ public sealed class WordsViewModelTests
         vm.Words[0].Level.ShouldBe("A1");
         vm.Words[0].Accessibility.ShouldContain("слово1");
         vm.StatusChips.Single(c => c.IsSelected).Key.ShouldBe("all");
+    }
+
+    [Fact]
+    public async Task Swiping_know_marks_the_word_known_and_updates_the_row_in_place()
+    {
+        var (harness, vm) = await OpenAsync();
+        var row = vm.Words[1];
+
+        await vm.KnowCommand.ExecuteAsync(row);
+
+        var updated = vm.Words.Single(r => r.LexemeId == row.LexemeId);
+        updated.StatusKey.ShouldBe("Learned");
+        updated.Mastery.ShouldBe(1);
+        updated.Accessibility.ShouldEndWith("знання 4 з 4");
+        vm.Words.Count.ShouldBe(12);
+        var card = await harness.Cards.GetByLexemeAsync(ViewModelHarness.Learner, LexemeId.From(row.LexemeId), Ct);
+        card.ShouldNotBeNull();
+        card.State.ShouldBe(CardState.Known);
     }
 
     [Fact]

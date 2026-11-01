@@ -62,6 +62,21 @@ public sealed class MasteryDrillTests
     }
 
     [Fact]
+    public void Dismissing_a_known_word_completes_it_and_drops_it_from_the_queue()
+    {
+        var drill = new MasteryDrill([A, B]);
+        drill.Record(A, false);
+        drill.Record(B, true);
+
+        drill.Dismiss(A);
+
+        drill.IsMastered(A).ShouldBeTrue();
+        drill.PendingCount.ShouldBe(1);
+        drill.Dequeue().ShouldBe(B);
+        drill.AnswersRemaining.ShouldBe(3);
+    }
+
+    [Fact]
     public void The_exercise_escalates_from_recognition_to_production()
     {
         var drill = new MasteryDrill([A]);

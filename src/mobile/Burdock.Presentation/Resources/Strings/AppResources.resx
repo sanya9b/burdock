@@ -218,6 +218,9 @@
   <data name="Words_Due_Days_Many" xml:space="preserve"><value>через {0} днів</value></data>
   <data name="Words_Row_A11y" xml:space="preserve"><value>{0}, {1}, {2}, {3}, {4}</value><comment>Одне речення для читача екрана: слово, переклад, статус, наступне повторення, знання</comment></data>
   <data name="Words_Mastery_A11y" xml:space="preserve"><value>знання {0} з {1}</value><comment>Кільце знання слова (4 правильні відповіді поспіль)</comment></data>
+  <data name="Words_Know_Action" xml:space="preserve"><value>Знаю</value><comment>Дія свайпу в бібліотеці (S-14)</comment></data>
+  <data name="Word_Stat_Mastery" xml:space="preserve"><value>знання</value><comment>Підпис лічильника на картці слова (S-11)</comment></data>
+  <data name="Session_Know_Button" xml:space="preserve"><value>Знаю це слово</value><comment>Слово виходить із сесії без оцінювання (S-12)</comment></data>
 
   <!-- Categories (decision Q18) -->
   <data name="Topic_communication" xml:space="preserve"><value>Спілкування</value></data>

@@ -4,6 +4,7 @@ using System.Globalization;
 using System.Text;
 using Burdock.Application.Ports;
 using Burdock.Application.UseCases.Sessions;
+using Burdock.Application.UseCases.Words;
 using Burdock.Domain.Learning;
 using Burdock.Presentation.Navigation;
 using Burdock.Presentation.Resources.Icons;
@@ -56,6 +57,7 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
 
     private readonly BuildSessionUseCase _buildSession;
     private readonly GradeAnswerUseCase _gradeAnswer;
+    private readonly ClaimKnownUseCase _claimKnown;
     private readonly INavigationService _navigation;
     private readonly IIdGenerator _ids;
     private readonly IClock _clock;
@@ -77,6 +79,12 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
 
     [ObservableProperty]
     private int _masteryStreak;
+
+    /// <summary>«Знаю це слово» is offered on graded exercises before the answer (journal item 19).</summary>
+    [ObservableProperty]
+    private bool _canKnow;
+
+    private int _knownCount;
 
     [ObservableProperty]
     private int _masteryTarget = LearningPolicy.MasteryStreak;
@@ -167,8 +175,9 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
     [ObservableProperty]
     private bool _lastAnswerCorrect;
 
-    public SessionViewModel(BuildSessionUseCase buildSession, GradeAnswerUseCase gradeAnswer, INavigationService navigation, IIdGenerator ids, IClock clock, ISpeechService speech, ILogger<SessionViewModel> logger)
+    public SessionViewModel(BuildSessionUseCase buildSession, GradeAnswerUseCase gradeAnswer, ClaimKnownUseCase claimKnown, INavigationService navigation, IIdGenerator ids, IClock clock, ISpeechService speech, ILogger<SessionViewModel> logger)
     {
+        _claimKnown = claimKnown ?? throw new ArgumentNullException(nameof(claimKnown));
         _buildSession = buildSession ?? throw new ArgumentNullException(nameof(buildSession));
         _gradeAnswer = gradeAnswer ?? throw new ArgumentNullException(nameof(gradeAnswer));
         _navigation = navigation ?? throw new ArgumentNullException(nameof(navigation));
@@ -326,6 +335,7 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
         IsChoice = item is ChoiceItem;
         IsTyped = item is TypedItem;
         IsMatching = item is MatchingItem;
+        CanKnow = !IsMatching;
 
         switch (item)
         {
@@ -478,15 +488,49 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
             ["again"] = _againCount.ToString(CultureInfo.InvariantCulture),
             ["typed"] = _typedCorrect.ToString(CultureInfo.InvariantCulture),
             ["learned"] = _wordsLearned.ToString(CultureInfo.InvariantCulture),
+            ["known"] = _knownCount.ToString(CultureInfo.InvariantCulture),
             ["warmup"] = _warmupCompleted ? "1" : "0",
             ["seconds"] = ((int)duration.TotalSeconds).ToString(CultureInfo.InvariantCulture),
         };
         return _navigation.GoToAsync(Routes.Learn.Summary, parameters, cancellationToken);
     }
 
+    /// <summary>The learner already knows the word: the card becomes known, the word leaves the drill, the session moves on without grading.</summary>
+    [RelayCommand]
+    private async Task KnowAsync()
+    {
+        if (Answered || CurrentItem is not { } item || item.Mode.IsUngraded())
+        {
+            return;
+        }
+
+        CanKnow = false;
+        try
+        {
+            await _claimKnown.ExecuteAsync(item.Entry.Id, CancellationToken.None).ConfigureAwait(true);
+        }
+        catch (Exception ex) when (ex is not OutOfMemoryException)
+        {
+            LogFailed(ex);
+            CanKnow = true;
+            return;
+        }
+
+        _drill?.Dismiss(item);
+        _knownCount++;
+        if (_index == _items.Count - 1 && (_drill?.PendingCount ?? 0) == 0)
+        {
+            await FinishAsync(CancellationToken.None).ConfigureAwait(true);
+            return;
+        }
+
+        ShowNext();
+    }
+
     private async Task GradeAsync(ExerciseOutcome outcome, string correctAnswer)
     {
         Answered = true;
+        CanKnow = false;
         CompletedCount = _index + 1;
         var step = _drill?.Record(_items[_index], outcome.Correct);
         var result = await _gradeAnswer.ExecuteAsync(_items[_index], outcome, step, CancellationToken.None).ConfigureAwait(true);

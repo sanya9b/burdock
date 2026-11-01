@@ -273,6 +273,15 @@
     </Style>
 
     <!-- Feedback panel of the session (spec 03 S-12): container + title + detail + coloured «Далі». -->
+    <!-- Swipe action behind a library row (S-14): success container, no outline, fills the revealed width. -->
+    <Style x:Key="SwipeActionKnow" TargetType="Border">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorFeedbackSuccessContainerLight}, Dark={StaticResource ColorFeedbackSuccessContainerDark}}" />
+        <Setter Property="StrokeThickness" Value="0" />
+        <Setter Property="Padding" Value="{StaticResource Space3}" />
+        <Setter Property="WidthRequest" Value="{StaticResource SizeSwipeThreshold}" />
+        <Setter Property="VerticalOptions" Value="Fill" />
+    </Style>
+
     <Style x:Key="FeedbackCard" TargetType="Border">
         <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorFeedbackErrorContainerLight}, Dark={StaticResource ColorFeedbackErrorContainerDark}}" />
         <Setter Property="StrokeThickness" Value="0" />

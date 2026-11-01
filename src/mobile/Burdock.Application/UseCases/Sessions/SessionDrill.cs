@@ -45,6 +45,13 @@ public sealed class SessionDrill
         return _drill.Record(item.Entry.Id, correct);
     }
 
+    /// <summary>«Знаю»: the word leaves the drill without being asked again.</summary>
+    public void Dismiss(SessionItem item)
+    {
+        ArgumentNullException.ThrowIfNull(item);
+        _drill.Dismiss(item.Entry.Id);
+    }
+
     /// <summary>The next follow-up exercise, or null when no word is waiting.</summary>
     public SessionItem? Dequeue()
     {

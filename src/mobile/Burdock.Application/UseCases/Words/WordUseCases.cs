@@ -9,7 +9,7 @@ using Burdock.Domain.Vocabulary;
 namespace Burdock.Application.UseCases.Words;
 
 /// <summary>Everything the WordCard screen shows (spec 03 S-11).</summary>
-public sealed record WordCardView(WordEntry Entry, CardState State, int ScheduledExposures, int ConfirmedExposures, double Retrievability, DateTimeOffset? Due);
+public sealed record WordCardView(WordEntry Entry, CardState State, int ScheduledExposures, int ConfirmedExposures, double Retrievability, DateTimeOffset? Due, int MasteryProgress = 0);
 
 /// <summary>Shared card lookup/creation for word-level use cases.</summary>
 internal static class CardAccess
@@ -60,7 +60,8 @@ public sealed class OpenWordUseCase(IContentRepository content, RecordExposureUs
 
         var card = await recordExposure.ExecuteAsync(lexemeId, surface, ExposureKind.Confirmed, cancellationToken).ConfigureAwait(false);
         var retrievability = card.Memory is null ? 0 : scheduler.Retrievability(card.ToSchedulingInput(), clock.UtcNow);
-        return new WordCardView(entry, card.State, card.ScheduledExposures, card.ConfirmedExposures, retrievability, card.Due);
+        var mastery = card.State is CardState.Learned or CardState.Known ? LearningPolicy.MasteryStreak : card.MasteryProgress;
+        return new WordCardView(entry, card.State, card.ScheduledExposures, card.ConfirmedExposures, retrievability, card.Due, mastery);
     }
 }
 

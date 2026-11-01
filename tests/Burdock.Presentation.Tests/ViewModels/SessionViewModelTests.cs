@@ -1,3 +1,4 @@
+using Burdock.Domain.SharedKernel;
 using Burdock.Application.UseCases.Sessions;
 using Burdock.Domain.Learning;
 using Burdock.Presentation.Navigation;
@@ -189,6 +190,27 @@ public sealed class SessionViewModelTests
         vm.Answered.ShouldBeFalse("the next exercise is already on screen");
         vm.CompletedCount.ShouldBe(step + 1);
         SessionViewModel.AutoAdvanceAfterWrong.ShouldBeGreaterThan(SessionViewModel.AutoAdvanceAfterCorrect);
+    }
+
+    [Fact]
+    public async Task Knowing_a_word_marks_it_known_and_drops_it_from_the_drill()
+    {
+        var (harness, vm) = await StartAsync();
+        CompleteWarmup(vm);
+        vm.NextCommand.Execute(null);
+        var total = vm.ItemCount;
+        var word = vm.CurrentItem!.Entry.Id;
+        vm.CanKnow.ShouldBeTrue();
+
+        await vm.KnowCommand.ExecuteAsync(null);
+
+        var card = await harness.Cards.GetByLexemeAsync(ViewModelHarness.Learner, word, Ct);
+        card.ShouldNotBeNull();
+        card.State.ShouldBe(CardState.Known);
+        vm.Answered.ShouldBeFalse("the session moved on without grading");
+        vm.CurrentItem!.Entry.Id.ShouldNotBe(word);
+        vm.ItemCount.ShouldBe(total - 3, "the word's four answers are gone, the dismissed step itself stays counted");
+        harness.Reviews.Entries.ShouldBeEmpty();
     }
 
     [Fact]

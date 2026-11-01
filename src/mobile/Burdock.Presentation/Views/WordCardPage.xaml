@@ -54,7 +54,7 @@
                         <Label Grid.Row="2" Text="{Binding Ipa}" Style="{StaticResource OnHeroIpa}" />
                         <BoxView Grid.Row="3" Style="{StaticResource HeroDivider}" Margin="{StaticResource InsetTopSm}" />
                         <!-- Counters (ADR 0015: only confirmed is «переглянуто») -->
-                        <Grid Grid.Row="4" ColumnDefinitions="*,*,*" ColumnSpacing="{StaticResource Space2}" Margin="{StaticResource InsetTopSm}" SemanticProperties.Description="{Binding ExposuresText}">
+                        <Grid Grid.Row="4" ColumnDefinitions="*,*,*,*" ColumnSpacing="{StaticResource Space2}" Margin="{StaticResource InsetTopSm}" SemanticProperties.Description="{Binding ExposuresText}">
                             <VerticalStackLayout Grid.Column="0" Spacing="0">
                                 <HorizontalStackLayout Spacing="{StaticResource Space1}">
                                     <Label Text="{x:Static icons:Icon.Smartphone}" Style="{StaticResource IconGlyphSm}" TextColor="{AppThemeBinding Light={StaticResource ColorWidgetIpaLight}, Dark={StaticResource ColorWidgetIpaDark}}" />
@@ -76,6 +76,18 @@
                                     <Label Text="{x:Static strings:AppResources.Word_Stat_Memory_None}" Style="{StaticResource OnHeroStat}" IsVisible="{Binding HasRetrievability, Converter={StaticResource InvertedBoolConverter}}" />
                                 </HorizontalStackLayout>
                                 <Label Text="{x:Static strings:AppResources.Word_Stat_Memory}" Style="{StaticResource OnHeroCaption}" />
+                            </VerticalStackLayout>
+                            <!-- Mastery (journal items 15/19): four segments = four correct answers in a row; full for learned and known words. -->
+                            <VerticalStackLayout Grid.Column="3" Spacing="0" SemanticProperties.Description="{Binding MasteryText}">
+                                <HorizontalStackLayout Spacing="{StaticResource Space1}">
+                                    <controls:ProgressRing WidthRequest="{StaticResource SizeMasteryRingSm}" HeightRequest="{StaticResource SizeMasteryRingSm}" Thickness="{StaticResource SizeMasteryRingStrokeSm}"
+                                                           Segments="4" Duration="0" Value="{Binding Mastery}" VerticalOptions="Center"
+                                                           FillColor="{AppThemeBinding Light={StaticResource ColorWidgetAccentLight}, Dark={StaticResource ColorWidgetAccentDark}}"
+                                                           TrackColor="{AppThemeBinding Light={StaticResource ColorWidgetChipBackgroundLight}, Dark={StaticResource ColorWidgetChipBackgroundDark}}"
+                                                           AutomationProperties.IsInAccessibleTree="False" />
+                                    <Label Text="{Binding MasteryValue}" Style="{StaticResource OnHeroStat}" />
+                                </HorizontalStackLayout>
+                                <Label Text="{x:Static strings:AppResources.Word_Stat_Mastery}" Style="{StaticResource OnHeroCaption}" />
                             </VerticalStackLayout>
                         </Grid>
                     </Grid>

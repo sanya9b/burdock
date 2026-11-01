@@ -18,6 +18,7 @@ public sealed partial class WordCardViewModel : ObservableObject, IQueryAttribut
     private static readonly CultureInfo Ukrainian = CultureInfo.GetCultureInfo("uk-UA");
     private static readonly CompositeFormat ExposuresFormat = CompositeFormat.Parse(AppResources.Word_Exposures_Label);
     private static readonly CompositeFormat RetrievabilityFormat = CompositeFormat.Parse(AppResources.Word_Retrievability_Label);
+    private static readonly CompositeFormat MasteryFormat = CompositeFormat.Parse(AppResources.Words_Mastery_A11y);
 
     private readonly OpenWordUseCase _openWord;
     private readonly IntroduceWordUseCase _introduce;
@@ -89,6 +90,16 @@ public sealed partial class WordCardViewModel : ObservableObject, IQueryAttribut
     [ObservableProperty]
     private bool _hasExample;
 
+    /// <summary>0..1 share of the four-answer streak (S-11 «знання»).</summary>
+    [ObservableProperty]
+    private double _mastery;
+
+    [ObservableProperty]
+    private string _masteryValue = string.Empty;
+
+    [ObservableProperty]
+    private string _masteryText = string.Empty;
+
     [ObservableProperty]
     private bool _hasAlsoMeans;
 
@@ -157,6 +168,9 @@ public sealed partial class WordCardViewModel : ObservableObject, IQueryAttribut
             var percent = (int)Math.Round(view.Retrievability * 100);
             RetrievabilityPercent = HasRetrievability ? string.Create(Ukrainian, $"{percent}%") : string.Empty;
             RetrievabilityText = HasRetrievability ? string.Format(Ukrainian, RetrievabilityFormat, percent) : string.Empty;
+            Mastery = view.MasteryProgress / (double)LearningPolicy.MasteryStreak;
+            MasteryValue = string.Create(Ukrainian, $"{view.MasteryProgress}/{LearningPolicy.MasteryStreak}");
+            MasteryText = string.Format(Ukrainian, MasteryFormat, view.MasteryProgress, LearningPolicy.MasteryStreak);
             State = ViewState.Ready;
         }
         catch (OperationCanceledException)

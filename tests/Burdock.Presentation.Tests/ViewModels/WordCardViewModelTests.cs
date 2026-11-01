@@ -1,3 +1,4 @@
+using Burdock.Domain.SharedKernel;
 using Burdock.Domain.Learning;
 using Burdock.Domain.Vocabulary;
 using Burdock.Presentation.Resources.Strings;
@@ -115,6 +116,32 @@ public sealed class WordCardViewModelTests
         // One tap on the widget is one confirmed exposure on the widget surface, not an extra in-app one (spec 04 section 3.5).
         vm.State.ShouldBe(ViewState.Ready);
         harness.Exposures.Records.ShouldHaveSingleItem().Surface.ShouldBe(Burdock.Domain.Exposure.ExposureSurface.WidgetHome);
+    }
+
+    [Fact]
+    public async Task The_card_shows_the_mastery_streak_and_known_words_are_full()
+    {
+        var harness = await new ViewModelHarness().WithImportedWordsAsync(4);
+        var now = harness.Clock.UtcNow;
+        var half = LearnerCard.Restore(CardId.From(Guid.NewGuid()), ViewModelHarness.Learner, ViewModelHarness.Word(2).Id, now.AddDays(-1), CardState.Learning, null, 1,
+            now.AddDays(1), now.AddHours(-1), now.AddDays(-1), null, 2, 0, 0, 2, 2, [], [], masteryProgress: 2);
+        await harness.Cards.UpsertAsync(half, Ct);
+        var known = LearnerCard.CreateNew(CardId.From(Guid.NewGuid()), ViewModelHarness.Learner, ViewModelHarness.Word(3).Id, now);
+        known.ClaimKnown(now);
+        await harness.Cards.UpsertAsync(known, Ct);
+
+        var halfVm = harness.Resolve<WordCardViewModel>();
+        halfVm.ApplyQueryAttributes(new Dictionary<string, object>(StringComparer.Ordinal) { ["id"] = ViewModelHarness.Word(2).Id.Value.ToString("D") });
+        await halfVm.LoadAsync(Ct);
+        var knownVm = harness.Resolve<WordCardViewModel>();
+        knownVm.ApplyQueryAttributes(new Dictionary<string, object>(StringComparer.Ordinal) { ["id"] = ViewModelHarness.Word(3).Id.Value.ToString("D") });
+        await knownVm.LoadAsync(Ct);
+
+        halfVm.Mastery.ShouldBe(0.5);
+        halfVm.MasteryValue.ShouldBe("2/4");
+        halfVm.MasteryText.ShouldBe("знання 2 з 4");
+        knownVm.Mastery.ShouldBe(1);
+        knownVm.MasteryValue.ShouldBe("4/4");
     }
 
     [Fact]

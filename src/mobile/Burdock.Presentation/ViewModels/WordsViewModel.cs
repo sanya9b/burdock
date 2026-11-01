@@ -36,6 +36,7 @@ public sealed partial class WordsViewModel : ObservableObject
     private static readonly CompositeFormat MasteryFormat = CompositeFormat.Parse(AppResources.Words_Mastery_A11y);
 
     private readonly BrowseWordsUseCase _browse;
+    private readonly ClaimKnownUseCase _claimKnown;
     private readonly INavigationService _navigation;
     private readonly IChoiceSheet _sheet;
     private readonly IClock _clock;
@@ -72,9 +73,10 @@ public sealed partial class WordsViewModel : ObservableObject
     [ObservableProperty]
     private bool _isFilterEmpty;
 
-    public WordsViewModel(BrowseWordsUseCase browse, INavigationService navigation, IChoiceSheet sheet, IClock clock, ILogger<WordsViewModel> logger)
+    public WordsViewModel(BrowseWordsUseCase browse, ClaimKnownUseCase claimKnown, INavigationService navigation, IChoiceSheet sheet, IClock clock, ILogger<WordsViewModel> logger)
     {
         _browse = browse ?? throw new ArgumentNullException(nameof(browse));
+        _claimKnown = claimKnown ?? throw new ArgumentNullException(nameof(claimKnown));
         _navigation = navigation ?? throw new ArgumentNullException(nameof(navigation));
         _sheet = sheet ?? throw new ArgumentNullException(nameof(sheet));
         _clock = clock ?? throw new ArgumentNullException(nameof(clock));
@@ -144,6 +146,42 @@ public sealed partial class WordsViewModel : ObservableObject
         TopicChipText = slug is null ? AppResources.Words_Topic_Any : TopicCatalog.Label(slug);
         await RefreshAsync(cancellationToken).ConfigureAwait(true);
     }
+
+    /// <summary>Swipe action «Знаю» (S-14, journal item 19): the card becomes known and the row shows it without reloading the list.</summary>
+    [RelayCommand]
+    private async Task KnowAsync(WordRow? row)
+    {
+        if (row is null)
+        {
+            return;
+        }
+
+        try
+        {
+            await _claimKnown.ExecuteAsync(Domain.SharedKernel.LexemeId.From(row.LexemeId), CancellationToken.None).ConfigureAwait(true);
+        }
+        catch (Exception ex) when (ex is not OutOfMemoryException)
+        {
+            LogKnowFailed(ex);
+            return;
+        }
+
+        var status = StatusLabel(LibraryStatus.Learned);
+        var mastery = string.Format(Ukrainian, MasteryFormat, LearningPolicy.MasteryStreak, LearningPolicy.MasteryStreak);
+        var updated = row with
+        {
+            StatusLabel = status,
+            StatusKey = nameof(LibraryStatus.Learned),
+            DueText = string.Empty,
+            Mastery = 1,
+            MasteryProgress = LearningPolicy.MasteryStreak,
+            Accessibility = string.Format(Ukrainian, RowFormat, row.Lemma, row.Translation, status, string.Empty, mastery),
+        };
+        Words = Words.Select(r => r.LexemeId == row.LexemeId ? updated : r).ToList();
+    }
+
+    [LoggerMessage(Level = LogLevel.Error, Message = "Marking a word as known failed")]
+    private partial void LogKnowFailed(Exception exception);
 
     [RelayCommand]
     private Task OpenAsync(WordRow? row)

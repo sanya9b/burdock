@@ -72,7 +72,23 @@
                         IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Ready}}">
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="vm:WordRow">
-                    <Grid RowDefinitions="Auto,Auto" SemanticProperties.Description="{Binding Accessibility}">
+                    <!-- Swipe left for «Знаю» (S-14 context actions, journal item 19): the row keeps its tap-to-open behaviour. -->
+                    <SwipeView Threshold="{StaticResource SizeSwipeThreshold}">
+                        <SwipeView.RightItems>
+                            <SwipeItems Mode="Execute">
+                                <SwipeItemView Command="{Binding Source={RelativeSource AncestorType={x:Type vm:WordsViewModel}}, Path=KnowCommand}" CommandParameter="{Binding .}">
+                                    <Border Style="{StaticResource SwipeActionKnow}">
+                                        <VerticalStackLayout Spacing="{StaticResource Space1}" VerticalOptions="Center" HorizontalOptions="Center">
+                                            <Label Text="{x:Static icons:Icon.Check}" Style="{StaticResource IconGlyph}" HorizontalTextAlignment="Center"
+                                                   TextColor="{AppThemeBinding Light={StaticResource ColorFeedbackOnSuccessContainerLight}, Dark={StaticResource ColorFeedbackOnSuccessContainerDark}}" />
+                                            <Label Text="{x:Static strings:AppResources.Words_Know_Action}" Style="{StaticResource TypeLabelMd}" HorizontalTextAlignment="Center"
+                                                   TextColor="{AppThemeBinding Light={StaticResource ColorFeedbackOnSuccessContainerLight}, Dark={StaticResource ColorFeedbackOnSuccessContainerDark}}" />
+                                        </VerticalStackLayout>
+                                    </Border>
+                                </SwipeItemView>
+                            </SwipeItems>
+                        </SwipeView.RightItems>
+                    <Grid RowDefinitions="Auto,Auto" SemanticProperties.Description="{Binding Accessibility}" BackgroundColor="{AppThemeBinding Light={StaticResource ColorSurfaceDefaultLight}, Dark={StaticResource ColorSurfaceDefaultDark}}">
                         <Grid.GestureRecognizers>
                             <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type vm:WordsViewModel}}, Path=OpenCommand}" CommandParameter="{Binding .}" />
                         </Grid.GestureRecognizers>
@@ -81,7 +97,7 @@
                             <controls:ProgressRing Grid.Column="0" WidthRequest="{StaticResource SizeMasteryRing}" HeightRequest="{StaticResource SizeMasteryRing}" Thickness="{StaticResource SizeMasteryRingStroke}"
                                                    Segments="4" Duration="0" Value="{Binding Mastery}" VerticalOptions="Center"
                                                    FillColor="{Binding StatusKey, Converter={StaticResource StatusColor}}"
-                                                   TrackColor="{AppThemeBinding Light={StaticResource ColorSurfaceSunkenLight}, Dark={StaticResource ColorSurfaceSunkenDark}}"
+                                                   TrackColor="{AppThemeBinding Light={StaticResource ColorBorderDefaultLight}, Dark={StaticResource ColorBorderDefaultDark}}"
                                                    AutomationProperties.IsInAccessibleTree="False" />
                             <VerticalStackLayout Grid.Column="1" Spacing="{StaticResource Space1}" VerticalOptions="Center">
                                 <Label Text="{Binding Lemma}" Style="{StaticResource TypeTitleMd}" LineBreakMode="TailTruncation" />
@@ -94,6 +110,7 @@
                         </Grid>
                         <BoxView Grid.Row="1" Style="{StaticResource Divider}" Margin="{StaticResource PageInset}" />
                     </Grid>
+                    </SwipeView>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>

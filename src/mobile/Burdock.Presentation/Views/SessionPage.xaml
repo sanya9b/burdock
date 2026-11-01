@@ -68,6 +68,10 @@
                                          IsVisible="{Binding Answered, Converter={StaticResource InvertedBoolConverter}}" />
                 </VerticalStackLayout>
 
+                <!-- «Знаю це слово» (journal item 19): the word becomes known and leaves the drill; hidden once answered and during the warm-up. -->
+                <controls:PushButton Style="{StaticResource PushNeutral}" Text="{x:Static strings:AppResources.Session_Know_Button}" Icon="{x:Static icons:Icon.Check}"
+                                     Command="{Binding KnowCommand}" IsVisible="{Binding CanKnow}" HorizontalOptions="Center" AutomationId="Session_Know" />
+
                 <!-- Matching -->
                 <Grid ColumnDefinitions="*,*" ColumnSpacing="{StaticResource Space3}" IsVisible="{Binding IsMatching}">
                     <VerticalStackLayout Grid.Column="0" Spacing="{StaticResource Space2}" BindableLayout.ItemsSource="{Binding MatchWords}">
