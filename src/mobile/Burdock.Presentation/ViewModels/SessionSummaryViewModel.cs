@@ -49,6 +49,7 @@ public sealed partial class SessionSummaryViewModel : ObservableObject, IQueryAt
     private readonly Queue<CelebrationItem> _celebrations = new();
     private SessionReport? _report;
     private bool _settled;
+    private bool _celebrationsPending;
 
     [ObservableProperty]
     private int _graded;
@@ -137,6 +138,12 @@ public sealed partial class SessionSummaryViewModel : ObservableObject, IQueryAt
     }
 
     public ObservableCollection<CelebrationItem> Celebrations { get; } = [];
+
+    /// <summary>
+    /// When true the page owns the moment the first celebration appears: it calls <see cref="BeginCelebrations"/> once the feeding and growth
+    /// animations have played, so the RewardCard never covers them. Off by default (and under Reduce Motion), celebrations show right after settlement.
+    /// </summary>
+    public bool DeferCelebrations { get; set; }
 
     public void ApplyQueryAttributes(IDictionary<string, object> query)
     {
@@ -247,6 +254,12 @@ public sealed partial class SessionSummaryViewModel : ObservableObject, IQueryAt
                 Celebrations.Add(item);
             }
 
+            if (DeferCelebrations && _celebrations.Count > 0)
+            {
+                _celebrationsPending = true;
+                return;
+            }
+
             ShowNextCelebration();
         }
         catch (OperationCanceledException)
@@ -258,6 +271,18 @@ public sealed partial class SessionSummaryViewModel : ObservableObject, IQueryAt
             MascotReady = true;
             LogFailed(ex);
         }
+    }
+
+    /// <summary>Starts the queued celebrations that <see cref="DeferCelebrations"/> held back; a no-op when nothing is pending.</summary>
+    public void BeginCelebrations()
+    {
+        if (!_celebrationsPending)
+        {
+            return;
+        }
+
+        _celebrationsPending = false;
+        ShowNextCelebration();
     }
 
     [RelayCommand]

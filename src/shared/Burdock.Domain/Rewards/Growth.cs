@@ -1,7 +1,7 @@
 namespace Burdock.Domain.Rewards;
 
 /// <summary>
-/// Visible growth stage of the mascot (spec 07 §3.2.7, decision log item 17). A pure function of the XP level: the burr never shrinks,
+/// Visible growth stage of the mascot (spec 07 §3.2.7, decision log item 18). A pure function of the XP level: the burr never shrinks,
 /// never wilts and never asks to be fed; it only grows as the learner earns XP through learning actions.
 /// </summary>
 public enum GrowthStage

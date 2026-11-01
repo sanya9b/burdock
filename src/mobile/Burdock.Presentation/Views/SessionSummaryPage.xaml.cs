@@ -29,6 +29,7 @@ public partial class SessionSummaryPage : ContentPage, IQueryAttributable
         Celebration.ReduceMotion = _motion.ReduceMotion;
         Celebration.Haptics = _haptics;
         Mascot.ReduceMotion = _motion.ReduceMotion;
+        _viewModel.DeferCelebrations = !_motion.ReduceMotion;
     }
 
     public void ApplyQueryAttributes(IDictionary<string, object> query) => _viewModel.ApplyQueryAttributes(query);
@@ -108,14 +109,18 @@ public partial class SessionSummaryPage : ContentPage, IQueryAttributable
         if (_motion.ReduceMotion)
         {
             Mascot.SetGrowth(after.Stage, after.Progress, animate: false);
+            _viewModel.BeginCelebrations();
             return;
         }
 
-        // Let the pop-in settle, then the seeds fly in, the burr gulps and grows.
+        // Let the pop-in settle, then the seeds fly in, the burr gulps and grows; only then may a celebration card cover it.
+        var celebrate = Duration("MotionDurationCelebrate", 600);
         await Task.Delay((int)Duration("MotionDurationSlow", 320)).ConfigureAwait(true);
-        await Mascot.FeedAsync(_viewModel.FeedSeeds, Duration("MotionDurationCelebrate", 600)).ConfigureAwait(true);
+        await Mascot.FeedAsync(_viewModel.FeedSeeds, celebrate).ConfigureAwait(true);
         _haptics.Light();
         Mascot.SetGrowth(after.Stage, after.Progress, animate: true);
+        await Task.Delay((int)celebrate).ConfigureAwait(true);
+        _viewModel.BeginCelebrations();
     }
 
     private void OnViewModelPropertyChanged(object? sender, PropertyChangedEventArgs e)

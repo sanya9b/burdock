@@ -109,6 +109,27 @@ public sealed class SessionSummaryViewModelTests
     }
 
     [Fact]
+    public async Task Deferred_celebrations_wait_for_the_page_to_finish_feeding_the_burr()
+    {
+        var harness = new ViewModelHarness();
+        var vm = Open(harness, graded: 10, correct: 10);
+        vm.DeferCelebrations = true;
+
+        await vm.LoadAsync(Ct);
+
+        vm.ShowRewards.ShouldBeTrue();
+        vm.Celebrations.Count.ShouldBeGreaterThanOrEqualTo(1);
+        vm.CurrentCelebration.ShouldBeNull();
+
+        vm.BeginCelebrations();
+
+        vm.CurrentCelebration.ShouldNotBeNull();
+        var first = vm.CurrentCelebration;
+        vm.BeginCelebrations(); // idempotent: a second call does not skip the card being shown
+        vm.CurrentCelebration.ShouldBe(first);
+    }
+
+    [Fact]
     public async Task Without_a_session_the_mascot_is_still_shown()
     {
         var harness = new ViewModelHarness();
