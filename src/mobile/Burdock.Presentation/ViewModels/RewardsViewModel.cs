@@ -44,10 +44,18 @@ public sealed partial class ShopTile(ShopItemView view) : ObservableObject
 
     public bool IsTheme => Category == CatalogCategory.WidgetTheme;
 
+    public bool IsScene => Category == CatalogCategory.Scene;
+
+    public bool IsRide => Category == CatalogCategory.Ride;
+
     /// <summary>What the tile's little burr wears: the outfit or the frame of this item.</summary>
     public MascotOutfit ThumbOutfit { get; } = MascotCosmetics.OutfitFor(view.Item.Key);
 
     public MascotFrame ThumbFrame { get; } = MascotCosmetics.FrameFor(view.Item.Key);
+
+    public MascotScene ThumbScene { get; } = MascotCosmetics.SceneFor(view.Item.Key);
+
+    public MascotRide ThumbRide { get; } = MascotCosmetics.RideFor(view.Item.Key);
 
     /// <summary>Generated theme name for the swatch (bloom → Tsvit, meadow → Luh, night → Nich, sun → Sontse).</summary>
     public string ThumbTheme { get; } = view.Item.Slug switch { "meadow" => "Luh", "night" => "Nich", "sun" => "Sontse", _ => "Tsvit" };
@@ -59,7 +67,7 @@ public sealed partial class ShopTile(ShopItemView view) : ObservableObject
 
     private static string StatusFor(ItemStatus status) => status.Availability switch
     {
-        ItemAvailability.Owned when status.Equipped => status.Item.Category == CatalogCategory.WidgetTheme ? AppResources.Shop_Chosen : AppResources.Shop_Worn,
+        ItemAvailability.Owned when status.Equipped => status.Item.Category is CatalogCategory.WidgetTheme or CatalogCategory.Scene or CatalogCategory.Ride ? AppResources.Shop_Chosen : AppResources.Shop_Worn,
         ItemAvailability.Owned => AppResources.Shop_Owned,
         ItemAvailability.Locked => RewardsText.UnlockShort(status.Unlock),
         _ => string.Empty,
@@ -79,6 +87,8 @@ public sealed partial class RewardsViewModel : ObservableObject
     private static readonly CompositeFormat PurchasedFormat = CompositeFormat.Parse(AppResources.Shop_Purchased_Toast);
     private static readonly CompositeFormat WornFormat = CompositeFormat.Parse(AppResources.Shop_Worn_Toast);
     private static readonly CompositeFormat ThemeFormat = CompositeFormat.Parse(AppResources.Shop_Theme_Toast);
+    private static readonly CompositeFormat SceneFormat = CompositeFormat.Parse(AppResources.Shop_Scene_Toast);
+    private static readonly CompositeFormat RideFormat = CompositeFormat.Parse(AppResources.Shop_Ride_Toast);
 
     private readonly GetShopUseCase _getShop;
     private readonly PurchaseItemUseCase _purchase;
@@ -106,6 +116,12 @@ public sealed partial class RewardsViewModel : ObservableObject
 
     [ObservableProperty]
     private MascotFrame _previewFrame;
+
+    [ObservableProperty]
+    private MascotScene _previewScene;
+
+    [ObservableProperty]
+    private MascotRide _previewRide;
 
     [ObservableProperty]
     private string _previewName = string.Empty;
@@ -222,9 +238,13 @@ public sealed partial class RewardsViewModel : ObservableObject
                     _ = _widgets.TriggerAsync("theme", CancellationToken.None);
                 }
 
-                var message = tile.Category == CatalogCategory.WidgetTheme
-                    ? string.Format(Ukrainian, ThemeFormat, RewardsText.ItemName(Catalog.Find(result.State.Inventory.Theme) ?? tile.View.Item))
-                    : wear ? string.Format(Ukrainian, WornFormat, tile.Name) : AppResources.Shop_TakenOff_Toast;
+                var message = tile.Category switch
+                {
+                    CatalogCategory.WidgetTheme => string.Format(Ukrainian, ThemeFormat, RewardsText.ItemName(Catalog.Find(result.State.Inventory.Theme) ?? tile.View.Item)),
+                    CatalogCategory.Scene => wear ? string.Format(Ukrainian, SceneFormat, tile.Name) : AppResources.Shop_Removed_Toast,
+                    CatalogCategory.Ride => wear ? string.Format(Ukrainian, RideFormat, tile.Name) : AppResources.Shop_Removed_Toast,
+                    _ => wear ? string.Format(Ukrainian, WornFormat, tile.Name) : AppResources.Shop_TakenOff_Toast,
+                };
                 await _toast.ShowAsync(message, cancellationToken).ConfigureAwait(true);
             }
 
@@ -283,6 +303,8 @@ public sealed partial class RewardsViewModel : ObservableObject
         ThornsText = RewardsText.Thorns(shop.Thorns);
         Sections.Clear();
         Sections.Add(Section(AppResources.Shop_Section_Outfits, CatalogCategory.Outfit, shop));
+        Sections.Add(Section(AppResources.Shop_Section_Rides, CatalogCategory.Ride, shop));
+        Sections.Add(Section(AppResources.Shop_Section_Scenes, CatalogCategory.Scene, shop));
         Sections.Add(Section(AppResources.Shop_Section_Themes, CatalogCategory.WidgetTheme, shop));
         Sections.Add(Section(AppResources.Shop_Section_Frames, CatalogCategory.Frame, shop));
 
@@ -312,9 +334,11 @@ public sealed partial class RewardsViewModel : ObservableObject
     {
         var inventory = _shop?.Inventory ?? Inventory.Empty;
         var tile = Selected;
-        // The preview wears the selected outfit or frame on top of what is already worn, so the learner sees the item before paying.
+        // The preview wears the selected outfit, frame, scene or ride on top of what is already worn, so the learner sees the item before paying.
         PreviewOutfit = MascotCosmetics.OutfitFor(tile?.Category == CatalogCategory.Outfit ? tile.Key : inventory.Outfit);
         PreviewFrame = MascotCosmetics.FrameFor(tile?.Category == CatalogCategory.Frame ? tile.Key : inventory.Frame);
+        PreviewScene = MascotCosmetics.SceneFor(tile?.Category == CatalogCategory.Scene ? tile.Key : inventory.Scene);
+        PreviewRide = MascotCosmetics.RideFor(tile?.Category == CatalogCategory.Ride ? tile.Key : inventory.Ride);
         if (tile is null)
         {
             PreviewName = string.Empty;
@@ -341,6 +365,7 @@ public sealed partial class RewardsViewModel : ObservableObject
             ItemAvailability.Owned when tile.Category == CatalogCategory.WidgetTheme => tile.Equipped
                 ? (tile.Key == Catalog.DefaultThemeKey ? AppResources.Shop_Chosen : AppResources.Shop_Default_Button)
                 : AppResources.Shop_Choose_Button,
+            ItemAvailability.Owned when tile.Category is CatalogCategory.Scene or CatalogCategory.Ride => tile.Equipped ? AppResources.Shop_Remove_Button : AppResources.Shop_Use_Button,
             ItemAvailability.Owned => tile.Equipped ? AppResources.Shop_TakeOff_Button : AppResources.Shop_Wear_Button,
             ItemAvailability.Insufficient => RewardsText.BuyButton(status.Item.Price),
             _ => RewardsText.Unlock(status.Unlock),

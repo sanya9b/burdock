@@ -82,6 +82,8 @@ internal static class RewardsText
             CatalogCategory.WidgetTheme => "theme",
             CatalogCategory.Outfit => "outfit",
             CatalogCategory.Frame => "frame",
+            CatalogCategory.Scene => "scene",
+            CatalogCategory.Ride => "ride",
             _ => "freeze",
         };
         return AppResources.ResourceManager.GetString($"Catalog_{category}_{item.Slug}", AppResources.Culture) ?? item.Slug;

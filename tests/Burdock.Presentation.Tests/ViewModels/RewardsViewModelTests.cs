@@ -22,10 +22,8 @@ public sealed class RewardsViewModelTests
         vm.State.ShouldBe(ViewState.Ready);
         vm.ShowShop.ShouldBeTrue();
         vm.ThornsText.ShouldBe(RewardsText.Thorns(0));
-        vm.Sections.Select(s => s.Category).ShouldBe([CatalogCategory.Outfit, CatalogCategory.WidgetTheme, CatalogCategory.Frame]);
-        vm.Sections[0].Tiles.Count.ShouldBe(11);
-        vm.Sections[1].Tiles.Count.ShouldBe(4);
-        vm.Sections[2].Tiles.Count.ShouldBe(7);
+        vm.Sections.Select(s => s.Category).ShouldBe([CatalogCategory.Outfit, CatalogCategory.Ride, CatalogCategory.Scene, CatalogCategory.WidgetTheme, CatalogCategory.Frame]);
+        vm.Sections.Select(s => s.Tiles.Count).ShouldBe([11, 8, 6, 4, 7]);
         vm.Selected.ShouldNotBeNull();
         vm.Selected.Key.ShouldBe("catalog.outfit.scarf");
         vm.Selected.IsSelected.ShouldBeTrue();
@@ -101,6 +99,42 @@ public sealed class RewardsViewModelTests
     }
 
     [Fact]
+    public async Task A_scene_and_a_ride_are_previewed_bought_and_removed_in_their_own_slots()
+    {
+        var harness = new ViewModelHarness();
+        await harness.Rewards.SaveAsync(ViewModelHarness.Learner, RewardsState.Empty with { Thorns = 600 }, [], Ct);
+        var vm = harness.Resolve<RewardsViewModel>();
+        await vm.LoadAsync(Ct);
+
+        var meadow = vm.Tiles.Single(t => t.Key == "catalog.scene.meadow");
+        meadow.IsScene.ShouldBeTrue();
+        meadow.ThumbScene.ShouldBe(MascotScene.Meadow);
+        vm.SelectCommand.Execute(meadow);
+        vm.PreviewScene.ShouldBe(MascotScene.Meadow);
+        vm.PreviewRide.ShouldBe(MascotRide.None);
+        await vm.ActCommand.ExecuteAsync(null);
+        harness.Rewards.State!.Inventory.Scene.ShouldBe("catalog.scene.meadow");
+        vm.ActionText.ShouldBe(AppResources.Shop_Remove_Button);
+        vm.Tiles.Single(t => t.Key == "catalog.scene.meadow").StatusText.ShouldBe(AppResources.Shop_Chosen);
+
+        var scooter = vm.Tiles.Single(t => t.Key == "catalog.ride.scooter");
+        scooter.ThumbRide.ShouldBe(MascotRide.Scooter);
+        vm.SelectCommand.Execute(scooter);
+        vm.PreviewScene.ShouldBe(MascotScene.Meadow); // the chosen scene stays behind while a ride is tried on
+        vm.PreviewRide.ShouldBe(MascotRide.Scooter);
+        await vm.ActCommand.ExecuteAsync(null);
+        harness.Rewards.State!.Inventory.Ride.ShouldBe("catalog.ride.scooter");
+        harness.Rewards.State.Inventory.Scene.ShouldBe("catalog.scene.meadow");
+        harness.Toast.Messages.ShouldContain(m => m.Contains(RewardsText.ItemName(Catalog.Find("catalog.ride.scooter")!), StringComparison.Ordinal));
+        vm.ThornsText.ShouldBe(RewardsText.Thorns(150));
+
+        await vm.ActCommand.ExecuteAsync(null); // remove the ride
+        harness.Rewards.State!.Inventory.Ride.ShouldBeNull();
+        vm.ActionText.ShouldBe(AppResources.Shop_Use_Button);
+        harness.Toast.Messages.ShouldContain(AppResources.Shop_Removed_Toast);
+    }
+
+    [Fact]
     public async Task A_freeze_is_bought_from_the_bank_card_and_the_bank_text_follows()
     {
         var harness = new ViewModelHarness();
@@ -133,7 +167,7 @@ public sealed class RewardsViewModelTests
     public async Task The_profile_wears_what_the_inventory_says()
     {
         var harness = new ViewModelHarness();
-        var state = RewardsState.Empty with { Inventory = Inventory.Empty with { Owned = new HashSet<string>(StringComparer.Ordinal) { "catalog.outfit.crown", "catalog.frame.gold" }, Outfit = "catalog.outfit.crown", Frame = "catalog.frame.gold" } };
+        var state = RewardsState.Empty with { Inventory = Inventory.Empty with { Owned = new HashSet<string>(StringComparer.Ordinal) { "catalog.outfit.crown", "catalog.frame.gold", "catalog.scene.space", "catalog.ride.saucer" }, Outfit = "catalog.outfit.crown", Frame = "catalog.frame.gold", Scene = "catalog.scene.space", Ride = "catalog.ride.saucer" } };
         await harness.Rewards.SaveAsync(ViewModelHarness.Learner, state, [], Ct);
         var vm = harness.Resolve<MeViewModel>();
 
@@ -141,5 +175,7 @@ public sealed class RewardsViewModelTests
 
         vm.Outfit.ShouldBe(MascotOutfit.Crown);
         vm.Frame.ShouldBe(MascotFrame.Gold);
+        vm.Scene.ShouldBe(MascotScene.Space);
+        vm.Ride.ShouldBe(MascotRide.Saucer);
     }
 }

@@ -481,4 +481,26 @@
   <data name="Shop_Lock_Words" xml:space="preserve"><value>{0} у «Вивчено»</value></data>
   <data name="Shop_Lock_Days" xml:space="preserve"><value>{0} навч. днів</value></data>
   <data name="Shop_Lock_Sessions" xml:space="preserve"><value>Після 1-ї сесії</value></data>
+  <!-- Shop: scenes and rides (decision log item 22) -->
+  <data name="Catalog_scene_meadow" xml:space="preserve"><value>Галявина</value><comment>Фон; «Луг» лишається темою віджета</comment></data>
+  <data name="Catalog_scene_sea" xml:space="preserve"><value>Море</value></data>
+  <data name="Catalog_scene_city" xml:space="preserve"><value>Місто</value></data>
+  <data name="Catalog_scene_night" xml:space="preserve"><value>Зоряна ніч</value></data>
+  <data name="Catalog_scene_winter" xml:space="preserve"><value>Зима</value></data>
+  <data name="Catalog_scene_space" xml:space="preserve"><value>Космос</value></data>
+  <data name="Catalog_ride_scooter" xml:space="preserve"><value>Самокат</value></data>
+  <data name="Catalog_ride_bicycle" xml:space="preserve"><value>Велосипед</value></data>
+  <data name="Catalog_ride_car" xml:space="preserve"><value>Машинка</value></data>
+  <data name="Catalog_ride_van" xml:space="preserve"><value>Бусик</value></data>
+  <data name="Catalog_ride_bus" xml:space="preserve"><value>Автобус</value></data>
+  <data name="Catalog_ride_steamship" xml:space="preserve"><value>Пароплав</value></data>
+  <data name="Catalog_ride_airplane" xml:space="preserve"><value>Літак</value></data>
+  <data name="Catalog_ride_saucer" xml:space="preserve"><value>Літаюча тарілка</value><comment>Космічний апарат з рішення власника (журнал п. 22)</comment></data>
+  <data name="Shop_Section_Scenes" xml:space="preserve"><value>Фони</value><comment>Секція крамниці: сцена позаду Реп’яшка</comment></data>
+  <data name="Shop_Section_Rides" xml:space="preserve"><value>Транспорт</value><comment>Секція крамниці: транспорт, на якому їде Реп’яшок</comment></data>
+  <data name="Shop_Use_Button" xml:space="preserve"><value>Обрати</value><comment>Дія для фону або транспорту, що вже є</comment></data>
+  <data name="Shop_Remove_Button" xml:space="preserve"><value>Прибрати</value><comment>Зняти фон або транспорт</comment></data>
+  <data name="Shop_Scene_Toast" xml:space="preserve"><value>Фон: {0}</value></data>
+  <data name="Shop_Ride_Toast" xml:space="preserve"><value>Транспорт: {0}</value></data>
+  <data name="Shop_Removed_Toast" xml:space="preserve"><value>Прибрано</value></data>
 </root>

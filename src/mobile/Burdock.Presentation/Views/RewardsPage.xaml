@@ -45,7 +45,7 @@
                 <!-- Preview: the burr tries the selected item on; the one action below buys, wears, takes off or chooses -->
                 <Border Style="{StaticResource CardTonal}">
                     <VerticalStackLayout Spacing="{StaticResource Space3}">
-                        <controls:MascotView x:Name="Mascot" Mood="Joy" Outfit="{Binding PreviewOutfit}" AvatarFrame="{Binding PreviewFrame}" WidthRequest="{StaticResource SizeMascotLg}" HeightRequest="{StaticResource SizeMascotLg}" HorizontalOptions="Center"
+                        <controls:MascotView x:Name="Mascot" Mood="Joy" Outfit="{Binding PreviewOutfit}" AvatarFrame="{Binding PreviewFrame}" Scene="{Binding PreviewScene}" Ride="{Binding PreviewRide}" WidthRequest="{StaticResource SizeMascotLg}" HeightRequest="{StaticResource SizeMascotLg}" HorizontalOptions="Center"
                                              SemanticProperties.Description="{Binding PreviewName}" />
                         <Label Text="{Binding PreviewName}" Style="{StaticResource TypeHeadlineMd}" HorizontalTextAlignment="Center" SemanticProperties.HeadingLevel="Level2"
                                TextColor="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
@@ -87,9 +87,9 @@
                                                 </Border.GestureRecognizers>
                                                 <VerticalStackLayout Spacing="{StaticResource Space2}" Padding="{StaticResource Space3}">
                                                     <Grid ColumnDefinitions="*,Auto">
-                                                        <!-- Thumbnail: a still little burr wearing the item (outfits, frames) or the theme swatch -->
+                                                        <!-- Thumbnail: a still little burr wearing the item (outfits, frames), on its scene or in its ride, or the theme swatch -->
                                                         <controls:MascotView Grid.Column="0" WidthRequest="{StaticResource SizeMascotSm}" HeightRequest="{StaticResource SizeMascotSm}" HorizontalOptions="Start"
-                                                                             ReduceMotion="True" InputTransparent="True" Mood="Joy" Outfit="{Binding ThumbOutfit}" AvatarFrame="{Binding ThumbFrame}"
+                                                                             ReduceMotion="True" InputTransparent="True" Mood="Joy" Outfit="{Binding ThumbOutfit}" AvatarFrame="{Binding ThumbFrame}" Scene="{Binding ThumbScene}" Ride="{Binding ThumbRide}"
                                                                              IsVisible="{Binding IsTheme, Converter={StaticResource InvertedBoolConverter}}" AutomationProperties.IsInAccessibleTree="False" />
                                                         <controls:ThemeSwatchView Grid.Column="0" WidthRequest="{StaticResource SizeMascotSm}" HeightRequest="{StaticResource SizeMascotSm}" HorizontalOptions="Start"
                                                                                   Theme="{Binding ThumbTheme}" IsVisible="{Binding IsTheme}" AutomationProperties.IsInAccessibleTree="False" />

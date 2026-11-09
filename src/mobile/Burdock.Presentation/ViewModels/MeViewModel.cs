@@ -61,6 +61,12 @@ public sealed partial class MeViewModel : ObservableObject
     private MascotFrame _frame;
 
     [ObservableProperty]
+    private MascotScene _scene;
+
+    [ObservableProperty]
+    private MascotRide _ride;
+
+    [ObservableProperty]
     private string _levelText = string.Empty;
 
     [ObservableProperty]
@@ -107,6 +113,8 @@ public sealed partial class MeViewModel : ObservableObject
             // Cosmetics from the shop (spec 07 §3.2.3) stay on without gamification too: they are the learner's, not a reward display.
             Outfit = MascotCosmetics.OutfitFor(overview.Inventory.Outfit);
             Frame = MascotCosmetics.FrameFor(overview.Inventory.Frame);
+            Scene = MascotCosmetics.SceneFor(overview.Inventory.Scene);
+            Ride = MascotCosmetics.RideFor(overview.Inventory.Ride);
 
             LevelText = RewardsText.Level(overview.Level);
             XpProgress = overview.XpNeededForLevel == 0 ? 1 : (double)overview.XpEarnedInLevel / overview.XpNeededForLevel;

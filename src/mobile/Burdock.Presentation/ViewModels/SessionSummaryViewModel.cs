@@ -96,6 +96,12 @@ public sealed partial class SessionSummaryViewModel : ObservableObject, IQueryAt
     [ObservableProperty]
     private MascotFrame _frame;
 
+    [ObservableProperty]
+    private MascotScene _scene;
+
+    [ObservableProperty]
+    private MascotRide _ride;
+
     /// <summary>True once the stage before the session is known; the page shows the mascot only then, so a seed never flashes as a grown burr.</summary>
     [ObservableProperty]
     private bool _mascotReady;
@@ -200,6 +206,8 @@ public sealed partial class SessionSummaryViewModel : ObservableObject, IQueryAt
             MascotDescription = view.GamificationEnabled ? RewardsText.GrowthDescription(before.Stage) : AppResources.Growth_A11y_Plain;
             Outfit = MascotCosmetics.OutfitFor(s.State.Inventory.Outfit);
             Frame = MascotCosmetics.FrameFor(s.State.Inventory.Frame);
+            Scene = MascotCosmetics.SceneFor(s.State.Inventory.Scene);
+            Ride = MascotCosmetics.RideFor(s.State.Inventory.Ride);
             MascotReady = true;
 
             if (!view.GamificationEnabled || s.IsEmpty)

@@ -49,6 +49,10 @@ public sealed class RewardsStateRow
 
     public string? EquippedTheme { get; set; }
 
+    public string? EquippedScene { get; set; }
+
+    public string? EquippedRide { get; set; }
+
     public int FreezesBanked { get; set; }
 
     /// <summary>Monday-based week number of the last automatic freeze grant, -1 when none.</summary>
@@ -139,7 +143,7 @@ public sealed class SqliteRewardsStore(BurdockDatabase database) : IRewardsStore
             LastFreezePurchaseDay = row.FreezePurchaseDay > 0 ? new LearningDay(DateOnly.FromDayNumber(row.FreezePurchaseDay)) : null,
         };
         var owned = new HashSet<string>(row.OwnedItems.Split(',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries), StringComparer.Ordinal) { Catalog.DefaultThemeKey };
-        var inventory = new Inventory(owned, row.EquippedOutfit, row.EquippedFrame, string.IsNullOrEmpty(row.EquippedTheme) ? Catalog.DefaultThemeKey : row.EquippedTheme);
+        var inventory = new Inventory(owned, row.EquippedOutfit, row.EquippedFrame, string.IsNullOrEmpty(row.EquippedTheme) ? Catalog.DefaultThemeKey : row.EquippedTheme, row.EquippedScene, row.EquippedRide);
         return new RewardsState(row.Thorns, row.Xp, streak, achievements, row.SessionsCompleted, today, row.LastSessionId) { Inventory = inventory, LearningDays = row.LearningDays };
     }
 
@@ -163,6 +167,8 @@ public sealed class SqliteRewardsStore(BurdockDatabase database) : IRewardsStore
         EquippedOutfit = state.Inventory.Outfit,
         EquippedFrame = state.Inventory.Frame,
         EquippedTheme = state.Inventory.Theme,
+        EquippedScene = state.Inventory.Scene,
+        EquippedRide = state.Inventory.Ride,
         FreezesBanked = state.Streak.FreezesBanked,
         FreezeGrantWeek = state.Streak.LastFreezeGrantWeek ?? -1,
         FreezePurchaseDay = state.Streak.LastFreezePurchaseDay?.Date.DayNumber ?? 0,

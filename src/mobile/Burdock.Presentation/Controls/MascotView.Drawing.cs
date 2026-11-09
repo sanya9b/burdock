@@ -51,8 +51,12 @@ public sealed partial class MascotView
         var lift = (float)Math.Max(pose.OffsetY * r, -headroom);
         var hopFraction = Math.Clamp(-lift / Math.Max(1e-3f, r * (float)MascotChoreography.HopHeight), 0, 1);
 
+        var groundY = anchorY + hookLen * 0.9f + 2 * u;
+        var rideScale = Math.Min(r, side * 0.27f);
+        DrawScene(canvas, dirtyRect, side, groundY);
         DrawFrame(canvas, dirtyRect, side, u);
-        DrawGroundShadow(canvas, cx, anchorY + hookLen * 0.9f + 2 * u, r, u, pose.ScaleX, hopFraction);
+        DrawGroundShadow(canvas, cx, groundY, r, u, pose.ScaleX, hopFraction);
+        DrawRideBehind(canvas, cx, groundY, r, rideScale);
 
         canvas.SaveState();
         canvas.Translate(0, lift);
@@ -91,6 +95,7 @@ public sealed partial class MascotView
         }
 
         canvas.RestoreState();
+        DrawRideFront(canvas, cx, groundY, r, rideScale);
 
         if (pose.Ring > 0.001 && pose.Ring < 1)
         {

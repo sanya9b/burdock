@@ -32,6 +32,32 @@ public enum MascotFrame
     Gold,
 }
 
+/// <summary>Scenes of the catalogue (log item 22): a rounded picture behind the burr on the profile, the summary and in the shop.</summary>
+public enum MascotScene
+{
+    None,
+    Meadow,
+    Sea,
+    City,
+    Night,
+    Winter,
+    Space,
+}
+
+/// <summary>Rides of the catalogue (log item 22): a vehicle the burr sits in or on, drawn under the body and partly over its lower edge.</summary>
+public enum MascotRide
+{
+    None,
+    Scooter,
+    Bicycle,
+    Car,
+    Van,
+    Bus,
+    Steamship,
+    Airplane,
+    Saucer,
+}
+
 /// <summary>Maps catalogue keys to the drawable cosmetics; unknown or absent keys mean «nothing worn».</summary>
 public static class MascotCosmetics
 {
@@ -61,6 +87,30 @@ public static class MascotCosmetics
         "sky" => MascotFrame.Sky,
         "gold" => MascotFrame.Gold,
         _ => MascotFrame.None,
+    };
+
+    public static MascotScene SceneFor(string? itemKey) => Slug(itemKey, Catalog.ScenePrefix) switch
+    {
+        "meadow" => MascotScene.Meadow,
+        "sea" => MascotScene.Sea,
+        "city" => MascotScene.City,
+        "night" => MascotScene.Night,
+        "winter" => MascotScene.Winter,
+        "space" => MascotScene.Space,
+        _ => MascotScene.None,
+    };
+
+    public static MascotRide RideFor(string? itemKey) => Slug(itemKey, Catalog.RidePrefix) switch
+    {
+        "scooter" => MascotRide.Scooter,
+        "bicycle" => MascotRide.Bicycle,
+        "car" => MascotRide.Car,
+        "van" => MascotRide.Van,
+        "bus" => MascotRide.Bus,
+        "steamship" => MascotRide.Steamship,
+        "airplane" => MascotRide.Airplane,
+        "saucer" => MascotRide.Saucer,
+        _ => MascotRide.None,
     };
 
     private static string? Slug(string? key, string prefix)

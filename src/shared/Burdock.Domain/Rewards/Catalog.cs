@@ -1,11 +1,13 @@
 namespace Burdock.Domain.Rewards;
 
-/// <summary>Sections of the thorn shop (spec 07 §3.2.3, Q34): cosmetics and the streak freeze, never anything with a learning advantage.</summary>
+/// <summary>Sections of the thorn shop (spec 07 §3.2.3, Q34; scenes and rides per decision log item 22): cosmetics and the streak freeze, never anything with a learning advantage.</summary>
 public enum CatalogCategory
 {
     WidgetTheme,
     Outfit,
     Frame,
+    Scene,
+    Ride,
     Freeze,
 }
 
@@ -56,12 +58,14 @@ public sealed record CatalogItem(string Key, CatalogCategory Category, int Price
     public string Slug => Key[(Key.LastIndexOf('.') + 1)..];
 }
 
-/// <summary>The v1 catalogue (spec 07 §3.2.3). Prices in thorns; the sum (≈ 7 700 with the freeze excluded) is the inflation guard of §3.2.4.</summary>
+/// <summary>The catalogue (spec 07 §3.2.3). Prices in thorns; the cosmetics sum (≈ 12 750) is the inflation guard of §3.2.4.</summary>
 public static class Catalog
 {
     public const string ThemePrefix = "catalog.theme.";
     public const string OutfitPrefix = "catalog.outfit.";
     public const string FramePrefix = "catalog.frame.";
+    public const string ScenePrefix = "catalog.scene.";
+    public const string RidePrefix = "catalog.ride.";
     public const string FreezeKey = "catalog.freeze";
     public const string DefaultThemeKey = "catalog.theme.bloom";
 
@@ -89,6 +93,20 @@ public static class Catalog
         new("catalog.frame.sunny", CatalogCategory.Frame, 250, UnlockCondition.Streak(14)),
         new("catalog.frame.sky", CatalogCategory.Frame, 300, UnlockCondition.None),
         new("catalog.frame.gold", CatalogCategory.Frame, 500, UnlockCondition.Level(15)),
+        new("catalog.scene.meadow", CatalogCategory.Scene, 200, UnlockCondition.None),
+        new("catalog.scene.sea", CatalogCategory.Scene, 250, UnlockCondition.None),
+        new("catalog.scene.city", CatalogCategory.Scene, 300, UnlockCondition.None),
+        new("catalog.scene.night", CatalogCategory.Scene, 350, UnlockCondition.None),
+        new("catalog.scene.winter", CatalogCategory.Scene, 400, UnlockCondition.LearningDays(14)),
+        new("catalog.scene.space", CatalogCategory.Scene, 500, UnlockCondition.Level(12)),
+        new("catalog.ride.scooter", CatalogCategory.Ride, 250, UnlockCondition.None),
+        new("catalog.ride.bicycle", CatalogCategory.Ride, 300, UnlockCondition.None),
+        new("catalog.ride.car", CatalogCategory.Ride, 400, UnlockCondition.WordsLearned(40)),
+        new("catalog.ride.van", CatalogCategory.Ride, 450, UnlockCondition.None),
+        new("catalog.ride.bus", CatalogCategory.Ride, 500, UnlockCondition.LearningDays(30)),
+        new("catalog.ride.steamship", CatalogCategory.Ride, 600, UnlockCondition.Streak(14)),
+        new("catalog.ride.airplane", CatalogCategory.Ride, 800, UnlockCondition.WordsLearned(200)),
+        new("catalog.ride.saucer", CatalogCategory.Ride, 1000, UnlockCondition.Level(25)),
         new(FreezeKey, CatalogCategory.Freeze, 200, UnlockCondition.None),
     ];
 
@@ -111,8 +129,8 @@ public static class Catalog
     public static string WidgetThemeId(string themeKey) => WidgetThemeIds.GetValueOrDefault(themeKey, "burdock.default");
 }
 
-/// <summary>Owned cosmetics and what is worn (spec 07 §3.7.1 `inventory`, `equipped`). The default theme is always owned and worn until another is chosen.</summary>
-public sealed record Inventory(IReadOnlySet<string> Owned, string? Outfit, string? Frame, string Theme)
+/// <summary>Owned cosmetics and what is worn (spec 07 §3.7.1 `inventory`, `equipped`): outfit, frame, theme and, since log item 22, a scene behind the burr and a ride under it. The default theme is always owned and worn until another is chosen.</summary>
+public sealed record Inventory(IReadOnlySet<string> Owned, string? Outfit, string? Frame, string Theme, string? Scene = null, string? Ride = null)
 {
     public static Inventory Empty { get; } = new(new HashSet<string>(StringComparer.Ordinal) { Catalog.DefaultThemeKey }, null, null, Catalog.DefaultThemeKey);
 
@@ -123,6 +141,8 @@ public sealed record Inventory(IReadOnlySet<string> Owned, string? Outfit, strin
         CatalogCategory.Outfit => Outfit == item.Key,
         CatalogCategory.Frame => Frame == item.Key,
         CatalogCategory.WidgetTheme => Theme == item.Key,
+        CatalogCategory.Scene => Scene == item.Key,
+        CatalogCategory.Ride => Ride == item.Key,
         _ => false,
     };
 
@@ -135,7 +155,7 @@ public sealed record Inventory(IReadOnlySet<string> Owned, string? Outfit, strin
     }
 
     public bool Equals(Inventory? other)
-        => other is not null && Outfit == other.Outfit && Frame == other.Frame && Theme == other.Theme && Owned.SetEquals(other.Owned);
+        => other is not null && Outfit == other.Outfit && Frame == other.Frame && Theme == other.Theme && Scene == other.Scene && Ride == other.Ride && Owned.SetEquals(other.Owned);
 
-    public override int GetHashCode() => HashCode.Combine(Owned.Count, Outfit, Frame, Theme);
+    public override int GetHashCode() => HashCode.Combine(Owned.Count, Outfit, Frame, Theme, Scene, Ride);
 }

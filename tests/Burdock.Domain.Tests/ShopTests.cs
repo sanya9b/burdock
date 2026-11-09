@@ -20,7 +20,11 @@ public sealed class ShopTests
         Catalog.InCategory(CatalogCategory.Outfit).Count().ShouldBe(11);
         Catalog.InCategory(CatalogCategory.WidgetTheme).Count().ShouldBe(4);
         Catalog.InCategory(CatalogCategory.Frame).Count().ShouldBe(7);
-        Catalog.All.Where(i => i.Category != CatalogCategory.Freeze).Sum(i => i.Price).ShouldBe(6_450); // cosmetics of §3.2.3 without emotion packs; §3.2.4 quotes ≈ 7 700 with them and the freeze
+        Catalog.InCategory(CatalogCategory.Scene).Count().ShouldBe(6);
+        Catalog.InCategory(CatalogCategory.Ride).Count().ShouldBe(8);
+        Catalog.All.Where(i => i.Category != CatalogCategory.Freeze).Sum(i => i.Price).ShouldBe(12_750); // cosmetics of §3.2.3 without emotion packs (log item 22 added scenes 2 000 and rides 4 300)
+        Catalog.Find("catalog.ride.saucer")!.Unlock.ShouldBe(UnlockCondition.Level(25));
+        Catalog.Find("catalog.scene.space")!.Unlock.ShouldBe(UnlockCondition.Level(12));
         Catalog.Find("catalog.outfit.crown")!.Price.ShouldBe(800);
         Catalog.Find("catalog.outfit.crown")!.Unlock.ShouldBe(UnlockCondition.Level(20));
         Catalog.Find("catalog.theme.sun")!.Slug.ShouldBe("sun");
@@ -121,6 +125,34 @@ public sealed class ShopTests
 
         var unowned = ShopRules.Equip(state, Catalog.Find("catalog.outfit.crown")!, wear: true);
         unowned.Inventory.Outfit.ShouldBeNull();
+    }
+
+    [Fact]
+    public void Scenes_and_rides_have_their_own_slots_and_never_touch_the_outfit()
+    {
+        var meadow = Catalog.Find("catalog.scene.meadow")!;
+        var scooter = Catalog.Find("catalog.ride.scooter")!;
+        var scarf = Catalog.Find("catalog.outfit.scarf")!;
+        var state = ShopRules.Purchase(RewardsState.Empty with { Thorns = 1_000 }, scarf, Day1, 0, Now, NewId).State;
+
+        state = ShopRules.Purchase(state, meadow, Day1, 0, Now, NewId).State;
+        state.Inventory.Scene.ShouldBe(meadow.Key);
+        state.Inventory.IsEquipped(meadow).ShouldBeTrue();
+        state = ShopRules.Purchase(state, scooter, Day1, 0, Now, NewId).State;
+        state.Inventory.Ride.ShouldBe(scooter.Key);
+        state.Inventory.Outfit.ShouldBe(scarf.Key);
+        state.Thorns.ShouldBe(1_000 - 150 - 200 - 250);
+
+        state = ShopRules.Equip(state, meadow, wear: false);
+        state.Inventory.Scene.ShouldBeNull();
+        state.Inventory.Ride.ShouldBe(scooter.Key);
+        state = ShopRules.Equip(state, scooter, wear: false);
+        state.Inventory.Ride.ShouldBeNull();
+        state = ShopRules.Equip(state, meadow, wear: true);
+        state.Inventory.Scene.ShouldBe(meadow.Key);
+
+        ShopRules.Equip(state, Catalog.Find("catalog.ride.saucer")!, wear: true).Inventory.Ride.ShouldBeNull();
+        ShopRules.Purchase(RewardsState.Empty with { Thorns = 5_000 }, Catalog.Find("catalog.ride.saucer")!, Day1, 0, Now, NewId).Reason.ShouldBe(ItemAvailability.Locked);
     }
 
     [Fact]

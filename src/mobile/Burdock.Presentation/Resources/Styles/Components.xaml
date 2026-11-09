@@ -511,6 +511,9 @@
         <Setter Property="OutfitSunEdgeColor" Value="{StaticResource Sunny600}" />
         <Setter Property="OutfitLightColor" Value="{StaticResource Neutral0}" />
         <Setter Property="OutfitInkColor" Value="{StaticResource Neutral950}" />
+        <Setter Property="SceneSkyColor" Value="{StaticResource Sky100}" />
+        <Setter Property="SceneNightColor" Value="{StaticResource Violet900}" />
+        <Setter Property="SceneStoneColor" Value="{StaticResource Neutral400}" />
         <Setter Property="GrowthDuration" Value="{StaticResource MotionDurationCelebrate}" />
         <Setter Property="BackgroundColor" Value="Transparent" />
     </Style>

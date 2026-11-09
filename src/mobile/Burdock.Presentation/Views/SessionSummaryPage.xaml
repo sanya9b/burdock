@@ -20,7 +20,7 @@
             <ScrollView Grid.Row="0">
                 <VerticalStackLayout Spacing="{StaticResource Space5}" Padding="{StaticResource Space6}" VerticalOptions="Center" MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
                     <!-- The learner's own burr at its stage before the session; the code-behind feeds it with the XP earned and lets it grow (spec 07 §3.2.7). -->
-                    <controls:MascotView x:Name="Mascot" Mood="{Binding Mood}" Outfit="{Binding Outfit}" AvatarFrame="{Binding Frame}" Opacity="0" WidthRequest="{StaticResource SizeMascotLg}" HeightRequest="{StaticResource SizeMascotLg}" HorizontalOptions="Center"
+                    <controls:MascotView x:Name="Mascot" Mood="{Binding Mood}" Outfit="{Binding Outfit}" AvatarFrame="{Binding Frame}" Scene="{Binding Scene}" Ride="{Binding Ride}" Opacity="0" WidthRequest="{StaticResource SizeMascotLg}" HeightRequest="{StaticResource SizeMascotLg}" HorizontalOptions="Center"
                                          SemanticProperties.Description="{Binding MascotDescription}" SemanticProperties.Hint="{x:Static strings:AppResources.Mascot_A11y_Hint}" />
                     <Label Text="{x:Static strings:AppResources.Summary_Title}" Style="{StaticResource TypeHeadlineLg}" HorizontalTextAlignment="Center" SemanticProperties.HeadingLevel="Level1" />
                     <Label Text="{x:Static strings:AppResources.Summary_Encouragement}" Style="{StaticResource TextSecondary}" HorizontalTextAlignment="Center" />

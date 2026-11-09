@@ -97,6 +97,8 @@ public static class ShopRules
         CatalogCategory.Outfit => inventory with { Outfit = wear ? item.Key : (inventory.Outfit == item.Key ? null : inventory.Outfit) },
         CatalogCategory.Frame => inventory with { Frame = wear ? item.Key : (inventory.Frame == item.Key ? null : inventory.Frame) },
         CatalogCategory.WidgetTheme => inventory with { Theme = wear ? item.Key : (inventory.Theme == item.Key ? Catalog.DefaultThemeKey : inventory.Theme) },
+        CatalogCategory.Scene => inventory with { Scene = wear ? item.Key : (inventory.Scene == item.Key ? null : inventory.Scene) },
+        CatalogCategory.Ride => inventory with { Ride = wear ? item.Key : (inventory.Ride == item.Key ? null : inventory.Ride) },
         _ => inventory,
     };
 
