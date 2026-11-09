@@ -44,8 +44,9 @@ public sealed partial class MascotView
             return;
         }
 
-        var card = new RectF(rect.Center.X - side / 2, rect.Center.Y - side / 2, side, side);
-        var w = side;
+        // The picture fills the whole canvas (square on tiles, wide on the big surfaces); sizes follow the width so a wide card gets a wider sky.
+        var card = rect;
+        var w = card.Width;
         canvas.SaveState();
         var clip = new PathF();
         clip.AppendRoundedRectangle(card, side * 0.14f);
@@ -134,7 +135,7 @@ public sealed partial class MascotView
     {
         Gradient(canvas, card, SceneSkyColor, OutfitCoolColor);
         Sun(canvas, card.Right - 0.24f * w, card.Top + 0.22f * w, 0.09f * w);
-        Cloud(canvas, card.Left + 0.16f * w, card.Top + 0.3f * w, 0.055f * w, 0.95f);
+        Cloud(canvas, card.Left + 0.16f * w, card.Top + 0.2f * w, 0.055f * w, 0.95f);
         Cloud(canvas, card.Left + 0.6f * w, card.Top + 0.14f * w, 0.035f * w, 0.8f);
         canvas.FillColor = LeafEdgeColor;
         canvas.FillEllipse(card.Left + 0.25f * w, gy - 0.2f * w, 1.1f * w, 0.44f * w);

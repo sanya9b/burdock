@@ -3,8 +3,10 @@ namespace Burdock.Presentation.Controls;
 /// <summary>
 /// Rides of the shop (decision log item 22, spec 02 §3.10 «Транспорт»): a side-view vehicle in two layers. The far layer (body, roof, windows,
 /// far parts) is drawn under the burr; the near layer (door panel, hull, wing, rim, wheels) is drawn over its lower edge, never higher than
-/// `gy − 0.72 r`, so the mouth and cheeks stay visible and the burr reads as sitting inside or on top. Sizes use `v` (the burr radius capped by
-/// the view) for the vehicle and `r` for where it meets the body; `gy` is the ground line. Same rendering language as the body and the outfits.
+/// `gy − 0.72 r`, so the mouth and cheeks stay visible and the burr reads as sitting inside or on top. Window pillars in the near layer hide the
+/// hooks at the sides, two hook-arms hold the steering wheel, the handlebar or rest on the sill, and two-wheelers lean the body forward. Sizes use
+/// `v` (the burr radius capped by the view) for the vehicle and `r` for where it meets the body; `gy` is the ground line. Same rendering language
+/// as the body and the outfits.
 /// </summary>
 public sealed partial class MascotView
 {
@@ -73,6 +75,83 @@ public sealed partial class MascotView
             default:
                 break;
         }
+    }
+
+    /// <summary>Forward lean of the body on two-wheelers (degrees, clockwise = towards the front).</summary>
+    private float RideTilt => Ride is MascotRide.Scooter or MascotRide.Bicycle ? 5f : 0f;
+
+    /// <summary>Hook-arms drawn in the body transform over the vehicle: from the side of the body, with an elbow, to the wheel, the handlebar or the sill.</summary>
+    private void DrawRideArms(ICanvas canvas, float cx, float cy, float gy, float r, float v)
+    {
+        var lip = gy - 0.72f * r;
+        switch (Ride)
+        {
+            case MascotRide.Scooter:
+                Arm(canvas, cx + 0.84f * r, cy + 0.02f * r, cx + 1.62f * v, gy - 1.95f * v, r, elbowUp: true);
+                Arm(canvas, cx + 0.8f * r, cy + 0.32f * r, cx + 1.38f * v, gy - 1.95f * v, r, elbowUp: true);
+                break;
+            case MascotRide.Bicycle:
+                Arm(canvas, cx + 0.84f * r, cy + 0.1f * r, cx + 1.36f * v, gy - 1.5f * v, r, elbowUp: true);
+                Arm(canvas, cx + 0.8f * r, cy + 0.4f * r, cx + 1.14f * v, gy - 1.46f * v, r, elbowUp: true);
+                break;
+            case MascotRide.Car:
+            case MascotRide.Van:
+            case MascotRide.Bus:
+                Arm(canvas, cx + 0.88f * r, cy + 0.3f * r, cx + 0.66f * r, lip - 0.34f * r, r, elbowUp: false);
+                Arm(canvas, cx - 0.88f * r, cy + 0.36f * r, cx - 1.04f * r, lip + 0.1f * r, r, elbowUp: false);
+                break;
+            case MascotRide.Steamship:
+            case MascotRide.Airplane:
+            case MascotRide.Saucer:
+                Arm(canvas, cx + 0.86f * r, cy + 0.38f * r, cx + 1.0f * r, lip + 0.05f * r, r, elbowUp: false);
+                Arm(canvas, cx - 0.86f * r, cy + 0.38f * r, cx - 1.0f * r, lip + 0.05f * r, r, elbowUp: false);
+                break;
+            default:
+                break;
+        }
+    }
+
+    /// <summary>One hook-arm: a bent stroke in the hook colours from the side of the body to a grip point, with a rounded tip. The elbow sits at the
+    /// start height (reaching out, then up to a handlebar) or at the grip height (dropping onto a wheel or sill).</summary>
+    private void Arm(ICanvas canvas, float x1, float y1, float x2, float y2, float r, bool elbowUp)
+    {
+        var path = new PathF();
+        path.MoveTo(x1, y1);
+        if (elbowUp)
+        {
+            path.QuadTo(x2 - (x2 - x1) * 0.2f, y1 + 0.05f * r, x2, y2);
+        }
+        else
+        {
+            path.QuadTo(x1 + (x2 - x1) * 0.2f, y2, x2, y2);
+        }
+
+        canvas.StrokeColor = HookColor;
+        canvas.StrokeSize = 0.11f * r;
+        canvas.StrokeLineCap = LineCap.Round;
+        canvas.DrawPath(path);
+        canvas.FillColor = HookTipColor;
+        canvas.FillCircle(x2, y2, 0.075f * r);
+    }
+
+    /// <summary>A steering wheel in the near layer: a dark ring with a hub, where the right arm lands.</summary>
+    private void SteeringWheel(ICanvas canvas, float x, float y, float radius)
+    {
+        canvas.StrokeColor = OutfitInkColor;
+        canvas.StrokeSize = radius * 0.3f;
+        canvas.DrawCircle(x, y, radius);
+        canvas.FillColor = OutfitInkColor;
+        canvas.FillCircle(x, y, radius * 0.3f);
+        canvas.StrokeSize = radius * 0.16f;
+        canvas.DrawLine(x - radius, y, x + radius, y);
+    }
+
+    /// <summary>Two window pillars in the vehicle colour, from the roof line down to the sill; they hide the hooks at the sides of the body.</summary>
+    private static void Pillars(ICanvas canvas, float cx, float top, float bottom, float r, float v, Color color)
+    {
+        canvas.FillColor = color;
+        canvas.FillRoundedRectangle(cx - 0.98f * r - 0.2f * v, top, 0.2f * v, bottom - top + 0.05f * v, 0.04f * v);
+        canvas.FillRoundedRectangle(cx + 0.98f * r, top, 0.2f * v, bottom - top + 0.05f * v, 0.04f * v);
     }
 
     private void Wheel(ICanvas canvas, float x, float y, float radius)
@@ -198,7 +277,7 @@ public sealed partial class MascotView
     {
         // car.seatBack behind the burr, car.windshield with its frame on the right.
         canvas.FillColor = OutfitWarmEdgeColor;
-        canvas.FillRoundedRectangle(cx - 1.05f * v, gy - 1.5f * v, 0.6f * v, 0.8f * v, 0.14f * v);
+        canvas.FillRoundedRectangle(cx - 1.2f * v, gy - 1.55f * v, 0.75f * v, 0.85f * v, 0.14f * v);
         var glass = new PathF();
         glass.MoveTo(cx + 0.5f * v, gy - 0.8f * v);
         glass.LineTo(cx + 0.82f * v, gy - 1.42f * v);
@@ -237,6 +316,7 @@ public sealed partial class MascotView
         canvas.FillRoundedRectangle(cx - 1.66f * v, gy - 0.3f * v, 3.32f * v, 0.09f * v, 0.04f * v);
         Wheel(canvas, cx - 0.95f * v, gy - 0.26f * v, 0.27f * v);
         Wheel(canvas, cx + 0.95f * v, gy - 0.26f * v, 0.27f * v);
+        SteeringWheel(canvas, cx + 0.66f * (gy - lip) / 0.72f, lip - 0.14f * (gy - lip) / 0.72f, 0.2f * (gy - lip) / 0.72f);
     }
 
     private void VanBehind(ICanvas canvas, float cx, float gy, float v)
@@ -274,6 +354,8 @@ public sealed partial class MascotView
         canvas.FillRoundedRectangle(cx - 1.66f * v, gy - 0.3f * v, 3.32f * v, 0.09f * v, 0.04f * v);
         Wheel(canvas, cx - 1.05f * v, gy - 0.26f * v, 0.27f * v);
         Wheel(canvas, cx + 1.05f * v, gy - 0.26f * v, 0.27f * v);
+        Pillars(canvas, cx, gy - 1.9f * v, top, (gy - lip) / 0.72f, v, OutfitCoolColor);
+        SteeringWheel(canvas, cx + 0.66f * (gy - lip) / 0.72f, lip - 0.14f * (gy - lip) / 0.72f, 0.2f * (gy - lip) / 0.72f);
     }
 
     private void BusBehind(ICanvas canvas, float cx, float gy, float v)
@@ -309,6 +391,8 @@ public sealed partial class MascotView
         canvas.FillRoundedRectangle(cx - 1.76f * v, gy - 0.3f * v, 3.52f * v, 0.09f * v, 0.04f * v);
         Wheel(canvas, cx - 1.15f * v, gy - 0.26f * v, 0.27f * v);
         Wheel(canvas, cx + 1.15f * v, gy - 0.26f * v, 0.27f * v);
+        Pillars(canvas, cx, gy - 2.0f * v, top, (gy - lip) / 0.72f, v, AccentColor);
+        SteeringWheel(canvas, cx + 0.66f * (gy - lip) / 0.72f, lip - 0.14f * (gy - lip) / 0.72f, 0.2f * (gy - lip) / 0.72f);
     }
 
     private void SteamshipBehind(ICanvas canvas, float cx, float gy, float v)
@@ -325,9 +409,9 @@ public sealed partial class MascotView
         canvas.SaveState();
         canvas.Alpha = 0.8f;
         canvas.FillColor = OutfitLightColor;
-        canvas.FillCircle(cx - 0.98f * v, gy - 2.3f * v, 0.13f * v);
-        canvas.FillCircle(cx - 1.15f * v, gy - 2.55f * v, 0.16f * v);
-        canvas.FillCircle(cx - 1.42f * v, gy - 2.8f * v, 0.2f * v);
+        canvas.FillCircle(cx - 0.98f * v, gy - 2.22f * v, 0.12f * v);
+        canvas.FillCircle(cx - 1.15f * v, gy - 2.4f * v, 0.14f * v);
+        canvas.FillCircle(cx - 1.4f * v, gy - 2.56f * v, 0.17f * v);
         canvas.RestoreState();
         canvas.StrokeColor = OutfitInkColor;
         canvas.StrokeSize = 0.05f * v;
@@ -455,11 +539,12 @@ public sealed partial class MascotView
     private void SaucerBehind(ICanvas canvas, float cx, float gy, float r, float v)
     {
         // saucer.dome (glass behind the burr), saucer.discBack.
-        var domeHeight = Math.Max(2.6f * v, 2.2f * r + 0.9f * v);
+        var domeTop = gy - 3.05f * r;
+        var domeBottom = gy - 0.72f * r + 0.4f * v;
         canvas.SaveState();
         canvas.Alpha = 0.3f;
         canvas.FillColor = SceneSkyColor;
-        canvas.FillEllipse(cx - 1.3f * v, gy - 0.6f * v - domeHeight, 2.6f * v, domeHeight + 0.2f * v);
+        canvas.FillEllipse(cx - 1.3f * v, domeTop, 2.6f * v, domeBottom - domeTop);
         canvas.RestoreState();
         canvas.FillColor = OutfitCoolEdgeColor;
         canvas.FillEllipse(cx - 1.9f * v, gy - 1.0f * v, 3.8f * v, 0.7f * v);
@@ -497,18 +582,20 @@ public sealed partial class MascotView
 
         canvas.FillColor = OutfitCoolEdgeColor;
         canvas.FillEllipse(cx - 0.9f * v, top + 0.5f * v, 1.8f * v, 0.36f * v);
-        var domeHeight = Math.Max(2.6f * v, 2.2f * (gy - top) / 0.72f + 0.9f * v);
+        var r = (gy - lip) / 0.72f;
+        var domeTop = gy - 3.05f * r;
+        var domeBottom = lip + 0.4f * v;
         canvas.SaveState();
         canvas.Alpha = 0.14f;
         canvas.FillColor = SceneSkyColor;
-        canvas.FillEllipse(cx - 1.3f * v, gy - 0.6f * v - domeHeight, 2.6f * v, domeHeight + 0.2f * v);
+        canvas.FillEllipse(cx - 1.3f * v, domeTop, 2.6f * v, domeBottom - domeTop);
         canvas.RestoreState();
         canvas.SaveState();
         canvas.Alpha = 0.6f;
         canvas.StrokeColor = OutfitLightColor;
         canvas.StrokeSize = 0.06f * v;
         canvas.StrokeLineCap = LineCap.Round;
-        canvas.DrawArc(cx - 1.12f * v, gy - 0.5f * v - domeHeight + 0.14f * v, 2.24f * v, domeHeight - 0.2f * v, 105, 150, clockwise: false, closed: false);
+        canvas.DrawArc(cx - 1.12f * v, domeTop + 0.14f * v, 2.24f * v, domeBottom - domeTop - 0.3f * v, 105, 150, clockwise: false, closed: false);
         canvas.RestoreState();
     }
 }

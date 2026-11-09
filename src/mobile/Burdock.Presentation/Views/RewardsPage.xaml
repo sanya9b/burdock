@@ -45,7 +45,7 @@
                 <!-- Preview: the burr tries the selected item on; the one action below buys, wears, takes off or chooses -->
                 <Border Style="{StaticResource CardTonal}">
                     <VerticalStackLayout Spacing="{StaticResource Space3}">
-                        <controls:MascotView x:Name="Mascot" Mood="Joy" Outfit="{Binding PreviewOutfit}" AvatarFrame="{Binding PreviewFrame}" Scene="{Binding PreviewScene}" Ride="{Binding PreviewRide}" WidthRequest="{StaticResource SizeMascotLg}" HeightRequest="{StaticResource SizeMascotLg}" HorizontalOptions="Center"
+                        <controls:MascotView x:Name="Mascot" Mood="Joy" Outfit="{Binding PreviewOutfit}" AvatarFrame="{Binding PreviewFrame}" Scene="{Binding PreviewScene}" Ride="{Binding PreviewRide}" WidthRequest="{StaticResource SizeMascotXl}" HeightRequest="{StaticResource SizeMascotLg}" HorizontalOptions="Center"
                                              SemanticProperties.Description="{Binding PreviewName}" />
                         <Label Text="{Binding PreviewName}" Style="{StaticResource TypeHeadlineMd}" HorizontalTextAlignment="Center" SemanticProperties.HeadingLevel="Level2"
                                TextColor="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />

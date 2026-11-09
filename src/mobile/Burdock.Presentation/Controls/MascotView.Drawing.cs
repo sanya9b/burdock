@@ -52,7 +52,8 @@ public sealed partial class MascotView
         var hopFraction = Math.Clamp(-lift / Math.Max(1e-3f, r * (float)MascotChoreography.HopHeight), 0, 1);
 
         var groundY = anchorY + hookLen * 0.9f + 2 * u;
-        var rideScale = Math.Min(r, side * 0.27f);
+        // Vehicles are a quarter larger than the burr and use the width of a wide canvas (240x160 on the big surfaces), capped so they fit.
+        var rideScale = Math.Min(1.25f * r, Math.Min(dirtyRect.Width * 0.26f, side * 0.4f));
         DrawScene(canvas, dirtyRect, side, groundY);
         DrawFrame(canvas, dirtyRect, side, u);
         DrawGroundShadow(canvas, cx, groundY, r, u, pose.ScaleX, hopFraction);
@@ -61,7 +62,7 @@ public sealed partial class MascotView
         canvas.SaveState();
         canvas.Translate(0, lift);
         canvas.Translate(cx, anchorY);
-        canvas.Rotate((float)pose.Tilt);
+        canvas.Rotate((float)pose.Tilt + RideTilt);
         canvas.Scale((float)pose.ScaleX, (float)pose.ScaleY);
         canvas.Translate(-cx, -anchorY);
 
@@ -96,6 +97,18 @@ public sealed partial class MascotView
 
         canvas.RestoreState();
         DrawRideFront(canvas, cx, groundY, r, rideScale);
+        if (Ride != MascotRide.None)
+        {
+            // The arms follow the body (hop, lean, breathing) but lie over the near layer of the vehicle.
+            canvas.SaveState();
+            canvas.Translate(0, lift);
+            canvas.Translate(cx, anchorY);
+            canvas.Rotate((float)pose.Tilt + RideTilt);
+            canvas.Scale((float)pose.ScaleX, (float)pose.ScaleY);
+            canvas.Translate(-cx, -anchorY);
+            DrawRideArms(canvas, cx, cy, groundY, r, rideScale);
+            canvas.RestoreState();
+        }
 
         if (pose.Ring > 0.001 && pose.Ring < 1)
         {

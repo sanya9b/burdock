@@ -248,6 +248,12 @@ public sealed partial class MascotView
         canvas.DrawLine(-11 * u, 10 * u, 11 * u, 10 * u);
         canvas.RestoreState();
 
+        if (Ride != MascotRide.None)
+        {
+            // In a vehicle the hanging tail would dangle under the floor; the knot alone reads as the scarf.
+            return;
+        }
+
         canvas.SaveState();
         canvas.Translate(cx + r * 0.5f, cy + r * 0.8f);
         canvas.Rotate(-14);
