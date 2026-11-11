@@ -107,6 +107,47 @@ public sealed class PlanWidgetTimelineUseCaseTests
     }
 
     [Fact]
+    public async Task A_later_pass_keeps_the_word_the_widget_shows_instead_of_restarting_the_day()
+    {
+        var useCase = UseCase();
+        await useCase.ExecuteAsync("start", Ct);
+        var morning = _bridge.Timeline.ShouldNotBeNull();
+        _bridge.Marker = new WidgetMarker(T0.AddMinutes(1), ["systemSmall"]);
+        _clock.Advance(TimeSpan.FromMinutes(90));
+        var shown = morning.EntryAt(_clock.UtcNow)!.LexemeId;
+        shown.ShouldNotBe(morning.Entries[0].LexemeId);
+
+        var report = await useCase.ExecuteAsync("resume", Ct);
+
+        report.ScheduledSettled.ShouldBe(2);
+        var timeline = _bridge.Timeline.ShouldNotBeNull();
+        timeline.EntryAt(_clock.UtcNow)!.LexemeId.ShouldBe(shown);
+        var upcoming = timeline.Entries.Where(e => e.FireDate > _clock.UtcNow).Take(3).Select(e => e.LexemeId).ToArray();
+        upcoming.ShouldNotContain(shown);
+        upcoming.ShouldNotContain(morning.Entries[0].LexemeId);
+    }
+
+    [Fact]
+    public async Task Recent_words_fill_the_day_once_todays_words_reached_their_cap()
+    {
+        await _learner.SaveSettingsAsync(_learner.Settings with { NewWordsPerDay = 1, ExposuresPerWordPerDay = 1 }, Ct);
+        var entries = await _content.ListAsync(LanguagePair.UkrainianToEnglish, [CefrLevel.A1], [], Ct);
+        foreach (var entry in entries.Skip(1).Take(3))
+        {
+            var card = LearnerCard.CreateNew(CardId.From(Guid.NewGuid()), Learner, entry.Id, T0.AddDays(-3));
+            card.ClaimKnown(T0.AddDays(-2));
+            await _cards.UpsertAsync(card, Ct);
+        }
+
+        await UseCase().ExecuteAsync("start", Ct);
+
+        var timeline = _bridge.Timeline.ShouldNotBeNull();
+        var today = timeline.Entries.Where(e => e.FireDate < T0.AddHours(12)).ToArray();
+        today.Length.ShouldBeGreaterThan(1, "the single word of the day is followed by the learner's known words");
+        today.Select(e => e.LexemeId).Distinct().Count().ShouldBe(4);
+    }
+
+    [Fact]
     public async Task Scheduled_exposures_are_settled_only_for_entries_shown_while_a_widget_was_installed()
     {
         var useCase = UseCase();

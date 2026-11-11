@@ -18,8 +18,9 @@ public sealed record WidgetPlanReport(bool Supported, bool Written, int Entries,
 /// <summary>
 /// Keeps the widget timeline current (spec 04 FR-04-3, FR-04-15; spec 06 §3.5.2). One pass: settle what the previous
 /// timeline showed (scheduled exposures for entries whose time came while a widget was installed, a confirmed exposure
-/// for the word the learner advanced past with «Далі»), plan 48 hours from today's words, and write plus reload only
-/// when the next entries actually changed or the remaining horizon runs short.
+/// for the word the learner advanced past with «Далі»), plan 48 hours from today's words continuing from the word on
+/// the surfaces right now, and write plus reload only when the next entries actually changed or the remaining horizon
+/// runs short.
 /// </summary>
 public sealed partial class PlanWidgetTimelineUseCase(
     IWidgetBridge widgets,
@@ -59,20 +60,28 @@ public sealed partial class PlanWidgetTimelineUseCase(
         var candidates = plan.Words
             .Select((word, index) => new TimelineCandidate(word.Entry, word.Reason == PlanReason.New, word.Reason == PlanReason.New ? index : word.Retrievability, counts.GetValueOrDefault(word.Entry.Id)))
             .ToArray();
+        var recent = await RecentWordsAsync(learnerId, counts, except: candidates.Select(c => c.Entry.Id).ToHashSet(), cancellationToken).ConfigureAwait(false);
         if (candidates.Length == 0)
         {
-            candidates = await LearnedWordsAsync(learnerId, counts, cancellationToken).ConfigureAwait(false);
+            // Nothing left for today: the learner's own words are the pool (owner decision of 2026-10-28, the widget never sleeps mid-day).
+            candidates = recent;
             LogFallbackCandidates(reason, candidates.Length);
+        }
+        else
+        {
+            // Words of the day first; once they all reached the daily cap the rotation continues with recent words instead of freezing.
+            candidates = [.. candidates, .. recent.Select(c => c with { Filler = true })];
         }
 
         // The widget wears the theme chosen in the shop (spec 07 §3.2.3); the planner default is the bloom theme.
         var economy = await rewards.GetAsync(learnerId, cancellationToken).ConfigureAwait(false);
         var themeId = Catalog.WidgetThemeId(economy?.Inventory.Theme ?? Catalog.DefaultThemeKey);
-        var timeline = WordTimelinePlanner.Plan(new TimelineRequest(now, clock.LocalTimeZone, settings, candidates, ThemeId: themeId));
+        var current = await CurrentWordAsync(previous, now, cancellationToken).ConfigureAwait(false);
+        var timeline = WordTimelinePlanner.Plan(new TimelineRequest(now, clock.LocalTimeZone, settings, candidates, ThemeId: themeId, Current: current));
 
         var unchanged = previous is not null
             && previous.PlannedUntil - now >= ReplanWhenRemainingBelow
-            && string.Equals(previous.LeadingHash(), timeline.LeadingHash(), StringComparison.Ordinal);
+            && string.Equals(previous.LeadingHash(now), timeline.LeadingHash(now), StringComparison.Ordinal);
         if (unchanged)
         {
             return new WidgetPlanReport(true, false, previous!.Entries.Count, scheduled, confirmed);
@@ -85,14 +94,40 @@ public sealed partial class PlanWidgetTimelineUseCase(
     }
 
     /// <summary>
-    /// When the day's plan is empty (everything marked known, no reviews due, pool exhausted) the widget keeps repeating the
-    /// learner's own words instead of sleeping: the most recently touched cards, up to the distinct-words-per-day limit.
+    /// The word the surfaces show at <paramref name="now"/> under the previous timeline: the entry whose time has come, or the
+    /// one the learner advanced to with «Далі» (the same rule as the extension's <c>TimelineSelection.currentEntry</c>).
     /// </summary>
-    private async Task<TimelineCandidate[]> LearnedWordsAsync(LearnerId learnerId, IReadOnlyDictionary<LexemeId, int> counts, CancellationToken cancellationToken)
+    private async Task<LexemeId?> CurrentWordAsync(WordTimeline? previous, DateTimeOffset now, CancellationToken cancellationToken)
+    {
+        if (previous is null)
+        {
+            return null;
+        }
+
+        var current = previous.EntryAt(now);
+        var cursor = await widgets.ReadCursorAsync(cancellationToken).ConfigureAwait(false);
+        if (cursor is not null && cursor.AdvancedAt >= previous.GeneratedAt && cursor.AdvancedAt <= now)
+        {
+            var pointed = previous.Entries.FirstOrDefault(e => e.EntryIndex == cursor.CursorIndex);
+            if (pointed is not null && (current is null || pointed.EntryIndex > current.EntryIndex))
+            {
+                current = pointed;
+            }
+        }
+
+        return current?.LexemeId;
+    }
+
+    /// <summary>
+    /// The learner's own words for the surfaces beyond the day's plan: the most recently touched cards outside
+    /// <paramref name="except"/>, up to the distinct-words-per-day limit. They are the whole pool when the plan is empty
+    /// (everything marked known, no reviews due, pool exhausted) and fillers otherwise.
+    /// </summary>
+    private async Task<TimelineCandidate[]> RecentWordsAsync(LearnerId learnerId, IReadOnlyDictionary<LexemeId, int> counts, HashSet<LexemeId> except, CancellationToken cancellationToken)
     {
         var learnerCards = await cards.ListAsync(learnerId, cancellationToken).ConfigureAwait(false);
         var recent = learnerCards.Values
-            .Where(c => c.State is not (CardState.New or CardState.Suspended))
+            .Where(c => c.State is not (CardState.New or CardState.Suspended) && !except.Contains(c.LexemeId))
             .OrderByDescending(c => c.LastReview ?? c.IntroducedAt ?? DateTimeOffset.MinValue)
             .ThenBy(c => c.LexemeId.Value)
             .Take(WordTimelinePlanner.MaxDistinctWordsPerDay)

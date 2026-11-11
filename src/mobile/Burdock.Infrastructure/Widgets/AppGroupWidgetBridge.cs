@@ -7,7 +7,7 @@ namespace Burdock.Infrastructure.Widgets;
 
 /// <summary>
 /// The App Group hand-off to the widget extension (spec 04 §3.2, NFR-04-2, NFR-04-4). Files are written atomically
-/// (temp file + replace), protected until first unlock and excluded from backup; WidgetKit reloads are coalesced. On iOS
+/// (temp file + replace), protected until first unlock and excluded from backup; WidgetKit reloads are coalesced without being dropped. On iOS
 /// without the App Group entitlement, and on every other platform, the container is absent and the bridge reports
 /// <see cref="IsSupported"/> = false, so the app keeps working without widgets.
 /// </summary>
@@ -22,8 +22,7 @@ public sealed partial class AppGroupWidgetBridge(IClock clock, ILogger<AppGroupW
     public static readonly TimeSpan ReloadCoalesce = TimeSpan.FromSeconds(300);
 
     private readonly Lazy<string?> _root = new(PlatformContainerRoot);
-    private readonly Lock _reloadGate = new();
-    private DateTimeOffset _lastReload = DateTimeOffset.MinValue;
+    private readonly ReloadCoalescer _reloads = new(clock, ReloadCoalesce, PlatformReloadTimelines);
 
     public bool IsSupported => _root.Value is not null;
 
@@ -65,20 +64,15 @@ public sealed partial class AppGroupWidgetBridge(IClock clock, ILogger<AppGroupW
             return Task.CompletedTask;
         }
 
-        lock (_reloadGate)
+        if (_reloads.Request())
         {
-            var now = clock.UtcNow;
-            if (now - _lastReload < ReloadCoalesce)
-            {
-                LogReloadCoalesced(reason);
-                return Task.CompletedTask;
-            }
-
-            _lastReload = now;
+            LogReloadRequested(reason);
+        }
+        else
+        {
+            LogReloadDeferred(reason);
         }
 
-        PlatformReloadTimelines();
-        LogReloadRequested(reason);
         return Task.CompletedTask;
     }
 
@@ -123,8 +117,8 @@ public sealed partial class AppGroupWidgetBridge(IClock clock, ILogger<AppGroupW
     [LoggerMessage(Level = LogLevel.Debug, Message = "Widget reload requested ({Reason})")]
     private partial void LogReloadRequested(string reason);
 
-    [LoggerMessage(Level = LogLevel.Debug, Message = "Widget reload coalesced ({Reason})")]
-    private partial void LogReloadCoalesced(string reason);
+    [LoggerMessage(Level = LogLevel.Debug, Message = "Widget reload deferred to the end of the coalescing window ({Reason})")]
+    private partial void LogReloadDeferred(string reason);
 
     [LoggerMessage(Level = LogLevel.Warning, Message = "App Group file {File} could not be read")]
     private partial void LogUnreadable(Exception exception, string file);

@@ -63,15 +63,27 @@ public sealed record WordTimeline(
         return Convert.ToHexStringLower(SHA256.HashData(Encoding.UTF8.GetBytes(builder.ToString())))[..16];
     }
 
-    /// <summary>Number of leading entries whose change justifies a rewrite and a WidgetKit reload (spec 04 §3.3.2: reload only when the first six entries changed).</summary>
+    /// <summary>Number of entries from the current one whose change justifies a rewrite and a WidgetKit reload (spec 04 §3.3.2: reload only when the next six entries changed).</summary>
     public const int LeadingEntries = 6;
 
-    /// <summary>Fingerprint of the next few entries only, so a horizon that merely moved forward does not cost a reload.</summary>
-    public string LeadingHash()
+    /// <summary>
+    /// Fingerprint of what the surfaces show from <paramref name="at"/> on: the current word (whenever its slot began) and the
+    /// next entries with their times. Two timelines with the same leading hash look identical to the learner, so a replan
+    /// with an equal hash is not written and triggers no reload.
+    /// </summary>
+    public string LeadingHash(DateTimeOffset at)
     {
         var builder = new StringBuilder();
         builder.Append(CadenceMinutes).Append('|').Append(TranslationMode).Append('|');
-        foreach (var entry in Entries.Take(LeadingEntries))
+        var current = EntryAt(at);
+        var taken = 0;
+        if (current is not null)
+        {
+            builder.Append(current.LexemeId.Value.ToString("D")).Append(';');
+            taken++;
+        }
+
+        foreach (var entry in Entries.Where(e => e.FireDate > at).Take(LeadingEntries - taken))
         {
             builder.Append(entry.LexemeId.Value.ToString("D")).Append('@').Append(entry.FireDate.ToUnixTimeSeconds().ToString(CultureInfo.InvariantCulture)).Append(';');
         }

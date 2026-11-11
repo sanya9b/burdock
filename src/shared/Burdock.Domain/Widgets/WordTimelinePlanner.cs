@@ -6,17 +6,26 @@ using Burdock.Domain.Vocabulary;
 
 namespace Burdock.Domain.Widgets;
 
-/// <summary>A word the surfaces may show: today's plan entry with its priority (lower first) and how often it was already exposed today.</summary>
-public sealed record TimelineCandidate(WordEntry Entry, bool IsNew, double Priority, int ExposuresToday);
+/// <summary>
+/// A word the surfaces may show: today's plan entry with its priority (lower first) and how often it was already exposed
+/// today. A <paramref name="Filler"/> is one of the learner's own earlier words that only takes a slot when no word of the
+/// day is eligible any more (daily cap reached), so the surfaces keep changing instead of freezing on the last word.
+/// </summary>
+public sealed record TimelineCandidate(WordEntry Entry, bool IsNew, double Priority, int ExposuresToday, bool Filler = false);
 
-/// <summary>Everything the planner needs; the caller supplies the clock value so the plan is reproducible.</summary>
+/// <summary>
+/// Everything the planner needs; the caller supplies the clock value so the plan is reproducible. <paramref name="Current"/>
+/// is the word the surfaces show at <paramref name="Now"/> according to the previous timeline: a replan keeps it in the
+/// current slot when it is still in the pool, so opening the app never visibly swaps the widget's word.
+/// </summary>
 public sealed record TimelineRequest(
     DateTimeOffset Now,
     TimeZoneInfo TimeZone,
     LearnerSettings Settings,
     IReadOnlyList<TimelineCandidate> Candidates,
     bool FreeTier = false,
-    string ThemeId = WordTimelinePlanner.DefaultThemeId);
+    string ThemeId = WordTimelinePlanner.DefaultThemeId,
+    LexemeId? Current = null);
 
 /// <summary>
 /// Deterministic, pure planning of the widget timeline (spec 04 §3.3, spec 06 §3.5.2, FR-04-4). Slots follow the cadence
@@ -25,6 +34,9 @@ public sealed record TimelineRequest(
 /// <see cref="MaxDistinctWordsPerDay"/> different words appear per learning day, repeats of one word are spread out and
 /// never adjacent; new words take about <see cref="NewShare"/> of the slots. The free tier shows a fixed pool at the
 /// default cadence. The widget renders the fallback after <see cref="WordTimeline.PlannedUntil"/>.
+/// A replan continues the day rather than restarting it: the word currently on the surfaces stays in the current slot and
+/// the words shown fewest times today (planned or already exposed) come next; fillers are used only once every word of
+/// the day is at its cap.
 /// </summary>
 public static class WordTimelinePlanner
 {
@@ -90,10 +102,13 @@ public static class WordTimelinePlanner
             var day = LearningDay.From(fireDate, timeZone);
             var distinct = distinctPerDay.TryGetValue(day, out var set) ? set : distinctPerDay[day] = [];
             var preferNew = newUsed < NewShare * (entries.Count + 1);
-            var pick = Pick(state.Values, preferNew, previous, slotIndex, minGap, budget, day, distinct, exposuresPerDay, strictGap: true)
-                       ?? Pick(state.Values, preferNew, previous, slotIndex, minGap, budget, day, distinct, exposuresPerDay, strictGap: false)
+            var pick = (isFirst && request.Current is { } current && state.TryGetValue(current, out var kept) ? kept : null)
+                       ?? Pick(state.Values, preferNew, previous, slotIndex, minGap, budget, day, distinct, exposuresPerDay, strictGap: true, fillers: false)
+                       ?? Pick(state.Values, preferNew, previous, slotIndex, minGap, budget, day, distinct, exposuresPerDay, strictGap: true, fillers: true)
+                       ?? Pick(state.Values, preferNew, previous, slotIndex, minGap, budget, day, distinct, exposuresPerDay, strictGap: false, fillers: false)
+                       ?? Pick(state.Values, preferNew, previous, slotIndex, minGap, budget, day, distinct, exposuresPerDay, strictGap: false, fillers: true)
                        // The current slot must never be empty: a word past its daily cap beats «Реп’яшок спить» in the middle of the day.
-                       ?? (isFirst ? Pick(state.Values, preferNew, previous, slotIndex, minGap, int.MaxValue, day, distinct, exposuresPerDay, strictGap: false) : null);
+                       ?? (isFirst ? Pick(state.Values, preferNew, previous, slotIndex, minGap, int.MaxValue, day, distinct, exposuresPerDay, strictGap: false, fillers: null) : null);
             if (pick is not null)
             {
                 var candidate = pick.Candidate;
@@ -143,6 +158,7 @@ public static class WordTimelinePlanner
         return Math.Max(2, (int)Math.Ceiling(activeSlots / (double)Math.Max(1, budget)));
     }
 
+    /// <summary>Candidates for one slot; <paramref name="fillers"/> selects the tier (false = words of the day, true = fillers, null = any). Fewest showings that day first, so a replan continues the rotation instead of restarting it.</summary>
     private static CandidateState? Pick(
         IEnumerable<CandidateState> candidates,
         bool preferNew,
@@ -153,14 +169,17 @@ public static class WordTimelinePlanner
         LearningDay day,
         HashSet<LexemeId> distinctToday,
         Dictionary<(LearningDay Day, LexemeId Lexeme), int> exposuresPerDay,
-        bool strictGap)
+        bool strictGap,
+        bool? fillers)
     {
         var eligible = candidates.Where(c =>
                 c.Candidate.Entry.Id != previous
+                && (fillers is null || c.Candidate.Filler == fillers)
                 && Exposures(c, day, exposuresPerDay) < budget
                 && (distinctToday.Contains(c.Candidate.Entry.Id) || distinctToday.Count < MaxDistinctWordsPerDay)
                 && (!strictGap || c.LastSlot < 0 || slotIndex - c.LastSlot >= minGap))
-            .OrderBy(c => c.TimesPlanned)
+            .OrderBy(c => Exposures(c, day, exposuresPerDay))
+            .ThenBy(c => c.TimesPlanned)
             .ThenBy(c => c.LastSlot)
             .ThenBy(c => c.Candidate.Priority)
             .ThenBy(c => c.Candidate.Entry.Lexeme.Lemma, StringComparer.Ordinal)

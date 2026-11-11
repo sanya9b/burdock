@@ -156,7 +156,7 @@ public sealed class WordTimelinePlannerTests
         var later = WordTimelinePlanner.Plan(Request(Settings(cadence: 60), Candidates(10), Now.AddMinutes(5)));
 
         again.ContentHash().ShouldBe(first.ContentHash());
-        later.LeadingHash().ShouldBe(first.LeadingHash());
+        later.LeadingHash(Now.AddMinutes(5)).ShouldBe(first.LeadingHash(Now.AddMinutes(5)));
         later.ContentHash().ShouldNotBe(first.ContentHash());
         first.EntryAt(Now)!.EntryIndex.ShouldBe(0);
         first.EntryAt(Local(2026, 10, 27, 10, 30, 0))!.EntryIndex.ShouldBe(1);
@@ -173,6 +173,61 @@ public sealed class WordTimelinePlannerTests
 
         timeline.Entries.Count.ShouldBeLessThanOrEqualTo(WordTimelinePlanner.MaxEntries);
         timeline.Entries.Count.ShouldBeGreaterThan(150);
+    }
+
+    [Fact]
+    public void A_replan_keeps_the_word_on_the_surface_and_continues_with_the_least_shown_words()
+    {
+        var candidates = Candidates(10);
+        var morning = WordTimelinePlanner.Plan(Request(Settings(cadence: 60), candidates));
+        var later = Local(2026, 10, 27, 10, 47, 0);
+        var shown = morning.EntryAt(later)!;
+        var earlier = morning.Entries[0];
+        shown.LexemeId.ShouldNotBe(earlier.LexemeId);
+
+        // The app opens at 10:47: both the 09:00 and the 10:00 words were on the widget already (settled exposures).
+        var settled = candidates
+            .Select(c => c.Entry.Id == shown.LexemeId || c.Entry.Id == earlier.LexemeId ? c with { ExposuresToday = 1 } : c)
+            .ToArray();
+        var replanned = WordTimelinePlanner.Plan(new TimelineRequest(later, Kyiv, Settings(cadence: 60), settled, Current: shown.LexemeId));
+
+        replanned.Entries[0].LexemeId.ShouldBe(shown.LexemeId);
+        replanned.Entries[0].FireDate.ShouldBe(Local(2026, 10, 27, 10, 0, 0));
+        replanned.EntryAt(later)!.LexemeId.ShouldBe(shown.LexemeId);
+        var nextUnshown = replanned.Entries.Skip(1).TakeWhile(e => e.LexemeId != earlier.LexemeId && e.LexemeId != shown.LexemeId).Count();
+        nextUnshown.ShouldBeGreaterThanOrEqualTo(8, "the eight words not shown yet come before any repeat");
+        replanned.LeadingHash(later).ShouldBe(morning.LeadingHash(later), "the same words at the same times need no rewrite");
+    }
+
+    [Fact]
+    public void A_current_word_outside_the_pool_is_not_kept()
+    {
+        var timeline = WordTimelinePlanner.Plan(new TimelineRequest(Now, Kyiv, Settings(cadence: 60), Candidates(4), Current: Entry(99).Id));
+
+        timeline.Entries[0].LexemeId.ShouldNotBe(Entry(99).Id);
+    }
+
+    [Fact]
+    public void Fillers_take_slots_only_when_no_word_of_the_day_is_eligible()
+    {
+        var day = Candidates(2);
+        var fillers = Candidates(3, offset: 10).Select(c => c with { Filler = true }).ToArray();
+
+        var timeline = WordTimelinePlanner.Plan(Request(Settings(cadence: 60, exposures: 2), [.. day, .. fillers]));
+
+        var today = LearningDay.From(Now, Kyiv);
+        var todays = timeline.Entries.Where(e => LearningDay.From(e.FireDate, Kyiv) == today).ToArray();
+        todays[0].LexemeId.ShouldBe(day[0].Entry.Id);
+        todays[1].LexemeId.ShouldBe(day[1].Entry.Id);
+        foreach (var word in day)
+        {
+            todays.Count(e => e.LexemeId == word.Entry.Id).ShouldBe(2, "words of the day use their whole cap");
+        }
+
+        todays.Length.ShouldBeGreaterThan(4, "fillers keep the surfaces changing after the day's words are spent");
+        todays.Where(e => fillers.Any(f => f.Entry.Id == e.LexemeId)).Select(e => e.LexemeId).Distinct().Count().ShouldBe(3);
+        var withoutFillers = WordTimelinePlanner.Plan(Request(Settings(cadence: 60, exposures: 2), day));
+        withoutFillers.Entries.Count(e => LearningDay.From(e.FireDate, Kyiv) == today).ShouldBe(4);
     }
 
     [Fact]
