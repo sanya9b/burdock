@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:vm="clr-namespace:Burdock.Presentation.ViewModels"
+             xmlns:views="clr-namespace:Burdock.Presentation.Views"
+             xmlns:controls="clr-namespace:Burdock.Presentation.Controls"
+             xmlns:icons="clr-namespace:Burdock.Presentation.Resources.Icons"
+             xmlns:strings="clr-namespace:Burdock.Presentation.Resources.Strings"
+             x:Class="Burdock.Presentation.Views.ReviewPage"
+             x:DataType="vm:ReviewViewModel"
+             Shell.NavBarIsVisible="False"
+             Shell.TabBarIsVisible="False"
+             Title="{x:Static strings:AppResources.Review_Title}">
+    <!-- S-10a «Повторимо» (spec 03, log item 24): close, pack progress, five pairs at a time, then a summary naming the words that fell back to «Вчу». -->
+    <ContentPage.Resources>
+        <toolkit:IsEqualConverter x:Key="IsEqualConverter" />
+    </ContentPage.Resources>
+
+    <Grid RowDefinitions="Auto,*" RowSpacing="{StaticResource Space4}">
+
+        <!-- Top row: close, segmented pack progress, «Пакет 1 з 3» -->
+        <Grid Grid.Row="0" ColumnDefinitions="Auto,*,Auto" ColumnSpacing="{StaticResource Space3}" Padding="{StaticResource PageInsetTop}">
+            <controls:PushButton Grid.Column="0" Style="{StaticResource PushIcon}" Icon="{x:Static icons:Icon.X}" Command="{Binding CloseCommand}"
+                                 SemanticProperties.Description="{x:Static strings:AppResources.Review_Close_A11y}" AutomationId="Review_Close" />
+            <controls:SegmentedProgressBar Grid.Column="1" Total="{Binding PackCount}" Completed="{Binding PacksDone}" VerticalOptions="Center"
+                                           SemanticProperties.Description="{Binding ProgressText}" />
+            <Label Grid.Column="2" Text="{Binding ProgressText}" Style="{StaticResource LabelSecondary}" VerticalOptions="Center" />
+        </Grid>
+
+        <ActivityIndicator Grid.Row="1" IsRunning="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Loading}}"
+                           IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Loading}}" VerticalOptions="Center" />
+
+        <!-- empty: opened with fewer than five due words (the badge was stale) -->
+        <views:EmptyStateView Grid.Row="1" Title="{x:Static strings:AppResources.Review_Empty_Title}" Body="{x:Static strings:AppResources.Review_Empty_Body}" Mascot="mascot_sleep.png"
+                              IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Empty}}" />
+
+        <Border Grid.Row="1" Style="{StaticResource CardElevated}" Margin="{StaticResource PageInset}" VerticalOptions="Start"
+                IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Error}}">
+            <VerticalStackLayout Spacing="{StaticResource Space3}">
+                <Label Text="{x:Static strings:AppResources.Common_Error_Title}" Style="{StaticResource TypeTitleMd}" />
+                <controls:PushButton Style="{StaticResource PushTonal}" Text="{x:Static strings:AppResources.Common_Error_Retry}" Icon="{x:Static icons:Icon.RefreshCw}" Command="{Binding LoadCommand}" />
+            </VerticalStackLayout>
+        </Border>
+
+        <!-- playing: the same two columns as the session warm-up -->
+        <ScrollView Grid.Row="1" IsVisible="{Binding IsPlaying}">
+            <VerticalStackLayout x:Name="PairsHost" Spacing="{StaticResource Space5}" Padding="{StaticResource PageInset}" MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
+                <Label Text="{x:Static strings:AppResources.Session_Matching_Prompt}" Style="{StaticResource LabelSecondary}" HorizontalTextAlignment="Center" />
+                <Grid ColumnDefinitions="*,*" ColumnSpacing="{StaticResource Space3}">
+                    <VerticalStackLayout Grid.Column="0" Spacing="{StaticResource Space2}" BindableLayout.ItemsSource="{Binding MatchWords}">
+                        <BindableLayout.ItemTemplate>
+                            <DataTemplate x:DataType="vm:OptionViewModel">
+                                <controls:PushButton Text="{Binding Text}" Style="{StaticResource MatchTile}"
+                                                     Command="{Binding Source={RelativeSource AncestorType={x:Type vm:ReviewViewModel}}, Path=PickMatchCommand}"
+                                                     CommandParameter="{Binding .}" />
+                            </DataTemplate>
+                        </BindableLayout.ItemTemplate>
+                    </VerticalStackLayout>
+                    <VerticalStackLayout Grid.Column="1" Spacing="{StaticResource Space2}" BindableLayout.ItemsSource="{Binding MatchMeanings}">
+                        <BindableLayout.ItemTemplate>
+                            <DataTemplate x:DataType="vm:OptionViewModel">
+                                <controls:PushButton Text="{Binding Text}" Style="{StaticResource MatchTile}"
+                                                     Command="{Binding Source={RelativeSource AncestorType={x:Type vm:ReviewViewModel}}, Path=PickMatchCommand}"
+                                                     CommandParameter="{Binding .}" />
+                            </DataTemplate>
+                        </BindableLayout.ItemTemplate>
+                    </VerticalStackLayout>
+                </Grid>
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <!-- summary: how many repeated, which fell back to «Вчу», XP -->
+        <ScrollView Grid.Row="1" IsVisible="{Binding IsSummary}">
+            <VerticalStackLayout Spacing="{StaticResource Space4}" Padding="{StaticResource PageInset}" MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
+                <views:EmptyStateView Title="{Binding SummaryTitle}" Body="{Binding SummaryBody}" Mascot="{Binding SummaryMascot}" />
+                <Border Style="{StaticResource CardTonal}">
+                    <VerticalStackLayout Spacing="{StaticResource Space2}">
+                        <Label Text="{Binding DemotedText}" Style="{StaticResource TypeBodyMd}" LineBreakMode="WordWrap" />
+                        <Label Text="{Binding XpText}" Style="{StaticResource TypeTitleMd}" IsVisible="{Binding ShowXp}" />
+                    </VerticalStackLayout>
+                </Border>
+                <controls:PushButton Style="{StaticResource PushAccent}" Text="{x:Static strings:AppResources.Review_Done_Button}" Icon="{x:Static icons:Icon.ArrowRight}" Command="{Binding DoneCommand}"
+                                     HorizontalOptions="Center" AutomationId="Review_Done" />
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

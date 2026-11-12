@@ -20,6 +20,7 @@ public static class Routes
         public static readonly Route Root = new("//learn");
         public static readonly Route Session = new("//learn/session");
         public static readonly Route Summary = new("//learn/summary");
+        public static readonly Route Review = new("//learn/review");
         public static readonly Route Focus = new("//learn/focus");
     }
 

@@ -346,6 +346,16 @@ FreeDailySet(learnerId, day, content):
 
 > Реалізовано 28.10.2026 за рішенням власника (журнал, п. 15): **дриль майстерності**. Після першого проходу по плану сесія повертає кожне слово в чергу, поки воно не набере `session.masteryStreak` = 4 правильних відповідей поспіль у цій сесії; помилка скидає лічильник слова до нуля; 4 поспіль → картка стає `Learned` негайно (`LearnerCard.MarkMastered`), незалежно від стабільності FSRS (планування повторень і регрес при `Again` не змінюються). Режим вправи зростає з лічильником: 0 слово→переклад, 1 переклад→слово, 2 слово→переклад, 3+ набір (або переклад→слово без `acceptedForms`). Повторне слово йде в кінець черги, тож між його показами стоять інші слова першого проходу. Прогрес сесії = відповідані кроки + відкриті розминки + потрібні відповіді, тому після помилки загальна кількість кроків зростає на один. Реалізація: `Burdock.Domain.Learning.MasteryDrill` (тести), `SessionDrill`/`SessionItemFactory` в Application (`SessionPlan.Drill`), `GradeAnswerUseCase(…, masteredInSession)`, `SessionViewModel` (`ItemCount`, `MasteryStreak`/`MasteryTarget`). Відкрито: подія синхронізації для майстерності (зараз інший пристрій відтворює лише `ReviewLog`, тож стан `Learned` з дриля не переноситься), ліміт `session.maxCards` (30) при 10 словах × 4 відповідей, показ лічильника «2 з 4» у картці вправи (потребує макета в 03).
 
+#### 3.7.1 Раунд «Повторимо» (журнал п. 24, 12.11.2026)
+
+| Крок | Правило |
+|---|---|
+| Доступність | Картка у стані `Learned` з `due ≤ now` за FSRS. `Known` не повторюється. Вивчені картки не входять у план дня (`DailyPlanner` їх пропускає, але рахує у `introducedToday`), тож сесія «Вчити» складається лише з нових і «Вчу». |
+| Раунд | `ReviewRoundRules.Plan`: прострочені вивчені слова за зростанням `R`, потім за `due`; пакети по `review.packSize` = 5, до `review.maxPacks` = 3 (≤ 15 слів); лише повні пакети, решта чекає. Бейдж на S-10 показується, коли є хоча б один пакет. |
+| Оцінювання | Режим `ExerciseMode.MatchingReview` (оцінюваний, на відміну від розминки `Matching`). Правильна пара → `Good`; помилка → `Again` для слова, яке учень обрав першим, і `MasteryProgress` = 0. Кожне слово оцінюється раз на пакет за першим результатом. `LearnerCard.ResolveState`: картка у `Learned` лишається `Learned` при будь-якій оцінці, крім `Again` (раніше правильна відповідь скидала її у `Review`). |
+| Нагороди | Як за сесію: `SessionReport(graded, correct, again, typedCorrect 0, learned 0, learningDay = graded ≥ 5, warmup false)`; закриття посередині нараховує за оцінене. |
+| Реалізація | Domain `ReviewRoundRules`/`ReviewRoundPlan`; Application `GetReviewRoundUseCase`, `GradeReviewPairUseCase` (`UseCases/Reviews`); Presentation `ReviewViewModel`/`ReviewPage` (S-10a), бейдж у `TodayViewModel`. Тести: `ReviewRoundRulesTests`, `LearnerCardTests`, `DailyPlannerTests`, `ReviewRoundUseCaseTests`, `ReviewViewModelTests`, `TodayViewModelTests`. |
+
 ### 3.8 Статистика
 
 Усі показники обчислює `LearningStats` як чисту функцію від (`cards`, `reviewLogs`, `exposures`, `day`); 03 і 13 не рахують нічого самостійно. У безкоштовному режимі 11-monetization ховає екран, але значення обчислюються й синхронізуються, щоб після переходу на Pro історія була повною.

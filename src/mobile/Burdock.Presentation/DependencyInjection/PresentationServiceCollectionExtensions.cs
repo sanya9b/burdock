@@ -45,6 +45,8 @@ public static class PresentationServiceCollectionExtensions
         services.AddTransient<SessionPage>();
         services.AddTransient<SessionSummaryViewModel>();
         services.AddTransient<SessionSummaryPage>();
+        services.AddTransient<ReviewViewModel>();
+        services.AddTransient<ReviewPage>();
         services.AddTransient<SettingsViewModel>();
         services.AddTransient<SettingsPage>();
         services.AddTransient<RewardsViewModel>();

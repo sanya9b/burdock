@@ -54,6 +54,21 @@
                         <Label Text="{Binding LearningDayText}" Style="{StaticResource TextSecondary}" />
                     </VerticalStackLayout>
 
+                    <!-- «Повторимо?» (S-10 review_due, log item 24): a full pack of learned words is due; tonal card, one action -->
+                    <Border Style="{StaticResource CardTonal}" Margin="{StaticResource Space2}" IsVisible="{Binding ShowReview}" AutomationId="Today_Review"
+                            SemanticProperties.Description="{Binding ReviewBody}">
+                        <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="{StaticResource Space3}">
+                            <Label Grid.Column="0" Text="{x:Static icons:Icon.RefreshCw}" Style="{StaticResource IconGlyph}" VerticalOptions="Center"
+                                   TextColor="{AppThemeBinding Light={StaticResource ColorBrandPrimaryLight}, Dark={StaticResource ColorBrandPrimaryDark}}" />
+                            <VerticalStackLayout Grid.Column="1" Spacing="{StaticResource Space1}" VerticalOptions="Center">
+                                <Label Text="{x:Static strings:AppResources.Today_Review_Title}" Style="{StaticResource TypeTitleMd}" />
+                                <Label Text="{Binding ReviewBody}" Style="{StaticResource TypeBodySm}" LineBreakMode="WordWrap" />
+                            </VerticalStackLayout>
+                            <controls:PushButton Grid.Column="2" Style="{StaticResource PushTonal}" Text="{x:Static strings:AppResources.Today_Review_Action}" Command="{Binding StartReviewCommand}"
+                                                 VerticalOptions="Center" AutomationId="Today_Review_Start" />
+                        </Grid>
+                    </Border>
+
                     <!-- loading: skeleton of the hero and the strip (spec 02 «Skeleton», NFR-03-5); the greeting above is already real -->
                     <VerticalStackLayout Spacing="{StaticResource Space5}" Margin="{StaticResource Space2}" IsVisible="{Binding ShowSkeleton}" SemanticProperties.Description="{x:Static strings:AppResources.Common_Loading}">
                         <controls:Skeleton HeightRequest="{StaticResource SizeSkeletonHero}" CornerRadius="{StaticResource RadiusXl}" />

@@ -70,9 +70,13 @@ public sealed class DailyPlannerTests
             Now.AddHours(2), Now.AddHours(-1), Now.AddDays(-1), null, 1, 0, 0, 1, 0, [], []);
         var known = LearnerCard.Restore(CardId.From(Guid.NewGuid()), Learner, candidates[2].Id, Now.AddDays(-1), CardState.Known, null, null,
             null, null, Now.AddDays(-1), null, 0, 0, 0, 1, 0, [], []);
+        // Learned and due: repeated in «Повторимо», never in the session plan (log item 24).
+        var learnedDue = LearnerCard.Restore(CardId.From(Guid.NewGuid()), Learner, candidates[3].Id, Now.AddDays(-10), CardState.Learned, MemoryState.Create(3, 5), null,
+            Now.AddDays(-1), Now.AddDays(-4), Now.AddDays(-10), Now.AddDays(-4), 6, 0, 0, 1, 1, [], [], LearningPolicy.MasteryStreak);
         cards[dueWeak.LexemeId] = dueWeak;
         cards[learning.LexemeId] = learning;
         cards[known.LexemeId] = known;
+        cards[learnedDue.LexemeId] = learnedDue;
 
         var plan = DailyPlanner.Plan(Learner, Today, Now, TestTimeZones.KyivFixed, candidates, cards, Settings(2), scheduler);
 
@@ -82,6 +86,22 @@ public sealed class DailyPlannerTests
         plan.Words.Skip(2).ShouldAllBe(w => w.Reason == PlanReason.New);
         plan.NewCount.ShouldBe(2);
         plan.Words.ShouldNotContain(w => w.Entry.Id == known.LexemeId);
+        plan.Words.ShouldNotContain(w => w.Entry.Id == learnedDue.LexemeId);
+    }
+
+    [Fact]
+    public void Words_learned_today_still_count_against_the_new_word_budget()
+    {
+        var candidates = Enumerable.Range(1, 6).Select(Entry).ToArray();
+        var learnedToday = LearnerCard.Restore(CardId.From(Guid.NewGuid()), Learner, candidates[0].Id, Now.AddHours(-2), CardState.Learned, MemoryState.Create(2, 5), null,
+            Now.AddDays(1), Now.AddHours(-1), Now.AddHours(-2), Now.AddHours(-1), 4, 0, 0, 1, 0, [], [], LearningPolicy.MasteryStreak);
+        var cards = new Dictionary<LexemeId, LearnerCard> { [learnedToday.LexemeId] = learnedToday };
+
+        var plan = DailyPlanner.Plan(Learner, Today, Now, TestTimeZones.KyivFixed, candidates, cards, Settings(2), new FixedScheduler(0.5));
+
+        plan.IntroducedToday.ShouldBe(1);
+        plan.NewCount.ShouldBe(1);
+        plan.Words.ShouldNotContain(w => w.Entry.Id == learnedToday.LexemeId);
     }
 
     [Fact]

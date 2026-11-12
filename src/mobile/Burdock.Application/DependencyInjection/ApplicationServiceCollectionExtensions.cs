@@ -3,6 +3,7 @@ using Burdock.Application.UseCases.LearningDays;
 using Burdock.Application.UseCases.Onboarding;
 using Burdock.Application.UseCases.Planning;
 using Burdock.Application.UseCases.Rewards;
+using Burdock.Application.UseCases.Reviews;
 using Burdock.Application.UseCases.Sessions;
 using Burdock.Application.UseCases.Settings;
 using Burdock.Application.UseCases.Sync;
@@ -27,6 +28,8 @@ public static class ApplicationServiceCollectionExtensions
         services.AddTransient<ClaimKnownUseCase>();
         services.AddTransient<BuildSessionUseCase>();
         services.AddTransient<GradeAnswerUseCase>();
+        services.AddTransient<GetReviewRoundUseCase>();
+        services.AddTransient<GradeReviewPairUseCase>();
         services.AddTransient<BrowseWordsUseCase>();
         services.AddTransient<GetLearnerSettingsUseCase>();
         services.AddTransient<UpdateLearnerSettingsUseCase>();

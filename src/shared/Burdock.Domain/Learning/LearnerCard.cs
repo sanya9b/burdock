@@ -227,7 +227,8 @@ public sealed class LearnerCard
             && memory.Stability >= LearningPolicy.LearnedMinStabilityDays
             && RecallSuccesses >= LearningPolicy.LearnedMinRecallSuccesses
             && _recallSuccessDays.Count >= LearningPolicy.LearnedMinRecallDays;
-        if (learned)
+        // A word mastered in a session (log item 15) stays learned through its repetitions (log item 24); only Again demotes it.
+        if (learned || State == CardState.Learned)
         {
             return CardState.Learned;
         }

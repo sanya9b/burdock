@@ -32,6 +32,26 @@ public sealed class LearnerCardTests
     }
 
     [Fact]
+    public void A_learned_word_stays_learned_on_good_and_drops_on_again()
+    {
+        // Log items 15 and 24: mastery makes the word learned; repetitions keep it so unless the learner fails.
+        var card = LearnerCard.Restore(CardId.From(Guid.NewGuid()), Learner, Lexeme, T0.AddDays(-10), CardState.Learned, MemoryState.Create(3, 5), null,
+            T0.AddDays(-1), T0.AddDays(-4), T0.AddDays(-10), T0.AddDays(-4), 6, 0, 0, 1, 1, [], [], LearningPolicy.MasteryStreak);
+
+        card.ApplyReview(Rating.Good, ExerciseMode.MatchingReview, new SchedulingOutcome(CardState.Review, MemoryState.Create(6, 5), null, T0.AddDays(6)), Day(0), T0).IsSuccess.ShouldBeTrue();
+        card.State.ShouldBe(CardState.Learned);
+        card.LearnedAt.ShouldBe(T0.AddDays(-4));
+        card.Due.ShouldBe(T0.AddDays(6));
+
+        card.ApplyReview(Rating.Again, ExerciseMode.MatchingReview, new SchedulingOutcome(CardState.Relearning, MemoryState.Create(0.5, 5), 0, T0.AddMinutes(10)), Day(0), T0.AddDays(6)).IsSuccess.ShouldBeTrue();
+        card.RecordMastery(0);
+        card.State.ShouldBe(CardState.Relearning);
+        card.LearnedAt.ShouldBeNull();
+        card.Lapses.ShouldBe(1);
+        card.MasteryProgress.ShouldBe(0);
+    }
+
+    [Fact]
     public void A_confirmed_exposure_introduces_immediately()
     {
         var card = NewCard();

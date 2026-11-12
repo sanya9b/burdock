@@ -503,4 +503,23 @@
   <data name="Shop_Scene_Toast" xml:space="preserve"><value>Фон: {0}</value></data>
   <data name="Shop_Ride_Toast" xml:space="preserve"><value>Транспорт: {0}</value></data>
   <data name="Shop_Removed_Toast" xml:space="preserve"><value>Прибрано</value></data>
+  <data name="Today_Review_Title" xml:space="preserve"><value>Повторимо?</value><comment>Бейдж S-10 review_due (журнал п. 24)</comment></data>
+  <data name="Today_Review_Body_One" xml:space="preserve"><value>{0} слово чекає на повторення</value></data>
+  <data name="Today_Review_Body_Few" xml:space="preserve"><value>{0} слова чекають на повторення</value></data>
+  <data name="Today_Review_Body_Many" xml:space="preserve"><value>{0} слів чекають на повторення</value></data>
+  <data name="Today_Review_Action" xml:space="preserve"><value>Повторити</value></data>
+  <data name="Review_Title" xml:space="preserve"><value>Повторення</value><comment>S-10a «Повторимо»</comment></data>
+  <data name="Review_Progress_Label" xml:space="preserve"><value>Пакет {0} з {1}</value></data>
+  <data name="Review_Close_A11y" xml:space="preserve"><value>Закрити повторення</value></data>
+  <data name="Review_Empty_Title" xml:space="preserve"><value>Поки нічого повторювати</value></data>
+  <data name="Review_Empty_Body" xml:space="preserve"><value>Вивчені слова повернуться сюди, коли настане їхній час. Віджет нагадає.</value></data>
+  <data name="Review_Summary_Title" xml:space="preserve"><value>Повторено</value></data>
+  <data name="Review_Summary_One" xml:space="preserve"><value>{0} слово повторено</value></data>
+  <data name="Review_Summary_Few" xml:space="preserve"><value>{0} слова повторено</value></data>
+  <data name="Review_Summary_Many" xml:space="preserve"><value>{0} слів повторено</value></data>
+  <data name="Review_Summary_AllKept" xml:space="preserve"><value>Усі лишилися вивченими</value></data>
+  <data name="Review_Demoted_Format" xml:space="preserve"><value>Повернулись у «Вчу»: {0}</value><comment>{0} = перелік слів через кому</comment></data>
+  <data name="Review_Xp_Format" xml:space="preserve"><value>+{0} XP</value></data>
+  <data name="Review_Done_Button" xml:space="preserve"><value>На головну</value></data>
+  <data name="Errors_Review_UnknownCard" xml:space="preserve"><value>Це слово ще не вивчалося</value></data>
 </root>

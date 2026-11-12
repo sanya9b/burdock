@@ -159,6 +159,7 @@ public sealed class ViewModelHarness
         services.AddTransient<WordCardViewModel>();
         services.AddTransient<SessionViewModel>();
         services.AddTransient<SessionSummaryViewModel>();
+        services.AddTransient<ReviewViewModel>();
         services.AddTransient<SettingsViewModel>();
         services.AddTransient<RewardsViewModel>();
         return services.BuildServiceProvider();

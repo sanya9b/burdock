@@ -32,6 +32,48 @@ public sealed class TodayViewModelTests
     }
 
     [Fact]
+    public async Task A_full_pack_of_due_learned_words_shows_the_review_badge_that_opens_the_round()
+    {
+        var harness = new ViewModelHarness().WithBundledWords(12);
+        var now = harness.Clock.UtcNow;
+        for (var n = 1; n <= 5; n++)
+        {
+            var card = LearnerCard.Restore(CardId.From(Guid.NewGuid()), ViewModelHarness.Learner, ViewModelHarness.Word(n).Id, now.AddDays(-10), CardState.Learned,
+                MemoryState.Create(3, 5), null, now.AddDays(-1), now.AddDays(-3), now.AddDays(-10), now.AddDays(-3), 6, 0, 0, 1, 1, [], [], LearningPolicy.MasteryStreak);
+            await harness.Cards.UpsertAsync(card, Ct);
+        }
+
+        var vm = harness.Resolve<TodayViewModel>();
+        await vm.LoadAsync(Ct);
+
+        vm.ShowReview.ShouldBeTrue();
+        vm.ReviewBody.ShouldContain("5");
+        // Learned words are not words of the day any more (log item 24): the plan holds the other five new ones.
+        vm.Words.Select(w => w.Lemma).ShouldNotContain("word1");
+
+        await vm.StartReviewCommand.ExecuteAsync(null);
+        harness.Navigation.Last.Route.ShouldBe(Routes.Learn.Review);
+    }
+
+    [Fact]
+    public async Task Fewer_than_five_due_words_show_no_badge()
+    {
+        var harness = new ViewModelHarness().WithBundledWords(12);
+        var now = harness.Clock.UtcNow;
+        for (var n = 1; n <= 4; n++)
+        {
+            var card = LearnerCard.Restore(CardId.From(Guid.NewGuid()), ViewModelHarness.Learner, ViewModelHarness.Word(n).Id, now.AddDays(-10), CardState.Learned,
+                MemoryState.Create(3, 5), null, now.AddDays(-1), now.AddDays(-3), now.AddDays(-10), now.AddDays(-3), 6, 0, 0, 1, 1, [], [], LearningPolicy.MasteryStreak);
+            await harness.Cards.UpsertAsync(card, Ct);
+        }
+
+        var vm = harness.Resolve<TodayViewModel>();
+        await vm.LoadAsync(Ct);
+
+        vm.ShowReview.ShouldBeFalse();
+    }
+
+    [Fact]
     public async Task The_first_load_shows_the_skeleton_and_a_reload_uses_the_refresh_indicator()
     {
         var harness = new ViewModelHarness().WithBundledWords(12);

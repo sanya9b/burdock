@@ -33,8 +33,9 @@ public sealed record DailyPlan(LearningDay Day, IReadOnlyList<PlannedWord> Words
 }
 
 /// <summary>
-/// Pure, deterministic selection of today's words: due cards first (lowest retrievability first), then cards still in
-/// learning, then new words chosen by a seed derived from (learner, day) so every surface agrees within the day.
+/// Pure, deterministic selection of today's words: due cards still being learned first (lowest retrievability first),
+/// then the other cards in learning, then new words chosen by a seed derived from (learner, day) so every surface agrees
+/// within the day. Learned words are not part of the plan: their repetitions are the «Повторимо» round (<see cref="ReviewRoundRules"/>).
 /// </summary>
 public static class DailyPlanner
 {
@@ -76,6 +77,12 @@ public static class DailyPlanner
             if (card.IntroducedAt is { } introducedAt && LearningDay.From(introducedAt, timeZone) == day)
             {
                 introducedToday++;
+            }
+
+            // Learned words are repeated in the «Повторимо» round, not in the session (owner decision 2026-11-12, log item 24).
+            if (card.State == CardState.Learned)
+            {
+                continue;
             }
 
             var retrievability = card.Memory is null ? 0 : scheduler.Retrievability(card.ToSchedulingInput(), now);

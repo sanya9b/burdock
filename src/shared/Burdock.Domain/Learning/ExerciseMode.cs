@@ -20,6 +20,9 @@ public enum ExerciseMode
 
     /// <summary>Reserved: fill the gap in a sentence.</summary>
     Cloze,
+
+    /// <summary>«Повторимо»: learned words matched with meanings in packs of five; a correct pair is Good, a mistake is Again (log item 24).</summary>
+    MatchingReview,
 }
 
 public static class ExerciseModeExtensions
@@ -31,5 +34,5 @@ public static class ExerciseModeExtensions
     public static bool IsUngraded(this ExerciseMode mode) => mode is ExerciseMode.Matching;
 
     public static bool IsAvailableInV1(this ExerciseMode mode)
-        => mode is ExerciseMode.ChoiceTargetToNative or ExerciseMode.ChoiceNativeToTarget or ExerciseMode.Matching or ExerciseMode.TypedRecall;
+        => mode is ExerciseMode.ChoiceTargetToNative or ExerciseMode.ChoiceNativeToTarget or ExerciseMode.Matching or ExerciseMode.TypedRecall or ExerciseMode.MatchingReview;
 }

@@ -22,6 +22,7 @@ public partial class AppShell : Shell
         Routing.RegisterRoute("word", typeof(WordCardPage));
         Routing.RegisterRoute("session", typeof(SessionPage));
         Routing.RegisterRoute("summary", typeof(SessionSummaryPage));
+        Routing.RegisterRoute("review", typeof(ReviewPage));
         Routing.RegisterRoute("settings", typeof(SettingsPage));
         Routing.RegisterRoute("rewards", typeof(RewardsPage));
     }

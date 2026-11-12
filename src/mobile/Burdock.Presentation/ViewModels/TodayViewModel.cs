@@ -5,9 +5,11 @@ using Burdock.Application.Ports;
 using Burdock.Application.UseCases.Content;
 using Burdock.Application.UseCases.LearningDays;
 using Burdock.Application.UseCases.Planning;
+using Burdock.Application.UseCases.Reviews;
 using Burdock.Application.UseCases.Rewards;
 using Burdock.Domain.Learning;
 using Burdock.Domain.Vocabulary;
+using Burdock.Presentation.Localization;
 using Burdock.Presentation.Navigation;
 using Burdock.Presentation.Resources.Icons;
 using Burdock.Presentation.Resources.Strings;
@@ -26,6 +28,9 @@ public sealed partial class TodayViewModel : ObservableObject
     private static readonly CultureInfo Ukrainian = CultureInfo.GetCultureInfo("uk-UA");
     private static readonly CompositeFormat LearningDayFormat = CompositeFormat.Parse(AppResources.Today_LearningDay_Label);
     private static readonly CompositeFormat PlanSummaryFormat = CompositeFormat.Parse(AppResources.Today_Plan_Summary);
+    private static readonly CompositeFormat ReviewBodyOne = CompositeFormat.Parse(AppResources.Today_Review_Body_One);
+    private static readonly CompositeFormat ReviewBodyFew = CompositeFormat.Parse(AppResources.Today_Review_Body_Few);
+    private static readonly CompositeFormat ReviewBodyMany = CompositeFormat.Parse(AppResources.Today_Review_Body_Many);
 
     private readonly LearningDayResolver _learningDays;
     private readonly IClock _clock;
@@ -34,6 +39,7 @@ public sealed partial class TodayViewModel : ObservableObject
     private readonly INavigationService _navigation;
     private readonly ISpeechService _speech;
     private readonly GetRewardsOverviewUseCase _rewards;
+    private readonly GetReviewRoundUseCase _reviewRound;
     private readonly ILogger<TodayViewModel> _logger;
 
     [ObservableProperty]
@@ -78,7 +84,14 @@ public sealed partial class TodayViewModel : ObservableObject
     [ObservableProperty]
     private string _thornsText = string.Empty;
 
-    public TodayViewModel(LearningDayResolver learningDays, IClock clock, BootstrapContentUseCase bootstrap, GetDailyPlanUseCase dailyPlan, INavigationService navigation, ISpeechService speech, GetRewardsOverviewUseCase rewards, ILogger<TodayViewModel> logger)
+    /// <summary>«Повторимо?» (log item 24): at least one full pack of five learned words is due.</summary>
+    [ObservableProperty]
+    private bool _showReview;
+
+    [ObservableProperty]
+    private string _reviewBody = string.Empty;
+
+    public TodayViewModel(LearningDayResolver learningDays, IClock clock, BootstrapContentUseCase bootstrap, GetDailyPlanUseCase dailyPlan, INavigationService navigation, ISpeechService speech, GetRewardsOverviewUseCase rewards, GetReviewRoundUseCase reviewRound, ILogger<TodayViewModel> logger)
     {
         _learningDays = learningDays ?? throw new ArgumentNullException(nameof(learningDays));
         _clock = clock ?? throw new ArgumentNullException(nameof(clock));
@@ -87,6 +100,7 @@ public sealed partial class TodayViewModel : ObservableObject
         _navigation = navigation ?? throw new ArgumentNullException(nameof(navigation));
         _speech = speech ?? throw new ArgumentNullException(nameof(speech));
         _rewards = rewards ?? throw new ArgumentNullException(nameof(rewards));
+        _reviewRound = reviewRound ?? throw new ArgumentNullException(nameof(reviewRound));
         _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         RefreshHeader();
     }
@@ -151,6 +165,10 @@ public sealed partial class TodayViewModel : ObservableObject
 
             PlanSummary = string.Format(Ukrainian, PlanSummaryFormat, plan.NewCount, plan.DueCount);
 
+            var review = await _reviewRound.ExecuteAsync(cancellationToken).ConfigureAwait(true);
+            ShowReview = review.IsAvailable;
+            ReviewBody = Plural.Uk(review.DueCount, ReviewBodyOne, ReviewBodyFew, ReviewBodyMany);
+
             var overview = await _rewards.ExecuteAsync(cancellationToken).ConfigureAwait(true);
             ShowRewards = overview.GamificationEnabled;
             StreakCountedToday = overview.StreakCountedToday;
@@ -186,6 +204,10 @@ public sealed partial class TodayViewModel : ObservableObject
     [RelayCommand]
     private Task SpeakHeroAsync(CancellationToken cancellationToken)
         => Hero is { } hero ? _speech.SpeakWordAsync(Domain.SharedKernel.LexemeId.From(hero.LexemeId), hero.Lemma, cancellationToken) : Task.CompletedTask;
+
+    /// <summary>«Повторити»: the pairs round of due learned words (S-10a).</summary>
+    [RelayCommand]
+    private Task StartReviewAsync(CancellationToken cancellationToken) => _navigation.GoToAsync(Routes.Learn.Review, null, cancellationToken);
 
     [RelayCommand(CanExecute = nameof(HasWords))]
     private Task StartSessionAsync()
