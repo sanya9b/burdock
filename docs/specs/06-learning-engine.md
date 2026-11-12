@@ -354,7 +354,7 @@ FreeDailySet(learnerId, day, content):
 |---|---|---|
 | Покази слова | `exposures.scheduled`, `exposures.confirmed` (на лексему і сумарно) | Кількість `ExposureRecord` за видом. UI показує `confirmed` як «переглянуто», `scheduled` підписує як «показано (оцінка)» (T5, звіт §7 п. 4). |
 | Знайомі | `counts.introduced` | Картки в `Introduced`. |
-| Вчу | `counts.learning` | Картки в `Learning`, `Review`, `Relearning`. |
+| Вчу | `counts.learning` | Картки, оцінені хоча б раз, з `masteryProgress` < 4 і не `Learned`/`Known` (стани `Learning`, `Review`, `Relearning`; журнал п. 23, 12.11.2026). |
 | Вивчено | `counts.learned` | Картки в `Learned` (без регресу). |
 | Знаю | `counts.known` | Картки в `Known`. |
 | Оцінка утримання | `retention.estimate` | Частка `rating ≥ Hard` серед `ReviewLog` з `isStep=false` за останні 30 днів; поруч — `retention.target` (пресет). Показується лише при ≥ 50 оцінках. |

@@ -5,7 +5,11 @@ using Burdock.Domain.Vocabulary;
 
 namespace Burdock.Application.UseCases.Words;
 
-/// <summary>Learner-facing status groups of the library filters (spec 03 S-14); they fold the card states into five chips plus «відкладено».</summary>
+/// <summary>
+/// Learner-facing status groups of the library filters (spec 03 S-14). They follow the knowledge ring, not the scheduler
+/// state (owner decision of 2026-11-12, log item 23): «Нові» never graded, «Знайомство» seen but not graded, «Вчу» graded
+/// with 0–3 of 4 answers in a row, «Вивчено» 4 of 4 or «Знаю», «Повторюю» a learned word whose review is due now.
+/// </summary>
 public enum LibraryStatus
 {
     New,
@@ -18,15 +22,24 @@ public enum LibraryStatus
 
 public static class LibraryStatusExtensions
 {
-    public static LibraryStatus ToLibraryStatus(this CardState state) => state switch
+    /// <summary>Status of the learner's card (or its absence) at <paramref name="now"/>.</summary>
+    public static LibraryStatus ToLibraryStatus(this LearnerCard? card, DateTimeOffset now)
     {
-        CardState.Introduced => LibraryStatus.Introduced,
-        CardState.Learning or CardState.Relearning => LibraryStatus.Learning,
-        CardState.Review => LibraryStatus.Review,
-        CardState.Learned or CardState.Known => LibraryStatus.Learned,
-        CardState.Suspended => LibraryStatus.Suspended,
-        _ => LibraryStatus.New,
-    };
+        if (card is null)
+        {
+            return LibraryStatus.New;
+        }
+
+        return card.State switch
+        {
+            CardState.New => LibraryStatus.New,
+            CardState.Introduced => LibraryStatus.Introduced,
+            CardState.Suspended => LibraryStatus.Suspended,
+            CardState.Known => LibraryStatus.Learned,
+            CardState.Learned => card.Due is { } due && due <= now ? LibraryStatus.Review : LibraryStatus.Learned,
+            _ => card.MasteryProgress >= LearningPolicy.MasteryStreak ? LibraryStatus.Learned : LibraryStatus.Learning,
+        };
+    }
 }
 
 /// <summary>One row of the library: the entry joined with the learner's card (or its absence); <c>MasteryProgress</c> is the streak of the last drill, 0..<see cref="LearningPolicy.MasteryStreak"/>, full for learned and known words.</summary>
@@ -41,7 +54,7 @@ public sealed record WordsQuery(string? Search = null, LibraryStatus? Status = n
 }
 
 /// <summary>S-14 «Слова»: every word of the learner's pair with its status, filtered and sorted for the library list.</summary>
-public sealed class BrowseWordsUseCase(ILearnerContext learner, IContentRepository content, ILearnerCardRepository cards)
+public sealed class BrowseWordsUseCase(ILearnerContext learner, IContentRepository content, ILearnerCardRepository cards, IClock clock)
 {
     public async Task<IReadOnlyList<LibraryWord>> ExecuteAsync(WordsQuery query, CancellationToken cancellationToken)
     {
@@ -50,13 +63,14 @@ public sealed class BrowseWordsUseCase(ILearnerContext learner, IContentReposito
         var settings = await learner.GetSettingsAsync(cancellationToken).ConfigureAwait(false);
         var entries = await content.ListAsync(settings.Pair, CefrLevelExtensions.All, [], cancellationToken).ConfigureAwait(false);
         var learnerCards = await cards.ListAsync(learnerId, cancellationToken).ConfigureAwait(false);
+        var now = clock.UtcNow;
 
         var words = entries.Select(entry =>
         {
             learnerCards.TryGetValue(entry.Id, out var card);
             var state = card?.State ?? CardState.New;
             var mastery = card is null ? 0 : state is CardState.Learned or CardState.Known ? LearningPolicy.MasteryStreak : card.MasteryProgress;
-            return new LibraryWord(entry, state, state.ToLibraryStatus(), card?.Due, card?.ConfirmedExposures ?? 0, card?.Reps ?? 0, mastery);
+            return new LibraryWord(entry, state, card.ToLibraryStatus(now), card?.Due, card?.ConfirmedExposures ?? 0, card?.Reps ?? 0, mastery);
         });
         return Filter(words, query).ToArray();
     }
