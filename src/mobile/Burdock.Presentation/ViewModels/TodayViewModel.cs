@@ -28,6 +28,8 @@ public sealed partial class TodayViewModel : ObservableObject
     private static readonly CultureInfo Ukrainian = CultureInfo.GetCultureInfo("uk-UA");
     private static readonly CompositeFormat LearningDayFormat = CompositeFormat.Parse(AppResources.Today_LearningDay_Label);
     private static readonly CompositeFormat PlanSummaryFormat = CompositeFormat.Parse(AppResources.Today_Plan_Summary);
+    private static readonly CompositeFormat HeroPositionFormat = CompositeFormat.Parse(AppResources.Today_Hero_Position);
+    private static readonly CompositeFormat HeroPositionA11yFormat = CompositeFormat.Parse(AppResources.Today_Hero_Position_A11y);
     private static readonly CompositeFormat ReviewBodyOne = CompositeFormat.Parse(AppResources.Today_Review_Body_One);
     private static readonly CompositeFormat ReviewBodyFew = CompositeFormat.Parse(AppResources.Today_Review_Body_Few);
     private static readonly CompositeFormat ReviewBodyMany = CompositeFormat.Parse(AppResources.Today_Review_Body_Many);
@@ -63,11 +65,20 @@ public sealed partial class TodayViewModel : ObservableObject
     [NotifyCanExecuteChangedFor(nameof(StartSessionCommand))]
     private bool _hasWords;
 
+    /// <summary>The word in the hero pager; swiping the pager or tapping a strip tile moves it (owner request 13.11.2026).</summary>
     [ObservableProperty]
     private WordTile? _hero;
 
+    /// <summary>More than one word of the day: the pager counter and the strip are shown.</summary>
     [ObservableProperty]
     private bool _hasMore;
+
+    /// <summary>«3 з 20» under the pager.</summary>
+    [ObservableProperty]
+    private string _heroPositionText = string.Empty;
+
+    [ObservableProperty]
+    private string _heroPositionAccessibility = string.Empty;
 
     [ObservableProperty]
     private bool _showRewards;
@@ -105,11 +116,8 @@ public sealed partial class TodayViewModel : ObservableObject
         RefreshHeader();
     }
 
-    /// <summary>All words of the day in plan order (hero first).</summary>
+    /// <summary>All words of the day in plan order: the pages of the hero pager and the tiles of the strip.</summary>
     public ObservableCollection<WordTile> Words { get; } = [];
-
-    /// <summary>Words after the hero, shown in the horizontal strip.</summary>
-    public ObservableCollection<WordTile> More { get; } = [];
 
     /// <summary>The first load has nothing to show yet: skeleton of the hero and the strip (NFR-03-5), never a spinner.</summary>
     public bool ShowSkeleton => State == ViewState.Loading;
@@ -150,18 +158,15 @@ public sealed partial class TodayViewModel : ObservableObject
             await _bootstrap.ExecuteAsync(cancellationToken).ConfigureAwait(true);
             var plan = await _dailyPlan.ExecuteAsync(cancellationToken).ConfigureAwait(true);
 
+            var shown = Hero?.LexemeId;
             Words.Clear();
-            More.Clear();
             foreach (var word in plan.Words)
             {
                 Words.Add(ToTile(word, _speech.Accent));
             }
 
-            Hero = Words.Count > 0 ? Words[0] : null;
-            foreach (var tile in Words.Skip(1))
-            {
-                More.Add(tile);
-            }
+            // A reload (back from the card, theme change, pull to refresh) keeps the page the learner was on.
+            Hero = Words.FirstOrDefault(w => w.LexemeId == shown) ?? (Words.Count > 0 ? Words[0] : null);
 
             PlanSummary = string.Format(Ukrainian, PlanSummaryFormat, plan.NewCount, plan.DueCount);
 
@@ -176,7 +181,8 @@ public sealed partial class TodayViewModel : ObservableObject
             StreakAccessibility = Localization.RewardsText.StreakDays(overview.StreakLength);
             ThornsText = overview.Thorns.ToString(Ukrainian);
             HasWords = Words.Count > 0;
-            HasMore = More.Count > 0;
+            HasMore = Words.Count > 1;
+            UpdateHeroPosition();
             // goal_done (spec 03 S-10): the day's words were all met and nothing is due; otherwise the morning empty state.
             State = HasWords ? ViewState.Ready : plan.GoalReached ? ViewState.GoalDone : ViewState.Empty;
         }
@@ -202,8 +208,30 @@ public sealed partial class TodayViewModel : ObservableObject
             : _navigation.GoToAsync(Routes.Today.Word, new Dictionary<string, object>(StringComparer.Ordinal) { ["id"] = tile.LexemeId.ToString("D") });
 
     [RelayCommand]
-    private Task SpeakHeroAsync(CancellationToken cancellationToken)
-        => Hero is { } hero ? _speech.SpeakWordAsync(Domain.SharedKernel.LexemeId.From(hero.LexemeId), hero.Lemma, cancellationToken) : Task.CompletedTask;
+    private Task SpeakHeroAsync(CancellationToken cancellationToken) => SpeakWordAsync(Hero, cancellationToken);
+
+    [RelayCommand]
+    private Task SpeakWordAsync(WordTile? tile, CancellationToken cancellationToken)
+        => tile is { } word ? _speech.SpeakWordAsync(Domain.SharedKernel.LexemeId.From(word.LexemeId), word.Lemma, cancellationToken) : Task.CompletedTask;
+
+    /// <summary>A strip tile brings its word into the pager; the card itself opens on tap.</summary>
+    [RelayCommand]
+    private void SelectWord(WordTile? tile)
+    {
+        if (tile is not null && Words.Contains(tile))
+        {
+            Hero = tile;
+        }
+    }
+
+    partial void OnHeroChanged(WordTile? value) => UpdateHeroPosition();
+
+    private void UpdateHeroPosition()
+    {
+        var index = Hero is null ? -1 : Words.IndexOf(Hero);
+        HeroPositionText = index < 0 ? string.Empty : string.Format(Ukrainian, HeroPositionFormat, index + 1, Words.Count);
+        HeroPositionAccessibility = index < 0 ? string.Empty : string.Format(Ukrainian, HeroPositionA11yFormat, index + 1, Words.Count);
+    }
 
     /// <summary>«Повторити»: the pairs round of due learned words (S-10a).</summary>
     [RelayCommand]

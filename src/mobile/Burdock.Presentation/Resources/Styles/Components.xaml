@@ -17,6 +17,9 @@
     <Thickness x:Key="ChipInsetSm">10,4</Thickness>
     <Thickness x:Key="FieldInset">16,4</Thickness>
     <Thickness x:Key="StripBleed">-20,0</Thickness>
+    <!-- Hero pager on «Сьогодні»: the pager bleeds past the page inset so the card keeps its edge, and the item inset leaves room for the card's glow (radius 24, offset 12) inside the pager, whose items CarouselClipping (Android) stops clipping. -->
+    <Thickness x:Key="HeroPagerBleed">-28,0</Thickness>
+    <Thickness x:Key="HeroPagerItemInset">28,16,28,40</Thickness>
     <Thickness x:Key="StripItemInset">20,4,0,8</Thickness>
     <Thickness x:Key="MascotCornerOverhang">0,-12,-8,0</Thickness>
     <Thickness x:Key="InsetTopSm">0,4,0,0</Thickness>

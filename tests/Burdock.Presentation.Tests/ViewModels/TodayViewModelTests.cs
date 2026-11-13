@@ -25,8 +25,8 @@ public sealed class TodayViewModelTests
         vm.Words.Count.ShouldBe(5);
         vm.Hero.ShouldNotBeNull();
         vm.Hero.Lemma.ShouldBe(vm.Words[0].Lemma);
-        vm.More.Count.ShouldBe(4);
         vm.HasMore.ShouldBeTrue();
+        vm.HeroPositionText.ShouldBe("1 з 5");
         vm.PlanSummary.ShouldNotBeNullOrWhiteSpace();
         vm.StartSessionCommand.CanExecute(null).ShouldBeTrue();
     }
@@ -198,6 +198,28 @@ public sealed class TodayViewModelTests
 
         harness.Navigation.Last.Route.ShouldBe(Routes.Learn.Session);
         harness.Navigation.Last.Parameters!["size"].ShouldBe("10");
+    }
+
+    [Fact]
+    public async Task A_strip_tile_brings_its_word_into_the_pager_and_the_counter_follows()
+    {
+        var harness = new ViewModelHarness().WithBundledWords(12);
+        var vm = harness.Resolve<TodayViewModel>();
+        await vm.LoadAsync(Ct);
+
+        vm.SelectWordCommand.Execute(vm.Words[2]);
+
+        vm.Hero.ShouldBe(vm.Words[2]);
+        vm.HeroPositionText.ShouldBe("3 з 5");
+        await vm.SpeakWordCommand.ExecuteAsync(vm.Words[4]);
+        harness.Speech.SpokenWords.ShouldBe([(Burdock.Domain.SharedKernel.LexemeId.From(vm.Words[4].LexemeId), vm.Words[4].Lemma)]);
+        vm.SelectWordCommand.Execute(null);
+        vm.Hero.ShouldBe(vm.Words[2]);
+
+        // Coming back to the screen reloads the plan but keeps the page.
+        await vm.LoadAsync(Ct);
+        vm.Hero!.LexemeId.ShouldBe(vm.Words[2].LexemeId);
+        vm.HeroPositionText.ShouldBe("3 з 5");
     }
 
     [Fact]

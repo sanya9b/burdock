@@ -522,4 +522,6 @@
   <data name="Review_Xp_Format" xml:space="preserve"><value>+{0} XP</value></data>
   <data name="Review_Done_Button" xml:space="preserve"><value>На головну</value></data>
   <data name="Errors_Review_UnknownCard" xml:space="preserve"><value>Це слово ще не вивчалося</value></data>
+  <data name="Today_Hero_Position" xml:space="preserve"><value>{0} з {1}</value><comment>Лічильник під пейджером слів дня (S-10)</comment></data>
+  <data name="Today_Hero_Position_A11y" xml:space="preserve"><value>Слово {0} з {1}, гортай убік</value></data>
 </root>

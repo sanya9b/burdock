@@ -79,51 +79,61 @@
                         </HorizontalStackLayout>
                     </VerticalStackLayout>
 
-                    <!-- Hero word: the in-app twin of the widget, mascot stuck to the corner (spec 02 section 3.6) -->
-                    <Grid IsVisible="{Binding HasWords}" Margin="{StaticResource Space2}">
-                        <Border Style="{StaticResource HeroCard}" SemanticProperties.Description="{Binding Hero.Lemma}" SemanticProperties.Hint="{x:Static strings:AppResources.Today_Hero_Hint}">
-                            <Border.GestureRecognizers>
-                                <TapGestureRecognizer Command="{Binding OpenWordCommand}" CommandParameter="{Binding Hero}" />
-                            </Border.GestureRecognizers>
-                            <VerticalStackLayout Spacing="{StaticResource Space2}">
-                                <HorizontalStackLayout Spacing="{StaticResource Space2}">
-                                    <Border Style="{StaticResource ChipOnHero}">
-                                        <Label Text="{x:Static strings:AppResources.Today_Hero_Eyebrow}" Style="{StaticResource ChipTextOnHero}" />
+                    <!-- Hero pager (owner request 13.11.2026, log item 25): every word of the day as a hero card, swiped horizontally; the in-app twin of the widget, mascot stuck to the corner (spec 02 section 3.6) -->
+                    <Grid IsVisible="{Binding HasWords}" Margin="{StaticResource Space2}" RowDefinitions="Auto,Auto" RowSpacing="{StaticResource Space1}">
+                        <CarouselView Grid.Row="0" ItemsSource="{Binding Words}" CurrentItem="{Binding Hero, Mode=TwoWay}" Loop="False" HorizontalScrollBarVisibility="Never"
+                                      HeightRequest="{StaticResource SizeHeroPager}" Margin="{StaticResource HeroPagerBleed}" AutomationId="Today_HeroPager">
+                            <CarouselView.ItemTemplate>
+                                <DataTemplate x:DataType="vm:WordTile">
+                                    <Border Style="{StaticResource HeroCard}" Margin="{StaticResource HeroPagerItemInset}" SemanticProperties.Description="{Binding Lemma}" SemanticProperties.Hint="{x:Static strings:AppResources.Today_Hero_Hint}">
+                                        <Border.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type vm:TodayViewModel}}, Path=OpenWordCommand}" CommandParameter="{Binding .}" />
+                                        </Border.GestureRecognizers>
+                                        <VerticalStackLayout Spacing="{StaticResource Space2}">
+                                            <HorizontalStackLayout Spacing="{StaticResource Space2}">
+                                                <Border Style="{StaticResource ChipOnHero}">
+                                                    <Label Text="{x:Static strings:AppResources.Today_Hero_Eyebrow}" Style="{StaticResource ChipTextOnHero}" />
+                                                </Border>
+                                                <Border Style="{StaticResource ChipOnHero}">
+                                                    <HorizontalStackLayout Spacing="{StaticResource Space1}">
+                                                        <Label Text="{Binding ReasonIcon}" Style="{StaticResource IconGlyphSm}" TextColor="{AppThemeBinding Light={StaticResource ColorWidgetChipTextLight}, Dark={StaticResource ColorWidgetChipTextDark}}" />
+                                                        <Label Text="{Binding Reason}" Style="{StaticResource ChipTextOnHero}" />
+                                                    </HorizontalStackLayout>
+                                                </Border>
+                                            </HorizontalStackLayout>
+                                            <Label Text="{Binding Lemma}" Style="{StaticResource OnHeroWord}" FontSize="{Binding Lemma, Converter={StaticResource LemmaFontSize}}" Margin="{StaticResource InsetTopLg}" LineBreakMode="TailTruncation" />
+                                            <Label Text="{Binding Ipa}" Style="{StaticResource OnHeroIpa}" />
+                                            <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="{StaticResource Space2}" Margin="{StaticResource InsetTopMd}">
+                                                <Label Grid.Column="0" Text="{x:Static icons:Icon.Eye}" Style="{StaticResource IconGlyphSm}" TextColor="{AppThemeBinding Light={StaticResource ColorWidgetIpaLight}, Dark={StaticResource ColorWidgetIpaDark}}" />
+                                                <Label Grid.Column="1" Text="{x:Static strings:AppResources.Today_Hero_Hint}" Style="{StaticResource OnHeroSecondary}" VerticalOptions="Center" LineBreakMode="WordWrap" />
+                                                <controls:PushButton Grid.Column="2" Style="{StaticResource PushHeroIcon}" Icon="{x:Static icons:Icon.Volume2}" Margin="{StaticResource Space2}"
+                                                                     Command="{Binding Source={RelativeSource AncestorType={x:Type vm:TodayViewModel}}, Path=SpeakWordCommand}" CommandParameter="{Binding .}"
+                                                                     SemanticProperties.Description="{x:Static strings:AppResources.Word_Speak_Button}" />
+                                            </Grid>
+                                        </VerticalStackLayout>
                                     </Border>
-                                    <Border Style="{StaticResource ChipOnHero}">
-                                        <HorizontalStackLayout Spacing="{StaticResource Space1}">
-                                            <Label Text="{Binding Hero.ReasonIcon}" Style="{StaticResource IconGlyphSm}" TextColor="{AppThemeBinding Light={StaticResource ColorWidgetChipTextLight}, Dark={StaticResource ColorWidgetChipTextDark}}" />
-                                            <Label Text="{Binding Hero.Reason}" Style="{StaticResource ChipTextOnHero}" />
-                                        </HorizontalStackLayout>
-                                    </Border>
-                                </HorizontalStackLayout>
-                                <Label Text="{Binding Hero.Lemma}" Style="{StaticResource OnHeroWord}" FontSize="{Binding Hero.Lemma, Converter={StaticResource LemmaFontSize}}" Margin="{StaticResource InsetTopLg}" LineBreakMode="TailTruncation" />
-                                <Label Text="{Binding Hero.Ipa}" Style="{StaticResource OnHeroIpa}" />
-                                <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="{StaticResource Space2}" Margin="{StaticResource InsetTopMd}">
-                                    <Label Grid.Column="0" Text="{x:Static icons:Icon.Eye}" Style="{StaticResource IconGlyphSm}" TextColor="{AppThemeBinding Light={StaticResource ColorWidgetIpaLight}, Dark={StaticResource ColorWidgetIpaDark}}" />
-                                    <Label Grid.Column="1" Text="{x:Static strings:AppResources.Today_Hero_Hint}" Style="{StaticResource OnHeroSecondary}" VerticalOptions="Center" LineBreakMode="WordWrap" />
-                                    <controls:PushButton Grid.Column="2" Style="{StaticResource PushHeroIcon}" Icon="{x:Static icons:Icon.Volume2}" Command="{Binding SpeakHeroCommand}" Margin="{StaticResource Space2}"
-                                                         SemanticProperties.Description="{x:Static strings:AppResources.Word_Speak_Button}" />
-                                </Grid>
-                            </VerticalStackLayout>
-                        </Border>
-                        <Image Source="mascot_cheer.png" WidthRequest="{StaticResource SizeMascotSm}" HeightRequest="{StaticResource SizeMascotSm}"
+                                </DataTemplate>
+                            </CarouselView.ItemTemplate>
+                        </CarouselView>
+                        <Label Grid.Row="1" Text="{Binding HeroPositionText}" Style="{StaticResource TextTertiary}" HorizontalOptions="Center" IsVisible="{Binding HasMore}"
+                               SemanticProperties.Description="{Binding HeroPositionAccessibility}" />
+                        <Image Grid.Row="0" Source="mascot_cheer.png" WidthRequest="{StaticResource SizeMascotSm}" HeightRequest="{StaticResource SizeMascotSm}" InputTransparent="True"
                                HorizontalOptions="End" VerticalOptions="Start" Margin="{StaticResource MascotCornerOverhang}" AutomationProperties.IsInAccessibleTree="False" />
                     </Grid>
 
-                    <!-- The rest of today's words -->
+                    <!-- All words of the day as compact tiles: a tap brings that word into the pager -->
                     <Grid ColumnDefinitions="*,Auto" IsVisible="{Binding HasMore}">
-                        <Label Grid.Column="0" Text="{x:Static strings:AppResources.Today_More_Heading}" Style="{StaticResource SectionTitle}" SemanticProperties.HeadingLevel="Level2" />
+                        <Label Grid.Column="0" Text="{x:Static strings:AppResources.Today_WordsOfDay_Heading}" Style="{StaticResource SectionTitle}" SemanticProperties.HeadingLevel="Level2" />
                         <Label Grid.Column="1" Text="{Binding PlanSummary}" Style="{StaticResource TextTertiary}" VerticalOptions="End" />
                     </Grid>
-                    <CollectionView ItemsSource="{Binding More}" IsVisible="{Binding HasMore}" ItemsLayout="HorizontalList"
+                    <CollectionView ItemsSource="{Binding Words}" IsVisible="{Binding HasMore}" ItemsLayout="HorizontalList"
                                     HeightRequest="{StaticResource SizeWordTileHeight}" SelectionMode="None" Margin="{StaticResource StripBleed}">
                         <CollectionView.ItemTemplate>
                             <DataTemplate x:DataType="vm:WordTile">
                                 <Border Style="{StaticResource WordTile}" Margin="{StaticResource StripItemInset}"
                                         BackgroundColor="{Binding TopicKey, Converter={StaticResource TopicColor}}">
                                     <Border.GestureRecognizers>
-                                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type vm:TodayViewModel}}, Path=OpenWordCommand}" CommandParameter="{Binding .}" />
+                                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type vm:TodayViewModel}}, Path=SelectWordCommand}" CommandParameter="{Binding .}" />
                                     </Border.GestureRecognizers>
                                     <Grid RowDefinitions="Auto,*,Auto" RowSpacing="{StaticResource Space1}">
                                         <HorizontalStackLayout Grid.Row="0" Spacing="{StaticResource Space1}">

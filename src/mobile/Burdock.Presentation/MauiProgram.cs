@@ -49,6 +49,10 @@ public static class MauiProgram
             ConfigureDeepLinks(builder);
         }
 #endif
+#if ANDROID
+        // The hero pager's glow must not be cut by the RecyclerView item bounds (S-10, log item 25).
+        Platforms.CarouselClipping.Register();
+#endif
 
 #if DEBUG
         builder.Logging.AddDebug();
