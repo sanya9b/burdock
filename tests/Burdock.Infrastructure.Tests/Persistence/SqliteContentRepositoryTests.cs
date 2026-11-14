@@ -17,7 +17,7 @@ public sealed class SqliteContentRepositoryTests
         var path = Path.Combine(Path.GetTempPath(), $"burdock-content-{Guid.NewGuid():N}.db3");
         try
         {
-            var database = new BurdockDatabase(new DatabaseOptions(path));
+            await using var database = new BurdockDatabase(new DatabaseOptions(path));
             var repository = new SqliteContentRepository(database);
             var ct = TestContext.Current.CancellationToken;
 
@@ -43,7 +43,7 @@ public sealed class SqliteContentRepositoryTests
             }
             catch (IOException)
             {
-                // the connection may still hold the file on Windows; the temp folder is cleaned by the OS
+                // the WAL may still be held by the connection pool on Windows right after disposal
             }
         }
     }
@@ -54,7 +54,8 @@ public sealed class SqliteContentRepositoryTests
         var path = Path.Combine(Path.GetTempPath(), $"burdock-content-{Guid.NewGuid():N}.db3");
         try
         {
-            var repository = new SqliteContentRepository(new BurdockDatabase(new DatabaseOptions(path)));
+            await using var database = new BurdockDatabase(new DatabaseOptions(path));
+            var repository = new SqliteContentRepository(database);
             var ct = TestContext.Current.CancellationToken;
             var pack = new ImportedContentPack("uk-en.mixed", LanguagePair.UkrainianToEnglish, 1,
             [
@@ -79,7 +80,7 @@ public sealed class SqliteContentRepositoryTests
             }
             catch (IOException)
             {
-                // the connection may still hold the file on Windows; the temp folder is cleaned by the OS
+                // the WAL may still be held by the connection pool on Windows right after disposal
             }
         }
     }
@@ -94,7 +95,8 @@ public sealed class SqliteContentRepositoryTests
         var path = Path.Combine(Path.GetTempPath(), $"burdock-content-{Guid.NewGuid():N}.db3");
         try
         {
-            var repository = new SqliteContentRepository(new BurdockDatabase(new DatabaseOptions(path)));
+            await using var database = new BurdockDatabase(new DatabaseOptions(path));
+            var repository = new SqliteContentRepository(database);
             var ct = TestContext.Current.CancellationToken;
             var a = Entry("00000000-0000-7000-8000-000000000001", "ticket", CefrLevel.A1, ["travel"]);
             var b = Entry("00000000-0000-7000-8000-000000000002", "apple", CefrLevel.A1, ["food"]);
@@ -113,7 +115,7 @@ public sealed class SqliteContentRepositoryTests
             }
             catch (IOException)
             {
-                // the connection may still hold the file on Windows; the temp folder is cleaned by the OS
+                // the WAL may still be held by the connection pool on Windows right after disposal
             }
         }
     }
@@ -124,7 +126,8 @@ public sealed class SqliteContentRepositoryTests
         var path = Path.Combine(Path.GetTempPath(), $"burdock-plan-{Guid.NewGuid():N}.db3");
         try
         {
-            var cache = new SqliteDailyPlanCache(new BurdockDatabase(new DatabaseOptions(path)));
+            await using var database = new BurdockDatabase(new DatabaseOptions(path));
+            var cache = new SqliteDailyPlanCache(database);
             var ct = TestContext.Current.CancellationToken;
             var learner = LearnerId.From(Guid.Parse("0199a4c0-0000-7000-8000-00000000aaaa"));
             var ids = new[] { LexemeId.From(Guid.Parse("00000000-0000-7000-8000-000000000001")), LexemeId.From(Guid.Parse("00000000-0000-7000-8000-000000000002")) };
@@ -149,7 +152,7 @@ public sealed class SqliteContentRepositoryTests
             }
             catch (IOException)
             {
-                // the connection may still hold the file on Windows; the temp folder is cleaned by the OS
+                // the WAL may still be held by the connection pool on Windows right after disposal
             }
         }
     }

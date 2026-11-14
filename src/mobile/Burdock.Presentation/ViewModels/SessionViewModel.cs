@@ -77,6 +77,9 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
     private int _typedCorrect;
     private int _wordsLearned;
 
+    /// <summary>Words first graded in this session (they were New or Introduced before), for the task «П'ять новеньких».</summary>
+    private readonly HashSet<Burdock.Domain.SharedKernel.LexemeId> _introduced = [];
+
     [ObservableProperty]
     private int _masteryStreak;
 
@@ -490,6 +493,7 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
             ["learned"] = _wordsLearned.ToString(CultureInfo.InvariantCulture),
             ["known"] = _knownCount.ToString(CultureInfo.InvariantCulture),
             ["warmup"] = _warmupCompleted ? "1" : "0",
+            ["new"] = _introduced.Count.ToString(CultureInfo.InvariantCulture),
             ["seconds"] = ((int)duration.TotalSeconds).ToString(CultureInfo.InvariantCulture),
         };
         return _navigation.GoToAsync(Routes.Learn.Summary, parameters, cancellationToken);
@@ -574,6 +578,11 @@ public sealed partial class SessionViewModel : ObservableObject, IQueryAttributa
         if (result.Value.BecameLearned)
         {
             _wordsLearned++;
+        }
+
+        if (result.Value.WasNew)
+        {
+            _introduced.Add(_items[_index].Entry.Id);
         }
 
         ComboCount = _combo;

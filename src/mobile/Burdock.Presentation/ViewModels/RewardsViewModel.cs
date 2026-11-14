@@ -87,12 +87,15 @@ public sealed partial class RewardsViewModel : ObservableObject
     private static readonly CompositeFormat PurchasedFormat = CompositeFormat.Parse(AppResources.Shop_Purchased_Toast);
     private static readonly CompositeFormat WornFormat = CompositeFormat.Parse(AppResources.Shop_Worn_Toast);
     private static readonly CompositeFormat ThemeFormat = CompositeFormat.Parse(AppResources.Shop_Theme_Toast);
+    private static readonly CompositeFormat CalendarCaptionFormat = CompositeFormat.Parse(AppResources.Calendar_Caption);
+    private static readonly CompositeFormat CalendarClaimedFormat = CompositeFormat.Parse(AppResources.Calendar_Caption_Claimed);
     private static readonly CompositeFormat SceneFormat = CompositeFormat.Parse(AppResources.Shop_Scene_Toast);
     private static readonly CompositeFormat RideFormat = CompositeFormat.Parse(AppResources.Shop_Ride_Toast);
 
     private readonly GetShopUseCase _getShop;
     private readonly PurchaseItemUseCase _purchase;
     private readonly EquipItemUseCase _equip;
+    private readonly GetDailyTasksUseCase _tasks;
     private readonly IToastService _toast;
     private readonly IWidgetCoordinator _widgets;
     private readonly ILogger<RewardsViewModel> _logger;
@@ -153,17 +156,37 @@ public sealed partial class RewardsViewModel : ObservableObject
     [ObservableProperty]
     private bool _canBuyFreeze;
 
-    public RewardsViewModel(GetShopUseCase getShop, PurchaseItemUseCase purchase, EquipItemUseCase equip, IToastService toast, IWidgetCoordinator widgets, ILogger<RewardsViewModel> logger)
+    [ObservableProperty]
+    private string _calendarCaption = string.Empty;
+
+    /// <summary>«18 / 30 днів до теми віджета «Луг»» (spec 07 §3.4 track).</summary>
+    [ObservableProperty]
+    private string _calendarTrackText = string.Empty;
+
+    [ObservableProperty]
+    private TaskRowItem? _weeklyTask;
+
+    [ObservableProperty]
+    private bool _hasOneOffs;
+
+    public RewardsViewModel(GetShopUseCase getShop, PurchaseItemUseCase purchase, EquipItemUseCase equip, GetDailyTasksUseCase tasks, IToastService toast, IWidgetCoordinator widgets, ILogger<RewardsViewModel> logger)
     {
         _getShop = getShop ?? throw new ArgumentNullException(nameof(getShop));
         _purchase = purchase ?? throw new ArgumentNullException(nameof(purchase));
         _equip = equip ?? throw new ArgumentNullException(nameof(equip));
+        _tasks = tasks ?? throw new ArgumentNullException(nameof(tasks));
         _toast = toast ?? throw new ArgumentNullException(nameof(toast));
         _widgets = widgets ?? throw new ArgumentNullException(nameof(widgets));
         _logger = logger ?? throw new ArgumentNullException(nameof(logger));
     }
 
     public ObservableCollection<ShopSection> Sections { get; } = [];
+
+    public ObservableCollection<CalendarTileItem> Calendar { get; } = [];
+
+    public ObservableCollection<TaskRowItem> DailyTasks { get; } = [];
+
+    public ObservableCollection<TaskRowItem> OneOffTasks { get; } = [];
 
     /// <summary>Every tile of every section, for tests and for the selection sweep.</summary>
     public IEnumerable<ShopTile> Tiles => Sections.SelectMany(s => s.Tiles);
@@ -175,6 +198,7 @@ public sealed partial class RewardsViewModel : ObservableObject
         {
             _shop = await _getShop.ExecuteAsync(cancellationToken).ConfigureAwait(true);
             Render(_shop);
+            RenderTasks(await _tasks.ExecuteAsync(cancellationToken).ConfigureAwait(true));
             State = ViewState.Ready;
         }
         catch (OperationCanceledException)
@@ -325,6 +349,35 @@ public sealed partial class RewardsViewModel : ObservableObject
             ?? Tiles.FirstOrDefault(t => t.Category == CatalogCategory.Outfit && t.Equipped)
             ?? Tiles.FirstOrDefault(t => t.Category == CatalogCategory.Outfit);
         Select(selected);
+    }
+
+    private void RenderTasks(TasksView view)
+    {
+        Calendar.Clear();
+        foreach (var tile in CalendarTileItem.Build(view.Calendar))
+        {
+            Calendar.Add(tile);
+        }
+
+        var position = view.Calendar.ClaimedPosition > 0 ? view.Calendar.ClaimedPosition : view.Calendar.NextPosition + 1;
+        CalendarCaption = view.Calendar.ClaimedPosition > 0
+            ? string.Format(Ukrainian, CalendarClaimedFormat, position, RewardsText.ThornsPlus(CalendarRules.Cycle[view.Calendar.ClaimedPosition - 1]))
+            : string.Format(Ukrainian, CalendarCaptionFormat, position);
+        CalendarTrackText = RewardsText.CalendarTrack(view.Calendar.ClaimedDays, view.Calendar.NextTrack);
+        DailyTasks.Clear();
+        foreach (var task in view.Daily)
+        {
+            DailyTasks.Add(TaskRowItem.From(task));
+        }
+
+        WeeklyTask = view.Weekly is { } weekly ? TaskRowItem.From(weekly) : null;
+        OneOffTasks.Clear();
+        foreach (var task in view.OneOffs)
+        {
+            OneOffTasks.Add(TaskRowItem.From(task));
+        }
+
+        HasOneOffs = OneOffTasks.Count > 0;
     }
 
     private static ShopSection Section(string title, CatalogCategory category, ShopView shop)

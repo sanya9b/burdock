@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:Burdock.Presentation.ViewModels"
+             xmlns:views="clr-namespace:Burdock.Presentation.Views"
+             xmlns:icons="clr-namespace:Burdock.Presentation.Resources.Icons"
+             x:Class="Burdock.Presentation.Views.CalendarStripView"
+             x:Name="Root"
+             x:DataType="views:CalendarStripView">
+    <!-- DailyCalendarTile ×7 (spec 02 §3.11, spec 07 §3.4): the cycle 5/5/10/10/15/15/30; done tiles in the brand container, today's with a strong edge,
+         the rest sunken. Tiles stretch to the width so seven fit on a 360 pt screen; a missed day is nothing special (no coral, no outline). -->
+    <VerticalStackLayout Spacing="{StaticResource Space2}">
+        <FlexLayout Direction="Row" JustifyContent="SpaceBetween" AlignItems="Stretch" BindableLayout.ItemsSource="{Binding Tiles, Source={x:Reference Root}}">
+            <BindableLayout.ItemTemplate>
+                <DataTemplate x:DataType="vm:CalendarTileItem">
+                    <Border Style="{StaticResource CalendarTile}" FlexLayout.Grow="1" FlexLayout.Basis="0" Margin="{StaticResource Space1}" SemanticProperties.Description="{Binding Accessibility}">
+                        <Border.Triggers>
+                            <DataTrigger TargetType="Border" Binding="{Binding IsDone}" Value="True">
+                                <Setter Property="Style" Value="{StaticResource CalendarTileDone}" />
+                            </DataTrigger>
+                            <DataTrigger TargetType="Border" Binding="{Binding IsToday}" Value="True">
+                                <Setter Property="Style" Value="{StaticResource CalendarTileToday}" />
+                            </DataTrigger>
+                        </Border.Triggers>
+                        <VerticalStackLayout Spacing="{StaticResource Space1}" VerticalOptions="Center" HorizontalOptions="Center">
+                            <Label Text="{Binding PositionText}" Style="{StaticResource TypeLabelSm}" HorizontalTextAlignment="Center" />
+                            <Label Text="{Binding RewardText}" Style="{StaticResource TypeLabelMd}" HorizontalTextAlignment="Center">
+                                <Label.Triggers>
+                                    <DataTrigger TargetType="Label" Binding="{Binding IsDone}" Value="True">
+                                        <Setter Property="IsVisible" Value="False" />
+                                    </DataTrigger>
+                                </Label.Triggers>
+                            </Label>
+                            <Label Text="{x:Static icons:Icon.Check}" Style="{StaticResource IconGlyphSm}" HorizontalOptions="Center" IsVisible="{Binding IsDone}"
+                                   TextColor="{AppThemeBinding Light={StaticResource ColorBrandPrimaryLight}, Dark={StaticResource ColorBrandPrimaryDark}}" />
+                        </VerticalStackLayout>
+                    </Border>
+                </DataTemplate>
+            </BindableLayout.ItemTemplate>
+        </FlexLayout>
+        <Label Text="{Binding Caption, Source={x:Reference Root}}" Style="{StaticResource TextTertiary}" HorizontalTextAlignment="Center" />
+    </VerticalStackLayout>
+</ContentView>

@@ -10,6 +10,10 @@ namespace Burdock.Presentation.Localization;
 internal static class RewardsText
 {
     private static readonly CultureInfo Ukrainian = CultureInfo.GetCultureInfo("uk-UA");
+    private static readonly CompositeFormat CalendarTrackThemeFormat = CompositeFormat.Parse(AppResources.Calendar_Track_Theme);
+    private static readonly CompositeFormat CalendarTrackFrameFormat = CompositeFormat.Parse(AppResources.Calendar_Track_Frame);
+    private static readonly CompositeFormat CalendarTrackThornsFormat = CompositeFormat.Parse(AppResources.Calendar_Track_Thorns);
+    private static readonly CompositeFormat CalendarTrackToastThornsFormat = CompositeFormat.Parse(AppResources.Calendar_Track_Toast_Thorns);
     private static readonly CompositeFormat DayOne = CompositeFormat.Parse(AppResources.Rewards_Days_One);
     private static readonly CompositeFormat DayFew = CompositeFormat.Parse(AppResources.Rewards_Days_Few);
     private static readonly CompositeFormat DayMany = CompositeFormat.Parse(AppResources.Rewards_Days_Many);
@@ -126,6 +130,35 @@ internal static class RewardsText
 
     /// <summary>«У запасі 1 з 2».</summary>
     public static string FreezeBanked(int banked, int max) => string.Format(Ukrainian, FreezeBankedFormat, banked, max);
+
+    /// <summary>Name of a micro-task from the resx («Набери сам»); unknown ids show the id.</summary>
+    public static string TaskTitle(string id) => AppResources.ResourceManager.GetString($"Task_{id}_Title", AppResources.Culture) ?? id;
+
+    public static string TaskBody(string id) => AppResources.ResourceManager.GetString($"Task_{id}_Body", AppResources.Culture) ?? string.Empty;
+
+    /// <summary>«+10 колючок» for toasts and summaries.</summary>
+    public static string ThornsPlus(int amount) => "+" + Thorns(amount);
+
+    /// <summary>«18 / 30 днів до теми віджета «Луг»» for the calendar track (spec 07 §3.4), never a deadline.</summary>
+    public static string CalendarTrack(int claimedDays, CalendarTrackReward next)
+    {
+        ArgumentNullException.ThrowIfNull(next);
+        return next.Kind switch
+        {
+            CalendarTrackKind.ThemeMeadow => string.Format(Ukrainian, CalendarTrackThemeFormat, claimedDays),
+            CalendarTrackKind.FrameSky => string.Format(Ukrainian, CalendarTrackFrameFormat, claimedDays),
+            _ => string.Format(Ukrainian, CalendarTrackThornsFormat, claimedDays, next.Day, ThornsPlus(next.Thorns)),
+        };
+    }
+
+    /// <summary>Toast for a track reward reached today, or null when the claim reached none.</summary>
+    public static string? CalendarTrackToast(CalendarTrackReward? track) => track?.Kind switch
+    {
+        CalendarTrackKind.ThemeMeadow => AppResources.Calendar_Track_Toast_Theme,
+        CalendarTrackKind.FrameSky => AppResources.Calendar_Track_Toast_Frame,
+        CalendarTrackKind.Thorns => string.Format(Ukrainian, CalendarTrackToastThornsFormat, ThornsPlus(track.Thorns), track.Day),
+        _ => null,
+    };
 
     public static string AchievementTitle(string id) => AppResources.ResourceManager.GetString($"Ach_{id}_Title", AppResources.Culture) ?? id;
 

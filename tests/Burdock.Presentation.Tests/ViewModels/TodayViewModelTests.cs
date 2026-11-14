@@ -245,7 +245,7 @@ public sealed class TodayViewModelTests
 
         on.ShowRewards.ShouldBeTrue();
         on.StreakText.ShouldBe("0");
-        on.ThornsText.ShouldBe("0");
+        on.ThornsText.ShouldBe("5"); // the first open of the day claims the login calendar (spec 07 §3.4)
         off.ShowRewards.ShouldBeFalse();
     }
 }

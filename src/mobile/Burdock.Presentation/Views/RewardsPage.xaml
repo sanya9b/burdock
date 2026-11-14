@@ -16,6 +16,7 @@
         <toolkit:IsEqualConverter x:Key="IsEqualConverter" />
         <toolkit:InvertedBoolConverter x:Key="InvertedBoolConverter" />
         <toolkit:IsStringNotNullOrEmptyConverter x:Key="IsNotNullOrEmptyConverter" />
+        <toolkit:IsNotNullConverter x:Key="IsNotNullConverter" />
     </ContentPage.Resources>
     <!-- S-16 «Нагороди» (spec 03; spec 07 §3.2.3): balance, a live preview of the burr wearing the selected item, the catalogue by sections, the freeze bank.
          One mascot per screen: the preview. Prices are fixed, nothing is timed or random (Q34). -->
@@ -61,6 +62,46 @@
                         </controls:PushButton>
                     </VerticalStackLayout>
                 </Border>
+
+                <!-- Login calendar (spec 07 §3.4): seven tiles of the cycle and the 30-day track, no claim button (FR-07-9) -->
+                <VerticalStackLayout Spacing="{StaticResource Space3}">
+                    <Label Text="{x:Static strings:AppResources.Rewards_Calendar_Heading}" Style="{StaticResource SectionTitle}" SemanticProperties.HeadingLevel="Level2" />
+                    <Border Style="{StaticResource CardElevated}">
+                        <VerticalStackLayout Spacing="{StaticResource Space3}">
+                            <views:CalendarStripView Tiles="{Binding Calendar}" Caption="{Binding CalendarCaption}" />
+                            <Label Text="{Binding CalendarTrackText}" Style="{StaticResource TypeBodySm}" HorizontalTextAlignment="Center" />
+                        </VerticalStackLayout>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- Micro-tasks (spec 07 §3.5): three daily, one weekly, the one-off «first steps» until done; progress only, no timers -->
+                <VerticalStackLayout Spacing="{StaticResource Space3}">
+                    <Label Text="{x:Static strings:AppResources.Rewards_Tasks_Heading}" Style="{StaticResource SectionTitle}" SemanticProperties.HeadingLevel="Level2" />
+                    <Border Style="{StaticResource CardElevated}">
+                        <VerticalStackLayout Spacing="{StaticResource Space4}">
+                            <VerticalStackLayout Spacing="{StaticResource Space3}" BindableLayout.ItemsSource="{Binding DailyTasks}">
+                                <BindableLayout.ItemTemplate>
+                                    <DataTemplate x:DataType="vm:TaskRowItem">
+                                        <views:TaskRowView />
+                                    </DataTemplate>
+                                </BindableLayout.ItemTemplate>
+                            </VerticalStackLayout>
+                            <!-- IsVisible must read the page model: once BindingContext is the task item, a plain {Binding WeeklyTask} would resolve against the item -->
+                            <views:TaskRowView BindingContext="{Binding WeeklyTask}" x:DataType="vm:TaskRowItem"
+                                               IsVisible="{Binding Source={RelativeSource AncestorType={x:Type vm:RewardsViewModel}}, Path=WeeklyTask, Converter={StaticResource IsNotNullConverter}}" />
+                            <VerticalStackLayout Spacing="{StaticResource Space3}" IsVisible="{Binding HasOneOffs}">
+                                <Label Text="{x:Static strings:AppResources.Tasks_OneOff_Heading}" Style="{StaticResource TypeTitleMd}" />
+                                <VerticalStackLayout Spacing="{StaticResource Space3}" BindableLayout.ItemsSource="{Binding OneOffTasks}">
+                                    <BindableLayout.ItemTemplate>
+                                        <DataTemplate x:DataType="vm:TaskRowItem">
+                                            <views:TaskRowView />
+                                        </DataTemplate>
+                                    </BindableLayout.ItemTemplate>
+                                </VerticalStackLayout>
+                            </VerticalStackLayout>
+                        </VerticalStackLayout>
+                    </Border>
+                </VerticalStackLayout>
 
                 <!-- Sections: outfits, widget themes, frames -->
                 <VerticalStackLayout Spacing="{StaticResource Space6}" BindableLayout.ItemsSource="{Binding Sections}">

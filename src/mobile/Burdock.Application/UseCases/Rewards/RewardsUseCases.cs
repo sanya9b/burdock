@@ -27,10 +27,11 @@ public sealed class SettleSessionRewardsUseCase(
 
         var learnerCards = await cards.ListAsync(learnerId, cancellationToken).ConfigureAwait(false);
         var learnedWords = learnerCards.Values.Count(c => c.State is CardState.Learned or CardState.Known);
+        var cardsInLearning = learnerCards.Values.Count(c => c.State is not (CardState.New or CardState.Introduced or CardState.Known));
         var typedCorrect = await reviewLog.CountAsync(learnerId, ExerciseMode.TypedRecall, onlyCorrect: true, cancellationToken).ConfigureAwait(false);
         var gradedTotal = await reviewLog.CountAsync(learnerId, null, onlyCorrect: false, cancellationToken).ConfigureAwait(false);
 
-        var settlement = RewardsEngine.Settle(state, report, new ProgressCounters(learnedWords, typedCorrect, gradedTotal), learningDays.Today(), clock.UtcNow, ids.NewId);
+        var settlement = RewardsEngine.Settle(state, report, new ProgressCounters(learnedWords, typedCorrect, gradedTotal, cardsInLearning), learningDays.Today(), clock.UtcNow, ids.NewId, new TaskContext(settings.NewWordsPerDay, cardsInLearning), learnerId.Value);
         if (!settlement.IsEmpty || settlement.State != state)
         {
             await rewards.SaveAsync(learnerId, settlement.State, settlement.Events, cancellationToken).ConfigureAwait(false);

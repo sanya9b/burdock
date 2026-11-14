@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:Burdock.Presentation.ViewModels"
+             xmlns:controls="clr-namespace:Burdock.Presentation.Controls"
+             xmlns:strings="clr-namespace:Burdock.Presentation.Resources.Strings"
+             xmlns:icons="clr-namespace:Burdock.Presentation.Resources.Icons"
+             x:Class="Burdock.Presentation.Views.TaskRowView"
+             x:DataType="vm:TaskRowItem">
+    <!-- TaskRow (spec 02 §3.11, spec 07 §3.5): icon in a well, name with an optional «Тижневе» chip, description, «7 / 10» with a thin bar, the reward pill.
+         Done rows keep the reward and show a check; nothing here is a timer or a deadline (P6). The whole row is one semantic element. -->
+    <Grid ColumnDefinitions="Auto,*,Auto" ColumnSpacing="{StaticResource Space3}" MinimumHeightRequest="{StaticResource SizeTaskRow}"
+          SemanticProperties.Description="{Binding Accessibility}">
+        <Grid.Triggers>
+            <DataTrigger TargetType="Grid" Binding="{Binding Done}" Value="True">
+                <Setter Property="Opacity" Value="{StaticResource OpacityMuted}" />
+            </DataTrigger>
+        </Grid.Triggers>
+        <Border Grid.Column="0" Style="{StaticResource IconWell}" VerticalOptions="Center">
+            <Label Text="{Binding Glyph}" Style="{StaticResource IconGlyph}"
+                   TextColor="{AppThemeBinding Light={StaticResource ColorBrandPrimaryLight}, Dark={StaticResource ColorBrandPrimaryDark}}" />
+        </Border>
+        <VerticalStackLayout Grid.Column="1" Spacing="{StaticResource Space1}" VerticalOptions="Center">
+            <HorizontalStackLayout Spacing="{StaticResource Space2}">
+                <Label Text="{Binding Title}" Style="{StaticResource TypeTitleMd}" LineBreakMode="TailTruncation" MaxLines="1" VerticalOptions="Center" />
+                <Border Style="{StaticResource ChipTonal}" IsVisible="{Binding IsWeekly}" VerticalOptions="Center">
+                    <Label Text="{x:Static strings:AppResources.Tasks_Weekly_Chip}" Style="{StaticResource TypeLabelSm}" />
+                </Border>
+            </HorizontalStackLayout>
+            <Label Text="{Binding Body}" Style="{StaticResource TextTertiary}" LineBreakMode="WordWrap" MaxLines="2" />
+            <Grid ColumnDefinitions="*,Auto" ColumnSpacing="{StaticResource Space2}" IsVisible="{Binding ShowProgressBar}">
+                <controls:SegmentedProgressBar Grid.Column="0" Total="{Binding Target}" Completed="{Binding Progress}" Gap="{Binding BarGap}" HeightRequest="{StaticResource SizeMasteryRingStroke}" VerticalOptions="Center"
+                                               FillColor="{AppThemeBinding Light={StaticResource ColorBrandPrimaryLight}, Dark={StaticResource ColorBrandPrimaryDark}}"
+                                               TrackColor="{AppThemeBinding Light={StaticResource ColorBorderDefaultLight}, Dark={StaticResource ColorBorderDefaultDark}}" />
+                <Label Grid.Column="1" Text="{Binding ProgressText}" Style="{StaticResource TypeLabelSm}" VerticalOptions="Center" />
+            </Grid>
+        </VerticalStackLayout>
+        <HorizontalStackLayout Grid.Column="2" Spacing="{StaticResource Space1}" VerticalOptions="Center">
+            <Label Text="{x:Static icons:Icon.Check}" Style="{StaticResource IconGlyphSm}" IsVisible="{Binding Done}" VerticalOptions="Center"
+                   TextColor="{AppThemeBinding Light={StaticResource ColorFeedbackSuccessLight}, Dark={StaticResource ColorFeedbackSuccessDark}}" />
+            <Border Style="{StaticResource CurrencyPill}" VerticalOptions="Center">
+                <Label Text="{Binding RewardText}" Style="{StaticResource CurrencyPillText}" />
+            </Border>
+        </HorizontalStackLayout>
+    </Grid>
+</ContentView>

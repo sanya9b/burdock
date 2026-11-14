@@ -36,6 +36,7 @@ public sealed class GradeAnswerUseCase(
                    ?? LearnerCard.CreateNew(CardId.From(ids.NewId()), learnerId, item.Entry.Id, now);
         card.Introduce(now);
         var wasLearned = card.State is CardState.Learned or CardState.Known;
+        var wasNew = card.State is CardState.New or CardState.Introduced;
 
         var scheduled = scheduler.Review(card.ToSchedulingInput(), rating.Value, now);
         var applied = card.ApplyReview(rating.Value, item.Mode, scheduled, learningDays.Today(), now);
@@ -67,6 +68,6 @@ public sealed class GradeAnswerUseCase(
             _ => item.Entry.Lexeme.Lemma,
         };
         var becameLearned = !wasLearned && card.State is CardState.Learned or CardState.Known;
-        return new GradeResult(rating.Value, card.State, scheduled.Due, retrievability, correctAnswer, becameLearned);
+        return new GradeResult(rating.Value, card.State, scheduled.Due, retrievability, correctAnswer, becameLearned, wasNew);
     }
 }

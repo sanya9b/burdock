@@ -18,6 +18,9 @@ public enum LedgerEventType
     Spend,
     FreezeGrant,
     FreezeConsume,
+    CalendarClaim,
+    TaskComplete,
+    CalendarTrack,
 }
 
 /// <summary>Append-only economy event (spec 07 §3.7.1 subset: no signatures or suspicion flags until the server reconciles).</summary>
@@ -52,8 +55,20 @@ public sealed record RewardsState(
     /// <summary>Owned and worn cosmetics (spec 07 §3.2.3).</summary>
     public Inventory Inventory { get; init; } = Inventory.Empty;
 
-    /// <summary>Distinct learning days ever counted (unlock condition of the «Луг» theme; the login calendar later).</summary>
+    /// <summary>Distinct learning days ever counted.</summary>
     public int LearningDays { get; init; }
+
+    /// <summary>Login calendar (spec 07 §3.4).</summary>
+    public CalendarState Calendar { get; init; } = CalendarState.Empty;
+
+    /// <summary>Selected and completed micro-tasks (spec 07 §3.5).</summary>
+    public TaskState Tasks { get; init; } = TaskState.Empty;
+
+    /// <summary>Uncapped counters of the current learning day, for task progress; null before the first session.</summary>
+    public DayActivity? Activity { get; init; }
+
+    /// <summary>Counters of the current week, for the weekly task.</summary>
+    public WeekActivity? Week { get; init; }
 
     public int Level => XpRules.LevelFor(Xp);
 }
@@ -67,10 +82,11 @@ public sealed record SessionReport(
     int TypedCorrect,
     int WordsLearned,
     bool LearningDayCounted,
-    bool WarmupCompleted);
+    bool WarmupCompleted,
+    int NewIntroduced = 0);
 
 /// <summary>Totals the application reads from its stores before settling (they already include the session being settled).</summary>
-public sealed record ProgressCounters(int LearnedWords, int TypedCorrectTotal, int GradedTotal);
+public sealed record ProgressCounters(int LearnedWords, int TypedCorrectTotal, int GradedTotal, int CardsInLearning = 0);
 
 /// <summary>Everything the summary screen celebrates.</summary>
 public sealed record SessionSettlement(
@@ -88,6 +104,9 @@ public sealed record SessionSettlement(
     bool FreezeGranted = false)
 {
     public bool LeveledUp => LevelAfter > LevelBefore;
+
+    /// <summary>Micro-tasks this session completed (spec 07 §3.5), in catalogue order.</summary>
+    public IReadOnlyList<TaskDefinition> TasksCompleted { get; init; } = [];
 
     public bool IsEmpty => Events.Count == 0;
 
@@ -111,6 +130,10 @@ public static class RewardsEngine
     public const int DailyEarnCap = 150;
 
     public static SessionSettlement Settle(RewardsState state, SessionReport report, ProgressCounters counters, LearningDay day, DateTimeOffset now, Func<Guid> newId)
+        => Settle(state, report, counters, day, now, newId, null, Guid.Empty);
+
+    /// <summary>Settlement that also selects and evaluates micro-tasks (spec 07 §3.5) when a <paramref name="tasks"/> context is given.</summary>
+    public static SessionSettlement Settle(RewardsState state, SessionReport report, ProgressCounters counters, LearningDay day, DateTimeOffset now, Func<Guid> newId, TaskContext? tasks, Guid learnerKey)
     {
         ArgumentNullException.ThrowIfNull(state);
         ArgumentNullException.ThrowIfNull(report);
@@ -223,8 +246,59 @@ public static class RewardsEngine
             Earn(Currency.Thorns, StreakRules.MilestoneThorns(streakAfter), $"economy.earn.streakMilestone:{streakAfter}", LedgerEventType.StreakMilestone);
         }
 
-        // Achievements: evaluated on the state after this session.
+        // Micro-tasks (spec 07 §3.5): activity counters first, then selection for the day and the week, then completion.
         var sessions = state.SessionsCompleted + 1;
+        var newLearningDay = report.LearningDayCounted && !state.Streak.IsCountedOn(day);
+        var activity = (state.Activity is { } act && act.Day == day ? act : DayActivity.For(day)).Record(report);
+        var weekNo = StreakRules.WeekOf(day);
+        var week = (state.Week is { } wk && wk.Week == weekNo ? wk : WeekActivity.For(weekNo)).Record(report, newLearningDay);
+        var taskState = state.Tasks;
+        var tasksCompleted = new List<TaskDefinition>();
+        if (tasks is not null)
+        {
+            taskState = TaskRules.EnsureSelection(taskState, learnerKey, day, tasks);
+            var totals = new TaskTotals(sessions, counters.TypedCorrectTotal, counters.LearnedWords);
+            var dailyDone = new HashSet<string>(taskState.DailyDone, StringComparer.Ordinal);
+            foreach (var id in taskState.Daily)
+            {
+                if (dailyDone.Contains(id) || TaskCatalog.Find(id) is not { } task || !TaskRules.IsComplete(task, activity, week, totals))
+                {
+                    continue;
+                }
+
+                dailyDone.Add(id);
+                tasksCompleted.Add(task);
+                Earn(Currency.Thorns, Capped(task.Thorns), $"task:{id}", LedgerEventType.TaskComplete);
+                Earn(Currency.Xp, task.Xp, $"xp.task:{id}", LedgerEventType.TaskComplete);
+            }
+
+            var weeklyDone = taskState.WeeklyDone;
+            if (!weeklyDone && taskState.WeeklyId is { } weeklyId && TaskCatalog.Find(weeklyId) is { } weekly && TaskRules.IsComplete(weekly, activity, week, totals))
+            {
+                weeklyDone = true;
+                tasksCompleted.Add(weekly);
+                Earn(Currency.Thorns, weekly.Thorns, $"task:{weeklyId}", LedgerEventType.TaskComplete);
+                Earn(Currency.Xp, weekly.Xp, $"xp.task:{weeklyId}", LedgerEventType.TaskComplete);
+            }
+
+            var oneOffDone = new HashSet<string>(taskState.OneOffDone, StringComparer.Ordinal);
+            foreach (var oneOff in TaskCatalog.OneOff)
+            {
+                if (oneOffDone.Contains(oneOff.Id) || !TaskRules.IsComplete(oneOff, activity, week, totals))
+                {
+                    continue;
+                }
+
+                oneOffDone.Add(oneOff.Id);
+                tasksCompleted.Add(oneOff);
+                Earn(Currency.Thorns, oneOff.Thorns, $"task:{oneOff.Id}", LedgerEventType.TaskComplete);
+                Earn(Currency.Xp, oneOff.Xp, $"xp.task:{oneOff.Id}", LedgerEventType.TaskComplete);
+            }
+
+            taskState = taskState with { DailyDone = dailyDone, WeeklyDone = weeklyDone, OneOffDone = oneOffDone };
+        }
+
+        // Achievements: evaluated on the state after this session.
         var level = XpRules.LevelFor(state.Xp + xp);
         var progress = new ProgressSnapshot(sessions, counters.LearnedWords, streakAfter, counters.TypedCorrectTotal, counters.GradedTotal, level, report.Graded, report.AgainCount > 0);
         var unlocked = new HashSet<string>(state.Achievements, StringComparer.Ordinal);
@@ -236,7 +310,62 @@ public static class RewardsEngine
             Earn(Currency.Xp, XpRules.Achievement, $"xp.achievement:{achievement.Id}", LedgerEventType.AchievementUnlock);
         }
 
-        var next = new RewardsState(state.Thorns + thorns, state.Xp + xp, streak, unlocked, sessions, today, report.SessionId) { Inventory = state.Inventory, LearningDays = learningDays };
-        return new SessionSettlement(next, events, xp, thorns, levelBefore, next.Level, streakBefore, streakAfter, milestone, fresh, freezesConsumed, freezeGranted);
+        var next = new RewardsState(state.Thorns + thorns, state.Xp + xp, streak, unlocked, sessions, today, report.SessionId)
+        {
+            Inventory = state.Inventory,
+            LearningDays = learningDays,
+            Calendar = state.Calendar,
+            Tasks = taskState,
+            Activity = activity,
+            Week = week,
+        };
+        return new SessionSettlement(next, events, xp, thorns, levelBefore, next.Level, streakBefore, streakAfter, milestone, fresh, freezesConsumed, freezeGranted) { TasksCompleted = tasksCompleted };
+    }
+
+    /// <summary>
+    /// Claims the login calendar for the day (spec 07 §3.4, FR-07-9): the cycle reward as a <see cref="LedgerEventType.CalendarClaim"/> outside the daily cap,
+    /// and the 30-day track reward when the count lands on it (day 60 gifts the frame «Небесна», day 90 and every 30 days after pay thorns). Idempotent per day.
+    /// </summary>
+    public static CalendarSettlement ClaimCalendar(RewardsState state, LearningDay day, DateTimeOffset now, Func<Guid> newId)
+    {
+        ArgumentNullException.ThrowIfNull(state);
+        ArgumentNullException.ThrowIfNull(newId);
+        var claim = CalendarRules.Claim(state.Calendar, day);
+        if (claim is null)
+        {
+            return new CalendarSettlement(state, [], null);
+        }
+
+        var events = new List<LedgerEvent>
+        {
+            new(newId(), LedgerEventType.CalendarClaim, claim.Reward, Currency.Thorns, $"economy.calendar.cycle:{claim.Position}", null, now, day),
+        };
+        var thorns = state.Thorns + claim.Reward;
+        var inventory = state.Inventory;
+        if (claim.Track is { } track)
+        {
+            switch (track.Kind)
+            {
+                case CalendarTrackKind.FrameSky when Catalog.Find(Catalog.CalendarFrameKey) is { } frame:
+                    inventory = inventory.With(frame);
+                    if (inventory.Frame is null)
+                    {
+                        inventory = inventory with { Frame = frame.Key };
+                    }
+
+                    events.Add(new LedgerEvent(newId(), LedgerEventType.CalendarTrack, 0, Currency.None, $"economy.calendar.track:{track.Day}", null, now, day));
+                    break;
+                case CalendarTrackKind.Thorns:
+                    thorns += track.Thorns;
+                    events.Add(new LedgerEvent(newId(), LedgerEventType.CalendarTrack, track.Thorns, Currency.Thorns, $"economy.calendar.track:{track.Day}", null, now, day));
+                    break;
+                default:
+                    events.Add(new LedgerEvent(newId(), LedgerEventType.CalendarTrack, 0, Currency.None, $"economy.calendar.track:{track.Day}", null, now, day));
+                    break;
+            }
+        }
+
+        var next = state with { Thorns = thorns, Inventory = inventory, Calendar = claim.State };
+        return new CalendarSettlement(next, events, claim);
     }
 }

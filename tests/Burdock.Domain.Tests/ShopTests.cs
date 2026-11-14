@@ -96,7 +96,7 @@ public sealed class ShopTests
     public void Free_items_cost_nothing_and_leave_no_spend_event()
     {
         var meadow = Catalog.Find("catalog.theme.meadow")!;
-        var state = RewardsState.Empty with { LearningDays = 30 };
+        var state = RewardsState.Empty with { Calendar = new CalendarState(2, null, 30) };
 
         var result = ShopRules.Purchase(state, meadow, Day1, 0, Now, NewId);
 

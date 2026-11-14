@@ -75,6 +75,24 @@
                         </Grid>
                     </Border>
 
+                    <!-- Micro-tasks this session completed (spec 07 §3.5, L1): a quiet list, the thorns are already in the total above -->
+                    <Border Style="{StaticResource CardElevated}" IsVisible="{Binding HasCompletedTasks}">
+                        <VerticalStackLayout Spacing="{StaticResource Space2}">
+                            <Label Text="{x:Static strings:AppResources.Summary_Tasks_Heading}" Style="{StaticResource TypeTitleMd}" />
+                            <VerticalStackLayout Spacing="{StaticResource Space1}" BindableLayout.ItemsSource="{Binding CompletedTasks}">
+                                <BindableLayout.ItemTemplate>
+                                    <DataTemplate x:DataType="x:String">
+                                        <HorizontalStackLayout Spacing="{StaticResource Space2}">
+                                            <Label Text="{x:Static icons:Icon.Check}" Style="{StaticResource IconGlyphSm}" VerticalOptions="Center"
+                                                   TextColor="{AppThemeBinding Light={StaticResource ColorFeedbackSuccessLight}, Dark={StaticResource ColorFeedbackSuccessDark}}" />
+                                            <Label Text="{Binding .}" Style="{StaticResource TypeBodySm}" VerticalOptions="Center" />
+                                        </HorizontalStackLayout>
+                                    </DataTemplate>
+                                </BindableLayout.ItemTemplate>
+                            </VerticalStackLayout>
+                        </VerticalStackLayout>
+                    </Border>
+
                     <!-- Learning day: gold when counted, neutral when not yet -->
                     <Border Style="{StaticResource CardSunken}" Padding="{StaticResource Space4}">
                         <Border.Triggers>

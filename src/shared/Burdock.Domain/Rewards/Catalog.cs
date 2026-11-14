@@ -20,6 +20,7 @@ public enum UnlockKind
     WordsLearned,
     LearningDays,
     Sessions,
+    CalendarDays,
 }
 
 public readonly record struct UnlockCondition(UnlockKind Kind, int Threshold)
@@ -36,6 +37,8 @@ public readonly record struct UnlockCondition(UnlockKind Kind, int Threshold)
 
     public static UnlockCondition Sessions(int sessions) => new(UnlockKind.Sessions, sessions);
 
+    public static UnlockCondition CalendarDays(int days) => new(UnlockKind.CalendarDays, days);
+
     public bool IsMet(UnlockContext context) => Kind switch
     {
         UnlockKind.None => true,
@@ -44,12 +47,13 @@ public readonly record struct UnlockCondition(UnlockKind Kind, int Threshold)
         UnlockKind.WordsLearned => context.LearnedWords >= Threshold,
         UnlockKind.LearningDays => context.LearningDays >= Threshold,
         UnlockKind.Sessions => context.SessionsCompleted >= Threshold,
+        UnlockKind.CalendarDays => context.CalendarDays >= Threshold,
         _ => false,
     };
 }
 
 /// <summary>The learner's progress the unlock conditions look at.</summary>
-public sealed record UnlockContext(int Level, int LongestStreak, int LearnedWords, int LearningDays, int SessionsCompleted);
+public sealed record UnlockContext(int Level, int LongestStreak, int LearnedWords, int LearningDays, int SessionsCompleted, int CalendarDays = 0);
 
 /// <summary>One purchasable item. <see cref="Key"/> is the stable id of spec 07 §3.2.3 and the ledger reason of its purchase.</summary>
 public sealed record CatalogItem(string Key, CatalogCategory Category, int Price, UnlockCondition Unlock)
@@ -68,11 +72,12 @@ public static class Catalog
     public const string RidePrefix = "catalog.ride.";
     public const string FreezeKey = "catalog.freeze";
     public const string DefaultThemeKey = "catalog.theme.bloom";
+    public const string CalendarFrameKey = "catalog.frame.sky";
 
     public static IReadOnlyList<CatalogItem> All { get; } =
     [
         new(DefaultThemeKey, CatalogCategory.WidgetTheme, 0, UnlockCondition.None),
-        new("catalog.theme.meadow", CatalogCategory.WidgetTheme, 0, UnlockCondition.LearningDays(30)),
+        new("catalog.theme.meadow", CatalogCategory.WidgetTheme, 0, UnlockCondition.CalendarDays(30)),
         new("catalog.theme.night", CatalogCategory.WidgetTheme, 400, UnlockCondition.None),
         new("catalog.theme.sun", CatalogCategory.WidgetTheme, 600, UnlockCondition.Level(8)),
         new("catalog.outfit.scarf", CatalogCategory.Outfit, 150, UnlockCondition.None),

@@ -28,7 +28,7 @@ public static class ShopRules
     public static UnlockContext ContextFor(RewardsState state, int learnedWords)
     {
         ArgumentNullException.ThrowIfNull(state);
-        return new UnlockContext(state.Level, state.Streak.Longest, learnedWords, state.LearningDays, state.SessionsCompleted);
+        return new UnlockContext(state.Level, state.Streak.Longest, learnedWords, state.LearningDays, state.SessionsCompleted, state.Calendar.ClaimedDays);
     }
 
     public static ItemStatus Status(RewardsState state, CatalogItem item, LearningDay day, int learnedWords)

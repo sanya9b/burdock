@@ -41,6 +41,8 @@ public static class ApplicationServiceCollectionExtensions
         services.AddTransient<SettleSessionRewardsUseCase>();
         services.AddTransient<GetRewardsOverviewUseCase>();
         services.AddTransient<GetShopUseCase>();
+        services.AddTransient<ClaimCalendarUseCase>();
+        services.AddTransient<GetDailyTasksUseCase>();
         services.AddTransient<PurchaseItemUseCase>();
         services.AddTransient<EquipItemUseCase>();
         services.AddTransient<SyncProgressUseCase>();

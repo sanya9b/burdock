@@ -40,6 +40,7 @@ public sealed partial class SessionSummaryViewModel : ObservableObject, IQueryAt
     private static readonly CompositeFormat XpGainedFormat = CompositeFormat.Parse(AppResources.Rewards_Xp_Gained);
     private static readonly CompositeFormat ThornsGainedFormat = CompositeFormat.Parse(AppResources.Rewards_Thorns_Gained);
     private static readonly CompositeFormat MilestoneTitleFormat = CompositeFormat.Parse(AppResources.Celebration_Milestone_Title);
+    private static readonly CompositeFormat TaskRowFormat = CompositeFormat.Parse(AppResources.Summary_Task_Row);
 
     private readonly INavigationService _navigation;
     private readonly SettleSessionRewardsUseCase _settle;
@@ -151,6 +152,12 @@ public sealed partial class SessionSummaryViewModel : ObservableObject, IQueryAt
 
     public ObservableCollection<CelebrationItem> Celebrations { get; } = [];
 
+    /// <summary>«Набери сам · +10 колючок» for each micro-task this session completed (spec 07 §3.5, L1).</summary>
+    public ObservableCollection<string> CompletedTasks { get; } = [];
+
+    [ObservableProperty]
+    private bool _hasCompletedTasks;
+
     /// <summary>
     /// When true the page owns the moment the first celebration appears: it calls <see cref="BeginCelebrations"/> once the feeding and growth
     /// animations have played, so the RewardCard never covers them. Off by default (and under Reduce Motion), celebrations show right after settlement.
@@ -177,7 +184,7 @@ public sealed partial class SessionSummaryViewModel : ObservableObject, IQueryAt
         var sessionId = query.TryGetValue("session", out var raw) && Guid.TryParse(raw?.ToString(), out var id) ? id : Guid.Empty;
         if (sessionId != Guid.Empty)
         {
-            _report = new SessionReport(sessionId, Graded, Correct, Read(query, "again"), Read(query, "typed"), Read(query, "learned"), LearningDayCounted, Read(query, "warmup") == 1);
+            _report = new SessionReport(sessionId, Graded, Correct, Read(query, "again"), Read(query, "typed"), Read(query, "learned"), LearningDayCounted, Read(query, "warmup") == 1, Read(query, "new"));
         }
     }
 
@@ -223,6 +230,13 @@ public sealed partial class SessionSummaryViewModel : ObservableObject, IQueryAt
             StreakLength = s.StreakAfter;
             StreakText = RewardsText.StreakDays(s.StreakAfter);
             LevelText = RewardsText.Level(s.LevelAfter);
+            CompletedTasks.Clear();
+            foreach (var task in s.TasksCompleted)
+            {
+                CompletedTasks.Add(string.Format(Ukrainian, TaskRowFormat, RewardsText.TaskTitle(task.Id), RewardsText.ThornsPlus(task.Thorns)));
+            }
+
+            HasCompletedTasks = CompletedTasks.Count > 0;
             ShowRewards = true;
 
             // Feeding: the XP just earned flies into the burr, then it grows to its new size (spec 02 §3.9 «Підживлення»).

@@ -7,10 +7,12 @@ using Burdock.Application.UseCases.LearningDays;
 using Burdock.Application.UseCases.Planning;
 using Burdock.Application.UseCases.Reviews;
 using Burdock.Application.UseCases.Rewards;
+using Burdock.Domain.Rewards;
 using Burdock.Domain.Learning;
 using Burdock.Domain.Vocabulary;
 using Burdock.Presentation.Localization;
 using Burdock.Presentation.Navigation;
+using Burdock.Presentation.Services;
 using Burdock.Presentation.Resources.Icons;
 using Burdock.Presentation.Resources.Strings;
 using CommunityToolkit.Mvvm.ComponentModel;
@@ -26,6 +28,9 @@ public sealed record WordTile(Guid LexemeId, string Lemma, string Translation, s
 public sealed partial class TodayViewModel : ObservableObject
 {
     private static readonly CultureInfo Ukrainian = CultureInfo.GetCultureInfo("uk-UA");
+    private static readonly CompositeFormat CalendarCaptionFormat = CompositeFormat.Parse(AppResources.Calendar_Caption);
+    private static readonly CompositeFormat CalendarClaimedFormat = CompositeFormat.Parse(AppResources.Calendar_Caption_Claimed);
+    private static readonly CompositeFormat CalendarToastFormat = CompositeFormat.Parse(AppResources.Calendar_Toast);
     private static readonly CompositeFormat LearningDayFormat = CompositeFormat.Parse(AppResources.Today_LearningDay_Label);
     private static readonly CompositeFormat PlanSummaryFormat = CompositeFormat.Parse(AppResources.Today_Plan_Summary);
     private static readonly CompositeFormat HeroPositionFormat = CompositeFormat.Parse(AppResources.Today_Hero_Position);
@@ -42,6 +47,9 @@ public sealed partial class TodayViewModel : ObservableObject
     private readonly ISpeechService _speech;
     private readonly GetRewardsOverviewUseCase _rewards;
     private readonly GetReviewRoundUseCase _reviewRound;
+    private readonly ClaimCalendarUseCase _claimCalendar;
+    private readonly GetDailyTasksUseCase _tasks;
+    private readonly IToastService _toast;
     private readonly ILogger<TodayViewModel> _logger;
 
     [ObservableProperty]
@@ -102,7 +110,15 @@ public sealed partial class TodayViewModel : ObservableObject
     [ObservableProperty]
     private string _reviewBody = string.Empty;
 
-    public TodayViewModel(LearningDayResolver learningDays, IClock clock, BootstrapContentUseCase bootstrap, GetDailyPlanUseCase dailyPlan, INavigationService navigation, ISpeechService speech, GetRewardsOverviewUseCase rewards, GetReviewRoundUseCase reviewRound, ILogger<TodayViewModel> logger)
+    /// <summary>«День 3 з 7 · сьогодні +10 колючок» under the seven calendar tiles (spec 07 §3.4).</summary>
+    [ObservableProperty]
+    private string _calendarCaption = string.Empty;
+
+    /// <summary>Daily tasks and the calendar are shown once the rewards loaded (gamification on).</summary>
+    [ObservableProperty]
+    private bool _showTasks;
+
+    public TodayViewModel(LearningDayResolver learningDays, IClock clock, BootstrapContentUseCase bootstrap, GetDailyPlanUseCase dailyPlan, INavigationService navigation, ISpeechService speech, GetRewardsOverviewUseCase rewards, GetReviewRoundUseCase reviewRound, ClaimCalendarUseCase claimCalendar, GetDailyTasksUseCase tasks, IToastService toast, ILogger<TodayViewModel> logger)
     {
         _learningDays = learningDays ?? throw new ArgumentNullException(nameof(learningDays));
         _clock = clock ?? throw new ArgumentNullException(nameof(clock));
@@ -112,6 +128,9 @@ public sealed partial class TodayViewModel : ObservableObject
         _speech = speech ?? throw new ArgumentNullException(nameof(speech));
         _rewards = rewards ?? throw new ArgumentNullException(nameof(rewards));
         _reviewRound = reviewRound ?? throw new ArgumentNullException(nameof(reviewRound));
+        _claimCalendar = claimCalendar ?? throw new ArgumentNullException(nameof(claimCalendar));
+        _tasks = tasks ?? throw new ArgumentNullException(nameof(tasks));
+        _toast = toast ?? throw new ArgumentNullException(nameof(toast));
         _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         RefreshHeader();
     }
@@ -174,12 +193,15 @@ public sealed partial class TodayViewModel : ObservableObject
             ShowReview = review.IsAvailable;
             ReviewBody = Plural.Uk(review.DueCount, ReviewBodyOne, ReviewBodyFew, ReviewBodyMany);
 
+            // The login calendar is claimed on the first open of the learning day (FR-07-9), before the balance is read.
+            var claim = await _claimCalendar.ExecuteAsync(cancellationToken).ConfigureAwait(true);
             var overview = await _rewards.ExecuteAsync(cancellationToken).ConfigureAwait(true);
             ShowRewards = overview.GamificationEnabled;
             StreakCountedToday = overview.StreakCountedToday;
             StreakText = overview.StreakLength.ToString(Ukrainian);
             StreakAccessibility = Localization.RewardsText.StreakDays(overview.StreakLength);
             ThornsText = overview.Thorns.ToString(Ukrainian);
+            await LoadTasksAsync(claim, cancellationToken).ConfigureAwait(true);
             HasWords = Words.Count > 0;
             HasMore = Words.Count > 1;
             UpdateHeroPosition();
@@ -198,6 +220,41 @@ public sealed partial class TodayViewModel : ObservableObject
         finally
         {
             IsRefreshing = false;
+        }
+    }
+
+    public ObservableCollection<CalendarTileItem> Calendar { get; } = [];
+
+    public ObservableCollection<TaskRowItem> Tasks { get; } = [];
+
+    private async Task LoadTasksAsync(CalendarClaimView claim, CancellationToken cancellationToken)
+    {
+        var view = await _tasks.ExecuteAsync(cancellationToken).ConfigureAwait(true);
+        ShowTasks = view.GamificationEnabled;
+        Calendar.Clear();
+        foreach (var tile in CalendarTileItem.Build(view.Calendar))
+        {
+            Calendar.Add(tile);
+        }
+
+        Tasks.Clear();
+        foreach (var task in view.Daily)
+        {
+            Tasks.Add(TaskRowItem.From(task));
+        }
+
+        var position = view.Calendar.ClaimedPosition > 0 ? view.Calendar.ClaimedPosition : view.Calendar.NextPosition + 1;
+        CalendarCaption = view.Calendar.ClaimedPosition > 0
+            ? string.Format(Ukrainian, CalendarClaimedFormat, position, Localization.RewardsText.ThornsPlus(CalendarRules.Cycle[view.Calendar.ClaimedPosition - 1]))
+            : string.Format(Ukrainian, CalendarCaptionFormat, position);
+
+        if (claim.Claimed && view.GamificationEnabled)
+        {
+            await _toast.ShowAsync(string.Format(Ukrainian, CalendarToastFormat, Localization.RewardsText.ThornsPlus(claim.Reward), claim.Position), cancellationToken).ConfigureAwait(true);
+            if (Localization.RewardsText.CalendarTrackToast(claim.Track) is { } track)
+            {
+                await _toast.ShowAsync(track, cancellationToken).ConfigureAwait(true);
+            }
         }
     }
 

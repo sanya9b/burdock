@@ -524,4 +524,62 @@
   <data name="Errors_Review_UnknownCard" xml:space="preserve"><value>Це слово ще не вивчалося</value></data>
   <data name="Today_Hero_Position" xml:space="preserve"><value>{0} з {1}</value><comment>Лічильник під пейджером слів дня (S-10)</comment></data>
   <data name="Today_Hero_Position_A11y" xml:space="preserve"><value>Слово {0} з {1}, гортай убік</value></data>
+  <!-- Login calendar and micro-tasks (spec 07 §3.4, §3.5) -->
+  <data name="Task_TASK_D_REVIEW_10_Title" xml:space="preserve"><value>Десятка карток</value><comment>Спека 07 §3.5.1 (у v1 рахуються всі оцінені картки)</comment></data>
+  <data name="Task_TASK_D_REVIEW_10_Body" xml:space="preserve"><value>Пройди 10 карток у сесіях</value></data>
+  <data name="Task_TASK_D_ACCURACY_Title" xml:space="preserve"><value>Впевнений крок</value></data>
+  <data name="Task_TASK_D_ACCURACY_Body" xml:space="preserve"><value>Заверши сесію з 80 % правильних (від 10 карток)</value></data>
+  <data name="Task_TASK_D_NEW_5_Title" xml:space="preserve"><value>П’ять новеньких</value></data>
+  <data name="Task_TASK_D_NEW_5_Body" xml:space="preserve"><value>Познайомся з 5 новими словами в сесії</value></data>
+  <data name="Task_TASK_D_LEARNED_1_Title" xml:space="preserve"><value>Плюс одне в скарбничку</value></data>
+  <data name="Task_TASK_D_LEARNED_1_Body" xml:space="preserve"><value>Доведи одне слово до «Вивчено»</value></data>
+  <data name="Task_TASK_D_TYPED_5_Title" xml:space="preserve"><value>Набери сам</value></data>
+  <data name="Task_TASK_D_TYPED_5_Body" xml:space="preserve"><value>Набери з клавіатури 5 слів</value></data>
+  <data name="Task_TASK_D_WARMUP_Title" xml:space="preserve"><value>Розминка</value></data>
+  <data name="Task_TASK_D_WARMUP_Body" xml:space="preserve"><value>Пройди розминку «пари»</value></data>
+  <data name="Task_TASK_D_SESSION_15_Title" xml:space="preserve"><value>Довша прогулянка</value></data>
+  <data name="Task_TASK_D_SESSION_15_Body" xml:space="preserve"><value>Пройди сесію на 15 карток або більше</value></data>
+  <data name="Task_TASK_D_TWO_SESSIONS_Title" xml:space="preserve"><value>Двічі за день</value></data>
+  <data name="Task_TASK_D_TWO_SESSIONS_Body" xml:space="preserve"><value>Заверши дві сесії</value></data>
+  <data name="Task_TASK_W_DAYS_Title" xml:space="preserve"><value>П’ять днів</value></data>
+  <data name="Task_TASK_W_DAYS_Body" xml:space="preserve"><value>Навчайся 5 днів цього тижня</value></data>
+  <data name="Task_TASK_W_LEARNED_10_Title" xml:space="preserve"><value>Десять у скарбничку</value></data>
+  <data name="Task_TASK_W_LEARNED_10_Body" xml:space="preserve"><value>Доведи 10 слів до «Вивчено» за тиждень</value></data>
+  <data name="Task_TASK_W_TYPED_30_Title" xml:space="preserve"><value>Тридцять наборів</value></data>
+  <data name="Task_TASK_W_TYPED_30_Body" xml:space="preserve"><value>Набери 30 слів з клавіатури за тиждень</value></data>
+  <data name="Task_TASK_W_REVIEW_100_Title" xml:space="preserve"><value>Сотня карток</value></data>
+  <data name="Task_TASK_W_REVIEW_100_Body" xml:space="preserve"><value>Пройди 100 карток за тиждень</value></data>
+  <data name="Task_TASK_W_NEW_30_Title" xml:space="preserve"><value>Тридцять нових</value></data>
+  <data name="Task_TASK_W_NEW_30_Body" xml:space="preserve"><value>Познайомся з 30 новими словами за тиждень</value></data>
+  <data name="Task_TASK_ONB_FIRST_SESSION_Title" xml:space="preserve"><value>Перша сесія</value></data>
+  <data name="Task_TASK_ONB_FIRST_SESSION_Body" xml:space="preserve"><value>Заверши першу сесію</value></data>
+  <data name="Task_TASK_ONB_TYPED_Title" xml:space="preserve"><value>Перший набір</value></data>
+  <data name="Task_TASK_ONB_TYPED_Body" xml:space="preserve"><value>Набери перше слово з клавіатури</value></data>
+  <data name="Task_TASK_ONB_LEARNED_Title" xml:space="preserve"><value>Перше вивчене</value></data>
+  <data name="Task_TASK_ONB_LEARNED_Body" xml:space="preserve"><value>Доведи перше слово до «Вивчено»</value></data>
+  <data name="Task_Progress" xml:space="preserve"><value>{0} / {1}</value><comment>Прогрес завдання, наприклад «7 / 10»</comment></data>
+  <data name="Task_Reward" xml:space="preserve"><value>+{0}</value><comment>Нагорода у колючках на плитці</comment></data>
+  <data name="Task_Done_A11y" xml:space="preserve"><value>виконано</value></data>
+  <data name="Task_Row_A11y" xml:space="preserve"><value>{0}, {1}, {2}</value><comment>назва, прогрес або «виконано», нагорода</comment></data>
+  <data name="Tasks_Weekly_Chip" xml:space="preserve"><value>Тижневе</value></data>
+  <data name="Tasks_OneOff_Heading" xml:space="preserve"><value>Перші кроки</value><comment>Блок одноразових завдань у S-16</comment></data>
+  <data name="Today_Tasks_Heading" xml:space="preserve"><value>Завдання на сьогодні</value></data>
+  <data name="Today_Tasks_Hint" xml:space="preserve"><value>Усі завдання</value><comment>Посилання з картки завдань на S-16</comment></data>
+  <data name="Rewards_Calendar_Heading" xml:space="preserve"><value>Календар входу</value></data>
+  <data name="Rewards_Tasks_Heading" xml:space="preserve"><value>Завдання</value></data>
+  <data name="Calendar_Caption" xml:space="preserve"><value>День {0} з 7</value><comment>Позиція циклу календаря</comment></data>
+  <data name="Calendar_Caption_Claimed" xml:space="preserve"><value>День {0} з 7 · сьогодні {1}</value><comment>{1} = «+10 колючок»</comment></data>
+  <data name="Calendar_Toast" xml:space="preserve"><value>{0} · день {1} з 7</value><comment>{0} = «+10 колючок»; тост автозарахування (FR-07-9)</comment></data>
+  <data name="Calendar_Track_Theme" xml:space="preserve"><value>{0} / 30 днів до теми віджета «Луг»</value></data>
+  <data name="Calendar_Track_Frame" xml:space="preserve"><value>{0} / 60 днів до рамки «Небесна»</value></data>
+  <data name="Calendar_Track_Thorns" xml:space="preserve"><value>{0} / {1} днів до {2}</value><comment>{2} = «+100 колючок»</comment></data>
+  <data name="Calendar_Track_Toast_Theme" xml:space="preserve"><value>Тему віджета «Луг» відкрито</value></data>
+  <data name="Calendar_Track_Toast_Frame" xml:space="preserve"><value>Подарунок: рамка «Небесна»</value></data>
+  <data name="Calendar_Track_Toast_Thorns" xml:space="preserve"><value>{0} за {1} днів календаря</value><comment>{0} = «+100 колючок»</comment></data>
+  <data name="Calendar_Tile_A11y" xml:space="preserve"><value>День {0}, {1}, {2}</value><comment>позиція, нагорода, стан</comment></data>
+  <data name="Calendar_State_Done" xml:space="preserve"><value>зараховано</value></data>
+  <data name="Calendar_State_Today" xml:space="preserve"><value>сьогодні</value></data>
+  <data name="Calendar_State_Future" xml:space="preserve"><value>попереду</value></data>
+  <data name="Summary_Tasks_Heading" xml:space="preserve"><value>Завдання виконано</value></data>
+  <data name="Summary_Task_Row" xml:space="preserve"><value>{0} · {1}</value><comment>назва завдання · «+10 колючок»</comment></data>
 </root>

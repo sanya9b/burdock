@@ -153,6 +153,30 @@
                     <views:EmptyStateView Title="{x:Static strings:AppResources.Today_Empty_Title}" Body="{x:Static strings:AppResources.Today_Empty_Body}" Mascot="mascot_cheer.png"
                                           IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Empty}}" />
 
+                    <!-- Login calendar and up to three daily tasks (S-10; spec 07 §3.4, §3.5). The calendar is claimed on load (FR-07-9), rows only report
+                         progress (no action, no timer); the whole card leads to «Нагороди». Hidden without gamification. -->
+                    <Border Style="{StaticResource CardElevated}" Margin="{StaticResource Space2}" IsVisible="{Binding ShowTasks}" AutomationId="Today_Tasks"
+                            SemanticProperties.Hint="{x:Static strings:AppResources.Today_Tasks_Hint}">
+                        <Border.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding OpenRewardsCommand}" />
+                        </Border.GestureRecognizers>
+                        <VerticalStackLayout Spacing="{StaticResource Space3}">
+                            <Grid ColumnDefinitions="*,Auto">
+                                <Label Grid.Column="0" Text="{x:Static strings:AppResources.Today_Tasks_Heading}" Style="{StaticResource SectionTitle}" SemanticProperties.HeadingLevel="Level2" />
+                                <Label Grid.Column="1" Text="{x:Static icons:Icon.ChevronRight}" Style="{StaticResource IconGlyphSm}" VerticalOptions="Center"
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorTextTertiaryLight}, Dark={StaticResource ColorTextTertiaryDark}}" AutomationProperties.IsInAccessibleTree="False" />
+                            </Grid>
+                            <views:CalendarStripView Tiles="{Binding Calendar}" Caption="{Binding CalendarCaption}" />
+                            <VerticalStackLayout Spacing="{StaticResource Space3}" BindableLayout.ItemsSource="{Binding Tasks}">
+                                <BindableLayout.ItemTemplate>
+                                    <DataTemplate x:DataType="vm:TaskRowItem">
+                                        <views:TaskRowView />
+                                    </DataTemplate>
+                                </BindableLayout.ItemTemplate>
+                            </VerticalStackLayout>
+                        </VerticalStackLayout>
+                    </Border>
+
                     <!-- goal_done (spec 03 S-10): the day's words are met; Реп'яшок celebrates and offers five more cards. -->
                     <VerticalStackLayout Spacing="{StaticResource Space3}" IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.GoalDone}}">
                         <views:EmptyStateView Title="{x:Static strings:AppResources.Today_GoalDone_Title}" Body="{x:Static strings:AppResources.Today_GoalDone_Body}" Mascot="mascot_party.png" />
