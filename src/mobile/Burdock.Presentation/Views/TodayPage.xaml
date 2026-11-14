@@ -80,7 +80,7 @@
                     </VerticalStackLayout>
 
                     <!-- Hero pager (owner request 13.11.2026, log item 25): every word of the day as a hero card, swiped horizontally; the in-app twin of the widget, mascot stuck to the corner (spec 02 section 3.6) -->
-                    <Grid IsVisible="{Binding HasWords}" Margin="{StaticResource Space2}" RowDefinitions="Auto,Auto" RowSpacing="{StaticResource Space1}">
+                    <Grid IsVisible="{Binding HasWords}" Margin="{StaticResource Space2}" RowDefinitions="Auto,Auto,Auto" RowSpacing="{StaticResource Space1}">
                         <CarouselView Grid.Row="0" ItemsSource="{Binding Words}" CurrentItem="{Binding Hero, Mode=TwoWay}" Loop="False" HorizontalScrollBarVisibility="Never"
                                       HeightRequest="{StaticResource SizeHeroPager}" Margin="{StaticResource HeroPagerBleed}" AutomationId="Today_HeroPager">
                             <CarouselView.ItemTemplate>
@@ -117,48 +117,20 @@
                         </CarouselView>
                         <Label Grid.Row="1" Text="{Binding HeroPositionText}" Style="{StaticResource TextTertiary}" HorizontalOptions="Center" IsVisible="{Binding HasMore}"
                                SemanticProperties.Description="{Binding HeroPositionAccessibility}" />
+                        <Label Grid.Row="2" Text="{Binding PlanSummary}" Style="{StaticResource TextTertiary}" HorizontalOptions="Center" IsVisible="{Binding HasMore}" />
                         <Image Grid.Row="0" Source="mascot_cheer.png" WidthRequest="{StaticResource SizeMascotSm}" HeightRequest="{StaticResource SizeMascotSm}" InputTransparent="True"
                                HorizontalOptions="End" VerticalOptions="Start" Margin="{StaticResource MascotCornerOverhang}" AutomationProperties.IsInAccessibleTree="False" />
                     </Grid>
 
-                    <!-- All words of the day as compact tiles: a tap brings that word into the pager -->
-                    <Grid ColumnDefinitions="*,Auto" IsVisible="{Binding HasMore}">
-                        <Label Grid.Column="0" Text="{x:Static strings:AppResources.Today_WordsOfDay_Heading}" Style="{StaticResource SectionTitle}" SemanticProperties.HeadingLevel="Level2" />
-                        <Label Grid.Column="1" Text="{Binding PlanSummary}" Style="{StaticResource TextTertiary}" VerticalOptions="End" />
-                    </Grid>
-                    <CollectionView ItemsSource="{Binding Words}" IsVisible="{Binding HasMore}" ItemsLayout="HorizontalList"
-                                    HeightRequest="{StaticResource SizeWordTileHeight}" SelectionMode="None" Margin="{StaticResource StripBleed}">
-                        <CollectionView.ItemTemplate>
-                            <DataTemplate x:DataType="vm:WordTile">
-                                <Border Style="{StaticResource WordTile}" Margin="{StaticResource StripItemInset}"
-                                        BackgroundColor="{Binding TopicKey, Converter={StaticResource TopicColor}}">
-                                    <Border.GestureRecognizers>
-                                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type vm:TodayViewModel}}, Path=SelectWordCommand}" CommandParameter="{Binding .}" />
-                                    </Border.GestureRecognizers>
-                                    <Grid RowDefinitions="Auto,*,Auto" RowSpacing="{StaticResource Space1}">
-                                        <HorizontalStackLayout Grid.Row="0" Spacing="{StaticResource Space1}">
-                                            <Label Text="{Binding ReasonIcon}" Style="{StaticResource IconGlyphSm}" TextColor="{Binding TopicKey, Converter={StaticResource TopicColor}, ConverterParameter=on}" />
-                                            <Label Text="{Binding Reason}" Style="{StaticResource TypeLabelSm}" VerticalOptions="Center" TextColor="{Binding TopicKey, Converter={StaticResource TopicColor}, ConverterParameter=on}" />
-                                        </HorizontalStackLayout>
-                                        <Label Grid.Row="1" Text="{Binding Lemma}" Style="{StaticResource TypeTitleLg}" VerticalOptions="End" LineBreakMode="TailTruncation"
-                                               TextColor="{Binding TopicKey, Converter={StaticResource TopicColor}, ConverterParameter=on}" />
-                                        <Label Grid.Row="2" Text="{Binding Translation}" Style="{StaticResource TypeBodySm}" LineBreakMode="TailTruncation"
-                                               TextColor="{Binding TopicKey, Converter={StaticResource TopicColor}, ConverterParameter=on}" />
-                                    </Grid>
-                                </Border>
-                            </DataTemplate>
-                        </CollectionView.ItemTemplate>
-                    </CollectionView>
-
                     <views:EmptyStateView Title="{x:Static strings:AppResources.Today_Empty_Title}" Body="{x:Static strings:AppResources.Today_Empty_Body}" Mascot="mascot_cheer.png"
                                           IsVisible="{Binding State, Converter={StaticResource IsEqualConverter}, ConverterParameter={x:Static vm:ViewState.Empty}}" />
 
-                    <!-- Login calendar and up to three daily tasks (S-10; spec 07 §3.4, §3.5). The calendar is claimed on load (FR-07-9), rows only report
-                         progress (no action, no timer); the whole card leads to «Нагороди». Hidden without gamification. -->
+                    <!-- Up to three daily tasks (S-10; spec 07 §3.5). The login calendar is claimed on load (FR-07-9) and toasts, but its tiles live only on «Нагороди»
+                         (owner, 14.11.2026: no duplicate on the first screen). Rows only report progress (no action, no timer); the whole card leads to the tasks section. -->
                     <Border Style="{StaticResource CardElevated}" Margin="{StaticResource Space2}" IsVisible="{Binding ShowTasks}" AutomationId="Today_Tasks"
                             SemanticProperties.Hint="{x:Static strings:AppResources.Today_Tasks_Hint}">
                         <Border.GestureRecognizers>
-                            <TapGestureRecognizer Command="{Binding OpenRewardsCommand}" />
+                            <TapGestureRecognizer Command="{Binding OpenTasksCommand}" />
                         </Border.GestureRecognizers>
                         <VerticalStackLayout Spacing="{StaticResource Space3}">
                             <Grid ColumnDefinitions="*,Auto">
@@ -166,7 +138,6 @@
                                 <Label Grid.Column="1" Text="{x:Static icons:Icon.ChevronRight}" Style="{StaticResource IconGlyphSm}" VerticalOptions="Center"
                                        TextColor="{AppThemeBinding Light={StaticResource ColorTextTertiaryLight}, Dark={StaticResource ColorTextTertiaryDark}}" AutomationProperties.IsInAccessibleTree="False" />
                             </Grid>
-                            <views:CalendarStripView Tiles="{Binding Calendar}" Caption="{Binding CalendarCaption}" />
                             <VerticalStackLayout Spacing="{StaticResource Space3}" BindableLayout.ItemsSource="{Binding Tasks}">
                                 <BindableLayout.ItemTemplate>
                                     <DataTemplate x:DataType="vm:TaskRowItem">

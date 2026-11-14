@@ -77,12 +77,40 @@ public sealed partial class ShopTile(ShopItemView view) : ObservableObject
 
 public sealed record ShopSection(string Title, CatalogCategory Category, IReadOnlyList<ShopTile> Tiles);
 
+/// <summary>One tile of the category row on S-16 (owner request 14.11.2026): a Lucide icon, a short name and the section it opens.</summary>
+public sealed partial class ShopCategoryItem(string key, string title, string glyph, CatalogCategory? category) : ObservableObject
+{
+    private static readonly CompositeFormat A11yFormat = CompositeFormat.Parse(AppResources.Shop_Tab_A11y);
+
+    [ObservableProperty]
+    private bool _isSelected;
+
+    public string Key { get; } = key;
+
+    public string Title { get; } = title;
+
+    public string Glyph { get; } = glyph;
+
+    /// <summary>The catalogue category shown as tiles under the preview; null for the tasks and freeze panes.</summary>
+    public CatalogCategory? Category { get; } = category;
+
+    public string Accessibility => string.Format(CultureInfo.GetCultureInfo("uk-UA"), A11yFormat, Title);
+}
+
 /// <summary>
 /// S-16 «Нагороди» (spec 03; spec 07 §3.2.3, FR-07-12, FR-07-13): the catalogue by sections, a live preview of the burr wearing the selected item,
 /// one explicit action per item (buy, wear, take off, choose theme) and the streak freeze bank. No timers, no sales, no randomness.
 /// </summary>
-public sealed partial class RewardsViewModel : ObservableObject
+public sealed partial class RewardsViewModel : ObservableObject, IQueryAttributable
 {
+    public const string TasksSection = "tasks";
+    public const string OutfitsSection = "outfits";
+    public const string RidesSection = "rides";
+    public const string ScenesSection = "scenes";
+    public const string ThemesSection = "themes";
+    public const string FramesSection = "frames";
+    public const string FreezeSection = "freeze";
+
     private static readonly CultureInfo Ukrainian = CultureInfo.GetCultureInfo("uk-UA");
     private static readonly CompositeFormat PurchasedFormat = CompositeFormat.Parse(AppResources.Shop_Purchased_Toast);
     private static readonly CompositeFormat WornFormat = CompositeFormat.Parse(AppResources.Shop_Worn_Toast);
@@ -107,6 +135,10 @@ public sealed partial class RewardsViewModel : ObservableObject
 
     [ObservableProperty]
     private bool _showShop;
+
+    /// <summary>Gamification is off (spec 03 §3.7); set only after the load, so the sleeping burr never flashes while the shop is loading.</summary>
+    [ObservableProperty]
+    private bool _shopOff;
 
     [ObservableProperty]
     private string _thornsText = string.Empty;
@@ -169,6 +201,11 @@ public sealed partial class RewardsViewModel : ObservableObject
     [ObservableProperty]
     private bool _hasOneOffs;
 
+    /// <summary>Key of the open section of the category row; the page shows exactly one pane at a time (no long landing).</summary>
+    [ObservableProperty]
+    [NotifyPropertyChangedFor(nameof(ShowPreview), nameof(ShowTilesPane), nameof(ShowTasksPane), nameof(ShowFreezePane))]
+    private string _currentSection = OutfitsSection;
+
     public RewardsViewModel(GetShopUseCase getShop, PurchaseItemUseCase purchase, EquipItemUseCase equip, GetDailyTasksUseCase tasks, IToastService toast, IWidgetCoordinator widgets, ILogger<RewardsViewModel> logger)
     {
         _getShop = getShop ?? throw new ArgumentNullException(nameof(getShop));
@@ -190,6 +227,86 @@ public sealed partial class RewardsViewModel : ObservableObject
 
     /// <summary>Every tile of every section, for tests and for the selection sweep.</summary>
     public IEnumerable<ShopTile> Tiles => Sections.SelectMany(s => s.Tiles);
+
+    /// <summary>The category row: tasks, five cosmetic sections, the freeze bank (order of spec 03 S-16).</summary>
+    public ObservableCollection<ShopCategoryItem> Categories { get; } =
+    [
+        new(TasksSection, AppResources.Shop_Tab_Tasks, Icon.ListChecks, null),
+        new(OutfitsSection, AppResources.Shop_Tab_Outfits, Icon.Shirt, CatalogCategory.Outfit),
+        new(RidesSection, AppResources.Shop_Tab_Rides, Icon.Car, CatalogCategory.Ride),
+        new(ScenesSection, AppResources.Shop_Tab_Scenes, Icon.MountainSnow, CatalogCategory.Scene),
+        new(ThemesSection, AppResources.Shop_Tab_Themes, Icon.Palette, CatalogCategory.WidgetTheme),
+        new(FramesSection, AppResources.Shop_Tab_Frames, Icon.Frame, CatalogCategory.Frame),
+        new(FreezeSection, AppResources.Shop_Tab_Freeze, Icon.Snowflake, null),
+    ];
+
+    /// <summary>Tiles of the open cosmetic section.</summary>
+    public ObservableCollection<ShopTile> CurrentTiles { get; } = [];
+
+    public ShopCategoryItem CurrentCategory => Categories.FirstOrDefault(c => c.Key == CurrentSection) ?? Categories[1];
+
+    public bool ShowPreview => CurrentCategory.Category is not null;
+
+    public bool ShowTilesPane => ShowPreview;
+
+    public bool ShowTasksPane => CurrentSection == TasksSection;
+
+    public bool ShowFreezePane => CurrentSection == FreezeSection;
+
+    /// <summary>`?section=tasks` from the tasks card on «Сьогодні»; unknown keys are ignored.</summary>
+    public void ApplyQueryAttributes(IDictionary<string, object> query)
+    {
+        ArgumentNullException.ThrowIfNull(query);
+        if (query.TryGetValue("section", out var raw) && raw?.ToString() is { } key && Categories.Any(c => c.Key == key))
+        {
+            CurrentSection = key;
+            if (Sections.Count > 0)
+            {
+                ApplySection();
+            }
+        }
+    }
+
+    [RelayCommand]
+    private void SelectCategory(ShopCategoryItem? category)
+    {
+        if (category is null || category.Key == CurrentSection)
+        {
+            return;
+        }
+
+        CurrentSection = category.Key;
+        ApplySection();
+    }
+
+    /// <summary>Marks the row, fills the tiles of the open section and moves the preview onto an item of that section.</summary>
+    private void ApplySection()
+    {
+        foreach (var c in Categories)
+        {
+            c.IsSelected = c.Key == CurrentSection;
+        }
+
+        CurrentTiles.Clear();
+        if (CurrentCategory.Category is not { } category)
+        {
+            return;
+        }
+
+        foreach (var tile in Tiles.Where(t => t.Category == category))
+        {
+            CurrentTiles.Add(tile);
+        }
+
+        if (Selected?.Category != category)
+        {
+            Select(DefaultTile(category));
+        }
+    }
+
+    /// <summary>What the preview opens on in a section: the worn or chosen item, otherwise the first tile.</summary>
+    private ShopTile? DefaultTile(CatalogCategory category)
+        => Tiles.FirstOrDefault(t => t.Category == category && t.Equipped) ?? Tiles.FirstOrDefault(t => t.Category == category);
 
     [RelayCommand(AllowConcurrentExecutions = false)]
     public async Task LoadAsync(CancellationToken cancellationToken)
@@ -227,6 +344,13 @@ public sealed partial class RewardsViewModel : ObservableObject
 
         Selected = tile;
         RenderPreview();
+
+        // A tile always belongs to the open cosmetic section; selected from another one (a deep link, a test) it opens its own. The tasks and freeze panes keep a silent default.
+        if (CurrentCategory.Category is { } current && current != tile.Category && Categories.FirstOrDefault(c => c.Category == tile.Category) is { } owner)
+        {
+            CurrentSection = owner.Key;
+            ApplySection();
+        }
     }
 
     /// <summary>The one action of the selected item: buy (and wear), wear, take off, or choose the theme.</summary>
@@ -324,6 +448,7 @@ public sealed partial class RewardsViewModel : ObservableObject
     private void Render(ShopView shop)
     {
         ShowShop = shop.GamificationEnabled;
+        ShopOff = !shop.GamificationEnabled;
         ThornsText = RewardsText.Thorns(shop.Thorns);
         Sections.Clear();
         Sections.Add(Section(AppResources.Shop_Section_Outfits, CatalogCategory.Outfit, shop));
@@ -344,11 +469,10 @@ public sealed partial class RewardsViewModel : ObservableObject
             _ => string.Empty,
         };
 
-        // Keep the learner's selection across reloads; otherwise start from what the burr wears, then the first outfit.
-        var selected = Tiles.FirstOrDefault(t => t.Key == _selectedKey)
-            ?? Tiles.FirstOrDefault(t => t.Category == CatalogCategory.Outfit && t.Equipped)
-            ?? Tiles.FirstOrDefault(t => t.Category == CatalogCategory.Outfit);
+        // Keep the learner's selection across reloads; otherwise start from what the burr wears in the open section, then its first tile.
+        var selected = Tiles.FirstOrDefault(t => t.Key == _selectedKey) ?? DefaultTile(CurrentCategory.Category ?? CatalogCategory.Outfit);
         Select(selected);
+        ApplySection();
     }
 
     private void RenderTasks(TasksView view)

@@ -28,8 +28,6 @@ public sealed record WordTile(Guid LexemeId, string Lemma, string Translation, s
 public sealed partial class TodayViewModel : ObservableObject
 {
     private static readonly CultureInfo Ukrainian = CultureInfo.GetCultureInfo("uk-UA");
-    private static readonly CompositeFormat CalendarCaptionFormat = CompositeFormat.Parse(AppResources.Calendar_Caption);
-    private static readonly CompositeFormat CalendarClaimedFormat = CompositeFormat.Parse(AppResources.Calendar_Caption_Claimed);
     private static readonly CompositeFormat CalendarToastFormat = CompositeFormat.Parse(AppResources.Calendar_Toast);
     private static readonly CompositeFormat LearningDayFormat = CompositeFormat.Parse(AppResources.Today_LearningDay_Label);
     private static readonly CompositeFormat PlanSummaryFormat = CompositeFormat.Parse(AppResources.Today_Plan_Summary);
@@ -110,11 +108,7 @@ public sealed partial class TodayViewModel : ObservableObject
     [ObservableProperty]
     private string _reviewBody = string.Empty;
 
-    /// <summary>«День 3 з 7 · сьогодні +10 колючок» under the seven calendar tiles (spec 07 §3.4).</summary>
-    [ObservableProperty]
-    private string _calendarCaption = string.Empty;
-
-    /// <summary>Daily tasks and the calendar are shown once the rewards loaded (gamification on).</summary>
+    /// <summary>Daily tasks are shown once the rewards loaded (gamification on).</summary>
     [ObservableProperty]
     private bool _showTasks;
 
@@ -158,6 +152,11 @@ public sealed partial class TodayViewModel : ObservableObject
 
     [RelayCommand]
     private Task OpenRewardsAsync(CancellationToken cancellationToken) => _navigation.GoToAsync(Routes.Me.Rewards, null, cancellationToken);
+
+    /// <summary>The tasks card leads straight to the «Завдання» section of «Нагороди» (S-16 category bar).</summary>
+    [RelayCommand]
+    private Task OpenTasksAsync(CancellationToken cancellationToken)
+        => _navigation.GoToAsync(Routes.Me.Rewards, new Dictionary<string, object> { ["section"] = RewardsViewModel.TasksSection }, cancellationToken);
 
     [RelayCommand(AllowConcurrentExecutions = false)]
     public async Task LoadAsync(CancellationToken cancellationToken)
@@ -223,30 +222,18 @@ public sealed partial class TodayViewModel : ObservableObject
         }
     }
 
-    public ObservableCollection<CalendarTileItem> Calendar { get; } = [];
-
     public ObservableCollection<TaskRowItem> Tasks { get; } = [];
 
+    /// <summary>The three daily tasks of the card; the calendar tiles stay on «Нагороди» (owner, 14.11.2026), only the claim toast shows here.</summary>
     private async Task LoadTasksAsync(CalendarClaimView claim, CancellationToken cancellationToken)
     {
         var view = await _tasks.ExecuteAsync(cancellationToken).ConfigureAwait(true);
         ShowTasks = view.GamificationEnabled;
-        Calendar.Clear();
-        foreach (var tile in CalendarTileItem.Build(view.Calendar))
-        {
-            Calendar.Add(tile);
-        }
-
         Tasks.Clear();
         foreach (var task in view.Daily)
         {
             Tasks.Add(TaskRowItem.From(task));
         }
-
-        var position = view.Calendar.ClaimedPosition > 0 ? view.Calendar.ClaimedPosition : view.Calendar.NextPosition + 1;
-        CalendarCaption = view.Calendar.ClaimedPosition > 0
-            ? string.Format(Ukrainian, CalendarClaimedFormat, position, Localization.RewardsText.ThornsPlus(CalendarRules.Cycle[view.Calendar.ClaimedPosition - 1]))
-            : string.Format(Ukrainian, CalendarCaptionFormat, position);
 
         if (claim.Claimed && view.GamificationEnabled)
         {
@@ -270,16 +257,6 @@ public sealed partial class TodayViewModel : ObservableObject
     [RelayCommand]
     private Task SpeakWordAsync(WordTile? tile, CancellationToken cancellationToken)
         => tile is { } word ? _speech.SpeakWordAsync(Domain.SharedKernel.LexemeId.From(word.LexemeId), word.Lemma, cancellationToken) : Task.CompletedTask;
-
-    /// <summary>A strip tile brings its word into the pager; the card itself opens on tap.</summary>
-    [RelayCommand]
-    private void SelectWord(WordTile? tile)
-    {
-        if (tile is not null && Words.Contains(tile))
-        {
-            Hero = tile;
-        }
-    }
 
     partial void OnHeroChanged(WordTile? value) => UpdateHeroPosition();
 

@@ -13,6 +13,9 @@ public sealed partial class MascotView
     public static readonly BindableProperty RideProperty =
         BindableProperty.Create(nameof(Ride), typeof(MascotRide), typeof(MascotView), MascotRide.None, propertyChanged: (b, _, _) => ((MascotView)b).Invalidate());
 
+    public static readonly BindableProperty SceneCornerRadiusProperty =
+        BindableProperty.Create(nameof(SceneCornerRadius), typeof(double), typeof(MascotView), -1d, propertyChanged: (b, _, _) => ((MascotView)b).Invalidate());
+
     public static readonly BindableProperty SceneSkyColorProperty = Colour(nameof(SceneSkyColor), Colors.LightSkyBlue);
     public static readonly BindableProperty SceneNightColorProperty = Colour(nameof(SceneNightColor), Colors.MidnightBlue);
     public static readonly BindableProperty SceneStoneColorProperty = Colour(nameof(SceneStoneColor), Colors.Gray);
@@ -29,6 +32,9 @@ public sealed partial class MascotView
 
     /// <summary>The vehicle the burr rides; None draws nothing.</summary>
     public MascotRide Ride { get => (MascotRide)GetValue(RideProperty); set => SetValue(RideProperty, value); }
+
+    /// <summary>Corner radius of the scene picture; negative (default) rounds it like a tile, 0 lets a full-bleed card do the clipping (S-17 growth card, S-16 preview).</summary>
+    public double SceneCornerRadius { get => (double)GetValue(SceneCornerRadiusProperty); set => SetValue(SceneCornerRadiusProperty, value); }
 
     public Color SceneSkyColor { get => (Color)GetValue(SceneSkyColorProperty); set => SetValue(SceneSkyColorProperty, value); }
 
@@ -49,7 +55,7 @@ public sealed partial class MascotView
         var w = card.Width;
         canvas.SaveState();
         var clip = new PathF();
-        clip.AppendRoundedRectangle(card, side * 0.14f);
+        clip.AppendRoundedRectangle(card, SceneCornerRadius < 0 ? side * 0.14f : (float)SceneCornerRadius);
         canvas.ClipPath(clip);
         switch (Scene)
         {

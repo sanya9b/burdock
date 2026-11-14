@@ -480,6 +480,23 @@
     <Style x:Key="CalendarTileToday" TargetType="Border" BasedOn="{StaticResource CalendarTileDone}">
         <Setter Property="Stroke" Value="{AppThemeBinding Light={StaticResource ColorBrandPrimaryLight}, Dark={StaticResource ColorBrandPrimaryDark}}" />
     </Style>
+    <!-- CategoryTab (S-16, spec 02 §3.11): one icon tile per section of «Нагороди» in a horizontal row; the selected one is the brand container with a strong edge.
+         The strong stroke is reserved in both states so the row never shifts. The caption lives outside the tile (label.sm). -->
+    <Style x:Key="CategoryTab" TargetType="Border">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorSurfaceElevatedLight}, Dark={StaticResource ColorSurfaceElevatedDark}}" />
+        <Setter Property="Stroke" Value="{AppThemeBinding Light={StaticResource ColorBorderDefaultLight}, Dark={StaticResource ColorBorderDefaultDark}}" />
+        <Setter Property="StrokeThickness" Value="{StaticResource BorderWidthStrong}" />
+        <Setter Property="StrokeShape">
+            <RoundRectangle CornerRadius="{StaticResource CornerRadiusMd}" />
+        </Setter>
+        <Setter Property="WidthRequest" Value="{StaticResource SizeCategoryTab}" />
+        <Setter Property="HeightRequest" Value="{StaticResource SizeCategoryTab}" />
+        <Setter Property="Padding" Value="0" />
+    </Style>
+    <Style x:Key="CategoryTabSelected" TargetType="Border" BasedOn="{StaticResource CategoryTab}">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorBrandPrimaryContainerLight}, Dark={StaticResource ColorBrandPrimaryContainerDark}}" />
+        <Setter Property="Stroke" Value="{AppThemeBinding Light={StaticResource ColorBrandPrimaryLight}, Dark={StaticResource ColorBrandPrimaryDark}}" />
+    </Style>
     <Style x:Key="AchievementTile" TargetType="Border">
         <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ColorSurfaceElevatedLight}, Dark={StaticResource ColorSurfaceElevatedDark}}" />
         <Setter Property="Stroke" Value="{AppThemeBinding Light=Transparent, Dark={StaticResource ColorBorderDefaultDark}}" />

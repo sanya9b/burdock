@@ -83,7 +83,6 @@
   <data name="Today_Greeting_Day" xml:space="preserve"><value>Добрий день</value></data>
   <data name="Today_Greeting_Evening" xml:space="preserve"><value>Добрий вечір</value></data>
   <data name="Today_Greeting_Night" xml:space="preserve"><value>Доброї ночі</value></data>
-  <data name="Today_WordsOfDay_Heading" xml:space="preserve"><value>Слова дня</value></data>
   <data name="Today_Empty_Title" xml:space="preserve"><value>Слова вже на віджеті</value><comment>Порожній стан empty_morning (S-10)</comment></data>
   <data name="Today_Empty_Body" xml:space="preserve"><value>Заглянь на екран блокування — перше слово вже чекає. А тут з’являться ті, що ти переглянеш.</value></data>
   <data name="Today_GoalDone_Title" xml:space="preserve"><value>На сьогодні досить</value><comment>Стан goal_done (S-10)</comment></data>
@@ -582,4 +581,14 @@
   <data name="Calendar_State_Future" xml:space="preserve"><value>попереду</value></data>
   <data name="Summary_Tasks_Heading" xml:space="preserve"><value>Завдання виконано</value></data>
   <data name="Summary_Task_Row" xml:space="preserve"><value>{0} · {1}</value><comment>назва завдання · «+10 колючок»</comment></data>
+  <!-- S-16 category bar (owner request 14.11.2026): one section on screen at a time -->
+  <data name="Shop_Tab_Tasks" xml:space="preserve"><value>Завдання</value><comment>Вкладка «Нагород»: календар входу і мікрозавдання</comment></data>
+  <data name="Shop_Tab_Outfits" xml:space="preserve"><value>Вбрання</value></data>
+  <data name="Shop_Tab_Rides" xml:space="preserve"><value>Транспорт</value></data>
+  <data name="Shop_Tab_Scenes" xml:space="preserve"><value>Фони</value></data>
+  <data name="Shop_Tab_Themes" xml:space="preserve"><value>Теми</value><comment>Теми віджета</comment></data>
+  <data name="Shop_Tab_Frames" xml:space="preserve"><value>Рамки</value></data>
+  <data name="Shop_Tab_Freeze" xml:space="preserve"><value>Заморозка</value></data>
+  <data name="Shop_Tab_A11y" xml:space="preserve"><value>Розділ «{0}»</value><comment>Плитка категорії в ряду; стан «вибрано» додає читач екрана</comment></data>
+  <data name="Shop_Tab_Hint" xml:space="preserve"><value>Показати розділ</value></data>
 </root>

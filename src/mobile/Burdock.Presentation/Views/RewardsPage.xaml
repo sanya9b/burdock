@@ -38,145 +38,180 @@
 
         <!-- Without gamification the shop and the thorns are off (spec 03 §3.7) -->
         <views:EmptyStateView Grid.Row="1" Title="{x:Static strings:AppResources.Shop_Off_Title}" Body="{x:Static strings:AppResources.Shop_Off_Body}" Mascot="mascot_sleep.png"
-                              IsVisible="{Binding ShowShop, Converter={StaticResource InvertedBoolConverter}}" VerticalOptions="Center" />
+                              IsVisible="{Binding ShopOff}" VerticalOptions="Center" />
 
-        <ScrollView Grid.Row="1" IsVisible="{Binding ShowShop}">
-            <VerticalStackLayout Spacing="{StaticResource Space6}" Padding="{StaticResource PageInsetScroll}" MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
-
-                <!-- Preview: the burr tries the selected item on; the one action below buys, wears, takes off or chooses -->
-                <Border Style="{StaticResource CardTonal}">
-                    <VerticalStackLayout Spacing="{StaticResource Space3}">
-                        <controls:MascotView x:Name="Mascot" Mood="Joy" Outfit="{Binding PreviewOutfit}" AvatarFrame="{Binding PreviewFrame}" Scene="{Binding PreviewScene}" Ride="{Binding PreviewRide}" WidthRequest="{StaticResource SizeMascotXl}" HeightRequest="{StaticResource SizeMascotLg}" HorizontalOptions="Center"
-                                             SemanticProperties.Description="{Binding PreviewName}" />
-                        <Label Text="{Binding PreviewName}" Style="{StaticResource TypeHeadlineMd}" HorizontalTextAlignment="Center" SemanticProperties.HeadingLevel="Level2"
-                               TextColor="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
-                        <Label Text="{Binding PreviewStatus}" Style="{StaticResource TypeBodySm}" HorizontalTextAlignment="Center" LineBreakMode="WordWrap"
-                               TextColor="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
-                        <controls:PushButton Text="{Binding ActionText}" Command="{Binding ActCommand}" IsEnabled="{Binding CanAct}" IsLoading="{Binding IsBusy}"
-                                             IsVisible="{Binding ActionText, Converter={StaticResource IsNotNullOrEmptyConverter}}">
-                            <controls:PushButton.Triggers>
-                                <DataTrigger TargetType="controls:PushButton" Binding="{Binding ActionIsPurchase}" Value="False">
-                                    <Setter Property="Style" Value="{StaticResource PushTonal}" />
-                                </DataTrigger>
-                            </controls:PushButton.Triggers>
-                        </controls:PushButton>
-                    </VerticalStackLayout>
-                </Border>
-
-                <!-- Login calendar (spec 07 §3.4): seven tiles of the cycle and the 30-day track, no claim button (FR-07-9) -->
-                <VerticalStackLayout Spacing="{StaticResource Space3}">
-                    <Label Text="{x:Static strings:AppResources.Rewards_Calendar_Heading}" Style="{StaticResource SectionTitle}" SemanticProperties.HeadingLevel="Level2" />
-                    <Border Style="{StaticResource CardElevated}">
-                        <VerticalStackLayout Spacing="{StaticResource Space3}">
-                            <views:CalendarStripView Tiles="{Binding Calendar}" Caption="{Binding CalendarCaption}" />
-                            <Label Text="{Binding CalendarTrackText}" Style="{StaticResource TypeBodySm}" HorizontalTextAlignment="Center" />
-                        </VerticalStackLayout>
-                    </Border>
-                </VerticalStackLayout>
-
-                <!-- Micro-tasks (spec 07 §3.5): three daily, one weekly, the one-off «first steps» until done; progress only, no timers -->
-                <VerticalStackLayout Spacing="{StaticResource Space3}">
-                    <Label Text="{x:Static strings:AppResources.Rewards_Tasks_Heading}" Style="{StaticResource SectionTitle}" SemanticProperties.HeadingLevel="Level2" />
-                    <Border Style="{StaticResource CardElevated}">
-                        <VerticalStackLayout Spacing="{StaticResource Space4}">
-                            <VerticalStackLayout Spacing="{StaticResource Space3}" BindableLayout.ItemsSource="{Binding DailyTasks}">
-                                <BindableLayout.ItemTemplate>
-                                    <DataTemplate x:DataType="vm:TaskRowItem">
-                                        <views:TaskRowView />
-                                    </DataTemplate>
-                                </BindableLayout.ItemTemplate>
-                            </VerticalStackLayout>
-                            <!-- IsVisible must read the page model: once BindingContext is the task item, a plain {Binding WeeklyTask} would resolve against the item -->
-                            <views:TaskRowView BindingContext="{Binding WeeklyTask}" x:DataType="vm:TaskRowItem"
-                                               IsVisible="{Binding Source={RelativeSource AncestorType={x:Type vm:RewardsViewModel}}, Path=WeeklyTask, Converter={StaticResource IsNotNullConverter}}" />
-                            <VerticalStackLayout Spacing="{StaticResource Space3}" IsVisible="{Binding HasOneOffs}">
-                                <Label Text="{x:Static strings:AppResources.Tasks_OneOff_Heading}" Style="{StaticResource TypeTitleMd}" />
-                                <VerticalStackLayout Spacing="{StaticResource Space3}" BindableLayout.ItemsSource="{Binding OneOffTasks}">
-                                    <BindableLayout.ItemTemplate>
-                                        <DataTemplate x:DataType="vm:TaskRowItem">
-                                            <views:TaskRowView />
-                                        </DataTemplate>
-                                    </BindableLayout.ItemTemplate>
-                                </VerticalStackLayout>
-                            </VerticalStackLayout>
-                        </VerticalStackLayout>
-                    </Border>
-                </VerticalStackLayout>
-
-                <!-- Sections: outfits, widget themes, frames -->
-                <VerticalStackLayout Spacing="{StaticResource Space6}" BindableLayout.ItemsSource="{Binding Sections}">
+        <!-- One section at a time (owner request 14.11.2026): a horizontal row of CategoryTab icons picks the pane; the long landing is gone -->
+        <Grid Grid.Row="1" RowDefinitions="Auto,*" IsVisible="{Binding ShowShop}">
+            <ScrollView Grid.Row="0" Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
+                <HorizontalStackLayout Spacing="{StaticResource Space3}" Padding="{StaticResource PageInsetTop}" BindableLayout.ItemsSource="{Binding Categories}">
                     <BindableLayout.ItemTemplate>
-                        <DataTemplate x:DataType="vm:ShopSection">
-                            <VerticalStackLayout Spacing="{StaticResource Space3}">
-                                <Label Text="{Binding Title}" Style="{StaticResource SectionTitle}" SemanticProperties.HeadingLevel="Level2" />
-                                <FlexLayout Wrap="Wrap" Direction="Row" JustifyContent="Start" AlignItems="Stretch" BindableLayout.ItemsSource="{Binding Tiles}">
-                                    <BindableLayout.ItemTemplate>
-                                        <DataTemplate x:DataType="vm:ShopTile">
-                                            <!-- Padding lives on the inner stack: a Border inside a FlexLayout arranges its content at the origin until a later re-measure -->
-                                            <Border Style="{StaticResource CatalogTile}" Padding="0" Margin="{StaticResource Space1}" FlexLayout.Basis="48%" FlexLayout.Grow="0"
-                                                    SemanticProperties.Description="{Binding Accessibility}">
-                                                <Border.Triggers>
-                                                    <DataTrigger TargetType="Border" Binding="{Binding IsSelected}" Value="True">
-                                                        <Setter Property="Style" Value="{StaticResource CatalogTileSelected}" />
-                                                    </DataTrigger>
-                                                    <DataTrigger TargetType="Border" Binding="{Binding Locked}" Value="True">
-                                                        <Setter Property="Opacity" Value="{StaticResource OpacityMuted}" />
-                                                    </DataTrigger>
-                                                </Border.Triggers>
-                                                <Border.GestureRecognizers>
-                                                    <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type vm:RewardsViewModel}}, Path=SelectCommand}" CommandParameter="{Binding .}" />
-                                                </Border.GestureRecognizers>
-                                                <VerticalStackLayout Spacing="{StaticResource Space2}" Padding="{StaticResource Space3}">
-                                                    <Grid ColumnDefinitions="*,Auto">
-                                                        <!-- Thumbnail: a still little burr wearing the item (outfits, frames), on its scene or in its ride, or the theme swatch -->
-                                                        <controls:MascotView Grid.Column="0" WidthRequest="{StaticResource SizeMascotSm}" HeightRequest="{StaticResource SizeMascotSm}" HorizontalOptions="Start"
-                                                                             ReduceMotion="True" InputTransparent="True" Mood="Joy" Outfit="{Binding ThumbOutfit}" AvatarFrame="{Binding ThumbFrame}" Scene="{Binding ThumbScene}" Ride="{Binding ThumbRide}"
-                                                                             IsVisible="{Binding IsTheme, Converter={StaticResource InvertedBoolConverter}}" AutomationProperties.IsInAccessibleTree="False" />
-                                                        <controls:ThemeSwatchView Grid.Column="0" WidthRequest="{StaticResource SizeMascotSm}" HeightRequest="{StaticResource SizeMascotSm}" HorizontalOptions="Start"
-                                                                                  Theme="{Binding ThumbTheme}" IsVisible="{Binding IsTheme}" AutomationProperties.IsInAccessibleTree="False" />
-                                                        <Label Grid.Column="1" Text="{x:Static icons:Icon.Check}" Style="{StaticResource IconGlyphSm}" IsVisible="{Binding Owned}"
-                                                               TextColor="{AppThemeBinding Light={StaticResource ColorFeedbackSuccessLight}, Dark={StaticResource ColorFeedbackSuccessDark}}" />
-                                                        <Label Grid.Column="1" Text="{x:Static icons:Icon.Lock}" Style="{StaticResource IconGlyphSm}" IsVisible="{Binding Locked}"
-                                                               TextColor="{AppThemeBinding Light={StaticResource ColorTextTertiaryLight}, Dark={StaticResource ColorTextTertiaryDark}}" />
-                                                    </Grid>
-                                                    <Label Text="{Binding Name}" Style="{StaticResource TypeTitleMd}" LineBreakMode="TailTruncation" MaxLines="1" />
-                                                    <HorizontalStackLayout Spacing="{StaticResource Space2}">
-                                                        <Label Text="{Binding PriceText}" Style="{StaticResource TextTertiary}" IsVisible="{Binding ShowPrice}" />
-                                                        <Label Text="{Binding StatusText}" Style="{StaticResource TextTertiary}" LineBreakMode="TailTruncation" MaxLines="1"
-                                                               IsVisible="{Binding StatusText, Converter={StaticResource IsNotNullOrEmptyConverter}}" />
-                                                    </HorizontalStackLayout>
-                                                </VerticalStackLayout>
-                                            </Border>
-                                        </DataTemplate>
-                                    </BindableLayout.ItemTemplate>
-                                </FlexLayout>
+                        <DataTemplate x:DataType="vm:ShopCategoryItem">
+                            <VerticalStackLayout Spacing="{StaticResource Space1}" SemanticProperties.Description="{Binding Accessibility}" SemanticProperties.Hint="{x:Static strings:AppResources.Shop_Tab_Hint}">
+                                <VerticalStackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type vm:RewardsViewModel}}, Path=SelectCategoryCommand}" CommandParameter="{Binding .}" />
+                                </VerticalStackLayout.GestureRecognizers>
+                                <Border Style="{StaticResource CategoryTab}" HorizontalOptions="Center">
+                                    <Border.Triggers>
+                                        <DataTrigger TargetType="Border" Binding="{Binding IsSelected}" Value="True">
+                                            <Setter Property="Style" Value="{StaticResource CategoryTabSelected}" />
+                                        </DataTrigger>
+                                    </Border.Triggers>
+                                    <Label Text="{Binding Glyph}" Style="{StaticResource IconGlyph}" HorizontalOptions="Center" VerticalOptions="Center"
+                                           TextColor="{AppThemeBinding Light={StaticResource ColorTextSecondaryLight}, Dark={StaticResource ColorTextSecondaryDark}}">
+                                        <Label.Triggers>
+                                            <DataTrigger TargetType="Label" Binding="{Binding IsSelected}" Value="True">
+                                                <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
+                                            </DataTrigger>
+                                        </Label.Triggers>
+                                    </Label>
+                                </Border>
+                                <Label Text="{Binding Title}" Style="{StaticResource TypeLabelSm}" HorizontalTextAlignment="Center" MinimumWidthRequest="{StaticResource SizeCategoryTab}" LineBreakMode="NoWrap" MaxLines="1"
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorTextSecondaryLight}, Dark={StaticResource ColorTextSecondaryDark}}">
+                                    <Label.Triggers>
+                                        <DataTrigger TargetType="Label" Binding="{Binding IsSelected}" Value="True">
+                                            <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ColorTextPrimaryLight}, Dark={StaticResource ColorTextPrimaryDark}}" />
+                                            <Setter Property="FontFamily" Value="RubikSemiBold" />
+                                        </DataTrigger>
+                                    </Label.Triggers>
+                                </Label>
                             </VerticalStackLayout>
                         </DataTemplate>
                     </BindableLayout.ItemTemplate>
-                </VerticalStackLayout>
+                </HorizontalStackLayout>
+            </ScrollView>
 
-                <!-- Streak freeze: a bank of up to two, one free a week, one more for thorns once a week (FR-07-3) -->
-                <VerticalStackLayout Spacing="{StaticResource Space3}">
-                    <Label Text="{x:Static strings:AppResources.Shop_Section_Freeze}" Style="{StaticResource SectionTitle}" SemanticProperties.HeadingLevel="Level2" />
-                    <Border Style="{StaticResource CardElevated}">
-                        <VerticalStackLayout Spacing="{StaticResource Space3}">
-                            <Grid ColumnDefinitions="Auto,*" ColumnSpacing="{StaticResource Space3}">
-                                <Border Grid.Column="0" Style="{StaticResource IconWell}" VerticalOptions="Start">
-                                    <Label Text="{x:Static icons:Icon.Snowflake}" Style="{StaticResource IconGlyph}"
-                                           TextColor="{AppThemeBinding Light={StaticResource ColorStreakFrozenLight}, Dark={StaticResource ColorStreakFrozenDark}}" />
-                                </Border>
-                                <VerticalStackLayout Grid.Column="1" Spacing="{StaticResource Space1}" VerticalOptions="Center">
-                                    <Label Text="{Binding FreezeBankedText}" Style="{StaticResource TypeTitleMd}" />
-                                    <Label Text="{x:Static strings:AppResources.Shop_Freeze_Body}" Style="{StaticResource TextTertiary}" LineBreakMode="WordWrap" />
-                                </VerticalStackLayout>
-                            </Grid>
-                            <controls:PushButton Style="{StaticResource PushTonal}" Text="{Binding FreezeActionText}" Icon="{x:Static icons:Icon.Snowflake}" Command="{Binding BuyFreezeCommand}" IsEnabled="{Binding CanBuyFreeze}" />
-                            <Label Text="{Binding FreezeHint}" Style="{StaticResource TextTertiary}" HorizontalTextAlignment="Center"
-                                   IsVisible="{Binding FreezeHint, Converter={StaticResource IsNotNullOrEmptyConverter}}" />
+            <ScrollView Grid.Row="1">
+                <VerticalStackLayout Spacing="{StaticResource Space6}" Padding="{StaticResource PageInsetScroll}" MaximumWidthRequest="{StaticResource SizeContentMaxWidth}">
+
+                    <!-- Preview (cosmetic sections): the burr tries the selected item on; the chosen scene fills the stage edge to edge; the one action below buys, wears, takes off or chooses -->
+                    <Border Style="{StaticResource CardTonal}" Padding="0" IsVisible="{Binding ShowPreview}">
+                        <VerticalStackLayout Spacing="0">
+                            <controls:MascotView x:Name="Mascot" Mood="Joy" Outfit="{Binding PreviewOutfit}" AvatarFrame="{Binding PreviewFrame}" Scene="{Binding PreviewScene}" Ride="{Binding PreviewRide}"
+                                                 SceneCornerRadius="0" HeightRequest="{StaticResource SizeMascotStage}" HorizontalOptions="Fill"
+                                                 SemanticProperties.Description="{Binding PreviewName}" />
+                            <VerticalStackLayout Spacing="{StaticResource Space3}" Padding="{StaticResource Space4}">
+                                <Label Text="{Binding PreviewName}" Style="{StaticResource TypeHeadlineMd}" HorizontalTextAlignment="Center" SemanticProperties.HeadingLevel="Level2"
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
+                                <Label Text="{Binding PreviewStatus}" Style="{StaticResource TypeBodySm}" HorizontalTextAlignment="Center" LineBreakMode="WordWrap"
+                                       TextColor="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
+                                <controls:PushButton Text="{Binding ActionText}" Command="{Binding ActCommand}" IsEnabled="{Binding CanAct}" IsLoading="{Binding IsBusy}"
+                                                     IsVisible="{Binding ActionText, Converter={StaticResource IsNotNullOrEmptyConverter}}">
+                                    <controls:PushButton.Triggers>
+                                        <DataTrigger TargetType="controls:PushButton" Binding="{Binding ActionIsPurchase}" Value="False">
+                                            <Setter Property="Style" Value="{StaticResource PushTonal}" />
+                                        </DataTrigger>
+                                    </controls:PushButton.Triggers>
+                                </controls:PushButton>
+                            </VerticalStackLayout>
                         </VerticalStackLayout>
                     </Border>
+
+                    <!-- Tiles of the open cosmetic section, two in a row -->
+                    <FlexLayout Wrap="Wrap" Direction="Row" JustifyContent="Start" AlignItems="Stretch" BindableLayout.ItemsSource="{Binding CurrentTiles}" IsVisible="{Binding ShowTilesPane}">
+                        <BindableLayout.ItemTemplate>
+                            <DataTemplate x:DataType="vm:ShopTile">
+                                <!-- Padding lives on the inner stack: a Border inside a FlexLayout arranges its content at the origin until a later re-measure -->
+                                <Border Style="{StaticResource CatalogTile}" Padding="0" Margin="{StaticResource Space1}" FlexLayout.Basis="48%" FlexLayout.Grow="0"
+                                        SemanticProperties.Description="{Binding Accessibility}">
+                                    <Border.Triggers>
+                                        <DataTrigger TargetType="Border" Binding="{Binding IsSelected}" Value="True">
+                                            <Setter Property="Style" Value="{StaticResource CatalogTileSelected}" />
+                                        </DataTrigger>
+                                        <DataTrigger TargetType="Border" Binding="{Binding Locked}" Value="True">
+                                            <Setter Property="Opacity" Value="{StaticResource OpacityMuted}" />
+                                        </DataTrigger>
+                                    </Border.Triggers>
+                                    <Border.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type vm:RewardsViewModel}}, Path=SelectCommand}" CommandParameter="{Binding .}" />
+                                    </Border.GestureRecognizers>
+                                    <VerticalStackLayout Spacing="{StaticResource Space2}" Padding="{StaticResource Space3}">
+                                        <Grid ColumnDefinitions="*,Auto">
+                                            <!-- Thumbnail: a still little burr wearing the item (outfits, frames), on its scene or in its ride, or the theme swatch -->
+                                            <controls:MascotView Grid.Column="0" WidthRequest="{StaticResource SizeMascotSm}" HeightRequest="{StaticResource SizeMascotSm}" HorizontalOptions="Start"
+                                                                 ReduceMotion="True" InputTransparent="True" Mood="Joy" Outfit="{Binding ThumbOutfit}" AvatarFrame="{Binding ThumbFrame}" Scene="{Binding ThumbScene}" Ride="{Binding ThumbRide}"
+                                                                 IsVisible="{Binding IsTheme, Converter={StaticResource InvertedBoolConverter}}" AutomationProperties.IsInAccessibleTree="False" />
+                                            <controls:ThemeSwatchView Grid.Column="0" WidthRequest="{StaticResource SizeMascotSm}" HeightRequest="{StaticResource SizeMascotSm}" HorizontalOptions="Start"
+                                                                      Theme="{Binding ThumbTheme}" IsVisible="{Binding IsTheme}" AutomationProperties.IsInAccessibleTree="False" />
+                                            <Label Grid.Column="1" Text="{x:Static icons:Icon.Check}" Style="{StaticResource IconGlyphSm}" IsVisible="{Binding Owned}"
+                                                   TextColor="{AppThemeBinding Light={StaticResource ColorFeedbackSuccessLight}, Dark={StaticResource ColorFeedbackSuccessDark}}" />
+                                            <Label Grid.Column="1" Text="{x:Static icons:Icon.Lock}" Style="{StaticResource IconGlyphSm}" IsVisible="{Binding Locked}"
+                                                   TextColor="{AppThemeBinding Light={StaticResource ColorTextTertiaryLight}, Dark={StaticResource ColorTextTertiaryDark}}" />
+                                        </Grid>
+                                        <Label Text="{Binding Name}" Style="{StaticResource TypeTitleMd}" LineBreakMode="TailTruncation" MaxLines="1" />
+                                        <HorizontalStackLayout Spacing="{StaticResource Space2}">
+                                            <Label Text="{Binding PriceText}" Style="{StaticResource TextTertiary}" IsVisible="{Binding ShowPrice}" />
+                                            <Label Text="{Binding StatusText}" Style="{StaticResource TextTertiary}" LineBreakMode="TailTruncation" MaxLines="1"
+                                                   IsVisible="{Binding StatusText, Converter={StaticResource IsNotNullOrEmptyConverter}}" />
+                                        </HorizontalStackLayout>
+                                    </VerticalStackLayout>
+                                </Border>
+                            </DataTemplate>
+                        </BindableLayout.ItemTemplate>
+                    </FlexLayout>
+
+                    <!-- «Завдання»: login calendar (spec 07 §3.4, no claim button, FR-07-9) and micro-tasks (§3.5): three daily, one weekly, «Перші кроки» until done -->
+                    <VerticalStackLayout Spacing="{StaticResource Space6}" IsVisible="{Binding ShowTasksPane}">
+                        <VerticalStackLayout Spacing="{StaticResource Space3}">
+                            <Label Text="{x:Static strings:AppResources.Rewards_Calendar_Heading}" Style="{StaticResource SectionTitle}" SemanticProperties.HeadingLevel="Level2" />
+                            <Border Style="{StaticResource CardElevated}">
+                                <VerticalStackLayout Spacing="{StaticResource Space3}">
+                                    <views:CalendarStripView Tiles="{Binding Calendar}" Caption="{Binding CalendarCaption}" />
+                                    <Label Text="{Binding CalendarTrackText}" Style="{StaticResource TypeBodySm}" HorizontalTextAlignment="Center" />
+                                </VerticalStackLayout>
+                            </Border>
+                        </VerticalStackLayout>
+                        <VerticalStackLayout Spacing="{StaticResource Space3}">
+                            <Label Text="{x:Static strings:AppResources.Rewards_Tasks_Heading}" Style="{StaticResource SectionTitle}" SemanticProperties.HeadingLevel="Level2" />
+                            <Border Style="{StaticResource CardElevated}">
+                                <VerticalStackLayout Spacing="{StaticResource Space4}">
+                                    <VerticalStackLayout Spacing="{StaticResource Space3}" BindableLayout.ItemsSource="{Binding DailyTasks}">
+                                        <BindableLayout.ItemTemplate>
+                                            <DataTemplate x:DataType="vm:TaskRowItem">
+                                                <views:TaskRowView />
+                                            </DataTemplate>
+                                        </BindableLayout.ItemTemplate>
+                                    </VerticalStackLayout>
+                                    <!-- IsVisible must read the page model: once BindingContext is the task item, a plain {Binding WeeklyTask} would resolve against the item -->
+                                    <views:TaskRowView BindingContext="{Binding WeeklyTask}" x:DataType="vm:TaskRowItem"
+                                                       IsVisible="{Binding Source={RelativeSource AncestorType={x:Type vm:RewardsViewModel}}, Path=WeeklyTask, Converter={StaticResource IsNotNullConverter}}" />
+                                    <VerticalStackLayout Spacing="{StaticResource Space3}" IsVisible="{Binding HasOneOffs}">
+                                        <Label Text="{x:Static strings:AppResources.Tasks_OneOff_Heading}" Style="{StaticResource TypeTitleMd}" />
+                                        <VerticalStackLayout Spacing="{StaticResource Space3}" BindableLayout.ItemsSource="{Binding OneOffTasks}">
+                                            <BindableLayout.ItemTemplate>
+                                                <DataTemplate x:DataType="vm:TaskRowItem">
+                                                    <views:TaskRowView />
+                                                </DataTemplate>
+                                            </BindableLayout.ItemTemplate>
+                                        </VerticalStackLayout>
+                                    </VerticalStackLayout>
+                                </VerticalStackLayout>
+                            </Border>
+                        </VerticalStackLayout>
+                    </VerticalStackLayout>
+
+                    <!-- «Заморозка»: a bank of up to two, one free a week, one more for thorns once a week (FR-07-3) -->
+                    <VerticalStackLayout Spacing="{StaticResource Space3}" IsVisible="{Binding ShowFreezePane}">
+                        <Label Text="{x:Static strings:AppResources.Shop_Section_Freeze}" Style="{StaticResource SectionTitle}" SemanticProperties.HeadingLevel="Level2" />
+                        <Border Style="{StaticResource CardElevated}">
+                            <VerticalStackLayout Spacing="{StaticResource Space3}">
+                                <Grid ColumnDefinitions="Auto,*" ColumnSpacing="{StaticResource Space3}">
+                                    <Border Grid.Column="0" Style="{StaticResource IconWell}" VerticalOptions="Start">
+                                        <Label Text="{x:Static icons:Icon.Snowflake}" Style="{StaticResource IconGlyph}"
+                                               TextColor="{AppThemeBinding Light={StaticResource ColorStreakFrozenLight}, Dark={StaticResource ColorStreakFrozenDark}}" />
+                                    </Border>
+                                    <VerticalStackLayout Grid.Column="1" Spacing="{StaticResource Space1}" VerticalOptions="Center">
+                                        <Label Text="{Binding FreezeBankedText}" Style="{StaticResource TypeTitleMd}" />
+                                        <Label Text="{x:Static strings:AppResources.Shop_Freeze_Body}" Style="{StaticResource TextTertiary}" LineBreakMode="WordWrap" />
+                                    </VerticalStackLayout>
+                                </Grid>
+                                <controls:PushButton Style="{StaticResource PushTonal}" Text="{Binding FreezeActionText}" Icon="{x:Static icons:Icon.Snowflake}" Command="{Binding BuyFreezeCommand}" IsEnabled="{Binding CanBuyFreeze}" />
+                                <Label Text="{Binding FreezeHint}" Style="{StaticResource TextTertiary}" HorizontalTextAlignment="Center"
+                                       IsVisible="{Binding FreezeHint, Converter={StaticResource IsNotNullOrEmptyConverter}}" />
+                            </VerticalStackLayout>
+                        </Border>
+                    </VerticalStackLayout>
                 </VerticalStackLayout>
-            </VerticalStackLayout>
-        </ScrollView>
+            </ScrollView>
+        </Grid>
     </Grid>
 </ContentPage>

@@ -25,10 +25,6 @@ public sealed class CalendarTasksViewModelTests
         harness.Rewards.Events.ShouldContain(e => e.Type == LedgerEventType.CalendarClaim && e.Amount == 5);
         harness.Toast.Messages.ShouldContain(m => m.Contains(RewardsText.ThornsPlus(5), StringComparison.Ordinal) && m.Contains("1 з 7", StringComparison.Ordinal));
         vm.ShowTasks.ShouldBeTrue();
-        vm.Calendar.Count.ShouldBe(7);
-        vm.Calendar[0].IsToday.ShouldBeTrue();
-        vm.Calendar[1].IsDone.ShouldBeFalse();
-        vm.CalendarCaption.ShouldContain("1 з 7");
         vm.Tasks.Count.ShouldBe(3);
         vm.Tasks.ShouldAllBe(t => t.Kind == TaskKind.Daily && !t.Done && t.Progress == 0);
         state.Tasks.Daily.Count.ShouldBe(3);
@@ -45,8 +41,7 @@ public sealed class CalendarTasksViewModelTests
         await vm.LoadAsync(Ct);
         harness.Rewards.State!.Calendar.ClaimedDays.ShouldBe(2);
         harness.Rewards.State.Thorns.ShouldBe(10);
-        vm.Calendar[0].IsDone.ShouldBeTrue();
-        vm.Calendar[1].IsToday.ShouldBeTrue();
+        harness.Rewards.State.Calendar.Position.ShouldBe(2);
         harness.Rewards.State.Tasks.Daily.ShouldNotBe(state.Tasks.Daily);
     }
 

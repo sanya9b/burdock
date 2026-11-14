@@ -88,6 +88,12 @@ public static class Icon
     public const string TrendingUp = "\uE191";
     public const string Repeat = "\uE146";
     public const string ListChecks = "\uE1D0";
+    public const string Shirt = "\uE1CA";
+    public const string Car = "\uE1D5";
+    public const string MountainSnow = "\uE232";
+    public const string Palette = "\uE1DD";
+    public const string Frame = "\uE291";
+    public const string Image = "\uE0F6";
     public const string CircleDot = "\uE345";
     public const string SquarePen = "\uE172";
     public const string PencilLine = "\uE4F0";

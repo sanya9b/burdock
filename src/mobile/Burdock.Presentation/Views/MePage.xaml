@@ -15,15 +15,19 @@
             <Label Text="{x:Static strings:AppResources.Me_Title}" Style="{StaticResource TypeHeadlineLg}" SemanticProperties.HeadingLevel="Level1" />
 
             <!-- Growth hero: one mascot per screen (spec 02 §3.10). The burr grows with XP and never shrinks; without gamification it is the grown-up illustration. -->
-            <Border Style="{StaticResource CardTonal}">
-                <VerticalStackLayout Spacing="{StaticResource Space2}">
+            <!-- The chosen scene («Фони») fills the whole stage edge to edge (owner request 14.11.2026): the card has no padding, the Border clips to its corners,
+                 and the name and caption sit on the tonal strip below. Without a scene the tonal card shows through. -->
+            <Border Style="{StaticResource CardTonal}" Padding="0">
+                <VerticalStackLayout Spacing="0">
                     <controls:MascotView x:Name="Mascot" Stage="{Binding GrowthStage}" Progress="{Binding GrowthProgress}" Mood="Proud" Outfit="{Binding Outfit}" AvatarFrame="{Binding Frame}" Scene="{Binding Scene}" Ride="{Binding Ride}"
-                                         WidthRequest="{StaticResource SizeMascotXl}" HeightRequest="{StaticResource SizeMascotLg}" HorizontalOptions="Center"
+                                         SceneCornerRadius="0" HeightRequest="{StaticResource SizeMascotStage}" HorizontalOptions="Fill"
                                          SemanticProperties.Description="{Binding GrowthDescription}" SemanticProperties.Hint="{x:Static strings:AppResources.Mascot_A11y_Hint}" />
-                    <Label Text="{Binding StageName}" Style="{StaticResource TypeHeadlineMd}" HorizontalTextAlignment="Center" IsVisible="{Binding ShowRewards}" SemanticProperties.HeadingLevel="Level2"
-                           TextColor="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
-                    <Label Text="{Binding GrowthCaption}" Style="{StaticResource TypeBodySm}" HorizontalTextAlignment="Center" IsVisible="{Binding ShowRewards}"
-                           TextColor="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
+                    <VerticalStackLayout Spacing="{StaticResource Space2}" Padding="{StaticResource Space4}" IsVisible="{Binding ShowRewards}">
+                        <Label Text="{Binding StageName}" Style="{StaticResource TypeHeadlineMd}" HorizontalTextAlignment="Center" SemanticProperties.HeadingLevel="Level2"
+                               TextColor="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
+                        <Label Text="{Binding GrowthCaption}" Style="{StaticResource TypeBodySm}" HorizontalTextAlignment="Center"
+                               TextColor="{AppThemeBinding Light={StaticResource ColorBrandOnPrimaryContainerLight}, Dark={StaticResource ColorBrandOnPrimaryContainerDark}}" />
+                    </VerticalStackLayout>
                 </VerticalStackLayout>
             </Border>
 

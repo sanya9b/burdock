@@ -201,20 +201,17 @@ public sealed class TodayViewModelTests
     }
 
     [Fact]
-    public async Task A_strip_tile_brings_its_word_into_the_pager_and_the_counter_follows()
+    public async Task Swiping_the_pager_moves_the_counter_and_the_page_survives_a_reload()
     {
         var harness = new ViewModelHarness().WithBundledWords(12);
         var vm = harness.Resolve<TodayViewModel>();
         await vm.LoadAsync(Ct);
 
-        vm.SelectWordCommand.Execute(vm.Words[2]);
+        vm.Hero = vm.Words[2]; // what the CarouselView does on a swipe (the compact strip is gone, owner 14.11.2026)
 
-        vm.Hero.ShouldBe(vm.Words[2]);
         vm.HeroPositionText.ShouldBe("3 з 5");
         await vm.SpeakWordCommand.ExecuteAsync(vm.Words[4]);
         harness.Speech.SpokenWords.ShouldBe([(Burdock.Domain.SharedKernel.LexemeId.From(vm.Words[4].LexemeId), vm.Words[4].Lemma)]);
-        vm.SelectWordCommand.Execute(null);
-        vm.Hero.ShouldBe(vm.Words[2]);
 
         // Coming back to the screen reloads the plan but keeps the page.
         await vm.LoadAsync(Ct);

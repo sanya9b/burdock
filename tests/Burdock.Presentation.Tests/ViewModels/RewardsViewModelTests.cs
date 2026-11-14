@@ -21,9 +21,20 @@ public sealed class RewardsViewModelTests
 
         vm.State.ShouldBe(ViewState.Ready);
         vm.ShowShop.ShouldBeTrue();
+        vm.ShopOff.ShouldBeFalse();
         vm.ThornsText.ShouldBe(RewardsText.Thorns(0));
         vm.Sections.Select(s => s.Category).ShouldBe([CatalogCategory.Outfit, CatalogCategory.Ride, CatalogCategory.Scene, CatalogCategory.WidgetTheme, CatalogCategory.Frame]);
         vm.Sections.Select(s => s.Tiles.Count).ShouldBe([11, 8, 6, 4, 7]);
+        // The category row opens on outfits: only that section's tiles are on screen, the preview and tiles panes show, tasks and freeze do not.
+        vm.Categories.Select(c => c.Key).ShouldBe([RewardsViewModel.TasksSection, RewardsViewModel.OutfitsSection, RewardsViewModel.RidesSection, RewardsViewModel.ScenesSection, RewardsViewModel.ThemesSection, RewardsViewModel.FramesSection, RewardsViewModel.FreezeSection]);
+        vm.CurrentSection.ShouldBe(RewardsViewModel.OutfitsSection);
+        vm.Categories.Single(c => c.IsSelected).Key.ShouldBe(RewardsViewModel.OutfitsSection);
+        vm.CurrentTiles.Count.ShouldBe(11);
+        vm.CurrentTiles.ShouldAllBe(t => t.Category == CatalogCategory.Outfit);
+        vm.ShowPreview.ShouldBeTrue();
+        vm.ShowTilesPane.ShouldBeTrue();
+        vm.ShowTasksPane.ShouldBeFalse();
+        vm.ShowFreezePane.ShouldBeFalse();
         vm.Selected.ShouldNotBeNull();
         vm.Selected.Key.ShouldBe("catalog.outfit.scarf");
         vm.Selected.IsSelected.ShouldBeTrue();
@@ -42,6 +53,65 @@ public sealed class RewardsViewModelTests
         var crown = vm.Tiles.Single(t => t.Key == "catalog.outfit.crown");
         crown.Locked.ShouldBeTrue();
         crown.StatusText.ShouldBe(RewardsText.UnlockShort(UnlockCondition.Level(20)));
+    }
+
+    [Fact]
+    public async Task The_category_row_switches_panes_and_moves_the_preview_into_the_open_section()
+    {
+        var vm = new ViewModelHarness().Resolve<RewardsViewModel>();
+        await vm.LoadAsync(Ct);
+
+        vm.SelectCategoryCommand.Execute(vm.Categories.Single(c => c.Key == RewardsViewModel.ScenesSection));
+
+        vm.CurrentSection.ShouldBe(RewardsViewModel.ScenesSection);
+        vm.Categories.Single(c => c.IsSelected).Key.ShouldBe(RewardsViewModel.ScenesSection);
+        vm.CurrentTiles.Count.ShouldBe(6);
+        vm.CurrentTiles.ShouldAllBe(t => t.Category == CatalogCategory.Scene);
+        vm.Selected!.Category.ShouldBe(CatalogCategory.Scene); // the preview follows the section
+        vm.PreviewOutfit.ShouldBe(MascotOutfit.None); // nothing worn yet, so the burr is bare on the scene
+
+        // Tasks and freeze are panes without a preview or tiles.
+        vm.SelectCategoryCommand.Execute(vm.Categories.Single(c => c.Key == RewardsViewModel.TasksSection));
+        vm.ShowTasksPane.ShouldBeTrue();
+        vm.ShowPreview.ShouldBeFalse();
+        vm.ShowTilesPane.ShouldBeFalse();
+        vm.CurrentTiles.ShouldBeEmpty();
+        vm.DailyTasks.Count.ShouldBe(3);
+
+        vm.SelectCategoryCommand.Execute(vm.Categories.Single(c => c.Key == RewardsViewModel.FreezeSection));
+        vm.ShowFreezePane.ShouldBeTrue();
+        vm.ShowTasksPane.ShouldBeFalse();
+
+        // Back to a cosmetic section: the tile selected there earlier is still the one previewed.
+        vm.SelectCategoryCommand.Execute(vm.Categories.Single(c => c.Key == RewardsViewModel.ScenesSection));
+        vm.Selected.Category.ShouldBe(CatalogCategory.Scene);
+
+        // A reload keeps the open section and the selection.
+        await vm.LoadAsync(Ct);
+        vm.CurrentSection.ShouldBe(RewardsViewModel.ScenesSection);
+        vm.CurrentTiles.Count.ShouldBe(6);
+    }
+
+    [Fact]
+    public async Task The_tasks_card_on_today_opens_the_tasks_section()
+    {
+        var vm = new ViewModelHarness().Resolve<RewardsViewModel>();
+
+        vm.ApplyQueryAttributes(new Dictionary<string, object> { ["section"] = RewardsViewModel.TasksSection });
+        await vm.LoadAsync(Ct);
+
+        vm.CurrentSection.ShouldBe(RewardsViewModel.TasksSection);
+        vm.ShowTasksPane.ShouldBeTrue();
+        vm.Categories.Single(c => c.IsSelected).Key.ShouldBe(RewardsViewModel.TasksSection);
+        vm.Calendar.Count.ShouldBe(7);
+
+        vm.ApplyQueryAttributes(new Dictionary<string, object> { ["section"] = "nonsense" });
+        vm.CurrentSection.ShouldBe(RewardsViewModel.TasksSection);
+
+        vm.ApplyQueryAttributes(new Dictionary<string, object> { ["section"] = RewardsViewModel.FramesSection });
+        vm.ShowTilesPane.ShouldBeTrue();
+        vm.CurrentTiles.Count.ShouldBe(7);
+        vm.Selected!.Category.ShouldBe(CatalogCategory.Frame);
     }
 
     [Fact]
@@ -160,6 +230,7 @@ public sealed class RewardsViewModelTests
         await vm.LoadAsync(Ct);
 
         vm.ShowShop.ShouldBeFalse();
+        vm.ShopOff.ShouldBeTrue();
         vm.State.ShouldBe(ViewState.Ready);
     }
 
